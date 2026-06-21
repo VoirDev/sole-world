@@ -1,0 +1,92 @@
+{
+  "id": 163,
+  "name": "Norfolk Island",
+  "nativeName": "Norfolk Island",
+  "iso2": "NF",
+  "iso3": "NFK",
+  "numericCode": "574",
+  "phoneCode": "672",
+  "tld": ".nf",
+  "latitude": -29.03333333,
+  "longitude": 167.95,
+  "flagId": 88,
+  "regionId": 5,
+  "subregionId": 19,
+  "currencyIds": [
+    844
+  ],
+  "timezoneIds": [
+    2494
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "노퍽 섬"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilha Norfolk"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilha Norfolk"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Norfolkeiland"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Otok Norfolk"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزیره نورفک"
+    },
+    {
+      "languageCode": "de",
+      "name": "Norfolkinsel"
+    },
+    {
+      "languageCode": "es",
+      "name": "Isla de Norfolk"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Île de Norfolk"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ノーフォーク島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isola Norfolk"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "诺福克岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Norfolk Adasi"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Остров Норфолк"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Острів Норфолк"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspa Norfolk"
+    }
+  ],
+  "states": []
+}

@@ -1,0 +1,90 @@
+{
+  "id": 180,
+  "name": "Reunion",
+  "nativeName": "La Réunion",
+  "iso2": "RE",
+  "iso3": "REU",
+  "numericCode": "638",
+  "phoneCode": "262",
+  "tld": ".re",
+  "latitude": -21.15,
+  "longitude": 55.5,
+  "flagId": 63,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2517
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "레위니옹"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Reunião"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Reunião"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Réunion"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Réunion"
+    },
+    {
+      "languageCode": "fa",
+      "name": "رئونیون"
+    },
+    {
+      "languageCode": "de",
+      "name": "Réunion"
+    },
+    {
+      "languageCode": "es",
+      "name": "Reunión"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Réunion"
+    },
+    {
+      "languageCode": "ja",
+      "name": "レユニオン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Riunione"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "留尼汪岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Réunion"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Воссоединение"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Возз'єднання"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Reunion"
+    }
+  ],
+  "states": []
+}

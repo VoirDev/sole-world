@@ -1,0 +1,581 @@
+{
+  "id": 42,
+  "name": "Central African Republic",
+  "nativeName": "Ködörösêse tî Bêafrîka",
+  "iso2": "CF",
+  "iso3": "CAF",
+  "numericCode": "140",
+  "phoneCode": "236",
+  "tld": ".cf",
+  "latitude": 7,
+  "longitude": 21,
+  "flagId": 208,
+  "regionId": 1,
+  "subregionId": 2,
+  "currencyIds": [
+    862
+  ],
+  "timezoneIds": [
+    2337
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "중앙아프리카 공화국"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "República Centro-Africana"
+    },
+    {
+      "languageCode": "pt",
+      "name": "República Centro-Africana"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Centraal-Afrikaanse Republiek"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Srednjoafrička Republika"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جمهوری آفریقای مرکزی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Zentralafrikanische Republik"
+    },
+    {
+      "languageCode": "es",
+      "name": "República Centroafricana"
+    },
+    {
+      "languageCode": "fr",
+      "name": "République centrafricaine"
+    },
+    {
+      "languageCode": "ja",
+      "name": "中央アフリカ共和国"
+    },
+    {
+      "languageCode": "it",
+      "name": "Repubblica Centrafricana"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "中非"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Orta Afrika Cumhuriyeti"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Центральноафриканская Республика"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Центральноафриканська Республіка"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Republika Środkowoafrykańska"
+    }
+  ],
+  "states": [
+    {
+      "id": 1252,
+      "name": "Sangha-Mbaéré",
+      "stateCode": "SE",
+      "latitude": 3.4368607,
+      "longitude": 16.3463791,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17330,
+          "name": "Nola",
+          "latitude": 3.52494,
+          "longitude": 16.04583,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1253,
+      "name": "Nana-Grébizi",
+      "stateCode": "KB",
+      "latitude": 7.1848607,
+      "longitude": 19.3783206,
+      "type": "economic prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17321,
+          "name": "Kaga Bandoro",
+          "latitude": 6.98961,
+          "longitude": 19.18744,
+          "translations": []
+        },
+        {
+          "id": 17322,
+          "name": "Kaga-Bandoro",
+          "latitude": 7.23774,
+          "longitude": 19.21819,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1254,
+      "name": "Ouham",
+      "stateCode": "AC",
+      "latitude": 7.090911,
+      "longitude": 17.668887,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17300,
+          "name": "Batangafo",
+          "latitude": 7.30082,
+          "longitude": 18.2833,
+          "translations": []
+        },
+        {
+          "id": 17309,
+          "name": "Bossangoa",
+          "latitude": 6.49263,
+          "longitude": 17.45518,
+          "translations": []
+        },
+        {
+          "id": 17311,
+          "name": "Bouca",
+          "latitude": 6.50734,
+          "longitude": 18.2767,
+          "translations": []
+        },
+        {
+          "id": 17320,
+          "name": "Kabo",
+          "latitude": 7.69937,
+          "longitude": 18.62903,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1255,
+      "name": "Ombella-M'Poko",
+      "stateCode": "MP",
+      "latitude": 5.1188825,
+      "longitude": 18.4276047,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17303,
+          "name": "Bimbo",
+          "latitude": 4.25671,
+          "longitude": 18.41583,
+          "translations": []
+        },
+        {
+          "id": 17305,
+          "name": "Boali",
+          "latitude": 4.80048,
+          "longitude": 18.12747,
+          "translations": []
+        },
+        {
+          "id": 17315,
+          "name": "Damara",
+          "latitude": 4.96075,
+          "longitude": 18.7035,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1256,
+      "name": "Lobaye",
+      "stateCode": "LB",
+      "latitude": 4.3525981,
+      "longitude": 17.4795173,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17307,
+          "name": "Boda",
+          "latitude": 4.31887,
+          "longitude": 17.46953,
+          "translations": []
+        },
+        {
+          "id": 17308,
+          "name": "Boganangone",
+          "latitude": 4.73558,
+          "longitude": 17.14047,
+          "translations": []
+        },
+        {
+          "id": 17325,
+          "name": "Mbaiki",
+          "latitude": 3.97145,
+          "longitude": 17.93352,
+          "translations": []
+        },
+        {
+          "id": 17328,
+          "name": "Mongoumba",
+          "latitude": 3.64153,
+          "longitude": 18.59364,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1257,
+      "name": "Mambéré-Kadéï",
+      "stateCode": "HS",
+      "latitude": 4.7055653,
+      "longitude": 15.9699878,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17301,
+          "name": "Berberati",
+          "latitude": 4.31211,
+          "longitude": 15.88948,
+          "translations": []
+        },
+        {
+          "id": 17314,
+          "name": "Carnot",
+          "latitude": 4.94273,
+          "longitude": 15.87735,
+          "translations": []
+        },
+        {
+          "id": 17317,
+          "name": "Gamboula",
+          "latitude": 4.11775,
+          "longitude": 15.13926,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1258,
+      "name": "Haut-Mbomou",
+      "stateCode": "HM",
+      "latitude": 6.2537134,
+      "longitude": 25.4733554,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17331,
+          "name": "Obo",
+          "latitude": 5.39586,
+          "longitude": 26.49211,
+          "translations": []
+        },
+        {
+          "id": 17338,
+          "name": "Zemio",
+          "latitude": 5.03144,
+          "longitude": 25.13614,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1259,
+      "name": "Bamingui-Bangoran",
+      "stateCode": "BB",
+      "latitude": 8.2733455,
+      "longitude": 20.7122465,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17296,
+          "name": "Bamingui",
+          "latitude": 7.88897,
+          "longitude": 20.04875,
+          "translations": []
+        },
+        {
+          "id": 17329,
+          "name": "Ndélé",
+          "latitude": 8.74287,
+          "longitude": 20.89108,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1260,
+      "name": "Nana-Mambéré",
+      "stateCode": "NM",
+      "latitude": 5.6932135,
+      "longitude": 15.2194808,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17299,
+          "name": "Baoro",
+          "latitude": 5.66667,
+          "longitude": 15.96667,
+          "translations": []
+        },
+        {
+          "id": 17310,
+          "name": "Bouar",
+          "latitude": 5.93404,
+          "longitude": 15.59599,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1261,
+      "name": "Vakaga",
+      "stateCode": "VK",
+      "latitude": 9.5113296,
+      "longitude": 22.2384017,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17304,
+          "name": "Birao",
+          "latitude": 10.28488,
+          "longitude": 22.78818,
+          "translations": []
+        },
+        {
+          "id": 17333,
+          "name": "Ouanda-Djallé",
+          "latitude": 9.05877,
+          "longitude": 22.42741,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1262,
+      "name": "Bangui",
+      "stateCode": "BGF",
+      "latitude": 4.3946735,
+      "longitude": 18.5581899,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17298,
+          "name": "Bangui",
+          "latitude": 4.36122,
+          "longitude": 18.55496,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1263,
+      "name": "Kémo",
+      "stateCode": "KG",
+      "latitude": 5.8867794,
+      "longitude": 19.3783206,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17337,
+          "name": "Sibut",
+          "latitude": 5.71801,
+          "longitude": 19.07389,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1264,
+      "name": "Basse-Kotto",
+      "stateCode": "BK",
+      "latitude": 4.8719319,
+      "longitude": 21.2845025,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17294,
+          "name": "Alindao",
+          "latitude": 5.02667,
+          "longitude": 21.20876,
+          "translations": []
+        },
+        {
+          "id": 17323,
+          "name": "Kembé",
+          "latitude": 4.62275,
+          "longitude": 21.88645,
+          "translations": []
+        },
+        {
+          "id": 17327,
+          "name": "Mobaye",
+          "latitude": 4.31902,
+          "longitude": 21.17861,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1265,
+      "name": "Ouaka",
+      "stateCode": "UK",
+      "latitude": 6.3168216,
+      "longitude": 20.7122465,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17295,
+          "name": "Bambari",
+          "latitude": 5.76795,
+          "longitude": 20.67565,
+          "translations": []
+        },
+        {
+          "id": 17318,
+          "name": "Grimari",
+          "latitude": 5.73549,
+          "longitude": 19.91209,
+          "translations": []
+        },
+        {
+          "id": 17319,
+          "name": "Ippy",
+          "latitude": 6.26793,
+          "longitude": 21.22468,
+          "translations": []
+        },
+        {
+          "id": 17324,
+          "name": "Kouango",
+          "latitude": 4.99337,
+          "longitude": 19.96186,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1266,
+      "name": "Mbomou",
+      "stateCode": "MB",
+      "latitude": 5.556837,
+      "longitude": 23.7632828,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17297,
+          "name": "Bangassou",
+          "latitude": 4.74132,
+          "longitude": 22.81838,
+          "translations": []
+        },
+        {
+          "id": 17316,
+          "name": "Gambo",
+          "latitude": 4.64816,
+          "longitude": 22.26331,
+          "translations": []
+        },
+        {
+          "id": 17334,
+          "name": "Ouango",
+          "latitude": 4.31325,
+          "longitude": 22.55524,
+          "translations": []
+        },
+        {
+          "id": 17336,
+          "name": "Rafai",
+          "latitude": 5.81012,
+          "longitude": 24.20305,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1267,
+      "name": "Ouham-Pendé",
+      "stateCode": "OP",
+      "latitude": 6.4850984,
+      "longitude": 16.1580937,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17306,
+          "name": "Bocaranga",
+          "latitude": 6.76546,
+          "longitude": 15.77873,
+          "translations": []
+        },
+        {
+          "id": 17312,
+          "name": "Bozoum",
+          "latitude": 6.31933,
+          "longitude": 16.37992,
+          "translations": []
+        },
+        {
+          "id": 17335,
+          "name": "Paoua",
+          "latitude": 7.24269,
+          "longitude": 16.44059,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1268,
+      "name": "Haute-Kotto",
+      "stateCode": "HK",
+      "latitude": 7.7964379,
+      "longitude": 23.3823545,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17313,
+          "name": "Bria",
+          "latitude": 6.54233,
+          "longitude": 21.98633,
+          "translations": []
+        },
+        {
+          "id": 17332,
+          "name": "Ouadda",
+          "latitude": 8.07771,
+          "longitude": 22.40075,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

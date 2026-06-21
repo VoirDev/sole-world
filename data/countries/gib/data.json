@@ -1,0 +1,94 @@
+{
+  "id": 84,
+  "name": "Gibraltar",
+  "nativeName": "Gibraltar",
+  "iso2": "GI",
+  "iso3": "GIB",
+  "numericCode": "292",
+  "phoneCode": "350",
+  "tld": ".gi",
+  "latitude": 36.13333333,
+  "longitude": -5.35,
+  "flagId": 166,
+  "regionId": 4,
+  "subregionId": 16,
+  "currencyIds": [
+    888
+  ],
+  "timezoneIds": [
+    2388
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [
+    47
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "지브롤터"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Gibraltar"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Gibraltar"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Gibraltar"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Gibraltar"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جبل‌طارق"
+    },
+    {
+      "languageCode": "de",
+      "name": "Gibraltar"
+    },
+    {
+      "languageCode": "es",
+      "name": "Gibraltar"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Gibraltar"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ジブラルタル"
+    },
+    {
+      "languageCode": "it",
+      "name": "Gibilterra"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "直布罗陀"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Cebelitarik"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Гибралтар"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Гібралтар"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Gibraltar"
+    }
+  ],
+  "states": []
+}

@@ -1,0 +1,821 @@
+{
+  "id": 119,
+  "name": "Laos",
+  "nativeName": "ສປປລາວ",
+  "iso2": "LA",
+  "iso3": "LAO",
+  "numericCode": "418",
+  "phoneCode": "856",
+  "tld": ".la",
+  "latitude": 18,
+  "longitude": 105,
+  "flagId": 125,
+  "regionId": 3,
+  "subregionId": 13,
+  "currencyIds": [
+    910
+  ],
+  "timezoneIds": [
+    2435
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "라오스"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Laos"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Laos"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Laos"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Laos"
+    },
+    {
+      "languageCode": "fa",
+      "name": "لائوس"
+    },
+    {
+      "languageCode": "de",
+      "name": "Laos"
+    },
+    {
+      "languageCode": "es",
+      "name": "Laos"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Laos"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ラオス人民民主共和国"
+    },
+    {
+      "languageCode": "it",
+      "name": "Laos"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "寮人民民主共和国"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Laos"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Лаос"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Лаос"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Laos"
+    }
+  ],
+  "states": [
+    {
+      "id": 978,
+      "name": "Luang Prabang",
+      "stateCode": "LP",
+      "latitude": 20.0656229,
+      "longitude": 102.6216211,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65865,
+          "name": "Luang Prabang",
+          "latitude": 19.88601,
+          "longitude": 102.13503,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 979,
+      "name": "Vientiane",
+      "stateCode": "VT",
+      "latitude": 18.110541,
+      "longitude": 102.5298028,
+      "type": "prefecture",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65927,
+          "name": "Vientiane",
+          "latitude": 17.96667,
+          "longitude": 102.6,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 980,
+      "name": "Vientiane",
+      "stateCode": "VI",
+      "latitude": 18.5705063,
+      "longitude": 102.6216211,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65892,
+          "name": "Muang Phôn-Hông",
+          "latitude": 18.4953,
+          "longitude": 102.4153,
+          "translations": []
+        },
+        {
+          "id": 65926,
+          "name": "Vangviang",
+          "latitude": 18.9235,
+          "longitude": 102.44784,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 981,
+      "name": "Salavan",
+      "stateCode": "SL",
+      "latitude": 15.8171073,
+      "longitude": 106.2522143,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65875,
+          "name": "Muang Khôngxédôn",
+          "latitude": 15.54626,
+          "longitude": 105.77051,
+          "translations": []
+        },
+        {
+          "id": 65876,
+          "name": "Muang Lakhonphéng",
+          "latitude": 15.83308,
+          "longitude": 105.59745,
+          "translations": []
+        },
+        {
+          "id": 65878,
+          "name": "Muang Laongam",
+          "latitude": 15.47745,
+          "longitude": 106.14111,
+          "translations": []
+        },
+        {
+          "id": 65896,
+          "name": "Muang Samouay",
+          "latitude": 16.35868,
+          "longitude": 106.8748,
+          "translations": []
+        },
+        {
+          "id": 65899,
+          "name": "Muang Saravan",
+          "latitude": 15.71587,
+          "longitude": 106.36158,
+          "translations": []
+        },
+        {
+          "id": 65902,
+          "name": "Muang Ta-Ôy",
+          "latitude": 16.07765,
+          "longitude": 106.70304,
+          "translations": []
+        },
+        {
+          "id": 65907,
+          "name": "Muang Toumlan",
+          "latitude": 16.02236,
+          "longitude": 106.23837,
+          "translations": []
+        },
+        {
+          "id": 65909,
+          "name": "Muang Vapi",
+          "latitude": 15.75005,
+          "longitude": 105.95529,
+          "translations": []
+        },
+        {
+          "id": 65922,
+          "name": "Salavan",
+          "latitude": 15.71652,
+          "longitude": 106.41744,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 982,
+      "name": "Attapeu",
+      "stateCode": "AT",
+      "latitude": 14.93634,
+      "longitude": 107.1011931,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65855,
+          "name": "Attapeu",
+          "latitude": 14.81071,
+          "longitude": 106.83184,
+          "translations": []
+        },
+        {
+          "id": 65891,
+          "name": "Muang Phouvong",
+          "latitude": 14.56821,
+          "longitude": 107.01087,
+          "translations": []
+        },
+        {
+          "id": 65895,
+          "name": "Muang Samakhixai",
+          "latitude": 14.80539,
+          "longitude": 106.78164,
+          "translations": []
+        },
+        {
+          "id": 65897,
+          "name": "Muang Sanamxai",
+          "latitude": 14.73807,
+          "longitude": 106.41328,
+          "translations": []
+        },
+        {
+          "id": 65898,
+          "name": "Muang Sanxai",
+          "latitude": 15.02944,
+          "longitude": 107.23158,
+          "translations": []
+        },
+        {
+          "id": 65912,
+          "name": "Muang Xaiséttha",
+          "latitude": 14.90594,
+          "longitude": 106.97894,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 983,
+      "name": "Xaisomboun",
+      "stateCode": "XS",
+      "latitude": 18.4362924,
+      "longitude": 104.4723301,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65854,
+          "name": "Anouvong district",
+          "latitude": 18.89731,
+          "longitude": 103.09274,
+          "translations": []
+        },
+        {
+          "id": 65863,
+          "name": "Longchaeng",
+          "latitude": 18.89394,
+          "longitude": 103.14274,
+          "translations": []
+        },
+        {
+          "id": 65879,
+          "name": "Muang Longxan",
+          "latitude": 18.61782,
+          "longitude": 102.88079,
+          "translations": []
+        },
+        {
+          "id": 65905,
+          "name": "Muang Thathôm",
+          "latitude": 19.0013,
+          "longitude": 103.61572,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 984,
+      "name": "Sekong",
+      "stateCode": "XE",
+      "latitude": 15.5767446,
+      "longitude": 107.0067031,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65859,
+          "name": "Ban Thatèng",
+          "latitude": 15.43317,
+          "longitude": 106.38272,
+          "translations": []
+        },
+        {
+          "id": 65862,
+          "name": "Lamam",
+          "latitude": 15.41705,
+          "longitude": 106.69461,
+          "translations": []
+        },
+        {
+          "id": 65871,
+          "name": "Muang Dakchung",
+          "latitude": 15.38199,
+          "longitude": 107.31847,
+          "translations": []
+        },
+        {
+          "id": 65873,
+          "name": "Muang Khaleum",
+          "latitude": 15.79886,
+          "longitude": 107.04529,
+          "translations": []
+        },
+        {
+          "id": 65877,
+          "name": "Muang Laman",
+          "latitude": 15.41273,
+          "longitude": 106.81706,
+          "translations": []
+        },
+        {
+          "id": 65906,
+          "name": "Muang Thatèng",
+          "latitude": 15.42745,
+          "longitude": 106.48149,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 985,
+      "name": "Bolikhamsai",
+      "stateCode": "BL",
+      "latitude": 18.4362924,
+      "longitude": 104.4723301,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65858,
+          "name": "Ban Nahin",
+          "latitude": 18.24253,
+          "longitude": 104.21281,
+          "translations": []
+        },
+        {
+          "id": 65918,
+          "name": "Pakxan",
+          "latitude": 18.3942,
+          "longitude": 103.6611,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 986,
+      "name": "Khammouane",
+      "stateCode": "KH",
+      "latitude": 17.6384066,
+      "longitude": 105.2194808,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65903,
+          "name": "Muang Thakhèk",
+          "latitude": 17.4088,
+          "longitude": 104.82639,
+          "translations": []
+        },
+        {
+          "id": 65924,
+          "name": "Thakhèk",
+          "latitude": 17.41027,
+          "longitude": 104.83068,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 987,
+      "name": "Phongsaly",
+      "stateCode": "PH",
+      "latitude": 21.5919377,
+      "longitude": 102.2547919,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65920,
+          "name": "Phôngsali",
+          "latitude": 21.6808,
+          "longitude": 102.1003,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 988,
+      "name": "Oudomxay",
+      "stateCode": "OU",
+      "latitude": 20.4921929,
+      "longitude": 101.8891721,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65914,
+          "name": "Muang Xay",
+          "latitude": 20.69229,
+          "longitude": 101.98368,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 989,
+      "name": "Houaphanh",
+      "stateCode": "HO",
+      "latitude": 20.3254175,
+      "longitude": 104.1001326,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65928,
+          "name": "Xam Neua",
+          "latitude": 20.40764,
+          "longitude": 104.0656,
+          "translations": []
+        },
+        {
+          "id": 65929,
+          "name": "Xam Nua",
+          "latitude": 20.4164,
+          "longitude": 104.045,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 990,
+      "name": "Savannakhet",
+      "stateCode": "SV",
+      "latitude": 16.5065381,
+      "longitude": 105.5943388,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65861,
+          "name": "Kaysone Phomvihane",
+          "latitude": 16.54943,
+          "longitude": 104.82339,
+          "translations": []
+        },
+        {
+          "id": 65866,
+          "name": "Muang Alsaphangthong",
+          "latitude": 16.72645,
+          "longitude": 105.39326,
+          "translations": []
+        },
+        {
+          "id": 65867,
+          "name": "Muang Atsaphan",
+          "latitude": 16.9474,
+          "longitude": 105.4029,
+          "translations": []
+        },
+        {
+          "id": 65870,
+          "name": "Muang Champhon",
+          "latitude": 16.49363,
+          "longitude": 105.2202,
+          "translations": []
+        },
+        {
+          "id": 65883,
+          "name": "Muang Nong",
+          "latitude": 16.38458,
+          "longitude": 106.50419,
+          "translations": []
+        },
+        {
+          "id": 65884,
+          "name": "Muang Outhoumphon",
+          "latitude": 16.66667,
+          "longitude": 105.05,
+          "translations": []
+        },
+        {
+          "id": 65890,
+          "name": "Muang Phin",
+          "latitude": 16.44316,
+          "longitude": 106.03019,
+          "translations": []
+        },
+        {
+          "id": 65900,
+          "name": "Muang Songkhon",
+          "latitude": 16.17116,
+          "longitude": 105.30729,
+          "translations": []
+        },
+        {
+          "id": 65904,
+          "name": "Muang Thapangthong",
+          "latitude": 16.09132,
+          "longitude": 105.81038,
+          "translations": []
+        },
+        {
+          "id": 65910,
+          "name": "Muang Vilabouli",
+          "latitude": 16.94067,
+          "longitude": 105.93677,
+          "translations": []
+        },
+        {
+          "id": 65911,
+          "name": "Muang Xaibouli",
+          "latitude": 16.94432,
+          "longitude": 104.92312,
+          "translations": []
+        },
+        {
+          "id": 65915,
+          "name": "Muang Xayphoothong",
+          "latitude": 16.3737,
+          "longitude": 105.02165,
+          "translations": []
+        },
+        {
+          "id": 65916,
+          "name": "Muang Xônbouli",
+          "latitude": 16.40036,
+          "longitude": 105.57388,
+          "translations": []
+        },
+        {
+          "id": 65923,
+          "name": "Savannakhet",
+          "latitude": 16.5703,
+          "longitude": 104.7622,
+          "translations": []
+        },
+        {
+          "id": 65925,
+          "name": "Thaphalanxay",
+          "latitude": 16.7,
+          "longitude": 105.6,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 991,
+      "name": "Bokeo",
+      "stateCode": "BK",
+      "latitude": 20.2872662,
+      "longitude": 100.7097867,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65856,
+          "name": "Ban Houakhoua",
+          "latitude": 20.2467,
+          "longitude": 100.45401,
+          "translations": []
+        },
+        {
+          "id": 65857,
+          "name": "Ban Houayxay",
+          "latitude": 20.27,
+          "longitude": 100.4178,
+          "translations": []
+        },
+        {
+          "id": 65872,
+          "name": "Muang Houayxay",
+          "latitude": 20.38763,
+          "longitude": 100.62687,
+          "translations": []
+        },
+        {
+          "id": 65881,
+          "name": "Muang Meung",
+          "latitude": 20.67585,
+          "longitude": 100.52639,
+          "translations": []
+        },
+        {
+          "id": 65885,
+          "name": "Muang Paktha",
+          "latitude": 20.09108,
+          "longitude": 100.5994,
+          "translations": []
+        },
+        {
+          "id": 65889,
+          "name": "Muang Pha Oudôm",
+          "latitude": 20.18744,
+          "longitude": 100.926,
+          "translations": []
+        },
+        {
+          "id": 65908,
+          "name": "Muang Tônpheung",
+          "latitude": 20.53465,
+          "longitude": 100.29624,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 992,
+      "name": "Luang Namtha",
+      "stateCode": "LM",
+      "latitude": 20.9170187,
+      "longitude": 101.1617356,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65864,
+          "name": "Luang Namtha",
+          "latitude": 20.9486,
+          "longitude": 101.40188,
+          "translations": []
+        },
+        {
+          "id": 65880,
+          "name": "Muang Louang Namtha",
+          "latitude": 21.00424,
+          "longitude": 101.44785,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 993,
+      "name": "Sainyabuli",
+      "stateCode": "XA",
+      "latitude": 19.3907886,
+      "longitude": 101.5248055,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65921,
+          "name": "Sainyabuli",
+          "latitude": 19.25756,
+          "longitude": 101.71032,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 995,
+      "name": "Xiangkhouang",
+      "stateCode": "XI",
+      "latitude": 19.6093003,
+      "longitude": 103.7289167,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65893,
+          "name": "Muang Phônsavan",
+          "latitude": 19.4494,
+          "longitude": 103.1917,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 996,
+      "name": "Champasak",
+      "stateCode": "CH",
+      "latitude": 14.6578664,
+      "longitude": 105.9699878,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65860,
+          "name": "Champasak",
+          "latitude": 14.89204,
+          "longitude": 105.87787,
+          "translations": []
+        },
+        {
+          "id": 65868,
+          "name": "Muang Bachiangchaleunsook",
+          "latitude": 15.24426,
+          "longitude": 105.96716,
+          "translations": []
+        },
+        {
+          "id": 65869,
+          "name": "Muang Champasak",
+          "latitude": 14.85704,
+          "longitude": 105.75334,
+          "translations": []
+        },
+        {
+          "id": 65874,
+          "name": "Muang Không",
+          "latitude": 14.14696,
+          "longitude": 105.95938,
+          "translations": []
+        },
+        {
+          "id": 65882,
+          "name": "Muang Mounlapamôk",
+          "latitude": 14.28922,
+          "longitude": 105.56832,
+          "translations": []
+        },
+        {
+          "id": 65886,
+          "name": "Muang Pakxong",
+          "latitude": 15.0981,
+          "longitude": 106.43398,
+          "translations": []
+        },
+        {
+          "id": 65887,
+          "name": "Muang Pakxé",
+          "latitude": 15.13139,
+          "longitude": 105.81612,
+          "translations": []
+        },
+        {
+          "id": 65888,
+          "name": "Muang Pathoumphon",
+          "latitude": 14.68453,
+          "longitude": 106.06357,
+          "translations": []
+        },
+        {
+          "id": 65894,
+          "name": "Muang Phônthong",
+          "latitude": 15.10669,
+          "longitude": 105.6489,
+          "translations": []
+        },
+        {
+          "id": 65901,
+          "name": "Muang Soukhouma",
+          "latitude": 14.6256,
+          "longitude": 105.6752,
+          "translations": []
+        },
+        {
+          "id": 65913,
+          "name": "Muang Xanasômboun",
+          "latitude": 15.34107,
+          "longitude": 105.73703,
+          "translations": []
+        },
+        {
+          "id": 65917,
+          "name": "Pakse",
+          "latitude": 15.12022,
+          "longitude": 105.79898,
+          "translations": []
+        },
+        {
+          "id": 65919,
+          "name": "Pakxong",
+          "latitude": 15.18154,
+          "longitude": 106.23038,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

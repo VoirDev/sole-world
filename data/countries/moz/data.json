@@ -1,0 +1,480 @@
+{
+  "id": 150,
+  "name": "Mozambique",
+  "nativeName": "Moçambique",
+  "iso2": "MZ",
+  "iso3": "MOZ",
+  "numericCode": "508",
+  "phoneCode": "258",
+  "tld": ".mz",
+  "latitude": -18.25,
+  "longitude": 35,
+  "flagId": 92,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    927
+  ],
+  "timezoneIds": [
+    2481
+  ],
+  "officialLanguageIds": [
+    45
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "모잠비크"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Moçambique"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Moçambique"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Mozambique"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Mozambik"
+    },
+    {
+      "languageCode": "fa",
+      "name": "موزامبیک"
+    },
+    {
+      "languageCode": "de",
+      "name": "Mosambik"
+    },
+    {
+      "languageCode": "es",
+      "name": "Mozambique"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Mozambique"
+    },
+    {
+      "languageCode": "ja",
+      "name": "モザンビーク"
+    },
+    {
+      "languageCode": "it",
+      "name": "Mozambico"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "莫桑比克"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Mozambik"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Мозамбик"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Мозамбік"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Mozambik"
+    }
+  ],
+  "states": [
+    {
+      "id": 3327,
+      "name": "Cabo Delgado",
+      "stateCode": "P",
+      "latitude": -12.3335474,
+      "longitude": 39.3206241,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76595,
+          "name": "Chiure",
+          "latitude": -13.46665,
+          "longitude": 39.70317,
+          "translations": []
+        },
+        {
+          "id": 76614,
+          "name": "Mocímboa",
+          "latitude": -11.31667,
+          "longitude": 40.35,
+          "translations": []
+        },
+        {
+          "id": 76615,
+          "name": "Montepuez",
+          "latitude": -13.12556,
+          "longitude": 38.99972,
+          "translations": []
+        },
+        {
+          "id": 76621,
+          "name": "Pemba",
+          "latitude": -12.97395,
+          "longitude": 40.51775,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3328,
+      "name": "Zambezia",
+      "stateCode": "Q",
+      "latitude": -16.5638987,
+      "longitude": 36.6093926,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76588,
+          "name": "Alto Molócuè",
+          "latitude": -15.64932,
+          "longitude": 37.66384,
+          "translations": []
+        },
+        {
+          "id": 76594,
+          "name": "Chinde",
+          "latitude": -18.58111,
+          "longitude": 36.45861,
+          "translations": []
+        },
+        {
+          "id": 76622,
+          "name": "Quelimane",
+          "latitude": -17.87861,
+          "longitude": 36.88833,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3329,
+      "name": "Gaza",
+      "stateCode": "G",
+      "latitude": -23.0221928,
+      "longitude": 32.7181375,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76592,
+          "name": "Chibuto",
+          "latitude": -24.68667,
+          "longitude": 33.53056,
+          "translations": []
+        },
+        {
+          "id": 76596,
+          "name": "Chokwé",
+          "latitude": -24.53333,
+          "longitude": 32.98333,
+          "translations": []
+        },
+        {
+          "id": 76604,
+          "name": "Macia",
+          "latitude": -25.02694,
+          "longitude": 33.09889,
+          "translations": []
+        },
+        {
+          "id": 76625,
+          "name": "Xai-Xai",
+          "latitude": -25.05194,
+          "longitude": 33.64417,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3330,
+      "name": "Inhambane",
+      "stateCode": "I",
+      "latitude": -22.8527997,
+      "longitude": 34.5508758,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76601,
+          "name": "Inhambane",
+          "latitude": -23.865,
+          "longitude": 35.38333,
+          "translations": []
+        },
+        {
+          "id": 76612,
+          "name": "Maxixe",
+          "latitude": -23.85972,
+          "longitude": 35.34722,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3331,
+      "name": "Sofala",
+      "stateCode": "S",
+      "latitude": -19.2039073,
+      "longitude": 34.8624166,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76590,
+          "name": "Beira",
+          "latitude": -19.84361,
+          "longitude": 34.83889,
+          "translations": []
+        },
+        {
+          "id": 76599,
+          "name": "Dondo",
+          "latitude": -19.60944,
+          "longitude": 34.74306,
+          "translations": []
+        },
+        {
+          "id": 76620,
+          "name": "Nhamatanda District",
+          "latitude": -19.349,
+          "longitude": 34.268,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3332,
+      "name": "Maputo",
+      "stateCode": "L",
+      "latitude": -25.2569876,
+      "longitude": 32.5372741,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76591,
+          "name": "Boane District",
+          "latitude": -26.029,
+          "longitude": 32.389,
+          "translations": []
+        },
+        {
+          "id": 76597,
+          "name": "Concelho de Matola",
+          "latitude": -25.83472,
+          "longitude": 32.49516,
+          "translations": []
+        },
+        {
+          "id": 76605,
+          "name": "Magude District",
+          "latitude": -25.02389,
+          "longitude": 32.6515,
+          "translations": []
+        },
+        {
+          "id": 76607,
+          "name": "Manhica",
+          "latitude": -25.34035,
+          "longitude": 32.84234,
+          "translations": []
+        },
+        {
+          "id": 76609,
+          "name": "Marracuene District",
+          "latitude": -25.73938,
+          "longitude": 32.67436,
+          "translations": []
+        },
+        {
+          "id": 76610,
+          "name": "Matola",
+          "latitude": -25.96222,
+          "longitude": 32.45889,
+          "translations": []
+        },
+        {
+          "id": 76611,
+          "name": "Matutiune District",
+          "latitude": -26.43418,
+          "longitude": 32.5882,
+          "translations": []
+        },
+        {
+          "id": 76613,
+          "name": "Moamba District",
+          "latitude": -25.60934,
+          "longitude": 32.24321,
+          "translations": []
+        },
+        {
+          "id": 76618,
+          "name": "Namaacha District",
+          "latitude": -26.109,
+          "longitude": 32.18,
+          "translations": []
+        },
+        {
+          "id": 76623,
+          "name": "Ressano Garcia",
+          "latitude": -25.44278,
+          "longitude": 31.99528,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3333,
+      "name": "Niassa",
+      "stateCode": "A",
+      "latitude": -12.7826202,
+      "longitude": 36.6093926,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76598,
+          "name": "Cuamba",
+          "latitude": -14.80306,
+          "longitude": 36.53722,
+          "translations": []
+        },
+        {
+          "id": 76603,
+          "name": "Lichinga",
+          "latitude": -13.31278,
+          "longitude": 35.24056,
+          "translations": []
+        },
+        {
+          "id": 76606,
+          "name": "Mandimba",
+          "latitude": -14.3525,
+          "longitude": 35.65056,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3334,
+      "name": "Tete",
+      "stateCode": "T",
+      "latitude": -15.6596056,
+      "longitude": 32.7181375,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76624,
+          "name": "Tete",
+          "latitude": -16.15639,
+          "longitude": 33.58667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3335,
+      "name": "Maputo",
+      "stateCode": "MPM",
+      "latitude": -25.969248,
+      "longitude": 32.5731746,
+      "type": "city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76602,
+          "name": "KaTembe",
+          "latitude": -26.02985,
+          "longitude": 32.53204,
+          "translations": []
+        },
+        {
+          "id": 76608,
+          "name": "Maputo",
+          "latitude": -25.96553,
+          "longitude": 32.58322,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3336,
+      "name": "Nampula",
+      "stateCode": "N",
+      "latitude": -14.7604931,
+      "longitude": 39.3206241,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76589,
+          "name": "António Enes",
+          "latitude": -16.2325,
+          "longitude": 39.90861,
+          "translations": []
+        },
+        {
+          "id": 76600,
+          "name": "Ilha de Moçambique",
+          "latitude": -15.03417,
+          "longitude": 40.73583,
+          "translations": []
+        },
+        {
+          "id": 76616,
+          "name": "Mutuáli",
+          "latitude": -14.87056,
+          "longitude": 37.00444,
+          "translations": []
+        },
+        {
+          "id": 76617,
+          "name": "Nacala",
+          "latitude": -14.56257,
+          "longitude": 40.68538,
+          "translations": []
+        },
+        {
+          "id": 76619,
+          "name": "Nampula",
+          "latitude": -15.11646,
+          "longitude": 39.2666,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3337,
+      "name": "Manica",
+      "stateCode": "B",
+      "latitude": -19.5059787,
+      "longitude": 33.438353,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76593,
+          "name": "Chimoio",
+          "latitude": -19.11639,
+          "longitude": 33.48333,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

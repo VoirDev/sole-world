@@ -1,0 +1,2567 @@
+{
+  "id": 218,
+  "name": "Tanzania",
+  "nativeName": "Tanzania",
+  "iso2": "TZ",
+  "iso3": "TZA",
+  "numericCode": "834",
+  "phoneCode": "255",
+  "tld": ".tz",
+  "latitude": -6,
+  "longitude": 35,
+  "flagId": 22,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    968
+  ],
+  "timezoneIds": [
+    2581
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "탄자니아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Tanzânia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Tanzânia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Tanzania"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Tanzanija"
+    },
+    {
+      "languageCode": "fa",
+      "name": "تانزانیا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Tansania"
+    },
+    {
+      "languageCode": "es",
+      "name": "Tanzania"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Tanzanie"
+    },
+    {
+      "languageCode": "ja",
+      "name": "タンザニア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Tanzania"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "坦桑尼亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Tanzanya"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Танзания"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Танзанія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Tanzania"
+    }
+  ],
+  "states": [
+    {
+      "id": 1463,
+      "name": "Shinyanga",
+      "stateCode": "22",
+      "latitude": -3.6809961,
+      "longitude": 33.4271403,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109084,
+          "name": "Isaka",
+          "latitude": -3.9,
+          "longitude": 32.93333,
+          "translations": []
+        },
+        {
+          "id": 109089,
+          "name": "Kahama",
+          "latitude": -3.83333,
+          "longitude": 32.6,
+          "translations": []
+        },
+        {
+          "id": 109127,
+          "name": "Kishapu",
+          "latitude": -3.61667,
+          "longitude": 33.86667,
+          "translations": []
+        },
+        {
+          "id": 109195,
+          "name": "Mhango",
+          "latitude": -3.28333,
+          "longitude": 32.85,
+          "translations": []
+        },
+        {
+          "id": 109229,
+          "name": "Mwadui",
+          "latitude": -3.55,
+          "longitude": 33.6,
+          "translations": []
+        },
+        {
+          "id": 109268,
+          "name": "Old Shinyanga",
+          "latitude": -3.55,
+          "longitude": 33.4,
+          "translations": []
+        },
+        {
+          "id": 109277,
+          "name": "Shinyanga",
+          "latitude": -3.66393,
+          "longitude": 33.42118,
+          "translations": []
+        },
+        {
+          "id": 109284,
+          "name": "Songwa",
+          "latitude": -3.51667,
+          "longitude": 33.51667,
+          "translations": []
+        },
+        {
+          "id": 109290,
+          "name": "Tinde",
+          "latitude": -3.88333,
+          "longitude": 33.2,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1464,
+      "name": "Simiyu",
+      "stateCode": "30",
+      "latitude": -2.8308738,
+      "longitude": 34.1531947,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109045,
+          "name": "Bariadi",
+          "latitude": -2.8,
+          "longitude": 33.98333,
+          "translations": []
+        },
+        {
+          "id": 109126,
+          "name": "Kisesa",
+          "latitude": -3.08333,
+          "longitude": 34.15,
+          "translations": []
+        },
+        {
+          "id": 109140,
+          "name": "Lalago",
+          "latitude": -3.45,
+          "longitude": 33.95,
+          "translations": []
+        },
+        {
+          "id": 109168,
+          "name": "Malampaka",
+          "latitude": -3.13333,
+          "longitude": 33.53333,
+          "translations": []
+        },
+        {
+          "id": 109179,
+          "name": "Maswa",
+          "latitude": -2.68333,
+          "longitude": 33.98333,
+          "translations": []
+        },
+        {
+          "id": 109183,
+          "name": "Matonga",
+          "latitude": -2.38333,
+          "longitude": 34.08333,
+          "translations": []
+        },
+        {
+          "id": 109262,
+          "name": "Nyakabindi",
+          "latitude": -2.63333,
+          "longitude": 33.98333,
+          "translations": []
+        },
+        {
+          "id": 109264,
+          "name": "Nyalikungu",
+          "latitude": -3.18333,
+          "longitude": 33.78333,
+          "translations": []
+        },
+        {
+          "id": 109282,
+          "name": "Somanda",
+          "latitude": -3.36667,
+          "longitude": 33.95,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1465,
+      "name": "Kagera",
+      "stateCode": "05",
+      "latitude": -1.3001115,
+      "longitude": 31.2626366,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109048,
+          "name": "Biharamulo",
+          "latitude": -2.63194,
+          "longitude": 31.30889,
+          "translations": []
+        },
+        {
+          "id": 109049,
+          "name": "Bugarama",
+          "latitude": -2.87056,
+          "longitude": 30.52806,
+          "translations": []
+        },
+        {
+          "id": 109050,
+          "name": "Bugene",
+          "latitude": -1.59111,
+          "longitude": 31.14028,
+          "translations": []
+        },
+        {
+          "id": 109052,
+          "name": "Bukoba",
+          "latitude": -1.33167,
+          "longitude": 31.81222,
+          "translations": []
+        },
+        {
+          "id": 109088,
+          "name": "Kabanga",
+          "latitude": -2.63861,
+          "longitude": 30.46778,
+          "translations": []
+        },
+        {
+          "id": 109092,
+          "name": "Kamachumu",
+          "latitude": -1.61861,
+          "longitude": 31.62,
+          "translations": []
+        },
+        {
+          "id": 109096,
+          "name": "Katerero",
+          "latitude": -1.4,
+          "longitude": 31.73333,
+          "translations": []
+        },
+        {
+          "id": 109099,
+          "name": "Katoro",
+          "latitude": -1.39972,
+          "longitude": 31.50028,
+          "translations": []
+        },
+        {
+          "id": 109138,
+          "name": "Kyaka",
+          "latitude": -1.25222,
+          "longitude": 31.42028,
+          "translations": []
+        },
+        {
+          "id": 109251,
+          "name": "Ngara",
+          "latitude": -2.51222,
+          "longitude": 30.65583,
+          "translations": []
+        },
+        {
+          "id": 109259,
+          "name": "Nshamba",
+          "latitude": -1.79833,
+          "longitude": 31.55111,
+          "translations": []
+        },
+        {
+          "id": 109260,
+          "name": "Nsunga",
+          "latitude": -1.14389,
+          "longitude": 31.39472,
+          "translations": []
+        },
+        {
+          "id": 109263,
+          "name": "Nyakahanga",
+          "latitude": -1.60333,
+          "longitude": 31.14139,
+          "translations": []
+        },
+        {
+          "id": 109273,
+          "name": "Rulenge",
+          "latitude": -2.7175,
+          "longitude": 30.6325,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1466,
+      "name": "Dodoma",
+      "stateCode": "03",
+      "latitude": -6.5738228,
+      "longitude": 36.2630846,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109065,
+          "name": "Dodoma",
+          "latitude": -6.17221,
+          "longitude": 35.73947,
+          "translations": []
+        },
+        {
+          "id": 109101,
+          "name": "Kibakwe",
+          "latitude": -6.71667,
+          "longitude": 36.36667,
+          "translations": []
+        },
+        {
+          "id": 109125,
+          "name": "Kisasa",
+          "latitude": -6.17526,
+          "longitude": 35.79266,
+          "translations": []
+        },
+        {
+          "id": 109135,
+          "name": "Kondoa",
+          "latitude": -4.70931,
+          "longitude": 35.86227,
+          "translations": []
+        },
+        {
+          "id": 109136,
+          "name": "Kongwa",
+          "latitude": -6.2,
+          "longitude": 36.41667,
+          "translations": []
+        },
+        {
+          "id": 109211,
+          "name": "Mpwapwa",
+          "latitude": -6.35,
+          "longitude": 36.48333,
+          "translations": []
+        },
+        {
+          "id": 109212,
+          "name": "Msanga",
+          "latitude": -6.05,
+          "longitude": 36.03333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1467,
+      "name": "Kilimanjaro",
+      "stateCode": "09",
+      "latitude": -4.1336927,
+      "longitude": 37.8087693,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109072,
+          "name": "Hedaru",
+          "latitude": -4.5,
+          "longitude": 37.9,
+          "translations": []
+        },
+        {
+          "id": 109164,
+          "name": "Machame",
+          "latitude": -3.20611,
+          "longitude": 37.2263889,
+          "translations": []
+        },
+        {
+          "id": 109209,
+          "name": "Moshi",
+          "latitude": -3.35,
+          "longitude": 37.33333,
+          "translations": []
+        },
+        {
+          "id": 109233,
+          "name": "Marangu",
+          "latitude": -3.28333,
+          "longitude": 37.51667,
+          "translations": []
+        },
+        {
+          "id": 109274,
+          "name": "Same",
+          "latitude": -4.22199,
+          "longitude": 37.88278,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1468,
+      "name": "Mara",
+      "stateCode": "13",
+      "latitude": -1.7753538,
+      "longitude": 34.1531947,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109053,
+          "name": "Bukonyo",
+          "latitude": -1.95,
+          "longitude": 32.93333,
+          "translations": []
+        },
+        {
+          "id": 109056,
+          "name": "Butiama",
+          "latitude": -1.76667,
+          "longitude": 33.96667,
+          "translations": []
+        },
+        {
+          "id": 109085,
+          "name": "Issenye",
+          "latitude": -2,
+          "longitude": 34.33333,
+          "translations": []
+        },
+        {
+          "id": 109102,
+          "name": "Kibara",
+          "latitude": -2.15,
+          "longitude": 33.45,
+          "translations": []
+        },
+        {
+          "id": 109221,
+          "name": "Mugango",
+          "latitude": -1.68333,
+          "longitude": 33.7,
+          "translations": []
+        },
+        {
+          "id": 109222,
+          "name": "Mugumu",
+          "latitude": -1.85,
+          "longitude": 34.7,
+          "translations": []
+        },
+        {
+          "id": 109225,
+          "name": "Muriti",
+          "latitude": -1.98333,
+          "longitude": 32.91667,
+          "translations": []
+        },
+        {
+          "id": 109226,
+          "name": "Musoma",
+          "latitude": -1.5,
+          "longitude": 33.8,
+          "translations": []
+        },
+        {
+          "id": 109236,
+          "name": "Nakatunguru",
+          "latitude": -2.11667,
+          "longitude": 33.06667,
+          "translations": []
+        },
+        {
+          "id": 109245,
+          "name": "Nansio",
+          "latitude": -2.13333,
+          "longitude": 33.05,
+          "translations": []
+        },
+        {
+          "id": 109265,
+          "name": "Nyamuswa",
+          "latitude": -1.9,
+          "longitude": 34.01667,
+          "translations": []
+        },
+        {
+          "id": 109280,
+          "name": "Sirari",
+          "latitude": -1.25367,
+          "longitude": 34.47596,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1469,
+      "name": "Tabora",
+      "stateCode": "24",
+      "latitude": -5.0342138,
+      "longitude": 32.8084496,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109051,
+          "name": "Bukene",
+          "latitude": -4.23333,
+          "longitude": 32.88333,
+          "translations": []
+        },
+        {
+          "id": 109075,
+          "name": "Igurubi",
+          "latitude": -4,
+          "longitude": 33.7,
+          "translations": []
+        },
+        {
+          "id": 109091,
+          "name": "Kaliua",
+          "latitude": -5.06056,
+          "longitude": 31.79361,
+          "translations": []
+        },
+        {
+          "id": 109151,
+          "name": "Mabama",
+          "latitude": -5.13333,
+          "longitude": 32.53333,
+          "translations": []
+        },
+        {
+          "id": 109278,
+          "name": "Sikonge",
+          "latitude": -5.63333,
+          "longitude": 32.76667,
+          "translations": []
+        },
+        {
+          "id": 109287,
+          "name": "Tabora",
+          "latitude": -5.01622,
+          "longitude": 32.82663,
+          "translations": []
+        },
+        {
+          "id": 109292,
+          "name": "Tumbi",
+          "latitude": -5.06667,
+          "longitude": 32.73333,
+          "translations": []
+        },
+        {
+          "id": 109297,
+          "name": "Usoke",
+          "latitude": -5.16667,
+          "longitude": 32.35,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1470,
+      "name": "Morogoro",
+      "stateCode": "16",
+      "latitude": -8.8137173,
+      "longitude": 36.954107,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109070,
+          "name": "Geiro",
+          "latitude": -6.15,
+          "longitude": 36.86667,
+          "translations": []
+        },
+        {
+          "id": 109073,
+          "name": "Ifakara",
+          "latitude": -8.13333,
+          "longitude": 36.68333,
+          "translations": []
+        },
+        {
+          "id": 109106,
+          "name": "Kidatu",
+          "latitude": -7.69916,
+          "longitude": 36.95722,
+          "translations": []
+        },
+        {
+          "id": 109107,
+          "name": "Kidodi",
+          "latitude": -7.60361,
+          "longitude": 37.00438,
+          "translations": []
+        },
+        {
+          "id": 109115,
+          "name": "Kilosa",
+          "latitude": -6.83333,
+          "longitude": 36.98333,
+          "translations": []
+        },
+        {
+          "id": 109116,
+          "name": "Kimamba",
+          "latitude": -6.78333,
+          "longitude": 37.13333,
+          "translations": []
+        },
+        {
+          "id": 109123,
+          "name": "Kisanga",
+          "latitude": -7.43622,
+          "longitude": 37.70337,
+          "translations": []
+        },
+        {
+          "id": 109149,
+          "name": "Lupiro",
+          "latitude": -8.38333,
+          "longitude": 36.66667,
+          "translations": []
+        },
+        {
+          "id": 109155,
+          "name": "Magole",
+          "latitude": -6.37697,
+          "longitude": 37.37373,
+          "translations": []
+        },
+        {
+          "id": 109160,
+          "name": "Mahenge",
+          "latitude": -8.68333,
+          "longitude": 36.71667,
+          "translations": []
+        },
+        {
+          "id": 109170,
+          "name": "Malinyi",
+          "latitude": -8.93333,
+          "longitude": 36.13333,
+          "translations": []
+        },
+        {
+          "id": 109197,
+          "name": "Mikumi",
+          "latitude": -7.40409,
+          "longitude": 36.98309,
+          "translations": []
+        },
+        {
+          "id": 109206,
+          "name": "Mlimba",
+          "latitude": -8.8,
+          "longitude": 35.81667,
+          "translations": []
+        },
+        {
+          "id": 109208,
+          "name": "Morogoro",
+          "latitude": -6.82102,
+          "longitude": 37.66122,
+          "translations": []
+        },
+        {
+          "id": 109213,
+          "name": "Msowero",
+          "latitude": -6.53333,
+          "longitude": 37.2,
+          "translations": []
+        },
+        {
+          "id": 109216,
+          "name": "Mtimbira",
+          "latitude": -8.78333,
+          "longitude": 36.35,
+          "translations": []
+        },
+        {
+          "id": 109228,
+          "name": "Mvomero District",
+          "latitude": -6.3,
+          "longitude": 37.45,
+          "translations": []
+        },
+        {
+          "id": 109252,
+          "name": "Ngerengere",
+          "latitude": -6.75,
+          "longitude": 38.11667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1471,
+      "name": "Zanzibar South",
+      "stateCode": "11",
+      "latitude": -6.2642851,
+      "longitude": 39.4450281,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109132,
+          "name": "Koani",
+          "latitude": -6.13333,
+          "longitude": 39.28333,
+          "translations": []
+        },
+        {
+          "id": 109133,
+          "name": "Koani Ndogo",
+          "latitude": -6.13333,
+          "longitude": 39.28333,
+          "translations": []
+        },
+        {
+          "id": 109161,
+          "name": "Mahonda",
+          "latitude": -6.45,
+          "longitude": 39.46667,
+          "translations": []
+        },
+        {
+          "id": 109250,
+          "name": "Nganane",
+          "latitude": -6.4,
+          "longitude": 39.55,
+          "translations": []
+        },
+        {
+          "id": 109281,
+          "name": "Sokoni",
+          "latitude": -6.43333,
+          "longitude": 39.55,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1472,
+      "name": "Pemba South",
+      "stateCode": "10",
+      "latitude": -5.3146961,
+      "longitude": 39.7549511,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109057,
+          "name": "Chake Chake",
+          "latitude": -5.24586,
+          "longitude": 39.76659,
+          "translations": []
+        },
+        {
+          "id": 109215,
+          "name": "Mtambile",
+          "latitude": -5.38333,
+          "longitude": 39.7,
+          "translations": []
+        },
+        {
+          "id": 109300,
+          "name": "Uwelini",
+          "latitude": -5.4,
+          "longitude": 39.68333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1473,
+      "name": "Zanzibar North",
+      "stateCode": "07",
+      "latitude": -5.9395093,
+      "longitude": 39.2791011,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109069,
+          "name": "Gamba",
+          "latitude": -5.9,
+          "longitude": 39.3,
+          "translations": []
+        },
+        {
+          "id": 109112,
+          "name": "Kijini",
+          "latitude": -5.85,
+          "longitude": 39.31667,
+          "translations": []
+        },
+        {
+          "id": 109131,
+          "name": "Kiwengwa",
+          "latitude": -5.98957,
+          "longitude": 39.3768,
+          "translations": []
+        },
+        {
+          "id": 109201,
+          "name": "Mkokotoni",
+          "latitude": -5.87506,
+          "longitude": 39.25523,
+          "translations": []
+        },
+        {
+          "id": 109261,
+          "name": "Nungwi",
+          "latitude": -5.72651,
+          "longitude": 39.2987,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1474,
+      "name": "Singida",
+      "stateCode": "23",
+      "latitude": -6.7453352,
+      "longitude": 34.1531947,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109074,
+          "name": "Igugunu",
+          "latitude": -4.56667,
+          "longitude": 34.63333,
+          "translations": []
+        },
+        {
+          "id": 109076,
+          "name": "Ikungi",
+          "latitude": -5.13333,
+          "longitude": 34.76667,
+          "translations": []
+        },
+        {
+          "id": 109080,
+          "name": "Ilongero",
+          "latitude": -4.66667,
+          "longitude": 34.86667,
+          "translations": []
+        },
+        {
+          "id": 109086,
+          "name": "Itigi",
+          "latitude": -5.7,
+          "longitude": 34.48333,
+          "translations": []
+        },
+        {
+          "id": 109113,
+          "name": "Kilimatinde",
+          "latitude": -5.85,
+          "longitude": 34.95,
+          "translations": []
+        },
+        {
+          "id": 109118,
+          "name": "Kintinku",
+          "latitude": -5.88333,
+          "longitude": 35.23333,
+          "translations": []
+        },
+        {
+          "id": 109119,
+          "name": "Kiomboi",
+          "latitude": -4.26667,
+          "longitude": 34.36667,
+          "translations": []
+        },
+        {
+          "id": 109194,
+          "name": "Mgandu",
+          "latitude": -5.95,
+          "longitude": 34.13333,
+          "translations": []
+        },
+        {
+          "id": 109217,
+          "name": "Mtinko",
+          "latitude": -4.55,
+          "longitude": 34.85,
+          "translations": []
+        },
+        {
+          "id": 109224,
+          "name": "Mungaa",
+          "latitude": -4.96667,
+          "longitude": 34.88333,
+          "translations": []
+        },
+        {
+          "id": 109247,
+          "name": "Ndago",
+          "latitude": -4.6,
+          "longitude": 34.35,
+          "translations": []
+        },
+        {
+          "id": 109271,
+          "name": "Puma",
+          "latitude": -5,
+          "longitude": 34.73333,
+          "translations": []
+        },
+        {
+          "id": 109275,
+          "name": "Sepuka",
+          "latitude": -4.75,
+          "longitude": 34.53333,
+          "translations": []
+        },
+        {
+          "id": 109276,
+          "name": "Shelui",
+          "latitude": -4.36667,
+          "longitude": 34.2,
+          "translations": []
+        },
+        {
+          "id": 109279,
+          "name": "Singida",
+          "latitude": -4.81629,
+          "longitude": 34.74358,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1475,
+      "name": "Zanzibar West",
+      "stateCode": "15",
+      "latitude": -6.2298136,
+      "longitude": 39.2583293,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109304,
+          "name": "Zanzibar",
+          "latitude": -6.16394,
+          "longitude": 39.19793,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1476,
+      "name": "Mtwara",
+      "stateCode": "17",
+      "latitude": -10.3398455,
+      "longitude": 40.1657466,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109062,
+          "name": "Chiungutwa",
+          "latitude": -10.88333,
+          "longitude": 38.98333,
+          "translations": []
+        },
+        {
+          "id": 109129,
+          "name": "Kitama",
+          "latitude": -10.71667,
+          "longitude": 39.73333,
+          "translations": []
+        },
+        {
+          "id": 109130,
+          "name": "Kitangari",
+          "latitude": -10.65,
+          "longitude": 39.33333,
+          "translations": []
+        },
+        {
+          "id": 109145,
+          "name": "Luchingu",
+          "latitude": -10.9,
+          "longitude": 39.33333,
+          "translations": []
+        },
+        {
+          "id": 109147,
+          "name": "Lukuledi",
+          "latitude": -10.56667,
+          "longitude": 38.8,
+          "translations": []
+        },
+        {
+          "id": 109148,
+          "name": "Lulindi",
+          "latitude": -10.81667,
+          "longitude": 39.13333,
+          "translations": []
+        },
+        {
+          "id": 109153,
+          "name": "Madimba",
+          "latitude": -10.4,
+          "longitude": 40.33333,
+          "translations": []
+        },
+        {
+          "id": 109162,
+          "name": "Mahuta",
+          "latitude": -10.86667,
+          "longitude": 39.45,
+          "translations": []
+        },
+        {
+          "id": 109176,
+          "name": "Masasi",
+          "latitude": -10.71667,
+          "longitude": 38.8,
+          "translations": []
+        },
+        {
+          "id": 109177,
+          "name": "Masuguru",
+          "latitude": -11.36667,
+          "longitude": 38.41667,
+          "translations": []
+        },
+        {
+          "id": 109220,
+          "name": "Mtwara",
+          "latitude": -10.26667,
+          "longitude": 40.18333,
+          "translations": []
+        },
+        {
+          "id": 109237,
+          "name": "Namalenga",
+          "latitude": -10.95,
+          "longitude": 39.1,
+          "translations": []
+        },
+        {
+          "id": 109240,
+          "name": "Namikupa",
+          "latitude": -10.83333,
+          "longitude": 39.6,
+          "translations": []
+        },
+        {
+          "id": 109241,
+          "name": "Nanganga",
+          "latitude": -10.38333,
+          "longitude": 39.15,
+          "translations": []
+        },
+        {
+          "id": 109242,
+          "name": "Nangomba",
+          "latitude": -10.9,
+          "longitude": 38.5,
+          "translations": []
+        },
+        {
+          "id": 109244,
+          "name": "Nanhyanga",
+          "latitude": -10.8,
+          "longitude": 39.55,
+          "translations": []
+        },
+        {
+          "id": 109246,
+          "name": "Nanyamba",
+          "latitude": -10.68333,
+          "longitude": 39.83333,
+          "translations": []
+        },
+        {
+          "id": 109249,
+          "name": "Newala Kisimani",
+          "latitude": -10.95,
+          "longitude": 39.28333,
+          "translations": []
+        },
+        {
+          "id": 109288,
+          "name": "Tandahimba",
+          "latitude": -10.75,
+          "longitude": 39.63333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1477,
+      "name": "Rukwa",
+      "stateCode": "20",
+      "latitude": -8.0109444,
+      "longitude": 31.4456179,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109058,
+          "name": "Chala",
+          "latitude": -7.58333,
+          "longitude": 31.26667,
+          "translations": []
+        },
+        {
+          "id": 109120,
+          "name": "Kirando",
+          "latitude": -7.41667,
+          "longitude": 30.6,
+          "translations": []
+        },
+        {
+          "id": 109139,
+          "name": "Laela",
+          "latitude": -8.56667,
+          "longitude": 32.05,
+          "translations": []
+        },
+        {
+          "id": 109180,
+          "name": "Matai",
+          "latitude": -8.3,
+          "longitude": 31.51667,
+          "translations": []
+        },
+        {
+          "id": 109239,
+          "name": "Namanyere",
+          "latitude": -7.51667,
+          "longitude": 31.05,
+          "translations": []
+        },
+        {
+          "id": 109258,
+          "name": "Nkove",
+          "latitude": -7.95,
+          "longitude": 30.85,
+          "translations": []
+        },
+        {
+          "id": 109286,
+          "name": "Sumbawanga",
+          "latitude": -7.96667,
+          "longitude": 31.61667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1478,
+      "name": "Kigoma",
+      "stateCode": "08",
+      "latitude": -4.8824092,
+      "longitude": 29.6615055,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109090,
+          "name": "Kakonko",
+          "latitude": -3.28278,
+          "longitude": 30.96417,
+          "translations": []
+        },
+        {
+          "id": 109095,
+          "name": "Kasulu",
+          "latitude": -4.57667,
+          "longitude": 30.1025,
+          "translations": []
+        },
+        {
+          "id": 109105,
+          "name": "Kibondo",
+          "latitude": -3.58639,
+          "longitude": 30.72028,
+          "translations": []
+        },
+        {
+          "id": 109108,
+          "name": "Kigoma",
+          "latitude": -4.87694,
+          "longitude": 29.62667,
+          "translations": []
+        },
+        {
+          "id": 109152,
+          "name": "Mabamba",
+          "latitude": -3.59833,
+          "longitude": 30.50194,
+          "translations": []
+        },
+        {
+          "id": 109230,
+          "name": "Mwandiga",
+          "latitude": -4.83,
+          "longitude": 29.65806,
+          "translations": []
+        },
+        {
+          "id": 109255,
+          "name": "Nguruka",
+          "latitude": -5.10917,
+          "longitude": 31.04194,
+          "translations": []
+        },
+        {
+          "id": 109299,
+          "name": "Uvinza",
+          "latitude": -5.10361,
+          "longitude": 30.39111,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1479,
+      "name": "Mwanza",
+      "stateCode": "18",
+      "latitude": -2.4671197,
+      "longitude": 32.8986812,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109079,
+          "name": "Ilemela District",
+          "latitude": -2.44783,
+          "longitude": 33.03177,
+          "translations": []
+        },
+        {
+          "id": 109110,
+          "name": "Kihangara",
+          "latitude": -2.58333,
+          "longitude": 33.35,
+          "translations": []
+        },
+        {
+          "id": 109171,
+          "name": "Malya",
+          "latitude": -2.98333,
+          "longitude": 33.51667,
+          "translations": []
+        },
+        {
+          "id": 109199,
+          "name": "Misasi",
+          "latitude": -3,
+          "longitude": 33.08333,
+          "translations": []
+        },
+        {
+          "id": 109200,
+          "name": "Misungwi",
+          "latitude": -2.85,
+          "longitude": 33.08333,
+          "translations": []
+        },
+        {
+          "id": 109232,
+          "name": "Mwanza",
+          "latitude": -2.51667,
+          "longitude": 32.9,
+          "translations": []
+        },
+        {
+          "id": 109254,
+          "name": "Ngudu",
+          "latitude": -2.96667,
+          "longitude": 33.33333,
+          "translations": []
+        },
+        {
+          "id": 109267,
+          "name": "Nyanguge",
+          "latitude": -2.55,
+          "longitude": 33.2,
+          "translations": []
+        },
+        {
+          "id": 109294,
+          "name": "Usagara",
+          "latitude": -2.68333,
+          "longitude": 33,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1480,
+      "name": "Njombe",
+      "stateCode": "29",
+      "latitude": -9.2422632,
+      "longitude": 35.1268781,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109078,
+          "name": "Ilembula",
+          "latitude": -8.9,
+          "longitude": 34.58333,
+          "translations": []
+        },
+        {
+          "id": 109165,
+          "name": "Makumbako",
+          "latitude": -8.85,
+          "longitude": 34.83333,
+          "translations": []
+        },
+        {
+          "id": 109172,
+          "name": "Manda",
+          "latitude": -10.46667,
+          "longitude": 34.58333,
+          "translations": []
+        },
+        {
+          "id": 109181,
+          "name": "Matamba",
+          "latitude": -8.98333,
+          "longitude": 33.96667,
+          "translations": []
+        },
+        {
+          "id": 109205,
+          "name": "Mlangali",
+          "latitude": -9.78333,
+          "longitude": 34.51667,
+          "translations": []
+        },
+        {
+          "id": 109219,
+          "name": "Mtwango",
+          "latitude": -9.01667,
+          "longitude": 34.8,
+          "translations": []
+        },
+        {
+          "id": 109256,
+          "name": "Njombe",
+          "latitude": -9.34917,
+          "longitude": 34.77167,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1481,
+      "name": "Geita",
+      "stateCode": "27",
+      "latitude": -2.8242257,
+      "longitude": 32.2653887,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109055,
+          "name": "Buseresere",
+          "latitude": -3.02361,
+          "longitude": 31.87472,
+          "translations": []
+        },
+        {
+          "id": 109061,
+          "name": "Chato",
+          "latitude": -2.63778,
+          "longitude": 31.76694,
+          "translations": []
+        },
+        {
+          "id": 109071,
+          "name": "Geita",
+          "latitude": -2.8725,
+          "longitude": 32.2325,
+          "translations": []
+        },
+        {
+          "id": 109094,
+          "name": "Kasamwa",
+          "latitude": -2.85,
+          "longitude": 32.43333,
+          "translations": []
+        },
+        {
+          "id": 109098,
+          "name": "Katoro",
+          "latitude": -3.02028,
+          "longitude": 31.89583,
+          "translations": []
+        },
+        {
+          "id": 109178,
+          "name": "Masumbwe",
+          "latitude": -3.63333,
+          "longitude": 32.18333,
+          "translations": []
+        },
+        {
+          "id": 109296,
+          "name": "Ushirombo",
+          "latitude": -3.49194,
+          "longitude": 31.96389,
+          "translations": []
+        },
+        {
+          "id": 109301,
+          "name": "Uyovu",
+          "latitude": -3.28333,
+          "longitude": 31.52583,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1482,
+      "name": "Katavi",
+      "stateCode": "28",
+      "latitude": -6.3677125,
+      "longitude": 31.2626366,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109082,
+          "name": "Inyonga",
+          "latitude": -6.71667,
+          "longitude": 32.06667,
+          "translations": []
+        },
+        {
+          "id": 109093,
+          "name": "Karema",
+          "latitude": -6.82052,
+          "longitude": 30.43887,
+          "translations": []
+        },
+        {
+          "id": 109210,
+          "name": "Mpanda",
+          "latitude": -6.34379,
+          "longitude": 31.06951,
+          "translations": []
+        },
+        {
+          "id": 109295,
+          "name": "Usevia",
+          "latitude": -7.1,
+          "longitude": 31.23333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1483,
+      "name": "Lindi",
+      "stateCode": "12",
+      "latitude": -9.2343394,
+      "longitude": 38.3165725,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109142,
+          "name": "Lindi",
+          "latitude": -9.99709,
+          "longitude": 39.71649,
+          "translations": []
+        },
+        {
+          "id": 109187,
+          "name": "Mbekenyera",
+          "latitude": -10,
+          "longitude": 38.98333,
+          "translations": []
+        },
+        {
+          "id": 109198,
+          "name": "Mingoyo",
+          "latitude": -10.10526,
+          "longitude": 39.61859,
+          "translations": []
+        },
+        {
+          "id": 109214,
+          "name": "Mtama",
+          "latitude": -10.3,
+          "longitude": 39.36667,
+          "translations": []
+        },
+        {
+          "id": 109235,
+          "name": "Nachingwea",
+          "latitude": -10.3725,
+          "longitude": 38.76251,
+          "translations": []
+        },
+        {
+          "id": 109266,
+          "name": "Nyangao",
+          "latitude": -10.33333,
+          "longitude": 39.28333,
+          "translations": []
+        },
+        {
+          "id": 109272,
+          "name": "Ruangwa",
+          "latitude": -10.06667,
+          "longitude": 38.93333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1484,
+      "name": "Manyara",
+      "stateCode": "26",
+      "latitude": -4.3150058,
+      "longitude": 36.954107,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109043,
+          "name": "Babati",
+          "latitude": -4.21667,
+          "longitude": 35.75,
+          "translations": []
+        },
+        {
+          "id": 109046,
+          "name": "Bashanet",
+          "latitude": -4.23333,
+          "longitude": 35.41667,
+          "translations": []
+        },
+        {
+          "id": 109047,
+          "name": "Basotu",
+          "latitude": -4.36667,
+          "longitude": 35.08333,
+          "translations": []
+        },
+        {
+          "id": 109064,
+          "name": "Dareda",
+          "latitude": -4.21667,
+          "longitude": 35.55,
+          "translations": []
+        },
+        {
+          "id": 109066,
+          "name": "Dongobesh",
+          "latitude": -4.06667,
+          "longitude": 35.38333,
+          "translations": []
+        },
+        {
+          "id": 109067,
+          "name": "Endasak",
+          "latitude": -4.41667,
+          "longitude": 35.51667,
+          "translations": []
+        },
+        {
+          "id": 109068,
+          "name": "Galappo",
+          "latitude": -4.26667,
+          "longitude": 35.85,
+          "translations": []
+        },
+        {
+          "id": 109097,
+          "name": "Katesh",
+          "latitude": -4.52483,
+          "longitude": 35.3849,
+          "translations": []
+        },
+        {
+          "id": 109103,
+          "name": "Kibaya",
+          "latitude": -5.3,
+          "longitude": 36.56667,
+          "translations": []
+        },
+        {
+          "id": 109122,
+          "name": "Kirya",
+          "latitude": -3.91667,
+          "longitude": 37.48333,
+          "translations": []
+        },
+        {
+          "id": 109158,
+          "name": "Magugu",
+          "latitude": -4.01667,
+          "longitude": 35.76667,
+          "translations": []
+        },
+        {
+          "id": 109190,
+          "name": "Mbulu",
+          "latitude": -3.85,
+          "longitude": 35.53333,
+          "translations": []
+        },
+        {
+          "id": 109234,
+          "name": "Naberera",
+          "latitude": -4.2,
+          "longitude": 36.93333,
+          "translations": []
+        },
+        {
+          "id": 109243,
+          "name": "Nangwa",
+          "latitude": -4.46667,
+          "longitude": 35.45,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1485,
+      "name": "Pwani",
+      "stateCode": "19",
+      "latitude": -7.3237714,
+      "longitude": 38.8205454,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109044,
+          "name": "Bagamoyo",
+          "latitude": -6.44222,
+          "longitude": 38.90422,
+          "translations": []
+        },
+        {
+          "id": 109054,
+          "name": "Bungu",
+          "latitude": -7.63369,
+          "longitude": 39.05818,
+          "translations": []
+        },
+        {
+          "id": 109059,
+          "name": "Chalinze",
+          "latitude": -6.63784,
+          "longitude": 38.35396,
+          "translations": []
+        },
+        {
+          "id": 109077,
+          "name": "Ikwiriri",
+          "latitude": -7.95618,
+          "longitude": 38.97164,
+          "translations": []
+        },
+        {
+          "id": 109100,
+          "name": "Kibaha",
+          "latitude": -6.76667,
+          "longitude": 38.91667,
+          "translations": []
+        },
+        {
+          "id": 109104,
+          "name": "Kibiti",
+          "latitude": -7.72178,
+          "longitude": 38.93749,
+          "translations": []
+        },
+        {
+          "id": 109114,
+          "name": "Kilindoni",
+          "latitude": -7.91446,
+          "longitude": 39.66204,
+          "translations": []
+        },
+        {
+          "id": 109124,
+          "name": "Kisarawe",
+          "latitude": -6.9,
+          "longitude": 39.06667,
+          "translations": []
+        },
+        {
+          "id": 109146,
+          "name": "Lugoba",
+          "latitude": -6.45,
+          "longitude": 38.33333,
+          "translations": []
+        },
+        {
+          "id": 109173,
+          "name": "Maneromango",
+          "latitude": -7.1988,
+          "longitude": 38.78478,
+          "translations": []
+        },
+        {
+          "id": 109191,
+          "name": "Mbumi",
+          "latitude": -7.90577,
+          "longitude": 39.21047,
+          "translations": []
+        },
+        {
+          "id": 109202,
+          "name": "Mkuranga",
+          "latitude": -7.27,
+          "longitude": 39.2,
+          "translations": []
+        },
+        {
+          "id": 109204,
+          "name": "Mlandizi",
+          "latitude": -6.7,
+          "longitude": 38.73333,
+          "translations": []
+        },
+        {
+          "id": 109227,
+          "name": "Mvomero",
+          "latitude": -6.25,
+          "longitude": 38.66667,
+          "translations": []
+        },
+        {
+          "id": 109298,
+          "name": "Utete",
+          "latitude": -7.98598,
+          "longitude": 38.75795,
+          "translations": []
+        },
+        {
+          "id": 109302,
+          "name": "Vikindu",
+          "latitude": -7.00667,
+          "longitude": 39.29849,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1486,
+      "name": "Ruvuma",
+      "stateCode": "21",
+      "latitude": -10.6878717,
+      "longitude": 36.2630846,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109109,
+          "name": "Kigonsera",
+          "latitude": -10.8,
+          "longitude": 35.05,
+          "translations": []
+        },
+        {
+          "id": 109143,
+          "name": "Liuli",
+          "latitude": -11.08333,
+          "longitude": 34.63333,
+          "translations": []
+        },
+        {
+          "id": 109159,
+          "name": "Mahanje",
+          "latitude": -9.93333,
+          "longitude": 35.33333,
+          "translations": []
+        },
+        {
+          "id": 109174,
+          "name": "Maposeni",
+          "latitude": -10.58333,
+          "longitude": 35.4,
+          "translations": []
+        },
+        {
+          "id": 109182,
+          "name": "Matiri",
+          "latitude": -10.75,
+          "longitude": 34.9,
+          "translations": []
+        },
+        {
+          "id": 109186,
+          "name": "Mbamba Bay",
+          "latitude": -11.28333,
+          "longitude": 34.76667,
+          "translations": []
+        },
+        {
+          "id": 109188,
+          "name": "Mbinga",
+          "latitude": -10.93333,
+          "longitude": 35.01667,
+          "translations": []
+        },
+        {
+          "id": 109283,
+          "name": "Songea",
+          "latitude": -10.68333,
+          "longitude": 35.65,
+          "translations": []
+        },
+        {
+          "id": 109291,
+          "name": "Tingi",
+          "latitude": -11.3,
+          "longitude": 35.03333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1487,
+      "name": "Tanga",
+      "stateCode": "25",
+      "latitude": -5.3049789,
+      "longitude": 38.3165725,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109060,
+          "name": "Chanika",
+          "latitude": -5.41667,
+          "longitude": 38.01667,
+          "translations": []
+        },
+        {
+          "id": 109150,
+          "name": "Lushoto",
+          "latitude": -4.78333,
+          "longitude": 38.28333,
+          "translations": []
+        },
+        {
+          "id": 109156,
+          "name": "Magomeni",
+          "latitude": -5.23333,
+          "longitude": 38.11667,
+          "translations": []
+        },
+        {
+          "id": 109163,
+          "name": "Majengo",
+          "latitude": -5.15,
+          "longitude": 38.98333,
+          "translations": []
+        },
+        {
+          "id": 109167,
+          "name": "Makuyuni",
+          "latitude": -4.73333,
+          "longitude": 38.1,
+          "translations": []
+        },
+        {
+          "id": 109175,
+          "name": "Maramba",
+          "latitude": -5.05,
+          "longitude": 38.61667,
+          "translations": []
+        },
+        {
+          "id": 109184,
+          "name": "Matui",
+          "latitude": -4.8,
+          "longitude": 38.25,
+          "translations": []
+        },
+        {
+          "id": 109185,
+          "name": "Mazinde",
+          "latitude": -4.8,
+          "longitude": 38.21667,
+          "translations": []
+        },
+        {
+          "id": 109203,
+          "name": "Mlalo",
+          "latitude": -4.93333,
+          "longitude": 38.93333,
+          "translations": []
+        },
+        {
+          "id": 109223,
+          "name": "Muheza",
+          "latitude": -5.16667,
+          "longitude": 38.78333,
+          "translations": []
+        },
+        {
+          "id": 109231,
+          "name": "Mwanga",
+          "latitude": -4.8,
+          "longitude": 38.2,
+          "translations": []
+        },
+        {
+          "id": 109269,
+          "name": "Pangani",
+          "latitude": -5.42526,
+          "longitude": 38.97473,
+          "translations": []
+        },
+        {
+          "id": 109285,
+          "name": "Soni",
+          "latitude": -4.85,
+          "longitude": 38.36667,
+          "translations": []
+        },
+        {
+          "id": 109289,
+          "name": "Tanga",
+          "latitude": -5.06893,
+          "longitude": 39.09875,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1488,
+      "name": "Pemba North",
+      "stateCode": "06",
+      "latitude": -5.0319352,
+      "longitude": 39.7755571,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109134,
+          "name": "Konde",
+          "latitude": -4.95,
+          "longitude": 39.75,
+          "translations": []
+        },
+        {
+          "id": 109196,
+          "name": "Micheweni",
+          "latitude": -4.96667,
+          "longitude": 39.83333,
+          "translations": []
+        },
+        {
+          "id": 109303,
+          "name": "Wete",
+          "latitude": -5.05589,
+          "longitude": 39.72938,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1489,
+      "name": "Iringa",
+      "stateCode": "04",
+      "latitude": -7.7887442,
+      "longitude": 35.5657862,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109081,
+          "name": "Ilula",
+          "latitude": -7.6766,
+          "longitude": 36.03658,
+          "translations": []
+        },
+        {
+          "id": 109083,
+          "name": "Iringa",
+          "latitude": -7.76667,
+          "longitude": 35.7,
+          "translations": []
+        },
+        {
+          "id": 109087,
+          "name": "Izazi",
+          "latitude": -7.2,
+          "longitude": 35.73333,
+          "translations": []
+        },
+        {
+          "id": 109154,
+          "name": "Mafinga",
+          "latitude": -7.25,
+          "longitude": 35.06667,
+          "translations": []
+        },
+        {
+          "id": 109166,
+          "name": "Makungu",
+          "latitude": -8.73333,
+          "longitude": 35.28333,
+          "translations": []
+        },
+        {
+          "id": 109169,
+          "name": "Malangali",
+          "latitude": -8.56667,
+          "longitude": 34.85,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1490,
+      "name": "Dar es Salaam",
+      "stateCode": "02",
+      "latitude": -6.792354,
+      "longitude": 39.2083284,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109063,
+          "name": "Dar es Salaam",
+          "latitude": -6.82349,
+          "longitude": 39.26951,
+          "translations": []
+        },
+        {
+          "id": 109157,
+          "name": "Magomeni",
+          "latitude": -6.8,
+          "longitude": 39.25,
+          "translations": []
+        },
+        {
+          "id": 153775,
+          "name": "Ilala",
+          "latitude": -6.848738,
+          "longitude": 39.284713,
+          "translations": []
+        },
+        {
+          "id": 153776,
+          "name": "Kigamboni",
+          "latitude": -6.849455,
+          "longitude": 39.317333,
+          "translations": []
+        },
+        {
+          "id": 153777,
+          "name": "Kinondoni",
+          "latitude": -6.784231,
+          "longitude": 39.265676,
+          "translations": []
+        },
+        {
+          "id": 153778,
+          "name": "Temeke",
+          "latitude": -6.904184,
+          "longitude": 39.235282,
+          "translations": []
+        },
+        {
+          "id": 153779,
+          "name": "Ubungo",
+          "latitude": -6.806005,
+          "longitude": 39.246636,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1491,
+      "name": "Arusha",
+      "stateCode": "01",
+      "latitude": -3.3869254,
+      "longitude": 36.6829927,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109042,
+          "name": "Arusha",
+          "latitude": -3.36667,
+          "longitude": 36.68333,
+          "translations": []
+        },
+        {
+          "id": 109117,
+          "name": "Kingori",
+          "latitude": -3.28333,
+          "longitude": 36.98333,
+          "translations": []
+        },
+        {
+          "id": 109121,
+          "name": "Kiratu",
+          "latitude": -3.33333,
+          "longitude": 35.66667,
+          "translations": []
+        },
+        {
+          "id": 109144,
+          "name": "Longido",
+          "latitude": -2.73319,
+          "longitude": 36.69773,
+          "translations": []
+        },
+        {
+          "id": 109189,
+          "name": "Mbuguni",
+          "latitude": -3.56667,
+          "longitude": 36.95,
+          "translations": []
+        },
+        {
+          "id": 109192,
+          "name": "Merelani",
+          "latitude": -3.56182,
+          "longitude": 36.97895,
+          "translations": []
+        },
+        {
+          "id": 109193,
+          "name": "Meru",
+          "latitude": -3.305,
+          "longitude": 36.801,
+          "translations": []
+        },
+        {
+          "id": 109207,
+          "name": "Monduli",
+          "latitude": -3.3,
+          "longitude": 36.45,
+          "translations": []
+        },
+        {
+          "id": 109218,
+          "name": "Mto wa Mbu",
+          "latitude": -3.35,
+          "longitude": 35.85,
+          "translations": []
+        },
+        {
+          "id": 109238,
+          "name": "Namanga",
+          "latitude": -2.55116,
+          "longitude": 36.78377,
+          "translations": []
+        },
+        {
+          "id": 109253,
+          "name": "Ngorongoro",
+          "latitude": -3.23973,
+          "longitude": 35.48747,
+          "translations": []
+        },
+        {
+          "id": 109257,
+          "name": "Nkoaranga",
+          "latitude": -3.33333,
+          "longitude": 36.8,
+          "translations": []
+        },
+        {
+          "id": 109270,
+          "name": "Poli",
+          "latitude": -3.33333,
+          "longitude": 36.8,
+          "translations": []
+        },
+        {
+          "id": 109293,
+          "name": "Usa River",
+          "latitude": -3.36667,
+          "longitude": 36.85,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4955,
+      "name": "Mbeya",
+      "stateCode": "14",
+      "latitude": -8.2866112,
+      "longitude": 32.8132537,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 149030,
+          "name": "Chimala",
+          "latitude": -8.85637,
+          "longitude": 34.02393,
+          "translations": []
+        },
+        {
+          "id": 149031,
+          "name": "Hedaru",
+          "latitude": -4.5,
+          "longitude": 37.9,
+          "translations": []
+        },
+        {
+          "id": 149032,
+          "name": "Ibaba",
+          "latitude": -9.4,
+          "longitude": 33.35,
+          "translations": []
+        },
+        {
+          "id": 149033,
+          "name": "Ikama",
+          "latitude": -9.26666667,
+          "longitude": 33.83333333,
+          "translations": []
+        },
+        {
+          "id": 149034,
+          "name": "Ikinga",
+          "latitude": -9.5,
+          "longitude": 33.55,
+          "translations": []
+        },
+        {
+          "id": 149035,
+          "name": "Ikolo",
+          "latitude": -9.65,
+          "longitude": 33.9,
+          "translations": []
+        },
+        {
+          "id": 149036,
+          "name": "Ikuti",
+          "latitude": -9.31666667,
+          "longitude": 33.53333333,
+          "translations": []
+        },
+        {
+          "id": 149037,
+          "name": "Ilembo",
+          "latitude": -9.25,
+          "longitude": 33.38333333,
+          "translations": []
+        },
+        {
+          "id": 149038,
+          "name": "Ipinda",
+          "latitude": -9.48333333,
+          "longitude": 33.9,
+          "translations": []
+        },
+        {
+          "id": 149039,
+          "name": "Kabula",
+          "latitude": -9.26666667,
+          "longitude": 33.76666667,
+          "translations": []
+        },
+        {
+          "id": 149040,
+          "name": "Kahe Tanzania",
+          "latitude": -3.5,
+          "longitude": 37.433,
+          "translations": []
+        },
+        {
+          "id": 149041,
+          "name": "Kandete",
+          "latitude": -9.15,
+          "longitude": 33.8,
+          "translations": []
+        },
+        {
+          "id": 149042,
+          "name": "Katumba",
+          "latitude": -9.23333333,
+          "longitude": 33.61666667,
+          "translations": []
+        },
+        {
+          "id": 149043,
+          "name": "Kihurio",
+          "latitude": -4.46666667,
+          "longitude": 38.06666667,
+          "translations": []
+        },
+        {
+          "id": 149044,
+          "name": "Kisiwani",
+          "latitude": -4.13333,
+          "longitude": 37.95,
+          "translations": []
+        },
+        {
+          "id": 149045,
+          "name": "Kiwira",
+          "latitude": -9.16666667,
+          "longitude": 33.53333333,
+          "translations": []
+        },
+        {
+          "id": 149046,
+          "name": "Kwakoa",
+          "latitude": -3.76666667,
+          "longitude": 37.71666667,
+          "translations": []
+        },
+        {
+          "id": 149047,
+          "name": "Lembeni",
+          "latitude": -3.78333333,
+          "longitude": 37.61666667,
+          "translations": []
+        },
+        {
+          "id": 149048,
+          "name": "Lupata",
+          "latitude": -9.3,
+          "longitude": 33.85,
+          "translations": []
+        },
+        {
+          "id": 149049,
+          "name": "Lusungo",
+          "latitude": -9.5,
+          "longitude": 33.98333333,
+          "translations": []
+        },
+        {
+          "id": 149050,
+          "name": "Machame",
+          "latitude": -3.20611111,
+          "longitude": 37.22638889,
+          "translations": []
+        },
+        {
+          "id": 149051,
+          "name": "Makanya",
+          "latitude": -4.36666667,
+          "longitude": 37.83333333,
+          "translations": []
+        },
+        {
+          "id": 149052,
+          "name": "Marangu",
+          "latitude": -3.28333,
+          "longitude": 37.51667,
+          "translations": []
+        },
+        {
+          "id": 149053,
+          "name": "Masukulu",
+          "latitude": -9.4,
+          "longitude": 33.75,
+          "translations": []
+        },
+        {
+          "id": 149054,
+          "name": "Mbeya",
+          "latitude": -8.9,
+          "longitude": 33.45,
+          "translations": []
+        },
+        {
+          "id": 149055,
+          "name": "Mlowo",
+          "latitude": -9,
+          "longitude": 32.98333333,
+          "translations": []
+        },
+        {
+          "id": 149056,
+          "name": "Moshi",
+          "latitude": -3.33488333,
+          "longitude": 37.34038056,
+          "translations": []
+        },
+        {
+          "id": 149057,
+          "name": "Mpuguso",
+          "latitude": -9.31666667,
+          "longitude": 33.65,
+          "translations": []
+        },
+        {
+          "id": 149058,
+          "name": "Mwansanga",
+          "latitude": -8.76666667,
+          "longitude": 33.53333333,
+          "translations": []
+        },
+        {
+          "id": 149059,
+          "name": "Mwaya",
+          "latitude": -9.55,
+          "longitude": 33.95,
+          "translations": []
+        },
+        {
+          "id": 149060,
+          "name": "Mwembe",
+          "latitude": -4.15,
+          "longitude": 37.85,
+          "translations": []
+        },
+        {
+          "id": 149061,
+          "name": "Same",
+          "latitude": -4.06666667,
+          "longitude": 37.78333333,
+          "translations": []
+        },
+        {
+          "id": 149062,
+          "name": "Tukuyu",
+          "latitude": -9.25833333,
+          "longitude": 33.64166667,
+          "translations": []
+        },
+        {
+          "id": 149063,
+          "name": "Tunduma",
+          "latitude": -9.3,
+          "longitude": 32.7667,
+          "translations": []
+        },
+        {
+          "id": 149064,
+          "name": "Ugweno",
+          "latitude": -3.65,
+          "longitude": 37.65,
+          "translations": []
+        },
+        {
+          "id": 149065,
+          "name": "Ulanga",
+          "latitude": -8.34361,
+          "longitude": 34.2897,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4956,
+      "name": "Songwe",
+      "stateCode": "31",
+      "latitude": -8.272612,
+      "longitude": 31.7113174,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154657,
+          "name": "Vwawa",
+          "latitude": -9.1196,
+          "longitude": 32.9312,
+          "translations": []
+        },
+        {
+          "id": 154658,
+          "name": "Tunduma",
+          "latitude": -9.2881,
+          "longitude": 32.7746,
+          "translations": []
+        },
+        {
+          "id": 154659,
+          "name": "Mlowo",
+          "latitude": -9,
+          "longitude": 32.9667,
+          "translations": []
+        },
+        {
+          "id": 154660,
+          "name": "Mkwajuni",
+          "latitude": -8.4238,
+          "longitude": 33.029,
+          "translations": []
+        },
+        {
+          "id": 154661,
+          "name": "Mbozi",
+          "latitude": -9.0833,
+          "longitude": 33.45,
+          "translations": []
+        },
+        {
+          "id": 154662,
+          "name": "Ileje",
+          "latitude": -9.6,
+          "longitude": 33.4833,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "id": 121,
+  "name": "Lebanon",
+  "nativeName": "لبنان",
+  "iso2": "LB",
+  "iso3": "LBN",
+  "numericCode": "422",
+  "phoneCode": "961",
+  "tld": ".lb",
+  "latitude": 33.83333333,
+  "longitude": 35.83333333,
+  "flagId": 124,
+  "regionId": 3,
+  "subregionId": 11,
+  "currencyIds": [
+    911
+  ],
+  "timezoneIds": [
+    2437
+  ],
+  "officialLanguageIds": [
+    7
+  ],
+  "otherLanguageIds": [
+    33
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "레바논"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Líbano"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Líbano"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Libanon"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Libanon"
+    },
+    {
+      "languageCode": "fa",
+      "name": "لبنان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Libanon"
+    },
+    {
+      "languageCode": "es",
+      "name": "Líbano"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Liban"
+    },
+    {
+      "languageCode": "ja",
+      "name": "レバノン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Libano"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "黎巴嫩"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Lübnan"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Ливан"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Ліван"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Liban"
+    }
+  ],
+  "states": [
+    {
+      "id": 2281,
+      "name": "South",
+      "stateCode": "JA",
+      "latitude": 33.2721479,
+      "longitude": 35.2032778,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65944,
+          "name": "En Nâqoûra",
+          "latitude": 33.11806,
+          "longitude": 35.13972,
+          "translations": []
+        },
+        {
+          "id": 65945,
+          "name": "Ghazieh",
+          "latitude": 33.5175,
+          "longitude": 35.36889,
+          "translations": []
+        },
+        {
+          "id": 65952,
+          "name": "Sidon",
+          "latitude": 33.55751,
+          "longitude": 35.37148,
+          "translations": []
+        },
+        {
+          "id": 65954,
+          "name": "Tyre",
+          "latitude": 33.27333,
+          "longitude": 35.19389,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2282,
+      "name": "Mount Lebanon",
+      "stateCode": "JL",
+      "latitude": 33.8100858,
+      "longitude": 35.5973139,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65932,
+          "name": "Baabda",
+          "latitude": 33.83389,
+          "longitude": 35.54417,
+          "translations": []
+        },
+        {
+          "id": 65937,
+          "name": "Bhamdoun",
+          "latitude": 33.795,
+          "longitude": 35.65111,
+          "translations": []
+        },
+        {
+          "id": 65938,
+          "name": "Bhamdoûn el Mhatta",
+          "latitude": 33.80861,
+          "longitude": 35.65972,
+          "translations": []
+        },
+        {
+          "id": 65940,
+          "name": "Caza de Baabda",
+          "latitude": 33.84592,
+          "longitude": 35.66791,
+          "translations": []
+        },
+        {
+          "id": 65947,
+          "name": "Jbaïl",
+          "latitude": 34.12111,
+          "longitude": 35.64806,
+          "translations": []
+        },
+        {
+          "id": 65948,
+          "name": "Jounieh",
+          "latitude": 33.98083,
+          "longitude": 35.61778,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2283,
+      "name": "Baalbek-Hermel",
+      "stateCode": "BH",
+      "latitude": 34.2658556,
+      "longitude": 36.3498097,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65933,
+          "name": "Baalbek",
+          "latitude": 34.00583,
+          "longitude": 36.21806,
+          "translations": []
+        },
+        {
+          "id": 65941,
+          "name": "Caza de Baalbek",
+          "latitude": 34.09822,
+          "longitude": 36.27157,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2284,
+      "name": "North",
+      "stateCode": "AS",
+      "latitude": 34.4380625,
+      "longitude": 35.8308233,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65934,
+          "name": "Batroûn",
+          "latitude": 34.25528,
+          "longitude": 35.65806,
+          "translations": []
+        },
+        {
+          "id": 65935,
+          "name": "Bcharré",
+          "latitude": 34.25083,
+          "longitude": 36.01056,
+          "translations": []
+        },
+        {
+          "id": 65953,
+          "name": "Tripoli",
+          "latitude": 34.43352,
+          "longitude": 35.84415,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2285,
+      "name": "Akkar",
+      "stateCode": "AK",
+      "latitude": 34.5328763,
+      "longitude": 36.1328132,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65939,
+          "name": "Caza de Aakkar",
+          "latitude": 34.53333,
+          "longitude": 36.16667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2286,
+      "name": "Beirut",
+      "stateCode": "BA",
+      "latitude": 33.8886106,
+      "longitude": 35.4954772,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65936,
+          "name": "Beirut",
+          "latitude": 33.89332,
+          "longitude": 35.50157,
+          "translations": []
+        },
+        {
+          "id": 65951,
+          "name": "Ra’s Bayrūt",
+          "latitude": 33.9,
+          "longitude": 35.48333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2287,
+      "name": "Beqaa",
+      "stateCode": "BI",
+      "latitude": 33.8462662,
+      "longitude": 35.9019489,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65930,
+          "name": "Aanjar",
+          "latitude": 33.72778,
+          "longitude": 35.93111,
+          "translations": []
+        },
+        {
+          "id": 65955,
+          "name": "Zahlé",
+          "latitude": 33.84675,
+          "longitude": 35.90203,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2288,
+      "name": "Nabatieh",
+      "stateCode": "NA",
+      "latitude": 33.3771693,
+      "longitude": 35.4838293,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65931,
+          "name": "Ain Ebel",
+          "latitude": 33.11023,
+          "longitude": 35.40251,
+          "translations": []
+        },
+        {
+          "id": 65942,
+          "name": "Caza de Bent Jbaïl",
+          "latitude": 33.15964,
+          "longitude": 35.41137,
+          "translations": []
+        },
+        {
+          "id": 65943,
+          "name": "Caza de Nabatîyé",
+          "latitude": 33.39435,
+          "longitude": 35.44483,
+          "translations": []
+        },
+        {
+          "id": 65946,
+          "name": "Habboûch",
+          "latitude": 33.40729,
+          "longitude": 35.48169,
+          "translations": []
+        },
+        {
+          "id": 65949,
+          "name": "Marjayoûn",
+          "latitude": 33.36028,
+          "longitude": 35.59111,
+          "translations": []
+        },
+        {
+          "id": 65950,
+          "name": "Nabatîyé et Tahta",
+          "latitude": 33.37889,
+          "longitude": 35.48389,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

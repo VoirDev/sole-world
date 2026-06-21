@@ -1,0 +1,388 @@
+{
+  "id": 79,
+  "name": "Gabon",
+  "nativeName": "Gabon",
+  "iso2": "GA",
+  "iso3": "GAB",
+  "numericCode": "266",
+  "phoneCode": "241",
+  "tld": ".ga",
+  "latitude": -1,
+  "longitude": 11.75,
+  "flagId": 174,
+  "regionId": 1,
+  "subregionId": 2,
+  "currencyIds": [
+    862
+  ],
+  "timezoneIds": [
+    2383
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "가봉"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Gabão"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Gabão"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Gabon"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Gabon"
+    },
+    {
+      "languageCode": "fa",
+      "name": "گابن"
+    },
+    {
+      "languageCode": "de",
+      "name": "Gabun"
+    },
+    {
+      "languageCode": "es",
+      "name": "Gabón"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Gabon"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ガボン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Gabon"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "加蓬"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Gabon"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Габон"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Габон"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Gabon"
+    }
+  ],
+  "states": [
+    {
+      "id": 2723,
+      "name": "Woleu-Ntem",
+      "stateCode": "9",
+      "latitude": 2.2989827,
+      "longitude": 11.4466914,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 48129,
+          "name": "Bitam",
+          "latitude": 2.07597,
+          "longitude": 11.50065,
+          "translations": []
+        },
+        {
+          "id": 48144,
+          "name": "Mitzic",
+          "latitude": 0.78205,
+          "longitude": 11.54904,
+          "translations": []
+        },
+        {
+          "id": 48153,
+          "name": "Oyem",
+          "latitude": 1.5995,
+          "longitude": 11.57933,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2724,
+      "name": "Ogooué-Ivindo",
+      "stateCode": "6",
+      "latitude": 0.8818311,
+      "longitude": 13.1740348,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 48130,
+          "name": "Booué",
+          "latitude": -0.09207,
+          "longitude": 11.93846,
+          "translations": []
+        },
+        {
+          "id": 48140,
+          "name": "Makokou",
+          "latitude": 0.57381,
+          "longitude": 12.86419,
+          "translations": []
+        },
+        {
+          "id": 48156,
+          "name": "Zadie",
+          "latitude": 0.92582,
+          "longitude": 13.90813,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2725,
+      "name": "Nyanga",
+      "stateCode": "5",
+      "latitude": -2.8821033,
+      "longitude": 11.1617356,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 48141,
+          "name": "Mayumba",
+          "latitude": -3.43198,
+          "longitude": 10.6554,
+          "translations": []
+        },
+        {
+          "id": 48155,
+          "name": "Tchibanga",
+          "latitude": -2.93323,
+          "longitude": 10.98178,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2726,
+      "name": "Haut-Ogooué",
+      "stateCode": "2",
+      "latitude": -1.4762544,
+      "longitude": 13.914399,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 48133,
+          "name": "Franceville",
+          "latitude": -1.63333,
+          "longitude": 13.58357,
+          "translations": []
+        },
+        {
+          "id": 48139,
+          "name": "Lékoni",
+          "latitude": -1.58431,
+          "longitude": 14.25905,
+          "translations": []
+        },
+        {
+          "id": 48145,
+          "name": "Moanda",
+          "latitude": -1.56652,
+          "longitude": 13.1987,
+          "translations": []
+        },
+        {
+          "id": 48147,
+          "name": "Mounana",
+          "latitude": -1.4085,
+          "longitude": 13.15857,
+          "translations": []
+        },
+        {
+          "id": 48151,
+          "name": "Okondja",
+          "latitude": -0.65487,
+          "longitude": 13.67533,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2727,
+      "name": "Estuaire",
+      "stateCode": "1",
+      "latitude": 0.4432864,
+      "longitude": 10.0807298,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 48131,
+          "name": "Cocobeach",
+          "latitude": 1.00019,
+          "longitude": 9.58229,
+          "translations": []
+        },
+        {
+          "id": 48138,
+          "name": "Libreville",
+          "latitude": 0.39241,
+          "longitude": 9.45356,
+          "translations": []
+        },
+        {
+          "id": 48150,
+          "name": "Ntoum",
+          "latitude": 0.39051,
+          "longitude": 9.76096,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2728,
+      "name": "Ogooué-Maritime",
+      "stateCode": "8",
+      "latitude": -1.3465975,
+      "longitude": 9.7232673,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 48134,
+          "name": "Gamba",
+          "latitude": -2.65,
+          "longitude": 10,
+          "translations": []
+        },
+        {
+          "id": 48152,
+          "name": "Omboué",
+          "latitude": -1.57464,
+          "longitude": 9.26184,
+          "translations": []
+        },
+        {
+          "id": 48154,
+          "name": "Port-Gentil",
+          "latitude": -0.71933,
+          "longitude": 8.78151,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2729,
+      "name": "Ogooué-Lolo",
+      "stateCode": "7",
+      "latitude": -0.8844093,
+      "longitude": 12.4380581,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 48135,
+          "name": "Koulamoutou",
+          "latitude": -1.13667,
+          "longitude": 12.46399,
+          "translations": []
+        },
+        {
+          "id": 48137,
+          "name": "Lastoursville",
+          "latitude": -0.81742,
+          "longitude": 12.70818,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2730,
+      "name": "Moyen-Ogooué",
+      "stateCode": "3",
+      "latitude": -0.442784,
+      "longitude": 10.439656,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 48136,
+          "name": "Lambaréné",
+          "latitude": -0.7001,
+          "longitude": 10.24055,
+          "translations": []
+        },
+        {
+          "id": 48149,
+          "name": "Ndjolé",
+          "latitude": -0.17827,
+          "longitude": 10.76488,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2731,
+      "name": "Ngounié",
+      "stateCode": "4",
+      "latitude": -1.4930303,
+      "longitude": 10.9807003,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 48132,
+          "name": "Fougamou",
+          "latitude": -1.21544,
+          "longitude": 10.58378,
+          "translations": []
+        },
+        {
+          "id": 48142,
+          "name": "Mbigou",
+          "latitude": -1.90046,
+          "longitude": 11.906,
+          "translations": []
+        },
+        {
+          "id": 48143,
+          "name": "Mimongo",
+          "latitude": -1.61952,
+          "longitude": 11.60675,
+          "translations": []
+        },
+        {
+          "id": 48146,
+          "name": "Mouila",
+          "latitude": -1.86846,
+          "longitude": 11.05594,
+          "translations": []
+        },
+        {
+          "id": 48148,
+          "name": "Ndendé",
+          "latitude": -2.40077,
+          "longitude": 11.35813,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

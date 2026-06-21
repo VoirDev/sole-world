@@ -1,0 +1,14 @@
+<configuration>
+    <property name="LOG_LEVEL" value="${LOG_LEVEL:-INFO}"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{YYYY-MM-dd HH:mm:ss.SSS} [%thread] %X{call-id} %-5level %logger{36} -
+                %msg%n%ex
+            </pattern>
+        </encoder>
+    </appender>
+    <root level="${LOG_LEVEL}">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

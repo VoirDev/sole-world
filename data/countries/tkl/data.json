@@ -1,0 +1,90 @@
+{
+  "id": 221,
+  "name": "Tokelau",
+  "nativeName": "Tokelau",
+  "iso2": "TK",
+  "iso3": "TKL",
+  "numericCode": "772",
+  "phoneCode": "690",
+  "tld": ".tk",
+  "latitude": -9,
+  "longitude": -172,
+  "flagId": 31,
+  "regionId": 5,
+  "subregionId": 22,
+  "currencyIds": [
+    870
+  ],
+  "timezoneIds": [
+    2587
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "토켈라우"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Tokelau"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Toquelau"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Tokelau"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Tokelau"
+    },
+    {
+      "languageCode": "fa",
+      "name": "توکلائو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Tokelau"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Tokelau"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Tokelau"
+    },
+    {
+      "languageCode": "ja",
+      "name": "トケラウ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Tokelau"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "托克劳"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Tokelau"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Токелау"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Токелау"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Tokelau"
+    }
+  ],
+  "states": []
+}

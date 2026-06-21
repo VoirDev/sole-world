@@ -1,0 +1,2370 @@
+{
+  "id": 12,
+  "name": "Armenia",
+  "nativeName": "Հայաստան",
+  "iso2": "AM",
+  "iso3": "ARM",
+  "numericCode": "051",
+  "phoneCode": "374",
+  "tld": ".am",
+  "latitude": 40,
+  "longitude": 45,
+  "flagId": 241,
+  "regionId": 3,
+  "subregionId": 11,
+  "currencyIds": [
+    842
+  ],
+  "timezoneIds": [
+    2255
+  ],
+  "officialLanguageIds": [
+    9
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "아르메니아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Armênia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Arménia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Armenië"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Armenija"
+    },
+    {
+      "languageCode": "fa",
+      "name": "ارمنستان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Armenien"
+    },
+    {
+      "languageCode": "es",
+      "name": "Armenia"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Arménie"
+    },
+    {
+      "languageCode": "ja",
+      "name": "アルメニア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Armenia"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "亚美尼亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Ermenistan"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Армения"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Вірменія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Armenia"
+    }
+  ],
+  "states": [
+    {
+      "id": 2023,
+      "name": "Aragatsotn",
+      "stateCode": "AG",
+      "latitude": 40.3347301,
+      "longitude": 44.3748296,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 286,
+          "name": "Agarakavan",
+          "latitude": 40.33069,
+          "longitude": 44.07233,
+          "translations": []
+        },
+        {
+          "id": 303,
+          "name": "Aparan",
+          "latitude": 40.59323,
+          "longitude": 44.3589,
+          "translations": []
+        },
+        {
+          "id": 305,
+          "name": "Aragats",
+          "latitude": 40.48889,
+          "longitude": 44.3529,
+          "translations": []
+        },
+        {
+          "id": 329,
+          "name": "Arteni",
+          "latitude": 40.2973,
+          "longitude": 43.76672,
+          "translations": []
+        },
+        {
+          "id": 334,
+          "name": "Ashnak",
+          "latitude": 40.33069,
+          "longitude": 43.91669,
+          "translations": []
+        },
+        {
+          "id": 335,
+          "name": "Ashtarak",
+          "latitude": 40.2991,
+          "longitude": 44.36204,
+          "translations": []
+        },
+        {
+          "id": 361,
+          "name": "Byurakan",
+          "latitude": 40.33894,
+          "longitude": 44.27275,
+          "translations": []
+        },
+        {
+          "id": 412,
+          "name": "Hnaberd",
+          "latitude": 40.63721,
+          "longitude": 44.14058,
+          "translations": []
+        },
+        {
+          "id": 428,
+          "name": "Karbi",
+          "latitude": 40.33069,
+          "longitude": 44.37793,
+          "translations": []
+        },
+        {
+          "id": 430,
+          "name": "Kasakh",
+          "latitude": 40.53697,
+          "longitude": 44.41046,
+          "translations": []
+        },
+        {
+          "id": 434,
+          "name": "Kosh",
+          "latitude": 40.30011,
+          "longitude": 44.16107,
+          "translations": []
+        },
+        {
+          "id": 486,
+          "name": "Nor Yerznka",
+          "latitude": 40.30011,
+          "longitude": 44.38892,
+          "translations": []
+        },
+        {
+          "id": 497,
+          "name": "Oshakan",
+          "latitude": 40.26392,
+          "longitude": 44.31671,
+          "translations": []
+        },
+        {
+          "id": 512,
+          "name": "Sasunik",
+          "latitude": 40.25012,
+          "longitude": 44.34448,
+          "translations": []
+        },
+        {
+          "id": 520,
+          "name": "Shenavan",
+          "latitude": 40.48328,
+          "longitude": 44.38348,
+          "translations": []
+        },
+        {
+          "id": 538,
+          "name": "Tsaghkahovit",
+          "latitude": 40.63428,
+          "longitude": 44.22241,
+          "translations": []
+        },
+        {
+          "id": 546,
+          "name": "T’alin",
+          "latitude": 40.39172,
+          "longitude": 43.87793,
+          "translations": []
+        },
+        {
+          "id": 548,
+          "name": "Ushi",
+          "latitude": 40.34729,
+          "longitude": 44.37512,
+          "translations": []
+        },
+        {
+          "id": 570,
+          "name": "Voskevaz",
+          "latitude": 40.27508,
+          "longitude": 44.30011,
+          "translations": []
+        },
+        {
+          "id": 588,
+          "name": "Zovuni",
+          "latitude": 40.51111,
+          "longitude": 44.4389,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2024,
+      "name": "Ararat",
+      "stateCode": "AR",
+      "latitude": 39.9139415,
+      "longitude": 44.7200004,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 282,
+          "name": "Abovyan",
+          "latitude": 40.04851,
+          "longitude": 44.54742,
+          "translations": []
+        },
+        {
+          "id": 307,
+          "name": "Aralez",
+          "latitude": 39.90008,
+          "longitude": 44.6557,
+          "translations": []
+        },
+        {
+          "id": 309,
+          "name": "Ararat",
+          "latitude": 39.83069,
+          "longitude": 44.70569,
+          "translations": []
+        },
+        {
+          "id": 314,
+          "name": "Arevabuyr",
+          "latitude": 40.03607,
+          "longitude": 44.46948,
+          "translations": []
+        },
+        {
+          "id": 319,
+          "name": "Arevshat",
+          "latitude": 40.03963,
+          "longitude": 44.54179,
+          "translations": []
+        },
+        {
+          "id": 324,
+          "name": "Armash",
+          "latitude": 39.76672,
+          "longitude": 44.8111,
+          "translations": []
+        },
+        {
+          "id": 328,
+          "name": "Artashat",
+          "latitude": 39.96144,
+          "longitude": 44.54447,
+          "translations": []
+        },
+        {
+          "id": 337,
+          "name": "Avshar",
+          "latitude": 39.85553,
+          "longitude": 44.65832,
+          "translations": []
+        },
+        {
+          "id": 338,
+          "name": "Aygavan",
+          "latitude": 39.87327,
+          "longitude": 44.66984,
+          "translations": []
+        },
+        {
+          "id": 341,
+          "name": "Aygepat",
+          "latitude": 39.95845,
+          "longitude": 44.59981,
+          "translations": []
+        },
+        {
+          "id": 343,
+          "name": "Aygestan",
+          "latitude": 40.00293,
+          "longitude": 44.55829,
+          "translations": []
+        },
+        {
+          "id": 344,
+          "name": "Aygezard",
+          "latitude": 39.95436,
+          "longitude": 44.60229,
+          "translations": []
+        },
+        {
+          "id": 351,
+          "name": "Bardzrashen",
+          "latitude": 40.08533,
+          "longitude": 44.57957,
+          "translations": []
+        },
+        {
+          "id": 356,
+          "name": "Berk’anush",
+          "latitude": 39.9779,
+          "longitude": 44.51672,
+          "translations": []
+        },
+        {
+          "id": 359,
+          "name": "Burastan",
+          "latitude": 39.99157,
+          "longitude": 44.49681,
+          "translations": []
+        },
+        {
+          "id": 362,
+          "name": "Byuravan",
+          "latitude": 40.01604,
+          "longitude": 44.51889,
+          "translations": []
+        },
+        {
+          "id": 366,
+          "name": "Dalar",
+          "latitude": 39.97653,
+          "longitude": 44.52649,
+          "translations": []
+        },
+        {
+          "id": 368,
+          "name": "Darakert",
+          "latitude": 40.10553,
+          "longitude": 44.41388,
+          "translations": []
+        },
+        {
+          "id": 370,
+          "name": "Dashtavan",
+          "latitude": 40.1001,
+          "longitude": 44.39172,
+          "translations": []
+        },
+        {
+          "id": 373,
+          "name": "Dimitrov",
+          "latitude": 40.00848,
+          "longitude": 44.4917,
+          "translations": []
+        },
+        {
+          "id": 377,
+          "name": "Dvin",
+          "latitude": 40.01984,
+          "longitude": 44.58376,
+          "translations": []
+        },
+        {
+          "id": 395,
+          "name": "Getazat",
+          "latitude": 40.03844,
+          "longitude": 44.56369,
+          "translations": []
+        },
+        {
+          "id": 396,
+          "name": "Ghukasavan",
+          "latitude": 40.12793,
+          "longitude": 44.41669,
+          "translations": []
+        },
+        {
+          "id": 401,
+          "name": "Goravan",
+          "latitude": 39.90832,
+          "longitude": 44.73328,
+          "translations": []
+        },
+        {
+          "id": 409,
+          "name": "Hayanist",
+          "latitude": 40.12231,
+          "longitude": 44.37793,
+          "translations": []
+        },
+        {
+          "id": 415,
+          "name": "Hovtashat",
+          "latitude": 40.09729,
+          "longitude": 44.34448,
+          "translations": []
+        },
+        {
+          "id": 416,
+          "name": "Hovtashen",
+          "latitude": 40.02508,
+          "longitude": 44.45007,
+          "translations": []
+        },
+        {
+          "id": 421,
+          "name": "Jrahovit",
+          "latitude": 40.0473,
+          "longitude": 44.4751,
+          "translations": []
+        },
+        {
+          "id": 449,
+          "name": "Lusarrat",
+          "latitude": 39.87403,
+          "longitude": 44.58678,
+          "translations": []
+        },
+        {
+          "id": 455,
+          "name": "Marmarashen",
+          "latitude": 40.05829,
+          "longitude": 44.47229,
+          "translations": []
+        },
+        {
+          "id": 458,
+          "name": "Masis",
+          "latitude": 40.06542,
+          "longitude": 44.41618,
+          "translations": []
+        },
+        {
+          "id": 472,
+          "name": "Mrganush",
+          "latitude": 40.02857,
+          "longitude": 44.55831,
+          "translations": []
+        },
+        {
+          "id": 475,
+          "name": "Mrgavan",
+          "latitude": 39.97251,
+          "longitude": 44.53565,
+          "translations": []
+        },
+        {
+          "id": 476,
+          "name": "Mrgavet",
+          "latitude": 40.02789,
+          "longitude": 44.48328,
+          "translations": []
+        },
+        {
+          "id": 482,
+          "name": "Nizami",
+          "latitude": 40.09168,
+          "longitude": 44.4057,
+          "translations": []
+        },
+        {
+          "id": 487,
+          "name": "Norabats’",
+          "latitude": 40.10553,
+          "longitude": 44.43329,
+          "translations": []
+        },
+        {
+          "id": 489,
+          "name": "Noramarg",
+          "latitude": 40.02228,
+          "longitude": 44.42511,
+          "translations": []
+        },
+        {
+          "id": 491,
+          "name": "Norashen",
+          "latitude": 40.0013,
+          "longitude": 44.59296,
+          "translations": []
+        },
+        {
+          "id": 493,
+          "name": "Noyakert",
+          "latitude": 39.83069,
+          "longitude": 44.66949,
+          "translations": []
+        },
+        {
+          "id": 495,
+          "name": "Nshavan",
+          "latitude": 40.02787,
+          "longitude": 44.52565,
+          "translations": []
+        },
+        {
+          "id": 513,
+          "name": "Sayat’-Nova",
+          "latitude": 40.07507,
+          "longitude": 44.40008,
+          "translations": []
+        },
+        {
+          "id": 516,
+          "name": "Shahumyan",
+          "latitude": 39.94171,
+          "longitude": 44.57233,
+          "translations": []
+        },
+        {
+          "id": 525,
+          "name": "Sis",
+          "latitude": 40.05829,
+          "longitude": 44.38892,
+          "translations": []
+        },
+        {
+          "id": 526,
+          "name": "Sisavan",
+          "latitude": 39.90802,
+          "longitude": 44.66721,
+          "translations": []
+        },
+        {
+          "id": 531,
+          "name": "Surenavan",
+          "latitude": 39.79449,
+          "longitude": 44.77508,
+          "translations": []
+        },
+        {
+          "id": 560,
+          "name": "Vedi",
+          "latitude": 39.91388,
+          "longitude": 44.7251,
+          "translations": []
+        },
+        {
+          "id": 561,
+          "name": "Verin Artashat",
+          "latitude": 39.99731,
+          "longitude": 44.58893,
+          "translations": []
+        },
+        {
+          "id": 562,
+          "name": "Verin Dvin",
+          "latitude": 40.02434,
+          "longitude": 44.59038,
+          "translations": []
+        },
+        {
+          "id": 568,
+          "name": "Vosketap’",
+          "latitude": 39.88114,
+          "longitude": 44.64917,
+          "translations": []
+        },
+        {
+          "id": 571,
+          "name": "Vostan",
+          "latitude": 39.96515,
+          "longitude": 44.55937,
+          "translations": []
+        },
+        {
+          "id": 574,
+          "name": "Yeghegnavan",
+          "latitude": 39.83893,
+          "longitude": 44.61951,
+          "translations": []
+        },
+        {
+          "id": 582,
+          "name": "Zangakatun",
+          "latitude": 39.82233,
+          "longitude": 45.04169,
+          "translations": []
+        },
+        {
+          "id": 585,
+          "name": "Zorak",
+          "latitude": 40.09168,
+          "longitude": 44.39447,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2025,
+      "name": "Vayots Dzor",
+      "stateCode": "VD",
+      "latitude": 39.7641996,
+      "longitude": 45.3337528,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 285,
+          "name": "Agarakadzor",
+          "latitude": 39.73608,
+          "longitude": 45.35553,
+          "translations": []
+        },
+        {
+          "id": 288,
+          "name": "Aghavnadzor",
+          "latitude": 39.78607,
+          "longitude": 45.2279,
+          "translations": []
+        },
+        {
+          "id": 313,
+          "name": "Areni",
+          "latitude": 39.71668,
+          "longitude": 45.18329,
+          "translations": []
+        },
+        {
+          "id": 393,
+          "name": "Getap’",
+          "latitude": 39.76392,
+          "longitude": 45.30829,
+          "translations": []
+        },
+        {
+          "id": 397,
+          "name": "Gladzor",
+          "latitude": 39.7807,
+          "longitude": 45.34729,
+          "translations": []
+        },
+        {
+          "id": 420,
+          "name": "Jermuk",
+          "latitude": 39.84168,
+          "longitude": 45.66949,
+          "translations": []
+        },
+        {
+          "id": 451,
+          "name": "Malishka",
+          "latitude": 39.74731,
+          "longitude": 45.4057,
+          "translations": []
+        },
+        {
+          "id": 505,
+          "name": "Rrind",
+          "latitude": 39.76111,
+          "longitude": 45.17792,
+          "translations": []
+        },
+        {
+          "id": 518,
+          "name": "Shatin",
+          "latitude": 39.83612,
+          "longitude": 45.30292,
+          "translations": []
+        },
+        {
+          "id": 559,
+          "name": "Vayk’",
+          "latitude": 39.6889,
+          "longitude": 45.46668,
+          "translations": []
+        },
+        {
+          "id": 565,
+          "name": "Vernashen",
+          "latitude": 39.79236,
+          "longitude": 45.36389,
+          "translations": []
+        },
+        {
+          "id": 572,
+          "name": "Yeghegis",
+          "latitude": 39.87231,
+          "longitude": 45.3501,
+          "translations": []
+        },
+        {
+          "id": 573,
+          "name": "Yeghegnadzor",
+          "latitude": 39.76389,
+          "longitude": 45.33239,
+          "translations": []
+        },
+        {
+          "id": 584,
+          "name": "Zarrit’ap’",
+          "latitude": 39.63892,
+          "longitude": 45.51111,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2026,
+      "name": "Armavir",
+      "stateCode": "AV",
+      "latitude": 40.1554631,
+      "longitude": 44.0372446,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 289,
+          "name": "Aghavnatun",
+          "latitude": 40.2333,
+          "longitude": 44.25295,
+          "translations": []
+        },
+        {
+          "id": 292,
+          "name": "Aknalich",
+          "latitude": 40.14728,
+          "longitude": 44.16669,
+          "translations": []
+        },
+        {
+          "id": 293,
+          "name": "Aknashen",
+          "latitude": 40.09551,
+          "longitude": 44.28604,
+          "translations": []
+        },
+        {
+          "id": 297,
+          "name": "Alashkert",
+          "latitude": 40.10712,
+          "longitude": 44.05108,
+          "translations": []
+        },
+        {
+          "id": 302,
+          "name": "Apaga",
+          "latitude": 40.09729,
+          "longitude": 44.25293,
+          "translations": []
+        },
+        {
+          "id": 306,
+          "name": "Arak’s",
+          "latitude": 40.05548,
+          "longitude": 44.30292,
+          "translations": []
+        },
+        {
+          "id": 310,
+          "name": "Arazap’",
+          "latitude": 40.04169,
+          "longitude": 44.14728,
+          "translations": []
+        },
+        {
+          "id": 311,
+          "name": "Arbat’",
+          "latitude": 40.13892,
+          "longitude": 44.40289,
+          "translations": []
+        },
+        {
+          "id": 315,
+          "name": "Arevashat",
+          "latitude": 40.14447,
+          "longitude": 44.37512,
+          "translations": []
+        },
+        {
+          "id": 317,
+          "name": "Arevik",
+          "latitude": 40.1001,
+          "longitude": 44.09448,
+          "translations": []
+        },
+        {
+          "id": 322,
+          "name": "Argavand",
+          "latitude": 40.0611,
+          "longitude": 44.09448,
+          "translations": []
+        },
+        {
+          "id": 325,
+          "name": "Armavir",
+          "latitude": 40.15446,
+          "longitude": 44.03815,
+          "translations": []
+        },
+        {
+          "id": 327,
+          "name": "Arshaluys",
+          "latitude": 40.16949,
+          "longitude": 44.21393,
+          "translations": []
+        },
+        {
+          "id": 330,
+          "name": "Artimet",
+          "latitude": 40.15008,
+          "longitude": 44.26672,
+          "translations": []
+        },
+        {
+          "id": 340,
+          "name": "Aygek",
+          "latitude": 40.1889,
+          "longitude": 44.38611,
+          "translations": []
+        },
+        {
+          "id": 342,
+          "name": "Aygeshat",
+          "latitude": 40.07507,
+          "longitude": 44.0611,
+          "translations": []
+        },
+        {
+          "id": 347,
+          "name": "Baghramyan",
+          "latitude": 40.19452,
+          "longitude": 44.36951,
+          "translations": []
+        },
+        {
+          "id": 350,
+          "name": "Bambakashat",
+          "latitude": 40.10828,
+          "longitude": 44.01947,
+          "translations": []
+        },
+        {
+          "id": 367,
+          "name": "Dalarik",
+          "latitude": 40.2279,
+          "longitude": 43.87793,
+          "translations": []
+        },
+        {
+          "id": 374,
+          "name": "Doghs",
+          "latitude": 40.22229,
+          "longitude": 44.27228,
+          "translations": []
+        },
+        {
+          "id": 388,
+          "name": "Gay",
+          "latitude": 40.08444,
+          "longitude": 44.30528,
+          "translations": []
+        },
+        {
+          "id": 389,
+          "name": "Geghakert",
+          "latitude": 40.18516,
+          "longitude": 44.24331,
+          "translations": []
+        },
+        {
+          "id": 392,
+          "name": "Geghanist",
+          "latitude": 40.14587,
+          "longitude": 44.43048,
+          "translations": []
+        },
+        {
+          "id": 394,
+          "name": "Getashen",
+          "latitude": 40.04449,
+          "longitude": 43.94171,
+          "translations": []
+        },
+        {
+          "id": 398,
+          "name": "Gmbet’",
+          "latitude": 40.22369,
+          "longitude": 44.25409,
+          "translations": []
+        },
+        {
+          "id": 403,
+          "name": "Griboyedov",
+          "latitude": 40.11307,
+          "longitude": 44.27169,
+          "translations": []
+        },
+        {
+          "id": 410,
+          "name": "Haykashen",
+          "latitude": 40.07233,
+          "longitude": 44.30829,
+          "translations": []
+        },
+        {
+          "id": 414,
+          "name": "Hovtamej",
+          "latitude": 40.18329,
+          "longitude": 44.25848,
+          "translations": []
+        },
+        {
+          "id": 419,
+          "name": "Janfida",
+          "latitude": 40.04449,
+          "longitude": 44.02789,
+          "translations": []
+        },
+        {
+          "id": 433,
+          "name": "Khoronk’",
+          "latitude": 40.13611,
+          "longitude": 44.24731,
+          "translations": []
+        },
+        {
+          "id": 440,
+          "name": "Lenughi",
+          "latitude": 40.12512,
+          "longitude": 43.96393,
+          "translations": []
+        },
+        {
+          "id": 448,
+          "name": "Lukashin",
+          "latitude": 40.18726,
+          "longitude": 44.0039,
+          "translations": []
+        },
+        {
+          "id": 454,
+          "name": "Margara",
+          "latitude": 40.03332,
+          "longitude": 44.18048,
+          "translations": []
+        },
+        {
+          "id": 461,
+          "name": "Mayisyan",
+          "latitude": 40.15701,
+          "longitude": 44.09192,
+          "translations": []
+        },
+        {
+          "id": 465,
+          "name": "Merdzavan",
+          "latitude": 40.1814,
+          "longitude": 44.40033,
+          "translations": []
+        },
+        {
+          "id": 469,
+          "name": "Metsamor",
+          "latitude": 40.14447,
+          "longitude": 44.1167,
+          "translations": []
+        },
+        {
+          "id": 473,
+          "name": "Mrgashat",
+          "latitude": 40.13068,
+          "longitude": 44.08069,
+          "translations": []
+        },
+        {
+          "id": 477,
+          "name": "Musalerr",
+          "latitude": 40.1557,
+          "longitude": 44.37793,
+          "translations": []
+        },
+        {
+          "id": 478,
+          "name": "Myasnikyan",
+          "latitude": 40.18048,
+          "longitude": 43.91949,
+          "translations": []
+        },
+        {
+          "id": 479,
+          "name": "Nalbandyan",
+          "latitude": 40.0639,
+          "longitude": 43.98889,
+          "translations": []
+        },
+        {
+          "id": 483,
+          "name": "Nor Armavir",
+          "latitude": 40.08612,
+          "longitude": 43.99451,
+          "translations": []
+        },
+        {
+          "id": 488,
+          "name": "Norakert",
+          "latitude": 40.19733,
+          "longitude": 44.3501,
+          "translations": []
+        },
+        {
+          "id": 502,
+          "name": "Ptghunk’",
+          "latitude": 40.16388,
+          "longitude": 44.36389,
+          "translations": []
+        },
+        {
+          "id": 504,
+          "name": "P’shatavan",
+          "latitude": 40.03888,
+          "longitude": 44.06671,
+          "translations": []
+        },
+        {
+          "id": 509,
+          "name": "Sardarapat",
+          "latitude": 40.13206,
+          "longitude": 44.00969,
+          "translations": []
+        },
+        {
+          "id": 519,
+          "name": "Shenavan",
+          "latitude": 40.05548,
+          "longitude": 43.93048,
+          "translations": []
+        },
+        {
+          "id": 532,
+          "name": "Tandzut",
+          "latitude": 40.06952,
+          "longitude": 44.07788,
+          "translations": []
+        },
+        {
+          "id": 533,
+          "name": "Taronik",
+          "latitude": 40.13367,
+          "longitude": 44.19957,
+          "translations": []
+        },
+        {
+          "id": 539,
+          "name": "Tsaghkunk’",
+          "latitude": 40.18048,
+          "longitude": 44.27228,
+          "translations": []
+        },
+        {
+          "id": 540,
+          "name": "Tsiatsan",
+          "latitude": 40.1861,
+          "longitude": 44.26947,
+          "translations": []
+        },
+        {
+          "id": 549,
+          "name": "Vagharshapat",
+          "latitude": 40.16557,
+          "longitude": 44.29462,
+          "translations": []
+        },
+        {
+          "id": 567,
+          "name": "Voskehat",
+          "latitude": 40.14172,
+          "longitude": 44.33069,
+          "translations": []
+        },
+        {
+          "id": 575,
+          "name": "Yeghegnut",
+          "latitude": 40.08893,
+          "longitude": 44.16669,
+          "translations": []
+        },
+        {
+          "id": 579,
+          "name": "Yeraskhahun",
+          "latitude": 40.07233,
+          "longitude": 44.21948,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2027,
+      "name": "Syunik",
+      "stateCode": "SU",
+      "latitude": 39.5133112,
+      "longitude": 46.3393234,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 284,
+          "name": "Agarak",
+          "latitude": 39.20684,
+          "longitude": 46.5446,
+          "translations": []
+        },
+        {
+          "id": 294,
+          "name": "Akner",
+          "latitude": 39.53491,
+          "longitude": 46.30732,
+          "translations": []
+        },
+        {
+          "id": 300,
+          "name": "Angeghakot’",
+          "latitude": 39.56952,
+          "longitude": 45.94452,
+          "translations": []
+        },
+        {
+          "id": 358,
+          "name": "Brrnakot’",
+          "latitude": 39.49742,
+          "longitude": 45.97241,
+          "translations": []
+        },
+        {
+          "id": 381,
+          "name": "Dzorastan",
+          "latitude": 39.27059,
+          "longitude": 46.3572,
+          "translations": []
+        },
+        {
+          "id": 402,
+          "name": "Goris",
+          "latitude": 39.51111,
+          "longitude": 46.34168,
+          "translations": []
+        },
+        {
+          "id": 408,
+          "name": "Hats’avan",
+          "latitude": 39.46405,
+          "longitude": 45.97047,
+          "translations": []
+        },
+        {
+          "id": 425,
+          "name": "Kapan",
+          "latitude": 39.20755,
+          "longitude": 46.40576,
+          "translations": []
+        },
+        {
+          "id": 432,
+          "name": "Khndzoresk",
+          "latitude": 39.50568,
+          "longitude": 46.4361,
+          "translations": []
+        },
+        {
+          "id": 464,
+          "name": "Meghri",
+          "latitude": 38.90292,
+          "longitude": 46.24458,
+          "translations": []
+        },
+        {
+          "id": 515,
+          "name": "Shaghat",
+          "latitude": 39.55698,
+          "longitude": 45.90727,
+          "translations": []
+        },
+        {
+          "id": 521,
+          "name": "Shinuhayr",
+          "latitude": 39.4367,
+          "longitude": 46.31787,
+          "translations": []
+        },
+        {
+          "id": 535,
+          "name": "Tegh",
+          "latitude": 39.55826,
+          "longitude": 46.48054,
+          "translations": []
+        },
+        {
+          "id": 564,
+          "name": "Verishen",
+          "latitude": 39.53543,
+          "longitude": 46.32063,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2028,
+      "name": "Gegharkunik",
+      "stateCode": "GR",
+      "latitude": 40.3526426,
+      "longitude": 45.1260414,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 296,
+          "name": "Akunk’",
+          "latitude": 40.15886,
+          "longitude": 45.72568,
+          "translations": []
+        },
+        {
+          "id": 336,
+          "name": "Astghadzor",
+          "latitude": 40.12231,
+          "longitude": 45.35553,
+          "translations": []
+        },
+        {
+          "id": 364,
+          "name": "Chambarak",
+          "latitude": 40.59655,
+          "longitude": 45.35498,
+          "translations": []
+        },
+        {
+          "id": 371,
+          "name": "Ddmashen",
+          "latitude": 40.57028,
+          "longitude": 44.82295,
+          "translations": []
+        },
+        {
+          "id": 375,
+          "name": "Drakhtik",
+          "latitude": 40.56497,
+          "longitude": 45.2367,
+          "translations": []
+        },
+        {
+          "id": 380,
+          "name": "Dzoragyugh",
+          "latitude": 40.16957,
+          "longitude": 45.18337,
+          "translations": []
+        },
+        {
+          "id": 384,
+          "name": "Gagarin",
+          "latitude": 40.54026,
+          "longitude": 44.86962,
+          "translations": []
+        },
+        {
+          "id": 385,
+          "name": "Gandzak",
+          "latitude": 40.31472,
+          "longitude": 45.11139,
+          "translations": []
+        },
+        {
+          "id": 387,
+          "name": "Gavarr",
+          "latitude": 40.35398,
+          "longitude": 45.12386,
+          "translations": []
+        },
+        {
+          "id": 390,
+          "name": "Geghamasar",
+          "latitude": 40.31091,
+          "longitude": 45.67924,
+          "translations": []
+        },
+        {
+          "id": 391,
+          "name": "Geghamavan",
+          "latitude": 40.5625,
+          "longitude": 44.88892,
+          "translations": []
+        },
+        {
+          "id": 427,
+          "name": "Karanlukh",
+          "latitude": 40.10444,
+          "longitude": 45.28972,
+          "translations": []
+        },
+        {
+          "id": 429,
+          "name": "Karchaghbyur",
+          "latitude": 40.17048,
+          "longitude": 45.57785,
+          "translations": []
+        },
+        {
+          "id": 437,
+          "name": "Lanjaghbyur",
+          "latitude": 40.26947,
+          "longitude": 45.14447,
+          "translations": []
+        },
+        {
+          "id": 438,
+          "name": "Lchap’",
+          "latitude": 40.45569,
+          "longitude": 45.07507,
+          "translations": []
+        },
+        {
+          "id": 439,
+          "name": "Lchashen",
+          "latitude": 40.51947,
+          "longitude": 44.93048,
+          "translations": []
+        },
+        {
+          "id": 446,
+          "name": "Lichk’",
+          "latitude": 40.15933,
+          "longitude": 45.23467,
+          "translations": []
+        },
+        {
+          "id": 450,
+          "name": "Madina",
+          "latitude": 40.07637,
+          "longitude": 45.25507,
+          "translations": []
+        },
+        {
+          "id": 457,
+          "name": "Martuni",
+          "latitude": 40.08333,
+          "longitude": 45.25,
+          "translations": []
+        },
+        {
+          "id": 467,
+          "name": "Mets Masrik",
+          "latitude": 40.21948,
+          "longitude": 45.76391,
+          "translations": []
+        },
+        {
+          "id": 481,
+          "name": "Nerk’in Getashen",
+          "latitude": 40.14172,
+          "longitude": 45.27087,
+          "translations": []
+        },
+        {
+          "id": 492,
+          "name": "Noratus",
+          "latitude": 40.37793,
+          "longitude": 45.18048,
+          "translations": []
+        },
+        {
+          "id": 511,
+          "name": "Sarukhan",
+          "latitude": 40.29169,
+          "longitude": 45.13068,
+          "translations": []
+        },
+        {
+          "id": 514,
+          "name": "Sevan",
+          "latitude": 40.5473,
+          "longitude": 44.94171,
+          "translations": []
+        },
+        {
+          "id": 541,
+          "name": "Tsovagyugh",
+          "latitude": 40.63348,
+          "longitude": 44.96112,
+          "translations": []
+        },
+        {
+          "id": 542,
+          "name": "Tsovak",
+          "latitude": 40.18254,
+          "longitude": 45.63286,
+          "translations": []
+        },
+        {
+          "id": 543,
+          "name": "Tsovasar",
+          "latitude": 40.1382,
+          "longitude": 45.19096,
+          "translations": []
+        },
+        {
+          "id": 544,
+          "name": "Tsovazard",
+          "latitude": 40.4751,
+          "longitude": 45.05011,
+          "translations": []
+        },
+        {
+          "id": 545,
+          "name": "Tsovinar",
+          "latitude": 40.15959,
+          "longitude": 45.46786,
+          "translations": []
+        },
+        {
+          "id": 550,
+          "name": "Vaghashen",
+          "latitude": 40.13611,
+          "longitude": 45.33069,
+          "translations": []
+        },
+        {
+          "id": 552,
+          "name": "Vahan",
+          "latitude": 40.57549,
+          "longitude": 45.39769,
+          "translations": []
+        },
+        {
+          "id": 556,
+          "name": "Vardenik",
+          "latitude": 40.13348,
+          "longitude": 45.44311,
+          "translations": []
+        },
+        {
+          "id": 557,
+          "name": "Vardenis",
+          "latitude": 40.18329,
+          "longitude": 45.73053,
+          "translations": []
+        },
+        {
+          "id": 558,
+          "name": "Varser",
+          "latitude": 40.55548,
+          "longitude": 44.90832,
+          "translations": []
+        },
+        {
+          "id": 563,
+          "name": "Verin Getashen",
+          "latitude": 40.13068,
+          "longitude": 45.25293,
+          "translations": []
+        },
+        {
+          "id": 578,
+          "name": "Yeranos",
+          "latitude": 40.20428,
+          "longitude": 45.19209,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2029,
+      "name": "Lori",
+      "stateCode": "LO",
+      "latitude": 40.9698452,
+      "longitude": 44.4900138,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 283,
+          "name": "Agarak",
+          "latitude": 41.01072,
+          "longitude": 44.46845,
+          "translations": []
+        },
+        {
+          "id": 290,
+          "name": "Akht’ala",
+          "latitude": 41.16838,
+          "longitude": 44.75811,
+          "translations": []
+        },
+        {
+          "id": 298,
+          "name": "Alaverdi",
+          "latitude": 41.09766,
+          "longitude": 44.67316,
+          "translations": []
+        },
+        {
+          "id": 316,
+          "name": "Arevashogh",
+          "latitude": 40.86039,
+          "longitude": 44.27438,
+          "translations": []
+        },
+        {
+          "id": 353,
+          "name": "Bazum",
+          "latitude": 40.86763,
+          "longitude": 44.43978,
+          "translations": []
+        },
+        {
+          "id": 365,
+          "name": "Chochkan",
+          "latitude": 41.18118,
+          "longitude": 44.83217,
+          "translations": []
+        },
+        {
+          "id": 369,
+          "name": "Darpas",
+          "latitude": 40.83674,
+          "longitude": 44.42494,
+          "translations": []
+        },
+        {
+          "id": 376,
+          "name": "Dsegh",
+          "latitude": 40.9617,
+          "longitude": 44.65003,
+          "translations": []
+        },
+        {
+          "id": 383,
+          "name": "Fioletovo",
+          "latitude": 40.72241,
+          "longitude": 44.71769,
+          "translations": []
+        },
+        {
+          "id": 399,
+          "name": "Gogaran",
+          "latitude": 40.89255,
+          "longitude": 44.19915,
+          "translations": []
+        },
+        {
+          "id": 404,
+          "name": "Gugark’",
+          "latitude": 40.8046,
+          "longitude": 44.54025,
+          "translations": []
+        },
+        {
+          "id": 405,
+          "name": "Gyulagarak",
+          "latitude": 40.96715,
+          "longitude": 44.47144,
+          "translations": []
+        },
+        {
+          "id": 423,
+          "name": "Jrashen",
+          "latitude": 40.79028,
+          "longitude": 44.18664,
+          "translations": []
+        },
+        {
+          "id": 443,
+          "name": "Lerrnants’k’",
+          "latitude": 40.79532,
+          "longitude": 44.27435,
+          "translations": []
+        },
+        {
+          "id": 444,
+          "name": "Lerrnapat",
+          "latitude": 40.81538,
+          "longitude": 44.39344,
+          "translations": []
+        },
+        {
+          "id": 445,
+          "name": "Lerrnavan",
+          "latitude": 40.7882,
+          "longitude": 44.16024,
+          "translations": []
+        },
+        {
+          "id": 447,
+          "name": "Lorut",
+          "latitude": 40.93717,
+          "longitude": 44.77142,
+          "translations": []
+        },
+        {
+          "id": 453,
+          "name": "Margahovit",
+          "latitude": 40.73381,
+          "longitude": 44.68474,
+          "translations": []
+        },
+        {
+          "id": 468,
+          "name": "Mets Parni",
+          "latitude": 40.83472,
+          "longitude": 44.11108,
+          "translations": []
+        },
+        {
+          "id": 470,
+          "name": "Metsavan",
+          "latitude": 41.20156,
+          "longitude": 44.22877,
+          "translations": []
+        },
+        {
+          "id": 490,
+          "name": "Norashen",
+          "latitude": 41.18886,
+          "longitude": 44.33336,
+          "translations": []
+        },
+        {
+          "id": 496,
+          "name": "Odzun",
+          "latitude": 41.05321,
+          "longitude": 44.61341,
+          "translations": []
+        },
+        {
+          "id": 506,
+          "name": "Sarahart’",
+          "latitude": 40.87043,
+          "longitude": 44.21407,
+          "translations": []
+        },
+        {
+          "id": 507,
+          "name": "Saramej",
+          "latitude": 40.77487,
+          "longitude": 44.2222,
+          "translations": []
+        },
+        {
+          "id": 517,
+          "name": "Shahumyan",
+          "latitude": 40.77482,
+          "longitude": 44.54596,
+          "translations": []
+        },
+        {
+          "id": 523,
+          "name": "Shirakamut",
+          "latitude": 40.86056,
+          "longitude": 44.15278,
+          "translations": []
+        },
+        {
+          "id": 524,
+          "name": "Shnogh",
+          "latitude": 41.14693,
+          "longitude": 44.84043,
+          "translations": []
+        },
+        {
+          "id": 529,
+          "name": "Spitak",
+          "latitude": 40.83221,
+          "longitude": 44.26731,
+          "translations": []
+        },
+        {
+          "id": 530,
+          "name": "Step’anavan",
+          "latitude": 41.00995,
+          "longitude": 44.38531,
+          "translations": []
+        },
+        {
+          "id": 534,
+          "name": "Tashir",
+          "latitude": 41.12072,
+          "longitude": 44.28462,
+          "translations": []
+        },
+        {
+          "id": 536,
+          "name": "Tsaghkaber",
+          "latitude": 40.79849,
+          "longitude": 44.10144,
+          "translations": []
+        },
+        {
+          "id": 547,
+          "name": "Urrut",
+          "latitude": 41.06778,
+          "longitude": 44.39628,
+          "translations": []
+        },
+        {
+          "id": 551,
+          "name": "Vahagni",
+          "latitude": 40.90698,
+          "longitude": 44.60873,
+          "translations": []
+        },
+        {
+          "id": 553,
+          "name": "Vanadzor",
+          "latitude": 40.80456,
+          "longitude": 44.4939,
+          "translations": []
+        },
+        {
+          "id": 554,
+          "name": "Vardablur",
+          "latitude": 40.97083,
+          "longitude": 44.50889,
+          "translations": []
+        },
+        {
+          "id": 576,
+          "name": "Yeghegnut",
+          "latitude": 40.90302,
+          "longitude": 44.63155,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2030,
+      "name": "Yerevan",
+      "stateCode": "ER",
+      "latitude": 40.1872023,
+      "longitude": 44.515209,
+      "type": "city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 304,
+          "name": "Arabkir",
+          "latitude": 40.20549,
+          "longitude": 44.50699,
+          "translations": []
+        },
+        {
+          "id": 321,
+          "name": "Argavand",
+          "latitude": 40.15289,
+          "longitude": 44.4389,
+          "translations": []
+        },
+        {
+          "id": 422,
+          "name": "Jrashen",
+          "latitude": 40.05275,
+          "longitude": 44.51259,
+          "translations": []
+        },
+        {
+          "id": 436,
+          "name": "K’anak’erravan",
+          "latitude": 40.24739,
+          "longitude": 44.53511,
+          "translations": []
+        },
+        {
+          "id": 555,
+          "name": "Vardadzor",
+          "latitude": 40.18701,
+          "longitude": 45.19212,
+          "translations": []
+        },
+        {
+          "id": 581,
+          "name": "Yerevan",
+          "latitude": 40.18111,
+          "longitude": 44.51361,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2031,
+      "name": "Shirak",
+      "stateCode": "SH",
+      "latitude": 40.9630814,
+      "longitude": 43.8102461,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 291,
+          "name": "Akhuryan",
+          "latitude": 40.78003,
+          "longitude": 43.90027,
+          "translations": []
+        },
+        {
+          "id": 299,
+          "name": "Amasia",
+          "latitude": 40.95442,
+          "longitude": 43.7872,
+          "translations": []
+        },
+        {
+          "id": 301,
+          "name": "Anushavan",
+          "latitude": 40.65008,
+          "longitude": 43.98053,
+          "translations": []
+        },
+        {
+          "id": 318,
+          "name": "Arevik",
+          "latitude": 40.7417,
+          "longitude": 43.9043,
+          "translations": []
+        },
+        {
+          "id": 320,
+          "name": "Arevshat",
+          "latitude": 40.65345,
+          "longitude": 44.04419,
+          "translations": []
+        },
+        {
+          "id": 326,
+          "name": "Arrap’i",
+          "latitude": 40.78276,
+          "longitude": 43.80583,
+          "translations": []
+        },
+        {
+          "id": 346,
+          "name": "Azatan",
+          "latitude": 40.71959,
+          "longitude": 43.82727,
+          "translations": []
+        },
+        {
+          "id": 352,
+          "name": "Basen",
+          "latitude": 40.75767,
+          "longitude": 43.99274,
+          "translations": []
+        },
+        {
+          "id": 378,
+          "name": "Dzit’hank’ov",
+          "latitude": 40.50848,
+          "longitude": 43.82092,
+          "translations": []
+        },
+        {
+          "id": 406,
+          "name": "Gyumri",
+          "latitude": 40.7942,
+          "longitude": 43.84528,
+          "translations": []
+        },
+        {
+          "id": 411,
+          "name": "Haykavan",
+          "latitude": 40.80312,
+          "longitude": 43.75173,
+          "translations": []
+        },
+        {
+          "id": 413,
+          "name": "Horrom",
+          "latitude": 40.65973,
+          "longitude": 43.89032,
+          "translations": []
+        },
+        {
+          "id": 424,
+          "name": "Kamo",
+          "latitude": 40.82572,
+          "longitude": 43.95071,
+          "translations": []
+        },
+        {
+          "id": 441,
+          "name": "Lerrnakert",
+          "latitude": 40.5625,
+          "longitude": 43.9389,
+          "translations": []
+        },
+        {
+          "id": 452,
+          "name": "Maralik",
+          "latitude": 40.57507,
+          "longitude": 43.87231,
+          "translations": []
+        },
+        {
+          "id": 456,
+          "name": "Marmashen",
+          "latitude": 40.83486,
+          "longitude": 43.7779,
+          "translations": []
+        },
+        {
+          "id": 460,
+          "name": "Mayisyan",
+          "latitude": 40.84715,
+          "longitude": 43.83938,
+          "translations": []
+        },
+        {
+          "id": 463,
+          "name": "Meghrashen",
+          "latitude": 40.6723,
+          "longitude": 43.95831,
+          "translations": []
+        },
+        {
+          "id": 466,
+          "name": "Mets Mant’ash",
+          "latitude": 40.64376,
+          "longitude": 44.05653,
+          "translations": []
+        },
+        {
+          "id": 499,
+          "name": "Pemzashen",
+          "latitude": 40.58612,
+          "longitude": 43.94311,
+          "translations": []
+        },
+        {
+          "id": 503,
+          "name": "P’ok’r Mant’ash",
+          "latitude": 40.64026,
+          "longitude": 44.04666,
+          "translations": []
+        },
+        {
+          "id": 508,
+          "name": "Saratak",
+          "latitude": 40.6709,
+          "longitude": 43.87231,
+          "translations": []
+        },
+        {
+          "id": 522,
+          "name": "Shirak",
+          "latitude": 40.84042,
+          "longitude": 43.91582,
+          "translations": []
+        },
+        {
+          "id": 528,
+          "name": "Spandaryan",
+          "latitude": 40.66105,
+          "longitude": 44.01551,
+          "translations": []
+        },
+        {
+          "id": 566,
+          "name": "Voskehask",
+          "latitude": 40.76426,
+          "longitude": 43.77474,
+          "translations": []
+        },
+        {
+          "id": 580,
+          "name": "Yerazgavors",
+          "latitude": 40.69505,
+          "longitude": 43.74722,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2032,
+      "name": "Tavush",
+      "stateCode": "TV",
+      "latitude": 40.8866296,
+      "longitude": 45.339349,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 312,
+          "name": "Archis",
+          "latitude": 41.16351,
+          "longitude": 44.87631,
+          "translations": []
+        },
+        {
+          "id": 331,
+          "name": "Artsvaberd",
+          "latitude": 40.83947,
+          "longitude": 45.47033,
+          "translations": []
+        },
+        {
+          "id": 339,
+          "name": "Aygehovit",
+          "latitude": 40.97951,
+          "longitude": 45.25033,
+          "translations": []
+        },
+        {
+          "id": 345,
+          "name": "Azatamut",
+          "latitude": 40.98204,
+          "longitude": 45.18551,
+          "translations": []
+        },
+        {
+          "id": 348,
+          "name": "Bagratashen",
+          "latitude": 41.24358,
+          "longitude": 44.81737,
+          "translations": []
+        },
+        {
+          "id": 354,
+          "name": "Berd",
+          "latitude": 40.88135,
+          "longitude": 45.38901,
+          "translations": []
+        },
+        {
+          "id": 355,
+          "name": "Berdavan",
+          "latitude": 41.20503,
+          "longitude": 44.99967,
+          "translations": []
+        },
+        {
+          "id": 372,
+          "name": "Dilijan",
+          "latitude": 40.7417,
+          "longitude": 44.8501,
+          "translations": []
+        },
+        {
+          "id": 407,
+          "name": "Haghartsin",
+          "latitude": 40.77614,
+          "longitude": 44.96847,
+          "translations": []
+        },
+        {
+          "id": 418,
+          "name": "Ijevan",
+          "latitude": 40.87877,
+          "longitude": 45.14851,
+          "translations": []
+        },
+        {
+          "id": 431,
+          "name": "Khasht’arrak",
+          "latitude": 40.93668,
+          "longitude": 45.1821,
+          "translations": []
+        },
+        {
+          "id": 471,
+          "name": "Mosesgegh",
+          "latitude": 40.90534,
+          "longitude": 45.48838,
+          "translations": []
+        },
+        {
+          "id": 480,
+          "name": "Navur",
+          "latitude": 40.86695,
+          "longitude": 45.34179,
+          "translations": []
+        },
+        {
+          "id": 494,
+          "name": "Noyemberyan",
+          "latitude": 41.17244,
+          "longitude": 44.99917,
+          "translations": []
+        },
+        {
+          "id": 498,
+          "name": "Parravak’ar",
+          "latitude": 40.98248,
+          "longitude": 45.36696,
+          "translations": []
+        },
+        {
+          "id": 510,
+          "name": "Sarigyugh",
+          "latitude": 41.03531,
+          "longitude": 45.14486,
+          "translations": []
+        },
+        {
+          "id": 569,
+          "name": "Voskevan",
+          "latitude": 41.12081,
+          "longitude": 45.06381,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2033,
+      "name": "Kotayk",
+      "stateCode": "KT",
+      "latitude": 40.5410214,
+      "longitude": 44.7690148,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 281,
+          "name": "Abovyan",
+          "latitude": 40.27368,
+          "longitude": 44.63348,
+          "translations": []
+        },
+        {
+          "id": 287,
+          "name": "Aghavnadzor",
+          "latitude": 40.58195,
+          "longitude": 44.69581,
+          "translations": []
+        },
+        {
+          "id": 295,
+          "name": "Akunk’",
+          "latitude": 40.26672,
+          "longitude": 44.6861,
+          "translations": []
+        },
+        {
+          "id": 308,
+          "name": "Aramus",
+          "latitude": 40.25095,
+          "longitude": 44.66351,
+          "translations": []
+        },
+        {
+          "id": 323,
+          "name": "Argel",
+          "latitude": 40.37793,
+          "longitude": 44.6001,
+          "translations": []
+        },
+        {
+          "id": 332,
+          "name": "Arzakan",
+          "latitude": 40.45007,
+          "longitude": 44.60828,
+          "translations": []
+        },
+        {
+          "id": 333,
+          "name": "Arzni",
+          "latitude": 40.2973,
+          "longitude": 44.59869,
+          "translations": []
+        },
+        {
+          "id": 349,
+          "name": "Balahovit",
+          "latitude": 40.25153,
+          "longitude": 44.60828,
+          "translations": []
+        },
+        {
+          "id": 357,
+          "name": "Bjni",
+          "latitude": 40.45831,
+          "longitude": 44.65008,
+          "translations": []
+        },
+        {
+          "id": 360,
+          "name": "Buzhakan",
+          "latitude": 40.45569,
+          "longitude": 44.51947,
+          "translations": []
+        },
+        {
+          "id": 363,
+          "name": "Byureghavan",
+          "latitude": 40.31417,
+          "longitude": 44.59333,
+          "translations": []
+        },
+        {
+          "id": 379,
+          "name": "Dzoraghbyur",
+          "latitude": 40.20412,
+          "longitude": 44.6415,
+          "translations": []
+        },
+        {
+          "id": 382,
+          "name": "Fantan",
+          "latitude": 40.39447,
+          "longitude": 44.6861,
+          "translations": []
+        },
+        {
+          "id": 386,
+          "name": "Garrni",
+          "latitude": 40.11931,
+          "longitude": 44.73442,
+          "translations": []
+        },
+        {
+          "id": 400,
+          "name": "Goght’",
+          "latitude": 40.1347,
+          "longitude": 44.78332,
+          "translations": []
+        },
+        {
+          "id": 417,
+          "name": "Hrazdan",
+          "latitude": 40.49748,
+          "longitude": 44.7662,
+          "translations": []
+        },
+        {
+          "id": 426,
+          "name": "Kaputan",
+          "latitude": 40.32507,
+          "longitude": 44.70007,
+          "translations": []
+        },
+        {
+          "id": 435,
+          "name": "Kotayk’",
+          "latitude": 40.27789,
+          "longitude": 44.66388,
+          "translations": []
+        },
+        {
+          "id": 442,
+          "name": "Lerrnanist",
+          "latitude": 40.46676,
+          "longitude": 44.79249,
+          "translations": []
+        },
+        {
+          "id": 459,
+          "name": "Mayakovski",
+          "latitude": 40.25293,
+          "longitude": 44.63892,
+          "translations": []
+        },
+        {
+          "id": 462,
+          "name": "Meghradzor",
+          "latitude": 40.60611,
+          "longitude": 44.65147,
+          "translations": []
+        },
+        {
+          "id": 474,
+          "name": "Mrgashen",
+          "latitude": 40.28607,
+          "longitude": 44.54449,
+          "translations": []
+        },
+        {
+          "id": 484,
+          "name": "Nor Geghi",
+          "latitude": 40.32233,
+          "longitude": 44.58331,
+          "translations": []
+        },
+        {
+          "id": 485,
+          "name": "Nor Gyugh",
+          "latitude": 40.26672,
+          "longitude": 44.65832,
+          "translations": []
+        },
+        {
+          "id": 500,
+          "name": "Prroshyan",
+          "latitude": 40.24731,
+          "longitude": 44.41949,
+          "translations": []
+        },
+        {
+          "id": 501,
+          "name": "Ptghni",
+          "latitude": 40.25568,
+          "longitude": 44.58612,
+          "translations": []
+        },
+        {
+          "id": 527,
+          "name": "Solak",
+          "latitude": 40.46252,
+          "longitude": 44.70709,
+          "translations": []
+        },
+        {
+          "id": 537,
+          "name": "Tsaghkadzor",
+          "latitude": 40.53259,
+          "longitude": 44.72025,
+          "translations": []
+        },
+        {
+          "id": 577,
+          "name": "Yeghvard",
+          "latitude": 40.32507,
+          "longitude": 44.48608,
+          "translations": []
+        },
+        {
+          "id": 583,
+          "name": "Zarr",
+          "latitude": 40.25848,
+          "longitude": 44.73328,
+          "translations": []
+        },
+        {
+          "id": 586,
+          "name": "Zoravan",
+          "latitude": 40.35553,
+          "longitude": 44.52228,
+          "translations": []
+        },
+        {
+          "id": 587,
+          "name": "Zovaber",
+          "latitude": 40.56671,
+          "longitude": 44.79028,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

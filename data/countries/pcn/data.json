@@ -1,0 +1,90 @@
+{
+  "id": 175,
+  "name": "Pitcairn Island",
+  "nativeName": "Pitcairn Islands",
+  "iso2": "PN",
+  "iso3": "PCN",
+  "numericCode": "612",
+  "phoneCode": "870",
+  "tld": ".pn",
+  "latitude": -25.06666666,
+  "longitude": -130.1,
+  "flagId": 70,
+  "regionId": 5,
+  "subregionId": 22,
+  "currencyIds": [
+    870
+  ],
+  "timezoneIds": [
+    2510
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "핏케언 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Pitcairn"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Picárnia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Pitcairneilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Pitcairnovo otočje"
+    },
+    {
+      "languageCode": "fa",
+      "name": "پیتکرن"
+    },
+    {
+      "languageCode": "de",
+      "name": "Pitcairn"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Pitcairn"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Pitcairn"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ピトケアン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Pitcairn"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "皮特凯恩群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Pitcairn Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Остров Питкэрн"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Острів Піткерн"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspa Pitcairn"
+    }
+  ],
+  "states": []
+}

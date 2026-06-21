@@ -1,0 +1,271 @@
+{
+  "id": 136,
+  "name": "Isle of Man",
+  "nativeName": "Isle of Man",
+  "iso2": "IM",
+  "iso3": "IMN",
+  "numericCode": "833",
+  "phoneCode": "44",
+  "tld": ".im",
+  "latitude": 54.25,
+  "longitude": -4.5,
+  "flagId": 146,
+  "regionId": 4,
+  "subregionId": 18,
+  "currencyIds": [
+    890
+  ],
+  "timezoneIds": [
+    2452
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "맨 섬"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilha de Man"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilha de Man"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Isle of Man"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Otok Man"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزیره من"
+    },
+    {
+      "languageCode": "de",
+      "name": "Insel Man"
+    },
+    {
+      "languageCode": "es",
+      "name": "Isla de Man"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Île de Man"
+    },
+    {
+      "languageCode": "ja",
+      "name": "マン島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isola di Man"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "马恩岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Man Adasi"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Мэн (остров)"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Мен (острів Мен)"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Man (Wyspa)"
+    }
+  ],
+  "states": [
+    {
+      "id": 5303,
+      "name": "Ayre",
+      "stateCode": "01",
+      "latitude": 54.3297577,
+      "longitude": -4.6025879,
+      "type": "sheadings",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154082,
+          "name": "Andreas",
+          "latitude": 54.368414,
+          "longitude": -4.5211463,
+          "translations": []
+        },
+        {
+          "id": 154083,
+          "name": "Bride",
+          "latitude": 54.3831657,
+          "longitude": -4.4080356,
+          "translations": []
+        },
+        {
+          "id": 154084,
+          "name": "Lezayre",
+          "latitude": 54.2962193,
+          "longitude": -4.5311015,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5304,
+      "name": "Garff",
+      "stateCode": "02",
+      "latitude": 54.256872,
+      "longitude": -4.5547307,
+      "type": "sheadings",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154085,
+          "name": "Lonan",
+          "latitude": 54.2210452,
+          "longitude": -4.5010306,
+          "translations": []
+        },
+        {
+          "id": 154086,
+          "name": "Maughold",
+          "latitude": 54.2549454,
+          "longitude": -4.5122349,
+          "translations": []
+        },
+        {
+          "id": 154087,
+          "name": "Onchan",
+          "latitude": 54.1981508,
+          "longitude": -4.5490898,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5305,
+      "name": "Glenfaba",
+      "stateCode": "03",
+      "latitude": 54.1985534,
+      "longitude": -4.8131407,
+      "type": "sheadings",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154088,
+          "name": "German",
+          "latitude": 54.2187145,
+          "longitude": -4.7065273,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5306,
+      "name": "Michael",
+      "stateCode": "04",
+      "latitude": 54.2742778,
+      "longitude": -4.6427325,
+      "type": "sheadings",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154089,
+          "name": "Ballaugh",
+          "latitude": 54.3048121,
+          "longitude": -4.6207526,
+          "translations": []
+        },
+        {
+          "id": 154090,
+          "name": "Jurby",
+          "latitude": 54.3590528,
+          "longitude": -4.5406586,
+          "translations": []
+        },
+        {
+          "id": 154091,
+          "name": "Michael",
+          "latitude": 54.2742778,
+          "longitude": -4.6427325,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5307,
+      "name": "Middle",
+      "stateCode": "05",
+      "latitude": 54.1777052,
+      "longitude": -4.8106436,
+      "type": "sheadings",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154092,
+          "name": "Braddan",
+          "latitude": 54.1632828,
+          "longitude": -4.5258506,
+          "translations": []
+        },
+        {
+          "id": 154093,
+          "name": "Marown",
+          "latitude": 54.1846242,
+          "longitude": -4.6495218,
+          "translations": []
+        },
+        {
+          "id": 154094,
+          "name": "Santon",
+          "latitude": 54.1205489,
+          "longitude": -4.6493775,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5308,
+      "name": "Rushen",
+      "stateCode": "06",
+      "latitude": 54.0957406,
+      "longitude": -4.8283517,
+      "type": "sheadings",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154095,
+          "name": "Arbory",
+          "latitude": 54.1087807,
+          "longitude": -4.8356454,
+          "translations": []
+        },
+        {
+          "id": 154096,
+          "name": "Rushen",
+          "latitude": 54.0908492,
+          "longitude": -4.8414982,
+          "translations": []
+        },
+        {
+          "id": 154097,
+          "name": "Malew",
+          "latitude": 54.1118049,
+          "longitude": -4.8013827,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

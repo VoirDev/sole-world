@@ -1,0 +1,679 @@
+{
+  "id": 17,
+  "name": "The Bahamas",
+  "nativeName": "Bahamas",
+  "iso2": "BS",
+  "iso3": "BHS",
+  "numericCode": "044",
+  "phoneCode": "1",
+  "tld": ".bs",
+  "latitude": 24.25,
+  "longitude": -76,
+  "flagId": 217,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    970
+  ],
+  "timezoneIds": [
+    2583
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "바하마"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Bahamas"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Baamas"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Bahama’s"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Bahami"
+    },
+    {
+      "languageCode": "fa",
+      "name": "باهاما"
+    },
+    {
+      "languageCode": "de",
+      "name": "Bahamas"
+    },
+    {
+      "languageCode": "es",
+      "name": "Bahamas"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Bahamas"
+    },
+    {
+      "languageCode": "ja",
+      "name": "バハマ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Bahamas"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "巴哈马"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Bahamalar"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Багамы"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Багамські острови"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Bahamy"
+    }
+  ],
+  "states": [
+    {
+      "id": 3593,
+      "name": "Berry Islands",
+      "stateCode": "BY",
+      "latitude": 25.6250042,
+      "longitude": -77.8252203,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3594,
+      "name": "Nichollstown and Berry Islands",
+      "stateCode": "NB",
+      "latitude": 25.7236234,
+      "longitude": -77.8310104,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3595,
+      "name": "Green Turtle Cay",
+      "stateCode": "GT",
+      "latitude": 26.7747107,
+      "longitude": -77.3295708,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3596,
+      "name": "Central Eleuthera",
+      "stateCode": "CE",
+      "latitude": 25.1362037,
+      "longitude": -76.1435915,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3597,
+      "name": "Governor's Harbour",
+      "stateCode": "GH",
+      "latitude": 25.1948096,
+      "longitude": -76.2439622,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3598,
+      "name": "High Rock",
+      "stateCode": "HR",
+      "latitude": 46.6843415,
+      "longitude": -121.9017461,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3599,
+      "name": "West Grand Bahama",
+      "stateCode": "WG",
+      "latitude": 26.659447,
+      "longitude": -78.52065,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15704,
+          "name": "West End",
+          "latitude": 26.68711,
+          "longitude": -78.97702,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3600,
+      "name": "Rum Cay",
+      "stateCode": "RC",
+      "latitude": 23.6854676,
+      "longitude": -74.8390162,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15701,
+          "name": "Port Nelson",
+          "latitude": 23.64967,
+          "longitude": -74.84157,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3601,
+      "name": "Acklins",
+      "stateCode": "AK",
+      "latitude": 22.3657708,
+      "longitude": -74.0535126,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3602,
+      "name": "North Eleuthera",
+      "stateCode": "NE",
+      "latitude": 25.4647517,
+      "longitude": -76.675922,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3603,
+      "name": "Central Abaco",
+      "stateCode": "CO",
+      "latitude": 26.3555029,
+      "longitude": -77.1485163,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15699,
+          "name": "Marsh Harbour",
+          "latitude": 26.54124,
+          "longitude": -77.0636,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3604,
+      "name": "Marsh Harbour",
+      "stateCode": "MH",
+      "latitude": 26.5241653,
+      "longitude": -77.0909809,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3605,
+      "name": "Black Point",
+      "stateCode": "BP",
+      "latitude": 41.3951024,
+      "longitude": -71.4650556,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3606,
+      "name": "Sandy Point",
+      "stateCode": "SP",
+      "latitude": 39.0145464,
+      "longitude": -76.3998925,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3607,
+      "name": "South Eleuthera",
+      "stateCode": "SE",
+      "latitude": 24.7708562,
+      "longitude": -76.2131474,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3608,
+      "name": "South Abaco",
+      "stateCode": "SO",
+      "latitude": 26.0640591,
+      "longitude": -77.2635038,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3609,
+      "name": "Inagua",
+      "stateCode": "IN",
+      "latitude": 21.0656066,
+      "longitude": -73.323708,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15700,
+          "name": "Matthew Town",
+          "latitude": 20.94982,
+          "longitude": -73.67346,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3610,
+      "name": "Long Island",
+      "stateCode": "LI",
+      "latitude": 40.789142,
+      "longitude": -73.134961,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15689,
+          "name": "Clarence Town",
+          "latitude": 23.1,
+          "longitude": -74.98333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3611,
+      "name": "Cat Island",
+      "stateCode": "CI",
+      "latitude": 30.2280136,
+      "longitude": -89.1014933,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15688,
+          "name": "Arthur’s Town",
+          "latitude": 24.6224,
+          "longitude": -75.67151,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3612,
+      "name": "Exuma",
+      "stateCode": "EX",
+      "latitude": 23.6192598,
+      "longitude": -75.9695465,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15696,
+          "name": "George Town",
+          "latitude": 23.51616,
+          "longitude": -75.78665,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3613,
+      "name": "Harbour Island",
+      "stateCode": "HI",
+      "latitude": 25.50011,
+      "longitude": -76.6340511,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15694,
+          "name": "Dunmore Town",
+          "latitude": 25.50216,
+          "longitude": -76.63633,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3614,
+      "name": "East Grand Bahama",
+      "stateCode": "EG",
+      "latitude": 26.6582823,
+      "longitude": -78.2248291,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15697,
+          "name": "High Rock",
+          "latitude": 26.60999,
+          "longitude": -78.27863,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3615,
+      "name": "Ragged Island",
+      "stateCode": "RI",
+      "latitude": 41.597431,
+      "longitude": -71.260202,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15693,
+          "name": "Duncan Town",
+          "latitude": 22.19083,
+          "longitude": -75.72583,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3616,
+      "name": "North Abaco",
+      "stateCode": "NO",
+      "latitude": 26.7871697,
+      "longitude": -77.4357739,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15692,
+          "name": "Cooper’s Town",
+          "latitude": 26.87137,
+          "longitude": -77.51131,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3617,
+      "name": "North Andros",
+      "stateCode": "NS",
+      "latitude": 24.7063805,
+      "longitude": -78.0195387,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15687,
+          "name": "Andros Town",
+          "latitude": 24.70502,
+          "longitude": -77.76912,
+          "translations": []
+        },
+        {
+          "id": 15702,
+          "name": "San Andros",
+          "latitude": 25.06667,
+          "longitude": -78.05,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3618,
+      "name": "Kemps Bay",
+      "stateCode": "KB",
+      "latitude": 24.02364,
+      "longitude": -77.545349,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3619,
+      "name": "Fresh Creek",
+      "stateCode": "FC",
+      "latitude": 40.6543756,
+      "longitude": -73.8947939,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3620,
+      "name": "San Salvador and Rum Cay",
+      "stateCode": "SR",
+      "latitude": 23.6854676,
+      "longitude": -74.8390162,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3621,
+      "name": "Crooked Island",
+      "stateCode": "CK",
+      "latitude": 22.6390982,
+      "longitude": -74.006509,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15691,
+          "name": "Colonel Hill",
+          "latitude": 22.7545,
+          "longitude": -74.20415,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3622,
+      "name": "South Andros",
+      "stateCode": "SA",
+      "latitude": 23.9713556,
+      "longitude": -77.6077865,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3623,
+      "name": "Rock Sound",
+      "stateCode": "RS",
+      "latitude": 39.0142443,
+      "longitude": -95.6708989,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3624,
+      "name": "Hope Town",
+      "stateCode": "HT",
+      "latitude": 26.5009504,
+      "longitude": -76.9959872,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3625,
+      "name": "Mangrove Cay",
+      "stateCode": "MC",
+      "latitude": 24.1481425,
+      "longitude": -77.7680952,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3626,
+      "name": "Freeport",
+      "stateCode": "FP",
+      "latitude": 42.2966861,
+      "longitude": -89.6212271,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15695,
+          "name": "Freeport",
+          "latitude": 26.53333,
+          "longitude": -78.7,
+          "translations": []
+        },
+        {
+          "id": 15698,
+          "name": "Lucaya",
+          "latitude": 26.53333,
+          "longitude": -78.66667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3627,
+      "name": "San Salvador Island",
+      "stateCode": "SS",
+      "latitude": 24.0775546,
+      "longitude": -74.4760088,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15690,
+          "name": "Cockburn Town",
+          "latitude": 24.05179,
+          "longitude": -74.53138,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3628,
+      "name": "Acklins and Crooked Islands",
+      "stateCode": "AC",
+      "latitude": 22.3657708,
+      "longitude": -74.0535126,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3629,
+      "name": "Bimini",
+      "stateCode": "BI",
+      "latitude": 24.6415325,
+      "longitude": -79.8506226,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15686,
+          "name": "Alice Town",
+          "latitude": 25.728,
+          "longitude": -79.29721,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3630,
+      "name": "Spanish Wells",
+      "stateCode": "SW",
+      "latitude": 26.3250599,
+      "longitude": -81.7980328,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15703,
+          "name": "Spanish Wells",
+          "latitude": 25.54717,
+          "longitude": -76.76405,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3631,
+      "name": "Central Andros",
+      "stateCode": "CS",
+      "latitude": 24.4688482,
+      "longitude": -77.973865,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3632,
+      "name": "Grand Cay",
+      "stateCode": "GC",
+      "latitude": 27.2162615,
+      "longitude": -78.3230559,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3633,
+      "name": "Mayaguana",
+      "stateCode": "MG",
+      "latitude": 22.4017714,
+      "longitude": -73.0641396,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15685,
+          "name": "Abraham’s Bay",
+          "latitude": 22.36667,
+          "longitude": -72.96667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4881,
+      "name": "New Providence",
+      "stateCode": "NP",
+      "latitude": 40.6984348,
+      "longitude": -74.4015405,
+      "type": "island",
+      "translations": [],
+      "cities": [
+        {
+          "id": 143913,
+          "name": "Nassau",
+          "latitude": 25.06666667,
+          "longitude": -77.33333333,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

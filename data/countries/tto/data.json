@@ -1,0 +1,441 @@
+{
+  "id": 223,
+  "name": "Trinidad and Tobago",
+  "nativeName": "Trinidad and Tobago",
+  "iso2": "TT",
+  "iso3": "TTO",
+  "numericCode": "780",
+  "phoneCode": "1",
+  "tld": ".tt",
+  "latitude": 11,
+  "longitude": -61,
+  "flagId": 25,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    973
+  ],
+  "timezoneIds": [
+    2589
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "트리니다드 토바고"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Trinidad e Tobago"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Trindade e Tobago"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Trinidad en Tobago"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Trinidad i Tobago"
+    },
+    {
+      "languageCode": "fa",
+      "name": "ترینیداد و توباگو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Trinidad und Tobago"
+    },
+    {
+      "languageCode": "es",
+      "name": "Trinidad y Tobago"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Trinité et Tobago"
+    },
+    {
+      "languageCode": "ja",
+      "name": "トリニダード・トバゴ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Trinidad e Tobago"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "特立尼达和多巴哥"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Trinidad Ve Tobago"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Тринидад и Тобаго"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Тринідад і Тобаго"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Trynidad i Tobago"
+    }
+  ],
+  "states": [
+    {
+      "id": 3353,
+      "name": "Western Tobago",
+      "stateCode": "WTO",
+      "latitude": 11.1897072,
+      "longitude": -60.7795452,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108983,
+          "name": "Rio Claro",
+          "latitude": 10.30594,
+          "longitude": -61.17556,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3354,
+      "name": "Couva-Tabaquite-Talparo",
+      "stateCode": "CTT",
+      "latitude": 10.4297145,
+      "longitude": -61.373521,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108971,
+          "name": "Couva",
+          "latitude": 10.42248,
+          "longitude": -61.46748,
+          "translations": []
+        },
+        {
+          "id": 108988,
+          "name": "Tabaquite",
+          "latitude": 10.38824,
+          "longitude": -61.29704,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3355,
+      "name": "Eastern Tobago",
+      "stateCode": "ETO",
+      "latitude": 11.2979348,
+      "longitude": -60.5588524,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108986,
+          "name": "Scarborough",
+          "latitude": 11.18229,
+          "longitude": -60.73525,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3356,
+      "name": "Rio Claro-Mayaro",
+      "stateCode": "MRC",
+      "latitude": 10.2412832,
+      "longitude": -61.0937206,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3357,
+      "name": "San Juan-Laventille",
+      "stateCode": "SJL",
+      "latitude": 10.6908578,
+      "longitude": -61.4552213,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108973,
+          "name": "Laventille",
+          "latitude": 10.64917,
+          "longitude": -61.49889,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3358,
+      "name": "Tunapuna-Piarco",
+      "stateCode": "TUP",
+      "latitude": 10.6859096,
+      "longitude": -61.3035248,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108969,
+          "name": "Arouca",
+          "latitude": 10.62877,
+          "longitude": -61.33487,
+          "translations": []
+        },
+        {
+          "id": 108977,
+          "name": "Paradise",
+          "latitude": 10.65298,
+          "longitude": -61.36298,
+          "translations": []
+        },
+        {
+          "id": 108989,
+          "name": "Tunapuna",
+          "latitude": 10.65245,
+          "longitude": -61.38878,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3359,
+      "name": "San Fernando",
+      "stateCode": "SFO",
+      "latitude": 34.2819461,
+      "longitude": -118.4389719,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108974,
+          "name": "Marabella",
+          "latitude": 10.30618,
+          "longitude": -61.44671,
+          "translations": []
+        },
+        {
+          "id": 108975,
+          "name": "Mon Repos",
+          "latitude": 10.27979,
+          "longitude": -61.4459,
+          "translations": []
+        },
+        {
+          "id": 108984,
+          "name": "San Fernando",
+          "latitude": 10.27969,
+          "longitude": -61.46835,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3360,
+      "name": "Point Fortin",
+      "stateCode": "PTF",
+      "latitude": 10.1702737,
+      "longitude": -61.6713386,
+      "type": "borough",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108980,
+          "name": "Point Fortin",
+          "latitude": 10.17411,
+          "longitude": -61.68407,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3361,
+      "name": "Sangre Grande",
+      "stateCode": "SGE",
+      "latitude": 10.5852939,
+      "longitude": -61.1315813,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108985,
+          "name": "Sangre Grande",
+          "latitude": 10.58705,
+          "longitude": -61.13008,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3362,
+      "name": "Arima",
+      "stateCode": "ARI",
+      "latitude": 46.7931604,
+      "longitude": -71.2584311,
+      "type": "borough",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108968,
+          "name": "Arima",
+          "latitude": 10.63737,
+          "longitude": -61.28228,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3363,
+      "name": "Port of Spain",
+      "stateCode": "POS",
+      "latitude": 10.6603196,
+      "longitude": -61.5085625,
+      "type": "city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108976,
+          "name": "Mucurapo",
+          "latitude": 10.66253,
+          "longitude": -61.53697,
+          "translations": []
+        },
+        {
+          "id": 108981,
+          "name": "Port of Spain",
+          "latitude": 10.66668,
+          "longitude": -61.51889,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3364,
+      "name": "Siparia",
+      "stateCode": "SIP",
+      "latitude": 10.1245626,
+      "longitude": -61.5603244,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108987,
+          "name": "Siparia",
+          "latitude": 10.14525,
+          "longitude": -61.5074,
+          "translations": []
+        },
+        {
+          "id": 108992,
+          "name": "Ward of Siparia",
+          "latitude": 10.15,
+          "longitude": -61.46667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3365,
+      "name": "Penal-Debe",
+      "stateCode": "PED",
+      "latitude": 10.1337402,
+      "longitude": -61.4435474,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108972,
+          "name": "Debe",
+          "latitude": 10.20846,
+          "longitude": -61.45273,
+          "translations": []
+        },
+        {
+          "id": 108979,
+          "name": "Peñal",
+          "latitude": 10.16667,
+          "longitude": -61.46667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3366,
+      "name": "Chaguanas",
+      "stateCode": "CHA",
+      "latitude": 10.5168387,
+      "longitude": -61.4114482,
+      "type": "borough",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108970,
+          "name": "Chaguanas",
+          "latitude": 10.51667,
+          "longitude": -61.41667,
+          "translations": []
+        },
+        {
+          "id": 108990,
+          "name": "Ward of Chaguanas",
+          "latitude": 10.5,
+          "longitude": -61.38333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3367,
+      "name": "Diego Martin",
+      "stateCode": "DMN",
+      "latitude": 10.7362286,
+      "longitude": -61.5544836,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108978,
+          "name": "Petit Valley",
+          "latitude": 10.69974,
+          "longitude": -61.54717,
+          "translations": []
+        },
+        {
+          "id": 108991,
+          "name": "Ward of Diego Martin",
+          "latitude": 10.7,
+          "longitude": -61.58333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3368,
+      "name": "Princes Town",
+      "stateCode": "PRT",
+      "latitude": 10.1786746,
+      "longitude": -61.2801996,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108982,
+          "name": "Princes Town",
+          "latitude": 10.27184,
+          "longitude": -61.37103,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 211,
+  "name": "Svalbard and Jan Mayen Islands",
+  "nativeName": "Svalbard og Jan Mayen",
+  "iso2": "SJ",
+  "iso3": "SJM",
+  "numericCode": "744",
+  "phoneCode": "47",
+  "tld": ".sj",
+  "latitude": 78,
+  "longitude": 20,
+  "flagId": 50,
+  "regionId": 4,
+  "subregionId": 18,
+  "currencyIds": [
+    935
+  ],
+  "timezoneIds": [
+    2575
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "스발바르 얀마옌 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Svalbard"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Svalbard"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Svalbard en Jan Mayen"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Svalbard i Jan Mayen"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سوالبارد و یان ماین"
+    },
+    {
+      "languageCode": "de",
+      "name": "Svalbard und Jan Mayen"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Svalbard y Jan Mayen"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Svalbard et Jan Mayen"
+    },
+    {
+      "languageCode": "ja",
+      "name": "スヴァールバル諸島およびヤンマイエン島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Svalbard e Jan Mayen"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "斯瓦尔巴和扬马延群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Svalbard Ve Jan Mayen"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Шпицберген и острова Ян-Майен"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Шпіцберген та острови Ян-Майєн"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Svalbard i Jan Mayen"
+    }
+  ],
+  "states": []
+}

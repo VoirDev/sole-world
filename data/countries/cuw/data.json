@@ -1,0 +1,81 @@
+{
+  "id": 249,
+  "name": "Curaçao",
+  "nativeName": "Curaçao",
+  "iso2": "CW",
+  "iso3": "CUW",
+  "numericCode": "531",
+  "phoneCode": "599",
+  "tld": ".cw",
+  "latitude": 12.116667,
+  "longitude": -68.933333,
+  "flagId": 198,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    873
+  ],
+  "timezoneIds": [
+    2354
+  ],
+  "officialLanguageIds": [
+    29,
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "퀴라소"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Curaçao"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Curaçao"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Curaçao"
+    },
+    {
+      "languageCode": "fa",
+      "name": "کوراسائو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Curaçao"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Curaçao"
+    },
+    {
+      "languageCode": "it",
+      "name": "Curaçao"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "库拉索"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Curaçao"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Кюрасао"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Кюрасао"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Curaçao"
+    }
+  ],
+  "states": []
+}

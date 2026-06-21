@@ -1,0 +1,2547 @@
+{
+  "id": 149,
+  "name": "Morocco",
+  "nativeName": "المغرب",
+  "iso2": "MA",
+  "iso3": "MAR",
+  "numericCode": "504",
+  "phoneCode": "212",
+  "tld": ".ma",
+  "latitude": 32,
+  "longitude": -5,
+  "flagId": 114,
+  "regionId": 1,
+  "subregionId": 1,
+  "currencyIds": [
+    926
+  ],
+  "timezoneIds": [
+    2480
+  ],
+  "officialLanguageIds": [
+    7
+  ],
+  "otherLanguageIds": [
+    30,
+    33,
+    47
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "모로코"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Marrocos"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Marrocos"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Marokko"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Maroko"
+    },
+    {
+      "languageCode": "fa",
+      "name": "مراکش"
+    },
+    {
+      "languageCode": "de",
+      "name": "Marokko"
+    },
+    {
+      "languageCode": "es",
+      "name": "Marruecos"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Maroc"
+    },
+    {
+      "languageCode": "ja",
+      "name": "モロッコ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Marocco"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "摩洛哥"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Fas"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Марокко"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Марокко"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Maroko"
+    }
+  ],
+  "states": [
+    {
+      "id": 3265,
+      "name": "Guelmim",
+      "stateCode": "GUE",
+      "latitude": 28.9883659,
+      "longitude": -10.0527498,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3266,
+      "name": "Aousserd (EH)",
+      "stateCode": "AOU",
+      "latitude": 22.5521538,
+      "longitude": -14.3297353,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3267,
+      "name": "Al Hoceïma",
+      "stateCode": "HOC",
+      "latitude": 35.2445589,
+      "longitude": -3.9317468,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3268,
+      "name": "Larache",
+      "stateCode": "LAR",
+      "latitude": 35.1744271,
+      "longitude": -6.1473964,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3269,
+      "name": "Ouarzazate",
+      "stateCode": "OUA",
+      "latitude": 30.9335436,
+      "longitude": -6.937016,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3270,
+      "name": "Boulemane",
+      "stateCode": "BOM",
+      "latitude": 33.3625159,
+      "longitude": -4.7303397,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3271,
+      "name": "L'Oriental",
+      "stateCode": "02",
+      "latitude": 37.069683,
+      "longitude": -94.512277,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67051,
+          "name": "Ahfir",
+          "latitude": 34.95368,
+          "longitude": -2.10027,
+          "translations": []
+        },
+        {
+          "id": 67054,
+          "name": "Al Aaroui",
+          "latitude": 35.0109,
+          "longitude": -3.00938,
+          "translations": []
+        },
+        {
+          "id": 67075,
+          "name": "Aïn Beni Mathar",
+          "latitude": 34.0097,
+          "longitude": -2.03238,
+          "translations": []
+        },
+        {
+          "id": 67080,
+          "name": "Berkane",
+          "latitude": 34.61,
+          "longitude": -2.57,
+          "translations": []
+        },
+        {
+          "id": 67087,
+          "name": "Bouarfa",
+          "latitude": 32.53379,
+          "longitude": -1.96209,
+          "translations": []
+        },
+        {
+          "id": 67104,
+          "name": "Debdou",
+          "latitude": 33.98228,
+          "longitude": -3.04263,
+          "translations": []
+        },
+        {
+          "id": 67107,
+          "name": "Driouch Province",
+          "latitude": 34.9767,
+          "longitude": -3.38842,
+          "translations": []
+        },
+        {
+          "id": 67108,
+          "name": "El Aïoun",
+          "latitude": 34.58319,
+          "longitude": -2.50612,
+          "translations": []
+        },
+        {
+          "id": 67119,
+          "name": "Figuig",
+          "latitude": 32.83333,
+          "longitude": -2.25,
+          "translations": []
+        },
+        {
+          "id": 67129,
+          "name": "Guercif Province",
+          "latitude": 34.25041,
+          "longitude": -3.32542,
+          "translations": []
+        },
+        {
+          "id": 67141,
+          "name": "Jerada",
+          "latitude": 34.23662,
+          "longitude": -2.04284,
+          "translations": []
+        },
+        {
+          "id": 67157,
+          "name": "Madagh",
+          "latitude": 35.01032,
+          "longitude": -2.33701,
+          "translations": []
+        },
+        {
+          "id": 67166,
+          "name": "Midar",
+          "latitude": 34.94025,
+          "longitude": -3.53311,
+          "translations": []
+        },
+        {
+          "id": 67173,
+          "name": "Nador",
+          "latitude": 35,
+          "longitude": -3,
+          "translations": []
+        },
+        {
+          "id": 67186,
+          "name": "Oujda-Angad",
+          "latitude": 34.236,
+          "longitude": -2.294,
+          "translations": []
+        },
+        {
+          "id": 67198,
+          "name": "Saidia",
+          "latitude": 35.08195,
+          "longitude": -2.22897,
+          "translations": []
+        },
+        {
+          "id": 67201,
+          "name": "Selouane",
+          "latitude": 35.07313,
+          "longitude": -2.9423,
+          "translations": []
+        },
+        {
+          "id": 67238,
+          "name": "Taourirt",
+          "latitude": 34.40731,
+          "longitude": -2.89732,
+          "translations": []
+        },
+        {
+          "id": 67260,
+          "name": "Tiztoutine",
+          "latitude": 34.97159,
+          "longitude": -3.15273,
+          "translations": []
+        },
+        {
+          "id": 67267,
+          "name": "Zaïo",
+          "latitude": 34.94282,
+          "longitude": -2.7329,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3272,
+      "name": "Béni Mellal",
+      "stateCode": "BEM",
+      "latitude": 32.342443,
+      "longitude": -6.375799,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3274,
+      "name": "Chichaoua",
+      "stateCode": "CHI",
+      "latitude": 31.5383581,
+      "longitude": -8.7646388,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3275,
+      "name": "Boujdour (EH)",
+      "stateCode": "BOD",
+      "latitude": 26.1252493,
+      "longitude": -14.4847347,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3276,
+      "name": "Khémisset",
+      "stateCode": "KHE",
+      "latitude": 33.8153704,
+      "longitude": -6.0573302,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3277,
+      "name": "Tiznit",
+      "stateCode": "TIZ",
+      "latitude": 29.693392,
+      "longitude": -9.732157,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3278,
+      "name": "Béni Mellal-Khénifra",
+      "stateCode": "05",
+      "latitude": 32.5719184,
+      "longitude": -6.0679194,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3279,
+      "name": "Sidi Kacem",
+      "stateCode": "SIK",
+      "latitude": 34.2260172,
+      "longitude": -5.7129164,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3280,
+      "name": "El Jadida",
+      "stateCode": "JDI",
+      "latitude": 33.2316326,
+      "longitude": -8.5007116,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3281,
+      "name": "Nador",
+      "stateCode": "NAD",
+      "latitude": 34.9171926,
+      "longitude": -2.8577105,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3282,
+      "name": "Settat",
+      "stateCode": "SET",
+      "latitude": 32.9924242,
+      "longitude": -7.6222665,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3283,
+      "name": "Zagora",
+      "stateCode": "ZAG",
+      "latitude": 30.5786093,
+      "longitude": -5.8987139,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3284,
+      "name": "Médiouna",
+      "stateCode": "MED",
+      "latitude": 33.4540939,
+      "longitude": -7.516602,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3285,
+      "name": "Berkane",
+      "stateCode": "BER",
+      "latitude": 34.8840876,
+      "longitude": -2.341887,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3286,
+      "name": "Tan-Tan (EH-partial)",
+      "stateCode": "TNT",
+      "latitude": 28.03012,
+      "longitude": -11.1617356,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3287,
+      "name": "Nouaceur",
+      "stateCode": "NOU",
+      "latitude": 33.3670393,
+      "longitude": -7.5732537,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3288,
+      "name": "Marrakesh-Safi",
+      "stateCode": "07",
+      "latitude": 31.7330833,
+      "longitude": -8.1338558,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3289,
+      "name": "Sefrou",
+      "stateCode": "SEF",
+      "latitude": 33.8305244,
+      "longitude": -4.8353154,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3290,
+      "name": "Drâa-Tafilalet",
+      "stateCode": "08",
+      "latitude": 31.1499538,
+      "longitude": -5.3939551,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67049,
+          "name": "Agdz",
+          "latitude": 30.69356,
+          "longitude": -6.44628,
+          "translations": []
+        },
+        {
+          "id": 67060,
+          "name": "Alnif",
+          "latitude": 31.11411,
+          "longitude": -5.17154,
+          "translations": []
+        },
+        {
+          "id": 67061,
+          "name": "Aoufous",
+          "latitude": 31.68,
+          "longitude": -4.17,
+          "translations": []
+        },
+        {
+          "id": 67067,
+          "name": "Arfoud",
+          "latitude": 31.4353,
+          "longitude": -4.23258,
+          "translations": []
+        },
+        {
+          "id": 67114,
+          "name": "Errachidia",
+          "latitude": 31.75,
+          "longitude": -4.5,
+          "translations": []
+        },
+        {
+          "id": 67133,
+          "name": "Imilchil",
+          "latitude": 32.15309,
+          "longitude": -5.62453,
+          "translations": []
+        },
+        {
+          "id": 67140,
+          "name": "Jebel Tiskaouine",
+          "latitude": 31.02722,
+          "longitude": -5.11643,
+          "translations": []
+        },
+        {
+          "id": 67142,
+          "name": "Jorf",
+          "latitude": 31.49442,
+          "longitude": -4.40598,
+          "translations": []
+        },
+        {
+          "id": 67145,
+          "name": "Kelaat Mgouna",
+          "latitude": 31.24573,
+          "longitude": -6.1326,
+          "translations": []
+        },
+        {
+          "id": 67165,
+          "name": "Mhamid",
+          "latitude": 29.82,
+          "longitude": -5.72,
+          "translations": []
+        },
+        {
+          "id": 67168,
+          "name": "Midelt",
+          "latitude": 32.68055,
+          "longitude": -4.73691,
+          "translations": []
+        },
+        {
+          "id": 67177,
+          "name": "Ouarzazat",
+          "latitude": 30.91894,
+          "longitude": -6.89341,
+          "translations": []
+        },
+        {
+          "id": 67178,
+          "name": "Ouarzazate",
+          "latitude": 30.9413,
+          "longitude": -6.90285,
+          "translations": []
+        },
+        {
+          "id": 67196,
+          "name": "Reçani",
+          "latitude": 31.28318,
+          "longitude": -4.26565,
+          "translations": []
+        },
+        {
+          "id": 67246,
+          "name": "Taznakht",
+          "latitude": 30.57836,
+          "longitude": -7.20341,
+          "translations": []
+        },
+        {
+          "id": 67247,
+          "name": "Telouet",
+          "latitude": 31.28925,
+          "longitude": -7.23789,
+          "translations": []
+        },
+        {
+          "id": 67255,
+          "name": "Tinghir",
+          "latitude": 31.51472,
+          "longitude": -5.53278,
+          "translations": []
+        },
+        {
+          "id": 67256,
+          "name": "Tinghir Province",
+          "latitude": 31.51965,
+          "longitude": -5.52999,
+          "translations": []
+        },
+        {
+          "id": 67264,
+          "name": "Zagora",
+          "latitude": 30.34839,
+          "longitude": -5.83649,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3291,
+      "name": "El Hajeb",
+      "stateCode": "HAJ",
+      "latitude": 33.685735,
+      "longitude": -5.3677844,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3292,
+      "name": "Es-Semara (EH-partial)",
+      "stateCode": "ESM",
+      "latitude": 26.741856,
+      "longitude": -11.6783671,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3293,
+      "name": "Laâyoune (EH)",
+      "stateCode": "LAA",
+      "latitude": 27.1500384,
+      "longitude": -13.1990758,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3294,
+      "name": "Inezgane-Ait Melloul",
+      "stateCode": "INE",
+      "latitude": 30.3509098,
+      "longitude": -9.389511,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3295,
+      "name": "Souss-Massa",
+      "stateCode": "09",
+      "latitude": 30.2750611,
+      "longitude": -8.1338558,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3296,
+      "name": "Taza",
+      "stateCode": "TAZ",
+      "latitude": 34.2788953,
+      "longitude": -3.5812692,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3297,
+      "name": "Assa-Zag (EH-partial)",
+      "stateCode": "ASZ",
+      "latitude": 28.1402395,
+      "longitude": -9.7232673,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67046,
+          "name": "Agadir",
+          "latitude": 30.42018,
+          "longitude": -9.59815,
+          "translations": []
+        },
+        {
+          "id": 67047,
+          "name": "Agadir Melloul",
+          "latitude": 30.22492,
+          "longitude": -7.79601,
+          "translations": []
+        },
+        {
+          "id": 67048,
+          "name": "Agadir-Ida-ou-Tnan",
+          "latitude": 30.58333,
+          "longitude": -9.5,
+          "translations": []
+        },
+        {
+          "id": 67062,
+          "name": "Aoulouz",
+          "latitude": 30.67307,
+          "longitude": -8.18087,
+          "translations": []
+        },
+        {
+          "id": 67063,
+          "name": "Aourir",
+          "latitude": 30.49238,
+          "longitude": -9.6355,
+          "translations": []
+        },
+        {
+          "id": 67065,
+          "name": "Arazane",
+          "latitude": 30.50346,
+          "longitude": -8.60637,
+          "translations": []
+        },
+        {
+          "id": 67068,
+          "name": "Argana",
+          "latitude": 30.7825,
+          "longitude": -9.11968,
+          "translations": []
+        },
+        {
+          "id": 67084,
+          "name": "Bigoudine",
+          "latitude": 30.72376,
+          "longitude": -9.21097,
+          "translations": []
+        },
+        {
+          "id": 67102,
+          "name": "Chtouka-Ait-Baha",
+          "latitude": 30.02948,
+          "longitude": -9.30909,
+          "translations": []
+        },
+        {
+          "id": 67136,
+          "name": "Inezgane",
+          "latitude": 30.35535,
+          "longitude": -9.53639,
+          "translations": []
+        },
+        {
+          "id": 67137,
+          "name": "Inezgane-Ait Melloul",
+          "latitude": 30.1,
+          "longitude": -9.03333,
+          "translations": []
+        },
+        {
+          "id": 67185,
+          "name": "Ouijjane",
+          "latitude": 29.62777,
+          "longitude": -9.53959,
+          "translations": []
+        },
+        {
+          "id": 67190,
+          "name": "Oulad Teïma",
+          "latitude": 30.39467,
+          "longitude": -9.20897,
+          "translations": []
+        },
+        {
+          "id": 67194,
+          "name": "Reggada",
+          "latitude": 29.58016,
+          "longitude": -9.70086,
+          "translations": []
+        },
+        {
+          "id": 67208,
+          "name": "Sidi Ifni",
+          "latitude": 29.37975,
+          "longitude": -10.17299,
+          "translations": []
+        },
+        {
+          "id": 67223,
+          "name": "Tadrart",
+          "latitude": 30.77477,
+          "longitude": -9.45951,
+          "translations": []
+        },
+        {
+          "id": 67224,
+          "name": "Tafraout",
+          "latitude": 29.72449,
+          "longitude": -8.9747,
+          "translations": []
+        },
+        {
+          "id": 67225,
+          "name": "Taghazout",
+          "latitude": 30.54259,
+          "longitude": -9.71115,
+          "translations": []
+        },
+        {
+          "id": 67227,
+          "name": "Taliouine",
+          "latitude": 30.52917,
+          "longitude": -7.91262,
+          "translations": []
+        },
+        {
+          "id": 67231,
+          "name": "Tamri",
+          "latitude": 30.69602,
+          "longitude": -9.82972,
+          "translations": []
+        },
+        {
+          "id": 67233,
+          "name": "Tanalt",
+          "latitude": 29.77548,
+          "longitude": -9.16796,
+          "translations": []
+        },
+        {
+          "id": 67241,
+          "name": "Taroudannt",
+          "latitude": 30.5,
+          "longitude": -8.41667,
+          "translations": []
+        },
+        {
+          "id": 67242,
+          "name": "Taroudant",
+          "latitude": 30.47028,
+          "longitude": -8.87695,
+          "translations": []
+        },
+        {
+          "id": 67243,
+          "name": "Tarsouat",
+          "latitude": 29.58153,
+          "longitude": -9.02664,
+          "translations": []
+        },
+        {
+          "id": 67244,
+          "name": "Tata",
+          "latitude": 29.66667,
+          "longitude": -7.83333,
+          "translations": []
+        },
+        {
+          "id": 67259,
+          "name": "Tiznit",
+          "latitude": 29.58333,
+          "longitude": -9.5,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3298,
+      "name": "Laâyoune-Sakia El Hamra (EH-partial)",
+      "stateCode": "11",
+      "latitude": 27.8683194,
+      "longitude": -11.9804613,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67052,
+          "name": "Akhfennir",
+          "latitude": 28.09455,
+          "longitude": -12.05157,
+          "translations": []
+        },
+        {
+          "id": 67089,
+          "name": "Boujdour",
+          "latitude": 25.66172,
+          "longitude": -13.68419,
+          "translations": []
+        },
+        {
+          "id": 67115,
+          "name": "Es-Semara",
+          "latitude": 27.75,
+          "longitude": -11,
+          "translations": []
+        },
+        {
+          "id": 67127,
+          "name": "Gueltat Zemmour",
+          "latitude": 25.14276,
+          "longitude": -12.37168,
+          "translations": []
+        },
+        {
+          "id": 67154,
+          "name": "Laayoune",
+          "latitude": 27.83333,
+          "longitude": -12.33333,
+          "translations": []
+        },
+        {
+          "id": 67220,
+          "name": "Smara",
+          "latitude": 26.73841,
+          "longitude": -11.67194,
+          "translations": []
+        },
+        {
+          "id": 67239,
+          "name": "Tarfaya",
+          "latitude": 27.93901,
+          "longitude": -12.92082,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3299,
+      "name": "Errachidia",
+      "stateCode": "ERR",
+      "latitude": 31.9051275,
+      "longitude": -4.7277528,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3300,
+      "name": "Fahs-Anjra",
+      "stateCode": "FAH",
+      "latitude": 35.7601992,
+      "longitude": -5.6668306,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3301,
+      "name": "Figuig",
+      "stateCode": "FIG",
+      "latitude": 32.1092613,
+      "longitude": -1.229806,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3302,
+      "name": "Chtouka-Ait Baha",
+      "stateCode": "CHT",
+      "latitude": 30.1072422,
+      "longitude": -9.2785583,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3303,
+      "name": "Casablanca-Settat",
+      "stateCode": "06",
+      "latitude": 33.2160872,
+      "longitude": -7.4381355,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67071,
+          "name": "Azemmour",
+          "latitude": 33.28952,
+          "longitude": -8.3425,
+          "translations": []
+        },
+        {
+          "id": 67079,
+          "name": "Benslimane",
+          "latitude": 33.5,
+          "longitude": -7.16667,
+          "translations": []
+        },
+        {
+          "id": 67081,
+          "name": "Berrechid",
+          "latitude": 33.26553,
+          "longitude": -7.58754,
+          "translations": []
+        },
+        {
+          "id": 67082,
+          "name": "Berrechid Province",
+          "latitude": 33.26582,
+          "longitude": -7.58142,
+          "translations": []
+        },
+        {
+          "id": 67091,
+          "name": "Boulaouane",
+          "latitude": 32.85995,
+          "longitude": -8.05555,
+          "translations": []
+        },
+        {
+          "id": 67093,
+          "name": "Bouskoura",
+          "latitude": 33.44976,
+          "longitude": -7.65239,
+          "translations": []
+        },
+        {
+          "id": 67094,
+          "name": "Bouznika",
+          "latitude": 33.78942,
+          "longitude": -7.15968,
+          "translations": []
+        },
+        {
+          "id": 67098,
+          "name": "Casablanca",
+          "latitude": 33.5884,
+          "longitude": -7.55785,
+          "translations": []
+        },
+        {
+          "id": 67110,
+          "name": "El Jadid",
+          "latitude": 33.25682,
+          "longitude": -8.50882,
+          "translations": []
+        },
+        {
+          "id": 67113,
+          "name": "El-Jadida",
+          "latitude": 32.9,
+          "longitude": -8.5,
+          "translations": []
+        },
+        {
+          "id": 67162,
+          "name": "Mediouna",
+          "latitude": 33.52012,
+          "longitude": -7.5035,
+          "translations": []
+        },
+        {
+          "id": 67170,
+          "name": "Mohammedia",
+          "latitude": 33.68607,
+          "longitude": -7.38298,
+          "translations": []
+        },
+        {
+          "id": 67174,
+          "name": "Nouaceur",
+          "latitude": 33.45839,
+          "longitude": -7.64726,
+          "translations": []
+        },
+        {
+          "id": 67175,
+          "name": "Oualidia",
+          "latitude": 32.73372,
+          "longitude": -9.03059,
+          "translations": []
+        },
+        {
+          "id": 67188,
+          "name": "Oulad Frej",
+          "latitude": 32.95956,
+          "longitude": -8.2274,
+          "translations": []
+        },
+        {
+          "id": 67203,
+          "name": "Settat",
+          "latitude": 33.00103,
+          "longitude": -7.61662,
+          "translations": []
+        },
+        {
+          "id": 67204,
+          "name": "Settat Province",
+          "latitude": 33.08333,
+          "longitude": -7.41667,
+          "translations": []
+        },
+        {
+          "id": 67206,
+          "name": "Sidi Bennour",
+          "latitude": 32.64896,
+          "longitude": -8.42686,
+          "translations": []
+        },
+        {
+          "id": 67215,
+          "name": "Sidi Smai’il",
+          "latitude": 32.82461,
+          "longitude": -8.51122,
+          "translations": []
+        },
+        {
+          "id": 67258,
+          "name": "Tit Mellil",
+          "latitude": 33.55808,
+          "longitude": -7.48647,
+          "translations": []
+        },
+        {
+          "id": 67265,
+          "name": "Zawyat an Nwaçer",
+          "latitude": 33.37981,
+          "longitude": -7.61932,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3304,
+      "name": "Benslimane",
+      "stateCode": "BES",
+      "latitude": 33.6189698,
+      "longitude": -7.1305536,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3305,
+      "name": "Guelmim-Oued Noun (EH-partial)",
+      "stateCode": "10",
+      "latitude": 28.4844281,
+      "longitude": -10.0807298,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67070,
+          "name": "Assa-Zag",
+          "latitude": 28.16667,
+          "longitude": -9.41667,
+          "translations": []
+        },
+        {
+          "id": 67126,
+          "name": "Guelmim",
+          "latitude": 28.75,
+          "longitude": -10,
+          "translations": []
+        },
+        {
+          "id": 67209,
+          "name": "Sidi Ifni",
+          "latitude": 29.37719,
+          "longitude": -10.17111,
+          "translations": []
+        },
+        {
+          "id": 67232,
+          "name": "Tan-Tan",
+          "latitude": 28.08333,
+          "longitude": -11.08333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3306,
+      "name": "Dakhla-Oued Ed-Dahab (EH)",
+      "stateCode": "12",
+      "latitude": 22.7337892,
+      "longitude": -14.2861116,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3307,
+      "name": "Jerada",
+      "stateCode": "JRA",
+      "latitude": 34.3061791,
+      "longitude": -2.1794136,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3308,
+      "name": "Kénitra",
+      "stateCode": "KEN",
+      "latitude": 34.2540503,
+      "longitude": -6.5890166,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67066,
+          "name": "Arbaoua",
+          "latitude": 34.90239,
+          "longitude": -5.94871,
+          "translations": []
+        },
+        {
+          "id": 67130,
+          "name": "Had Kourt",
+          "latitude": 34.61588,
+          "longitude": -5.7404,
+          "translations": []
+        },
+        {
+          "id": 67146,
+          "name": "Kenitra",
+          "latitude": 34.26101,
+          "longitude": -6.5802,
+          "translations": []
+        },
+        {
+          "id": 67147,
+          "name": "Kenitra Province",
+          "latitude": 34.58333,
+          "longitude": -6.33333,
+          "translations": []
+        },
+        {
+          "id": 67149,
+          "name": "Khemisset",
+          "latitude": 33.66667,
+          "longitude": -6.25,
+          "translations": []
+        },
+        {
+          "id": 67161,
+          "name": "Mechraa Bel Ksiri",
+          "latitude": 34.57373,
+          "longitude": -5.95585,
+          "translations": []
+        },
+        {
+          "id": 67191,
+          "name": "Oulmes",
+          "latitude": 33.42585,
+          "longitude": -6.00137,
+          "translations": []
+        },
+        {
+          "id": 67193,
+          "name": "Rabat",
+          "latitude": 34.01325,
+          "longitude": -6.83255,
+          "translations": []
+        },
+        {
+          "id": 67199,
+          "name": "Sale",
+          "latitude": 34.0531,
+          "longitude": -6.79846,
+          "translations": []
+        },
+        {
+          "id": 67207,
+          "name": "Sidi Bousber",
+          "latitude": 34.56283,
+          "longitude": -5.36208,
+          "translations": []
+        },
+        {
+          "id": 67211,
+          "name": "Sidi Qacem",
+          "latitude": 34.22149,
+          "longitude": -5.70775,
+          "translations": []
+        },
+        {
+          "id": 67213,
+          "name": "Sidi Redouane",
+          "latitude": 34.68692,
+          "longitude": -5.44538,
+          "translations": []
+        },
+        {
+          "id": 67214,
+          "name": "Sidi Slimane",
+          "latitude": 34.26479,
+          "longitude": -5.92598,
+          "translations": []
+        },
+        {
+          "id": 67216,
+          "name": "Sidi Yahia El Gharb",
+          "latitude": 34.30494,
+          "longitude": -6.30404,
+          "translations": []
+        },
+        {
+          "id": 67217,
+          "name": "Sidi-Kacem",
+          "latitude": 34.58333,
+          "longitude": -5.75,
+          "translations": []
+        },
+        {
+          "id": 67218,
+          "name": "Skhirate",
+          "latitude": 33.8527,
+          "longitude": -7.03171,
+          "translations": []
+        },
+        {
+          "id": 67219,
+          "name": "Skhirate-Temara",
+          "latitude": 33.77,
+          "longitude": -6.87,
+          "translations": []
+        },
+        {
+          "id": 67222,
+          "name": "Souq Larb’a al Gharb",
+          "latitude": 34.68664,
+          "longitude": -6.00272,
+          "translations": []
+        },
+        {
+          "id": 67248,
+          "name": "Temara",
+          "latitude": 33.92866,
+          "longitude": -6.90656,
+          "translations": []
+        },
+        {
+          "id": 67249,
+          "name": "Teroual",
+          "latitude": 34.67452,
+          "longitude": -5.27331,
+          "translations": []
+        },
+        {
+          "id": 67252,
+          "name": "Tiflet",
+          "latitude": 33.89469,
+          "longitude": -6.30649,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3309,
+      "name": "El Kelâa des Sraghna",
+      "stateCode": "KES",
+      "latitude": 32.0522767,
+      "longitude": -7.3516558,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3310,
+      "name": "Chefchaouen",
+      "stateCode": "CHE",
+      "latitude": 35.018172,
+      "longitude": -5.1432068,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3311,
+      "name": "Safi",
+      "stateCode": "SAF",
+      "latitude": 32.2989872,
+      "longitude": -9.1013498,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67044,
+          "name": "Abadou",
+          "latitude": 31.57917,
+          "longitude": -7.31308,
+          "translations": []
+        },
+        {
+          "id": 67045,
+          "name": "Adassil",
+          "latitude": 31.10783,
+          "longitude": -8.49083,
+          "translations": []
+        },
+        {
+          "id": 67057,
+          "name": "Al-Haouz",
+          "latitude": 31.34083,
+          "longitude": -7.91076,
+          "translations": []
+        },
+        {
+          "id": 67086,
+          "name": "Bouabout",
+          "latitude": 31.26554,
+          "longitude": -9.17865,
+          "translations": []
+        },
+        {
+          "id": 67101,
+          "name": "Chichaoua",
+          "latitude": 31.26365,
+          "longitude": -8.84411,
+          "translations": []
+        },
+        {
+          "id": 67116,
+          "name": "Essaouira",
+          "latitude": 31.50675,
+          "longitude": -9.75655,
+          "translations": []
+        },
+        {
+          "id": 67144,
+          "name": "Kelaa-Des-Sraghna",
+          "latitude": 32.16667,
+          "longitude": -7.75,
+          "translations": []
+        },
+        {
+          "id": 67158,
+          "name": "Marrakech",
+          "latitude": 31.63623,
+          "longitude": -8.01041,
+          "translations": []
+        },
+        {
+          "id": 67159,
+          "name": "Marrakesh",
+          "latitude": 31.63416,
+          "longitude": -7.99994,
+          "translations": []
+        },
+        {
+          "id": 67187,
+          "name": "Oukaïmedene",
+          "latitude": 31.20603,
+          "longitude": -7.86089,
+          "translations": []
+        },
+        {
+          "id": 67195,
+          "name": "Rehamna",
+          "latitude": 32.24581,
+          "longitude": -7.93144,
+          "translations": []
+        },
+        {
+          "id": 67197,
+          "name": "Safi",
+          "latitude": 32.16667,
+          "longitude": -8.83333,
+          "translations": []
+        },
+        {
+          "id": 67205,
+          "name": "Setti Fatma",
+          "latitude": 31.22508,
+          "longitude": -7.67751,
+          "translations": []
+        },
+        {
+          "id": 67212,
+          "name": "Sidi Rahhal",
+          "latitude": 31.65031,
+          "longitude": -7.47288,
+          "translations": []
+        },
+        {
+          "id": 67221,
+          "name": "Smimou",
+          "latitude": 31.21014,
+          "longitude": -9.70863,
+          "translations": []
+        },
+        {
+          "id": 67229,
+          "name": "Tamanar",
+          "latitude": 31.00087,
+          "longitude": -9.67802,
+          "translations": []
+        },
+        {
+          "id": 67236,
+          "name": "Taouloukoult",
+          "latitude": 31.22218,
+          "longitude": -9.07943,
+          "translations": []
+        },
+        {
+          "id": 67251,
+          "name": "Tidili Mesfioua",
+          "latitude": 31.46586,
+          "longitude": -7.61199,
+          "translations": []
+        },
+        {
+          "id": 67253,
+          "name": "Timezgadiouine",
+          "latitude": 30.88366,
+          "longitude": -9.04548,
+          "translations": []
+        },
+        {
+          "id": 67263,
+          "name": "Youssoufia",
+          "latitude": 32.24634,
+          "longitude": -8.52941,
+          "translations": []
+        },
+        {
+          "id": 67268,
+          "name": "Zerkten",
+          "latitude": 31.4447,
+          "longitude": -7.39224,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3312,
+      "name": "Tata",
+      "stateCode": "TAT",
+      "latitude": 29.750877,
+      "longitude": -7.9756343,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3313,
+      "name": "Fès-Meknès",
+      "stateCode": "03",
+      "latitude": 34.062529,
+      "longitude": -4.7277528,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67053,
+          "name": "Aknoul",
+          "latitude": 34.65371,
+          "longitude": -3.86754,
+          "translations": []
+        },
+        {
+          "id": 67059,
+          "name": "Almis Marmoucha",
+          "latitude": 33.32,
+          "longitude": -4.18,
+          "translations": []
+        },
+        {
+          "id": 67074,
+          "name": "Azrou",
+          "latitude": 33.43443,
+          "longitude": -5.22126,
+          "translations": []
+        },
+        {
+          "id": 67076,
+          "name": "Aïn Leuh",
+          "latitude": 33.28984,
+          "longitude": -5.33863,
+          "translations": []
+        },
+        {
+          "id": 67083,
+          "name": "Bhalil",
+          "latitude": 33.85194,
+          "longitude": -4.87228,
+          "translations": []
+        },
+        {
+          "id": 67088,
+          "name": "Bouarouss",
+          "latitude": 34.36,
+          "longitude": -4.81,
+          "translations": []
+        },
+        {
+          "id": 67092,
+          "name": "Boulemane",
+          "latitude": 33.16667,
+          "longitude": -4,
+          "translations": []
+        },
+        {
+          "id": 67109,
+          "name": "El Hajeb",
+          "latitude": 33.68786,
+          "longitude": -5.371,
+          "translations": []
+        },
+        {
+          "id": 67112,
+          "name": "El-Hajeb",
+          "latitude": 33.72883,
+          "longitude": -5.46119,
+          "translations": []
+        },
+        {
+          "id": 67118,
+          "name": "Fes",
+          "latitude": 34.04,
+          "longitude": -4.87,
+          "translations": []
+        },
+        {
+          "id": 67123,
+          "name": "Fès al Bali",
+          "latitude": 34.0701,
+          "longitude": -4.95473,
+          "translations": []
+        },
+        {
+          "id": 67124,
+          "name": "Galaz",
+          "latitude": 34.54424,
+          "longitude": -4.80355,
+          "translations": []
+        },
+        {
+          "id": 67125,
+          "name": "Ghouazi",
+          "latitude": 34.47737,
+          "longitude": -5.30235,
+          "translations": []
+        },
+        {
+          "id": 67128,
+          "name": "Guercif",
+          "latitude": 34.22568,
+          "longitude": -3.35361,
+          "translations": []
+        },
+        {
+          "id": 67132,
+          "name": "Ifrane",
+          "latitude": 33.33333,
+          "longitude": -5.25,
+          "translations": []
+        },
+        {
+          "id": 67163,
+          "name": "Meknes",
+          "latitude": 33.97761,
+          "longitude": -5.52496,
+          "translations": []
+        },
+        {
+          "id": 67169,
+          "name": "Missour",
+          "latitude": 33.04893,
+          "longitude": -3.98947,
+          "translations": []
+        },
+        {
+          "id": 67171,
+          "name": "Moulay Bouchta",
+          "latitude": 34.48922,
+          "longitude": -5.13023,
+          "translations": []
+        },
+        {
+          "id": 67172,
+          "name": "Moulay-Yacoub",
+          "latitude": 34.14558,
+          "longitude": -5.10259,
+          "translations": []
+        },
+        {
+          "id": 67179,
+          "name": "Oued Amlil",
+          "latitude": 34.2,
+          "longitude": -4.28,
+          "translations": []
+        },
+        {
+          "id": 67189,
+          "name": "Oulad Tayeb",
+          "latitude": 33.94633,
+          "longitude": -4.99509,
+          "translations": []
+        },
+        {
+          "id": 67192,
+          "name": "Ourtzagh",
+          "latitude": 34.53477,
+          "longitude": -4.96878,
+          "translations": []
+        },
+        {
+          "id": 67200,
+          "name": "Sefrou",
+          "latitude": 33.79979,
+          "longitude": -4.68,
+          "translations": []
+        },
+        {
+          "id": 67226,
+          "name": "Tahla",
+          "latitude": 34.04965,
+          "longitude": -4.42162,
+          "translations": []
+        },
+        {
+          "id": 67228,
+          "name": "Talzemt",
+          "latitude": 33.59,
+          "longitude": -4.19,
+          "translations": []
+        },
+        {
+          "id": 67237,
+          "name": "Taounate",
+          "latitude": 34.5,
+          "longitude": -4.83333,
+          "translations": []
+        },
+        {
+          "id": 67245,
+          "name": "Taza",
+          "latitude": 34.25,
+          "longitude": -3.75,
+          "translations": []
+        },
+        {
+          "id": 67261,
+          "name": "Tmourghout",
+          "latitude": 33.9065,
+          "longitude": -4.02696,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3314,
+      "name": "Taroudannt",
+      "stateCode": "TAR",
+      "latitude": 30.4727126,
+      "longitude": -8.8748765,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3315,
+      "name": "Moulay Yacoub",
+      "stateCode": "MOU",
+      "latitude": 34.0874479,
+      "longitude": -5.1784019,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3316,
+      "name": "Essaouira",
+      "stateCode": "ESI",
+      "latitude": 31.5084926,
+      "longitude": -9.7595041,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3317,
+      "name": "Khénifra",
+      "stateCode": "KHN",
+      "latitude": 32.9340471,
+      "longitude": -5.661571,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67050,
+          "name": "Aguelmous",
+          "latitude": 33.16139,
+          "longitude": -5.84626,
+          "translations": []
+        },
+        {
+          "id": 67055,
+          "name": "Al Fqih Ben Çalah",
+          "latitude": 32.50213,
+          "longitude": -6.68771,
+          "translations": []
+        },
+        {
+          "id": 67072,
+          "name": "Azilal",
+          "latitude": 31.96156,
+          "longitude": -6.57109,
+          "translations": []
+        },
+        {
+          "id": 67073,
+          "name": "Azilal Province",
+          "latitude": 31.91667,
+          "longitude": -6.5,
+          "translations": []
+        },
+        {
+          "id": 67077,
+          "name": "Beni Mellal",
+          "latitude": 32.33725,
+          "longitude": -6.34983,
+          "translations": []
+        },
+        {
+          "id": 67078,
+          "name": "Beni-Mellal",
+          "latitude": 32.5,
+          "longitude": -6.33333,
+          "translations": []
+        },
+        {
+          "id": 67090,
+          "name": "Boujniba",
+          "latitude": 32.90046,
+          "longitude": -6.77464,
+          "translations": []
+        },
+        {
+          "id": 67096,
+          "name": "Bzou",
+          "latitude": 32.09171,
+          "longitude": -7.04786,
+          "translations": []
+        },
+        {
+          "id": 67103,
+          "name": "Dar Ould Zidouh",
+          "latitude": 32.31247,
+          "longitude": -6.90494,
+          "translations": []
+        },
+        {
+          "id": 67105,
+          "name": "Demnate",
+          "latitude": 31.73443,
+          "longitude": -7.00505,
+          "translations": []
+        },
+        {
+          "id": 67111,
+          "name": "El Ksiba",
+          "latitude": 32.57286,
+          "longitude": -6.01947,
+          "translations": []
+        },
+        {
+          "id": 67121,
+          "name": "Fquih Ben Salah Province",
+          "latitude": 32.50108,
+          "longitude": -6.68415,
+          "translations": []
+        },
+        {
+          "id": 67131,
+          "name": "Ifrane",
+          "latitude": 31.70217,
+          "longitude": -6.3494,
+          "translations": []
+        },
+        {
+          "id": 67138,
+          "name": "Isseksi",
+          "latitude": 32.22981,
+          "longitude": -6.27661,
+          "translations": []
+        },
+        {
+          "id": 67139,
+          "name": "Itzer",
+          "latitude": 32.8783,
+          "longitude": -5.0515,
+          "translations": []
+        },
+        {
+          "id": 67143,
+          "name": "Kasba Tadla",
+          "latitude": 32.5977,
+          "longitude": -6.26844,
+          "translations": []
+        },
+        {
+          "id": 67148,
+          "name": "Kerrouchen",
+          "latitude": 32.79639,
+          "longitude": -5.3188,
+          "translations": []
+        },
+        {
+          "id": 67150,
+          "name": "Khenifra",
+          "latitude": 32.93333,
+          "longitude": -5.66667,
+          "translations": []
+        },
+        {
+          "id": 67151,
+          "name": "Khouribga",
+          "latitude": 32.88108,
+          "longitude": -6.9063,
+          "translations": []
+        },
+        {
+          "id": 67152,
+          "name": "Khouribga Province",
+          "latitude": 32.93333,
+          "longitude": -6.6,
+          "translations": []
+        },
+        {
+          "id": 67167,
+          "name": "Midelt",
+          "latitude": 32.6852,
+          "longitude": -4.74512,
+          "translations": []
+        },
+        {
+          "id": 67176,
+          "name": "Ouaoula",
+          "latitude": 31.87,
+          "longitude": -6.75,
+          "translations": []
+        },
+        {
+          "id": 67181,
+          "name": "Oued Zem",
+          "latitude": 32.8627,
+          "longitude": -6.57359,
+          "translations": []
+        },
+        {
+          "id": 67210,
+          "name": "Sidi Jaber",
+          "latitude": 32.38952,
+          "longitude": -6.42095,
+          "translations": []
+        },
+        {
+          "id": 67254,
+          "name": "Timoulilt",
+          "latitude": 32.20368,
+          "longitude": -6.4666,
+          "translations": []
+        },
+        {
+          "id": 67266,
+          "name": "Zawyat ech Cheïkh",
+          "latitude": 32.64445,
+          "longitude": -5.91826,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3318,
+      "name": "Tétouan",
+      "stateCode": "TET",
+      "latitude": 35.5888995,
+      "longitude": -5.3625516,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3319,
+      "name": "Oued Ed-Dahab (EH)",
+      "stateCode": "OUD",
+      "latitude": 22.7337892,
+      "longitude": -14.2861116,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67064,
+          "name": "Aousserd",
+          "latitude": 21.91977,
+          "longitude": -15.02068,
+          "translations": []
+        },
+        {
+          "id": 67134,
+          "name": "Imlili",
+          "latitude": 22.6558,
+          "longitude": -15.60719,
+          "translations": []
+        },
+        {
+          "id": 67182,
+          "name": "Oued-Ed-Dahab",
+          "latitude": 23.64201,
+          "longitude": -14.44934,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3320,
+      "name": "Al Haouz",
+      "stateCode": "HAO",
+      "latitude": 31.2956729,
+      "longitude": -7.87216,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3321,
+      "name": "Azilal",
+      "stateCode": "AZI",
+      "latitude": 32.004262,
+      "longitude": -6.5783387,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3322,
+      "name": "Taourirt",
+      "stateCode": "TAI",
+      "latitude": 34.212598,
+      "longitude": -2.6983868,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3323,
+      "name": "Taounate",
+      "stateCode": "TAO",
+      "latitude": 34.536917,
+      "longitude": -4.6398693,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3324,
+      "name": "Tanger-Tétouan-Al Hoceïma",
+      "stateCode": "01",
+      "latitude": 35.2629558,
+      "longitude": -5.5617279,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67056,
+          "name": "Al Hoceïma",
+          "latitude": 35.25165,
+          "longitude": -3.93723,
+          "translations": []
+        },
+        {
+          "id": 67058,
+          "name": "Al-Hoceima",
+          "latitude": 35,
+          "longitude": -4.25,
+          "translations": []
+        },
+        {
+          "id": 67069,
+          "name": "Asilah",
+          "latitude": 35.46522,
+          "longitude": -6.03415,
+          "translations": []
+        },
+        {
+          "id": 67085,
+          "name": "Bni Bouayach",
+          "latitude": 35.10506,
+          "longitude": -3.84028,
+          "translations": []
+        },
+        {
+          "id": 67095,
+          "name": "Brikcha",
+          "latitude": 34.96732,
+          "longitude": -5.57295,
+          "translations": []
+        },
+        {
+          "id": 67097,
+          "name": "Cap Negro II",
+          "latitude": 35.6597,
+          "longitude": -5.28525,
+          "translations": []
+        },
+        {
+          "id": 67099,
+          "name": "Chefchaouen Province",
+          "latitude": 35,
+          "longitude": -5.08333,
+          "translations": []
+        },
+        {
+          "id": 67100,
+          "name": "Chefchaouene",
+          "latitude": 35.16878,
+          "longitude": -5.2636,
+          "translations": []
+        },
+        {
+          "id": 67106,
+          "name": "Derdara",
+          "latitude": 35.11041,
+          "longitude": -5.29015,
+          "translations": []
+        },
+        {
+          "id": 67117,
+          "name": "Fahs-Anjra",
+          "latitude": 35.74,
+          "longitude": -5.68,
+          "translations": []
+        },
+        {
+          "id": 67120,
+          "name": "Fnidek",
+          "latitude": 35.84906,
+          "longitude": -5.35747,
+          "translations": []
+        },
+        {
+          "id": 67135,
+          "name": "Imzouren",
+          "latitude": 35.14637,
+          "longitude": -3.85063,
+          "translations": []
+        },
+        {
+          "id": 67153,
+          "name": "Ksar El Kebir",
+          "latitude": 35.00044,
+          "longitude": -5.90378,
+          "translations": []
+        },
+        {
+          "id": 67155,
+          "name": "Larache",
+          "latitude": 35.16667,
+          "longitude": -5.83333,
+          "translations": []
+        },
+        {
+          "id": 67156,
+          "name": "M'Diq-Fnideq",
+          "latitude": 35.85743,
+          "longitude": -5.35858,
+          "translations": []
+        },
+        {
+          "id": 67160,
+          "name": "Martil",
+          "latitude": 35.61662,
+          "longitude": -5.27522,
+          "translations": []
+        },
+        {
+          "id": 67180,
+          "name": "Oued Laou",
+          "latitude": 35.4484,
+          "longitude": -5.09627,
+          "translations": []
+        },
+        {
+          "id": 67183,
+          "name": "Ouezzane",
+          "latitude": 34.79584,
+          "longitude": -5.57849,
+          "translations": []
+        },
+        {
+          "id": 67184,
+          "name": "Ouezzane Province",
+          "latitude": 34.79759,
+          "longitude": -5.58603,
+          "translations": []
+        },
+        {
+          "id": 67202,
+          "name": "Senada",
+          "latitude": 35.07452,
+          "longitude": -4.21583,
+          "translations": []
+        },
+        {
+          "id": 67230,
+          "name": "Tamorot",
+          "latitude": 34.93632,
+          "longitude": -4.7794,
+          "translations": []
+        },
+        {
+          "id": 67234,
+          "name": "Tanger-Assilah",
+          "latitude": 35.59,
+          "longitude": -5.9,
+          "translations": []
+        },
+        {
+          "id": 67235,
+          "name": "Tangier",
+          "latitude": 35.76727,
+          "longitude": -5.79975,
+          "translations": []
+        },
+        {
+          "id": 67240,
+          "name": "Targuist",
+          "latitude": 34.93769,
+          "longitude": -4.31856,
+          "translations": []
+        },
+        {
+          "id": 67250,
+          "name": "Tetouan",
+          "latitude": 35.58333,
+          "longitude": -5.5,
+          "translations": []
+        },
+        {
+          "id": 67257,
+          "name": "Tirhanimîne",
+          "latitude": 35.23619,
+          "longitude": -3.95453,
+          "translations": []
+        },
+        {
+          "id": 67269,
+          "name": "Zinat",
+          "latitude": 35.43,
+          "longitude": -5.4,
+          "translations": []
+        },
+        {
+          "id": 67270,
+          "name": "Zoumi",
+          "latitude": 34.80321,
+          "longitude": -5.34458,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3325,
+      "name": "Ifrane",
+      "stateCode": "IFR",
+      "latitude": 33.5228062,
+      "longitude": -5.1109552,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3326,
+      "name": "Khouribga",
+      "stateCode": "KHO",
+      "latitude": 32.886023,
+      "longitude": -6.9208655,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4927,
+      "name": "Rabat-Salé-Kénitra",
+      "stateCode": "04",
+      "latitude": 34.076864,
+      "longitude": -7.3454476,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4928,
+      "name": "Agadir-Ida-Ou-Tanane",
+      "stateCode": "AGD",
+      "latitude": 30.6462091,
+      "longitude": -9.8339061,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4929,
+      "name": "Berrechid",
+      "stateCode": "BRR",
+      "latitude": 33.2602523,
+      "longitude": -7.5984837,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4930,
+      "name": "Casablanca",
+      "stateCode": "CAS",
+      "latitude": 33.5722678,
+      "longitude": -7.6570326,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4931,
+      "name": "Driouch",
+      "stateCode": "DRI",
+      "latitude": 34.976032,
+      "longitude": -3.3964493,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4932,
+      "name": "Fès",
+      "stateCode": "FES",
+      "latitude": 34.0239579,
+      "longitude": -5.0367599,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4933,
+      "name": "Fquih Ben Salah",
+      "stateCode": "FQH",
+      "latitude": 32.500168,
+      "longitude": -6.7100717,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4934,
+      "name": "Guercif",
+      "stateCode": "GUF",
+      "latitude": 34.2345036,
+      "longitude": -3.3813005,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4935,
+      "name": "Marrakech",
+      "stateCode": "MAR",
+      "latitude": 31.6346023,
+      "longitude": -8.0778932,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4936,
+      "name": "M’diq-Fnideq",
+      "stateCode": "MDF",
+      "latitude": 35.7733019,
+      "longitude": -5.51433,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4937,
+      "name": "Meknès",
+      "stateCode": "MEK",
+      "latitude": 33.881,
+      "longitude": -5.5730397,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4938,
+      "name": "Midelt",
+      "stateCode": "MID",
+      "latitude": 32.6855079,
+      "longitude": -4.7501709,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4939,
+      "name": "Mohammadia",
+      "stateCode": "MOH",
+      "latitude": 33.6873749,
+      "longitude": -7.4239142,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4940,
+      "name": "Oujda-Angad",
+      "stateCode": "OUJ",
+      "latitude": 34.6837504,
+      "longitude": -2.2993239,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4941,
+      "name": "Ouezzane",
+      "stateCode": "OUZ",
+      "latitude": 34.806345,
+      "longitude": -5.5914505,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4942,
+      "name": "Rabat",
+      "stateCode": "RAB",
+      "latitude": 33.969199,
+      "longitude": -6.9273029,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4943,
+      "name": "Rehamna",
+      "stateCode": "REH",
+      "latitude": 32.2032905,
+      "longitude": -8.5689671,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4944,
+      "name": "Salé",
+      "stateCode": "SAL",
+      "latitude": 34.037757,
+      "longitude": -6.8427073,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4945,
+      "name": "Sidi Bennour",
+      "stateCode": "SIB",
+      "latitude": 32.6492602,
+      "longitude": -8.4471453,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4946,
+      "name": "Sidi Ifni",
+      "stateCode": "SIF",
+      "latitude": 29.3665797,
+      "longitude": -10.2108485,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4947,
+      "name": "Skhirate-Témara",
+      "stateCode": "SKH",
+      "latitude": 33.7622425,
+      "longitude": -7.0419052,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4948,
+      "name": "Tarfaya (EH-partial)",
+      "stateCode": "TAF",
+      "latitude": 27.9377701,
+      "longitude": -12.9294063,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4949,
+      "name": "Tinghir",
+      "stateCode": "TIN",
+      "latitude": 31.4850794,
+      "longitude": -6.2019298,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4950,
+      "name": "Tanger-Assilah",
+      "stateCode": "TNG",
+      "latitude": 35.7632539,
+      "longitude": -5.9045098,
+      "type": "prefecture",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4951,
+      "name": "Youssoufia",
+      "stateCode": "YUS",
+      "latitude": 32.0200679,
+      "longitude": -8.8692648,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4952,
+      "name": "Sidi Slimane",
+      "stateCode": "SIL",
+      "latitude": 34.2737828,
+      "longitude": -5.9805972,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

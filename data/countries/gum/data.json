@@ -1,0 +1,283 @@
+{
+  "id": 89,
+  "name": "Guam",
+  "nativeName": "Guam",
+  "iso2": "GU",
+  "iso3": "GUM",
+  "numericCode": "316",
+  "phoneCode": "1",
+  "tld": ".gu",
+  "latitude": 13.46666666,
+  "longitude": 144.78333333,
+  "flagId": 157,
+  "regionId": 5,
+  "subregionId": 21,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2396
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "괌"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Guam"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Guame"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Guam"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Guam"
+    },
+    {
+      "languageCode": "fa",
+      "name": "گوام"
+    },
+    {
+      "languageCode": "de",
+      "name": "Guam"
+    },
+    {
+      "languageCode": "es",
+      "name": "Guam"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Guam"
+    },
+    {
+      "languageCode": "ja",
+      "name": "グアム"
+    },
+    {
+      "languageCode": "it",
+      "name": "Guam"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "关岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Guam"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Гуам"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Гуам"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Guam"
+    }
+  ],
+  "states": [
+    {
+      "id": 5254,
+      "name": "Agana Heights",
+      "stateCode": null,
+      "latitude": 13.4657592,
+      "longitude": 144.7319533,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5255,
+      "name": "Asan-Maina",
+      "stateCode": null,
+      "latitude": 13.4729124,
+      "longitude": 144.7118041,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5256,
+      "name": "Barrigada",
+      "stateCode": null,
+      "latitude": 13.4641827,
+      "longitude": 144.7882247,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5257,
+      "name": "Chalan Pago-Ordot",
+      "stateCode": null,
+      "latitude": 13.436998,
+      "longitude": 144.7486708,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5258,
+      "name": "Dededo",
+      "stateCode": null,
+      "latitude": 13.522899,
+      "longitude": 144.7989287,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5259,
+      "name": "Hågat",
+      "stateCode": null,
+      "latitude": 13.3852224,
+      "longitude": 144.6399698,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5260,
+      "name": "Umatac (Humåtak)",
+      "stateCode": null,
+      "latitude": 13.2945777,
+      "longitude": 144.6538283,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5261,
+      "name": "Inarajan (Inalåhan)",
+      "stateCode": null,
+      "latitude": 13.2762049,
+      "longitude": 144.7203863,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5262,
+      "name": "Merizo (Malesso)",
+      "stateCode": null,
+      "latitude": 13.2686085,
+      "longitude": 144.6579749,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5263,
+      "name": "Mangilao",
+      "stateCode": null,
+      "latitude": 13.4498509,
+      "longitude": 144.7830268,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5264,
+      "name": "Mongmong-Toto-Maite",
+      "stateCode": null,
+      "latitude": 13.4692201,
+      "longitude": 144.7533808,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5265,
+      "name": "Hagåtña",
+      "stateCode": null,
+      "latitude": 13.4729829,
+      "longitude": 144.7274038,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5266,
+      "name": "Piti",
+      "stateCode": null,
+      "latitude": 13.4647446,
+      "longitude": 144.6876982,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5267,
+      "name": "Santa Rita (Sånta Rita-Sumai)",
+      "stateCode": null,
+      "latitude": 13.3867874,
+      "longitude": 144.6664227,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5268,
+      "name": "Sinajana",
+      "stateCode": null,
+      "latitude": 13.4609486,
+      "longitude": 144.7461208,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5269,
+      "name": "Talofofo (Talo'fo'fo)",
+      "stateCode": null,
+      "latitude": 13.3547144,
+      "longitude": 144.7345973,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5270,
+      "name": "Tamuning",
+      "stateCode": null,
+      "latitude": 13.4944762,
+      "longitude": 144.7804582,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5271,
+      "name": "Yigo",
+      "stateCode": null,
+      "latitude": 13.5729377,
+      "longitude": 144.8231522,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5272,
+      "name": "Yona",
+      "stateCode": null,
+      "latitude": 13.410206,
+      "longitude": 144.7555747,
+      "type": "village",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

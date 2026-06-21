@@ -1,0 +1,233 @@
+{
+  "id": 183,
+  "name": "Rwanda",
+  "nativeName": "Rwanda",
+  "iso2": "RW",
+  "iso3": "RWA",
+  "numericCode": "646",
+  "phoneCode": "250",
+  "tld": ".rw",
+  "latitude": -2,
+  "longitude": 30,
+  "flagId": 59,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    947
+  ],
+  "timezoneIds": [
+    2545
+  ],
+  "officialLanguageIds": [
+    30,
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "르완다"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ruanda"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ruanda"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Rwanda"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Ruanda"
+    },
+    {
+      "languageCode": "fa",
+      "name": "رواندا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Ruanda"
+    },
+    {
+      "languageCode": "es",
+      "name": "Ruanda"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Rwanda"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ルワンダ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Ruanda"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "卢旺达"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Ruanda"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Руанда"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Руанда"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Rwanda"
+    }
+  ],
+  "states": [
+    {
+      "id": 259,
+      "name": "Southern",
+      "stateCode": "05",
+      "latitude": null,
+      "longitude": null,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102792,
+          "name": "Butare",
+          "latitude": -2.59667,
+          "longitude": 29.73944,
+          "translations": []
+        },
+        {
+          "id": 102795,
+          "name": "Eglise Catholique Centrale GIKO",
+          "latitude": -1.93653,
+          "longitude": 29.8061,
+          "translations": []
+        },
+        {
+          "id": 102797,
+          "name": "Gitarama",
+          "latitude": -2.07444,
+          "longitude": 29.75667,
+          "translations": []
+        },
+        {
+          "id": 102802,
+          "name": "Nzega",
+          "latitude": -2.479,
+          "longitude": 29.5564,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "name": "Western",
+      "stateCode": "04",
+      "latitude": null,
+      "longitude": null,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102794,
+          "name": "Cyangugu",
+          "latitude": -2.4846,
+          "longitude": 28.9075,
+          "translations": []
+        },
+        {
+          "id": 102796,
+          "name": "Gisenyi",
+          "latitude": -1.70278,
+          "longitude": 29.25639,
+          "translations": []
+        },
+        {
+          "id": 102799,
+          "name": "Kibuye",
+          "latitude": -2.06028,
+          "longitude": 29.34778,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "name": "Eastern",
+      "stateCode": "02",
+      "latitude": null,
+      "longitude": null,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102798,
+          "name": "Kibungo",
+          "latitude": -2.1597,
+          "longitude": 30.5427,
+          "translations": []
+        },
+        {
+          "id": 102803,
+          "name": "Rwamagana",
+          "latitude": -1.9487,
+          "longitude": 30.4347,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 262,
+      "name": "Kigali",
+      "stateCode": "01",
+      "latitude": -1.9440727,
+      "longitude": 30.0618851,
+      "type": "city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102800,
+          "name": "Kigali",
+          "latitude": -1.94995,
+          "longitude": 30.05885,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "name": "Northern",
+      "stateCode": "03",
+      "latitude": null,
+      "longitude": null,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102793,
+          "name": "Byumba",
+          "latitude": -1.5763,
+          "longitude": 30.0675,
+          "translations": []
+        },
+        {
+          "id": 102801,
+          "name": "Musanze",
+          "latitude": -1.49984,
+          "longitude": 29.63497,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

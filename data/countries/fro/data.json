@@ -1,0 +1,362 @@
+{
+  "id": 72,
+  "name": "Faroe Islands",
+  "nativeName": "Føroyar",
+  "iso2": "FO",
+  "iso3": "FRO",
+  "numericCode": "234",
+  "phoneCode": "298",
+  "tld": ".fo",
+  "latitude": 62,
+  "longitude": -7,
+  "flagId": 176,
+  "regionId": 4,
+  "subregionId": 18,
+  "currencyIds": [
+    876
+  ],
+  "timezoneIds": [
+    2374
+  ],
+  "officialLanguageIds": [
+    28
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "페로 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Faroé"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Faroé"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Faeröer"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Farski Otoci"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر فارو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Färöer-Inseln"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Faroe"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Féroé"
+    },
+    {
+      "languageCode": "ja",
+      "name": "フェロー諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Far Oer"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "法罗群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Faroe Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Фарерские острова"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Фарерські острови"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Owcze"
+    }
+  ],
+  "states": [
+    {
+      "id": 5229,
+      "name": "Eysturoy",
+      "stateCode": "EY",
+      "latitude": 62.1978737,
+      "longitude": -7.1823906,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153747,
+          "name": "Runavík",
+          "latitude": 62.1323,
+          "longitude": -6.789,
+          "translations": []
+        },
+        {
+          "id": 153748,
+          "name": "Eystur",
+          "latitude": 62.1567,
+          "longitude": -6.8233,
+          "translations": []
+        },
+        {
+          "id": 153752,
+          "name": "Fuglafjørður",
+          "latitude": 62.2101,
+          "longitude": -6.8123,
+          "translations": []
+        },
+        {
+          "id": 153754,
+          "name": "Nes",
+          "latitude": 62.0987,
+          "longitude": -6.7654,
+          "translations": []
+        },
+        {
+          "id": 153757,
+          "name": "Sjóvar",
+          "latitude": 62.1234,
+          "longitude": -6.8765,
+          "translations": []
+        },
+        {
+          "id": 153758,
+          "name": "Eiði",
+          "latitude": 62.2789,
+          "longitude": -7.0123,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5230,
+      "name": "Northern Isles",
+      "stateCode": "NO",
+      "latitude": 62.2805689,
+      "longitude": 6.7017061,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153746,
+          "name": "Klaksvík",
+          "latitude": 62.221,
+          "longitude": -6.58,
+          "translations": []
+        },
+        {
+          "id": 153763,
+          "name": "Hvannasund",
+          "latitude": 62.3456,
+          "longitude": -6.789,
+          "translations": []
+        },
+        {
+          "id": 153765,
+          "name": "Viðareiði",
+          "latitude": 62.4567,
+          "longitude": -6.7234,
+          "translations": []
+        },
+        {
+          "id": 153767,
+          "name": "Kunoy",
+          "latitude": 62.3456,
+          "longitude": -6.8901,
+          "translations": []
+        },
+        {
+          "id": 153773,
+          "name": "Fugloy",
+          "latitude": 62.4567,
+          "longitude": -6.7234,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5231,
+      "name": "Sandoy",
+      "stateCode": "SA",
+      "latitude": 61.8365169,
+      "longitude": -6.9630166,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153761,
+          "name": "Sandur",
+          "latitude": 61.9012,
+          "longitude": -6.8456,
+          "translations": []
+        },
+        {
+          "id": 153762,
+          "name": "Skopun",
+          "latitude": 62.0123,
+          "longitude": -6.9876,
+          "translations": []
+        },
+        {
+          "id": 153768,
+          "name": "Skálavík",
+          "latitude": 61.9876,
+          "longitude": -6.7654,
+          "translations": []
+        },
+        {
+          "id": 153769,
+          "name": "Húsavík",
+          "latitude": 61.9012,
+          "longitude": -6.8456,
+          "translations": []
+        },
+        {
+          "id": 153772,
+          "name": "Skúvoy",
+          "latitude": 61.9876,
+          "longitude": -6.7654,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5232,
+      "name": "Streymoy",
+      "stateCode": "ST",
+      "latitude": 62.123382,
+      "longitude": -7.3264108,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153745,
+          "name": "Tórshavn",
+          "latitude": 62,
+          "longitude": -7,
+          "translations": []
+        },
+        {
+          "id": 153750,
+          "name": "Sunda",
+          "latitude": 62.1345,
+          "longitude": -7.0987,
+          "translations": []
+        },
+        {
+          "id": 153755,
+          "name": "Vestmanna",
+          "latitude": 62.1567,
+          "longitude": -7.2345,
+          "translations": []
+        },
+        {
+          "id": 153760,
+          "name": "Kvívík",
+          "latitude": 62.1456,
+          "longitude": -7.2098,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5233,
+      "name": "Suðuroy",
+      "stateCode": "SU",
+      "latitude": 61.5211816,
+      "longitude": -7.0019014,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153751,
+          "name": "Tvøroyri",
+          "latitude": 61.5623,
+          "longitude": -6.778,
+          "translations": []
+        },
+        {
+          "id": 153753,
+          "name": "Vágur",
+          "latitude": 61.4789,
+          "longitude": -6.8101,
+          "translations": []
+        },
+        {
+          "id": 153759,
+          "name": "Hvalba",
+          "latitude": 61.5987,
+          "longitude": -6.9876,
+          "translations": []
+        },
+        {
+          "id": 153764,
+          "name": "Sumba",
+          "latitude": 61.4567,
+          "longitude": -6.8901,
+          "translations": []
+        },
+        {
+          "id": 153766,
+          "name": "Porkeri",
+          "latitude": 61.5432,
+          "longitude": -6.9876,
+          "translations": []
+        },
+        {
+          "id": 153770,
+          "name": "Hov",
+          "latitude": 61.4567,
+          "longitude": -6.8901,
+          "translations": []
+        },
+        {
+          "id": 153771,
+          "name": "Fámjin",
+          "latitude": 61.4567,
+          "longitude": -6.8901,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5234,
+      "name": "Vágar",
+      "stateCode": "VA",
+      "latitude": 62.0899835,
+      "longitude": -7.4276837,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153749,
+          "name": "Vágar",
+          "latitude": 62.0667,
+          "longitude": -7.1,
+          "translations": []
+        },
+        {
+          "id": 153756,
+          "name": "Sørvágur",
+          "latitude": 62.0654,
+          "longitude": -7.3787,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

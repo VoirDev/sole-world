@@ -1,0 +1,1812 @@
+{
+  "id": 200,
+  "name": "Slovakia",
+  "nativeName": "Slovensko",
+  "iso2": "SK",
+  "iso3": "SVK",
+  "numericCode": "703",
+  "phoneCode": "421",
+  "tld": ".sk",
+  "latitude": 48.66666666,
+  "longitude": 19.5,
+  "flagId": 49,
+  "regionId": 4,
+  "subregionId": 15,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2561
+  ],
+  "officialLanguageIds": [
+    64
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "uk",
+      "name": "Словаччина"
+    },
+    {
+      "languageCode": "ko",
+      "name": "슬로바키아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Eslováquia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Eslováquia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Slowakije"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Slovačka"
+    },
+    {
+      "languageCode": "fa",
+      "name": "اسلواکی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Slowakei"
+    },
+    {
+      "languageCode": "es",
+      "name": "República Eslovaca"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Slovaquie"
+    },
+    {
+      "languageCode": "ja",
+      "name": "スロバキア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Slovacchia"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "斯洛伐克"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Slovakya"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Словакия"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Słowacja"
+    }
+  ],
+  "states": [
+    {
+      "id": 4352,
+      "name": "Banská Bystrica",
+      "stateCode": "BC",
+      "latitude": 48.5312499,
+      "longitude": 19.382874,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104370,
+          "name": "Banská Bystrica",
+          "latitude": 48.73946,
+          "longitude": 19.15349,
+          "translations": []
+        },
+        {
+          "id": 104371,
+          "name": "Banská Štiavnica",
+          "latitude": 48.44858,
+          "longitude": 18.91003,
+          "translations": []
+        },
+        {
+          "id": 104376,
+          "name": "Brezno",
+          "latitude": 48.80431,
+          "longitude": 19.63631,
+          "translations": []
+        },
+        {
+          "id": 104381,
+          "name": "Detva",
+          "latitude": 48.56082,
+          "longitude": 19.41954,
+          "translations": []
+        },
+        {
+          "id": 104385,
+          "name": "Dudince",
+          "latitude": 48.17135,
+          "longitude": 18.88782,
+          "translations": []
+        },
+        {
+          "id": 104388,
+          "name": "Fiľakovo",
+          "latitude": 48.26757,
+          "longitude": 19.82473,
+          "translations": []
+        },
+        {
+          "id": 104397,
+          "name": "Hriňová",
+          "latitude": 48.57787,
+          "longitude": 19.52574,
+          "translations": []
+        },
+        {
+          "id": 104398,
+          "name": "HrochoťSlovakia",
+          "latitude": 48.65567,
+          "longitude": 19.31284,
+          "translations": []
+        },
+        {
+          "id": 104408,
+          "name": "Kováčová",
+          "latitude": 48.60148,
+          "longitude": 19.10252,
+          "translations": []
+        },
+        {
+          "id": 104415,
+          "name": "Kremnica",
+          "latitude": 48.70519,
+          "longitude": 18.91834,
+          "translations": []
+        },
+        {
+          "id": 104417,
+          "name": "Krupina",
+          "latitude": 48.3554,
+          "longitude": 19.06474,
+          "translations": []
+        },
+        {
+          "id": 104426,
+          "name": "Lučenec",
+          "latitude": 48.33249,
+          "longitude": 19.66708,
+          "translations": []
+        },
+        {
+          "id": 104440,
+          "name": "Nová Baňa",
+          "latitude": 48.42305,
+          "longitude": 18.64037,
+          "translations": []
+        },
+        {
+          "id": 104447,
+          "name": "Okres Banská Bystrica",
+          "latitude": 48.73333,
+          "longitude": 19.15,
+          "translations": []
+        },
+        {
+          "id": 104448,
+          "name": "Okres Banská Štiavnica",
+          "latitude": 48.44961,
+          "longitude": 18.9082,
+          "translations": []
+        },
+        {
+          "id": 104455,
+          "name": "Okres Brezno",
+          "latitude": 48.8,
+          "longitude": 19.75,
+          "translations": []
+        },
+        {
+          "id": 104458,
+          "name": "Okres Detva",
+          "latitude": 48.55985,
+          "longitude": 19.42044,
+          "translations": []
+        },
+        {
+          "id": 104469,
+          "name": "Okres Krupina",
+          "latitude": 48.35736,
+          "longitude": 19.06334,
+          "translations": []
+        },
+        {
+          "id": 104474,
+          "name": "Okres Lučenec",
+          "latitude": 48.33333,
+          "longitude": 19.66667,
+          "translations": []
+        },
+        {
+          "id": 104487,
+          "name": "Okres Poltár",
+          "latitude": 48.42895,
+          "longitude": 19.79488,
+          "translations": []
+        },
+        {
+          "id": 104493,
+          "name": "Okres Revúca",
+          "latitude": 48.683,
+          "longitude": 20.11568,
+          "translations": []
+        },
+        {
+          "id": 104512,
+          "name": "Okres Veľký Krtíš",
+          "latitude": 48.2,
+          "longitude": 19.35,
+          "translations": []
+        },
+        {
+          "id": 104515,
+          "name": "Okres Zvolen",
+          "latitude": 48.58333,
+          "longitude": 19.13333,
+          "translations": []
+        },
+        {
+          "id": 104518,
+          "name": "Okres Žarnovica",
+          "latitude": 48.48438,
+          "longitude": 18.72076,
+          "translations": []
+        },
+        {
+          "id": 104519,
+          "name": "Okres Žiar nad Hronom",
+          "latitude": 48.58333,
+          "longitude": 18.86667,
+          "translations": []
+        },
+        {
+          "id": 104527,
+          "name": "Poltár",
+          "latitude": 48.43094,
+          "longitude": 19.79408,
+          "translations": []
+        },
+        {
+          "id": 104535,
+          "name": "Revúca",
+          "latitude": 48.68346,
+          "longitude": 20.11734,
+          "translations": []
+        },
+        {
+          "id": 104536,
+          "name": "Rimavská Sobota",
+          "latitude": 48.38284,
+          "longitude": 20.02239,
+          "translations": []
+        },
+        {
+          "id": 104559,
+          "name": "Svätý Anton",
+          "latitude": 48.41923,
+          "longitude": 18.9401,
+          "translations": []
+        },
+        {
+          "id": 104562,
+          "name": "Tisovec",
+          "latitude": 48.67738,
+          "longitude": 19.94364,
+          "translations": []
+        },
+        {
+          "id": 104573,
+          "name": "Veľký Krtíš",
+          "latitude": 48.21059,
+          "longitude": 19.35043,
+          "translations": []
+        },
+        {
+          "id": 104585,
+          "name": "Zvolen",
+          "latitude": 48.57442,
+          "longitude": 19.15324,
+          "translations": []
+        },
+        {
+          "id": 104589,
+          "name": "Čierny Balog",
+          "latitude": 48.74722,
+          "longitude": 19.65125,
+          "translations": []
+        },
+        {
+          "id": 104597,
+          "name": "Žarnovica",
+          "latitude": 48.48123,
+          "longitude": 18.71565,
+          "translations": []
+        },
+        {
+          "id": 104601,
+          "name": "Žiar nad Hronom",
+          "latitude": 48.59184,
+          "longitude": 18.84958,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4353,
+      "name": "Košice",
+      "stateCode": "KI",
+      "latitude": 48.6375737,
+      "longitude": 21.0834225,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104382,
+          "name": "Dobšiná",
+          "latitude": 48.82073,
+          "longitude": 20.36988,
+          "translations": []
+        },
+        {
+          "id": 104392,
+          "name": "Gelnica",
+          "latitude": 48.85584,
+          "longitude": 20.93713,
+          "translations": []
+        },
+        {
+          "id": 104404,
+          "name": "Kavečany",
+          "latitude": 48.77592,
+          "longitude": 21.20587,
+          "translations": []
+        },
+        {
+          "id": 104409,
+          "name": "Košice",
+          "latitude": 48.71395,
+          "longitude": 21.25808,
+          "translations": []
+        },
+        {
+          "id": 104410,
+          "name": "Košice I",
+          "latitude": 48.72914,
+          "longitude": 21.25004,
+          "translations": []
+        },
+        {
+          "id": 104411,
+          "name": "Košice II",
+          "latitude": 48.69753,
+          "longitude": 21.22273,
+          "translations": []
+        },
+        {
+          "id": 104412,
+          "name": "Košice III",
+          "latitude": 48.73242,
+          "longitude": 21.29047,
+          "translations": []
+        },
+        {
+          "id": 104413,
+          "name": "Košice IV",
+          "latitude": 48.68691,
+          "longitude": 21.2657,
+          "translations": []
+        },
+        {
+          "id": 104416,
+          "name": "Krompachy",
+          "latitude": 48.91447,
+          "longitude": 20.87514,
+          "translations": []
+        },
+        {
+          "id": 104431,
+          "name": "Medzev",
+          "latitude": 48.70041,
+          "longitude": 20.89367,
+          "translations": []
+        },
+        {
+          "id": 104433,
+          "name": "Michalovce",
+          "latitude": 48.75434,
+          "longitude": 21.9195,
+          "translations": []
+        },
+        {
+          "id": 104435,
+          "name": "Moldava nad Bodvou",
+          "latitude": 48.61428,
+          "longitude": 20.99957,
+          "translations": []
+        },
+        {
+          "id": 104462,
+          "name": "Okres Gelnica",
+          "latitude": 48.85207,
+          "longitude": 20.93385,
+          "translations": []
+        },
+        {
+          "id": 104468,
+          "name": "Okres Kosice-okolie",
+          "latitude": 48.77897,
+          "longitude": 21.41373,
+          "translations": []
+        },
+        {
+          "id": 104478,
+          "name": "Okres Michalovce",
+          "latitude": 48.75,
+          "longitude": 21.93333,
+          "translations": []
+        },
+        {
+          "id": 104494,
+          "name": "Okres Rožňava",
+          "latitude": 48.66667,
+          "longitude": 20.53333,
+          "translations": []
+        },
+        {
+          "id": 104501,
+          "name": "Okres Sobrance",
+          "latitude": 48.74247,
+          "longitude": 22.18197,
+          "translations": []
+        },
+        {
+          "id": 104502,
+          "name": "Okres Spišská Nová Ves",
+          "latitude": 48.95,
+          "longitude": 20.56667,
+          "translations": []
+        },
+        {
+          "id": 104507,
+          "name": "Okres Trebišov",
+          "latitude": 48.63333,
+          "longitude": 21.71667,
+          "translations": []
+        },
+        {
+          "id": 104537,
+          "name": "Rožňava",
+          "latitude": 48.66009,
+          "longitude": 20.53758,
+          "translations": []
+        },
+        {
+          "id": 104542,
+          "name": "Sečovce",
+          "latitude": 48.70074,
+          "longitude": 21.66104,
+          "translations": []
+        },
+        {
+          "id": 104547,
+          "name": "Sobrance",
+          "latitude": 48.74455,
+          "longitude": 22.18136,
+          "translations": []
+        },
+        {
+          "id": 104549,
+          "name": "Spišská Nová Ves",
+          "latitude": 48.94464,
+          "longitude": 20.56153,
+          "translations": []
+        },
+        {
+          "id": 104554,
+          "name": "Strážske",
+          "latitude": 48.8735,
+          "longitude": 21.83668,
+          "translations": []
+        },
+        {
+          "id": 104565,
+          "name": "Trebišov",
+          "latitude": 48.62858,
+          "longitude": 21.71954,
+          "translations": []
+        },
+        {
+          "id": 104575,
+          "name": "Vinné",
+          "latitude": 48.80965,
+          "longitude": 21.96757,
+          "translations": []
+        },
+        {
+          "id": 104588,
+          "name": "Čierna nad Tisou",
+          "latitude": 48.41704,
+          "longitude": 22.08865,
+          "translations": []
+        },
+        {
+          "id": 104599,
+          "name": "Žehra",
+          "latitude": 48.9796,
+          "longitude": 20.7917,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4354,
+      "name": "Prešov",
+      "stateCode": "PV",
+      "latitude": 49.1716773,
+      "longitude": 21.3742001,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104372,
+          "name": "Bardejov",
+          "latitude": 49.29175,
+          "longitude": 21.27271,
+          "translations": []
+        },
+        {
+          "id": 104380,
+          "name": "Chlmec",
+          "latitude": 48.88628,
+          "longitude": 21.9393,
+          "translations": []
+        },
+        {
+          "id": 104393,
+          "name": "Giraltovce",
+          "latitude": 49.11398,
+          "longitude": 21.51731,
+          "translations": []
+        },
+        {
+          "id": 104399,
+          "name": "Humenné",
+          "latitude": 48.93707,
+          "longitude": 21.91625,
+          "translations": []
+        },
+        {
+          "id": 104405,
+          "name": "Kežmarok",
+          "latitude": 49.13571,
+          "longitude": 20.43352,
+          "translations": []
+        },
+        {
+          "id": 104422,
+          "name": "Levoča",
+          "latitude": 49.02173,
+          "longitude": 20.59212,
+          "translations": []
+        },
+        {
+          "id": 104423,
+          "name": "Lipany",
+          "latitude": 49.15376,
+          "longitude": 20.96382,
+          "translations": []
+        },
+        {
+          "id": 104432,
+          "name": "Medzilaborce",
+          "latitude": 49.27195,
+          "longitude": 21.90073,
+          "translations": []
+        },
+        {
+          "id": 104442,
+          "name": "Nová Lesná",
+          "latitude": 49.12253,
+          "longitude": 20.26737,
+          "translations": []
+        },
+        {
+          "id": 104449,
+          "name": "Okres Bardejov",
+          "latitude": 49.28333,
+          "longitude": 21.28333,
+          "translations": []
+        },
+        {
+          "id": 104464,
+          "name": "Okres Humenné",
+          "latitude": 48.93333,
+          "longitude": 21.91667,
+          "translations": []
+        },
+        {
+          "id": 104466,
+          "name": "Okres Kežmarok",
+          "latitude": 49.13593,
+          "longitude": 20.42929,
+          "translations": []
+        },
+        {
+          "id": 104472,
+          "name": "Okres Levoča",
+          "latitude": 49.01986,
+          "longitude": 20.57688,
+          "translations": []
+        },
+        {
+          "id": 104477,
+          "name": "Okres Medzilaborce",
+          "latitude": 49.27062,
+          "longitude": 21.902,
+          "translations": []
+        },
+        {
+          "id": 104488,
+          "name": "Okres Poprad",
+          "latitude": 49.05,
+          "longitude": 20.3,
+          "translations": []
+        },
+        {
+          "id": 104490,
+          "name": "Okres Prešov",
+          "latitude": 49,
+          "longitude": 21.25,
+          "translations": []
+        },
+        {
+          "id": 104496,
+          "name": "Okres Sabinov",
+          "latitude": 49.10115,
+          "longitude": 21.09844,
+          "translations": []
+        },
+        {
+          "id": 104500,
+          "name": "Okres Snina",
+          "latitude": 48.98579,
+          "longitude": 22.15059,
+          "translations": []
+        },
+        {
+          "id": 104503,
+          "name": "Okres Stará Ĺubovňa",
+          "latitude": 49.3,
+          "longitude": 20.7,
+          "translations": []
+        },
+        {
+          "id": 104504,
+          "name": "Okres Stropkov",
+          "latitude": 49.20249,
+          "longitude": 21.65025,
+          "translations": []
+        },
+        {
+          "id": 104505,
+          "name": "Okres Svidník",
+          "latitude": 49.3,
+          "longitude": 21.56667,
+          "translations": []
+        },
+        {
+          "id": 104513,
+          "name": "Okres Vranov nad Topľou",
+          "latitude": 48.9,
+          "longitude": 21.68333,
+          "translations": []
+        },
+        {
+          "id": 104526,
+          "name": "Podolínec",
+          "latitude": 49.25869,
+          "longitude": 20.536,
+          "translations": []
+        },
+        {
+          "id": 104528,
+          "name": "Poprad",
+          "latitude": 49.06144,
+          "longitude": 20.29798,
+          "translations": []
+        },
+        {
+          "id": 104530,
+          "name": "Prešov",
+          "latitude": 48.99839,
+          "longitude": 21.23393,
+          "translations": []
+        },
+        {
+          "id": 104539,
+          "name": "Sabinov",
+          "latitude": 49.10309,
+          "longitude": 21.0988,
+          "translations": []
+        },
+        {
+          "id": 104546,
+          "name": "Snina",
+          "latitude": 48.98857,
+          "longitude": 22.15099,
+          "translations": []
+        },
+        {
+          "id": 104548,
+          "name": "Spišská Belá",
+          "latitude": 49.18725,
+          "longitude": 20.45948,
+          "translations": []
+        },
+        {
+          "id": 104550,
+          "name": "Spišské Podhradie",
+          "latitude": 49.00088,
+          "longitude": 20.75307,
+          "translations": []
+        },
+        {
+          "id": 104552,
+          "name": "Stará Ľubovňa",
+          "latitude": 49.29859,
+          "longitude": 20.6862,
+          "translations": []
+        },
+        {
+          "id": 104553,
+          "name": "Stropkov",
+          "latitude": 49.20211,
+          "longitude": 21.65216,
+          "translations": []
+        },
+        {
+          "id": 104556,
+          "name": "Svidník",
+          "latitude": 49.30819,
+          "longitude": 21.5703,
+          "translations": []
+        },
+        {
+          "id": 104557,
+          "name": "Svit",
+          "latitude": 49.06014,
+          "longitude": 20.20695,
+          "translations": []
+        },
+        {
+          "id": 104577,
+          "name": "Vranov nad Topľou",
+          "latitude": 48.88836,
+          "longitude": 21.68479,
+          "translations": []
+        },
+        {
+          "id": 104578,
+          "name": "Vrbov",
+          "latitude": 49.08764,
+          "longitude": 20.4253,
+          "translations": []
+        },
+        {
+          "id": 104582,
+          "name": "Vysoké Tatry",
+          "latitude": 49.13637,
+          "longitude": 20.24386,
+          "translations": []
+        },
+        {
+          "id": 104583,
+          "name": "Vyšné Ružbachy",
+          "latitude": 49.30387,
+          "longitude": 20.56558,
+          "translations": []
+        },
+        {
+          "id": 104590,
+          "name": "Ľubica",
+          "latitude": 49.11667,
+          "longitude": 20.45,
+          "translations": []
+        },
+        {
+          "id": 104594,
+          "name": "Štrba",
+          "latitude": 49.05913,
+          "longitude": 20.07975,
+          "translations": []
+        },
+        {
+          "id": 104598,
+          "name": "Ždiar",
+          "latitude": 49.271,
+          "longitude": 20.26239,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4355,
+      "name": "Trnava",
+      "stateCode": "TA",
+      "latitude": 48.3943898,
+      "longitude": 17.7216205,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104387,
+          "name": "Dunajská Streda",
+          "latitude": 47.99268,
+          "longitude": 17.61211,
+          "translations": []
+        },
+        {
+          "id": 104389,
+          "name": "Gabčíkovo",
+          "latitude": 47.89211,
+          "longitude": 17.57884,
+          "translations": []
+        },
+        {
+          "id": 104390,
+          "name": "Galanta",
+          "latitude": 48.19001,
+          "longitude": 17.72747,
+          "translations": []
+        },
+        {
+          "id": 104391,
+          "name": "Gbely",
+          "latitude": 48.718,
+          "longitude": 17.11628,
+          "translations": []
+        },
+        {
+          "id": 104395,
+          "name": "Hlohovec",
+          "latitude": 48.43174,
+          "longitude": 17.8031,
+          "translations": []
+        },
+        {
+          "id": 104396,
+          "name": "Holíč",
+          "latitude": 48.81105,
+          "longitude": 17.16238,
+          "translations": []
+        },
+        {
+          "id": 104420,
+          "name": "Leopoldov",
+          "latitude": 48.44575,
+          "longitude": 17.76458,
+          "translations": []
+        },
+        {
+          "id": 104460,
+          "name": "Okres Dunajská Streda",
+          "latitude": 47.99635,
+          "longitude": 17.60937,
+          "translations": []
+        },
+        {
+          "id": 104461,
+          "name": "Okres Galanta",
+          "latitude": 48.2,
+          "longitude": 17.71667,
+          "translations": []
+        },
+        {
+          "id": 104463,
+          "name": "Okres Hlohovec",
+          "latitude": 48.41667,
+          "longitude": 17.75,
+          "translations": []
+        },
+        {
+          "id": 104486,
+          "name": "Okres Piešťany",
+          "latitude": 48.59064,
+          "longitude": 17.82679,
+          "translations": []
+        },
+        {
+          "id": 104498,
+          "name": "Okres Senica",
+          "latitude": 48.68333,
+          "longitude": 17.36667,
+          "translations": []
+        },
+        {
+          "id": 104499,
+          "name": "Okres Skalica",
+          "latitude": 48.75,
+          "longitude": 17.16667,
+          "translations": []
+        },
+        {
+          "id": 104509,
+          "name": "Okres Trnava",
+          "latitude": 48.36667,
+          "longitude": 17.6,
+          "translations": []
+        },
+        {
+          "id": 104525,
+          "name": "Piešťany",
+          "latitude": 48.59479,
+          "longitude": 17.82591,
+          "translations": []
+        },
+        {
+          "id": 104541,
+          "name": "Senica",
+          "latitude": 48.67922,
+          "longitude": 17.36697,
+          "translations": []
+        },
+        {
+          "id": 104543,
+          "name": "Skalica",
+          "latitude": 48.8449,
+          "longitude": 17.22635,
+          "translations": []
+        },
+        {
+          "id": 104544,
+          "name": "Sládkovičovo",
+          "latitude": 48.20137,
+          "longitude": 17.63852,
+          "translations": []
+        },
+        {
+          "id": 104545,
+          "name": "Smolenice",
+          "latitude": 48.50478,
+          "longitude": 17.43067,
+          "translations": []
+        },
+        {
+          "id": 104568,
+          "name": "Trnava",
+          "latitude": 48.37741,
+          "longitude": 17.58723,
+          "translations": []
+        },
+        {
+          "id": 104574,
+          "name": "Veľký Meder",
+          "latitude": 47.85798,
+          "longitude": 17.76884,
+          "translations": []
+        },
+        {
+          "id": 104579,
+          "name": "Vrbové",
+          "latitude": 48.61973,
+          "longitude": 17.7226,
+          "translations": []
+        },
+        {
+          "id": 104592,
+          "name": "Šamorín",
+          "latitude": 48.03015,
+          "longitude": 17.30972,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4356,
+      "name": "Bratislava",
+      "stateCode": "BL",
+      "latitude": 48.3118304,
+      "longitude": 17.1973299,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104374,
+          "name": "Bratislava",
+          "latitude": 48.14816,
+          "longitude": 17.10674,
+          "translations": []
+        },
+        {
+          "id": 104375,
+          "name": "Bratislava - Vajnory",
+          "latitude": 48.20563,
+          "longitude": 17.20759,
+          "translations": []
+        },
+        {
+          "id": 104386,
+          "name": "Dunajská Lužná",
+          "latitude": 48.08347,
+          "longitude": 17.26072,
+          "translations": []
+        },
+        {
+          "id": 104403,
+          "name": "Ivanka pri Dunaji",
+          "latitude": 48.18675,
+          "longitude": 17.2554,
+          "translations": []
+        },
+        {
+          "id": 104428,
+          "name": "Malacky",
+          "latitude": 48.43604,
+          "longitude": 17.02188,
+          "translations": []
+        },
+        {
+          "id": 104429,
+          "name": "Marianka",
+          "latitude": 48.24903,
+          "longitude": 17.064,
+          "translations": []
+        },
+        {
+          "id": 104434,
+          "name": "Modra",
+          "latitude": 48.33397,
+          "longitude": 17.30711,
+          "translations": []
+        },
+        {
+          "id": 104450,
+          "name": "Okres Bratislava I",
+          "latitude": 48.14653,
+          "longitude": 17.10584,
+          "translations": []
+        },
+        {
+          "id": 104451,
+          "name": "Okres Bratislava II",
+          "latitude": 48.1528,
+          "longitude": 17.17764,
+          "translations": []
+        },
+        {
+          "id": 104452,
+          "name": "Okres Bratislava III",
+          "latitude": 48.18543,
+          "longitude": 17.1379,
+          "translations": []
+        },
+        {
+          "id": 104453,
+          "name": "Okres Bratislava IV",
+          "latitude": 48.22787,
+          "longitude": 16.99722,
+          "translations": []
+        },
+        {
+          "id": 104454,
+          "name": "Okres Bratislava V",
+          "latitude": 48.11122,
+          "longitude": 17.09444,
+          "translations": []
+        },
+        {
+          "id": 104475,
+          "name": "Okres Malacky",
+          "latitude": 48.43458,
+          "longitude": 17.02166,
+          "translations": []
+        },
+        {
+          "id": 104485,
+          "name": "Okres Pezinok",
+          "latitude": 48.28785,
+          "longitude": 17.26799,
+          "translations": []
+        },
+        {
+          "id": 104497,
+          "name": "Okres Senec",
+          "latitude": 48.22187,
+          "longitude": 17.40328,
+          "translations": []
+        },
+        {
+          "id": 104524,
+          "name": "Pezinok",
+          "latitude": 48.28986,
+          "longitude": 17.26664,
+          "translations": []
+        },
+        {
+          "id": 104540,
+          "name": "Senec",
+          "latitude": 48.21951,
+          "longitude": 17.40043,
+          "translations": []
+        },
+        {
+          "id": 104555,
+          "name": "Stupava",
+          "latitude": 48.27474,
+          "longitude": 17.03173,
+          "translations": []
+        },
+        {
+          "id": 104560,
+          "name": "Svätý Jur",
+          "latitude": 48.25216,
+          "longitude": 17.21539,
+          "translations": []
+        },
+        {
+          "id": 104576,
+          "name": "Vinosady",
+          "latitude": 48.31142,
+          "longitude": 17.29042,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4357,
+      "name": "Nitra",
+      "stateCode": "NI",
+      "latitude": 48.0143765,
+      "longitude": 18.5416504,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104400,
+          "name": "Hurbanovo",
+          "latitude": 47.86984,
+          "longitude": 18.19233,
+          "translations": []
+        },
+        {
+          "id": 104406,
+          "name": "Kolárovo",
+          "latitude": 47.92294,
+          "longitude": 17.98467,
+          "translations": []
+        },
+        {
+          "id": 104407,
+          "name": "Komárno",
+          "latitude": 47.76356,
+          "longitude": 18.12263,
+          "translations": []
+        },
+        {
+          "id": 104421,
+          "name": "Levice",
+          "latitude": 48.21563,
+          "longitude": 18.60705,
+          "translations": []
+        },
+        {
+          "id": 104438,
+          "name": "Nitra",
+          "latitude": 48.30763,
+          "longitude": 18.08453,
+          "translations": []
+        },
+        {
+          "id": 104445,
+          "name": "Nové Zámky",
+          "latitude": 47.98544,
+          "longitude": 18.16195,
+          "translations": []
+        },
+        {
+          "id": 104467,
+          "name": "Okres Komárno",
+          "latitude": 47.76667,
+          "longitude": 18.13333,
+          "translations": []
+        },
+        {
+          "id": 104471,
+          "name": "Okres Levice",
+          "latitude": 48.21667,
+          "longitude": 18.6,
+          "translations": []
+        },
+        {
+          "id": 104481,
+          "name": "Okres Nitra",
+          "latitude": 48.31667,
+          "longitude": 18.08333,
+          "translations": []
+        },
+        {
+          "id": 104483,
+          "name": "Okres Nové Zámky",
+          "latitude": 47.98333,
+          "longitude": 18.16667,
+          "translations": []
+        },
+        {
+          "id": 104506,
+          "name": "Okres Topoľčany",
+          "latitude": 48.56667,
+          "longitude": 18.18333,
+          "translations": []
+        },
+        {
+          "id": 104514,
+          "name": "Okres Zlaté Moravce",
+          "latitude": 48.38294,
+          "longitude": 18.39842,
+          "translations": []
+        },
+        {
+          "id": 104517,
+          "name": "Okres Šaľa",
+          "latitude": 48.1477,
+          "longitude": 17.87306,
+          "translations": []
+        },
+        {
+          "id": 104558,
+          "name": "Svodín",
+          "latitude": 47.91054,
+          "longitude": 18.49967,
+          "translations": []
+        },
+        {
+          "id": 104563,
+          "name": "Tlmače",
+          "latitude": 48.28926,
+          "longitude": 18.53152,
+          "translations": []
+        },
+        {
+          "id": 104564,
+          "name": "Topoľčany",
+          "latitude": 48.56361,
+          "longitude": 18.16712,
+          "translations": []
+        },
+        {
+          "id": 104580,
+          "name": "Vráble",
+          "latitude": 48.24371,
+          "longitude": 18.30846,
+          "translations": []
+        },
+        {
+          "id": 104584,
+          "name": "Zlaté Moravce",
+          "latitude": 48.38553,
+          "longitude": 18.40063,
+          "translations": []
+        },
+        {
+          "id": 104591,
+          "name": "Šahy",
+          "latitude": 48.07408,
+          "longitude": 18.94946,
+          "translations": []
+        },
+        {
+          "id": 104593,
+          "name": "Šaľa",
+          "latitude": 48.15127,
+          "longitude": 17.88062,
+          "translations": []
+        },
+        {
+          "id": 104595,
+          "name": "Štúrovo",
+          "latitude": 47.79495,
+          "longitude": 18.7175,
+          "translations": []
+        },
+        {
+          "id": 104596,
+          "name": "Šurany",
+          "latitude": 48.08613,
+          "longitude": 18.18447,
+          "translations": []
+        },
+        {
+          "id": 104600,
+          "name": "Želiezovce",
+          "latitude": 48.05075,
+          "longitude": 18.65421,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4358,
+      "name": "Trenčín",
+      "stateCode": "TC",
+      "latitude": 48.8086758,
+      "longitude": 18.2324026,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104373,
+          "name": "Bojnice",
+          "latitude": 48.78511,
+          "longitude": 18.5864,
+          "translations": []
+        },
+        {
+          "id": 104377,
+          "name": "Brezová pod Bradlom",
+          "latitude": 48.66349,
+          "longitude": 17.53905,
+          "translations": []
+        },
+        {
+          "id": 104379,
+          "name": "Bánovce nad Bebravou",
+          "latitude": 48.7213,
+          "longitude": 18.25754,
+          "translations": []
+        },
+        {
+          "id": 104384,
+          "name": "Dubnica nad Váhom",
+          "latitude": 48.95981,
+          "longitude": 18.16634,
+          "translations": []
+        },
+        {
+          "id": 104394,
+          "name": "Handlová",
+          "latitude": 48.7276,
+          "longitude": 18.76012,
+          "translations": []
+        },
+        {
+          "id": 104402,
+          "name": "Ilava",
+          "latitude": 48.99769,
+          "longitude": 18.2353,
+          "translations": []
+        },
+        {
+          "id": 104419,
+          "name": "Lehota pod Vtáčnikom",
+          "latitude": 48.69138,
+          "longitude": 18.59944,
+          "translations": []
+        },
+        {
+          "id": 104436,
+          "name": "Myjava",
+          "latitude": 48.75876,
+          "longitude": 17.56866,
+          "translations": []
+        },
+        {
+          "id": 104437,
+          "name": "Nemšová",
+          "latitude": 48.96702,
+          "longitude": 18.11892,
+          "translations": []
+        },
+        {
+          "id": 104441,
+          "name": "Nová Dubnica",
+          "latitude": 48.93479,
+          "longitude": 18.14632,
+          "translations": []
+        },
+        {
+          "id": 104443,
+          "name": "Nováky",
+          "latitude": 48.71106,
+          "longitude": 18.53389,
+          "translations": []
+        },
+        {
+          "id": 104444,
+          "name": "Nové Mesto nad Váhom",
+          "latitude": 48.75763,
+          "longitude": 17.8309,
+          "translations": []
+        },
+        {
+          "id": 104457,
+          "name": "Okres Bánovce nad Bebravou",
+          "latitude": 48.71908,
+          "longitude": 18.25773,
+          "translations": []
+        },
+        {
+          "id": 104465,
+          "name": "Okres Ilava",
+          "latitude": 48.99641,
+          "longitude": 18.23374,
+          "translations": []
+        },
+        {
+          "id": 104479,
+          "name": "Okres Myjava",
+          "latitude": 48.75,
+          "longitude": 17.58333,
+          "translations": []
+        },
+        {
+          "id": 104482,
+          "name": "Okres Nové Mesto nad Váhom",
+          "latitude": 48.75466,
+          "longitude": 17.83506,
+          "translations": []
+        },
+        {
+          "id": 104484,
+          "name": "Okres Partizánske",
+          "latitude": 48.62613,
+          "longitude": 18.37957,
+          "translations": []
+        },
+        {
+          "id": 104489,
+          "name": "Okres Považská Bystrica",
+          "latitude": 49.11667,
+          "longitude": 18.45,
+          "translations": []
+        },
+        {
+          "id": 104491,
+          "name": "Okres Prievidza",
+          "latitude": 48.76667,
+          "longitude": 18.63333,
+          "translations": []
+        },
+        {
+          "id": 104492,
+          "name": "Okres Púchov",
+          "latitude": 49.12406,
+          "longitude": 18.32477,
+          "translations": []
+        },
+        {
+          "id": 104508,
+          "name": "Okres Trenčín",
+          "latitude": 48.8952,
+          "longitude": 18.04264,
+          "translations": []
+        },
+        {
+          "id": 104523,
+          "name": "Partizánske",
+          "latitude": 48.62861,
+          "longitude": 18.38455,
+          "translations": []
+        },
+        {
+          "id": 104529,
+          "name": "Považská Bystrica",
+          "latitude": 49.12153,
+          "longitude": 18.42169,
+          "translations": []
+        },
+        {
+          "id": 104532,
+          "name": "Prievidza",
+          "latitude": 48.77446,
+          "longitude": 18.6275,
+          "translations": []
+        },
+        {
+          "id": 104533,
+          "name": "Púchov",
+          "latitude": 49.12494,
+          "longitude": 18.32597,
+          "translations": []
+        },
+        {
+          "id": 104551,
+          "name": "Stará Turá",
+          "latitude": 48.77721,
+          "longitude": 17.69433,
+          "translations": []
+        },
+        {
+          "id": 104566,
+          "name": "Trenčianske Teplice",
+          "latitude": 48.91063,
+          "longitude": 18.16691,
+          "translations": []
+        },
+        {
+          "id": 104567,
+          "name": "Trenčín",
+          "latitude": 48.89452,
+          "longitude": 18.04436,
+          "translations": []
+        },
+        {
+          "id": 104586,
+          "name": "Čachtice",
+          "latitude": 48.71226,
+          "longitude": 17.78704,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4359,
+      "name": "Žilina",
+      "stateCode": "ZI",
+      "latitude": 49.2031435,
+      "longitude": 19.3645733,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104378,
+          "name": "Bytča",
+          "latitude": 49.22404,
+          "longitude": 18.55878,
+          "translations": []
+        },
+        {
+          "id": 104383,
+          "name": "Dolný Kubín",
+          "latitude": 49.20983,
+          "longitude": 19.30341,
+          "translations": []
+        },
+        {
+          "id": 104401,
+          "name": "Hybe",
+          "latitude": 49.04439,
+          "longitude": 19.82895,
+          "translations": []
+        },
+        {
+          "id": 104414,
+          "name": "Krasňany",
+          "latitude": 49.21491,
+          "longitude": 18.88718,
+          "translations": []
+        },
+        {
+          "id": 104418,
+          "name": "Kysucké Nové Mesto",
+          "latitude": 49.3,
+          "longitude": 18.78333,
+          "translations": []
+        },
+        {
+          "id": 104424,
+          "name": "Liptovský Hrádok",
+          "latitude": 49.03962,
+          "longitude": 19.72335,
+          "translations": []
+        },
+        {
+          "id": 104425,
+          "name": "Liptovský Mikuláš",
+          "latitude": 49.08061,
+          "longitude": 19.62218,
+          "translations": []
+        },
+        {
+          "id": 104427,
+          "name": "Lúčky",
+          "latitude": 49.12944,
+          "longitude": 19.40228,
+          "translations": []
+        },
+        {
+          "id": 104430,
+          "name": "Martin",
+          "latitude": 49.06651,
+          "longitude": 18.92399,
+          "translations": []
+        },
+        {
+          "id": 104439,
+          "name": "Nižná",
+          "latitude": 49.31046,
+          "longitude": 19.52428,
+          "translations": []
+        },
+        {
+          "id": 104446,
+          "name": "Námestovo",
+          "latitude": 49.4079,
+          "longitude": 19.48032,
+          "translations": []
+        },
+        {
+          "id": 104456,
+          "name": "Okres Bytča",
+          "latitude": 49.22267,
+          "longitude": 18.55844,
+          "translations": []
+        },
+        {
+          "id": 104459,
+          "name": "Okres Dolný Kubín",
+          "latitude": 49.2,
+          "longitude": 19.3,
+          "translations": []
+        },
+        {
+          "id": 104470,
+          "name": "Okres Kysucké Nové Mesto",
+          "latitude": 49.30206,
+          "longitude": 18.78603,
+          "translations": []
+        },
+        {
+          "id": 104473,
+          "name": "Okres Liptovský Mikuláš",
+          "latitude": 49.08333,
+          "longitude": 19.61667,
+          "translations": []
+        },
+        {
+          "id": 104476,
+          "name": "Okres Martin",
+          "latitude": 49.06667,
+          "longitude": 18.93333,
+          "translations": []
+        },
+        {
+          "id": 104480,
+          "name": "Okres Namestovo",
+          "latitude": 49.40651,
+          "longitude": 19.4767,
+          "translations": []
+        },
+        {
+          "id": 104495,
+          "name": "Okres Ružomberok",
+          "latitude": 49.07494,
+          "longitude": 19.30083,
+          "translations": []
+        },
+        {
+          "id": 104510,
+          "name": "Okres Turčianske Teplice",
+          "latitude": 48.86283,
+          "longitude": 18.85759,
+          "translations": []
+        },
+        {
+          "id": 104511,
+          "name": "Okres Tvrdošín",
+          "latitude": 49.33421,
+          "longitude": 19.55461,
+          "translations": []
+        },
+        {
+          "id": 104516,
+          "name": "Okres Čadca",
+          "latitude": 49.43333,
+          "longitude": 18.78333,
+          "translations": []
+        },
+        {
+          "id": 104520,
+          "name": "Okres Žilina",
+          "latitude": 49.22303,
+          "longitude": 18.74044,
+          "translations": []
+        },
+        {
+          "id": 104521,
+          "name": "Oravská Lesná",
+          "latitude": 49.36672,
+          "longitude": 19.18093,
+          "translations": []
+        },
+        {
+          "id": 104522,
+          "name": "Oravský Podzámok",
+          "latitude": 49.25939,
+          "longitude": 19.3569,
+          "translations": []
+        },
+        {
+          "id": 104531,
+          "name": "Pribylina",
+          "latitude": 49.0995,
+          "longitude": 19.79427,
+          "translations": []
+        },
+        {
+          "id": 104534,
+          "name": "Rajec",
+          "latitude": 49.08899,
+          "longitude": 18.64007,
+          "translations": []
+        },
+        {
+          "id": 104538,
+          "name": "Ružomberok",
+          "latitude": 49.0748,
+          "longitude": 19.30751,
+          "translations": []
+        },
+        {
+          "id": 104561,
+          "name": "Terchová",
+          "latitude": 49.25895,
+          "longitude": 19.02935,
+          "translations": []
+        },
+        {
+          "id": 104569,
+          "name": "Trstená",
+          "latitude": 49.36101,
+          "longitude": 19.61249,
+          "translations": []
+        },
+        {
+          "id": 104570,
+          "name": "Turzovka",
+          "latitude": 49.40429,
+          "longitude": 18.62258,
+          "translations": []
+        },
+        {
+          "id": 104571,
+          "name": "Turčianske Teplice",
+          "latitude": 48.86225,
+          "longitude": 18.86048,
+          "translations": []
+        },
+        {
+          "id": 104572,
+          "name": "Tvrdošín",
+          "latitude": 49.337,
+          "longitude": 19.556,
+          "translations": []
+        },
+        {
+          "id": 104581,
+          "name": "Vrútky",
+          "latitude": 49.11328,
+          "longitude": 18.91714,
+          "translations": []
+        },
+        {
+          "id": 104587,
+          "name": "Čadca",
+          "latitude": 49.43503,
+          "longitude": 18.78895,
+          "translations": []
+        },
+        {
+          "id": 104602,
+          "name": "Žilina",
+          "latitude": 49.22315,
+          "longitude": 18.73941,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

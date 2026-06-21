@@ -1,0 +1,1473 @@
+{
+  "id": 208,
+  "name": "Sri Lanka",
+  "nativeName": "śrī laṃkāva",
+  "iso2": "LK",
+  "iso3": "LKA",
+  "numericCode": "144",
+  "phoneCode": "94",
+  "tld": ".lk",
+  "latitude": 7,
+  "longitude": 81,
+  "flagId": 121,
+  "regionId": 3,
+  "subregionId": 14,
+  "currencyIds": [
+    961
+  ],
+  "timezoneIds": [
+    2572
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [
+    30
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "스리랑카"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Sri Lanka"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Sri Lanka"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Sri Lanka"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Šri Lanka"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سری‌لانکا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Sri Lanka"
+    },
+    {
+      "languageCode": "es",
+      "name": "Sri Lanka"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Sri Lanka"
+    },
+    {
+      "languageCode": "ja",
+      "name": "スリランカ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Sri Lanka"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "斯里兰卡"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Sri Lanka"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Шри-Ланка"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Шрі-Ланка"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Sri Lanka"
+    }
+  ],
+  "states": [
+    {
+      "id": 2787,
+      "name": "Jaffna",
+      "stateCode": "41",
+      "latitude": 9.6930468,
+      "longitude": 80.1651854,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2788,
+      "name": "Kandy",
+      "stateCode": "21",
+      "latitude": 7.2931588,
+      "longitude": 80.6350107,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66472,
+          "name": "Gampola",
+          "latitude": 7.1643,
+          "longitude": 80.5696,
+          "translations": []
+        },
+        {
+          "id": 66485,
+          "name": "Kadugannawa",
+          "latitude": 7.2547,
+          "longitude": 80.5242,
+          "translations": []
+        },
+        {
+          "id": 66542,
+          "name": "Wattegama",
+          "latitude": 7.350278,
+          "longitude": 80.6825,
+          "translations": []
+        },
+        {
+          "id": 146133,
+          "name": "Udadumbara",
+          "latitude": 7.35,
+          "longitude": 80.833333,
+          "translations": []
+        },
+        {
+          "id": 146134,
+          "name": "Welamboda",
+          "latitude": 7.2,
+          "longitude": 80.55,
+          "translations": []
+        },
+        {
+          "id": 146135,
+          "name": "Watadeniya",
+          "latitude": 7.195011,
+          "longitude": 80.552494,
+          "translations": []
+        },
+        {
+          "id": 146136,
+          "name": "Ulapane",
+          "latitude": 7.102778,
+          "longitude": 80.561111,
+          "translations": []
+        },
+        {
+          "id": 146137,
+          "name": "Teldeniya",
+          "latitude": 7.3,
+          "longitude": 80.766667,
+          "translations": []
+        },
+        {
+          "id": 146138,
+          "name": "Talatuoya",
+          "latitude": 7.25,
+          "longitude": 80.683333,
+          "translations": []
+        },
+        {
+          "id": 146139,
+          "name": "Pussellawa",
+          "latitude": 7.105333,
+          "longitude": 80.636667,
+          "translations": []
+        },
+        {
+          "id": 146140,
+          "name": "Pilimathalawa",
+          "latitude": 7.27,
+          "longitude": 80.57,
+          "translations": []
+        },
+        {
+          "id": 146141,
+          "name": "Menikdiwela",
+          "latitude": 7.083333,
+          "longitude": 80.733333,
+          "translations": []
+        },
+        {
+          "id": 146142,
+          "name": "Madawala",
+          "latitude": 7.328331,
+          "longitude": 80.673552,
+          "translations": []
+        },
+        {
+          "id": 146143,
+          "name": "Hapugastalawa",
+          "latitude": 7.05872498,
+          "longitude": 80.57137014,
+          "translations": []
+        },
+        {
+          "id": 146144,
+          "name": "Hanguranketa",
+          "latitude": 7.166667,
+          "longitude": 80.783333,
+          "translations": []
+        },
+        {
+          "id": 146145,
+          "name": "Galhinna",
+          "latitude": 7.416142,
+          "longitude": 80.568842,
+          "translations": []
+        },
+        {
+          "id": 146146,
+          "name": "Galagedara",
+          "latitude": 7.368333,
+          "longitude": 80.5275,
+          "translations": []
+        },
+        {
+          "id": 146147,
+          "name": "Daulagala",
+          "latitude": 7.22882494,
+          "longitude": 80.57756073,
+          "translations": []
+        },
+        {
+          "id": 146148,
+          "name": "Daskara",
+          "latitude": 7.20902217,
+          "longitude": 80.57764643,
+          "translations": []
+        },
+        {
+          "id": 146149,
+          "name": "Ambatenna",
+          "latitude": 7.35252855,
+          "longitude": 80.61378113,
+          "translations": []
+        },
+        {
+          "id": 146150,
+          "name": "Alawatugoda",
+          "latitude": 7.41048962,
+          "longitude": 80.60918933,
+          "translations": []
+        },
+        {
+          "id": 146151,
+          "name": "Nawalapitiya",
+          "latitude": 7.03696481,
+          "longitude": 80.51626688,
+          "translations": []
+        },
+        {
+          "id": 146152,
+          "name": "Pallekele",
+          "latitude": 7.283333,
+          "longitude": 80.7,
+          "translations": []
+        },
+        {
+          "id": 146153,
+          "name": "Katugastota",
+          "latitude": 7.333333,
+          "longitude": 80.616667,
+          "translations": []
+        },
+        {
+          "id": 146154,
+          "name": "Peradeniya",
+          "latitude": 7.266667,
+          "longitude": 80.6,
+          "translations": []
+        },
+        {
+          "id": 146155,
+          "name": "Yatinuwara",
+          "latitude": 7.28584509,
+          "longitude": 80.53516168,
+          "translations": []
+        },
+        {
+          "id": 146156,
+          "name": "Udunuwara",
+          "latitude": 7.22777866,
+          "longitude": 80.55894578,
+          "translations": []
+        },
+        {
+          "id": 146157,
+          "name": "Ududumbara",
+          "latitude": 7.31434839,
+          "longitude": 80.87707756,
+          "translations": []
+        },
+        {
+          "id": 146158,
+          "name": "Udapalatha",
+          "latitude": 7.11515526,
+          "longitude": 80.6024834,
+          "translations": []
+        },
+        {
+          "id": 146159,
+          "name": "Thumpane",
+          "latitude": 7.36616728,
+          "longitude": 80.51587048,
+          "translations": []
+        },
+        {
+          "id": 146160,
+          "name": "Poojapitiya",
+          "latitude": 7.38093796,
+          "longitude": 80.58913708,
+          "translations": []
+        },
+        {
+          "id": 146161,
+          "name": "Pathahewaheta",
+          "latitude": 7.23139207,
+          "longitude": 80.70848937,
+          "translations": []
+        },
+        {
+          "id": 146162,
+          "name": "Pathadumbara",
+          "latitude": 7.34931196,
+          "longitude": 80.66303689,
+          "translations": []
+        },
+        {
+          "id": 146163,
+          "name": "Pasbage Korale",
+          "latitude": 7.0151045,
+          "longitude": 80.54078073,
+          "translations": []
+        },
+        {
+          "id": 146164,
+          "name": "Panvila",
+          "latitude": 7.4092975,
+          "longitude": 80.73966228,
+          "translations": []
+        },
+        {
+          "id": 146165,
+          "name": "Minipe",
+          "latitude": 7.22638754,
+          "longitude": 81.00116732,
+          "translations": []
+        },
+        {
+          "id": 146166,
+          "name": "Medadumbara",
+          "latitude": 7.30425996,
+          "longitude": 80.77519844,
+          "translations": []
+        },
+        {
+          "id": 146167,
+          "name": "Kundasale",
+          "latitude": 7.30391594,
+          "longitude": 80.71230408,
+          "translations": []
+        },
+        {
+          "id": 146168,
+          "name": "Kandy Four Gravets",
+          "latitude": 7.28318748,
+          "longitude": 80.63527585,
+          "translations": []
+        },
+        {
+          "id": 146169,
+          "name": "Hatharaliyadda",
+          "latitude": 7.33032982,
+          "longitude": 80.47875881,
+          "translations": []
+        },
+        {
+          "id": 146170,
+          "name": "Harispattuwa",
+          "latitude": 7.33016007,
+          "longitude": 80.58765149,
+          "translations": []
+        },
+        {
+          "id": 146171,
+          "name": "Ganga Ihala Korale",
+          "latitude": 7.11455516,
+          "longitude": 80.5144881,
+          "translations": []
+        },
+        {
+          "id": 146172,
+          "name": "Doluwa",
+          "latitude": 7.18518536,
+          "longitude": 80.6057345,
+          "translations": []
+        },
+        {
+          "id": 146173,
+          "name": "Delthota",
+          "latitude": 7.18491721,
+          "longitude": 80.70488697,
+          "translations": []
+        },
+        {
+          "id": 146174,
+          "name": "Akurana",
+          "latitude": 7.365,
+          "longitude": 80.617222,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2789,
+      "name": "Kalutara",
+      "stateCode": "13",
+      "latitude": 6.6084686,
+      "longitude": 80.1428584,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2790,
+      "name": "Badulla",
+      "stateCode": "81",
+      "latitude": 6.9934009,
+      "longitude": 81.0549815,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2791,
+      "name": "Hambantota",
+      "stateCode": "33",
+      "latitude": 6.1535816,
+      "longitude": 81.127149,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2792,
+      "name": "Galle",
+      "stateCode": "31",
+      "latitude": 6.057749,
+      "longitude": 80.2175572,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2793,
+      "name": "Kilinochchi",
+      "stateCode": "42",
+      "latitude": 9.3677971,
+      "longitude": 80.3213106,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2794,
+      "name": "Nuwara Eliya",
+      "stateCode": "23",
+      "latitude": 6.9606532,
+      "longitude": 80.7692758,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2795,
+      "name": "Trincomalee",
+      "stateCode": "53",
+      "latitude": 8.6013069,
+      "longitude": 81.1196075,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2796,
+      "name": "Puttalam",
+      "stateCode": "62",
+      "latitude": 8.0259915,
+      "longitude": 79.8471272,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2797,
+      "name": "Kegalle",
+      "stateCode": "92",
+      "latitude": 7.1204053,
+      "longitude": 80.3213106,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2798,
+      "name": "Central",
+      "stateCode": "2",
+      "latitude": 7.3816445,
+      "longitude": 80.0581296,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66463,
+          "name": "Dambulla",
+          "latitude": 7.86,
+          "longitude": 80.65167,
+          "translations": []
+        },
+        {
+          "id": 66476,
+          "name": "Hatton",
+          "latitude": 6.8916,
+          "longitude": 80.5955,
+          "translations": []
+        },
+        {
+          "id": 66489,
+          "name": "Kandy",
+          "latitude": 7.2906,
+          "longitude": 80.6336,
+          "translations": []
+        },
+        {
+          "id": 66490,
+          "name": "Kandy District",
+          "latitude": 7.3044,
+          "longitude": 80.7073,
+          "translations": []
+        },
+        {
+          "id": 66505,
+          "name": "Matale",
+          "latitude": 7.4698,
+          "longitude": 80.6217,
+          "translations": []
+        },
+        {
+          "id": 66506,
+          "name": "Matale District",
+          "latitude": 7.6598,
+          "longitude": 80.7073,
+          "translations": []
+        },
+        {
+          "id": 66517,
+          "name": "Nuwara Eliya",
+          "latitude": 6.97078,
+          "longitude": 80.78286,
+          "translations": []
+        },
+        {
+          "id": 66518,
+          "name": "Nuwara Eliya District",
+          "latitude": 6.9785,
+          "longitude": 80.7133,
+          "translations": []
+        },
+        {
+          "id": 66529,
+          "name": "Sigiriya",
+          "latitude": 7.94946,
+          "longitude": 80.75037,
+          "translations": []
+        },
+        {
+          "id": 66531,
+          "name": "Talawakele",
+          "latitude": 6.9371,
+          "longitude": 80.6581,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2799,
+      "name": "Ampara",
+      "stateCode": "52",
+      "latitude": 7.2911685,
+      "longitude": 81.6723761,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2800,
+      "name": "North Central",
+      "stateCode": "7",
+      "latitude": 8.1995638,
+      "longitude": 80.6326916,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66451,
+          "name": "Anuradhapura",
+          "latitude": 8.31223,
+          "longitude": 80.41306,
+          "translations": []
+        },
+        {
+          "id": 66452,
+          "name": "Anuradhapura District",
+          "latitude": 8.33333,
+          "longitude": 80.5,
+          "translations": []
+        },
+        {
+          "id": 66509,
+          "name": "Mihintale",
+          "latitude": 8.3593,
+          "longitude": 80.5103,
+          "translations": []
+        },
+        {
+          "id": 66523,
+          "name": "Polonnaruwa",
+          "latitude": 7.93965,
+          "longitude": 81.00274,
+          "translations": []
+        },
+        {
+          "id": 66524,
+          "name": "Polonnaruwa District",
+          "latitude": 8,
+          "longitude": 81,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2801,
+      "name": "Southern",
+      "stateCode": "3",
+      "latitude": 6.250365,
+      "longitude": 79.5250388,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66448,
+          "name": "Ambalangoda",
+          "latitude": 6.2355,
+          "longitude": 80.0538,
+          "translations": []
+        },
+        {
+          "id": 66458,
+          "name": "Bentota",
+          "latitude": 6.42598,
+          "longitude": 79.99575,
+          "translations": []
+        },
+        {
+          "id": 66465,
+          "name": "Devinuwara",
+          "latitude": 5.92825,
+          "longitude": 80.5888,
+          "translations": []
+        },
+        {
+          "id": 66468,
+          "name": "Galle",
+          "latitude": 6.0461,
+          "longitude": 80.2103,
+          "translations": []
+        },
+        {
+          "id": 66469,
+          "name": "Galle District",
+          "latitude": 6.25,
+          "longitude": 80.25,
+          "translations": []
+        },
+        {
+          "id": 66473,
+          "name": "Hambantota District",
+          "latitude": 6.2544,
+          "longitude": 81.1111,
+          "translations": []
+        },
+        {
+          "id": 66478,
+          "name": "Hikkaduwa",
+          "latitude": 6.1407,
+          "longitude": 80.1012,
+          "translations": []
+        },
+        {
+          "id": 66498,
+          "name": "Koggala",
+          "latitude": 5.9886,
+          "longitude": 80.3286,
+          "translations": []
+        },
+        {
+          "id": 66507,
+          "name": "Matara",
+          "latitude": 5.94851,
+          "longitude": 80.53528,
+          "translations": []
+        },
+        {
+          "id": 66508,
+          "name": "Matara District",
+          "latitude": 6.1329,
+          "longitude": 80.528,
+          "translations": []
+        },
+        {
+          "id": 66511,
+          "name": "Mirissa city",
+          "latitude": 5.94655,
+          "longitude": 80.45831,
+          "translations": []
+        },
+        {
+          "id": 66532,
+          "name": "Talpe",
+          "latitude": 5.9999,
+          "longitude": 80.2787,
+          "translations": []
+        },
+        {
+          "id": 66533,
+          "name": "Tangalle",
+          "latitude": 6.02338,
+          "longitude": 80.79738,
+          "translations": []
+        },
+        {
+          "id": 66536,
+          "name": "Unawatuna",
+          "latitude": 6.0212,
+          "longitude": 80.2503,
+          "translations": []
+        },
+        {
+          "id": 66543,
+          "name": "Weligama",
+          "latitude": 5.97501,
+          "longitude": 80.42968,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2802,
+      "name": "Western",
+      "stateCode": "1",
+      "latitude": 6.828235,
+      "longitude": 79.7686403,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66455,
+          "name": "Battaramulla South",
+          "latitude": 6.8964,
+          "longitude": 79.9181,
+          "translations": []
+        },
+        {
+          "id": 66459,
+          "name": "Beruwala",
+          "latitude": 6.4788,
+          "longitude": 79.9828,
+          "translations": []
+        },
+        {
+          "id": 66461,
+          "name": "Colombo",
+          "latitude": 6.93548,
+          "longitude": 79.84868,
+          "translations": []
+        },
+        {
+          "id": 66462,
+          "name": "Colombo District",
+          "latitude": 6.8664,
+          "longitude": 80.0166,
+          "translations": []
+        },
+        {
+          "id": 66470,
+          "name": "Gampaha",
+          "latitude": 7.0897,
+          "longitude": 79.9925,
+          "translations": []
+        },
+        {
+          "id": 66471,
+          "name": "Gampaha District",
+          "latitude": 7.1333,
+          "longitude": 80,
+          "translations": []
+        },
+        {
+          "id": 66474,
+          "name": "Hanwella Ihala",
+          "latitude": 6.9012,
+          "longitude": 80.0852,
+          "translations": []
+        },
+        {
+          "id": 66477,
+          "name": "Hendala",
+          "latitude": 6.9909,
+          "longitude": 79.883,
+          "translations": []
+        },
+        {
+          "id": 66480,
+          "name": "Horana South",
+          "latitude": 6.7159,
+          "longitude": 80.0626,
+          "translations": []
+        },
+        {
+          "id": 66481,
+          "name": "Horawala Junction",
+          "latitude": 6.48088,
+          "longitude": 80.12708,
+          "translations": []
+        },
+        {
+          "id": 66482,
+          "name": "Ja Ela",
+          "latitude": 7.0744,
+          "longitude": 79.8919,
+          "translations": []
+        },
+        {
+          "id": 66487,
+          "name": "Kalutara",
+          "latitude": 6.5831,
+          "longitude": 79.9593,
+          "translations": []
+        },
+        {
+          "id": 66488,
+          "name": "Kandana",
+          "latitude": 7.048,
+          "longitude": 79.8937,
+          "translations": []
+        },
+        {
+          "id": 66492,
+          "name": "Katunayaka",
+          "latitude": 7.16992,
+          "longitude": 79.88837,
+          "translations": []
+        },
+        {
+          "id": 66495,
+          "name": "Kelaniya",
+          "latitude": 6.9553,
+          "longitude": 79.922,
+          "translations": []
+        },
+        {
+          "id": 66500,
+          "name": "Kotikawatta",
+          "latitude": 6.9269,
+          "longitude": 79.9095,
+          "translations": []
+        },
+        {
+          "id": 66510,
+          "name": "Minuwangoda",
+          "latitude": 7.1663,
+          "longitude": 79.9533,
+          "translations": []
+        },
+        {
+          "id": 66515,
+          "name": "Mulleriyawa",
+          "latitude": 6.933,
+          "longitude": 79.9297,
+          "translations": []
+        },
+        {
+          "id": 66516,
+          "name": "Negombo",
+          "latitude": 7.2083,
+          "longitude": 79.8358,
+          "translations": []
+        },
+        {
+          "id": 66519,
+          "name": "Panadura",
+          "latitude": 6.7132,
+          "longitude": 79.9026,
+          "translations": []
+        },
+        {
+          "id": 66520,
+          "name": "Peliyagoda",
+          "latitude": 6.9685,
+          "longitude": 79.8836,
+          "translations": []
+        },
+        {
+          "id": 66521,
+          "name": "Pita Kotte",
+          "latitude": 6.8905,
+          "longitude": 79.9015,
+          "translations": []
+        },
+        {
+          "id": 66530,
+          "name": "Sri Jayewardenepura Kotte",
+          "latitude": 6.88297,
+          "longitude": 79.90708,
+          "translations": []
+        },
+        {
+          "id": 66541,
+          "name": "Wattala",
+          "latitude": 6.98918,
+          "longitude": 79.89167,
+          "translations": []
+        },
+        {
+          "id": 66544,
+          "name": "Welisara",
+          "latitude": 7.0281,
+          "longitude": 79.9014,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2803,
+      "name": "Sabaragamuwa",
+      "stateCode": "9",
+      "latitude": 6.7395941,
+      "longitude": 80.365865,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66493,
+          "name": "Kegalle",
+          "latitude": 7.2523,
+          "longitude": 80.3436,
+          "translations": []
+        },
+        {
+          "id": 66494,
+          "name": "Kegalle District",
+          "latitude": 7.1167,
+          "longitude": 80.3333,
+          "translations": []
+        },
+        {
+          "id": 66527,
+          "name": "Ratnapura",
+          "latitude": 6.6858,
+          "longitude": 80.4036,
+          "translations": []
+        },
+        {
+          "id": 66528,
+          "name": "Ratnapura District",
+          "latitude": 6.5831,
+          "longitude": 80.5833,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2804,
+      "name": "Gampaha",
+      "stateCode": "12",
+      "latitude": 7.0712619,
+      "longitude": 80.0087746,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2805,
+      "name": "Mannar",
+      "stateCode": "43",
+      "latitude": 8.9809531,
+      "longitude": 79.9043975,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2806,
+      "name": "Matara",
+      "stateCode": "32",
+      "latitude": 5.9449348,
+      "longitude": 80.5487997,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2807,
+      "name": "Ratnapura",
+      "stateCode": "91",
+      "latitude": 6.7055168,
+      "longitude": 80.3848389,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2808,
+      "name": "Eastern",
+      "stateCode": "5",
+      "latitude": 7.7487176,
+      "longitude": 79.9936266,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66449,
+          "name": "Ampara",
+          "latitude": 7.29754,
+          "longitude": 81.68202,
+          "translations": []
+        },
+        {
+          "id": 66450,
+          "name": "Ampara District",
+          "latitude": 7.0833,
+          "longitude": 81.75,
+          "translations": []
+        },
+        {
+          "id": 66456,
+          "name": "Batticaloa",
+          "latitude": 7.7102,
+          "longitude": 81.6924,
+          "translations": []
+        },
+        {
+          "id": 66457,
+          "name": "Batticaloa District",
+          "latitude": 7.75,
+          "longitude": 81.4997,
+          "translations": []
+        },
+        {
+          "id": 66467,
+          "name": "Eravur Town",
+          "latitude": 7.7782,
+          "longitude": 81.6038,
+          "translations": []
+        },
+        {
+          "id": 66486,
+          "name": "Kalmunai",
+          "latitude": 7.40902,
+          "longitude": 81.83472,
+          "translations": []
+        },
+        {
+          "id": 66534,
+          "name": "Trincomalee",
+          "latitude": 8.5778,
+          "longitude": 81.2289,
+          "translations": []
+        },
+        {
+          "id": 66535,
+          "name": "Trincomalee District",
+          "latitude": 8.58333,
+          "longitude": 81.08333,
+          "translations": []
+        },
+        {
+          "id": 66537,
+          "name": "Vakarai",
+          "latitude": 8.13333,
+          "longitude": 81.43333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2809,
+      "name": "Vavuniya",
+      "stateCode": "44",
+      "latitude": 8.7594739,
+      "longitude": 80.5000334,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2810,
+      "name": "Matale",
+      "stateCode": "22",
+      "latitude": 7.4659646,
+      "longitude": 80.6234259,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2811,
+      "name": "Uva",
+      "stateCode": "8",
+      "latitude": 6.8427612,
+      "longitude": 81.3399414,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66453,
+          "name": "Badulla",
+          "latitude": 6.9802,
+          "longitude": 81.0577,
+          "translations": []
+        },
+        {
+          "id": 66454,
+          "name": "Badulla District",
+          "latitude": 6.98472,
+          "longitude": 81.05639,
+          "translations": []
+        },
+        {
+          "id": 66466,
+          "name": "Ella Town",
+          "latitude": 6.8756,
+          "longitude": 81.0463,
+          "translations": []
+        },
+        {
+          "id": 66475,
+          "name": "Haputale",
+          "latitude": 6.76566,
+          "longitude": 80.95104,
+          "translations": []
+        },
+        {
+          "id": 66491,
+          "name": "Kataragama",
+          "latitude": 6.4134,
+          "longitude": 81.3346,
+          "translations": []
+        },
+        {
+          "id": 66512,
+          "name": "Monaragala",
+          "latitude": 6.8714,
+          "longitude": 81.3487,
+          "translations": []
+        },
+        {
+          "id": 66513,
+          "name": "Moneragala District",
+          "latitude": 6.66667,
+          "longitude": 81.33333,
+          "translations": []
+        },
+        {
+          "id": 66545,
+          "name": "Wellawaya",
+          "latitude": 6.73694,
+          "longitude": 81.10279,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2812,
+      "name": "Polonnaruwa",
+      "stateCode": "72",
+      "latitude": 7.9395567,
+      "longitude": 81.0003403,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2813,
+      "name": "Northern",
+      "stateCode": "4",
+      "latitude": 9.3723833,
+      "longitude": 79.8471377,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66483,
+          "name": "Jaffna",
+          "latitude": 9.66845,
+          "longitude": 80.00742,
+          "translations": []
+        },
+        {
+          "id": 66484,
+          "name": "Jaffna District",
+          "latitude": 9.75,
+          "longitude": 80.08333,
+          "translations": []
+        },
+        {
+          "id": 66496,
+          "name": "Kilinochchi",
+          "latitude": 9.3961,
+          "longitude": 80.3982,
+          "translations": []
+        },
+        {
+          "id": 66497,
+          "name": "Kilinochchi District",
+          "latitude": 9.39487,
+          "longitude": 80.40894,
+          "translations": []
+        },
+        {
+          "id": 66522,
+          "name": "Point Pedro",
+          "latitude": 9.81667,
+          "longitude": 80.23333,
+          "translations": []
+        },
+        {
+          "id": 66538,
+          "name": "Valvedditturai",
+          "latitude": 9.81667,
+          "longitude": 80.16667,
+          "translations": []
+        },
+        {
+          "id": 66539,
+          "name": "Vavuniya",
+          "latitude": 8.7514,
+          "longitude": 80.4971,
+          "translations": []
+        },
+        {
+          "id": 66540,
+          "name": "Vavuniya District",
+          "latitude": 8.86134,
+          "longitude": 80.47576,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2814,
+      "name": "Mullaitivu",
+      "stateCode": "45",
+      "latitude": 9.2675388,
+      "longitude": 80.8128254,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2815,
+      "name": "Colombo",
+      "stateCode": "11",
+      "latitude": 6.9269557,
+      "longitude": 79.8617306,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66464,
+          "name": "Dehiwala-Mount Lavinia",
+          "latitude": 6.84019,
+          "longitude": 79.87116,
+          "translations": []
+        },
+        {
+          "id": 66479,
+          "name": "Homagama",
+          "latitude": 6.84879896,
+          "longitude": 80.004673,
+          "translations": []
+        },
+        {
+          "id": 66499,
+          "name": "Kolonnawa",
+          "latitude": 6.92893463,
+          "longitude": 79.89495168,
+          "translations": []
+        },
+        {
+          "id": 66504,
+          "name": "Maharagama",
+          "latitude": 6.84954886,
+          "longitude": 79.92507313,
+          "translations": []
+        },
+        {
+          "id": 66514,
+          "name": "Moratuwa",
+          "latitude": 6.78149272,
+          "longitude": 79.88347117,
+          "translations": []
+        },
+        {
+          "id": 146175,
+          "name": "Thimbirigasyaya",
+          "latitude": 6.90214217,
+          "longitude": 79.86957578,
+          "translations": []
+        },
+        {
+          "id": 146176,
+          "name": "Kotte",
+          "latitude": 6.88932048,
+          "longitude": 79.90359501,
+          "translations": []
+        },
+        {
+          "id": 146177,
+          "name": "Seethawaka",
+          "latitude": 6.92959912,
+          "longitude": 80.14979867,
+          "translations": []
+        },
+        {
+          "id": 146178,
+          "name": "Ratmalana",
+          "latitude": 6.82105987,
+          "longitude": 79.88023083,
+          "translations": []
+        },
+        {
+          "id": 146179,
+          "name": "Padukka",
+          "latitude": 6.8479468,
+          "longitude": 80.10153292,
+          "translations": []
+        },
+        {
+          "id": 146180,
+          "name": "Kesbewa",
+          "latitude": 6.78425894,
+          "longitude": 79.94665276,
+          "translations": []
+        },
+        {
+          "id": 146181,
+          "name": "Kaduwela",
+          "latitude": 6.9310626,
+          "longitude": 79.9794422,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2816,
+      "name": "Anuradhapura",
+      "stateCode": "71",
+      "latitude": 8.3318305,
+      "longitude": 80.4029017,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2817,
+      "name": "North Western",
+      "stateCode": "6",
+      "latitude": 7.7584091,
+      "longitude": 80.1875065,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66460,
+          "name": "Chilaw",
+          "latitude": 7.57583,
+          "longitude": 79.79528,
+          "translations": []
+        },
+        {
+          "id": 66501,
+          "name": "Kuliyapitiya",
+          "latitude": 7.4688,
+          "longitude": 80.0401,
+          "translations": []
+        },
+        {
+          "id": 66502,
+          "name": "Kurunegala",
+          "latitude": 7.4839,
+          "longitude": 80.3683,
+          "translations": []
+        },
+        {
+          "id": 66503,
+          "name": "Kurunegala District",
+          "latitude": 7.75,
+          "longitude": 80.25,
+          "translations": []
+        },
+        {
+          "id": 66525,
+          "name": "Puttalam",
+          "latitude": 8.0362,
+          "longitude": 79.8283,
+          "translations": []
+        },
+        {
+          "id": 66526,
+          "name": "Puttalam District",
+          "latitude": 8.0454,
+          "longitude": 79.9319,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2818,
+      "name": "Batticaloa",
+      "stateCode": "51",
+      "latitude": 7.8292781,
+      "longitude": 81.4718387,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2819,
+      "name": "Monaragala",
+      "stateCode": "82",
+      "latitude": 6.8727781,
+      "longitude": 81.3506832,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5342,
+      "name": "Kurunegala",
+      "stateCode": "61",
+      "latitude": 7.7285647,
+      "longitude": 79.908917,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

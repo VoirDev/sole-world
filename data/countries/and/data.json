@@ -1,0 +1,240 @@
+{
+  "id": 6,
+  "name": "Andorra",
+  "nativeName": "Andorra",
+  "iso2": "AD",
+  "iso3": "AND",
+  "numericCode": "020",
+  "phoneCode": "376",
+  "tld": ".ad",
+  "latitude": 42.5,
+  "longitude": 1.5,
+  "flagId": 247,
+  "regionId": 4,
+  "subregionId": 16,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2239
+  ],
+  "officialLanguageIds": [
+    24
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "안도라"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Andorra"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Andorra"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Andorra"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Andora"
+    },
+    {
+      "languageCode": "fa",
+      "name": "آندورا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Andorra"
+    },
+    {
+      "languageCode": "es",
+      "name": "Andorra"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Andorre"
+    },
+    {
+      "languageCode": "ja",
+      "name": "アンドラ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Andorra"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "安道尔"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Andorra"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Андорра"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Андорра"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Andora"
+    }
+  ],
+  "states": [
+    {
+      "id": 487,
+      "name": "Encamp",
+      "stateCode": "03",
+      "latitude": 42.5359764,
+      "longitude": 1.5836773,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 5,
+          "name": "Encamp",
+          "latitude": 42.53474,
+          "longitude": 1.58014,
+          "translations": []
+        },
+        {
+          "id": 7,
+          "name": "Pas de la Casa",
+          "latitude": 42.54277,
+          "longitude": 1.73361,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 488,
+      "name": "Andorra la Vella",
+      "stateCode": "07",
+      "latitude": 42.5063174,
+      "longitude": 1.5218355,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 1,
+          "name": "Andorra la Vella",
+          "latitude": 42.50779,
+          "longitude": 1.52109,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 489,
+      "name": "Canillo",
+      "stateCode": "02",
+      "latitude": 42.5978249,
+      "longitude": 1.6566377,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 3,
+          "name": "Canillo",
+          "latitude": 42.5676,
+          "longitude": 1.59756,
+          "translations": []
+        },
+        {
+          "id": 4,
+          "name": "El Tarter",
+          "latitude": 42.57952,
+          "longitude": 1.65362,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 490,
+      "name": "Sant Julià de Lòria",
+      "stateCode": "06",
+      "latitude": 42.4529631,
+      "longitude": 1.4918235,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8,
+          "name": "Sant Julià de Lòria",
+          "latitude": 42.46372,
+          "longitude": 1.49129,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 491,
+      "name": "Ordino",
+      "stateCode": "05",
+      "latitude": 42.5994433,
+      "longitude": 1.5402327,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 6,
+          "name": "Ordino",
+          "latitude": 42.55623,
+          "longitude": 1.53319,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 492,
+      "name": "Escaldes-Engordany",
+      "stateCode": "08",
+      "latitude": 42.4909379,
+      "longitude": 1.5886966,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 10,
+          "name": "les Escaldes",
+          "latitude": 42.50729,
+          "longitude": 1.53414,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 493,
+      "name": "La Massana",
+      "stateCode": "04",
+      "latitude": 42.545625,
+      "longitude": 1.5147392,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 2,
+          "name": "Arinsal",
+          "latitude": 42.57205,
+          "longitude": 1.48453,
+          "translations": []
+        },
+        {
+          "id": 9,
+          "name": "la Massana",
+          "latitude": 42.54499,
+          "longitude": 1.51483,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

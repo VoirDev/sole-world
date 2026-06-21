@@ -1,0 +1,698 @@
+{
+  "id": 246,
+  "name": "Zambia",
+  "nativeName": "Zambia",
+  "iso2": "ZM",
+  "iso3": "ZMB",
+  "numericCode": "894",
+  "phoneCode": "260",
+  "tld": ".zm",
+  "latitude": -15,
+  "longitude": 30,
+  "flagId": 2,
+  "regionId": 1,
+  "subregionId": 5,
+  "currencyIds": [
+    986
+  ],
+  "timezoneIds": [
+    2645
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "잠비아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Zâmbia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Zâmbia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Zambia"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Zambija"
+    },
+    {
+      "languageCode": "fa",
+      "name": "زامبیا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Sambia"
+    },
+    {
+      "languageCode": "es",
+      "name": "Zambia"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Zambie"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ザンビア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Zambia"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "赞比亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Zambiya"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Замбия"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Замбія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Zambia"
+    }
+  ],
+  "states": [
+    {
+      "id": 1982,
+      "name": "Northern",
+      "stateCode": "05",
+      "latitude": 8.8855027,
+      "longitude": 80.2767327,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 131353,
+          "name": "Kaputa",
+          "latitude": -8.46887,
+          "longitude": 29.66193,
+          "translations": []
+        },
+        {
+          "id": 131354,
+          "name": "Kasama",
+          "latitude": -10.21289,
+          "longitude": 31.18084,
+          "translations": []
+        },
+        {
+          "id": 131366,
+          "name": "Luwingu",
+          "latitude": -10.2621,
+          "longitude": 29.92712,
+          "translations": []
+        },
+        {
+          "id": 131370,
+          "name": "Mbala",
+          "latitude": -8.84024,
+          "longitude": 31.36587,
+          "translations": []
+        },
+        {
+          "id": 131376,
+          "name": "Mporokoso",
+          "latitude": -9.37273,
+          "longitude": 30.12501,
+          "translations": []
+        },
+        {
+          "id": 131377,
+          "name": "Mpulungu",
+          "latitude": -8.76234,
+          "longitude": 31.11405,
+          "translations": []
+        },
+        {
+          "id": 131381,
+          "name": "Mungwi",
+          "latitude": -10.1732,
+          "longitude": 31.36942,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1983,
+      "name": "Western",
+      "stateCode": "01",
+      "latitude": 6.9016086,
+      "longitude": 80.0087746,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 131347,
+          "name": "Kalabo",
+          "latitude": -14.99307,
+          "longitude": 22.67926,
+          "translations": []
+        },
+        {
+          "id": 131351,
+          "name": "Kaoma",
+          "latitude": -14.78333,
+          "longitude": 24.8,
+          "translations": []
+        },
+        {
+          "id": 131359,
+          "name": "Limulunga",
+          "latitude": -15.09691,
+          "longitude": 23.13757,
+          "translations": []
+        },
+        {
+          "id": 131363,
+          "name": "Lukulu",
+          "latitude": -14.37067,
+          "longitude": 23.24196,
+          "translations": []
+        },
+        {
+          "id": 131372,
+          "name": "Mongu",
+          "latitude": -15.24835,
+          "longitude": 23.12741,
+          "translations": []
+        },
+        {
+          "id": 131392,
+          "name": "Senanga",
+          "latitude": -16.11667,
+          "longitude": 23.26667,
+          "translations": []
+        },
+        {
+          "id": 131394,
+          "name": "Sesheke",
+          "latitude": -17.47593,
+          "longitude": 24.29684,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1984,
+      "name": "Copperbelt",
+      "stateCode": "08",
+      "latitude": -13.0570073,
+      "longitude": 27.5495846,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 131331,
+          "name": "Chambishi",
+          "latitude": -12.63247,
+          "longitude": 28.05367,
+          "translations": []
+        },
+        {
+          "id": 131334,
+          "name": "Chililabombwe",
+          "latitude": -12.36475,
+          "longitude": 27.82286,
+          "translations": []
+        },
+        {
+          "id": 131335,
+          "name": "Chingola",
+          "latitude": -12.52897,
+          "longitude": 27.88382,
+          "translations": []
+        },
+        {
+          "id": 131336,
+          "name": "Chingola District",
+          "latitude": -12.48478,
+          "longitude": 27.66313,
+          "translations": []
+        },
+        {
+          "id": 131349,
+          "name": "Kalulushi",
+          "latitude": -12.84151,
+          "longitude": 28.09479,
+          "translations": []
+        },
+        {
+          "id": 131356,
+          "name": "Kataba",
+          "latitude": -11.88333,
+          "longitude": 29.78333,
+          "translations": []
+        },
+        {
+          "id": 131358,
+          "name": "Kitwe",
+          "latitude": -12.80243,
+          "longitude": 28.21323,
+          "translations": []
+        },
+        {
+          "id": 131362,
+          "name": "Luanshya",
+          "latitude": -13.13667,
+          "longitude": 28.41661,
+          "translations": []
+        },
+        {
+          "id": 131375,
+          "name": "Mpongwe",
+          "latitude": -13.50914,
+          "longitude": 28.15504,
+          "translations": []
+        },
+        {
+          "id": 131378,
+          "name": "Mufulira",
+          "latitude": -12.54982,
+          "longitude": 28.24071,
+          "translations": []
+        },
+        {
+          "id": 131388,
+          "name": "Ndola",
+          "latitude": -12.95867,
+          "longitude": 28.63659,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1985,
+      "name": "Northwestern",
+      "stateCode": "06",
+      "latitude": -13.0050258,
+      "longitude": 24.9042208,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 131344,
+          "name": "Kabompo",
+          "latitude": -13.59268,
+          "longitude": 24.20081,
+          "translations": []
+        },
+        {
+          "id": 131348,
+          "name": "Kalengwa",
+          "latitude": -13.46586,
+          "longitude": 25.00271,
+          "translations": []
+        },
+        {
+          "id": 131350,
+          "name": "Kansanshi",
+          "latitude": -12.09514,
+          "longitude": 26.42727,
+          "translations": []
+        },
+        {
+          "id": 131355,
+          "name": "Kasempa",
+          "latitude": -13.45836,
+          "longitude": 25.8338,
+          "translations": []
+        },
+        {
+          "id": 131379,
+          "name": "Mufumbwe",
+          "latitude": -13.68333,
+          "longitude": 24.8,
+          "translations": []
+        },
+        {
+          "id": 131383,
+          "name": "Mwinilunga",
+          "latitude": -11.73584,
+          "longitude": 24.42926,
+          "translations": []
+        },
+        {
+          "id": 131398,
+          "name": "Solwezi",
+          "latitude": -12.1688,
+          "longitude": 26.38938,
+          "translations": []
+        },
+        {
+          "id": 131399,
+          "name": "Zambezi",
+          "latitude": -13.54323,
+          "longitude": 23.10467,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1986,
+      "name": "Central",
+      "stateCode": "02",
+      "latitude": 7.2564996,
+      "longitude": 80.7214417,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 131332,
+          "name": "Chibombo",
+          "latitude": -14.65685,
+          "longitude": 28.07057,
+          "translations": []
+        },
+        {
+          "id": 131333,
+          "name": "Chibombo District",
+          "latitude": -14.65808,
+          "longitude": 28.07376,
+          "translations": []
+        },
+        {
+          "id": 131345,
+          "name": "Kabwe",
+          "latitude": -14.4469,
+          "longitude": 28.44644,
+          "translations": []
+        },
+        {
+          "id": 131352,
+          "name": "Kapiri Mposhi",
+          "latitude": -13.97147,
+          "longitude": 28.66985,
+          "translations": []
+        },
+        {
+          "id": 131371,
+          "name": "Mkushi",
+          "latitude": -13.62015,
+          "longitude": 29.3939,
+          "translations": []
+        },
+        {
+          "id": 131380,
+          "name": "Mumbwa",
+          "latitude": -14.98293,
+          "longitude": 27.0619,
+          "translations": []
+        },
+        {
+          "id": 131393,
+          "name": "Serenje",
+          "latitude": -13.23251,
+          "longitude": 30.23522,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1987,
+      "name": "Luapula",
+      "stateCode": "04",
+      "latitude": -11.564831,
+      "longitude": 29.0459927,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 131357,
+          "name": "Kawambwa",
+          "latitude": -9.7915,
+          "longitude": 29.07913,
+          "translations": []
+        },
+        {
+          "id": 131368,
+          "name": "Mansa",
+          "latitude": -11.19976,
+          "longitude": 28.89431,
+          "translations": []
+        },
+        {
+          "id": 131382,
+          "name": "Mwense",
+          "latitude": -10.38447,
+          "longitude": 28.698,
+          "translations": []
+        },
+        {
+          "id": 131387,
+          "name": "Nchelenge",
+          "latitude": -9.34506,
+          "longitude": 28.73396,
+          "translations": []
+        },
+        {
+          "id": 131391,
+          "name": "Samfya",
+          "latitude": -11.36491,
+          "longitude": 29.55652,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1988,
+      "name": "Lusaka",
+      "stateCode": "09",
+      "latitude": -15.3657129,
+      "longitude": 29.2320784,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 131340,
+          "name": "Chongwe",
+          "latitude": -15.32916,
+          "longitude": 28.68204,
+          "translations": []
+        },
+        {
+          "id": 131346,
+          "name": "Kafue",
+          "latitude": -15.76911,
+          "longitude": 28.18136,
+          "translations": []
+        },
+        {
+          "id": 131361,
+          "name": "Luangwa",
+          "latitude": -15.61667,
+          "longitude": 30.41667,
+          "translations": []
+        },
+        {
+          "id": 131365,
+          "name": "Lusaka",
+          "latitude": -15.40669,
+          "longitude": 28.28713,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1989,
+      "name": "Muchinga",
+      "stateCode": "10",
+      "latitude": -15.382193,
+      "longitude": 28.26158,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 131330,
+          "name": "Chama",
+          "latitude": -11.21303,
+          "longitude": 33.1521,
+          "translations": []
+        },
+        {
+          "id": 131337,
+          "name": "Chinsali",
+          "latitude": -10.54142,
+          "longitude": 32.08162,
+          "translations": []
+        },
+        {
+          "id": 131342,
+          "name": "Isoka",
+          "latitude": -10.16062,
+          "longitude": 32.63353,
+          "translations": []
+        },
+        {
+          "id": 131374,
+          "name": "Mpika",
+          "latitude": -11.83431,
+          "longitude": 31.45287,
+          "translations": []
+        },
+        {
+          "id": 131385,
+          "name": "Nakonde",
+          "latitude": -9.34213,
+          "longitude": 32.745,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1990,
+      "name": "Southern",
+      "stateCode": "07",
+      "latitude": 6.237375,
+      "longitude": 80.543845,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 131339,
+          "name": "Choma",
+          "latitude": -16.80889,
+          "longitude": 26.9875,
+          "translations": []
+        },
+        {
+          "id": 131341,
+          "name": "Gwembe",
+          "latitude": -16.49755,
+          "longitude": 27.60691,
+          "translations": []
+        },
+        {
+          "id": 131343,
+          "name": "Itezhi-Tezhi District",
+          "latitude": -15.74092,
+          "longitude": 26.04146,
+          "translations": []
+        },
+        {
+          "id": 131360,
+          "name": "Livingstone",
+          "latitude": -17.84194,
+          "longitude": 25.85425,
+          "translations": []
+        },
+        {
+          "id": 131367,
+          "name": "Maamba",
+          "latitude": -17.36667,
+          "longitude": 27.15,
+          "translations": []
+        },
+        {
+          "id": 131369,
+          "name": "Mazabuka",
+          "latitude": -15.85601,
+          "longitude": 27.748,
+          "translations": []
+        },
+        {
+          "id": 131373,
+          "name": "Monze",
+          "latitude": -16.28333,
+          "longitude": 27.48333,
+          "translations": []
+        },
+        {
+          "id": 131384,
+          "name": "Nakambala",
+          "latitude": -15.83244,
+          "longitude": 27.77994,
+          "translations": []
+        },
+        {
+          "id": 131386,
+          "name": "Namwala",
+          "latitude": -15.75042,
+          "longitude": 26.43839,
+          "translations": []
+        },
+        {
+          "id": 131395,
+          "name": "Siavonga",
+          "latitude": -16.53818,
+          "longitude": 28.70876,
+          "translations": []
+        },
+        {
+          "id": 131396,
+          "name": "Siavonga District",
+          "latitude": -16.26742,
+          "longitude": 28.55036,
+          "translations": []
+        },
+        {
+          "id": 131397,
+          "name": "Sinazongwe",
+          "latitude": -17.2614,
+          "longitude": 27.46179,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1991,
+      "name": "Eastern",
+      "stateCode": "03",
+      "latitude": 23.1669688,
+      "longitude": 49.3653149,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 131329,
+          "name": "Chadiza",
+          "latitude": -14.06779,
+          "longitude": 32.43917,
+          "translations": []
+        },
+        {
+          "id": 131338,
+          "name": "Chipata",
+          "latitude": -13.63333,
+          "longitude": 32.65,
+          "translations": []
+        },
+        {
+          "id": 131364,
+          "name": "Lundazi",
+          "latitude": -12.29292,
+          "longitude": 33.1782,
+          "translations": []
+        },
+        {
+          "id": 131389,
+          "name": "Nyimba",
+          "latitude": -14.55656,
+          "longitude": 30.8149,
+          "translations": []
+        },
+        {
+          "id": 131390,
+          "name": "Petauke",
+          "latitude": -14.24117,
+          "longitude": 31.31975,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "id": 67,
+  "name": "Equatorial Guinea",
+  "nativeName": "Guinea Ecuatorial",
+  "iso2": "GQ",
+  "iso3": "GNQ",
+  "numericCode": "226",
+  "phoneCode": "240",
+  "tld": ".gq",
+  "latitude": 2,
+  "longitude": 10,
+  "flagId": 161,
+  "regionId": 1,
+  "subregionId": 2,
+  "currencyIds": [
+    862
+  ],
+  "timezoneIds": [
+    2368
+  ],
+  "officialLanguageIds": [
+    47,
+    33,
+    45
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "적도 기니"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Guiné Equatorial"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Guiné Equatorial"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Equatoriaal-Guinea"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Ekvatorijalna Gvineja"
+    },
+    {
+      "languageCode": "fa",
+      "name": "گینه استوایی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Äquatorial-Guinea"
+    },
+    {
+      "languageCode": "es",
+      "name": "Guinea Ecuatorial"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Guinée-Équatoriale"
+    },
+    {
+      "languageCode": "ja",
+      "name": "赤道ギニア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Guinea Equatoriale"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "赤道几内亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Ekvator Ginesi"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Экваториальная Гвинея"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Екваторіальна Гвінея"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Gwinea Równikowa"
+    }
+  ],
+  "states": [
+    {
+      "id": 3438,
+      "name": "Río Muni",
+      "stateCode": "C",
+      "latitude": 1.4610606,
+      "longitude": 9.6786894,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3439,
+      "name": "Kié-Ntem",
+      "stateCode": "KN",
+      "latitude": 2.028093,
+      "longitude": 11.0711758,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52383,
+          "name": "Ebebiyin",
+          "latitude": 2.15106,
+          "longitude": 11.33528,
+          "translations": []
+        },
+        {
+          "id": 52390,
+          "name": "Mikomeseng",
+          "latitude": 2.13609,
+          "longitude": 10.61322,
+          "translations": []
+        },
+        {
+          "id": 52392,
+          "name": "Ncue",
+          "latitude": 2.01643,
+          "longitude": 10.47066,
+          "translations": []
+        },
+        {
+          "id": 52393,
+          "name": "Nsang",
+          "latitude": 2.02475,
+          "longitude": 10.94599,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3440,
+      "name": "Wele-Nzas",
+      "stateCode": "WN",
+      "latitude": 1.4166162,
+      "longitude": 11.0711758,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52375,
+          "name": "Aconibe",
+          "latitude": 1.29683,
+          "longitude": 10.93691,
+          "translations": []
+        },
+        {
+          "id": 52377,
+          "name": "Ayene",
+          "latitude": 1.85592,
+          "longitude": 10.68994,
+          "translations": []
+        },
+        {
+          "id": 52378,
+          "name": "Añisoc",
+          "latitude": 1.8658,
+          "longitude": 10.76892,
+          "translations": []
+        },
+        {
+          "id": 52389,
+          "name": "Mengomeyén",
+          "latitude": 1.69439,
+          "longitude": 11.03422,
+          "translations": []
+        },
+        {
+          "id": 52391,
+          "name": "Mongomo",
+          "latitude": 1.62742,
+          "longitude": 11.31346,
+          "translations": []
+        },
+        {
+          "id": 52394,
+          "name": "Nsok",
+          "latitude": 1.12985,
+          "longitude": 11.26603,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3441,
+      "name": "Litoral",
+      "stateCode": "LI",
+      "latitude": 1.5750244,
+      "longitude": 9.8124935,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52379,
+          "name": "Bata",
+          "latitude": 1.86391,
+          "longitude": 9.76582,
+          "translations": []
+        },
+        {
+          "id": 52381,
+          "name": "Bitica",
+          "latitude": 1.4261,
+          "longitude": 9.62316,
+          "translations": []
+        },
+        {
+          "id": 52382,
+          "name": "Cogo",
+          "latitude": 1.08425,
+          "longitude": 9.693,
+          "translations": []
+        },
+        {
+          "id": 52386,
+          "name": "Machinda",
+          "latitude": 1.88262,
+          "longitude": 9.95133,
+          "translations": []
+        },
+        {
+          "id": 52388,
+          "name": "Mbini",
+          "latitude": 1.58267,
+          "longitude": 9.61478,
+          "translations": []
+        },
+        {
+          "id": 52396,
+          "name": "Río Campo",
+          "latitude": 2.33812,
+          "longitude": 9.82212,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3442,
+      "name": "Insular",
+      "stateCode": "I",
+      "latitude": 37.09024,
+      "longitude": -95.712891,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3443,
+      "name": "Bioko Sur",
+      "stateCode": "BS",
+      "latitude": 3.4209785,
+      "longitude": 8.6160674,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52385,
+          "name": "Luba",
+          "latitude": 3.45683,
+          "longitude": 8.55465,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3444,
+      "name": "Annobón",
+      "stateCode": "AN",
+      "latitude": -1.4268782,
+      "longitude": 5.6352801,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52397,
+          "name": "San Antonio de Palé",
+          "latitude": -1.4068,
+          "longitude": 5.63178,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3445,
+      "name": "Centro Sur",
+      "stateCode": "CS",
+      "latitude": 1.3436084,
+      "longitude": 10.439656,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52376,
+          "name": "Acurenam",
+          "latitude": 1.03225,
+          "longitude": 10.64882,
+          "translations": []
+        },
+        {
+          "id": 52380,
+          "name": "Bicurga",
+          "latitude": 1.58113,
+          "longitude": 10.46716,
+          "translations": []
+        },
+        {
+          "id": 52384,
+          "name": "Evinayong",
+          "latitude": 1.43677,
+          "longitude": 10.55124,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3446,
+      "name": "Bioko Norte",
+      "stateCode": "BN",
+      "latitude": 3.6595072,
+      "longitude": 8.7921836,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52387,
+          "name": "Malabo",
+          "latitude": 3.75578,
+          "longitude": 8.78166,
+          "translations": []
+        },
+        {
+          "id": 52395,
+          "name": "Rebola",
+          "latitude": 3.71667,
+          "longitude": 8.83333,
+          "translations": []
+        },
+        {
+          "id": 52398,
+          "name": "Santiago de Baney",
+          "latitude": 3.6992,
+          "longitude": 8.9084,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

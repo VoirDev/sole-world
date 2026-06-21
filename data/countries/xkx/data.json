@@ -1,0 +1,121 @@
+{
+  "id": 248,
+  "name": "Kosovo",
+  "nativeName": "Republika e Kosovës",
+  "iso2": "XK",
+  "iso3": "XKX",
+  "numericCode": "926",
+  "phoneCode": "383",
+  "tld": ".xk",
+  "latitude": 42.5612909,
+  "longitude": 20.3403035,
+  "flagId": 6,
+  "regionId": 4,
+  "subregionId": 15,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2432
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "코소보"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "科索沃"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Kosova"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Косово"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Косово"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Kosowo"
+    }
+  ],
+  "states": [
+    {
+      "id": 4874,
+      "name": "Ferizaj",
+      "stateCode": "XUF",
+      "latitude": 42.3701844,
+      "longitude": 21.1483281,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4876,
+      "name": "Gjakove",
+      "stateCode": "XDG",
+      "latitude": 42.4375756,
+      "longitude": 20.3785438,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4877,
+      "name": "Gjilan",
+      "stateCode": "XGJ",
+      "latitude": 42.4635206,
+      "longitude": 21.4694011,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4878,
+      "name": "Mitrovica",
+      "stateCode": "XKM",
+      "latitude": 42.8913909,
+      "longitude": 20.8659995,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4879,
+      "name": "Pristina",
+      "stateCode": "XPI",
+      "latitude": 42.6629138,
+      "longitude": 21.1655028,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5321,
+      "name": "Peja",
+      "stateCode": "PEJ",
+      "latitude": 42.7031709,
+      "longitude": 20.0616855,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5322,
+      "name": "Prizren",
+      "stateCode": "PRI",
+      "latitude": 42.2324565,
+      "longitude": 20.4039366,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

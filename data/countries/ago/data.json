@@ -1,0 +1,749 @@
+{
+  "id": 7,
+  "name": "Angola",
+  "nativeName": "Angola",
+  "iso2": "AO",
+  "iso3": "AGO",
+  "numericCode": "024",
+  "phoneCode": "244",
+  "tld": ".ao",
+  "latitude": -12.5,
+  "longitude": 18.5,
+  "flagId": 240,
+  "regionId": 1,
+  "subregionId": 2,
+  "currencyIds": [
+    839
+  ],
+  "timezoneIds": [
+    2240
+  ],
+  "officialLanguageIds": [
+    45
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "앙골라"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Angola"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Angola"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Angola"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Angola"
+    },
+    {
+      "languageCode": "fa",
+      "name": "آنگولا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Angola"
+    },
+    {
+      "languageCode": "es",
+      "name": "Angola"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Angola"
+    },
+    {
+      "languageCode": "ja",
+      "name": "アンゴラ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Angola"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "安哥拉"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Angola"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Ангола"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Ангола"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Angola"
+    }
+  ],
+  "states": [
+    {
+      "id": 212,
+      "name": "Bié",
+      "stateCode": "BIE",
+      "latitude": -12.5727907,
+      "longitude": 17.668887,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 595,
+          "name": "Camacupa",
+          "latitude": -12.01667,
+          "longitude": 17.48333,
+          "translations": []
+        },
+        {
+          "id": 596,
+          "name": "Catabola",
+          "latitude": -12.15,
+          "longitude": 17.28333,
+          "translations": []
+        },
+        {
+          "id": 605,
+          "name": "Chissamba",
+          "latitude": -12.16667,
+          "longitude": 17.33333,
+          "translations": []
+        },
+        {
+          "id": 606,
+          "name": "Cuito",
+          "latitude": -12.38333,
+          "longitude": 16.93333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "name": "Huambo",
+      "stateCode": "HUA",
+      "latitude": -12.5268221,
+      "longitude": 15.5943388,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 600,
+          "name": "Caála",
+          "latitude": -12.8525,
+          "longitude": 15.56056,
+          "translations": []
+        },
+        {
+          "id": 601,
+          "name": "Chela",
+          "latitude": -12.30261,
+          "longitude": 15.43358,
+          "translations": []
+        },
+        {
+          "id": 609,
+          "name": "Huambo",
+          "latitude": -12.77611,
+          "longitude": 15.73917,
+          "translations": []
+        },
+        {
+          "id": 614,
+          "name": "Longonjo",
+          "latitude": -12.90667,
+          "longitude": 15.25333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "name": "Zaire",
+      "stateCode": "ZAI",
+      "latitude": -6.5733458,
+      "longitude": 13.1740348,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 624,
+          "name": "Mbanza Congo",
+          "latitude": -6.26703,
+          "longitude": 14.2401,
+          "translations": []
+        },
+        {
+          "id": 626,
+          "name": "N'zeto",
+          "latitude": -7.23116,
+          "longitude": 12.8666,
+          "translations": []
+        },
+        {
+          "id": 633,
+          "name": "Soio",
+          "latitude": -6.1349,
+          "longitude": 12.36894,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "name": "Cunene",
+      "stateCode": "CNN",
+      "latitude": -16.2802221,
+      "longitude": 16.1580937,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 628,
+          "name": "Ondjiva",
+          "latitude": -17.06667,
+          "longitude": 15.73333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "name": "Cuanza",
+      "stateCode": "CUS",
+      "latitude": -10.595191,
+      "longitude": 15.4068079,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 629,
+          "name": "Quibala",
+          "latitude": -10.73366,
+          "longitude": 14.97995,
+          "translations": []
+        },
+        {
+          "id": 634,
+          "name": "Sumbe",
+          "latitude": -11.20605,
+          "longitude": 13.84371,
+          "translations": []
+        },
+        {
+          "id": 635,
+          "name": "Uacu Cungo",
+          "latitude": -11.35669,
+          "longitude": 15.11719,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "name": "Cuanza Norte",
+      "stateCode": "CNO",
+      "latitude": -9.2398513,
+      "longitude": 14.6587821,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 594,
+          "name": "Camabatela",
+          "latitude": -8.18812,
+          "longitude": 15.37495,
+          "translations": []
+        },
+        {
+          "id": 627,
+          "name": "N’dalatando",
+          "latitude": -9.29782,
+          "longitude": 14.91162,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "name": "Benguela",
+      "stateCode": "BGU",
+      "latitude": -12.8003744,
+      "longitude": 13.914399,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 590,
+          "name": "Benguela",
+          "latitude": -12.57626,
+          "longitude": 13.40547,
+          "translations": []
+        },
+        {
+          "id": 597,
+          "name": "Catumbela",
+          "latitude": -12.43002,
+          "longitude": 13.54677,
+          "translations": []
+        },
+        {
+          "id": 613,
+          "name": "Lobito",
+          "latitude": -12.3644,
+          "longitude": 13.53601,
+          "translations": []
+        },
+        {
+          "id": 153653,
+          "name": "Baía Farta",
+          "latitude": -12.5766,
+          "longitude": 13.4776,
+          "translations": []
+        },
+        {
+          "id": 153654,
+          "name": "Balombo",
+          "latitude": -12.9046,
+          "longitude": 13.5959,
+          "translations": []
+        },
+        {
+          "id": 153655,
+          "name": "Chongoroi",
+          "latitude": -12.7888,
+          "longitude": 13.7975,
+          "translations": []
+        },
+        {
+          "id": 153656,
+          "name": "Bocoio",
+          "latitude": -12.5303,
+          "longitude": 13.4042,
+          "translations": []
+        },
+        {
+          "id": 153657,
+          "name": "Ganda",
+          "latitude": -12.6825,
+          "longitude": 14.4233,
+          "translations": []
+        },
+        {
+          "id": 153658,
+          "name": "Cubal",
+          "latitude": -12.5885,
+          "longitude": 14.4267,
+          "translations": []
+        },
+        {
+          "id": 153659,
+          "name": "Caimbambo",
+          "latitude": -12.6133,
+          "longitude": 14.4194,
+          "translations": []
+        },
+        {
+          "id": 153660,
+          "name": "Sumbe",
+          "latitude": -11.2061,
+          "longitude": 13.8448,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "name": "Moxico",
+      "stateCode": "MOX",
+      "latitude": -13.4293579,
+      "longitude": 20.3308814,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 616,
+          "name": "Luau",
+          "latitude": -10.70727,
+          "longitude": 22.22466,
+          "translations": []
+        },
+        {
+          "id": 619,
+          "name": "Luena",
+          "latitude": -11.78333,
+          "longitude": 19.91667,
+          "translations": []
+        },
+        {
+          "id": 620,
+          "name": "Lumeje",
+          "latitude": -11.55,
+          "longitude": 20.78333,
+          "translations": []
+        },
+        {
+          "id": 621,
+          "name": "Léua",
+          "latitude": -11.65,
+          "longitude": 20.45,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "name": "Lunda Sul",
+      "stateCode": "LSU",
+      "latitude": -10.2866578,
+      "longitude": 20.7122465,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 599,
+          "name": "Cazaji",
+          "latitude": -11.06715,
+          "longitude": 20.70148,
+          "translations": []
+        },
+        {
+          "id": 632,
+          "name": "Saurimo",
+          "latitude": -9.66078,
+          "longitude": 20.39155,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "name": "Bengo",
+      "stateCode": "BGO",
+      "latitude": -9.1042257,
+      "longitude": 13.7289167,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 598,
+          "name": "Caxito",
+          "latitude": -8.57848,
+          "longitude": 13.66425,
+          "translations": []
+        },
+        {
+          "id": 153645,
+          "name": "Ambriz",
+          "latitude": -7.8574,
+          "longitude": 13.1251,
+          "translations": []
+        },
+        {
+          "id": 153646,
+          "name": "Bula Atumba",
+          "latitude": -7.3117,
+          "longitude": 14.3147,
+          "translations": []
+        },
+        {
+          "id": 153647,
+          "name": "Dande",
+          "latitude": -8.1133,
+          "longitude": 13.7652,
+          "translations": []
+        },
+        {
+          "id": 153648,
+          "name": "Muxima",
+          "latitude": -9.5879,
+          "longitude": 13.5251,
+          "translations": []
+        },
+        {
+          "id": 153649,
+          "name": "Nambuangongo",
+          "latitude": -8.5656,
+          "longitude": 13.6572,
+          "translations": []
+        },
+        {
+          "id": 153650,
+          "name": "Pango Aluquém",
+          "latitude": -8.5544,
+          "longitude": 13.5815,
+          "translations": []
+        },
+        {
+          "id": 153651,
+          "name": "Úcua",
+          "latitude": -8.6724,
+          "longitude": 13.6829,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "name": "Luanda",
+      "stateCode": "LUA",
+      "latitude": -9.035088,
+      "longitude": 13.2663479,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 589,
+          "name": "Belas",
+          "latitude": -9.06875,
+          "longitude": 13.16072,
+          "translations": []
+        },
+        {
+          "id": 611,
+          "name": "Icolo e Bengo",
+          "latitude": -9.24191,
+          "longitude": 13.73549,
+          "translations": []
+        },
+        {
+          "id": 615,
+          "name": "Luanda",
+          "latitude": -8.83682,
+          "longitude": 13.23432,
+          "translations": []
+        },
+        {
+          "id": 153641,
+          "name": "Cacuaco",
+          "latitude": -8.8296,
+          "longitude": 13.2973,
+          "translations": []
+        },
+        {
+          "id": 153642,
+          "name": "Cazenga",
+          "latitude": -8.8286,
+          "longitude": 13.2665,
+          "translations": []
+        },
+        {
+          "id": 153643,
+          "name": "Talatona",
+          "latitude": -8.8957,
+          "longitude": 13.1943,
+          "translations": []
+        },
+        {
+          "id": 153644,
+          "name": "Viana",
+          "latitude": -8.9021,
+          "longitude": 13.2861,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "name": "Lunda Norte",
+      "stateCode": "LNO",
+      "latitude": -8.3525022,
+      "longitude": 19.1880047,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 618,
+          "name": "Lucapa",
+          "latitude": -8.68337,
+          "longitude": 20.27045,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "name": "Uíge",
+      "stateCode": "UIG",
+      "latitude": -7.1736732,
+      "longitude": 15.4068079,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 636,
+          "name": "Uíge",
+          "latitude": -7.60874,
+          "longitude": 15.06131,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "name": "Huíla",
+      "stateCode": "HUI",
+      "latitude": -14.9280553,
+      "longitude": 14.6587821,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 592,
+          "name": "Caconda",
+          "latitude": -13.73333,
+          "longitude": 15.06667,
+          "translations": []
+        },
+        {
+          "id": 593,
+          "name": "Caluquembe",
+          "latitude": -13.92093,
+          "longitude": 14.53476,
+          "translations": []
+        },
+        {
+          "id": 602,
+          "name": "Chibia",
+          "latitude": -15.23657,
+          "longitude": 13.88468,
+          "translations": []
+        },
+        {
+          "id": 603,
+          "name": "Chicomba",
+          "latitude": -14.30788,
+          "longitude": 14.98672,
+          "translations": []
+        },
+        {
+          "id": 604,
+          "name": "Chipindo",
+          "latitude": -13.8683,
+          "longitude": 15.73277,
+          "translations": []
+        },
+        {
+          "id": 607,
+          "name": "Cuvango",
+          "latitude": -14.27693,
+          "longitude": 16.31475,
+          "translations": []
+        },
+        {
+          "id": 608,
+          "name": "Gambos",
+          "latitude": -15.80926,
+          "longitude": 14.07661,
+          "translations": []
+        },
+        {
+          "id": 610,
+          "name": "Humpata",
+          "latitude": -15.0725,
+          "longitude": 13.36771,
+          "translations": []
+        },
+        {
+          "id": 612,
+          "name": "Jamba",
+          "latitude": -14.76294,
+          "longitude": 15.83493,
+          "translations": []
+        },
+        {
+          "id": 617,
+          "name": "Lubango",
+          "latitude": -14.91717,
+          "longitude": 13.4925,
+          "translations": []
+        },
+        {
+          "id": 623,
+          "name": "Matala",
+          "latitude": -15.23967,
+          "longitude": 15.17246,
+          "translations": []
+        },
+        {
+          "id": 630,
+          "name": "Quilengues",
+          "latitude": -13.99213,
+          "longitude": 13.76705,
+          "translations": []
+        },
+        {
+          "id": 631,
+          "name": "Quipungo",
+          "latitude": -15.12203,
+          "longitude": 14.55953,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "name": "Cuando Cubango",
+      "stateCode": "CCU",
+      "latitude": -16.4180824,
+      "longitude": 18.8076195,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 625,
+          "name": "Menongue",
+          "latitude": -14.6585,
+          "longitude": 17.69099,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "name": "Malanje",
+      "stateCode": "MAL",
+      "latitude": -9.8251183,
+      "longitude": 16.912251,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 622,
+          "name": "Malanje",
+          "latitude": -9.54015,
+          "longitude": 16.34096,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "name": "Cabinda",
+      "stateCode": "CAB",
+      "latitude": -5.0248749,
+      "longitude": 12.3463875,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 591,
+          "name": "Cabinda",
+          "latitude": -5.55,
+          "longitude": 12.2,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

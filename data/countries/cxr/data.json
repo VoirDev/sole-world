@@ -1,0 +1,90 @@
+{
+  "id": 46,
+  "name": "Christmas Island",
+  "nativeName": "Christmas Island",
+  "iso2": "CX",
+  "iso3": "CXR",
+  "numericCode": "162",
+  "phoneCode": "61",
+  "tld": ".cx",
+  "latitude": -10.5,
+  "longitude": 105.66666666,
+  "flagId": 196,
+  "regionId": 5,
+  "subregionId": 19,
+  "currencyIds": [
+    844
+  ],
+  "timezoneIds": [
+    2344
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "크리스마스 섬"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilha Christmas"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilha do Natal"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Christmaseiland"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Božićni otok"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزیره کریسمس"
+    },
+    {
+      "languageCode": "de",
+      "name": "Weihnachtsinsel"
+    },
+    {
+      "languageCode": "es",
+      "name": "Isla de Navidad"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Île Christmas"
+    },
+    {
+      "languageCode": "ja",
+      "name": "クリスマス島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isola di Natale"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "圣诞岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Christmas Adasi"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Остров Рождества"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Острів Різдва"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspa Bożego Narodzenia"
+    }
+  ],
+  "states": []
+}

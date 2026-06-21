@@ -1,0 +1,629 @@
+{
+  "id": 19,
+  "name": "Bangladesh",
+  "nativeName": "Bangladesh",
+  "iso2": "BD",
+  "iso3": "BGD",
+  "numericCode": "050",
+  "phoneCode": "880",
+  "tld": ".bd",
+  "latitude": 24,
+  "longitude": 90,
+  "flagId": 230,
+  "regionId": 3,
+  "subregionId": 14,
+  "currencyIds": [
+    847
+  ],
+  "timezoneIds": [
+    2273
+  ],
+  "officialLanguageIds": [
+    19
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "방글라데시"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Bangladesh"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Bangladeche"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Bangladesh"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Bangladeš"
+    },
+    {
+      "languageCode": "fa",
+      "name": "بنگلادش"
+    },
+    {
+      "languageCode": "de",
+      "name": "Bangladesch"
+    },
+    {
+      "languageCode": "es",
+      "name": "Bangladesh"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Bangladesh"
+    },
+    {
+      "languageCode": "ja",
+      "name": "バングラデシュ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Bangladesh"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "孟加拉"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Bangladeş"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Бангладеш"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Бангладеш"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Bangladesz"
+    }
+  ],
+  "states": [
+    {
+      "id": 750,
+      "name": "Rangpur ",
+      "stateCode": "F",
+      "latitude": 25.8483388,
+      "longitude": 88.9413865,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153898,
+          "name": "Dinajpur ",
+          "latitude": 25.6426103,
+          "longitude": 88.1834462,
+          "translations": []
+        },
+        {
+          "id": 153899,
+          "name": "Kurigram ",
+          "latitude": 25.8082722,
+          "longitude": 89.0091503,
+          "translations": []
+        },
+        {
+          "id": 153900,
+          "name": "Gaibandha ",
+          "latitude": 25.3431557,
+          "longitude": 89.1397857,
+          "translations": []
+        },
+        {
+          "id": 153901,
+          "name": "Lalmonirhat ",
+          "latitude": 26.1244239,
+          "longitude": 88.910609,
+          "translations": []
+        },
+        {
+          "id": 153902,
+          "name": "Nilphamari ",
+          "latitude": 26.0226425,
+          "longitude": 88.6341271,
+          "translations": []
+        },
+        {
+          "id": 153903,
+          "name": "Panchagarh ",
+          "latitude": 26.320327,
+          "longitude": 26.320327,
+          "translations": []
+        },
+        {
+          "id": 153904,
+          "name": "Rangpur ",
+          "latitude": 25.6239024,
+          "longitude": 88.9009498,
+          "translations": []
+        },
+        {
+          "id": 153905,
+          "name": "Thakurgaon ",
+          "latitude": 25.9364842,
+          "longitude": 88.0336664,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 753,
+      "name": "Rajshahi ",
+      "stateCode": "E",
+      "latitude": 24.7105776,
+      "longitude": 88.9413865,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153890,
+          "name": "Natore ",
+          "latitude": 24.3802107,
+          "longitude": 88.7630252,
+          "translations": []
+        },
+        {
+          "id": 153891,
+          "name": "Rajshahi ",
+          "latitude": 24.4207336,
+          "longitude": 88.2960214,
+          "translations": []
+        },
+        {
+          "id": 153892,
+          "name": "Sirajganj ",
+          "latitude": 24.3987624,
+          "longitude": 88.8764181,
+          "translations": []
+        },
+        {
+          "id": 153893,
+          "name": "Pabna ",
+          "latitude": 24.0812672,
+          "longitude": 89.0372442,
+          "translations": []
+        },
+        {
+          "id": 153894,
+          "name": "Bogra ",
+          "latitude": 24.8296645,
+          "longitude": 89.0259857,
+          "translations": []
+        },
+        {
+          "id": 153895,
+          "name": "Chapai Nawabganj",
+          "latitude": 24.6952075,
+          "longitude": 87.9302131,
+          "translations": []
+        },
+        {
+          "id": 153896,
+          "name": "Naogaon ",
+          "latitude": 24.8742508,
+          "longitude": 88.4375191,
+          "translations": []
+        },
+        {
+          "id": 153897,
+          "name": "Joypurhat ",
+          "latitude": 25.0656707,
+          "longitude": 88.7683265,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 758,
+      "name": "Mymensingh ",
+      "stateCode": "H",
+      "latitude": 24.71362,
+      "longitude": 90.4502368,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153886,
+          "name": "Mymensingh ",
+          "latitude": 24.7230985,
+          "longitude": 89.7841173,
+          "translations": []
+        },
+        {
+          "id": 153887,
+          "name": "Jamalpur ",
+          "latitude": 25.0010825,
+          "longitude": 89.2605013,
+          "translations": []
+        },
+        {
+          "id": 153888,
+          "name": "Netrokona ",
+          "latitude": 24.8720481,
+          "longitude": 90.5229381,
+          "translations": []
+        },
+        {
+          "id": 153889,
+          "name": "Sherpur ",
+          "latitude": 25.0926038,
+          "longitude": 89.7635207,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 760,
+      "name": "Dhaka ",
+      "stateCode": "C",
+      "latitude": 23.9535742,
+      "longitude": 90.1494988,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153863,
+          "name": "Dhaka ",
+          "latitude": 23.7841798,
+          "longitude": 89.9285983,
+          "translations": []
+        },
+        {
+          "id": 153864,
+          "name": "Gazipur ",
+          "latitude": 24.1091452,
+          "longitude": 90.0959614,
+          "translations": []
+        },
+        {
+          "id": 153865,
+          "name": "Kishoreganj ",
+          "latitude": 24.3388803,
+          "longitude": 90.584998,
+          "translations": []
+        },
+        {
+          "id": 153866,
+          "name": "Manikganj ",
+          "latitude": 23.8317408,
+          "longitude": 89.6409789,
+          "translations": []
+        },
+        {
+          "id": 153867,
+          "name": "Munshiganj ",
+          "latitude": 23.5261523,
+          "longitude": 90.1159091,
+          "translations": []
+        },
+        {
+          "id": 153868,
+          "name": "Narayanganj ",
+          "latitude": 23.7488013,
+          "longitude": 90.256385,
+          "translations": []
+        },
+        {
+          "id": 153869,
+          "name": "Narsingdi ",
+          "latitude": 24.00966,
+          "longitude": 90.4448042,
+          "translations": []
+        },
+        {
+          "id": 153870,
+          "name": "Tangail ",
+          "latitude": 24.376307,
+          "longitude": 89.3580461,
+          "translations": []
+        },
+        {
+          "id": 153871,
+          "name": "Faridpur ",
+          "latitude": 23.4511524,
+          "longitude": 89.5282038,
+          "translations": []
+        },
+        {
+          "id": 153872,
+          "name": "Gopalganj ",
+          "latitude": 23.1066012,
+          "longitude": 89.5780271,
+          "translations": []
+        },
+        {
+          "id": 153873,
+          "name": "Madaripur ",
+          "latitude": 23.2345549,
+          "longitude": 89.8108903,
+          "translations": []
+        },
+        {
+          "id": 153874,
+          "name": "Rajbari ",
+          "latitude": 23.73843,
+          "longitude": 89.25547,
+          "translations": []
+        },
+        {
+          "id": 153875,
+          "name": "Shariatpur ",
+          "latitude": 23.2312434,
+          "longitude": 90.0829347,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 765,
+      "name": "Sylhet ",
+      "stateCode": "G",
+      "latitude": 24.7049811,
+      "longitude": 91.6760691,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153906,
+          "name": "Habiganj ",
+          "latitude": 24.3348197,
+          "longitude": 90.7489901,
+          "translations": []
+        },
+        {
+          "id": 153907,
+          "name": "Moulvibazar ",
+          "latitude": 24.4861771,
+          "longitude": 91.2874241,
+          "translations": []
+        },
+        {
+          "id": 153908,
+          "name": "Sunamganj ",
+          "latitude": 24.8890554,
+          "longitude": 91.0024827,
+          "translations": []
+        },
+        {
+          "id": 153909,
+          "name": "Sylhet ",
+          "latitude": 24.8918911,
+          "longitude": 91.7355495,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 775,
+      "name": "Khulna ",
+      "stateCode": "D",
+      "latitude": 22.8087816,
+      "longitude": 89.2467191,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153876,
+          "name": "Bagerhat ",
+          "latitude": 22.3488059,
+          "longitude": 89.0747025,
+          "translations": []
+        },
+        {
+          "id": 153877,
+          "name": "Chuadanga ",
+          "latitude": 23.6035273,
+          "longitude": 88.487324,
+          "translations": []
+        },
+        {
+          "id": 153878,
+          "name": "Jessore ",
+          "latitude": 23.0847356,
+          "longitude": 88.8748008,
+          "translations": []
+        },
+        {
+          "id": 153879,
+          "name": "Jhenaidah ",
+          "latitude": 23.4952127,
+          "longitude": 88.7069493,
+          "translations": []
+        },
+        {
+          "id": 153880,
+          "name": "Khulna ",
+          "latitude": 22.3535139,
+          "longitude": 88.8340709,
+          "translations": []
+        },
+        {
+          "id": 153881,
+          "name": "Kushtia ",
+          "latitude": 23.9459524,
+          "longitude": 88.7017929,
+          "translations": []
+        },
+        {
+          "id": 153882,
+          "name": "Magura ",
+          "latitude": 23.4655774,
+          "longitude": 89.115473,
+          "translations": []
+        },
+        {
+          "id": 153883,
+          "name": "Meherpur ",
+          "latitude": 23.7897218,
+          "longitude": 88.3931949,
+          "translations": []
+        },
+        {
+          "id": 153884,
+          "name": "Narail ",
+          "latitude": 23.131757,
+          "longitude": 89.2625844,
+          "translations": []
+        },
+        {
+          "id": 153885,
+          "name": "Satkhira ",
+          "latitude": 22.2989859,
+          "longitude": 88.4754087,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 803,
+      "name": "Chittagong ",
+      "stateCode": "B",
+      "latitude": 23.1793157,
+      "longitude": 91.9881527,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8457,
+          "name": "Bandarban",
+          "latitude": 22,
+          "longitude": 92.33333,
+          "translations": []
+        },
+        {
+          "id": 8470,
+          "name": "Brahmanbaria",
+          "latitude": 23.98333,
+          "longitude": 91.16667,
+          "translations": []
+        },
+        {
+          "id": 8474,
+          "name": "Chandpur",
+          "latitude": 23.25,
+          "longitude": 90.83333,
+          "translations": []
+        },
+        {
+          "id": 8481,
+          "name": "Chittagong",
+          "latitude": 22.4875,
+          "longitude": 91.96333,
+          "translations": []
+        },
+        {
+          "id": 8483,
+          "name": "Comilla",
+          "latitude": 23.4417,
+          "longitude": 91.00987,
+          "translations": []
+        },
+        {
+          "id": 8484,
+          "name": "Cox's Bazar",
+          "latitude": 21.58389,
+          "longitude": 92.01528,
+          "translations": []
+        },
+        {
+          "id": 8492,
+          "name": "Feni",
+          "latitude": 22.96667,
+          "longitude": 91.31667,
+          "translations": []
+        },
+        {
+          "id": 8512,
+          "name": "Khagrachhari",
+          "latitude": 23.16667,
+          "longitude": 91.9,
+          "translations": []
+        },
+        {
+          "id": 8521,
+          "name": "Lakshmipur",
+          "latitude": 22.91667,
+          "longitude": 90.83333,
+          "translations": []
+        },
+        {
+          "id": 8553,
+          "name": "Noakhali",
+          "latitude": 22.75,
+          "longitude": 91.16667,
+          "translations": []
+        },
+        {
+          "id": 8576,
+          "name": "Rangamati",
+          "latitude": 22.63333,
+          "longitude": 92.2,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 807,
+      "name": "Barisal ",
+      "stateCode": "A",
+      "latitude": 22.3811131,
+      "longitude": 90.3371889,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153857,
+          "name": "Barisal ",
+          "latitude": 22.4203579,
+          "longitude": 89.7825034,
+          "translations": []
+        },
+        {
+          "id": 153858,
+          "name": "Barguna ",
+          "latitude": 22.1716787,
+          "longitude": 89.7974024,
+          "translations": []
+        },
+        {
+          "id": 153859,
+          "name": "Bhola ",
+          "latitude": 22.3245248,
+          "longitude": 90.1056847,
+          "translations": []
+        },
+        {
+          "id": 153860,
+          "name": "Jhalokati ",
+          "latitude": 22.5630352,
+          "longitude": 89.8719159,
+          "translations": []
+        },
+        {
+          "id": 153861,
+          "name": "Patuakhali ",
+          "latitude": 22.1870917,
+          "longitude": 89.7164706,
+          "translations": []
+        },
+        {
+          "id": 153862,
+          "name": "Pirojpur ",
+          "latitude": 22.5093791,
+          "longitude": 89.3643422,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

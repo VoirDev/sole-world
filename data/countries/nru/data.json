@@ -1,0 +1,289 @@
+{
+  "id": 153,
+  "name": "Nauru",
+  "nativeName": "Nauru",
+  "iso2": "NR",
+  "iso3": "NRU",
+  "numericCode": "520",
+  "phoneCode": "674",
+  "tld": ".nr",
+  "latitude": -0.53333333,
+  "longitude": 166.91666666,
+  "flagId": 82,
+  "regionId": 5,
+  "subregionId": 21,
+  "currencyIds": [
+    844
+  ],
+  "timezoneIds": [
+    2484
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "나우루"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Nauru"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Nauru"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Nauru"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Nauru"
+    },
+    {
+      "languageCode": "fa",
+      "name": "نائورو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Nauru"
+    },
+    {
+      "languageCode": "es",
+      "name": "Nauru"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Nauru"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ナウル"
+    },
+    {
+      "languageCode": "it",
+      "name": "Nauru"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "瑙鲁"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Nauru"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Науру"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Науру"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Nauru"
+    }
+  ],
+  "states": [
+    {
+      "id": 4654,
+      "name": "Ewa",
+      "stateCode": "09",
+      "latitude": -0.5087241,
+      "longitude": 166.9369384,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4655,
+      "name": "Uaboe",
+      "stateCode": "13",
+      "latitude": -0.5202222,
+      "longitude": 166.9311761,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79766,
+          "name": "Uaboe",
+          "latitude": -0.51393,
+          "longitude": 166.92384,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4656,
+      "name": "Aiwo",
+      "stateCode": "01",
+      "latitude": -0.5340012,
+      "longitude": 166.9138873,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79762,
+          "name": "Arijejen",
+          "latitude": -0.52545,
+          "longitude": 166.91247,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4657,
+      "name": "Meneng",
+      "stateCode": "11",
+      "latitude": -0.546724,
+      "longitude": 166.938379,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79765,
+          "name": "Menen",
+          "latitude": -0.54539,
+          "longitude": 166.94871,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4658,
+      "name": "Anabar",
+      "stateCode": "02",
+      "latitude": -0.5133517,
+      "longitude": 166.9484624,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79761,
+          "name": "Anabar",
+          "latitude": -0.50845,
+          "longitude": 166.95326,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4659,
+      "name": "Nibok",
+      "stateCode": "12",
+      "latitude": -0.5196208,
+      "longitude": 166.9189301,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4660,
+      "name": "Baiti",
+      "stateCode": "05",
+      "latitude": -0.510431,
+      "longitude": 166.9275744,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79763,
+          "name": "Baiti",
+          "latitude": -0.50803,
+          "longitude": 166.92945,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4661,
+      "name": "Ijuw",
+      "stateCode": "10",
+      "latitude": -0.5202767,
+      "longitude": 166.9571046,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79764,
+          "name": "Ijuw",
+          "latitude": -0.521,
+          "longitude": 166.95813,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4662,
+      "name": "Buada",
+      "stateCode": "07",
+      "latitude": -0.5328777,
+      "longitude": 166.9268541,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4663,
+      "name": "Anibare",
+      "stateCode": "04",
+      "latitude": -0.5294758,
+      "longitude": 166.9513432,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4664,
+      "name": "Yaren",
+      "stateCode": "14",
+      "latitude": -0.5466857,
+      "longitude": 166.9210913,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79767,
+          "name": "Yaren",
+          "latitude": -0.55085,
+          "longitude": 166.9252,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4665,
+      "name": "Boe",
+      "stateCode": "06",
+      "latitude": 39.0732776,
+      "longitude": -94.5710498,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4666,
+      "name": "Denigomodu",
+      "stateCode": "08",
+      "latitude": -0.5247964,
+      "longitude": 166.9167689,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4667,
+      "name": "Anetan",
+      "stateCode": "03",
+      "latitude": -0.5064343,
+      "longitude": 166.9427006,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

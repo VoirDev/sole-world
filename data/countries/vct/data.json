@@ -1,0 +1,220 @@
+{
+  "id": 188,
+  "name": "Saint Vincent and the Grenadines",
+  "nativeName": "Saint Vincent and the Grenadines",
+  "iso2": "VC",
+  "iso3": "VCT",
+  "numericCode": "670",
+  "phoneCode": "1",
+  "tld": ".vc",
+  "latitude": 13.25,
+  "longitude": -61.2,
+  "flagId": 14,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    840
+  ],
+  "timezoneIds": [
+    2550
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "세인트빈센트 그레나딘"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "São Vicente e Granadinas"
+    },
+    {
+      "languageCode": "pt",
+      "name": "São Vicente e Granadinas"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Saint Vincent en de Grenadines"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Sveti Vincent i Grenadini"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سنت وینسنت و گرنادین‌ها"
+    },
+    {
+      "languageCode": "de",
+      "name": "Saint Vincent und die Grenadinen"
+    },
+    {
+      "languageCode": "es",
+      "name": "San Vicente y Granadinas"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Saint-Vincent-et-les-Grenadines"
+    },
+    {
+      "languageCode": "ja",
+      "name": "セントビンセントおよびグレナディーン諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Saint Vincent e Grenadine"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "圣文森特和格林纳丁斯"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Saint Vincent Ve Grenadinler"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Сент-Винсент и Гренадины"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Сент-Вінсент і Гренадини"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Saint Vincent i Grenadyny"
+    }
+  ],
+  "states": [
+    {
+      "id": 3384,
+      "name": "Saint George",
+      "stateCode": "04",
+      "latitude": 42.957609,
+      "longitude": -81.326705,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130034,
+          "name": "Kingstown",
+          "latitude": 13.15527,
+          "longitude": -61.22742,
+          "translations": []
+        },
+        {
+          "id": 130035,
+          "name": "Kingstown Park",
+          "latitude": 13.15924,
+          "longitude": -61.23161,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3385,
+      "name": "Saint Patrick",
+      "stateCode": "05",
+      "latitude": 39.7509186,
+      "longitude": -94.8450556,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130029,
+          "name": "Barrouallie",
+          "latitude": 13.23676,
+          "longitude": -61.27275,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3386,
+      "name": "Saint Andrew",
+      "stateCode": "02",
+      "latitude": 43.0242999,
+      "longitude": -81.2025,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130036,
+          "name": "Layou",
+          "latitude": 13.20175,
+          "longitude": -61.27014,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3387,
+      "name": "Saint David",
+      "stateCode": "03",
+      "latitude": 43.8523095,
+      "longitude": -79.5236654,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130032,
+          "name": "Chateaubelair",
+          "latitude": 13.29069,
+          "longitude": -61.24043,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3388,
+      "name": "Grenadines",
+      "stateCode": "06",
+      "latitude": 13.0122965,
+      "longitude": -61.2277301,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130037,
+          "name": "Port Elizabeth",
+          "latitude": 13.01102,
+          "longitude": -61.23548,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3389,
+      "name": "Charlotte",
+      "stateCode": "01",
+      "latitude": 13.2175451,
+      "longitude": -61.1636244,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130030,
+          "name": "Biabou",
+          "latitude": 13.1943,
+          "longitude": -61.13904,
+          "translations": []
+        },
+        {
+          "id": 130031,
+          "name": "Byera Village",
+          "latitude": 13.25636,
+          "longitude": -61.11954,
+          "translations": []
+        },
+        {
+          "id": 130033,
+          "name": "Georgetown",
+          "latitude": 13.28054,
+          "longitude": -61.1185,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

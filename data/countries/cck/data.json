@@ -1,0 +1,92 @@
+{
+  "id": 47,
+  "name": "Cocos (Keeling) Islands",
+  "nativeName": "Cocos (Keeling) Islands",
+  "iso2": "CC",
+  "iso3": "CCK",
+  "numericCode": "166",
+  "phoneCode": "61",
+  "tld": ".cc",
+  "latitude": -12.5,
+  "longitude": 96.83333333,
+  "flagId": 210,
+  "regionId": 5,
+  "subregionId": 19,
+  "currencyIds": [
+    844
+  ],
+  "timezoneIds": [
+    2345
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [
+    30
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "코코스 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Cocos"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas dos Cocos"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Cocoseilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Kokosovi Otoci"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر کوکوس"
+    },
+    {
+      "languageCode": "de",
+      "name": "Kokosinseln"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Cocos o Islas Keeling"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Cocos"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ココス（キーリング）諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Cocos e Keeling"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "科科斯（基林）群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Cocos Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Кокосовые (Килинг) острова"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Кокосові (Кілінг) острови"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Kokosowe (Keelinga)"
+    }
+  ],
+  "states": []
+}

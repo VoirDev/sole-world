@@ -1,0 +1,2159 @@
+{
+  "id": 16,
+  "name": "Azerbaijan",
+  "nativeName": "Azərbaycan",
+  "iso2": "AZ",
+  "iso3": "AZE",
+  "numericCode": "031",
+  "phoneCode": "994",
+  "tld": ".az",
+  "latitude": 40.5,
+  "longitude": 47.5,
+  "flagId": 232,
+  "regionId": 3,
+  "subregionId": 11,
+  "currencyIds": [
+    845
+  ],
+  "timezoneIds": [
+    2271
+  ],
+  "officialLanguageIds": [
+    14
+  ],
+  "otherLanguageIds": [
+    30,
+    47
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "아제르바이잔"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Azerbaijão"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Azerbaijão"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Azerbeidzjan"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Azerbajdžan"
+    },
+    {
+      "languageCode": "fa",
+      "name": "آذربایجان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Aserbaidschan"
+    },
+    {
+      "languageCode": "es",
+      "name": "Azerbaiyán"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Azerbaïdjan"
+    },
+    {
+      "languageCode": "ja",
+      "name": "アゼルバイジャン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Azerbaijan"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "阿塞拜疆"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Azerbaycan"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Азербайджан"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Азербайджан"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Azerbejdżan"
+    }
+  ],
+  "states": [
+    {
+      "id": 518,
+      "name": "Shaki",
+      "stateCode": "SA",
+      "latitude": 41.1974753,
+      "longitude": 47.1571241,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8176,
+          "name": "Sheki",
+          "latitude": 41.19194,
+          "longitude": 47.17056,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 519,
+      "name": "Tartar",
+      "stateCode": "TAR",
+      "latitude": 40.3443875,
+      "longitude": 46.9376519,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8114,
+          "name": "Martakert",
+          "latitude": 40.21127,
+          "longitude": 46.82135,
+          "translations": []
+        },
+        {
+          "id": 8182,
+          "name": "Terter",
+          "latitude": 40.34201,
+          "longitude": 46.93161,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 520,
+      "name": "Shirvan",
+      "stateCode": "SR",
+      "latitude": 39.9469707,
+      "longitude": 48.9223919,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8212,
+          "name": "Şirvan",
+          "latitude": 39.93778,
+          "longitude": 48.929,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 521,
+      "name": "Qazakh",
+      "stateCode": "QAZ",
+      "latitude": 41.0971074,
+      "longitude": 45.3516331,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8147,
+          "name": "Qazax",
+          "latitude": 41.09246,
+          "longitude": 45.36561,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 522,
+      "name": "Sadarak",
+      "stateCode": "SAD",
+      "latitude": 39.7105114,
+      "longitude": 44.8864277,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 523,
+      "name": "Yevlakh",
+      "stateCode": "YEV",
+      "latitude": 40.6196638,
+      "longitude": 47.1500324,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8043,
+          "name": "Aran",
+          "latitude": 40.62528,
+          "longitude": 46.97556,
+          "translations": []
+        },
+        {
+          "id": 8138,
+          "name": "Qaramanlı",
+          "latitude": 40.48135,
+          "longitude": 46.99339,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 524,
+      "name": "Khojali",
+      "stateCode": "XCI",
+      "latitude": 39.9132553,
+      "longitude": 46.794305,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8046,
+          "name": "Askyaran",
+          "latitude": 39.9391,
+          "longitude": 46.83161,
+          "translations": []
+        },
+        {
+          "id": 8190,
+          "name": "Xocalı",
+          "latitude": 39.91297,
+          "longitude": 46.79028,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 525,
+      "name": "Kalbajar",
+      "stateCode": "KAL",
+      "latitude": 40.1024329,
+      "longitude": 46.0364872,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8098,
+          "name": "Kerbakhiar",
+          "latitude": 40.10984,
+          "longitude": 46.04446,
+          "translations": []
+        },
+        {
+          "id": 8186,
+          "name": "Vank",
+          "latitude": 40.05275,
+          "longitude": 46.54419,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 526,
+      "name": "Qakh",
+      "stateCode": "QAX",
+      "latitude": 41.4206827,
+      "longitude": 46.9320184,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8144,
+          "name": "Qax",
+          "latitude": 41.41826,
+          "longitude": 46.92043,
+          "translations": []
+        },
+        {
+          "id": 8145,
+          "name": "Qax İngiloy",
+          "latitude": 41.42412,
+          "longitude": 46.93859,
+          "translations": []
+        },
+        {
+          "id": 8146,
+          "name": "Qaxbaş",
+          "latitude": 41.43254,
+          "longitude": 46.9646,
+          "translations": []
+        },
+        {
+          "id": 8208,
+          "name": "Çinarlı",
+          "latitude": 41.46965,
+          "longitude": 46.91582,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 527,
+      "name": "Fizuli",
+      "stateCode": "FUZ",
+      "latitude": 39.5378605,
+      "longitude": 47.3033877,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8080,
+          "name": "Fizuli",
+          "latitude": 39.60094,
+          "longitude": 47.14529,
+          "translations": []
+        },
+        {
+          "id": 8092,
+          "name": "Horadiz",
+          "latitude": 39.45015,
+          "longitude": 47.33496,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 528,
+      "name": "Astara",
+      "stateCode": "AST",
+      "latitude": 38.4937845,
+      "longitude": 48.6944365,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8047,
+          "name": "Astara",
+          "latitude": 38.45598,
+          "longitude": 48.87498,
+          "translations": []
+        },
+        {
+          "id": 8103,
+          "name": "Kizhaba",
+          "latitude": 38.53461,
+          "longitude": 48.80546,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 529,
+      "name": "Shamakhi",
+      "stateCode": "SMI",
+      "latitude": 40.6318731,
+      "longitude": 48.6363801,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8173,
+          "name": "Shamakhi",
+          "latitude": 40.63141,
+          "longitude": 48.64137,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 530,
+      "name": "Neftchala",
+      "stateCode": "NEF",
+      "latitude": 39.3881052,
+      "longitude": 49.2413743,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8122,
+          "name": "Neftçala",
+          "latitude": 39.3768,
+          "longitude": 49.247,
+          "translations": []
+        },
+        {
+          "id": 8171,
+          "name": "Severo-Vostotchnyi Bank",
+          "latitude": 39.41117,
+          "longitude": 49.24792,
+          "translations": []
+        },
+        {
+          "id": 8178,
+          "name": "Sovetabad",
+          "latitude": 39.33667,
+          "longitude": 49.21414,
+          "translations": []
+        },
+        {
+          "id": 8192,
+          "name": "Xıllı",
+          "latitude": 39.43012,
+          "longitude": 49.10166,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 531,
+      "name": "Goychay",
+      "stateCode": "GOY",
+      "latitude": 40.6236168,
+      "longitude": 47.7403034,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8082,
+          "name": "Geoktschai",
+          "latitude": 40.65055,
+          "longitude": 47.74219,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 532,
+      "name": "Bilasuvar",
+      "stateCode": "BIL",
+      "latitude": 39.4598833,
+      "longitude": 48.5509813,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8133,
+          "name": "Pushkino",
+          "latitude": 39.45833,
+          "longitude": 48.545,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 533,
+      "name": "Tovuz",
+      "stateCode": "TOV",
+      "latitude": 40.9954523,
+      "longitude": 45.6165907,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8076,
+          "name": "Dondar Quşçu",
+          "latitude": 40.9539,
+          "longitude": 45.61942,
+          "translations": []
+        },
+        {
+          "id": 8139,
+          "name": "Qaraxanlı",
+          "latitude": 41.04358,
+          "longitude": 45.65527,
+          "translations": []
+        },
+        {
+          "id": 8183,
+          "name": "Tovuz",
+          "latitude": 40.99249,
+          "longitude": 45.62838,
+          "translations": []
+        },
+        {
+          "id": 8193,
+          "name": "Yanıqlı",
+          "latitude": 40.8432,
+          "longitude": 45.6803,
+          "translations": []
+        },
+        {
+          "id": 8207,
+          "name": "Çatax",
+          "latitude": 40.72622,
+          "longitude": 45.55919,
+          "translations": []
+        },
+        {
+          "id": 8209,
+          "name": "Çobansığnaq",
+          "latitude": 40.75244,
+          "longitude": 45.70645,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 534,
+      "name": "Ordubad",
+      "stateCode": "ORD",
+      "latitude": 38.9021622,
+      "longitude": 46.0237625,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 535,
+      "name": "Sharur",
+      "stateCode": "SAR",
+      "latitude": 39.5536332,
+      "longitude": 44.984568,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 536,
+      "name": "Samukh",
+      "stateCode": "SMX",
+      "latitude": 40.7604631,
+      "longitude": 46.4063181,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8140,
+          "name": "Qarayeri",
+          "latitude": 40.78674,
+          "longitude": 46.31365,
+          "translations": []
+        },
+        {
+          "id": 8156,
+          "name": "Qırmızı Samux",
+          "latitude": 40.93972,
+          "longitude": 46.37889,
+          "translations": []
+        },
+        {
+          "id": 8166,
+          "name": "Samux",
+          "latitude": 40.76485,
+          "longitude": 46.40868,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 537,
+      "name": "Khizi",
+      "stateCode": "XIZ",
+      "latitude": 40.9109489,
+      "longitude": 49.0729264,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8041,
+          "name": "Altıağac",
+          "latitude": 40.85785,
+          "longitude": 48.9354,
+          "translations": []
+        },
+        {
+          "id": 8101,
+          "name": "Khyzy",
+          "latitude": 40.90847,
+          "longitude": 49.07481,
+          "translations": []
+        },
+        {
+          "id": 8102,
+          "name": "Kilyazi",
+          "latitude": 40.87392,
+          "longitude": 49.34376,
+          "translations": []
+        },
+        {
+          "id": 8213,
+          "name": "Şuraabad",
+          "latitude": 40.8199,
+          "longitude": 49.46774,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 538,
+      "name": "Yevlakh",
+      "stateCode": "YE",
+      "latitude": 40.6196638,
+      "longitude": 47.1500324,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8198,
+          "name": "Yevlakh",
+          "latitude": 40.61832,
+          "longitude": 47.15014,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 539,
+      "name": "Ujar",
+      "stateCode": "UCA",
+      "latitude": 40.5067525,
+      "longitude": 47.6489641,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8185,
+          "name": "Ujar",
+          "latitude": 40.51902,
+          "longitude": 47.65423,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 540,
+      "name": "Absheron",
+      "stateCode": "ABS",
+      "latitude": 40.3629693,
+      "longitude": 49.2736815,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8069,
+          "name": "Ceyranbatan",
+          "latitude": 40.54194,
+          "longitude": 49.66073,
+          "translations": []
+        },
+        {
+          "id": 8073,
+          "name": "Digah",
+          "latitude": 40.49257,
+          "longitude": 49.87477,
+          "translations": []
+        },
+        {
+          "id": 8085,
+          "name": "Gyuzdek",
+          "latitude": 40.37444,
+          "longitude": 49.68194,
+          "translations": []
+        },
+        {
+          "id": 8099,
+          "name": "Khirdalan",
+          "latitude": 40.44808,
+          "longitude": 49.75502,
+          "translations": []
+        },
+        {
+          "id": 8148,
+          "name": "Qobu",
+          "latitude": 40.40472,
+          "longitude": 49.71306,
+          "translations": []
+        },
+        {
+          "id": 8169,
+          "name": "Saray",
+          "latitude": 40.53299,
+          "longitude": 49.71681,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 541,
+      "name": "Lachin",
+      "stateCode": "LAC",
+      "latitude": 39.6383414,
+      "longitude": 46.5460853,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8109,
+          "name": "Laçın",
+          "latitude": 39.59881,
+          "longitude": 46.55045,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 542,
+      "name": "Qabala",
+      "stateCode": "QAB",
+      "latitude": 40.9253925,
+      "longitude": 47.8016106,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8154,
+          "name": "Qutqashen",
+          "latitude": 40.98247,
+          "longitude": 47.84909,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 543,
+      "name": "Agstafa",
+      "stateCode": "AGA",
+      "latitude": 41.2655933,
+      "longitude": 45.5134291,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8038,
+          "name": "Aghstafa",
+          "latitude": 41.11889,
+          "longitude": 45.45389,
+          "translations": []
+        },
+        {
+          "id": 8163,
+          "name": "Saloğlu",
+          "latitude": 41.27524,
+          "longitude": 45.35293,
+          "translations": []
+        },
+        {
+          "id": 8188,
+          "name": "Vurğun",
+          "latitude": 41.09524,
+          "longitude": 45.47111,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 544,
+      "name": "Imishli",
+      "stateCode": "IMI",
+      "latitude": 39.8694686,
+      "longitude": 48.0665218,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8094,
+          "name": "Imishli",
+          "latitude": 39.87095,
+          "longitude": 48.05995,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 545,
+      "name": "Salyan",
+      "stateCode": "SAL",
+      "latitude": 28.3524811,
+      "longitude": 82.12784,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8141,
+          "name": "Qaraçala",
+          "latitude": 39.81614,
+          "longitude": 48.93792,
+          "translations": []
+        },
+        {
+          "id": 8164,
+          "name": "Salyan",
+          "latitude": 39.59621,
+          "longitude": 48.98479,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 546,
+      "name": "Lerik",
+      "stateCode": "LER",
+      "latitude": 38.7736192,
+      "longitude": 48.4151483,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8110,
+          "name": "Lerik",
+          "latitude": 38.77388,
+          "longitude": 48.41497,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 547,
+      "name": "Agsu",
+      "stateCode": "AGU",
+      "latitude": 40.5283339,
+      "longitude": 48.3650835,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8039,
+          "name": "Aghsu",
+          "latitude": 40.57028,
+          "longitude": 48.40087,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 548,
+      "name": "Qubadli",
+      "stateCode": "QBI",
+      "latitude": 39.2713996,
+      "longitude": 46.6354312,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8152,
+          "name": "Qubadlı",
+          "latitude": 39.34441,
+          "longitude": 46.58183,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 549,
+      "name": "Kurdamir",
+      "stateCode": "KUR",
+      "latitude": 40.3698651,
+      "longitude": 48.1644626,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8106,
+          "name": "Kyurdarmir",
+          "latitude": 40.34257,
+          "longitude": 48.15649,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 550,
+      "name": "Yardymli",
+      "stateCode": "YAR",
+      "latitude": 38.9058917,
+      "longitude": 48.2496127,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8194,
+          "name": "Yardımlı",
+          "latitude": 38.90771,
+          "longitude": 48.24052,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 551,
+      "name": "Goranboy",
+      "stateCode": "GOR",
+      "latitude": 40.5380506,
+      "longitude": 46.5990891,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8084,
+          "name": "Goranboy",
+          "latitude": 40.61028,
+          "longitude": 46.78972,
+          "translations": []
+        },
+        {
+          "id": 8158,
+          "name": "Qızılhacılı",
+          "latitude": 40.57362,
+          "longitude": 46.849,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 552,
+      "name": "Baku",
+      "stateCode": "BA",
+      "latitude": 40.4092617,
+      "longitude": 49.8670924,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8042,
+          "name": "Amirdzhan",
+          "latitude": 40.42639,
+          "longitude": 49.98361,
+          "translations": []
+        },
+        {
+          "id": 8051,
+          "name": "Badamdar",
+          "latitude": 40.34024,
+          "longitude": 49.8045,
+          "translations": []
+        },
+        {
+          "id": 8052,
+          "name": "Baku",
+          "latitude": 40.37767,
+          "longitude": 49.89201,
+          "translations": []
+        },
+        {
+          "id": 8053,
+          "name": "Bakıxanov",
+          "latitude": 40.41894,
+          "longitude": 49.96693,
+          "translations": []
+        },
+        {
+          "id": 8054,
+          "name": "Balakhani",
+          "latitude": 40.46344,
+          "longitude": 49.91893,
+          "translations": []
+        },
+        {
+          "id": 8060,
+          "name": "Bilajari",
+          "latitude": 40.4444,
+          "longitude": 49.80566,
+          "translations": []
+        },
+        {
+          "id": 8061,
+          "name": "Bilajer",
+          "latitude": 40.56441,
+          "longitude": 50.04002,
+          "translations": []
+        },
+        {
+          "id": 8062,
+          "name": "Binagadi",
+          "latitude": 40.46602,
+          "longitude": 49.82783,
+          "translations": []
+        },
+        {
+          "id": 8063,
+          "name": "Biny Selo",
+          "latitude": 40.45076,
+          "longitude": 50.08686,
+          "translations": []
+        },
+        {
+          "id": 8066,
+          "name": "Buzovna",
+          "latitude": 40.51903,
+          "longitude": 50.11438,
+          "translations": []
+        },
+        {
+          "id": 8093,
+          "name": "Hövsan",
+          "latitude": 40.37444,
+          "longitude": 50.08528,
+          "translations": []
+        },
+        {
+          "id": 8100,
+          "name": "Khodzhi-Gasan",
+          "latitude": 40.41293,
+          "longitude": 49.76904,
+          "translations": []
+        },
+        {
+          "id": 8104,
+          "name": "Korgöz",
+          "latitude": 40.30446,
+          "longitude": 49.6236,
+          "translations": []
+        },
+        {
+          "id": 8111,
+          "name": "Lökbatan",
+          "latitude": 40.3256,
+          "longitude": 49.73376,
+          "translations": []
+        },
+        {
+          "id": 8113,
+          "name": "Mardakan",
+          "latitude": 40.49182,
+          "longitude": 50.14292,
+          "translations": []
+        },
+        {
+          "id": 8116,
+          "name": "Maştağa",
+          "latitude": 40.52983,
+          "longitude": 50.00616,
+          "translations": []
+        },
+        {
+          "id": 8121,
+          "name": "Nardaran",
+          "latitude": 40.55611,
+          "longitude": 50.00556,
+          "translations": []
+        },
+        {
+          "id": 8123,
+          "name": "Nizami Rayonu",
+          "latitude": 40.4097,
+          "longitude": 49.91926,
+          "translations": []
+        },
+        {
+          "id": 8131,
+          "name": "Pirallahı",
+          "latitude": 40.47013,
+          "longitude": 50.32476,
+          "translations": []
+        },
+        {
+          "id": 8134,
+          "name": "Puta",
+          "latitude": 40.29667,
+          "longitude": 49.66028,
+          "translations": []
+        },
+        {
+          "id": 8136,
+          "name": "Qala",
+          "latitude": 40.44256,
+          "longitude": 50.16759,
+          "translations": []
+        },
+        {
+          "id": 8142,
+          "name": "Qaraçuxur",
+          "latitude": 40.39667,
+          "longitude": 49.97361,
+          "translations": []
+        },
+        {
+          "id": 8149,
+          "name": "Qobustan",
+          "latitude": 40.08238,
+          "longitude": 49.41205,
+          "translations": []
+        },
+        {
+          "id": 8159,
+          "name": "Ramana",
+          "latitude": 40.44222,
+          "longitude": 49.98056,
+          "translations": []
+        },
+        {
+          "id": 8162,
+          "name": "Sabunçu",
+          "latitude": 40.4425,
+          "longitude": 49.94806,
+          "translations": []
+        },
+        {
+          "id": 8168,
+          "name": "Sanqaçal",
+          "latitude": 40.16991,
+          "longitude": 49.46394,
+          "translations": []
+        },
+        {
+          "id": 8184,
+          "name": "Türkan",
+          "latitude": 40.3646,
+          "longitude": 50.22075,
+          "translations": []
+        },
+        {
+          "id": 8197,
+          "name": "Yeni Suraxanı",
+          "latitude": 40.43026,
+          "longitude": 50.03598,
+          "translations": []
+        },
+        {
+          "id": 8201,
+          "name": "Zabrat",
+          "latitude": 40.47746,
+          "longitude": 49.94174,
+          "translations": []
+        },
+        {
+          "id": 8205,
+          "name": "Zyrya",
+          "latitude": 40.36613,
+          "longitude": 50.29198,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 553,
+      "name": "Agdash",
+      "stateCode": "AGS",
+      "latitude": 40.6335427,
+      "longitude": 47.467431,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8050,
+          "name": "Ağdaş",
+          "latitude": 40.64699,
+          "longitude": 47.4738,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 554,
+      "name": "Beylagan",
+      "stateCode": "BEY",
+      "latitude": 39.7723073,
+      "longitude": 47.6154166,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8059,
+          "name": "Beylagan",
+          "latitude": 39.77556,
+          "longitude": 47.61861,
+          "translations": []
+        },
+        {
+          "id": 8064,
+          "name": "Birinci Aşıqlı",
+          "latitude": 39.81917,
+          "longitude": 47.67944,
+          "translations": []
+        },
+        {
+          "id": 8078,
+          "name": "Dünyamalılar",
+          "latitude": 39.77278,
+          "longitude": 47.75889,
+          "translations": []
+        },
+        {
+          "id": 8128,
+          "name": "Orjonikidze",
+          "latitude": 39.63571,
+          "longitude": 47.71199,
+          "translations": []
+        },
+        {
+          "id": 8200,
+          "name": "Yuxarı Aran",
+          "latitude": 39.73361,
+          "longitude": 47.655,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 555,
+      "name": "Masally",
+      "stateCode": "MAS",
+      "latitude": 39.0340722,
+      "longitude": 48.6589354,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8065,
+          "name": "Boradigah",
+          "latitude": 38.93013,
+          "longitude": 48.7092,
+          "translations": []
+        },
+        {
+          "id": 8115,
+          "name": "Masally",
+          "latitude": 39.03532,
+          "longitude": 48.6654,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "name": "Oghuz",
+      "stateCode": "OGU",
+      "latitude": 41.0727924,
+      "longitude": 47.4650672,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8130,
+          "name": "Oğuz",
+          "latitude": 41.07128,
+          "longitude": 47.46528,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 557,
+      "name": "Saatly",
+      "stateCode": "SAT",
+      "latitude": 39.9095503,
+      "longitude": 48.3595122,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8160,
+          "name": "Saatlı",
+          "latitude": 39.93214,
+          "longitude": 48.36892,
+          "translations": []
+        },
+        {
+          "id": 8214,
+          "name": "Əhmədbəyli",
+          "latitude": 39.88074,
+          "longitude": 48.39158,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 558,
+      "name": "Lankaran",
+      "stateCode": "LA",
+      "latitude": 38.7528669,
+      "longitude": 48.8475015,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8090,
+          "name": "Haftoni",
+          "latitude": 38.76325,
+          "longitude": 48.76223,
+          "translations": []
+        },
+        {
+          "id": 8108,
+          "name": "Lankaran",
+          "latitude": 38.75428,
+          "longitude": 48.85062,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 559,
+      "name": "Agdam",
+      "stateCode": "AGM",
+      "latitude": 39.9931853,
+      "longitude": 46.9949562,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8049,
+          "name": "Ağdam",
+          "latitude": 39.99096,
+          "longitude": 46.92736,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 560,
+      "name": "Balakan",
+      "stateCode": "BAL",
+      "latitude": 41.7037509,
+      "longitude": 46.4044213,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8058,
+          "name": "Belokany",
+          "latitude": 41.72626,
+          "longitude": 46.40478,
+          "translations": []
+        },
+        {
+          "id": 8135,
+          "name": "Qabaqçöl",
+          "latitude": 41.75259,
+          "longitude": 46.27052,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 561,
+      "name": "Dashkasan",
+      "stateCode": "DAS",
+      "latitude": 40.5202257,
+      "longitude": 46.0779304,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8187,
+          "name": "Verkhniy Dashkesan",
+          "latitude": 40.49357,
+          "longitude": 46.07175,
+          "translations": []
+        },
+        {
+          "id": 8199,
+          "name": "Yukhary-Dashkesan",
+          "latitude": 40.52393,
+          "longitude": 46.08186,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 562,
+      "name": "Nakhchivan",
+      "stateCode": "NX",
+      "latitude": 39.3256814,
+      "longitude": 45.4912648,
+      "type": "autonomous republic",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8068,
+          "name": "Cahri",
+          "latitude": 39.34837,
+          "longitude": 45.41557,
+          "translations": []
+        },
+        {
+          "id": 8071,
+          "name": "Culfa",
+          "latitude": 38.95397,
+          "longitude": 45.62961,
+          "translations": []
+        },
+        {
+          "id": 8072,
+          "name": "Deste",
+          "latitude": 38.88375,
+          "longitude": 45.90963,
+          "translations": []
+        },
+        {
+          "id": 8091,
+          "name": "Heydarabad",
+          "latitude": 39.72286,
+          "longitude": 44.84846,
+          "translations": []
+        },
+        {
+          "id": 8097,
+          "name": "Julfa Rayon",
+          "latitude": 39.16667,
+          "longitude": 45.66667,
+          "translations": []
+        },
+        {
+          "id": 8120,
+          "name": "Nakhchivan",
+          "latitude": 39.20889,
+          "longitude": 45.41222,
+          "translations": []
+        },
+        {
+          "id": 8126,
+          "name": "Ordubad",
+          "latitude": 38.90961,
+          "longitude": 46.02274,
+          "translations": []
+        },
+        {
+          "id": 8127,
+          "name": "Ordubad Rayon",
+          "latitude": 39.08333,
+          "longitude": 45.91667,
+          "translations": []
+        },
+        {
+          "id": 8129,
+          "name": "Oğlanqala",
+          "latitude": 39.58694,
+          "longitude": 45.04611,
+          "translations": []
+        },
+        {
+          "id": 8157,
+          "name": "Qıvraq",
+          "latitude": 39.39939,
+          "longitude": 45.11513,
+          "translations": []
+        },
+        {
+          "id": 8170,
+          "name": "Sedarak",
+          "latitude": 39.71427,
+          "longitude": 44.88455,
+          "translations": []
+        },
+        {
+          "id": 8172,
+          "name": "Shahbuz Rayon",
+          "latitude": 39.41667,
+          "longitude": 45.58333,
+          "translations": []
+        },
+        {
+          "id": 8175,
+          "name": "Sharur City",
+          "latitude": 39.55298,
+          "longitude": 44.97993,
+          "translations": []
+        },
+        {
+          "id": 8179,
+          "name": "Sumbatan-diza",
+          "latitude": 38.94804,
+          "longitude": 45.82572,
+          "translations": []
+        },
+        {
+          "id": 8181,
+          "name": "Tazakend",
+          "latitude": 39.15459,
+          "longitude": 45.44282,
+          "translations": []
+        },
+        {
+          "id": 8195,
+          "name": "Yaycı",
+          "latitude": 38.94052,
+          "longitude": 45.73244,
+          "translations": []
+        },
+        {
+          "id": 8206,
+          "name": "Çalxanqala",
+          "latitude": 39.44167,
+          "longitude": 45.28333,
+          "translations": []
+        },
+        {
+          "id": 8211,
+          "name": "Şahbuz",
+          "latitude": 39.40722,
+          "longitude": 45.57389,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 563,
+      "name": "Quba",
+      "stateCode": "QBA",
+      "latitude": 41.1564242,
+      "longitude": 48.4135021,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8087,
+          "name": "Hacıhüseynli",
+          "latitude": 41.45639,
+          "longitude": 48.64889,
+          "translations": []
+        },
+        {
+          "id": 8151,
+          "name": "Quba",
+          "latitude": 41.36108,
+          "longitude": 48.51341,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 564,
+      "name": "Ismailli",
+      "stateCode": "ISM",
+      "latitude": 40.7429936,
+      "longitude": 48.2125556,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8056,
+          "name": "Basqal",
+          "latitude": 40.7552,
+          "longitude": 48.39104,
+          "translations": []
+        },
+        {
+          "id": 8210,
+          "name": "İsmayıllı",
+          "latitude": 40.78485,
+          "longitude": 48.15141,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 565,
+      "name": "Sabirabad",
+      "stateCode": "SAB",
+      "latitude": 39.9870663,
+      "longitude": 48.4692545,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8161,
+          "name": "Sabirabad",
+          "latitude": 40.00869,
+          "longitude": 48.47701,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 566,
+      "name": "Zaqatala",
+      "stateCode": "ZAQ",
+      "latitude": 41.5906889,
+      "longitude": 46.7240373,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8040,
+          "name": "Aliabad",
+          "latitude": 41.4829,
+          "longitude": 46.63483,
+          "translations": []
+        },
+        {
+          "id": 8079,
+          "name": "Faldarlı",
+          "latitude": 41.46868,
+          "longitude": 46.51579,
+          "translations": []
+        },
+        {
+          "id": 8112,
+          "name": "Mamrux",
+          "latitude": 41.54243,
+          "longitude": 46.767,
+          "translations": []
+        },
+        {
+          "id": 8137,
+          "name": "Qandax",
+          "latitude": 41.47546,
+          "longitude": 46.54128,
+          "translations": []
+        },
+        {
+          "id": 8203,
+          "name": "Zaqatala",
+          "latitude": 41.6316,
+          "longitude": 46.64479,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 567,
+      "name": "Kangarli",
+      "stateCode": "KAN",
+      "latitude": 39.387194,
+      "longitude": 45.1639852,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 568,
+      "name": "Martuni",
+      "stateCode": "XVD",
+      "latitude": 39.7914693,
+      "longitude": 47.1100814,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8089,
+          "name": "Hadrut",
+          "latitude": 39.52003,
+          "longitude": 47.0319,
+          "translations": []
+        },
+        {
+          "id": 8125,
+          "name": "Novyy Karanlug",
+          "latitude": 39.79496,
+          "longitude": 47.1117,
+          "translations": []
+        },
+        {
+          "id": 8155,
+          "name": "Qırmızı Bazar",
+          "latitude": 39.67669,
+          "longitude": 46.95123,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 569,
+      "name": "Barda",
+      "stateCode": "BAR",
+      "latitude": 40.3706555,
+      "longitude": 47.1378909,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8055,
+          "name": "Barda",
+          "latitude": 40.37577,
+          "longitude": 47.12619,
+          "translations": []
+        },
+        {
+          "id": 8167,
+          "name": "Samuxlu",
+          "latitude": 40.50833,
+          "longitude": 47.16917,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 570,
+      "name": "Jabrayil",
+      "stateCode": "CAB",
+      "latitude": 39.2645544,
+      "longitude": 46.9621562,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8096,
+          "name": "Jebrail",
+          "latitude": 39.39917,
+          "longitude": 47.02835,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 571,
+      "name": "Hajigabul",
+      "stateCode": "HAC",
+      "latitude": 40.039377,
+      "longitude": 48.9202533,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8088,
+          "name": "Hacıqabul",
+          "latitude": 40.03874,
+          "longitude": 48.94286,
+          "translations": []
+        },
+        {
+          "id": 8119,
+          "name": "Mughan",
+          "latitude": 40.09902,
+          "longitude": 48.81886,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 572,
+      "name": "Julfa",
+      "stateCode": "CUL",
+      "latitude": 38.9604983,
+      "longitude": 45.6292939,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 573,
+      "name": "Gobustan",
+      "stateCode": "QOB",
+      "latitude": 40.5326104,
+      "longitude": 48.927375,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8150,
+          "name": "Qobustan",
+          "latitude": 40.5336,
+          "longitude": 48.92819,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 574,
+      "name": "Goygol",
+      "stateCode": "GYG",
+      "latitude": 40.5595378,
+      "longitude": 46.3314953,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8196,
+          "name": "Yelenendorf",
+          "latitude": 40.58584,
+          "longitude": 46.3189,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 575,
+      "name": "Babek",
+      "stateCode": "BAB",
+      "latitude": 39.1507613,
+      "longitude": 45.4485368,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 576,
+      "name": "Zardab",
+      "stateCode": "ZAR",
+      "latitude": 40.2148114,
+      "longitude": 47.714944,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8204,
+          "name": "Zardob",
+          "latitude": 40.2184,
+          "longitude": 47.71214,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 577,
+      "name": "Aghjabadi",
+      "stateCode": "AGC",
+      "latitude": 28.7891841,
+      "longitude": 77.5160788,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8037,
+          "name": "Agdzhabedy",
+          "latitude": 40.05015,
+          "longitude": 47.45937,
+          "translations": []
+        },
+        {
+          "id": 8048,
+          "name": "Avşar",
+          "latitude": 39.97389,
+          "longitude": 47.42389,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 578,
+      "name": "Jalilabad",
+      "stateCode": "CAL",
+      "latitude": 39.2051632,
+      "longitude": 48.5100604,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8095,
+          "name": "Jalilabad",
+          "latitude": 39.20963,
+          "longitude": 48.49186,
+          "translations": []
+        },
+        {
+          "id": 8132,
+          "name": "Prishibinskoye",
+          "latitude": 39.11998,
+          "longitude": 48.59383,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "name": "Shahbuz",
+      "stateCode": "SAH",
+      "latitude": 39.4452103,
+      "longitude": 45.6568009,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 580,
+      "name": "Mingachevir",
+      "stateCode": "MI",
+      "latitude": 40.7702563,
+      "longitude": 47.0496015,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8118,
+          "name": "Mingelchaur",
+          "latitude": 40.76395,
+          "longitude": 47.05953,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 581,
+      "name": "Zangilan",
+      "stateCode": "ZAN",
+      "latitude": 39.0856899,
+      "longitude": 46.6524728,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8117,
+          "name": "Mincivan",
+          "latitude": 39.03023,
+          "longitude": 46.72329,
+          "translations": []
+        },
+        {
+          "id": 8202,
+          "name": "Zangilan",
+          "latitude": 39.08371,
+          "longitude": 46.65988,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 582,
+      "name": "Sumqayit",
+      "stateCode": "SM",
+      "latitude": 40.5854765,
+      "longitude": 49.6317411,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8070,
+          "name": "Corat",
+          "latitude": 40.57176,
+          "longitude": 49.70509,
+          "translations": []
+        },
+        {
+          "id": 8086,
+          "name": "Hacı Zeynalabdin",
+          "latitude": 40.62333,
+          "longitude": 49.55861,
+          "translations": []
+        },
+        {
+          "id": 8180,
+          "name": "Sumqayıt",
+          "latitude": 40.58972,
+          "longitude": 49.66861,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 583,
+      "name": "Shamkir",
+      "stateCode": "SKR",
+      "latitude": 40.8288144,
+      "longitude": 46.0166879,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8075,
+          "name": "Dolyar",
+          "latitude": 40.86278,
+          "longitude": 46.03493,
+          "translations": []
+        },
+        {
+          "id": 8077,
+          "name": "Dzagam",
+          "latitude": 40.9033,
+          "longitude": 45.88564,
+          "translations": []
+        },
+        {
+          "id": 8143,
+          "name": "Qasım İsmayılov",
+          "latitude": 40.81243,
+          "longitude": 46.25938,
+          "translations": []
+        },
+        {
+          "id": 8174,
+          "name": "Shamkhor",
+          "latitude": 40.82975,
+          "longitude": 46.0178,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 584,
+      "name": "Siazan",
+      "stateCode": "SIY",
+      "latitude": 41.0783833,
+      "longitude": 49.1118477,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8083,
+          "name": "Gilgilçay",
+          "latitude": 41.13932,
+          "longitude": 49.09038,
+          "translations": []
+        },
+        {
+          "id": 8107,
+          "name": "Kyzyl-Burun",
+          "latitude": 41.07811,
+          "longitude": 49.11564,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 585,
+      "name": "Ganja",
+      "stateCode": "GA",
+      "latitude": 36.3687338,
+      "longitude": -95.9985767,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8081,
+          "name": "Ganja",
+          "latitude": 40.68278,
+          "longitude": 46.36056,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 586,
+      "name": "Shaki",
+      "stateCode": "SAK",
+      "latitude": 41.1134662,
+      "longitude": 47.1316927,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8057,
+          "name": "Baş Göynük",
+          "latitude": 41.32582,
+          "longitude": 47.11357,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 587,
+      "name": "Lankaran",
+      "stateCode": "LAN",
+      "latitude": 38.7528669,
+      "longitude": 48.8475015,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 588,
+      "name": "Qusar",
+      "stateCode": "QUS",
+      "latitude": 41.4266886,
+      "longitude": 48.4345577,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8153,
+          "name": "Qusar",
+          "latitude": 41.4275,
+          "longitude": 48.4302,
+          "translations": []
+        },
+        {
+          "id": 8165,
+          "name": "Samur",
+          "latitude": 41.63671,
+          "longitude": 48.43028,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 589,
+      "name": "Gədəbəy",
+      "stateCode": "GAD",
+      "latitude": 40.5699639,
+      "longitude": 45.8106883,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8044,
+          "name": "Arıqdam",
+          "latitude": 40.59313,
+          "longitude": 45.799,
+          "translations": []
+        },
+        {
+          "id": 8045,
+          "name": "Arıqıran",
+          "latitude": 40.53971,
+          "longitude": 45.61414,
+          "translations": []
+        },
+        {
+          "id": 8067,
+          "name": "Böyük Qaramurad",
+          "latitude": 40.57626,
+          "longitude": 45.63727,
+          "translations": []
+        },
+        {
+          "id": 8105,
+          "name": "Kyadabek",
+          "latitude": 40.57055,
+          "longitude": 45.81229,
+          "translations": []
+        },
+        {
+          "id": 8124,
+          "name": "Novosaratovka",
+          "latitude": 40.59811,
+          "longitude": 45.60079,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 590,
+      "name": "Khachmaz",
+      "stateCode": "XAC",
+      "latitude": 41.4591168,
+      "longitude": 48.8020626,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8189,
+          "name": "Xaçmaz",
+          "latitude": 41.46426,
+          "longitude": 48.80565,
+          "translations": []
+        },
+        {
+          "id": 8191,
+          "name": "Xudat",
+          "latitude": 41.63052,
+          "longitude": 48.68161,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 591,
+      "name": "Shabran",
+      "stateCode": "SBN",
+      "latitude": 41.2228376,
+      "longitude": 48.8457304,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8074,
+          "name": "Divichibazar",
+          "latitude": 41.20117,
+          "longitude": 48.98712,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 592,
+      "name": "Shusha",
+      "stateCode": "SUS",
+      "latitude": 39.7537438,
+      "longitude": 46.7464755,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8177,
+          "name": "Shushi",
+          "latitude": 39.76006,
+          "longitude": 46.74989,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

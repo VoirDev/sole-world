@@ -1,0 +1,202 @@
+{
+  "id": 222,
+  "name": "Tonga",
+  "nativeName": "Tonga",
+  "iso2": "TO",
+  "iso3": "TON",
+  "numericCode": "776",
+  "phoneCode": "676",
+  "tld": ".to",
+  "latitude": -20,
+  "longitude": -175,
+  "flagId": 27,
+  "regionId": 5,
+  "subregionId": 22,
+  "currencyIds": [
+    972
+  ],
+  "timezoneIds": [
+    2588
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "통가"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Tonga"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Tonga"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Tonga"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Tonga"
+    },
+    {
+      "languageCode": "fa",
+      "name": "تونگا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Tonga"
+    },
+    {
+      "languageCode": "es",
+      "name": "Tonga"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Tonga"
+    },
+    {
+      "languageCode": "ja",
+      "name": "トンガ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Tonga"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "汤加"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Tonga"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Тонга"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Тонга"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Tonga"
+    }
+  ],
+  "states": [
+    {
+      "id": 3911,
+      "name": "Vavaʻu",
+      "stateCode": "05",
+      "latitude": -18.622756,
+      "longitude": -173.9902982,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 107047,
+          "name": "Neiafu",
+          "latitude": -18.6506,
+          "longitude": -173.98404,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3912,
+      "name": "Tongatapu",
+      "stateCode": "04",
+      "latitude": -21.1465968,
+      "longitude": -175.2515482,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 107044,
+          "name": "Haveluloto",
+          "latitude": -21.15216,
+          "longitude": -175.21333,
+          "translations": []
+        },
+        {
+          "id": 107046,
+          "name": "Kolonga",
+          "latitude": -21.13333,
+          "longitude": -175.06667,
+          "translations": []
+        },
+        {
+          "id": 107048,
+          "name": "Nuku‘alofa",
+          "latitude": -21.13938,
+          "longitude": -175.2018,
+          "translations": []
+        },
+        {
+          "id": 107050,
+          "name": "Vaini",
+          "latitude": -21.19292,
+          "longitude": -175.17678,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3913,
+      "name": "Haʻapai",
+      "stateCode": "02",
+      "latitude": -19.75,
+      "longitude": -174.366667,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 107049,
+          "name": "Pangai",
+          "latitude": -19.81468,
+          "longitude": -174.35423,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3914,
+      "name": "Niuas",
+      "stateCode": "03",
+      "latitude": -15.9594,
+      "longitude": -173.783,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 107045,
+          "name": "Hihifo",
+          "latitude": -15.9544,
+          "longitude": -173.79616,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3915,
+      "name": "ʻEua",
+      "stateCode": "01",
+      "latitude": 37.09024,
+      "longitude": -95.712891,
+      "type": "division",
+      "translations": [],
+      "cities": [
+        {
+          "id": 107051,
+          "name": "‘Ohonua",
+          "latitude": -21.33333,
+          "longitude": -174.95,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 244,
+  "name": "Western Sahara",
+  "nativeName": "الصحراء الغربية",
+  "iso2": "EH",
+  "iso3": "ESH",
+  "numericCode": "732",
+  "phoneCode": "212",
+  "tld": ".eh",
+  "latitude": 24.5,
+  "longitude": -13,
+  "flagId": 185,
+  "regionId": 1,
+  "subregionId": 1,
+  "currencyIds": [
+    926
+  ],
+  "timezoneIds": [
+    2643
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "서사하라"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Saara Ocidental"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Saara Ocidental"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Westelijke Sahara"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Zapadna Sahara"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جمهوری دموکراتیک عربی صحرا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Westsahara"
+    },
+    {
+      "languageCode": "es",
+      "name": "Sahara Occidental"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Sahara Occidental"
+    },
+    {
+      "languageCode": "ja",
+      "name": "西サハラ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Sahara Occidentale"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "西撒哈拉"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Bati Sahra"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Западная Сахара"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Західна Сахара"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Sahara Zachodnia"
+    }
+  ],
+  "states": []
+}

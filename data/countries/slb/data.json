@@ -1,0 +1,249 @@
+{
+  "id": 202,
+  "name": "Solomon Islands",
+  "nativeName": "Solomon Islands",
+  "iso2": "SB",
+  "iso3": "SLB",
+  "numericCode": "090",
+  "phoneCode": "677",
+  "tld": ".sb",
+  "latitude": -8,
+  "longitude": 159,
+  "flagId": 57,
+  "regionId": 5,
+  "subregionId": 20,
+  "currencyIds": [
+    956
+  ],
+  "timezoneIds": [
+    2563
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "솔로몬 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Salomão"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Salomão"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Salomonseilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Solomonski Otoci"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر سلیمان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Salomonen"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Salomón"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Salomon"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ソロモン諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Salomone"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "所罗门群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Solomon Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Соломоновы острова"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Соломонові острови"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Salomona"
+    }
+  ],
+  "states": [
+    {
+      "id": 4778,
+      "name": "Honiara",
+      "stateCode": "CT",
+      "latitude": -9.4456381,
+      "longitude": 159.9728999,
+      "type": "capital territory",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4779,
+      "name": "Temotu",
+      "stateCode": "TE",
+      "latitude": -10.686929,
+      "longitude": 166.0623979,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102904,
+          "name": "Lata",
+          "latitude": -10.725,
+          "longitude": 165.79722,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4780,
+      "name": "Isabel",
+      "stateCode": "IS",
+      "latitude": -8.0592353,
+      "longitude": 159.1447081,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102900,
+          "name": "Buala",
+          "latitude": -8.14497,
+          "longitude": 159.59212,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4781,
+      "name": "Choiseul",
+      "stateCode": "CH",
+      "latitude": -7.0501494,
+      "longitude": 156.9511459,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4782,
+      "name": "Makira-Ulawa",
+      "stateCode": "MK",
+      "latitude": -10.5737447,
+      "longitude": 161.8096941,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102903,
+          "name": "Kirakira",
+          "latitude": -10.45442,
+          "longitude": 161.92045,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4783,
+      "name": "Malaita",
+      "stateCode": "ML",
+      "latitude": -8.9446168,
+      "longitude": 160.9071236,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102899,
+          "name": "Auki",
+          "latitude": -8.76778,
+          "longitude": 160.69778,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4784,
+      "name": "Central",
+      "stateCode": "CE",
+      "latitude": null,
+      "longitude": null,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102905,
+          "name": "Tulagi",
+          "latitude": -9.10306,
+          "longitude": 160.15056,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4785,
+      "name": "Guadalcanal",
+      "stateCode": "GU",
+      "latitude": -9.5773284,
+      "longitude": 160.1455805,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102902,
+          "name": "Honiara",
+          "latitude": -9.43333,
+          "longitude": 159.95,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4786,
+      "name": "Western",
+      "stateCode": "WE",
+      "latitude": null,
+      "longitude": null,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102901,
+          "name": "Gizo",
+          "latitude": -8.10303,
+          "longitude": 156.84186,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4787,
+      "name": "Rennell and Bellona",
+      "stateCode": "RB",
+      "latitude": -11.6131435,
+      "longitude": 160.1693949,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

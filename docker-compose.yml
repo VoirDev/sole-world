@@ -1,0 +1,51 @@
+name: sole-world
+
+services:
+  sole-world-api:
+    image: ${API_IMAGE:-ghcr.io/voirdev/sole-world-api:latest}
+    container_name: sole-world-api
+    restart: no
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "${API_PORT:-18080}:8080"
+    networks:
+      - backend
+    environment:
+      SERVER_PORT: 8080
+
+      DATASOURCE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-sole_world}
+      DATASOURCE_USERNAME: ${POSTGRES_USER:-sole_world}
+      DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD:-sole_world}
+
+      SUPER_ADMIN_USERNAME: ${SUPER_ADMIN_USERNAME:-admin}
+      SUPER_ADMIN_PASSWORD: ${SUPER_ADMIN_PASSWORD:-admin}
+
+      ACCESS_KEY_HASH_SECRET: ${ACCESS_KEY_HASH_SECRET:-local-dev-access-key-secret}
+
+  postgres:
+    image: postgres:17-alpine
+    container_name: sole-world-postgres
+    restart: unless-stopped
+    ports:
+      - "${POSTGRES_PORT:-15432}:5432"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-sole_world}
+      POSTGRES_USER: ${POSTGRES_USER:-sole_world}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-sole_world}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - backend
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  backend: {}
+
+volumes:
+  postgres-data:

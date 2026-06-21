@@ -1,0 +1,92 @@
+{
+  "id": 138,
+  "name": "Martinique",
+  "nativeName": "Martinique",
+  "iso2": "MQ",
+  "iso3": "MTQ",
+  "numericCode": "474",
+  "phoneCode": "596",
+  "tld": ".mq",
+  "latitude": 14.666667,
+  "longitude": -61,
+  "flagId": 101,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2455
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "마르티니크"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Martinica"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Martinica"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Martinique"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Martinique"
+    },
+    {
+      "languageCode": "fa",
+      "name": "مونتسرات"
+    },
+    {
+      "languageCode": "de",
+      "name": "Martinique"
+    },
+    {
+      "languageCode": "es",
+      "name": "Martinica"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Martinique"
+    },
+    {
+      "languageCode": "ja",
+      "name": "マルティニーク"
+    },
+    {
+      "languageCode": "it",
+      "name": "Martinica"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "马提尼克岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Martinik"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Мартиника"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Мартініка"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Martynika"
+    }
+  ],
+  "states": []
+}

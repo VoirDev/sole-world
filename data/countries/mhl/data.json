@@ -1,0 +1,114 @@
+{
+  "id": 137,
+  "name": "Marshall Islands",
+  "nativeName": "M̧ajeļ",
+  "iso2": "MH",
+  "iso3": "MHL",
+  "numericCode": "584",
+  "phoneCode": "692",
+  "tld": ".mh",
+  "latitude": 9,
+  "longitude": 168,
+  "flagId": 108,
+  "regionId": 5,
+  "subregionId": 21,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2453,
+    2454
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "마셜 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Marshall"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Marshall"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Marshalleilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Maršalovi Otoci"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر مارشال"
+    },
+    {
+      "languageCode": "de",
+      "name": "Marshallinseln"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Marshall"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Marshall"
+    },
+    {
+      "languageCode": "ja",
+      "name": "マーシャル諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Marshall"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "马绍尔群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Marşal Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Маршалловы острова"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Маршаллові острови"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Marshalla"
+    }
+  ],
+  "states": [
+    {
+      "id": 2573,
+      "name": "Ratak",
+      "stateCode": "T",
+      "latitude": 10.2763276,
+      "longitude": 170.5500937,
+      "type": "chain",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2574,
+      "name": "Ralik",
+      "stateCode": "L",
+      "latitude": 8.136146,
+      "longitude": 164.8867956,
+      "type": "chain",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

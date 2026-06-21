@@ -1,0 +1,291 @@
+{
+  "id": 125,
+  "name": "Liechtenstein",
+  "nativeName": "Liechtenstein",
+  "iso2": "LI",
+  "iso3": "LIE",
+  "numericCode": "438",
+  "phoneCode": "423",
+  "tld": ".li",
+  "latitude": 47.26666666,
+  "longitude": 9.53333333,
+  "flagId": 122,
+  "regionId": 4,
+  "subregionId": 17,
+  "currencyIds": [
+    915
+  ],
+  "timezoneIds": [
+    2441
+  ],
+  "officialLanguageIds": [
+    34
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "리히텐슈타인"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Liechtenstein"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Listenstaine"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Liechtenstein"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Lihtenštajn"
+    },
+    {
+      "languageCode": "fa",
+      "name": "لیختن‌اشتاین"
+    },
+    {
+      "languageCode": "de",
+      "name": "Liechtenstein"
+    },
+    {
+      "languageCode": "es",
+      "name": "Liechtenstein"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Liechtenstein"
+    },
+    {
+      "languageCode": "ja",
+      "name": "リヒテンシュタイン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Liechtenstein"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "列支敦士登"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Lihtenştayn"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Лихтенштейн"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Ліхтенштейн"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Liechtenstein"
+    }
+  ],
+  "states": [
+    {
+      "id": 449,
+      "name": "Schellenberg",
+      "stateCode": "08",
+      "latitude": 47.230966,
+      "longitude": 9.5467843,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66444,
+          "name": "Schellenberg",
+          "latitude": 47.23123,
+          "longitude": 9.54678,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 450,
+      "name": "Schaan",
+      "stateCode": "07",
+      "latitude": 47.120434,
+      "longitude": 9.5941602,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66443,
+          "name": "Schaan",
+          "latitude": 47.16498,
+          "longitude": 9.50867,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 451,
+      "name": "Eschen",
+      "stateCode": "02",
+      "latitude": 40.7669574,
+      "longitude": -73.9522821,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66438,
+          "name": "Eschen",
+          "latitude": 47.21071,
+          "longitude": 9.52223,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "name": "Vaduz",
+      "stateCode": "11",
+      "latitude": 47.1410303,
+      "longitude": 9.5209277,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66447,
+          "name": "Vaduz",
+          "latitude": 47.14151,
+          "longitude": 9.52154,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 453,
+      "name": "Ruggell",
+      "stateCode": "06",
+      "latitude": 47.2529222,
+      "longitude": 9.5402127,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66442,
+          "name": "Ruggell",
+          "latitude": 47.23799,
+          "longitude": 9.5254,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 454,
+      "name": "Planken",
+      "stateCode": "05",
+      "latitude": 40.6650576,
+      "longitude": -73.504798,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66441,
+          "name": "Planken",
+          "latitude": 47.18516,
+          "longitude": 9.54437,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 455,
+      "name": "Mauren",
+      "stateCode": "04",
+      "latitude": 47.2189285,
+      "longitude": 9.541735,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66440,
+          "name": "Mauren",
+          "latitude": 47.21805,
+          "longitude": 9.5442,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 456,
+      "name": "Triesenberg",
+      "stateCode": "10",
+      "latitude": 47.1224511,
+      "longitude": 9.5701985,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66446,
+          "name": "Triesenberg",
+          "latitude": 47.11815,
+          "longitude": 9.54197,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 457,
+      "name": "Gamprin",
+      "stateCode": "03",
+      "latitude": 47.213249,
+      "longitude": 9.5025195,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66439,
+          "name": "Gamprin",
+          "latitude": 47.22038,
+          "longitude": 9.50935,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 458,
+      "name": "Balzers",
+      "stateCode": "01",
+      "latitude": 42.0528357,
+      "longitude": -88.0366848,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66437,
+          "name": "Balzers",
+          "latitude": 47.06665,
+          "longitude": 9.50251,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 459,
+      "name": "Triesen",
+      "stateCode": "09",
+      "latitude": 47.1097988,
+      "longitude": 9.5248296,
+      "type": "commune",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66445,
+          "name": "Triesen",
+          "latitude": 47.10752,
+          "longitude": 9.52815,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

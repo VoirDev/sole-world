@@ -1,0 +1,1098 @@
+{
+  "id": 1,
+  "name": "Afghanistan",
+  "nativeName": "افغانستان",
+  "iso2": "AF",
+  "iso3": "AFG",
+  "numericCode": "004",
+  "phoneCode": "93",
+  "tld": ".af",
+  "latitude": 33,
+  "longitude": 65,
+  "flagId": 245,
+  "regionId": 3,
+  "subregionId": 14,
+  "currencyIds": [
+    834
+  ],
+  "timezoneIds": [
+    2234
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "아프가니스탄"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Afeganistão"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Afeganistão"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Afghanistan"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Afganistan"
+    },
+    {
+      "languageCode": "fa",
+      "name": "افغانستان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Afghanistan"
+    },
+    {
+      "languageCode": "es",
+      "name": "Afganistán"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Afghanistan"
+    },
+    {
+      "languageCode": "ja",
+      "name": "アフガニスタン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Afghanistan"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "阿富汗"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Afganistan"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Афганистан"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Афганістан"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Afganistan"
+    }
+  ],
+  "states": [
+    {
+      "id": 3870,
+      "name": "Ghazni",
+      "stateCode": "GHA",
+      "latitude": 33.5450587,
+      "longitude": 68.4173972,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 71,
+          "name": "Ghazni",
+          "latitude": 33.55391,
+          "longitude": 68.42096,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3871,
+      "name": "Badghis",
+      "stateCode": "BDG",
+      "latitude": 35.1671339,
+      "longitude": 63.7695384,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 72,
+          "name": "Ghormach",
+          "latitude": 35.73062,
+          "longitude": 63.78264,
+          "translations": []
+        },
+        {
+          "id": 108,
+          "name": "Qala i Naw",
+          "latitude": 34.98735,
+          "longitude": 63.12891,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3872,
+      "name": "Bamyan",
+      "stateCode": "BAM",
+      "latitude": 34.8100067,
+      "longitude": 67.8212104,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 57,
+          "name": "Bāmyān",
+          "latitude": 34.82156,
+          "longitude": 67.82734,
+          "translations": []
+        },
+        {
+          "id": 104,
+          "name": "Panjāb",
+          "latitude": 34.38795,
+          "longitude": 67.02327,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3873,
+      "name": "Helmand",
+      "stateCode": "HEL",
+      "latitude": 39.2989361,
+      "longitude": -76.6160472,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 70,
+          "name": "Gereshk",
+          "latitude": 31.82089,
+          "longitude": 64.57005,
+          "translations": []
+        },
+        {
+          "id": 93,
+          "name": "Lashkar Gāh",
+          "latitude": 31.59382,
+          "longitude": 64.37161,
+          "translations": []
+        },
+        {
+          "id": 95,
+          "name": "Markaz-e Ḩukūmat-e Darwēshān",
+          "latitude": 31.13231,
+          "longitude": 64.1934,
+          "translations": []
+        },
+        {
+          "id": 118,
+          "name": "Sangīn",
+          "latitude": 32.07275,
+          "longitude": 64.8359,
+          "translations": []
+        },
+        {
+          "id": 141,
+          "name": "‘Alāqahdārī Dīshū",
+          "latitude": 30.43206,
+          "longitude": 63.29802,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3874,
+      "name": "Zabul",
+      "stateCode": "ZAB",
+      "latitude": 32.1918782,
+      "longitude": 67.1894488,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109,
+          "name": "Qalāt",
+          "latitude": 32.10575,
+          "longitude": 66.90833,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3875,
+      "name": "Baghlan",
+      "stateCode": "BGL",
+      "latitude": 36.1789026,
+      "longitude": 68.7453064,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 54,
+          "name": "Baghlān",
+          "latitude": 36.13068,
+          "longitude": 68.70829,
+          "translations": []
+        },
+        {
+          "id": 101,
+          "name": "Nahrīn",
+          "latitude": 36.0649,
+          "longitude": 69.13343,
+          "translations": []
+        },
+        {
+          "id": 105,
+          "name": "Pul-e Khumrī",
+          "latitude": 35.94458,
+          "longitude": 68.71512,
+          "translations": []
+        },
+        {
+          "id": 140,
+          "name": "Ḩukūmatī Dahanah-ye Ghōrī",
+          "latitude": 35.90617,
+          "longitude": 68.48869,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3876,
+      "name": "Kunar",
+      "stateCode": "KNR",
+      "latitude": 34.8465893,
+      "longitude": 71.097317,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 51,
+          "name": "Asadabad",
+          "latitude": 34.87311,
+          "longitude": 71.14697,
+          "translations": []
+        },
+        {
+          "id": 138,
+          "name": "Āsmār",
+          "latitude": 35.03333,
+          "longitude": 71.35809,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3877,
+      "name": "Paktika",
+      "stateCode": "PKA",
+      "latitude": 32.2645386,
+      "longitude": 68.5247149,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 120,
+          "name": "Saṟōbī",
+          "latitude": 32.75221,
+          "longitude": 69.04587,
+          "translations": []
+        },
+        {
+          "id": 133,
+          "name": "Zarghūn Shahr",
+          "latitude": 32.84734,
+          "longitude": 68.44573,
+          "translations": []
+        },
+        {
+          "id": 134,
+          "name": "Zaṟah Sharan",
+          "latitude": 33.14641,
+          "longitude": 68.79213,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3878,
+      "name": "Khost",
+      "stateCode": "KHO",
+      "latitude": 33.3338472,
+      "longitude": 69.9371673,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 87,
+          "name": "Khōst",
+          "latitude": 33.33951,
+          "longitude": 69.92041,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3879,
+      "name": "Kapisa",
+      "stateCode": "KAP",
+      "latitude": 34.9810572,
+      "longitude": 69.6214562,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 124,
+          "name": "Sidqābād",
+          "latitude": 35.02298,
+          "longitude": 69.35112,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3880,
+      "name": "Nuristan",
+      "stateCode": "NUR",
+      "latitude": 35.3250223,
+      "longitude": 70.9071236,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 107,
+          "name": "Pārūn",
+          "latitude": 35.42064,
+          "longitude": 70.92261,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3881,
+      "name": "Panjshir",
+      "stateCode": "PAN",
+      "latitude": 38.8802391,
+      "longitude": -77.1717238,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 59,
+          "name": "Bāzārak",
+          "latitude": 35.31292,
+          "longitude": 69.51519,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3882,
+      "name": "Nangarhar",
+      "stateCode": "NAN",
+      "latitude": 34.1718313,
+      "longitude": 70.6216794,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 58,
+          "name": "Bāsawul",
+          "latitude": 34.24749,
+          "longitude": 70.87218,
+          "translations": []
+        },
+        {
+          "id": 77,
+          "name": "Jalālābād",
+          "latitude": 34.42647,
+          "longitude": 70.45153,
+          "translations": []
+        },
+        {
+          "id": 94,
+          "name": "Markaz-e Woluswalī-ye Āchīn",
+          "latitude": 34.12583,
+          "longitude": 70.70778,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3883,
+      "name": "Samangan",
+      "stateCode": "SAM",
+      "latitude": 36.3155506,
+      "longitude": 67.9642863,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53,
+          "name": "Aībak",
+          "latitude": 36.26468,
+          "longitude": 68.01551,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3884,
+      "name": "Balkh",
+      "stateCode": "BAL",
+      "latitude": 36.7550603,
+      "longitude": 66.8975372,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 55,
+          "name": "Balkh",
+          "latitude": 36.75635,
+          "longitude": 66.8972,
+          "translations": []
+        },
+        {
+          "id": 65,
+          "name": "Dowlatābād",
+          "latitude": 36.98821,
+          "longitude": 66.82069,
+          "translations": []
+        },
+        {
+          "id": 85,
+          "name": "Khulm",
+          "latitude": 36.69736,
+          "longitude": 67.69826,
+          "translations": []
+        },
+        {
+          "id": 91,
+          "name": "Lab-Sar",
+          "latitude": 36.02634,
+          "longitude": 66.83799,
+          "translations": []
+        },
+        {
+          "id": 97,
+          "name": "Mazār-e Sharīf",
+          "latitude": 36.70904,
+          "longitude": 67.11087,
+          "translations": []
+        },
+        {
+          "id": 112,
+          "name": "Qarchī Gak",
+          "latitude": 37.03999,
+          "longitude": 66.78891,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3885,
+      "name": "Sar-e Pol",
+      "stateCode": "SAR",
+      "latitude": 36.216628,
+      "longitude": 65.93336,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 62,
+          "name": "Chīras",
+          "latitude": 35.41674,
+          "longitude": 65.98234,
+          "translations": []
+        },
+        {
+          "id": 92,
+          "name": "Larkird",
+          "latitude": 35.48936,
+          "longitude": 66.66409,
+          "translations": []
+        },
+        {
+          "id": 110,
+          "name": "Qal‘ah-ye Shahr",
+          "latitude": 35.54729,
+          "longitude": 65.5676,
+          "translations": []
+        },
+        {
+          "id": 117,
+          "name": "Sang-e Chārak",
+          "latitude": 35.84972,
+          "longitude": 66.43694,
+          "translations": []
+        },
+        {
+          "id": 119,
+          "name": "Sar-e Pul",
+          "latitude": 36.21544,
+          "longitude": 65.93249,
+          "translations": []
+        },
+        {
+          "id": 125,
+          "name": "Tagāw-Bāy",
+          "latitude": 35.69941,
+          "longitude": 66.06164,
+          "translations": []
+        },
+        {
+          "id": 128,
+          "name": "Tukzār",
+          "latitude": 35.94831,
+          "longitude": 66.42132,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3886,
+      "name": "Jowzjan",
+      "stateCode": "JOW",
+      "latitude": 36.8969692,
+      "longitude": 65.6658568,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 63,
+          "name": "Darzāb",
+          "latitude": 35.97744,
+          "longitude": 65.37828,
+          "translations": []
+        },
+        {
+          "id": 113,
+          "name": "Qarqīn",
+          "latitude": 37.41853,
+          "longitude": 66.04358,
+          "translations": []
+        },
+        {
+          "id": 122,
+          "name": "Shibirghān",
+          "latitude": 36.66757,
+          "longitude": 65.7529,
+          "translations": []
+        },
+        {
+          "id": 136,
+          "name": "Āqchah",
+          "latitude": 36.905,
+          "longitude": 66.18341,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3887,
+      "name": "Herat",
+      "stateCode": "HER",
+      "latitude": 34.352865,
+      "longitude": 62.2040287,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 60,
+          "name": "Chahār Burj",
+          "latitude": 34.24475,
+          "longitude": 62.19165,
+          "translations": []
+        },
+        {
+          "id": 73,
+          "name": "Ghōriyān",
+          "latitude": 34.3448,
+          "longitude": 61.49321,
+          "translations": []
+        },
+        {
+          "id": 74,
+          "name": "Herāt",
+          "latitude": 34.34817,
+          "longitude": 62.19967,
+          "translations": []
+        },
+        {
+          "id": 80,
+          "name": "Kafir Qala",
+          "latitude": 34.66667,
+          "longitude": 61.06667,
+          "translations": []
+        },
+        {
+          "id": 82,
+          "name": "Karukh",
+          "latitude": 34.48108,
+          "longitude": 62.5863,
+          "translations": []
+        },
+        {
+          "id": 88,
+          "name": "Kuhsān",
+          "latitude": 34.65389,
+          "longitude": 61.19778,
+          "translations": []
+        },
+        {
+          "id": 90,
+          "name": "Kushk",
+          "latitude": 33.29565,
+          "longitude": 61.95221,
+          "translations": []
+        },
+        {
+          "id": 111,
+          "name": "Qarah Bāgh",
+          "latitude": 34.94023,
+          "longitude": 61.77589,
+          "translations": []
+        },
+        {
+          "id": 123,
+          "name": "Shīnḏanḏ",
+          "latitude": 33.30294,
+          "longitude": 62.1474,
+          "translations": []
+        },
+        {
+          "id": 129,
+          "name": "Tīr Pul",
+          "latitude": 34.59431,
+          "longitude": 61.26895,
+          "translations": []
+        },
+        {
+          "id": 135,
+          "name": "Zindah Jān",
+          "latitude": 34.34264,
+          "longitude": 61.74675,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3888,
+      "name": "Ghōr",
+      "stateCode": "GHO",
+      "latitude": 34.0995776,
+      "longitude": 64.905955,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67,
+          "name": "Fayrōz Kōh",
+          "latitude": 34.51952,
+          "longitude": 65.25093,
+          "translations": []
+        },
+        {
+          "id": 121,
+          "name": "Shahrak",
+          "latitude": 34.10737,
+          "longitude": 64.3052,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3889,
+      "name": "Faryab",
+      "stateCode": "FYB",
+      "latitude": 36.0795613,
+      "longitude": 64.905955,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 50,
+          "name": "Andkhoy",
+          "latitude": 36.95293,
+          "longitude": 65.12376,
+          "translations": []
+        },
+        {
+          "id": 96,
+          "name": "Maymana",
+          "latitude": 35.92139,
+          "longitude": 64.78361,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3890,
+      "name": "Kandahar",
+      "stateCode": "KAN",
+      "latitude": 31.628871,
+      "longitude": 65.7371749,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 81,
+          "name": "Kandahār",
+          "latitude": 31.61332,
+          "longitude": 65.71013,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3891,
+      "name": "Laghman",
+      "stateCode": "LAG",
+      "latitude": 34.6897687,
+      "longitude": 70.1455805,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 98,
+          "name": "Mehtar Lām",
+          "latitude": 34.67139,
+          "longitude": 70.20944,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3892,
+      "name": "Daykundi",
+      "stateCode": "DAY",
+      "latitude": 33.669495,
+      "longitude": 66.0463534,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 102,
+          "name": "Nīlī",
+          "latitude": 33.76329,
+          "longitude": 66.07617,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3893,
+      "name": "Takhar",
+      "stateCode": "TAK",
+      "latitude": 36.6698013,
+      "longitude": 69.4784541,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 126,
+          "name": "Taloqan",
+          "latitude": 36.73605,
+          "longitude": 69.53451,
+          "translations": []
+        },
+        {
+          "id": 137,
+          "name": "Ārt Khwājah",
+          "latitude": 37.08571,
+          "longitude": 69.47958,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3894,
+      "name": "Paktia",
+      "stateCode": "PIA",
+      "latitude": 33.706199,
+      "longitude": 69.3831079,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 69,
+          "name": "Gardez",
+          "latitude": 33.59744,
+          "longitude": 69.22592,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3895,
+      "name": "Parwan",
+      "stateCode": "PAR",
+      "latitude": 34.9630977,
+      "longitude": 68.8108849,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 61,
+          "name": "Charikar",
+          "latitude": 35.01361,
+          "longitude": 69.17139,
+          "translations": []
+        },
+        {
+          "id": 76,
+          "name": "Jabal os Saraj",
+          "latitude": 35.11833,
+          "longitude": 69.23778,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3896,
+      "name": "Nimruz",
+      "stateCode": "NIM",
+      "latitude": 31.0261488,
+      "longitude": 62.4504154,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 86,
+          "name": "Khāsh",
+          "latitude": 31.52919,
+          "longitude": 62.79055,
+          "translations": []
+        },
+        {
+          "id": 100,
+          "name": "Mīrābād",
+          "latitude": 30.43624,
+          "longitude": 61.8383,
+          "translations": []
+        },
+        {
+          "id": 116,
+          "name": "Rūdbār",
+          "latitude": 30.15,
+          "longitude": 62.6,
+          "translations": []
+        },
+        {
+          "id": 132,
+          "name": "Zaranj",
+          "latitude": 30.95962,
+          "longitude": 61.86037,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3897,
+      "name": "Logar",
+      "stateCode": "LOG",
+      "latitude": 34.0145518,
+      "longitude": 69.1923916,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56,
+          "name": "Baraki Barak",
+          "latitude": 33.96744,
+          "longitude": 68.9492,
+          "translations": []
+        },
+        {
+          "id": 106,
+          "name": "Pul-e ‘Alam",
+          "latitude": 33.99529,
+          "longitude": 69.02274,
+          "translations": []
+        },
+        {
+          "id": 139,
+          "name": "Ḩukūmatī Azrah",
+          "latitude": 34.17355,
+          "longitude": 69.64573,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3898,
+      "name": "Urozgan",
+      "stateCode": "URU",
+      "latitude": 32.9271287,
+      "longitude": 66.1415263,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 127,
+          "name": "Tarinkot",
+          "latitude": 32.62998,
+          "longitude": 65.87806,
+          "translations": []
+        },
+        {
+          "id": 130,
+          "name": "Uruzgān",
+          "latitude": 32.92775,
+          "longitude": 66.63253,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3899,
+      "name": "Farah",
+      "stateCode": "FRA",
+      "latitude": 32.495328,
+      "longitude": 62.2626627,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66,
+          "name": "Farah",
+          "latitude": 32.37451,
+          "longitude": 62.11638,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3900,
+      "name": "Kunduz Province",
+      "stateCode": "KDZ",
+      "latitude": 36.7285511,
+      "longitude": 68.8678982,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64,
+          "name": "Dasht-e Archī",
+          "latitude": 37.13333,
+          "longitude": 69.16667,
+          "translations": []
+        },
+        {
+          "id": 75,
+          "name": "Imām Şāḩib",
+          "latitude": 37.18897,
+          "longitude": 68.93644,
+          "translations": []
+        },
+        {
+          "id": 83,
+          "name": "Khanabad",
+          "latitude": 36.6825,
+          "longitude": 69.11556,
+          "translations": []
+        },
+        {
+          "id": 89,
+          "name": "Kunduz",
+          "latitude": 36.72895,
+          "longitude": 68.857,
+          "translations": []
+        },
+        {
+          "id": 114,
+          "name": "Qarāwul",
+          "latitude": 37.21959,
+          "longitude": 68.7802,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3901,
+      "name": "Badakhshan",
+      "stateCode": "BDS",
+      "latitude": 36.7347725,
+      "longitude": 70.8119953,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52,
+          "name": "Ashkāsham",
+          "latitude": 36.68333,
+          "longitude": 71.53333,
+          "translations": []
+        },
+        {
+          "id": 68,
+          "name": "Fayzabad",
+          "latitude": 37.11664,
+          "longitude": 70.58002,
+          "translations": []
+        },
+        {
+          "id": 78,
+          "name": "Jurm",
+          "latitude": 36.86477,
+          "longitude": 70.83421,
+          "translations": []
+        },
+        {
+          "id": 84,
+          "name": "Khandūd",
+          "latitude": 36.95127,
+          "longitude": 72.318,
+          "translations": []
+        },
+        {
+          "id": 115,
+          "name": "Rāghistān",
+          "latitude": 37.66079,
+          "longitude": 70.67346,
+          "translations": []
+        },
+        {
+          "id": 131,
+          "name": "Wākhān",
+          "latitude": 37.0571,
+          "longitude": 73.34928,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3902,
+      "name": "Kabul",
+      "stateCode": "KAB",
+      "latitude": 34.5553494,
+      "longitude": 69.207486,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79,
+          "name": "Kabul",
+          "latitude": 34.52813,
+          "longitude": 69.17233,
+          "translations": []
+        },
+        {
+          "id": 99,
+          "name": "Mīr Bachah Kōṯ",
+          "latitude": 34.74999,
+          "longitude": 69.11899,
+          "translations": []
+        },
+        {
+          "id": 103,
+          "name": "Paghmān",
+          "latitude": 34.58787,
+          "longitude": 68.95091,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

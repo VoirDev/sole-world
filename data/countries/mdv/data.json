@@ -1,0 +1,507 @@
+{
+  "id": 133,
+  "name": "Maldives",
+  "nativeName": "Maldives",
+  "iso2": "MV",
+  "iso3": "MDV",
+  "numericCode": "462",
+  "phoneCode": "960",
+  "tld": ".mv",
+  "latitude": 3.25,
+  "longitude": 73,
+  "flagId": 96,
+  "regionId": 3,
+  "subregionId": 14,
+  "currencyIds": [
+    920
+  ],
+  "timezoneIds": [
+    2449
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [
+    30
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "몰디브"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Maldivas"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Maldivas"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Maldiven"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Maldivi"
+    },
+    {
+      "languageCode": "fa",
+      "name": "مالدیو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Malediven"
+    },
+    {
+      "languageCode": "es",
+      "name": "Maldivas"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Maldives"
+    },
+    {
+      "languageCode": "ja",
+      "name": "モルディブ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Maldive"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "马尔代夫"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Maldivler"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Мальдивы"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Мальдіви"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Malediwy"
+    }
+  ],
+  "states": [
+    {
+      "id": 2584,
+      "name": "Vaavu",
+      "stateCode": "04",
+      "latitude": 3.3955438,
+      "longitude": 73.5122928,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67924,
+          "name": "Felidhoo",
+          "latitude": 3.47182,
+          "longitude": 73.54699,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2585,
+      "name": "Shaviyani",
+      "stateCode": "24",
+      "latitude": 6.17511,
+      "longitude": 73.1349605,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67926,
+          "name": "Funadhoo",
+          "latitude": 6.15091,
+          "longitude": 73.29013,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2586,
+      "name": "Haa Alif",
+      "stateCode": "07",
+      "latitude": 6.9903488,
+      "longitude": 72.9460566,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67923,
+          "name": "Dhidhdhoo",
+          "latitude": 6.88744,
+          "longitude": 73.11402,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2587,
+      "name": "Alif Alif",
+      "stateCode": "02",
+      "latitude": 4.085,
+      "longitude": 72.8515479,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2589,
+      "name": "North Central",
+      "stateCode": "NC",
+      "latitude": null,
+      "longitude": null,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2590,
+      "name": "Dhaalu",
+      "stateCode": "17",
+      "latitude": 2.8468502,
+      "longitude": 72.9460566,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67931,
+          "name": "Kudahuvadhoo",
+          "latitude": 2.67075,
+          "longitude": 72.89437,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2591,
+      "name": "Thaa",
+      "stateCode": "08",
+      "latitude": 2.4311161,
+      "longitude": 73.1821623,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67942,
+          "name": "Veymandoo",
+          "latitude": 2.18772,
+          "longitude": 73.09556,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2592,
+      "name": "Noonu",
+      "stateCode": "25",
+      "latitude": 5.8551276,
+      "longitude": 73.323708,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67936,
+          "name": "Manadhoo",
+          "latitude": 5.76687,
+          "longitude": 73.4136,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2593,
+      "name": "Upper South",
+      "stateCode": "US",
+      "latitude": 0.2307,
+      "longitude": 73.2794846,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2594,
+      "name": "Addu",
+      "stateCode": "01",
+      "latitude": -0.6300995,
+      "longitude": 73.1585626,
+      "type": "city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67929,
+          "name": "Hithadhoo",
+          "latitude": -0.6,
+          "longitude": 73.08333,
+          "translations": []
+        },
+        {
+          "id": 67937,
+          "name": "Meedhoo",
+          "latitude": -0.58333,
+          "longitude": 73.23333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2595,
+      "name": "Gnaviyani",
+      "stateCode": "29",
+      "latitude": -0.3006425,
+      "longitude": 73.4239143,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67927,
+          "name": "Fuvahmulah",
+          "latitude": -0.29878,
+          "longitude": 73.42403,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2596,
+      "name": "Kaafu",
+      "stateCode": "26",
+      "latitude": 4.4558979,
+      "longitude": 73.5594128,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67928,
+          "name": "Guraidhoo",
+          "latitude": 3.90045,
+          "longitude": 73.46623,
+          "translations": []
+        },
+        {
+          "id": 67930,
+          "name": "Hulhumale",
+          "latitude": 4.21169,
+          "longitude": 73.54008,
+          "translations": []
+        },
+        {
+          "id": 67933,
+          "name": "Maafushi",
+          "latitude": 3.94231,
+          "longitude": 73.4907,
+          "translations": []
+        },
+        {
+          "id": 67935,
+          "name": "Male",
+          "latitude": 4.17521,
+          "longitude": 73.50916,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2597,
+      "name": "Haa Dhaalu",
+      "stateCode": "23",
+      "latitude": 6.5782717,
+      "longitude": 72.9460566,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67932,
+          "name": "Kulhudhuffushi",
+          "latitude": 6.62207,
+          "longitude": 73.06998,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2598,
+      "name": "Gaafu Alif",
+      "stateCode": "27",
+      "latitude": 0.6124813,
+      "longitude": 73.323708,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67943,
+          "name": "Viligili",
+          "latitude": 0.75906,
+          "longitude": 73.43296,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2599,
+      "name": "Faafu",
+      "stateCode": "14",
+      "latitude": 3.2309409,
+      "longitude": 72.9460566,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2600,
+      "name": "Alif Dhaal",
+      "stateCode": "00",
+      "latitude": 3.6543302,
+      "longitude": 72.8042797,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2601,
+      "name": "Laamu",
+      "stateCode": "05",
+      "latitude": 1.9430737,
+      "longitude": 73.4180211,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67925,
+          "name": "Fonadhoo",
+          "latitude": 1.83243,
+          "longitude": 73.50257,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2602,
+      "name": "Raa",
+      "stateCode": "13",
+      "latitude": 5.6006457,
+      "longitude": 72.9460566,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67941,
+          "name": "Ugoofaaru",
+          "latitude": 5.66812,
+          "longitude": 73.03017,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2603,
+      "name": "Gaafu Dhaalu",
+      "stateCode": "28",
+      "latitude": 0.358804,
+      "longitude": 73.1821623,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67940,
+          "name": "Thinadhoo",
+          "latitude": 0.5306,
+          "longitude": 72.99969,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2604,
+      "name": "Central",
+      "stateCode": "CE",
+      "latitude": null,
+      "longitude": null,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2605,
+      "name": "South",
+      "stateCode": "SU",
+      "latitude": -21.7482006,
+      "longitude": 166.1783739,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2606,
+      "name": "South Central",
+      "stateCode": "SC",
+      "latitude": 7.2564996,
+      "longitude": 80.7214417,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67934,
+          "name": "Mahibadhoo",
+          "latitude": 3.75713,
+          "longitude": 72.96893,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2607,
+      "name": "Lhaviyani",
+      "stateCode": "03",
+      "latitude": 5.3747021,
+      "longitude": 73.5122928,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67939,
+          "name": "Naifaru",
+          "latitude": 5.44438,
+          "longitude": 73.36571,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2608,
+      "name": "Meemu",
+      "stateCode": "12",
+      "latitude": 3.0090345,
+      "longitude": 73.5122928,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67938,
+          "name": "Muli",
+          "latitude": 2.91667,
+          "longitude": 73.56667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2609,
+      "name": "Malé",
+      "stateCode": "MLE",
+      "latitude": 46.3488867,
+      "longitude": 10.9072489,
+      "type": "administrative atoll",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

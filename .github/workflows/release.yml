@@ -1,0 +1,336 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release version. Leave empty to bump the root Gradle patch version."
+        required: false
+        type: string
+      skip_verify_checks:
+        description: "Skip the regular Verify workflow on the generated release PR."
+        default: true
+        required: false
+        type: boolean
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - closed
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    name: Prepare release PR
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Resolve release version
+        id: version
+        shell: bash
+        env:
+          REQUESTED_VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+
+          requested_version="$REQUESTED_VERSION"
+          current_version="$(sed -nE 's/^val projectVersion = providers\.gradleProperty\("releaseVersion"\)\.orElse\("([^"]+)"\)\.get\(\)$/\1/p' build.gradle.kts)"
+
+          if [ -z "$current_version" ]; then
+            echo "Could not read root Gradle version from build.gradle.kts" >&2
+            exit 1
+          fi
+
+          if [ -n "$requested_version" ]; then
+            if ! [[ "$requested_version" =~ ^[0-9]+[.][0-9]+[.][0-9]+([.-][0-9A-Za-z.]+)?$ ]]; then
+              echo "Release version must be a Docker-tag-safe semantic version, found: $requested_version" >&2
+              exit 1
+            fi
+            release_version="$requested_version"
+          else
+            IFS=. read -r major minor patch <<< "$current_version"
+            if [ -z "${major:-}" ] || [ -z "${minor:-}" ] || [ -z "${patch:-}" ] || ! [[ "$major" =~ ^[0-9]+$ ]] || ! [[ "$minor" =~ ^[0-9]+$ ]] || ! [[ "$patch" =~ ^[0-9]+$ ]]; then
+              echo "Automatic version bump requires a numeric MAJOR.MINOR.PATCH version, found: $current_version" >&2
+              exit 1
+            fi
+            release_version="$major.$minor.$((patch + 1))"
+          fi
+
+          sed -i -E "s/orElse\\(\"[^\"]+\"\\)/orElse(\"$release_version\")/" build.gradle.kts
+
+          echo "release_version=$release_version" >> "$GITHUB_OUTPUT"
+          echo "branch=release/v$release_version" >> "$GITHUB_OUTPUT"
+
+      - name: Create release pull request
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.RELEASE_BOT_TOKEN }}
+          RELEASE_VERSION: ${{ steps.version.outputs.release_version }}
+          RELEASE_BRANCH: ${{ steps.version.outputs.branch }}
+          SKIP_VERIFY_CHECKS: ${{ inputs.skip_verify_checks }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "RELEASE_BOT_TOKEN is required so the release PR can trigger validation workflows." >&2
+            exit 1
+          fi
+
+          if git rev-parse "v$RELEASE_VERSION" >/dev/null 2>&1; then
+            echo "Release tag already exists: v$RELEASE_VERSION" >&2
+            exit 1
+          fi
+
+          gh repo view "$GITHUB_REPOSITORY" >/dev/null
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          if git ls-remote --exit-code --heads origin "$RELEASE_BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$RELEASE_BRANCH"
+            git checkout "$RELEASE_BRANCH"
+          else
+            git checkout -b "$RELEASE_BRANCH"
+          fi
+
+          git add build.gradle.kts
+          if git diff --cached --quiet; then
+            echo "Release branch already contains version $RELEASE_VERSION"
+          else
+            git commit -m "Release v$RELEASE_VERSION"
+          fi
+          git push --set-upstream origin "$RELEASE_BRANCH"
+
+          body_file="$(mktemp)"
+          {
+            echo "Prepares release v$RELEASE_VERSION."
+            echo
+            echo "This PR updates the root Gradle release version. Release validation builds the repository and the sole-world-api Docker image before merge."
+            echo
+            echo "After this PR is merged, the release workflow publishes:"
+            echo "- ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api:$RELEASE_VERSION and latest"
+            if [ "$SKIP_VERIFY_CHECKS" = "true" ]; then
+              echo
+              echo "[skip verify]"
+            fi
+          } > "$body_file"
+
+          existing_pr="$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$RELEASE_BRANCH" --base main --json url --jq '.[0].url')"
+          if [ -n "$existing_pr" ]; then
+            echo "Release PR already exists: $existing_pr"
+            gh pr edit "$existing_pr" --body-file "$body_file"
+            exit 0
+          fi
+
+          gh pr create \
+            --repo "$GITHUB_REPOSITORY" \
+            --base main \
+            --head "$RELEASE_BRANCH" \
+            --title "Release v$RELEASE_VERSION" \
+            --body-file "$body_file"
+
+  validate-release-branch:
+    name: Validate release PR
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' && github.event.action != 'closed' && startsWith(github.event.pull_request.head.ref, 'release/v')
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: true
+          cache-cleanup: always
+          gradle-home-cache-includes: |
+            caches/modules-2
+            caches/generated-gradle-jars
+            caches/jars-*
+            caches/kotlin-dsl
+            wrapper/dists
+
+      - name: Read release version
+        id: version
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          release_version="$(sed -nE 's/^val projectVersion = providers\.gradleProperty\("releaseVersion"\)\.orElse\("([^"]+)"\)\.get\(\)$/\1/p' build.gradle.kts)"
+
+          if [ -z "$release_version" ]; then
+            echo "Could not read root Gradle version from build.gradle.kts" >&2
+            exit 1
+          fi
+
+          echo "release_version=$release_version" >> "$GITHUB_OUTPUT"
+          echo "artifact_sha=${{ github.event.pull_request.head.sha }}" >> "$GITHUB_OUTPUT"
+
+      - name: Build repository
+        run: ./gradlew build -PreleaseVersion=${{ steps.version.outputs.release_version }} --no-daemon
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build API image artifact
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: api/Dockerfile
+          push: false
+          tags: sole-world-api:release-${{ steps.version.outputs.release_version }}
+          build-args: |
+            RELEASE_VERSION=${{ steps.version.outputs.release_version }}
+          cache-from: type=gha,scope=sole-world-api
+          cache-to: type=gha,mode=min,scope=sole-world-api
+          outputs: type=docker,dest=/tmp/sole-world-api.tar
+          provenance: false
+          sbom: false
+
+      - name: Upload API image artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sole-world-api-image-${{ steps.version.outputs.release_version }}-${{ steps.version.outputs.artifact_sha }}
+          path: /tmp/sole-world-api.tar
+          if-no-files-found: error
+          retention-days: 3
+
+  publish:
+    name: Publish release
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'release/v')
+    permissions:
+      actions: write
+      contents: write
+      packages: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.base.ref }}
+
+      - name: Resolve release version
+        id: version
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_BRANCH: ${{ github.event.pull_request.head.ref }}
+          RELEASE_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+
+          release_version="$(sed -nE 's/^val projectVersion = providers\.gradleProperty\("releaseVersion"\)\.orElse\("([^"]+)"\)\.get\(\)$/\1/p' build.gradle.kts)"
+
+          if [ -z "$release_version" ]; then
+            echo "Could not read root Gradle version from build.gradle.kts" >&2
+            exit 1
+          fi
+
+          if git rev-parse "v$release_version" >/dev/null 2>&1; then
+            should_publish=false
+            echo "Release tag already exists: v$release_version"
+          else
+            should_publish=true
+          fi
+
+          validation_run="$(gh run list --repo "$GITHUB_REPOSITORY" --workflow release.yml --branch "$RELEASE_BRANCH" --event pull_request --status success --json databaseId,headSha,createdAt --limit 50 | jq --arg head_sha "$RELEASE_HEAD_SHA" 'map(select(.headSha == $head_sha)) | sort_by(.createdAt) | reverse | .[0] // {}')"
+          validation_run_id="$(jq -r '.databaseId // empty' <<< "$validation_run")"
+          validation_head_sha="$(jq -r '.headSha // empty' <<< "$validation_run")"
+
+          if [ "$should_publish" = "true" ] && { [ -z "$validation_run_id" ] || [ "$validation_run_id" = "null" ] || [ -z "$validation_head_sha" ] || [ "$validation_head_sha" = "null" ]; }; then
+            echo "Could not find a successful release branch validation run for $RELEASE_BRANCH" >&2
+            exit 1
+          fi
+
+          echo "release_version=$release_version" >> "$GITHUB_OUTPUT"
+          echo "should_publish=$should_publish" >> "$GITHUB_OUTPUT"
+          echo "validation_run_id=$validation_run_id" >> "$GITHUB_OUTPUT"
+          echo "validation_head_sha=$validation_head_sha" >> "$GITHUB_OUTPUT"
+
+      - name: Download API image artifact
+        if: steps.version.outputs.should_publish == 'true'
+        uses: actions/download-artifact@v4
+        with:
+          name: sole-world-api-image-${{ steps.version.outputs.release_version }}-${{ steps.version.outputs.validation_head_sha }}
+          path: release-artifacts/images
+          run-id: ${{ steps.version.outputs.validation_run_id }}
+          github-token: ${{ github.token }}
+
+      - name: Log in to GitHub Container Registry
+        if: steps.version.outputs.should_publish == 'true'
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Load API image artifact
+        if: steps.version.outputs.should_publish == 'true'
+        run: docker load --input release-artifacts/images/sole-world-api.tar
+
+      - name: Publish API image
+        if: steps.version.outputs.should_publish == 'true'
+        env:
+          RELEASE_VERSION: ${{ steps.version.outputs.release_version }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          image_name="ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api"
+          docker tag "sole-world-api:release-$RELEASE_VERSION" "$image_name:$RELEASE_VERSION"
+          docker tag "sole-world-api:release-$RELEASE_VERSION" "$image_name:latest"
+          docker push "$image_name:$RELEASE_VERSION"
+          docker push "$image_name:latest"
+
+      - name: Create release tag
+        if: steps.version.outputs.should_publish == 'true'
+        run: git tag "v${{ steps.version.outputs.release_version }}"
+
+      - name: Push release tag
+        if: steps.version.outputs.should_publish == 'true'
+        run: git push origin "v${{ steps.version.outputs.release_version }}"
+
+      - name: Delete promoted release artifacts
+        if: steps.version.outputs.should_publish == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VALIDATION_RUN_ID: ${{ steps.version.outputs.validation_run_id }}
+          API_IMAGE_ARTIFACT_NAME: sole-world-api-image-${{ steps.version.outputs.release_version }}-${{ steps.version.outputs.validation_head_sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          gh api "/repos/${GITHUB_REPOSITORY}/actions/runs/${VALIDATION_RUN_ID}/artifacts" \
+            --jq ".artifacts[] | select(.name == \"${API_IMAGE_ARTIFACT_NAME}\") | .id" |
+            while IFS= read -r artifact_id; do
+              gh api --method DELETE "/repos/${GITHUB_REPOSITORY}/actions/artifacts/${artifact_id}"
+            done

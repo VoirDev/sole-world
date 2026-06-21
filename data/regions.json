@@ -1,0 +1,2001 @@
+[
+  {
+    "id": 1,
+    "name": "Africa",
+    "wikiDataId": "Q15",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "name": "아프리카"
+      },
+      {
+        "languageCode": "pt-BR",
+        "name": "África"
+      },
+      {
+        "languageCode": "pt",
+        "name": "África"
+      },
+      {
+        "languageCode": "nl",
+        "name": "Afrika"
+      },
+      {
+        "languageCode": "hr",
+        "name": "Afrika"
+      },
+      {
+        "languageCode": "fa",
+        "name": "افریقا"
+      },
+      {
+        "languageCode": "de",
+        "name": "Afrika"
+      },
+      {
+        "languageCode": "es",
+        "name": "África"
+      },
+      {
+        "languageCode": "fr",
+        "name": "Afrique"
+      },
+      {
+        "languageCode": "ja",
+        "name": "アフリカ"
+      },
+      {
+        "languageCode": "it",
+        "name": "Africa"
+      },
+      {
+        "languageCode": "zh-CN",
+        "name": "非洲"
+      },
+      {
+        "languageCode": "tr",
+        "name": "Afrika"
+      },
+      {
+        "languageCode": "ru",
+        "name": "Африка"
+      },
+      {
+        "languageCode": "uk",
+        "name": "Африка"
+      },
+      {
+        "languageCode": "pl",
+        "name": "Afryka"
+      }
+    ],
+    "subregions": [
+      {
+        "id": 4,
+        "name": "Eastern Africa",
+        "wikiDataId": "Q27407",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "동부 아프리카"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "África Oriental"
+          },
+          {
+            "languageCode": "pt",
+            "name": "África Oriental"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Oost-Afrika"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Istočna Afrika"
+          },
+          {
+            "languageCode": "fa",
+            "name": "شرق افریقا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Ostafrika"
+          },
+          {
+            "languageCode": "es",
+            "name": "África oriental"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Afrique orientale"
+          },
+          {
+            "languageCode": "ja",
+            "name": "東アフリカ"
+          },
+          {
+            "languageCode": "it",
+            "name": "Africa orientale"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "东非"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Doğu Afrika"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Восточная Африка"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Східна Африка"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Afryka Wschodnia"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Middle Africa",
+        "wikiDataId": "Q27433",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "중부 아프리카"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "África Central"
+          },
+          {
+            "languageCode": "pt",
+            "name": "África Central"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Centraal-Afrika"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Središnja Afrika"
+          },
+          {
+            "languageCode": "fa",
+            "name": "مرکز افریقا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Zentralafrika"
+          },
+          {
+            "languageCode": "es",
+            "name": "África central"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Afrique centrale"
+          },
+          {
+            "languageCode": "ja",
+            "name": "中部アフリカ"
+          },
+          {
+            "languageCode": "it",
+            "name": "Africa centrale"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "中非"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Orta Afrika"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Центральная Африка"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Центральна Африка"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Afryka Środkowa"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Northern Africa",
+        "wikiDataId": "Q27381",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "북부 아프리카"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "África Setentrional"
+          },
+          {
+            "languageCode": "pt",
+            "name": "África Setentrional"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Noord-Afrika"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Sjeverna Afrika"
+          },
+          {
+            "languageCode": "fa",
+            "name": "شمال افریقا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Nordafrika"
+          },
+          {
+            "languageCode": "es",
+            "name": "África septentrional"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Afrique septentrionale"
+          },
+          {
+            "languageCode": "ja",
+            "name": "北アフリカ"
+          },
+          {
+            "languageCode": "it",
+            "name": "Nordafrica"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "北非"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Kuzey Afrika"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Северная Африка"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Північна Африка"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Afryka Północna"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Southern Africa",
+        "wikiDataId": "Q27394",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "남부 아프리카"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "África Meridional"
+          },
+          {
+            "languageCode": "pt",
+            "name": "África Meridional"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Zuidelijk Afrika"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Južna Afrika"
+          },
+          {
+            "languageCode": "fa",
+            "name": "جنوب افریقا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Südliches Afrika"
+          },
+          {
+            "languageCode": "es",
+            "name": "África meridional"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Afrique australe"
+          },
+          {
+            "languageCode": "ja",
+            "name": "南部アフリカ"
+          },
+          {
+            "languageCode": "it",
+            "name": "Africa del Sud"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "南部非洲"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Afrika’nın Güneyi"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Южная Африка"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Південноафриканський регіон"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Afryka Południowa"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Western Africa",
+        "wikiDataId": "Q4412",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "서부 아프리카"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "África Ocidental"
+          },
+          {
+            "languageCode": "pt",
+            "name": "África Ocidental"
+          },
+          {
+            "languageCode": "nl",
+            "name": "West-Afrika"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Zapadna Afrika"
+          },
+          {
+            "languageCode": "fa",
+            "name": "غرب افریقا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Westafrika"
+          },
+          {
+            "languageCode": "es",
+            "name": "África occidental"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Afrique occidentale"
+          },
+          {
+            "languageCode": "ja",
+            "name": "西アフリカ"
+          },
+          {
+            "languageCode": "it",
+            "name": "Africa occidentale"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "西非"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Batı Afrika"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Западная Африка"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Західна Африка"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Afryka Zachodnia"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Americas",
+    "wikiDataId": "Q828",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "name": "아메리카 대륙"
+      },
+      {
+        "languageCode": "pt-BR",
+        "name": "Américas"
+      },
+      {
+        "languageCode": "pt",
+        "name": "Américas"
+      },
+      {
+        "languageCode": "nl",
+        "name": "Amerika"
+      },
+      {
+        "languageCode": "hr",
+        "name": "Amerike"
+      },
+      {
+        "languageCode": "fa",
+        "name": "امریکا"
+      },
+      {
+        "languageCode": "de",
+        "name": "Amerika"
+      },
+      {
+        "languageCode": "es",
+        "name": "América"
+      },
+      {
+        "languageCode": "fr",
+        "name": "Amériques"
+      },
+      {
+        "languageCode": "ja",
+        "name": "アメリカ大陸"
+      },
+      {
+        "languageCode": "it",
+        "name": "Americhe"
+      },
+      {
+        "languageCode": "zh-CN",
+        "name": "美洲"
+      },
+      {
+        "languageCode": "tr",
+        "name": "Amerika"
+      },
+      {
+        "languageCode": "ru",
+        "name": "Америка"
+      },
+      {
+        "languageCode": "uk",
+        "name": "Американський регіон"
+      },
+      {
+        "languageCode": "pl",
+        "name": "Ameryka"
+      }
+    ],
+    "subregions": [
+      {
+        "id": 7,
+        "name": "Caribbean",
+        "wikiDataId": "Q664609",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "카리브 제도"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Caribe"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Caribe"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Caribisch gebied"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Karibi"
+          },
+          {
+            "languageCode": "fa",
+            "name": "کارائیب"
+          },
+          {
+            "languageCode": "de",
+            "name": "Karibik"
+          },
+          {
+            "languageCode": "es",
+            "name": "Caribe"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Caraïbes"
+          },
+          {
+            "languageCode": "ja",
+            "name": "カリブ"
+          },
+          {
+            "languageCode": "it",
+            "name": "Caraibi"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "加勒比地区"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Karayipler"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Карибы"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Карибський басейн"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Karaiby"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Central America",
+        "wikiDataId": "Q27611",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "중앙 아메리카"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "América Central"
+          },
+          {
+            "languageCode": "pt",
+            "name": "América Central"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Midden-Amerika"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Centralna Amerika"
+          },
+          {
+            "languageCode": "fa",
+            "name": "امریکای مرکزی"
+          },
+          {
+            "languageCode": "de",
+            "name": "Mittelamerika"
+          },
+          {
+            "languageCode": "es",
+            "name": "Centroamérica"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Amérique centrale"
+          },
+          {
+            "languageCode": "ja",
+            "name": "中央アメリカ"
+          },
+          {
+            "languageCode": "it",
+            "name": "America Centrale"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "中美洲"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Orta Amerika"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Центральная Америка"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Центральна Америка"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Ameryka Środkowa"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Northern America",
+        "wikiDataId": "Q2017699",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "북부 아메리카"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "América Setentrional"
+          },
+          {
+            "languageCode": "pt",
+            "name": "América Setentrional"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Noordelijk Amerika"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Sjeverna Amerika"
+          },
+          {
+            "languageCode": "fa",
+            "name": "شمال امریکا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Nördliches Amerika"
+          },
+          {
+            "languageCode": "es",
+            "name": "Norteamérica"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Amérique septentrionale"
+          },
+          {
+            "languageCode": "ja",
+            "name": "北アメリカ"
+          },
+          {
+            "languageCode": "it",
+            "name": "America del Nord"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "美洲北部"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Amerika’nın Kuzeyi"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Североамериканский регион"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Північноамериканський регіон"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Ameryka Północna (USA, Kanada)"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "South America",
+        "wikiDataId": "Q18",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "남아메리카"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "América do Sul"
+          },
+          {
+            "languageCode": "pt",
+            "name": "América do Sul"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Zuid-Amerika"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Južna Amerika"
+          },
+          {
+            "languageCode": "fa",
+            "name": "امریکای جنوبی"
+          },
+          {
+            "languageCode": "de",
+            "name": "Südamerika"
+          },
+          {
+            "languageCode": "es",
+            "name": "Sudamérica"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Amérique du Sud"
+          },
+          {
+            "languageCode": "ja",
+            "name": "南アメリカ"
+          },
+          {
+            "languageCode": "it",
+            "name": "America del Sud"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "南美洲"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Güney Amerika"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Южная Америка"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Південна Америка"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Ameryka Południowa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Asia",
+    "wikiDataId": "Q48",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "name": "아시아"
+      },
+      {
+        "languageCode": "pt-BR",
+        "name": "Ásia"
+      },
+      {
+        "languageCode": "pt",
+        "name": "Ásia"
+      },
+      {
+        "languageCode": "nl",
+        "name": "Azië"
+      },
+      {
+        "languageCode": "hr",
+        "name": "Azija"
+      },
+      {
+        "languageCode": "fa",
+        "name": "آسیا"
+      },
+      {
+        "languageCode": "de",
+        "name": "Asien"
+      },
+      {
+        "languageCode": "es",
+        "name": "Asia"
+      },
+      {
+        "languageCode": "fr",
+        "name": "Asie"
+      },
+      {
+        "languageCode": "ja",
+        "name": "アジア"
+      },
+      {
+        "languageCode": "it",
+        "name": "Asia"
+      },
+      {
+        "languageCode": "zh-CN",
+        "name": "亚洲"
+      },
+      {
+        "languageCode": "tr",
+        "name": "Asya"
+      },
+      {
+        "languageCode": "ru",
+        "name": "Азия"
+      },
+      {
+        "languageCode": "uk",
+        "name": "Азія"
+      },
+      {
+        "languageCode": "pl",
+        "name": "Azja"
+      }
+    ],
+    "subregions": [
+      {
+        "id": 10,
+        "name": "Central Asia",
+        "wikiDataId": "Q27275",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "중앙 아시아"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Ásia Central"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Ásia Central"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Centraal-Azië"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Srednja Azija"
+          },
+          {
+            "languageCode": "fa",
+            "name": "آسیای مرکزی"
+          },
+          {
+            "languageCode": "de",
+            "name": "Zentralasien"
+          },
+          {
+            "languageCode": "es",
+            "name": "Asia central"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Asie centrale"
+          },
+          {
+            "languageCode": "ja",
+            "name": "中央アジア"
+          },
+          {
+            "languageCode": "it",
+            "name": "Asia centrale"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "中亚"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Orta Asya"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Центральная Азия"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Центральна Азія"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Azja Środkowa"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Eastern Asia",
+        "wikiDataId": "Q27231",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "동아시아"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Ásia Oriental"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Ásia Oriental"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Oost-Azië"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Istočna Azija"
+          },
+          {
+            "languageCode": "fa",
+            "name": "شرق آسیا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Ostasien"
+          },
+          {
+            "languageCode": "es",
+            "name": "Asia oriental"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Asie de l’Est"
+          },
+          {
+            "languageCode": "ja",
+            "name": "東アジア"
+          },
+          {
+            "languageCode": "it",
+            "name": "Asia orientale"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "东亚"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Doğu Asya"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Восточная Азия"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Східна Азія"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Azja Wschodnia"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "South-eastern Asia",
+        "wikiDataId": "Q11708",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "동남아시아"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Sudeste Asiático"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Sudeste Asiático"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Zuidoost-Azië"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Jugoistočna Azija"
+          },
+          {
+            "languageCode": "fa",
+            "name": "جنوب شرق آسیا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Südostasien"
+          },
+          {
+            "languageCode": "es",
+            "name": "Sudeste asiático"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Asie du Sud-Est"
+          },
+          {
+            "languageCode": "ja",
+            "name": "東南アジア"
+          },
+          {
+            "languageCode": "it",
+            "name": "Sud-est asiatico"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "东南亚"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Güneydoğu Asya"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Юго-Восточная Азия"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Південно-Східна Азія"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Azja Południowo-Wschodnia"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Southern Asia",
+        "wikiDataId": "Q771405",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "남아시아"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Ásia Meridional"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Ásia Meridional"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Zuid-Azië"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Južna Azija"
+          },
+          {
+            "languageCode": "fa",
+            "name": "جنوب آسیا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Südasien"
+          },
+          {
+            "languageCode": "es",
+            "name": "Asia meridional"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Asie du Sud"
+          },
+          {
+            "languageCode": "ja",
+            "name": "南アジア"
+          },
+          {
+            "languageCode": "it",
+            "name": "Asia del Sud"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "南亚"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Güney Asya"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Южная Азия"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Південна Азія"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Azja Południowa"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Western Asia",
+        "wikiDataId": "Q27293",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "서아시아"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Ásia Ocidental"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Ásia Ocidental"
+          },
+          {
+            "languageCode": "nl",
+            "name": "West-Azië"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Zapadna Azija"
+          },
+          {
+            "languageCode": "fa",
+            "name": "غرب آسیا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Westasien"
+          },
+          {
+            "languageCode": "es",
+            "name": "Asia occidental"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Asie de l’Ouest"
+          },
+          {
+            "languageCode": "ja",
+            "name": "西アジア"
+          },
+          {
+            "languageCode": "it",
+            "name": "Asia occidentale"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "西亚"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Batı Asya"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Западная Азия"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Західна Азія"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Azja Zachodnia"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Europe",
+    "wikiDataId": "Q46",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "name": "유럽"
+      },
+      {
+        "languageCode": "pt-BR",
+        "name": "Europa"
+      },
+      {
+        "languageCode": "pt",
+        "name": "Europa"
+      },
+      {
+        "languageCode": "nl",
+        "name": "Europa"
+      },
+      {
+        "languageCode": "hr",
+        "name": "Europa"
+      },
+      {
+        "languageCode": "fa",
+        "name": "اروپا"
+      },
+      {
+        "languageCode": "de",
+        "name": "Europa"
+      },
+      {
+        "languageCode": "es",
+        "name": "Europa"
+      },
+      {
+        "languageCode": "fr",
+        "name": "Europe"
+      },
+      {
+        "languageCode": "ja",
+        "name": "ヨーロッパ"
+      },
+      {
+        "languageCode": "it",
+        "name": "Europa"
+      },
+      {
+        "languageCode": "zh-CN",
+        "name": "欧洲"
+      },
+      {
+        "languageCode": "tr",
+        "name": "Avrupa"
+      },
+      {
+        "languageCode": "ru",
+        "name": "Европа"
+      },
+      {
+        "languageCode": "uk",
+        "name": "Європа"
+      },
+      {
+        "languageCode": "pl",
+        "name": "Europa"
+      }
+    ],
+    "subregions": [
+      {
+        "id": 15,
+        "name": "Eastern Europe",
+        "wikiDataId": "Q27468",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "동유럽"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Europa Oriental"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Europa Oriental"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Oost-Europa"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Istočna Europa"
+          },
+          {
+            "languageCode": "fa",
+            "name": "شرق اروپا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Osteuropa"
+          },
+          {
+            "languageCode": "es",
+            "name": "Europa oriental"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Europe de l’Est"
+          },
+          {
+            "languageCode": "ja",
+            "name": "東ヨーロッパ"
+          },
+          {
+            "languageCode": "it",
+            "name": "Europa orientale"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "东欧"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Doğu Avrupa"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Восточная Европа"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Східна Європа"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Europa Wschodnia"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Northern Europe",
+        "wikiDataId": "Q27479",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "북유럽"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Europa Setentrional"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Europa Setentrional"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Noord-Europa"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Sjeverna Europa"
+          },
+          {
+            "languageCode": "fa",
+            "name": "شمال اروپا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Nordeuropa"
+          },
+          {
+            "languageCode": "es",
+            "name": "Europa septentrional"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Europe du Nord"
+          },
+          {
+            "languageCode": "ja",
+            "name": "北ヨーロッパ"
+          },
+          {
+            "languageCode": "it",
+            "name": "Europa settentrionale"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "北欧"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Kuzey Avrupa"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Северная Европа"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Північна Європа"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Europa Północna"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Southern Europe",
+        "wikiDataId": "Q27449",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "남유럽"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Europa Meridional"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Europa Meridional"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Zuid-Europa"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Južna Europa"
+          },
+          {
+            "languageCode": "fa",
+            "name": "جنوب اروپا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Südeuropa"
+          },
+          {
+            "languageCode": "es",
+            "name": "Europa meridional"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Europe du Sud"
+          },
+          {
+            "languageCode": "ja",
+            "name": "南ヨーロッパ"
+          },
+          {
+            "languageCode": "it",
+            "name": "Europa meridionale"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "南欧"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Güney Avrupa"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Южная Европа"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Південна Європа"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Europa Południowa"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Western Europe",
+        "wikiDataId": "Q27496",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "서유럽"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Europa Ocidental"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Europa Ocidental"
+          },
+          {
+            "languageCode": "nl",
+            "name": "West-Europa"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Zapadna Europa"
+          },
+          {
+            "languageCode": "fa",
+            "name": "غرب اروپا"
+          },
+          {
+            "languageCode": "de",
+            "name": "Westeuropa"
+          },
+          {
+            "languageCode": "es",
+            "name": "Europa occidental"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Europe de l’Ouest"
+          },
+          {
+            "languageCode": "ja",
+            "name": "西ヨーロッパ"
+          },
+          {
+            "languageCode": "it",
+            "name": "Europa occidentale"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "西欧"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Batı Avrupa"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Западная Европа"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Західна Європа"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Europa Zachodnia"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Oceania",
+    "wikiDataId": "Q55643",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "name": "오세아니아"
+      },
+      {
+        "languageCode": "pt-BR",
+        "name": "Oceania"
+      },
+      {
+        "languageCode": "pt",
+        "name": "Oceania"
+      },
+      {
+        "languageCode": "nl",
+        "name": "Oceanië"
+      },
+      {
+        "languageCode": "hr",
+        "name": "Oceanija"
+      },
+      {
+        "languageCode": "fa",
+        "name": "اقیانوسیه"
+      },
+      {
+        "languageCode": "de",
+        "name": "Ozeanien"
+      },
+      {
+        "languageCode": "es",
+        "name": "Oceanía"
+      },
+      {
+        "languageCode": "fr",
+        "name": "Océanie"
+      },
+      {
+        "languageCode": "ja",
+        "name": "オセアニア"
+      },
+      {
+        "languageCode": "it",
+        "name": "Oceania"
+      },
+      {
+        "languageCode": "zh-CN",
+        "name": "大洋洲"
+      },
+      {
+        "languageCode": "tr",
+        "name": "Okyanusya"
+      },
+      {
+        "languageCode": "ru",
+        "name": "Океания"
+      },
+      {
+        "languageCode": "uk",
+        "name": "Океанія"
+      },
+      {
+        "languageCode": "pl",
+        "name": "Oceania"
+      }
+    ],
+    "subregions": [
+      {
+        "id": 19,
+        "name": "Australia and New Zealand",
+        "wikiDataId": "Q45256",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "오스트레일리아 및 뉴질랜드"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Austrália e Nova Zelândia"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Austrália e Nova Zelândia"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Australië en Nieuw-Zeeland"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Australija i Novi Zeland"
+          },
+          {
+            "languageCode": "fa",
+            "name": "استرالیا و نیوزیلند"
+          },
+          {
+            "languageCode": "de",
+            "name": "Australien und Neuseeland"
+          },
+          {
+            "languageCode": "es",
+            "name": "Australia y Nueva Zelanda"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Australie et Nouvelle-Zélande"
+          },
+          {
+            "languageCode": "ja",
+            "name": "オーストラリアとニュージーランド"
+          },
+          {
+            "languageCode": "it",
+            "name": "Australia e Nuova Zelanda"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "澳大利亚和新西兰"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Avustralya ve Yeni Zelanda"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Австралия и Новая Зеландия"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Австралія та Нова Зеландія"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Australia i Nowa Zelandia"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Melanesia",
+        "wikiDataId": "Q37394",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "멜라네시아"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Melanésia"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Melanésia"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Melanesië"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Melanezija"
+          },
+          {
+            "languageCode": "fa",
+            "name": "ملانزی"
+          },
+          {
+            "languageCode": "de",
+            "name": "Melanesien"
+          },
+          {
+            "languageCode": "es",
+            "name": "Melanesia"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Mélanésie"
+          },
+          {
+            "languageCode": "ja",
+            "name": "メラネシア"
+          },
+          {
+            "languageCode": "it",
+            "name": "Melanesia"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "美拉尼西亚"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Melanezya"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Меланезия"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Меланезія"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Melanezja"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Micronesia",
+        "wikiDataId": "Q3359409",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "미크로네시아"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Micronésia"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Micronésia"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Micronesië"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Mikronezija"
+          },
+          {
+            "languageCode": "fa",
+            "name": "میکرونزی"
+          },
+          {
+            "languageCode": "de",
+            "name": "Mikronesien"
+          },
+          {
+            "languageCode": "es",
+            "name": "Micronesia"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Micronésie"
+          },
+          {
+            "languageCode": "ja",
+            "name": "ミクロネシア"
+          },
+          {
+            "languageCode": "it",
+            "name": "Micronesia"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "密克罗尼西亚"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Mikronezya"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Микронезия"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Мікронезія"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Mikronezja"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Polynesia",
+        "wikiDataId": "Q35942",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "폴리네시아"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Polinésia"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Polinésia"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Polynesië"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Polinezija"
+          },
+          {
+            "languageCode": "fa",
+            "name": "پلی‌نزی"
+          },
+          {
+            "languageCode": "de",
+            "name": "Polynesien"
+          },
+          {
+            "languageCode": "es",
+            "name": "Polinesia"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Polynésie"
+          },
+          {
+            "languageCode": "ja",
+            "name": "ポリネシア"
+          },
+          {
+            "languageCode": "it",
+            "name": "Polinesia"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "玻利尼西亚"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Polinezya"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Полинезия"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Полінезія"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Polinezja"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Antarctica",
+    "wikiDataId": "Q51",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "name": "남극 대륙"
+      },
+      {
+        "languageCode": "pt-BR",
+        "name": "Antártida"
+      },
+      {
+        "languageCode": "pt",
+        "name": "Antártida"
+      },
+      {
+        "languageCode": "nl",
+        "name": "Antarctica"
+      },
+      {
+        "languageCode": "hr",
+        "name": "Antarktika"
+      },
+      {
+        "languageCode": "fa",
+        "name": "جنوبگان"
+      },
+      {
+        "languageCode": "de",
+        "name": "Antarktis"
+      },
+      {
+        "languageCode": "es",
+        "name": "Antártida"
+      },
+      {
+        "languageCode": "fr",
+        "name": "Antarctique"
+      },
+      {
+        "languageCode": "ja",
+        "name": "南極"
+      },
+      {
+        "languageCode": "it",
+        "name": "Antartide"
+      },
+      {
+        "languageCode": "zh-CN",
+        "name": "南极洲"
+      },
+      {
+        "languageCode": "tr",
+        "name": "Antarktika"
+      },
+      {
+        "languageCode": "ru",
+        "name": "Антарктида"
+      },
+      {
+        "languageCode": "uk",
+        "name": "Антарктика"
+      },
+      {
+        "languageCode": "pl",
+        "name": "Antarktyda"
+      }
+    ],
+    "subregions": []
+  }
+]

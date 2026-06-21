@@ -1,0 +1,6114 @@
+{
+  "id": 102,
+  "name": "Indonesia",
+  "nativeName": "Indonesia",
+  "iso2": "ID",
+  "iso3": "IDN",
+  "numericCode": "360",
+  "phoneCode": "62",
+  "tld": ".id",
+  "latitude": -5,
+  "longitude": 120,
+  "flagId": 149,
+  "regionId": 3,
+  "subregionId": 13,
+  "currencyIds": [
+    899
+  ],
+  "timezoneIds": [
+    2408,
+    2409,
+    2410,
+    2411
+  ],
+  "officialLanguageIds": [
+    40
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "인도네시아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Indonésia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Indonésia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Indonesië"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Indonezija"
+    },
+    {
+      "languageCode": "fa",
+      "name": "اندونزی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Indonesien"
+    },
+    {
+      "languageCode": "es",
+      "name": "Indonesia"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Indonésie"
+    },
+    {
+      "languageCode": "ja",
+      "name": "インドネシア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Indonesia"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "印度尼西亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Endonezya"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Индонезия"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Індонезія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Indonezja"
+    }
+  ],
+  "states": [
+    {
+      "id": 1792,
+      "name": "Sumatera Utara",
+      "stateCode": "SU",
+      "latitude": 2.1153547,
+      "longitude": 99.5450974,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56177,
+          "name": "Ambarita",
+          "latitude": 2.6814,
+          "longitude": 98.8311,
+          "translations": []
+        },
+        {
+          "id": 56194,
+          "name": "Bandar",
+          "latitude": 2.05,
+          "longitude": 99.75,
+          "translations": []
+        },
+        {
+          "id": 56216,
+          "name": "Belawan",
+          "latitude": 3.7755,
+          "longitude": 98.6832,
+          "translations": []
+        },
+        {
+          "id": 56218,
+          "name": "Berastagi",
+          "latitude": 3.19468,
+          "longitude": 98.50889,
+          "translations": []
+        },
+        {
+          "id": 56222,
+          "name": "Binjai",
+          "latitude": 3.6001,
+          "longitude": 98.4854,
+          "translations": []
+        },
+        {
+          "id": 56261,
+          "name": "Deli Tua",
+          "latitude": 3.5078,
+          "longitude": 98.6839,
+          "translations": []
+        },
+        {
+          "id": 56290,
+          "name": "Gunungsitoli",
+          "latitude": 1.2888,
+          "longitude": 97.6143,
+          "translations": []
+        },
+        {
+          "id": 56306,
+          "name": "Kabanjahe",
+          "latitude": 3.1001,
+          "longitude": 98.4908,
+          "translations": []
+        },
+        {
+          "id": 56320,
+          "name": "Kabupaten Asahan",
+          "latitude": 2.78333,
+          "longitude": 99.55,
+          "translations": []
+        },
+        {
+          "id": 56348,
+          "name": "Kabupaten Batu Bara",
+          "latitude": 3.16166,
+          "longitude": 99.52652,
+          "translations": []
+        },
+        {
+          "id": 56394,
+          "name": "Kabupaten Dairi",
+          "latitude": 2.86667,
+          "longitude": 98.23333,
+          "translations": []
+        },
+        {
+          "id": 56396,
+          "name": "Kabupaten Deli Serdang",
+          "latitude": 3.41667,
+          "longitude": 98.66667,
+          "translations": []
+        },
+        {
+          "id": 56423,
+          "name": "Kabupaten Humbang Hasundutan",
+          "latitude": 2.26551,
+          "longitude": 98.50376,
+          "translations": []
+        },
+        {
+          "id": 56442,
+          "name": "Kabupaten Karo",
+          "latitude": 3.11667,
+          "longitude": 98.3,
+          "translations": []
+        },
+        {
+          "id": 56479,
+          "name": "Kabupaten Labuhan Batu",
+          "latitude": 2.26667,
+          "longitude": 100.1,
+          "translations": []
+        },
+        {
+          "id": 56480,
+          "name": "Kabupaten Labuhan Batu Selatan",
+          "latitude": 1.983,
+          "longitude": 100.0976,
+          "translations": []
+        },
+        {
+          "id": 56481,
+          "name": "Kabupaten Labuhan Batu Utara",
+          "latitude": 2.33349,
+          "longitude": 99.63776,
+          "translations": []
+        },
+        {
+          "id": 56489,
+          "name": "Kabupaten Langkat",
+          "latitude": 3.71667,
+          "longitude": 98.21667,
+          "translations": []
+        },
+        {
+          "id": 56523,
+          "name": "Kabupaten Mandailing Natal",
+          "latitude": 0.78378,
+          "longitude": 99.25495,
+          "translations": []
+        },
+        {
+          "id": 56559,
+          "name": "Kabupaten Nias",
+          "latitude": 1.03333,
+          "longitude": 97.76667,
+          "translations": []
+        },
+        {
+          "id": 56560,
+          "name": "Kabupaten Nias Barat",
+          "latitude": 1.05966,
+          "longitude": 97.58606,
+          "translations": []
+        },
+        {
+          "id": 56561,
+          "name": "Kabupaten Nias Utara",
+          "latitude": 1.33037,
+          "longitude": 97.31964,
+          "translations": []
+        },
+        {
+          "id": 56569,
+          "name": "Kabupaten Padang Lawas",
+          "latitude": 1.44684,
+          "longitude": 99.99207,
+          "translations": []
+        },
+        {
+          "id": 56570,
+          "name": "Kabupaten Padang Lawas Utara",
+          "latitude": 1.46011,
+          "longitude": 99.67346,
+          "translations": []
+        },
+        {
+          "id": 56572,
+          "name": "Kabupaten Pakpak Bharat",
+          "latitude": 2.56667,
+          "longitude": 98.28333,
+          "translations": []
+        },
+        {
+          "id": 56615,
+          "name": "Kabupaten Samosir",
+          "latitude": 2.64025,
+          "longitude": 98.71525,
+          "translations": []
+        },
+        {
+          "id": 56624,
+          "name": "Kabupaten Serdang Bedagai",
+          "latitude": 3.36667,
+          "longitude": 99.03333,
+          "translations": []
+        },
+        {
+          "id": 56633,
+          "name": "Kabupaten Simalungun",
+          "latitude": 2.9,
+          "longitude": 99,
+          "translations": []
+        },
+        {
+          "id": 56670,
+          "name": "Kabupaten Tapanuli Selatan",
+          "latitude": 1.51667,
+          "longitude": 99.25,
+          "translations": []
+        },
+        {
+          "id": 56671,
+          "name": "Kabupaten Tapanuli Tengah",
+          "latitude": 1.9,
+          "longitude": 98.66667,
+          "translations": []
+        },
+        {
+          "id": 56672,
+          "name": "Kabupaten Tapanuli Utara",
+          "latitude": 2.0028,
+          "longitude": 99.0707,
+          "translations": []
+        },
+        {
+          "id": 56717,
+          "name": "Kisaran",
+          "latitude": 2.9845,
+          "longitude": 99.6158,
+          "translations": []
+        },
+        {
+          "id": 56832,
+          "name": "Labuhan Deli",
+          "latitude": 3.7278,
+          "longitude": 98.6738,
+          "translations": []
+        },
+        {
+          "id": 56867,
+          "name": "Medan",
+          "latitude": 3.58333,
+          "longitude": 98.66667,
+          "translations": []
+        },
+        {
+          "id": 56894,
+          "name": "Padangsidempuan",
+          "latitude": 1.37952,
+          "longitude": 99.27146,
+          "translations": []
+        },
+        {
+          "id": 56910,
+          "name": "Pangkalan Brandan",
+          "latitude": 4.0238,
+          "longitude": 98.2782,
+          "translations": []
+        },
+        {
+          "id": 56914,
+          "name": "Parapat",
+          "latitude": 2.663,
+          "longitude": 98.9349,
+          "translations": []
+        },
+        {
+          "id": 56926,
+          "name": "Pekan Bahapal",
+          "latitude": 3.11313,
+          "longitude": 99.17352,
+          "translations": []
+        },
+        {
+          "id": 56930,
+          "name": "Pematangsiantar",
+          "latitude": 2.9595,
+          "longitude": 99.0687,
+          "translations": []
+        },
+        {
+          "id": 56932,
+          "name": "Perbaungan",
+          "latitude": 3.5679,
+          "longitude": 98.956,
+          "translations": []
+        },
+        {
+          "id": 56933,
+          "name": "Percut",
+          "latitude": 3.6253,
+          "longitude": 98.864,
+          "translations": []
+        },
+        {
+          "id": 56951,
+          "name": "Rantauprapat",
+          "latitude": 2.1,
+          "longitude": 99.83333,
+          "translations": []
+        },
+        {
+          "id": 56973,
+          "name": "Sibolga",
+          "latitude": 1.74016,
+          "longitude": 98.78117,
+          "translations": []
+        },
+        {
+          "id": 57000,
+          "name": "Stabat",
+          "latitude": 3.73335,
+          "longitude": 98.45025,
+          "translations": []
+        },
+        {
+          "id": 57010,
+          "name": "Sunggal",
+          "latitude": 3.5765,
+          "longitude": 98.6151,
+          "translations": []
+        },
+        {
+          "id": 57021,
+          "name": "Tanjungbalai",
+          "latitude": 2.96667,
+          "longitude": 99.8,
+          "translations": []
+        },
+        {
+          "id": 57022,
+          "name": "Tanjungtiram",
+          "latitude": 4.0613,
+          "longitude": 98.3699,
+          "translations": []
+        },
+        {
+          "id": 57027,
+          "name": "Tebingtinggi",
+          "latitude": 3.3285,
+          "longitude": 99.1625,
+          "translations": []
+        },
+        {
+          "id": 57029,
+          "name": "Teluk Nibung",
+          "latitude": 3.001,
+          "longitude": 99.8164,
+          "translations": []
+        },
+        {
+          "id": 57036,
+          "name": "Tomok Bolon",
+          "latitude": 2.6521,
+          "longitude": 98.8608,
+          "translations": []
+        },
+        {
+          "id": 57038,
+          "name": "Tongging",
+          "latitude": 2.8985,
+          "longitude": 98.5231,
+          "translations": []
+        },
+        {
+          "id": 57043,
+          "name": "Tuktuk Sonak",
+          "latitude": 2.6689,
+          "longitude": 98.8576,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1793,
+      "name": "Bengkulu",
+      "stateCode": "BE",
+      "latitude": -3.7928451,
+      "longitude": 102.2607641,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56217,
+          "name": "Bengkulu",
+          "latitude": -3.80044,
+          "longitude": 102.26554,
+          "translations": []
+        },
+        {
+          "id": 56258,
+          "name": "Curup",
+          "latitude": -3.4703,
+          "longitude": 102.5207,
+          "translations": []
+        },
+        {
+          "id": 56355,
+          "name": "Kabupaten Bengkulu Selatan",
+          "latitude": -4.35,
+          "longitude": 103.03333,
+          "translations": []
+        },
+        {
+          "id": 56356,
+          "name": "Kabupaten Bengkulu Tengah",
+          "latitude": -3.20679,
+          "longitude": 102.12616,
+          "translations": []
+        },
+        {
+          "id": 56357,
+          "name": "Kabupaten Bengkulu Utara",
+          "latitude": -3.33333,
+          "longitude": 102.05,
+          "translations": []
+        },
+        {
+          "id": 56444,
+          "name": "Kabupaten Kaur",
+          "latitude": -4.78179,
+          "longitude": 103.36109,
+          "translations": []
+        },
+        {
+          "id": 56449,
+          "name": "Kabupaten Kepahiang",
+          "latitude": -3.60194,
+          "longitude": 102.56424,
+          "translations": []
+        },
+        {
+          "id": 56492,
+          "name": "Kabupaten Lebong",
+          "latitude": -3.24278,
+          "longitude": 102.3349,
+          "translations": []
+        },
+        {
+          "id": 56544,
+          "name": "Kabupaten Mukomuko",
+          "latitude": -3.07438,
+          "longitude": 101.54766,
+          "translations": []
+        },
+        {
+          "id": 56609,
+          "name": "Kabupaten Rejang Lebong",
+          "latitude": -3.43333,
+          "longitude": 102.71667,
+          "translations": []
+        },
+        {
+          "id": 56619,
+          "name": "Kabupaten Seluma",
+          "latitude": -3.96644,
+          "longitude": 102.47429,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1794,
+      "name": "Kalimantan Tengah",
+      "stateCode": "KT",
+      "latitude": -1.6814878,
+      "longitude": 113.3823545,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56342,
+          "name": "Kabupaten Barito Selatan",
+          "latitude": -1.86667,
+          "longitude": 114.73333,
+          "translations": []
+        },
+        {
+          "id": 56343,
+          "name": "Kabupaten Barito Timur",
+          "latitude": -1.93333,
+          "longitude": 115.1,
+          "translations": []
+        },
+        {
+          "id": 56344,
+          "name": "Kabupaten Barito Utara",
+          "latitude": -0.98333,
+          "longitude": 115.1,
+          "translations": []
+        },
+        {
+          "id": 56415,
+          "name": "Kabupaten Gunung Mas",
+          "latitude": -0.95,
+          "longitude": 113.5,
+          "translations": []
+        },
+        {
+          "id": 56437,
+          "name": "Kabupaten Kapuas",
+          "latitude": -2.01667,
+          "longitude": 114.38333,
+          "translations": []
+        },
+        {
+          "id": 56443,
+          "name": "Kabupaten Katingan",
+          "latitude": -2.06667,
+          "longitude": 113.4,
+          "translations": []
+        },
+        {
+          "id": 56469,
+          "name": "Kabupaten Kotawaringin Barat",
+          "latitude": -2.4,
+          "longitude": 111.73333,
+          "translations": []
+        },
+        {
+          "id": 56470,
+          "name": "Kabupaten Kotawaringin Timur",
+          "latitude": -2.08333,
+          "longitude": 112.75,
+          "translations": []
+        },
+        {
+          "id": 56482,
+          "name": "Kabupaten Lamandau",
+          "latitude": -1.83828,
+          "longitude": 111.2869,
+          "translations": []
+        },
+        {
+          "id": 56547,
+          "name": "Kabupaten Murung Raya",
+          "latitude": -0.01667,
+          "longitude": 114.26667,
+          "translations": []
+        },
+        {
+          "id": 56601,
+          "name": "Kabupaten Pulang Pisau",
+          "latitude": -3.11858,
+          "longitude": 113.8623,
+          "translations": []
+        },
+        {
+          "id": 56625,
+          "name": "Kabupaten Seruyan",
+          "latitude": -2.33333,
+          "longitude": 112.25,
+          "translations": []
+        },
+        {
+          "id": 56646,
+          "name": "Kabupaten Sukamara",
+          "latitude": -2.62675,
+          "longitude": 111.23681,
+          "translations": []
+        },
+        {
+          "id": 56823,
+          "name": "Kualakapuas",
+          "latitude": -3.00913,
+          "longitude": 114.38759,
+          "translations": []
+        },
+        {
+          "id": 56897,
+          "name": "Palangkaraya",
+          "latitude": -2.20833,
+          "longitude": 113.91667,
+          "translations": []
+        },
+        {
+          "id": 56911,
+          "name": "Pangkalanbuun",
+          "latitude": -2.6832,
+          "longitude": 111.6259,
+          "translations": []
+        },
+        {
+          "id": 56961,
+          "name": "Sampit",
+          "latitude": -2.5315,
+          "longitude": 112.9496,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1795,
+      "name": "Sulawesi Selatan",
+      "stateCode": "SN",
+      "latitude": -3.6687994,
+      "longitude": 119.9740534,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56273,
+          "name": "Galesong",
+          "latitude": -5.3166,
+          "longitude": 119.3661,
+          "translations": []
+        },
+        {
+          "id": 56337,
+          "name": "Kabupaten Bantaeng",
+          "latitude": -5.48333,
+          "longitude": 119.98333,
+          "translations": []
+        },
+        {
+          "id": 56345,
+          "name": "Kabupaten Barru",
+          "latitude": -4.43333,
+          "longitude": 119.68333,
+          "translations": []
+        },
+        {
+          "id": 56374,
+          "name": "Kabupaten Bone",
+          "latitude": -4.7,
+          "longitude": 120.13333,
+          "translations": []
+        },
+        {
+          "id": 56380,
+          "name": "Kabupaten Bulukumba",
+          "latitude": -5.41667,
+          "longitude": 120.23333,
+          "translations": []
+        },
+        {
+          "id": 56404,
+          "name": "Kabupaten Enrekang",
+          "latitude": -3.5,
+          "longitude": 119.86667,
+          "translations": []
+        },
+        {
+          "id": 56412,
+          "name": "Kabupaten Gowa",
+          "latitude": -5.31667,
+          "longitude": 119.75,
+          "translations": []
+        },
+        {
+          "id": 56432,
+          "name": "Kabupaten Jeneponto",
+          "latitude": -5.63333,
+          "longitude": 119.73333,
+          "translations": []
+        },
+        {
+          "id": 56501,
+          "name": "Kabupaten Luwu",
+          "latitude": -2.5577,
+          "longitude": 121.3242,
+          "translations": []
+        },
+        {
+          "id": 56502,
+          "name": "Kabupaten Luwu Timur",
+          "latitude": -2.50957,
+          "longitude": 120.3978,
+          "translations": []
+        },
+        {
+          "id": 56503,
+          "name": "Kabupaten Luwu Utara",
+          "latitude": -2.6,
+          "longitude": 120.25,
+          "translations": []
+        },
+        {
+          "id": 56530,
+          "name": "Kabupaten Maros",
+          "latitude": -5.05,
+          "longitude": 119.71667,
+          "translations": []
+        },
+        {
+          "id": 56576,
+          "name": "Kabupaten Pangkajene Dan Kepulauan",
+          "latitude": -4.7827,
+          "longitude": 119.5506,
+          "translations": []
+        },
+        {
+          "id": 56594,
+          "name": "Kabupaten Pinrang",
+          "latitude": -3.61667,
+          "longitude": 119.6,
+          "translations": []
+        },
+        {
+          "id": 56628,
+          "name": "Kabupaten Sidenreng Rappang",
+          "latitude": -3.85,
+          "longitude": 119.96667,
+          "translations": []
+        },
+        {
+          "id": 56635,
+          "name": "Kabupaten Sinjai",
+          "latitude": -5.21667,
+          "longitude": 120.15,
+          "translations": []
+        },
+        {
+          "id": 56640,
+          "name": "Kabupaten Soppeng",
+          "latitude": -4.3842,
+          "longitude": 119.89,
+          "translations": []
+        },
+        {
+          "id": 56659,
+          "name": "Kabupaten Takalar",
+          "latitude": -5.41667,
+          "longitude": 119.51667,
+          "translations": []
+        },
+        {
+          "id": 56662,
+          "name": "Kabupaten Tana Toraja",
+          "latitude": -3.0024,
+          "longitude": 119.79655,
+          "translations": []
+        },
+        {
+          "id": 56684,
+          "name": "Kabupaten Toraja Utara",
+          "latitude": -2.92738,
+          "longitude": 119.79218,
+          "translations": []
+        },
+        {
+          "id": 56689,
+          "name": "Kabupaten Wajo",
+          "latitude": -4,
+          "longitude": 120.16667,
+          "translations": []
+        },
+        {
+          "id": 56855,
+          "name": "Makassar",
+          "latitude": -5.14861,
+          "longitude": 119.43194,
+          "translations": []
+        },
+        {
+          "id": 56863,
+          "name": "Maros",
+          "latitude": -5.006,
+          "longitude": 119.5727,
+          "translations": []
+        },
+        {
+          "id": 56900,
+          "name": "Palopo",
+          "latitude": -2.9925,
+          "longitude": 120.19694,
+          "translations": []
+        },
+        {
+          "id": 56916,
+          "name": "Parepare",
+          "latitude": -4.0135,
+          "longitude": 119.6255,
+          "translations": []
+        },
+        {
+          "id": 56952,
+          "name": "Rantepao",
+          "latitude": -2.9701,
+          "longitude": 119.8978,
+          "translations": []
+        },
+        {
+          "id": 56963,
+          "name": "Selayar Islands Regency",
+          "latitude": -6.81667,
+          "longitude": 120.8,
+          "translations": []
+        },
+        {
+          "id": 56967,
+          "name": "Sengkang",
+          "latitude": -4.1279,
+          "longitude": 120.0297,
+          "translations": []
+        },
+        {
+          "id": 56985,
+          "name": "Sinjai",
+          "latitude": -5.1241,
+          "longitude": 120.253,
+          "translations": []
+        },
+        {
+          "id": 57052,
+          "name": "Watampone",
+          "latitude": -4.5386,
+          "longitude": 120.3279,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1796,
+      "name": "Sulawesi Tenggara",
+      "stateCode": "SG",
+      "latitude": -4.14491,
+      "longitude": 122.174605,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56372,
+          "name": "Kabupaten Bombana",
+          "latitude": -4.6257,
+          "longitude": 121.81641,
+          "translations": []
+        },
+        {
+          "id": 56386,
+          "name": "Kabupaten Buton",
+          "latitude": -5.31667,
+          "longitude": 122.91667,
+          "translations": []
+        },
+        {
+          "id": 56387,
+          "name": "Kabupaten Buton Selatan",
+          "latitude": -5.56667,
+          "longitude": 122.7,
+          "translations": []
+        },
+        {
+          "id": 56388,
+          "name": "Kabupaten Buton Tengah",
+          "latitude": -5.31667,
+          "longitude": 122.33333,
+          "translations": []
+        },
+        {
+          "id": 56389,
+          "name": "Kabupaten Buton Utara",
+          "latitude": -5.01457,
+          "longitude": 122.93015,
+          "translations": []
+        },
+        {
+          "id": 56461,
+          "name": "Kabupaten Kolaka",
+          "latitude": -4.08333,
+          "longitude": 121.66667,
+          "translations": []
+        },
+        {
+          "id": 56462,
+          "name": "Kabupaten Kolaka Timur",
+          "latitude": -4.01807,
+          "longitude": 121.86172,
+          "translations": []
+        },
+        {
+          "id": 56463,
+          "name": "Kabupaten Kolaka Utara",
+          "latitude": -3.10452,
+          "longitude": 121.12427,
+          "translations": []
+        },
+        {
+          "id": 56464,
+          "name": "Kabupaten Konawe",
+          "latitude": -3.91717,
+          "longitude": 122.08823,
+          "translations": []
+        },
+        {
+          "id": 56465,
+          "name": "Kabupaten Konawe Kepulauan",
+          "latitude": -4.11656,
+          "longitude": 123.10181,
+          "translations": []
+        },
+        {
+          "id": 56466,
+          "name": "Kabupaten Konawe Selatan",
+          "latitude": -4.19191,
+          "longitude": 122.44854,
+          "translations": []
+        },
+        {
+          "id": 56467,
+          "name": "Kabupaten Konawe Utara",
+          "latitude": -3.41552,
+          "longitude": 121.99081,
+          "translations": []
+        },
+        {
+          "id": 56545,
+          "name": "Kabupaten Muna",
+          "latitude": -4.96667,
+          "longitude": 122.66667,
+          "translations": []
+        },
+        {
+          "id": 56546,
+          "name": "Kabupaten Muna Barat",
+          "latitude": -4.83333,
+          "longitude": 122.48333,
+          "translations": []
+        },
+        {
+          "id": 56703,
+          "name": "Katabu",
+          "latitude": -4.9333,
+          "longitude": 122.5167,
+          "translations": []
+        },
+        {
+          "id": 56712,
+          "name": "Kendari",
+          "latitude": -3.9778,
+          "longitude": 122.51507,
+          "translations": []
+        },
+        {
+          "id": 57049,
+          "name": "Wakatobi Regency",
+          "latitude": -5.31934,
+          "longitude": 123.5948,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1798,
+      "name": "Papua",
+      "stateCode": "PA",
+      "latitude": -5.0122202,
+      "longitude": 141.3470159,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56173,
+          "name": "Abepura",
+          "latitude": -2.5964,
+          "longitude": 140.6324,
+          "translations": []
+        },
+        {
+          "id": 56220,
+          "name": "Biak",
+          "latitude": -1.1767,
+          "longitude": 136.082,
+          "translations": []
+        },
+        {
+          "id": 56292,
+          "name": "Insrom",
+          "latitude": -1.14473,
+          "longitude": 136.03134,
+          "translations": []
+        },
+        {
+          "id": 56299,
+          "name": "Jayapura",
+          "latitude": -2.53371,
+          "longitude": 140.71813,
+          "translations": []
+        },
+        {
+          "id": 56359,
+          "name": "Kabupaten Biak Numfor",
+          "latitude": -1.03333,
+          "longitude": 136,
+          "translations": []
+        },
+        {
+          "id": 56428,
+          "name": "Kabupaten Jayapura",
+          "latitude": -3,
+          "longitude": 139.95,
+          "translations": []
+        },
+        {
+          "id": 56447,
+          "name": "Kabupaten Keerom",
+          "latitude": -3.3,
+          "longitude": 140.61667,
+          "translations": []
+        },
+        {
+          "id": 56457,
+          "name": "Kabupaten Kepulauan Yapen",
+          "latitude": -1.78773,
+          "longitude": 136.27716,
+          "translations": []
+        },
+        {
+          "id": 56518,
+          "name": "Kabupaten Mamberamo Raya",
+          "latitude": -2.23561,
+          "longitude": 137.78229,
+          "translations": []
+        },
+        {
+          "id": 56617,
+          "name": "Kabupaten Sarmi",
+          "latitude": -2.41667,
+          "longitude": 139.08333,
+          "translations": []
+        },
+        {
+          "id": 56656,
+          "name": "Kabupaten Supiori",
+          "latitude": -0.73881,
+          "longitude": 135.61111,
+          "translations": []
+        },
+        {
+          "id": 56690,
+          "name": "Kabupaten Waropen",
+          "latitude": -2.286,
+          "longitude": 137.01837,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1799,
+      "name": "Papua Barat",
+      "stateCode": "PB",
+      "latitude": -1.3361154,
+      "longitude": 133.1747162,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56405,
+          "name": "Kabupaten Fakfak",
+          "latitude": -2.92641,
+          "longitude": 132.29608,
+          "translations": []
+        },
+        {
+          "id": 56435,
+          "name": "Kabupaten Kaimana",
+          "latitude": -3.66093,
+          "longitude": 133.77451,
+          "translations": []
+        },
+        {
+          "id": 56527,
+          "name": "Kabupaten Manokwari",
+          "latitude": -0.9,
+          "longitude": 133.75,
+          "translations": []
+        },
+        {
+          "id": 56528,
+          "name": "Kabupaten Manokwari Selatan",
+          "latitude": -1.0798,
+          "longitude": 133.96729,
+          "translations": []
+        },
+        {
+          "id": 56677,
+          "name": "Kabupaten Teluk Bintuni",
+          "latitude": -1.88037,
+          "longitude": 133.33105,
+          "translations": []
+        },
+        {
+          "id": 56678,
+          "name": "Kabupaten Teluk Wondama",
+          "latitude": -2.7,
+          "longitude": 134.5,
+          "translations": []
+        },
+        {
+          "id": 56860,
+          "name": "Manokwari",
+          "latitude": -0.86291,
+          "longitude": 134.06402,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1800,
+      "name": "Maluku",
+      "stateCode": "MA",
+      "latitude": -3.2384616,
+      "longitude": 130.1452734,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56175,
+          "name": "Amahai",
+          "latitude": -3.33984,
+          "longitude": 128.91975,
+          "translations": []
+        },
+        {
+          "id": 56178,
+          "name": "Ambon",
+          "latitude": -3.69583,
+          "longitude": 128.18333,
+          "translations": []
+        },
+        {
+          "id": 56384,
+          "name": "Kabupaten Buru",
+          "latitude": -3.32767,
+          "longitude": 126.68413,
+          "translations": []
+        },
+        {
+          "id": 56385,
+          "name": "Kabupaten Buru Selatan",
+          "latitude": -3.52187,
+          "longitude": 126.59271,
+          "translations": []
+        },
+        {
+          "id": 56451,
+          "name": "Kabupaten Kepulauan Aru",
+          "latitude": -6.17059,
+          "longitude": 134.46991,
+          "translations": []
+        },
+        {
+          "id": 56513,
+          "name": "Kabupaten Maluku Barat Daya",
+          "latitude": -7.8296,
+          "longitude": 126.17386,
+          "translations": []
+        },
+        {
+          "id": 56514,
+          "name": "Kabupaten Maluku Tengah",
+          "latitude": -3.29167,
+          "longitude": 128.9675,
+          "translations": []
+        },
+        {
+          "id": 56515,
+          "name": "Kabupaten Maluku Tenggara",
+          "latitude": -5.75,
+          "longitude": 132.73333,
+          "translations": []
+        },
+        {
+          "id": 56516,
+          "name": "Kabupaten Maluku Tenggara Barat",
+          "latitude": -7.61186,
+          "longitude": 131.38,
+          "translations": []
+        },
+        {
+          "id": 56621,
+          "name": "Kabupaten Seram Bagian Barat",
+          "latitude": -3.1027,
+          "longitude": 128.42996,
+          "translations": []
+        },
+        {
+          "id": 56622,
+          "name": "Kabupaten Seram Bagian Timur",
+          "latitude": -3.39851,
+          "longitude": 130.39167,
+          "translations": []
+        },
+        {
+          "id": 57041,
+          "name": "Tual",
+          "latitude": -5.62878,
+          "longitude": 132.75229,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1801,
+      "name": "Maluku Utara",
+      "stateCode": "MU",
+      "latitude": 1.5709993,
+      "longitude": 127.8087693,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56271,
+          "name": "East Halmahera Regency",
+          "latitude": 1.33517,
+          "longitude": 128.48627,
+          "translations": []
+        },
+        {
+          "id": 56416,
+          "name": "Kabupaten Halmahera Barat",
+          "latitude": 1.41709,
+          "longitude": 127.55264,
+          "translations": []
+        },
+        {
+          "id": 56417,
+          "name": "Kabupaten Halmahera Selatan",
+          "latitude": -0.3955,
+          "longitude": 127.90833,
+          "translations": []
+        },
+        {
+          "id": 56418,
+          "name": "Kabupaten Halmahera Tengah",
+          "latitude": 0.48056,
+          "longitude": 128.25,
+          "translations": []
+        },
+        {
+          "id": 56419,
+          "name": "Kabupaten Halmahera Utara",
+          "latitude": 1.73194,
+          "longitude": 128.00778,
+          "translations": []
+        },
+        {
+          "id": 56455,
+          "name": "Kabupaten Kepulauan Sula",
+          "latitude": -1.8646,
+          "longitude": 125.69046,
+          "translations": []
+        },
+        {
+          "id": 56602,
+          "name": "Kabupaten Pulau Morotai",
+          "latitude": 2.19924,
+          "longitude": 128.40546,
+          "translations": []
+        },
+        {
+          "id": 56603,
+          "name": "Kabupaten Pulau Taliabu",
+          "latitude": -1.84578,
+          "longitude": 124.78992,
+          "translations": []
+        },
+        {
+          "id": 56990,
+          "name": "Sofifi",
+          "latitude": 0.73729,
+          "longitude": 127.5588,
+          "translations": []
+        },
+        {
+          "id": 57032,
+          "name": "Ternate",
+          "latitude": 0.79065,
+          "longitude": 127.38424,
+          "translations": []
+        },
+        {
+          "id": 57033,
+          "name": "Tobelo",
+          "latitude": 1.72837,
+          "longitude": 128.00948,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1802,
+      "name": "Jawa Tengah",
+      "stateCode": "JT",
+      "latitude": -7.150975,
+      "longitude": 110.1402594,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56174,
+          "name": "Adiwerna",
+          "latitude": -6.9375,
+          "longitude": 109.1325,
+          "translations": []
+        },
+        {
+          "id": 56176,
+          "name": "Ambarawa",
+          "latitude": -7.26333,
+          "longitude": 110.3975,
+          "translations": []
+        },
+        {
+          "id": 56186,
+          "name": "Baekrajan",
+          "latitude": -6.7674,
+          "longitude": 110.8541,
+          "translations": []
+        },
+        {
+          "id": 56187,
+          "name": "Baki",
+          "latitude": -7.61278,
+          "longitude": 110.78389,
+          "translations": []
+        },
+        {
+          "id": 56189,
+          "name": "Balapulang",
+          "latitude": -7.04858,
+          "longitude": 109.10056,
+          "translations": []
+        },
+        {
+          "id": 56205,
+          "name": "Banyumas",
+          "latitude": -7.51417,
+          "longitude": 109.29417,
+          "translations": []
+        },
+        {
+          "id": 56209,
+          "name": "Batang",
+          "latitude": -6.4846,
+          "longitude": 110.7083,
+          "translations": []
+        },
+        {
+          "id": 56211,
+          "name": "Baturaden",
+          "latitude": -7.3,
+          "longitude": 109.21667,
+          "translations": []
+        },
+        {
+          "id": 56225,
+          "name": "Blora",
+          "latitude": -6.9698,
+          "longitude": 111.4186,
+          "translations": []
+        },
+        {
+          "id": 56230,
+          "name": "Boyolali",
+          "latitude": -7.53306,
+          "longitude": 110.59583,
+          "translations": []
+        },
+        {
+          "id": 56232,
+          "name": "Buaran",
+          "latitude": -7.05,
+          "longitude": 109.55,
+          "translations": []
+        },
+        {
+          "id": 56235,
+          "name": "Bulakamba",
+          "latitude": -6.8748,
+          "longitude": 108.9559,
+          "translations": []
+        },
+        {
+          "id": 56236,
+          "name": "Candi Prambanan",
+          "latitude": -7.75,
+          "longitude": 110.49417,
+          "translations": []
+        },
+        {
+          "id": 56238,
+          "name": "Ceper",
+          "latitude": -7.67417,
+          "longitude": 110.67889,
+          "translations": []
+        },
+        {
+          "id": 56239,
+          "name": "Cepu",
+          "latitude": -7.1475,
+          "longitude": 111.5906,
+          "translations": []
+        },
+        {
+          "id": 56255,
+          "name": "Colomadu",
+          "latitude": -7.53333,
+          "longitude": 110.75,
+          "translations": []
+        },
+        {
+          "id": 56256,
+          "name": "Comal",
+          "latitude": -6.9053,
+          "longitude": 109.5347,
+          "translations": []
+        },
+        {
+          "id": 56260,
+          "name": "Delanggu",
+          "latitude": -7.61667,
+          "longitude": 110.68333,
+          "translations": []
+        },
+        {
+          "id": 56262,
+          "name": "Demak",
+          "latitude": -6.8909,
+          "longitude": 110.6396,
+          "translations": []
+        },
+        {
+          "id": 56269,
+          "name": "Dukuhturi",
+          "latitude": -6.9,
+          "longitude": 109.08333,
+          "translations": []
+        },
+        {
+          "id": 56277,
+          "name": "Gatak",
+          "latitude": -7.59083,
+          "longitude": 110.70444,
+          "translations": []
+        },
+        {
+          "id": 56278,
+          "name": "Gebog",
+          "latitude": -6.735,
+          "longitude": 110.8444,
+          "translations": []
+        },
+        {
+          "id": 56283,
+          "name": "Gombong",
+          "latitude": -7.60722,
+          "longitude": 109.51417,
+          "translations": []
+        },
+        {
+          "id": 56288,
+          "name": "Grogol",
+          "latitude": -7.60111,
+          "longitude": 110.81861,
+          "translations": []
+        },
+        {
+          "id": 56289,
+          "name": "Gunung Kendil",
+          "latitude": -7.33167,
+          "longitude": 110.40417,
+          "translations": []
+        },
+        {
+          "id": 56295,
+          "name": "Jaten",
+          "latitude": -7.57722,
+          "longitude": 110.8975,
+          "translations": []
+        },
+        {
+          "id": 56297,
+          "name": "Jatiroto",
+          "latitude": -7.88333,
+          "longitude": 111.11667,
+          "translations": []
+        },
+        {
+          "id": 56300,
+          "name": "Jekulo",
+          "latitude": -6.8057,
+          "longitude": 110.9262,
+          "translations": []
+        },
+        {
+          "id": 56303,
+          "name": "Jogonalan",
+          "latitude": -7.70361,
+          "longitude": 110.53611,
+          "translations": []
+        },
+        {
+          "id": 56305,
+          "name": "Juwana",
+          "latitude": -6.715,
+          "longitude": 111.1514,
+          "translations": []
+        },
+        {
+          "id": 56336,
+          "name": "Kabupaten Banjarnegara",
+          "latitude": -7.35111,
+          "longitude": 109.5875,
+          "translations": []
+        },
+        {
+          "id": 56339,
+          "name": "Kabupaten Banyumas",
+          "latitude": -7.45,
+          "longitude": 109.16667,
+          "translations": []
+        },
+        {
+          "id": 56346,
+          "name": "Kabupaten Batang",
+          "latitude": -7.03333,
+          "longitude": 109.88333,
+          "translations": []
+        },
+        {
+          "id": 56364,
+          "name": "Kabupaten Blora",
+          "latitude": -7.06667,
+          "longitude": 111.38333,
+          "translations": []
+        },
+        {
+          "id": 56377,
+          "name": "Kabupaten Boyolali",
+          "latitude": -7.5,
+          "longitude": 110.7,
+          "translations": []
+        },
+        {
+          "id": 56378,
+          "name": "Kabupaten Brebes",
+          "latitude": -7.05,
+          "longitude": 108.9,
+          "translations": []
+        },
+        {
+          "id": 56392,
+          "name": "Kabupaten Cilacap",
+          "latitude": -7.57417,
+          "longitude": 108.98861,
+          "translations": []
+        },
+        {
+          "id": 56397,
+          "name": "Kabupaten Demak",
+          "latitude": -6.8993,
+          "longitude": 110.6122,
+          "translations": []
+        },
+        {
+          "id": 56413,
+          "name": "Kabupaten Grobogan",
+          "latitude": -7.11667,
+          "longitude": 110.91667,
+          "translations": []
+        },
+        {
+          "id": 56433,
+          "name": "Kabupaten Jepara",
+          "latitude": -6.58333,
+          "longitude": 110.76667,
+          "translations": []
+        },
+        {
+          "id": 56439,
+          "name": "Kabupaten Karanganyar",
+          "latitude": -7.62806,
+          "longitude": 111.0625,
+          "translations": []
+        },
+        {
+          "id": 56445,
+          "name": "Kabupaten Kebumen",
+          "latitude": -7.63917,
+          "longitude": 109.66056,
+          "translations": []
+        },
+        {
+          "id": 56448,
+          "name": "Kabupaten Kendal",
+          "latitude": -7.0256,
+          "longitude": 110.1685,
+          "translations": []
+        },
+        {
+          "id": 56459,
+          "name": "Kabupaten Klaten",
+          "latitude": -7.68333,
+          "longitude": 110.61667,
+          "translations": []
+        },
+        {
+          "id": 56472,
+          "name": "Kabupaten Kudus",
+          "latitude": -6.8,
+          "longitude": 110.86667,
+          "translations": []
+        },
+        {
+          "id": 56505,
+          "name": "Kabupaten Magelang",
+          "latitude": -7.4275,
+          "longitude": 110.16194,
+          "translations": []
+        },
+        {
+          "id": 56583,
+          "name": "Kabupaten Pati",
+          "latitude": -6.76667,
+          "longitude": 111.1,
+          "translations": []
+        },
+        {
+          "id": 56585,
+          "name": "Kabupaten Pekalongan",
+          "latitude": -7.0319,
+          "longitude": 109.624,
+          "translations": []
+        },
+        {
+          "id": 56587,
+          "name": "Kabupaten Pemalang",
+          "latitude": -7.03333,
+          "longitude": 109.4,
+          "translations": []
+        },
+        {
+          "id": 56605,
+          "name": "Kabupaten Purbalingga",
+          "latitude": -7.28417,
+          "longitude": 109.35028,
+          "translations": []
+        },
+        {
+          "id": 56607,
+          "name": "Kabupaten Purworejo",
+          "latitude": -7.7,
+          "longitude": 109.96667,
+          "translations": []
+        },
+        {
+          "id": 56610,
+          "name": "Kabupaten Rembang",
+          "latitude": -6.78333,
+          "longitude": 111.46667,
+          "translations": []
+        },
+        {
+          "id": 56620,
+          "name": "Kabupaten Semarang",
+          "latitude": -7.20667,
+          "longitude": 110.44139,
+          "translations": []
+        },
+        {
+          "id": 56643,
+          "name": "Kabupaten Sragen",
+          "latitude": -7.41278,
+          "longitude": 110.935,
+          "translations": []
+        },
+        {
+          "id": 56647,
+          "name": "Kabupaten Sukoharjo",
+          "latitude": -7.68333,
+          "longitude": 110.83333,
+          "translations": []
+        },
+        {
+          "id": 56676,
+          "name": "Kabupaten Tegal",
+          "latitude": -7.03333,
+          "longitude": 109.16667,
+          "translations": []
+        },
+        {
+          "id": 56679,
+          "name": "Kabupaten Temanggung",
+          "latitude": -7.25,
+          "longitude": 110.11667,
+          "translations": []
+        },
+        {
+          "id": 56692,
+          "name": "Kabupaten Wonogiri",
+          "latitude": -7.91667,
+          "longitude": 111,
+          "translations": []
+        },
+        {
+          "id": 56693,
+          "name": "Kabupaten Wonosobo",
+          "latitude": -7.36139,
+          "longitude": 109.92667,
+          "translations": []
+        },
+        {
+          "id": 56699,
+          "name": "Karanganom",
+          "latitude": -7.64889,
+          "longitude": 110.625,
+          "translations": []
+        },
+        {
+          "id": 56701,
+          "name": "Kartasura",
+          "latitude": -7.55194,
+          "longitude": 110.73778,
+          "translations": []
+        },
+        {
+          "id": 56706,
+          "name": "Kebonarun",
+          "latitude": -7.70028,
+          "longitude": 110.56306,
+          "translations": []
+        },
+        {
+          "id": 56709,
+          "name": "Kedungwuni",
+          "latitude": -6.97038,
+          "longitude": 109.64794,
+          "translations": []
+        },
+        {
+          "id": 56715,
+          "name": "Ketanggungan",
+          "latitude": -6.9383,
+          "longitude": 108.891,
+          "translations": []
+        },
+        {
+          "id": 56719,
+          "name": "Klaten",
+          "latitude": -7.70583,
+          "longitude": 110.60639,
+          "translations": []
+        },
+        {
+          "id": 56821,
+          "name": "Kroya",
+          "latitude": -7.63306,
+          "longitude": 109.24611,
+          "translations": []
+        },
+        {
+          "id": 56824,
+          "name": "Kudus",
+          "latitude": -6.8048,
+          "longitude": 110.8405,
+          "translations": []
+        },
+        {
+          "id": 56828,
+          "name": "Kutoarjo",
+          "latitude": -7.71694,
+          "longitude": 109.91278,
+          "translations": []
+        },
+        {
+          "id": 56838,
+          "name": "Lasem",
+          "latitude": -6.6922,
+          "longitude": 111.4527,
+          "translations": []
+        },
+        {
+          "id": 56840,
+          "name": "Lebaksiu",
+          "latitude": -7.0496,
+          "longitude": 109.1441,
+          "translations": []
+        },
+        {
+          "id": 56851,
+          "name": "Magelang",
+          "latitude": -7.47056,
+          "longitude": 110.21778,
+          "translations": []
+        },
+        {
+          "id": 56853,
+          "name": "Majenang",
+          "latitude": -7.2975,
+          "longitude": 108.7642,
+          "translations": []
+        },
+        {
+          "id": 56862,
+          "name": "Margasari",
+          "latitude": -7.1,
+          "longitude": 109.01667,
+          "translations": []
+        },
+        {
+          "id": 56870,
+          "name": "Mertoyudan",
+          "latitude": -7.52,
+          "longitude": 110.22639,
+          "translations": []
+        },
+        {
+          "id": 56873,
+          "name": "Mlonggo",
+          "latitude": -6.53333,
+          "longitude": 110.7,
+          "translations": []
+        },
+        {
+          "id": 56877,
+          "name": "Mranggen",
+          "latitude": -7.0268,
+          "longitude": 110.5158,
+          "translations": []
+        },
+        {
+          "id": 56880,
+          "name": "Muntilan",
+          "latitude": -7.58111,
+          "longitude": 110.29278,
+          "translations": []
+        },
+        {
+          "id": 56887,
+          "name": "Ngemplak",
+          "latitude": -7.54972,
+          "longitude": 110.71639,
+          "translations": []
+        },
+        {
+          "id": 56922,
+          "name": "Pati",
+          "latitude": -6.7559,
+          "longitude": 111.038,
+          "translations": []
+        },
+        {
+          "id": 56924,
+          "name": "Pecangaan",
+          "latitude": -6.6978,
+          "longitude": 110.7107,
+          "translations": []
+        },
+        {
+          "id": 56925,
+          "name": "Pekalongan",
+          "latitude": -6.8886,
+          "longitude": 109.6753,
+          "translations": []
+        },
+        {
+          "id": 56929,
+          "name": "Pemalang",
+          "latitude": -6.89193,
+          "longitude": 109.38263,
+          "translations": []
+        },
+        {
+          "id": 56944,
+          "name": "Purbalingga",
+          "latitude": -7.38806,
+          "longitude": 109.36389,
+          "translations": []
+        },
+        {
+          "id": 56946,
+          "name": "Purwodadi",
+          "latitude": -7.0868,
+          "longitude": 110.9158,
+          "translations": []
+        },
+        {
+          "id": 56947,
+          "name": "Purwokerto",
+          "latitude": -7.42139,
+          "longitude": 109.23444,
+          "translations": []
+        },
+        {
+          "id": 56949,
+          "name": "Randudongkal",
+          "latitude": -7.0981,
+          "longitude": 109.3243,
+          "translations": []
+        },
+        {
+          "id": 56953,
+          "name": "Rembangan",
+          "latitude": -6.7036,
+          "longitude": 111.3416,
+          "translations": []
+        },
+        {
+          "id": 56958,
+          "name": "Salatiga",
+          "latitude": -7.33194,
+          "longitude": 110.49278,
+          "translations": []
+        },
+        {
+          "id": 56964,
+          "name": "Selogiri",
+          "latitude": -7.78333,
+          "longitude": 110.86667,
+          "translations": []
+        },
+        {
+          "id": 56965,
+          "name": "Semarang",
+          "latitude": -6.99306,
+          "longitude": 110.42083,
+          "translations": []
+        },
+        {
+          "id": 56974,
+          "name": "Sidareja",
+          "latitude": -7.4846,
+          "longitude": 108.7923,
+          "translations": []
+        },
+        {
+          "id": 56987,
+          "name": "Slawi",
+          "latitude": -6.9816,
+          "longitude": 109.1407,
+          "translations": []
+        },
+        {
+          "id": 56991,
+          "name": "Sokaraja",
+          "latitude": -7.45806,
+          "longitude": 109.28806,
+          "translations": []
+        },
+        {
+          "id": 56997,
+          "name": "Sragen",
+          "latitude": -7.42639,
+          "longitude": 111.02222,
+          "translations": []
+        },
+        {
+          "id": 57012,
+          "name": "Surakarta",
+          "latitude": -7.55611,
+          "longitude": 110.83167,
+          "translations": []
+        },
+        {
+          "id": 57024,
+          "name": "Tarub",
+          "latitude": -6.93333,
+          "longitude": 109.16667,
+          "translations": []
+        },
+        {
+          "id": 57026,
+          "name": "Tayu",
+          "latitude": -6.5397,
+          "longitude": 111.0518,
+          "translations": []
+        },
+        {
+          "id": 57028,
+          "name": "Tegal",
+          "latitude": -6.8694,
+          "longitude": 109.1402,
+          "translations": []
+        },
+        {
+          "id": 57040,
+          "name": "Trucuk",
+          "latitude": -7.71833,
+          "longitude": 110.65889,
+          "translations": []
+        },
+        {
+          "id": 57047,
+          "name": "Ungaran",
+          "latitude": -7.13972,
+          "longitude": 110.405,
+          "translations": []
+        },
+        {
+          "id": 57051,
+          "name": "Wangon",
+          "latitude": -7.51611,
+          "longitude": 109.05389,
+          "translations": []
+        },
+        {
+          "id": 57053,
+          "name": "Wedi",
+          "latitude": -7.74306,
+          "longitude": 110.57944,
+          "translations": []
+        },
+        {
+          "id": 57054,
+          "name": "Welahan",
+          "latitude": -6.8,
+          "longitude": 110.71667,
+          "translations": []
+        },
+        {
+          "id": 57055,
+          "name": "Weleri",
+          "latitude": -6.9713,
+          "longitude": 110.0666,
+          "translations": []
+        },
+        {
+          "id": 57057,
+          "name": "Wiradesa",
+          "latitude": -6.8922,
+          "longitude": 109.619,
+          "translations": []
+        },
+        {
+          "id": 57059,
+          "name": "Wonopringgo",
+          "latitude": -6.98333,
+          "longitude": 109.61667,
+          "translations": []
+        },
+        {
+          "id": 57060,
+          "name": "Wonosobo",
+          "latitude": -7.35889,
+          "longitude": 109.90306,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1804,
+      "name": "Kalimantan Timur",
+      "stateCode": "KI",
+      "latitude": 0.5386586,
+      "longitude": 116.419389,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56190,
+          "name": "Balikpapan",
+          "latitude": -1.26753,
+          "longitude": 116.82887,
+          "translations": []
+        },
+        {
+          "id": 56229,
+          "name": "Bontang",
+          "latitude": 0.1324,
+          "longitude": 117.4854,
+          "translations": []
+        },
+        {
+          "id": 56254,
+          "name": "City of Balikpapan",
+          "latitude": -1.24204,
+          "longitude": 116.89419,
+          "translations": []
+        },
+        {
+          "id": 56358,
+          "name": "Kabupaten Berau",
+          "latitude": 2,
+          "longitude": 117.3,
+          "translations": []
+        },
+        {
+          "id": 56476,
+          "name": "Kabupaten Kutai Barat",
+          "latitude": -0.59417,
+          "longitude": 115.51575,
+          "translations": []
+        },
+        {
+          "id": 56477,
+          "name": "Kabupaten Kutai Kartanegara",
+          "latitude": -0.44019,
+          "longitude": 116.98139,
+          "translations": []
+        },
+        {
+          "id": 56478,
+          "name": "Kabupaten Kutai Timur",
+          "latitude": 1.03769,
+          "longitude": 117.83112,
+          "translations": []
+        },
+        {
+          "id": 56507,
+          "name": "Kabupaten Mahakam Hulu",
+          "latitude": 0.37822,
+          "longitude": 115.38048,
+          "translations": []
+        },
+        {
+          "id": 56581,
+          "name": "Kabupaten Paser",
+          "latitude": -1.43517,
+          "longitude": 116.23535,
+          "translations": []
+        },
+        {
+          "id": 56588,
+          "name": "Kabupaten Penajam Paser Utara",
+          "latitude": -1.25,
+          "longitude": 116.83333,
+          "translations": []
+        },
+        {
+          "id": 56845,
+          "name": "Loa Janan",
+          "latitude": -0.58295,
+          "longitude": 117.09503,
+          "translations": []
+        },
+        {
+          "id": 56959,
+          "name": "Samarinda",
+          "latitude": -0.49167,
+          "longitude": 117.14583,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1805,
+      "name": "DKI Jakarta",
+      "stateCode": "JK",
+      "latitude": -6.2087634,
+      "longitude": 106.845599,
+      "type": "capital district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154470,
+          "name": "Jakarta Pusat",
+          "latitude": -6.1822261,
+          "longitude": 106.7952648,
+          "translations": []
+        },
+        {
+          "id": 154471,
+          "name": "Jakarta Selatan",
+          "latitude": -6.2839295,
+          "longitude": 106.7196773,
+          "translations": []
+        },
+        {
+          "id": 154472,
+          "name": "Jakarta Utara",
+          "latitude": -6.135709,
+          "longitude": 106.7594984,
+          "translations": []
+        },
+        {
+          "id": 154473,
+          "name": "Jakarta Timur",
+          "latitude": -6.260971,
+          "longitude": 106.822618,
+          "translations": []
+        },
+        {
+          "id": 154474,
+          "name": "Jakarta Barat",
+          "latitude": -6.1599916,
+          "longitude": 106.6748574,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1806,
+      "name": "Kalimantan Barat",
+      "stateCode": "KB",
+      "latitude": 0.4773475,
+      "longitude": 106.6131405,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 150090,
+          "name": "Bengkayang",
+          "latitude": 1.06911,
+          "longitude": 109.66393,
+          "translations": []
+        },
+        {
+          "id": 150091,
+          "name": "Kapuas Hulu",
+          "latitude": 0.83333,
+          "longitude": 112.8,
+          "translations": []
+        },
+        {
+          "id": 150092,
+          "name": "Kayong Utara",
+          "latitude": -1.06023,
+          "longitude": 110.10402,
+          "translations": []
+        },
+        {
+          "id": 150093,
+          "name": "Ketapang",
+          "latitude": -1.85,
+          "longitude": 109.98333333,
+          "translations": []
+        },
+        {
+          "id": 150094,
+          "name": "Kubu Raya",
+          "latitude": -0.31924,
+          "longitude": 109.51865,
+          "translations": []
+        },
+        {
+          "id": 150095,
+          "name": "Landak",
+          "latitude": 0.42373,
+          "longitude": 109.75917,
+          "translations": []
+        },
+        {
+          "id": 150096,
+          "name": "Manismata",
+          "latitude": -2.46666667,
+          "longitude": 111.03333333,
+          "translations": []
+        },
+        {
+          "id": 150097,
+          "name": "Melawi",
+          "latitude": -0.33617,
+          "longitude": 111.698,
+          "translations": []
+        },
+        {
+          "id": 150098,
+          "name": "Mempawah",
+          "latitude": 0.25,
+          "longitude": 109.16667,
+          "translations": []
+        },
+        {
+          "id": 150099,
+          "name": "Pemangkat",
+          "latitude": 1.1768,
+          "longitude": 108.9624,
+          "translations": []
+        },
+        {
+          "id": 150100,
+          "name": "Pontianak",
+          "latitude": -0.02055556,
+          "longitude": 109.34138889,
+          "translations": []
+        },
+        {
+          "id": 150101,
+          "name": "Sambas",
+          "latitude": 1.43333,
+          "longitude": 109.35,
+          "translations": []
+        },
+        {
+          "id": 150102,
+          "name": "Sanggau",
+          "latitude": 0.11944444,
+          "longitude": 110.58888889,
+          "translations": []
+        },
+        {
+          "id": 150103,
+          "name": "Sekadau",
+          "latitude": 0.03485,
+          "longitude": 110.95066,
+          "translations": []
+        },
+        {
+          "id": 150104,
+          "name": "Singkawang",
+          "latitude": 0.9,
+          "longitude": 108.98333333,
+          "translations": []
+        },
+        {
+          "id": 150105,
+          "name": "Sintang",
+          "latitude": 0.06805556,
+          "longitude": 111.49805556,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1807,
+      "name": "Kepulauan Riau",
+      "stateCode": "KR",
+      "latitude": 3.9456514,
+      "longitude": 108.1428669,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56361,
+          "name": "Kabupaten Bintan",
+          "latitude": 0.95,
+          "longitude": 104.61944,
+          "translations": []
+        },
+        {
+          "id": 56441,
+          "name": "Kabupaten Karimun",
+          "latitude": 0.80764,
+          "longitude": 103.41911,
+          "translations": []
+        },
+        {
+          "id": 56450,
+          "name": "Kabupaten Kepulauan Anambas",
+          "latitude": 3,
+          "longitude": 106,
+          "translations": []
+        },
+        {
+          "id": 56495,
+          "name": "Kabupaten Lingga",
+          "latitude": 0.2,
+          "longitude": 104.61667,
+          "translations": []
+        },
+        {
+          "id": 56554,
+          "name": "Kabupaten Natuna",
+          "latitude": 4.71417,
+          "longitude": 107.97639,
+          "translations": []
+        },
+        {
+          "id": 56716,
+          "name": "Kijang",
+          "latitude": 0.9,
+          "longitude": 104.63333,
+          "translations": []
+        },
+        {
+          "id": 57018,
+          "name": "Tanjung Pinang",
+          "latitude": 0.91667,
+          "longitude": 104.45833,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1808,
+      "name": "Sulawesi Utara",
+      "stateCode": "SA",
+      "latitude": 0.6246932,
+      "longitude": 123.9750018,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56368,
+          "name": "Kabupaten Bolaang Mongondow",
+          "latitude": 0.75,
+          "longitude": 124.08333,
+          "translations": []
+        },
+        {
+          "id": 56369,
+          "name": "Kabupaten Bolaang Mongondow Selatan",
+          "latitude": 0.40912,
+          "longitude": 123.75961,
+          "translations": []
+        },
+        {
+          "id": 56370,
+          "name": "Kabupaten Bolaang Mongondow Timur",
+          "latitude": 0.72073,
+          "longitude": 124.50256,
+          "translations": []
+        },
+        {
+          "id": 56371,
+          "name": "Kabupaten Bolaang Mongondow Utara",
+          "latitude": 0.78527,
+          "longitude": 123.41766,
+          "translations": []
+        },
+        {
+          "id": 56454,
+          "name": "Kabupaten Kepulauan Sangihe",
+          "latitude": 3.5,
+          "longitude": 125.55,
+          "translations": []
+        },
+        {
+          "id": 56456,
+          "name": "Kabupaten Kepulauan Talaud",
+          "latitude": 4.31178,
+          "longitude": 126.78085,
+          "translations": []
+        },
+        {
+          "id": 56536,
+          "name": "Kabupaten Minahasa",
+          "latitude": 1.2537,
+          "longitude": 124.83,
+          "translations": []
+        },
+        {
+          "id": 56537,
+          "name": "Kabupaten Minahasa Selatan",
+          "latitude": 1.21291,
+          "longitude": 124.59708,
+          "translations": []
+        },
+        {
+          "id": 56538,
+          "name": "Kabupaten Minahasa Tenggara",
+          "latitude": 1.05633,
+          "longitude": 124.7925,
+          "translations": []
+        },
+        {
+          "id": 56539,
+          "name": "Kabupaten Minahasa Utara",
+          "latitude": 1.4025,
+          "longitude": 124.96,
+          "translations": []
+        },
+        {
+          "id": 56627,
+          "name": "Kabupaten Siau Tagulandang Biaro",
+          "latitude": 2.11728,
+          "longitude": 125.37512,
+          "translations": []
+        },
+        {
+          "id": 56835,
+          "name": "Laikit Laikit II (Dimembe)",
+          "latitude": 1.48833,
+          "longitude": 124.97444,
+          "translations": []
+        },
+        {
+          "id": 56858,
+          "name": "Manado",
+          "latitude": 1.48218,
+          "longitude": 124.84892,
+          "translations": []
+        },
+        {
+          "id": 57035,
+          "name": "Tomohon",
+          "latitude": 1.31678,
+          "longitude": 124.80379,
+          "translations": []
+        },
+        {
+          "id": 57037,
+          "name": "Tondano",
+          "latitude": 1.3054,
+          "longitude": 124.91261,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1809,
+      "name": "Riau",
+      "stateCode": "RI",
+      "latitude": 0.2933469,
+      "longitude": 101.7068294,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56188,
+          "name": "Balaipungut",
+          "latitude": 1.05949,
+          "longitude": 101.29054,
+          "translations": []
+        },
+        {
+          "id": 56208,
+          "name": "Batam",
+          "latitude": 1.14937,
+          "longitude": 104.02491,
+          "translations": []
+        },
+        {
+          "id": 56270,
+          "name": "Dumai",
+          "latitude": 1.66711,
+          "longitude": 101.44316,
+          "translations": []
+        },
+        {
+          "id": 56354,
+          "name": "Kabupaten Bengkalis",
+          "latitude": 0.9838,
+          "longitude": 102.5096,
+          "translations": []
+        },
+        {
+          "id": 56424,
+          "name": "Kabupaten Indragiri Hilir",
+          "latitude": -0.33333,
+          "longitude": 103.16667,
+          "translations": []
+        },
+        {
+          "id": 56425,
+          "name": "Kabupaten Indragiri Hulu",
+          "latitude": -0.55,
+          "longitude": 102.31667,
+          "translations": []
+        },
+        {
+          "id": 56436,
+          "name": "Kabupaten Kampar",
+          "latitude": 0.2344,
+          "longitude": 101.2131,
+          "translations": []
+        },
+        {
+          "id": 56453,
+          "name": "Kabupaten Kepulauan Meranti",
+          "latitude": 0.97488,
+          "longitude": 102.69539,
+          "translations": []
+        },
+        {
+          "id": 56471,
+          "name": "Kabupaten Kuantan Singingi",
+          "latitude": -0.47532,
+          "longitude": 101.45857,
+          "translations": []
+        },
+        {
+          "id": 56586,
+          "name": "Kabupaten Pelalawan",
+          "latitude": 0.20822,
+          "longitude": 102.18607,
+          "translations": []
+        },
+        {
+          "id": 56611,
+          "name": "Kabupaten Rokan Hilir",
+          "latitude": 2.16599,
+          "longitude": 100.82514,
+          "translations": []
+        },
+        {
+          "id": 56612,
+          "name": "Kabupaten Rokan Hulu",
+          "latitude": 0.88333,
+          "longitude": 100.48333,
+          "translations": []
+        },
+        {
+          "id": 56626,
+          "name": "Kabupaten Siak",
+          "latitude": 0.97453,
+          "longitude": 102.01355,
+          "translations": []
+        },
+        {
+          "id": 56927,
+          "name": "Pekanbaru",
+          "latitude": 0.51667,
+          "longitude": 101.44167,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1810,
+      "name": "Banten",
+      "stateCode": "BT",
+      "latitude": -6.4058172,
+      "longitude": 106.0640179,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56257,
+          "name": "Kota Cilegon",
+          "latitude": -5.9684985,
+          "longitude": 105.9214232,
+          "translations": []
+        },
+        {
+          "id": 56491,
+          "name": "Kabupaten Lebak",
+          "latitude": -6.65,
+          "longitude": 106.21667,
+          "translations": []
+        },
+        {
+          "id": 56574,
+          "name": "Kabupaten Pandeglang",
+          "latitude": -6.63333,
+          "longitude": 105.75,
+          "translations": []
+        },
+        {
+          "id": 56623,
+          "name": "Kabupaten Serang",
+          "latitude": -6.15,
+          "longitude": 106,
+          "translations": []
+        },
+        {
+          "id": 56666,
+          "name": "Kabupaten Tangerang",
+          "latitude": -6.2,
+          "longitude": 106.46667,
+          "translations": []
+        },
+        {
+          "id": 56969,
+          "name": "Kota Serang",
+          "latitude": -6.11528,
+          "longitude": 106.15417,
+          "translations": []
+        },
+        {
+          "id": 56996,
+          "name": "Kota Tangerang Selatan",
+          "latitude": -6.28862,
+          "longitude": 106.71789,
+          "translations": []
+        },
+        {
+          "id": 57014,
+          "name": "Kota Tangerang",
+          "latitude": -6.17806,
+          "longitude": 106.63,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1811,
+      "name": "Lampung",
+      "stateCode": "LA",
+      "latitude": -4.5585849,
+      "longitude": 105.4068079,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56195,
+          "name": "Bandar Lampung",
+          "latitude": -5.42917,
+          "longitude": 105.26111,
+          "translations": []
+        },
+        {
+          "id": 56484,
+          "name": "Kabupaten Lampung Barat",
+          "latitude": -5.14904,
+          "longitude": 104.19309,
+          "translations": []
+        },
+        {
+          "id": 56485,
+          "name": "Kabupaten Lampung Selatan",
+          "latitude": -5.4531,
+          "longitude": 104.9877,
+          "translations": []
+        },
+        {
+          "id": 56486,
+          "name": "Kabupaten Lampung Tengah",
+          "latitude": -4.86667,
+          "longitude": 105.26667,
+          "translations": []
+        },
+        {
+          "id": 56487,
+          "name": "Kabupaten Lampung Timur",
+          "latitude": -5.10273,
+          "longitude": 105.68003,
+          "translations": []
+        },
+        {
+          "id": 56488,
+          "name": "Kabupaten Lampung Utara",
+          "latitude": -4.81667,
+          "longitude": 104.8,
+          "translations": []
+        },
+        {
+          "id": 56534,
+          "name": "Kabupaten Mesuji",
+          "latitude": -4.0439,
+          "longitude": 105.4013,
+          "translations": []
+        },
+        {
+          "id": 56590,
+          "name": "Kabupaten Pesawaran",
+          "latitude": -5.4298,
+          "longitude": 105.17899,
+          "translations": []
+        },
+        {
+          "id": 56591,
+          "name": "Kabupaten Pesisir Barat",
+          "latitude": -5.19323,
+          "longitude": 103.93976,
+          "translations": []
+        },
+        {
+          "id": 56599,
+          "name": "Kabupaten Pringsewu",
+          "latitude": -5.42211,
+          "longitude": 104.93454,
+          "translations": []
+        },
+        {
+          "id": 56667,
+          "name": "Kabupaten Tanggamus",
+          "latitude": -5.38508,
+          "longitude": 104.62349,
+          "translations": []
+        },
+        {
+          "id": 56687,
+          "name": "Kabupaten Tulangbawang",
+          "latitude": -4.20604,
+          "longitude": 105.57999,
+          "translations": []
+        },
+        {
+          "id": 56691,
+          "name": "Kabupaten Way Kanan",
+          "latitude": -4.44705,
+          "longitude": 104.52753,
+          "translations": []
+        },
+        {
+          "id": 56817,
+          "name": "Kotabumi",
+          "latitude": -4.82505,
+          "longitude": 104.8817,
+          "translations": []
+        },
+        {
+          "id": 56871,
+          "name": "Metro",
+          "latitude": -5.11306,
+          "longitude": 105.30667,
+          "translations": []
+        },
+        {
+          "id": 57031,
+          "name": "Terbanggi Besar",
+          "latitude": -4.87898,
+          "longitude": 105.21818,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1812,
+      "name": "Gorontalo",
+      "stateCode": "GO",
+      "latitude": 0.5435442,
+      "longitude": 123.0567693,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56285,
+          "name": "Gorontalo",
+          "latitude": 0.5375,
+          "longitude": 123.0625,
+          "translations": []
+        },
+        {
+          "id": 56365,
+          "name": "Kabupaten Boalemo",
+          "latitude": 0.62689,
+          "longitude": 122.3568,
+          "translations": []
+        },
+        {
+          "id": 56375,
+          "name": "Kabupaten Bone Bolango",
+          "latitude": 0.50296,
+          "longitude": 123.27501,
+          "translations": []
+        },
+        {
+          "id": 56410,
+          "name": "Kabupaten Gorontalo",
+          "latitude": 0.5728,
+          "longitude": 122.2337,
+          "translations": []
+        },
+        {
+          "id": 56411,
+          "name": "Kabupaten Gorontalo Utara",
+          "latitude": 0.77,
+          "longitude": 122.31667,
+          "translations": []
+        },
+        {
+          "id": 56595,
+          "name": "Kabupaten Pohuwato",
+          "latitude": 0.7098,
+          "longitude": 121.59582,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1813,
+      "name": "Sulawesi Tengah",
+      "stateCode": "ST",
+      "latitude": -1.4300254,
+      "longitude": 121.4456179,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56326,
+          "name": "Kabupaten Banggai",
+          "latitude": -0.91141,
+          "longitude": 122.71836,
+          "translations": []
+        },
+        {
+          "id": 56327,
+          "name": "Kabupaten Banggai Kepulauan",
+          "latitude": -1.30236,
+          "longitude": 123.03726,
+          "translations": []
+        },
+        {
+          "id": 56328,
+          "name": "Kabupaten Banggai Laut",
+          "latitude": -1.61841,
+          "longitude": 123.49388,
+          "translations": []
+        },
+        {
+          "id": 56383,
+          "name": "Kabupaten Buol",
+          "latitude": 1.04656,
+          "longitude": 121.36867,
+          "translations": []
+        },
+        {
+          "id": 56401,
+          "name": "Kabupaten Donggala",
+          "latitude": -0.58333,
+          "longitude": 119.85,
+          "translations": []
+        },
+        {
+          "id": 56541,
+          "name": "Kabupaten Morowali Utara",
+          "latitude": -1.7207,
+          "longitude": 121.24649,
+          "translations": []
+        },
+        {
+          "id": 56578,
+          "name": "Kabupaten Parigi Moutong",
+          "latitude": 0.3368,
+          "longitude": 120.17841,
+          "translations": []
+        },
+        {
+          "id": 56598,
+          "name": "Kabupaten Poso",
+          "latitude": -1.65,
+          "longitude": 120.5,
+          "translations": []
+        },
+        {
+          "id": 56630,
+          "name": "Kabupaten Sigi",
+          "latitude": -1.385,
+          "longitude": 119.96694,
+          "translations": []
+        },
+        {
+          "id": 56682,
+          "name": "Kabupaten Toli-Toli",
+          "latitude": 1.30862,
+          "longitude": 120.88643,
+          "translations": []
+        },
+        {
+          "id": 56849,
+          "name": "Luwuk",
+          "latitude": -0.9516,
+          "longitude": 122.7875,
+          "translations": []
+        },
+        {
+          "id": 56876,
+          "name": "Morowali Regency",
+          "latitude": -2.76062,
+          "longitude": 121.95267,
+          "translations": []
+        },
+        {
+          "id": 56901,
+          "name": "Palu",
+          "latitude": -0.90833,
+          "longitude": 119.87083,
+          "translations": []
+        },
+        {
+          "id": 56937,
+          "name": "Poso",
+          "latitude": -1.3959,
+          "longitude": 120.7524,
+          "translations": []
+        },
+        {
+          "id": 57034,
+          "name": "Tojo Una-Una Regency",
+          "latitude": -1.2036,
+          "longitude": 121.48201,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1814,
+      "name": "Nusa Tenggara Barat",
+      "stateCode": "NB",
+      "latitude": -8.6529334,
+      "longitude": 117.3616476,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56221,
+          "name": "Bima",
+          "latitude": -8.46006,
+          "longitude": 118.72667,
+          "translations": []
+        },
+        {
+          "id": 56267,
+          "name": "Dompu",
+          "latitude": -8.5365,
+          "longitude": 118.4634,
+          "translations": []
+        },
+        {
+          "id": 56281,
+          "name": "Gili Air",
+          "latitude": -8.35783,
+          "longitude": 116.0824,
+          "translations": []
+        },
+        {
+          "id": 56360,
+          "name": "Kabupaten Bima",
+          "latitude": -8.6,
+          "longitude": 118.61667,
+          "translations": []
+        },
+        {
+          "id": 56400,
+          "name": "Kabupaten Dompu",
+          "latitude": -8.5094,
+          "longitude": 118.4816,
+          "translations": []
+        },
+        {
+          "id": 56496,
+          "name": "Kabupaten Lombok Barat",
+          "latitude": -8.69583,
+          "longitude": 116.11667,
+          "translations": []
+        },
+        {
+          "id": 56497,
+          "name": "Kabupaten Lombok Tengah",
+          "latitude": -8.7,
+          "longitude": 116.3,
+          "translations": []
+        },
+        {
+          "id": 56498,
+          "name": "Kabupaten Lombok Timur",
+          "latitude": -8.53333,
+          "longitude": 116.53333,
+          "translations": []
+        },
+        {
+          "id": 56499,
+          "name": "Kabupaten Lombok Utara",
+          "latitude": -8.35214,
+          "longitude": 116.40152,
+          "translations": []
+        },
+        {
+          "id": 56652,
+          "name": "Kabupaten Sumbawa",
+          "latitude": -8.7439,
+          "longitude": 117.3324,
+          "translations": []
+        },
+        {
+          "id": 56653,
+          "name": "Kabupaten Sumbawa Barat",
+          "latitude": -8.75159,
+          "longitude": 116.92132,
+          "translations": []
+        },
+        {
+          "id": 56831,
+          "name": "Labuan Lombok",
+          "latitude": -8.5,
+          "longitude": 116.66667,
+          "translations": []
+        },
+        {
+          "id": 56843,
+          "name": "Lembar",
+          "latitude": -8.7264,
+          "longitude": 116.0744,
+          "translations": []
+        },
+        {
+          "id": 56865,
+          "name": "Mataram",
+          "latitude": -8.58333,
+          "longitude": 116.11667,
+          "translations": []
+        },
+        {
+          "id": 56931,
+          "name": "Pemenang",
+          "latitude": -8.40401,
+          "longitude": 116.10255,
+          "translations": []
+        },
+        {
+          "id": 56938,
+          "name": "Pototano",
+          "latitude": -8.4126,
+          "longitude": 117.4811,
+          "translations": []
+        },
+        {
+          "id": 56940,
+          "name": "Praya",
+          "latitude": -8.70536,
+          "longitude": 116.27036,
+          "translations": []
+        },
+        {
+          "id": 56966,
+          "name": "Senggigi",
+          "latitude": -8.4919,
+          "longitude": 116.0424,
+          "translations": []
+        },
+        {
+          "id": 57002,
+          "name": "Sumbawa Besar",
+          "latitude": -8.49317,
+          "longitude": 117.42024,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1815,
+      "name": "Jambi",
+      "stateCode": "JA",
+      "latitude": -1.6101229,
+      "longitude": 103.6131203,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56214,
+          "name": "Bejubang Dua",
+          "latitude": -1.7923,
+          "longitude": 103.3167,
+          "translations": []
+        },
+        {
+          "id": 56294,
+          "name": "Jambi City",
+          "latitude": -1.6,
+          "longitude": 103.61667,
+          "translations": []
+        },
+        {
+          "id": 56347,
+          "name": "Kabupaten Batang Hari",
+          "latitude": -1.75,
+          "longitude": 103.11667,
+          "translations": []
+        },
+        {
+          "id": 56382,
+          "name": "Kabupaten Bungo",
+          "latitude": -1.50222,
+          "longitude": 101.96,
+          "translations": []
+        },
+        {
+          "id": 56458,
+          "name": "Kabupaten Kerinci",
+          "latitude": -2.03333,
+          "longitude": 101.53333,
+          "translations": []
+        },
+        {
+          "id": 56532,
+          "name": "Kabupaten Merangin",
+          "latitude": -2.06933,
+          "longitude": 102.13303,
+          "translations": []
+        },
+        {
+          "id": 56543,
+          "name": "Kabupaten Muaro Jambi",
+          "latitude": -1.55214,
+          "longitude": 103.82163,
+          "translations": []
+        },
+        {
+          "id": 56618,
+          "name": "Kabupaten Sarolangun",
+          "latitude": -2.3,
+          "longitude": 102.65,
+          "translations": []
+        },
+        {
+          "id": 56668,
+          "name": "Kabupaten Tanjung Jabung Barat",
+          "latitude": -1.1544,
+          "longitude": 103.24402,
+          "translations": []
+        },
+        {
+          "id": 56669,
+          "name": "Kabupaten Tanjung Jabung Timur",
+          "latitude": -1.13198,
+          "longitude": 103.61755,
+          "translations": []
+        },
+        {
+          "id": 56675,
+          "name": "Kabupaten Tebo",
+          "latitude": -1.45576,
+          "longitude": 102.37473,
+          "translations": []
+        },
+        {
+          "id": 56822,
+          "name": "Kuala Tungkal",
+          "latitude": -0.81623,
+          "longitude": 103.46111,
+          "translations": []
+        },
+        {
+          "id": 56869,
+          "name": "Mendaha",
+          "latitude": -1.0163,
+          "longitude": 103.59331,
+          "translations": []
+        },
+        {
+          "id": 56978,
+          "name": "Simpang",
+          "latitude": -1.26424,
+          "longitude": 104.09701,
+          "translations": []
+        },
+        {
+          "id": 57008,
+          "name": "Sungai Penuh",
+          "latitude": -2.0561,
+          "longitude": 101.3913,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1816,
+      "name": "Sumatera Selatan",
+      "stateCode": "SS",
+      "latitude": -3.3194374,
+      "longitude": 103.914399,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56212,
+          "name": "Baturaja",
+          "latitude": -4.12891,
+          "longitude": 104.16695,
+          "translations": []
+        },
+        {
+          "id": 56402,
+          "name": "Kabupaten Empat Lawang",
+          "latitude": 3.22667,
+          "longitude": 99.09256,
+          "translations": []
+        },
+        {
+          "id": 56542,
+          "name": "Kabupaten Muara Enim",
+          "latitude": -4.2327,
+          "longitude": 103.6141,
+          "translations": []
+        },
+        {
+          "id": 56548,
+          "name": "Kabupaten Musi Banyuasin",
+          "latitude": -2.41667,
+          "longitude": 103.75,
+          "translations": []
+        },
+        {
+          "id": 56549,
+          "name": "Kabupaten Musi Rawas",
+          "latitude": -3.08333,
+          "longitude": 103.2,
+          "translations": []
+        },
+        {
+          "id": 56550,
+          "name": "Kabupaten Musi Rawas Utara",
+          "latitude": -2.48533,
+          "longitude": 103.29346,
+          "translations": []
+        },
+        {
+          "id": 56563,
+          "name": "Kabupaten Ogan Ilir",
+          "latitude": -3.43186,
+          "longitude": 104.62727,
+          "translations": []
+        },
+        {
+          "id": 56564,
+          "name": "Kabupaten Ogan Komering Ilir",
+          "latitude": -3.36667,
+          "longitude": 105.36667,
+          "translations": []
+        },
+        {
+          "id": 56565,
+          "name": "Kabupaten Ogan Komering Ulu",
+          "latitude": -4.13333,
+          "longitude": 104.03333,
+          "translations": []
+        },
+        {
+          "id": 56566,
+          "name": "Kabupaten Ogan Komering Ulu Selatan",
+          "latitude": -4.65728,
+          "longitude": 104.00659,
+          "translations": []
+        },
+        {
+          "id": 56567,
+          "name": "Kabupaten Ogan Komering Ulu Timur",
+          "latitude": -3.85679,
+          "longitude": 104.75209,
+          "translations": []
+        },
+        {
+          "id": 56589,
+          "name": "Kabupaten Penukal Abab Lematang Ilir",
+          "latitude": -3.21342,
+          "longitude": 104.08722,
+          "translations": []
+        },
+        {
+          "id": 56833,
+          "name": "Lahat",
+          "latitude": -3.78514,
+          "longitude": 103.54279,
+          "translations": []
+        },
+        {
+          "id": 56834,
+          "name": "Lahat Regency",
+          "latitude": -3.7864,
+          "longitude": 103.5428,
+          "translations": []
+        },
+        {
+          "id": 56847,
+          "name": "Lubuklinggau",
+          "latitude": -3.2945,
+          "longitude": 102.8614,
+          "translations": []
+        },
+        {
+          "id": 56895,
+          "name": "Pagar Alam",
+          "latitude": -4.02506,
+          "longitude": 103.24694,
+          "translations": []
+        },
+        {
+          "id": 56898,
+          "name": "Palembang",
+          "latitude": -2.91673,
+          "longitude": 104.7458,
+          "translations": []
+        },
+        {
+          "id": 56939,
+          "name": "Prabumulih",
+          "latitude": -3.43447,
+          "longitude": 104.23056,
+          "translations": []
+        },
+        {
+          "id": 57020,
+          "name": "Tanjungagung",
+          "latitude": -3.93728,
+          "longitude": 103.80465,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1817,
+      "name": "Sulawesi Barat",
+      "stateCode": "SR",
+      "latitude": -2.8441371,
+      "longitude": 119.2320784,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56509,
+          "name": "Kabupaten Majene",
+          "latitude": -3.15,
+          "longitude": 118.86667,
+          "translations": []
+        },
+        {
+          "id": 56517,
+          "name": "Kabupaten Mamasa",
+          "latitude": -2.96492,
+          "longitude": 119.30631,
+          "translations": []
+        },
+        {
+          "id": 56520,
+          "name": "Kabupaten Mamuju",
+          "latitude": -2.5,
+          "longitude": 119.41667,
+          "translations": []
+        },
+        {
+          "id": 56521,
+          "name": "Kabupaten Mamuju Tengah",
+          "latitude": -2.8212,
+          "longitude": 119.2662,
+          "translations": []
+        },
+        {
+          "id": 56522,
+          "name": "Kabupaten Mamuju Utara",
+          "latitude": -1.51639,
+          "longitude": 119.42139,
+          "translations": []
+        },
+        {
+          "id": 56596,
+          "name": "Kabupaten Polewali Mandar",
+          "latitude": -3.3,
+          "longitude": 119.16667,
+          "translations": []
+        },
+        {
+          "id": 56854,
+          "name": "Majene",
+          "latitude": -3.5403,
+          "longitude": 118.9707,
+          "translations": []
+        },
+        {
+          "id": 56857,
+          "name": "Mamuju",
+          "latitude": -2.68056,
+          "longitude": 118.88611,
+          "translations": []
+        },
+        {
+          "id": 56935,
+          "name": "Polewali",
+          "latitude": -3.4324,
+          "longitude": 119.3435,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1818,
+      "name": "Nusa Tenggara Timur",
+      "stateCode": "NT",
+      "latitude": -8.6573819,
+      "longitude": 121.0793705,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56184,
+          "name": "Atambua",
+          "latitude": -9.10611,
+          "longitude": 124.8925,
+          "translations": []
+        },
+        {
+          "id": 56272,
+          "name": "Ende",
+          "latitude": -8.8432,
+          "longitude": 121.6623,
+          "translations": []
+        },
+        {
+          "id": 56319,
+          "name": "Kabupaten Alor",
+          "latitude": -8.3,
+          "longitude": 124.56667,
+          "translations": []
+        },
+        {
+          "id": 56352,
+          "name": "Kabupaten Belu",
+          "latitude": -9.41258,
+          "longitude": 124.95066,
+          "translations": []
+        },
+        {
+          "id": 56403,
+          "name": "Kabupaten Ende",
+          "latitude": -8.84056,
+          "longitude": 121.66389,
+          "translations": []
+        },
+        {
+          "id": 56406,
+          "name": "Kabupaten Flores Timur",
+          "latitude": -8.24224,
+          "longitude": 122.96817,
+          "translations": []
+        },
+        {
+          "id": 56475,
+          "name": "Kabupaten Kupang",
+          "latitude": -9.91667,
+          "longitude": 123.83333,
+          "translations": []
+        },
+        {
+          "id": 56493,
+          "name": "Kabupaten Lembata",
+          "latitude": -8.41396,
+          "longitude": 123.55225,
+          "translations": []
+        },
+        {
+          "id": 56510,
+          "name": "Kabupaten Malaka",
+          "latitude": -9.5632,
+          "longitude": 124.89481,
+          "translations": []
+        },
+        {
+          "id": 56524,
+          "name": "Kabupaten Manggarai",
+          "latitude": -8.56667,
+          "longitude": 120.41667,
+          "translations": []
+        },
+        {
+          "id": 56525,
+          "name": "Kabupaten Manggarai Barat",
+          "latitude": -8.64484,
+          "longitude": 119.88281,
+          "translations": []
+        },
+        {
+          "id": 56526,
+          "name": "Kabupaten Manggarai Timur",
+          "latitude": -8.55533,
+          "longitude": 120.59761,
+          "translations": []
+        },
+        {
+          "id": 56553,
+          "name": "Kabupaten Nagekeo",
+          "latitude": -8.8721,
+          "longitude": 121.20963,
+          "translations": []
+        },
+        {
+          "id": 56556,
+          "name": "Kabupaten Ngada",
+          "latitude": -8.66667,
+          "longitude": 121,
+          "translations": []
+        },
+        {
+          "id": 56613,
+          "name": "Kabupaten Rote Ndao",
+          "latitude": -10.73617,
+          "longitude": 123.12054,
+          "translations": []
+        },
+        {
+          "id": 56614,
+          "name": "Kabupaten Sabu Raijua",
+          "latitude": -10.56286,
+          "longitude": 121.78894,
+          "translations": []
+        },
+        {
+          "id": 56632,
+          "name": "Kabupaten Sikka",
+          "latitude": -8.66667,
+          "longitude": 122.36667,
+          "translations": []
+        },
+        {
+          "id": 56648,
+          "name": "Kabupaten Sumba Barat",
+          "latitude": -9.56667,
+          "longitude": 119.45,
+          "translations": []
+        },
+        {
+          "id": 56649,
+          "name": "Kabupaten Sumba Barat Daya",
+          "latitude": -9.56216,
+          "longitude": 119.08905,
+          "translations": []
+        },
+        {
+          "id": 56650,
+          "name": "Kabupaten Sumba Tengah",
+          "latitude": -9.62941,
+          "longitude": 119.61914,
+          "translations": []
+        },
+        {
+          "id": 56651,
+          "name": "Kabupaten Sumba Timur",
+          "latitude": -9.88333,
+          "longitude": 120.25,
+          "translations": []
+        },
+        {
+          "id": 56680,
+          "name": "Kabupaten Timor Tengah Selatan",
+          "latitude": -9.83333,
+          "longitude": 124.4,
+          "translations": []
+        },
+        {
+          "id": 56681,
+          "name": "Kabupaten Timor Tengah Utara",
+          "latitude": -9.33136,
+          "longitude": 124.51904,
+          "translations": []
+        },
+        {
+          "id": 56710,
+          "name": "Kefamenanu",
+          "latitude": -9.44667,
+          "longitude": 124.47806,
+          "translations": []
+        },
+        {
+          "id": 56721,
+          "name": "Komodo",
+          "latitude": -8.5895,
+          "longitude": 119.4913,
+          "translations": []
+        },
+        {
+          "id": 56826,
+          "name": "Kupang",
+          "latitude": -10.17083,
+          "longitude": 123.60694,
+          "translations": []
+        },
+        {
+          "id": 56830,
+          "name": "Labuan Bajo",
+          "latitude": -8.4964,
+          "longitude": 119.8877,
+          "translations": []
+        },
+        {
+          "id": 56866,
+          "name": "Maumere",
+          "latitude": -8.6199,
+          "longitude": 122.2111,
+          "translations": []
+        },
+        {
+          "id": 56883,
+          "name": "Naisano Dua",
+          "latitude": -9.59806,
+          "longitude": 123.77028,
+          "translations": []
+        },
+        {
+          "id": 56956,
+          "name": "Ruteng",
+          "latitude": -8.61139,
+          "longitude": 120.46444,
+          "translations": []
+        },
+        {
+          "id": 56989,
+          "name": "Soe",
+          "latitude": -9.86071,
+          "longitude": 124.28395,
+          "translations": []
+        },
+        {
+          "id": 57048,
+          "name": "Waingapu",
+          "latitude": -9.6567,
+          "longitude": 120.2641,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1819,
+      "name": "Kalimantan Selatan",
+      "stateCode": "KS",
+      "latitude": -3.0926415,
+      "longitude": 115.2837585,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56181,
+          "name": "Amuntai",
+          "latitude": -2.41773,
+          "longitude": 115.24941,
+          "translations": []
+        },
+        {
+          "id": 56203,
+          "name": "Banjarmasin",
+          "latitude": -3.31987,
+          "longitude": 114.59075,
+          "translations": []
+        },
+        {
+          "id": 56207,
+          "name": "Barabai",
+          "latitude": -2.58333,
+          "longitude": 115.38333,
+          "translations": []
+        },
+        {
+          "id": 56323,
+          "name": "Kabupaten Balangan",
+          "latitude": -2.32314,
+          "longitude": 115.62922,
+          "translations": []
+        },
+        {
+          "id": 56335,
+          "name": "Kabupaten Banjar",
+          "latitude": -3.31667,
+          "longitude": 115.08333,
+          "translations": []
+        },
+        {
+          "id": 56341,
+          "name": "Kabupaten Barito Kuala",
+          "latitude": -3.08333,
+          "longitude": 114.61667,
+          "translations": []
+        },
+        {
+          "id": 56420,
+          "name": "Kabupaten Hulu Sungai Selatan",
+          "latitude": -2.75,
+          "longitude": 115.2,
+          "translations": []
+        },
+        {
+          "id": 56421,
+          "name": "Kabupaten Hulu Sungai Tengah",
+          "latitude": -2.61667,
+          "longitude": 115.41667,
+          "translations": []
+        },
+        {
+          "id": 56422,
+          "name": "Kabupaten Hulu Sungai Utara",
+          "latitude": -2.45,
+          "longitude": 115.13333,
+          "translations": []
+        },
+        {
+          "id": 56468,
+          "name": "Kabupaten Kota Baru",
+          "latitude": -3,
+          "longitude": 116,
+          "translations": []
+        },
+        {
+          "id": 56657,
+          "name": "Kabupaten Tabalong",
+          "latitude": -1.88333,
+          "longitude": 115.5,
+          "translations": []
+        },
+        {
+          "id": 56663,
+          "name": "Kabupaten Tanah Bumbu",
+          "latitude": -3.45413,
+          "longitude": 115.70372,
+          "translations": []
+        },
+        {
+          "id": 56665,
+          "name": "Kabupaten Tanah Laut",
+          "latitude": -3.88333,
+          "longitude": 114.86667,
+          "translations": []
+        },
+        {
+          "id": 56673,
+          "name": "Kabupaten Tapin",
+          "latitude": -2.91667,
+          "longitude": 115.03333,
+          "translations": []
+        },
+        {
+          "id": 56864,
+          "name": "Martapura",
+          "latitude": -3.4109,
+          "longitude": 114.8642,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1820,
+      "name": "Kepulauan Bangka Belitung",
+      "stateCode": "BB",
+      "latitude": -2.7410513,
+      "longitude": 106.4405872,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56329,
+          "name": "Kabupaten Bangka",
+          "latitude": -1.91667,
+          "longitude": 105.93333,
+          "translations": []
+        },
+        {
+          "id": 56330,
+          "name": "Kabupaten Bangka Barat",
+          "latitude": -1.95839,
+          "longitude": 105.53741,
+          "translations": []
+        },
+        {
+          "id": 56331,
+          "name": "Kabupaten Bangka Selatan",
+          "latitude": -2.66803,
+          "longitude": 106.01257,
+          "translations": []
+        },
+        {
+          "id": 56332,
+          "name": "Kabupaten Bangka Tengah",
+          "latitude": -2.33989,
+          "longitude": 106.1142,
+          "translations": []
+        },
+        {
+          "id": 56350,
+          "name": "Kabupaten Belitung",
+          "latitude": -2.86667,
+          "longitude": 107.7,
+          "translations": []
+        },
+        {
+          "id": 56351,
+          "name": "Kabupaten Belitung Timur",
+          "latitude": -2.9627,
+          "longitude": 108.15216,
+          "translations": []
+        },
+        {
+          "id": 56859,
+          "name": "Manggar",
+          "latitude": -2.88333,
+          "longitude": 108.26667,
+          "translations": []
+        },
+        {
+          "id": 56881,
+          "name": "Muntok",
+          "latitude": -2.06719,
+          "longitude": 105.16228,
+          "translations": []
+        },
+        {
+          "id": 56912,
+          "name": "Pangkalpinang",
+          "latitude": -2.12914,
+          "longitude": 106.11377,
+          "translations": []
+        },
+        {
+          "id": 57009,
+          "name": "Sungailiat",
+          "latitude": -1.85442,
+          "longitude": 106.12215,
+          "translations": []
+        },
+        {
+          "id": 57017,
+          "name": "Tanjung Pandan",
+          "latitude": -2.73353,
+          "longitude": 107.63477,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1822,
+      "name": "Aceh",
+      "stateCode": "AC",
+      "latitude": 4.695135,
+      "longitude": 96.7493993,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56193,
+          "name": "Banda Aceh",
+          "latitude": 5.54167,
+          "longitude": 95.33333,
+          "translations": []
+        },
+        {
+          "id": 56223,
+          "name": "Bireun",
+          "latitude": 5.203,
+          "longitude": 96.7009,
+          "translations": []
+        },
+        {
+          "id": 56307,
+          "name": "Kabupaten Aceh Barat",
+          "latitude": 4.45,
+          "longitude": 96.16667,
+          "translations": []
+        },
+        {
+          "id": 56308,
+          "name": "Kabupaten Aceh Barat Daya",
+          "latitude": 3.83333,
+          "longitude": 96.88333,
+          "translations": []
+        },
+        {
+          "id": 56309,
+          "name": "Kabupaten Aceh Besar",
+          "latitude": 5.38333,
+          "longitude": 95.51667,
+          "translations": []
+        },
+        {
+          "id": 56310,
+          "name": "Kabupaten Aceh Jaya",
+          "latitude": 4.86,
+          "longitude": 95.64,
+          "translations": []
+        },
+        {
+          "id": 56311,
+          "name": "Kabupaten Aceh Selatan",
+          "latitude": 3.16667,
+          "longitude": 97.41667,
+          "translations": []
+        },
+        {
+          "id": 56312,
+          "name": "Kabupaten Aceh Singkil",
+          "latitude": 2.41667,
+          "longitude": 97.91667,
+          "translations": []
+        },
+        {
+          "id": 56313,
+          "name": "Kabupaten Aceh Tamiang",
+          "latitude": 4.25,
+          "longitude": 97.96667,
+          "translations": []
+        },
+        {
+          "id": 56314,
+          "name": "Kabupaten Aceh Tengah",
+          "latitude": 4.51,
+          "longitude": 96.855,
+          "translations": []
+        },
+        {
+          "id": 56315,
+          "name": "Kabupaten Aceh Tenggara",
+          "latitude": 3.36667,
+          "longitude": 97.7,
+          "translations": []
+        },
+        {
+          "id": 56316,
+          "name": "Kabupaten Aceh Timur",
+          "latitude": 4.63333,
+          "longitude": 97.63333,
+          "translations": []
+        },
+        {
+          "id": 56317,
+          "name": "Kabupaten Aceh Utara",
+          "latitude": 4.97,
+          "longitude": 97.14,
+          "translations": []
+        },
+        {
+          "id": 56353,
+          "name": "Kabupaten Bener Meriah",
+          "latitude": 4.73015,
+          "longitude": 96.86156,
+          "translations": []
+        },
+        {
+          "id": 56362,
+          "name": "Kabupaten Bireuen",
+          "latitude": 5.08333,
+          "longitude": 96.58333,
+          "translations": []
+        },
+        {
+          "id": 56408,
+          "name": "Kabupaten Gayo Lues",
+          "latitude": 3.95,
+          "longitude": 97.39,
+          "translations": []
+        },
+        {
+          "id": 56552,
+          "name": "Kabupaten Nagan Raya",
+          "latitude": 4.16667,
+          "longitude": 96.51667,
+          "translations": []
+        },
+        {
+          "id": 56593,
+          "name": "Kabupaten Pidie",
+          "latitude": 5.08,
+          "longitude": 96.11,
+          "translations": []
+        },
+        {
+          "id": 56634,
+          "name": "Kabupaten Simeulue",
+          "latitude": 2.61667,
+          "longitude": 96.08333,
+          "translations": []
+        },
+        {
+          "id": 56837,
+          "name": "Langsa",
+          "latitude": 4.4683,
+          "longitude": 97.9683,
+          "translations": []
+        },
+        {
+          "id": 56844,
+          "name": "Lhokseumawe",
+          "latitude": 5.1801,
+          "longitude": 97.1507,
+          "translations": []
+        },
+        {
+          "id": 56872,
+          "name": "Meulaboh",
+          "latitude": 4.14402,
+          "longitude": 96.12664,
+          "translations": []
+        },
+        {
+          "id": 56955,
+          "name": "Reuleuet",
+          "latitude": 5.21667,
+          "longitude": 96.28333,
+          "translations": []
+        },
+        {
+          "id": 56957,
+          "name": "Sabang",
+          "latitude": 5.88969,
+          "longitude": 95.31644,
+          "translations": []
+        },
+        {
+          "id": 56976,
+          "name": "Sigli",
+          "latitude": 5.3848,
+          "longitude": 95.9609,
+          "translations": []
+        },
+        {
+          "id": 56979,
+          "name": "Sinabang",
+          "latitude": 2.4803,
+          "longitude": 96.3801,
+          "translations": []
+        },
+        {
+          "id": 56982,
+          "name": "Singkil",
+          "latitude": 2.2874,
+          "longitude": 97.7884,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1824,
+      "name": "Kalimantan Utara",
+      "stateCode": "KU",
+      "latitude": 3.0730929,
+      "longitude": 116.0413889,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56381,
+          "name": "Kabupaten Bulungan",
+          "latitude": 3,
+          "longitude": 117.16667,
+          "translations": []
+        },
+        {
+          "id": 56512,
+          "name": "Kabupaten Malinau",
+          "latitude": 2.45,
+          "longitude": 115.68333,
+          "translations": []
+        },
+        {
+          "id": 56562,
+          "name": "Kabupaten Nunukan",
+          "latitude": 4.13333,
+          "longitude": 116.7,
+          "translations": []
+        },
+        {
+          "id": 56661,
+          "name": "Kabupaten Tana Tidung",
+          "latitude": 3.55,
+          "longitude": 117.25,
+          "translations": []
+        },
+        {
+          "id": 57019,
+          "name": "Tanjung Selor",
+          "latitude": 2.8375,
+          "longitude": 117.36528,
+          "translations": []
+        },
+        {
+          "id": 57023,
+          "name": "Tarakan",
+          "latitude": 3.31332,
+          "longitude": 117.59152,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1825,
+      "name": "Jawa Barat",
+      "stateCode": "JB",
+      "latitude": -7.090911,
+      "longitude": 107.668887,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56182,
+          "name": "Arjawinangun",
+          "latitude": -6.64528,
+          "longitude": 108.41028,
+          "translations": []
+        },
+        {
+          "id": 56183,
+          "name": "Astanajapura",
+          "latitude": -6.8017,
+          "longitude": 108.6311,
+          "translations": []
+        },
+        {
+          "id": 56196,
+          "name": "Bandung",
+          "latitude": -6.92222,
+          "longitude": 107.60694,
+          "translations": []
+        },
+        {
+          "id": 56199,
+          "name": "Banjar",
+          "latitude": -7.1955,
+          "longitude": 107.4313,
+          "translations": []
+        },
+        {
+          "id": 56202,
+          "name": "Banjaran",
+          "latitude": -7.04528,
+          "longitude": 107.58778,
+          "translations": []
+        },
+        {
+          "id": 56215,
+          "name": "Bekasi",
+          "latitude": -6.2349,
+          "longitude": 106.9896,
+          "translations": []
+        },
+        {
+          "id": 56226,
+          "name": "Bogor",
+          "latitude": -6.59444,
+          "longitude": 106.78917,
+          "translations": []
+        },
+        {
+          "id": 56237,
+          "name": "Caringin",
+          "latitude": -6.70611,
+          "longitude": 106.82139,
+          "translations": []
+        },
+        {
+          "id": 56240,
+          "name": "Ciamis",
+          "latitude": -7.3257,
+          "longitude": 108.3534,
+          "translations": []
+        },
+        {
+          "id": 56241,
+          "name": "Ciampea",
+          "latitude": -6.55472,
+          "longitude": 106.70083,
+          "translations": []
+        },
+        {
+          "id": 56242,
+          "name": "Cibinong",
+          "latitude": -6.48167,
+          "longitude": 106.85417,
+          "translations": []
+        },
+        {
+          "id": 56243,
+          "name": "Cicurug",
+          "latitude": -6.78139,
+          "longitude": 106.7825,
+          "translations": []
+        },
+        {
+          "id": 56244,
+          "name": "Cikampek",
+          "latitude": -6.41972,
+          "longitude": 107.45583,
+          "translations": []
+        },
+        {
+          "id": 56245,
+          "name": "Cikarang",
+          "latitude": -6.26111,
+          "longitude": 107.15278,
+          "translations": []
+        },
+        {
+          "id": 56246,
+          "name": "Cikupa",
+          "latitude": -6.23639,
+          "longitude": 106.50833,
+          "translations": []
+        },
+        {
+          "id": 56247,
+          "name": "Cileungsir",
+          "latitude": -6.39472,
+          "longitude": 106.95917,
+          "translations": []
+        },
+        {
+          "id": 56248,
+          "name": "Cileunyi",
+          "latitude": -6.93889,
+          "longitude": 107.75278,
+          "translations": []
+        },
+        {
+          "id": 56249,
+          "name": "Cimahi",
+          "latitude": -6.87222,
+          "longitude": 107.5425,
+          "translations": []
+        },
+        {
+          "id": 56250,
+          "name": "Ciputat",
+          "latitude": -6.2375,
+          "longitude": 106.69556,
+          "translations": []
+        },
+        {
+          "id": 56251,
+          "name": "Ciranjang-hilir",
+          "latitude": -6.82,
+          "longitude": 107.25722,
+          "translations": []
+        },
+        {
+          "id": 56252,
+          "name": "Cirebon",
+          "latitude": -6.7063,
+          "longitude": 108.557,
+          "translations": []
+        },
+        {
+          "id": 56253,
+          "name": "Citeureup",
+          "latitude": -6.48556,
+          "longitude": 106.88194,
+          "translations": []
+        },
+        {
+          "id": 56265,
+          "name": "Depok",
+          "latitude": -6.4,
+          "longitude": 106.81861,
+          "translations": []
+        },
+        {
+          "id": 56291,
+          "name": "Indramayu",
+          "latitude": -6.32639,
+          "longitude": 108.32,
+          "translations": []
+        },
+        {
+          "id": 56296,
+          "name": "Jatibarang",
+          "latitude": -6.47472,
+          "longitude": 108.31528,
+          "translations": []
+        },
+        {
+          "id": 56298,
+          "name": "Jatiwangi",
+          "latitude": -6.73361,
+          "longitude": 108.26278,
+          "translations": []
+        },
+        {
+          "id": 56324,
+          "name": "Kabupaten Bandung",
+          "latitude": -7.1,
+          "longitude": 107.6,
+          "translations": []
+        },
+        {
+          "id": 56325,
+          "name": "Kabupaten Bandung Barat",
+          "latitude": -6.83333,
+          "longitude": 107.48333,
+          "translations": []
+        },
+        {
+          "id": 56349,
+          "name": "Kabupaten Bekasi",
+          "latitude": -6.24667,
+          "longitude": 107.10833,
+          "translations": []
+        },
+        {
+          "id": 56366,
+          "name": "Kabupaten Bogor",
+          "latitude": -6.58333,
+          "longitude": 106.71667,
+          "translations": []
+        },
+        {
+          "id": 56390,
+          "name": "Kabupaten Ciamis",
+          "latitude": -7.28333,
+          "longitude": 108.41667,
+          "translations": []
+        },
+        {
+          "id": 56391,
+          "name": "Kabupaten Cianjur",
+          "latitude": -6.7725,
+          "longitude": 107.08306,
+          "translations": []
+        },
+        {
+          "id": 56393,
+          "name": "Kabupaten Cirebon",
+          "latitude": -6.8,
+          "longitude": 108.56667,
+          "translations": []
+        },
+        {
+          "id": 56407,
+          "name": "Kabupaten Garut",
+          "latitude": -7.38333,
+          "longitude": 107.76667,
+          "translations": []
+        },
+        {
+          "id": 56426,
+          "name": "Kabupaten Indramayu",
+          "latitude": -6.45,
+          "longitude": 108.16667,
+          "translations": []
+        },
+        {
+          "id": 56440,
+          "name": "Kabupaten Karawang",
+          "latitude": -6.26667,
+          "longitude": 107.41667,
+          "translations": []
+        },
+        {
+          "id": 56474,
+          "name": "Kabupaten Kuningan",
+          "latitude": -7,
+          "longitude": 108.55,
+          "translations": []
+        },
+        {
+          "id": 56508,
+          "name": "Kabupaten Majalengka",
+          "latitude": -6.81667,
+          "longitude": 108.28333,
+          "translations": []
+        },
+        {
+          "id": 56575,
+          "name": "Kabupaten Pangandaran",
+          "latitude": -7.6673,
+          "longitude": 108.64037,
+          "translations": []
+        },
+        {
+          "id": 56606,
+          "name": "Kabupaten Purwakarta",
+          "latitude": -6.58333,
+          "longitude": 107.45,
+          "translations": []
+        },
+        {
+          "id": 56644,
+          "name": "Kabupaten Subang",
+          "latitude": -6.50833,
+          "longitude": 107.7025,
+          "translations": []
+        },
+        {
+          "id": 56645,
+          "name": "Kabupaten Sukabumi",
+          "latitude": -7.06667,
+          "longitude": 106.7,
+          "translations": []
+        },
+        {
+          "id": 56654,
+          "name": "Kabupaten Sumedang",
+          "latitude": -6.81667,
+          "longitude": 107.98333,
+          "translations": []
+        },
+        {
+          "id": 56674,
+          "name": "Kabupaten Tasikmalaya",
+          "latitude": -7.5,
+          "longitude": 108.13333,
+          "translations": []
+        },
+        {
+          "id": 56698,
+          "name": "Karangampel",
+          "latitude": -6.46222,
+          "longitude": 108.45194,
+          "translations": []
+        },
+        {
+          "id": 56700,
+          "name": "Karangsembung",
+          "latitude": -6.8487,
+          "longitude": 108.6422,
+          "translations": []
+        },
+        {
+          "id": 56704,
+          "name": "Kawalu",
+          "latitude": -7.3817,
+          "longitude": 108.2082,
+          "translations": []
+        },
+        {
+          "id": 56718,
+          "name": "Klangenan",
+          "latitude": -6.70944,
+          "longitude": 108.44,
+          "translations": []
+        },
+        {
+          "id": 56819,
+          "name": "Kresek",
+          "latitude": -6.13139,
+          "longitude": 106.37972,
+          "translations": []
+        },
+        {
+          "id": 56825,
+          "name": "Kuningan",
+          "latitude": -6.97583,
+          "longitude": 108.48306,
+          "translations": []
+        },
+        {
+          "id": 56842,
+          "name": "Lembang",
+          "latitude": -6.81167,
+          "longitude": 107.6175,
+          "translations": []
+        },
+        {
+          "id": 56852,
+          "name": "Majalengka",
+          "latitude": -6.83611,
+          "longitude": 108.22778,
+          "translations": []
+        },
+        {
+          "id": 56861,
+          "name": "Margahayukencana",
+          "latitude": -6.97083,
+          "longitude": 107.5675,
+          "translations": []
+        },
+        {
+          "id": 56886,
+          "name": "Ngawi",
+          "latitude": -7.4038,
+          "longitude": 111.4461,
+          "translations": []
+        },
+        {
+          "id": 56892,
+          "name": "Padalarang",
+          "latitude": -6.83778,
+          "longitude": 107.47278,
+          "translations": []
+        },
+        {
+          "id": 56899,
+          "name": "Palimanan",
+          "latitude": -6.70694,
+          "longitude": 108.42417,
+          "translations": []
+        },
+        {
+          "id": 56902,
+          "name": "Pamanukan",
+          "latitude": -6.28417,
+          "longitude": 107.81056,
+          "translations": []
+        },
+        {
+          "id": 56904,
+          "name": "Pameungpeuk",
+          "latitude": -7.01833,
+          "longitude": 107.60389,
+          "translations": []
+        },
+        {
+          "id": 56905,
+          "name": "Pamulang",
+          "latitude": -6.34278,
+          "longitude": 106.73833,
+          "translations": []
+        },
+        {
+          "id": 56918,
+          "name": "Parung",
+          "latitude": -6.42139,
+          "longitude": 106.73306,
+          "translations": []
+        },
+        {
+          "id": 56919,
+          "name": "Pasarkemis",
+          "latitude": -6.17028,
+          "longitude": 106.53028,
+          "translations": []
+        },
+        {
+          "id": 56920,
+          "name": "Paseh",
+          "latitude": -7.1026,
+          "longitude": 107.7641,
+          "translations": []
+        },
+        {
+          "id": 56928,
+          "name": "Pelabuhanratu",
+          "latitude": -6.9875,
+          "longitude": 106.55139,
+          "translations": []
+        },
+        {
+          "id": 56934,
+          "name": "Plumbon",
+          "latitude": -6.705,
+          "longitude": 108.47278,
+          "translations": []
+        },
+        {
+          "id": 56945,
+          "name": "Purwakarta",
+          "latitude": -6.55694,
+          "longitude": 107.44333,
+          "translations": []
+        },
+        {
+          "id": 56948,
+          "name": "Rajapolah",
+          "latitude": -7.221,
+          "longitude": 108.1896,
+          "translations": []
+        },
+        {
+          "id": 56954,
+          "name": "Rengasdengklok",
+          "latitude": -6.15917,
+          "longitude": 107.29806,
+          "translations": []
+        },
+        {
+          "id": 56962,
+          "name": "Sawangan",
+          "latitude": -6.40278,
+          "longitude": 106.77444,
+          "translations": []
+        },
+        {
+          "id": 56968,
+          "name": "Sepatan",
+          "latitude": -6.11889,
+          "longitude": 106.575,
+          "translations": []
+        },
+        {
+          "id": 56971,
+          "name": "Serpong",
+          "latitude": -6.31694,
+          "longitude": 106.66417,
+          "translations": []
+        },
+        {
+          "id": 56980,
+          "name": "Singaparna",
+          "latitude": -7.3515,
+          "longitude": 108.111,
+          "translations": []
+        },
+        {
+          "id": 56994,
+          "name": "Soreang",
+          "latitude": -7.03306,
+          "longitude": 107.51833,
+          "translations": []
+        },
+        {
+          "id": 57001,
+          "name": "Sukabumi",
+          "latitude": -6.91806,
+          "longitude": 106.92667,
+          "translations": []
+        },
+        {
+          "id": 57003,
+          "name": "Sumber",
+          "latitude": -6.76028,
+          "longitude": 108.48306,
+          "translations": []
+        },
+        {
+          "id": 57005,
+          "name": "Sumedang",
+          "latitude": -6.85861,
+          "longitude": 107.91639,
+          "translations": []
+        },
+        {
+          "id": 57006,
+          "name": "Sumedang Utara",
+          "latitude": -6.85,
+          "longitude": 107.91667,
+          "translations": []
+        },
+        {
+          "id": 57025,
+          "name": "Tasikmalaya",
+          "latitude": -7.3274,
+          "longitude": 108.2207,
+          "translations": []
+        },
+        {
+          "id": 57030,
+          "name": "Teluknaga",
+          "latitude": -6.09889,
+          "longitude": 106.63806,
+          "translations": []
+        },
+        {
+          "id": 57050,
+          "name": "Wanaraja",
+          "latitude": -7.1749,
+          "longitude": 107.9808,
+          "translations": []
+        },
+        {
+          "id": 57056,
+          "name": "Weru",
+          "latitude": -6.711,
+          "longitude": 108.5037,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1826,
+      "name": "Bali",
+      "stateCode": "BA",
+      "latitude": -8.3405389,
+      "longitude": 115.0919509,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56179,
+          "name": "Amlapura",
+          "latitude": -8.45,
+          "longitude": 115.61667,
+          "translations": []
+        },
+        {
+          "id": 56180,
+          "name": "Amlapura city",
+          "latitude": -8.44869,
+          "longitude": 115.60621,
+          "translations": []
+        },
+        {
+          "id": 56200,
+          "name": "Banjar",
+          "latitude": -8.19,
+          "longitude": 114.9675,
+          "translations": []
+        },
+        {
+          "id": 56201,
+          "name": "Banjar Wangsian",
+          "latitude": -8.49497,
+          "longitude": 115.42342,
+          "translations": []
+        },
+        {
+          "id": 56213,
+          "name": "Bedugul",
+          "latitude": -8.4504,
+          "longitude": 115.5925,
+          "translations": []
+        },
+        {
+          "id": 56263,
+          "name": "Denpasar",
+          "latitude": -8.65,
+          "longitude": 115.21667,
+          "translations": []
+        },
+        {
+          "id": 56302,
+          "name": "Jimbaran",
+          "latitude": -8.79093,
+          "longitude": 115.16006,
+          "translations": []
+        },
+        {
+          "id": 56322,
+          "name": "Kabupaten Badung",
+          "latitude": -8.51667,
+          "longitude": 115.2,
+          "translations": []
+        },
+        {
+          "id": 56334,
+          "name": "Kabupaten Bangli",
+          "latitude": -8.28333,
+          "longitude": 115.35,
+          "translations": []
+        },
+        {
+          "id": 56379,
+          "name": "Kabupaten Buleleng",
+          "latitude": -8.25,
+          "longitude": 114.96667,
+          "translations": []
+        },
+        {
+          "id": 56409,
+          "name": "Kabupaten Gianyar",
+          "latitude": -8.46667,
+          "longitude": 115.28333,
+          "translations": []
+        },
+        {
+          "id": 56431,
+          "name": "Kabupaten Jembrana",
+          "latitude": -8.3,
+          "longitude": 114.66667,
+          "translations": []
+        },
+        {
+          "id": 56438,
+          "name": "Kabupaten Karang Asem",
+          "latitude": -8.3891,
+          "longitude": 115.5393,
+          "translations": []
+        },
+        {
+          "id": 56460,
+          "name": "Kabupaten Klungkung",
+          "latitude": -8.55,
+          "longitude": 115.4,
+          "translations": []
+        },
+        {
+          "id": 56658,
+          "name": "Kabupaten Tabanan",
+          "latitude": -8.43333,
+          "longitude": 115.06667,
+          "translations": []
+        },
+        {
+          "id": 56720,
+          "name": "Klungkung",
+          "latitude": -8.53333,
+          "longitude": 115.4,
+          "translations": []
+        },
+        {
+          "id": 56827,
+          "name": "Kuta",
+          "latitude": -8.72332,
+          "longitude": 115.17234,
+          "translations": []
+        },
+        {
+          "id": 56841,
+          "name": "Legian",
+          "latitude": -8.70415,
+          "longitude": 115.17028,
+          "translations": []
+        },
+        {
+          "id": 56846,
+          "name": "Lovina",
+          "latitude": -8.14927,
+          "longitude": 115.03999,
+          "translations": []
+        },
+        {
+          "id": 56879,
+          "name": "Munduk",
+          "latitude": -8.26866,
+          "longitude": 115.07947,
+          "translations": []
+        },
+        {
+          "id": 56884,
+          "name": "Negara",
+          "latitude": -8.35694,
+          "longitude": 114.61694,
+          "translations": []
+        },
+        {
+          "id": 56890,
+          "name": "Nusa Dua",
+          "latitude": -8.80047,
+          "longitude": 115.23341,
+          "translations": []
+        },
+        {
+          "id": 56970,
+          "name": "Seririt",
+          "latitude": -8.1928,
+          "longitude": 114.9388,
+          "translations": []
+        },
+        {
+          "id": 56981,
+          "name": "Singaraja",
+          "latitude": -8.112,
+          "longitude": 115.08818,
+          "translations": []
+        },
+        {
+          "id": 57013,
+          "name": "Tabanan",
+          "latitude": -8.5413,
+          "longitude": 115.12522,
+          "translations": []
+        },
+        {
+          "id": 57046,
+          "name": "Ubud",
+          "latitude": -8.5098,
+          "longitude": 115.2654,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1827,
+      "name": "Jawa Timur",
+      "stateCode": "JI",
+      "latitude": -7.5360639,
+      "longitude": 112.2384017,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56185,
+          "name": "Babat",
+          "latitude": -7.11282,
+          "longitude": 112.16354,
+          "translations": []
+        },
+        {
+          "id": 56191,
+          "name": "Balung",
+          "latitude": -7.73333,
+          "longitude": 113.91667,
+          "translations": []
+        },
+        {
+          "id": 56197,
+          "name": "Bangil",
+          "latitude": -7.59939,
+          "longitude": 112.8186,
+          "translations": []
+        },
+        {
+          "id": 56198,
+          "name": "Bangkalan",
+          "latitude": -7.0455,
+          "longitude": 112.7351,
+          "translations": []
+        },
+        {
+          "id": 56206,
+          "name": "Banyuwangi",
+          "latitude": -8.2325,
+          "longitude": 114.35755,
+          "translations": []
+        },
+        {
+          "id": 56210,
+          "name": "Batu",
+          "latitude": -7.87,
+          "longitude": 112.52833,
+          "translations": []
+        },
+        {
+          "id": 56219,
+          "name": "Besuki",
+          "latitude": -7.73379,
+          "longitude": 113.69785,
+          "translations": []
+        },
+        {
+          "id": 56224,
+          "name": "Blitar",
+          "latitude": -8.0983,
+          "longitude": 112.1681,
+          "translations": []
+        },
+        {
+          "id": 56227,
+          "name": "Bojonegoro",
+          "latitude": -7.1502,
+          "longitude": 111.8817,
+          "translations": []
+        },
+        {
+          "id": 56228,
+          "name": "Bondowoso",
+          "latitude": -7.91346,
+          "longitude": 113.82145,
+          "translations": []
+        },
+        {
+          "id": 56231,
+          "name": "Boyolangu",
+          "latitude": -8.1181,
+          "longitude": 111.8935,
+          "translations": []
+        },
+        {
+          "id": 56233,
+          "name": "Buduran",
+          "latitude": -7.4281,
+          "longitude": 112.7234,
+          "translations": []
+        },
+        {
+          "id": 56259,
+          "name": "Dampit",
+          "latitude": -8.21162,
+          "longitude": 112.74934,
+          "translations": []
+        },
+        {
+          "id": 56266,
+          "name": "Diwek",
+          "latitude": -7.57897,
+          "longitude": 112.23109,
+          "translations": []
+        },
+        {
+          "id": 56268,
+          "name": "Driyorejo",
+          "latitude": -7.3659,
+          "longitude": 112.6219,
+          "translations": []
+        },
+        {
+          "id": 56274,
+          "name": "Gambiran Satu",
+          "latitude": -8.3939,
+          "longitude": 114.1464,
+          "translations": []
+        },
+        {
+          "id": 56275,
+          "name": "Gampengrejo",
+          "latitude": -7.76667,
+          "longitude": 112.01667,
+          "translations": []
+        },
+        {
+          "id": 56279,
+          "name": "Gedangan",
+          "latitude": -7.39083,
+          "longitude": 112.72667,
+          "translations": []
+        },
+        {
+          "id": 56280,
+          "name": "Genteng",
+          "latitude": -8.36667,
+          "longitude": 114.15,
+          "translations": []
+        },
+        {
+          "id": 56284,
+          "name": "Gongdanglegi Kulon",
+          "latitude": -8.17529,
+          "longitude": 112.63594,
+          "translations": []
+        },
+        {
+          "id": 56286,
+          "name": "Gresik",
+          "latitude": -7.15389,
+          "longitude": 112.65611,
+          "translations": []
+        },
+        {
+          "id": 56287,
+          "name": "Gresik Regency",
+          "latitude": -7.1933,
+          "longitude": 112.553,
+          "translations": []
+        },
+        {
+          "id": 56301,
+          "name": "Jember",
+          "latitude": -8.17211,
+          "longitude": 113.69953,
+          "translations": []
+        },
+        {
+          "id": 56304,
+          "name": "Jombang",
+          "latitude": -7.54595,
+          "longitude": 112.23307,
+          "translations": []
+        },
+        {
+          "id": 56333,
+          "name": "Kabupaten Bangkalan",
+          "latitude": -7.05,
+          "longitude": 112.93333,
+          "translations": []
+        },
+        {
+          "id": 56340,
+          "name": "Kabupaten Banyuwangi",
+          "latitude": -8.33333,
+          "longitude": 114.2,
+          "translations": []
+        },
+        {
+          "id": 56363,
+          "name": "Kabupaten Blitar",
+          "latitude": -8.13333,
+          "longitude": 112.25,
+          "translations": []
+        },
+        {
+          "id": 56367,
+          "name": "Kabupaten Bojonegoro",
+          "latitude": -7.25,
+          "longitude": 111.8,
+          "translations": []
+        },
+        {
+          "id": 56373,
+          "name": "Kabupaten Bondowoso",
+          "latitude": -7.9404,
+          "longitude": 113.9834,
+          "translations": []
+        },
+        {
+          "id": 56430,
+          "name": "Kabupaten Jember",
+          "latitude": -8.25,
+          "longitude": 113.65,
+          "translations": []
+        },
+        {
+          "id": 56434,
+          "name": "Kabupaten Jombang",
+          "latitude": -7.55,
+          "longitude": 112.25,
+          "translations": []
+        },
+        {
+          "id": 56446,
+          "name": "Kabupaten Kediri",
+          "latitude": -7.83333,
+          "longitude": 112.16667,
+          "translations": []
+        },
+        {
+          "id": 56483,
+          "name": "Kabupaten Lamongan",
+          "latitude": -7.13333,
+          "longitude": 112.31667,
+          "translations": []
+        },
+        {
+          "id": 56500,
+          "name": "Kabupaten Lumajang",
+          "latitude": -8.11667,
+          "longitude": 113.15,
+          "translations": []
+        },
+        {
+          "id": 56504,
+          "name": "Kabupaten Madiun",
+          "latitude": -7.61667,
+          "longitude": 111.65,
+          "translations": []
+        },
+        {
+          "id": 56506,
+          "name": "Kabupaten Magetan",
+          "latitude": -7.64472,
+          "longitude": 111.35917,
+          "translations": []
+        },
+        {
+          "id": 56511,
+          "name": "Kabupaten Malang",
+          "latitude": -8.16667,
+          "longitude": 112.66667,
+          "translations": []
+        },
+        {
+          "id": 56540,
+          "name": "Kabupaten Mojokerto",
+          "latitude": -7.55,
+          "longitude": 112.5,
+          "translations": []
+        },
+        {
+          "id": 56557,
+          "name": "Kabupaten Nganjuk",
+          "latitude": -7.6,
+          "longitude": 111.93333,
+          "translations": []
+        },
+        {
+          "id": 56558,
+          "name": "Kabupaten Ngawi",
+          "latitude": -7.47444,
+          "longitude": 111.33444,
+          "translations": []
+        },
+        {
+          "id": 56568,
+          "name": "Kabupaten Pacitan",
+          "latitude": -8.13333,
+          "longitude": 111.16667,
+          "translations": []
+        },
+        {
+          "id": 56573,
+          "name": "Kabupaten Pamekasan",
+          "latitude": -7.06667,
+          "longitude": 113.5,
+          "translations": []
+        },
+        {
+          "id": 56582,
+          "name": "Kabupaten Pasuruan",
+          "latitude": -7.73333,
+          "longitude": 112.83333,
+          "translations": []
+        },
+        {
+          "id": 56597,
+          "name": "Kabupaten Ponorogo",
+          "latitude": -7.93333,
+          "longitude": 111.5,
+          "translations": []
+        },
+        {
+          "id": 56600,
+          "name": "Kabupaten Probolinggo",
+          "latitude": -7.86667,
+          "longitude": 113.31667,
+          "translations": []
+        },
+        {
+          "id": 56616,
+          "name": "Kabupaten Sampang",
+          "latitude": -7.05,
+          "longitude": 113.25,
+          "translations": []
+        },
+        {
+          "id": 56629,
+          "name": "Kabupaten Sidoarjo",
+          "latitude": -7.45,
+          "longitude": 112.7,
+          "translations": []
+        },
+        {
+          "id": 56636,
+          "name": "Kabupaten Situbondo",
+          "latitude": -7.71667,
+          "longitude": 114.05,
+          "translations": []
+        },
+        {
+          "id": 56655,
+          "name": "Kabupaten Sumenep",
+          "latitude": -7.11667,
+          "longitude": 114.33333,
+          "translations": []
+        },
+        {
+          "id": 56685,
+          "name": "Kabupaten Trenggalek",
+          "latitude": -8.16667,
+          "longitude": 111.61667,
+          "translations": []
+        },
+        {
+          "id": 56686,
+          "name": "Kabupaten Tuban",
+          "latitude": -6.96667,
+          "longitude": 111.9,
+          "translations": []
+        },
+        {
+          "id": 56688,
+          "name": "Kabupaten Tulungagung",
+          "latitude": -8.11667,
+          "longitude": 111.91667,
+          "translations": []
+        },
+        {
+          "id": 56696,
+          "name": "Kalianget",
+          "latitude": -7.0537,
+          "longitude": 113.94244,
+          "translations": []
+        },
+        {
+          "id": 56697,
+          "name": "Kamal",
+          "latitude": -7.16778,
+          "longitude": 112.71917,
+          "translations": []
+        },
+        {
+          "id": 56705,
+          "name": "Kebomas",
+          "latitude": -7.16667,
+          "longitude": 112.6333,
+          "translations": []
+        },
+        {
+          "id": 56707,
+          "name": "Kediri",
+          "latitude": -7.81667,
+          "longitude": 112.01667,
+          "translations": []
+        },
+        {
+          "id": 56708,
+          "name": "Kedungwaru",
+          "latitude": -8.06667,
+          "longitude": 111.91667,
+          "translations": []
+        },
+        {
+          "id": 56711,
+          "name": "Kencong",
+          "latitude": -8.28333,
+          "longitude": 113.36667,
+          "translations": []
+        },
+        {
+          "id": 56713,
+          "name": "Kepanjen",
+          "latitude": -8.1303,
+          "longitude": 112.5727,
+          "translations": []
+        },
+        {
+          "id": 56714,
+          "name": "Kertosono",
+          "latitude": -7.58333,
+          "longitude": 112.1,
+          "translations": []
+        },
+        {
+          "id": 56818,
+          "name": "Kraksaan",
+          "latitude": -7.75845,
+          "longitude": 113.39624,
+          "translations": []
+        },
+        {
+          "id": 56820,
+          "name": "Krian",
+          "latitude": -7.4104,
+          "longitude": 112.5792,
+          "translations": []
+        },
+        {
+          "id": 56836,
+          "name": "Lamongan",
+          "latitude": -7.11667,
+          "longitude": 112.41667,
+          "translations": []
+        },
+        {
+          "id": 56839,
+          "name": "Lawang",
+          "latitude": -7.8353,
+          "longitude": 112.6947,
+          "translations": []
+        },
+        {
+          "id": 56848,
+          "name": "Lumajang",
+          "latitude": -8.1335,
+          "longitude": 113.2248,
+          "translations": []
+        },
+        {
+          "id": 56850,
+          "name": "Madiun",
+          "latitude": -7.6298,
+          "longitude": 111.5239,
+          "translations": []
+        },
+        {
+          "id": 56856,
+          "name": "Malang",
+          "latitude": -7.9797,
+          "longitude": 112.6304,
+          "translations": []
+        },
+        {
+          "id": 56874,
+          "name": "Mojoagung",
+          "latitude": -7.56667,
+          "longitude": 112.35,
+          "translations": []
+        },
+        {
+          "id": 56875,
+          "name": "Mojokerto",
+          "latitude": -7.4664,
+          "longitude": 112.4338,
+          "translations": []
+        },
+        {
+          "id": 56878,
+          "name": "Muncar",
+          "latitude": -8.43333,
+          "longitude": 114.33333,
+          "translations": []
+        },
+        {
+          "id": 56885,
+          "name": "Nganjuk",
+          "latitude": -7.6051,
+          "longitude": 111.9035,
+          "translations": []
+        },
+        {
+          "id": 56888,
+          "name": "Ngoro",
+          "latitude": -7.68386,
+          "longitude": 112.25804,
+          "translations": []
+        },
+        {
+          "id": 56889,
+          "name": "Ngunut",
+          "latitude": -8.1058,
+          "longitude": 112.01591,
+          "translations": []
+        },
+        {
+          "id": 56891,
+          "name": "Paciran",
+          "latitude": -6.87666,
+          "longitude": 112.37606,
+          "translations": []
+        },
+        {
+          "id": 56896,
+          "name": "Pakisaji",
+          "latitude": -8.0665,
+          "longitude": 112.5981,
+          "translations": []
+        },
+        {
+          "id": 56903,
+          "name": "Pamekasan",
+          "latitude": -7.1568,
+          "longitude": 113.4746,
+          "translations": []
+        },
+        {
+          "id": 56906,
+          "name": "Panarukan",
+          "latitude": -7.70181,
+          "longitude": 113.91844,
+          "translations": []
+        },
+        {
+          "id": 56907,
+          "name": "Pandaan",
+          "latitude": -7.65268,
+          "longitude": 112.6875,
+          "translations": []
+        },
+        {
+          "id": 56913,
+          "name": "Panji",
+          "latitude": -7.72528,
+          "longitude": 114.09954,
+          "translations": []
+        },
+        {
+          "id": 56915,
+          "name": "Pare",
+          "latitude": -7.7679,
+          "longitude": 112.198,
+          "translations": []
+        },
+        {
+          "id": 56921,
+          "name": "Pasuruan",
+          "latitude": -7.6453,
+          "longitude": 112.9075,
+          "translations": []
+        },
+        {
+          "id": 56936,
+          "name": "Ponorogo",
+          "latitude": -7.8685,
+          "longitude": 111.462,
+          "translations": []
+        },
+        {
+          "id": 56941,
+          "name": "Prigen",
+          "latitude": -7.68333,
+          "longitude": 112.61667,
+          "translations": []
+        },
+        {
+          "id": 56942,
+          "name": "Probolinggo",
+          "latitude": -7.7543,
+          "longitude": 113.2159,
+          "translations": []
+        },
+        {
+          "id": 56960,
+          "name": "Sampang",
+          "latitude": -7.1872,
+          "longitude": 113.2394,
+          "translations": []
+        },
+        {
+          "id": 56975,
+          "name": "Sidoarjo",
+          "latitude": -7.4478,
+          "longitude": 112.7183,
+          "translations": []
+        },
+        {
+          "id": 56983,
+          "name": "Singojuruh",
+          "latitude": -8.31667,
+          "longitude": 114.23333,
+          "translations": []
+        },
+        {
+          "id": 56984,
+          "name": "Singosari",
+          "latitude": -7.8924,
+          "longitude": 112.6658,
+          "translations": []
+        },
+        {
+          "id": 56986,
+          "name": "Situbondo",
+          "latitude": -7.70623,
+          "longitude": 114.00976,
+          "translations": []
+        },
+        {
+          "id": 56992,
+          "name": "Soko",
+          "latitude": -7.48315,
+          "longitude": 112.42704,
+          "translations": []
+        },
+        {
+          "id": 56999,
+          "name": "Srono",
+          "latitude": -8.40003,
+          "longitude": 114.26661,
+          "translations": []
+        },
+        {
+          "id": 57004,
+          "name": "Sumberpucung",
+          "latitude": -8.15856,
+          "longitude": 112.48292,
+          "translations": []
+        },
+        {
+          "id": 57007,
+          "name": "Sumenep",
+          "latitude": -7.01667,
+          "longitude": 113.86667,
+          "translations": []
+        },
+        {
+          "id": 57011,
+          "name": "Surabaya",
+          "latitude": -7.24917,
+          "longitude": 112.75083,
+          "translations": []
+        },
+        {
+          "id": 57015,
+          "name": "Tanggul",
+          "latitude": -8.1645,
+          "longitude": 113.4525,
+          "translations": []
+        },
+        {
+          "id": 57016,
+          "name": "Tanggulangin",
+          "latitude": -7.49958,
+          "longitude": 112.69992,
+          "translations": []
+        },
+        {
+          "id": 57039,
+          "name": "Trenggalek",
+          "latitude": -8.0764,
+          "longitude": 111.70641,
+          "translations": []
+        },
+        {
+          "id": 57042,
+          "name": "Tuban",
+          "latitude": -6.8976,
+          "longitude": 112.0649,
+          "translations": []
+        },
+        {
+          "id": 57044,
+          "name": "Tulangan Utara",
+          "latitude": -7.4737,
+          "longitude": 112.6505,
+          "translations": []
+        },
+        {
+          "id": 57045,
+          "name": "Tulungagung",
+          "latitude": -8.0657,
+          "longitude": 111.9025,
+          "translations": []
+        },
+        {
+          "id": 57058,
+          "name": "Wongsorejo",
+          "latitude": -7.9908,
+          "longitude": 114.4009,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1828,
+      "name": "Sumatera Barat",
+      "stateCode": "SB",
+      "latitude": -0.7399397,
+      "longitude": 100.8000051,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56234,
+          "name": "Bukittinggi",
+          "latitude": -0.30907,
+          "longitude": 100.37055,
+          "translations": []
+        },
+        {
+          "id": 56318,
+          "name": "Kabupaten Agam",
+          "latitude": -0.25,
+          "longitude": 100.16667,
+          "translations": []
+        },
+        {
+          "id": 56398,
+          "name": "Kabupaten Dharmasraya",
+          "latitude": -1.05,
+          "longitude": 101.367,
+          "translations": []
+        },
+        {
+          "id": 56452,
+          "name": "Kabupaten Kepulauan Mentawai",
+          "latitude": 1.98917,
+          "longitude": 99.51889,
+          "translations": []
+        },
+        {
+          "id": 56494,
+          "name": "Kabupaten Lima Puluh Kota",
+          "latitude": -0.0168,
+          "longitude": 100.5872,
+          "translations": []
+        },
+        {
+          "id": 56571,
+          "name": "Kabupaten Padang Pariaman",
+          "latitude": -0.6,
+          "longitude": 100.28333,
+          "translations": []
+        },
+        {
+          "id": 56579,
+          "name": "Kabupaten Pasaman",
+          "latitude": 0.42503,
+          "longitude": 99.94606,
+          "translations": []
+        },
+        {
+          "id": 56580,
+          "name": "Kabupaten Pasaman Barat",
+          "latitude": 0.28152,
+          "longitude": 99.51965,
+          "translations": []
+        },
+        {
+          "id": 56592,
+          "name": "Kabupaten Pesisir Selatan",
+          "latitude": -1.58333,
+          "longitude": 100.85,
+          "translations": []
+        },
+        {
+          "id": 56631,
+          "name": "Kabupaten Sijunjung",
+          "latitude": -1.1827,
+          "longitude": 101.6056,
+          "translations": []
+        },
+        {
+          "id": 56638,
+          "name": "Kabupaten Solok",
+          "latitude": -0.96667,
+          "longitude": 100.81667,
+          "translations": []
+        },
+        {
+          "id": 56639,
+          "name": "Kabupaten Solok Selatan",
+          "latitude": -1.23333,
+          "longitude": 101.417,
+          "translations": []
+        },
+        {
+          "id": 56664,
+          "name": "Kabupaten Tanah Datar",
+          "latitude": -0.4555,
+          "longitude": 100.5771,
+          "translations": []
+        },
+        {
+          "id": 56893,
+          "name": "Padang",
+          "latitude": -0.94924,
+          "longitude": 100.35427,
+          "translations": []
+        },
+        {
+          "id": 56917,
+          "name": "Pariaman",
+          "latitude": -0.61898,
+          "longitude": 100.11997,
+          "translations": []
+        },
+        {
+          "id": 56923,
+          "name": "Payakumbuh",
+          "latitude": -0.2159,
+          "longitude": 100.6334,
+          "translations": []
+        },
+        {
+          "id": 56977,
+          "name": "Sijunjung",
+          "latitude": -0.7005,
+          "longitude": 100.9774,
+          "translations": []
+        },
+        {
+          "id": 56993,
+          "name": "Solok",
+          "latitude": -0.8006,
+          "longitude": 100.6571,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1829,
+      "name": "DI Yogyakarta",
+      "stateCode": "YO",
+      "latitude": -7.8753849,
+      "longitude": 110.4262088,
+      "type": "Special region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56338,
+          "name": "Kabupaten Bantul",
+          "latitude": -7.9,
+          "longitude": 110.36667,
+          "translations": []
+        },
+        {
+          "id": 56414,
+          "name": "Kabupaten Gunung Kidul",
+          "latitude": -7.98333,
+          "longitude": 110.61667,
+          "translations": []
+        },
+        {
+          "id": 56473,
+          "name": "Kabupaten Kulon Progo",
+          "latitude": -7.645,
+          "longitude": 110.02694,
+          "translations": []
+        },
+        {
+          "id": 56637,
+          "name": "Kabupaten Sleman",
+          "latitude": -7.68167,
+          "longitude": 110.32333,
+          "translations": []
+        },
+        {
+          "id": 57061,
+          "name": "Yogyakarta",
+          "latitude": -7.80139,
+          "longitude": 110.36472,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5235,
+      "name": "Papua Tengah",
+      "stateCode": "PT",
+      "latitude": -4,
+      "longitude": 136,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56395,
+          "name": "Kabupaten Deiyai",
+          "latitude": -3.94737,
+          "longitude": 135.95032,
+          "translations": []
+        },
+        {
+          "id": 56399,
+          "name": "Kabupaten Dogiyai",
+          "latitude": -4.03186,
+          "longitude": 135.43945,
+          "translations": []
+        },
+        {
+          "id": 56427,
+          "name": "Kabupaten Intan Jaya",
+          "latitude": -3.41016,
+          "longitude": 136.70837,
+          "translations": []
+        },
+        {
+          "id": 56535,
+          "name": "Kabupaten Mimika",
+          "latitude": -4.54357,
+          "longitude": 136.56555,
+          "translations": []
+        },
+        {
+          "id": 56551,
+          "name": "Kabupaten Nabire",
+          "latitude": -3.54016,
+          "longitude": 135.55511,
+          "translations": []
+        },
+        {
+          "id": 56577,
+          "name": "Kabupaten Paniai",
+          "latitude": -3.9,
+          "longitude": 136.6,
+          "translations": []
+        },
+        {
+          "id": 56604,
+          "name": "Kabupaten Puncak",
+          "latitude": -3.67241,
+          "longitude": 137.43896,
+          "translations": []
+        },
+        {
+          "id": 56882,
+          "name": "Nabire",
+          "latitude": -3.35989,
+          "longitude": 135.50074,
+          "translations": []
+        },
+        {
+          "id": 153774,
+          "name": "Kabupaten Puncak Jaya",
+          "latitude": -3.5106944,
+          "longitude": 137.86611111,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5236,
+      "name": "Papua Pegunungan",
+      "stateCode": "PE",
+      "latitude": -4,
+      "longitude": 139.5,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56429,
+          "name": "Kabupaten Jayawijaya",
+          "latitude": -4.08333,
+          "longitude": 139.08333,
+          "translations": []
+        },
+        {
+          "id": 56490,
+          "name": "Kabupaten Lanny Jaya",
+          "latitude": -3.91244,
+          "longitude": 138.28766,
+          "translations": []
+        },
+        {
+          "id": 56519,
+          "name": "Kabupaten Mamberamo Tengah",
+          "latitude": -2.46064,
+          "longitude": 138.45245,
+          "translations": []
+        },
+        {
+          "id": 56555,
+          "name": "Kabupaten Nduga",
+          "latitude": -4.45093,
+          "longitude": 138.10089,
+          "translations": []
+        },
+        {
+          "id": 56584,
+          "name": "Kabupaten Pegunungan Bintang",
+          "latitude": -4.52167,
+          "longitude": 140.29541,
+          "translations": []
+        },
+        {
+          "id": 56683,
+          "name": "Kabupaten Tolikara",
+          "latitude": -3.42661,
+          "longitude": 137.41699,
+          "translations": []
+        },
+        {
+          "id": 56694,
+          "name": "Kabupaten Yahukimo",
+          "latitude": -4.60403,
+          "longitude": 139.58405,
+          "translations": []
+        },
+        {
+          "id": 56695,
+          "name": "Kabupaten Yalimo",
+          "latitude": -3.86037,
+          "longitude": 138.47305,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5237,
+      "name": "Papua Selatan",
+      "stateCode": "PS",
+      "latitude": -6.5,
+      "longitude": 139.5,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56321,
+          "name": "Kabupaten Asmat",
+          "latitude": -5.3795,
+          "longitude": 138.46344,
+          "translations": []
+        },
+        {
+          "id": 56376,
+          "name": "Kabupaten Boven Digoel",
+          "latitude": -5.70519,
+          "longitude": 140.36349,
+          "translations": []
+        },
+        {
+          "id": 56529,
+          "name": "Kabupaten Mappi",
+          "latitude": -6.49971,
+          "longitude": 139.34441,
+          "translations": []
+        },
+        {
+          "id": 56533,
+          "name": "Kabupaten Merauke",
+          "latitude": -7.66667,
+          "longitude": 139.66667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5238,
+      "name": "Papua Barat Daya",
+      "stateCode": "PD",
+      "latitude": -0.9,
+      "longitude": 131.4,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 56531,
+          "name": "Kabupaten Maybrat",
+          "latitude": -1.2155,
+          "longitude": 132.35092,
+          "translations": []
+        },
+        {
+          "id": 56608,
+          "name": "Kabupaten Raja Ampat",
+          "latitude": -0.5,
+          "longitude": 130,
+          "translations": []
+        },
+        {
+          "id": 56641,
+          "name": "Kabupaten Sorong",
+          "latitude": -1.16667,
+          "longitude": 131.5,
+          "translations": []
+        },
+        {
+          "id": 56642,
+          "name": "Kabupaten Sorong Selatan",
+          "latitude": -1.50495,
+          "longitude": 132.28638,
+          "translations": []
+        },
+        {
+          "id": 56660,
+          "name": "Kabupaten Tambrauw",
+          "latitude": -0.60515,
+          "longitude": 132.48962,
+          "translations": []
+        },
+        {
+          "id": 56995,
+          "name": "Sorong",
+          "latitude": -0.87956,
+          "longitude": 131.26104,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

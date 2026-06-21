@@ -1,0 +1,260 @@
+{
+  "id": 242,
+  "name": "Virgin Islands (US)",
+  "nativeName": "United States Virgin Islands",
+  "iso2": "VI",
+  "iso3": "VIR",
+  "numericCode": "850",
+  "phoneCode": "1",
+  "tld": ".vi",
+  "latitude": 18.34,
+  "longitude": -64.93,
+  "flagId": 11,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2641
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "미국령 버진아일랜드"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Virgens Americanas"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Virgens Americanas"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Verenigde Staten Maagdeneilanden"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر ویرجین آمریکا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Amerikanische Jungferninseln"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Vírgenes de los Estados Unidos"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Vierges des États-Unis"
+    },
+    {
+      "languageCode": "ja",
+      "name": "アメリカ領ヴァージン諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Vergini americane"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "维尔京群岛（美国）"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Abd Virjin Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Виргинские острова (США)"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Віргінські острови (США)"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Dziewicze (USA)"
+    }
+  ],
+  "states": [
+    {
+      "id": 5072,
+      "name": "Saint Thomas",
+      "stateCode": "ST",
+      "latitude": 18.3428459,
+      "longitude": -65.077018,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 149561,
+          "name": "Charlotte Amalie",
+          "latitude": 18.3412761,
+          "longitude": -64.9483869,
+          "translations": []
+        },
+        {
+          "id": 149562,
+          "name": "East End",
+          "latitude": 18.3290162,
+          "longitude": -64.8704731,
+          "translations": []
+        },
+        {
+          "id": 149563,
+          "name": "Northside",
+          "latitude": 18.3738081,
+          "longitude": -64.9558909,
+          "translations": []
+        },
+        {
+          "id": 149564,
+          "name": "Southside",
+          "latitude": 18.3052912,
+          "longitude": -64.9172445,
+          "translations": []
+        },
+        {
+          "id": 149565,
+          "name": "Tutu",
+          "latitude": 18.3388427,
+          "longitude": -64.8953072,
+          "translations": []
+        },
+        {
+          "id": 149566,
+          "name": "Water Island",
+          "latitude": 18.3208653,
+          "longitude": -64.9693263,
+          "translations": []
+        },
+        {
+          "id": 149567,
+          "name": "West End",
+          "latitude": 18.3724367,
+          "longitude": -65.0649013,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5073,
+      "name": "Saint John",
+      "stateCode": "SJ",
+      "latitude": 18.3356169,
+      "longitude": -64.80028,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 149568,
+          "name": "Central",
+          "latitude": 18.3356838,
+          "longitude": -64.7947078,
+          "translations": []
+        },
+        {
+          "id": 149569,
+          "name": "Coral Bay",
+          "latitude": 18.3480089,
+          "longitude": -64.7219682,
+          "translations": []
+        },
+        {
+          "id": 149570,
+          "name": "Cruz Bay",
+          "latitude": 18.3182037,
+          "longitude": -64.8024211,
+          "translations": []
+        },
+        {
+          "id": 149571,
+          "name": "East End",
+          "latitude": 18.3403647,
+          "longitude": -64.6806266,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5074,
+      "name": "Saint Croix",
+      "stateCode": "SC",
+      "latitude": 17.729352,
+      "longitude": -64.7343705,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 149572,
+          "name": "Good Hope",
+          "latitude": 17.7223442,
+          "longitude": -64.7172494,
+          "translations": []
+        },
+        {
+          "id": 149573,
+          "name": "Christiansted",
+          "latitude": 17.7440364,
+          "longitude": -64.7106086,
+          "translations": []
+        },
+        {
+          "id": 149574,
+          "name": "East End",
+          "latitude": 17.7523882,
+          "longitude": -64.670301,
+          "translations": []
+        },
+        {
+          "id": 149575,
+          "name": "Frederiksted",
+          "latitude": 17.7124691,
+          "longitude": -64.8867192,
+          "translations": []
+        },
+        {
+          "id": 149576,
+          "name": "Northcentral",
+          "latitude": 17.7501145,
+          "longitude": -64.8238491,
+          "translations": []
+        },
+        {
+          "id": 149577,
+          "name": "Northwest",
+          "latitude": 17.7382782,
+          "longitude": -64.8906347,
+          "translations": []
+        },
+        {
+          "id": 149578,
+          "name": "Sion Farm",
+          "latitude": 17.7543276,
+          "longitude": -64.7794611,
+          "translations": []
+        },
+        {
+          "id": 149579,
+          "name": "Southcentral",
+          "latitude": 17.7064917,
+          "longitude": -64.8144865,
+          "translations": []
+        },
+        {
+          "id": 149580,
+          "name": "Southwest",
+          "latitude": 17.6917787,
+          "longitude": -64.9355939,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

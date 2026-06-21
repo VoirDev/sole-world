@@ -1,0 +1,330 @@
+{
+  "id": 199,
+  "name": "Singapore",
+  "nativeName": "Singapore",
+  "iso2": "SG",
+  "iso3": "SGP",
+  "numericCode": "702",
+  "phoneCode": "65",
+  "tld": ".sg",
+  "latitude": 1.36666666,
+  "longitude": 103.8,
+  "flagId": 53,
+  "regionId": 3,
+  "subregionId": 13,
+  "currencyIds": [
+    955
+  ],
+  "timezoneIds": [
+    2560
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "싱가포르"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Singapura"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Singapura"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Singapore"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Singapur"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سنگاپور"
+    },
+    {
+      "languageCode": "de",
+      "name": "Singapur"
+    },
+    {
+      "languageCode": "es",
+      "name": "Singapur"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Singapour"
+    },
+    {
+      "languageCode": "ja",
+      "name": "シンガポール"
+    },
+    {
+      "languageCode": "it",
+      "name": "Singapore"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "新加坡"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Singapur"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Сингапур"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Сінгапур"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Singapur"
+    }
+  ],
+  "states": [
+    {
+      "id": 4649,
+      "name": "North East",
+      "stateCode": "02",
+      "latitude": 1.3824,
+      "longitude": 103.8972,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153471,
+          "name": "Sengkang",
+          "latitude": 1.3901,
+          "longitude": 103.8952,
+          "translations": []
+        },
+        {
+          "id": 153472,
+          "name": "Hougang",
+          "latitude": 1.3736,
+          "longitude": 103.8867,
+          "translations": []
+        },
+        {
+          "id": 153473,
+          "name": "Serangoon",
+          "latitude": 1.3496,
+          "longitude": 103.8737,
+          "translations": []
+        },
+        {
+          "id": 153474,
+          "name": "Punggol",
+          "latitude": 1.4051,
+          "longitude": 103.9023,
+          "translations": []
+        },
+        {
+          "id": 153475,
+          "name": "Ang Mo Kio",
+          "latitude": 1.3698,
+          "longitude": 103.8461,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4650,
+      "name": "South East",
+      "stateCode": "04",
+      "latitude": 1.3571,
+      "longitude": 103.7004,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153477,
+          "name": "Tampines",
+          "latitude": 1.3547,
+          "longitude": 103.9437,
+          "translations": []
+        },
+        {
+          "id": 153478,
+          "name": "Bedok",
+          "latitude": 1.3236,
+          "longitude": 103.9273,
+          "translations": []
+        },
+        {
+          "id": 153479,
+          "name": "Pasir Ris",
+          "latitude": 1.3739,
+          "longitude": 103.9493,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4651,
+      "name": "Central Singapore",
+      "stateCode": "01",
+      "latitude": 1.2884,
+      "longitude": 103.8535,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104057,
+          "name": "Singapore",
+          "latitude": 1.28967,
+          "longitude": 103.85007,
+          "translations": []
+        },
+        {
+          "id": 153459,
+          "name": "Marine Parade",
+          "latitude": 1.303,
+          "longitude": 103.9072,
+          "translations": []
+        },
+        {
+          "id": 153460,
+          "name": "Tanjong Pagar",
+          "latitude": 1.2764,
+          "longitude": 103.8434,
+          "translations": []
+        },
+        {
+          "id": 153461,
+          "name": "Novena",
+          "latitude": 1.3201,
+          "longitude": 103.8439,
+          "translations": []
+        },
+        {
+          "id": 153462,
+          "name": "Bukit Timah",
+          "latitude": 1.3294,
+          "longitude": 103.8021,
+          "translations": []
+        },
+        {
+          "id": 153463,
+          "name": "Geylang",
+          "latitude": 1.3182,
+          "longitude": 103.8871,
+          "translations": []
+        },
+        {
+          "id": 153464,
+          "name": "Orchard Road",
+          "latitude": 1.3036,
+          "longitude": 103.8318,
+          "translations": []
+        },
+        {
+          "id": 153465,
+          "name": "Rochor",
+          "latitude": 1.3049,
+          "longitude": 103.852,
+          "translations": []
+        },
+        {
+          "id": 153466,
+          "name": "Downtown Core",
+          "latitude": 1.278,
+          "longitude": 103.852,
+          "translations": []
+        },
+        {
+          "id": 153467,
+          "name": "Kallang",
+          "latitude": 1.3106,
+          "longitude": 103.866,
+          "translations": []
+        },
+        {
+          "id": 153468,
+          "name": "Outram",
+          "latitude": 1.2819,
+          "longitude": 103.839,
+          "translations": []
+        },
+        {
+          "id": 153469,
+          "name": "Toa Payoh",
+          "latitude": 1.3354,
+          "longitude": 103.8497,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4652,
+      "name": "South West",
+      "stateCode": "05",
+      "latitude": 1.3571,
+      "longitude": 103.9451,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153480,
+          "name": "Jurong West",
+          "latitude": 1.3396,
+          "longitude": 103.7073,
+          "translations": []
+        },
+        {
+          "id": 153481,
+          "name": "Bukit Batok",
+          "latitude": 1.3496,
+          "longitude": 103.7528,
+          "translations": []
+        },
+        {
+          "id": 153482,
+          "name": "Bukit Panjang",
+          "latitude": 1.3786,
+          "longitude": 103.7626,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4653,
+      "name": "North West",
+      "stateCode": "03",
+      "latitude": 1.418,
+      "longitude": 103.8275,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104058,
+          "name": "Woodlands",
+          "latitude": 1.43801,
+          "longitude": 103.78877,
+          "translations": []
+        },
+        {
+          "id": 153470,
+          "name": "Yishun",
+          "latitude": 1.4293,
+          "longitude": 103.8355,
+          "translations": []
+        },
+        {
+          "id": 153476,
+          "name": "Sembawang",
+          "latitude": 1.4491,
+          "longitude": 103.8201,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

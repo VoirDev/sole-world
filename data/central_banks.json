@@ -1,0 +1,2583 @@
+[
+  {
+    "id": 1,
+    "name": "National Bank of the Republic of Abkhazia",
+    "nativeName": "Аԥсны Аҳәынҭқарра Амилаҭтә Банк",
+    "websiteURL": "https://nb-ra.org/en/",
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [],
+    "currencyIds": [
+      946
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Da Afghanistan Bank",
+    "nativeName": "بانک مرکزی افغانستان",
+    "websiteURL": "https://www.dab.gov.af/",
+    "establishmentYear": 1939,
+    "translations": [],
+    "countryIds": [
+      1
+    ],
+    "currencyIds": [
+      834
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bank of Albania",
+    "nativeName": "Banka e Shqipërisë",
+    "websiteURL": null,
+    "establishmentYear": 1925,
+    "translations": [],
+    "countryIds": [
+      3
+    ],
+    "currencyIds": [
+      836
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Bank of Algeria",
+    "nativeName": "بنك الجزائر",
+    "websiteURL": null,
+    "establishmentYear": 1962,
+    "translations": [],
+    "countryIds": [
+      4
+    ],
+    "currencyIds": [
+      837
+    ]
+  },
+  {
+    "id": 7,
+    "name": "National Bank of Angola",
+    "nativeName": "Banco Nacional de Angola",
+    "websiteURL": "https://www.bna.ao/",
+    "establishmentYear": 1926,
+    "translations": [],
+    "countryIds": [
+      7
+    ],
+    "currencyIds": [
+      839
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Eastern Caribbean Central Bank",
+    "nativeName": null,
+    "websiteURL": "https://www.eccb-centralbank.org/",
+    "establishmentYear": 1983,
+    "translations": [],
+    "countryIds": [
+      8,
+      10,
+      61,
+      87,
+      185,
+      186,
+      148,
+      188
+    ],
+    "currencyIds": [
+      840
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Central Bank of Argentina",
+    "nativeName": "Banco Central de la República Argentina",
+    "websiteURL": null,
+    "establishmentYear": 1935,
+    "translations": [],
+    "countryIds": [
+      11
+    ],
+    "currencyIds": [
+      841
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Central Bank of Armenia",
+    "nativeName": "Հայաստանի Կենտրոնական Բանկ",
+    "websiteURL": null,
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [
+      12
+    ],
+    "currencyIds": [
+      842
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Central Bank of Aruba",
+    "nativeName": "Centrale Bank van Aruba",
+    "websiteURL": "https://www.cbaruba.org/",
+    "establishmentYear": 1986,
+    "translations": [],
+    "countryIds": [
+      13
+    ],
+    "currencyIds": [
+      843
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Reserve Bank of Australia",
+    "nativeName": null,
+    "websiteURL": "https://www.rba.gov.au/",
+    "establishmentYear": 1960,
+    "translations": [],
+    "countryIds": [
+      14
+    ],
+    "currencyIds": [
+      844
+    ]
+  },
+  {
+    "id": 15,
+    "name": "European Central Bank (Oesterreichische Nationalbank)",
+    "nativeName": "Oesterreichische Nationalbank",
+    "websiteURL": "https://www.oenb.at/en/",
+    "establishmentYear": 1923,
+    "translations": [],
+    "countryIds": [
+      15
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Central Bank of Azerbaijan",
+    "nativeName": "Azərbaycan Mərkəzi Bankı",
+    "websiteURL": null,
+    "establishmentYear": 1992,
+    "translations": [],
+    "countryIds": [
+      16
+    ],
+    "currencyIds": [
+      845
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Central Bank of The Bahamas",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1974,
+    "translations": [],
+    "countryIds": [
+      17
+    ],
+    "currencyIds": [
+      970
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Central Bank of Bahrain",
+    "nativeName": "مصرف البحرين المركزي",
+    "websiteURL": "https://www.cbb.gov.bh/",
+    "establishmentYear": 2006,
+    "translations": [],
+    "countryIds": [
+      18
+    ],
+    "currencyIds": [
+      846
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Bangladesh Bank",
+    "nativeName": "বাংলাদেশ ব্যাংক",
+    "websiteURL": "https://www.bb.org.bd/en/",
+    "establishmentYear": 1971,
+    "translations": [],
+    "countryIds": [
+      19
+    ],
+    "currencyIds": [
+      847
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Central Bank of Barbados",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1972,
+    "translations": [],
+    "countryIds": [
+      20
+    ],
+    "currencyIds": [
+      848
+    ]
+  },
+  {
+    "id": 21,
+    "name": "National Bank of the Republic of Belarus",
+    "nativeName": "Нацыянальны банк Рэспублікі Беларусь",
+    "websiteURL": null,
+    "establishmentYear": 1992,
+    "translations": [],
+    "countryIds": [
+      21
+    ],
+    "currencyIds": [
+      849
+    ]
+  },
+  {
+    "id": 22,
+    "name": "European Central Bank (National Bank of Belgium)",
+    "nativeName": "Nationale Bank van België /",
+    "websiteURL": "https://www.nbb.be/",
+    "establishmentYear": 1850,
+    "translations": [],
+    "countryIds": [
+      22
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Central Bank of Belize",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1982,
+    "translations": [],
+    "countryIds": [
+      23
+    ],
+    "currencyIds": [
+      850
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Central Bank of West African States",
+    "nativeName": "Banque Centrale des États de l'Afrique de l'Ouest",
+    "websiteURL": null,
+    "establishmentYear": 1959,
+    "translations": [],
+    "currencyIds": [
+      851
+    ],
+    "countryIds": [
+      24,
+      35,
+      54,
+      93,
+      134,
+      160,
+      195,
+      220
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Bermuda Monetary Authority",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1969,
+    "translations": [],
+    "countryIds": [
+      25
+    ],
+    "currencyIds": [
+      852
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Royal Monetary Authority of Bhutan",
+    "nativeName": "བྲུག་རྒྱལ་གཞུང་དངུལ་ལས་དབང་འཛིན་",
+    "websiteURL": null,
+    "establishmentYear": 1982,
+    "translations": [],
+    "countryIds": [
+      26
+    ],
+    "currencyIds": [
+      853
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Central Bank of Bolivia",
+    "nativeName": "Banco Central de Bolivia",
+    "websiteURL": null,
+    "establishmentYear": 1928,
+    "translations": [],
+    "countryIds": [
+      27
+    ],
+    "currencyIds": [
+      854
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Central Bank of Bosnia and Herzegovina",
+    "nativeName": "Centralna Banka Bosne i Hercegovine",
+    "websiteURL": null,
+    "establishmentYear": 1997,
+    "translations": [],
+    "countryIds": [
+      28
+    ],
+    "currencyIds": [
+      855
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Bank of Botswana",
+    "nativeName": "Banka ya Botswana",
+    "websiteURL": null,
+    "establishmentYear": 1975,
+    "translations": [],
+    "countryIds": [
+      29
+    ],
+    "currencyIds": [
+      856
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Central Bank of Brazil",
+    "nativeName": "Banco Central do Brasil",
+    "websiteURL": null,
+    "establishmentYear": 1964,
+    "translations": [],
+    "countryIds": [
+      31
+    ],
+    "currencyIds": [
+      857
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Brunei Darussalam Central Bank",
+    "nativeName": "Bank Pusat Brunei Darussalam",
+    "websiteURL": "https://www.bdcb.gov.bn/",
+    "establishmentYear": 2011,
+    "translations": [],
+    "countryIds": [
+      33
+    ],
+    "currencyIds": [
+      858
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Bulgarian National Bank",
+    "nativeName": "Българска народна банка",
+    "websiteURL": "https://www.bnb.bg/",
+    "establishmentYear": 1879,
+    "translations": [],
+    "countryIds": [
+      34
+    ],
+    "currencyIds": []
+  },
+  {
+    "id": 36,
+    "name": "Bank of the Republic of Burundi",
+    "nativeName": "Banque de la République du Burundi",
+    "websiteURL": null,
+    "establishmentYear": 1966,
+    "translations": [],
+    "countryIds": [
+      36
+    ],
+    "currencyIds": [
+      860
+    ]
+  },
+  {
+    "id": 37,
+    "name": "National Bank of Cambodia",
+    "nativeName": "ធនាគារជាតិ នៃ កម្ពុជា",
+    "websiteURL": null,
+    "establishmentYear": 1954,
+    "translations": [],
+    "countryIds": [
+      37
+    ],
+    "currencyIds": [
+      861
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Bank of Central African States",
+    "nativeName": "Banque des États de l'Afrique Centrale",
+    "websiteURL": null,
+    "establishmentYear": 1972,
+    "translations": [],
+    "countryIds": [
+      42,
+      38,
+      50,
+      79,
+      67,
+      43
+    ],
+    "currencyIds": [
+      862
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Bank of Canada",
+    "nativeName": "Banque du Canada",
+    "websiteURL": null,
+    "establishmentYear": 1935,
+    "translations": [],
+    "countryIds": [
+      39
+    ],
+    "currencyIds": [
+      863
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Bank of Cape Verde",
+    "nativeName": "Banco de Cabo Verde",
+    "websiteURL": null,
+    "establishmentYear": 1975,
+    "translations": [],
+    "countryIds": [
+      40
+    ],
+    "currencyIds": [
+      864
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Cayman Islands Monetary Authority",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1997,
+    "translations": [],
+    "countryIds": [
+      41
+    ],
+    "currencyIds": [
+      865
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Central Bank of Chile",
+    "nativeName": "Banco Central de Chile",
+    "websiteURL": null,
+    "establishmentYear": 1925,
+    "translations": [],
+    "countryIds": [
+      44
+    ],
+    "currencyIds": [
+      866
+    ]
+  },
+  {
+    "id": 45,
+    "name": "People's Bank of China",
+    "nativeName": "中国人民銀行",
+    "websiteURL": null,
+    "establishmentYear": 1948,
+    "translations": [],
+    "countryIds": [
+      45
+    ],
+    "currencyIds": [
+      867
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Bank of the Republic",
+    "nativeName": "Banco de la República",
+    "websiteURL": null,
+    "establishmentYear": 1923,
+    "translations": [],
+    "countryIds": [
+      48
+    ],
+    "currencyIds": [
+      868
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Central Bank of the Comoros",
+    "nativeName": "Banque Centrale des Comores /",
+    "websiteURL": null,
+    "establishmentYear": 1981,
+    "translations": [],
+    "countryIds": [
+      49
+    ],
+    "currencyIds": [
+      869
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Central Bank of the Congo",
+    "nativeName": "Banque Centrale du Congo",
+    "websiteURL": null,
+    "establishmentYear": 1964,
+    "translations": [],
+    "countryIds": [
+      51
+    ],
+    "currencyIds": [
+      875
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Central Bank of Costa Rica",
+    "nativeName": "Banco Central de Costa Rica",
+    "websiteURL": null,
+    "establishmentYear": 1950,
+    "translations": [],
+    "countryIds": [
+      53
+    ],
+    "currencyIds": [
+      871
+    ]
+  },
+  {
+    "id": 53,
+    "name": "European Central Bank (Croatian National Bank)",
+    "nativeName": "Hrvatska narodna banka",
+    "websiteURL": null,
+    "establishmentYear": 1990,
+    "translations": [],
+    "countryIds": [
+      55
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Central Bank of Cuba",
+    "nativeName": "Banco Central de Cuba",
+    "websiteURL": null,
+    "establishmentYear": 1948,
+    "translations": [],
+    "countryIds": [
+      56
+    ],
+    "currencyIds": [
+      872
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Central Bank of Curaçao and Sint Maarten",
+    "nativeName": "Centrale Bank van Curaçao en Sint Maarten",
+    "websiteURL": null,
+    "establishmentYear": 1828,
+    "translations": [],
+    "countryIds": [
+      249
+    ],
+    "currencyIds": [
+      873
+    ]
+  },
+  {
+    "id": 56,
+    "name": "European Central Bank (Central Bank of Cyprus)",
+    "nativeName": "Κεντρική Τράπεζα της Κύπρου /",
+    "websiteURL": null,
+    "establishmentYear": 1963,
+    "translations": [],
+    "countryIds": [
+      57
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Central Bank of the Turkish Republic of Northern Cyprus",
+    "nativeName": "Kuzey Kıbrıs Türk Cumhuriyeti Merkez Bankası",
+    "websiteURL": null,
+    "establishmentYear": 1983,
+    "translations": [],
+    "countryIds": [],
+    "currencyIds": [
+      975
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Czech National Bank",
+    "nativeName": "Česká národní banka",
+    "websiteURL": null,
+    "establishmentYear": 1993,
+    "translations": [],
+    "countryIds": [
+      58
+    ],
+    "currencyIds": [
+      874
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Danmarks Nationalbank",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1818,
+    "translations": [],
+    "countryIds": [
+      59,
+      86,
+      72
+    ],
+    "currencyIds": [
+      876
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Central Bank of Djibouti",
+    "nativeName": "Banque Centrale de Djibouti",
+    "websiteURL": null,
+    "establishmentYear": 1979,
+    "translations": [],
+    "countryIds": [
+      60
+    ],
+    "currencyIds": [
+      877
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Central Bank of the Dominican Republic",
+    "nativeName": "Banco Central de la República Dominicana",
+    "websiteURL": null,
+    "establishmentYear": 1947,
+    "translations": [],
+    "countryIds": [
+      62
+    ],
+    "currencyIds": [
+      878
+    ]
+  },
+  {
+    "id": 65,
+    "name": "East Timor Central Bank",
+    "nativeName": "Banco Central de Timor-Leste",
+    "websiteURL": "https://www.bancocentral.tl/en",
+    "establishmentYear": 2011,
+    "translations": [],
+    "countryIds": [
+      63
+    ],
+    "currencyIds": [
+      838
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Central Bank of Ecuador",
+    "nativeName": "Banco Central del Ecuador",
+    "websiteURL": null,
+    "establishmentYear": 1927,
+    "translations": [],
+    "countryIds": [
+      64
+    ],
+    "currencyIds": []
+  },
+  {
+    "id": 68,
+    "name": "Central Bank of Egypt",
+    "nativeName": "البنك المركزي المصري",
+    "websiteURL": null,
+    "establishmentYear": 1961,
+    "translations": [],
+    "countryIds": [
+      65
+    ],
+    "currencyIds": [
+      879
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Central Reserve Bank of El Salvador",
+    "nativeName": "Banco Central de Reserva de El Salvador",
+    "websiteURL": null,
+    "establishmentYear": 1934,
+    "translations": [],
+    "countryIds": [
+      66
+    ],
+    "currencyIds": [
+      838
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Bank of Eritrea",
+    "nativeName": "ባንክ ኤርትረ",
+    "websiteURL": null,
+    "establishmentYear": 1993,
+    "translations": [],
+    "countryIds": [
+      68
+    ],
+    "currencyIds": [
+      880
+    ]
+  },
+  {
+    "id": 72,
+    "name": "European Central Bank (Bank of Estonia)",
+    "nativeName": "Eesti Pank",
+    "websiteURL": null,
+    "establishmentYear": 1990,
+    "translations": [],
+    "countryIds": [
+      69
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Central Bank of Eswatini",
+    "nativeName": "Umntsholi Wemaswati",
+    "websiteURL": null,
+    "establishmentYear": 1974,
+    "translations": [],
+    "countryIds": [
+      212
+    ],
+    "currencyIds": [
+      881
+    ]
+  },
+  {
+    "id": 74,
+    "name": "National Bank of Ethiopia",
+    "nativeName": "የኢትዮጵያ ብሔራዊ ባንክ",
+    "websiteURL": null,
+    "establishmentYear": 1963,
+    "translations": [],
+    "countryIds": [
+      70
+    ],
+    "currencyIds": [
+      882
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Reserve Bank of Fiji",
+    "nativeName": "Maroroi Baqe ni Viti",
+    "websiteURL": null,
+    "establishmentYear": 1984,
+    "translations": [],
+    "countryIds": [
+      73
+    ],
+    "currencyIds": [
+      884
+    ]
+  },
+  {
+    "id": 77,
+    "name": "European Central Bank (Bank of Finland)",
+    "nativeName": "Suomen Pankki",
+    "websiteURL": null,
+    "establishmentYear": 1812,
+    "translations": [],
+    "countryIds": [
+      74
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 78,
+    "name": "European Central Bank (Bank of France)",
+    "nativeName": "Banque de France",
+    "websiteURL": null,
+    "establishmentYear": 1800,
+    "translations": [],
+    "countryIds": [
+      75
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Central Bank of The Gambia",
+    "nativeName": null,
+    "websiteURL": "https://www.cbg.gm/",
+    "establishmentYear": 1971,
+    "translations": [],
+    "countryIds": [
+      80
+    ],
+    "currencyIds": [
+      971
+    ]
+  },
+  {
+    "id": 81,
+    "name": "European Central Bank (Deutsche Bundesbank)",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1957,
+    "translations": [],
+    "countryIds": [
+      82
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 82,
+    "name": "National Bank of Georgia",
+    "nativeName": "საქართველოს ეროვნული ბანკი",
+    "websiteURL": null,
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [
+      81
+    ],
+    "currencyIds": [
+      886
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Bank of Ghana",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1957,
+    "translations": [],
+    "countryIds": [
+      83
+    ],
+    "currencyIds": [
+      887
+    ]
+  },
+  {
+    "id": 84,
+    "name": "European Central Bank (Bank of Greece)",
+    "nativeName": "Τράπεζα της Ελλάδος",
+    "websiteURL": null,
+    "establishmentYear": 1928,
+    "translations": [],
+    "countryIds": [
+      85
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Bank of Guatemala",
+    "nativeName": "Banco de Guatemala",
+    "websiteURL": null,
+    "establishmentYear": 1945,
+    "translations": [],
+    "countryIds": [
+      90
+    ],
+    "currencyIds": [
+      889
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Central Bank of the Republic of Guinea",
+    "nativeName": "Banque Centrale de la République de Guinée",
+    "websiteURL": null,
+    "establishmentYear": 1960,
+    "translations": [],
+    "countryIds": [
+      92
+    ],
+    "currencyIds": [
+      891
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Bank of Guyana",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1965,
+    "translations": [],
+    "countryIds": [
+      94
+    ],
+    "currencyIds": [
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Bank of the Republic of Haiti",
+    "nativeName": "Banque de la République d'Haïti",
+    "websiteURL": null,
+    "establishmentYear": 1979,
+    "translations": [],
+    "countryIds": [
+      95
+    ],
+    "currencyIds": [
+      893
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Hong Kong Monetary Authority",
+    "nativeName": "香港金融管理局",
+    "websiteURL": null,
+    "establishmentYear": 1993,
+    "translations": [],
+    "countryIds": [
+      98
+    ],
+    "currencyIds": [
+      895
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Central Bank of Honduras",
+    "nativeName": "Banco Central de Honduras",
+    "websiteURL": null,
+    "establishmentYear": 1950,
+    "translations": [],
+    "countryIds": [
+      97
+    ],
+    "currencyIds": [
+      894
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Hungarian National Bank",
+    "nativeName": "Magyar Nemzeti Bank",
+    "websiteURL": null,
+    "establishmentYear": 1924,
+    "translations": [],
+    "countryIds": [
+      99
+    ],
+    "currencyIds": [
+      896
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Central Bank of Iceland",
+    "nativeName": "Seðlabanki Íslands",
+    "websiteURL": null,
+    "establishmentYear": 1961,
+    "translations": [],
+    "countryIds": [
+      100
+    ],
+    "currencyIds": [
+      897
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Reserve Bank of India",
+    "nativeName": "भारतीय रिज़र्व बैंक",
+    "websiteURL": null,
+    "establishmentYear": 1935,
+    "translations": [],
+    "countryIds": [
+      101
+    ],
+    "currencyIds": [
+      898
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Bank Indonesia",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1953,
+    "translations": [],
+    "countryIds": [
+      102
+    ],
+    "currencyIds": [
+      899
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Central Bank of the Islamic Republic of Iran",
+    "nativeName": "بانک مرکزی ایران",
+    "websiteURL": null,
+    "establishmentYear": 1960,
+    "translations": [],
+    "countryIds": [
+      103
+    ],
+    "currencyIds": [
+      900
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Central Bank of Iraq",
+    "nativeName": "البنك المركزي العراقي",
+    "websiteURL": null,
+    "establishmentYear": 1947,
+    "translations": [],
+    "countryIds": [
+      104
+    ],
+    "currencyIds": [
+      901
+    ]
+  },
+  {
+    "id": 101,
+    "name": "European Central Bank (Central Bank of Ireland)",
+    "nativeName": "Banc Ceannais na hÉireann",
+    "websiteURL": null,
+    "establishmentYear": 1943,
+    "translations": [],
+    "countryIds": [
+      105
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Bank of Israel",
+    "nativeName": "בנק ישראל",
+    "websiteURL": null,
+    "establishmentYear": 1954,
+    "translations": [],
+    "countryIds": [
+      106
+    ],
+    "currencyIds": [
+      902
+    ]
+  },
+  {
+    "id": 103,
+    "name": "European Central Bank (Bank of Italy)",
+    "nativeName": "Banca d'Italia",
+    "websiteURL": null,
+    "establishmentYear": 1893,
+    "translations": [],
+    "countryIds": [
+      107
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Bank of Jamaica",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1961,
+    "translations": [],
+    "countryIds": [
+      108
+    ],
+    "currencyIds": [
+      903
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Bank of Japan",
+    "nativeName": "日本銀行",
+    "websiteURL": null,
+    "establishmentYear": 1882,
+    "translations": [],
+    "countryIds": [
+      109
+    ],
+    "currencyIds": [
+      904
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Central Bank of Jordan",
+    "nativeName": "البنك المركزي الاردني",
+    "websiteURL": null,
+    "establishmentYear": 1964,
+    "translations": [],
+    "countryIds": [
+      111
+    ],
+    "currencyIds": [
+      905
+    ]
+  },
+  {
+    "id": 107,
+    "name": "National Bank of Kazakhstan",
+    "nativeName": "Қазақстан Ұлттық Банкі",
+    "websiteURL": null,
+    "establishmentYear": 1993,
+    "translations": [],
+    "countryIds": [
+      112
+    ],
+    "currencyIds": [
+      906
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Central Bank of Kenya",
+    "nativeName": "Benki Kuu ya Kenya",
+    "websiteURL": null,
+    "establishmentYear": 1966,
+    "translations": [],
+    "countryIds": [
+      113
+    ],
+    "currencyIds": [
+      907
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Central Bank of the Democratic People's Republic of Korea",
+    "nativeName": "조선민주주의인민공화국중앙은행",
+    "websiteURL": null,
+    "establishmentYear": 1947,
+    "translations": [],
+    "countryIds": [
+      115
+    ],
+    "currencyIds": [
+      933
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Bank of Korea",
+    "nativeName": "한국은행",
+    "websiteURL": null,
+    "establishmentYear": 1950,
+    "translations": [],
+    "countryIds": [
+      116
+    ],
+    "currencyIds": [
+      959
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Central Bank of Kosovo",
+    "nativeName": "Banka Qendrore e Republikës së Kosovës",
+    "websiteURL": null,
+    "establishmentYear": 2008,
+    "translations": [],
+    "countryIds": [],
+    "currencyIds": []
+  },
+  {
+    "id": 113,
+    "name": "Central Bank of Kuwait",
+    "nativeName": "بنك الكويت المركزي",
+    "websiteURL": null,
+    "establishmentYear": 1969,
+    "translations": [],
+    "countryIds": [
+      117
+    ],
+    "currencyIds": [
+      908
+    ]
+  },
+  {
+    "id": 114,
+    "name": "National Bank of the Kyrgyz Republic",
+    "nativeName": "Кыргыз Республикасынын Улуттук банкы",
+    "websiteURL": null,
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [
+      118
+    ],
+    "currencyIds": [
+      909
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Bank of the Lao People's Democratic Republic",
+    "nativeName": "ທະນາຄານ ແຫ່ງ ສ. ປ. ປ. ລາວ",
+    "websiteURL": null,
+    "establishmentYear": 1968,
+    "translations": [],
+    "countryIds": [
+      119
+    ],
+    "currencyIds": [
+      910
+    ]
+  },
+  {
+    "id": 116,
+    "name": "European Central Bank (Bank of Latvia)",
+    "nativeName": "Latvijas Banka",
+    "websiteURL": null,
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [
+      120
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Banque du Liban",
+    "nativeName": "مصرف لبنان",
+    "websiteURL": null,
+    "establishmentYear": 1963,
+    "translations": [],
+    "countryIds": [
+      121
+    ],
+    "currencyIds": [
+      911
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Central Bank of Lesotho",
+    "nativeName": "Banka e Kholo ea Lesotho",
+    "websiteURL": null,
+    "establishmentYear": 1978,
+    "translations": [],
+    "countryIds": [
+      122
+    ],
+    "currencyIds": [
+      912
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Central Bank of Liberia",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 2000,
+    "translations": [],
+    "countryIds": [
+      123
+    ],
+    "currencyIds": [
+      913
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Central Bank of Libya",
+    "nativeName": "مصرف ليبيا المركزي",
+    "websiteURL": null,
+    "establishmentYear": 1956,
+    "translations": [],
+    "countryIds": [
+      124
+    ],
+    "currencyIds": [
+      914
+    ]
+  },
+  {
+    "id": 121,
+    "name": "National Bank of Liechtenstein",
+    "nativeName": "Liechtensteinische Landesbank",
+    "websiteURL": null,
+    "establishmentYear": 1861,
+    "translations": [],
+    "countryIds": [
+      125
+    ],
+    "currencyIds": [
+      915
+    ]
+  },
+  {
+    "id": 122,
+    "name": "European Central Bank (Bank of Lithuania)",
+    "nativeName": "Lietuvos Bankas",
+    "websiteURL": null,
+    "establishmentYear": 1990,
+    "translations": [],
+    "countryIds": [
+      126
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 123,
+    "name": "European Central Bank (Central Bank of Luxembourg)",
+    "nativeName": "Banque centrale du Luxembourg",
+    "websiteURL": null,
+    "establishmentYear": 1998,
+    "translations": [],
+    "countryIds": [
+      127
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Monetary Authority of Macao",
+    "nativeName": "澳門金融管理局",
+    "websiteURL": null,
+    "establishmentYear": 1999,
+    "translations": [],
+    "countryIds": [],
+    "currencyIds": []
+  },
+  {
+    "id": 126,
+    "name": "Central Bank of Madagascar",
+    "nativeName": "Banque Centrale de Madagascar",
+    "websiteURL": null,
+    "establishmentYear": 1974,
+    "translations": [],
+    "countryIds": [
+      130
+    ],
+    "currencyIds": [
+      917
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Reserve Bank of Malawi",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1964,
+    "translations": [],
+    "countryIds": [
+      131
+    ],
+    "currencyIds": [
+      918
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Central Bank of Malaysia",
+    "nativeName": "Bank Negara Malaysia",
+    "websiteURL": null,
+    "establishmentYear": 1959,
+    "translations": [],
+    "countryIds": [
+      132
+    ],
+    "currencyIds": [
+      919
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Maldives Monetary Authority",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1981,
+    "translations": [],
+    "countryIds": [
+      133
+    ],
+    "currencyIds": [
+      920
+    ]
+  },
+  {
+    "id": 131,
+    "name": "European Central Bank (Central Bank of Malta)",
+    "nativeName": "Bank Ċentrali ta’ Malta",
+    "websiteURL": null,
+    "establishmentYear": 1968,
+    "translations": [],
+    "countryIds": [
+      135
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Central Bank of Mauritania",
+    "nativeName": "Banque Centrale de Mauritanie",
+    "websiteURL": null,
+    "establishmentYear": 1973,
+    "translations": [],
+    "countryIds": [
+      139
+    ],
+    "currencyIds": [
+      921
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Bank of Mauritius",
+    "nativeName": "Banque de Maurice",
+    "websiteURL": "https://www.bom.mu/",
+    "establishmentYear": 1967,
+    "translations": [],
+    "countryIds": [
+      140
+    ],
+    "currencyIds": [
+      922
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Bank of Mexico",
+    "nativeName": "Banco de México",
+    "websiteURL": null,
+    "establishmentYear": 1925,
+    "translations": [],
+    "countryIds": [
+      142
+    ],
+    "currencyIds": [
+      923
+    ]
+  },
+  {
+    "id": 138,
+    "name": "National Bank of Moldova",
+    "nativeName": "Banca Națională a Moldovei",
+    "websiteURL": null,
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [
+      144
+    ],
+    "currencyIds": [
+      924
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Bank of Mongolia",
+    "nativeName": "Монголбанк",
+    "websiteURL": null,
+    "establishmentYear": 1924,
+    "translations": [],
+    "countryIds": [
+      146
+    ],
+    "currencyIds": [
+      925
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Central Bank of Montenegro",
+    "nativeName": "Centralna Banka Crne Gore",
+    "websiteURL": null,
+    "establishmentYear": 2001,
+    "translations": [],
+    "countryIds": [
+      147
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Bank Al-Maghrib",
+    "nativeName": "بنك المغرب",
+    "websiteURL": null,
+    "establishmentYear": 1959,
+    "translations": [],
+    "countryIds": [
+      149
+    ],
+    "currencyIds": [
+      926
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Bank of Mozambique",
+    "nativeName": "Banco de Moçambique",
+    "websiteURL": null,
+    "establishmentYear": 1975,
+    "translations": [],
+    "countryIds": [
+      150
+    ],
+    "currencyIds": [
+      927
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Central Bank of Myanmar",
+    "nativeName": "မြန်မာနိုင်ငံတော်ဗဟိုဘဏ်",
+    "websiteURL": null,
+    "establishmentYear": 1948,
+    "translations": [],
+    "countryIds": [
+      151
+    ],
+    "currencyIds": [
+      928
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Bank of Namibia",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1990,
+    "translations": [],
+    "countryIds": [
+      152
+    ],
+    "currencyIds": [
+      929
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Nepal Rastra Bank",
+    "nativeName": "नेपाल राष्ट्र बैंक",
+    "websiteURL": null,
+    "establishmentYear": 1956,
+    "translations": [],
+    "countryIds": [
+      154
+    ],
+    "currencyIds": [
+      930
+    ]
+  },
+  {
+    "id": 149,
+    "name": "European Central Bank (De Nederlandsche Bank)",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1814,
+    "translations": [],
+    "countryIds": [
+      156
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Overseas Issuing Institute as part of the CFP",
+    "nativeName": "Institut d'émission d'outre-mer",
+    "websiteURL": null,
+    "establishmentYear": null,
+    "translations": [],
+    "countryIds": [
+      157,
+      243
+    ],
+    "currencyIds": [
+      885
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Reserve Bank of New Zealand",
+    "nativeName": "Te Pūtea Matua",
+    "websiteURL": null,
+    "establishmentYear": 1934,
+    "translations": [],
+    "countryIds": [
+      158
+    ],
+    "currencyIds": [
+      870
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Central Bank of Nicaragua",
+    "nativeName": "Banco Central de Nicaragua",
+    "websiteURL": null,
+    "establishmentYear": 1960,
+    "translations": [],
+    "countryIds": [
+      159
+    ],
+    "currencyIds": [
+      931
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Central Bank of Nigeria",
+    "nativeName": "Babban Bankin Najeriya",
+    "websiteURL": null,
+    "establishmentYear": 1959,
+    "translations": [],
+    "countryIds": [
+      161
+    ],
+    "currencyIds": [
+      932
+    ]
+  },
+  {
+    "id": 156,
+    "name": "National Bank of North Macedonia",
+    "nativeName": "Народна банка на Република Северна Македонија",
+    "websiteURL": null,
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [
+      129
+    ],
+    "currencyIds": [
+      934
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Norges Bank",
+    "nativeName": "Noregs Bank",
+    "websiteURL": null,
+    "establishmentYear": 1816,
+    "translations": [],
+    "countryIds": [
+      165
+    ],
+    "currencyIds": [
+      935
+    ]
+  },
+  {
+    "id": 158,
+    "name": "Central Bank of Oman",
+    "nativeName": "البنك المركزي العماني",
+    "websiteURL": null,
+    "establishmentYear": 1974,
+    "translations": [],
+    "countryIds": [
+      166
+    ],
+    "currencyIds": [
+      936
+    ]
+  },
+  {
+    "id": 159,
+    "name": "State Bank of Pakistan",
+    "nativeName": "بینک دولت پاکستان",
+    "websiteURL": null,
+    "establishmentYear": 1948,
+    "translations": [],
+    "countryIds": [
+      167
+    ],
+    "currencyIds": [
+      937
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Palestine Monetary Authority",
+    "nativeName": "سلطة النقد الفلسطينية",
+    "websiteURL": "https://www.pma.ps/ar/",
+    "establishmentYear": 1994,
+    "translations": [],
+    "countryIds": [],
+    "currencyIds": []
+  },
+  {
+    "id": 163,
+    "name": "Bank of Papua New Guinea",
+    "nativeName": "Beng bilong Papua Niugini",
+    "websiteURL": null,
+    "establishmentYear": 1973,
+    "translations": [],
+    "countryIds": [
+      171
+    ],
+    "currencyIds": [
+      939
+    ]
+  },
+  {
+    "id": 164,
+    "name": "Central Bank of Paraguay",
+    "nativeName": "Banco Central del Paraguay",
+    "websiteURL": null,
+    "establishmentYear": 1952,
+    "translations": [],
+    "countryIds": [
+      172
+    ],
+    "currencyIds": [
+      940
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Central Reserve Bank of Peru",
+    "nativeName": "Banco Central de Reserva del Perú",
+    "websiteURL": "https://www.bcrp.gob.pe/",
+    "establishmentYear": 1922,
+    "translations": [],
+    "countryIds": [
+      173
+    ],
+    "currencyIds": [
+      941
+    ]
+  },
+  {
+    "id": 166,
+    "name": "Bangko Sentral ng Pilipinas",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1949,
+    "translations": [],
+    "countryIds": [
+      174
+    ],
+    "currencyIds": [
+      942
+    ]
+  },
+  {
+    "id": 167,
+    "name": "National Bank of Poland",
+    "nativeName": "Narodowy Bank Polski",
+    "websiteURL": null,
+    "establishmentYear": 1945,
+    "translations": [],
+    "countryIds": [
+      176
+    ],
+    "currencyIds": [
+      943
+    ]
+  },
+  {
+    "id": 168,
+    "name": "Overseas Issuing Institute",
+    "nativeName": "Institut d'émission d'outre-mer",
+    "websiteURL": null,
+    "establishmentYear": null,
+    "translations": [],
+    "countryIds": [
+      77
+    ],
+    "currencyIds": [
+      885
+    ]
+  },
+  {
+    "id": 169,
+    "name": "European Central Bank (Bank of Portugal)",
+    "nativeName": "Banco de Portugal",
+    "websiteURL": null,
+    "establishmentYear": 1846,
+    "translations": [],
+    "countryIds": [
+      177
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 170,
+    "name": "Qatar Central Bank",
+    "nativeName": "مصرف قطر المركزي",
+    "websiteURL": null,
+    "establishmentYear": 1973,
+    "translations": [],
+    "countryIds": [
+      179
+    ],
+    "currencyIds": [
+      944
+    ]
+  },
+  {
+    "id": 171,
+    "name": "National Bank of Romania",
+    "nativeName": "Banca Națională a României",
+    "websiteURL": null,
+    "establishmentYear": 1880,
+    "translations": [],
+    "countryIds": [
+      181
+    ],
+    "currencyIds": [
+      945
+    ]
+  },
+  {
+    "id": 172,
+    "name": "Central Bank of Russia",
+    "nativeName": "Центральный банк Российской Федерации",
+    "websiteURL": null,
+    "establishmentYear": 1990,
+    "translations": [],
+    "countryIds": [
+      182
+    ],
+    "currencyIds": [
+      946
+    ]
+  },
+  {
+    "id": 173,
+    "name": "National Bank of Rwanda",
+    "nativeName": "Banque Nationale du Rwanda /",
+    "websiteURL": null,
+    "establishmentYear": 1964,
+    "translations": [],
+    "countryIds": [
+      183
+    ],
+    "currencyIds": [
+      947
+    ]
+  },
+  {
+    "id": 178,
+    "name": "Central Bank of Samoa",
+    "nativeName": "Faletupe Tutotonu o Sāmoa",
+    "websiteURL": "https://cbs.gov.ws/",
+    "establishmentYear": 1984,
+    "translations": [],
+    "countryIds": [
+      191
+    ],
+    "currencyIds": [
+      949
+    ]
+  },
+  {
+    "id": 179,
+    "name": "Central Bank of the Republic of San Marino",
+    "nativeName": "Banca Centrale della Repubblica di San Marino",
+    "websiteURL": null,
+    "establishmentYear": 2005,
+    "translations": [],
+    "countryIds": [
+      192
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 180,
+    "name": "Central Bank of São Tomé and Príncipe",
+    "nativeName": "Banco Central de São Tomé e Príncipe",
+    "websiteURL": "https://www.bcstp.st/",
+    "establishmentYear": 1975,
+    "translations": [],
+    "countryIds": [
+      193
+    ],
+    "currencyIds": [
+      950
+    ]
+  },
+  {
+    "id": 181,
+    "name": "Saudi Central Bank",
+    "nativeName": "البنك المركزي السعودي",
+    "websiteURL": null,
+    "establishmentYear": 1952,
+    "translations": [],
+    "countryIds": [
+      194
+    ],
+    "currencyIds": [
+      951
+    ]
+  },
+  {
+    "id": 183,
+    "name": "National Bank of Serbia",
+    "nativeName": "Народна банка Србије",
+    "websiteURL": null,
+    "establishmentYear": 1884,
+    "translations": [],
+    "countryIds": [
+      196
+    ],
+    "currencyIds": [
+      952
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Central Bank of Seychelles",
+    "nativeName": "Banque centrale des Seychelles",
+    "websiteURL": null,
+    "establishmentYear": 1983,
+    "translations": [],
+    "countryIds": [
+      197
+    ],
+    "currencyIds": [
+      953
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Bank of Sierra Leone",
+    "nativeName": null,
+    "websiteURL": "https://bsl.gov.sl/",
+    "establishmentYear": 1963,
+    "translations": [],
+    "countryIds": [
+      198
+    ],
+    "currencyIds": [
+      954
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Monetary Authority of Singapore",
+    "nativeName": "新加坡金融管理局",
+    "websiteURL": null,
+    "establishmentYear": 1971,
+    "translations": [],
+    "countryIds": [
+      199
+    ],
+    "currencyIds": [
+      955
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Central Bank of Curaçao and Sint Maarten",
+    "nativeName": "Centrale Bank van Curaçao en Sint Maarten",
+    "websiteURL": "https://www.centralbank.cw/",
+    "establishmentYear": 1828,
+    "translations": [],
+    "countryIds": [
+      249,
+      250
+    ],
+    "currencyIds": [
+      873
+    ]
+  },
+  {
+    "id": 188,
+    "name": "European Central Bank (National Bank of Slovakia)",
+    "nativeName": "Národná banka Slovenska",
+    "websiteURL": null,
+    "establishmentYear": 1993,
+    "translations": [],
+    "countryIds": [
+      200
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 189,
+    "name": "European Central Bank (Bank of Slovenia)",
+    "nativeName": "Banka Slovenije",
+    "websiteURL": null,
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [
+      201
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 190,
+    "name": "Central Bank of Solomon Islands",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1983,
+    "translations": [],
+    "countryIds": [
+      202
+    ],
+    "currencyIds": [
+      956
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Central Bank of Somalia",
+    "nativeName": "Bankiga Dhexe ee Soomaaliya",
+    "websiteURL": null,
+    "establishmentYear": 1960,
+    "translations": [],
+    "countryIds": [
+      203
+    ],
+    "currencyIds": [
+      957
+    ]
+  },
+  {
+    "id": 193,
+    "name": "Bank of Somaliland",
+    "nativeName": "Baanka Somaliland",
+    "websiteURL": "https://cb.govsomaliland.org/",
+    "establishmentYear": 1994,
+    "translations": [],
+    "countryIds": [],
+    "currencyIds": [
+    ]
+  },
+  {
+    "id": 195,
+    "name": "South African Reserve Bank",
+    "nativeName": "iBhange-ngodla laseNingizimu Afrika",
+    "websiteURL": null,
+    "establishmentYear": 1921,
+    "translations": [],
+    "countryIds": [
+      204
+    ],
+    "currencyIds": [
+      958
+    ]
+  },
+  {
+    "id": 196,
+    "name": "National Bank of the Republic of South Ossetia",
+    "nativeName": "Респуликӕ Хуссар Ирыстоны Националон банк",
+    "websiteURL": null,
+    "establishmentYear": 2013,
+    "translations": [],
+    "countryIds": [],
+    "currencyIds": []
+  },
+  {
+    "id": 197,
+    "name": "Bank of South Sudan",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 2011,
+    "translations": [],
+    "countryIds": [
+      206
+    ],
+    "currencyIds": [
+      960
+    ]
+  },
+  {
+    "id": 198,
+    "name": "European Central Bank (Bank of Spain)",
+    "nativeName": "Banco de España",
+    "websiteURL": null,
+    "establishmentYear": 1782,
+    "translations": [],
+    "countryIds": [
+      207
+    ],
+    "currencyIds": [
+      835
+    ]
+  },
+  {
+    "id": 199,
+    "name": "Central Bank of Sri Lanka",
+    "nativeName": "ශ්‍රී ලංකා මහ බැංකුව",
+    "websiteURL": null,
+    "establishmentYear": 1950,
+    "translations": [],
+    "countryIds": [
+      208
+    ],
+    "currencyIds": [
+      961
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Central Bank of Sudan",
+    "nativeName": "بنك السودان المركزي",
+    "websiteURL": null,
+    "establishmentYear": 1960,
+    "translations": [],
+    "countryIds": [
+      209
+    ],
+    "currencyIds": [
+      962
+    ]
+  },
+  {
+    "id": 202,
+    "name": "Central Bank of Suriname",
+    "nativeName": "Centrale Bank van Suriname",
+    "websiteURL": "https://www.cbvs.sr/",
+    "establishmentYear": 1957,
+    "translations": [],
+    "countryIds": [
+      210
+    ],
+    "currencyIds": [
+      963
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Sveriges Riksbank",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1668,
+    "translations": [],
+    "countryIds": [
+      213
+    ],
+    "currencyIds": [
+      964
+    ]
+  },
+  {
+    "id": 204,
+    "name": "Swiss National Bank",
+    "nativeName": "Schweizerische Nationalbank",
+    "websiteURL": null,
+    "establishmentYear": 1906,
+    "translations": [],
+    "countryIds": [
+      214
+    ],
+    "currencyIds": [
+      915
+    ]
+  },
+  {
+    "id": 207,
+    "name": "Central Bank of Syria",
+    "nativeName": "مصرف سورية المركزي",
+    "websiteURL": "https://www.cb.gov.sy/",
+    "establishmentYear": 1953,
+    "translations": [],
+    "countryIds": [
+      215
+    ],
+    "currencyIds": [
+      965
+    ]
+  },
+  {
+    "id": 208,
+    "name": "Central Bank of the Republic of China (Taiwan)",
+    "nativeName": "中華民國中央銀行",
+    "websiteURL": null,
+    "establishmentYear": 1961,
+    "translations": [],
+    "countryIds": [
+      216
+    ],
+    "currencyIds": [
+      966
+    ]
+  },
+  {
+    "id": 209,
+    "name": "National Bank of Tajikistan",
+    "nativeName": "Бонки миллии Тоҷикистон",
+    "websiteURL": null,
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [
+      217
+    ],
+    "currencyIds": [
+      967
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Bank of Tanzania",
+    "nativeName": "Benki Kuu ya Tanzania",
+    "websiteURL": null,
+    "establishmentYear": 1965,
+    "translations": [],
+    "countryIds": [
+      218
+    ],
+    "currencyIds": [
+      968
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Bank of Thailand",
+    "nativeName": "ธนาคารแห่งประเทศไทย",
+    "websiteURL": null,
+    "establishmentYear": 1942,
+    "translations": [],
+    "countryIds": [
+      219
+    ],
+    "currencyIds": [
+      969
+    ]
+  },
+  {
+    "id": 213,
+    "name": "National Reserve Bank of Tonga",
+    "nativeName": "Pangikē Pule Fakafonua ʻo Tonga",
+    "websiteURL": "http://www.reservebank.to/",
+    "establishmentYear": 1989,
+    "translations": [],
+    "countryIds": [
+      222
+    ],
+    "currencyIds": [
+      972
+    ]
+  },
+  {
+    "id": 214,
+    "name": "Transnistrian Republican Bank",
+    "nativeName": "Банка Републиканэ Нистрянэ",
+    "websiteURL": null,
+    "establishmentYear": 1992,
+    "translations": [],
+    "countryIds": [],
+    "currencyIds": []
+  },
+  {
+    "id": 215,
+    "name": "Central Bank of Trinidad and Tobago",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1964,
+    "translations": [],
+    "countryIds": [
+      223
+    ],
+    "currencyIds": [
+      973
+    ]
+  },
+  {
+    "id": 216,
+    "name": "Central Bank of Tunisia",
+    "nativeName": "البنك المركزي التونسي",
+    "websiteURL": null,
+    "establishmentYear": 1958,
+    "translations": [],
+    "countryIds": [
+      224
+    ],
+    "currencyIds": [
+      974
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Central Bank of the Republic of Turkey",
+    "nativeName": "Türkiye Cumhuriyet Merkez Bankası",
+    "websiteURL": null,
+    "establishmentYear": 1930,
+    "translations": [],
+    "countryIds": [
+      225
+    ],
+    "currencyIds": [
+      975
+    ]
+  },
+  {
+    "id": 219,
+    "name": "Central Bank of Turkmenistan",
+    "nativeName": "Türkmenistanyň Merkezi Banky",
+    "websiteURL": null,
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [
+      226
+    ],
+    "currencyIds": [
+      976
+    ]
+  },
+  {
+    "id": 221,
+    "name": "Bank of Uganda",
+    "nativeName": "Benki Kuu ya Uganda",
+    "websiteURL": null,
+    "establishmentYear": 1966,
+    "translations": [],
+    "countryIds": [
+      229
+    ],
+    "currencyIds": [
+      977
+    ]
+  },
+  {
+    "id": 222,
+    "name": "National Bank of Ukraine",
+    "nativeName": "Національний банк України",
+    "websiteURL": null,
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [
+      230
+    ],
+    "currencyIds": [
+      978
+    ]
+  },
+  {
+    "id": 223,
+    "name": "Central Bank of the United Arab Emirates",
+    "nativeName": "مصرف الإمارات العربية المتحدة المركزي",
+    "websiteURL": "https://centralbank.ae/en",
+    "establishmentYear": 1980,
+    "translations": [],
+    "countryIds": [
+      231
+    ],
+    "currencyIds": [
+      979
+    ]
+  },
+  {
+    "id": 224,
+    "name": "Bank of England",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1694,
+    "translations": [],
+    "countryIds": [
+      232
+    ],
+    "currencyIds": [
+      890
+    ]
+  },
+  {
+    "id": 225,
+    "name": "Federal Reserve",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1913,
+    "translations": [],
+    "countryIds": [
+      233
+    ],
+    "currencyIds": [
+      838
+    ]
+  },
+  {
+    "id": 226,
+    "name": "Central Bank of Uruguay",
+    "nativeName": "Banco Central del Uruguay",
+    "websiteURL": null,
+    "establishmentYear": 1967,
+    "translations": [],
+    "countryIds": [
+      235
+    ],
+    "currencyIds": [
+      980
+    ]
+  },
+  {
+    "id": 227,
+    "name": "Central Bank of the Republic of Uzbekistan",
+    "nativeName": "O‘zbekiston Respublikasi Markaziy Banki",
+    "websiteURL": null,
+    "establishmentYear": 1991,
+    "translations": [],
+    "countryIds": [
+      236
+    ],
+    "currencyIds": [
+      981
+    ]
+  },
+  {
+    "id": 228,
+    "name": "Reserve Bank of Vanuatu",
+    "nativeName": "Reserve Bank blong Vanuatu",
+    "websiteURL": null,
+    "establishmentYear": 1981,
+    "translations": [],
+    "countryIds": [
+      237
+    ],
+    "currencyIds": [
+      982
+    ]
+  },
+  {
+    "id": 229,
+    "name": "Central Bank of Venezuela",
+    "nativeName": "Banco Central de Venezuela",
+    "websiteURL": null,
+    "establishmentYear": 1939,
+    "translations": [],
+    "countryIds": [
+      239
+    ],
+    "currencyIds": [
+      983
+    ]
+  },
+  {
+    "id": 230,
+    "name": "State Bank of Vietnam",
+    "nativeName": "Ngân hàng nhà nước Việt Nam",
+    "websiteURL": null,
+    "establishmentYear": 1951,
+    "translations": [],
+    "countryIds": [
+      240
+    ],
+    "currencyIds": [
+      984
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Central Bank of Yemen",
+    "nativeName": "البنك المركزي اليمني",
+    "websiteURL": "https://cby-ye.com/",
+    "establishmentYear": 1971,
+    "translations": [],
+    "countryIds": [
+      245
+    ],
+    "currencyIds": [
+      985
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Bank of Zambia",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1964,
+    "translations": [],
+    "countryIds": [
+      246
+    ],
+    "currencyIds": [
+      986
+    ]
+  },
+  {
+    "id": 234,
+    "name": "Reserve Bank of Zimbabwe",
+    "nativeName": null,
+    "websiteURL": null,
+    "establishmentYear": 1964,
+    "translations": [],
+    "countryIds": [
+      247
+    ],
+    "currencyIds": [
+      988
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Central Bank of Aruba",
+    "nativeName": "Banco Central di Aruba",
+    "websiteURL": "https://www.cbaruba.org/",
+    "establishmentYear": 1986,
+    "translations": [],
+    "countryIds": [
+      13
+    ],
+    "currencyIds": [
+      843
+    ]
+  }
+]

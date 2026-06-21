@@ -1,0 +1,93 @@
+{
+  "id": 128,
+  "name": "Macau S.A.R.",
+  "nativeName": "澳門",
+  "iso2": "MO",
+  "iso3": "MAC",
+  "numericCode": "446",
+  "phoneCode": "853",
+  "tld": ".mo",
+  "latitude": 22.16666666,
+  "longitude": 113.55,
+  "flagId": 103,
+  "regionId": 3,
+  "subregionId": 12,
+  "currencyIds": [
+    916
+  ],
+  "timezoneIds": [
+    2444
+  ],
+  "officialLanguageIds": [
+    25,
+    45
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "마카오"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Macau"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Macau"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Macao"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Makao"
+    },
+    {
+      "languageCode": "fa",
+      "name": "مکائو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Macao"
+    },
+    {
+      "languageCode": "es",
+      "name": "Macao"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Macao"
+    },
+    {
+      "languageCode": "ja",
+      "name": "マカオ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Macao"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "中国澳门"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Makao"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Макао С.А.Р."
+    },
+    {
+      "languageCode": "uk",
+      "name": "САР Макао."
+    },
+    {
+      "languageCode": "pl",
+      "name": "Macau S.A.R."
+    }
+  ],
+  "states": []
+}

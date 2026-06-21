@@ -1,0 +1,1317 @@
+{
+  "id": 239,
+  "name": "Venezuela",
+  "nativeName": "Venezuela",
+  "iso2": "VE",
+  "iso3": "VEN",
+  "numericCode": "862",
+  "phoneCode": "58",
+  "tld": ".ve",
+  "latitude": 8,
+  "longitude": -66,
+  "flagId": 13,
+  "regionId": 2,
+  "subregionId": 8,
+  "currencyIds": [
+    983
+  ],
+  "timezoneIds": [
+    2638
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "베네수엘라"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Venezuela"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Venezuela"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Venezuela"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Venezuela"
+    },
+    {
+      "languageCode": "fa",
+      "name": "ونزوئلا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Venezuela"
+    },
+    {
+      "languageCode": "es",
+      "name": "Venezuela"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Venezuela"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ベネズエラ・ボリバル共和国"
+    },
+    {
+      "languageCode": "it",
+      "name": "Venezuela"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "委内瑞拉"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Venezuela"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Венесуэла"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Венесуела"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wenezuela"
+    }
+  ],
+  "states": [
+    {
+      "id": 2034,
+      "name": "Cojedes",
+      "stateCode": "H",
+      "latitude": 9.3816682,
+      "longitude": -68.3339275,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130141,
+          "name": "San Carlos",
+          "latitude": 9.66124,
+          "longitude": -68.58268,
+          "translations": []
+        },
+        {
+          "id": 130157,
+          "name": "Tinaquillo",
+          "latitude": 9.91861,
+          "longitude": -68.30472,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2035,
+      "name": "Falcón",
+      "stateCode": "I",
+      "latitude": 11.1810674,
+      "longitude": -69.8597406,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130065,
+          "name": "Chichiriviche",
+          "latitude": 10.92872,
+          "longitude": -68.27283,
+          "translations": []
+        },
+        {
+          "id": 130071,
+          "name": "Coro",
+          "latitude": 11.4045,
+          "longitude": -69.67344,
+          "translations": []
+        },
+        {
+          "id": 130116,
+          "name": "Municipio Los Taques",
+          "latitude": 11.82308,
+          "longitude": -70.25353,
+          "translations": []
+        },
+        {
+          "id": 130118,
+          "name": "Municipio Miranda",
+          "latitude": 11.31667,
+          "longitude": -69.86667,
+          "translations": []
+        },
+        {
+          "id": 130135,
+          "name": "Punta Cardón",
+          "latitude": 11.65806,
+          "longitude": -70.215,
+          "translations": []
+        },
+        {
+          "id": 130136,
+          "name": "Punto Fijo",
+          "latitude": 11.69152,
+          "longitude": -70.19918,
+          "translations": []
+        },
+        {
+          "id": 130160,
+          "name": "Tucacas",
+          "latitude": 10.79006,
+          "longitude": -68.32564,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2036,
+      "name": "Portuguesa",
+      "stateCode": "P",
+      "latitude": 9.0943999,
+      "longitude": -69.097023,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130038,
+          "name": "Acarigua",
+          "latitude": 9.55451,
+          "longitude": -69.19564,
+          "translations": []
+        },
+        {
+          "id": 130043,
+          "name": "Araure",
+          "latitude": 9.58144,
+          "longitude": -69.23851,
+          "translations": []
+        },
+        {
+          "id": 130082,
+          "name": "Guanare",
+          "latitude": 9.04183,
+          "longitude": -69.74206,
+          "translations": []
+        },
+        {
+          "id": 130168,
+          "name": "Villa Bruzual",
+          "latitude": 9.33186,
+          "longitude": -69.11968,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2037,
+      "name": "Miranda",
+      "stateCode": "M",
+      "latitude": 42.3519383,
+      "longitude": -71.5290766,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130048,
+          "name": "Baruta",
+          "latitude": 10.43424,
+          "longitude": -66.87558,
+          "translations": []
+        },
+        {
+          "id": 130058,
+          "name": "Carrizal",
+          "latitude": 10.34985,
+          "longitude": -66.98632,
+          "translations": []
+        },
+        {
+          "id": 130061,
+          "name": "Caucaguita",
+          "latitude": 10.35782,
+          "longitude": -66.80252,
+          "translations": []
+        },
+        {
+          "id": 130062,
+          "name": "Caucagüito",
+          "latitude": 10.48666,
+          "longitude": -66.73799,
+          "translations": []
+        },
+        {
+          "id": 130063,
+          "name": "Chacao",
+          "latitude": 10.49581,
+          "longitude": -66.85367,
+          "translations": []
+        },
+        {
+          "id": 130064,
+          "name": "Charallave",
+          "latitude": 10.24247,
+          "longitude": -66.85723,
+          "translations": []
+        },
+        {
+          "id": 130073,
+          "name": "Cúa",
+          "latitude": 10.16245,
+          "longitude": -66.88248,
+          "translations": []
+        },
+        {
+          "id": 130075,
+          "name": "El Cafetal",
+          "latitude": 10.46541,
+          "longitude": -66.82951,
+          "translations": []
+        },
+        {
+          "id": 130076,
+          "name": "El Hatillo",
+          "latitude": 10.42411,
+          "longitude": -66.82581,
+          "translations": []
+        },
+        {
+          "id": 130083,
+          "name": "Guarenas",
+          "latitude": 10.47027,
+          "longitude": -66.61934,
+          "translations": []
+        },
+        {
+          "id": 130084,
+          "name": "Guatire",
+          "latitude": 10.474,
+          "longitude": -66.54241,
+          "translations": []
+        },
+        {
+          "id": 130089,
+          "name": "La Dolorita",
+          "latitude": 10.4883,
+          "longitude": -66.78608,
+          "translations": []
+        },
+        {
+          "id": 130097,
+          "name": "Los Dos Caminos",
+          "latitude": 10.49389,
+          "longitude": -66.82863,
+          "translations": []
+        },
+        {
+          "id": 130100,
+          "name": "Los Teques",
+          "latitude": 10.34447,
+          "longitude": -67.04325,
+          "translations": []
+        },
+        {
+          "id": 130126,
+          "name": "Ocumare del Tuy",
+          "latitude": 10.1182,
+          "longitude": -66.77513,
+          "translations": []
+        },
+        {
+          "id": 130129,
+          "name": "Petare",
+          "latitude": 10.47679,
+          "longitude": -66.80786,
+          "translations": []
+        },
+        {
+          "id": 130139,
+          "name": "San Antonio de Los Altos",
+          "latitude": 10.38853,
+          "longitude": -66.95179,
+          "translations": []
+        },
+        {
+          "id": 130155,
+          "name": "Santa Teresa del Tuy",
+          "latitude": 10.23291,
+          "longitude": -66.66474,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2038,
+      "name": "Lara",
+      "stateCode": "K",
+      "latitude": 33.9822165,
+      "longitude": -118.1322747,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130047,
+          "name": "Barquisimeto",
+          "latitude": 10.0647,
+          "longitude": -69.35703,
+          "translations": []
+        },
+        {
+          "id": 130051,
+          "name": "Cabudare",
+          "latitude": 10.02658,
+          "longitude": -69.26203,
+          "translations": []
+        },
+        {
+          "id": 130057,
+          "name": "Carora",
+          "latitude": 10.17283,
+          "longitude": -70.081,
+          "translations": []
+        },
+        {
+          "id": 130079,
+          "name": "El Tocuyo",
+          "latitude": 9.78709,
+          "longitude": -69.79294,
+          "translations": []
+        },
+        {
+          "id": 130099,
+          "name": "Los Rastrojos",
+          "latitude": 10.02588,
+          "longitude": -69.24166,
+          "translations": []
+        },
+        {
+          "id": 130137,
+          "name": "Quíbor",
+          "latitude": 9.92866,
+          "longitude": -69.6201,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2039,
+      "name": "Bolívar",
+      "stateCode": "F",
+      "latitude": 37.6144838,
+      "longitude": -93.4104749,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130067,
+          "name": "Ciudad Bolívar",
+          "latitude": 8.12923,
+          "longitude": -63.54086,
+          "translations": []
+        },
+        {
+          "id": 130068,
+          "name": "Ciudad Guayana",
+          "latitude": 8.35122,
+          "longitude": -62.64102,
+          "translations": []
+        },
+        {
+          "id": 130119,
+          "name": "Municipio Padre Pedro Chien",
+          "latitude": 8.02455,
+          "longitude": -61.88187,
+          "translations": []
+        },
+        {
+          "id": 130152,
+          "name": "Santa Elena de Uairén",
+          "latitude": 4.60226,
+          "longitude": -61.11025,
+          "translations": []
+        },
+        {
+          "id": 130164,
+          "name": "Upata",
+          "latitude": 8.0162,
+          "longitude": -62.40561,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2040,
+      "name": "Carabobo",
+      "stateCode": "G",
+      "latitude": 10.1176433,
+      "longitude": -68.0477509,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130081,
+          "name": "Guacara",
+          "latitude": 10.22609,
+          "longitude": -67.877,
+          "translations": []
+        },
+        {
+          "id": 130085,
+          "name": "Güigüe",
+          "latitude": 10.08344,
+          "longitude": -67.77799,
+          "translations": []
+        },
+        {
+          "id": 130098,
+          "name": "Los Guayos",
+          "latitude": 10.18932,
+          "longitude": -67.93828,
+          "translations": []
+        },
+        {
+          "id": 130105,
+          "name": "Mariara",
+          "latitude": 10.29532,
+          "longitude": -67.7177,
+          "translations": []
+        },
+        {
+          "id": 130108,
+          "name": "Morón",
+          "latitude": 10.48715,
+          "longitude": -68.20078,
+          "translations": []
+        },
+        {
+          "id": 130132,
+          "name": "Puerto Cabello",
+          "latitude": 10.47306,
+          "longitude": -68.0125,
+          "translations": []
+        },
+        {
+          "id": 130147,
+          "name": "San Joaquín",
+          "latitude": 10.26061,
+          "longitude": -67.79348,
+          "translations": []
+        },
+        {
+          "id": 130156,
+          "name": "Tacarigua",
+          "latitude": 10.08621,
+          "longitude": -67.91982,
+          "translations": []
+        },
+        {
+          "id": 130158,
+          "name": "Tocuyito",
+          "latitude": 10.11347,
+          "longitude": -68.06783,
+          "translations": []
+        },
+        {
+          "id": 130165,
+          "name": "Valencia",
+          "latitude": 10.16202,
+          "longitude": -68.00765,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2041,
+      "name": "Yaracuy",
+      "stateCode": "U",
+      "latitude": 10.339389,
+      "longitude": -68.8108849,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130066,
+          "name": "Chivacoa",
+          "latitude": 10.15951,
+          "longitude": -68.89453,
+          "translations": []
+        },
+        {
+          "id": 130112,
+          "name": "Municipio Independencia",
+          "latitude": 10.33472,
+          "longitude": -68.75555,
+          "translations": []
+        },
+        {
+          "id": 130125,
+          "name": "Nirgua",
+          "latitude": 10.15039,
+          "longitude": -68.56478,
+          "translations": []
+        },
+        {
+          "id": 130145,
+          "name": "San Felipe",
+          "latitude": 10.33991,
+          "longitude": -68.74247,
+          "translations": []
+        },
+        {
+          "id": 130170,
+          "name": "Yaritagua",
+          "latitude": 10.08081,
+          "longitude": -69.1242,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2042,
+      "name": "Zulia",
+      "stateCode": "V",
+      "latitude": 10.2910237,
+      "longitude": -72.1416132,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130050,
+          "name": "Cabimas",
+          "latitude": 10.39907,
+          "longitude": -71.45206,
+          "translations": []
+        },
+        {
+          "id": 130069,
+          "name": "Ciudad Ojeda",
+          "latitude": 10.20161,
+          "longitude": -71.3148,
+          "translations": []
+        },
+        {
+          "id": 130094,
+          "name": "La Villa del Rosario",
+          "latitude": 10.3258,
+          "longitude": -72.31343,
+          "translations": []
+        },
+        {
+          "id": 130095,
+          "name": "Lagunillas",
+          "latitude": 10.13008,
+          "longitude": -71.25946,
+          "translations": []
+        },
+        {
+          "id": 130101,
+          "name": "Machiques",
+          "latitude": 10.06077,
+          "longitude": -72.55212,
+          "translations": []
+        },
+        {
+          "id": 130103,
+          "name": "Maracaibo",
+          "latitude": 10.66663,
+          "longitude": -71.61245,
+          "translations": []
+        },
+        {
+          "id": 130143,
+          "name": "San Carlos del Zulia",
+          "latitude": 9.00098,
+          "longitude": -71.92683,
+          "translations": []
+        },
+        {
+          "id": 130154,
+          "name": "Santa Rita",
+          "latitude": 10.53642,
+          "longitude": -71.51104,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2043,
+      "name": "Trujillo",
+      "stateCode": "T",
+      "latitude": 36.6734343,
+      "longitude": -121.6287588,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130049,
+          "name": "Boconó",
+          "latitude": 9.25385,
+          "longitude": -70.25105,
+          "translations": []
+        },
+        {
+          "id": 130120,
+          "name": "Municipio Pampanito",
+          "latitude": 9.41147,
+          "longitude": -70.49592,
+          "translations": []
+        },
+        {
+          "id": 130121,
+          "name": "Municipio San Rafael de Carvajal",
+          "latitude": 9.30756,
+          "longitude": -70.58965,
+          "translations": []
+        },
+        {
+          "id": 130159,
+          "name": "Trujillo",
+          "latitude": 9.36583,
+          "longitude": -70.43694,
+          "translations": []
+        },
+        {
+          "id": 130166,
+          "name": "Valera",
+          "latitude": 9.31778,
+          "longitude": -70.60361,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2044,
+      "name": "Amazonas",
+      "stateCode": "Z",
+      "latitude": -3.4168427,
+      "longitude": -65.8560646,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130106,
+          "name": "Maroa",
+          "latitude": 2.7188,
+          "longitude": -67.56046,
+          "translations": []
+        },
+        {
+          "id": 130110,
+          "name": "Municipio Autónomo Alto Orinoco",
+          "latitude": 2.73456,
+          "longitude": -64.83032,
+          "translations": []
+        },
+        {
+          "id": 130131,
+          "name": "Puerto Ayacucho",
+          "latitude": 5.66049,
+          "longitude": -67.58343,
+          "translations": []
+        },
+        {
+          "id": 130142,
+          "name": "San Carlos de Río Negro",
+          "latitude": 1.92027,
+          "longitude": -67.06089,
+          "translations": []
+        },
+        {
+          "id": 130146,
+          "name": "San Fernando de Atabapo",
+          "latitude": 4.04564,
+          "longitude": -67.69934,
+          "translations": []
+        },
+        {
+          "id": 130149,
+          "name": "San Juan de Manapiare",
+          "latitude": 5.32665,
+          "longitude": -66.05402,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2045,
+      "name": "Guárico",
+      "stateCode": "J",
+      "latitude": 8.7489309,
+      "longitude": -66.2367172,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130039,
+          "name": "Altagracia de Orituco",
+          "latitude": 9.86005,
+          "longitude": -66.38139,
+          "translations": []
+        },
+        {
+          "id": 130053,
+          "name": "Calabozo",
+          "latitude": 8.92416,
+          "longitude": -67.42929,
+          "translations": []
+        },
+        {
+          "id": 130150,
+          "name": "San Juan de los Morros",
+          "latitude": 9.91152,
+          "longitude": -67.35381,
+          "translations": []
+        },
+        {
+          "id": 130167,
+          "name": "Valle de La Pascua",
+          "latitude": 9.21554,
+          "longitude": -66.00734,
+          "translations": []
+        },
+        {
+          "id": 130171,
+          "name": "Zaraza",
+          "latitude": 9.35029,
+          "longitude": -65.32452,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2046,
+      "name": "Venezuela",
+      "stateCode": "W",
+      "latitude": 10.9377053,
+      "longitude": -65.3569573,
+      "type": "federal dependency",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2047,
+      "name": "Aragua",
+      "stateCode": "D",
+      "latitude": 10.0635758,
+      "longitude": -67.2847875,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130052,
+          "name": "Cagua",
+          "latitude": 10.18634,
+          "longitude": -67.45935,
+          "translations": []
+        },
+        {
+          "id": 130077,
+          "name": "El Limón",
+          "latitude": 10.30589,
+          "longitude": -67.63212,
+          "translations": []
+        },
+        {
+          "id": 130093,
+          "name": "La Victoria",
+          "latitude": 10.22677,
+          "longitude": -67.33122,
+          "translations": []
+        },
+        {
+          "id": 130096,
+          "name": "Las Tejerías",
+          "latitude": 10.25416,
+          "longitude": -67.17333,
+          "translations": []
+        },
+        {
+          "id": 130104,
+          "name": "Maracay",
+          "latitude": 10.23535,
+          "longitude": -67.59113,
+          "translations": []
+        },
+        {
+          "id": 130128,
+          "name": "Palo Negro",
+          "latitude": 10.17389,
+          "longitude": -67.54194,
+          "translations": []
+        },
+        {
+          "id": 130151,
+          "name": "San Mateo",
+          "latitude": 10.21302,
+          "longitude": -67.42365,
+          "translations": []
+        },
+        {
+          "id": 130153,
+          "name": "Santa Rita",
+          "latitude": 10.2054,
+          "longitude": -67.55948,
+          "translations": []
+        },
+        {
+          "id": 130162,
+          "name": "Turmero",
+          "latitude": 10.22856,
+          "longitude": -67.47421,
+          "translations": []
+        },
+        {
+          "id": 130169,
+          "name": "Villa de Cura",
+          "latitude": 10.03863,
+          "longitude": -67.48938,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2048,
+      "name": "Táchira",
+      "stateCode": "S",
+      "latitude": 7.9137001,
+      "longitude": -72.1416132,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130070,
+          "name": "Colón",
+          "latitude": 8.03125,
+          "longitude": -72.26053,
+          "translations": []
+        },
+        {
+          "id": 130090,
+          "name": "La Fría",
+          "latitude": 8.21523,
+          "longitude": -72.24888,
+          "translations": []
+        },
+        {
+          "id": 130091,
+          "name": "La Grita",
+          "latitude": 8.13316,
+          "longitude": -71.9839,
+          "translations": []
+        },
+        {
+          "id": 130114,
+          "name": "Municipio José María Vargas",
+          "latitude": 8.03514,
+          "longitude": -72.05675,
+          "translations": []
+        },
+        {
+          "id": 130138,
+          "name": "Rubio",
+          "latitude": 7.70131,
+          "longitude": -72.35569,
+          "translations": []
+        },
+        {
+          "id": 130140,
+          "name": "San Antonio del Táchira",
+          "latitude": 7.81454,
+          "longitude": -72.4431,
+          "translations": []
+        },
+        {
+          "id": 130144,
+          "name": "San Cristóbal",
+          "latitude": 7.76694,
+          "longitude": -72.225,
+          "translations": []
+        },
+        {
+          "id": 130163,
+          "name": "Táriba",
+          "latitude": 7.8188,
+          "longitude": -72.22427,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2049,
+      "name": "Barinas",
+      "stateCode": "E",
+      "latitude": 8.6231498,
+      "longitude": -70.2371045,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130040,
+          "name": "Alto Barinas",
+          "latitude": 8.5931,
+          "longitude": -70.2261,
+          "translations": []
+        },
+        {
+          "id": 130045,
+          "name": "Barinas",
+          "latitude": 8.62261,
+          "longitude": -70.20749,
+          "translations": []
+        },
+        {
+          "id": 130046,
+          "name": "Barinitas",
+          "latitude": 8.76171,
+          "longitude": -70.41199,
+          "translations": []
+        },
+        {
+          "id": 130111,
+          "name": "Municipio Barinas",
+          "latitude": 8.61497,
+          "longitude": -70.19852,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2050,
+      "name": "Anzoátegui",
+      "stateCode": "B",
+      "latitude": 8.5913073,
+      "longitude": -63.9586111,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130041,
+          "name": "Anaco",
+          "latitude": 9.42958,
+          "longitude": -64.46428,
+          "translations": []
+        },
+        {
+          "id": 130042,
+          "name": "Aragua de Barcelona",
+          "latitude": 9.45588,
+          "longitude": -64.82928,
+          "translations": []
+        },
+        {
+          "id": 130044,
+          "name": "Barcelona",
+          "latitude": 10.13625,
+          "longitude": -64.68618,
+          "translations": []
+        },
+        {
+          "id": 130054,
+          "name": "Cantaura",
+          "latitude": 9.30571,
+          "longitude": -64.35841,
+          "translations": []
+        },
+        {
+          "id": 130078,
+          "name": "El Tigre",
+          "latitude": 8.88902,
+          "longitude": -64.2527,
+          "translations": []
+        },
+        {
+          "id": 130113,
+          "name": "Municipio José Gregorio Monagas",
+          "latitude": 7.73874,
+          "longitude": -64.71876,
+          "translations": []
+        },
+        {
+          "id": 130127,
+          "name": "Onoto",
+          "latitude": 9.59714,
+          "longitude": -65.1935,
+          "translations": []
+        },
+        {
+          "id": 130133,
+          "name": "Puerto La Cruz",
+          "latitude": 10.21382,
+          "longitude": -64.6328,
+          "translations": []
+        },
+        {
+          "id": 130134,
+          "name": "Puerto Píritu",
+          "latitude": 10.05896,
+          "longitude": -65.03698,
+          "translations": []
+        },
+        {
+          "id": 130148,
+          "name": "San José de Guanipa",
+          "latitude": 8.88724,
+          "longitude": -64.16512,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2051,
+      "name": "Delta Amacuro",
+      "stateCode": "Y",
+      "latitude": 8.8499307,
+      "longitude": -61.1403196,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130161,
+          "name": "Tucupita",
+          "latitude": 9.05806,
+          "longitude": -62.05,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2052,
+      "name": "Nueva Esparta",
+      "stateCode": "O",
+      "latitude": 10.9970723,
+      "longitude": -63.9113296,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130087,
+          "name": "Juan Griego",
+          "latitude": 11.08172,
+          "longitude": -63.96549,
+          "translations": []
+        },
+        {
+          "id": 130088,
+          "name": "La Asunción",
+          "latitude": 11.03333,
+          "longitude": -63.86278,
+          "translations": []
+        },
+        {
+          "id": 130130,
+          "name": "Porlamar",
+          "latitude": 10.95771,
+          "longitude": -63.86971,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2053,
+      "name": "Mérida",
+      "stateCode": "L",
+      "latitude": 20.9673702,
+      "longitude": -89.5925857,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130074,
+          "name": "Ejido",
+          "latitude": 8.54665,
+          "longitude": -71.24087,
+          "translations": []
+        },
+        {
+          "id": 130080,
+          "name": "El Vigía",
+          "latitude": 8.6135,
+          "longitude": -71.65702,
+          "translations": []
+        },
+        {
+          "id": 130109,
+          "name": "Mucumpiz",
+          "latitude": 8.41667,
+          "longitude": -71.13333,
+          "translations": []
+        },
+        {
+          "id": 130115,
+          "name": "Municipio Libertador",
+          "latitude": 8.33333,
+          "longitude": -71.11667,
+          "translations": []
+        },
+        {
+          "id": 130124,
+          "name": "Mérida",
+          "latitude": 8.58972,
+          "longitude": -71.15611,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2054,
+      "name": "Monagas",
+      "stateCode": "N",
+      "latitude": 9.3241652,
+      "longitude": -63.0147578,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130056,
+          "name": "Caripito",
+          "latitude": 10.11135,
+          "longitude": -63.09985,
+          "translations": []
+        },
+        {
+          "id": 130107,
+          "name": "Maturín",
+          "latitude": 9.74569,
+          "longitude": -63.18323,
+          "translations": []
+        },
+        {
+          "id": 130117,
+          "name": "Municipio Maturín",
+          "latitude": 9.4,
+          "longitude": -63.03333,
+          "translations": []
+        },
+        {
+          "id": 130122,
+          "name": "Municipio Uracoa",
+          "latitude": 8.9996,
+          "longitude": -62.35164,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2055,
+      "name": "La Guaira",
+      "stateCode": "X",
+      "latitude": 29.3052268,
+      "longitude": -94.7913854,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130055,
+          "name": "Caraballeda",
+          "latitude": 10.61216,
+          "longitude": -66.85192,
+          "translations": []
+        },
+        {
+          "id": 130060,
+          "name": "Catia La Mar",
+          "latitude": 10.60545,
+          "longitude": -67.03238,
+          "translations": []
+        },
+        {
+          "id": 130092,
+          "name": "La Guaira",
+          "latitude": 10.60156,
+          "longitude": -66.93293,
+          "translations": []
+        },
+        {
+          "id": 130102,
+          "name": "Maiquetía",
+          "latitude": 10.5945,
+          "longitude": -66.95624,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2056,
+      "name": "Sucre",
+      "stateCode": "R",
+      "latitude": -19.035345,
+      "longitude": -65.2592128,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130059,
+          "name": "Carúpano",
+          "latitude": 10.66516,
+          "longitude": -63.25387,
+          "translations": []
+        },
+        {
+          "id": 130072,
+          "name": "Cumaná",
+          "latitude": 10.45397,
+          "longitude": -64.18256,
+          "translations": []
+        },
+        {
+          "id": 130086,
+          "name": "Güiria",
+          "latitude": 10.57721,
+          "longitude": -62.29841,
+          "translations": []
+        },
+        {
+          "id": 130123,
+          "name": "Municipio Valdez",
+          "latitude": 10.57945,
+          "longitude": -62.30029,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4855,
+      "name": "Distrito Capital",
+      "stateCode": "A",
+      "latitude": 41.2614846,
+      "longitude": -95.9310807,
+      "type": "capital district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 149261,
+          "name": "Caracas",
+          "latitude": 10.5,
+          "longitude": -66.93333333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4856,
+      "name": "Apure",
+      "stateCode": "C",
+      "latitude": 6.9269483,
+      "longitude": -68.5247149,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153351,
+          "name": "San Fernando de Apure",
+          "latitude": 7.8726693,
+          "longitude": -67.4819328,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

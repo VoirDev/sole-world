@@ -1,0 +1,196 @@
+{
+  "id": 157,
+  "name": "New Caledonia",
+  "nativeName": "Nouvelle-Calédonie",
+  "iso2": "NC",
+  "iso3": "NCL",
+  "numericCode": "540",
+  "phoneCode": "687",
+  "tld": ".nc",
+  "latitude": -21.5,
+  "longitude": 165.5,
+  "flagId": 90,
+  "regionId": 5,
+  "subregionId": 20,
+  "currencyIds": [
+    885
+  ],
+  "timezoneIds": [
+    2487
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "누벨칼레도니"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Nova Caledônia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Nova Caledónia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Nieuw-Caledonië"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Nova Kaledonija"
+    },
+    {
+      "languageCode": "fa",
+      "name": "کالدونیای جدید"
+    },
+    {
+      "languageCode": "de",
+      "name": "Neukaledonien"
+    },
+    {
+      "languageCode": "es",
+      "name": "Nueva Caledonia"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Nouvelle-Calédonie"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ニューカレドニア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Nuova Caledonia"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "新喀里多尼亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Yeni Kaledonya"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Новая Каледония"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Нова Каледонія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Nowa Kaledonia"
+    }
+  ],
+  "states": [
+    {
+      "id": 5225,
+      "name": "South Province",
+      "stateCode": "01",
+      "latitude": -22.2758,
+      "longitude": 166.458,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153630,
+          "name": "Nouméa",
+          "latitude": -22.2758,
+          "longitude": 166.458,
+          "translations": []
+        },
+        {
+          "id": 153631,
+          "name": "Le Mont-Dore",
+          "latitude": -22.2157,
+          "longitude": 166.4665,
+          "translations": []
+        },
+        {
+          "id": 153632,
+          "name": "Dumbéa",
+          "latitude": -22.15,
+          "longitude": 166.45,
+          "translations": []
+        },
+        {
+          "id": 153633,
+          "name": "Païta",
+          "latitude": -22.1337,
+          "longitude": 166.3505,
+          "translations": []
+        },
+        {
+          "id": 153634,
+          "name": "Bourail",
+          "latitude": -21.5701,
+          "longitude": 165.4804,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5226,
+      "name": "North Province",
+      "stateCode": "02",
+      "latitude": -22.2758,
+      "longitude": 166.458,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153635,
+          "name": "Koné",
+          "latitude": -21.059,
+          "longitude": 164.8518,
+          "translations": []
+        },
+        {
+          "id": 153636,
+          "name": "Poindimié",
+          "latitude": -20.9496,
+          "longitude": 165.3293,
+          "translations": []
+        },
+        {
+          "id": 153637,
+          "name": "Houaïlou",
+          "latitude": -21.2909,
+          "longitude": 165.6217,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5227,
+      "name": "Loyalty Islands Province",
+      "stateCode": "03",
+      "latitude": -20.9667,
+      "longitude": 167.2333,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153638,
+          "name": "Lifou",
+          "latitude": -20.9667,
+          "longitude": 167.2333,
+          "translations": []
+        },
+        {
+          "id": 153639,
+          "name": "Maré",
+          "latitude": -21.5167,
+          "longitude": 167.9833,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

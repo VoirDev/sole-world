@@ -1,0 +1,75 @@
+spring:
+  application:
+    name: sole-world
+
+  lifecycle:
+    timeout-per-shutdown-phase: ${SHUTDOWN_PHASE_TIMEOUT:30s}
+
+  web:
+    error:
+      include-message: ${WEB_ERROR_INCLUDE_MESSAGE:never}
+      include-binding-errors: ${WEB_ERROR_INCLUDE_BINDING_ERRORS:never}
+
+  datasource:
+    url: ${DATASOURCE_URL}
+    username: ${DATASOURCE_USERNAME}
+    password: ${DATASOURCE_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      pool-name: sole-world-hikari-pool
+      maximum-pool-size: ${DB_POOL_MAX_SIZE:10}
+      minimum-idle: ${DB_POOL_MIN_IDLE:2}
+      connection-timeout: ${DB_CONNECTION_TIMEOUT_MS:3000}
+      validation-timeout: ${DB_VALIDATION_TIMEOUT_MS:2000}
+      idle-timeout: ${DB_IDLE_TIMEOUT_MS:600000}
+      max-lifetime: ${DB_MAX_LIFETIME_MS:1800000}
+      keepalive-time: ${DB_KEEPALIVE_TIME_MS:300000}
+      leak-detection-threshold: ${DB_LEAK_DETECTION_THRESHOLD_MS:0}
+
+  flyway:
+    enabled: ${FLYWAY_ENABLED:true}
+    locations: ${FLYWAY_LOCATIONS:classpath:db/migration}
+
+server:
+  shutdown: ${SERVER_SHUTDOWN:graceful}
+  port: ${SERVER_PORT:8080}
+
+dgs:
+  graphql:
+    graphiql:
+      enabled: ${DGS_GRAPHIQL_ENABLED:true}
+      path: /graphiql
+    extensions:
+      scalars.enabled: true
+
+graphql:
+  limits:
+    max-depth: ${GRAPHQL_MAX_QUERY_DEPTH:30}
+    max-complexity: ${GRAPHQL_MAX_QUERY_COMPLEXITY:1000}
+
+logging:
+  level:
+    root: ${LOG_LEVEL:INFO}
+    dev.voir.sole.world: ${SONARS_LOG_LEVEL:${LOG_LEVEL:INFO}}
+    org.springframework: ${SPRING_LOG_LEVEL:${LOG_LEVEL:INFO}}
+    org.springframework.amqp: ${SPRING_AMQP_LOG_LEVEL:${SPRING_LOG_LEVEL:${LOG_LEVEL:INFO}}}
+    org.jetbrains.exposed: ${EXPOSED_LOG_LEVEL:${LOG_LEVEL:INFO}}
+    com.zaxxer.hikari: ${HIKARI_LOG_LEVEL:${LOG_LEVEL:INFO}}
+    org.flywaydb: ${FLYWAY_LOG_LEVEL:${LOG_LEVEL:INFO}}
+
+cors:
+  allowed-origins: ${CORS_ALLOWED_ORIGINS:*}
+  allowed-methods: ${CORS_ALLOWED_METHODS:GET,POST,PUT,DELETE}
+  allowed-headers: ${CORS_ALLOWED_HEADERS:*}
+
+admin:
+  security:
+    username: ${SUPER_ADMIN_USERNAME}
+    password: ${SUPER_ADMIN_PASSWORD}
+
+client:
+  security:
+    access-key-hash-secret: ${ACCESS_KEY_HASH_SECRET}
+
+seed:
+  import-enabled: ${SEED_IMPORT_ENABLED:true}

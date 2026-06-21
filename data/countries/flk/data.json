@@ -1,0 +1,92 @@
+{
+  "id": 71,
+  "name": "Falkland Islands",
+  "nativeName": "Falkland Islands",
+  "iso2": "FK",
+  "iso3": "FLK",
+  "numericCode": "238",
+  "phoneCode": "500",
+  "tld": ".fk",
+  "latitude": -51.75,
+  "longitude": -59,
+  "flagId": 178,
+  "regionId": 2,
+  "subregionId": 8,
+  "currencyIds": [
+    883
+  ],
+  "timezoneIds": [
+    2373
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "포클랜드 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Malvinas"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Falkland"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Falklandeilanden [Islas Malvinas]"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Falklandski Otoci"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر فالکلند"
+    },
+    {
+      "languageCode": "de",
+      "name": "Falklandinseln"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Malvinas"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Malouines"
+    },
+    {
+      "languageCode": "ja",
+      "name": "フォークランド（マルビナス）諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Falkland o Isole Malvine"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "福克兰群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Falkland Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Фолклендские острова"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Фолклендські острови"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Falklandy"
+    }
+  ],
+  "states": []
+}

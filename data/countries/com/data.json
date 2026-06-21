@@ -1,0 +1,743 @@
+{
+  "id": 49,
+  "name": "Comoros",
+  "nativeName": "Komori",
+  "iso2": "KM",
+  "iso3": "COM",
+  "numericCode": "174",
+  "phoneCode": "269",
+  "tld": ".km",
+  "latitude": -12.16666666,
+  "longitude": 44.25,
+  "flagId": 132,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    869
+  ],
+  "timezoneIds": [
+    2347
+  ],
+  "officialLanguageIds": [
+    33,
+    7
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "코모로"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Comores"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Comores"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Comoren"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Komori"
+    },
+    {
+      "languageCode": "fa",
+      "name": "کومور"
+    },
+    {
+      "languageCode": "de",
+      "name": "Union der Komoren"
+    },
+    {
+      "languageCode": "es",
+      "name": "Comoras"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Comores"
+    },
+    {
+      "languageCode": "ja",
+      "name": "コモロ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Comore"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "科摩罗"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Komorlar"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Коморские острова"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Коморські острови"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Komory"
+    }
+  ],
+  "states": [
+    {
+      "id": 2820,
+      "name": "Mohéli",
+      "stateCode": "M",
+      "latitude": -12.3377376,
+      "longitude": 43.7334089,
+      "type": "island",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65098,
+          "name": "Djoyézi",
+          "latitude": -12.30587,
+          "longitude": 43.77425,
+          "translations": []
+        },
+        {
+          "id": 65103,
+          "name": "Fomboni",
+          "latitude": -12.28759,
+          "longitude": 43.74344,
+          "translations": []
+        },
+        {
+          "id": 65108,
+          "name": "Hoani",
+          "latitude": -12.25083,
+          "longitude": 43.67472,
+          "translations": []
+        },
+        {
+          "id": 65140,
+          "name": "Mtakoudja",
+          "latitude": -12.26111,
+          "longitude": 43.70361,
+          "translations": []
+        },
+        {
+          "id": 65143,
+          "name": "Nioumachoua",
+          "latitude": -12.36139,
+          "longitude": 43.71528,
+          "translations": []
+        },
+        {
+          "id": 65148,
+          "name": "Ouanani",
+          "latitude": -12.3375,
+          "longitude": 43.7975,
+          "translations": []
+        },
+        {
+          "id": 65166,
+          "name": "Ziroudani",
+          "latitude": -12.3325,
+          "longitude": 43.7775,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2821,
+      "name": "Anjouan",
+      "stateCode": "A",
+      "latitude": -12.2138145,
+      "longitude": 44.4370606,
+      "type": "island",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65079,
+          "name": "Adda-Douéni",
+          "latitude": -12.2925,
+          "longitude": 44.49722,
+          "translations": []
+        },
+        {
+          "id": 65080,
+          "name": "Antsahé",
+          "latitude": -12.35639,
+          "longitude": 44.5225,
+          "translations": []
+        },
+        {
+          "id": 65081,
+          "name": "Assimpao",
+          "latitude": -12.23306,
+          "longitude": 44.31972,
+          "translations": []
+        },
+        {
+          "id": 65084,
+          "name": "Bambao",
+          "latitude": -12.20325,
+          "longitude": 44.51638,
+          "translations": []
+        },
+        {
+          "id": 65085,
+          "name": "Bandajou",
+          "latitude": -12.19167,
+          "longitude": 44.28694,
+          "translations": []
+        },
+        {
+          "id": 65086,
+          "name": "Barakani",
+          "latitude": -12.13861,
+          "longitude": 44.43026,
+          "translations": []
+        },
+        {
+          "id": 65087,
+          "name": "Bimbini",
+          "latitude": -12.18833,
+          "longitude": 44.23556,
+          "translations": []
+        },
+        {
+          "id": 65088,
+          "name": "Boungouéni",
+          "latitude": -12.20556,
+          "longitude": 44.29944,
+          "translations": []
+        },
+        {
+          "id": 65090,
+          "name": "Chandra",
+          "latitude": -12.195,
+          "longitude": 44.46472,
+          "translations": []
+        },
+        {
+          "id": 65093,
+          "name": "Chironkamba",
+          "latitude": -12.19111,
+          "longitude": 44.3525,
+          "translations": []
+        },
+        {
+          "id": 65094,
+          "name": "Chitrouni",
+          "latitude": -12.18583,
+          "longitude": 44.33556,
+          "translations": []
+        },
+        {
+          "id": 65096,
+          "name": "Daji",
+          "latitude": -12.32583,
+          "longitude": 44.48861,
+          "translations": []
+        },
+        {
+          "id": 65099,
+          "name": "Domoni",
+          "latitude": -12.25694,
+          "longitude": 44.53194,
+          "translations": []
+        },
+        {
+          "id": 65102,
+          "name": "Dziani",
+          "latitude": -12.18333,
+          "longitude": 44.48333,
+          "translations": []
+        },
+        {
+          "id": 65105,
+          "name": "Hajoho",
+          "latitude": -12.12434,
+          "longitude": 44.48881,
+          "translations": []
+        },
+        {
+          "id": 65107,
+          "name": "Harembo",
+          "latitude": -12.15108,
+          "longitude": 44.49828,
+          "translations": []
+        },
+        {
+          "id": 65113,
+          "name": "Kangani",
+          "latitude": -12.32102,
+          "longitude": 44.4727,
+          "translations": []
+        },
+        {
+          "id": 65114,
+          "name": "Kavani",
+          "latitude": -12.19194,
+          "longitude": 44.26944,
+          "translations": []
+        },
+        {
+          "id": 65115,
+          "name": "Koki",
+          "latitude": -12.17139,
+          "longitude": 44.44167,
+          "translations": []
+        },
+        {
+          "id": 65116,
+          "name": "Koni-Djodjo",
+          "latitude": -12.22972,
+          "longitude": 44.48167,
+          "translations": []
+        },
+        {
+          "id": 65117,
+          "name": "Koni-Ngani",
+          "latitude": -12.21583,
+          "longitude": 44.48,
+          "translations": []
+        },
+        {
+          "id": 65119,
+          "name": "Kyo",
+          "latitude": -12.33222,
+          "longitude": 44.51917,
+          "translations": []
+        },
+        {
+          "id": 65120,
+          "name": "Limbi",
+          "latitude": -12.23944,
+          "longitude": 44.50528,
+          "translations": []
+        },
+        {
+          "id": 65121,
+          "name": "Lingoni",
+          "latitude": -12.25583,
+          "longitude": 44.41833,
+          "translations": []
+        },
+        {
+          "id": 65123,
+          "name": "Magnassini-Nindri",
+          "latitude": -12.27806,
+          "longitude": 44.41583,
+          "translations": []
+        },
+        {
+          "id": 65125,
+          "name": "Maraharé",
+          "latitude": -12.23083,
+          "longitude": 44.31333,
+          "translations": []
+        },
+        {
+          "id": 65128,
+          "name": "Mirontsi",
+          "latitude": -12.15667,
+          "longitude": 44.40806,
+          "translations": []
+        },
+        {
+          "id": 65131,
+          "name": "Mjamaoué",
+          "latitude": -12.19361,
+          "longitude": 44.31,
+          "translations": []
+        },
+        {
+          "id": 65132,
+          "name": "Mjimandra",
+          "latitude": -12.19167,
+          "longitude": 44.37028,
+          "translations": []
+        },
+        {
+          "id": 65136,
+          "name": "Moutsamoudou",
+          "latitude": -12.16672,
+          "longitude": 44.39944,
+          "translations": []
+        },
+        {
+          "id": 65137,
+          "name": "Moya",
+          "latitude": -12.30967,
+          "longitude": 44.43685,
+          "translations": []
+        },
+        {
+          "id": 65138,
+          "name": "Mramani",
+          "latitude": -12.34639,
+          "longitude": 44.52861,
+          "translations": []
+        },
+        {
+          "id": 65139,
+          "name": "Mrémani",
+          "latitude": -12.30833,
+          "longitude": 44.49861,
+          "translations": []
+        },
+        {
+          "id": 65147,
+          "name": "Ongoni",
+          "latitude": -12.17028,
+          "longitude": 44.50694,
+          "translations": []
+        },
+        {
+          "id": 65149,
+          "name": "Ouani",
+          "latitude": -12.13554,
+          "longitude": 44.42493,
+          "translations": []
+        },
+        {
+          "id": 65154,
+          "name": "Ouzini",
+          "latitude": -12.26722,
+          "longitude": 44.47972,
+          "translations": []
+        },
+        {
+          "id": 65155,
+          "name": "Pajé",
+          "latitude": -12.16972,
+          "longitude": 44.38806,
+          "translations": []
+        },
+        {
+          "id": 65156,
+          "name": "Patsi",
+          "latitude": -12.15556,
+          "longitude": 44.43722,
+          "translations": []
+        },
+        {
+          "id": 65158,
+          "name": "Sima",
+          "latitude": -12.19556,
+          "longitude": 44.27667,
+          "translations": []
+        },
+        {
+          "id": 65162,
+          "name": "Tsimbeo",
+          "latitude": -12.20583,
+          "longitude": 44.46472,
+          "translations": []
+        },
+        {
+          "id": 65165,
+          "name": "Vouani",
+          "latitude": -12.24417,
+          "longitude": 44.37444,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2822,
+      "name": "Grande Comore",
+      "stateCode": "G",
+      "latitude": -11.7167338,
+      "longitude": 43.3680788,
+      "type": "island",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65082,
+          "name": "Bahani",
+          "latitude": -11.63972,
+          "longitude": 43.28417,
+          "translations": []
+        },
+        {
+          "id": 65083,
+          "name": "Bambadjani",
+          "latitude": -11.47861,
+          "longitude": 43.37722,
+          "translations": []
+        },
+        {
+          "id": 65089,
+          "name": "Bouni",
+          "latitude": -11.48694,
+          "longitude": 43.38833,
+          "translations": []
+        },
+        {
+          "id": 65091,
+          "name": "Chezani",
+          "latitude": -11.4314,
+          "longitude": 43.39625,
+          "translations": []
+        },
+        {
+          "id": 65092,
+          "name": "Chindini",
+          "latitude": -11.92328,
+          "longitude": 43.49109,
+          "translations": []
+        },
+        {
+          "id": 65095,
+          "name": "Chouani",
+          "latitude": -11.8233,
+          "longitude": 43.29429,
+          "translations": []
+        },
+        {
+          "id": 65097,
+          "name": "Dembéni",
+          "latitude": -11.87361,
+          "longitude": 43.39778,
+          "translations": []
+        },
+        {
+          "id": 65100,
+          "name": "Douniani",
+          "latitude": -11.42111,
+          "longitude": 43.28889,
+          "translations": []
+        },
+        {
+          "id": 65101,
+          "name": "Dzahadjou",
+          "latitude": -11.85287,
+          "longitude": 43.34987,
+          "translations": []
+        },
+        {
+          "id": 65104,
+          "name": "Foumbouni",
+          "latitude": -11.86537,
+          "longitude": 43.49529,
+          "translations": []
+        },
+        {
+          "id": 65106,
+          "name": "Hantsindzi",
+          "latitude": -11.43178,
+          "longitude": 43.41102,
+          "translations": []
+        },
+        {
+          "id": 65109,
+          "name": "Héroumbili",
+          "latitude": -11.54389,
+          "longitude": 43.37972,
+          "translations": []
+        },
+        {
+          "id": 65110,
+          "name": "Itsandra",
+          "latitude": -11.67111,
+          "longitude": 43.25472,
+          "translations": []
+        },
+        {
+          "id": 65111,
+          "name": "Itsandzéni",
+          "latitude": -11.47278,
+          "longitude": 43.38444,
+          "translations": []
+        },
+        {
+          "id": 65112,
+          "name": "Ivouani",
+          "latitude": -11.39157,
+          "longitude": 43.39454,
+          "translations": []
+        },
+        {
+          "id": 65118,
+          "name": "Koua",
+          "latitude": -11.42083,
+          "longitude": 43.27639,
+          "translations": []
+        },
+        {
+          "id": 65122,
+          "name": "Madjeouéni",
+          "latitude": -11.82167,
+          "longitude": 43.27806,
+          "translations": []
+        },
+        {
+          "id": 65124,
+          "name": "Mandza",
+          "latitude": -11.41806,
+          "longitude": 43.29528,
+          "translations": []
+        },
+        {
+          "id": 65126,
+          "name": "Mavingouni",
+          "latitude": -11.71639,
+          "longitude": 43.2525,
+          "translations": []
+        },
+        {
+          "id": 65127,
+          "name": "Mbéni",
+          "latitude": -11.50139,
+          "longitude": 43.3775,
+          "translations": []
+        },
+        {
+          "id": 65129,
+          "name": "Mitsamiouli",
+          "latitude": -11.38472,
+          "longitude": 43.28444,
+          "translations": []
+        },
+        {
+          "id": 65130,
+          "name": "Mitsoudjé",
+          "latitude": -11.81209,
+          "longitude": 43.28043,
+          "translations": []
+        },
+        {
+          "id": 65133,
+          "name": "Mnoungou",
+          "latitude": -11.51778,
+          "longitude": 43.37389,
+          "translations": []
+        },
+        {
+          "id": 65134,
+          "name": "Mohoro",
+          "latitude": -11.82701,
+          "longitude": 43.45436,
+          "translations": []
+        },
+        {
+          "id": 65135,
+          "name": "Moroni",
+          "latitude": -11.70216,
+          "longitude": 43.25506,
+          "translations": []
+        },
+        {
+          "id": 65141,
+          "name": "Mtsamdou",
+          "latitude": -11.60694,
+          "longitude": 43.38056,
+          "translations": []
+        },
+        {
+          "id": 65142,
+          "name": "Mvouni",
+          "latitude": -11.71611,
+          "longitude": 43.26472,
+          "translations": []
+        },
+        {
+          "id": 65144,
+          "name": "Nioumamilima",
+          "latitude": -11.85461,
+          "longitude": 43.44607,
+          "translations": []
+        },
+        {
+          "id": 65145,
+          "name": "Ntsaouéni",
+          "latitude": -11.46583,
+          "longitude": 43.26278,
+          "translations": []
+        },
+        {
+          "id": 65146,
+          "name": "Ntsoudjini",
+          "latitude": -11.65972,
+          "longitude": 43.26139,
+          "translations": []
+        },
+        {
+          "id": 65150,
+          "name": "Ouellah",
+          "latitude": -11.39028,
+          "longitude": 43.33194,
+          "translations": []
+        },
+        {
+          "id": 65151,
+          "name": "Ouhozi",
+          "latitude": -11.405,
+          "longitude": 43.28222,
+          "translations": []
+        },
+        {
+          "id": 65152,
+          "name": "Ourovéni",
+          "latitude": -11.91375,
+          "longitude": 43.49804,
+          "translations": []
+        },
+        {
+          "id": 65153,
+          "name": "Oussivo",
+          "latitude": -11.585,
+          "longitude": 43.26722,
+          "translations": []
+        },
+        {
+          "id": 65157,
+          "name": "Salimani",
+          "latitude": -11.8115,
+          "longitude": 43.26823,
+          "translations": []
+        },
+        {
+          "id": 65159,
+          "name": "Singani",
+          "latitude": -11.84784,
+          "longitude": 43.31731,
+          "translations": []
+        },
+        {
+          "id": 65160,
+          "name": "Séléa",
+          "latitude": -11.78444,
+          "longitude": 43.26083,
+          "translations": []
+        },
+        {
+          "id": 65161,
+          "name": "Tsidjé",
+          "latitude": -11.69806,
+          "longitude": 43.26194,
+          "translations": []
+        },
+        {
+          "id": 65163,
+          "name": "Vanadjou",
+          "latitude": -11.6075,
+          "longitude": 43.27611,
+          "translations": []
+        },
+        {
+          "id": 65164,
+          "name": "Vanambouani",
+          "latitude": -11.61139,
+          "longitude": 43.25306,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

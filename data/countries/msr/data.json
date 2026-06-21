@@ -1,0 +1,92 @@
+{
+  "id": 148,
+  "name": "Montserrat",
+  "nativeName": "Montserrat",
+  "iso2": "MS",
+  "iso3": "MSR",
+  "numericCode": "500",
+  "phoneCode": "1",
+  "tld": ".ms",
+  "latitude": 16.75,
+  "longitude": -62.2,
+  "flagId": 99,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    840
+  ],
+  "timezoneIds": [
+    2479
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "몬트세랫"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Montserrat"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Monserrate"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Montserrat"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Montserrat"
+    },
+    {
+      "languageCode": "fa",
+      "name": "مایوت"
+    },
+    {
+      "languageCode": "de",
+      "name": "Montserrat"
+    },
+    {
+      "languageCode": "es",
+      "name": "Montserrat"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Montserrat"
+    },
+    {
+      "languageCode": "ja",
+      "name": "モントセラト"
+    },
+    {
+      "languageCode": "it",
+      "name": "Montserrat"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "蒙特塞拉特"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Montserrat"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Монтсеррат"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Монтсеррат"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Montserrat"
+    }
+  ],
+  "states": []
+}

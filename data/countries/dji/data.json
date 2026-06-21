@@ -1,0 +1,244 @@
+{
+  "id": 60,
+  "name": "Djibouti",
+  "nativeName": "Djibouti",
+  "iso2": "DJ",
+  "iso3": "DJI",
+  "numericCode": "262",
+  "phoneCode": "253",
+  "tld": ".dj",
+  "latitude": 11.5,
+  "longitude": 43,
+  "flagId": 193,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    877
+  ],
+  "timezoneIds": [
+    2361
+  ],
+  "officialLanguageIds": [
+    33,
+    7
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "지부티"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Djibuti"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Djibuti"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Djibouti"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Džibuti"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جیبوتی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Dschibuti"
+    },
+    {
+      "languageCode": "es",
+      "name": "Yibuti"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Djibouti"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ジブチ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Gibuti"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "吉布提"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Cibuti"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Джибути"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Джибуті"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Dżibuti"
+    }
+  ],
+  "states": [
+    {
+      "id": 2928,
+      "name": "Obock",
+      "stateCode": "OB",
+      "latitude": 12.3895691,
+      "longitude": 43.0194897,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 30562,
+          "name": "Alaïli Ḏaḏḏa‘",
+          "latitude": 12.42167,
+          "longitude": 42.89556,
+          "translations": []
+        },
+        {
+          "id": 30571,
+          "name": "Obock",
+          "latitude": 11.96693,
+          "longitude": 43.28835,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2929,
+      "name": "Djibouti",
+      "stateCode": "DJ",
+      "latitude": 11.825138,
+      "longitude": 42.590275,
+      "type": "city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 30565,
+          "name": "Djibouti",
+          "latitude": 11.58901,
+          "longitude": 43.14503,
+          "translations": []
+        },
+        {
+          "id": 30570,
+          "name": "Loyada",
+          "latitude": 11.46111,
+          "longitude": 43.25278,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2930,
+      "name": "Dikhil",
+      "stateCode": "DI",
+      "latitude": 11.1054336,
+      "longitude": 42.3704744,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 30564,
+          "name": "Dikhil",
+          "latitude": 11.10454,
+          "longitude": 42.36971,
+          "translations": []
+        },
+        {
+          "id": 30568,
+          "name": "Gâlâfi",
+          "latitude": 11.71583,
+          "longitude": 41.83611,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2931,
+      "name": "Tadjourah",
+      "stateCode": "TA",
+      "latitude": 11.9338885,
+      "longitude": 42.3938375,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 30566,
+          "name": "Dorra",
+          "latitude": 12.15028,
+          "longitude": 42.47624,
+          "translations": []
+        },
+        {
+          "id": 30572,
+          "name": "Tadjourah",
+          "latitude": 11.78778,
+          "longitude": 42.88222,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2932,
+      "name": "Arta",
+      "stateCode": "AR",
+      "latitude": 11.5255528,
+      "longitude": 42.8479474,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 30563,
+          "name": "Arta",
+          "latitude": 11.52639,
+          "longitude": 42.85194,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2933,
+      "name": "Ali Sabieh",
+      "stateCode": "AS",
+      "latitude": 11.1928973,
+      "longitude": 42.941698,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 30561,
+          "name": "'Ali Sabieh",
+          "latitude": 11.15583,
+          "longitude": 42.7125,
+          "translations": []
+        },
+        {
+          "id": 30567,
+          "name": "Goubétto",
+          "latitude": 11.42389,
+          "longitude": 43.00028,
+          "translations": []
+        },
+        {
+          "id": 30569,
+          "name": "Holhol",
+          "latitude": 11.31028,
+          "longitude": 42.92944,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

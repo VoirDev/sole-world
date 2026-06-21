@@ -1,0 +1,92 @@
+{
+  "id": 76,
+  "name": "French Guiana",
+  "nativeName": "Guyane française",
+  "iso2": "GF",
+  "iso3": "GUF",
+  "numericCode": "254",
+  "phoneCode": "594",
+  "tld": ".gf",
+  "latitude": 4,
+  "longitude": -53,
+  "flagId": 169,
+  "regionId": 2,
+  "subregionId": 8,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2378
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "프랑스령 기아나"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Guiana Francesa"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Guiana Francesa"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Frans-Guyana"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Francuska Gvajana"
+    },
+    {
+      "languageCode": "fa",
+      "name": "گویان فرانسه"
+    },
+    {
+      "languageCode": "de",
+      "name": "Französisch Guyana"
+    },
+    {
+      "languageCode": "es",
+      "name": "Guayana Francesa"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Guayane"
+    },
+    {
+      "languageCode": "ja",
+      "name": "フランス領ギアナ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Guyana francese"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "法属圭亚那"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Fransiz Guyanasi"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Французская Гвиана"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Французька Гвіана"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Gujana Francuska"
+    }
+  ],
+  "states": []
+}

@@ -1,0 +1,1597 @@
+{
+  "id": 178,
+  "name": "Puerto Rico",
+  "nativeName": "Puerto Rico",
+  "iso2": "PR",
+  "iso3": "PRI",
+  "numericCode": "630",
+  "phoneCode": "1",
+  "tld": ".pr",
+  "latitude": 18.25,
+  "longitude": -66.5,
+  "flagId": 69,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2515
+  ],
+  "officialLanguageIds": [
+    47
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "푸에르토리코"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Porto Rico"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Porto Rico"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Puerto Rico"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Portoriko"
+    },
+    {
+      "languageCode": "fa",
+      "name": "پورتو ریکو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Puerto Rico"
+    },
+    {
+      "languageCode": "es",
+      "name": "Puerto Rico"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Porto Rico"
+    },
+    {
+      "languageCode": "ja",
+      "name": "プエルトリコ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Porto Rico"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "波多黎各"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Porto Riko"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Пуэрто-Рико"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Пуерто-Ріко"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Portoryko"
+    }
+  ],
+  "states": [
+    {
+      "id": 5075,
+      "name": "San Juan",
+      "stateCode": "SJ",
+      "latitude": 18.45,
+      "longitude": -66.06666667,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5076,
+      "name": "Bayamon",
+      "stateCode": "BY",
+      "latitude": 18.17777778,
+      "longitude": -66.11333333,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5077,
+      "name": "Carolina",
+      "stateCode": "CL",
+      "latitude": 18.38888889,
+      "longitude": -65.96666667,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5078,
+      "name": "Ponce",
+      "stateCode": "PO",
+      "latitude": 18,
+      "longitude": -66.61666667,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5079,
+      "name": "Caguas",
+      "stateCode": "CG",
+      "latitude": 18.23333333,
+      "longitude": -66.03333333,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5080,
+      "name": "Guaynabo",
+      "stateCode": "GN",
+      "latitude": 18.36666667,
+      "longitude": -66.1,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5081,
+      "name": "Arecibo",
+      "stateCode": "AR",
+      "latitude": 18.47055556,
+      "longitude": -66.72083333,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5082,
+      "name": "Toa Baja",
+      "stateCode": "TB",
+      "latitude": 18.443889,
+      "longitude": -66.259722,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5083,
+      "name": "Mayagüez",
+      "stateCode": "MG",
+      "latitude": 18.20111111,
+      "longitude": -67.13972222,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5084,
+      "name": "Trujillo Alto",
+      "stateCode": "TA",
+      "latitude": 18.362778,
+      "longitude": -66.0175,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5134,
+      "name": "Adjuntas",
+      "stateCode": "001",
+      "latitude": 18.1634848,
+      "longitude": -66.723158,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153549,
+          "name": "Adjuntas",
+          "latitude": 18.1634848,
+          "longitude": -66.723158,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5135,
+      "name": "Aguada",
+      "stateCode": "003",
+      "latitude": 18.3801579,
+      "longitude": -67.188704,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153550,
+          "name": "Aguada",
+          "latitude": 18.3801579,
+          "longitude": -67.188704,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5136,
+      "name": "Aguadilla",
+      "stateCode": "005",
+      "latitude": 18.4274454,
+      "longitude": -67.1540698,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153551,
+          "name": "Aguadilla",
+          "latitude": 18.4274454,
+          "longitude": -67.1540698,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5137,
+      "name": "Aguas Buenas",
+      "stateCode": "007",
+      "latitude": 18.2568989,
+      "longitude": -66.1029442,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153552,
+          "name": "Aguas Buenas",
+          "latitude": 18.2568989,
+          "longitude": -66.1029442,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5138,
+      "name": "Aibonito",
+      "stateCode": "009",
+      "latitude": 18.1399594,
+      "longitude": -66.2660016,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153553,
+          "name": "Aibonito",
+          "latitude": 18.1399594,
+          "longitude": -66.2660016,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5139,
+      "name": "Añasco",
+      "stateCode": "011",
+      "latitude": 18.2854476,
+      "longitude": -67.1402935,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153554,
+          "name": "Añasco",
+          "latitude": 18.2854476,
+          "longitude": -67.1402935,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5140,
+      "name": "Arecibo",
+      "stateCode": "013",
+      "latitude": 18.4705137,
+      "longitude": -66.7218472,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153555,
+          "name": "Arecibo",
+          "latitude": 18.4705137,
+          "longitude": -66.7218472,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5141,
+      "name": "Arroyo",
+      "stateCode": "015",
+      "latitude": 17.996422,
+      "longitude": -66.0924879,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153556,
+          "name": "Arroyo",
+          "latitude": 17.996422,
+          "longitude": -66.0924879,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5142,
+      "name": "Barceloneta",
+      "stateCode": "017",
+      "latitude": 41.3801061,
+      "longitude": 2.1896957,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153557,
+          "name": "Barceloneta",
+          "latitude": 41.3801061,
+          "longitude": 2.1896957,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5143,
+      "name": "Barranquitas",
+      "stateCode": "019",
+      "latitude": 18.1866242,
+      "longitude": -66.3062802,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153558,
+          "name": "Barranquitas",
+          "latitude": 18.1866242,
+          "longitude": -66.3062802,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5144,
+      "name": "Bayamón",
+      "stateCode": "021",
+      "latitude": 18.389396,
+      "longitude": -66.1653224,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153559,
+          "name": "Bayamón",
+          "latitude": 18.389396,
+          "longitude": -66.1653224,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5145,
+      "name": "Cabo Rojo",
+      "stateCode": "023",
+      "latitude": 18.0866265,
+      "longitude": -67.1457347,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153560,
+          "name": "Cabo Rojo",
+          "latitude": 18.0866265,
+          "longitude": -67.1457347,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5146,
+      "name": "Caguas",
+      "stateCode": "025",
+      "latitude": 18.2387995,
+      "longitude": -66.035249,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153561,
+          "name": "Caguas",
+          "latitude": 18.2387995,
+          "longitude": -66.035249,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5147,
+      "name": "Camuy",
+      "stateCode": "027",
+      "latitude": 18.483833,
+      "longitude": -66.8448994,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153562,
+          "name": "Camuy",
+          "latitude": 18.483833,
+          "longitude": -66.8448994,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5148,
+      "name": "Canóvanas",
+      "stateCode": "029",
+      "latitude": 18.3748748,
+      "longitude": -65.8997533,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153563,
+          "name": "Canóvanas",
+          "latitude": 18.3748748,
+          "longitude": -65.8997533,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5149,
+      "name": "Carolina",
+      "stateCode": "031",
+      "latitude": 18.3680877,
+      "longitude": -66.0424734,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153564,
+          "name": "Carolina",
+          "latitude": 18.3680877,
+          "longitude": -66.0424734,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5150,
+      "name": "Cataño",
+      "stateCode": "033",
+      "latitude": 18.4465355,
+      "longitude": -66.1355775,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153565,
+          "name": "Cataño",
+          "latitude": 18.4465355,
+          "longitude": -66.1355775,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5151,
+      "name": "Cayey",
+      "stateCode": "035",
+      "latitude": 18.1119051,
+      "longitude": -66.166,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153566,
+          "name": "Cayey",
+          "latitude": 18.1119051,
+          "longitude": -66.166,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5152,
+      "name": "Ceiba",
+      "stateCode": "037",
+      "latitude": 18.2475177,
+      "longitude": -65.9084953,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153567,
+          "name": "Ceiba",
+          "latitude": 18.2475177,
+          "longitude": -65.9084953,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5153,
+      "name": "Ciales",
+      "stateCode": "039",
+      "latitude": 18.3360622,
+      "longitude": -66.4687823,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153568,
+          "name": "Ciales",
+          "latitude": 18.3360622,
+          "longitude": -66.4687823,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5154,
+      "name": "Cidra",
+      "stateCode": "041",
+      "latitude": 18.1757914,
+      "longitude": -66.1612779,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153569,
+          "name": "Cidra",
+          "latitude": 18.1757914,
+          "longitude": -66.1612779,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5155,
+      "name": "Coamo",
+      "stateCode": "043",
+      "latitude": 18.0799616,
+      "longitude": -66.3579473,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153570,
+          "name": "Coamo",
+          "latitude": 18.0799616,
+          "longitude": -66.3579473,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5156,
+      "name": "Comerío",
+      "stateCode": "045",
+      "latitude": 18.2192001,
+      "longitude": -66.2256022,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153571,
+          "name": "Comerío",
+          "latitude": 18.2192001,
+          "longitude": -66.2256022,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5157,
+      "name": "Corozal",
+      "stateCode": "047",
+      "latitude": 18.4030802,
+      "longitude": -88.3967536,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153572,
+          "name": "Corozal",
+          "latitude": 18.4030802,
+          "longitude": -88.3967536,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5158,
+      "name": "Culebra",
+      "stateCode": "049",
+      "latitude": 18.310394,
+      "longitude": -65.3030705,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153573,
+          "name": "Culebra",
+          "latitude": 18.310394,
+          "longitude": -65.3030705,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5159,
+      "name": "Dorado",
+      "stateCode": "051",
+      "latitude": 43.1480556,
+      "longitude": -77.5772222,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153574,
+          "name": "Dorado",
+          "latitude": 43.1480556,
+          "longitude": -77.5772222,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5160,
+      "name": "Fajardo",
+      "stateCode": "053",
+      "latitude": 18.3252148,
+      "longitude": -65.6539356,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153575,
+          "name": "Fajardo",
+          "latitude": 18.3252148,
+          "longitude": -65.6539356,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5161,
+      "name": "Florida",
+      "stateCode": "054",
+      "latitude": 27.6648274,
+      "longitude": -81.5157535,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153576,
+          "name": "Florida",
+          "latitude": 27.6648274,
+          "longitude": -81.5157535,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5162,
+      "name": "Guánica",
+      "stateCode": "055",
+      "latitude": 17.9725145,
+      "longitude": -66.9086264,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153577,
+          "name": "Guánica",
+          "latitude": 17.9725145,
+          "longitude": -66.9086264,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5163,
+      "name": "Guayama",
+      "stateCode": "057",
+      "latitude": 17.9841328,
+      "longitude": -66.1137767,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153578,
+          "name": "Guayama",
+          "latitude": 17.9841328,
+          "longitude": -66.1137767,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5164,
+      "name": "Guayanilla",
+      "stateCode": "059",
+      "latitude": 18.0191314,
+      "longitude": -66.791842,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153579,
+          "name": "Guayanilla",
+          "latitude": 18.0191314,
+          "longitude": -66.791842,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5165,
+      "name": "Guaynabo",
+      "stateCode": "061",
+      "latitude": 18.3612954,
+      "longitude": -66.1102957,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153580,
+          "name": "Guaynabo",
+          "latitude": 18.3612954,
+          "longitude": -66.1102957,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5166,
+      "name": "Gurabo",
+      "stateCode": "063",
+      "latitude": 18.2543987,
+      "longitude": -65.9729421,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153581,
+          "name": "Gurabo",
+          "latitude": 18.2543987,
+          "longitude": -65.9729421,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5167,
+      "name": "Hatillo",
+      "stateCode": "065",
+      "latitude": 18.4284642,
+      "longitude": -66.7875321,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153582,
+          "name": "Hatillo",
+          "latitude": 18.4284642,
+          "longitude": -66.7875321,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5168,
+      "name": "Hormigueros",
+      "stateCode": "067",
+      "latitude": 18.1334638,
+      "longitude": -67.1128123,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153583,
+          "name": "Hormigueros",
+          "latitude": 18.1334638,
+          "longitude": -67.1128123,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5169,
+      "name": "Humacao",
+      "stateCode": "069",
+      "latitude": 18.1515736,
+      "longitude": -65.8248529,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153584,
+          "name": "Humacao",
+          "latitude": 18.1515736,
+          "longitude": -65.8248529,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5170,
+      "name": "Isabela",
+      "stateCode": "071",
+      "latitude": 16.9753758,
+      "longitude": 121.8107079,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153585,
+          "name": "Isabela",
+          "latitude": 16.9753758,
+          "longitude": 121.8107079,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5171,
+      "name": "Jayuya",
+      "stateCode": "073",
+      "latitude": 18.2185674,
+      "longitude": -66.5915617,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153586,
+          "name": "Jayuya",
+          "latitude": 18.2185674,
+          "longitude": -66.5915617,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5172,
+      "name": "Juana Díaz",
+      "stateCode": "075",
+      "latitude": 18.0534372,
+      "longitude": -66.5075079,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153587,
+          "name": "Juana Díaz",
+          "latitude": 18.0534372,
+          "longitude": -66.5075079,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5173,
+      "name": "Juncos",
+      "stateCode": "077",
+      "latitude": 18.2274558,
+      "longitude": -65.920997,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153588,
+          "name": "Juncos",
+          "latitude": 18.2274558,
+          "longitude": -65.920997,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5174,
+      "name": "Lajas",
+      "stateCode": "079",
+      "latitude": 18.049962,
+      "longitude": -67.0593449,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153589,
+          "name": "Lajas",
+          "latitude": 18.049962,
+          "longitude": -67.0593449,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5175,
+      "name": "Lares",
+      "stateCode": "081",
+      "latitude": 34.0250802,
+      "longitude": -118.4594593,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153590,
+          "name": "Lares",
+          "latitude": 34.0250802,
+          "longitude": -118.4594593,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5176,
+      "name": "Las Marías",
+      "stateCode": "083",
+      "latitude": 35.8382238,
+      "longitude": -78.6103566,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153591,
+          "name": "Las Marías",
+          "latitude": 35.8382238,
+          "longitude": -78.6103566,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5177,
+      "name": "Las Piedras",
+      "stateCode": "085",
+      "latitude": 18.1855753,
+      "longitude": -65.8736245,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153592,
+          "name": "Las Piedras",
+          "latitude": 18.1855753,
+          "longitude": -65.8736245,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5178,
+      "name": "Loíza",
+      "stateCode": "087",
+      "latitude": 18.4329904,
+      "longitude": -65.87836,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153593,
+          "name": "Loíza",
+          "latitude": 18.4329904,
+          "longitude": -65.87836,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5179,
+      "name": "Luquillo",
+      "stateCode": "089",
+      "latitude": 18.3724507,
+      "longitude": -65.7165511,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153594,
+          "name": "Luquillo",
+          "latitude": 18.3724507,
+          "longitude": -65.7165511,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5180,
+      "name": "Manatí",
+      "stateCode": "091",
+      "latitude": 18.4181215,
+      "longitude": -66.5262783,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153595,
+          "name": "Manatí",
+          "latitude": 18.4181215,
+          "longitude": -66.5262783,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5181,
+      "name": "Maricao",
+      "stateCode": "093",
+      "latitude": 18.1807902,
+      "longitude": -66.9799001,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153596,
+          "name": "Maricao",
+          "latitude": 18.1807902,
+          "longitude": -66.9799001,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5182,
+      "name": "Maunabo",
+      "stateCode": "095",
+      "latitude": 18.0071885,
+      "longitude": -65.8993289,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153597,
+          "name": "Maunabo",
+          "latitude": 18.0071885,
+          "longitude": -65.8993289,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5183,
+      "name": "Mayagüez",
+      "stateCode": "097",
+      "latitude": 18.2013452,
+      "longitude": -67.1451549,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153598,
+          "name": "Mayagüez",
+          "latitude": 18.2013452,
+          "longitude": -67.1451549,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5184,
+      "name": "Moca",
+      "stateCode": "099",
+      "latitude": 18.3967929,
+      "longitude": -67.1479035,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153599,
+          "name": "Moca",
+          "latitude": 18.3967929,
+          "longitude": -67.1479035,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5185,
+      "name": "Morovis",
+      "stateCode": "101",
+      "latitude": 18.325785,
+      "longitude": -66.4065592,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153600,
+          "name": "Morovis",
+          "latitude": 18.325785,
+          "longitude": -66.4065592,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5186,
+      "name": "Naguabo",
+      "stateCode": "103",
+      "latitude": 18.2116247,
+      "longitude": -65.7348841,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153601,
+          "name": "Naguabo",
+          "latitude": 18.2116247,
+          "longitude": -65.7348841,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5187,
+      "name": "Naranjito",
+      "stateCode": "105",
+      "latitude": 18.3007861,
+      "longitude": -66.2448904,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153602,
+          "name": "Naranjito",
+          "latitude": 18.3007861,
+          "longitude": -66.2448904,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5188,
+      "name": "Orocovis",
+      "stateCode": "107",
+      "latitude": 18.2269224,
+      "longitude": -66.3911686,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153603,
+          "name": "Orocovis",
+          "latitude": 18.2269224,
+          "longitude": -66.3911686,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5189,
+      "name": "Patillas",
+      "stateCode": "109",
+      "latitude": 18.0037381,
+      "longitude": -66.0134059,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153604,
+          "name": "Patillas",
+          "latitude": 18.0037381,
+          "longitude": -66.0134059,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5190,
+      "name": "Peñuelas",
+      "stateCode": "111",
+      "latitude": 18.0633577,
+      "longitude": -66.7273896,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153605,
+          "name": "Peñuelas",
+          "latitude": 18.0633577,
+          "longitude": -66.7273896,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5191,
+      "name": "Ponce",
+      "stateCode": "113",
+      "latitude": 18.0110768,
+      "longitude": -66.6140616,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153606,
+          "name": "Ponce",
+          "latitude": 18.0110768,
+          "longitude": -66.6140616,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5192,
+      "name": "Quebradillas",
+      "stateCode": "115",
+      "latitude": 18.473833,
+      "longitude": -66.938512,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153607,
+          "name": "Quebradillas",
+          "latitude": 18.473833,
+          "longitude": -66.938512,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5193,
+      "name": "Rincón",
+      "stateCode": "117",
+      "latitude": 18.3401514,
+      "longitude": -67.2499459,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153608,
+          "name": "Rincón",
+          "latitude": 18.3401514,
+          "longitude": -67.2499459,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5194,
+      "name": "Río Grande",
+      "stateCode": "119",
+      "latitude": 28.81063826,
+      "longitude": -101.8353878,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153609,
+          "name": "Río Grande",
+          "latitude": 28.81063826,
+          "longitude": -101.8353878,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5195,
+      "name": "Sabana Grande",
+      "stateCode": "121",
+      "latitude": 18.0777392,
+      "longitude": -66.9604549,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153610,
+          "name": "Sabana Grande",
+          "latitude": 18.0777392,
+          "longitude": -66.9604549,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5196,
+      "name": "Salinas",
+      "stateCode": "123",
+      "latitude": 36.6777372,
+      "longitude": -121.6555013,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153611,
+          "name": "Salinas",
+          "latitude": 36.6777372,
+          "longitude": -121.6555013,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5197,
+      "name": "San Germán",
+      "stateCode": "125",
+      "latitude": 18.0807082,
+      "longitude": -67.0411096,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153612,
+          "name": "San Germán",
+          "latitude": 18.0807082,
+          "longitude": -67.0411096,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5198,
+      "name": "San Juan",
+      "stateCode": "127",
+      "latitude": 18.463203,
+      "longitude": -66.1147571,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153613,
+          "name": "San Juan",
+          "latitude": 18.463203,
+          "longitude": -66.1147571,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5199,
+      "name": "San Lorenzo",
+      "stateCode": "129",
+      "latitude": 18.1886912,
+      "longitude": -65.9765862,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153614,
+          "name": "San Lorenzo",
+          "latitude": 18.1886912,
+          "longitude": -65.9765862,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5200,
+      "name": "San Sebastián",
+      "stateCode": "131",
+      "latitude": 43.318334,
+      "longitude": -1.9812313,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153615,
+          "name": "San Sebastián",
+          "latitude": 43.318334,
+          "longitude": -1.9812313,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5201,
+      "name": "Santa Isabel",
+      "stateCode": "133",
+      "latitude": 17.9660775,
+      "longitude": -66.404892,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153616,
+          "name": "Santa Isabel",
+          "latitude": 17.9660775,
+          "longitude": -66.404892,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5202,
+      "name": "Toa Alta",
+      "stateCode": "135",
+      "latitude": 18.3882823,
+      "longitude": -66.2482237,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153617,
+          "name": "Toa Alta",
+          "latitude": 18.3882823,
+          "longitude": -66.2482237,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5203,
+      "name": "Toa Baja",
+      "stateCode": "137",
+      "latitude": 18.4444709,
+      "longitude": -66.2543293,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153618,
+          "name": "Toa Baja",
+          "latitude": 18.4444709,
+          "longitude": -66.2543293,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5204,
+      "name": "Trujillo Alto",
+      "stateCode": "139",
+      "latitude": 18.3546719,
+      "longitude": -66.0073876,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153619,
+          "name": "Trujillo Alto",
+          "latitude": 18.3546719,
+          "longitude": -66.0073876,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5205,
+      "name": "Utuado",
+      "stateCode": "141",
+      "latitude": 18.2655095,
+      "longitude": -66.7004519,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153620,
+          "name": "Utuado",
+          "latitude": 18.2655095,
+          "longitude": -66.7004519,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5206,
+      "name": "Vega Alta",
+      "stateCode": "143",
+      "latitude": 18.4121703,
+      "longitude": -66.3312805,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153621,
+          "name": "Vega Alta",
+          "latitude": 18.4121703,
+          "longitude": -66.3312805,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5207,
+      "name": "Vega Baja",
+      "stateCode": "145",
+      "latitude": 18.4461459,
+      "longitude": -66.4041967,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153622,
+          "name": "Vega Baja",
+          "latitude": 18.4461459,
+          "longitude": -66.4041967,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5208,
+      "name": "Vieques",
+      "stateCode": "147",
+      "latitude": 18.1262854,
+      "longitude": -65.4400985,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153623,
+          "name": "Vieques",
+          "latitude": 18.1262854,
+          "longitude": -65.4400985,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5209,
+      "name": "Villalba",
+      "stateCode": "149",
+      "latitude": 18.1217554,
+      "longitude": -66.4985787,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153624,
+          "name": "Villalba",
+          "latitude": 18.1217554,
+          "longitude": -66.4985787,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5210,
+      "name": "Yabucoa",
+      "stateCode": "151",
+      "latitude": 18.0505201,
+      "longitude": -65.8793288,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153625,
+          "name": "Yabucoa",
+          "latitude": 18.0505201,
+          "longitude": -65.8793288,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5211,
+      "name": "Yauco",
+      "stateCode": "153",
+      "latitude": 18.034964,
+      "longitude": -66.8498983,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153626,
+          "name": "Yauco",
+          "latitude": 18.034964,
+          "longitude": -66.8498983,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": 145,
+  "name": "Monaco",
+  "nativeName": "Monaco",
+  "iso2": "MC",
+  "iso3": "MCO",
+  "numericCode": "492",
+  "phoneCode": "377",
+  "tld": ".mc",
+  "latitude": 43.73333333,
+  "longitude": 7.4,
+  "flagId": 113,
+  "regionId": 4,
+  "subregionId": 17,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2474
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [
+    41
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "모나코"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Mônaco"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Mónaco"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Monaco"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Monako"
+    },
+    {
+      "languageCode": "fa",
+      "name": "موناکو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Monaco"
+    },
+    {
+      "languageCode": "es",
+      "name": "Mónaco"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Monaco"
+    },
+    {
+      "languageCode": "ja",
+      "name": "モナコ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Principato di Monaco"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "摩纳哥"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Monako"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Монако"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Монако"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Monako"
+    }
+  ],
+  "states": [
+    {
+      "id": 4917,
+      "name": "La Colle",
+      "stateCode": "CL",
+      "latitude": 43.7327465,
+      "longitude": 7.4137276,
+      "type": "quarter",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4918,
+      "name": "La Condamine",
+      "stateCode": "CO",
+      "latitude": 43.7350665,
+      "longitude": 7.419906,
+      "type": "quarter",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4919,
+      "name": "Moneghetti",
+      "stateCode": "MG",
+      "latitude": 43.7364927,
+      "longitude": 7.4153383,
+      "type": "quarter",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

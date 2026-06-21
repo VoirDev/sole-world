@@ -1,0 +1,1071 @@
+{
+  "id": 95,
+  "name": "Haiti",
+  "nativeName": "Haïti",
+  "iso2": "HT",
+  "iso3": "HTI",
+  "numericCode": "332",
+  "phoneCode": "509",
+  "tld": ".ht",
+  "latitude": 19,
+  "longitude": -72.41666666,
+  "flagId": 151,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    893
+  ],
+  "timezoneIds": [
+    2402
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "아이티"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Haiti"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Haiti"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Haïti"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Haiti"
+    },
+    {
+      "languageCode": "fa",
+      "name": "هائیتی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Haiti"
+    },
+    {
+      "languageCode": "es",
+      "name": "Haiti"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Haïti"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ハイチ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Haiti"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "海地"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Haiti"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Гаити"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Гаїті"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Haiti"
+    }
+  ],
+  "states": [
+    {
+      "id": 4117,
+      "name": "Nord",
+      "stateCode": "ND",
+      "latitude": 43.190526,
+      "longitude": -89.437921,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 55044,
+          "name": "Acul du Nord",
+          "latitude": 19.66667,
+          "longitude": -72.28333,
+          "translations": []
+        },
+        {
+          "id": 55059,
+          "name": "Arrondissement de Plaisance",
+          "latitude": 19.66756,
+          "longitude": -72.54908,
+          "translations": []
+        },
+        {
+          "id": 55065,
+          "name": "Arrondissement de la Grande Rivière du Nord",
+          "latitude": 19.51667,
+          "longitude": -72.16667,
+          "translations": []
+        },
+        {
+          "id": 55067,
+          "name": "Arrondissement du Borgne",
+          "latitude": 19.75,
+          "longitude": -72.5,
+          "translations": []
+        },
+        {
+          "id": 55070,
+          "name": "Bahon",
+          "latitude": 19.46959,
+          "longitude": -72.11466,
+          "translations": []
+        },
+        {
+          "id": 55075,
+          "name": "Borgne",
+          "latitude": 19.84507,
+          "longitude": -72.52349,
+          "translations": []
+        },
+        {
+          "id": 55092,
+          "name": "Dondon",
+          "latitude": 19.52734,
+          "longitude": -72.24337,
+          "translations": []
+        },
+        {
+          "id": 55103,
+          "name": "Grande Rivière du Nord",
+          "latitude": 19.57744,
+          "longitude": -72.16872,
+          "translations": []
+        },
+        {
+          "id": 55118,
+          "name": "Lenbe",
+          "latitude": 19.70603,
+          "longitude": -72.40336,
+          "translations": []
+        },
+        {
+          "id": 55123,
+          "name": "Limonade",
+          "latitude": 19.67014,
+          "longitude": -72.1243,
+          "translations": []
+        },
+        {
+          "id": 55128,
+          "name": "Milot",
+          "latitude": 19.60837,
+          "longitude": -72.21319,
+          "translations": []
+        },
+        {
+          "id": 55134,
+          "name": "Okap",
+          "latitude": 19.75938,
+          "longitude": -72.19815,
+          "translations": []
+        },
+        {
+          "id": 55141,
+          "name": "Pignon",
+          "latitude": 19.33594,
+          "longitude": -72.11662,
+          "translations": []
+        },
+        {
+          "id": 55142,
+          "name": "Pilate",
+          "latitude": 19.66745,
+          "longitude": -72.55229,
+          "translations": []
+        },
+        {
+          "id": 55143,
+          "name": "Plaine du Nord",
+          "latitude": 19.67707,
+          "longitude": -72.26969,
+          "translations": []
+        },
+        {
+          "id": 55144,
+          "name": "Plaisance",
+          "latitude": 19.59795,
+          "longitude": -72.46994,
+          "translations": []
+        },
+        {
+          "id": 55145,
+          "name": "Port-Margot",
+          "latitude": 19.7518,
+          "longitude": -72.43006,
+          "translations": []
+        },
+        {
+          "id": 55150,
+          "name": "Quartier Morin",
+          "latitude": 19.69696,
+          "longitude": -72.15712,
+          "translations": []
+        },
+        {
+          "id": 55151,
+          "name": "Ranquitte",
+          "latitude": 19.41327,
+          "longitude": -72.08077,
+          "translations": []
+        },
+        {
+          "id": 55156,
+          "name": "Saint-Raphaël",
+          "latitude": 19.43877,
+          "longitude": -72.1991,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4118,
+      "name": "Nippes",
+      "stateCode": "NI",
+      "latitude": 18.3990735,
+      "longitude": -73.4180211,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 55045,
+          "name": "Ansavo",
+          "latitude": 18.41667,
+          "longitude": -73.5,
+          "translations": []
+        },
+        {
+          "id": 55072,
+          "name": "Baradères",
+          "latitude": 18.48255,
+          "longitude": -73.63884,
+          "translations": []
+        },
+        {
+          "id": 55129,
+          "name": "Miragoâne",
+          "latitude": 18.44599,
+          "longitude": -73.08957,
+          "translations": []
+        },
+        {
+          "id": 55137,
+          "name": "Petit Trou de Nippes",
+          "latitude": 18.52535,
+          "longitude": -73.50815,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4119,
+      "name": "Grand'Anse",
+      "stateCode": "GA",
+      "latitude": 12.0166667,
+      "longitude": -61.7666667,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 55049,
+          "name": "Anse-à-Veau",
+          "latitude": 18.5011,
+          "longitude": -73.3449,
+          "translations": []
+        },
+        {
+          "id": 55083,
+          "name": "Chambellan",
+          "latitude": 18.55037,
+          "longitude": -74.31317,
+          "translations": []
+        },
+        {
+          "id": 55086,
+          "name": "Corail",
+          "latitude": 18.56766,
+          "longitude": -73.88942,
+          "translations": []
+        },
+        {
+          "id": 55089,
+          "name": "Dame-Marie",
+          "latitude": 18.56107,
+          "longitude": -74.42167,
+          "translations": []
+        },
+        {
+          "id": 55111,
+          "name": "Jeremi",
+          "latitude": 18.58333,
+          "longitude": -74.2,
+          "translations": []
+        },
+        {
+          "id": 55112,
+          "name": "Jérémie",
+          "latitude": 18.65,
+          "longitude": -74.11667,
+          "translations": []
+        },
+        {
+          "id": 55119,
+          "name": "Les Abricots",
+          "latitude": 18.64901,
+          "longitude": -74.30786,
+          "translations": []
+        },
+        {
+          "id": 55122,
+          "name": "Les Irois",
+          "latitude": 18.4049,
+          "longitude": -74.4528,
+          "translations": []
+        },
+        {
+          "id": 55132,
+          "name": "Moron",
+          "latitude": 18.56039,
+          "longitude": -74.25777,
+          "translations": []
+        },
+        {
+          "id": 55139,
+          "name": "Petite Rivière de Nippes",
+          "latitude": 18.47611,
+          "longitude": -73.23495,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4120,
+      "name": "Ouest",
+      "stateCode": "OU",
+      "latitude": 45.4547249,
+      "longitude": -73.6502365,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 55047,
+          "name": "Anse à Galets",
+          "latitude": 18.83449,
+          "longitude": -72.86644,
+          "translations": []
+        },
+        {
+          "id": 55052,
+          "name": "Arcahaie",
+          "latitude": 18.83333,
+          "longitude": -72.41667,
+          "translations": []
+        },
+        {
+          "id": 55055,
+          "name": "Arrondissement de Croix des Bouquets",
+          "latitude": 18.48333,
+          "longitude": -72.01667,
+          "translations": []
+        },
+        {
+          "id": 55058,
+          "name": "Arrondissement de Léogâne",
+          "latitude": 18.41667,
+          "longitude": -72.75,
+          "translations": []
+        },
+        {
+          "id": 55061,
+          "name": "Arrondissement de Port-au-Prince",
+          "latitude": 18.5,
+          "longitude": -72.36667,
+          "translations": []
+        },
+        {
+          "id": 55076,
+          "name": "Cabaret",
+          "latitude": 18.73582,
+          "longitude": -72.41929,
+          "translations": []
+        },
+        {
+          "id": 55079,
+          "name": "Carrefour",
+          "latitude": 18.54114,
+          "longitude": -72.39922,
+          "translations": []
+        },
+        {
+          "id": 55087,
+          "name": "Cornillon",
+          "latitude": 18.67546,
+          "longitude": -71.95271,
+          "translations": []
+        },
+        {
+          "id": 55088,
+          "name": "Croix-des-Bouquets",
+          "latitude": 18.57677,
+          "longitude": -72.22625,
+          "translations": []
+        },
+        {
+          "id": 55090,
+          "name": "Delmas 73",
+          "latitude": 18.54472,
+          "longitude": -72.30278,
+          "translations": []
+        },
+        {
+          "id": 55098,
+          "name": "Fond Parisien",
+          "latitude": 18.50547,
+          "longitude": -71.98122,
+          "translations": []
+        },
+        {
+          "id": 55100,
+          "name": "Fonds Verrettes",
+          "latitude": 18.39566,
+          "longitude": -71.85634,
+          "translations": []
+        },
+        {
+          "id": 55105,
+          "name": "Grangwav",
+          "latitude": 18.4259,
+          "longitude": -72.76995,
+          "translations": []
+        },
+        {
+          "id": 55106,
+          "name": "Gressier",
+          "latitude": 18.54091,
+          "longitude": -72.52679,
+          "translations": []
+        },
+        {
+          "id": 55113,
+          "name": "Kenscoff",
+          "latitude": 18.44773,
+          "longitude": -72.28398,
+          "translations": []
+        },
+        {
+          "id": 55116,
+          "name": "Lagonav",
+          "latitude": 18.85,
+          "longitude": -73.05,
+          "translations": []
+        },
+        {
+          "id": 55124,
+          "name": "Léogâne",
+          "latitude": 18.5111,
+          "longitude": -72.63343,
+          "translations": []
+        },
+        {
+          "id": 55146,
+          "name": "Port-au-Prince",
+          "latitude": 18.54349,
+          "longitude": -72.33881,
+          "translations": []
+        },
+        {
+          "id": 55149,
+          "name": "Pétionville",
+          "latitude": 18.5125,
+          "longitude": -72.28528,
+          "translations": []
+        },
+        {
+          "id": 55159,
+          "name": "Thomazeau",
+          "latitude": 18.65297,
+          "longitude": -72.09391,
+          "translations": []
+        },
+        {
+          "id": 55163,
+          "name": "Tigwav",
+          "latitude": 18.43117,
+          "longitude": -72.86521,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4121,
+      "name": "Nord-Est",
+      "stateCode": "NE",
+      "latitude": 19.4889723,
+      "longitude": -71.8571331,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 55056,
+          "name": "Arrondissement de Fort Liberté",
+          "latitude": 19.56667,
+          "longitude": -71.83333,
+          "translations": []
+        },
+        {
+          "id": 55069,
+          "name": "Arrondissement du Trou du Nord",
+          "latitude": 19.55,
+          "longitude": -71.98333,
+          "translations": []
+        },
+        {
+          "id": 55077,
+          "name": "Caracol",
+          "latitude": 19.69274,
+          "longitude": -72.01733,
+          "translations": []
+        },
+        {
+          "id": 55078,
+          "name": "Carice",
+          "latitude": 19.37795,
+          "longitude": -71.8303,
+          "translations": []
+        },
+        {
+          "id": 55093,
+          "name": "Dérac",
+          "latitude": 19.65476,
+          "longitude": -71.81451,
+          "translations": []
+        },
+        {
+          "id": 55096,
+          "name": "Ferrier",
+          "latitude": 19.61549,
+          "longitude": -71.77792,
+          "translations": []
+        },
+        {
+          "id": 55101,
+          "name": "Fort Liberté",
+          "latitude": 19.66273,
+          "longitude": -71.83798,
+          "translations": []
+        },
+        {
+          "id": 55131,
+          "name": "Montòrganize",
+          "latitude": 19.40815,
+          "longitude": -71.78132,
+          "translations": []
+        },
+        {
+          "id": 55135,
+          "name": "Ouanaminthe",
+          "latitude": 19.54934,
+          "longitude": -71.72475,
+          "translations": []
+        },
+        {
+          "id": 55136,
+          "name": "Perches",
+          "latitude": 19.52201,
+          "longitude": -71.92323,
+          "translations": []
+        },
+        {
+          "id": 55140,
+          "name": "Phaëton",
+          "latitude": 19.67525,
+          "longitude": -71.89691,
+          "translations": []
+        },
+        {
+          "id": 55165,
+          "name": "Trou du Nord",
+          "latitude": 19.61668,
+          "longitude": -72.02442,
+          "translations": []
+        },
+        {
+          "id": 55167,
+          "name": "Wanament",
+          "latitude": 19.48333,
+          "longitude": -71.76667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4122,
+      "name": "Sud",
+      "stateCode": "SD",
+      "latitude": 29.9213248,
+      "longitude": -90.0973772,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 55050,
+          "name": "Aquin",
+          "latitude": 18.27974,
+          "longitude": -73.39433,
+          "translations": []
+        },
+        {
+          "id": 55060,
+          "name": "Arrondissement de Port-Salut",
+          "latitude": 18.13333,
+          "longitude": -73.9,
+          "translations": []
+        },
+        {
+          "id": 55066,
+          "name": "Arrondissement des Cayes",
+          "latitude": 18.3,
+          "longitude": -73.83333,
+          "translations": []
+        },
+        {
+          "id": 55080,
+          "name": "Cavaillon",
+          "latitude": 18.29987,
+          "longitude": -73.65455,
+          "translations": []
+        },
+        {
+          "id": 55084,
+          "name": "Chantal",
+          "latitude": 18.20169,
+          "longitude": -73.88957,
+          "translations": []
+        },
+        {
+          "id": 55085,
+          "name": "Chardonnière",
+          "latitude": 18.27484,
+          "longitude": -74.16613,
+          "translations": []
+        },
+        {
+          "id": 55099,
+          "name": "Fond des Blancs",
+          "latitude": 18.27782,
+          "longitude": -73.12733,
+          "translations": []
+        },
+        {
+          "id": 55115,
+          "name": "Koto",
+          "latitude": 18.20601,
+          "longitude": -74.04013,
+          "translations": []
+        },
+        {
+          "id": 55120,
+          "name": "Les Anglais",
+          "latitude": 18.3054,
+          "longitude": -74.21968,
+          "translations": []
+        },
+        {
+          "id": 55121,
+          "name": "Les Cayes",
+          "latitude": 18.19331,
+          "longitude": -73.74601,
+          "translations": []
+        },
+        {
+          "id": 55148,
+          "name": "Port-à-Piment",
+          "latitude": 18.24963,
+          "longitude": -74.0971,
+          "translations": []
+        },
+        {
+          "id": 55152,
+          "name": "Roche-à-Bateau",
+          "latitude": 18.18182,
+          "longitude": -74.00345,
+          "translations": []
+        },
+        {
+          "id": 55154,
+          "name": "Saint-Louis du Sud",
+          "latitude": 18.26241,
+          "longitude": -73.54603,
+          "translations": []
+        },
+        {
+          "id": 55162,
+          "name": "Tiburon",
+          "latitude": 18.32589,
+          "longitude": -74.39598,
+          "translations": []
+        },
+        {
+          "id": 55164,
+          "name": "Torbeck",
+          "latitude": 18.16338,
+          "longitude": -73.80949,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4123,
+      "name": "Artibonite",
+      "stateCode": "AR",
+      "latitude": 19.362902,
+      "longitude": -72.4258145,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 55046,
+          "name": "Anse Rouge",
+          "latitude": 19.63382,
+          "longitude": -73.0553,
+          "translations": []
+        },
+        {
+          "id": 55064,
+          "name": "Arrondissement de Saint-Marc",
+          "latitude": 19,
+          "longitude": -72.5,
+          "translations": []
+        },
+        {
+          "id": 55091,
+          "name": "Dessalines",
+          "latitude": 19.26177,
+          "longitude": -72.51611,
+          "translations": []
+        },
+        {
+          "id": 55094,
+          "name": "Désarmes",
+          "latitude": 18.99345,
+          "longitude": -72.39058,
+          "translations": []
+        },
+        {
+          "id": 55095,
+          "name": "Ennery",
+          "latitude": 19.48342,
+          "longitude": -72.48537,
+          "translations": []
+        },
+        {
+          "id": 55102,
+          "name": "Gonaïves",
+          "latitude": 19.44755,
+          "longitude": -72.68928,
+          "translations": []
+        },
+        {
+          "id": 55104,
+          "name": "Grande Saline",
+          "latitude": 19.26513,
+          "longitude": -72.76897,
+          "translations": []
+        },
+        {
+          "id": 55107,
+          "name": "Gros Morne",
+          "latitude": 19.6708,
+          "longitude": -72.67808,
+          "translations": []
+        },
+        {
+          "id": 55126,
+          "name": "Marmelade",
+          "latitude": 19.51736,
+          "longitude": -72.36133,
+          "translations": []
+        },
+        {
+          "id": 55155,
+          "name": "Saint-Marc",
+          "latitude": 19.10819,
+          "longitude": -72.69379,
+          "translations": []
+        },
+        {
+          "id": 55166,
+          "name": "Verrettes",
+          "latitude": 19.0505,
+          "longitude": -72.46585,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4124,
+      "name": "Sud-Est",
+      "stateCode": "SE",
+      "latitude": 18.2783598,
+      "longitude": -72.3547915,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 55048,
+          "name": "Anse-à-Pitre",
+          "latitude": 18.05,
+          "longitude": -71.75,
+          "translations": []
+        },
+        {
+          "id": 55053,
+          "name": "Arrondissement de Bainet",
+          "latitude": 18.25,
+          "longitude": -72.85,
+          "translations": []
+        },
+        {
+          "id": 55057,
+          "name": "Arrondissement de Jacmel",
+          "latitude": 18.33333,
+          "longitude": -72.5,
+          "translations": []
+        },
+        {
+          "id": 55073,
+          "name": "Belle-Anse",
+          "latitude": 18.23768,
+          "longitude": -72.06638,
+          "translations": []
+        },
+        {
+          "id": 55081,
+          "name": "Cayes-Jacmel",
+          "latitude": 18.2311,
+          "longitude": -72.39545,
+          "translations": []
+        },
+        {
+          "id": 55109,
+          "name": "Jacmel",
+          "latitude": 18.23427,
+          "longitude": -72.53539,
+          "translations": []
+        },
+        {
+          "id": 55114,
+          "name": "Kotdefè",
+          "latitude": 18.18872,
+          "longitude": -73.00287,
+          "translations": []
+        },
+        {
+          "id": 55125,
+          "name": "Marigot",
+          "latitude": 18.23167,
+          "longitude": -72.32289,
+          "translations": []
+        },
+        {
+          "id": 55157,
+          "name": "Thiotte",
+          "latitude": 18.24384,
+          "longitude": -71.84157,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4125,
+      "name": "Centre",
+      "stateCode": "CE",
+      "latitude": 32.8370251,
+      "longitude": -96.7773882,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 55054,
+          "name": "Arrondissement de Cerca La Source",
+          "latitude": 19.11667,
+          "longitude": -71.75,
+          "translations": []
+        },
+        {
+          "id": 55082,
+          "name": "Cerca la Source",
+          "latitude": 19.16696,
+          "longitude": -71.79015,
+          "translations": []
+        },
+        {
+          "id": 55108,
+          "name": "Hinche",
+          "latitude": 19.15,
+          "longitude": -72.01667,
+          "translations": []
+        },
+        {
+          "id": 55117,
+          "name": "Lascahobas",
+          "latitude": 18.83047,
+          "longitude": -71.93563,
+          "translations": []
+        },
+        {
+          "id": 55127,
+          "name": "Mayisad",
+          "latitude": 19.17607,
+          "longitude": -72.13958,
+          "translations": []
+        },
+        {
+          "id": 55130,
+          "name": "Mirebalais",
+          "latitude": 18.83455,
+          "longitude": -72.1048,
+          "translations": []
+        },
+        {
+          "id": 55158,
+          "name": "Thomassique",
+          "latitude": 19.08209,
+          "longitude": -71.83855,
+          "translations": []
+        },
+        {
+          "id": 55160,
+          "name": "Thomonde",
+          "latitude": 19.0173,
+          "longitude": -71.96235,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4126,
+      "name": "Nord-Ouest",
+      "stateCode": "NO",
+      "latitude": 19.8374009,
+      "longitude": -73.0405277,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 55051,
+          "name": "Arcahaie",
+          "latitude": 19.81667,
+          "longitude": -72.91667,
+          "translations": []
+        },
+        {
+          "id": 55062,
+          "name": "Arrondissement de Port-de-Paix",
+          "latitude": 19.83333,
+          "longitude": -72.88333,
+          "translations": []
+        },
+        {
+          "id": 55063,
+          "name": "Arrondissement de Saint-Louis du Nord",
+          "latitude": 19.85,
+          "longitude": -72.66667,
+          "translations": []
+        },
+        {
+          "id": 55068,
+          "name": "Arrondissement du Môle Saint-Nicolas",
+          "latitude": 19.75,
+          "longitude": -73.25,
+          "translations": []
+        },
+        {
+          "id": 55071,
+          "name": "Baie de Henne",
+          "latitude": 19.66307,
+          "longitude": -73.20943,
+          "translations": []
+        },
+        {
+          "id": 55074,
+          "name": "Bombardopolis",
+          "latitude": 19.69142,
+          "longitude": -73.33769,
+          "translations": []
+        },
+        {
+          "id": 55097,
+          "name": "Fond Bassin Bleu",
+          "latitude": 19.79445,
+          "longitude": -72.79949,
+          "translations": []
+        },
+        {
+          "id": 55110,
+          "name": "Jean-Rabel",
+          "latitude": 19.85379,
+          "longitude": -73.19131,
+          "translations": []
+        },
+        {
+          "id": 55133,
+          "name": "Môle Saint-Nicolas",
+          "latitude": 19.807,
+          "longitude": -73.37605,
+          "translations": []
+        },
+        {
+          "id": 55138,
+          "name": "Petite Anse",
+          "latitude": 19.63011,
+          "longitude": -73.15499,
+          "translations": []
+        },
+        {
+          "id": 55147,
+          "name": "Port-de-Paix",
+          "latitude": 19.93984,
+          "longitude": -72.83037,
+          "translations": []
+        },
+        {
+          "id": 55153,
+          "name": "Saint-Louis du Nord",
+          "latitude": 19.93397,
+          "longitude": -72.72138,
+          "translations": []
+        },
+        {
+          "id": 55161,
+          "name": "Ti Port-de-Paix",
+          "latitude": 19.93333,
+          "longitude": -72.83333,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

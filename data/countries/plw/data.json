@@ -1,0 +1,380 @@
+{
+  "id": 168,
+  "name": "Palau",
+  "nativeName": "Palau",
+  "iso2": "PW",
+  "iso3": "PLW",
+  "numericCode": "585",
+  "phoneCode": "680",
+  "tld": ".pw",
+  "latitude": 7.5,
+  "longitude": 134.5,
+  "flagId": 66,
+  "regionId": 5,
+  "subregionId": 21,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2501
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "팔라우"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Palau"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Palau"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Palau"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Palau"
+    },
+    {
+      "languageCode": "fa",
+      "name": "پالائو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Palau"
+    },
+    {
+      "languageCode": "es",
+      "name": "Palau"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Palaos"
+    },
+    {
+      "languageCode": "ja",
+      "name": "パラオ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Palau"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "帕劳"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Palau"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Палау"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Палау"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Palau"
+    }
+  ],
+  "states": [
+    {
+      "id": 4526,
+      "name": "Peleliu",
+      "stateCode": "350",
+      "latitude": 7.0022906,
+      "longitude": 134.2431628,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89703,
+          "name": "Kloulklubed",
+          "latitude": 7.04192,
+          "longitude": 134.25561,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4527,
+      "name": "Ngardmau",
+      "stateCode": "222",
+      "latitude": 7.5850486,
+      "longitude": 134.5596089,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89708,
+          "name": "Ngardmau",
+          "latitude": 7.60986,
+          "longitude": 134.5744,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4528,
+      "name": "Airai",
+      "stateCode": "004",
+      "latitude": 7.3966118,
+      "longitude": 134.5690225,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89712,
+          "name": "Ngetkib",
+          "latitude": 7.36451,
+          "longitude": 134.51484,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4529,
+      "name": "Hatohobei",
+      "stateCode": "050",
+      "latitude": 3.0070658,
+      "longitude": 131.1237781,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89714,
+          "name": "Tobi Village",
+          "latitude": 3.00488,
+          "longitude": 131.12168,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4530,
+      "name": "Melekeok",
+      "stateCode": "212",
+      "latitude": 7.5150286,
+      "longitude": 134.5972518,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89706,
+          "name": "Melekeok Village",
+          "latitude": 7.49567,
+          "longitude": 134.63671,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4531,
+      "name": "Ngatpang",
+      "stateCode": "224",
+      "latitude": 7.4710994,
+      "longitude": 134.5266466,
+      "type": "state",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4532,
+      "name": "Koror",
+      "stateCode": "150",
+      "latitude": 7.3375646,
+      "longitude": 134.4889469,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89704,
+          "name": "Koror",
+          "latitude": 7.33978,
+          "longitude": 134.47326,
+          "translations": []
+        },
+        {
+          "id": 89705,
+          "name": "Koror Town",
+          "latitude": 7.34257,
+          "longitude": 134.47888,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4533,
+      "name": "Ngarchelong",
+      "stateCode": "218",
+      "latitude": 7.7105469,
+      "longitude": 134.6301646,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89707,
+          "name": "Mengellang",
+          "latitude": 7.6957,
+          "longitude": 134.63054,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4534,
+      "name": "Ngiwal",
+      "stateCode": "228",
+      "latitude": 7.5614764,
+      "longitude": 134.6160619,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89711,
+          "name": "Ngerkeai",
+          "latitude": 7.55456,
+          "longitude": 134.63612,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4535,
+      "name": "Sonsorol",
+      "stateCode": "370",
+      "latitude": 5.3268119,
+      "longitude": 132.2239117,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89713,
+          "name": "Sonsorol Village",
+          "latitude": 5.32608,
+          "longitude": 132.21943,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4536,
+      "name": "Ngchesar",
+      "stateCode": "226",
+      "latitude": 7.452328,
+      "longitude": 134.5784342,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89710,
+          "name": "Ngchesar Hamlet",
+          "latitude": 7.46932,
+          "longitude": 134.60991,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4537,
+      "name": "Ngaraard",
+      "stateCode": "214",
+      "latitude": 7.60794,
+      "longitude": 134.6348645,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89715,
+          "name": "Ulimang",
+          "latitude": 7.62416,
+          "longitude": 134.64208,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4538,
+      "name": "Angaur",
+      "stateCode": "010",
+      "latitude": 6.909223,
+      "longitude": 134.1387934,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89700,
+          "name": "Angaur State",
+          "latitude": 6.90601,
+          "longitude": 134.12997,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4539,
+      "name": "Kayangel",
+      "stateCode": "100",
+      "latitude": 8.07,
+      "longitude": 134.702778,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89702,
+          "name": "Kayangel",
+          "latitude": 8.08228,
+          "longitude": 134.71725,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4540,
+      "name": "Aimeliik",
+      "stateCode": "002",
+      "latitude": 7.4455859,
+      "longitude": 134.5030878,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89709,
+          "name": "Ngchemiangel",
+          "latitude": 7.44613,
+          "longitude": 134.47678,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4541,
+      "name": "Ngeremlengui",
+      "stateCode": "227",
+      "latitude": 7.5198397,
+      "longitude": 134.5596089,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89701,
+          "name": "Imeong Hamlet",
+          "latitude": 7.53134,
+          "longitude": 134.52713,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

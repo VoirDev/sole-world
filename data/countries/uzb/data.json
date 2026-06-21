@@ -1,0 +1,1191 @@
+{
+  "id": 236,
+  "name": "Uzbekistan",
+  "nativeName": "O‘zbekiston",
+  "iso2": "UZ",
+  "iso3": "UZB",
+  "numericCode": "860",
+  "phoneCode": "998",
+  "tld": ".uz",
+  "latitude": 41,
+  "longitude": 64,
+  "flagId": 16,
+  "regionId": 3,
+  "subregionId": 10,
+  "currencyIds": [
+    981
+  ],
+  "timezoneIds": [
+    2634,
+    2635
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "우즈베키스탄"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Uzbequistão"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Usbequistão"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Oezbekistan"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Uzbekistan"
+    },
+    {
+      "languageCode": "fa",
+      "name": "ازبکستان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Usbekistan"
+    },
+    {
+      "languageCode": "es",
+      "name": "Uzbekistán"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Ouzbékistan"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ウズベキスタン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Uzbekistan"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "乌兹别克斯坦"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Özbekistan"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Узбекистан"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Узбекистан"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Uzbekistan"
+    }
+  ],
+  "states": [
+    {
+      "id": 2536,
+      "name": "Tashkent",
+      "stateCode": "TK",
+      "latitude": 41.2994958,
+      "longitude": 69.2400734,
+      "type": "city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129901,
+          "name": "Bektemir",
+          "latitude": 41.20972,
+          "longitude": 69.33417,
+          "translations": []
+        },
+        {
+          "id": 130005,
+          "name": "Tashkent",
+          "latitude": 41.26465,
+          "longitude": 69.21627,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2537,
+      "name": "Namangan",
+      "stateCode": "NG",
+      "latitude": 41.0510037,
+      "longitude": 71.097317,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129917,
+          "name": "Chortoq",
+          "latitude": 41.06924,
+          "longitude": 71.82372,
+          "translations": []
+        },
+        {
+          "id": 129918,
+          "name": "Chust",
+          "latitude": 41.00329,
+          "longitude": 71.23791,
+          "translations": []
+        },
+        {
+          "id": 129933,
+          "name": "Haqqulobod",
+          "latitude": 40.91667,
+          "longitude": 72.11667,
+          "translations": []
+        },
+        {
+          "id": 129952,
+          "name": "Kosonsoy",
+          "latitude": 41.24944,
+          "longitude": 71.54738,
+          "translations": []
+        },
+        {
+          "id": 129960,
+          "name": "Namangan",
+          "latitude": 40.9983,
+          "longitude": 71.67257,
+          "translations": []
+        },
+        {
+          "id": 129980,
+          "name": "Pop",
+          "latitude": 40.87361,
+          "longitude": 71.10889,
+          "translations": []
+        },
+        {
+          "id": 130007,
+          "name": "Toshbuloq",
+          "latitude": 40.91617,
+          "longitude": 71.57819,
+          "translations": []
+        },
+        {
+          "id": 130009,
+          "name": "To‘rqao‘rg‘on",
+          "latitude": 40.99984,
+          "longitude": 71.51162,
+          "translations": []
+        },
+        {
+          "id": 130011,
+          "name": "Uchqŭrghon Shahri",
+          "latitude": 41.11371,
+          "longitude": 72.07915,
+          "translations": []
+        },
+        {
+          "id": 130015,
+          "name": "Uychi",
+          "latitude": 41.08073,
+          "longitude": 71.92331,
+          "translations": []
+        },
+        {
+          "id": 130021,
+          "name": "Yangiqo‘rg‘on",
+          "latitude": 41.19474,
+          "longitude": 71.72385,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2538,
+      "name": "Fergana",
+      "stateCode": "FA",
+      "latitude": 40.4568081,
+      "longitude": 71.2874209,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129903,
+          "name": "Beshariq",
+          "latitude": 40.43583,
+          "longitude": 70.61028,
+          "translations": []
+        },
+        {
+          "id": 129923,
+          "name": "Fergana",
+          "latitude": 40.38421,
+          "longitude": 71.78432,
+          "translations": []
+        },
+        {
+          "id": 129932,
+          "name": "Hamza",
+          "latitude": 40.42762,
+          "longitude": 71.50534,
+          "translations": []
+        },
+        {
+          "id": 129948,
+          "name": "Kirguli",
+          "latitude": 40.43553,
+          "longitude": 71.76721,
+          "translations": []
+        },
+        {
+          "id": 129955,
+          "name": "Marg‘ilon",
+          "latitude": 40.47237,
+          "longitude": 71.72463,
+          "translations": []
+        },
+        {
+          "id": 129969,
+          "name": "Oltiariq",
+          "latitude": 40.39194,
+          "longitude": 71.47417,
+          "translations": []
+        },
+        {
+          "id": 129986,
+          "name": "Qo‘qon",
+          "latitude": 40.52861,
+          "longitude": 70.9425,
+          "translations": []
+        },
+        {
+          "id": 129988,
+          "name": "Quva",
+          "latitude": 40.52204,
+          "longitude": 72.07292,
+          "translations": []
+        },
+        {
+          "id": 129989,
+          "name": "Quvasoy",
+          "latitude": 40.29721,
+          "longitude": 71.98026,
+          "translations": []
+        },
+        {
+          "id": 129992,
+          "name": "Rishton",
+          "latitude": 40.35667,
+          "longitude": 71.28472,
+          "translations": []
+        },
+        {
+          "id": 130000,
+          "name": "Shohimardon",
+          "latitude": 39.98322,
+          "longitude": 71.80512,
+          "translations": []
+        },
+        {
+          "id": 130004,
+          "name": "So‘x Tumani",
+          "latitude": 40.04417,
+          "longitude": 71.09417,
+          "translations": []
+        },
+        {
+          "id": 130008,
+          "name": "Toshloq",
+          "latitude": 40.47722,
+          "longitude": 71.76778,
+          "translations": []
+        },
+        {
+          "id": 130019,
+          "name": "Yangi Marg‘ilon",
+          "latitude": 40.42722,
+          "longitude": 71.71889,
+          "translations": []
+        },
+        {
+          "id": 130025,
+          "name": "Yaypan",
+          "latitude": 40.37583,
+          "longitude": 70.81556,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2539,
+      "name": "Xorazm",
+      "stateCode": "XO",
+      "latitude": 41.3565336,
+      "longitude": 60.8566686,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129905,
+          "name": "Boghot Tumani",
+          "latitude": 41.31495,
+          "longitude": 60.85327,
+          "translations": []
+        },
+        {
+          "id": 129929,
+          "name": "Gurlan",
+          "latitude": 41.84472,
+          "longitude": 60.39194,
+          "translations": []
+        },
+        {
+          "id": 129934,
+          "name": "Hazorasp",
+          "latitude": 41.31944,
+          "longitude": 61.07417,
+          "translations": []
+        },
+        {
+          "id": 129945,
+          "name": "Khiwa",
+          "latitude": 41.37833,
+          "longitude": 60.36389,
+          "translations": []
+        },
+        {
+          "id": 129991,
+          "name": "Qŭshkŭpir",
+          "latitude": 41.535,
+          "longitude": 60.34556,
+          "translations": []
+        },
+        {
+          "id": 130001,
+          "name": "Showot",
+          "latitude": 41.65583,
+          "longitude": 60.3025,
+          "translations": []
+        },
+        {
+          "id": 130013,
+          "name": "Urganch",
+          "latitude": 41.55,
+          "longitude": 60.63333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2540,
+      "name": "Andijan",
+      "stateCode": "AN",
+      "latitude": 40.7685941,
+      "longitude": 72.236379,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129894,
+          "name": "Andijon",
+          "latitude": 40.78206,
+          "longitude": 72.34424,
+          "translations": []
+        },
+        {
+          "id": 129895,
+          "name": "Andijon Tumani",
+          "latitude": 40.8,
+          "longitude": 72.41667,
+          "translations": []
+        },
+        {
+          "id": 129897,
+          "name": "Asaka",
+          "latitude": 40.64153,
+          "longitude": 72.23868,
+          "translations": []
+        },
+        {
+          "id": 129898,
+          "name": "Asaka Tumani",
+          "latitude": 40.66667,
+          "longitude": 72.25,
+          "translations": []
+        },
+        {
+          "id": 129899,
+          "name": "Baliqchi Tumani",
+          "latitude": 40.86667,
+          "longitude": 72,
+          "translations": []
+        },
+        {
+          "id": 129908,
+          "name": "Bo‘z Tumani",
+          "latitude": 40.66667,
+          "longitude": 71.91667,
+          "translations": []
+        },
+        {
+          "id": 129910,
+          "name": "Buloqboshi Tumani",
+          "latitude": 40.61667,
+          "longitude": 72.46667,
+          "translations": []
+        },
+        {
+          "id": 129937,
+          "name": "Izboskan Tumani",
+          "latitude": 40.91667,
+          "longitude": 72.25,
+          "translations": []
+        },
+        {
+          "id": 129938,
+          "name": "Jalolkuduk Tumani",
+          "latitude": 40.75,
+          "longitude": 72.66667,
+          "translations": []
+        },
+        {
+          "id": 129946,
+          "name": "Khŭjaobod Tumani",
+          "latitude": 40.66667,
+          "longitude": 72.58333,
+          "translations": []
+        },
+        {
+          "id": 129956,
+          "name": "Marhamat",
+          "latitude": 40.48048,
+          "longitude": 72.31388,
+          "translations": []
+        },
+        {
+          "id": 129957,
+          "name": "Marhamat Tumani",
+          "latitude": 40.5,
+          "longitude": 72.31667,
+          "translations": []
+        },
+        {
+          "id": 129971,
+          "name": "Oltinkŭl Tumani",
+          "latitude": 40.8,
+          "longitude": 72.16667,
+          "translations": []
+        },
+        {
+          "id": 129973,
+          "name": "Pakhtaobod Tumani",
+          "latitude": 40.93333,
+          "longitude": 72.5,
+          "translations": []
+        },
+        {
+          "id": 129976,
+          "name": "Paxtaobod",
+          "latitude": 40.92936,
+          "longitude": 72.49687,
+          "translations": []
+        },
+        {
+          "id": 129987,
+          "name": "Qo‘rg‘ontepa",
+          "latitude": 40.73192,
+          "longitude": 72.76177,
+          "translations": []
+        },
+        {
+          "id": 129990,
+          "name": "Qŭrghontepa Tumani",
+          "latitude": 40.75,
+          "longitude": 72.83333,
+          "translations": []
+        },
+        {
+          "id": 129996,
+          "name": "Shahrikhon Tumani",
+          "latitude": 40.71667,
+          "longitude": 72.06667,
+          "translations": []
+        },
+        {
+          "id": 129998,
+          "name": "Shahrixon",
+          "latitude": 40.71331,
+          "longitude": 72.05706,
+          "translations": []
+        },
+        {
+          "id": 130012,
+          "name": "Ulug‘nor Tumani",
+          "latitude": 40.75,
+          "longitude": 71.7,
+          "translations": []
+        },
+        {
+          "id": 130018,
+          "name": "Xo‘jaobod",
+          "latitude": 40.66886,
+          "longitude": 72.56002,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2541,
+      "name": "Bukhara",
+      "stateCode": "BU",
+      "latitude": 40.2504162,
+      "longitude": 63.2032151,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129909,
+          "name": "Bukhara",
+          "latitude": 39.77472,
+          "longitude": 64.42861,
+          "translations": []
+        },
+        {
+          "id": 129925,
+          "name": "Galaosiyo",
+          "latitude": 39.85778,
+          "longitude": 64.44833,
+          "translations": []
+        },
+        {
+          "id": 129926,
+          "name": "Gazli",
+          "latitude": 40.13333,
+          "longitude": 63.45,
+          "translations": []
+        },
+        {
+          "id": 129927,
+          "name": "Ghijduwon",
+          "latitude": 40.1,
+          "longitude": 64.68333,
+          "translations": []
+        },
+        {
+          "id": 129942,
+          "name": "Karakul’",
+          "latitude": 39.53333,
+          "longitude": 63.83333,
+          "translations": []
+        },
+        {
+          "id": 129950,
+          "name": "Kogon",
+          "latitude": 39.72278,
+          "longitude": 64.55167,
+          "translations": []
+        },
+        {
+          "id": 129968,
+          "name": "Olot",
+          "latitude": 39.415,
+          "longitude": 63.80333,
+          "translations": []
+        },
+        {
+          "id": 129978,
+          "name": "Peshku Tumani",
+          "latitude": 40.41667,
+          "longitude": 63.83333,
+          "translations": []
+        },
+        {
+          "id": 129984,
+          "name": "Qorako’l",
+          "latitude": 39.49944,
+          "longitude": 63.85389,
+          "translations": []
+        },
+        {
+          "id": 129985,
+          "name": "Qorovulbozor",
+          "latitude": 39.50056,
+          "longitude": 64.79361,
+          "translations": []
+        },
+        {
+          "id": 129993,
+          "name": "Romiton",
+          "latitude": 39.92944,
+          "longitude": 64.37944,
+          "translations": []
+        },
+        {
+          "id": 129999,
+          "name": "Shofirkon",
+          "latitude": 40.12,
+          "longitude": 64.50139,
+          "translations": []
+        },
+        {
+          "id": 130016,
+          "name": "Wobkent",
+          "latitude": 40.03028,
+          "longitude": 64.515,
+          "translations": []
+        },
+        {
+          "id": 130017,
+          "name": "Wobkent Tumani",
+          "latitude": 40,
+          "longitude": 64.5,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2542,
+      "name": "Navoiy",
+      "stateCode": "NW",
+      "latitude": 42.6988575,
+      "longitude": 64.6337685,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129961,
+          "name": "Navoiy",
+          "latitude": 40.08444,
+          "longitude": 65.37917,
+          "translations": []
+        },
+        {
+          "id": 129965,
+          "name": "Nurota",
+          "latitude": 40.56139,
+          "longitude": 65.68861,
+          "translations": []
+        },
+        {
+          "id": 129983,
+          "name": "Qiziltepa",
+          "latitude": 40.03306,
+          "longitude": 64.85,
+          "translations": []
+        },
+        {
+          "id": 130022,
+          "name": "Yangirabot",
+          "latitude": 40.02539,
+          "longitude": 65.96095,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2543,
+      "name": "Qashqadaryo",
+      "stateCode": "QA",
+      "latitude": 38.8986231,
+      "longitude": 66.0463534,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129904,
+          "name": "Beshkent",
+          "latitude": 38.82139,
+          "longitude": 65.65306,
+          "translations": []
+        },
+        {
+          "id": 129916,
+          "name": "Chiroqchi",
+          "latitude": 39.03361,
+          "longitude": 66.57222,
+          "translations": []
+        },
+        {
+          "id": 129931,
+          "name": "G‘uzor",
+          "latitude": 38.62083,
+          "longitude": 66.24806,
+          "translations": []
+        },
+        {
+          "id": 129949,
+          "name": "Kitob",
+          "latitude": 39.08425,
+          "longitude": 66.83318,
+          "translations": []
+        },
+        {
+          "id": 129951,
+          "name": "Koson",
+          "latitude": 39.0375,
+          "longitude": 65.585,
+          "translations": []
+        },
+        {
+          "id": 129958,
+          "name": "Muborak",
+          "latitude": 39.25528,
+          "longitude": 65.15278,
+          "translations": []
+        },
+        {
+          "id": 129962,
+          "name": "Nishon Tumani",
+          "latitude": 38.69395,
+          "longitude": 65.67512,
+          "translations": []
+        },
+        {
+          "id": 129981,
+          "name": "Qarshi",
+          "latitude": 38.86056,
+          "longitude": 65.78905,
+          "translations": []
+        },
+        {
+          "id": 129997,
+          "name": "Shahrisabz",
+          "latitude": 39.05778,
+          "longitude": 66.83417,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2544,
+      "name": "Samarqand",
+      "stateCode": "SA",
+      "latitude": 39.627012,
+      "longitude": 66.9749731,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129911,
+          "name": "Bulung’ur",
+          "latitude": 39.76472,
+          "longitude": 67.27139,
+          "translations": []
+        },
+        {
+          "id": 129912,
+          "name": "Charxin",
+          "latitude": 39.69667,
+          "longitude": 66.76861,
+          "translations": []
+        },
+        {
+          "id": 129913,
+          "name": "Chelak",
+          "latitude": 39.92028,
+          "longitude": 66.86111,
+          "translations": []
+        },
+        {
+          "id": 129920,
+          "name": "Daxbet",
+          "latitude": 39.76389,
+          "longitude": 66.9125,
+          "translations": []
+        },
+        {
+          "id": 129935,
+          "name": "Ishtixon",
+          "latitude": 39.96639,
+          "longitude": 66.48611,
+          "translations": []
+        },
+        {
+          "id": 129940,
+          "name": "Jomboy",
+          "latitude": 39.69889,
+          "longitude": 67.09333,
+          "translations": []
+        },
+        {
+          "id": 129941,
+          "name": "Juma",
+          "latitude": 39.71611,
+          "longitude": 66.66417,
+          "translations": []
+        },
+        {
+          "id": 129943,
+          "name": "Kattaqo‘rg‘on",
+          "latitude": 39.89889,
+          "longitude": 66.25611,
+          "translations": []
+        },
+        {
+          "id": 129972,
+          "name": "Oqtosh",
+          "latitude": 39.92139,
+          "longitude": 65.92528,
+          "translations": []
+        },
+        {
+          "id": 129977,
+          "name": "Payshanba",
+          "latitude": 40.00778,
+          "longitude": 66.23694,
+          "translations": []
+        },
+        {
+          "id": 129995,
+          "name": "Samarkand",
+          "latitude": 39.65417,
+          "longitude": 66.95972,
+          "translations": []
+        },
+        {
+          "id": 130014,
+          "name": "Urgut",
+          "latitude": 39.40222,
+          "longitude": 67.24306,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2545,
+      "name": "Jizzakh",
+      "stateCode": "JI",
+      "latitude": 40.4706415,
+      "longitude": 67.5708536,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129919,
+          "name": "Dashtobod",
+          "latitude": 40.12694,
+          "longitude": 68.49444,
+          "translations": []
+        },
+        {
+          "id": 129922,
+          "name": "Dŭstlik",
+          "latitude": 40.52472,
+          "longitude": 68.03583,
+          "translations": []
+        },
+        {
+          "id": 129924,
+          "name": "Gagarin",
+          "latitude": 40.66194,
+          "longitude": 68.17222,
+          "translations": []
+        },
+        {
+          "id": 129939,
+          "name": "Jizzax",
+          "latitude": 40.11583,
+          "longitude": 67.84222,
+          "translations": []
+        },
+        {
+          "id": 129975,
+          "name": "Paxtakor",
+          "latitude": 40.31528,
+          "longitude": 67.95444,
+          "translations": []
+        },
+        {
+          "id": 130027,
+          "name": "Zomin",
+          "latitude": 39.96056,
+          "longitude": 68.39583,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2546,
+      "name": "Surxondaryo",
+      "stateCode": "SU",
+      "latitude": 37.9409005,
+      "longitude": 67.5708536,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129906,
+          "name": "Boysun",
+          "latitude": 38.20835,
+          "longitude": 67.20664,
+          "translations": []
+        },
+        {
+          "id": 129921,
+          "name": "Denov",
+          "latitude": 38.26746,
+          "longitude": 67.89886,
+          "translations": []
+        },
+        {
+          "id": 130002,
+          "name": "Sho‘rchi",
+          "latitude": 37.99944,
+          "longitude": 67.7875,
+          "translations": []
+        },
+        {
+          "id": 130006,
+          "name": "Tirmiz",
+          "latitude": 37.22417,
+          "longitude": 67.27833,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2547,
+      "name": "Sirdaryo",
+      "stateCode": "SI",
+      "latitude": 40.3863808,
+      "longitude": 68.7154975,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129928,
+          "name": "Guliston",
+          "latitude": 40.48972,
+          "longitude": 68.78417,
+          "translations": []
+        },
+        {
+          "id": 130003,
+          "name": "Sirdaryo",
+          "latitude": 40.84361,
+          "longitude": 68.66167,
+          "translations": []
+        },
+        {
+          "id": 130023,
+          "name": "Yangiyer",
+          "latitude": 40.275,
+          "longitude": 68.8225,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2548,
+      "name": "Karakalpakstan",
+      "stateCode": "QR",
+      "latitude": 43.8041334,
+      "longitude": 59.4457988,
+      "type": "republic",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129902,
+          "name": "Beruniy",
+          "latitude": 41.69111,
+          "longitude": 60.7525,
+          "translations": []
+        },
+        {
+          "id": 129944,
+          "name": "Kegeyli Shahar",
+          "latitude": 42.77667,
+          "longitude": 59.60778,
+          "translations": []
+        },
+        {
+          "id": 129947,
+          "name": "Khŭjayli",
+          "latitude": 42.40043,
+          "longitude": 59.46005,
+          "translations": []
+        },
+        {
+          "id": 129954,
+          "name": "Manghit",
+          "latitude": 42.11556,
+          "longitude": 60.05972,
+          "translations": []
+        },
+        {
+          "id": 129959,
+          "name": "Mŭynoq",
+          "latitude": 43.76833,
+          "longitude": 59.02139,
+          "translations": []
+        },
+        {
+          "id": 129963,
+          "name": "Novyy Turtkul’",
+          "latitude": 41.55,
+          "longitude": 61.01667,
+          "translations": []
+        },
+        {
+          "id": 129964,
+          "name": "Nukus",
+          "latitude": 42.45306,
+          "longitude": 59.61028,
+          "translations": []
+        },
+        {
+          "id": 129970,
+          "name": "Oltinko‘l",
+          "latitude": 43.06874,
+          "longitude": 58.90372,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2549,
+      "name": "Tashkent",
+      "stateCode": "TO",
+      "latitude": 41.2213234,
+      "longitude": 69.8597406,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 129896,
+          "name": "Angren",
+          "latitude": 41.01667,
+          "longitude": 70.14361,
+          "translations": []
+        },
+        {
+          "id": 129900,
+          "name": "Bekobod",
+          "latitude": 40.22083,
+          "longitude": 69.26972,
+          "translations": []
+        },
+        {
+          "id": 129907,
+          "name": "Bo‘ka",
+          "latitude": 40.81108,
+          "longitude": 69.19417,
+          "translations": []
+        },
+        {
+          "id": 129914,
+          "name": "Chinoz",
+          "latitude": 40.93633,
+          "longitude": 68.76128,
+          "translations": []
+        },
+        {
+          "id": 129915,
+          "name": "Chirchiq",
+          "latitude": 41.46889,
+          "longitude": 69.58222,
+          "translations": []
+        },
+        {
+          "id": 129930,
+          "name": "G‘azalkent",
+          "latitude": 41.55806,
+          "longitude": 69.77083,
+          "translations": []
+        },
+        {
+          "id": 129936,
+          "name": "Iskandar",
+          "latitude": 41.55389,
+          "longitude": 69.70083,
+          "translations": []
+        },
+        {
+          "id": 129953,
+          "name": "Kyzyldzhar",
+          "latitude": 41.56667,
+          "longitude": 70.01667,
+          "translations": []
+        },
+        {
+          "id": 129966,
+          "name": "Ohangaron",
+          "latitude": 40.90639,
+          "longitude": 69.63833,
+          "translations": []
+        },
+        {
+          "id": 129967,
+          "name": "Olmaliq",
+          "latitude": 40.84472,
+          "longitude": 69.59833,
+          "translations": []
+        },
+        {
+          "id": 129974,
+          "name": "Parkent",
+          "latitude": 41.29444,
+          "longitude": 69.67639,
+          "translations": []
+        },
+        {
+          "id": 129979,
+          "name": "Piskent",
+          "latitude": 40.89722,
+          "longitude": 69.35056,
+          "translations": []
+        },
+        {
+          "id": 129982,
+          "name": "Qibray",
+          "latitude": 41.38972,
+          "longitude": 69.465,
+          "translations": []
+        },
+        {
+          "id": 129994,
+          "name": "Salor",
+          "latitude": 41.37222,
+          "longitude": 69.38167,
+          "translations": []
+        },
+        {
+          "id": 130010,
+          "name": "Tŭytepa",
+          "latitude": 41.0321,
+          "longitude": 69.36253,
+          "translations": []
+        },
+        {
+          "id": 130020,
+          "name": "Yangiobod",
+          "latitude": 41.11919,
+          "longitude": 70.09406,
+          "translations": []
+        },
+        {
+          "id": 130024,
+          "name": "Yangiyŭl",
+          "latitude": 41.11202,
+          "longitude": 69.0471,
+          "translations": []
+        },
+        {
+          "id": 130026,
+          "name": "Zafar",
+          "latitude": 40.98333,
+          "longitude": 68.9,
+          "translations": []
+        },
+        {
+          "id": 130028,
+          "name": "Ŭrtaowul",
+          "latitude": 41.18667,
+          "longitude": 69.14528,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

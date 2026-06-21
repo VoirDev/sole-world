@@ -1,0 +1,153 @@
+{
+  "id": 227,
+  "name": "Turks and Caicos Islands",
+  "nativeName": "Turks and Caicos Islands",
+  "iso2": "TC",
+  "iso3": "TCA",
+  "numericCode": "796",
+  "phoneCode": "1",
+  "tld": ".tc",
+  "latitude": 21.75,
+  "longitude": -71.58333333,
+  "flagId": 37,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2593
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "터크스 케이커스 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Turcas e Caicos"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Turcas e Caicos"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Turks- en Caicoseilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Otoci Turks i Caicos"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر تورکس و کایکوس"
+    },
+    {
+      "languageCode": "de",
+      "name": "Turks- und Caicosinseln"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Turks y Caicos"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Turques-et-Caïques"
+    },
+    {
+      "languageCode": "ja",
+      "name": "タークス・カイコス諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Turks e Caicos"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "特克斯和凯科斯群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Turks Ve Caicos Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Острова Теркс и Кайкос"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Острови Теркс і Кайкос"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Turks i Caicos"
+    }
+  ],
+  "states": [
+    {
+      "id": 5363,
+      "name": "Providenciales",
+      "stateCode": "01",
+      "latitude": 21.8015618,
+      "longitude": -72.4083292,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5364,
+      "name": "North Caicos",
+      "stateCode": "02",
+      "latitude": 21.8759162,
+      "longitude": -72.0382028,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5365,
+      "name": "Middle Caicos",
+      "stateCode": "03",
+      "latitude": 21.7785056,
+      "longitude": -71.937977,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5366,
+      "name": "South Caicos",
+      "stateCode": "04",
+      "latitude": 21.5302487,
+      "longitude": -71.5604486,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5367,
+      "name": "Grand Turk",
+      "stateCode": "05",
+      "latitude": 21.4680866,
+      "longitude": -71.1810258,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5368,
+      "name": "Salt Cay",
+      "stateCode": "06",
+      "latitude": 21.3242536,
+      "longitude": -71.2207606,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

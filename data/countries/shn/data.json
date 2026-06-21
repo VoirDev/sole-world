@@ -1,0 +1,92 @@
+{
+  "id": 184,
+  "name": "Saint Helena",
+  "nativeName": "Saint Helena",
+  "iso2": "SH",
+  "iso3": "SHN",
+  "numericCode": "654",
+  "phoneCode": "290",
+  "tld": ".sh",
+  "latitude": -15.95,
+  "longitude": -5.7,
+  "flagId": 52,
+  "regionId": 1,
+  "subregionId": 3,
+  "currencyIds": [
+    948
+  ],
+  "timezoneIds": [
+    2546
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "세인트헬레나"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Santa Helena"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Santa Helena"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Sint-Helena"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Sveta Helena"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سنت هلنا، اسنشن و تریستان دا کونا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Sankt Helena"
+    },
+    {
+      "languageCode": "es",
+      "name": "Santa Helena"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Sainte-Hélène"
+    },
+    {
+      "languageCode": "ja",
+      "name": "セントヘレナ・アセンションおよびトリスタンダクーニャ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Sant'Elena"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "圣赫勒拿"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Saint Helena"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Святая Елена"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Свята Єлена"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Święta Helena"
+    }
+  ],
+  "states": []
+}

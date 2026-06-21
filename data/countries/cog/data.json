@@ -1,0 +1,343 @@
+{
+  "id": 50,
+  "name": "Congo",
+  "nativeName": "République du Congo",
+  "iso2": "CG",
+  "iso3": "COG",
+  "numericCode": "178",
+  "phoneCode": "242",
+  "tld": ".cg",
+  "latitude": -1,
+  "longitude": 15,
+  "flagId": 207,
+  "regionId": 1,
+  "subregionId": 2,
+  "currencyIds": [
+    862
+  ],
+  "timezoneIds": [
+    2348
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "콩고"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Congo"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Congo"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Congo [Republiek]"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Kongo"
+    },
+    {
+      "languageCode": "fa",
+      "name": "کنگو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Kongo"
+    },
+    {
+      "languageCode": "es",
+      "name": "Congo"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Congo"
+    },
+    {
+      "languageCode": "ja",
+      "name": "コンゴ共和国"
+    },
+    {
+      "languageCode": "it",
+      "name": "Congo"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "刚果"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Kongo"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Конго"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Конго"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Kongo"
+    }
+  ],
+  "states": [
+    {
+      "id": 2862,
+      "name": "Plateaux",
+      "stateCode": "14",
+      "latitude": -2.0680088,
+      "longitude": 15.4068079,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17340,
+          "name": "Djambala",
+          "latitude": -2.54472,
+          "longitude": 14.75333,
+          "translations": []
+        },
+        {
+          "id": 17343,
+          "name": "Gamboma",
+          "latitude": -1.87639,
+          "longitude": 15.86444,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2863,
+      "name": "Pointe-Noire",
+      "stateCode": "16",
+      "latitude": -4.7691623,
+      "longitude": 11.866362,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17347,
+          "name": "Loandjili",
+          "latitude": -4.75611,
+          "longitude": 11.85778,
+          "translations": []
+        },
+        {
+          "id": 17353,
+          "name": "Pointe-Noire",
+          "latitude": -4.77609,
+          "longitude": 11.86352,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2864,
+      "name": "Cuvette",
+      "stateCode": "8",
+      "latitude": -0.2877446,
+      "longitude": 16.1580937,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17349,
+          "name": "Makoua",
+          "latitude": 0.00694,
+          "longitude": 15.63333,
+          "translations": []
+        },
+        {
+          "id": 17352,
+          "name": "Owando",
+          "latitude": -0.48193,
+          "longitude": 15.89988,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2865,
+      "name": "Likouala",
+      "stateCode": "7",
+      "latitude": 2.043924,
+      "longitude": 17.668887,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17344,
+          "name": "Impfondo",
+          "latitude": 1.61804,
+          "longitude": 18.05981,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2866,
+      "name": "Bouenza",
+      "stateCode": "11",
+      "latitude": -4.1128079,
+      "longitude": 13.7289167,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17345,
+          "name": "Kayes",
+          "latitude": -4.20493,
+          "longitude": 13.28608,
+          "translations": []
+        },
+        {
+          "id": 17348,
+          "name": "Madingou",
+          "latitude": -4.15361,
+          "longitude": 13.55,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2867,
+      "name": "Kouilou",
+      "stateCode": "5",
+      "latitude": -4.1428413,
+      "longitude": 11.8891721,
+      "type": "department",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2868,
+      "name": "Lékoumou",
+      "stateCode": "2",
+      "latitude": -3.170382,
+      "longitude": 13.3587288,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17354,
+          "name": "Sibiti",
+          "latitude": -3.68192,
+          "longitude": 13.34985,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2869,
+      "name": "Cuvette-Ouest",
+      "stateCode": "15",
+      "latitude": 0.144755,
+      "longitude": 14.4723301,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17342,
+          "name": "Ewo",
+          "latitude": -0.8725,
+          "longitude": 14.82056,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2870,
+      "name": "Brazzaville",
+      "stateCode": "BZV",
+      "latitude": -4.2633597,
+      "longitude": 15.2428853,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17339,
+          "name": "Brazzaville",
+          "latitude": -4.26613,
+          "longitude": 15.28318,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2871,
+      "name": "Sangha",
+      "stateCode": "13",
+      "latitude": 1.4662328,
+      "longitude": 15.4068079,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17351,
+          "name": "Ouésso",
+          "latitude": 1.61361,
+          "longitude": 16.05167,
+          "translations": []
+        },
+        {
+          "id": 17355,
+          "name": "Sémbé",
+          "latitude": 1.64806,
+          "longitude": 14.58056,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2872,
+      "name": "Niari",
+      "stateCode": "9",
+      "latitude": -3.18427,
+      "longitude": 12.2547919,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17341,
+          "name": "Dolisie",
+          "latitude": -4.19834,
+          "longitude": 12.66664,
+          "translations": []
+        },
+        {
+          "id": 17350,
+          "name": "Mossendjo",
+          "latitude": -2.94968,
+          "longitude": 12.70423,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2873,
+      "name": "Pool",
+      "stateCode": "12",
+      "latitude": -3.7762628,
+      "longitude": 14.8454619,
+      "type": "department",
+      "translations": [],
+      "cities": [
+        {
+          "id": 17346,
+          "name": "Kinkala",
+          "latitude": -4.36139,
+          "longitude": 14.76444,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

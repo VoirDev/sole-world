@@ -1,0 +1,293 @@
+{
+  "id": 210,
+  "name": "Suriname",
+  "nativeName": "Suriname",
+  "iso2": "SR",
+  "iso3": "SUR",
+  "numericCode": "740",
+  "phoneCode": "597",
+  "tld": ".sr",
+  "latitude": 4,
+  "longitude": -56,
+  "flagId": 44,
+  "regionId": 2,
+  "subregionId": 8,
+  "currencyIds": [
+    963
+  ],
+  "timezoneIds": [
+    2574
+  ],
+  "officialLanguageIds": [
+    29
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "수리남"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Suriname"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Suriname"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Suriname"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Surinam"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سورینام"
+    },
+    {
+      "languageCode": "de",
+      "name": "Suriname"
+    },
+    {
+      "languageCode": "es",
+      "name": "Surinam"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Surinam"
+    },
+    {
+      "languageCode": "ja",
+      "name": "スリナム"
+    },
+    {
+      "languageCode": "it",
+      "name": "Suriname"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "苏里南"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Surinam"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Суринам"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Суринам"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Surinam"
+    }
+  ],
+  "states": [
+    {
+      "id": 2839,
+      "name": "Commewijne",
+      "stateCode": "CM",
+      "latitude": 5.740211,
+      "longitude": -54.8731219,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104826,
+          "name": "Mariënburg",
+          "latitude": 5.87722,
+          "longitude": -55.04322,
+          "translations": []
+        },
+        {
+          "id": 104828,
+          "name": "Nieuw Amsterdam",
+          "latitude": 5.88573,
+          "longitude": -55.08871,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2840,
+      "name": "Nickerie",
+      "stateCode": "NI",
+      "latitude": 5.5855469,
+      "longitude": -56.8311117,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104829,
+          "name": "Nieuw Nickerie",
+          "latitude": 5.92606,
+          "longitude": -56.97297,
+          "translations": []
+        },
+        {
+          "id": 104833,
+          "name": "Wageningen",
+          "latitude": 5.7601,
+          "longitude": -56.66523,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2841,
+      "name": "Para",
+      "stateCode": "PR",
+      "latitude": 5.4817318,
+      "longitude": -55.2259207,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104830,
+          "name": "Onverwacht",
+          "latitude": 5.58983,
+          "longitude": -55.19462,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2842,
+      "name": "Coronie",
+      "stateCode": "CR",
+      "latitude": 5.6943271,
+      "longitude": -56.2929381,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104832,
+          "name": "Totness",
+          "latitude": 5.87618,
+          "longitude": -56.32572,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2843,
+      "name": "Paramaribo",
+      "stateCode": "PM",
+      "latitude": 5.8520355,
+      "longitude": -55.2038278,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104831,
+          "name": "Paramaribo",
+          "latitude": 5.86638,
+          "longitude": -55.16682,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2844,
+      "name": "Wanica",
+      "stateCode": "WA",
+      "latitude": 5.7323762,
+      "longitude": -55.2701235,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104825,
+          "name": "Lelydorp",
+          "latitude": 5.7,
+          "longitude": -55.23333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2845,
+      "name": "Marowijne",
+      "stateCode": "MA",
+      "latitude": 5.6268128,
+      "longitude": -54.2593118,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104821,
+          "name": "Albina",
+          "latitude": 5.49788,
+          "longitude": -54.05522,
+          "translations": []
+        },
+        {
+          "id": 104827,
+          "name": "Moengo",
+          "latitude": 5.61411,
+          "longitude": -54.40121,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2846,
+      "name": "Brokopondo",
+      "stateCode": "BR",
+      "latitude": 4.7710247,
+      "longitude": -55.0493375,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104822,
+          "name": "Brokopondo",
+          "latitude": 5.05594,
+          "longitude": -54.98043,
+          "translations": []
+        },
+        {
+          "id": 104823,
+          "name": "Brownsweg",
+          "latitude": 5.00435,
+          "longitude": -55.15333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2847,
+      "name": "Sipaliwini",
+      "stateCode": "SI",
+      "latitude": 3.6567382,
+      "longitude": -56.2035387,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2848,
+      "name": "Saramacca",
+      "stateCode": "SA",
+      "latitude": 5.7240813,
+      "longitude": -55.6689636,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104824,
+          "name": "Groningen",
+          "latitude": 5.8,
+          "longitude": -55.46667,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

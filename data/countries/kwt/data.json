@@ -1,0 +1,334 @@
+{
+  "id": 117,
+  "name": "Kuwait",
+  "nativeName": "الكويت",
+  "iso2": "KW",
+  "iso3": "KWT",
+  "numericCode": "414",
+  "phoneCode": "965",
+  "tld": ".kw",
+  "latitude": 29.5,
+  "longitude": 45.75,
+  "flagId": 128,
+  "regionId": 3,
+  "subregionId": 11,
+  "currencyIds": [
+    908
+  ],
+  "timezoneIds": [
+    2433
+  ],
+  "officialLanguageIds": [
+    7
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "쿠웨이트"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Kuwait"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Kuwait"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Koeweit"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Kuvajt"
+    },
+    {
+      "languageCode": "fa",
+      "name": "کویت"
+    },
+    {
+      "languageCode": "de",
+      "name": "Kuwait"
+    },
+    {
+      "languageCode": "es",
+      "name": "Kuwait"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Koweït"
+    },
+    {
+      "languageCode": "ja",
+      "name": "クウェート"
+    },
+    {
+      "languageCode": "it",
+      "name": "Kuwait"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "科威特"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Kuveyt"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Кувейт"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Кувейт"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Kuwejt"
+    }
+  ],
+  "states": [
+    {
+      "id": 972,
+      "name": "Al Jahra",
+      "stateCode": "JA",
+      "latitude": 29.9931831,
+      "longitude": 47.7634731,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65577,
+          "name": "Al Jahrā’",
+          "latitude": 29.3375,
+          "longitude": 47.65806,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 973,
+      "name": "Hawalli",
+      "stateCode": "HA",
+      "latitude": 29.3056716,
+      "longitude": 48.0307613,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65583,
+          "name": "Ar Rumaythīyah",
+          "latitude": 29.31167,
+          "longitude": 48.07417,
+          "translations": []
+        },
+        {
+          "id": 65585,
+          "name": "As Sālimīyah",
+          "latitude": 29.33389,
+          "longitude": 48.07611,
+          "translations": []
+        },
+        {
+          "id": 65588,
+          "name": "Bayān",
+          "latitude": 29.3032,
+          "longitude": 48.04881,
+          "translations": []
+        },
+        {
+          "id": 65591,
+          "name": "Salwá",
+          "latitude": 29.29583,
+          "longitude": 48.07861,
+          "translations": []
+        },
+        {
+          "id": 65593,
+          "name": "Ḩawallī",
+          "latitude": 29.33278,
+          "longitude": 48.02861,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 974,
+      "name": "Mubarak Al-Kabeer",
+      "stateCode": "MU",
+      "latitude": 29.21224,
+      "longitude": 48.0605108,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65569,
+          "name": "Abu Al Hasaniya",
+          "latitude": 29.19076,
+          "longitude": 48.11355,
+          "translations": []
+        },
+        {
+          "id": 65570,
+          "name": "Abu Fatira",
+          "latitude": 29.19746,
+          "longitude": 48.10278,
+          "translations": []
+        },
+        {
+          "id": 65576,
+          "name": "Al Funayţīs",
+          "latitude": 29.22528,
+          "longitude": 48.10167,
+          "translations": []
+        },
+        {
+          "id": 65581,
+          "name": "Al-Masayel",
+          "latitude": 29.2393,
+          "longitude": 48.08862,
+          "translations": []
+        },
+        {
+          "id": 65592,
+          "name": "Şabāḩ as Sālim",
+          "latitude": 29.25722,
+          "longitude": 48.05722,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 975,
+      "name": "Al Farwaniyah",
+      "stateCode": "FA",
+      "latitude": 29.273357,
+      "longitude": 47.9400154,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65573,
+          "name": "Al Farwānīyah",
+          "latitude": 29.2775,
+          "longitude": 47.95861,
+          "translations": []
+        },
+        {
+          "id": 65589,
+          "name": "Janūb as Surrah",
+          "latitude": 29.26917,
+          "longitude": 47.97806,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 976,
+      "name": "Al Asimah",
+      "stateCode": "KU",
+      "latitude": 26.2285161,
+      "longitude": 50.5860497,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65571,
+          "name": "Ad Dasmah",
+          "latitude": 29.365,
+          "longitude": 48.00139,
+          "translations": []
+        },
+        {
+          "id": 65584,
+          "name": "Ar Rābiyah",
+          "latitude": 29.295,
+          "longitude": 47.93306,
+          "translations": []
+        },
+        {
+          "id": 65586,
+          "name": "Ash Shāmīyah",
+          "latitude": 29.34722,
+          "longitude": 47.96167,
+          "translations": []
+        },
+        {
+          "id": 65587,
+          "name": "Az Zawr",
+          "latitude": 29.4425,
+          "longitude": 48.27472,
+          "translations": []
+        },
+        {
+          "id": 65590,
+          "name": "Kuwait City",
+          "latitude": 29.36972,
+          "longitude": 47.97833,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 977,
+      "name": "Al Ahmadi",
+      "stateCode": "AH",
+      "latitude": 28.5745125,
+      "longitude": 48.1024743,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 65572,
+          "name": "Al Aḩmadī",
+          "latitude": 29.07694,
+          "longitude": 48.08389,
+          "translations": []
+        },
+        {
+          "id": 65574,
+          "name": "Al Faḩāḩīl",
+          "latitude": 29.0825,
+          "longitude": 48.13028,
+          "translations": []
+        },
+        {
+          "id": 65575,
+          "name": "Al Finţās",
+          "latitude": 29.17389,
+          "longitude": 48.12111,
+          "translations": []
+        },
+        {
+          "id": 65578,
+          "name": "Al Mahbūlah",
+          "latitude": 29.145,
+          "longitude": 48.13028,
+          "translations": []
+        },
+        {
+          "id": 65579,
+          "name": "Al Manqaf",
+          "latitude": 29.09611,
+          "longitude": 48.13278,
+          "translations": []
+        },
+        {
+          "id": 65580,
+          "name": "Al Wafrah",
+          "latitude": 28.63917,
+          "longitude": 47.93056,
+          "translations": []
+        },
+        {
+          "id": 65582,
+          "name": "Ar Riqqah",
+          "latitude": 29.14583,
+          "longitude": 48.09472,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

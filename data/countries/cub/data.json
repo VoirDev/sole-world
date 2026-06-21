@@ -1,0 +1,1578 @@
+{
+  "id": 56,
+  "name": "Cuba",
+  "nativeName": "Cuba",
+  "iso2": "CU",
+  "iso3": "CUB",
+  "numericCode": "192",
+  "phoneCode": "53",
+  "tld": ".cu",
+  "latitude": 21.5,
+  "longitude": -80,
+  "flagId": 199,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    872
+  ],
+  "timezoneIds": [
+    2353
+  ],
+  "officialLanguageIds": [
+    47
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "쿠바"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Cuba"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Cuba"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Cuba"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Kuba"
+    },
+    {
+      "languageCode": "fa",
+      "name": "کوبا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Kuba"
+    },
+    {
+      "languageCode": "es",
+      "name": "Cuba"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Cuba"
+    },
+    {
+      "languageCode": "ja",
+      "name": "キューバ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Cuba"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "古巴"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Küba"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Куба"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Куба"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Kuba"
+    }
+  ],
+  "states": [
+    {
+      "id": 272,
+      "name": "Havana",
+      "stateCode": "03",
+      "latitude": 23.0540698,
+      "longitude": -82.345189,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21803,
+          "name": "Alamar",
+          "latitude": 23.15794,
+          "longitude": -82.27837,
+          "translations": []
+        },
+        {
+          "id": 21806,
+          "name": "Arroyo Naranjo",
+          "latitude": 23.03677,
+          "longitude": -82.36937,
+          "translations": []
+        },
+        {
+          "id": 21818,
+          "name": "Boyeros",
+          "latitude": 23.0072,
+          "longitude": -82.4017,
+          "translations": []
+        },
+        {
+          "id": 21830,
+          "name": "Centro Habana",
+          "latitude": 23.13833,
+          "longitude": -82.36417,
+          "translations": []
+        },
+        {
+          "id": 21831,
+          "name": "Cerro",
+          "latitude": 23.10861,
+          "longitude": -82.37778,
+          "translations": []
+        },
+        {
+          "id": 21847,
+          "name": "Diez de Octubre",
+          "latitude": 23.0881,
+          "longitude": -82.3597,
+          "translations": []
+        },
+        {
+          "id": 21857,
+          "name": "Guanabacoa",
+          "latitude": 23.1236,
+          "longitude": -82.30082,
+          "translations": []
+        },
+        {
+          "id": 21866,
+          "name": "Habana del Este",
+          "latitude": 23.15917,
+          "longitude": -82.33056,
+          "translations": []
+        },
+        {
+          "id": 21867,
+          "name": "Havana",
+          "latitude": 23.13302,
+          "longitude": -82.38304,
+          "translations": []
+        },
+        {
+          "id": 21880,
+          "name": "La Habana Vieja",
+          "latitude": 23.13028,
+          "longitude": -82.35306,
+          "translations": []
+        },
+        {
+          "id": 21952,
+          "name": "Regla",
+          "latitude": 23.125,
+          "longitude": -82.33194,
+          "translations": []
+        },
+        {
+          "id": 21966,
+          "name": "San Miguel del Padrón",
+          "latitude": 23.06639,
+          "longitude": -82.29472,
+          "translations": []
+        },
+        {
+          "id": 21973,
+          "name": "Santiago de las Vegas",
+          "latitude": 22.97,
+          "longitude": -82.38694,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "name": "Santiago de Cuba",
+      "stateCode": "13",
+      "latitude": 20.2397682,
+      "longitude": -75.9927652,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21841,
+          "name": "Contramaestre",
+          "latitude": 20.29879,
+          "longitude": -76.24511,
+          "translations": []
+        },
+        {
+          "id": 21849,
+          "name": "El Cobre",
+          "latitude": 20.0485,
+          "longitude": -75.94579,
+          "translations": []
+        },
+        {
+          "id": 21929,
+          "name": "Municipio de Palma Soriano",
+          "latitude": 20.20897,
+          "longitude": -76.05776,
+          "translations": []
+        },
+        {
+          "id": 21934,
+          "name": "Municipio de Santiago de Cuba",
+          "latitude": 20.00617,
+          "longitude": -75.70816,
+          "translations": []
+        },
+        {
+          "id": 21939,
+          "name": "Palma Soriano",
+          "latitude": 20.2113,
+          "longitude": -75.99362,
+          "translations": []
+        },
+        {
+          "id": 21964,
+          "name": "San Luis",
+          "latitude": 20.18809,
+          "longitude": -75.85031,
+          "translations": []
+        },
+        {
+          "id": 21972,
+          "name": "Santiago de Cuba",
+          "latitude": 20.02083,
+          "longitude": -75.82667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "name": "Sancti Spíritus",
+      "stateCode": "07",
+      "latitude": 21.9938214,
+      "longitude": -79.4703885,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21819,
+          "name": "Cabaiguán",
+          "latitude": 22.07874,
+          "longitude": -79.49726,
+          "translations": []
+        },
+        {
+          "id": 21839,
+          "name": "Condado",
+          "latitude": 21.8767,
+          "longitude": -79.84014,
+          "translations": []
+        },
+        {
+          "id": 21855,
+          "name": "Fomento",
+          "latitude": 22.10475,
+          "longitude": -79.72141,
+          "translations": []
+        },
+        {
+          "id": 21861,
+          "name": "Guayos",
+          "latitude": 22.04956,
+          "longitude": -79.46106,
+          "translations": []
+        },
+        {
+          "id": 21873,
+          "name": "Jatibonico",
+          "latitude": 21.94333,
+          "longitude": -79.16906,
+          "translations": []
+        },
+        {
+          "id": 21882,
+          "name": "La Sierpe",
+          "latitude": 21.77241,
+          "longitude": -79.26832,
+          "translations": []
+        },
+        {
+          "id": 21908,
+          "name": "Municipio de Cabaiguán",
+          "latitude": 22.08333,
+          "longitude": -79.5,
+          "translations": []
+        },
+        {
+          "id": 21919,
+          "name": "Municipio de Jatibonico",
+          "latitude": 21.93333,
+          "longitude": -79.16667,
+          "translations": []
+        },
+        {
+          "id": 21932,
+          "name": "Municipio de Sancti Spíritus",
+          "latitude": 21.82176,
+          "longitude": -79.51036,
+          "translations": []
+        },
+        {
+          "id": 21935,
+          "name": "Municipio de Trinidad",
+          "latitude": 21.83195,
+          "longitude": -79.88362,
+          "translations": []
+        },
+        {
+          "id": 21968,
+          "name": "Sancti Spíritus",
+          "latitude": 21.92972,
+          "longitude": -79.4425,
+          "translations": []
+        },
+        {
+          "id": 21977,
+          "name": "Topes de Collantes",
+          "latitude": 21.91524,
+          "longitude": -80.01929,
+          "translations": []
+        },
+        {
+          "id": 21978,
+          "name": "Trinidad",
+          "latitude": 21.80224,
+          "longitude": -79.98467,
+          "translations": []
+        },
+        {
+          "id": 21984,
+          "name": "Yaguajay",
+          "latitude": 22.32691,
+          "longitude": -79.23567,
+          "translations": []
+        },
+        {
+          "id": 21986,
+          "name": "Zaza del Medio",
+          "latitude": 21.99712,
+          "longitude": -79.36678,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "name": "Granma",
+      "stateCode": "12",
+      "latitude": 20.3844902,
+      "longitude": -76.6412712,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21812,
+          "name": "Bartolomé Masó",
+          "latitude": 20.16635,
+          "longitude": -76.94291,
+          "translations": []
+        },
+        {
+          "id": 21815,
+          "name": "Bayamo",
+          "latitude": 20.37417,
+          "longitude": -76.64361,
+          "translations": []
+        },
+        {
+          "id": 21827,
+          "name": "Campechuela",
+          "latitude": 20.23329,
+          "longitude": -77.2799,
+          "translations": []
+        },
+        {
+          "id": 21829,
+          "name": "Cauto Cristo",
+          "latitude": 20.55709,
+          "longitude": -76.4727,
+          "translations": []
+        },
+        {
+          "id": 21862,
+          "name": "Guisa",
+          "latitude": 20.25494,
+          "longitude": -76.5393,
+          "translations": []
+        },
+        {
+          "id": 21875,
+          "name": "Jiguaní",
+          "latitude": 20.36785,
+          "longitude": -76.42741,
+          "translations": []
+        },
+        {
+          "id": 21894,
+          "name": "Manzanillo",
+          "latitude": 20.34173,
+          "longitude": -77.12126,
+          "translations": []
+        },
+        {
+          "id": 21898,
+          "name": "Media Luna",
+          "latitude": 20.14298,
+          "longitude": -77.43532,
+          "translations": []
+        },
+        {
+          "id": 21907,
+          "name": "Municipio de Bayamo",
+          "latitude": 20.42511,
+          "longitude": -76.68614,
+          "translations": []
+        },
+        {
+          "id": 21922,
+          "name": "Municipio de Manzanillo",
+          "latitude": 20.24732,
+          "longitude": -77.10273,
+          "translations": []
+        },
+        {
+          "id": 21927,
+          "name": "Municipio de Niquero",
+          "latitude": 19.93912,
+          "longitude": -77.57085,
+          "translations": []
+        },
+        {
+          "id": 21936,
+          "name": "Niquero",
+          "latitude": 20.04698,
+          "longitude": -77.58089,
+          "translations": []
+        },
+        {
+          "id": 21954,
+          "name": "Río Cauto",
+          "latitude": 20.55971,
+          "longitude": -76.91673,
+          "translations": []
+        },
+        {
+          "id": 21985,
+          "name": "Yara",
+          "latitude": 20.27465,
+          "longitude": -76.95132,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 276,
+      "name": "Mayabeque",
+      "stateCode": "16",
+      "latitude": 22.8926529,
+      "longitude": -81.9534815,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21813,
+          "name": "Batabanó",
+          "latitude": 22.71794,
+          "longitude": -82.28965,
+          "translations": []
+        },
+        {
+          "id": 21816,
+          "name": "Bejucal",
+          "latitude": 22.92861,
+          "longitude": -82.38861,
+          "translations": []
+        },
+        {
+          "id": 21864,
+          "name": "Güines",
+          "latitude": 22.83727,
+          "longitude": -82.02641,
+          "translations": []
+        },
+        {
+          "id": 21871,
+          "name": "Jamaica",
+          "latitude": 22.97559,
+          "longitude": -82.16852,
+          "translations": []
+        },
+        {
+          "id": 21872,
+          "name": "Jaruco",
+          "latitude": 23.04419,
+          "longitude": -82.00919,
+          "translations": []
+        },
+        {
+          "id": 21881,
+          "name": "La Salud",
+          "latitude": 22.87199,
+          "longitude": -82.42328,
+          "translations": []
+        },
+        {
+          "id": 21888,
+          "name": "Madruga",
+          "latitude": 22.91,
+          "longitude": -81.85639,
+          "translations": []
+        },
+        {
+          "id": 21917,
+          "name": "Municipio de Güines",
+          "latitude": 22.78712,
+          "longitude": -82.01602,
+          "translations": []
+        },
+        {
+          "id": 21925,
+          "name": "Municipio de Melena del Sur",
+          "latitude": 22.78821,
+          "longitude": -82.15113,
+          "translations": []
+        },
+        {
+          "id": 21949,
+          "name": "Quivicán",
+          "latitude": 22.82313,
+          "longitude": -82.35558,
+          "translations": []
+        },
+        {
+          "id": 21963,
+          "name": "San José de las Lajas",
+          "latitude": 22.96139,
+          "longitude": -82.15111,
+          "translations": []
+        },
+        {
+          "id": 21967,
+          "name": "San Nicolás de Bari",
+          "latitude": 22.78444,
+          "longitude": -81.91333,
+          "translations": []
+        },
+        {
+          "id": 21970,
+          "name": "Santa Cruz del Norte",
+          "latitude": 23.15424,
+          "longitude": -81.92556,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "name": "Pinar del Río",
+      "stateCode": "01",
+      "latitude": 22.4076256,
+      "longitude": -83.8473015,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21840,
+          "name": "Consolación del Sur",
+          "latitude": 22.50419,
+          "longitude": -83.51442,
+          "translations": []
+        },
+        {
+          "id": 21859,
+          "name": "Guane",
+          "latitude": 22.20179,
+          "longitude": -84.08484,
+          "translations": []
+        },
+        {
+          "id": 21887,
+          "name": "Los Palacios",
+          "latitude": 22.58882,
+          "longitude": -83.24671,
+          "translations": []
+        },
+        {
+          "id": 21893,
+          "name": "Mantua",
+          "latitude": 22.29058,
+          "longitude": -84.28599,
+          "translations": []
+        },
+        {
+          "id": 21900,
+          "name": "Minas de Matahambre",
+          "latitude": 22.58691,
+          "longitude": -83.94551,
+          "translations": []
+        },
+        {
+          "id": 21911,
+          "name": "Municipio de Consolación del Sur",
+          "latitude": 22.44095,
+          "longitude": -83.41985,
+          "translations": []
+        },
+        {
+          "id": 21915,
+          "name": "Municipio de Guane",
+          "latitude": 22.24591,
+          "longitude": -84.0366,
+          "translations": []
+        },
+        {
+          "id": 21920,
+          "name": "Municipio de La Palma",
+          "latitude": 22.75,
+          "longitude": -83.55,
+          "translations": []
+        },
+        {
+          "id": 21921,
+          "name": "Municipio de Los Palacios",
+          "latitude": 22.58333,
+          "longitude": -83.25,
+          "translations": []
+        },
+        {
+          "id": 21943,
+          "name": "Pinar del Río",
+          "latitude": 22.41667,
+          "longitude": -83.69667,
+          "translations": []
+        },
+        {
+          "id": 21946,
+          "name": "Puerto Esperanza",
+          "latitude": 22.77041,
+          "longitude": -83.73138,
+          "translations": []
+        },
+        {
+          "id": 21961,
+          "name": "San Diego de Los Baños",
+          "latitude": 22.64667,
+          "longitude": -83.36972,
+          "translations": []
+        },
+        {
+          "id": 21965,
+          "name": "San Luis",
+          "latitude": 22.27898,
+          "longitude": -83.75956,
+          "translations": []
+        },
+        {
+          "id": 21983,
+          "name": "Viñales",
+          "latitude": 22.61892,
+          "longitude": -83.70694,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "name": "Isla de la Juventud",
+      "stateCode": "99",
+      "latitude": 21.7084737,
+      "longitude": -82.8220232,
+      "type": "special municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21937,
+          "name": "Nueva Gerona",
+          "latitude": 21.88667,
+          "longitude": -82.80556,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 279,
+      "name": "Holguín",
+      "stateCode": "11",
+      "latitude": 20.7837893,
+      "longitude": -75.8069082,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21809,
+          "name": "Banes",
+          "latitude": 20.96116,
+          "longitude": -75.722,
+          "translations": []
+        },
+        {
+          "id": 21821,
+          "name": "Cacocum",
+          "latitude": 20.73775,
+          "longitude": -76.32574,
+          "translations": []
+        },
+        {
+          "id": 21844,
+          "name": "Cueto",
+          "latitude": 20.64855,
+          "longitude": -75.92967,
+          "translations": []
+        },
+        {
+          "id": 21856,
+          "name": "Gibara",
+          "latitude": 21.10988,
+          "longitude": -76.13145,
+          "translations": []
+        },
+        {
+          "id": 21868,
+          "name": "Holguín",
+          "latitude": 20.88722,
+          "longitude": -76.26306,
+          "translations": []
+        },
+        {
+          "id": 21877,
+          "name": "Jobabo",
+          "latitude": 20.96917,
+          "longitude": -76.29944,
+          "translations": []
+        },
+        {
+          "id": 21901,
+          "name": "Moa",
+          "latitude": 20.65776,
+          "longitude": -74.95075,
+          "translations": []
+        },
+        {
+          "id": 21905,
+          "name": "Municipio de Banes",
+          "latitude": 20.98008,
+          "longitude": -75.74933,
+          "translations": []
+        },
+        {
+          "id": 21918,
+          "name": "Municipio de Holguín",
+          "latitude": 20.91192,
+          "longitude": -76.27057,
+          "translations": []
+        },
+        {
+          "id": 21956,
+          "name": "Sagua de Tánamo",
+          "latitude": 20.58269,
+          "longitude": -75.24116,
+          "translations": []
+        },
+        {
+          "id": 21962,
+          "name": "San Germán",
+          "latitude": 20.60009,
+          "longitude": -76.13364,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 280,
+      "name": "Villa Clara",
+      "stateCode": "05",
+      "latitude": 22.4937204,
+      "longitude": -79.9192702,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21822,
+          "name": "Caibarién",
+          "latitude": 22.51996,
+          "longitude": -79.46599,
+          "translations": []
+        },
+        {
+          "id": 21823,
+          "name": "Calabazar de Sagua",
+          "latitude": 22.64515,
+          "longitude": -79.8951,
+          "translations": []
+        },
+        {
+          "id": 21826,
+          "name": "Camajuaní",
+          "latitude": 22.48333,
+          "longitude": -79.75,
+          "translations": []
+        },
+        {
+          "id": 21835,
+          "name": "Cifuentes",
+          "latitude": 22.6493,
+          "longitude": -80.04935,
+          "translations": []
+        },
+        {
+          "id": 21842,
+          "name": "Corralillo",
+          "latitude": 22.98212,
+          "longitude": -80.58556,
+          "translations": []
+        },
+        {
+          "id": 21850,
+          "name": "Encrucijada",
+          "latitude": 22.61802,
+          "longitude": -79.86603,
+          "translations": []
+        },
+        {
+          "id": 21852,
+          "name": "Esperanza",
+          "latitude": 22.4468,
+          "longitude": -80.09711,
+          "translations": []
+        },
+        {
+          "id": 21869,
+          "name": "Isabela de Sagua",
+          "latitude": 22.93924,
+          "longitude": -80.01185,
+          "translations": []
+        },
+        {
+          "id": 21892,
+          "name": "Manicaragua",
+          "latitude": 22.15021,
+          "longitude": -79.97867,
+          "translations": []
+        },
+        {
+          "id": 21930,
+          "name": "Municipio de Placetas",
+          "latitude": 22.22248,
+          "longitude": -79.74268,
+          "translations": []
+        },
+        {
+          "id": 21933,
+          "name": "Municipio de Santa Clara",
+          "latitude": 22.4,
+          "longitude": -79.96667,
+          "translations": []
+        },
+        {
+          "id": 21944,
+          "name": "Placetas",
+          "latitude": 22.31184,
+          "longitude": -79.6544,
+          "translations": []
+        },
+        {
+          "id": 21948,
+          "name": "Quemado de Güines",
+          "latitude": 22.78816,
+          "longitude": -80.25226,
+          "translations": []
+        },
+        {
+          "id": 21950,
+          "name": "Rancho Veloz",
+          "latitude": 22.88042,
+          "longitude": -80.39098,
+          "translations": []
+        },
+        {
+          "id": 21951,
+          "name": "Ranchuelo",
+          "latitude": 22.37266,
+          "longitude": -80.15046,
+          "translations": []
+        },
+        {
+          "id": 21957,
+          "name": "Sagua la Grande",
+          "latitude": 22.80667,
+          "longitude": -80.07556,
+          "translations": []
+        },
+        {
+          "id": 21969,
+          "name": "Santa Clara",
+          "latitude": 22.40694,
+          "longitude": -79.96472,
+          "translations": []
+        },
+        {
+          "id": 21974,
+          "name": "Santo Domingo",
+          "latitude": 22.58677,
+          "longitude": -80.24261,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "name": "Las Tunas",
+      "stateCode": "10",
+      "latitude": 21.0605162,
+      "longitude": -76.9182097,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21805,
+          "name": "Amancio",
+          "latitude": 20.81914,
+          "longitude": -77.57958,
+          "translations": []
+        },
+        {
+          "id": 21837,
+          "name": "Colombia",
+          "latitude": 20.98812,
+          "longitude": -77.42598,
+          "translations": []
+        },
+        {
+          "id": 21874,
+          "name": "Jesús Menéndez",
+          "latitude": 21.16139,
+          "longitude": -76.47919,
+          "translations": []
+        },
+        {
+          "id": 21878,
+          "name": "Jobabo",
+          "latitude": 20.90748,
+          "longitude": -77.28194,
+          "translations": []
+        },
+        {
+          "id": 21884,
+          "name": "Las Tunas",
+          "latitude": 20.96167,
+          "longitude": -76.95111,
+          "translations": []
+        },
+        {
+          "id": 21890,
+          "name": "Manatí",
+          "latitude": 21.3107,
+          "longitude": -76.93403,
+          "translations": []
+        },
+        {
+          "id": 21947,
+          "name": "Puerto Padre",
+          "latitude": 21.19517,
+          "longitude": -76.60358,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 282,
+      "name": "Ciego de Ávila",
+      "stateCode": "08",
+      "latitude": 21.9329515,
+      "longitude": -78.5660852,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21811,
+          "name": "Baraguá",
+          "latitude": 21.68216,
+          "longitude": -78.62567,
+          "translations": []
+        },
+        {
+          "id": 21832,
+          "name": "Chambas",
+          "latitude": 22.19534,
+          "longitude": -78.9123,
+          "translations": []
+        },
+        {
+          "id": 21833,
+          "name": "Ciego de Ávila",
+          "latitude": 21.84,
+          "longitude": -78.76194,
+          "translations": []
+        },
+        {
+          "id": 21836,
+          "name": "Ciro Redondo",
+          "latitude": 22.01921,
+          "longitude": -78.70365,
+          "translations": []
+        },
+        {
+          "id": 21853,
+          "name": "Florencia",
+          "latitude": 22.1461,
+          "longitude": -78.97328,
+          "translations": []
+        },
+        {
+          "id": 21902,
+          "name": "Morón",
+          "latitude": 22.10774,
+          "longitude": -78.62667,
+          "translations": []
+        },
+        {
+          "id": 21909,
+          "name": "Municipio de Ciego de Ávila",
+          "latitude": 21.85,
+          "longitude": -78.76667,
+          "translations": []
+        },
+        {
+          "id": 21926,
+          "name": "Municipio de Morón",
+          "latitude": 22.2998,
+          "longitude": -78.56875,
+          "translations": []
+        },
+        {
+          "id": 21945,
+          "name": "Primero de Enero",
+          "latitude": 21.94501,
+          "longitude": -78.4313,
+          "translations": []
+        },
+        {
+          "id": 21981,
+          "name": "Venezuela",
+          "latitude": 21.73748,
+          "longitude": -78.79336,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "name": "Artemisa",
+      "stateCode": "15",
+      "latitude": 22.7522903,
+      "longitude": -82.9931607,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21804,
+          "name": "Alquízar",
+          "latitude": 22.80517,
+          "longitude": -82.58392,
+          "translations": []
+        },
+        {
+          "id": 21807,
+          "name": "Artemisa",
+          "latitude": 22.81667,
+          "longitude": -82.75944,
+          "translations": []
+        },
+        {
+          "id": 21808,
+          "name": "Bahía Honda",
+          "latitude": 22.90332,
+          "longitude": -83.15994,
+          "translations": []
+        },
+        {
+          "id": 21814,
+          "name": "Bauta",
+          "latitude": 22.98226,
+          "longitude": -82.54719,
+          "translations": []
+        },
+        {
+          "id": 21820,
+          "name": "Cabañas",
+          "latitude": 22.97944,
+          "longitude": -82.92214,
+          "translations": []
+        },
+        {
+          "id": 21828,
+          "name": "Candelaria",
+          "latitude": 22.74057,
+          "longitude": -82.95912,
+          "translations": []
+        },
+        {
+          "id": 21858,
+          "name": "Guanajay",
+          "latitude": 22.92639,
+          "longitude": -82.6875,
+          "translations": []
+        },
+        {
+          "id": 21865,
+          "name": "Güira de Melena",
+          "latitude": 22.79613,
+          "longitude": -82.50667,
+          "translations": []
+        },
+        {
+          "id": 21895,
+          "name": "Mariel",
+          "latitude": 22.98931,
+          "longitude": -82.75376,
+          "translations": []
+        },
+        {
+          "id": 21904,
+          "name": "Municipio de Artemisa",
+          "latitude": 22.77383,
+          "longitude": -82.80419,
+          "translations": []
+        },
+        {
+          "id": 21906,
+          "name": "Municipio de Bauta",
+          "latitude": 22.96957,
+          "longitude": -82.49997,
+          "translations": []
+        },
+        {
+          "id": 21914,
+          "name": "Municipio de Guanajay",
+          "latitude": 22.89215,
+          "longitude": -82.70873,
+          "translations": []
+        },
+        {
+          "id": 21923,
+          "name": "Municipio de Mariel",
+          "latitude": 22.96515,
+          "longitude": -82.80324,
+          "translations": []
+        },
+        {
+          "id": 21931,
+          "name": "Municipio de San Cristóbal",
+          "latitude": 22.71446,
+          "longitude": -83.04561,
+          "translations": []
+        },
+        {
+          "id": 21959,
+          "name": "San Antonio de los Baños",
+          "latitude": 22.89018,
+          "longitude": -82.50099,
+          "translations": []
+        },
+        {
+          "id": 21960,
+          "name": "San Cristobal",
+          "latitude": 22.71658,
+          "longitude": -83.05647,
+          "translations": []
+        },
+        {
+          "id": 21976,
+          "name": "Soroa",
+          "latitude": 22.8,
+          "longitude": -83.01667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "name": "Matanzas",
+      "stateCode": "04",
+      "latitude": 22.5767123,
+      "longitude": -81.3399414,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21802,
+          "name": "Alacranes",
+          "latitude": 22.76719,
+          "longitude": -81.56803,
+          "translations": []
+        },
+        {
+          "id": 21817,
+          "name": "Bolondrón",
+          "latitude": 22.76307,
+          "longitude": -81.4478,
+          "translations": []
+        },
+        {
+          "id": 21824,
+          "name": "Calimete",
+          "latitude": 22.5342,
+          "longitude": -80.91105,
+          "translations": []
+        },
+        {
+          "id": 21838,
+          "name": "Colón",
+          "latitude": 22.72064,
+          "longitude": -80.90492,
+          "translations": []
+        },
+        {
+          "id": 21846,
+          "name": "Cárdenas",
+          "latitude": 23.03661,
+          "longitude": -81.20596,
+          "translations": []
+        },
+        {
+          "id": 21870,
+          "name": "Jagüey Grande",
+          "latitude": 22.52694,
+          "longitude": -81.12861,
+          "translations": []
+        },
+        {
+          "id": 21879,
+          "name": "Jovellanos",
+          "latitude": 22.80375,
+          "longitude": -81.19127,
+          "translations": []
+        },
+        {
+          "id": 21885,
+          "name": "Limonar",
+          "latitude": 22.95035,
+          "longitude": -81.41059,
+          "translations": []
+        },
+        {
+          "id": 21886,
+          "name": "Los Arabos",
+          "latitude": 22.72969,
+          "longitude": -80.72081,
+          "translations": []
+        },
+        {
+          "id": 21891,
+          "name": "Manguito",
+          "latitude": 22.58733,
+          "longitude": -80.91451,
+          "translations": []
+        },
+        {
+          "id": 21896,
+          "name": "Martí",
+          "latitude": 22.94714,
+          "longitude": -80.91902,
+          "translations": []
+        },
+        {
+          "id": 21897,
+          "name": "Matanzas",
+          "latitude": 23.04111,
+          "longitude": -81.5775,
+          "translations": []
+        },
+        {
+          "id": 21912,
+          "name": "Municipio de Cárdenas",
+          "latitude": 22.98978,
+          "longitude": -81.2352,
+          "translations": []
+        },
+        {
+          "id": 21924,
+          "name": "Municipio de Matanzas",
+          "latitude": 23.05,
+          "longitude": -81.58333,
+          "translations": []
+        },
+        {
+          "id": 21941,
+          "name": "Pedro Betancourt",
+          "latitude": 22.72709,
+          "longitude": -81.28963,
+          "translations": []
+        },
+        {
+          "id": 21942,
+          "name": "Perico",
+          "latitude": 22.76987,
+          "longitude": -81.0183,
+          "translations": []
+        },
+        {
+          "id": 21979,
+          "name": "Unión de Reyes",
+          "latitude": 22.79505,
+          "longitude": -81.53617,
+          "translations": []
+        },
+        {
+          "id": 21980,
+          "name": "Varadero",
+          "latitude": 23.15678,
+          "longitude": -81.24441,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 285,
+      "name": "Guantánamo",
+      "stateCode": "14",
+      "latitude": 20.1455917,
+      "longitude": -74.8741045,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21810,
+          "name": "Baracoa",
+          "latitude": 20.34711,
+          "longitude": -74.49624,
+          "translations": []
+        },
+        {
+          "id": 21860,
+          "name": "Guantánamo",
+          "latitude": 20.14444,
+          "longitude": -75.20917,
+          "translations": []
+        },
+        {
+          "id": 21889,
+          "name": "Maisí",
+          "latitude": 20.24673,
+          "longitude": -74.15181,
+          "translations": []
+        },
+        {
+          "id": 21916,
+          "name": "Municipio de Guantánamo",
+          "latitude": 20.26723,
+          "longitude": -75.15546,
+          "translations": []
+        },
+        {
+          "id": 21955,
+          "name": "Río Guayabal de Yateras",
+          "latitude": 20.36667,
+          "longitude": -75.01667,
+          "translations": []
+        },
+        {
+          "id": 21958,
+          "name": "San Antonio del Sur",
+          "latitude": 20.05564,
+          "longitude": -74.8075,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 286,
+      "name": "Camagüey",
+      "stateCode": "09",
+      "latitude": 21.2167247,
+      "longitude": -77.7452081,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21825,
+          "name": "Camagüey",
+          "latitude": 21.38083,
+          "longitude": -77.91694,
+          "translations": []
+        },
+        {
+          "id": 21848,
+          "name": "El Caney",
+          "latitude": 21.3,
+          "longitude": -78.48333,
+          "translations": []
+        },
+        {
+          "id": 21851,
+          "name": "Esmeralda",
+          "latitude": 21.85139,
+          "longitude": -78.11725,
+          "translations": []
+        },
+        {
+          "id": 21854,
+          "name": "Florida",
+          "latitude": 21.52536,
+          "longitude": -78.22579,
+          "translations": []
+        },
+        {
+          "id": 21863,
+          "name": "Guáimaro",
+          "latitude": 21.05222,
+          "longitude": -77.3499,
+          "translations": []
+        },
+        {
+          "id": 21876,
+          "name": "Jimaguayú",
+          "latitude": 21.24224,
+          "longitude": -77.82625,
+          "translations": []
+        },
+        {
+          "id": 21899,
+          "name": "Minas",
+          "latitude": 21.48802,
+          "longitude": -77.61033,
+          "translations": []
+        },
+        {
+          "id": 21913,
+          "name": "Municipio de Florida",
+          "latitude": 21.46582,
+          "longitude": -78.34848,
+          "translations": []
+        },
+        {
+          "id": 21928,
+          "name": "Municipio de Nuevitas",
+          "latitude": 21.55,
+          "longitude": -77.26667,
+          "translations": []
+        },
+        {
+          "id": 21938,
+          "name": "Nuevitas",
+          "latitude": 21.54585,
+          "longitude": -77.26504,
+          "translations": []
+        },
+        {
+          "id": 21971,
+          "name": "Santa Cruz del Sur",
+          "latitude": 20.71633,
+          "longitude": -77.99816,
+          "translations": []
+        },
+        {
+          "id": 21975,
+          "name": "Sibanicú",
+          "latitude": 21.23631,
+          "longitude": -77.52561,
+          "translations": []
+        },
+        {
+          "id": 21982,
+          "name": "Vertientes",
+          "latitude": 21.25817,
+          "longitude": -78.14979,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "name": "Cienfuegos",
+      "stateCode": "06",
+      "latitude": 22.2379783,
+      "longitude": -80.365865,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 21800,
+          "name": "Abreus",
+          "latitude": 22.27797,
+          "longitude": -80.56931,
+          "translations": []
+        },
+        {
+          "id": 21801,
+          "name": "Aguada de Pasajeros",
+          "latitude": 22.3852,
+          "longitude": -80.84792,
+          "translations": []
+        },
+        {
+          "id": 21834,
+          "name": "Cienfuegos",
+          "latitude": 22.14957,
+          "longitude": -80.44662,
+          "translations": []
+        },
+        {
+          "id": 21843,
+          "name": "Cruces",
+          "latitude": 22.34203,
+          "longitude": -80.27021,
+          "translations": []
+        },
+        {
+          "id": 21845,
+          "name": "Cumanayagua",
+          "latitude": 22.15247,
+          "longitude": -80.20354,
+          "translations": []
+        },
+        {
+          "id": 21883,
+          "name": "Lajas",
+          "latitude": 22.41479,
+          "longitude": -80.2931,
+          "translations": []
+        },
+        {
+          "id": 21903,
+          "name": "Municipio de Abreus",
+          "latitude": 22.19229,
+          "longitude": -80.71465,
+          "translations": []
+        },
+        {
+          "id": 21910,
+          "name": "Municipio de Cienfuegos",
+          "latitude": 22.15,
+          "longitude": -80.45,
+          "translations": []
+        },
+        {
+          "id": 21940,
+          "name": "Palmira",
+          "latitude": 22.24126,
+          "longitude": -80.3911,
+          "translations": []
+        },
+        {
+          "id": 21953,
+          "name": "Rodas",
+          "latitude": 22.34184,
+          "longitude": -80.55596,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}
