@@ -9,7 +9,7 @@ plugins {
     alias(libs.plugins.flywaydb) apply false
 }
 
-val projectVersion = providers.gradleProperty("releaseVersion").orElse("1.0.0").get()
+val projectVersion = providers.gradleProperty("releaseVersion").orElse("1.0.1").get()
 
 group = "dev.voir.sole"
 version = projectVersion
