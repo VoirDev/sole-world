@@ -1,0 +1,175 @@
+{
+  "id": 41,
+  "name": "Cayman Islands",
+  "nativeName": "Cayman Islands",
+  "iso2": "KY",
+  "iso3": "CYM",
+  "numericCode": "136",
+  "phoneCode": "1",
+  "tld": ".ky",
+  "latitude": 19.5,
+  "longitude": -80.5,
+  "flagId": 127,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    865
+  ],
+  "timezoneIds": [
+    2336
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [
+    30
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "케이먼 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Cayman"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Caimão"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Caymaneilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Kajmanski otoci"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر کیمن"
+    },
+    {
+      "languageCode": "de",
+      "name": "Kaimaninseln"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Caimán"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Caïmans"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ケイマン諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Cayman"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "开曼群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Cayman Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Каймановы острова"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Кайманові острови"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Kajmany"
+    }
+  ],
+  "states": [
+    {
+      "id": 5251,
+      "name": "Grand Cayman",
+      "stateCode": "NULL",
+      "latitude": 19.3301271,
+      "longitude": -81.4172451,
+      "type": "NULL",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153938,
+          "name": "Bodden Town",
+          "latitude": 19.2796693,
+          "longitude": -81.2777999,
+          "translations": []
+        },
+        {
+          "id": 153939,
+          "name": "East End",
+          "latitude": 19.2995898,
+          "longitude": -81.1196138,
+          "translations": []
+        },
+        {
+          "id": 153940,
+          "name": "George Town",
+          "latitude": 19.2902326,
+          "longitude": -81.4433372,
+          "translations": []
+        },
+        {
+          "id": 153941,
+          "name": "North Side",
+          "latitude": 19.3362047,
+          "longitude": -81.5139813,
+          "translations": []
+        },
+        {
+          "id": 153942,
+          "name": "West Bay",
+          "latitude": 19.3665153,
+          "longitude": -81.4317026,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5252,
+      "name": "Cayman Brac",
+      "stateCode": "NULL",
+      "latitude": 19.719997,
+      "longitude": -79.8907266,
+      "type": "NULL",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153943,
+          "name": "Cayman Brac",
+          "latitude": 19.719997,
+          "longitude": -79.8907266,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5253,
+      "name": "Little Cayman",
+      "stateCode": "NULL",
+      "latitude": 19.6856739,
+      "longitude": -80.1183019,
+      "type": "NULL",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153944,
+          "name": "Little Cayman",
+          "latitude": 19.6856739,
+          "longitude": -80.1183019,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

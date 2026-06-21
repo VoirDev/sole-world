@@ -1,0 +1,198 @@
+{
+  "id": 33,
+  "name": "Brunei",
+  "nativeName": "Negara Brunei Darussalam",
+  "iso2": "BN",
+  "iso3": "BRN",
+  "numericCode": "096",
+  "phoneCode": "673",
+  "tld": ".bn",
+  "latitude": 4.5,
+  "longitude": 114.66666666,
+  "flagId": 221,
+  "regionId": 3,
+  "subregionId": 13,
+  "currencyIds": [
+    858
+  ],
+  "timezoneIds": [
+    2301
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "브루나이"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Brunei"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Brunei"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Brunei"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Brunej"
+    },
+    {
+      "languageCode": "fa",
+      "name": "برونئی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Brunei"
+    },
+    {
+      "languageCode": "es",
+      "name": "Brunei"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Brunei"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ブルネイ・ダルサラーム"
+    },
+    {
+      "languageCode": "it",
+      "name": "Brunei"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "文莱"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Brunei"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Бруней"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Бруней"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Brunei"
+    }
+  ],
+  "states": [
+    {
+      "id": 1216,
+      "name": "Brunei-Muara",
+      "stateCode": "BM",
+      "latitude": 4.9311206,
+      "longitude": 114.9516869,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9816,
+          "name": "Bandar Seri Begawan",
+          "latitude": 4.89035,
+          "longitude": 114.94006,
+          "translations": []
+        },
+        {
+          "id": 9818,
+          "name": "Berakas A",
+          "latitude": 4.97032,
+          "longitude": 114.92989,
+          "translations": []
+        },
+        {
+          "id": 9819,
+          "name": "Kapok",
+          "latitude": 5.02447,
+          "longitude": 115.04664,
+          "translations": []
+        },
+        {
+          "id": 9821,
+          "name": "Mentiri",
+          "latitude": 4.97058,
+          "longitude": 115.02078,
+          "translations": []
+        },
+        {
+          "id": 9822,
+          "name": "Serasa",
+          "latitude": 5.01718,
+          "longitude": 115.05841,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1217,
+      "name": "Belait",
+      "stateCode": "BE",
+      "latitude": 4.3750749,
+      "longitude": 114.6192899,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9820,
+          "name": "Kuala Belait",
+          "latitude": 4.58361,
+          "longitude": 114.2312,
+          "translations": []
+        },
+        {
+          "id": 9823,
+          "name": "Seria",
+          "latitude": 4.60637,
+          "longitude": 114.32476,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1218,
+      "name": "Temburong",
+      "stateCode": "TE",
+      "latitude": 4.6204128,
+      "longitude": 115.141484,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9817,
+          "name": "Bangar",
+          "latitude": 4.70861,
+          "longitude": 115.07167,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1219,
+      "name": "Tutong",
+      "stateCode": "TU",
+      "latitude": 4.7140373,
+      "longitude": 114.6667939,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9824,
+          "name": "Tutong",
+          "latitude": 4.80278,
+          "longitude": 114.64917,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

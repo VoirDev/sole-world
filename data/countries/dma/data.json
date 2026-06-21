@@ -1,0 +1,322 @@
+{
+  "id": 61,
+  "name": "Dominica",
+  "nativeName": "Dominica",
+  "iso2": "DM",
+  "iso3": "DMA",
+  "numericCode": "212",
+  "phoneCode": "1",
+  "tld": ".dm",
+  "latitude": 15.41666666,
+  "longitude": -61.33333333,
+  "flagId": 191,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    840
+  ],
+  "timezoneIds": [
+    2362
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "it",
+      "name": "Dominica"
+    },
+    {
+      "languageCode": "ko",
+      "name": "도미니카 연방"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Dominica"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Dominica"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Dominica"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Dominika"
+    },
+    {
+      "languageCode": "fa",
+      "name": "دومینیکا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Dominica"
+    },
+    {
+      "languageCode": "es",
+      "name": "Dominica"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Dominique"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ドミニカ国"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "多米尼加"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Dominika"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Доминика"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Домініка"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Dominika"
+    }
+  ],
+  "states": [
+    {
+      "id": 4076,
+      "name": "Saint John",
+      "stateCode": "05",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31011,
+          "name": "Portsmouth",
+          "latitude": 15.58333,
+          "longitude": -61.46667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4077,
+      "name": "Saint Mark",
+      "stateCode": "08",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31016,
+          "name": "Soufrière",
+          "latitude": 15.23374,
+          "longitude": -61.35881,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4078,
+      "name": "Saint David",
+      "stateCode": "03",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31004,
+          "name": "Castle Bruce",
+          "latitude": 15.44397,
+          "longitude": -61.25723,
+          "translations": []
+        },
+        {
+          "id": 31012,
+          "name": "Rosalie",
+          "latitude": 15.36667,
+          "longitude": -61.26667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4079,
+      "name": "Saint George",
+      "stateCode": "04",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31013,
+          "name": "Roseau",
+          "latitude": 15.30174,
+          "longitude": -61.38808,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4080,
+      "name": "Saint Patrick",
+      "stateCode": "09",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31002,
+          "name": "Berekua",
+          "latitude": 15.23333,
+          "longitude": -61.31667,
+          "translations": []
+        },
+        {
+          "id": 31006,
+          "name": "La Plaine",
+          "latitude": 15.32768,
+          "longitude": -61.24753,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4081,
+      "name": "Saint Peter",
+      "stateCode": "11",
+      "latitude": 40.4524194,
+      "longitude": -80.0085056,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31005,
+          "name": "Colihaut",
+          "latitude": 15.48478,
+          "longitude": -61.46215,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4082,
+      "name": "Saint Andrew",
+      "stateCode": "02",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31003,
+          "name": "Calibishie",
+          "latitude": 15.59297,
+          "longitude": -61.34901,
+          "translations": []
+        },
+        {
+          "id": 31008,
+          "name": "Marigot",
+          "latitude": 15.53886,
+          "longitude": -61.28375,
+          "translations": []
+        },
+        {
+          "id": 31017,
+          "name": "Wesley",
+          "latitude": 15.56667,
+          "longitude": -61.31667,
+          "translations": []
+        },
+        {
+          "id": 31018,
+          "name": "Woodford Hill",
+          "latitude": 15.58093,
+          "longitude": -61.33149,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4083,
+      "name": "Saint Luke",
+      "stateCode": "07",
+      "latitude": 42.1051363,
+      "longitude": -80.0570722,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31009,
+          "name": "Pointe Michel",
+          "latitude": 15.25976,
+          "longitude": -61.37452,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4084,
+      "name": "Saint Paul",
+      "stateCode": "10",
+      "latitude": 38.86146,
+      "longitude": -90.7435619,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31007,
+          "name": "Mahaut",
+          "latitude": 15.36357,
+          "longitude": -61.39701,
+          "translations": []
+        },
+        {
+          "id": 31010,
+          "name": "Pont Cassé",
+          "latitude": 15.36667,
+          "longitude": -61.35,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4085,
+      "name": "Saint Joseph",
+      "stateCode": "06",
+      "latitude": 39.0222712,
+      "longitude": -94.7176504,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31014,
+          "name": "Saint Joseph",
+          "latitude": 15.4,
+          "longitude": -61.43333,
+          "translations": []
+        },
+        {
+          "id": 31015,
+          "name": "Salisbury",
+          "latitude": 15.43689,
+          "longitude": -61.43637,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

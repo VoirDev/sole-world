@@ -1,0 +1,240 @@
+{
+  "id": 10,
+  "name": "Antigua and Barbuda",
+  "nativeName": "Antigua and Barbuda",
+  "iso2": "AG",
+  "iso3": "ATG",
+  "numericCode": "028",
+  "phoneCode": "1",
+  "tld": ".ag",
+  "latitude": 17.05,
+  "longitude": -61.8,
+  "flagId": 244,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    840
+  ],
+  "timezoneIds": [
+    2242
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "앤티가 바부다"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Antígua e Barbuda"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Antígua e Barbuda"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Antigua en Barbuda"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Antigva i Barbuda"
+    },
+    {
+      "languageCode": "fa",
+      "name": "آنتیگوا و باربودا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Antigua und Barbuda"
+    },
+    {
+      "languageCode": "es",
+      "name": "Antigua y Barbuda"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Antigua-et-Barbuda"
+    },
+    {
+      "languageCode": "ja",
+      "name": "アンティグア・バーブーダ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Antigua e Barbuda"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "安提瓜和巴布达"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Antigua Ve Barbuda"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Антигуа и Барбуда"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Антигуа і Барбуда"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Antigua i Barbuda"
+    }
+  ],
+  "states": [
+    {
+      "id": 3703,
+      "name": "Redonda",
+      "stateCode": "11",
+      "latitude": 16.938416,
+      "longitude": -62.3455148,
+      "type": "dependency",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3704,
+      "name": "Saint Peter",
+      "stateCode": "07",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 142,
+          "name": "All Saints",
+          "latitude": 17.06671,
+          "longitude": -61.79303,
+          "translations": []
+        },
+        {
+          "id": 147,
+          "name": "Parham",
+          "latitude": 17.09682,
+          "longitude": -61.77046,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3705,
+      "name": "Saint Paul",
+      "stateCode": "06",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 145,
+          "name": "Falmouth",
+          "latitude": 17.02741,
+          "longitude": -61.78136,
+          "translations": []
+        },
+        {
+          "id": 146,
+          "name": "Liberta",
+          "latitude": 17.04141,
+          "longitude": -61.79052,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3706,
+      "name": "Saint John",
+      "stateCode": "04",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 149,
+          "name": "Potters Village",
+          "latitude": 17.11337,
+          "longitude": -61.81962,
+          "translations": []
+        },
+        {
+          "id": 150,
+          "name": "Saint John’s",
+          "latitude": 17.12096,
+          "longitude": -61.84329,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3707,
+      "name": "Saint Mary",
+      "stateCode": "05",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 143,
+          "name": "Bolands",
+          "latitude": 17.06565,
+          "longitude": -61.87466,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3708,
+      "name": "Barbuda",
+      "stateCode": "10",
+      "latitude": 17.6266242,
+      "longitude": -61.7713028,
+      "type": "dependency",
+      "translations": [],
+      "cities": [
+        {
+          "id": 144,
+          "name": "Codrington",
+          "latitude": 17.63333,
+          "longitude": -61.83333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3709,
+      "name": "Saint George",
+      "stateCode": "03",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 148,
+          "name": "Piggotts",
+          "latitude": 17.11667,
+          "longitude": -61.8,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3710,
+      "name": "Saint Philip",
+      "stateCode": "08",
+      "latitude": 40.4368258,
+      "longitude": -80.0685532,
+      "type": "parish",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

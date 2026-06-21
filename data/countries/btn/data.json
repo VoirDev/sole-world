@@ -1,0 +1,710 @@
+{
+  "id": 26,
+  "name": "Bhutan",
+  "nativeName": "ʼbrug-yul",
+  "iso2": "BT",
+  "iso3": "BTN",
+  "numericCode": "064",
+  "phoneCode": "975",
+  "tld": ".bt",
+  "latitude": 27.5,
+  "longitude": 90.5,
+  "flagId": 216,
+  "regionId": 3,
+  "subregionId": 14,
+  "currencyIds": [
+    853
+  ],
+  "timezoneIds": [
+    2280
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "부탄"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Butão"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Butão"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Bhutan"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Butan"
+    },
+    {
+      "languageCode": "fa",
+      "name": "بوتان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Bhutan"
+    },
+    {
+      "languageCode": "es",
+      "name": "Bután"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Bhoutan"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ブータン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Bhutan"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "不丹"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Butan"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Бутан"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Бутан"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Bhutan"
+    }
+  ],
+  "states": [
+    {
+      "id": 229,
+      "name": "Gasa ",
+      "stateCode": "GA",
+      "latitude": 28.0185886,
+      "longitude": 89.9253233,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15707,
+          "name": "Gasa",
+          "latitude": 27.90372,
+          "longitude": 89.72689,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "name": "Tsirang ",
+      "stateCode": "21",
+      "latitude": 27.032207,
+      "longitude": 90.1869644,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15725,
+          "name": "Damphu",
+          "latitude": 27.0167,
+          "longitude": 90.1,
+          "translations": []
+        },
+        {
+          "id": 15727,
+          "name": "Tsirang",
+          "latitude": 27.0219,
+          "longitude": 90.12291,
+          "translations": []
+        },
+        {
+          "id": 153853,
+          "name": "Dagapela",
+          "latitude": 26.9333,
+          "longitude": 89.95,
+          "translations": []
+        },
+        {
+          "id": 153854,
+          "name": "Beteni",
+          "latitude": 27.0333,
+          "longitude": 90.2333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "name": "Wangdue Phodrang ",
+      "stateCode": "24",
+      "latitude": 27.4526046,
+      "longitude": 90.0674928,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15723,
+          "name": "Wangdue Phodrang",
+          "latitude": 27.4833,
+          "longitude": 89.9,
+          "translations": []
+        },
+        {
+          "id": 153855,
+          "name": "Ritang",
+          "latitude": 27.55,
+          "longitude": 90.1667,
+          "translations": []
+        },
+        {
+          "id": 153856,
+          "name": "Manikyangsa",
+          "latitude": 27.5333,
+          "longitude": 90.1,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "name": "Haa ",
+      "stateCode": "13",
+      "latitude": 27.2651669,
+      "longitude": 89.1705998,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15708,
+          "name": "Ha",
+          "latitude": 27.38747,
+          "longitude": 89.28074,
+          "translations": []
+        },
+        {
+          "id": 153829,
+          "name": "Naktsang",
+          "latitude": 27.3833,
+          "longitude": 89.2667,
+          "translations": []
+        },
+        {
+          "id": 153830,
+          "name": "Sangkari",
+          "latitude": 27.3,
+          "longitude": 89.3167,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "name": "Zhemgang ",
+      "stateCode": "34",
+      "latitude": 27.076975,
+      "longitude": 90.8294002,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15713,
+          "name": "Panbang",
+          "latitude": 26.86667,
+          "longitude": 90.98333,
+          "translations": []
+        },
+        {
+          "id": 15721,
+          "name": "Zhemgang",
+          "latitude": 27.21689,
+          "longitude": 90.65793,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "name": "Lhuntse ",
+      "stateCode": "44",
+      "latitude": 27.8264989,
+      "longitude": 91.135302,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15710,
+          "name": "Lhuentse",
+          "latitude": 27.66787,
+          "longitude": 91.18393,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "name": "Punakha ",
+      "stateCode": "23",
+      "latitude": 27.6903716,
+      "longitude": 89.8879304,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15712,
+          "name": "Pajo",
+          "latitude": 27.53333,
+          "longitude": 89.88333,
+          "translations": []
+        },
+        {
+          "id": 15717,
+          "name": "Punākha",
+          "latitude": 27.59137,
+          "longitude": 89.87743,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "name": "Trashigang ",
+      "stateCode": "41",
+      "latitude": 27.2566795,
+      "longitude": 91.7538817,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15724,
+          "name": "Trashigang",
+          "latitude": 27.3331,
+          "longitude": 91.55424,
+          "translations": []
+        },
+        {
+          "id": 153845,
+          "name": "Ngalangkang",
+          "latitude": 27.4528233,
+          "longitude": 91.5647771,
+          "translations": []
+        },
+        {
+          "id": 153846,
+          "name": "Ghunkarah",
+          "latitude": 27.4,
+          "longitude": 91.5667,
+          "translations": []
+        },
+        {
+          "id": 153847,
+          "name": "Rungzyung",
+          "latitude": 27.35,
+          "longitude": 91.6667,
+          "translations": []
+        },
+        {
+          "id": 153848,
+          "name": "Wamrong",
+          "latitude": 27.1378453,
+          "longitude": 91.5604447,
+          "translations": []
+        },
+        {
+          "id": 153849,
+          "name": "Thrimshing",
+          "latitude": 27.1333,
+          "longitude": 91.6167,
+          "translations": []
+        },
+        {
+          "id": 153850,
+          "name": "Balfai",
+          "latitude": 27.2167032,
+          "longitude": 91.4794003,
+          "translations": []
+        },
+        {
+          "id": 153851,
+          "name": "Sassi",
+          "latitude": 27.1333,
+          "longitude": 91.4333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "name": "Paro ",
+      "stateCode": "11",
+      "latitude": 27.4285949,
+      "longitude": 89.4166516,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15714,
+          "name": "Paro",
+          "latitude": 27.4305,
+          "longitude": 89.41334,
+          "translations": []
+        },
+        {
+          "id": 153833,
+          "name": "Tshalunang",
+          "latitude": 27.4333,
+          "longitude": 89.65,
+          "translations": []
+        },
+        {
+          "id": 153834,
+          "name": "Suchha",
+          "latitude": 27.2333,
+          "longitude": 89.45,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "name": "Dagana ",
+      "stateCode": "22",
+      "latitude": 27.0322861,
+      "longitude": 89.8879304,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15705,
+          "name": "Daga",
+          "latitude": 27.07529,
+          "longitude": 89.87688,
+          "translations": []
+        },
+        {
+          "id": 15728,
+          "name": "Sibsu",
+          "latitude": 27,
+          "longitude": 88.9,
+          "translations": []
+        },
+        {
+          "id": 153828,
+          "name": "Thumgaon",
+          "latitude": 26.9833,
+          "longitude": 89.9667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "name": "Chukha ",
+      "stateCode": "12",
+      "latitude": 27.0784304,
+      "longitude": 89.4742177,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15706,
+          "name": "Daphu",
+          "latitude": 26.9667,
+          "longitude": 89.3833,
+          "translations": []
+        },
+        {
+          "id": 15716,
+          "name": "Phuntsholing",
+          "latitude": 26.85164,
+          "longitude": 89.38837,
+          "translations": []
+        },
+        {
+          "id": 15726,
+          "name": "Pachu",
+          "latitude": 26.9,
+          "longitude": 89.35,
+          "translations": []
+        },
+        {
+          "id": 153825,
+          "name": "Chapchha",
+          "latitude": 27.2,
+          "longitude": 89.55,
+          "translations": []
+        },
+        {
+          "id": 153826,
+          "name": "Lobnig",
+          "latitude": 27.15,
+          "longitude": 89.55,
+          "translations": []
+        },
+        {
+          "id": 153827,
+          "name": "Khitokha",
+          "latitude": 26.9,
+          "longitude": 89.6167,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "name": "Bumthang ",
+      "stateCode": "33",
+      "latitude": 27.641839,
+      "longitude": 90.6773046,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15709,
+          "name": "Jakar",
+          "latitude": 27.54918,
+          "longitude": 90.7525,
+          "translations": []
+        },
+        {
+          "id": 153824,
+          "name": "Tang Valley",
+          "latitude": 27.5025242,
+          "longitude": 90.7449544,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "name": "Thimphu ",
+      "stateCode": "15",
+      "latitude": 27.4712216,
+      "longitude": 89.6339041,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15722,
+          "name": "Thimphu",
+          "latitude": 27.46609,
+          "longitude": 89.64191,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "name": "Mongar ",
+      "stateCode": "42",
+      "latitude": 27.2617059,
+      "longitude": 91.2891036,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15711,
+          "name": "Mongar",
+          "latitude": 27.27471,
+          "longitude": 91.23963,
+          "translations": []
+        },
+        {
+          "id": 153831,
+          "name": "Thebong",
+          "latitude": 27.2667,
+          "longitude": 91.2667,
+          "translations": []
+        },
+        {
+          "id": 153832,
+          "name": "Kengkhar",
+          "latitude": 27.1,
+          "longitude": 91.25,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "name": "Samdrup Jongkhar ",
+      "stateCode": "45",
+      "latitude": 26.8035682,
+      "longitude": 91.5039207,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15718,
+          "name": "Samdrup Jongkhar",
+          "latitude": 26.80069,
+          "longitude": 91.50519,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "name": "Pemagatshel ",
+      "stateCode": "43",
+      "latitude": 27.002382,
+      "longitude": 91.3469247,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15715,
+          "name": "Pemagatshel",
+          "latitude": 27.03795,
+          "longitude": 91.40305,
+          "translations": []
+        },
+        {
+          "id": 153835,
+          "name": "Nganglam",
+          "latitude": 26.841811,
+          "longitude": 91.2424849,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "name": "Trongsa ",
+      "stateCode": "32",
+      "latitude": 27.5002269,
+      "longitude": 90.5080634,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153852,
+          "name": "Trongsa",
+          "latitude": 27.4994,
+          "longitude": 90.5047,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "name": "Samtse ",
+      "stateCode": "14",
+      "latitude": 27.0291832,
+      "longitude": 89.0561532,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15719,
+          "name": "Samtse",
+          "latitude": 26.89903,
+          "longitude": 89.09951,
+          "translations": []
+        },
+        {
+          "id": 153836,
+          "name": "Tendu",
+          "latitude": 27.1333,
+          "longitude": 88.8833,
+          "translations": []
+        },
+        {
+          "id": 153837,
+          "name": "Dorokha",
+          "latitude": 27.0167,
+          "longitude": 89.2167,
+          "translations": []
+        },
+        {
+          "id": 153838,
+          "name": "Denchukha",
+          "latitude": 27.0167,
+          "longitude": 89.25,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "name": "Sarpang ",
+      "stateCode": "31",
+      "latitude": 26.9373041,
+      "longitude": 90.4879916,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 15720,
+          "name": "Sarpang",
+          "latitude": 26.86395,
+          "longitude": 90.26745,
+          "translations": []
+        },
+        {
+          "id": 153839,
+          "name": "Geylegphug",
+          "latitude": 26.8706,
+          "longitude": 90.4856,
+          "translations": []
+        },
+        {
+          "id": 153840,
+          "name": "Galechugaon",
+          "latitude": 27,
+          "longitude": 90.5333,
+          "translations": []
+        },
+        {
+          "id": 153841,
+          "name": "Bhurgaon",
+          "latitude": 26.9,
+          "longitude": 90.4333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5242,
+      "name": "Trashi Yangtse\t",
+      "stateCode": "TY",
+      "latitude": 27.717585,
+      "longitude": 91.1981102,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153842,
+          "name": "Shali",
+          "latitude": 27.4833,
+          "longitude": 91.5667,
+          "translations": []
+        },
+        {
+          "id": 153843,
+          "name": "Trashi Yangtse",
+          "latitude": 27.5833,
+          "longitude": 91.4667,
+          "translations": []
+        },
+        {
+          "id": 153844,
+          "name": "Yalang ",
+          "latitude": 27.4333,
+          "longitude": 91.6333,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

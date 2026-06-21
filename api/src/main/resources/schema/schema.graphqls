@@ -1,0 +1,1269 @@
+"""
+Calendar date without a time or timezone.
+"""
+scalar LocalDate
+
+"""
+Geographic coordinates in decimal degrees.
+"""
+type Coordinates {
+    """
+    Latitude in decimal degrees.
+    """
+    latitude: Float!
+
+    """
+    Longitude in decimal degrees.
+    """
+    longitude: Float!
+}
+
+"""
+Zero-based pagination request. When omitted, the API uses page 0 and size 50.
+"""
+input PageInput {
+    """
+    Zero-based page number. Defaults to 0.
+    """
+    page: Int
+
+    """
+    Number of records to return. Defaults to 50 and cannot exceed 50.
+    """
+    size: Int
+}
+
+"""
+Pagination metadata returned with every paginated list.
+"""
+type PageInfo {
+    """
+    Zero-based page number returned by this response.
+    """
+    page: Int!
+
+    """
+    Number of records requested for this page.
+    """
+    size: Int!
+
+    """
+    Total number of matching records across all pages.
+    """
+    totalItems: Int!
+
+    """
+    Total number of available pages.
+    """
+    totalPages: Int!
+
+    """
+    Whether another page exists after this page.
+    """
+    hasNextPage: Boolean!
+
+    """
+    Whether a page exists before this page.
+    """
+    hasPreviousPage: Boolean!
+}
+
+"""
+A central bank that serves one or more countries and can issue one or more currencies.
+"""
+type CentralBank {
+    """
+    Stable central bank identifier.
+    """
+    id: ID!
+
+    """
+    Display name in the requested language when a translation is available.
+    """
+    name: String!
+
+    """
+    Native-language name when available.
+    """
+    nativeName: String
+
+    """
+    Official website URL when available.
+    """
+    websiteUrl: String
+
+    """
+    Establishment year when known.
+    """
+    establishmentYear: Int
+}
+
+"""
+A populated place inside a state or province.
+"""
+type City {
+    """
+    Stable city identifier.
+    """
+    id: ID!
+
+    """
+    Display name in the requested language when a translation is available.
+    """
+    name: String!
+
+    """
+    City coordinates.
+    """
+    coordinates: Coordinates!
+}
+
+"""
+A static media asset served by this API.
+"""
+type MediaAsset {
+    """
+    Stable media asset identifier.
+    """
+    id: ID!
+
+    """
+    Asset kind.
+    """
+    type: MediaAssetType!
+
+    """
+    Image metadata when this media asset is an image.
+    """
+    image: ImageAsset
+}
+
+"""
+Image-specific metadata for a media asset.
+"""
+type ImageAsset {
+    """
+    Image aspect-ratio family.
+    """
+    aspectRatio: ImageAssetAspectRatio!
+
+    """
+    Available file formats and sizes.
+    """
+    formats: ImageAssetFormats!
+}
+
+"""
+Available file formats for an image asset.
+"""
+type ImageAssetFormats {
+    """
+    SVG path when available.
+    """
+    svg: String
+
+    """
+    PNG paths by size when available.
+    """
+    png: ImageAssetSizes
+
+    """
+    WebP paths by size when available.
+    """
+    webp: ImageAssetSizes
+
+    """
+    JPG paths by size when available.
+    """
+    jpg: ImageAssetSizes
+}
+
+"""
+Available image paths for a bitmap format.
+"""
+type ImageAssetSizes {
+    """
+    Extra-small image path.
+    """
+    xs: String
+
+    """
+    Small image path.
+    """
+    sm: String
+
+    """
+    Medium image path.
+    """
+    md: String
+
+    """
+    Large image path.
+    """
+    lg: String
+
+    """
+    Extra-large image path.
+    """
+    xl: String
+}
+
+"""
+A reusable flag record with optional square and wide media assets.
+"""
+type Flag {
+    """
+    Stable flag identifier.
+    """
+    id: ID!
+
+    """
+    Human-readable flag caption.
+    """
+    caption: String!
+
+    """
+    Unicode emoji for the flag.
+    """
+    emoji: String!
+
+    """
+    Unicode code points for the flag emoji.
+    """
+    emojiU: String!
+
+    """
+    Identifier of the square media asset when available.
+    """
+    squareAssetId: ID
+
+    """
+    Identifier of the wide media asset when available.
+    """
+    wideAssetId: ID
+
+    """
+    Square media asset when available.
+    """
+    squareAsset: MediaAsset
+
+    """
+    Wide media asset when available.
+    """
+    wideAsset: MediaAsset
+}
+
+"""
+A country or country-like territory in the dataset.
+"""
+type Country {
+    """
+    Stable country identifier, usually the ISO numeric code as an integer string.
+    """
+    id: ID!
+
+    """
+    Display name in the requested language when a translation is available.
+    """
+    name: String!
+
+    """
+    Native-language country name when available.
+    """
+    nativeName: String
+
+    """
+    ISO 3166-1 alpha-3 code.
+    """
+    iso3: String!
+
+    """
+    ISO 3166-1 alpha-2 code.
+    """
+    iso2: String!
+
+    """
+    ISO 3166-1 numeric code as a string to preserve leading zeros.
+    """
+    isoNumeric: String!
+
+    """
+    International calling code.
+    """
+    phoneCode: String!
+
+    """
+    Country top-level domain when available.
+    """
+    tld: String
+
+    """
+    Approximate country coordinates.
+    """
+    coordinates: Coordinates!
+
+    """
+    Parent region identifier.
+    """
+    regionId: ID!
+
+    """
+    Parent subregion identifier.
+    """
+    subregionId: ID!
+
+    """
+    Flag identifier when available.
+    """
+    flagId: ID
+
+    """
+    Flag record when available.
+    """
+    flag: Flag
+
+    """
+    Parent region.
+    """
+    region: Region
+
+    """
+    Parent subregion.
+    """
+    subregion: Subregion
+
+    """
+    Currencies used by the country.
+    """
+    currencies: [Currency!]
+
+    """
+    Timezones associated with the country.
+    """
+    timezones: [Timezone!]
+
+    """
+    Languages associated with the country.
+    """
+    languages: [Language!]
+
+    """
+    Central banks serving the country.
+    """
+    centralBanks: [CentralBank!]
+
+    """
+    First-level administrative divisions.
+    """
+    states(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+
+        """
+        Optional case-insensitive state or province name filter.
+        """
+        query: String
+    ): StatePage!
+
+    """
+    Cities grouped under the country's states.
+    """
+    cities(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+
+        """
+        Optional case-insensitive city name filter.
+        """
+        query: String
+    ): CityPage!
+}
+
+"""
+A currency, including active and obsolete records.
+"""
+type Currency {
+    """
+    Stable currency identifier.
+    """
+    id: ID!
+
+    """
+    ISO 4217 alpha code.
+    """
+    iso3: String!
+
+    """
+    ISO 4217 numeric code as a string to preserve leading zeros.
+    """
+    isoNumeric: String!
+
+    """
+    Display name in the requested language when a translation is available.
+    """
+    name: String!
+
+    """
+    Number of decimal digits commonly used by the currency.
+    """
+    decimalDigits: Int!
+
+    """
+    Currency description when available.
+    """
+    description: String
+
+    """
+    Native-language currency name when available.
+    """
+    nativeName: String
+
+    """
+    Currency symbol when available.
+    """
+    symbol: String
+
+    """
+    Introduction year when known.
+    """
+    year: Int
+
+    """
+    Introduction date when known.
+    """
+    introducedDate: LocalDate
+
+    """
+    Whether the currency is obsolete.
+    """
+    obsolete: Boolean!
+
+    """
+    Obsolescence date when known.
+    """
+    obsoleteAt: LocalDate
+
+    """
+    Replacement currency identifier when available.
+    """
+    replacedById: ID
+
+    """
+    Flag identifier when available.
+    """
+    flagId: ID
+
+    """
+    Flag record when available.
+    """
+    flag: Flag
+
+    """
+    Central banks that issue this currency.
+    """
+    centralBanks: [CentralBank!]
+
+    """
+    Countries that use this currency.
+    """
+    countries: [Country!]
+}
+
+"""
+A human language associated with one or more countries.
+"""
+type Language {
+    """
+    Stable language identifier.
+    """
+    id: ID!
+
+    """
+    Language code.
+    """
+    code: String!
+
+    """
+    Native-language name when available.
+    """
+    nativeName: String
+
+    """
+    Display name in the requested language when a translation is available.
+    """
+    name: String!
+
+    """
+    Language description when available.
+    """
+    description: String
+
+    """
+    Flag identifier when available.
+    """
+    flagId: ID
+
+    """
+    Flag record when available.
+    """
+    flag: Flag
+
+    """
+    Countries associated with this language.
+    """
+    countries: [Country!]
+}
+
+"""
+A high-level geographic region.
+"""
+type Region {
+    """
+    Stable region identifier.
+    """
+    id: ID!
+
+    """
+    Display name in the requested language when a translation is available.
+    """
+    name: String!
+
+    """
+    Subregions inside this region.
+    """
+    subregions: [Subregion!]
+
+    """
+    Countries inside this region.
+    """
+    countries: [Country!]
+}
+
+"""
+A geographic subregion inside a region.
+"""
+type Subregion {
+    """
+    Stable subregion identifier.
+    """
+    id: ID!
+
+    """
+    Display name in the requested language when a translation is available.
+    """
+    name: String!
+
+    """
+    Parent region identifier.
+    """
+    regionId: ID!
+
+    """
+    Parent region.
+    """
+    region: Region
+
+    """
+    Countries inside this subregion.
+    """
+    countries: [Country!]
+}
+
+"""
+A first-level administrative division such as a state, province, or territory.
+"""
+type State {
+    """
+    Stable state or province identifier.
+    """
+    id: ID!
+
+    """
+    Display name in the requested language when a translation is available.
+    """
+    name: String!
+
+    """
+    Administrative division code when available.
+    """
+    stateCode: String
+
+    """
+    Coordinates when available.
+    """
+    coordinates: Coordinates
+
+    """
+    Administrative division type when available.
+    """
+    type: String
+
+    """
+    Parent country identifier.
+    """
+    countryId: ID!
+}
+
+"""
+A timezone record associated with one or more countries.
+"""
+type Timezone {
+    """
+    Stable timezone identifier.
+    """
+    id: ID!
+
+    """
+    IANA timezone name.
+    """
+    zoneName: String!
+
+    """
+    Display timezone name in the requested language when a translation is available.
+    """
+    tzName: String!
+
+    """
+    Offset from GMT in seconds.
+    """
+    gmtOffset: Int!
+
+    """
+    Human-readable GMT offset.
+    """
+    gmtOffsetName: String!
+
+    """
+    Timezone abbreviation.
+    """
+    abbreviation: String!
+}
+
+"""
+Paginated countries result.
+"""
+type CountryPage {
+    """
+    Countries on the requested page.
+    """
+    items: [Country!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated currencies result.
+"""
+type CurrencyPage {
+    """
+    Currencies on the requested page.
+    """
+    items: [Currency!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated languages result.
+"""
+type LanguagePage {
+    """
+    Languages on the requested page.
+    """
+    items: [Language!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated flags result.
+"""
+type FlagPage {
+    """
+    Flags on the requested page.
+    """
+    items: [Flag!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated regions result.
+"""
+type RegionPage {
+    """
+    Regions on the requested page.
+    """
+    items: [Region!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated subregions result.
+"""
+type SubregionPage {
+    """
+    Subregions on the requested page.
+    """
+    items: [Subregion!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated timezones result.
+"""
+type TimezonePage {
+    """
+    Timezones on the requested page.
+    """
+    items: [Timezone!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated central banks result.
+"""
+type CentralBankPage {
+    """
+    Central banks on the requested page.
+    """
+    items: [CentralBank!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated states or provinces result.
+"""
+type StatePage {
+    """
+    States or provinces on the requested page.
+    """
+    items: [State!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated cities result.
+"""
+type CityPage {
+    """
+    Cities on the requested page.
+    """
+    items: [City!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated media assets result.
+"""
+type MediaAssetPage {
+    """
+    Media assets on the requested page.
+    """
+    items: [MediaAsset!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Kinds of media assets served by this API.
+"""
+enum MediaAssetType {
+    """
+    Raster or vector image asset.
+    """
+    Image
+}
+
+"""
+Supported image aspect-ratio families.
+"""
+enum ImageAssetAspectRatio {
+    """
+    Square image family.
+    """
+    Square
+
+    """
+    Wide image family.
+    """
+    Wide
+}
+
+"""
+Read-only GraphQL queries for world reference data.
+"""
+type Query {
+    """
+    Lists countries using zero-based pagination.
+    """
+    listCountries(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+    ): CountryPage!
+
+    """
+    Loads countries by id. Accepts at most 50 ids.
+    """
+    countries(
+        """
+        Country ids to load.
+        """
+        ids: [ID!]!
+    ): [Country!]!
+
+    """
+    Searches countries by name, ISO code, phone code, and top-level domain.
+    """
+    searchCountries(
+        """
+        Search text.
+        """
+        query: String!
+
+        """
+        Maximum number of countries to return. Defaults to 50 and cannot exceed 50.
+        """
+        limit: Int
+    ): [Country!]!
+
+    """
+    Loads one country by id.
+    """
+    country(
+        """
+        Country id to load.
+        """
+        id: ID!
+    ): Country
+
+    """
+    Lists currencies using zero-based pagination.
+    """
+    listCurrencies(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+    ): CurrencyPage!
+
+    """
+    Loads one currency by id.
+    """
+    currency(
+        """
+        Currency id to load.
+        """
+        id: ID!
+    ): Currency
+
+    """
+    Loads currencies by id. Accepts at most 50 ids.
+    """
+    currencies(
+        """
+        Currency ids to load.
+        """
+        ids: [ID!]!
+    ): [Currency!]!
+
+    """
+    Resolves a currency by ISO alpha or numeric identifier.
+    """
+    resolveCurrency(
+        """
+        ISO alpha or numeric currency identifier.
+        """
+        identifier: String!
+
+        """
+        Whether obsolete currencies may be returned.
+        """
+        withObsolete: Boolean
+    ): Currency
+
+    """
+    Lists languages using zero-based pagination.
+    """
+    listLanguages(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+    ): LanguagePage!
+
+    """
+    Loads one language by id.
+    """
+    language(
+        """
+        Language id to load.
+        """
+        id: ID!
+    ): Language
+
+    """
+    Loads languages by id. Accepts at most 50 ids.
+    """
+    languages(
+        """
+        Language ids to load.
+        """
+        ids: [ID!]!
+    ): [Language!]!
+
+    """
+    Lists flags using zero-based pagination.
+    """
+    listFlags(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+    ): FlagPage!
+
+    """
+    Loads one flag by id.
+    """
+    flag(
+        """
+        Flag id to load.
+        """
+        id: ID!
+    ): Flag
+
+    """
+    Loads flags by id. Accepts at most 50 ids.
+    """
+    flags(
+        """
+        Flag ids to load.
+        """
+        ids: [ID!]!
+    ): [Flag!]!
+
+    """
+    Lists regions using zero-based pagination.
+    """
+    listRegions(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+    ): RegionPage!
+
+    """
+    Loads one region by id.
+    """
+    region(
+        """
+        Region id to load.
+        """
+        id: ID!
+    ): Region
+
+    """
+    Loads regions by id. Accepts at most 50 ids.
+    """
+    regions(
+        """
+        Region ids to load.
+        """
+        ids: [ID!]!
+    ): [Region!]!
+
+    """
+    Lists subregions using zero-based pagination.
+    """
+    listSubregions(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+    ): SubregionPage!
+
+    """
+    Loads one subregion by id.
+    """
+    subregion(
+        """
+        Subregion id to load.
+        """
+        id: ID!
+    ): Subregion
+
+    """
+    Loads subregions by id. Accepts at most 50 ids.
+    """
+    subregions(
+        """
+        Subregion ids to load.
+        """
+        ids: [ID!]!
+    ): [Subregion!]!
+
+    """
+    Lists timezones using zero-based pagination.
+    """
+    listTimezones(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+    ): TimezonePage!
+
+    """
+    Loads one timezone by id.
+    """
+    timezone(
+        """
+        Timezone id to load.
+        """
+        id: ID!
+    ): Timezone
+
+    """
+    Loads timezones by id. Accepts at most 50 ids.
+    """
+    timezones(
+        """
+        Timezone ids to load.
+        """
+        ids: [ID!]!
+    ): [Timezone!]!
+
+    """
+    Lists central banks using zero-based pagination.
+    """
+    listCentralBanks(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+    ): CentralBankPage!
+
+    """
+    Loads one central bank by id.
+    """
+    centralBank(
+        """
+        Central bank id to load.
+        """
+        id: ID!
+    ): CentralBank
+
+    """
+    Loads central banks by id. Accepts at most 50 ids.
+    """
+    centralBanks(
+        """
+        Central bank ids to load.
+        """
+        ids: [ID!]!
+    ): [CentralBank!]!
+
+    """
+    Lists states or provinces using zero-based pagination.
+    """
+    listStates(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+    ): StatePage!
+
+    """
+    Loads one state or province by id.
+    """
+    state(
+        """
+        State or province id to load.
+        """
+        id: ID!
+    ): State
+
+    """
+    Loads states or provinces by id. Accepts at most 50 ids.
+    """
+    states(
+        """
+        State or province ids to load.
+        """
+        ids: [ID!]!
+    ): [State!]!
+
+    """
+    Lists cities using zero-based pagination.
+    """
+    listCities(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+    ): CityPage!
+
+    """
+    Loads one city by id.
+    """
+    city(
+        """
+        City id to load.
+        """
+        id: ID!
+    ): City
+
+    """
+    Loads cities by id. Accepts at most 50 ids.
+    """
+    cities(
+        """
+        City ids to load.
+        """
+        ids: [ID!]!
+    ): [City!]!
+
+    """
+    Lists media assets using zero-based pagination.
+    """
+    listMediaAssets(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+    ): MediaAssetPage!
+
+    """
+    Loads one media asset by id.
+    """
+    mediaAsset(
+        """
+        Media asset id to load.
+        """
+        id: ID!
+    ): MediaAsset
+
+    """
+    Loads media assets by id. Accepts at most 50 ids.
+    """
+    mediaAssets(
+        """
+        Media asset ids to load.
+        """
+        ids: [ID!]!
+    ): [MediaAsset!]!
+
+    """
+    Checks whether a currency id exists.
+    """
+    isValidCurrency(
+        """
+        Currency id to validate.
+        """
+        id: ID!
+    ): ValidationResponse!
+
+    """
+    Checks whether a country id exists.
+    """
+    isValidCountry(
+        """
+        Country id to validate.
+        """
+        id: ID!
+    ): ValidationResponse!
+
+    """
+    Checks whether a language id exists.
+    """
+    isValidLanguage(
+        """
+        Language id to validate.
+        """
+        id: ID!
+    ): ValidationResponse!
+
+    """
+    Checks whether a region id exists.
+    """
+    isValidRegion(
+        """
+        Region id to validate.
+        """
+        id: ID!
+    ): ValidationResponse!
+
+    """
+    Checks whether a subregion id exists.
+    """
+    isValidSubregion(
+        """
+        Subregion id to validate.
+        """
+        id: ID!
+    ): ValidationResponse!
+
+    """
+    Checks whether a timezone id exists.
+    """
+    isValidTimezone(
+        """
+        Timezone id to validate.
+        """
+        id: ID!
+    ): ValidationResponse!
+}
+
+"""
+Boolean validation result for identifier checks.
+"""
+type ValidationResponse {
+    """
+    Whether the supplied identifier exists.
+    """
+    valid: Boolean!
+}

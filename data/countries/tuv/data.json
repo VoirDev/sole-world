@@ -1,0 +1,240 @@
+{
+  "id": 228,
+  "name": "Tuvalu",
+  "nativeName": "Tuvalu",
+  "iso2": "TV",
+  "iso3": "TUV",
+  "numericCode": "798",
+  "phoneCode": "688",
+  "tld": ".tv",
+  "latitude": -8,
+  "longitude": 178,
+  "flagId": 24,
+  "regionId": 5,
+  "subregionId": 22,
+  "currencyIds": [
+    844
+  ],
+  "timezoneIds": [
+    2594
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "투발루"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Tuvalu"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Tuvalu"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Tuvalu"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Tuvalu"
+    },
+    {
+      "languageCode": "fa",
+      "name": "تووالو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Tuvalu"
+    },
+    {
+      "languageCode": "es",
+      "name": "Tuvalu"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Tuvalu"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ツバル"
+    },
+    {
+      "languageCode": "it",
+      "name": "Tuvalu"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "图瓦卢"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Tuvalu"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Тувалу"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Тувалу"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Tuvalu"
+    }
+  ],
+  "states": [
+    {
+      "id": 3946,
+      "name": "Niutao Island Council",
+      "stateCode": "NIT",
+      "latitude": -6.1064258,
+      "longitude": 177.3438429,
+      "type": "island council",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108997,
+          "name": "Kulia Village",
+          "latitude": -6.10819,
+          "longitude": 177.33393,
+          "translations": []
+        },
+        {
+          "id": 108998,
+          "name": "Niulakita",
+          "latitude": -10.788,
+          "longitude": 179.466,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3947,
+      "name": "Nanumanga",
+      "stateCode": "NMG",
+      "latitude": -6.2858019,
+      "longitude": 176.319928,
+      "type": "island council",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109001,
+          "name": "Toga Village",
+          "latitude": -6.28764,
+          "longitude": 176.31472,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3948,
+      "name": "Nui",
+      "stateCode": "NUI",
+      "latitude": -7.2388768,
+      "longitude": 177.1485232,
+      "type": "island council",
+      "translations": [],
+      "cities": [
+        {
+          "id": 109000,
+          "name": "Tanrake Village",
+          "latitude": -7.24562,
+          "longitude": 177.14511,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3949,
+      "name": "Nanumea",
+      "stateCode": "NMA",
+      "latitude": -5.6881617,
+      "longitude": 176.1370148,
+      "type": "island council",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3950,
+      "name": "Vaitupu",
+      "stateCode": "VAI",
+      "latitude": -7.4767327,
+      "longitude": 178.6747675,
+      "type": "island council",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108994,
+          "name": "Asau Village",
+          "latitude": -7.49026,
+          "longitude": 178.68016,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3951,
+      "name": "Funafuti",
+      "stateCode": "FUN",
+      "latitude": -8.5211471,
+      "longitude": 179.1961926,
+      "type": "town council",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108993,
+          "name": "Alapi Village",
+          "latitude": -8.52074,
+          "longitude": 179.1968,
+          "translations": []
+        },
+        {
+          "id": 108995,
+          "name": "Fakaifou Village",
+          "latitude": -8.51758,
+          "longitude": 179.20094,
+          "translations": []
+        },
+        {
+          "id": 108996,
+          "name": "Funafuti",
+          "latitude": -8.52425,
+          "longitude": 179.19417,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3952,
+      "name": "Nukufetau",
+      "stateCode": "NKF",
+      "latitude": -8,
+      "longitude": 178.5,
+      "type": "island council",
+      "translations": [],
+      "cities": [
+        {
+          "id": 108999,
+          "name": "Savave Village",
+          "latitude": -8.02731,
+          "longitude": 178.31351,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3953,
+      "name": "Nukulaelae",
+      "stateCode": "NKL",
+      "latitude": -9.381111,
+      "longitude": 179.852222,
+      "type": "island council",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

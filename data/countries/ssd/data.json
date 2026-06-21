@@ -1,0 +1,201 @@
+{
+  "id": 206,
+  "name": "South Sudan",
+  "nativeName": "South Sudan",
+  "iso2": "SS",
+  "iso3": "SSD",
+  "numericCode": "728",
+  "phoneCode": "211",
+  "tld": ".ss",
+  "latitude": 7,
+  "longitude": 30,
+  "flagId": 43,
+  "regionId": 1,
+  "subregionId": 2,
+  "currencyIds": [
+    960
+  ],
+  "timezoneIds": [
+    2568
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "남수단"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Sudão do Sul"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Sudão do Sul"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Zuid-Soedan"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Južni Sudan"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سودان جنوبی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Südsudan"
+    },
+    {
+      "languageCode": "es",
+      "name": "Sudán del Sur"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Soudan du Sud"
+    },
+    {
+      "languageCode": "ja",
+      "name": "南スーダン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Sudan del sud"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "南苏丹"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Güney Sudan"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Южный Судан"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Південний Судан"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Sudan Południowy"
+    }
+  ],
+  "states": [
+    {
+      "id": 2085,
+      "name": "Unity",
+      "stateCode": "UY",
+      "latitude": 37.7871276,
+      "longitude": -122.4034079,
+      "type": "state",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2086,
+      "name": "Upper Nile",
+      "stateCode": "NU",
+      "latitude": 9.8894202,
+      "longitude": 32.7181375,
+      "type": "state",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2087,
+      "name": "Warrap",
+      "stateCode": "WR",
+      "latitude": 8.0886238,
+      "longitude": 28.6410641,
+      "type": "state",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2088,
+      "name": "Northern Bahr el Ghazal",
+      "stateCode": "BN",
+      "latitude": 8.5360449,
+      "longitude": 26.7967849,
+      "type": "state",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2089,
+      "name": "Western Equatoria",
+      "stateCode": "EW",
+      "latitude": 5.3471799,
+      "longitude": 28.299435,
+      "type": "state",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2090,
+      "name": "Lakes",
+      "stateCode": "LK",
+      "latitude": 37.1628255,
+      "longitude": -95.6911623,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104834,
+          "name": "Yirol",
+          "latitude": 6.5525,
+          "longitude": 30.49806,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2091,
+      "name": "Western Bahr el Ghazal",
+      "stateCode": "BW",
+      "latitude": 8.6452399,
+      "longitude": 25.2837585,
+      "type": "state",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2092,
+      "name": "Central Equatoria",
+      "stateCode": "EC",
+      "latitude": 4.6144063,
+      "longitude": 31.2626366,
+      "type": "state",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2093,
+      "name": "Eastern Equatoria",
+      "stateCode": "EE",
+      "latitude": 5.0692995,
+      "longitude": 33.438353,
+      "type": "state",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2094,
+      "name": "Jonglei State",
+      "stateCode": "JG",
+      "latitude": 7.1819619,
+      "longitude": 32.3560952,
+      "type": "state",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 162,
+  "name": "Niue",
+  "nativeName": "Niuē",
+  "iso2": "NU",
+  "iso3": "NIU",
+  "numericCode": "570",
+  "phoneCode": "683",
+  "tld": ".nu",
+  "latitude": -19.03333333,
+  "longitude": -169.86666666,
+  "flagId": 81,
+  "regionId": 5,
+  "subregionId": 22,
+  "currencyIds": [
+    870
+  ],
+  "timezoneIds": [
+    2493
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "니우에"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Niue"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Niue"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Niue"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Niue"
+    },
+    {
+      "languageCode": "fa",
+      "name": "نیووی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Niue"
+    },
+    {
+      "languageCode": "es",
+      "name": "Niue"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Niue"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ニウエ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Niue"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "纽埃"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Niue"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Ниуэ"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Ніуе"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Niue"
+    }
+  ],
+  "states": []
+}

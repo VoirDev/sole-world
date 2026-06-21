@@ -1,0 +1,573 @@
+{
+  "id": 63,
+  "name": "Timor-Leste",
+  "nativeName": "Timor-Leste",
+  "iso2": "TL",
+  "iso3": "TLS",
+  "numericCode": "626",
+  "phoneCode": "670",
+  "tld": ".tl",
+  "latitude": -8.83333333,
+  "longitude": 125.91666666,
+  "flagId": 30,
+  "regionId": 3,
+  "subregionId": 13,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2585
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "동티모르"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Timor Leste"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Timor Leste"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Oost-Timor"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Istočni Timor"
+    },
+    {
+      "languageCode": "fa",
+      "name": "تیمور شرقی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Timor-Leste"
+    },
+    {
+      "languageCode": "es",
+      "name": "Timor Oriental"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Timor oriental"
+    },
+    {
+      "languageCode": "ja",
+      "name": "東ティモール"
+    },
+    {
+      "languageCode": "it",
+      "name": "Timor Est"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "东帝汶"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Doğu Timor"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Тимор-Лешти"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Тимор-Лешті"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Timor Wschodni"
+    }
+  ],
+  "states": [
+    {
+      "id": 4514,
+      "name": "Viqueque",
+      "stateCode": "VI",
+      "latitude": -8.8597918,
+      "longitude": 126.3633516,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106851,
+          "name": "Lacluta",
+          "latitude": -8.8,
+          "longitude": 126.13333,
+          "translations": []
+        },
+        {
+          "id": 106865,
+          "name": "Ossu",
+          "latitude": -8.73477,
+          "longitude": 126.38324,
+          "translations": []
+        },
+        {
+          "id": 106875,
+          "name": "Uatocarabau",
+          "latitude": -8.75658,
+          "longitude": 126.6806,
+          "translations": []
+        },
+        {
+          "id": 106876,
+          "name": "Uatolari",
+          "latitude": -8.76277,
+          "longitude": 126.57353,
+          "translations": []
+        },
+        {
+          "id": 106879,
+          "name": "Viqueque",
+          "latitude": -8.85908,
+          "longitude": 126.36972,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4515,
+      "name": "Liquiçá",
+      "stateCode": "LI",
+      "latitude": -8.6674095,
+      "longitude": 125.2587964,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106838,
+          "name": "Bazartete",
+          "latitude": -8.62464,
+          "longitude": 125.38168,
+          "translations": []
+        },
+        {
+          "id": 106856,
+          "name": "Likisá",
+          "latitude": -8.5875,
+          "longitude": 125.34194,
+          "translations": []
+        },
+        {
+          "id": 106862,
+          "name": "Maubara",
+          "latitude": -8.61194,
+          "longitude": 125.20611,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4516,
+      "name": "Ermera",
+      "stateCode": "ER",
+      "latitude": -8.7524802,
+      "longitude": 125.3987294,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106841,
+          "name": "Ermera Villa",
+          "latitude": -8.75222,
+          "longitude": 125.39694,
+          "translations": []
+        },
+        {
+          "id": 106845,
+          "name": "Gleno",
+          "latitude": -8.72389,
+          "longitude": 125.43611,
+          "translations": []
+        },
+        {
+          "id": 106847,
+          "name": "Hatulia",
+          "latitude": -8.81667,
+          "longitude": 125.31667,
+          "translations": []
+        },
+        {
+          "id": 106855,
+          "name": "Letefoho",
+          "latitude": -8.83444,
+          "longitude": 125.42639,
+          "translations": []
+        },
+        {
+          "id": 106867,
+          "name": "Railaco",
+          "latitude": -8.67237,
+          "longitude": 125.42546,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4517,
+      "name": "Manatuto",
+      "stateCode": "MT",
+      "latitude": -8.5155608,
+      "longitude": 126.0159255,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106835,
+          "name": "Barique",
+          "latitude": -8.85472,
+          "longitude": 126.06556,
+          "translations": []
+        },
+        {
+          "id": 106849,
+          "name": "Laclo",
+          "latitude": -8.55,
+          "longitude": 125.91667,
+          "translations": []
+        },
+        {
+          "id": 106850,
+          "name": "Laclubar",
+          "latitude": -8.74975,
+          "longitude": 125.91186,
+          "translations": []
+        },
+        {
+          "id": 106860,
+          "name": "Manatuto",
+          "latitude": -8.52207,
+          "longitude": 126.01516,
+          "translations": []
+        },
+        {
+          "id": 106861,
+          "name": "Manatutu",
+          "latitude": -8.51139,
+          "longitude": 126.01306,
+          "translations": []
+        },
+        {
+          "id": 106870,
+          "name": "Soibada",
+          "latitude": -8.86,
+          "longitude": 125.94,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4518,
+      "name": "Ainaro",
+      "stateCode": "AN",
+      "latitude": -9.0113171,
+      "longitude": 125.5220012,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106831,
+          "name": "Ainaro",
+          "latitude": -8.99241,
+          "longitude": 125.50816,
+          "translations": []
+        },
+        {
+          "id": 106846,
+          "name": "Hato-Udo",
+          "latitude": -9.12036,
+          "longitude": 125.58935,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4519,
+      "name": "Manufahi",
+      "stateCode": "MF",
+      "latitude": -9.0145495,
+      "longitude": 125.8279959,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106832,
+          "name": "Alas",
+          "latitude": -9.0273,
+          "longitude": 125.7868,
+          "translations": []
+        },
+        {
+          "id": 106842,
+          "name": "Fatuberliu",
+          "latitude": -8.9479,
+          "longitude": 125.86633,
+          "translations": []
+        },
+        {
+          "id": 106869,
+          "name": "Same",
+          "latitude": -9,
+          "longitude": 125.65,
+          "translations": []
+        },
+        {
+          "id": 106873,
+          "name": "Turiscai",
+          "latitude": -8.82371,
+          "longitude": 125.70454,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4520,
+      "name": "Aileu",
+      "stateCode": "AL",
+      "latitude": -8.7043994,
+      "longitude": 125.6095474,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106830,
+          "name": "Aileu",
+          "latitude": -8.72806,
+          "longitude": 125.56639,
+          "translations": []
+        },
+        {
+          "id": 106854,
+          "name": "Lequidoe",
+          "latitude": -8.69139,
+          "longitude": 125.63611,
+          "translations": []
+        },
+        {
+          "id": 106868,
+          "name": "Remexio",
+          "latitude": -8.61667,
+          "longitude": 125.66667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4521,
+      "name": "Baucau",
+      "stateCode": "BA",
+      "latitude": -8.4714308,
+      "longitude": 126.4575991,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106834,
+          "name": "Baguia",
+          "latitude": -8.62787,
+          "longitude": 126.65743,
+          "translations": []
+        },
+        {
+          "id": 106836,
+          "name": "Baucau",
+          "latitude": -8.46667,
+          "longitude": 126.45,
+          "translations": []
+        },
+        {
+          "id": 106837,
+          "name": "Baukau",
+          "latitude": -8.47572,
+          "longitude": 126.45633,
+          "translations": []
+        },
+        {
+          "id": 106852,
+          "name": "Laga",
+          "latitude": -8.47411,
+          "longitude": 126.59228,
+          "translations": []
+        },
+        {
+          "id": 106866,
+          "name": "Quelicai",
+          "latitude": -8.60135,
+          "longitude": 126.55904,
+          "translations": []
+        },
+        {
+          "id": 106877,
+          "name": "Vemasse",
+          "latitude": -8.51036,
+          "longitude": 126.20823,
+          "translations": []
+        },
+        {
+          "id": 106878,
+          "name": "Venilale",
+          "latitude": -8.64306,
+          "longitude": 126.37833,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4522,
+      "name": "Cova Lima",
+      "stateCode": "CO",
+      "latitude": -9.2650375,
+      "longitude": 125.2587964,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106843,
+          "name": "Fatumean",
+          "latitude": -9.22917,
+          "longitude": 125.03583,
+          "translations": []
+        },
+        {
+          "id": 106844,
+          "name": "Fohorem",
+          "latitude": -9.28361,
+          "longitude": 125.08944,
+          "translations": []
+        },
+        {
+          "id": 106863,
+          "name": "Maucatar",
+          "latitude": -9.21772,
+          "longitude": 125.22981,
+          "translations": []
+        },
+        {
+          "id": 106871,
+          "name": "Suai",
+          "latitude": -9.3,
+          "longitude": 125.25,
+          "translations": []
+        },
+        {
+          "id": 106872,
+          "name": "Tilomar",
+          "latitude": -9.34182,
+          "longitude": 125.10887,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4523,
+      "name": "Lautém",
+      "stateCode": "LA",
+      "latitude": -8.3642307,
+      "longitude": 126.9043845,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106848,
+          "name": "Iliomar",
+          "latitude": -8.70917,
+          "longitude": 126.82833,
+          "translations": []
+        },
+        {
+          "id": 106853,
+          "name": "Lautem",
+          "latitude": -8.36514,
+          "longitude": 126.90389,
+          "translations": []
+        },
+        {
+          "id": 106857,
+          "name": "Lospalos",
+          "latitude": -8.52167,
+          "longitude": 126.99833,
+          "translations": []
+        },
+        {
+          "id": 106858,
+          "name": "Luro",
+          "latitude": -8.54359,
+          "longitude": 126.83003,
+          "translations": []
+        },
+        {
+          "id": 106874,
+          "name": "Tutuala",
+          "latitude": -8.39597,
+          "longitude": 127.25923,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4524,
+      "name": "Dili",
+      "stateCode": "DI",
+      "latitude": -8.2449613,
+      "longitude": 125.5876697,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106833,
+          "name": "Atauro Island",
+          "latitude": -8.26785,
+          "longitude": 125.59699,
+          "translations": []
+        },
+        {
+          "id": 106839,
+          "name": "Cristo Rei",
+          "latitude": -8.52047,
+          "longitude": 125.60837,
+          "translations": []
+        },
+        {
+          "id": 106840,
+          "name": "Dili",
+          "latitude": -8.55861,
+          "longitude": 125.57361,
+          "translations": []
+        },
+        {
+          "id": 106864,
+          "name": "Metinaro",
+          "latitude": -8.53007,
+          "longitude": 125.74163,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4525,
+      "name": "Bobonaro",
+      "stateCode": "BO",
+      "latitude": -8.9655406,
+      "longitude": 125.2587964,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106859,
+          "name": "Maliana",
+          "latitude": -8.99167,
+          "longitude": 125.21972,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

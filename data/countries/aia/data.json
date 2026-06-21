@@ -1,0 +1,233 @@
+{
+  "id": 8,
+  "name": "Anguilla",
+  "nativeName": "Anguilla",
+  "iso2": "AI",
+  "iso3": "AIA",
+  "numericCode": "660",
+  "phoneCode": "1",
+  "tld": ".ai",
+  "latitude": 18.25,
+  "longitude": -63.16666666,
+  "flagId": 243,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    840
+  ],
+  "timezoneIds": [
+    2241
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "앵귈라"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Anguila"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Anguila"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Anguilla"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Angvila"
+    },
+    {
+      "languageCode": "fa",
+      "name": "آنگویلا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Anguilla"
+    },
+    {
+      "languageCode": "es",
+      "name": "Anguilla"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Anguilla"
+    },
+    {
+      "languageCode": "ja",
+      "name": "アンギラ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Anguilla"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "安圭拉"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Anguilla"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Ангилья"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Ангілья"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Anguilla"
+    }
+  ],
+  "states": [
+    {
+      "id": 5273,
+      "name": "Blowing Point",
+      "stateCode": null,
+      "latitude": 18.1765553,
+      "longitude": -63.1021296,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5274,
+      "name": "East End",
+      "stateCode": null,
+      "latitude": 18.2356173,
+      "longitude": -63.0149715,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5275,
+      "name": "George Hill",
+      "stateCode": null,
+      "latitude": 18.1997811,
+      "longitude": -63.0776114,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5276,
+      "name": "Island Harbour",
+      "stateCode": null,
+      "latitude": 18.2552125,
+      "longitude": -63.014059,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5277,
+      "name": "North Hill",
+      "stateCode": null,
+      "latitude": 18.2050863,
+      "longitude": -63.0858457,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5278,
+      "name": "North Side",
+      "stateCode": null,
+      "latitude": 18.2300544,
+      "longitude": -63.051889,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5279,
+      "name": "Sandy Ground",
+      "stateCode": null,
+      "latitude": 18.2018551,
+      "longitude": -63.0973471,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5280,
+      "name": "Sandy Hill",
+      "stateCode": null,
+      "latitude": 18.218921,
+      "longitude": -63.0129916,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5281,
+      "name": "South Hill",
+      "stateCode": null,
+      "latitude": 18.1892475,
+      "longitude": -63.0976367,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5282,
+      "name": "Stoney Ground",
+      "stateCode": null,
+      "latitude": 18.2179101,
+      "longitude": -63.0496986,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5283,
+      "name": "The Farrington",
+      "stateCode": null,
+      "latitude": 18.2134701,
+      "longitude": -63.0272162,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5284,
+      "name": "The Quarter",
+      "stateCode": null,
+      "latitude": 18.2145334,
+      "longitude": -63.0564489,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5285,
+      "name": "The Valley",
+      "stateCode": null,
+      "latitude": 18.2152166,
+      "longitude": -63.0700628,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5286,
+      "name": "West End",
+      "stateCode": null,
+      "latitude": 18.1715394,
+      "longitude": -63.1719127,
+      "type": "district",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

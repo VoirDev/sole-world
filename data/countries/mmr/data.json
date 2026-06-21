@@ -1,0 +1,774 @@
+{
+  "id": 151,
+  "name": "Myanmar",
+  "nativeName": "မပြည်ထောင်စုသမ္မတမြန်မာနိုင်ငံတော်",
+  "iso2": "MM",
+  "iso3": "MMR",
+  "numericCode": "104",
+  "phoneCode": "95",
+  "tld": ".mm",
+  "latitude": 22,
+  "longitude": 98,
+  "flagId": 105,
+  "regionId": 3,
+  "subregionId": 13,
+  "currencyIds": [
+    928
+  ],
+  "timezoneIds": [
+    2482
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "미얀마"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Myanmar"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Myanmar"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Myanmar"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Mijanmar"
+    },
+    {
+      "languageCode": "fa",
+      "name": "میانمار"
+    },
+    {
+      "languageCode": "de",
+      "name": "Myanmar"
+    },
+    {
+      "languageCode": "es",
+      "name": "Myanmar"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Myanmar"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ミャンマー"
+    },
+    {
+      "languageCode": "it",
+      "name": "Birmania"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "缅甸"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Myanmar"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Мьянма"
+    },
+    {
+      "languageCode": "uk",
+      "name": "М'янма"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Birma"
+    }
+  ],
+  "states": [
+    {
+      "id": 2133,
+      "name": "Kayin",
+      "stateCode": "13",
+      "latitude": 16.9459346,
+      "longitude": 97.9592863,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67636,
+          "name": "Dellok",
+          "latitude": 16.04072,
+          "longitude": 97.91773,
+          "translations": []
+        },
+        {
+          "id": 67640,
+          "name": "Hpa-An",
+          "latitude": 16.88953,
+          "longitude": 97.63482,
+          "translations": []
+        },
+        {
+          "id": 67644,
+          "name": "Klonhtoug",
+          "latitude": 15.95411,
+          "longitude": 98.4325,
+          "translations": []
+        },
+        {
+          "id": 67648,
+          "name": "Kyain Seikgyi Township",
+          "latitude": 15.82288,
+          "longitude": 98.25257,
+          "translations": []
+        },
+        {
+          "id": 67661,
+          "name": "Mikenaungea",
+          "latitude": 15.95846,
+          "longitude": 98.42721,
+          "translations": []
+        },
+        {
+          "id": 67667,
+          "name": "Myawadi",
+          "latitude": 16.68911,
+          "longitude": 98.50893,
+          "translations": []
+        },
+        {
+          "id": 67679,
+          "name": "Pulei",
+          "latitude": 16.06243,
+          "longitude": 97.8828,
+          "translations": []
+        },
+        {
+          "id": 67690,
+          "name": "Tagondaing",
+          "latitude": 16.0675,
+          "longitude": 97.90694,
+          "translations": []
+        },
+        {
+          "id": 67691,
+          "name": "Tamoowoug",
+          "latitude": 16.03447,
+          "longitude": 97.91458,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2134,
+      "name": "Mandalay",
+      "stateCode": "04",
+      "latitude": 21.5619058,
+      "longitude": 95.8987139,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67649,
+          "name": "Kyaukse",
+          "latitude": 21.6056,
+          "longitude": 96.13508,
+          "translations": []
+        },
+        {
+          "id": 67654,
+          "name": "Mandalay",
+          "latitude": 21.97473,
+          "longitude": 96.08359,
+          "translations": []
+        },
+        {
+          "id": 67660,
+          "name": "Meiktila",
+          "latitude": 20.87776,
+          "longitude": 95.85844,
+          "translations": []
+        },
+        {
+          "id": 67663,
+          "name": "Mogok",
+          "latitude": 22.91766,
+          "longitude": 96.50982,
+          "translations": []
+        },
+        {
+          "id": 67670,
+          "name": "Myingyan",
+          "latitude": 21.46002,
+          "longitude": 95.3884,
+          "translations": []
+        },
+        {
+          "id": 67675,
+          "name": "Nyaungshwe",
+          "latitude": 20.66084,
+          "longitude": 96.93405,
+          "translations": []
+        },
+        {
+          "id": 67682,
+          "name": "Pyin Oo Lwin",
+          "latitude": 22.03501,
+          "longitude": 96.45683,
+          "translations": []
+        },
+        {
+          "id": 67702,
+          "name": "Yamethin",
+          "latitude": 20.43189,
+          "longitude": 96.13875,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2135,
+      "name": "Yangon",
+      "stateCode": "06",
+      "latitude": 16.9143488,
+      "longitude": 96.1526985,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67641,
+          "name": "Kanbe",
+          "latitude": 16.70728,
+          "longitude": 96.00168,
+          "translations": []
+        },
+        {
+          "id": 67643,
+          "name": "Kayan",
+          "latitude": 16.90802,
+          "longitude": 96.56037,
+          "translations": []
+        },
+        {
+          "id": 67688,
+          "name": "Syriam",
+          "latitude": 16.76887,
+          "longitude": 96.24503,
+          "translations": []
+        },
+        {
+          "id": 67699,
+          "name": "Thongwa",
+          "latitude": 16.75998,
+          "longitude": 96.52498,
+          "translations": []
+        },
+        {
+          "id": 67700,
+          "name": "Twante",
+          "latitude": 16.71047,
+          "longitude": 95.92866,
+          "translations": []
+        },
+        {
+          "id": 67703,
+          "name": "Yangon",
+          "latitude": 16.80528,
+          "longitude": 96.15611,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2136,
+      "name": "Magway",
+      "stateCode": "03",
+      "latitude": 19.8871386,
+      "longitude": 94.7277528,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67634,
+          "name": "Chauk",
+          "latitude": 20.89921,
+          "longitude": 94.81784,
+          "translations": []
+        },
+        {
+          "id": 67653,
+          "name": "Magway",
+          "latitude": 20.14956,
+          "longitude": 94.93246,
+          "translations": []
+        },
+        {
+          "id": 67662,
+          "name": "Minbu",
+          "latitude": 20.18059,
+          "longitude": 94.87595,
+          "translations": []
+        },
+        {
+          "id": 67668,
+          "name": "Myaydo",
+          "latitude": 19.36838,
+          "longitude": 95.21512,
+          "translations": []
+        },
+        {
+          "id": 67676,
+          "name": "Pakokku",
+          "latitude": 21.33489,
+          "longitude": 95.08438,
+          "translations": []
+        },
+        {
+          "id": 67692,
+          "name": "Taungdwingyi",
+          "latitude": 20.0065,
+          "longitude": 95.54531,
+          "translations": []
+        },
+        {
+          "id": 67698,
+          "name": "Thayetmyo",
+          "latitude": 19.32076,
+          "longitude": 95.18272,
+          "translations": []
+        },
+        {
+          "id": 67704,
+          "name": "Yenangyaung",
+          "latitude": 20.46504,
+          "longitude": 94.8712,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2137,
+      "name": "Chin",
+      "stateCode": "14",
+      "latitude": 22.0086978,
+      "longitude": 93.5812692,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67637,
+          "name": "Falam",
+          "latitude": 22.91335,
+          "longitude": 93.67779,
+          "translations": []
+        },
+        {
+          "id": 67638,
+          "name": "Hakha",
+          "latitude": 22.64452,
+          "longitude": 93.61076,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2138,
+      "name": "Rakhine",
+      "stateCode": "16",
+      "latitude": 20.1040818,
+      "longitude": 93.5812692,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67687,
+          "name": "Sittwe",
+          "latitude": 20.14624,
+          "longitude": 92.89835,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2139,
+      "name": "Shan",
+      "stateCode": "17",
+      "latitude": 22.0361985,
+      "longitude": 98.1338558,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67650,
+          "name": "Lashio",
+          "latitude": 22.9359,
+          "longitude": 97.7498,
+          "translations": []
+        },
+        {
+          "id": 67689,
+          "name": "Tachilek",
+          "latitude": 20.4475,
+          "longitude": 99.88083,
+          "translations": []
+        },
+        {
+          "id": 67693,
+          "name": "Taunggyi",
+          "latitude": 20.78919,
+          "longitude": 97.03776,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2140,
+      "name": "Tanintharyi",
+      "stateCode": "05",
+      "latitude": 12.4706876,
+      "longitude": 99.0128926,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67635,
+          "name": "Dawei",
+          "latitude": 14.0823,
+          "longitude": 98.19151,
+          "translations": []
+        },
+        {
+          "id": 67642,
+          "name": "Kawthoung",
+          "latitude": 9.98238,
+          "longitude": 98.55034,
+          "translations": []
+        },
+        {
+          "id": 67669,
+          "name": "Myeik",
+          "latitude": 12.43954,
+          "longitude": 98.60028,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2141,
+      "name": "Bago",
+      "stateCode": "02",
+      "latitude": 17.3220711,
+      "longitude": 96.4663286,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67631,
+          "name": "Bago",
+          "latitude": 17.33521,
+          "longitude": 96.48135,
+          "translations": []
+        },
+        {
+          "id": 67651,
+          "name": "Letpandan",
+          "latitude": 17.78664,
+          "longitude": 95.75076,
+          "translations": []
+        },
+        {
+          "id": 67674,
+          "name": "Nyaunglebin",
+          "latitude": 17.95363,
+          "longitude": 96.72247,
+          "translations": []
+        },
+        {
+          "id": 67678,
+          "name": "Paungde",
+          "latitude": 18.49167,
+          "longitude": 95.50591,
+          "translations": []
+        },
+        {
+          "id": 67681,
+          "name": "Pyay",
+          "latitude": 18.82464,
+          "longitude": 95.22216,
+          "translations": []
+        },
+        {
+          "id": 67684,
+          "name": "Pyu",
+          "latitude": 18.4813,
+          "longitude": 96.43742,
+          "translations": []
+        },
+        {
+          "id": 67694,
+          "name": "Taungoo",
+          "latitude": 18.94291,
+          "longitude": 96.43408,
+          "translations": []
+        },
+        {
+          "id": 67695,
+          "name": "Thanatpin",
+          "latitude": 17.29136,
+          "longitude": 96.57523,
+          "translations": []
+        },
+        {
+          "id": 67696,
+          "name": "Tharyarwady",
+          "latitude": 17.65399,
+          "longitude": 95.78813,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2142,
+      "name": "Ayeyarwady",
+      "stateCode": "07",
+      "latitude": 17.0342125,
+      "longitude": 95.2266675,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67633,
+          "name": "Bogale",
+          "latitude": 16.29415,
+          "longitude": 95.39742,
+          "translations": []
+        },
+        {
+          "id": 67639,
+          "name": "Hinthada",
+          "latitude": 17.64944,
+          "longitude": 95.45705,
+          "translations": []
+        },
+        {
+          "id": 67646,
+          "name": "Kyaiklat",
+          "latitude": 16.44502,
+          "longitude": 95.72373,
+          "translations": []
+        },
+        {
+          "id": 67656,
+          "name": "Maubin",
+          "latitude": 16.73148,
+          "longitude": 95.65441,
+          "translations": []
+        },
+        {
+          "id": 67659,
+          "name": "Mawlamyinegyunn",
+          "latitude": 16.3772,
+          "longitude": 95.26488,
+          "translations": []
+        },
+        {
+          "id": 67666,
+          "name": "Myanaung",
+          "latitude": 18.28651,
+          "longitude": 95.32014,
+          "translations": []
+        },
+        {
+          "id": 67673,
+          "name": "Nyaungdon",
+          "latitude": 17.04459,
+          "longitude": 95.63957,
+          "translations": []
+        },
+        {
+          "id": 67677,
+          "name": "Pathein",
+          "latitude": 16.77919,
+          "longitude": 94.73212,
+          "translations": []
+        },
+        {
+          "id": 67680,
+          "name": "Pyapon",
+          "latitude": 16.28543,
+          "longitude": 95.67882,
+          "translations": []
+        },
+        {
+          "id": 67701,
+          "name": "Wakema",
+          "latitude": 16.60333,
+          "longitude": 95.18278,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2143,
+      "name": "Kachin",
+      "stateCode": "11",
+      "latitude": 25.850904,
+      "longitude": 97.4381355,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67632,
+          "name": "Bhamo",
+          "latitude": 24.25256,
+          "longitude": 97.23357,
+          "translations": []
+        },
+        {
+          "id": 67671,
+          "name": "Myitkyina",
+          "latitude": 25.38327,
+          "longitude": 97.39637,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2144,
+      "name": "Kayah",
+      "stateCode": "12",
+      "latitude": 19.2342061,
+      "longitude": 97.2652858,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67652,
+          "name": "Loikaw",
+          "latitude": 19.67798,
+          "longitude": 97.20975,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2145,
+      "name": "Sagaing",
+      "stateCode": "01",
+      "latitude": 24.428381,
+      "longitude": 95.3939551,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67657,
+          "name": "Mawlaik",
+          "latitude": 23.64254,
+          "longitude": 94.40478,
+          "translations": []
+        },
+        {
+          "id": 67664,
+          "name": "Monywa",
+          "latitude": 22.10856,
+          "longitude": 95.13583,
+          "translations": []
+        },
+        {
+          "id": 67685,
+          "name": "Sagaing",
+          "latitude": 21.8787,
+          "longitude": 95.97965,
+          "translations": []
+        },
+        {
+          "id": 67686,
+          "name": "Shwebo",
+          "latitude": 22.56925,
+          "longitude": 95.69818,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2146,
+      "name": "Naypyidaw",
+      "stateCode": "18",
+      "latitude": 19.9386245,
+      "longitude": 96.1526985,
+      "type": "union territory",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67672,
+          "name": "Nay Pyi Taw",
+          "latitude": 19.745,
+          "longitude": 96.12972,
+          "translations": []
+        },
+        {
+          "id": 67683,
+          "name": "Pyinmana",
+          "latitude": 19.7381,
+          "longitude": 96.20742,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2147,
+      "name": "Mon State",
+      "stateCode": "15",
+      "latitude": 16.3003133,
+      "longitude": 97.6982272,
+      "type": "state",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67645,
+          "name": "Kyaikkami",
+          "latitude": 16.07686,
+          "longitude": 97.56388,
+          "translations": []
+        },
+        {
+          "id": 67647,
+          "name": "Kyaikto",
+          "latitude": 17.30858,
+          "longitude": 97.01124,
+          "translations": []
+        },
+        {
+          "id": 67655,
+          "name": "Martaban",
+          "latitude": 16.52834,
+          "longitude": 97.6157,
+          "translations": []
+        },
+        {
+          "id": 67658,
+          "name": "Mawlamyine",
+          "latitude": 16.49051,
+          "longitude": 97.62825,
+          "translations": []
+        },
+        {
+          "id": 67665,
+          "name": "Mudon",
+          "latitude": 16.25624,
+          "longitude": 97.7246,
+          "translations": []
+        },
+        {
+          "id": 67697,
+          "name": "Thaton",
+          "latitude": 16.91867,
+          "longitude": 97.37001,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

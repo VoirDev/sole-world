@@ -1,0 +1,92 @@
+{
+  "id": 187,
+  "name": "Saint Pierre and Miquelon",
+  "nativeName": "Saint-Pierre-et-Miquelon",
+  "iso2": "PM",
+  "iso3": "SPM",
+  "numericCode": "666",
+  "phoneCode": "508",
+  "tld": ".pm",
+  "latitude": 46.83333333,
+  "longitude": -56.33333333,
+  "flagId": 71,
+  "regionId": 2,
+  "subregionId": 6,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2549
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "생피에르 미클롱"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Saint-Pierre e Miquelon"
+    },
+    {
+      "languageCode": "pt",
+      "name": "São Pedro e Miquelon"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Saint Pierre en Miquelon"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Sveti Petar i Mikelon"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سن پیر و میکلن"
+    },
+    {
+      "languageCode": "de",
+      "name": "Saint-Pierre und Miquelon"
+    },
+    {
+      "languageCode": "es",
+      "name": "San Pedro y Miquelón"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Saint-Pierre-et-Miquelon"
+    },
+    {
+      "languageCode": "ja",
+      "name": "サンピエール島・ミクロン島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Saint-Pierre e Miquelon"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "圣皮埃尔和密克隆"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Saint Pierre Ve Miquelon"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Сен-Пьер и Микелон"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Сен-П'єр і Мікелон"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Saint-Pierre i Miquelon"
+    }
+  ],
+  "states": []
+}

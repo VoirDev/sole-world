@@ -1,0 +1,410 @@
+{
+  "id": 36,
+  "name": "Burundi",
+  "nativeName": "Burundi",
+  "iso2": "BI",
+  "iso3": "BDI",
+  "numericCode": "108",
+  "phoneCode": "257",
+  "tld": ".bi",
+  "latitude": -3.5,
+  "longitude": 30,
+  "flagId": 225,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    860
+  ],
+  "timezoneIds": [
+    2304
+  ],
+  "officialLanguageIds": [
+    33,
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "부룬디"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Burundi"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Burúndi"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Burundi"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Burundi"
+    },
+    {
+      "languageCode": "fa",
+      "name": "بوروندی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Burundi"
+    },
+    {
+      "languageCode": "es",
+      "name": "Burundi"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Burundi"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ブルンジ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Burundi"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "布隆迪"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Burundi"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Бурунди"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Бурунді"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Burundi"
+    }
+  ],
+  "states": [
+    {
+      "id": 3185,
+      "name": "Rumonge",
+      "stateCode": "RM",
+      "latitude": -3.9754049,
+      "longitude": 29.4388014,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9776,
+          "name": "Rumonge",
+          "latitude": -3.9736,
+          "longitude": 29.4386,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3186,
+      "name": "Muyinga",
+      "stateCode": "MY",
+      "latitude": -2.7793511,
+      "longitude": 30.2974199,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9773,
+          "name": "Muyinga",
+          "latitude": -2.8451,
+          "longitude": 30.3414,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3187,
+      "name": "Mwaro",
+      "stateCode": "MW",
+      "latitude": -3.5025918,
+      "longitude": 29.6499162,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9774,
+          "name": "Mwaro",
+          "latitude": -3.51128,
+          "longitude": 29.70334,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3188,
+      "name": "Makamba",
+      "stateCode": "MA",
+      "latitude": -4.3257062,
+      "longitude": 29.6962677,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9771,
+          "name": "Makamba",
+          "latitude": -4.1348,
+          "longitude": 29.804,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3189,
+      "name": "Rutana",
+      "stateCode": "RT",
+      "latitude": -3.8791523,
+      "longitude": 30.0665236,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9777,
+          "name": "Rutana",
+          "latitude": -3.9279,
+          "longitude": 29.992,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3190,
+      "name": "Cibitoke",
+      "stateCode": "CI",
+      "latitude": -2.8102897,
+      "longitude": 29.1855785,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9766,
+          "name": "Cibitoke",
+          "latitude": -2.8869,
+          "longitude": 29.1248,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3191,
+      "name": "Ruyigi",
+      "stateCode": "RY",
+      "latitude": -3.446207,
+      "longitude": 30.2512728,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9778,
+          "name": "Ruyigi",
+          "latitude": -3.47639,
+          "longitude": 30.24861,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3192,
+      "name": "Kayanza",
+      "stateCode": "KY",
+      "latitude": -3.0077981,
+      "longitude": 29.6499162,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9769,
+          "name": "Kayanza",
+          "latitude": -2.9221,
+          "longitude": 29.6293,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3193,
+      "name": "Muramvya",
+      "stateCode": "MU",
+      "latitude": -3.2898398,
+      "longitude": 29.6499162,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9772,
+          "name": "Muramvya",
+          "latitude": -3.2682,
+          "longitude": 29.6079,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3194,
+      "name": "Karuzi",
+      "stateCode": "KR",
+      "latitude": -3.1340347,
+      "longitude": 30.112735,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9768,
+          "name": "Karuzi",
+          "latitude": -3.10139,
+          "longitude": 30.16278,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3195,
+      "name": "Kirundo",
+      "stateCode": "KI",
+      "latitude": -2.5762882,
+      "longitude": 30.112735,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9770,
+          "name": "Kirundo",
+          "latitude": -2.5845,
+          "longitude": 30.0959,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3196,
+      "name": "Bubanza",
+      "stateCode": "BB",
+      "latitude": -3.1572403,
+      "longitude": 29.3714909,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9762,
+          "name": "Bubanza",
+          "latitude": -3.0804,
+          "longitude": 29.391,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3197,
+      "name": "Gitega",
+      "stateCode": "GI",
+      "latitude": -3.4929051,
+      "longitude": 29.9277947,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9767,
+          "name": "Gitega",
+          "latitude": -3.42708,
+          "longitude": 29.92463,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3198,
+      "name": "Bujumbura Mairie",
+      "stateCode": "BM",
+      "latitude": -3.3884141,
+      "longitude": 29.3482646,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9763,
+          "name": "Bujumbura",
+          "latitude": -3.38193,
+          "longitude": 29.36142,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3199,
+      "name": "Ngozi",
+      "stateCode": "NG",
+      "latitude": -2.8958243,
+      "longitude": 29.8815203,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9775,
+          "name": "Ngozi",
+          "latitude": -2.9075,
+          "longitude": 29.8306,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3200,
+      "name": "Bujumbura Rural",
+      "stateCode": "BL",
+      "latitude": -3.5090144,
+      "longitude": 29.464359,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3201,
+      "name": "Cankuzo",
+      "stateCode": "CA",
+      "latitude": -3.1527788,
+      "longitude": 30.6199895,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9765,
+          "name": "Cankuzo",
+          "latitude": -3.2186,
+          "longitude": 30.5528,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3202,
+      "name": "Bururi",
+      "stateCode": "BR",
+      "latitude": -3.9006851,
+      "longitude": 29.5107708,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9764,
+          "name": "Bururi",
+          "latitude": -3.94877,
+          "longitude": 29.62438,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

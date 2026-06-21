@@ -1,0 +1,255 @@
+{
+  "id": 192,
+  "name": "San Marino",
+  "nativeName": "San Marino",
+  "iso2": "SM",
+  "iso3": "SMR",
+  "numericCode": "674",
+  "phoneCode": "378",
+  "tld": ".sm",
+  "latitude": 43.76666666,
+  "longitude": 12.41666666,
+  "flagId": 47,
+  "regionId": 4,
+  "subregionId": 16,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2554
+  ],
+  "officialLanguageIds": [
+    41
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "산마리노"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "San Marino"
+    },
+    {
+      "languageCode": "pt",
+      "name": "São Marinho"
+    },
+    {
+      "languageCode": "nl",
+      "name": "San Marino"
+    },
+    {
+      "languageCode": "hr",
+      "name": "San Marino"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سان مارینو"
+    },
+    {
+      "languageCode": "de",
+      "name": "San Marino"
+    },
+    {
+      "languageCode": "es",
+      "name": "San Marino"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Saint-Marin"
+    },
+    {
+      "languageCode": "ja",
+      "name": "サンマリノ"
+    },
+    {
+      "languageCode": "it",
+      "name": "San Marino"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "圣马力诺"
+    },
+    {
+      "languageCode": "tr",
+      "name": "San Marino"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Сан-Марино"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Сан-Марино"
+    },
+    {
+      "languageCode": "pl",
+      "name": "San Marino"
+    }
+  ],
+  "states": [
+    {
+      "id": 58,
+      "name": "San Marino",
+      "stateCode": "07",
+      "latitude": 43.94236,
+      "longitude": 12.457777,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104700,
+          "name": "San Marino",
+          "latitude": 43.93667,
+          "longitude": 12.44639,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Acquaviva",
+      "stateCode": "01",
+      "latitude": 41.8671597,
+      "longitude": 14.7469479,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104693,
+          "name": "Acquaviva",
+          "latitude": 43.94593,
+          "longitude": 12.4185,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Chiesanuova",
+      "stateCode": "02",
+      "latitude": 45.4226172,
+      "longitude": 7.6503854,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104699,
+          "name": "Poggio di Chiesanuova",
+          "latitude": 43.90451,
+          "longitude": 12.42142,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Borgo Maggiore",
+      "stateCode": "06",
+      "latitude": 43.9574882,
+      "longitude": 12.4552546,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104694,
+          "name": "Borgo Maggiore",
+          "latitude": 43.94193,
+          "longitude": 12.44738,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Faetano",
+      "stateCode": "04",
+      "latitude": 43.9348967,
+      "longitude": 12.4896554,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104696,
+          "name": "Faetano",
+          "latitude": 43.92831,
+          "longitude": 12.49798,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Montegiardino",
+      "stateCode": "08",
+      "latitude": 43.9052999,
+      "longitude": 12.4810542,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104698,
+          "name": "Monte Giardino",
+          "latitude": 43.90878,
+          "longitude": 12.48201,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Domagnano",
+      "stateCode": "03",
+      "latitude": 43.9501929,
+      "longitude": 12.4681537,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104695,
+          "name": "Domagnano",
+          "latitude": 43.94961,
+          "longitude": 12.46828,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Serravalle",
+      "stateCode": "09",
+      "latitude": 44.7232084,
+      "longitude": 8.8574005,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104701,
+          "name": "Serravalle",
+          "latitude": 43.96897,
+          "longitude": 12.48167,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Fiorentino",
+      "stateCode": "05",
+      "latitude": 43.9078337,
+      "longitude": 12.4581209,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104697,
+          "name": "Fiorentino",
+          "latitude": 43.91001,
+          "longitude": 12.45738,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

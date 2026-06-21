@@ -1,0 +1,603 @@
+{
+  "id": 110,
+  "name": "Jersey",
+  "nativeName": "Jersey",
+  "iso2": "JE",
+  "iso3": "JEY",
+  "numericCode": "832",
+  "phoneCode": "44",
+  "tld": ".je",
+  "latitude": 49.25,
+  "longitude": -2.16666666,
+  "flagId": 140,
+  "regionId": 4,
+  "subregionId": 18,
+  "currencyIds": [
+    890
+  ],
+  "timezoneIds": [
+    2419
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "저지 섬"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Jersey"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Jersey"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Jersey"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Jersey"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جرزی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Jersey"
+    },
+    {
+      "languageCode": "es",
+      "name": "Jersey"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Jersey"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ジャージー"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isola di Jersey"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "泽西岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Jersey"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Джерси"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Джерсі"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Jersey"
+    }
+  ],
+  "states": [
+    {
+      "id": 5309,
+      "name": "Grouville",
+      "stateCode": "01",
+      "latitude": 49.1821257,
+      "longitude": -2.0941981,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154098,
+          "name": "Vingtaine des Marais",
+          "latitude": 49.185563,
+          "longitude": -2.050422,
+          "translations": []
+        },
+        {
+          "id": 154099,
+          "name": "Vingtaine de la Rue",
+          "latitude": 49.1866123,
+          "longitude": -2.0531613,
+          "translations": []
+        },
+        {
+          "id": 154100,
+          "name": "Vingtaine de Longueville",
+          "latitude": 49.1900183,
+          "longitude": -2.049178,
+          "translations": []
+        },
+        {
+          "id": 154101,
+          "name": "Vingtaine de la Rocque",
+          "latitude": 49.1670818,
+          "longitude": -2.0505807,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5310,
+      "name": "St Brelade",
+      "stateCode": "02",
+      "latitude": 49.18488,
+      "longitude": -2.2468508,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154102,
+          "name": "Vingtaine de Noirmont",
+          "latitude": 49.1726985,
+          "longitude": -2.2255051,
+          "translations": []
+        },
+        {
+          "id": 154103,
+          "name": "Vingtaine du Coin",
+          "latitude": 49.1875396,
+          "longitude": -2.1847371,
+          "translations": []
+        },
+        {
+          "id": 154104,
+          "name": "Vingtaine des Quennevais",
+          "latitude": 49.1970432,
+          "longitude": -2.2161808,
+          "translations": []
+        },
+        {
+          "id": 154105,
+          "name": "Vingtaine de la Moye",
+          "latitude": 49.1844548,
+          "longitude": -2.2395047,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5311,
+      "name": "St Clement",
+      "stateCode": "03",
+      "latitude": 49.1696579,
+      "longitude": -2.0883934,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154106,
+          "name": "Grande Vingtaine",
+          "latitude": 49.1720713,
+          "longitude": -2.0619937,
+          "translations": []
+        },
+        {
+          "id": 154107,
+          "name": "Vingtaine du Rocquier",
+          "latitude": 49.1670818,
+          "longitude": -2.0505807,
+          "translations": []
+        },
+        {
+          "id": 154108,
+          "name": "Vingtaine de Samarès",
+          "latitude": 49.1649758,
+          "longitude": -2.0988029,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5312,
+      "name": "St Helier",
+      "stateCode": "04",
+      "latitude": 49.1811523,
+      "longitude": -2.1257426,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154109,
+          "name": "Vingtaine de la Ville",
+          "latitude": 49.1805019,
+          "longitude": -2.103233,
+          "translations": []
+        },
+        {
+          "id": 154110,
+          "name": "Vingtaine du Rouge Bouillon",
+          "latitude": 49.192912,
+          "longitude": -2.109353,
+          "translations": []
+        },
+        {
+          "id": 154111,
+          "name": "Vingtaine de Bas du Mont au Prêtre",
+          "latitude": 49.1993959,
+          "longitude": -2.1196408,
+          "translations": []
+        },
+        {
+          "id": 154112,
+          "name": "Vingtaine de Haut du Mont au Prêtre",
+          "latitude": 49.1805019,
+          "longitude": -2.103233,
+          "translations": []
+        },
+        {
+          "id": 154113,
+          "name": "Vingtaine du Mont à l'Abbé",
+          "latitude": 49.2003633,
+          "longitude": -2.1338439,
+          "translations": []
+        },
+        {
+          "id": 154114,
+          "name": "Vingtaine du Mont Cochon",
+          "latitude": 49.1997537,
+          "longitude": -2.1475755,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5313,
+      "name": "St John",
+      "stateCode": "05",
+      "latitude": 49.2391257,
+      "longitude": -2.1802684,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154115,
+          "name": "Vingtaine du Nord",
+          "latitude": 49.2393878,
+          "longitude": -2.1206972,
+          "translations": []
+        },
+        {
+          "id": 154116,
+          "name": "Vingtaine de Hérupe",
+          "latitude": 49.2333012,
+          "longitude": -2.1235708,
+          "translations": []
+        },
+        {
+          "id": 154117,
+          "name": "Vingtaine du Douet",
+          "latitude": 49.2345962,
+          "longitude": -2.1722771,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5314,
+      "name": "St Lawrence",
+      "stateCode": "06",
+      "latitude": 49.2152748,
+      "longitude": -2.182077,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154118,
+          "name": "Vingtaine Haut de la Vallée",
+          "latitude": 49.218731,
+          "longitude": -2.1418045,
+          "translations": []
+        },
+        {
+          "id": 154119,
+          "name": "Vingtaine Bas de la Vallée",
+          "latitude": 49.218731,
+          "longitude": -2.1418045,
+          "translations": []
+        },
+        {
+          "id": 154120,
+          "name": "Vingtaine du Coin Hatain",
+          "latitude": 49.218731,
+          "longitude": -2.1418045,
+          "translations": []
+        },
+        {
+          "id": 154121,
+          "name": "Vingtaine du Coin Motier",
+          "latitude": 49.218731,
+          "longitude": -2.1418045,
+          "translations": []
+        },
+        {
+          "id": 154122,
+          "name": "Vingtaine du Coin Tourgis Nord",
+          "latitude": 49.218731,
+          "longitude": -2.1418045,
+          "translations": []
+        },
+        {
+          "id": 154123,
+          "name": "Vingtaine du Coin Tourgis Sud",
+          "latitude": 49.218731,
+          "longitude": -2.1418045,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5315,
+      "name": "St Martin",
+      "stateCode": "07",
+      "latitude": 49.2164149,
+      "longitude": -2.0813339,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154124,
+          "name": "Vingtaine de Rozel",
+          "latitude": 49.235695,
+          "longitude": -2.0504847,
+          "translations": []
+        },
+        {
+          "id": 154125,
+          "name": "Vingtaine de Faldouet",
+          "latitude": 49.2032204,
+          "longitude": -2.0526972,
+          "translations": []
+        },
+        {
+          "id": 154126,
+          "name": "Vingtaine de la Quéruée",
+          "latitude": 49.2205678,
+          "longitude": -2.040082,
+          "translations": []
+        },
+        {
+          "id": 154127,
+          "name": "Vingtaine de l'Église",
+          "latitude": 0,
+          "longitude": 0,
+          "translations": []
+        },
+        {
+          "id": 154128,
+          "name": "Vingtaine du Fief de la Reine",
+          "latitude": 49.2205678,
+          "longitude": -2.040082,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5316,
+      "name": "St Mary",
+      "stateCode": "08",
+      "latitude": 49.2378181,
+      "longitude": -2.1952213,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154129,
+          "name": "Vingtaine du Sud",
+          "latitude": 49.241027,
+          "longitude": -2.1690095,
+          "translations": []
+        },
+        {
+          "id": 154130,
+          "name": "Vingtaine du Nord",
+          "latitude": 49.241027,
+          "longitude": -2.1690095,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5317,
+      "name": "St Ouen",
+      "stateCode": "09",
+      "latitude": 49.2368076,
+      "longitude": -2.2583597,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154131,
+          "name": "Petite Cueillette",
+          "latitude": 49.2374758,
+          "longitude": -2.222648,
+          "translations": []
+        },
+        {
+          "id": 154132,
+          "name": "Grande Cueillette",
+          "latitude": 49.2374758,
+          "longitude": -2.222648,
+          "translations": []
+        },
+        {
+          "id": 154133,
+          "name": "Cueillette de Grantez",
+          "latitude": 49.2312397,
+          "longitude": -2.2233903,
+          "translations": []
+        },
+        {
+          "id": 154134,
+          "name": "Cueillette de Millais",
+          "latitude": 49.2408537,
+          "longitude": -2.2433042,
+          "translations": []
+        },
+        {
+          "id": 154135,
+          "name": "Cueillette de Vinchelez",
+          "latitude": 49.244478,
+          "longitude": -2.2390543,
+          "translations": []
+        },
+        {
+          "id": 154136,
+          "name": "Cueillette de Léoville",
+          "latitude": 49.2380324,
+          "longitude": -2.2263487,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5318,
+      "name": "St Peter",
+      "stateCode": "10",
+      "latitude": 49.2144278,
+      "longitude": -2.2323431,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154137,
+          "name": "Vingtaine du Douet",
+          "latitude": 0,
+          "longitude": 0,
+          "translations": []
+        },
+        {
+          "id": 154138,
+          "name": "Grande Vingtaine",
+          "latitude": 49.210655,
+          "longitude": -2.1960636,
+          "translations": []
+        },
+        {
+          "id": 154139,
+          "name": "Vingtaine des Augerez",
+          "latitude": 49.2077679,
+          "longitude": -2.1862978,
+          "translations": []
+        },
+        {
+          "id": 154140,
+          "name": "Vingtaine du Coin Varin",
+          "latitude": 49.2145195,
+          "longitude": -2.1872255,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5319,
+      "name": "St Saviour",
+      "stateCode": "11",
+      "latitude": 49.2011989,
+      "longitude": -2.1125739,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154141,
+          "name": "Vingtaine de la Petite Longueville",
+          "latitude": 49.1834235,
+          "longitude": -2.0784494,
+          "translations": []
+        },
+        {
+          "id": 154142,
+          "name": "Vingtaine de Sous l'Église",
+          "latitude": 0,
+          "longitude": 0,
+          "translations": []
+        },
+        {
+          "id": 154143,
+          "name": "Vingtaine de Maufant",
+          "latitude": 49.2082296,
+          "longitude": -2.100606,
+          "translations": []
+        },
+        {
+          "id": 154144,
+          "name": "Vingtaine de Sous la Hougue",
+          "latitude": 49.2137711,
+          "longitude": -2.1357662,
+          "translations": []
+        },
+        {
+          "id": 154145,
+          "name": "Vingtaine des Pigneaux",
+          "latitude": 49.202627,
+          "longitude": -2.0708067,
+          "translations": []
+        },
+        {
+          "id": 154146,
+          "name": "Vingtaine de la Grande Longueville",
+          "latitude": 49.1834235,
+          "longitude": -2.0784494,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5320,
+      "name": "Trinity",
+      "stateCode": "12",
+      "latitude": 49.23059,
+      "longitude": -2.1199936,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154147,
+          "name": "Vingtaine de la Ville-à-l'Évêque",
+          "latitude": 49.2317648,
+          "longitude": -2.1223684,
+          "translations": []
+        },
+        {
+          "id": 154148,
+          "name": "Vingtaine de Rozel",
+          "latitude": 49.2384287,
+          "longitude": -2.0670406,
+          "translations": []
+        },
+        {
+          "id": 154149,
+          "name": "Vingtaine du Rondin",
+          "latitude": 49.2298827,
+          "longitude": -2.0860124,
+          "translations": []
+        },
+        {
+          "id": 154150,
+          "name": "Vingtaine des Augrès",
+          "latitude": 49.2285729,
+          "longitude": -2.0823505,
+          "translations": []
+        },
+        {
+          "id": 154151,
+          "name": "Vingtaine de la Croiserie",
+          "latitude": 49.2298827,
+          "longitude": -2.0860124,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

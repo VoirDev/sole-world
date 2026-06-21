@@ -1,0 +1,43 @@
+name: Verify
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build and check whole repository
+    runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.pull_request.body || '', '[skip verify]') }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: true
+          cache-cleanup: always
+          gradle-home-cache-includes: |
+            caches/modules-2
+            caches/generated-gradle-jars
+            caches/jars-*
+            caches/kotlin-dsl
+            wrapper/dists
+
+      - name: Build and check whole repository
+        run: ./gradlew build --no-daemon

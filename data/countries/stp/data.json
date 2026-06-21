@@ -1,0 +1,150 @@
+{
+  "id": 193,
+  "name": "Sao Tome and Principe",
+  "nativeName": "São Tomé e Príncipe",
+  "iso2": "ST",
+  "iso3": "STP",
+  "numericCode": "678",
+  "phoneCode": "239",
+  "tld": ".st",
+  "latitude": 1,
+  "longitude": 7,
+  "flagId": 42,
+  "regionId": 1,
+  "subregionId": 2,
+  "currencyIds": [
+    950
+  ],
+  "timezoneIds": [
+    2555
+  ],
+  "officialLanguageIds": [
+    45
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "상투메 프린시페"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "São Tomé e Príncipe"
+    },
+    {
+      "languageCode": "pt",
+      "name": "São Tomé e Príncipe"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Sao Tomé en Principe"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Sveti Toma i Princip"
+    },
+    {
+      "languageCode": "fa",
+      "name": "کواترو دو فرویرو"
+    },
+    {
+      "languageCode": "de",
+      "name": "São Tomé und Príncipe"
+    },
+    {
+      "languageCode": "es",
+      "name": "Santo Tomé y Príncipe"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Sao Tomé-et-Principe"
+    },
+    {
+      "languageCode": "ja",
+      "name": "サントメ・プリンシペ"
+    },
+    {
+      "languageCode": "it",
+      "name": "São Tomé e Príncipe"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "圣多美和普林西比"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Sao Tome Ve Prinsipe"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Сан-Томе и Принсипи"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Сан-Томе і Принсіпі"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Świętego Tomasza i Książęca"
+    }
+  ],
+  "states": [
+    {
+      "id": 270,
+      "name": "Príncipe",
+      "stateCode": "P",
+      "latitude": 1.6139381,
+      "longitude": 7.4056928,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104837,
+          "name": "Santo António",
+          "latitude": 1.63943,
+          "longitude": 7.41951,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 271,
+      "name": "São Tomé",
+      "stateCode": "S",
+      "latitude": 0.3301924,
+      "longitude": 6.733343,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104835,
+          "name": "Cantagalo District",
+          "latitude": 0.21667,
+          "longitude": 6.7,
+          "translations": []
+        },
+        {
+          "id": 104836,
+          "name": "Caué District",
+          "latitude": 0.13415,
+          "longitude": 6.63825,
+          "translations": []
+        },
+        {
+          "id": 104838,
+          "name": "São Tomé",
+          "latitude": 0.33654,
+          "longitude": 6.72732,
+          "translations": []
+        },
+        {
+          "id": 104839,
+          "name": "Trindade",
+          "latitude": 0.29667,
+          "longitude": 6.68139,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

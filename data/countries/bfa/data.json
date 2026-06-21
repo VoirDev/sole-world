@@ -1,0 +1,1331 @@
+{
+  "id": 35,
+  "name": "Burkina Faso",
+  "nativeName": "Burkina Faso",
+  "iso2": "BF",
+  "iso3": "BFA",
+  "numericCode": "854",
+  "phoneCode": "226",
+  "tld": ".bf",
+  "latitude": 13,
+  "longitude": -2,
+  "flagId": 228,
+  "regionId": 1,
+  "subregionId": 3,
+  "currencyIds": [
+    851
+  ],
+  "timezoneIds": [
+    2303
+  ],
+  "officialLanguageIds": [
+    30,
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "부르키나 파소"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Burkina Faso"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Burquina Faso"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Burkina Faso"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Burkina Faso"
+    },
+    {
+      "languageCode": "fa",
+      "name": "بورکینافاسو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Burkina Faso"
+    },
+    {
+      "languageCode": "es",
+      "name": "Burkina Faso"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Burkina Faso"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ブルキナファソ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Burkina Faso"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "布基纳法索"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Burkina Faso"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Буркина-Фасо"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Буркіна-Фасо"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Burkina Faso"
+    }
+  ],
+  "states": [
+    {
+      "id": 3112,
+      "name": "Kénédougou",
+      "stateCode": "KEN",
+      "latitude": 11.3919395,
+      "longitude": -4.976654,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3113,
+      "name": "Namentenga",
+      "stateCode": "NAM",
+      "latitude": 13.0812584,
+      "longitude": -0.5257823,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3114,
+      "name": "Sahel",
+      "stateCode": "12",
+      "latitude": 14.1000865,
+      "longitude": -0.1494988,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9170,
+          "name": "Djibo",
+          "latitude": 14.0994,
+          "longitude": -1.62554,
+          "translations": []
+        },
+        {
+          "id": 9171,
+          "name": "Dori",
+          "latitude": 14.0354,
+          "longitude": -0.0345,
+          "translations": []
+        },
+        {
+          "id": 9177,
+          "name": "Gorom-Gorom",
+          "latitude": 14.4429,
+          "longitude": -0.23468,
+          "translations": []
+        },
+        {
+          "id": 9207,
+          "name": "Province de l’Oudalan",
+          "latitude": 14.66667,
+          "longitude": -0.33333,
+          "translations": []
+        },
+        {
+          "id": 9229,
+          "name": "Province du Soum",
+          "latitude": 14.33333,
+          "longitude": -1.25,
+          "translations": []
+        },
+        {
+          "id": 9231,
+          "name": "Province du Séno",
+          "latitude": 13.964,
+          "longitude": 0.012,
+          "translations": []
+        },
+        {
+          "id": 9233,
+          "name": "Province du Yagha",
+          "latitude": 13.41667,
+          "longitude": 0.58333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3115,
+      "name": "Centre-Ouest",
+      "stateCode": "06",
+      "latitude": 11.8798466,
+      "longitude": -2.302446,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9178,
+          "name": "Goulouré",
+          "latitude": 12.23484,
+          "longitude": -1.93394,
+          "translations": []
+        },
+        {
+          "id": 9183,
+          "name": "Kokologo",
+          "latitude": 12.19392,
+          "longitude": -1.87687,
+          "translations": []
+        },
+        {
+          "id": 9186,
+          "name": "Koudougou",
+          "latitude": 12.25263,
+          "longitude": -2.36272,
+          "translations": []
+        },
+        {
+          "id": 9189,
+          "name": "Léo",
+          "latitude": 11.10033,
+          "longitude": -2.10654,
+          "translations": []
+        },
+        {
+          "id": 9198,
+          "name": "Pitmoaga",
+          "latitude": 12.24564,
+          "longitude": -1.88148,
+          "translations": []
+        },
+        {
+          "id": 9205,
+          "name": "Province de la Sissili",
+          "latitude": 11.33333,
+          "longitude": -2.25,
+          "translations": []
+        },
+        {
+          "id": 9212,
+          "name": "Province du Boulkiemdé",
+          "latitude": 12.33333,
+          "longitude": -2.16667,
+          "translations": []
+        },
+        {
+          "id": 9227,
+          "name": "Province du Sanguié",
+          "latitude": 12.16667,
+          "longitude": -2.66667,
+          "translations": []
+        },
+        {
+          "id": 9235,
+          "name": "Province du Ziro",
+          "latitude": 11.58333,
+          "longitude": -1.91667,
+          "translations": []
+        },
+        {
+          "id": 9238,
+          "name": "Réo",
+          "latitude": 12.31963,
+          "longitude": -2.47094,
+          "translations": []
+        },
+        {
+          "id": 9240,
+          "name": "Sapouy",
+          "latitude": 11.55444,
+          "longitude": -1.77361,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3116,
+      "name": "Nahouri",
+      "stateCode": "NAO",
+      "latitude": 11.2502267,
+      "longitude": -1.135302,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3117,
+      "name": "Passoré",
+      "stateCode": "PAS",
+      "latitude": 12.8881221,
+      "longitude": -2.2236667,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3118,
+      "name": "Zoundwéogo",
+      "stateCode": "ZOU",
+      "latitude": 11.6141174,
+      "longitude": -0.9820668,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3119,
+      "name": "Sissili",
+      "stateCode": "SIS",
+      "latitude": 11.2441219,
+      "longitude": -2.2236667,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3120,
+      "name": "Banwa",
+      "stateCode": "BAN",
+      "latitude": 12.1323053,
+      "longitude": -4.1513764,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3121,
+      "name": "Bougouriba",
+      "stateCode": "BGR",
+      "latitude": 10.8722646,
+      "longitude": -3.3388917,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3122,
+      "name": "Gnagna",
+      "stateCode": "GNA",
+      "latitude": 12.8974992,
+      "longitude": 0.0746767,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3123,
+      "name": "Mouhoun",
+      "stateCode": "MOU",
+      "latitude": 12.1432381,
+      "longitude": -3.3388917,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3124,
+      "name": "Yagha",
+      "stateCode": "YAG",
+      "latitude": 13.3576157,
+      "longitude": 0.7532809,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3125,
+      "name": "Plateau-Central",
+      "stateCode": "11",
+      "latitude": 12.2537648,
+      "longitude": -0.7532809,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9166,
+          "name": "Boussé",
+          "latitude": 12.66121,
+          "longitude": -1.89515,
+          "translations": []
+        },
+        {
+          "id": 9196,
+          "name": "Oubritenga",
+          "latitude": 12.66667,
+          "longitude": -1.33333,
+          "translations": []
+        },
+        {
+          "id": 9213,
+          "name": "Province du Ganzourgou",
+          "latitude": 12.26667,
+          "longitude": -0.76667,
+          "translations": []
+        },
+        {
+          "id": 9218,
+          "name": "Province du Kourwéogo",
+          "latitude": 12.58333,
+          "longitude": -1.76667,
+          "translations": []
+        },
+        {
+          "id": 9247,
+          "name": "Ziniaré",
+          "latitude": 12.58186,
+          "longitude": -1.2971,
+          "translations": []
+        },
+        {
+          "id": 9248,
+          "name": "Zorgo",
+          "latitude": 12.24922,
+          "longitude": -0.61527,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3126,
+      "name": "Sanmatenga",
+      "stateCode": "SMT",
+      "latitude": 13.3565304,
+      "longitude": -1.0586135,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3127,
+      "name": "Centre-Nord",
+      "stateCode": "05",
+      "latitude": 13.1724464,
+      "longitude": -0.9056623,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9165,
+          "name": "Boulsa",
+          "latitude": 12.66664,
+          "longitude": -0.57469,
+          "translations": []
+        },
+        {
+          "id": 9182,
+          "name": "Kaya",
+          "latitude": 13.09167,
+          "longitude": -1.08444,
+          "translations": []
+        },
+        {
+          "id": 9185,
+          "name": "Kongoussi",
+          "latitude": 13.32583,
+          "longitude": -1.53472,
+          "translations": []
+        },
+        {
+          "id": 9210,
+          "name": "Province du Bam",
+          "latitude": 13.46667,
+          "longitude": -1.58333,
+          "translations": []
+        },
+        {
+          "id": 9222,
+          "name": "Province du Namentenga",
+          "latitude": 13.25,
+          "longitude": -0.5,
+          "translations": []
+        },
+        {
+          "id": 9228,
+          "name": "Province du Sanmatenga",
+          "latitude": 13.25,
+          "longitude": -1.08333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3128,
+      "name": "Tapoa",
+      "stateCode": "TAP",
+      "latitude": 12.2497072,
+      "longitude": 1.6760691,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3129,
+      "name": "Houet",
+      "stateCode": "HOU",
+      "latitude": 11.1320447,
+      "longitude": -4.2333355,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3130,
+      "name": "Zondoma",
+      "stateCode": "ZON",
+      "latitude": 13.1165926,
+      "longitude": -2.4208713,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3131,
+      "name": "Boulgou",
+      "stateCode": "BLG",
+      "latitude": 11.4336766,
+      "longitude": -0.3748354,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3132,
+      "name": "Komondjari",
+      "stateCode": "KMD",
+      "latitude": 12.7126527,
+      "longitude": 0.6773046,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3133,
+      "name": "Koulpélogo",
+      "stateCode": "KOP",
+      "latitude": 11.5247674,
+      "longitude": 0.1494988,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3134,
+      "name": "Tuy",
+      "stateCode": "TUI",
+      "latitude": 38.888684,
+      "longitude": -77.004719,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3135,
+      "name": "Ioba",
+      "stateCode": "IOB",
+      "latitude": 11.0562034,
+      "longitude": -3.0175712,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3136,
+      "name": "Centre",
+      "stateCode": "03",
+      "latitude": null,
+      "longitude": null,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9181,
+          "name": "Kadiogo Province",
+          "latitude": 12.33333,
+          "longitude": -1.5,
+          "translations": []
+        },
+        {
+          "id": 9193,
+          "name": "Ouagadougou",
+          "latitude": 12.36566,
+          "longitude": -1.53388,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3137,
+      "name": "Sourou",
+      "stateCode": "SOR",
+      "latitude": 13.341803,
+      "longitude": -2.9375739,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3138,
+      "name": "Boucle du Mouhoun",
+      "stateCode": "01",
+      "latitude": 12.4166,
+      "longitude": -3.4195527,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9159,
+          "name": "Barani",
+          "latitude": 13.1691,
+          "longitude": -3.8899,
+          "translations": []
+        },
+        {
+          "id": 9164,
+          "name": "Boromo",
+          "latitude": 11.74542,
+          "longitude": -2.93006,
+          "translations": []
+        },
+        {
+          "id": 9172,
+          "name": "Dédougou",
+          "latitude": 12.46338,
+          "longitude": -3.46075,
+          "translations": []
+        },
+        {
+          "id": 9192,
+          "name": "Nouna",
+          "latitude": 12.72939,
+          "longitude": -3.86305,
+          "translations": []
+        },
+        {
+          "id": 9203,
+          "name": "Province de la Kossi",
+          "latitude": 12.91667,
+          "longitude": -3.83333,
+          "translations": []
+        },
+        {
+          "id": 9208,
+          "name": "Province des Balé",
+          "latitude": 11.71667,
+          "longitude": -3.05,
+          "translations": []
+        },
+        {
+          "id": 9209,
+          "name": "Province des Banwa",
+          "latitude": 12.16667,
+          "longitude": -4.16667,
+          "translations": []
+        },
+        {
+          "id": 9221,
+          "name": "Province du Mouhoun",
+          "latitude": 12.25,
+          "longitude": -3.41667,
+          "translations": []
+        },
+        {
+          "id": 9223,
+          "name": "Province du Nayala",
+          "latitude": 12.66667,
+          "longitude": -3,
+          "translations": []
+        },
+        {
+          "id": 9230,
+          "name": "Province du Sourou",
+          "latitude": 13.25,
+          "longitude": -3,
+          "translations": []
+        },
+        {
+          "id": 9239,
+          "name": "Salanso",
+          "latitude": 12.17423,
+          "longitude": -4.08477,
+          "translations": []
+        },
+        {
+          "id": 9244,
+          "name": "Toma",
+          "latitude": 12.75844,
+          "longitude": -2.89879,
+          "translations": []
+        },
+        {
+          "id": 9245,
+          "name": "Tougan",
+          "latitude": 13.0725,
+          "longitude": -3.0694,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3139,
+      "name": "Séno",
+      "stateCode": "SEN",
+      "latitude": 14.0072234,
+      "longitude": -0.0746767,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3140,
+      "name": "Sud-Ouest",
+      "stateCode": "13",
+      "latitude": 10.4231493,
+      "longitude": -3.2583626,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9160,
+          "name": "Batié",
+          "latitude": 9.88333,
+          "longitude": -2.91667,
+          "translations": []
+        },
+        {
+          "id": 9167,
+          "name": "Dano",
+          "latitude": 11.1464,
+          "longitude": -3.05784,
+          "translations": []
+        },
+        {
+          "id": 9169,
+          "name": "Diébougou",
+          "latitude": 10.96209,
+          "longitude": -3.24967,
+          "translations": []
+        },
+        {
+          "id": 9199,
+          "name": "Province de la Bougouriba",
+          "latitude": 10.83333,
+          "longitude": -3.41667,
+          "translations": []
+        },
+        {
+          "id": 9216,
+          "name": "Province du Ioba",
+          "latitude": 11.08333,
+          "longitude": -3.08333,
+          "translations": []
+        },
+        {
+          "id": 9224,
+          "name": "Province du Noumbièl",
+          "latitude": 9.83333,
+          "longitude": -3,
+          "translations": []
+        },
+        {
+          "id": 9226,
+          "name": "Province du Poni",
+          "latitude": 10.25,
+          "longitude": -3.41667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3141,
+      "name": "Oubritenga",
+      "stateCode": "OUB",
+      "latitude": 12.7096087,
+      "longitude": -1.443469,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3142,
+      "name": "Nayala",
+      "stateCode": "NAY",
+      "latitude": 12.6964558,
+      "longitude": -3.0175712,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3143,
+      "name": "Gourma",
+      "stateCode": "GOU",
+      "latitude": 12.1624473,
+      "longitude": 0.6773046,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3144,
+      "name": "Oudalan",
+      "stateCode": "OUD",
+      "latitude": 14.471902,
+      "longitude": -0.4502368,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3145,
+      "name": "Ziro",
+      "stateCode": "ZIR",
+      "latitude": 11.6094995,
+      "longitude": -1.9099238,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3146,
+      "name": "Kossi",
+      "stateCode": "KOS",
+      "latitude": 12.960458,
+      "longitude": -3.9062688,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3147,
+      "name": "Kourwéogo",
+      "stateCode": "KOW",
+      "latitude": 12.7077495,
+      "longitude": -1.7538817,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3148,
+      "name": "Ganzourgou",
+      "stateCode": "GAN",
+      "latitude": 12.2537648,
+      "longitude": -0.7532809,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3149,
+      "name": "Centre-Sud",
+      "stateCode": "07",
+      "latitude": 11.5228911,
+      "longitude": -1.0586135,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9161,
+          "name": "Bazega Province",
+          "latitude": 11.91667,
+          "longitude": -1.5,
+          "translations": []
+        },
+        {
+          "id": 9184,
+          "name": "Kombissiri",
+          "latitude": 12.06884,
+          "longitude": -1.33644,
+          "translations": []
+        },
+        {
+          "id": 9190,
+          "name": "Manga",
+          "latitude": 11.66361,
+          "longitude": -1.07306,
+          "translations": []
+        },
+        {
+          "id": 9191,
+          "name": "Nahouri Province",
+          "latitude": 11.25,
+          "longitude": -1.25,
+          "translations": []
+        },
+        {
+          "id": 9237,
+          "name": "Pô",
+          "latitude": 11.16972,
+          "longitude": -1.145,
+          "translations": []
+        },
+        {
+          "id": 9249,
+          "name": "Zoundweogo Province",
+          "latitude": 11.58333,
+          "longitude": -1,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3150,
+      "name": "Yatenga",
+      "stateCode": "YAT",
+      "latitude": 13.6249344,
+      "longitude": -2.3813621,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3151,
+      "name": "Loroum",
+      "stateCode": "LOR",
+      "latitude": 13.8129814,
+      "longitude": -2.0665197,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3152,
+      "name": "Bazèga",
+      "stateCode": "BAZ",
+      "latitude": 11.9767692,
+      "longitude": -1.443469,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3153,
+      "name": "Cascades",
+      "stateCode": "02",
+      "latitude": 10.4072992,
+      "longitude": -4.5624426,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9158,
+          "name": "Banfora",
+          "latitude": 10.63333,
+          "longitude": -4.76667,
+          "translations": []
+        },
+        {
+          "id": 9200,
+          "name": "Province de la Comoé",
+          "latitude": 10.33333,
+          "longitude": -4.41667,
+          "translations": []
+        },
+        {
+          "id": 9204,
+          "name": "Province de la Léraba",
+          "latitude": 10.66667,
+          "longitude": -5.2,
+          "translations": []
+        },
+        {
+          "id": 9241,
+          "name": "Sindou",
+          "latitude": 10.66667,
+          "longitude": -5.16667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3154,
+      "name": "Sanguié",
+      "stateCode": "SNG",
+      "latitude": 12.1501861,
+      "longitude": -2.6983868,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3155,
+      "name": "Bam",
+      "stateCode": "BAM",
+      "latitude": 13.446133,
+      "longitude": -1.5983959,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3156,
+      "name": "Noumbiel",
+      "stateCode": "NOU",
+      "latitude": 9.8440946,
+      "longitude": -2.9775558,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3157,
+      "name": "Kompienga",
+      "stateCode": "KMP",
+      "latitude": 11.5238362,
+      "longitude": 0.7532809,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3158,
+      "name": "Est",
+      "stateCode": "08",
+      "latitude": 12.4365526,
+      "longitude": 0.9056623,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9163,
+          "name": "Bogandé",
+          "latitude": 12.9704,
+          "longitude": -0.14953,
+          "translations": []
+        },
+        {
+          "id": 9168,
+          "name": "Diapaga",
+          "latitude": 12.07305,
+          "longitude": 1.78838,
+          "translations": []
+        },
+        {
+          "id": 9173,
+          "name": "Fada N'gourma",
+          "latitude": 12.06157,
+          "longitude": 0.35843,
+          "translations": []
+        },
+        {
+          "id": 9175,
+          "name": "Gayéri",
+          "latitude": 12.64824,
+          "longitude": 0.49314,
+          "translations": []
+        },
+        {
+          "id": 9176,
+          "name": "Gnagna Province",
+          "latitude": 12.9188,
+          "longitude": 0.0392,
+          "translations": []
+        },
+        {
+          "id": 9197,
+          "name": "Pama",
+          "latitude": 11.24972,
+          "longitude": 0.7075,
+          "translations": []
+        },
+        {
+          "id": 9201,
+          "name": "Province de la Komandjoari",
+          "latitude": 12.66667,
+          "longitude": 0.66667,
+          "translations": []
+        },
+        {
+          "id": 9202,
+          "name": "Province de la Kompienga",
+          "latitude": 11.41667,
+          "longitude": 0.91667,
+          "translations": []
+        },
+        {
+          "id": 9206,
+          "name": "Province de la Tapoa",
+          "latitude": 12,
+          "longitude": 1.75,
+          "translations": []
+        },
+        {
+          "id": 9214,
+          "name": "Province du Gourma",
+          "latitude": 12.08333,
+          "longitude": 0.5,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3159,
+      "name": "Léraba",
+      "stateCode": "LER",
+      "latitude": 10.6648785,
+      "longitude": -5.3102505,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3160,
+      "name": "Balé",
+      "stateCode": "BAL",
+      "latitude": 11.7820602,
+      "longitude": -3.0175712,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3161,
+      "name": "Kouritenga",
+      "stateCode": "KOT",
+      "latitude": 12.1631813,
+      "longitude": -0.2244662,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3162,
+      "name": "Centre-Est",
+      "stateCode": "04",
+      "latitude": 11.5247674,
+      "longitude": -0.1494988,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9174,
+          "name": "Garango",
+          "latitude": 11.8,
+          "longitude": -0.55056,
+          "translations": []
+        },
+        {
+          "id": 9187,
+          "name": "Koupéla",
+          "latitude": 12.17864,
+          "longitude": -0.35103,
+          "translations": []
+        },
+        {
+          "id": 9188,
+          "name": "Kouritenga Province",
+          "latitude": 12.2,
+          "longitude": -0.3,
+          "translations": []
+        },
+        {
+          "id": 9195,
+          "name": "Ouargaye",
+          "latitude": 11.50202,
+          "longitude": 0.05886,
+          "translations": []
+        },
+        {
+          "id": 9211,
+          "name": "Province du Boulgou",
+          "latitude": 11.5,
+          "longitude": -0.41667,
+          "translations": []
+        },
+        {
+          "id": 9217,
+          "name": "Province du Koulpélogo",
+          "latitude": 11.41667,
+          "longitude": 0.16667,
+          "translations": []
+        },
+        {
+          "id": 9242,
+          "name": "Tenkodogo",
+          "latitude": 11.78,
+          "longitude": -0.36972,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3163,
+      "name": "Poni",
+      "stateCode": "PON",
+      "latitude": 10.3325996,
+      "longitude": -3.3388917,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3164,
+      "name": "Nord",
+      "stateCode": "10",
+      "latitude": 13.718252,
+      "longitude": -2.302446,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9179,
+          "name": "Gourcy",
+          "latitude": 13.20776,
+          "longitude": -2.35893,
+          "translations": []
+        },
+        {
+          "id": 9194,
+          "name": "Ouahigouya",
+          "latitude": 13.58278,
+          "longitude": -2.42158,
+          "translations": []
+        },
+        {
+          "id": 9220,
+          "name": "Province du Loroum",
+          "latitude": 13.91667,
+          "longitude": -2.16667,
+          "translations": []
+        },
+        {
+          "id": 9225,
+          "name": "Province du Passoré",
+          "latitude": 12.91667,
+          "longitude": -2.16667,
+          "translations": []
+        },
+        {
+          "id": 9234,
+          "name": "Province du Yatenga",
+          "latitude": 13.58333,
+          "longitude": -2.41667,
+          "translations": []
+        },
+        {
+          "id": 9236,
+          "name": "Province du Zondoma",
+          "latitude": 13.18333,
+          "longitude": -2.36667,
+          "translations": []
+        },
+        {
+          "id": 9243,
+          "name": "Titao",
+          "latitude": 13.76667,
+          "longitude": -2.06667,
+          "translations": []
+        },
+        {
+          "id": 9246,
+          "name": "Yako",
+          "latitude": 12.9591,
+          "longitude": -2.26075,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3165,
+      "name": "Hauts-Bassins",
+      "stateCode": "09",
+      "latitude": 11.4942003,
+      "longitude": -4.2333355,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 9162,
+          "name": "Bobo-Dioulasso",
+          "latitude": 11.17715,
+          "longitude": -4.2979,
+          "translations": []
+        },
+        {
+          "id": 9180,
+          "name": "Houndé",
+          "latitude": 11.5,
+          "longitude": -3.51667,
+          "translations": []
+        },
+        {
+          "id": 9215,
+          "name": "Province du Houet",
+          "latitude": 11.33333,
+          "longitude": -4.25,
+          "translations": []
+        },
+        {
+          "id": 9219,
+          "name": "Province du Kénédougou",
+          "latitude": 11.41667,
+          "longitude": -5,
+          "translations": []
+        },
+        {
+          "id": 9232,
+          "name": "Province du Tuy",
+          "latitude": 11.41667,
+          "longitude": -3.41667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3166,
+      "name": "Soum",
+      "stateCode": "SOM",
+      "latitude": 14.0962841,
+      "longitude": -1.366216,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3167,
+      "name": "Comoé",
+      "stateCode": "COM",
+      "latitude": 10.4072992,
+      "longitude": -4.5624426,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3168,
+      "name": "Kadiogo",
+      "stateCode": "KAD",
+      "latitude": 12.3425897,
+      "longitude": -1.443469,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5343,
+      "name": "Boulkiemde",
+      "stateCode": "BLK",
+      "latitude": 12.3224419,
+      "longitude": -2.4738052,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

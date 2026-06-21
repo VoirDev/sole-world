@@ -1,0 +1,429 @@
+{
+  "id": 166,
+  "name": "Oman",
+  "nativeName": "عمان",
+  "iso2": "OM",
+  "iso3": "OMN",
+  "numericCode": "512",
+  "phoneCode": "968",
+  "tld": ".om",
+  "latitude": 21,
+  "longitude": 57,
+  "flagId": 79,
+  "regionId": 3,
+  "subregionId": 11,
+  "currencyIds": [
+    936
+  ],
+  "timezoneIds": [
+    2499
+  ],
+  "officialLanguageIds": [
+    7
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "오만"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Omã"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Omã"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Oman"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Oman"
+    },
+    {
+      "languageCode": "fa",
+      "name": "عمان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Oman"
+    },
+    {
+      "languageCode": "es",
+      "name": "Omán"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Oman"
+    },
+    {
+      "languageCode": "ja",
+      "name": "オマーン"
+    },
+    {
+      "languageCode": "it",
+      "name": "oman"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "阿曼"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Umman"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Оман"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Оман"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Oman"
+    }
+  ],
+  "states": [
+    {
+      "id": 3047,
+      "name": "Ad Dhahirah",
+      "stateCode": "ZA",
+      "latitude": 23.2161674,
+      "longitude": 56.4907444,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79950,
+          "name": "Yanqul",
+          "latitude": 23.58645,
+          "longitude": 56.53969,
+          "translations": []
+        },
+        {
+          "id": 79953,
+          "name": "‘Ibrī",
+          "latitude": 23.22573,
+          "longitude": 56.51572,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3048,
+      "name": "Al Batinah North",
+      "stateCode": "BS",
+      "latitude": 24.3419846,
+      "longitude": 56.7298904,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79928,
+          "name": "Al Khābūrah",
+          "latitude": 23.97144,
+          "longitude": 57.09313,
+          "translations": []
+        },
+        {
+          "id": 79929,
+          "name": "As Suwayq",
+          "latitude": 23.84944,
+          "longitude": 57.43861,
+          "translations": []
+        },
+        {
+          "id": 79939,
+          "name": "Liwá",
+          "latitude": 24.53077,
+          "longitude": 56.563,
+          "translations": []
+        },
+        {
+          "id": 79946,
+          "name": "Shināş",
+          "latitude": 24.7426,
+          "longitude": 56.46698,
+          "translations": []
+        },
+        {
+          "id": 79947,
+          "name": "Sohar",
+          "latitude": 24.34745,
+          "longitude": 56.70937,
+          "translations": []
+        },
+        {
+          "id": 79952,
+          "name": "Şaḩam",
+          "latitude": 24.17222,
+          "longitude": 56.88861,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3049,
+      "name": "Al Batinah South",
+      "stateCode": "BJ",
+      "latitude": 23.4314903,
+      "longitude": 57.4239796,
+      "type": "governorate",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3050,
+      "name": "Al Batinah Region",
+      "stateCode": "BA",
+      "latitude": 24.3419846,
+      "longitude": 56.7298904,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79931,
+          "name": "Barkā’",
+          "latitude": 23.67872,
+          "longitude": 57.88605,
+          "translations": []
+        },
+        {
+          "id": 79933,
+          "name": "Bayt al ‘Awābī",
+          "latitude": 23.30324,
+          "longitude": 57.52459,
+          "translations": []
+        },
+        {
+          "id": 79943,
+          "name": "Oman Smart Future City",
+          "latitude": 23.6527,
+          "longitude": 57.59926,
+          "translations": []
+        },
+        {
+          "id": 79944,
+          "name": "Rustaq",
+          "latitude": 23.39083,
+          "longitude": 57.42444,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3051,
+      "name": "Ash Sharqiyah Region",
+      "stateCode": "SH",
+      "latitude": 22.7141196,
+      "longitude": 58.5308064,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79949,
+          "name": "Sur",
+          "latitude": 22.56667,
+          "longitude": 59.52889,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3052,
+      "name": "Musandam",
+      "stateCode": "MU",
+      "latitude": 26.1986144,
+      "longitude": 56.2460949,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79935,
+          "name": "Dib Dibba",
+          "latitude": 26.19778,
+          "longitude": 56.25778,
+          "translations": []
+        },
+        {
+          "id": 79938,
+          "name": "Khasab",
+          "latitude": 26.17993,
+          "longitude": 56.24774,
+          "translations": []
+        },
+        {
+          "id": 79940,
+          "name": "Madḩā’ al Jadīdah",
+          "latitude": 25.28345,
+          "longitude": 56.3328,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3053,
+      "name": "Ash Sharqiyah North",
+      "stateCode": "SS",
+      "latitude": 22.7141196,
+      "longitude": 58.5308064,
+      "type": "governorate",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3054,
+      "name": "Ash Sharqiyah South",
+      "stateCode": "SJ",
+      "latitude": 22.0158249,
+      "longitude": 59.3251922,
+      "type": "governorate",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3055,
+      "name": "Muscat",
+      "stateCode": "MA",
+      "latitude": 23.5880307,
+      "longitude": 58.3828717,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79932,
+          "name": "Bawshar",
+          "latitude": 23.57769,
+          "longitude": 58.39982,
+          "translations": []
+        },
+        {
+          "id": 79941,
+          "name": "Muscat",
+          "latitude": 23.58413,
+          "longitude": 58.40778,
+          "translations": []
+        },
+        {
+          "id": 79945,
+          "name": "Seeb",
+          "latitude": 23.67027,
+          "longitude": 58.18911,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3056,
+      "name": "Al Wusta",
+      "stateCode": "WU",
+      "latitude": 19.9571078,
+      "longitude": 56.2756846,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79936,
+          "name": "Haymā’",
+          "latitude": 19.95931,
+          "longitude": 56.27575,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3057,
+      "name": "Dhofar",
+      "stateCode": "ZU",
+      "latitude": 17.0322121,
+      "longitude": 54.1425214,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79951,
+          "name": "Şalālah",
+          "latitude": 17.01505,
+          "longitude": 54.09237,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3058,
+      "name": "Ad Dakhiliyah",
+      "stateCode": "DA",
+      "latitude": 22.8588758,
+      "longitude": 57.5394356,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79926,
+          "name": "Adam",
+          "latitude": 22.37934,
+          "longitude": 57.52718,
+          "translations": []
+        },
+        {
+          "id": 79930,
+          "name": "Bahlā’",
+          "latitude": 22.97886,
+          "longitude": 57.3047,
+          "translations": []
+        },
+        {
+          "id": 79934,
+          "name": "Bidbid",
+          "latitude": 23.40787,
+          "longitude": 58.1283,
+          "translations": []
+        },
+        {
+          "id": 79937,
+          "name": "Izkī",
+          "latitude": 22.93333,
+          "longitude": 57.76667,
+          "translations": []
+        },
+        {
+          "id": 79942,
+          "name": "Nizwá",
+          "latitude": 22.93333,
+          "longitude": 57.53333,
+          "translations": []
+        },
+        {
+          "id": 79948,
+          "name": "Sufālat Samā’il",
+          "latitude": 23.31667,
+          "longitude": 58.01667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3059,
+      "name": "Al Buraimi",
+      "stateCode": "BU",
+      "latitude": 24.1671413,
+      "longitude": 56.1142253,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 79927,
+          "name": "Al Buraymī",
+          "latitude": 24.25088,
+          "longitude": 55.79312,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

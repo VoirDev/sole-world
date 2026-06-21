@@ -1,0 +1,90 @@
+{
+  "id": 241,
+  "name": "Virgin Islands (British)",
+  "nativeName": "British Virgin Islands",
+  "iso2": "VG",
+  "iso3": "VGB",
+  "numericCode": "092",
+  "phoneCode": "1",
+  "tld": ".vg",
+  "latitude": 18.431383,
+  "longitude": -64.62305,
+  "flagId": 12,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2640
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "영국령 버진아일랜드"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Virgens Britânicas"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Virgens Britânicas"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Britse Maagdeneilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Britanski Djevičanski Otoci"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر ویرجین بریتانیا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Britische Jungferninseln"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Vírgenes del Reino Unido"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Vierges britanniques"
+    },
+    {
+      "languageCode": "ja",
+      "name": "イギリス領ヴァージン諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Vergini Britanniche"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "圣文森特和格林纳丁斯"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Britanya Virjin Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Виргинские острова (Британские)"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Віргінські острови (Британські)"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Dziewicze (Brytyjskie)"
+    }
+  ],
+  "states": []
+}

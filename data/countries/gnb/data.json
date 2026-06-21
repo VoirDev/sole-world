@@ -1,0 +1,309 @@
+{
+  "id": 93,
+  "name": "Guinea-Bissau",
+  "nativeName": "Guiné-Bissau",
+  "iso2": "GW",
+  "iso3": "GNB",
+  "numericCode": "624",
+  "phoneCode": "245",
+  "tld": ".gw",
+  "latitude": 12,
+  "longitude": -15,
+  "flagId": 156,
+  "regionId": 1,
+  "subregionId": 3,
+  "currencyIds": [
+    851
+  ],
+  "timezoneIds": [
+    2400
+  ],
+  "officialLanguageIds": [
+    45
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "기니비사우"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Guiné-Bissau"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Guiné-Bissau"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Guinee-Bissau"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Gvineja Bisau"
+    },
+    {
+      "languageCode": "fa",
+      "name": "گینه بیسائو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Guinea-Bissau"
+    },
+    {
+      "languageCode": "es",
+      "name": "Guinea-Bisáu"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Guinée-Bissau"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ギニアビサウ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Guinea-Bissau"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "几内亚比绍"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Gine-bissau"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Гвинея-Бисау"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Гвінея-Бісау"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Gwinea Bissau"
+    }
+  ],
+  "states": [
+    {
+      "id": 2712,
+      "name": "Tombali",
+      "stateCode": "TO",
+      "latitude": 11.3632696,
+      "longitude": -14.9856176,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53814,
+          "name": "Catió",
+          "latitude": 11.2825,
+          "longitude": -15.25472,
+          "translations": []
+        },
+        {
+          "id": 53819,
+          "name": "Quebo",
+          "latitude": 11.33333,
+          "longitude": -14.93333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2713,
+      "name": "Cacheu",
+      "stateCode": "CA",
+      "latitude": 12.0551416,
+      "longitude": -16.0640179,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53812,
+          "name": "Cacheu",
+          "latitude": 12.27444,
+          "longitude": -16.16528,
+          "translations": []
+        },
+        {
+          "id": 53813,
+          "name": "Canchungo",
+          "latitude": 12.06722,
+          "longitude": -16.03333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2714,
+      "name": "Biombo",
+      "stateCode": "BM",
+      "latitude": 11.8529061,
+      "longitude": -15.7351171,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53820,
+          "name": "Quinhámel",
+          "latitude": 11.88694,
+          "longitude": -15.85556,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2715,
+      "name": "Quinara",
+      "stateCode": "QU",
+      "latitude": 11.795562,
+      "longitude": -15.1726816,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53810,
+          "name": "Buba",
+          "latitude": 11.58889,
+          "longitude": -14.99583,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2716,
+      "name": "Sul",
+      "stateCode": "S",
+      "latitude": -10.2866578,
+      "longitude": 20.7122465,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2717,
+      "name": "Norte",
+      "stateCode": "N",
+      "latitude": 7.8721811,
+      "longitude": 123.8857747,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2718,
+      "name": "Oio",
+      "stateCode": "OI",
+      "latitude": 12.2760709,
+      "longitude": -15.3131185,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53808,
+          "name": "Bissorã",
+          "latitude": 12.22306,
+          "longitude": -15.4475,
+          "translations": []
+        },
+        {
+          "id": 53816,
+          "name": "Farim",
+          "latitude": 12.48389,
+          "longitude": -15.22167,
+          "translations": []
+        },
+        {
+          "id": 53818,
+          "name": "Mansôa",
+          "latitude": 12.07333,
+          "longitude": -15.31889,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2719,
+      "name": "Gabú",
+      "stateCode": "GA",
+      "latitude": 11.8962488,
+      "longitude": -14.1001326,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53817,
+          "name": "Gabú",
+          "latitude": 12.28,
+          "longitude": -14.22222,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2720,
+      "name": "Bafatá",
+      "stateCode": "BA",
+      "latitude": 12.1735243,
+      "longitude": -14.652952,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53807,
+          "name": "Bafatá",
+          "latitude": 12.16583,
+          "longitude": -14.66167,
+          "translations": []
+        },
+        {
+          "id": 53815,
+          "name": "Contuboel Sector",
+          "latitude": 12.555,
+          "longitude": -14.641,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2721,
+      "name": "Leste",
+      "stateCode": "L",
+      "latitude": null,
+      "longitude": null,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 2722,
+      "name": "Bolama",
+      "stateCode": "BL",
+      "latitude": 11.1480591,
+      "longitude": -16.1345705,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53809,
+          "name": "Bolama",
+          "latitude": 11.57694,
+          "longitude": -15.47611,
+          "translations": []
+        },
+        {
+          "id": 53811,
+          "name": "Bubaque",
+          "latitude": 11.28333,
+          "longitude": -15.83333,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

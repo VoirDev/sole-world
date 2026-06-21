@@ -1,0 +1,90 @@
+{
+  "id": 190,
+  "name": "Saint-Martin (French part)",
+  "nativeName": "Saint-Martin",
+  "iso2": "MF",
+  "iso3": "MAF",
+  "numericCode": "663",
+  "phoneCode": "590",
+  "tld": ".mf",
+  "latitude": 18.08333333,
+  "longitude": -63.95,
+  "flagId": 110,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2552
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "세인트마틴 섬"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Saint Martin"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilha São Martinho"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Saint-Martin"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Sveti Martin"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سینت مارتن"
+    },
+    {
+      "languageCode": "de",
+      "name": "Saint Martin"
+    },
+    {
+      "languageCode": "es",
+      "name": "Saint Martin"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Saint-Martin"
+    },
+    {
+      "languageCode": "ja",
+      "name": "サン・マルタン（フランス領）"
+    },
+    {
+      "languageCode": "it",
+      "name": "Saint Martin"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "密克罗尼西亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Saint Martin"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Сен-Мартен (французская часть)"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Сен-Мартен (французька частина)"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Saint-Martin (część francuska)"
+    }
+  ],
+  "states": []
+}

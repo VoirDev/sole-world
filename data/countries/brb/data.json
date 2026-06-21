@@ -1,0 +1,259 @@
+{
+  "id": 20,
+  "name": "Barbados",
+  "nativeName": "Barbados",
+  "iso2": "BB",
+  "iso3": "BRB",
+  "numericCode": "052",
+  "phoneCode": "1",
+  "tld": ".bb",
+  "latitude": 13.16666666,
+  "longitude": -59.53333333,
+  "flagId": 231,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    848
+  ],
+  "timezoneIds": [
+    2274
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "바베이도스"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Barbados"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Barbados"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Barbados"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Barbados"
+    },
+    {
+      "languageCode": "fa",
+      "name": "باربادوس"
+    },
+    {
+      "languageCode": "de",
+      "name": "Barbados"
+    },
+    {
+      "languageCode": "es",
+      "name": "Barbados"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Barbade"
+    },
+    {
+      "languageCode": "ja",
+      "name": "バルバドス"
+    },
+    {
+      "languageCode": "it",
+      "name": "Barbados"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "巴巴多斯"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Barbados"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Барбадос"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Барбадос"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Barbados"
+    }
+  ],
+  "states": [
+    {
+      "id": 1220,
+      "name": "Saint Philip",
+      "stateCode": "10",
+      "latitude": 35.233114,
+      "longitude": -89.4364042,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8449,
+          "name": "Crane",
+          "latitude": 13.10487,
+          "longitude": -59.44861,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1221,
+      "name": "Saint Lucy",
+      "stateCode": "07",
+      "latitude": 38.7614625,
+      "longitude": -77.4491439,
+      "type": "parish",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 1222,
+      "name": "Saint Peter",
+      "stateCode": "09",
+      "latitude": 37.0827119,
+      "longitude": -94.517125,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8453,
+          "name": "Speightstown",
+          "latitude": 13.25072,
+          "longitude": -59.64396,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1223,
+      "name": "Saint Joseph",
+      "stateCode": "06",
+      "latitude": 39.7674578,
+      "longitude": -94.846681,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8447,
+          "name": "Bathsheba",
+          "latitude": 13.21133,
+          "longitude": -59.52596,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1224,
+      "name": "Saint James",
+      "stateCode": "04",
+      "latitude": 48.523566,
+      "longitude": -1.3237885,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8451,
+          "name": "Holetown",
+          "latitude": 13.18672,
+          "longitude": -59.63808,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1225,
+      "name": "Saint Thomas",
+      "stateCode": "11",
+      "latitude": 18.3380965,
+      "longitude": -64.8940946,
+      "type": "parish",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 1226,
+      "name": "Saint George",
+      "stateCode": "03",
+      "latitude": 37.0965278,
+      "longitude": -113.5684164,
+      "type": "parish",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 1227,
+      "name": "Saint John",
+      "stateCode": "05",
+      "latitude": 45.2733153,
+      "longitude": -66.063308,
+      "type": "parish",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 1228,
+      "name": "Christ Church",
+      "stateCode": "01",
+      "latitude": 36.0060407,
+      "longitude": -95.921121,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8452,
+          "name": "Oistins",
+          "latitude": 13.07067,
+          "longitude": -59.54637,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1229,
+      "name": "Saint Andrew",
+      "stateCode": "02",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8450,
+          "name": "Greenland",
+          "latitude": 13.25808,
+          "longitude": -59.57763,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 1230,
+      "name": "Saint Michael",
+      "stateCode": "08",
+      "latitude": 36.035977,
+      "longitude": -95.849052,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 8448,
+          "name": "Bridgetown",
+          "latitude": 13.10732,
+          "longitude": -59.62021,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

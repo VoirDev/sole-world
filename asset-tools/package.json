@@ -1,0 +1,13 @@
+{
+  "name": "sole-world-assets",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:assets": "node generate-media-assets.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.2"
+  },
+  "devDependencies": {}
+}

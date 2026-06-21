@@ -1,0 +1,92 @@
+{
+  "id": 88,
+  "name": "Guadeloupe",
+  "nativeName": "Guadeloupe",
+  "iso2": "GP",
+  "iso3": "GLP",
+  "numericCode": "312",
+  "phoneCode": "590",
+  "tld": ".gp",
+  "latitude": 16.25,
+  "longitude": -61.583333,
+  "flagId": 162,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2395
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "과들루프"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Guadalupe"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Guadalupe"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Guadeloupe"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Gvadalupa"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزیره گوادلوپ"
+    },
+    {
+      "languageCode": "de",
+      "name": "Guadeloupe"
+    },
+    {
+      "languageCode": "es",
+      "name": "Guadalupe"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Guadeloupe"
+    },
+    {
+      "languageCode": "ja",
+      "name": "グアドループ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Guadeloupa"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "瓜德罗普岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Guadeloupe"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Гваделупа"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Гваделупа"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Gwadelupa"
+    }
+  ],
+  "states": []
+}

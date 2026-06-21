@@ -1,0 +1,625 @@
+{
+  "id": 217,
+  "name": "Tajikistan",
+  "nativeName": "Тоҷикистон",
+  "iso2": "TJ",
+  "iso3": "TJK",
+  "numericCode": "762",
+  "phoneCode": "992",
+  "tld": ".tj",
+  "latitude": 39,
+  "longitude": 71,
+  "flagId": 32,
+  "regionId": 3,
+  "subregionId": 10,
+  "currencyIds": [
+    967
+  ],
+  "timezoneIds": [
+    2580
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "타지키스탄"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Tajiquistão"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Tajiquistão"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Tadzjikistan"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Tađikistan"
+    },
+    {
+      "languageCode": "fa",
+      "name": "تاجیکستان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Tadschikistan"
+    },
+    {
+      "languageCode": "es",
+      "name": "Tayikistán"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Tadjikistan"
+    },
+    {
+      "languageCode": "ja",
+      "name": "タジキスタン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Tagikistan"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "塔吉克斯坦"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Tacikistan"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Таджикистан"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Таджикистан"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Tadżykistan"
+    }
+  ],
+  "states": [
+    {
+      "id": 3397,
+      "name": "Nohiyahoi Tobei Jumhurí ",
+      "stateCode": "RA",
+      "latitude": 39.0857902,
+      "longitude": 70.2408325,
+      "type": "districts under republic administration",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106769,
+          "name": "Darband",
+          "latitude": 38.86776,
+          "longitude": 69.96642,
+          "translations": []
+        },
+        {
+          "id": 106774,
+          "name": "Hisor",
+          "latitude": 38.52504,
+          "longitude": 68.55124,
+          "translations": []
+        },
+        {
+          "id": 106779,
+          "name": "Karakenja",
+          "latitude": 39.23585,
+          "longitude": 71.52412,
+          "translations": []
+        },
+        {
+          "id": 106780,
+          "name": "Khodzha-Maston",
+          "latitude": 38.74457,
+          "longitude": 68.62702,
+          "translations": []
+        },
+        {
+          "id": 106800,
+          "name": "Novobod",
+          "latitude": 39.01084,
+          "longitude": 70.15082,
+          "translations": []
+        },
+        {
+          "id": 106801,
+          "name": "Obigarm",
+          "latitude": 38.71731,
+          "longitude": 69.70885,
+          "translations": []
+        },
+        {
+          "id": 106811,
+          "name": "Rasht",
+          "latitude": 39.02871,
+          "longitude": 70.37446,
+          "translations": []
+        },
+        {
+          "id": 106812,
+          "name": "Roghun",
+          "latitude": 38.69331,
+          "longitude": 69.73692,
+          "translations": []
+        },
+        {
+          "id": 106813,
+          "name": "Shahrinav",
+          "latitude": 38.57085,
+          "longitude": 68.33498,
+          "translations": []
+        },
+        {
+          "id": 106819,
+          "name": "Tagob",
+          "latitude": 38.83827,
+          "longitude": 68.89847,
+          "translations": []
+        },
+        {
+          "id": 106821,
+          "name": "Tursunzoda",
+          "latitude": 38.51271,
+          "longitude": 68.23163,
+          "translations": []
+        },
+        {
+          "id": 106822,
+          "name": "Vahdat",
+          "latitude": 38.55632,
+          "longitude": 69.01354,
+          "translations": []
+        },
+        {
+          "id": 106823,
+          "name": "Vahdat District",
+          "latitude": 38.83333,
+          "longitude": 69.33333,
+          "translations": []
+        },
+        {
+          "id": 106825,
+          "name": "Varzob",
+          "latitude": 38.77369,
+          "longitude": 68.81776,
+          "translations": []
+        },
+        {
+          "id": 106826,
+          "name": "Varzob District",
+          "latitude": 38.75,
+          "longitude": 68.75,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3398,
+      "name": "Khatlon",
+      "stateCode": "KT",
+      "latitude": 37.9113562,
+      "longitude": 69.097023,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106760,
+          "name": "Abdurahmoni Jomí",
+          "latitude": 37.94636,
+          "longitude": 68.80878,
+          "translations": []
+        },
+        {
+          "id": 106763,
+          "name": "Boshchorbogh",
+          "latitude": 37.52027,
+          "longitude": 68.12825,
+          "translations": []
+        },
+        {
+          "id": 106765,
+          "name": "Bŭstonqal’a",
+          "latitude": 37.84783,
+          "longitude": 68.83125,
+          "translations": []
+        },
+        {
+          "id": 106767,
+          "name": "Chubek",
+          "latitude": 37.61453,
+          "longitude": 69.70525,
+          "translations": []
+        },
+        {
+          "id": 106768,
+          "name": "Danghara",
+          "latitude": 38.09578,
+          "longitude": 69.33998,
+          "translations": []
+        },
+        {
+          "id": 106770,
+          "name": "Dŭstí",
+          "latitude": 37.34812,
+          "longitude": 68.66398,
+          "translations": []
+        },
+        {
+          "id": 106771,
+          "name": "Farkhor",
+          "latitude": 37.49219,
+          "longitude": 69.40356,
+          "translations": []
+        },
+        {
+          "id": 106773,
+          "name": "Gharavŭtí",
+          "latitude": 37.56703,
+          "longitude": 68.44668,
+          "translations": []
+        },
+        {
+          "id": 106778,
+          "name": "Jilikŭl",
+          "latitude": 37.49167,
+          "longitude": 68.53106,
+          "translations": []
+        },
+        {
+          "id": 106784,
+          "name": "Kirov",
+          "latitude": 37.81908,
+          "longitude": 68.85905,
+          "translations": []
+        },
+        {
+          "id": 106785,
+          "name": "Kolkhozobod",
+          "latitude": 37.58823,
+          "longitude": 68.65886,
+          "translations": []
+        },
+        {
+          "id": 106788,
+          "name": "Kŭlob",
+          "latitude": 37.91459,
+          "longitude": 69.78454,
+          "translations": []
+        },
+        {
+          "id": 106789,
+          "name": "Moskovskiy",
+          "latitude": 37.60931,
+          "longitude": 68.58094,
+          "translations": []
+        },
+        {
+          "id": 106791,
+          "name": "Mŭ’minobod",
+          "latitude": 38.10714,
+          "longitude": 70.03213,
+          "translations": []
+        },
+        {
+          "id": 106793,
+          "name": "Nohiyai Kolkhozobod",
+          "latitude": 37.57277,
+          "longitude": 68.81528,
+          "translations": []
+        },
+        {
+          "id": 106795,
+          "name": "Nohiyai Panj",
+          "latitude": 37.31611,
+          "longitude": 69.16679,
+          "translations": []
+        },
+        {
+          "id": 106797,
+          "name": "Nohiyai Vakhsh",
+          "latitude": 37.75602,
+          "longitude": 68.94138,
+          "translations": []
+        },
+        {
+          "id": 106798,
+          "name": "Norak",
+          "latitude": 38.38917,
+          "longitude": 69.32272,
+          "translations": []
+        },
+        {
+          "id": 106803,
+          "name": "Orzu",
+          "latitude": 37.5582,
+          "longitude": 68.81952,
+          "translations": []
+        },
+        {
+          "id": 106806,
+          "name": "Panj",
+          "latitude": 37.23634,
+          "longitude": 69.09911,
+          "translations": []
+        },
+        {
+          "id": 106810,
+          "name": "Qŭrghonteppa",
+          "latitude": 37.83399,
+          "longitude": 68.78186,
+          "translations": []
+        },
+        {
+          "id": 106814,
+          "name": "Shahritus",
+          "latitude": 37.26206,
+          "longitude": 68.13849,
+          "translations": []
+        },
+        {
+          "id": 106817,
+          "name": "Sovet",
+          "latitude": 38.0467,
+          "longitude": 69.58822,
+          "translations": []
+        },
+        {
+          "id": 106820,
+          "name": "Tartiki",
+          "latitude": 37.58221,
+          "longitude": 68.13347,
+          "translations": []
+        },
+        {
+          "id": 106824,
+          "name": "Vakhsh",
+          "latitude": 37.71485,
+          "longitude": 68.83456,
+          "translations": []
+        },
+        {
+          "id": 106828,
+          "name": "Vose’",
+          "latitude": 37.80396,
+          "longitude": 69.64417,
+          "translations": []
+        },
+        {
+          "id": 106829,
+          "name": "Yovon",
+          "latitude": 38.31408,
+          "longitude": 69.03784,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3399,
+      "name": "Gorno-Badakhshan",
+      "stateCode": "GB",
+      "latitude": 38.412732,
+      "longitude": 73.087749,
+      "type": "autonomous region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106776,
+          "name": "Ishqoshim",
+          "latitude": 36.72484,
+          "longitude": 71.61331,
+          "translations": []
+        },
+        {
+          "id": 106781,
+          "name": "Khorugh",
+          "latitude": 37.48974,
+          "longitude": 71.55304,
+          "translations": []
+        },
+        {
+          "id": 106790,
+          "name": "Murghob",
+          "latitude": 38.17023,
+          "longitude": 73.96674,
+          "translations": []
+        },
+        {
+          "id": 106796,
+          "name": "Nohiyai Shughnon",
+          "latitude": 37.70004,
+          "longitude": 72.16748,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3400,
+      "name": "Sughd ",
+      "stateCode": "SU",
+      "latitude": 39.5155326,
+      "longitude": 69.097023,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106761,
+          "name": "Adrasmon",
+          "latitude": 40.64928,
+          "longitude": 69.98472,
+          "translations": []
+        },
+        {
+          "id": 106762,
+          "name": "Ayní",
+          "latitude": 39.39406,
+          "longitude": 68.53766,
+          "translations": []
+        },
+        {
+          "id": 106764,
+          "name": "Bŭston",
+          "latitude": 40.52286,
+          "longitude": 69.33307,
+          "translations": []
+        },
+        {
+          "id": 106766,
+          "name": "Chkalov",
+          "latitude": 40.23417,
+          "longitude": 69.69481,
+          "translations": []
+        },
+        {
+          "id": 106772,
+          "name": "Ghafurov",
+          "latitude": 40.21571,
+          "longitude": 69.72867,
+          "translations": []
+        },
+        {
+          "id": 106775,
+          "name": "Isfara",
+          "latitude": 40.12649,
+          "longitude": 70.62526,
+          "translations": []
+        },
+        {
+          "id": 106777,
+          "name": "Istaravshan",
+          "latitude": 39.9142,
+          "longitude": 69.00328,
+          "translations": []
+        },
+        {
+          "id": 106782,
+          "name": "Khŭjand",
+          "latitude": 40.28256,
+          "longitude": 69.62216,
+          "translations": []
+        },
+        {
+          "id": 106783,
+          "name": "Kim",
+          "latitude": 40.20798,
+          "longitude": 70.46882,
+          "translations": []
+        },
+        {
+          "id": 106786,
+          "name": "Konibodom",
+          "latitude": 40.29414,
+          "longitude": 70.43122,
+          "translations": []
+        },
+        {
+          "id": 106787,
+          "name": "Konsoy",
+          "latitude": 40.49155,
+          "longitude": 69.70245,
+          "translations": []
+        },
+        {
+          "id": 106792,
+          "name": "Neftobod",
+          "latitude": 40.21524,
+          "longitude": 70.57193,
+          "translations": []
+        },
+        {
+          "id": 106794,
+          "name": "Nohiyai Konibodom",
+          "latitude": 40.26877,
+          "longitude": 70.33057,
+          "translations": []
+        },
+        {
+          "id": 106799,
+          "name": "Nov",
+          "latitude": 40.1522,
+          "longitude": 69.37076,
+          "translations": []
+        },
+        {
+          "id": 106802,
+          "name": "Oltintopkan",
+          "latitude": 40.65425,
+          "longitude": 69.59811,
+          "translations": []
+        },
+        {
+          "id": 106804,
+          "name": "Pakhtakoron",
+          "latitude": 40.15709,
+          "longitude": 68.74659,
+          "translations": []
+        },
+        {
+          "id": 106805,
+          "name": "Palos",
+          "latitude": 40.31628,
+          "longitude": 69.73743,
+          "translations": []
+        },
+        {
+          "id": 106807,
+          "name": "Panjakent",
+          "latitude": 39.49524,
+          "longitude": 67.60931,
+          "translations": []
+        },
+        {
+          "id": 106808,
+          "name": "Proletar",
+          "latitude": 40.16713,
+          "longitude": 69.50163,
+          "translations": []
+        },
+        {
+          "id": 106809,
+          "name": "Quruqsoy",
+          "latitude": 40.57648,
+          "longitude": 69.37962,
+          "translations": []
+        },
+        {
+          "id": 106815,
+          "name": "Shaydon",
+          "latitude": 40.66992,
+          "longitude": 70.3502,
+          "translations": []
+        },
+        {
+          "id": 106816,
+          "name": "Shŭrob",
+          "latitude": 40.04605,
+          "longitude": 70.54117,
+          "translations": []
+        },
+        {
+          "id": 106818,
+          "name": "Taboshar",
+          "latitude": 40.57017,
+          "longitude": 69.64175,
+          "translations": []
+        },
+        {
+          "id": 106827,
+          "name": "Vorukh",
+          "latitude": 39.85125,
+          "longitude": 70.58012,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

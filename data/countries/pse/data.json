@@ -1,0 +1,1196 @@
+{
+  "id": 169,
+  "name": "Palestinian Territory Occupied",
+  "nativeName": "فلسطين",
+  "iso2": "PS",
+  "iso3": "PSE",
+  "numericCode": "275",
+  "phoneCode": "970",
+  "tld": ".ps",
+  "latitude": 31.9,
+  "longitude": 35.2,
+  "flagId": 68,
+  "regionId": 3,
+  "subregionId": 11,
+  "currencyIds": [
+    902
+  ],
+  "timezoneIds": [
+    2502,
+    2503
+  ],
+  "officialLanguageIds": [
+    7,
+    36,
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "팔레스타인 영토"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Palestina"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Palestina"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Palestijnse gebieden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Palestina"
+    },
+    {
+      "languageCode": "fa",
+      "name": "فلسطین"
+    },
+    {
+      "languageCode": "de",
+      "name": "Palästina"
+    },
+    {
+      "languageCode": "es",
+      "name": "Palestina"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Palestine"
+    },
+    {
+      "languageCode": "ja",
+      "name": "パレスチナ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Palestina"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "巴勒斯坦"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Filistin"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Оккупированная палестинская территория"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Окупована палестинська територія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Okupowane terytorium palestyńskie"
+    }
+  ],
+  "states": [
+    {
+      "id": 5118,
+      "name": "Bethlehem",
+      "stateCode": "BTH",
+      "latitude": 31.7053996,
+      "longitude": 35.1936877,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153950,
+          "name": "Battir",
+          "latitude": 31.7282154,
+          "longitude": 35.1174323,
+          "translations": []
+        },
+        {
+          "id": 153951,
+          "name": "Beit Fajjar",
+          "latitude": 31.6216699,
+          "longitude": 35.1343033,
+          "translations": []
+        },
+        {
+          "id": 153952,
+          "name": "Beit Jala",
+          "latitude": 31.7160334,
+          "longitude": 35.1665493,
+          "translations": []
+        },
+        {
+          "id": 153953,
+          "name": "Beit Sahour",
+          "latitude": 31.6978704,
+          "longitude": 35.2079303,
+          "translations": []
+        },
+        {
+          "id": 153954,
+          "name": "Bethlehem",
+          "latitude": 31.7054165,
+          "longitude": 35.1818428,
+          "translations": []
+        },
+        {
+          "id": 153955,
+          "name": "Al-Dawha",
+          "latitude": 31.6977399,
+          "longitude": 35.1459545,
+          "translations": []
+        },
+        {
+          "id": 153956,
+          "name": "Husan",
+          "latitude": 31.7084604,
+          "longitude": 35.1128253,
+          "translations": []
+        },
+        {
+          "id": 153957,
+          "name": "al-Khader",
+          "latitude": 31.6948454,
+          "longitude": 35.1501453,
+          "translations": []
+        },
+        {
+          "id": 153958,
+          "name": "Nahalin",
+          "latitude": 31.6856424,
+          "longitude": 35.0997623,
+          "translations": []
+        },
+        {
+          "id": 153959,
+          "name": "Tuqu'",
+          "latitude": 31.6391274,
+          "longitude": 35.1918903,
+          "translations": []
+        },
+        {
+          "id": 153960,
+          "name": "al-Ubeidiya",
+          "latitude": 31.7238643,
+          "longitude": 35.2712213,
+          "translations": []
+        },
+        {
+          "id": 153961,
+          "name": "Za'atara",
+          "latitude": 31.6744784,
+          "longitude": 35.2344913,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5119,
+      "name": "Deir El Balah",
+      "stateCode": "DEB",
+      "latitude": 31.4202897,
+      "longitude": 34.286164,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153962,
+          "name": "Deir al-Balah",
+          "latitude": 31.4171735,
+          "longitude": 34.3303313,
+          "translations": []
+        },
+        {
+          "id": 153963,
+          "name": "az-Zawayda",
+          "latitude": 31.4297975,
+          "longitude": 34.3501423,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5120,
+      "name": "Gaza",
+      "stateCode": "GZA",
+      "latitude": 31.4872397,
+      "longitude": 34.149989,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153964,
+          "name": "Gaza City",
+          "latitude": 31.5017295,
+          "longitude": 34.4462448,
+          "translations": []
+        },
+        {
+          "id": 153965,
+          "name": "Al-Zahra",
+          "latitude": 31.4724675,
+          "longitude": 34.3778293,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5121,
+      "name": "Hebron",
+      "stateCode": "HBN",
+      "latitude": 31.5326001,
+      "longitude": 35.0639475,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153966,
+          "name": "Dura",
+          "latitude": 31.5051274,
+          "longitude": 35.0069273,
+          "translations": []
+        },
+        {
+          "id": 153967,
+          "name": "Halhul",
+          "latitude": 31.5799242,
+          "longitude": 35.0793045,
+          "translations": []
+        },
+        {
+          "id": 153968,
+          "name": "Hebron",
+          "latitude": 31.5326035,
+          "longitude": 35.0792263,
+          "translations": []
+        },
+        {
+          "id": 153969,
+          "name": "Yatta",
+          "latitude": 31.4441845,
+          "longitude": 35.0695053,
+          "translations": []
+        },
+        {
+          "id": 153970,
+          "name": "ad-Dhahiriya",
+          "latitude": 31.4096725,
+          "longitude": 34.9549083,
+          "translations": []
+        },
+        {
+          "id": 153971,
+          "name": "Bani Na'im",
+          "latitude": 31.5149005,
+          "longitude": 35.1447403,
+          "translations": []
+        },
+        {
+          "id": 153972,
+          "name": "Beit 'Awwa",
+          "latitude": 31.5067524,
+          "longitude": 34.9295613,
+          "translations": []
+        },
+        {
+          "id": 153973,
+          "name": "Beit Ula",
+          "latitude": 31.5984564,
+          "longitude": 35.0057753,
+          "translations": []
+        },
+        {
+          "id": 153974,
+          "name": "Beit Ummar",
+          "latitude": 31.6228464,
+          "longitude": 35.0815993,
+          "translations": []
+        },
+        {
+          "id": 153975,
+          "name": "Deir Sammit",
+          "latitude": 31.5199634,
+          "longitude": 34.9520713,
+          "translations": []
+        },
+        {
+          "id": 153976,
+          "name": "Idhna",
+          "latitude": 31.5572864,
+          "longitude": 34.9586433,
+          "translations": []
+        },
+        {
+          "id": 153977,
+          "name": "Kharas",
+          "latitude": 31.6122524,
+          "longitude": 35.0236513,
+          "translations": []
+        },
+        {
+          "id": 153978,
+          "name": "Nuba",
+          "latitude": 31.6138208,
+          "longitude": 35.005792,
+          "translations": []
+        },
+        {
+          "id": 153979,
+          "name": "Sa'ir",
+          "latitude": 31.5824895,
+          "longitude": 35.1231763,
+          "translations": []
+        },
+        {
+          "id": 153980,
+          "name": "as-Samu",
+          "latitude": 31.3986445,
+          "longitude": 35.0446883,
+          "translations": []
+        },
+        {
+          "id": 153981,
+          "name": "Surif",
+          "latitude": 31.6495864,
+          "longitude": 35.0441123,
+          "translations": []
+        },
+        {
+          "id": 153982,
+          "name": "Tarqumiya",
+          "latitude": 31.5773644,
+          "longitude": 34.9935743,
+          "translations": []
+        },
+        {
+          "id": 153983,
+          "name": "Taffuh",
+          "latitude": 31.5384825,
+          "longitude": 35.0303733,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5122,
+      "name": "Jenin",
+      "stateCode": "JEN",
+      "latitude": 32.4263761,
+      "longitude": 35.0856887,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153984,
+          "name": "Jenin",
+          "latitude": 32.457284,
+          "longitude": 35.2816144,
+          "translations": []
+        },
+        {
+          "id": 153985,
+          "name": "Qabatiya",
+          "latitude": 32.4096171,
+          "longitude": 35.2594933,
+          "translations": []
+        },
+        {
+          "id": 153986,
+          "name": "Ajjah",
+          "latitude": 32.3600171,
+          "longitude": 35.1773943,
+          "translations": []
+        },
+        {
+          "id": 153987,
+          "name": "Arrabah",
+          "latitude": 32.4033101,
+          "longitude": 35.1853143,
+          "translations": []
+        },
+        {
+          "id": 153988,
+          "name": "Burqin",
+          "latitude": 32.456169,
+          "longitude": 35.2410883,
+          "translations": []
+        },
+        {
+          "id": 153989,
+          "name": "Deir Abu Da'if",
+          "latitude": 32.4560951,
+          "longitude": 35.3443223,
+          "translations": []
+        },
+        {
+          "id": 153990,
+          "name": "Jaba",
+          "latitude": 32.3250611,
+          "longitude": 35.1995643,
+          "translations": []
+        },
+        {
+          "id": 153991,
+          "name": "Kafr Dan",
+          "latitude": 32.4780111,
+          "longitude": 35.2331873,
+          "translations": []
+        },
+        {
+          "id": 153992,
+          "name": "Kafr Rai",
+          "latitude": 32.3734521,
+          "longitude": 35.1349363,
+          "translations": []
+        },
+        {
+          "id": 153993,
+          "name": "Meithalun",
+          "latitude": 32.3492441,
+          "longitude": 35.2508843,
+          "translations": []
+        },
+        {
+          "id": 153994,
+          "name": "Silat al-Harithiya",
+          "latitude": 32.509797,
+          "longitude": 35.2068473,
+          "translations": []
+        },
+        {
+          "id": 153995,
+          "name": "Silat ad-Dhahr",
+          "latitude": 32.3175321,
+          "longitude": 35.1666323,
+          "translations": []
+        },
+        {
+          "id": 153996,
+          "name": "Ya'bad",
+          "latitude": 32.446868,
+          "longitude": 35.1466743,
+          "translations": []
+        },
+        {
+          "id": 153997,
+          "name": "al-Yamun",
+          "latitude": 32.4867111,
+          "longitude": 35.2129923,
+          "translations": []
+        },
+        {
+          "id": 153998,
+          "name": "Zababdeh",
+          "latitude": 32.3852361,
+          "longitude": 35.3028793,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5123,
+      "name": "Jericho ",
+      "stateCode": "JRH",
+      "latitude": 31.9676425,
+      "longitude": 35.1354279,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153999,
+          "name": "Jericho",
+          "latitude": 31.859507,
+          "longitude": 35.4439082,
+          "translations": []
+        },
+        {
+          "id": 154000,
+          "name": "al-Auja",
+          "latitude": 31.9480993,
+          "longitude": 35.4505643,
+          "translations": []
+        },
+        {
+          "id": 154001,
+          "name": "al-Jiftlik",
+          "latitude": 32.1414323,
+          "longitude": 35.4466025,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5124,
+      "name": "Jerusalem (Quds)",
+      "stateCode": "JEM",
+      "latitude": 31.8020328,
+      "longitude": 34.9599664,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154002,
+          "name": "East Jerusalem",
+          "latitude": 31.7965043,
+          "longitude": 35.0105434,
+          "translations": []
+        },
+        {
+          "id": 154003,
+          "name": "Abu Dis",
+          "latitude": 31.7636163,
+          "longitude": 35.2371223,
+          "translations": []
+        },
+        {
+          "id": 154004,
+          "name": "Ar-Ram",
+          "latitude": 31.8492863,
+          "longitude": 35.2128893,
+          "translations": []
+        },
+        {
+          "id": 154005,
+          "name": "Biddu",
+          "latitude": 31.8344582,
+          "longitude": 35.0744173,
+          "translations": []
+        },
+        {
+          "id": 154006,
+          "name": "Beit 'Anan",
+          "latitude": 31.8510993,
+          "longitude": 35.0911193,
+          "translations": []
+        },
+        {
+          "id": 154007,
+          "name": "Bir Nabala",
+          "latitude": 31.8512163,
+          "longitude": 35.1802353,
+          "translations": []
+        },
+        {
+          "id": 154008,
+          "name": "Hizma",
+          "latitude": 31.8364954,
+          "longitude": 35.2426313,
+          "translations": []
+        },
+        {
+          "id": 154009,
+          "name": "Kafr Aqab",
+          "latitude": 31.8747227,
+          "longitude": 35.21724,
+          "translations": []
+        },
+        {
+          "id": 154010,
+          "name": "Qatanna",
+          "latitude": 31.8269573,
+          "longitude": 35.0896003,
+          "translations": []
+        },
+        {
+          "id": 154011,
+          "name": "Qalandiya",
+          "latitude": 31.8616313,
+          "longitude": 35.1873143,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5125,
+      "name": "Khan Yunis",
+      "stateCode": "KYS",
+      "latitude": 31.3298766,
+      "longitude": 34.2254833,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154012,
+          "name": "Abasan al-Kabira",
+          "latitude": 31.3231605,
+          "longitude": 34.3234253,
+          "translations": []
+        },
+        {
+          "id": 154013,
+          "name": "Bani Suheila",
+          "latitude": 31.3421385,
+          "longitude": 34.3046543,
+          "translations": []
+        },
+        {
+          "id": 154014,
+          "name": "Khan Yunis",
+          "latitude": 31.3462351,
+          "longitude": 34.2833989,
+          "translations": []
+        },
+        {
+          "id": 154015,
+          "name": "Abasan al-Saghira",
+          "latitude": 31.3397435,
+          "longitude": 34.3260333,
+          "translations": []
+        },
+        {
+          "id": 154016,
+          "name": "Khuzaʽa",
+          "latitude": 31.3070566,
+          "longitude": 34.3394473,
+          "translations": []
+        },
+        {
+          "id": 154017,
+          "name": "Al-Qarara",
+          "latitude": 31.3713465,
+          "longitude": 34.3146603,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5126,
+      "name": "Nablus",
+      "stateCode": "NBS",
+      "latitude": 32.2243755,
+      "longitude": 35.2064793,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154018,
+          "name": "Nablus",
+          "latitude": 32.2243755,
+          "longitude": 35.2064793,
+          "translations": []
+        },
+        {
+          "id": 154019,
+          "name": "Aqraba",
+          "latitude": 32.1276202,
+          "longitude": 35.3221353,
+          "translations": []
+        },
+        {
+          "id": 154020,
+          "name": "Asira ash-Shamaliya",
+          "latitude": 32.2518691,
+          "longitude": 35.2475713,
+          "translations": []
+        },
+        {
+          "id": 154021,
+          "name": "Beita",
+          "latitude": 32.1413742,
+          "longitude": 35.2657993,
+          "translations": []
+        },
+        {
+          "id": 154022,
+          "name": "Huwara",
+          "latitude": 32.1513472,
+          "longitude": 35.2361993,
+          "translations": []
+        },
+        {
+          "id": 154023,
+          "name": "Jammain",
+          "latitude": 32.1321142,
+          "longitude": 35.1827423,
+          "translations": []
+        },
+        {
+          "id": 154024,
+          "name": "Qabalan",
+          "latitude": 32.1018542,
+          "longitude": 35.2671293,
+          "translations": []
+        },
+        {
+          "id": 154025,
+          "name": "Sebastia",
+          "latitude": 32.2782751,
+          "longitude": 35.1780333,
+          "translations": []
+        },
+        {
+          "id": 154026,
+          "name": "Beit Furik",
+          "latitude": 32.1754902,
+          "longitude": 35.3158843,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5127,
+      "name": "North Gaza",
+      "stateCode": "NGZ",
+      "latitude": 31.547506,
+      "longitude": 34.4281409,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154027,
+          "name": "Beit Hanoun",
+          "latitude": 31.5385174,
+          "longitude": 34.5161703,
+          "translations": []
+        },
+        {
+          "id": 154028,
+          "name": "Beit Lahia",
+          "latitude": 31.5513234,
+          "longitude": 34.4886223,
+          "translations": []
+        },
+        {
+          "id": 154029,
+          "name": "Izbat Beit Hanoun",
+          "latitude": 31.5472895,
+          "longitude": 34.5019722,
+          "translations": []
+        },
+        {
+          "id": 154030,
+          "name": "Jabalia",
+          "latitude": 31.5294305,
+          "longitude": 34.4591413,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5128,
+      "name": "Qalqilya",
+      "stateCode": "QQA",
+      "latitude": 32.1810323,
+      "longitude": 34.9936999,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154031,
+          "name": "Azzun",
+          "latitude": 32.1771352,
+          "longitude": 35.0353573,
+          "translations": []
+        },
+        {
+          "id": 154032,
+          "name": "Hableh",
+          "latitude": 32.1638782,
+          "longitude": 34.9576803,
+          "translations": []
+        },
+        {
+          "id": 154033,
+          "name": "Qalqilya",
+          "latitude": 32.1960491,
+          "longitude": 34.9609133,
+          "translations": []
+        },
+        {
+          "id": 154034,
+          "name": "Kafr Thulth",
+          "latitude": 32.1528332,
+          "longitude": 35.0246903,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5129,
+      "name": "Rafah",
+      "stateCode": "RFH",
+      "latitude": 31.2968899,
+      "longitude": 34.1116685,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154035,
+          "name": "Al-Bayuk",
+          "latitude": 31.2634786,
+          "longitude": 34.2609813,
+          "translations": []
+        },
+        {
+          "id": 154036,
+          "name": "Al-Mawasi",
+          "latitude": 31.3484496,
+          "longitude": 34.2355363,
+          "translations": []
+        },
+        {
+          "id": 154037,
+          "name": "Al Qarya as Suwaydiya",
+          "latitude": 31.3231655,
+          "longitude": 34.2015753,
+          "translations": []
+        },
+        {
+          "id": 154038,
+          "name": "Rafah ",
+          "latitude": 31.2968145,
+          "longitude": 34.2228823,
+          "translations": []
+        },
+        {
+          "id": 154039,
+          "name": "Shokat as-Sufi",
+          "latitude": 31.2509125,
+          "longitude": 34.2451672,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5130,
+      "name": "Ramallah",
+      "stateCode": "RBH",
+      "latitude": 31.9430145,
+      "longitude": 34.8645651,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154040,
+          "name": "Al-Bireh",
+          "latitude": 31.9125973,
+          "longitude": 35.2011173,
+          "translations": []
+        },
+        {
+          "id": 154041,
+          "name": "Ramallah",
+          "latitude": 31.9074171,
+          "longitude": 35.164682,
+          "translations": []
+        },
+        {
+          "id": 154042,
+          "name": "Beitunia",
+          "latitude": 31.8893153,
+          "longitude": 35.1492133,
+          "translations": []
+        },
+        {
+          "id": 154043,
+          "name": "Rawabi",
+          "latitude": 32.0102157,
+          "longitude": 35.1712941,
+          "translations": []
+        },
+        {
+          "id": 154044,
+          "name": "Bani Zeid al-Sharqiya",
+          "latitude": 32.0407432,
+          "longitude": 35.1532783,
+          "translations": []
+        },
+        {
+          "id": 154045,
+          "name": "Beit Liqya",
+          "latitude": 31.8699713,
+          "longitude": 35.0446023,
+          "translations": []
+        },
+        {
+          "id": 154046,
+          "name": "Bir Zeit",
+          "latitude": 31.9753483,
+          "longitude": 35.1754423,
+          "translations": []
+        },
+        {
+          "id": 154047,
+          "name": "Deir Dibwan",
+          "latitude": 31.9112393,
+          "longitude": 35.2483883,
+          "translations": []
+        },
+        {
+          "id": 154048,
+          "name": "Deir Jarir",
+          "latitude": 31.9656463,
+          "longitude": 35.2731763,
+          "translations": []
+        },
+        {
+          "id": 154049,
+          "name": "Kharbatha al-Misbah",
+          "latitude": 31.8853003,
+          "longitude": 35.0514733,
+          "translations": []
+        },
+        {
+          "id": 154050,
+          "name": "al-Mazra'a ash-Sharqiya",
+          "latitude": 32.0032722,
+          "longitude": 35.2555323,
+          "translations": []
+        },
+        {
+          "id": 154051,
+          "name": "Ni'lin",
+          "latitude": 31.9468773,
+          "longitude": 35.0008613,
+          "translations": []
+        },
+        {
+          "id": 154052,
+          "name": "Silwad",
+          "latitude": 31.9794242,
+          "longitude": 35.2412653,
+          "translations": []
+        },
+        {
+          "id": 154053,
+          "name": "Sinjil",
+          "latitude": 32.0336413,
+          "longitude": 35.2433353,
+          "translations": []
+        },
+        {
+          "id": 154054,
+          "name": "Turmus Ayya",
+          "latitude": 32.0327602,
+          "longitude": 35.2677753,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5131,
+      "name": "Salfit",
+      "stateCode": "SLT",
+      "latitude": 32.1112272,
+      "longitude": 34.9578769,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154055,
+          "name": "Biddya",
+          "latitude": 32.1134002,
+          "longitude": 35.0568653,
+          "translations": []
+        },
+        {
+          "id": 154056,
+          "name": "Bruqin",
+          "latitude": 32.0726472,
+          "longitude": 35.0778063,
+          "translations": []
+        },
+        {
+          "id": 154057,
+          "name": "Deir Ballut",
+          "latitude": 32.0650672,
+          "longitude": 35.0049493,
+          "translations": []
+        },
+        {
+          "id": 154058,
+          "name": "Deir Istiya",
+          "latitude": 32.1307962,
+          "longitude": 35.1195363,
+          "translations": []
+        },
+        {
+          "id": 154059,
+          "name": "Farkha",
+          "latitude": 32.0687772,
+          "longitude": 35.1302763,
+          "translations": []
+        },
+        {
+          "id": 154060,
+          "name": "Haris",
+          "latitude": 32.1134492,
+          "longitude": 35.1231163,
+          "translations": []
+        },
+        {
+          "id": 154061,
+          "name": "Iskaka",
+          "latitude": 32.1029552,
+          "longitude": 35.2039493,
+          "translations": []
+        },
+        {
+          "id": 154062,
+          "name": "Kafr ad-Dik",
+          "latitude": 32.0686354,
+          "longitude": 35.0605081,
+          "translations": []
+        },
+        {
+          "id": 154063,
+          "name": "Kifl Hares",
+          "latitude": 32.1169242,
+          "longitude": 35.1363643,
+          "translations": []
+        },
+        {
+          "id": 154064,
+          "name": "Marda",
+          "latitude": 32.1142512,
+          "longitude": 35.1752513,
+          "translations": []
+        },
+        {
+          "id": 154065,
+          "name": "Mas-ha",
+          "latitude": 32.1072982,
+          "longitude": 35.0303743,
+          "translations": []
+        },
+        {
+          "id": 154066,
+          "name": "Qarawat Bani Hassan",
+          "latitude": 32.1285392,
+          "longitude": 35.0787783,
+          "translations": []
+        },
+        {
+          "id": 154067,
+          "name": "Qira",
+          "latitude": 32.1221342,
+          "longitude": 35.1506323,
+          "translations": []
+        },
+        {
+          "id": 154068,
+          "name": "Rafat",
+          "latitude": 32.0787202,
+          "longitude": 35.0246873,
+          "translations": []
+        },
+        {
+          "id": 154069,
+          "name": "Sarta",
+          "latitude": 32.1033692,
+          "longitude": 35.0712383,
+          "translations": []
+        },
+        {
+          "id": 154070,
+          "name": "Yasuf",
+          "latitude": 32.1094052,
+          "longitude": 35.2191153,
+          "translations": []
+        },
+        {
+          "id": 154071,
+          "name": "az-Zawiya",
+          "latitude": 32.0947052,
+          "longitude": 35.0186763,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5132,
+      "name": "Tubas",
+      "stateCode": "TBS",
+      "latitude": 32.2938043,
+      "longitude": 34.851098,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154072,
+          "name": "Tubas",
+          "latitude": 32.3211201,
+          "longitude": 35.3493533,
+          "translations": []
+        },
+        {
+          "id": 154073,
+          "name": "'Aqqaba",
+          "latitude": 32.3525706,
+          "longitude": 35.3267476,
+          "translations": []
+        },
+        {
+          "id": 154074,
+          "name": "Tammun",
+          "latitude": 32.2831551,
+          "longitude": 35.3651893,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5133,
+      "name": "Tulkarm",
+      "stateCode": "TKM",
+      "latitude": 32.3276672,
+      "longitude": 34.9231108,
+      "type": "governorate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154075,
+          "name": "Anabta",
+          "latitude": 32.3072871,
+          "longitude": 35.0988783,
+          "translations": []
+        },
+        {
+          "id": 154076,
+          "name": "Attil",
+          "latitude": 32.3701031,
+          "longitude": 35.0519383,
+          "translations": []
+        },
+        {
+          "id": 154077,
+          "name": "Bal'a",
+          "latitude": 32.3325561,
+          "longitude": 35.0893533,
+          "translations": []
+        },
+        {
+          "id": 154078,
+          "name": "Baqa ash-Sharqiyya",
+          "latitude": 32.4111751,
+          "longitude": 35.0505933,
+          "translations": []
+        },
+        {
+          "id": 154079,
+          "name": "Beit Lid",
+          "latitude": 32.2615821,
+          "longitude": 35.1096803,
+          "translations": []
+        },
+        {
+          "id": 154080,
+          "name": "Qaffin",
+          "latitude": 32.433412,
+          "longitude": 35.0637003,
+          "translations": []
+        },
+        {
+          "id": 154081,
+          "name": "Tulkarm",
+          "latitude": 32.3079648,
+          "longitude": 35.0080289,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

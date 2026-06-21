@@ -1,0 +1,253 @@
+{
+  "id": 2,
+  "name": "Aland Islands",
+  "nativeName": "Åland",
+  "iso2": "AX",
+  "iso3": "ALA",
+  "numericCode": "248",
+  "phoneCode": "358",
+  "tld": ".ax",
+  "latitude": 60.116667,
+  "longitude": 19.9,
+  "flagId": 233,
+  "regionId": 4,
+  "subregionId": 18,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2235
+  ],
+  "officialLanguageIds": [
+    48
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "올란드 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas de Aland"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas de Aland"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Ålandeilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Ålandski otoci"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر الند"
+    },
+    {
+      "languageCode": "de",
+      "name": "Åland"
+    },
+    {
+      "languageCode": "es",
+      "name": "Alandia"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Åland"
+    },
+    {
+      "languageCode": "ja",
+      "name": "オーランド諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Aland"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "奥兰群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Åland Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Аландские острова"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Аландські острови"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Alandzkie"
+    }
+  ],
+  "states": [
+    {
+      "id": 5287,
+      "name": "Mariehamn",
+      "stateCode": null,
+      "latitude": 60.0945578,
+      "longitude": 19.795053,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5288,
+      "name": "Jomala",
+      "stateCode": null,
+      "latitude": 60.1522391,
+      "longitude": 19.8747981,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5289,
+      "name": "Finström",
+      "stateCode": null,
+      "latitude": 60.2299321,
+      "longitude": 19.9674636,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5290,
+      "name": "Lemland",
+      "stateCode": null,
+      "latitude": 60.0688705,
+      "longitude": 20.065814,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5291,
+      "name": "Saltvik",
+      "stateCode": null,
+      "latitude": 60.2755446,
+      "longitude": 20.0413192,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5292,
+      "name": "Hammarland",
+      "stateCode": null,
+      "latitude": 60.2164183,
+      "longitude": 19.7196403,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5293,
+      "name": "Sund",
+      "stateCode": null,
+      "latitude": 60.2308476,
+      "longitude": 19.8239705,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5294,
+      "name": "Eckerö",
+      "stateCode": null,
+      "latitude": 60.2231814,
+      "longitude": 19.5389379,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5295,
+      "name": "Föglö",
+      "stateCode": null,
+      "latitude": 60.0146277,
+      "longitude": 20.3933407,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5296,
+      "name": "Geta",
+      "stateCode": null,
+      "latitude": 60.3749727,
+      "longitude": 19.8265962,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5297,
+      "name": "Vårdö",
+      "stateCode": null,
+      "latitude": 60.2423396,
+      "longitude": 20.3528105,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5298,
+      "name": "Brändö",
+      "stateCode": null,
+      "latitude": 60.4125908,
+      "longitude": 21.0229942,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5299,
+      "name": "Lumparland",
+      "stateCode": null,
+      "latitude": 60.1152357,
+      "longitude": 20.241428,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5300,
+      "name": "Kumlinge",
+      "stateCode": null,
+      "latitude": 60.2599272,
+      "longitude": 20.75875,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5301,
+      "name": "Kökar",
+      "stateCode": null,
+      "latitude": 59.920817,
+      "longitude": 20.8885302,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5302,
+      "name": "Sottunga",
+      "stateCode": null,
+      "latitude": 60.1307977,
+      "longitude": 20.6459821,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

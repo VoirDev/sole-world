@@ -1,0 +1,90 @@
+{
+  "id": 243,
+  "name": "Wallis and Futuna Islands",
+  "nativeName": "Wallis et Futuna",
+  "iso2": "WF",
+  "iso3": "WLF",
+  "numericCode": "876",
+  "phoneCode": "681",
+  "tld": ".wf",
+  "latitude": -13.3,
+  "longitude": -176.2,
+  "flagId": 8,
+  "regionId": 5,
+  "subregionId": 22,
+  "currencyIds": [
+    885
+  ],
+  "timezoneIds": [
+    2642
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "왈리스 푸투나"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Wallis e Futuna"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Wallis e Futuna"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Wallis en Futuna"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Wallis i Fortuna"
+    },
+    {
+      "languageCode": "fa",
+      "name": "والیس و فوتونا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Wallis und Futuna"
+    },
+    {
+      "languageCode": "es",
+      "name": "Wallis y Futuna"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Wallis-et-Futuna"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ウォリス・フツナ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Wallis e Futuna"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "瓦利斯群岛和富图纳群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Wallis Ve Futuna"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Острова Уоллис и Футуна"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Острови Уолліс і Футуна"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Wallis i Futuna"
+    }
+  ],
+  "states": []
+}

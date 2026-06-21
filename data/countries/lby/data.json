@@ -1,0 +1,681 @@
+{
+  "id": 124,
+  "name": "Libya",
+  "nativeName": "دولة ليبيا",
+  "iso2": "LY",
+  "iso3": "LBY",
+  "numericCode": "434",
+  "phoneCode": "218",
+  "tld": ".ly",
+  "latitude": 25,
+  "longitude": 17,
+  "flagId": 115,
+  "regionId": 1,
+  "subregionId": 1,
+  "currencyIds": [
+    914
+  ],
+  "timezoneIds": [
+    2440
+  ],
+  "officialLanguageIds": [
+    7
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "리비아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Líbia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Líbia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Libië"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Libija"
+    },
+    {
+      "languageCode": "fa",
+      "name": "لیبی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Libyen"
+    },
+    {
+      "languageCode": "es",
+      "name": "Libia"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Libye"
+    },
+    {
+      "languageCode": "ja",
+      "name": "リビア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Libia"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "利比亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Libya"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Ливия"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Лівія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Libia"
+    }
+  ],
+  "states": [
+    {
+      "id": 2961,
+      "name": "Murqub",
+      "stateCode": "MB",
+      "latitude": 32.4599677,
+      "longitude": 14.1001326,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67000,
+          "name": "Al Khums",
+          "latitude": 32.64861,
+          "longitude": 14.26191,
+          "translations": []
+        },
+        {
+          "id": 67021,
+          "name": "Masallātah",
+          "latitude": 32.61667,
+          "longitude": 14,
+          "translations": []
+        },
+        {
+          "id": 67031,
+          "name": "Tarhuna",
+          "latitude": 32.43501,
+          "longitude": 13.6332,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2962,
+      "name": "Nuqat al Khams",
+      "stateCode": "NQ",
+      "latitude": 32.6914909,
+      "longitude": 11.8891721,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66995,
+          "name": "Al Ajaylat",
+          "latitude": 32.75718,
+          "longitude": 12.37633,
+          "translations": []
+        },
+        {
+          "id": 67037,
+          "name": "Zalţan",
+          "latitude": 32.94699,
+          "longitude": 11.86668,
+          "translations": []
+        },
+        {
+          "id": 67041,
+          "name": "Zuwārah",
+          "latitude": 32.9312,
+          "longitude": 12.08199,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2963,
+      "name": "Zawiya",
+      "stateCode": "ZA",
+      "latitude": 32.7630282,
+      "longitude": 12.7364962,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67008,
+          "name": "Az Zāwīyah",
+          "latitude": 32.7571,
+          "longitude": 12.72764,
+          "translations": []
+        },
+        {
+          "id": 67038,
+          "name": "Zawiya",
+          "latitude": 32.75222,
+          "longitude": 12.72778,
+          "translations": []
+        },
+        {
+          "id": 67042,
+          "name": "Şabrātah",
+          "latitude": 32.79335,
+          "longitude": 12.48845,
+          "translations": []
+        },
+        {
+          "id": 67043,
+          "name": "Şurmān",
+          "latitude": 32.75668,
+          "longitude": 12.57159,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2964,
+      "name": "Al Wahat",
+      "stateCode": "WA",
+      "latitude": 29.0466808,
+      "longitude": 21.8568586,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66993,
+          "name": "Ajdabiya",
+          "latitude": 30.75545,
+          "longitude": 20.22625,
+          "translations": []
+        },
+        {
+          "id": 66997,
+          "name": "Al Burayqah",
+          "latitude": 30.40624,
+          "longitude": 19.57386,
+          "translations": []
+        },
+        {
+          "id": 67006,
+          "name": "Awjilah",
+          "latitude": 29.10806,
+          "longitude": 21.28694,
+          "translations": []
+        },
+        {
+          "id": 67007,
+          "name": "Az Zuwaytīnah",
+          "latitude": 30.9522,
+          "longitude": 20.12022,
+          "translations": []
+        },
+        {
+          "id": 67017,
+          "name": "Gialo",
+          "latitude": 29.03333,
+          "longitude": 21.55,
+          "translations": []
+        },
+        {
+          "id": 67020,
+          "name": "Marādah",
+          "latitude": 29.22054,
+          "longitude": 19.20454,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2965,
+      "name": "Sabha",
+      "stateCode": "SB",
+      "latitude": 27.0365406,
+      "longitude": 14.4290236,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66998,
+          "name": "Al Jadīd",
+          "latitude": 27.05,
+          "longitude": 14.4,
+          "translations": []
+        },
+        {
+          "id": 67028,
+          "name": "Sabhā",
+          "latitude": 27.03766,
+          "longitude": 14.42832,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2966,
+      "name": "Derna",
+      "stateCode": "DR",
+      "latitude": 32.755613,
+      "longitude": 22.6377432,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67003,
+          "name": "Al Qubbah",
+          "latitude": 32.75684,
+          "longitude": 22.24106,
+          "translations": []
+        },
+        {
+          "id": 67012,
+          "name": "Darnah",
+          "latitude": 32.76704,
+          "longitude": 22.63669,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2967,
+      "name": "Murzuq",
+      "stateCode": "MQ",
+      "latitude": 25.9182262,
+      "longitude": 13.9260001,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67002,
+          "name": "Al Qaţrūn",
+          "latitude": 24.95139,
+          "longitude": 14.64861,
+          "translations": []
+        },
+        {
+          "id": 67024,
+          "name": "Murzuq",
+          "latitude": 25.91552,
+          "longitude": 13.91839,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2968,
+      "name": "Marj",
+      "stateCode": "MJ",
+      "latitude": 32.0550363,
+      "longitude": 21.1891151,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66994,
+          "name": "Al Abyār",
+          "latitude": 32.19,
+          "longitude": 20.59653,
+          "translations": []
+        },
+        {
+          "id": 67001,
+          "name": "Al Marj",
+          "latitude": 32.49257,
+          "longitude": 20.82909,
+          "translations": []
+        },
+        {
+          "id": 67033,
+          "name": "Tūkrah",
+          "latitude": 32.53414,
+          "longitude": 20.57911,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2969,
+      "name": "Ghat",
+      "stateCode": "GT",
+      "latitude": 24.9640371,
+      "longitude": 10.1759285,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67015,
+          "name": "Ghat",
+          "latitude": 24.96334,
+          "longitude": 10.18003,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2970,
+      "name": "Jufra",
+      "stateCode": "JU",
+      "latitude": 27.9835135,
+      "longitude": 16.912251,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67018,
+          "name": "Hūn",
+          "latitude": 29.12684,
+          "longitude": 15.94772,
+          "translations": []
+        },
+        {
+          "id": 67035,
+          "name": "Waddān",
+          "latitude": 29.1614,
+          "longitude": 16.13904,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2971,
+      "name": "Tripoli",
+      "stateCode": "TB",
+      "latitude": 32.6408021,
+      "longitude": 13.2663479,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67030,
+          "name": "Tagiura",
+          "latitude": 32.88167,
+          "longitude": 13.35056,
+          "translations": []
+        },
+        {
+          "id": 67032,
+          "name": "Tripoli",
+          "latitude": 32.88743,
+          "longitude": 13.18733,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2972,
+      "name": "Kufra",
+      "stateCode": "KF",
+      "latitude": 23.3112389,
+      "longitude": 21.8568586,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66999,
+          "name": "Al Jawf",
+          "latitude": 24.1989,
+          "longitude": 23.29093,
+          "translations": []
+        },
+        {
+          "id": 67005,
+          "name": "At Tāj",
+          "latitude": 24.20487,
+          "longitude": 23.2857,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2973,
+      "name": "Wadi al Hayaa",
+      "stateCode": "WD",
+      "latitude": 26.4225926,
+      "longitude": 12.6216211,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67034,
+          "name": "Ubari",
+          "latitude": 26.59034,
+          "longitude": 12.77511,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2974,
+      "name": "Jabal al Gharbi",
+      "stateCode": "JG",
+      "latitude": 30.2638032,
+      "longitude": 12.8054753,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67014,
+          "name": "Gharyan",
+          "latitude": 32.17222,
+          "longitude": 13.02028,
+          "translations": []
+        },
+        {
+          "id": 67016,
+          "name": "Giado",
+          "latitude": 31.95506,
+          "longitude": 12.02901,
+          "translations": []
+        },
+        {
+          "id": 67022,
+          "name": "Mizdah",
+          "latitude": 31.44934,
+          "longitude": 12.9853,
+          "translations": []
+        },
+        {
+          "id": 67036,
+          "name": "Yafran",
+          "latitude": 32.06329,
+          "longitude": 12.52859,
+          "translations": []
+        },
+        {
+          "id": 67039,
+          "name": "Zintan",
+          "latitude": 31.93155,
+          "longitude": 12.25291,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2975,
+      "name": "Wadi al Shatii",
+      "stateCode": "WS",
+      "latitude": 27.7351468,
+      "longitude": 12.4380581,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67011,
+          "name": "Brak",
+          "latitude": 27.54956,
+          "longitude": 14.27139,
+          "translations": []
+        },
+        {
+          "id": 67019,
+          "name": "Idrī",
+          "latitude": 27.44707,
+          "longitude": 13.05173,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2976,
+      "name": "Nalut",
+      "stateCode": "NL",
+      "latitude": 31.8742348,
+      "longitude": 10.9750484,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67013,
+          "name": "Ghadāmis",
+          "latitude": 30.13366,
+          "longitude": 9.50072,
+          "translations": []
+        },
+        {
+          "id": 67025,
+          "name": "Nālūt",
+          "latitude": 31.86848,
+          "longitude": 10.9812,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2977,
+      "name": "Sirte",
+      "stateCode": "SR",
+      "latitude": 31.189689,
+      "longitude": 16.5701927,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67027,
+          "name": "Qasr Abu Hadi",
+          "latitude": 31.05926,
+          "longitude": 16.65905,
+          "translations": []
+        },
+        {
+          "id": 67029,
+          "name": "Sirte",
+          "latitude": 31.20892,
+          "longitude": 16.58866,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2978,
+      "name": "Misrata",
+      "stateCode": "MI",
+      "latitude": 32.3255884,
+      "longitude": 15.0992556,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67009,
+          "name": "Bani Walid",
+          "latitude": 31.74554,
+          "longitude": 13.98354,
+          "translations": []
+        },
+        {
+          "id": 67023,
+          "name": "Mişrātah",
+          "latitude": 32.37535,
+          "longitude": 15.09254,
+          "translations": []
+        },
+        {
+          "id": 67040,
+          "name": "Zliten",
+          "latitude": 32.46739,
+          "longitude": 14.56874,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2979,
+      "name": "Jafara",
+      "stateCode": "JI",
+      "latitude": 32.4525904,
+      "longitude": 12.9435536,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67004,
+          "name": "Al ‘Azīzīyah",
+          "latitude": 32.53194,
+          "longitude": 13.0175,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2980,
+      "name": "Jabal al Akhdar",
+      "stateCode": "JA",
+      "latitude": 23.1856081,
+      "longitude": 57.3713879,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66996,
+          "name": "Al Bayḑā’",
+          "latitude": 32.76272,
+          "longitude": 21.75506,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2981,
+      "name": "Benghazi",
+      "stateCode": "BA",
+      "latitude": 32.1194242,
+      "longitude": 20.0867909,
+      "type": "popularate",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67010,
+          "name": "Benghazi",
+          "latitude": 32.11486,
+          "longitude": 20.06859,
+          "translations": []
+        },
+        {
+          "id": 67026,
+          "name": "Qaryat Sulūq",
+          "latitude": 31.66818,
+          "longitude": 20.25205,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": 23,
+  "name": "Belize",
+  "nativeName": "Belize",
+  "iso2": "BZ",
+  "iso3": "BLZ",
+  "numericCode": "084",
+  "phoneCode": "501",
+  "tld": ".bz",
+  "latitude": 17.25,
+  "longitude": -88.75,
+  "flagId": 213,
+  "regionId": 2,
+  "subregionId": 9,
+  "currencyIds": [
+    850
+  ],
+  "timezoneIds": [
+    2277
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "벨리즈"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Belize"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Belize"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Belize"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Belize"
+    },
+    {
+      "languageCode": "fa",
+      "name": "بلیز"
+    },
+    {
+      "languageCode": "de",
+      "name": "Belize"
+    },
+    {
+      "languageCode": "es",
+      "name": "Belice"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Belize"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ベリーズ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Belize"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "伯利兹"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Belize"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Белиз"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Беліз"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Belize"
+    }
+  ],
+  "states": [
+    {
+      "id": 264,
+      "name": "Belize",
+      "stateCode": "BZ",
+      "latitude": 17.5677679,
+      "longitude": -88.4016041,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 16133,
+          "name": "Belize City",
+          "latitude": 17.49952,
+          "longitude": -88.19756,
+          "translations": []
+        },
+        {
+          "id": 16143,
+          "name": "San Pedro",
+          "latitude": 17.91598,
+          "longitude": -87.9659,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "name": "Stann Creek",
+      "stateCode": "SC",
+      "latitude": 16.8116631,
+      "longitude": -88.4016041,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 16137,
+          "name": "Dangriga",
+          "latitude": 16.9697,
+          "longitude": -88.23313,
+          "translations": []
+        },
+        {
+          "id": 16140,
+          "name": "Placencia",
+          "latitude": 16.51419,
+          "longitude": -88.36647,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "name": "Corozal",
+      "stateCode": "CZL",
+      "latitude": 18.1349238,
+      "longitude": -88.2461183,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 16136,
+          "name": "Corozal",
+          "latitude": 18.39375,
+          "longitude": -88.38849,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "name": "Toledo",
+      "stateCode": "TOL",
+      "latitude": 16.2491923,
+      "longitude": -88.864698,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 16141,
+          "name": "Punta Gorda",
+          "latitude": 16.09835,
+          "longitude": -88.8097,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "name": "Orange Walk",
+      "stateCode": "OW",
+      "latitude": 17.760353,
+      "longitude": -88.864698,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 16138,
+          "name": "Hopelchén",
+          "latitude": 17.8,
+          "longitude": -89.1,
+          "translations": []
+        },
+        {
+          "id": 16139,
+          "name": "Orange Walk",
+          "latitude": 18.08124,
+          "longitude": -88.56328,
+          "translations": []
+        },
+        {
+          "id": 16144,
+          "name": "Shipyard",
+          "latitude": 17.89382,
+          "longitude": -88.65452,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "name": "Cayo",
+      "stateCode": "CY",
+      "latitude": 17.0984445,
+      "longitude": -88.9413865,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 16134,
+          "name": "Belmopan",
+          "latitude": 17.25,
+          "longitude": -88.76667,
+          "translations": []
+        },
+        {
+          "id": 16135,
+          "name": "Benque Viejo el Carmen",
+          "latitude": 17.075,
+          "longitude": -89.13917,
+          "translations": []
+        },
+        {
+          "id": 16142,
+          "name": "San Ignacio",
+          "latitude": 17.1588,
+          "longitude": -89.0696,
+          "translations": []
+        },
+        {
+          "id": 16145,
+          "name": "Valley of Peace",
+          "latitude": 17.33472,
+          "longitude": -88.83472,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

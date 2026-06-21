@@ -1,0 +1,92 @@
+{
+  "id": 78,
+  "name": "French Southern Territories",
+  "nativeName": "Territoire des Terres australes et antarctiques fr",
+  "iso2": "TF",
+  "iso3": "ATF",
+  "numericCode": "260",
+  "phoneCode": "262",
+  "tld": ".tf",
+  "latitude": -49.25,
+  "longitude": 69.167,
+  "flagId": 35,
+  "regionId": 1,
+  "subregionId": 5,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2382
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "프랑스령 남방 및 남극"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Terras Austrais e Antárticas Francesas"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Terras Austrais e Antárticas Francesas"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Franse Gebieden in de zuidelijke Indische Oceaan"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Francuski južni i antarktički teritoriji"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سرزمین‌های جنوبی و جنوبگانی فرانسه"
+    },
+    {
+      "languageCode": "de",
+      "name": "Französische Süd- und Antarktisgebiete"
+    },
+    {
+      "languageCode": "es",
+      "name": "Tierras Australes y Antárticas Francesas"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Terres australes et antarctiques françaises"
+    },
+    {
+      "languageCode": "ja",
+      "name": "フランス領南方・南極地域"
+    },
+    {
+      "languageCode": "it",
+      "name": "Territori Francesi del Sud"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "法属南部领地"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Fransiz Güney Topraklari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Французские южные территории"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Французькі південні території"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Francuskie terytoria południowe"
+    }
+  ],
+  "states": []
+}

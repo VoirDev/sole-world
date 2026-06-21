@@ -1,0 +1,90 @@
+{
+  "id": 141,
+  "name": "Mayotte",
+  "nativeName": "Mayotte",
+  "iso2": "YT",
+  "iso3": "MYT",
+  "numericCode": "175",
+  "phoneCode": "262",
+  "tld": ".yt",
+  "latitude": -12.83333333,
+  "longitude": 45.16666666,
+  "flagId": 4,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2458
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "마요트"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Mayotte"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Mayotte"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Mayotte"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Mayotte"
+    },
+    {
+      "languageCode": "fa",
+      "name": "مایوت"
+    },
+    {
+      "languageCode": "de",
+      "name": "Mayotte"
+    },
+    {
+      "languageCode": "es",
+      "name": "Mayotte"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Mayotte"
+    },
+    {
+      "languageCode": "ja",
+      "name": "マヨット"
+    },
+    {
+      "languageCode": "it",
+      "name": "Mayotte"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "马约特"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Mayotte"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Майотта"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Майотта"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Majotta"
+    }
+  ],
+  "states": []
+}

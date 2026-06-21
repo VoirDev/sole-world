@@ -1,0 +1,584 @@
+{
+  "id": 152,
+  "name": "Namibia",
+  "nativeName": "Namibia",
+  "iso2": "NA",
+  "iso3": "NAM",
+  "numericCode": "516",
+  "phoneCode": "264",
+  "tld": ".na",
+  "latitude": -22,
+  "longitude": 17,
+  "flagId": 91,
+  "regionId": 1,
+  "subregionId": 5,
+  "currencyIds": [
+    929
+  ],
+  "timezoneIds": [
+    2483
+  ],
+  "officialLanguageIds": [
+    30,
+    3,
+    34
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "나미비아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Namíbia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Namíbia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Namibië"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Namibija"
+    },
+    {
+      "languageCode": "fa",
+      "name": "نامیبیا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Namibia"
+    },
+    {
+      "languageCode": "es",
+      "name": "Namibia"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Namibie"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ナミビア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Namibia"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "纳米比亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Namibya"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Намибия"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Намібія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Namibia"
+    }
+  ],
+  "states": [
+    {
+      "id": 34,
+      "name": "Kunene",
+      "stateCode": "KU",
+      "latitude": -19.4086317,
+      "longitude": 13.914399,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76630,
+          "name": "Epupa Constituency",
+          "latitude": -17.00388,
+          "longitude": 13.24825,
+          "translations": []
+        },
+        {
+          "id": 76640,
+          "name": "Khorixas",
+          "latitude": -20.36667,
+          "longitude": 14.96667,
+          "translations": []
+        },
+        {
+          "id": 76641,
+          "name": "Khorixas Constituency",
+          "latitude": -20.36792,
+          "longitude": 14.95996,
+          "translations": []
+        },
+        {
+          "id": 76653,
+          "name": "Opuwo",
+          "latitude": -18.06068,
+          "longitude": 13.83998,
+          "translations": []
+        },
+        {
+          "id": 76654,
+          "name": "Opuwo Constituency",
+          "latitude": -18.54247,
+          "longitude": 13.51617,
+          "translations": []
+        },
+        {
+          "id": 76662,
+          "name": "Outjo",
+          "latitude": -20.11667,
+          "longitude": 16.15,
+          "translations": []
+        },
+        {
+          "id": 76665,
+          "name": "Sesfontein Constituency",
+          "latitude": -19.56106,
+          "longitude": 13.7653,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Kavango West",
+      "stateCode": "KW",
+      "latitude": -18.271048,
+      "longitude": 18.4276047,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 36,
+      "name": "Kavango East",
+      "stateCode": "KE",
+      "latitude": -18.271048,
+      "longitude": 18.4276047,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76664,
+          "name": "Rundu",
+          "latitude": -17.93333,
+          "longitude": 19.76667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Oshana",
+      "stateCode": "ON",
+      "latitude": -18.4305064,
+      "longitude": 15.6881788,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76650,
+          "name": "Ondangwa",
+          "latitude": -17.91667,
+          "longitude": 15.95,
+          "translations": []
+        },
+        {
+          "id": 76652,
+          "name": "Ongwediva",
+          "latitude": -17.78333,
+          "longitude": 15.76667,
+          "translations": []
+        },
+        {
+          "id": 76656,
+          "name": "Oshakati",
+          "latitude": -17.78833,
+          "longitude": 15.70436,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Hardap",
+      "stateCode": "HA",
+      "latitude": -24.2310134,
+      "longitude": 17.668887,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76627,
+          "name": "Aranos",
+          "latitude": -24.13333,
+          "longitude": 19.11667,
+          "translations": []
+        },
+        {
+          "id": 76634,
+          "name": "Hoachanas",
+          "latitude": -23.91667,
+          "longitude": 18.05,
+          "translations": []
+        },
+        {
+          "id": 76643,
+          "name": "Maltahöhe",
+          "latitude": -24.83333,
+          "longitude": 16.98333,
+          "translations": []
+        },
+        {
+          "id": 76644,
+          "name": "Mariental",
+          "latitude": -24.63333,
+          "longitude": 17.96667,
+          "translations": []
+        },
+        {
+          "id": 76663,
+          "name": "Rehoboth",
+          "latitude": -23.317,
+          "longitude": 17.09,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Omusati",
+      "stateCode": "OS",
+      "latitude": -18.4070294,
+      "longitude": 14.8454619,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76646,
+          "name": "Okahao",
+          "latitude": -17.88758,
+          "longitude": 15.06677,
+          "translations": []
+        },
+        {
+          "id": 76651,
+          "name": "Ongandjera",
+          "latitude": -17.88333,
+          "longitude": 15.06667,
+          "translations": []
+        },
+        {
+          "id": 76661,
+          "name": "Outapi",
+          "latitude": -17.5,
+          "longitude": 14.98333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Ohangwena",
+      "stateCode": "OW",
+      "latitude": -17.5979291,
+      "longitude": 16.8178377,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76657,
+          "name": "Oshikango",
+          "latitude": -17.4,
+          "longitude": 15.88333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Omaheke",
+      "stateCode": "OH",
+      "latitude": -21.8466651,
+      "longitude": 19.1880047,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76631,
+          "name": "Gobabis",
+          "latitude": -22.45,
+          "longitude": 18.96667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Oshikoto",
+      "stateCode": "OT",
+      "latitude": -18.4152575,
+      "longitude": 16.912251,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76649,
+          "name": "Omuthiya",
+          "latitude": -18.36463,
+          "longitude": 16.58146,
+          "translations": []
+        },
+        {
+          "id": 76669,
+          "name": "Tsumeb",
+          "latitude": -19.23333,
+          "longitude": 17.71667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Erongo",
+      "stateCode": "ER",
+      "latitude": -22.2565682,
+      "longitude": 15.4068079,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76626,
+          "name": "Arandis",
+          "latitude": -22.41667,
+          "longitude": 14.96667,
+          "translations": []
+        },
+        {
+          "id": 76633,
+          "name": "Hentiesbaai",
+          "latitude": -22.11667,
+          "longitude": 14.28333,
+          "translations": []
+        },
+        {
+          "id": 76636,
+          "name": "Karibib",
+          "latitude": -21.93333,
+          "longitude": 15.83333,
+          "translations": []
+        },
+        {
+          "id": 76648,
+          "name": "Omaruru",
+          "latitude": -21.43333,
+          "longitude": 15.93333,
+          "translations": []
+        },
+        {
+          "id": 76659,
+          "name": "Otjimbingwe",
+          "latitude": -22.35,
+          "longitude": 16.13333,
+          "translations": []
+        },
+        {
+          "id": 76666,
+          "name": "Swakopmund",
+          "latitude": -22.67842,
+          "longitude": 14.52663,
+          "translations": []
+        },
+        {
+          "id": 76667,
+          "name": "Swakopmund Constituency",
+          "latitude": -22.63199,
+          "longitude": 14.60119,
+          "translations": []
+        },
+        {
+          "id": 76670,
+          "name": "Usakos",
+          "latitude": -22,
+          "longitude": 15.6,
+          "translations": []
+        },
+        {
+          "id": 76671,
+          "name": "Walvis Bay",
+          "latitude": -22.9575,
+          "longitude": 14.50528,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Khomas",
+      "stateCode": "KH",
+      "latitude": -22.6377854,
+      "longitude": 17.1011931,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76638,
+          "name": "Katutura",
+          "latitude": -22.52306,
+          "longitude": 17.06028,
+          "translations": []
+        },
+        {
+          "id": 76673,
+          "name": "Windhoek",
+          "latitude": -22.55941,
+          "longitude": 17.08323,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Karas",
+      "stateCode": "KA",
+      "latitude": -26.8429645,
+      "longitude": 17.2902839,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76629,
+          "name": "Bethanie",
+          "latitude": -26.48333,
+          "longitude": 17.15,
+          "translations": []
+        },
+        {
+          "id": 76635,
+          "name": "Karasburg",
+          "latitude": -28.01667,
+          "longitude": 18.75,
+          "translations": []
+        },
+        {
+          "id": 76639,
+          "name": "Keetmanshoop",
+          "latitude": -26.58333,
+          "longitude": 18.13333,
+          "translations": []
+        },
+        {
+          "id": 76642,
+          "name": "Lüderitz",
+          "latitude": -26.64807,
+          "longitude": 15.15383,
+          "translations": []
+        },
+        {
+          "id": 76655,
+          "name": "Oranjemund",
+          "latitude": -28.55,
+          "longitude": 16.43333,
+          "translations": []
+        },
+        {
+          "id": 76668,
+          "name": "Tses",
+          "latitude": -25.88333,
+          "longitude": 18,
+          "translations": []
+        },
+        {
+          "id": 76672,
+          "name": "Warmbad",
+          "latitude": -28.45,
+          "longitude": 18.73333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Otjozondjupa",
+      "stateCode": "OD",
+      "latitude": -20.5486916,
+      "longitude": 17.668887,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76632,
+          "name": "Grootfontein",
+          "latitude": -19.56667,
+          "longitude": 18.11667,
+          "translations": []
+        },
+        {
+          "id": 76645,
+          "name": "Okahandja",
+          "latitude": -21.98333,
+          "longitude": 16.91667,
+          "translations": []
+        },
+        {
+          "id": 76647,
+          "name": "Okakarara",
+          "latitude": -20.58333,
+          "longitude": 17.43333,
+          "translations": []
+        },
+        {
+          "id": 76658,
+          "name": "Otavi",
+          "latitude": -19.65,
+          "longitude": 17.33333,
+          "translations": []
+        },
+        {
+          "id": 76660,
+          "name": "Otjiwarongo",
+          "latitude": -20.46369,
+          "longitude": 16.64772,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Zambezi",
+      "stateCode": "CA",
+      "latitude": -17.8193419,
+      "longitude": 23.9536466,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 76628,
+          "name": "Bagani",
+          "latitude": -18.11065,
+          "longitude": 21.61645,
+          "translations": []
+        },
+        {
+          "id": 76637,
+          "name": "Katima Mulilo",
+          "latitude": -17.5,
+          "longitude": 24.26667,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

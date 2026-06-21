@@ -1,0 +1,92 @@
+{
+  "id": 52,
+  "name": "Cook Islands",
+  "nativeName": "Cook Islands",
+  "iso2": "CK",
+  "iso3": "COK",
+  "numericCode": "184",
+  "phoneCode": "682",
+  "tld": ".ck",
+  "latitude": -21.23333333,
+  "longitude": -159.76666666,
+  "flagId": 204,
+  "regionId": 5,
+  "subregionId": 22,
+  "currencyIds": [
+    870
+  ],
+  "timezoneIds": [
+    2349
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "쿡 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Cook"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Cook"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Cookeilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Cookovo Otočje"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر کوک"
+    },
+    {
+      "languageCode": "de",
+      "name": "Cookinseln"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Cook"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Cook"
+    },
+    {
+      "languageCode": "ja",
+      "name": "クック諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Cook"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "库克群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Cook Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Острова Кука"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Острови Кука"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Cooka"
+    }
+  ],
+  "states": []
+}

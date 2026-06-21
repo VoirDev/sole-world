@@ -1,0 +1,90 @@
+{
+  "id": 205,
+  "name": "South Georgia",
+  "nativeName": "South Georgia",
+  "iso2": "GS",
+  "iso3": "SGS",
+  "numericCode": "239",
+  "phoneCode": "500",
+  "tld": ".gs",
+  "latitude": -54.5,
+  "longitude": -37,
+  "flagId": 159,
+  "regionId": 2,
+  "subregionId": 8,
+  "currencyIds": [
+    890
+  ],
+  "timezoneIds": [
+    2566
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "사우스조지아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Geórgias do Sul e Sandwich do Sul"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Geórgia do Sul e Sanduíche do Sul"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Zuid-Georgia en Zuidelijke Sandwicheilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Južna Georgija i otočje Južni Sandwich"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر جورجیای جنوبی و ساندویچ جنوبی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Südgeorgien und die Südlichen Sandwichinseln"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Georgias del Sur y Sandwich del Sur"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Géorgie du Sud-et-les Îles Sandwich du Sud"
+    },
+    {
+      "languageCode": "ja",
+      "name": "サウスジョージア・サウスサンドウィッチ諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Georgia del Sud e Isole Sandwich Meridionali"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "南乔治亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Güney Georgia"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Южная Джорджия"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Південна Джорджія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Południowa Georgia"
+    }
+  ],
+  "states": []
+}

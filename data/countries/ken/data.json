@@ -1,0 +1,1625 @@
+{
+  "id": 113,
+  "name": "Kenya",
+  "nativeName": "Kenya",
+  "iso2": "KE",
+  "iso3": "KEN",
+  "numericCode": "404",
+  "phoneCode": "254",
+  "tld": ".ke",
+  "latitude": 1,
+  "longitude": 38,
+  "flagId": 136,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    907
+  ],
+  "timezoneIds": [
+    2428
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "케냐"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Quênia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Quénia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Kenia"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Kenija"
+    },
+    {
+      "languageCode": "fa",
+      "name": "کنیا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Kenia"
+    },
+    {
+      "languageCode": "es",
+      "name": "Kenia"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Kenya"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ケニア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Kenya"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "肯尼亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Kenya"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Кения"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Кенія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Kenia"
+    }
+  ],
+  "states": [
+    {
+      "id": 158,
+      "name": "Kakamega",
+      "stateCode": "11",
+      "latitude": 0.307894,
+      "longitude": 34.7740793,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64778,
+          "name": "Butere",
+          "latitude": 0.20694,
+          "longitude": 34.49006,
+          "translations": []
+        },
+        {
+          "id": 64792,
+          "name": "Kakamega",
+          "latitude": 0.28422,
+          "longitude": 34.75229,
+          "translations": []
+        },
+        {
+          "id": 64842,
+          "name": "Mumias",
+          "latitude": 0.33474,
+          "longitude": 34.48796,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Kisii",
+      "stateCode": "16",
+      "latitude": -0.677334,
+      "longitude": 34.779603,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64810,
+          "name": "Kisii",
+          "latitude": -0.68174,
+          "longitude": 34.76666,
+          "translations": []
+        },
+        {
+          "id": 64857,
+          "name": "Ogembo",
+          "latitude": -0.80116,
+          "longitude": 34.72579,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "name": "Busia",
+      "stateCode": "04",
+      "latitude": 0.4346506,
+      "longitude": 34.2421597,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64777,
+          "name": "Busia",
+          "latitude": 0.46005,
+          "longitude": 34.11169,
+          "translations": []
+        },
+        {
+          "id": 64821,
+          "name": "Luanda",
+          "latitude": 0.31354,
+          "longitude": 34.07146,
+          "translations": []
+        },
+        {
+          "id": 64822,
+          "name": "Lugulu",
+          "latitude": 0.39337,
+          "longitude": 34.30399,
+          "translations": []
+        },
+        {
+          "id": 64826,
+          "name": "Malaba",
+          "latitude": 0.63513,
+          "longitude": 34.28165,
+          "translations": []
+        },
+        {
+          "id": 64848,
+          "name": "Nambare",
+          "latitude": 0.45813,
+          "longitude": 34.25353,
+          "translations": []
+        },
+        {
+          "id": 64861,
+          "name": "Port Victoria",
+          "latitude": 0.09809,
+          "longitude": 33.97248,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Embu",
+      "stateCode": "06",
+      "latitude": -0.6560477,
+      "longitude": 37.7237678,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64783,
+          "name": "Embu",
+          "latitude": -0.53987,
+          "longitude": 37.45743,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Laikipia",
+      "stateCode": "20",
+      "latitude": 0.3606063,
+      "longitude": 36.7819505,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64850,
+          "name": "Nanyuki",
+          "latitude": 0.00624,
+          "longitude": 37.07398,
+          "translations": []
+        },
+        {
+          "id": 64854,
+          "name": "Nyahururu",
+          "latitude": 0.03813,
+          "longitude": 36.36339,
+          "translations": []
+        },
+        {
+          "id": 64865,
+          "name": "Rumuruti",
+          "latitude": 0.2725,
+          "longitude": 36.53806,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "name": "Nandi",
+      "stateCode": "32",
+      "latitude": 0.1835867,
+      "longitude": 35.1268781,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64796,
+          "name": "Kapsabet",
+          "latitude": 0.20387,
+          "longitude": 35.105,
+          "translations": []
+        },
+        {
+          "id": 64849,
+          "name": "Nandi Hills",
+          "latitude": 0.10366,
+          "longitude": 35.18426,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Lamu",
+      "stateCode": "21",
+      "latitude": -2.2355058,
+      "longitude": 40.4720004,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64816,
+          "name": "Lamu",
+          "latitude": -2.27169,
+          "longitude": 40.90201,
+          "translations": []
+        },
+        {
+          "id": 64878,
+          "name": "Witu",
+          "latitude": -2.38892,
+          "longitude": 40.43827,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "name": "Kirinyaga",
+      "stateCode": "15",
+      "latitude": -0.6590565,
+      "longitude": 37.3827234,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64801,
+          "name": "Kerugoya",
+          "latitude": -0.49887,
+          "longitude": 37.28031,
+          "translations": []
+        },
+        {
+          "id": 64866,
+          "name": "Sagana",
+          "latitude": -0.66806,
+          "longitude": 37.20875,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Bungoma",
+      "stateCode": "03",
+      "latitude": 0.5695252,
+      "longitude": 34.5583766,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64776,
+          "name": "Bungoma",
+          "latitude": 0.5635,
+          "longitude": 34.56055,
+          "translations": []
+        },
+        {
+          "id": 64827,
+          "name": "Malikisi",
+          "latitude": 0.67694,
+          "longitude": 34.42167,
+          "translations": []
+        },
+        {
+          "id": 64877,
+          "name": "Webuye",
+          "latitude": 0.6004,
+          "longitude": 34.77119,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "name": "Uasin Gishu",
+      "stateCode": "44",
+      "latitude": 0.5527638,
+      "longitude": 35.3027226,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64782,
+          "name": "Eldoret",
+          "latitude": 0.52036,
+          "longitude": 35.26993,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Isiolo",
+      "stateCode": "09",
+      "latitude": 0.3524352,
+      "longitude": 38.4849923,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64788,
+          "name": "Isiolo",
+          "latitude": 0.35462,
+          "longitude": 37.58218,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "name": "Kisumu",
+      "stateCode": "17",
+      "latitude": -0.0917016,
+      "longitude": 34.7679568,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64772,
+          "name": "Ahero",
+          "latitude": -0.17359,
+          "longitude": 34.9189,
+          "translations": []
+        },
+        {
+          "id": 64811,
+          "name": "Kisumu",
+          "latitude": -0.10221,
+          "longitude": 34.76171,
+          "translations": []
+        },
+        {
+          "id": 64841,
+          "name": "Muhoroni",
+          "latitude": -0.15816,
+          "longitude": 35.19645,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "name": "Kwale",
+      "stateCode": "19",
+      "latitude": -4.1816115,
+      "longitude": 39.4605612,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64785,
+          "name": "Gazi",
+          "latitude": -4.42402,
+          "longitude": 39.50588,
+          "translations": []
+        },
+        {
+          "id": 64807,
+          "name": "Kinango",
+          "latitude": -4.13723,
+          "longitude": 39.31528,
+          "translations": []
+        },
+        {
+          "id": 64815,
+          "name": "Kwale",
+          "latitude": -4.17375,
+          "longitude": 39.45206,
+          "translations": []
+        },
+        {
+          "id": 64867,
+          "name": "Sawa Sawa",
+          "latitude": -4.47166,
+          "longitude": 39.48463,
+          "translations": []
+        },
+        {
+          "id": 64868,
+          "name": "Shimoni",
+          "latitude": -4.64756,
+          "longitude": 39.38175,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Kilifi",
+      "stateCode": "14",
+      "latitude": -3.5106508,
+      "longitude": 39.9093269,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64789,
+          "name": "Iten",
+          "latitude": 0.67028,
+          "longitude": 35.50806,
+          "translations": []
+        },
+        {
+          "id": 64797,
+          "name": "Kapsowar",
+          "latitude": 0.9789,
+          "longitude": 35.55854,
+          "translations": []
+        },
+        {
+          "id": 64806,
+          "name": "Kilifi",
+          "latitude": -3.63045,
+          "longitude": 39.84992,
+          "translations": []
+        },
+        {
+          "id": 64828,
+          "name": "Malindi",
+          "latitude": -3.21799,
+          "longitude": 40.11692,
+          "translations": []
+        },
+        {
+          "id": 64832,
+          "name": "Mariakani",
+          "latitude": -3.86261,
+          "longitude": 39.47458,
+          "translations": []
+        },
+        {
+          "id": 64872,
+          "name": "Takaungu",
+          "latitude": -3.6835,
+          "longitude": 39.85687,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "name": "Narok",
+      "stateCode": "33",
+      "latitude": -1.104111,
+      "longitude": 36.0893406,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64852,
+          "name": "Narok",
+          "latitude": -1.08083,
+          "longitude": 35.87111,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "name": "Taita–Taveta",
+      "stateCode": "39",
+      "latitude": -3.3160687,
+      "longitude": 38.4849923,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154582,
+          "name": "Taveta",
+          "latitude": -3.3988,
+          "longitude": 37.6834,
+          "translations": []
+        },
+        {
+          "id": 154583,
+          "name": "Mwatate",
+          "latitude": -3.5033,
+          "longitude": 38.3812,
+          "translations": []
+        },
+        {
+          "id": 154588,
+          "name": "Mgange",
+          "latitude": -3.4,
+          "longitude": 38.3167,
+          "translations": []
+        },
+        {
+          "id": 154589,
+          "name": "Mwanda",
+          "latitude": -3.4,
+          "longitude": 38.2833,
+          "translations": []
+        },
+        {
+          "id": 154622,
+          "name": "Voi",
+          "latitude": -3.3961,
+          "longitude": 38.5563,
+          "translations": []
+        },
+        {
+          "id": 154625,
+          "name": "Wundanyi",
+          "latitude": -3.4085,
+          "longitude": 38.3651,
+          "translations": []
+        },
+        {
+          "id": 154626,
+          "name": "Bura",
+          "latitude": -3.5,
+          "longitude": 38.3,
+          "translations": []
+        },
+        {
+          "id": 154627,
+          "name": "Maktau",
+          "latitude": -3.4,
+          "longitude": 38.1333,
+          "translations": []
+        },
+        {
+          "id": 154628,
+          "name": "Wesu",
+          "latitude": -3.4,
+          "longitude": 38.35,
+          "translations": []
+        },
+        {
+          "id": 154631,
+          "name": "Chala",
+          "latitude": -3.3833,
+          "longitude": 37.6833,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "name": "Murang'a",
+      "stateCode": "29",
+      "latitude": -0.7839281,
+      "longitude": 37.0400339,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64793,
+          "name": "Kangema",
+          "latitude": -0.68553,
+          "longitude": 36.96463,
+          "translations": []
+        },
+        {
+          "id": 64798,
+          "name": "Karuri",
+          "latitude": -0.7,
+          "longitude": 37.18333,
+          "translations": []
+        },
+        {
+          "id": 64830,
+          "name": "Maragua",
+          "latitude": -0.79602,
+          "longitude": 37.13292,
+          "translations": []
+        },
+        {
+          "id": 64843,
+          "name": "Murang’a",
+          "latitude": -0.72104,
+          "longitude": 37.15259,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "name": "Nyeri",
+      "stateCode": "36",
+      "latitude": -0.4196915,
+      "longitude": 37.0400339,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64851,
+          "name": "Naro Moru",
+          "latitude": -0.16357,
+          "longitude": 37.01773,
+          "translations": []
+        },
+        {
+          "id": 64856,
+          "name": "Nyeri",
+          "latitude": -0.42013,
+          "longitude": 36.94759,
+          "translations": []
+        },
+        {
+          "id": 64859,
+          "name": "Othaya",
+          "latitude": -0.54655,
+          "longitude": 36.93178,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "name": "Baringo",
+      "stateCode": "01",
+      "latitude": 0.8554988,
+      "longitude": 36.0893406,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64774,
+          "name": "Baringo",
+          "latitude": 0.46667,
+          "longitude": 35.96667,
+          "translations": []
+        },
+        {
+          "id": 64781,
+          "name": "Eldama Ravine",
+          "latitude": 0.05196,
+          "longitude": 35.72734,
+          "translations": []
+        },
+        {
+          "id": 64790,
+          "name": "Kabarnet",
+          "latitude": 0.49194,
+          "longitude": 35.74303,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "name": "Wajir",
+      "stateCode": "46",
+      "latitude": 1.6360475,
+      "longitude": 40.3088626,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64876,
+          "name": "Wajir",
+          "latitude": 1.7471,
+          "longitude": 40.05732,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "name": "Trans Nzoia",
+      "stateCode": "42",
+      "latitude": 1.0566667,
+      "longitude": 34.9506625,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64812,
+          "name": "Kitale",
+          "latitude": 1.01572,
+          "longitude": 35.00622,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "name": "Machakos",
+      "stateCode": "22",
+      "latitude": -1.5176837,
+      "longitude": 37.2634146,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64773,
+          "name": "Athi River",
+          "latitude": -1.4563,
+          "longitude": 36.97826,
+          "translations": []
+        },
+        {
+          "id": 64794,
+          "name": "Kangundo",
+          "latitude": -1.30342,
+          "longitude": 37.34813,
+          "translations": []
+        },
+        {
+          "id": 64814,
+          "name": "Konza",
+          "latitude": -1.73947,
+          "longitude": 37.13195,
+          "translations": []
+        },
+        {
+          "id": 64823,
+          "name": "Machakos",
+          "latitude": -1.52233,
+          "longitude": 37.26521,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "name": "Tharaka-Nithi",
+      "stateCode": "41",
+      "latitude": -0.2964851,
+      "longitude": 37.7237678,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64780,
+          "name": "Chuka",
+          "latitude": -0.33316,
+          "longitude": 37.64587,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "name": "Siaya",
+      "stateCode": "38",
+      "latitude": -0.0617328,
+      "longitude": 34.2421597,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64775,
+          "name": "Bondo",
+          "latitude": 0.23522,
+          "longitude": 34.28086,
+          "translations": []
+        },
+        {
+          "id": 64869,
+          "name": "Siaya",
+          "latitude": 0.0607,
+          "longitude": 34.28806,
+          "translations": []
+        },
+        {
+          "id": 64881,
+          "name": "Yala",
+          "latitude": 0.09438,
+          "longitude": 34.53602,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "name": "Mandera",
+      "stateCode": "24",
+      "latitude": 3.5737991,
+      "longitude": 40.958688,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64829,
+          "name": "Mandera",
+          "latitude": 3.93726,
+          "longitude": 41.85688,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "name": "Makueni",
+      "stateCode": "23",
+      "latitude": -2.2558734,
+      "longitude": 37.8936663,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64825,
+          "name": "Makueni Boma",
+          "latitude": -1.80388,
+          "longitude": 37.62405,
+          "translations": []
+        },
+        {
+          "id": 64840,
+          "name": "Mtito Andei",
+          "latitude": -2.68987,
+          "longitude": 38.16687,
+          "translations": []
+        },
+        {
+          "id": 64879,
+          "name": "Wote",
+          "latitude": -1.78079,
+          "longitude": 37.62882,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "name": "Migori",
+      "stateCode": "27",
+      "latitude": -0.9365702,
+      "longitude": 34.4198243,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64803,
+          "name": "Kihancha",
+          "latitude": -1.19347,
+          "longitude": 34.61967,
+          "translations": []
+        },
+        {
+          "id": 64836,
+          "name": "Migori",
+          "latitude": -1.06343,
+          "longitude": 34.47313,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "name": "Nairobi City",
+      "stateCode": "30",
+      "latitude": -1.2920659,
+      "longitude": 36.8219462,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64845,
+          "name": "Nairobi",
+          "latitude": -1.28333,
+          "longitude": 36.81667,
+          "translations": []
+        },
+        {
+          "id": 64862,
+          "name": "Pumwani",
+          "latitude": -1.28333,
+          "longitude": 36.85,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "name": "Nyandarua",
+      "stateCode": "35",
+      "latitude": -0.1803855,
+      "longitude": 36.5229641,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64858,
+          "name": "Ol Kalou",
+          "latitude": -0.27088,
+          "longitude": 36.37917,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "name": "Kericho",
+      "stateCode": "12",
+      "latitude": -0.1827913,
+      "longitude": 35.4781926,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64799,
+          "name": "Kericho",
+          "latitude": -0.36774,
+          "longitude": 35.28314,
+          "translations": []
+        },
+        {
+          "id": 64809,
+          "name": "Kipkelion",
+          "latitude": -0.19982,
+          "longitude": 35.46735,
+          "translations": []
+        },
+        {
+          "id": 64818,
+          "name": "Litein",
+          "latitude": -0.58249,
+          "longitude": 35.18969,
+          "translations": []
+        },
+        {
+          "id": 64820,
+          "name": "Londiani",
+          "latitude": -0.16552,
+          "longitude": 35.59359,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "name": "Marsabit",
+      "stateCode": "25",
+      "latitude": 2.4426403,
+      "longitude": 37.9784585,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64833,
+          "name": "Marsabit",
+          "latitude": 2.33468,
+          "longitude": 37.99086,
+          "translations": []
+        },
+        {
+          "id": 64839,
+          "name": "Moyale",
+          "latitude": 3.52661,
+          "longitude": 39.0561,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "name": "Homa Bay",
+      "stateCode": "08",
+      "latitude": -0.6220655,
+      "longitude": 34.3310364,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64787,
+          "name": "Homa Bay",
+          "latitude": -0.52731,
+          "longitude": 34.45714,
+          "translations": []
+        },
+        {
+          "id": 64860,
+          "name": "Oyugis",
+          "latitude": -0.50974,
+          "longitude": 34.73067,
+          "translations": []
+        },
+        {
+          "id": 64863,
+          "name": "Rachuonyo District",
+          "latitude": -0.44,
+          "longitude": 34.739,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "name": "Garissa",
+      "stateCode": "07",
+      "latitude": -0.4532293,
+      "longitude": 39.6460988,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64784,
+          "name": "Garissa",
+          "latitude": -0.45275,
+          "longitude": 39.64601,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "name": "Kajiado",
+      "stateCode": "10",
+      "latitude": -2.0980751,
+      "longitude": 36.7819505,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64791,
+          "name": "Kajiado",
+          "latitude": -1.85238,
+          "longitude": 36.77683,
+          "translations": []
+        },
+        {
+          "id": 64824,
+          "name": "Magadi",
+          "latitude": -1.90122,
+          "longitude": 36.287,
+          "translations": []
+        },
+        {
+          "id": 64853,
+          "name": "Ngong",
+          "latitude": -1.3527,
+          "longitude": 36.6699,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "name": "Meru",
+      "stateCode": "26",
+      "latitude": 0.3557174,
+      "longitude": 37.8087693,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64834,
+          "name": "Maua",
+          "latitude": 0.2332,
+          "longitude": 37.94086,
+          "translations": []
+        },
+        {
+          "id": 64835,
+          "name": "Meru",
+          "latitude": 0.04626,
+          "longitude": 37.65587,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "name": "Kiambu",
+      "stateCode": "13",
+      "latitude": -1.0313701,
+      "longitude": 36.8680791,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64802,
+          "name": "Kiambu",
+          "latitude": -1.17139,
+          "longitude": 36.83556,
+          "translations": []
+        },
+        {
+          "id": 64805,
+          "name": "Kikuyu",
+          "latitude": -1.24627,
+          "longitude": 36.66291,
+          "translations": []
+        },
+        {
+          "id": 64817,
+          "name": "Limuru",
+          "latitude": -1.1136,
+          "longitude": 36.64205,
+          "translations": []
+        },
+        {
+          "id": 64874,
+          "name": "Thika",
+          "latitude": -1.03326,
+          "longitude": 37.06933,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "name": "Mombasa",
+      "stateCode": "28",
+      "latitude": -3.9768291,
+      "longitude": 39.7137181,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64838,
+          "name": "Mombasa",
+          "latitude": -4.05466,
+          "longitude": 39.66359,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "name": "Elgeyo-Marakwet",
+      "stateCode": "05",
+      "latitude": 1.0498237,
+      "longitude": 35.4781926,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154642,
+          "name": "Iten",
+          "latitude": 0.6708,
+          "longitude": 35.5083,
+          "translations": []
+        },
+        {
+          "id": 154643,
+          "name": "Kapsowar",
+          "latitude": 1.015,
+          "longitude": 35.5225,
+          "translations": []
+        },
+        {
+          "id": 154644,
+          "name": "Tambach",
+          "latitude": 0.7333,
+          "longitude": 35.5833,
+          "translations": []
+        },
+        {
+          "id": 154645,
+          "name": "Chebiemit",
+          "latitude": 1.05,
+          "longitude": 35.4,
+          "translations": []
+        },
+        {
+          "id": 154646,
+          "name": "Kapcherop",
+          "latitude": 1.2333,
+          "longitude": 35.3833,
+          "translations": []
+        },
+        {
+          "id": 154647,
+          "name": "Kaptarakwa",
+          "latitude": 0.4333,
+          "longitude": 35.5833,
+          "translations": []
+        },
+        {
+          "id": 154648,
+          "name": "Chepkorio",
+          "latitude": 0.3833,
+          "longitude": 35.45,
+          "translations": []
+        },
+        {
+          "id": 154649,
+          "name": "Chesoi",
+          "latitude": 1.15,
+          "longitude": 35.65,
+          "translations": []
+        },
+        {
+          "id": 154650,
+          "name": "Chesongoch",
+          "latitude": 1.0833,
+          "longitude": 35.65,
+          "translations": []
+        },
+        {
+          "id": 154651,
+          "name": "Kapsait",
+          "latitude": 1.2167,
+          "longitude": 35.3,
+          "translations": []
+        },
+        {
+          "id": 154652,
+          "name": "Kaptalamwa",
+          "latitude": 1.2,
+          "longitude": 35.45,
+          "translations": []
+        },
+        {
+          "id": 154653,
+          "name": "Kapyego",
+          "latitude": 1.2333,
+          "longitude": 35.6667,
+          "translations": []
+        },
+        {
+          "id": 154654,
+          "name": "Kipmwarer",
+          "latitude": 0.9167,
+          "longitude": 35.5333,
+          "translations": []
+        },
+        {
+          "id": 154655,
+          "name": "Kocholwo",
+          "latitude": 0.4167,
+          "longitude": 35.5667,
+          "translations": []
+        },
+        {
+          "id": 154656,
+          "name": "Flax",
+          "latitude": 0.45,
+          "longitude": 35.4,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "name": "Vihiga",
+      "stateCode": "45",
+      "latitude": 0.0767553,
+      "longitude": 34.7077665,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 154632,
+          "name": "Mbale",
+          "latitude": 0.0708,
+          "longitude": 34.7242,
+          "translations": []
+        },
+        {
+          "id": 154633,
+          "name": "Luanda",
+          "latitude": 0.0043,
+          "longitude": 34.597,
+          "translations": []
+        },
+        {
+          "id": 154634,
+          "name": "Chavakali",
+          "latitude": 0.1167,
+          "longitude": 34.7,
+          "translations": []
+        },
+        {
+          "id": 154635,
+          "name": "Majengo",
+          "latitude": 0.1,
+          "longitude": 34.6167,
+          "translations": []
+        },
+        {
+          "id": 154636,
+          "name": "Maseno",
+          "latitude": 0,
+          "longitude": 34.6,
+          "translations": []
+        },
+        {
+          "id": 154637,
+          "name": "Mudete",
+          "latitude": 0.1333,
+          "longitude": 34.75,
+          "translations": []
+        },
+        {
+          "id": 154638,
+          "name": "Serem",
+          "latitude": 0.0833,
+          "longitude": 34.8833,
+          "translations": []
+        },
+        {
+          "id": 154639,
+          "name": "Kilingili",
+          "latitude": 0.0833,
+          "longitude": 34.6667,
+          "translations": []
+        },
+        {
+          "id": 154640,
+          "name": "Gambogi",
+          "latitude": 0.0833,
+          "longitude": 34.8,
+          "translations": []
+        },
+        {
+          "id": 154641,
+          "name": "Esabalu",
+          "latitude": 0.0167,
+          "longitude": 34.6167,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "name": "Nakuru",
+      "stateCode": "31",
+      "latitude": -0.3030988,
+      "longitude": 36.080026,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64804,
+          "name": "Kijabe",
+          "latitude": -0.93334,
+          "longitude": 36.57233,
+          "translations": []
+        },
+        {
+          "id": 64837,
+          "name": "Molo",
+          "latitude": -0.24849,
+          "longitude": 35.73194,
+          "translations": []
+        },
+        {
+          "id": 64846,
+          "name": "Naivasha",
+          "latitude": -0.71383,
+          "longitude": 36.43261,
+          "translations": []
+        },
+        {
+          "id": 64847,
+          "name": "Nakuru",
+          "latitude": -0.30719,
+          "longitude": 36.07225,
+          "translations": []
+        },
+        {
+          "id": 64864,
+          "name": "Rongai",
+          "latitude": -0.17344,
+          "longitude": 35.86313,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "name": "Tana River",
+      "stateCode": "40",
+      "latitude": -1.6518468,
+      "longitude": 39.6518165,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64786,
+          "name": "Hola",
+          "latitude": -1.48256,
+          "longitude": 40.03341,
+          "translations": []
+        },
+        {
+          "id": 64808,
+          "name": "Kipini",
+          "latitude": -2.52565,
+          "longitude": 40.5262,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "name": "Turkana",
+      "stateCode": "43",
+      "latitude": 3.3122477,
+      "longitude": 35.5657862,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64819,
+          "name": "Lodwar",
+          "latitude": 3.11988,
+          "longitude": 35.59642,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "name": "Samburu",
+      "stateCode": "37",
+      "latitude": 1.2154506,
+      "longitude": 36.954107,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64831,
+          "name": "Maralal",
+          "latitude": 1.09667,
+          "longitude": 36.69806,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "name": "West Pokot",
+      "stateCode": "47",
+      "latitude": 1.6210076,
+      "longitude": 35.3905046,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64779,
+          "name": "Chepareria",
+          "latitude": 1.30583,
+          "longitude": 35.20365,
+          "translations": []
+        },
+        {
+          "id": 64795,
+          "name": "Kapenguria",
+          "latitude": 1.23889,
+          "longitude": 35.11194,
+          "translations": []
+        },
+        {
+          "id": 64873,
+          "name": "Taveta",
+          "latitude": -3.39879,
+          "longitude": 37.68336,
+          "translations": []
+        },
+        {
+          "id": 64875,
+          "name": "Voi",
+          "latitude": -3.39605,
+          "longitude": 38.55609,
+          "translations": []
+        },
+        {
+          "id": 64880,
+          "name": "Wundanyi",
+          "latitude": -3.39642,
+          "longitude": 38.35729,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "name": "Nyamira",
+      "stateCode": "34",
+      "latitude": -0.5669405,
+      "longitude": 34.9341234,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64800,
+          "name": "Keroka",
+          "latitude": -0.77612,
+          "longitude": 34.94678,
+          "translations": []
+        },
+        {
+          "id": 64855,
+          "name": "Nyamira",
+          "latitude": -0.56333,
+          "longitude": 34.93583,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "name": "Bomet",
+      "stateCode": "02",
+      "latitude": -0.8015009,
+      "longitude": 35.3027226,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64870,
+          "name": "Sotik",
+          "latitude": -0.69069,
+          "longitude": 35.11102,
+          "translations": []
+        },
+        {
+          "id": 64871,
+          "name": "Sotik Post",
+          "latitude": -0.78129,
+          "longitude": 35.34156,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "name": "Kitui",
+      "stateCode": "18",
+      "latitude": -1.6832822,
+      "longitude": 38.3165725,
+      "type": "county",
+      "translations": [],
+      "cities": [
+        {
+          "id": 64813,
+          "name": "Kitui",
+          "latitude": -1.36696,
+          "longitude": 38.01055,
+          "translations": []
+        },
+        {
+          "id": 64844,
+          "name": "Mwingi",
+          "latitude": -0.93605,
+          "longitude": 38.05955,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 5,
+  "name": "American Samoa",
+  "nativeName": "American Samoa",
+  "iso2": "AS",
+  "iso3": "ASM",
+  "numericCode": "016",
+  "phoneCode": "1",
+  "tld": ".as",
+  "latitude": -14.33333333,
+  "longitude": -170,
+  "flagId": 238,
+  "regionId": 5,
+  "subregionId": 22,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2238
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "아메리칸사모아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Samoa Americana"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Samoa Americana"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Amerikaans Samoa"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Američka Samoa"
+    },
+    {
+      "languageCode": "fa",
+      "name": "ساموآی آمریکا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Amerikanisch-Samoa"
+    },
+    {
+      "languageCode": "es",
+      "name": "Samoa Americana"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Samoa américaines"
+    },
+    {
+      "languageCode": "ja",
+      "name": "アメリカ領サモア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Samoa Americane"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "美属萨摩亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Amerikan Samoasi"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Американское Самоа"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Американське Самоа"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Samoa Amerykańskie"
+    }
+  ],
+  "states": []
+}

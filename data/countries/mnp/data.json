@@ -1,0 +1,92 @@
+{
+  "id": 164,
+  "name": "Northern Mariana Islands",
+  "nativeName": "Northern Mariana Islands",
+  "iso2": "MP",
+  "iso3": "MNP",
+  "numericCode": "580",
+  "phoneCode": "1",
+  "tld": ".mp",
+  "latitude": 15.2,
+  "longitude": 145.75,
+  "flagId": 102,
+  "regionId": 5,
+  "subregionId": 21,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2497
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "북마리아나 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Marianas"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Marianas"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Noordelijke Marianeneilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Sjevernomarijanski otoci"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر ماریانای شمالی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Nördliche Marianen"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Marianas del Norte"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Mariannes du Nord"
+    },
+    {
+      "languageCode": "ja",
+      "name": "北マリアナ諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Marianne Settentrionali"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "北马里亚纳群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Kuzey Mariana Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Северные Марианские острова"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Північні Маріанські острови"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Mariany Północne"
+    }
+  ],
+  "states": []
+}

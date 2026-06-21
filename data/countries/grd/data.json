@@ -1,0 +1,221 @@
+{
+  "id": 87,
+  "name": "Grenada",
+  "nativeName": "Grenada",
+  "iso2": "GD",
+  "iso3": "GRD",
+  "numericCode": "308",
+  "phoneCode": "1",
+  "tld": ".gd",
+  "latitude": 12.11666666,
+  "longitude": -61.66666666,
+  "flagId": 171,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    840
+  ],
+  "timezoneIds": [
+    2394
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [
+    33
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "그레나다"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Granada"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Granada"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Grenada"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Grenada"
+    },
+    {
+      "languageCode": "fa",
+      "name": "گرنادا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Grenada"
+    },
+    {
+      "languageCode": "es",
+      "name": "Grenada"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Grenade"
+    },
+    {
+      "languageCode": "ja",
+      "name": "グレナダ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Grenada"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "格林纳达"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Grenada"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Гренада"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Гренада"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Grenada"
+    }
+  ],
+  "states": [
+    {
+      "id": 3863,
+      "name": "Saint Patrick",
+      "stateCode": "06",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52033,
+          "name": "Sauteurs",
+          "latitude": 12.21833,
+          "longitude": -61.63917,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3864,
+      "name": "Saint George",
+      "stateCode": "03",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52032,
+          "name": "Saint George's",
+          "latitude": 12.05288,
+          "longitude": -61.75226,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3865,
+      "name": "Saint Andrew",
+      "stateCode": "01",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52029,
+          "name": "Grenville",
+          "latitude": 12.12278,
+          "longitude": -61.62498,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3866,
+      "name": "Saint Mark",
+      "stateCode": "05",
+      "latitude": 40.5881863,
+      "longitude": -73.9495701,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52034,
+          "name": "Victoria",
+          "latitude": 12.19021,
+          "longitude": -61.70677,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3867,
+      "name": "Carriacou",
+      "stateCode": "10",
+      "latitude": 12.4785888,
+      "longitude": -61.4493842,
+      "type": "dependency",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52030,
+          "name": "Hillsborough",
+          "latitude": 12.48292,
+          "longitude": -61.45597,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3868,
+      "name": "Saint John",
+      "stateCode": "04",
+      "latitude": 30.1118331,
+      "longitude": -90.4879916,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52028,
+          "name": "Gouyave",
+          "latitude": 12.16462,
+          "longitude": -61.72965,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3869,
+      "name": "Saint David",
+      "stateCode": "02",
+      "latitude": null,
+      "longitude": null,
+      "type": "parish",
+      "translations": [],
+      "cities": [
+        {
+          "id": 52031,
+          "name": "Saint David’s",
+          "latitude": 12.04903,
+          "longitude": -61.66875,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

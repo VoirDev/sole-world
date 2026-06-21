@@ -1,0 +1,234 @@
+{
+  "id": 68,
+  "name": "Eritrea",
+  "nativeName": "ኤርትራ",
+  "iso2": "ER",
+  "iso3": "ERI",
+  "numericCode": "232",
+  "phoneCode": "291",
+  "tld": ".er",
+  "latitude": 15,
+  "longitude": 39,
+  "flagId": 184,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    880
+  ],
+  "timezoneIds": [
+    2369
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "에리트레아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Eritreia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Eritreia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Eritrea"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Eritreja"
+    },
+    {
+      "languageCode": "fa",
+      "name": "اریتره"
+    },
+    {
+      "languageCode": "de",
+      "name": "Eritrea"
+    },
+    {
+      "languageCode": "es",
+      "name": "Eritrea"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Érythrée"
+    },
+    {
+      "languageCode": "ja",
+      "name": "エリトリア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Eritrea"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "厄立特里亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Eritre"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Эритрея"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Еритрея"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Erytrea"
+    }
+  ],
+  "states": [
+    {
+      "id": 3424,
+      "name": "Northern Red Sea",
+      "stateCode": "SK",
+      "latitude": 16.2583997,
+      "longitude": 38.8205454,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31889,
+          "name": "Massawa",
+          "latitude": 15.60811,
+          "longitude": 39.47455,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3425,
+      "name": "Anseba",
+      "stateCode": "AN",
+      "latitude": 16.4745531,
+      "longitude": 37.8087693,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31888,
+          "name": "Keren",
+          "latitude": 15.77792,
+          "longitude": 38.45107,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3426,
+      "name": "Maekel",
+      "stateCode": "MA",
+      "latitude": 15.3551409,
+      "longitude": 38.8623683,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31883,
+          "name": "Asmara",
+          "latitude": 15.33805,
+          "longitude": 38.93184,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3427,
+      "name": "Debub",
+      "stateCode": "DU",
+      "latitude": 14.9478692,
+      "longitude": 39.1543677,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31881,
+          "name": "Adi Keyh",
+          "latitude": 14.84444,
+          "longitude": 39.37722,
+          "translations": []
+        },
+        {
+          "id": 31886,
+          "name": "Dek’emhāre",
+          "latitude": 15.07,
+          "longitude": 39.0475,
+          "translations": []
+        },
+        {
+          "id": 31890,
+          "name": "Mendefera",
+          "latitude": 14.88722,
+          "longitude": 38.81528,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3428,
+      "name": "Gash-Barka",
+      "stateCode": "GB",
+      "latitude": 15.4068825,
+      "longitude": 37.6386622,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31882,
+          "name": "Ak’ordat",
+          "latitude": 15.54798,
+          "longitude": 37.88291,
+          "translations": []
+        },
+        {
+          "id": 31885,
+          "name": "Barentu",
+          "latitude": 15.10582,
+          "longitude": 37.59067,
+          "translations": []
+        },
+        {
+          "id": 31891,
+          "name": "Teseney",
+          "latitude": 15.11,
+          "longitude": 36.6575,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3429,
+      "name": "Southern Red Sea",
+      "stateCode": "DK",
+      "latitude": 13.5137103,
+      "longitude": 41.7606472,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 31884,
+          "name": "Assab",
+          "latitude": 13.00917,
+          "longitude": 42.73944,
+          "translations": []
+        },
+        {
+          "id": 31887,
+          "name": "Edd",
+          "latitude": 13.93088,
+          "longitude": 41.6938,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

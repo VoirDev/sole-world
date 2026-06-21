@@ -1,0 +1,826 @@
+{
+  "id": 57,
+  "name": "Cyprus",
+  "nativeName": "Κύπρος",
+  "iso2": "CY",
+  "iso3": "CYP",
+  "numericCode": "196",
+  "phoneCode": "357",
+  "tld": ".cy",
+  "latitude": 35,
+  "longitude": 33,
+  "flagId": 248,
+  "regionId": 4,
+  "subregionId": 16,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2355,
+    2356
+  ],
+  "officialLanguageIds": [
+    35,
+    49
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "키프로스"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Chipre"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Chipre"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Cyprus"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Cipar"
+    },
+    {
+      "languageCode": "fa",
+      "name": "قبرس"
+    },
+    {
+      "languageCode": "de",
+      "name": "Zypern"
+    },
+    {
+      "languageCode": "es",
+      "name": "Chipre"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Chypre"
+    },
+    {
+      "languageCode": "ja",
+      "name": "キプロス"
+    },
+    {
+      "languageCode": "it",
+      "name": "Cipro"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "塞浦路斯"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Kuzey Kıbrıs Türk Cumhuriyeti"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Кипр"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Кіпр"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Cypr"
+    }
+  ],
+  "states": [
+    {
+      "id": 744,
+      "name": "Kyrenia (Keryneia)",
+      "stateCode": "06",
+      "latitude": 35.299194,
+      "longitude": 33.2363246,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 22045,
+          "name": "Kyrenia",
+          "latitude": 35.33634,
+          "longitude": 33.31729,
+          "translations": []
+        },
+        {
+          "id": 22046,
+          "name": "Kyrenia Municipality",
+          "latitude": 35.33672,
+          "longitude": 33.31504,
+          "translations": []
+        },
+        {
+          "id": 22059,
+          "name": "Lápithos",
+          "latitude": 35.33823,
+          "longitude": 33.17368,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 745,
+      "name": "Nicosia (Lefkoşa)",
+      "stateCode": "01",
+      "latitude": 35.1855659,
+      "longitude": 33.3822764,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 22012,
+          "name": "Akáki",
+          "latitude": 35.13341,
+          "longitude": 33.12873,
+          "translations": []
+        },
+        {
+          "id": 22013,
+          "name": "Alámpra",
+          "latitude": 34.98898,
+          "longitude": 33.39887,
+          "translations": []
+        },
+        {
+          "id": 22016,
+          "name": "Aredioú",
+          "latitude": 35.04844,
+          "longitude": 33.1961,
+          "translations": []
+        },
+        {
+          "id": 22018,
+          "name": "Astromerítis",
+          "latitude": 35.14096,
+          "longitude": 33.03793,
+          "translations": []
+        },
+        {
+          "id": 22025,
+          "name": "Dáli",
+          "latitude": 35.02294,
+          "longitude": 33.42195,
+          "translations": []
+        },
+        {
+          "id": 22027,
+          "name": "Ergátes",
+          "latitude": 35.05365,
+          "longitude": 33.24292,
+          "translations": []
+        },
+        {
+          "id": 22035,
+          "name": "Géri",
+          "latitude": 35.1056,
+          "longitude": 33.41977,
+          "translations": []
+        },
+        {
+          "id": 22036,
+          "name": "Kakopetriá",
+          "latitude": 34.98768,
+          "longitude": 32.90468,
+          "translations": []
+        },
+        {
+          "id": 22038,
+          "name": "Klírou",
+          "latitude": 35.02004,
+          "longitude": 33.17806,
+          "translations": []
+        },
+        {
+          "id": 22040,
+          "name": "Kokkinotrimithiá",
+          "latitude": 35.15303,
+          "longitude": 33.19966,
+          "translations": []
+        },
+        {
+          "id": 22047,
+          "name": "Káto Defterá",
+          "latitude": 35.08489,
+          "longitude": 33.27558,
+          "translations": []
+        },
+        {
+          "id": 22048,
+          "name": "Káto Pýrgos",
+          "latitude": 35.17897,
+          "longitude": 32.686,
+          "translations": []
+        },
+        {
+          "id": 22058,
+          "name": "Lythrodóntas",
+          "latitude": 34.95105,
+          "longitude": 33.29777,
+          "translations": []
+        },
+        {
+          "id": 22060,
+          "name": "Léfka",
+          "latitude": 35.11199,
+          "longitude": 32.84997,
+          "translations": []
+        },
+        {
+          "id": 22061,
+          "name": "Lýmpia",
+          "latitude": 34.99889,
+          "longitude": 33.46175,
+          "translations": []
+        },
+        {
+          "id": 22066,
+          "name": "Mámmari",
+          "latitude": 35.17604,
+          "longitude": 33.20435,
+          "translations": []
+        },
+        {
+          "id": 22067,
+          "name": "Méniko",
+          "latitude": 35.10945,
+          "longitude": 33.14474,
+          "translations": []
+        },
+        {
+          "id": 22068,
+          "name": "Mórfou",
+          "latitude": 35.19869,
+          "longitude": 32.99338,
+          "translations": []
+        },
+        {
+          "id": 22069,
+          "name": "Nicosia",
+          "latitude": 35.17531,
+          "longitude": 33.3642,
+          "translations": []
+        },
+        {
+          "id": 22070,
+          "name": "Nicosia Municipality",
+          "latitude": 35.16944,
+          "longitude": 33.36081,
+          "translations": []
+        },
+        {
+          "id": 22075,
+          "name": "Peristeróna",
+          "latitude": 35.12928,
+          "longitude": 33.07858,
+          "translations": []
+        },
+        {
+          "id": 22080,
+          "name": "Psimolofou",
+          "latitude": 35.0625,
+          "longitude": 33.2625,
+          "translations": []
+        },
+        {
+          "id": 22083,
+          "name": "Páno Defterá",
+          "latitude": 35.07778,
+          "longitude": 33.26584,
+          "translations": []
+        },
+        {
+          "id": 22086,
+          "name": "Péra",
+          "latitude": 35.0335,
+          "longitude": 33.25413,
+          "translations": []
+        },
+        {
+          "id": 22097,
+          "name": "Tséri",
+          "latitude": 35.07307,
+          "longitude": 33.32344,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 746,
+      "name": "Paphos (Pafos)",
+      "stateCode": "05",
+      "latitude": 34.9164594,
+      "longitude": 32.4920088,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 22017,
+          "name": "Argáka",
+          "latitude": 35.06646,
+          "longitude": 32.49446,
+          "translations": []
+        },
+        {
+          "id": 22022,
+          "name": "Chlórakas",
+          "latitude": 34.79768,
+          "longitude": 32.41207,
+          "translations": []
+        },
+        {
+          "id": 22026,
+          "name": "Emba",
+          "latitude": 34.807,
+          "longitude": 32.42406,
+          "translations": []
+        },
+        {
+          "id": 22032,
+          "name": "Geroskipou",
+          "latitude": 34.75498,
+          "longitude": 32.45155,
+          "translations": []
+        },
+        {
+          "id": 22033,
+          "name": "Geroskípou (quarter)",
+          "latitude": 34.7619,
+          "longitude": 32.45135,
+          "translations": []
+        },
+        {
+          "id": 22034,
+          "name": "Geroskípou Municipality",
+          "latitude": 34.75142,
+          "longitude": 32.45449,
+          "translations": []
+        },
+        {
+          "id": 22037,
+          "name": "Kissonerga",
+          "latitude": 34.82279,
+          "longitude": 32.40131,
+          "translations": []
+        },
+        {
+          "id": 22041,
+          "name": "Koloni",
+          "latitude": 34.75228,
+          "longitude": 32.46487,
+          "translations": []
+        },
+        {
+          "id": 22043,
+          "name": "Konia",
+          "latitude": 34.78516,
+          "longitude": 32.459,
+          "translations": []
+        },
+        {
+          "id": 22063,
+          "name": "Mesógi",
+          "latitude": 34.81577,
+          "longitude": 32.45542,
+          "translations": []
+        },
+        {
+          "id": 22071,
+          "name": "Paphos",
+          "latitude": 34.77679,
+          "longitude": 32.42451,
+          "translations": []
+        },
+        {
+          "id": 22085,
+          "name": "Pégeia",
+          "latitude": 34.88341,
+          "longitude": 32.38166,
+          "translations": []
+        },
+        {
+          "id": 22088,
+          "name": "Pólis",
+          "latitude": 35.03534,
+          "longitude": 32.42575,
+          "translations": []
+        },
+        {
+          "id": 22096,
+          "name": "Tsáda",
+          "latitude": 34.83801,
+          "longitude": 32.47547,
+          "translations": []
+        },
+        {
+          "id": 22098,
+          "name": "Tála",
+          "latitude": 34.83745,
+          "longitude": 32.43272,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 747,
+      "name": "Larnaca (Larnaka)",
+      "stateCode": "03",
+      "latitude": 34.8507206,
+      "longitude": 33.4831906,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 22015,
+          "name": "Aradíppou",
+          "latitude": 34.95151,
+          "longitude": 33.59199,
+          "translations": []
+        },
+        {
+          "id": 22019,
+          "name": "Athíenou",
+          "latitude": 35.0618,
+          "longitude": 33.54156,
+          "translations": []
+        },
+        {
+          "id": 22024,
+          "name": "Dhromolaxia",
+          "latitude": 34.87551,
+          "longitude": 33.58684,
+          "translations": []
+        },
+        {
+          "id": 22039,
+          "name": "Kofínou",
+          "latitude": 34.82449,
+          "longitude": 33.3913,
+          "translations": []
+        },
+        {
+          "id": 22042,
+          "name": "Kolossi",
+          "latitude": 34.66865,
+          "longitude": 32.93375,
+          "translations": []
+        },
+        {
+          "id": 22049,
+          "name": "Kíti",
+          "latitude": 34.84696,
+          "longitude": 33.57344,
+          "translations": []
+        },
+        {
+          "id": 22050,
+          "name": "Kórnos",
+          "latitude": 34.92396,
+          "longitude": 33.39764,
+          "translations": []
+        },
+        {
+          "id": 22051,
+          "name": "Larnaca",
+          "latitude": 34.92291,
+          "longitude": 33.6233,
+          "translations": []
+        },
+        {
+          "id": 22057,
+          "name": "Livádia",
+          "latitude": 34.95118,
+          "longitude": 33.62658,
+          "translations": []
+        },
+        {
+          "id": 22062,
+          "name": "Meneou",
+          "latitude": 34.86114,
+          "longitude": 33.59516,
+          "translations": []
+        },
+        {
+          "id": 22064,
+          "name": "Mosfilotí",
+          "latitude": 34.95256,
+          "longitude": 33.42511,
+          "translations": []
+        },
+        {
+          "id": 22076,
+          "name": "Perivólia",
+          "latitude": 34.83355,
+          "longitude": 33.58196,
+          "translations": []
+        },
+        {
+          "id": 22079,
+          "name": "Psevdás",
+          "latitude": 34.94653,
+          "longitude": 33.46277,
+          "translations": []
+        },
+        {
+          "id": 22087,
+          "name": "Pérgamos",
+          "latitude": 35.04167,
+          "longitude": 33.70833,
+          "translations": []
+        },
+        {
+          "id": 22089,
+          "name": "Pýla",
+          "latitude": 35.01237,
+          "longitude": 33.69188,
+          "translations": []
+        },
+        {
+          "id": 22093,
+          "name": "Tersefánou",
+          "latitude": 34.85411,
+          "longitude": 33.54746,
+          "translations": []
+        },
+        {
+          "id": 22094,
+          "name": "Troúlloi",
+          "latitude": 35.03203,
+          "longitude": 33.61501,
+          "translations": []
+        },
+        {
+          "id": 22099,
+          "name": "Voróklini",
+          "latitude": 34.986,
+          "longitude": 33.65387,
+          "translations": []
+        },
+        {
+          "id": 22100,
+          "name": "Xylofágou",
+          "latitude": 34.97743,
+          "longitude": 33.84894,
+          "translations": []
+        },
+        {
+          "id": 22101,
+          "name": "Xylotymbou",
+          "latitude": 35.0172,
+          "longitude": 33.74245,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 748,
+      "name": "Limassol (Leymasun)",
+      "stateCode": "02",
+      "latitude": 34.7071301,
+      "longitude": 33.0226174,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 22028,
+          "name": "Erími",
+          "latitude": 34.67766,
+          "longitude": 32.91815,
+          "translations": []
+        },
+        {
+          "id": 22031,
+          "name": "Germasógeia",
+          "latitude": 34.72207,
+          "longitude": 33.08254,
+          "translations": []
+        },
+        {
+          "id": 22044,
+          "name": "Kyperoúnta",
+          "latitude": 34.93815,
+          "longitude": 32.97551,
+          "translations": []
+        },
+        {
+          "id": 22053,
+          "name": "Lemesós",
+          "latitude": 34.69218,
+          "longitude": 33.02854,
+          "translations": []
+        },
+        {
+          "id": 22055,
+          "name": "Limassol",
+          "latitude": 34.68406,
+          "longitude": 33.03794,
+          "translations": []
+        },
+        {
+          "id": 22065,
+          "name": "Mouttagiáka",
+          "latitude": 34.72022,
+          "longitude": 33.10066,
+          "translations": []
+        },
+        {
+          "id": 22073,
+          "name": "Parekklisha",
+          "latitude": 34.74583,
+          "longitude": 33.15833,
+          "translations": []
+        },
+        {
+          "id": 22074,
+          "name": "Peléndri",
+          "latitude": 34.89597,
+          "longitude": 32.96817,
+          "translations": []
+        },
+        {
+          "id": 22077,
+          "name": "Pissoúri",
+          "latitude": 34.66942,
+          "longitude": 32.70132,
+          "translations": []
+        },
+        {
+          "id": 22081,
+          "name": "Pyrgos",
+          "latitude": 34.74167,
+          "longitude": 33.18333,
+          "translations": []
+        },
+        {
+          "id": 22082,
+          "name": "Páchna",
+          "latitude": 34.77874,
+          "longitude": 32.79355,
+          "translations": []
+        },
+        {
+          "id": 22084,
+          "name": "Páno Polemídia",
+          "latitude": 34.70559,
+          "longitude": 32.99269,
+          "translations": []
+        },
+        {
+          "id": 22091,
+          "name": "Sotíra",
+          "latitude": 34.71189,
+          "longitude": 32.8634,
+          "translations": []
+        },
+        {
+          "id": 22092,
+          "name": "Soúni-Zanakiá",
+          "latitude": 34.7357,
+          "longitude": 32.88437,
+          "translations": []
+        },
+        {
+          "id": 22103,
+          "name": "Ágios Tomás",
+          "latitude": 34.71158,
+          "longitude": 32.73129,
+          "translations": []
+        },
+        {
+          "id": 22104,
+          "name": "Ágios Týchon",
+          "latitude": 34.72606,
+          "longitude": 33.13872,
+          "translations": []
+        },
+        {
+          "id": 22105,
+          "name": "Ýpsonas",
+          "latitude": 34.68797,
+          "longitude": 32.96191,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 749,
+      "name": "Famagusta (Mağusa)",
+      "stateCode": "04",
+      "latitude": 35.2857023,
+      "longitude": 33.8411288,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 22011,
+          "name": "Acherítou",
+          "latitude": 35.10022,
+          "longitude": 33.86155,
+          "translations": []
+        },
+        {
+          "id": 22014,
+          "name": "Ammochostos Municipality",
+          "latitude": 35.11755,
+          "longitude": 33.94335,
+          "translations": []
+        },
+        {
+          "id": 22020,
+          "name": "Avgórou",
+          "latitude": 35.03615,
+          "longitude": 33.83918,
+          "translations": []
+        },
+        {
+          "id": 22021,
+          "name": "Ayia Napa",
+          "latitude": 34.98213,
+          "longitude": 34.00183,
+          "translations": []
+        },
+        {
+          "id": 22023,
+          "name": "Derýneia",
+          "latitude": 35.06484,
+          "longitude": 33.96083,
+          "translations": []
+        },
+        {
+          "id": 22029,
+          "name": "Famagusta",
+          "latitude": 35.12054,
+          "longitude": 33.93894,
+          "translations": []
+        },
+        {
+          "id": 22030,
+          "name": "Frénaros",
+          "latitude": 35.04121,
+          "longitude": 33.92242,
+          "translations": []
+        },
+        {
+          "id": 22052,
+          "name": "Lefkónoiko",
+          "latitude": 35.2598,
+          "longitude": 33.73189,
+          "translations": []
+        },
+        {
+          "id": 22054,
+          "name": "Leonárisso",
+          "latitude": 35.46892,
+          "longitude": 34.13886,
+          "translations": []
+        },
+        {
+          "id": 22056,
+          "name": "Liopétri",
+          "latitude": 35.00885,
+          "longitude": 33.89256,
+          "translations": []
+        },
+        {
+          "id": 22072,
+          "name": "Paralímni",
+          "latitude": 35.03945,
+          "longitude": 33.98181,
+          "translations": []
+        },
+        {
+          "id": 22078,
+          "name": "Protaras",
+          "latitude": 35.0125,
+          "longitude": 34.05833,
+          "translations": []
+        },
+        {
+          "id": 22090,
+          "name": "Rizokárpaso",
+          "latitude": 35.59719,
+          "longitude": 34.37916,
+          "translations": []
+        },
+        {
+          "id": 22095,
+          "name": "Tríkomo",
+          "latitude": 35.28628,
+          "longitude": 33.89167,
+          "translations": []
+        },
+        {
+          "id": 22102,
+          "name": "Áchna",
+          "latitude": 35.05515,
+          "longitude": 33.78388,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 238,
+  "name": "Vatican City State (Holy See)",
+  "nativeName": "Vaticano",
+  "iso2": "VA",
+  "iso3": "VAT",
+  "numericCode": "336",
+  "phoneCode": "379",
+  "tld": ".va",
+  "latitude": 41.9,
+  "longitude": 12.45,
+  "flagId": 15,
+  "regionId": 4,
+  "subregionId": 16,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2637
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "바티칸 시국"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Vaticano"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Vaticano"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Heilige Stoel"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Sveta Stolica"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سریر مقدس"
+    },
+    {
+      "languageCode": "de",
+      "name": "Heiliger Stuhl"
+    },
+    {
+      "languageCode": "es",
+      "name": "Santa Sede"
+    },
+    {
+      "languageCode": "fr",
+      "name": "voir Saint"
+    },
+    {
+      "languageCode": "ja",
+      "name": "聖座"
+    },
+    {
+      "languageCode": "it",
+      "name": "Santa Sede"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "梵蒂冈"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Vatikan"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Город-государство Ватикан (Святой Престол)"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Держава-місто Ватикан (Святий Престол)"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Państwo Watykańskie (Stolica Apostolska)"
+    }
+  ],
+  "states": []
+}

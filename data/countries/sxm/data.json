@@ -1,0 +1,81 @@
+{
+  "id": 250,
+  "name": "Sint Maarten (Dutch part)",
+  "nativeName": "Sint Maarten",
+  "iso2": "SX",
+  "iso3": "SXM",
+  "numericCode": "534",
+  "phoneCode": "1721",
+  "tld": ".sx",
+  "latitude": 18.033333,
+  "longitude": -63.05,
+  "flagId": 40,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    873
+  ],
+  "timezoneIds": [
+    2241
+  ],
+  "officialLanguageIds": [
+    30,
+    29
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "신트마르턴"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Sint Maarten"
+    },
+    {
+      "languageCode": "pt",
+      "name": "São Martinho"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Sint Maarten"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سینت مارتن"
+    },
+    {
+      "languageCode": "de",
+      "name": "Sint Maarten (niederl. Teil)"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Saint Martin (partie néerlandaise)"
+    },
+    {
+      "languageCode": "it",
+      "name": "Saint Martin (parte olandese)"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "圣马丁岛（荷兰部分）"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Sint Maarten"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Синт-Мартен (голландская часть)"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Сінт-Мартен (голландська частина)"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Sint Maarten (część niderlandzka)"
+    }
+  ],
+  "states": []
+}

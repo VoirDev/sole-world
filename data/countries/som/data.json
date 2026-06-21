@@ -1,0 +1,590 @@
+{
+  "id": 203,
+  "name": "Somalia",
+  "nativeName": "Soomaaliya",
+  "iso2": "SO",
+  "iso3": "SOM",
+  "numericCode": "706",
+  "phoneCode": "252",
+  "tld": ".so",
+  "latitude": 10,
+  "longitude": 49,
+  "flagId": 45,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    957
+  ],
+  "timezoneIds": [
+    2564
+  ],
+  "officialLanguageIds": [
+    7
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "소말리아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Somália"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Somália"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Somalië"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Somalija"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سومالی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Somalia"
+    },
+    {
+      "languageCode": "es",
+      "name": "Somalia"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Somalie"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ソマリア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Somalia"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "索马里"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Somali"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Сомали"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Сомалі"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Somalia"
+    }
+  ],
+  "states": [
+    {
+      "id": 915,
+      "name": "Hiran",
+      "stateCode": "HI",
+      "latitude": 4.321015,
+      "longitude": 45.2993862,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104780,
+          "name": "Beledweyne",
+          "latitude": 4.73583,
+          "longitude": 45.20361,
+          "translations": []
+        },
+        {
+          "id": 104784,
+          "name": "Buulobarde",
+          "latitude": 3.85375,
+          "longitude": 45.56744,
+          "translations": []
+        },
+        {
+          "id": 104801,
+          "name": "Jalalaqsi",
+          "latitude": 3.3766,
+          "longitude": 45.5996,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 916,
+      "name": "Mudug",
+      "stateCode": "MU",
+      "latitude": 6.5656726,
+      "longitude": 47.7637565,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104796,
+          "name": "Gaalkacyo",
+          "latitude": 6.76972,
+          "longitude": 47.43083,
+          "translations": []
+        },
+        {
+          "id": 104799,
+          "name": "Hobyo",
+          "latitude": 5.3505,
+          "longitude": 48.5268,
+          "translations": []
+        },
+        {
+          "id": 104818,
+          "name": "Xarardheere",
+          "latitude": 4.6544,
+          "longitude": 47.8575,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 917,
+      "name": "Bakool",
+      "stateCode": "BK",
+      "latitude": 4.3657221,
+      "longitude": 44.0960311,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104815,
+          "name": "Tayeeglow",
+          "latitude": 4.01897,
+          "longitude": 44.51111,
+          "translations": []
+        },
+        {
+          "id": 104816,
+          "name": "Waajid",
+          "latitude": 3.80958,
+          "longitude": 43.24627,
+          "translations": []
+        },
+        {
+          "id": 104819,
+          "name": "Xuddur",
+          "latitude": 4.12129,
+          "longitude": 43.88945,
+          "translations": []
+        },
+        {
+          "id": 104820,
+          "name": "Yeed",
+          "latitude": 4.55,
+          "longitude": 43.03333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 918,
+      "name": "Galguduud",
+      "stateCode": "GA",
+      "latitude": 5.1850128,
+      "longitude": 46.8252838,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104790,
+          "name": "Ceelbuur",
+          "latitude": 4.68501,
+          "longitude": 46.6176,
+          "translations": []
+        },
+        {
+          "id": 104791,
+          "name": "Ceeldheer",
+          "latitude": 3.84878,
+          "longitude": 47.18064,
+          "translations": []
+        },
+        {
+          "id": 104793,
+          "name": "Dhuusamarreeb",
+          "latitude": 5.53597,
+          "longitude": 46.38666,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 919,
+      "name": "Sanaag",
+      "stateCode": "SA",
+      "latitude": 10.3938218,
+      "longitude": 47.7637565,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104792,
+          "name": "Ceerigaabo",
+          "latitude": 10.61616,
+          "longitude": 47.36795,
+          "translations": []
+        },
+        {
+          "id": 104806,
+          "name": "Las Khorey",
+          "latitude": 11.1595,
+          "longitude": 48.1967,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 920,
+      "name": "Nugal",
+      "stateCode": "NU",
+      "latitude": 43.2793861,
+      "longitude": 17.0339205,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104795,
+          "name": "Eyl",
+          "latitude": 7.9803,
+          "longitude": 49.8164,
+          "translations": []
+        },
+        {
+          "id": 104798,
+          "name": "Garoowe",
+          "latitude": 8.40207,
+          "longitude": 48.48284,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 921,
+      "name": "Lower Shebelle",
+      "stateCode": "SH",
+      "latitude": 1.8766458,
+      "longitude": 44.2479015,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104775,
+          "name": "Afgooye",
+          "latitude": 2.1381,
+          "longitude": 45.1212,
+          "translations": []
+        },
+        {
+          "id": 104809,
+          "name": "Marka",
+          "latitude": 1.71594,
+          "longitude": 44.77166,
+          "translations": []
+        },
+        {
+          "id": 104813,
+          "name": "Qoryooley",
+          "latitude": 1.78784,
+          "longitude": 44.52999,
+          "translations": []
+        },
+        {
+          "id": 104817,
+          "name": "Wanlaweyn",
+          "latitude": 2.6185,
+          "longitude": 44.8938,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 922,
+      "name": "Middle Juba",
+      "stateCode": "JD",
+      "latitude": 2.0780488,
+      "longitude": 41.6011814,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104794,
+          "name": "Dujuuma",
+          "latitude": 1.25311,
+          "longitude": 42.57377,
+          "translations": []
+        },
+        {
+          "id": 104804,
+          "name": "Jilib",
+          "latitude": 0.48829,
+          "longitude": 42.78535,
+          "translations": []
+        },
+        {
+          "id": 104814,
+          "name": "Saacow",
+          "latitude": 1.62794,
+          "longitude": 42.44067,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 923,
+      "name": "Middle Shebelle",
+      "stateCode": "SD",
+      "latitude": 2.9250247,
+      "longitude": 45.9039689,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104787,
+          "name": "Cadale",
+          "latitude": 2.7603,
+          "longitude": 46.3222,
+          "translations": []
+        },
+        {
+          "id": 104803,
+          "name": "Jawhar",
+          "latitude": 2.78087,
+          "longitude": 45.50048,
+          "translations": []
+        },
+        {
+          "id": 104808,
+          "name": "Mahaddayweyne",
+          "latitude": 2.9726,
+          "longitude": 45.5347,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 924,
+      "name": "Lower Juba",
+      "stateCode": "JH",
+      "latitude": 0.224021,
+      "longitude": 41.6011814,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104785,
+          "name": "Buur Gaabo",
+          "latitude": -1.21917,
+          "longitude": 41.83725,
+          "translations": []
+        },
+        {
+          "id": 104802,
+          "name": "Jamaame",
+          "latitude": 0.06968,
+          "longitude": 42.74497,
+          "translations": []
+        },
+        {
+          "id": 104805,
+          "name": "Kismayo",
+          "latitude": -0.35817,
+          "longitude": 42.54536,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 925,
+      "name": "Awdal",
+      "stateCode": "AW",
+      "latitude": 10.6334285,
+      "longitude": 43.329466,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 926,
+      "name": "Bay",
+      "stateCode": "BY",
+      "latitude": 37.0365534,
+      "longitude": -95.6174767,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104777,
+          "name": "Baidoa",
+          "latitude": 3.11383,
+          "longitude": 43.6498,
+          "translations": []
+        },
+        {
+          "id": 104786,
+          "name": "Buurhakaba",
+          "latitude": 2.80257,
+          "longitude": 44.07805,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 927,
+      "name": "Banaadir",
+      "stateCode": "BN",
+      "latitude": 2.1187375,
+      "longitude": 45.3369459,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104810,
+          "name": "Mogadishu",
+          "latitude": 2.03711,
+          "longitude": 45.34375,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 928,
+      "name": "Gedo",
+      "stateCode": "GE",
+      "latitude": 3.5039227,
+      "longitude": 42.2362435,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104776,
+          "name": "Baardheere",
+          "latitude": 2.34464,
+          "longitude": 42.27644,
+          "translations": []
+        },
+        {
+          "id": 104797,
+          "name": "Garbahaarrey",
+          "latitude": 3.32892,
+          "longitude": 42.22091,
+          "translations": []
+        },
+        {
+          "id": 104807,
+          "name": "Luuq",
+          "latitude": 3.80315,
+          "longitude": 42.54417,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 929,
+      "name": "Togdheer",
+      "stateCode": "TO",
+      "latitude": 9.4460587,
+      "longitude": 45.2993862,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104783,
+          "name": "Burao",
+          "latitude": 9.52213,
+          "longitude": 45.53363,
+          "translations": []
+        },
+        {
+          "id": 104789,
+          "name": "Ceek",
+          "latitude": 8.99907,
+          "longitude": 45.35824,
+          "translations": []
+        },
+        {
+          "id": 104811,
+          "name": "Oodweyne",
+          "latitude": 9.4092,
+          "longitude": 45.06397,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 930,
+      "name": "Bari",
+      "stateCode": "BR",
+      "latitude": 41.1171432,
+      "longitude": 16.8718715,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 104778,
+          "name": "Bandarbeyla",
+          "latitude": 9.4942,
+          "longitude": 50.8122,
+          "translations": []
+        },
+        {
+          "id": 104779,
+          "name": "Bargaal",
+          "latitude": 11.28636,
+          "longitude": 51.0773,
+          "translations": []
+        },
+        {
+          "id": 104781,
+          "name": "Bereeda",
+          "latitude": 11.87037,
+          "longitude": 51.05795,
+          "translations": []
+        },
+        {
+          "id": 104782,
+          "name": "Bosaso",
+          "latitude": 11.28421,
+          "longitude": 49.18158,
+          "translations": []
+        },
+        {
+          "id": 104788,
+          "name": "Caluula",
+          "latitude": 11.96611,
+          "longitude": 50.75694,
+          "translations": []
+        },
+        {
+          "id": 104800,
+          "name": "Iskushuban",
+          "latitude": 10.2837,
+          "longitude": 50.23,
+          "translations": []
+        },
+        {
+          "id": 104812,
+          "name": "Qandala",
+          "latitude": 11.47197,
+          "longitude": 49.87282,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

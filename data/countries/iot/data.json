@@ -1,0 +1,92 @@
+{
+  "id": 32,
+  "name": "British Indian Ocean Territory",
+  "nativeName": "British Indian Ocean Territory",
+  "iso2": "IO",
+  "iso3": "IOT",
+  "numericCode": "086",
+  "phoneCode": "246",
+  "tld": ".io",
+  "latitude": -6,
+  "longitude": 71.5,
+  "flagId": 145,
+  "regionId": 1,
+  "subregionId": 4,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2300
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "영국령 인도양 지역"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Território Britânico do Oceano íÍdico"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Território Britânico do Oceano Índico"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Britse Gebieden in de Indische Oceaan"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Britanski Indijskooceanski teritorij"
+    },
+    {
+      "languageCode": "fa",
+      "name": "قلمرو بریتانیا در اقیانوس هند"
+    },
+    {
+      "languageCode": "de",
+      "name": "Britisches Territorium im Indischen Ozean"
+    },
+    {
+      "languageCode": "es",
+      "name": "Territorio Británico del Océano Índico"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Territoire britannique de l'océan Indien"
+    },
+    {
+      "languageCode": "ja",
+      "name": "イギリス領インド洋地域"
+    },
+    {
+      "languageCode": "it",
+      "name": "Territorio britannico dell'oceano indiano"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "英属印度洋领地"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Britanya Hint Okyanusu Topraklari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Британская территория в Индийском океане"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Британська територія в Індійському океані"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Brytyjskie Terytorium Oceanu Indyjskiego"
+    }
+  ],
+  "states": []
+}

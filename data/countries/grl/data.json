@@ -1,0 +1,95 @@
+{
+  "id": 86,
+  "name": "Greenland",
+  "nativeName": "Kalaallit Nunaat",
+  "iso2": "GL",
+  "iso3": "GRL",
+  "numericCode": "304",
+  "phoneCode": "299",
+  "tld": ".gl",
+  "latitude": 72,
+  "longitude": -40,
+  "flagId": 165,
+  "regionId": 2,
+  "subregionId": 6,
+  "currencyIds": [
+    876
+  ],
+  "timezoneIds": [
+    2390,
+    2391,
+    2392,
+    2393
+  ],
+  "officialLanguageIds": [
+    53
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "그린란드"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Groelândia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Gronelândia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Groenland"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Grenland"
+    },
+    {
+      "languageCode": "fa",
+      "name": "گرینلند"
+    },
+    {
+      "languageCode": "de",
+      "name": "Grönland"
+    },
+    {
+      "languageCode": "es",
+      "name": "Groenlandia"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Groenland"
+    },
+    {
+      "languageCode": "ja",
+      "name": "グリーンランド"
+    },
+    {
+      "languageCode": "it",
+      "name": "Groenlandia"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "格陵兰岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Grönland"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Гренландия"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Гренландія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Grenlandia"
+    }
+  ],
+  "states": []
+}

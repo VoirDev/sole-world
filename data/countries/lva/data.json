@@ -1,0 +1,1440 @@
+{
+  "id": 120,
+  "name": "Latvia",
+  "nativeName": "Latvija",
+  "iso2": "LV",
+  "iso3": "LVA",
+  "numericCode": "428",
+  "phoneCode": "371",
+  "tld": ".lv",
+  "latitude": 57,
+  "longitude": 25,
+  "flagId": 116,
+  "regionId": 4,
+  "subregionId": 18,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2436
+  ],
+  "officialLanguageIds": [
+    59
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "라트비아"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Letônia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Letónia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Letland"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Latvija"
+    },
+    {
+      "languageCode": "fa",
+      "name": "لتونی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Lettland"
+    },
+    {
+      "languageCode": "es",
+      "name": "Letonia"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Lettonie"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ラトビア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Lettonia"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "拉脱维亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Letonya"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Латвия"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Латвія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Łotwa"
+    }
+  ],
+  "states": [
+    {
+      "id": 4400,
+      "name": "Gulbene",
+      "stateCode": "033",
+      "latitude": 57.2155645,
+      "longitude": 26.6452955,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66897,
+          "name": "Gulbene",
+          "latitude": 57.17767,
+          "longitude": 26.75291,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4401,
+      "name": "Līvāni",
+      "stateCode": "056",
+      "latitude": 56.3550942,
+      "longitude": 26.172519,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66925,
+          "name": "Līvāni",
+          "latitude": 56.35431,
+          "longitude": 26.17579,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4402,
+      "name": "Salaspils",
+      "stateCode": "087",
+      "latitude": 56.8608152,
+      "longitude": 24.3497881,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66957,
+          "name": "Salaspils",
+          "latitude": 56.86014,
+          "longitude": 24.36544,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4403,
+      "name": "Ventspils",
+      "stateCode": "106",
+      "latitude": 57.2833682,
+      "longitude": 21.8587558,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66939,
+          "name": "Piltene",
+          "latitude": 57.22426,
+          "longitude": 21.67439,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4409,
+      "name": "Tukums",
+      "stateCode": "099",
+      "latitude": 56.9672868,
+      "longitude": 23.1524379,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66894,
+          "name": "Engure",
+          "latitude": 57.16061,
+          "longitude": 23.22527,
+          "translations": []
+        },
+        {
+          "id": 66905,
+          "name": "Jaunpils",
+          "latitude": 56.73137,
+          "longitude": 23.01247,
+          "translations": []
+        },
+        {
+          "id": 66910,
+          "name": "Kandava",
+          "latitude": 57.04087,
+          "longitude": 22.77466,
+          "translations": []
+        },
+        {
+          "id": 66965,
+          "name": "Smārde",
+          "latitude": 56.9542,
+          "longitude": 23.33736,
+          "translations": []
+        },
+        {
+          "id": 66971,
+          "name": "Tukums",
+          "latitude": 56.96764,
+          "longitude": 23.15554,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4416,
+      "name": "Ogre",
+      "stateCode": "067",
+      "latitude": 56.8147355,
+      "longitude": 24.6044555,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66899,
+          "name": "Ikšķile",
+          "latitude": 56.83399,
+          "longitude": 24.49679,
+          "translations": []
+        },
+        {
+          "id": 66907,
+          "name": "Jumprava",
+          "latitude": 56.67613,
+          "longitude": 24.9721,
+          "translations": []
+        },
+        {
+          "id": 66918,
+          "name": "Lielvārde",
+          "latitude": 56.72066,
+          "longitude": 24.80743,
+          "translations": []
+        },
+        {
+          "id": 66935,
+          "name": "Ogre",
+          "latitude": 56.8162,
+          "longitude": 24.61401,
+          "translations": []
+        },
+        {
+          "id": 66991,
+          "name": "Ķegums",
+          "latitude": 56.7451,
+          "longitude": 24.72439,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4417,
+      "name": "Olaine",
+      "stateCode": "068",
+      "latitude": 56.7952353,
+      "longitude": 24.0153589,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66936,
+          "name": "Olaine",
+          "latitude": 56.79472,
+          "longitude": 23.9358,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4418,
+      "name": "Limbaži",
+      "stateCode": "054",
+      "latitude": 57.5403227,
+      "longitude": 24.7134451,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66869,
+          "name": "Ainaži",
+          "latitude": 57.86348,
+          "longitude": 24.35853,
+          "translations": []
+        },
+        {
+          "id": 66873,
+          "name": "Aloja",
+          "latitude": 57.76723,
+          "longitude": 24.87743,
+          "translations": []
+        },
+        {
+          "id": 66921,
+          "name": "Limbaži",
+          "latitude": 57.51287,
+          "longitude": 24.71941,
+          "translations": []
+        },
+        {
+          "id": 66956,
+          "name": "Salacgrīva",
+          "latitude": 57.75312,
+          "longitude": 24.35895,
+          "translations": []
+        },
+        {
+          "id": 66966,
+          "name": "Staicele",
+          "latitude": 57.83579,
+          "longitude": 24.74706,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4421,
+      "name": "Ventspils",
+      "stateCode": "VEN",
+      "latitude": 57.3937216,
+      "longitude": 21.5647066,
+      "type": "state city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66984,
+          "name": "Ventspils",
+          "latitude": 57.38988,
+          "longitude": 21.57288,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4424,
+      "name": "Jelgava",
+      "stateCode": "041",
+      "latitude": 56.5895689,
+      "longitude": 23.6610481,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66937,
+          "name": "Ozolnieki",
+          "latitude": 56.68986,
+          "longitude": 23.7761,
+          "translations": []
+        },
+        {
+          "id": 66973,
+          "name": "Tīreļi",
+          "latitude": 56.83991,
+          "longitude": 23.58902,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4425,
+      "name": "Valka",
+      "stateCode": "101",
+      "latitude": 57.77439,
+      "longitude": 26.017005,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66977,
+          "name": "Valka",
+          "latitude": 57.7752,
+          "longitude": 26.01013,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4431,
+      "name": "Varakļāni",
+      "stateCode": "102",
+      "latitude": 56.6688006,
+      "longitude": 26.5636414,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66980,
+          "name": "Varakļāni",
+          "latitude": 56.60826,
+          "longitude": 26.75377,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4433,
+      "name": "Madona",
+      "stateCode": "059",
+      "latitude": 56.8598923,
+      "longitude": 26.2276201,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66886,
+          "name": "Cesvaine",
+          "latitude": 56.96754,
+          "longitude": 26.30764,
+          "translations": []
+        },
+        {
+          "id": 66922,
+          "name": "Lubāna",
+          "latitude": 56.90425,
+          "longitude": 26.71606,
+          "translations": []
+        },
+        {
+          "id": 66926,
+          "name": "Madona",
+          "latitude": 56.85329,
+          "longitude": 26.21698,
+          "translations": []
+        },
+        {
+          "id": 66990,
+          "name": "Ērgļi",
+          "latitude": 56.89752,
+          "longitude": 25.63668,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4435,
+      "name": "Ķekava",
+      "stateCode": "052",
+      "latitude": 56.8064351,
+      "longitude": 24.1939493,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66878,
+          "name": "Baldone",
+          "latitude": 56.74451,
+          "longitude": 24.40078,
+          "translations": []
+        },
+        {
+          "id": 66879,
+          "name": "Baloži",
+          "latitude": 56.87643,
+          "longitude": 24.11825,
+          "translations": []
+        },
+        {
+          "id": 66992,
+          "name": "Ķekava",
+          "latitude": 56.82662,
+          "longitude": 24.23,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4437,
+      "name": "Dobele",
+      "stateCode": "026",
+      "latitude": 56.626305,
+      "longitude": 23.2809066,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66877,
+          "name": "Auce",
+          "latitude": 56.45981,
+          "longitude": 22.90169,
+          "translations": []
+        },
+        {
+          "id": 66892,
+          "name": "Dobele",
+          "latitude": 56.62372,
+          "longitude": 23.2751,
+          "translations": []
+        },
+        {
+          "id": 66972,
+          "name": "Tērvete",
+          "latitude": 56.47989,
+          "longitude": 23.38895,
+          "translations": []
+        },
+        {
+          "id": 66988,
+          "name": "Zelmeņi",
+          "latitude": 56.45167,
+          "longitude": 23.35194,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4438,
+      "name": "Jēkabpils",
+      "stateCode": "042",
+      "latitude": 56.291932,
+      "longitude": 25.9812017,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66872,
+          "name": "Aknīste",
+          "latitude": 56.16152,
+          "longitude": 25.74783,
+          "translations": []
+        },
+        {
+          "id": 66908,
+          "name": "Jēkabpils",
+          "latitude": 56.49903,
+          "longitude": 25.85735,
+          "translations": []
+        },
+        {
+          "id": 66914,
+          "name": "Krustpils",
+          "latitude": 56.51068,
+          "longitude": 25.86117,
+          "translations": []
+        },
+        {
+          "id": 66985,
+          "name": "Viesīte",
+          "latitude": 56.34751,
+          "longitude": 25.55514,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4439,
+      "name": "Saldus",
+      "stateCode": "088",
+      "latitude": 56.6665088,
+      "longitude": 22.4935493,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66884,
+          "name": "Brocēni",
+          "latitude": 56.6789,
+          "longitude": 22.56945,
+          "translations": []
+        },
+        {
+          "id": 66958,
+          "name": "Saldus",
+          "latitude": 56.66363,
+          "longitude": 22.48807,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4443,
+      "name": "Saulkrasti",
+      "stateCode": "089",
+      "latitude": 57.2579418,
+      "longitude": 24.4183146,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66959,
+          "name": "Saulkrasti",
+          "latitude": 57.26224,
+          "longitude": 24.41471,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4446,
+      "name": "Jūrmala",
+      "stateCode": "JUR",
+      "latitude": 56.947079,
+      "longitude": 23.6168485,
+      "type": "state city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66909,
+          "name": "Jūrmala",
+          "latitude": 56.968,
+          "longitude": 23.77038,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4450,
+      "name": "Mārupe",
+      "stateCode": "062",
+      "latitude": 56.8965717,
+      "longitude": 24.0460049,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66930,
+          "name": "Mārupe",
+          "latitude": 56.90544,
+          "longitude": 24.05113,
+          "translations": []
+        },
+        {
+          "id": 66940,
+          "name": "Piņķi",
+          "latitude": 56.94189,
+          "longitude": 23.91365,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4454,
+      "name": "Ādaži",
+      "stateCode": "011",
+      "latitude": 57.1112456,
+      "longitude": 24.1482311,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66885,
+          "name": "Carnikava",
+          "latitude": 57.12935,
+          "longitude": 24.28423,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4455,
+      "name": "Rēzekne",
+      "stateCode": "077",
+      "latitude": 56.3273638,
+      "longitude": 27.3284331,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66987,
+          "name": "Viļāni",
+          "latitude": 56.55253,
+          "longitude": 26.92449,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4459,
+      "name": "Talsi",
+      "stateCode": "097",
+      "latitude": 57.3415208,
+      "longitude": 22.5713125,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66893,
+          "name": "Dundaga",
+          "latitude": 57.50498,
+          "longitude": 22.35041,
+          "translations": []
+        },
+        {
+          "id": 66949,
+          "name": "Roja",
+          "latitude": 57.50146,
+          "longitude": 22.80881,
+          "translations": []
+        },
+        {
+          "id": 66955,
+          "name": "Sabile",
+          "latitude": 57.04577,
+          "longitude": 22.57261,
+          "translations": []
+        },
+        {
+          "id": 66968,
+          "name": "Stende",
+          "latitude": 57.14497,
+          "longitude": 22.53482,
+          "translations": []
+        },
+        {
+          "id": 66970,
+          "name": "Talsi",
+          "latitude": 57.24562,
+          "longitude": 22.58137,
+          "translations": []
+        },
+        {
+          "id": 66976,
+          "name": "Valdemārpils",
+          "latitude": 57.37068,
+          "longitude": 22.59188,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4460,
+      "name": "Liepāja",
+      "stateCode": "LPX",
+      "latitude": 56.5046678,
+      "longitude": 21.010806,
+      "type": "state city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66911,
+          "name": "Karosta",
+          "latitude": 56.55128,
+          "longitude": 21.01287,
+          "translations": []
+        },
+        {
+          "id": 66919,
+          "name": "Liepāja",
+          "latitude": 56.50474,
+          "longitude": 21.01085,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4462,
+      "name": "Smiltene",
+      "stateCode": "094",
+      "latitude": 57.4230332,
+      "longitude": 25.900278,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66876,
+          "name": "Ape",
+          "latitude": 57.53928,
+          "longitude": 26.69291,
+          "translations": []
+        },
+        {
+          "id": 66946,
+          "name": "Rauna",
+          "latitude": 57.33173,
+          "longitude": 25.60947,
+          "translations": []
+        },
+        {
+          "id": 66964,
+          "name": "Smiltene",
+          "latitude": 57.42444,
+          "longitude": 25.90164,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4463,
+      "name": "Daugavpils",
+      "stateCode": "DGV",
+      "latitude": 55.874736,
+      "longitude": 26.536179,
+      "type": "state city",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4465,
+      "name": "Bauska",
+      "stateCode": "016",
+      "latitude": 56.4101868,
+      "longitude": 24.2000689,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66882,
+          "name": "Bauska",
+          "latitude": 56.40794,
+          "longitude": 24.19443,
+          "translations": []
+        },
+        {
+          "id": 66898,
+          "name": "Iecava",
+          "latitude": 56.59766,
+          "longitude": 24.20763,
+          "translations": []
+        },
+        {
+          "id": 66938,
+          "name": "Pilsrundāle",
+          "latitude": 56.41812,
+          "longitude": 24.01625,
+          "translations": []
+        },
+        {
+          "id": 66982,
+          "name": "Vecumnieki",
+          "latitude": 56.60608,
+          "longitude": 24.52232,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4469,
+      "name": "Cēsis",
+      "stateCode": "022",
+      "latitude": 57.3102897,
+      "longitude": 25.2676125,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66888,
+          "name": "Cēsis",
+          "latitude": 57.31188,
+          "longitude": 25.27456,
+          "translations": []
+        },
+        {
+          "id": 66924,
+          "name": "Līgatne",
+          "latitude": 57.23429,
+          "longitude": 25.04059,
+          "translations": []
+        },
+        {
+          "id": 66943,
+          "name": "Priekuļi",
+          "latitude": 57.315,
+          "longitude": 25.36147,
+          "translations": []
+        },
+        {
+          "id": 66967,
+          "name": "Stalbe",
+          "latitude": 57.37065,
+          "longitude": 25.03106,
+          "translations": []
+        },
+        {
+          "id": 66981,
+          "name": "Vecpiebalga",
+          "latitude": 57.0609,
+          "longitude": 25.81624,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4472,
+      "name": "Aizkraukle",
+      "stateCode": "002",
+      "latitude": 56.646108,
+      "longitude": 25.2370854,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66870,
+          "name": "Aizkraukle",
+          "latitude": 56.60477,
+          "longitude": 25.25534,
+          "translations": []
+        },
+        {
+          "id": 66904,
+          "name": "Jaunjelgava",
+          "latitude": 56.61319,
+          "longitude": 25.08316,
+          "translations": []
+        },
+        {
+          "id": 66913,
+          "name": "Koknese",
+          "latitude": 56.65163,
+          "longitude": 25.43637,
+          "translations": []
+        },
+        {
+          "id": 66933,
+          "name": "Nereta",
+          "latitude": 56.20279,
+          "longitude": 25.30752,
+          "translations": []
+        },
+        {
+          "id": 66945,
+          "name": "Pļaviņas",
+          "latitude": 56.6178,
+          "longitude": 25.72552,
+          "translations": []
+        },
+        {
+          "id": 66963,
+          "name": "Skrīveri",
+          "latitude": 56.645,
+          "longitude": 25.12058,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4473,
+      "name": "Valmiera",
+      "stateCode": "113",
+      "latitude": 57.5384659,
+      "longitude": 25.4263618,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66912,
+          "name": "Kocēni",
+          "latitude": 57.52057,
+          "longitude": 25.33821,
+          "translations": []
+        },
+        {
+          "id": 66927,
+          "name": "Mazsalaca",
+          "latitude": 57.86329,
+          "longitude": 25.05475,
+          "translations": []
+        },
+        {
+          "id": 66931,
+          "name": "Mūrmuiža",
+          "latitude": 57.47312,
+          "longitude": 25.49174,
+          "translations": []
+        },
+        {
+          "id": 66932,
+          "name": "Naukšēni",
+          "latitude": 57.88349,
+          "longitude": 25.45609,
+          "translations": []
+        },
+        {
+          "id": 66954,
+          "name": "Rūjiena",
+          "latitude": 57.89752,
+          "longitude": 25.33155,
+          "translations": []
+        },
+        {
+          "id": 66960,
+          "name": "Seda",
+          "latitude": 57.65042,
+          "longitude": 25.75089,
+          "translations": []
+        },
+        {
+          "id": 66969,
+          "name": "Strenči",
+          "latitude": 57.62574,
+          "longitude": 25.68535,
+          "translations": []
+        },
+        {
+          "id": 66978,
+          "name": "Valmiera",
+          "latitude": 57.54108,
+          "longitude": 25.42751,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4474,
+      "name": "Krāslava",
+      "stateCode": "047",
+      "latitude": 55.8951464,
+      "longitude": 27.1814577,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66889,
+          "name": "Dagda",
+          "latitude": 56.09512,
+          "longitude": 27.53723,
+          "translations": []
+        },
+        {
+          "id": 66915,
+          "name": "Krāslava",
+          "latitude": 55.89514,
+          "longitude": 27.16799,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4476,
+      "name": "Sigulda",
+      "stateCode": "091",
+      "latitude": 57.1055092,
+      "longitude": 24.8314259,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66901,
+          "name": "Inčukalns",
+          "latitude": 57.09867,
+          "longitude": 24.6863,
+          "translations": []
+        },
+        {
+          "id": 66929,
+          "name": "Mālpils",
+          "latitude": 57.0101,
+          "longitude": 24.95783,
+          "translations": []
+        },
+        {
+          "id": 66961,
+          "name": "Sigulda",
+          "latitude": 57.15375,
+          "longitude": 24.85953,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4483,
+      "name": "Preiļi",
+      "stateCode": "073",
+      "latitude": 56.1511157,
+      "longitude": 26.7439767,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66868,
+          "name": "Aglona",
+          "latitude": 56.13274,
+          "longitude": 27.00682,
+          "translations": []
+        },
+        {
+          "id": 66902,
+          "name": "Jaunaglona",
+          "latitude": 56.16066,
+          "longitude": 27.00714,
+          "translations": []
+        },
+        {
+          "id": 66941,
+          "name": "Preiļi",
+          "latitude": 56.29444,
+          "longitude": 26.72459,
+          "translations": []
+        },
+        {
+          "id": 66947,
+          "name": "Riebiņi",
+          "latitude": 56.3428,
+          "longitude": 26.79995,
+          "translations": []
+        },
+        {
+          "id": 66983,
+          "name": "Vecvārkava",
+          "latitude": 56.19838,
+          "longitude": 26.50811,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4487,
+      "name": "Alūksne",
+      "stateCode": "007",
+      "latitude": 57.4254485,
+      "longitude": 27.0424968,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66875,
+          "name": "Alūksne",
+          "latitude": 57.42162,
+          "longitude": 27.04662,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4490,
+      "name": "Kuldīga",
+      "stateCode": "050",
+      "latitude": 56.9687257,
+      "longitude": 21.9613739,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66874,
+          "name": "Alsunga",
+          "latitude": 56.98194,
+          "longitude": 21.55938,
+          "translations": []
+        },
+        {
+          "id": 66916,
+          "name": "Kuldīga",
+          "latitude": 56.97399,
+          "longitude": 21.95721,
+          "translations": []
+        },
+        {
+          "id": 66962,
+          "name": "Skrunda",
+          "latitude": 56.67749,
+          "longitude": 22.01649,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4491,
+      "name": "Riga",
+      "stateCode": "RIX",
+      "latitude": 56.9496487,
+      "longitude": 24.1051865,
+      "type": "state city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66883,
+          "name": "Bolderaja",
+          "latitude": 57.03132,
+          "longitude": 24.05571,
+          "translations": []
+        },
+        {
+          "id": 66890,
+          "name": "Daugavgrīva",
+          "latitude": 57.04315,
+          "longitude": 24.03613,
+          "translations": []
+        },
+        {
+          "id": 66903,
+          "name": "Jaunciems",
+          "latitude": 57.0391,
+          "longitude": 24.17413,
+          "translations": []
+        },
+        {
+          "id": 66928,
+          "name": "Mežaparks",
+          "latitude": 57.00008,
+          "longitude": 24.15997,
+          "translations": []
+        },
+        {
+          "id": 66948,
+          "name": "Riga",
+          "latitude": 56.946,
+          "longitude": 24.10589,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4492,
+      "name": "Augšdaugava",
+      "stateCode": "111",
+      "latitude": 55.9396978,
+      "longitude": 25.7431709,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66891,
+          "name": "Daugavpils",
+          "latitude": 55.88333,
+          "longitude": 26.53333,
+          "translations": []
+        },
+        {
+          "id": 66900,
+          "name": "Ilūkste",
+          "latitude": 55.97754,
+          "longitude": 26.29655,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4493,
+      "name": "Ropaži",
+      "stateCode": "080",
+      "latitude": 56.9615786,
+      "longitude": 24.6010476,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66895,
+          "name": "Garkalne",
+          "latitude": 57.04486,
+          "longitude": 24.41951,
+          "translations": []
+        },
+        {
+          "id": 66950,
+          "name": "Ropaži",
+          "latitude": 56.9747,
+          "longitude": 24.63295,
+          "translations": []
+        },
+        {
+          "id": 66974,
+          "name": "Ulbroka",
+          "latitude": 56.9363,
+          "longitude": 24.30387,
+          "translations": []
+        },
+        {
+          "id": 66979,
+          "name": "Vangaži",
+          "latitude": 57.09358,
+          "longitude": 24.54468,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4500,
+      "name": "Jelgava",
+      "stateCode": "JEL",
+      "latitude": 56.6511091,
+      "longitude": 23.7213541,
+      "type": "state city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66906,
+          "name": "Jelgava",
+          "latitude": 56.65,
+          "longitude": 23.71278,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4501,
+      "name": "Ludza",
+      "stateCode": "058",
+      "latitude": 56.545959,
+      "longitude": 27.7143199,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66887,
+          "name": "Cibla",
+          "latitude": 56.5498,
+          "longitude": 27.8837,
+          "translations": []
+        },
+        {
+          "id": 66917,
+          "name": "Kārsava",
+          "latitude": 56.78405,
+          "longitude": 27.68829,
+          "translations": []
+        },
+        {
+          "id": 66923,
+          "name": "Ludza",
+          "latitude": 56.53958,
+          "longitude": 27.71891,
+          "translations": []
+        },
+        {
+          "id": 66989,
+          "name": "Zilupe",
+          "latitude": 56.38616,
+          "longitude": 28.12165,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4505,
+      "name": "Balvi",
+      "stateCode": "015",
+      "latitude": 57.132624,
+      "longitude": 27.2646685,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66880,
+          "name": "Baltinava",
+          "latitude": 56.94394,
+          "longitude": 27.64401,
+          "translations": []
+        },
+        {
+          "id": 66881,
+          "name": "Balvi",
+          "latitude": 57.1313,
+          "longitude": 27.26583,
+          "translations": []
+        },
+        {
+          "id": 66952,
+          "name": "Rugāji",
+          "latitude": 57.00325,
+          "longitude": 27.13371,
+          "translations": []
+        },
+        {
+          "id": 66986,
+          "name": "Viļaka",
+          "latitude": 57.18458,
+          "longitude": 27.6722,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4508,
+      "name": "Dienvidkurzemes",
+      "stateCode": "112",
+      "latitude": 56.5206312,
+      "longitude": 20.8321176,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66871,
+          "name": "Aizpute",
+          "latitude": 56.72108,
+          "longitude": 21.60156,
+          "translations": []
+        },
+        {
+          "id": 66896,
+          "name": "Grobiņa",
+          "latitude": 56.53521,
+          "longitude": 21.16782,
+          "translations": []
+        },
+        {
+          "id": 66920,
+          "name": "Lieģi",
+          "latitude": 56.58173,
+          "longitude": 21.33399,
+          "translations": []
+        },
+        {
+          "id": 66934,
+          "name": "Nīca",
+          "latitude": 56.34601,
+          "longitude": 21.06401,
+          "translations": []
+        },
+        {
+          "id": 66942,
+          "name": "Priekule",
+          "latitude": 56.44679,
+          "longitude": 21.58968,
+          "translations": []
+        },
+        {
+          "id": 66944,
+          "name": "Pāvilosta",
+          "latitude": 56.88791,
+          "longitude": 21.18593,
+          "translations": []
+        },
+        {
+          "id": 66951,
+          "name": "Rucava",
+          "latitude": 56.16314,
+          "longitude": 21.16156,
+          "translations": []
+        },
+        {
+          "id": 66975,
+          "name": "Vaiņode",
+          "latitude": 56.41848,
+          "longitude": 21.85405,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4509,
+      "name": "Rēzekne",
+      "stateCode": "REZ",
+      "latitude": 56.5099223,
+      "longitude": 27.3331357,
+      "type": "state city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66953,
+          "name": "Rēzekne",
+          "latitude": 56.51028,
+          "longitude": 27.34,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 91,
+  "name": "Guernsey and Alderney",
+  "nativeName": "Guernsey",
+  "iso2": "GG",
+  "iso3": "GGY",
+  "numericCode": "831",
+  "phoneCode": "44",
+  "tld": ".gg",
+  "latitude": 49.46666666,
+  "longitude": -2.58333333,
+  "flagId": 168,
+  "regionId": 4,
+  "subregionId": 18,
+  "currencyIds": [
+    890
+  ],
+  "timezoneIds": [
+    2398
+  ],
+  "officialLanguageIds": [
+    30,
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "건지, 올더니"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Guernsey"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Guernsey"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Guernsey"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Guernsey"
+    },
+    {
+      "languageCode": "fa",
+      "name": "گرنزی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Guernsey"
+    },
+    {
+      "languageCode": "es",
+      "name": "Guernsey"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Guernesey"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ガーンジー"
+    },
+    {
+      "languageCode": "it",
+      "name": "Guernsey"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "根西岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Alderney"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Гернси и Олдерни"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Гернсі та Олдерні"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Guernsey i Alderney"
+    }
+  ],
+  "states": []
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sole World Admin</title>
+    <link rel="stylesheet" href="/admin/styles.css">
+    <script src="/admin/app.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+    <div>
+        <p class="eyebrow">Sole World</p>
+        <h1>Clients</h1>
+    </div>
+    <form method="post" action="/admin/logout">
+        <button class="ghost-button" type="submit">Sign out</button>
+    </form>
+</header>
+
+<main class="layout">
+    <section class="toolbar">
+        <div>
+            <h2>Access keys</h2>
+            <p>Generated keys are shown once. Store them before leaving the page.</p>
+        </div>
+        <button class="primary-button" type="button" data-open-create>Create client</button>
+    </section>
+
+    <section class="secret-panel" hidden data-secret-panel>
+        <div>
+            <p class="eyebrow">New access key</p>
+            <code data-secret></code>
+        </div>
+        <button class="secondary-button" type="button" data-copy-secret>Copy</button>
+    </section>
+
+    <section class="table-shell">
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Key prefix</th>
+                <th>Status</th>
+                <th class="actions-heading">Actions</th>
+            </tr>
+            </thead>
+            <tbody data-clients>
+            <tr>
+                <td colspan="5" class="empty-state">Loading clients...</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<dialog data-client-dialog>
+    <form method="dialog" class="dialog-form" data-client-form>
+        <header>
+            <h2 data-dialog-title>Create client</h2>
+            <button class="icon-button" aria-label="Close" type="button" data-close-dialog>x</button>
+        </header>
+        <input type="hidden" name="id">
+        <label>
+            Name
+            <input name="name" required maxlength="255">
+        </label>
+        <label>
+            Description
+            <textarea name="description" rows="4"></textarea>
+        </label>
+        <footer>
+            <button class="ghost-button" type="button" data-close-dialog>Cancel</button>
+            <button class="primary-button" type="button" data-save-client>Save</button>
+        </footer>
+    </form>
+</dialog>
+</body>
+</html>

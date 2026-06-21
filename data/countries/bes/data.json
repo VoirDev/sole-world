@@ -1,0 +1,166 @@
+{
+  "id": 155,
+  "name": "Bonaire, Sint Eustatius and Saba",
+  "nativeName": "Caribisch Nederland",
+  "iso2": "BQ",
+  "iso3": "BES",
+  "numericCode": "535",
+  "phoneCode": "599",
+  "tld": ".an",
+  "latitude": 12.15,
+  "longitude": -68.266667,
+  "flagId": 219,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2241
+  ],
+  "officialLanguageIds": [
+    29
+  ],
+  "otherLanguageIds": [
+    30
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "보네르 섬"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Bonaire"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Bonaire"
+    },
+    {
+      "languageCode": "fa",
+      "name": "بونیر"
+    },
+    {
+      "languageCode": "de",
+      "name": "Bonaire, Sint Eustatius und Saba"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Bonaire, Saint-Eustache et Saba"
+    },
+    {
+      "languageCode": "it",
+      "name": "Bonaire, Saint-Eustache e Saba"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "博内尔岛、圣尤斯特歇斯和萨巴岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Karayip Hollandasi"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Бонайре, Синт-Эстатиус и Саба"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Бонайре, Сент-Естатіус і Саба"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Bonaire, Sint Eustatius i Saba"
+    }
+  ],
+  "states": [
+    {
+      "id": 5086,
+      "name": "Bonaire",
+      "stateCode": "BQ1",
+      "latitude": 12.2018902,
+      "longitude": -68.2623822,
+      "type": "special municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 150058,
+          "name": "Boven Bolivia",
+          "latitude": 12.1819,
+          "longitude": -68.2181,
+          "translations": []
+        },
+        {
+          "id": 150059,
+          "name": "Dorp Tera Kora",
+          "latitude": 12.13333,
+          "longitude": -68.26667,
+          "translations": []
+        },
+        {
+          "id": 150060,
+          "name": "Oranjestad",
+          "latitude": 17.48333333,
+          "longitude": -62.98333333,
+          "translations": []
+        },
+        {
+          "id": 150061,
+          "name": "Rincon",
+          "latitude": 12.23833333,
+          "longitude": -68.3325,
+          "translations": []
+        },
+        {
+          "id": 150062,
+          "name": "St. Johns",
+          "latitude": 17.6210075,
+          "longitude": -63.2431683,
+          "translations": []
+        },
+        {
+          "id": 150063,
+          "name": "The Bottom",
+          "latitude": 17.62611111,
+          "longitude": -63.24916667,
+          "translations": []
+        },
+        {
+          "id": 150064,
+          "name": "Windwardside",
+          "latitude": 17.62864,
+          "longitude": -63.23136,
+          "translations": []
+        },
+        {
+          "id": 150065,
+          "name": "Zion's Hill",
+          "latitude": 17.643,
+          "longitude": -63.22649,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 5087,
+      "name": "Saba",
+      "stateCode": "BQ2",
+      "latitude": 17.6354642,
+      "longitude": -63.2326763,
+      "type": "special municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5088,
+      "name": "Sint Eustatius",
+      "stateCode": "BQ3",
+      "latitude": 17.4890306,
+      "longitude": -62.973555,
+      "type": "special municipality",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

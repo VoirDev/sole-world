@@ -1,0 +1,186 @@
+{
+  "id": 13,
+  "name": "Aruba",
+  "nativeName": "Aruba",
+  "iso2": "AW",
+  "iso3": "ABW",
+  "numericCode": "533",
+  "phoneCode": "297",
+  "tld": ".aw",
+  "latitude": 12.5,
+  "longitude": -69.96666666,
+  "flagId": 234,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    843
+  ],
+  "timezoneIds": [
+    2256
+  ],
+  "officialLanguageIds": [
+    29
+  ],
+  "otherLanguageIds": [
+    30,
+    47
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "아루바"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Aruba"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Aruba"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Aruba"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Aruba"
+    },
+    {
+      "languageCode": "fa",
+      "name": "آروبا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Aruba"
+    },
+    {
+      "languageCode": "es",
+      "name": "Aruba"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Aruba"
+    },
+    {
+      "languageCode": "ja",
+      "name": "アルバ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Aruba"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "阿鲁巴"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Aruba"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Аруба"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Аруба"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Aruba"
+    }
+  ],
+  "states": [
+    {
+      "id": 5243,
+      "name": "Noord",
+      "stateCode": null,
+      "latitude": 12.5824329,
+      "longitude": -70.0676118,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5244,
+      "name": "Oranjestad West",
+      "stateCode": null,
+      "latitude": 12.5352293,
+      "longitude": -70.0628404,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5245,
+      "name": "Oranjestad East",
+      "stateCode": null,
+      "latitude": 12.5133181,
+      "longitude": -70.0504818,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5246,
+      "name": "Paradera",
+      "stateCode": null,
+      "latitude": 12.5362871,
+      "longitude": -70.0148511,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5247,
+      "name": "San Nicolaas Noord",
+      "stateCode": null,
+      "latitude": 12.4642717,
+      "longitude": -69.9434939,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5248,
+      "name": "San Nicolaas Zuid",
+      "stateCode": null,
+      "latitude": 12.4278558,
+      "longitude": -69.9381079,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5249,
+      "name": "Santa Cruz",
+      "stateCode": null,
+      "latitude": 12.5112836,
+      "longitude": -69.9876966,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5250,
+      "name": "Savaneta",
+      "stateCode": null,
+      "latitude": 12.4618419,
+      "longitude": -69.9855858,
+      "type": "region",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5341,
+      "name": "Oranjestad",
+      "stateCode": null,
+      "latitude": 12.5083705,
+      "longitude": -70.0545253,
+      "type": "capital city",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

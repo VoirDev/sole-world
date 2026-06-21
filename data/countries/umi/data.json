@@ -1,0 +1,182 @@
+{
+  "id": 234,
+  "name": "United States Minor Outlying Islands",
+  "nativeName": "United States Minor Outlying Islands",
+  "iso2": "UM",
+  "iso3": "UMI",
+  "numericCode": "581",
+  "phoneCode": "1",
+  "tld": ".us",
+  "latitude": 0,
+  "longitude": 0,
+  "flagId": 19,
+  "regionId": 2,
+  "subregionId": 6,
+  "currencyIds": [
+    838
+  ],
+  "timezoneIds": [
+    2631,
+    2632
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "미국령 군소 제도"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Menores Distantes dos Estados Unidos"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Menores Distantes dos Estados Unidos"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Kleine afgelegen eilanden van de Verenigde Staten"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Mali udaljeni otoci SAD-a"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزایر کوچک حاشیه‌ای ایالات متحده آمریکا"
+    },
+    {
+      "languageCode": "de",
+      "name": "Kleinere Inselbesitzungen der Vereinigten Staaten"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Ultramarinas Menores de Estados Unidos"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles mineures éloignées des États-Unis"
+    },
+    {
+      "languageCode": "ja",
+      "name": "合衆国領有小離島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole minori esterne degli Stati Uniti d'America"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "美国本土外小岛屿"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Abd Küçük Harici Adalari"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Малые отдаленные острова Соединенных Штатов"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Малі віддалені острови Сполучених Штатів"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Mniejsze Wyspy Zewnętrzne Stanów Zjednoczonych"
+    }
+  ],
+  "states": [
+    {
+      "id": 5212,
+      "name": "Baker Island",
+      "stateCode": "81",
+      "latitude": 0.1936266,
+      "longitude": -176.476908,
+      "type": "island",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5213,
+      "name": "Howland Island",
+      "stateCode": "84",
+      "latitude": 0.8113219,
+      "longitude": -176.6182736,
+      "type": "island",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5214,
+      "name": "Jarvis Island",
+      "stateCode": "86",
+      "latitude": -0.3743503,
+      "longitude": -159.9967206,
+      "type": "island",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5215,
+      "name": "Johnston Atoll",
+      "stateCode": "67",
+      "latitude": 16.7295035,
+      "longitude": -169.5336477,
+      "type": "island",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5216,
+      "name": "Kingman Reef",
+      "stateCode": "89",
+      "latitude": 6.383333,
+      "longitude": -162.416667,
+      "type": "island",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5217,
+      "name": "Midway Islands",
+      "stateCode": "71",
+      "latitude": 28.2072168,
+      "longitude": -177.3734926,
+      "type": "island",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5218,
+      "name": "Navassa Island",
+      "stateCode": "76",
+      "latitude": 18.4100689,
+      "longitude": -75.0114612,
+      "type": "island",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5219,
+      "name": "Palmyra Atoll",
+      "stateCode": "95",
+      "latitude": 5.8885026,
+      "longitude": -162.0786656,
+      "type": "island",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 5220,
+      "name": "Wake Island",
+      "stateCode": "79",
+      "latitude": 19.279619,
+      "longitude": 166.6499348,
+      "type": "island",
+      "translations": [],
+      "cities": []
+    }
+  ]
+}

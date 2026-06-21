@@ -1,0 +1,92 @@
+{
+  "id": 189,
+  "name": "Saint-Barthelemy",
+  "nativeName": "Saint-Barthélemy",
+  "iso2": "BL",
+  "iso3": "BLM",
+  "numericCode": "652",
+  "phoneCode": "590",
+  "tld": ".bl",
+  "latitude": 18.5,
+  "longitude": -63.41666666,
+  "flagId": 223,
+  "regionId": 2,
+  "subregionId": 7,
+  "currencyIds": [
+    835
+  ],
+  "timezoneIds": [
+    2551
+  ],
+  "officialLanguageIds": [
+    33
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "생바르텔레미"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "São Bartolomeu"
+    },
+    {
+      "languageCode": "pt",
+      "name": "São Bartolomeu"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Saint Barthélemy"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Saint Barthélemy"
+    },
+    {
+      "languageCode": "fa",
+      "name": "سن-بارتلمی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Saint-Barthélemy"
+    },
+    {
+      "languageCode": "es",
+      "name": "San Bartolomé"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Saint-Barthélemy"
+    },
+    {
+      "languageCode": "ja",
+      "name": "サン・バルテルミー"
+    },
+    {
+      "languageCode": "it",
+      "name": "Antille Francesi"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "圣巴泰勒米"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Saint Barthélemy"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Сен-Бартелеми"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Сен-Бартелемі"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Saint-Barthelemy"
+    }
+  ],
+  "states": []
+}

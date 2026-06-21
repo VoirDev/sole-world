@@ -1,0 +1,285 @@
+{
+  "id": 179,
+  "name": "Qatar",
+  "nativeName": "قطر",
+  "iso2": "QA",
+  "iso3": "QAT",
+  "numericCode": "634",
+  "phoneCode": "974",
+  "tld": ".qa",
+  "latitude": 25.5,
+  "longitude": 51.25,
+  "flagId": 64,
+  "regionId": 3,
+  "subregionId": 11,
+  "currencyIds": [
+    944
+  ],
+  "timezoneIds": [
+    2516
+  ],
+  "officialLanguageIds": [
+    7
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "카타르"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Catar"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Catar"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Qatar"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Katar"
+    },
+    {
+      "languageCode": "fa",
+      "name": "قطر"
+    },
+    {
+      "languageCode": "de",
+      "name": "Katar"
+    },
+    {
+      "languageCode": "es",
+      "name": "Catar"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Qatar"
+    },
+    {
+      "languageCode": "ja",
+      "name": "カタール"
+    },
+    {
+      "languageCode": "it",
+      "name": "Qatar"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "卡塔尔"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Katar"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Катар"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Катар"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Katar"
+    }
+  ],
+  "states": [
+    {
+      "id": 3177,
+      "name": "Al Rayyan",
+      "stateCode": "RA",
+      "latitude": 25.2522551,
+      "longitude": 51.4388713,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89861,
+          "name": "Ar Rayyān",
+          "latitude": 25.29194,
+          "longitude": 51.42444,
+          "translations": []
+        },
+        {
+          "id": 89869,
+          "name": "Umm Bāb",
+          "latitude": 25.21417,
+          "longitude": 50.80722,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3178,
+      "name": "Al-Shahaniya",
+      "stateCode": "SH",
+      "latitude": 25.4106386,
+      "longitude": 51.1846025,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89857,
+          "name": "Al Jumaylīyah",
+          "latitude": 25.61068,
+          "longitude": 51.09108,
+          "translations": []
+        },
+        {
+          "id": 89863,
+          "name": "Ash Shīḩānīyah",
+          "latitude": 25.37088,
+          "longitude": 51.22264,
+          "translations": []
+        },
+        {
+          "id": 89865,
+          "name": "Dukhān",
+          "latitude": 25.42485,
+          "longitude": 50.78227,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3179,
+      "name": "Al Wakrah",
+      "stateCode": "WA",
+      "latitude": 25.1659314,
+      "longitude": 51.5975524,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89859,
+          "name": "Al Wakrah",
+          "latitude": 25.17151,
+          "longitude": 51.60337,
+          "translations": []
+        },
+        {
+          "id": 89860,
+          "name": "Al Wukayr",
+          "latitude": 25.15107,
+          "longitude": 51.53718,
+          "translations": []
+        },
+        {
+          "id": 89868,
+          "name": "Musay‘īd",
+          "latitude": 24.99226,
+          "longitude": 51.55067,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3180,
+      "name": "Madinat ash Shamal",
+      "stateCode": "MS",
+      "latitude": 26.1182743,
+      "longitude": 51.2157265,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89862,
+          "name": "Ar Ruways",
+          "latitude": 26.13978,
+          "longitude": 51.21493,
+          "translations": []
+        },
+        {
+          "id": 89866,
+          "name": "Fuwayriţ",
+          "latitude": 26.02565,
+          "longitude": 51.36971,
+          "translations": []
+        },
+        {
+          "id": 89867,
+          "name": "Madīnat ash Shamāl",
+          "latitude": 26.12933,
+          "longitude": 51.2009,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3181,
+      "name": "Doha",
+      "stateCode": "DA",
+      "latitude": 25.2854473,
+      "longitude": 51.5310398,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89864,
+          "name": "Doha",
+          "latitude": 25.28545,
+          "longitude": 51.53096,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3182,
+      "name": "Al Daayen",
+      "stateCode": "ZA",
+      "latitude": 25.5784559,
+      "longitude": 51.4821387,
+      "type": "municipality",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 3183,
+      "name": "Al Khor",
+      "stateCode": "KH",
+      "latitude": 25.6804078,
+      "longitude": 51.4968502,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89856,
+          "name": "Al Ghuwayrīyah",
+          "latitude": 25.82882,
+          "longitude": 51.24567,
+          "translations": []
+        },
+        {
+          "id": 89858,
+          "name": "Al Khawr",
+          "latitude": 25.68389,
+          "longitude": 51.50583,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3184,
+      "name": "Umm Salal",
+      "stateCode": "US",
+      "latitude": 25.4875242,
+      "longitude": 51.396568,
+      "type": "municipality",
+      "translations": [],
+      "cities": [
+        {
+          "id": 89870,
+          "name": "Umm Şalāl Muḩammad",
+          "latitude": 25.41524,
+          "longitude": 51.40647,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

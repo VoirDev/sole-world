@@ -1,0 +1,367 @@
+{
+  "id": 226,
+  "name": "Turkmenistan",
+  "nativeName": "Türkmenistan",
+  "iso2": "TM",
+  "iso3": "TKM",
+  "numericCode": "795",
+  "phoneCode": "993",
+  "tld": ".tm",
+  "latitude": 40,
+  "longitude": 60,
+  "flagId": 29,
+  "regionId": 3,
+  "subregionId": 10,
+  "currencyIds": [
+    976
+  ],
+  "timezoneIds": [
+    2592
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "투르크메니스탄"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Turcomenistão"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Turquemenistão"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Turkmenistan"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Turkmenistan"
+    },
+    {
+      "languageCode": "fa",
+      "name": "ترکمنستان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Turkmenistan"
+    },
+    {
+      "languageCode": "es",
+      "name": "Turkmenistán"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Turkménistan"
+    },
+    {
+      "languageCode": "ja",
+      "name": "トルクメニスタン"
+    },
+    {
+      "languageCode": "it",
+      "name": "Turkmenistan"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "土库曼斯坦"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Türkmenistan"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Туркменистан"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Туркменістан"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Turkmenistan"
+    }
+  ],
+  "states": [
+    {
+      "id": 3369,
+      "name": "Mary",
+      "stateCode": "M",
+      "latitude": 36.9481623,
+      "longitude": 62.4504154,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106888,
+          "name": "Bayramaly",
+          "latitude": 37.61852,
+          "longitude": 62.16715,
+          "translations": []
+        },
+        {
+          "id": 106899,
+          "name": "Mary",
+          "latitude": 37.59378,
+          "longitude": 61.83031,
+          "translations": []
+        },
+        {
+          "id": 106902,
+          "name": "Serhetabat",
+          "latitude": 35.27992,
+          "longitude": 62.34383,
+          "translations": []
+        },
+        {
+          "id": 106903,
+          "name": "Seydi",
+          "latitude": 39.4816,
+          "longitude": 62.91374,
+          "translations": []
+        },
+        {
+          "id": 106908,
+          "name": "Yolöten",
+          "latitude": 37.29886,
+          "longitude": 62.35975,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3370,
+      "name": "Lebap",
+      "stateCode": "L",
+      "latitude": 38.1272462,
+      "longitude": 64.7162415,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106885,
+          "name": "Atamyrat",
+          "latitude": 37.83573,
+          "longitude": 65.21058,
+          "translations": []
+        },
+        {
+          "id": 106892,
+          "name": "Farap",
+          "latitude": 39.17037,
+          "longitude": 63.61165,
+          "translations": []
+        },
+        {
+          "id": 106893,
+          "name": "Gazojak",
+          "latitude": 41.18746,
+          "longitude": 61.4036,
+          "translations": []
+        },
+        {
+          "id": 106894,
+          "name": "Gowurdak",
+          "latitude": 37.81244,
+          "longitude": 66.04656,
+          "translations": []
+        },
+        {
+          "id": 106900,
+          "name": "Saýat",
+          "latitude": 38.78393,
+          "longitude": 63.88035,
+          "translations": []
+        },
+        {
+          "id": 106906,
+          "name": "Türkmenabat",
+          "latitude": 39.07328,
+          "longitude": 63.57861,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3371,
+      "name": "Ashgabat",
+      "stateCode": "S",
+      "latitude": 37.9600766,
+      "longitude": 58.3260629,
+      "type": "city",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106884,
+          "name": "Ashgabat",
+          "latitude": 37.95,
+          "longitude": 58.38333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3372,
+      "name": "Balkan",
+      "stateCode": "B",
+      "latitude": 41.8101472,
+      "longitude": 21.0937311,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106887,
+          "name": "Balkanabat",
+          "latitude": 39.51075,
+          "longitude": 54.36713,
+          "translations": []
+        },
+        {
+          "id": 106889,
+          "name": "Bereket",
+          "latitude": 39.24463,
+          "longitude": 55.51536,
+          "translations": []
+        },
+        {
+          "id": 106895,
+          "name": "Gumdag",
+          "latitude": 39.20611,
+          "longitude": 54.59056,
+          "translations": []
+        },
+        {
+          "id": 106898,
+          "name": "Magtymguly",
+          "latitude": 38.43749,
+          "longitude": 56.28081,
+          "translations": []
+        },
+        {
+          "id": 106901,
+          "name": "Serdar",
+          "latitude": 38.97644,
+          "longitude": 56.27575,
+          "translations": []
+        },
+        {
+          "id": 106907,
+          "name": "Türkmenbaşy",
+          "latitude": 40.02216,
+          "longitude": 52.95517,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3373,
+      "name": "Daşoguz",
+      "stateCode": "D",
+      "latitude": 41.8368737,
+      "longitude": 59.9651904,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106881,
+          "name": "Akdepe",
+          "latitude": 42.05513,
+          "longitude": 59.37877,
+          "translations": []
+        },
+        {
+          "id": 106890,
+          "name": "Boldumsaz",
+          "latitude": 42.12824,
+          "longitude": 59.67101,
+          "translations": []
+        },
+        {
+          "id": 106891,
+          "name": "Daşoguz",
+          "latitude": 41.83625,
+          "longitude": 59.96661,
+          "translations": []
+        },
+        {
+          "id": 106897,
+          "name": "Köneürgench",
+          "latitude": 42.32773,
+          "longitude": 59.15442,
+          "translations": []
+        },
+        {
+          "id": 106904,
+          "name": "Tagta",
+          "latitude": 41.65041,
+          "longitude": 59.9164,
+          "translations": []
+        },
+        {
+          "id": 106909,
+          "name": "Yylanly",
+          "latitude": 41.83333,
+          "longitude": 59.65,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3374,
+      "name": "Ahal",
+      "stateCode": "A",
+      "latitude": 38.6399398,
+      "longitude": 59.4720904,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 106880,
+          "name": "Abadan",
+          "latitude": 38.05415,
+          "longitude": 58.19721,
+          "translations": []
+        },
+        {
+          "id": 106882,
+          "name": "Annau",
+          "latitude": 37.88754,
+          "longitude": 58.51596,
+          "translations": []
+        },
+        {
+          "id": 106883,
+          "name": "Arçabil",
+          "latitude": 37.915,
+          "longitude": 58.08987,
+          "translations": []
+        },
+        {
+          "id": 106886,
+          "name": "Baharly",
+          "latitude": 38.43624,
+          "longitude": 57.43158,
+          "translations": []
+        },
+        {
+          "id": 106896,
+          "name": "Kaka",
+          "latitude": 37.34821,
+          "longitude": 59.61431,
+          "translations": []
+        },
+        {
+          "id": 106905,
+          "name": "Tejen",
+          "latitude": 37.38338,
+          "longitude": 60.50545,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

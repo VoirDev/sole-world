@@ -1,0 +1,287 @@
+{
+  "id": 122,
+  "name": "Lesotho",
+  "nativeName": "Lesotho",
+  "iso2": "LS",
+  "iso3": "LSO",
+  "numericCode": "426",
+  "phoneCode": "266",
+  "tld": ".ls",
+  "latitude": -29.5,
+  "longitude": 28.5,
+  "flagId": 119,
+  "regionId": 1,
+  "subregionId": 5,
+  "currencyIds": [
+    912
+  ],
+  "timezoneIds": [
+    2438
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "레소토"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Lesoto"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Lesoto"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Lesotho"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Lesoto"
+    },
+    {
+      "languageCode": "fa",
+      "name": "لسوتو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Lesotho"
+    },
+    {
+      "languageCode": "es",
+      "name": "Lesotho"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Lesotho"
+    },
+    {
+      "languageCode": "ja",
+      "name": "レソト"
+    },
+    {
+      "languageCode": "it",
+      "name": "Lesotho"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "莱索托"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Lesotho"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Лесото"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Лесото"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Lesotho"
+    }
+  ],
+  "states": [
+    {
+      "id": 3022,
+      "name": "Mafeteng",
+      "stateCode": "E",
+      "latitude": -29.8041008,
+      "longitude": 27.5026174,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66566,
+          "name": "Mafeteng",
+          "latitude": -29.82299,
+          "longitude": 27.23744,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3023,
+      "name": "Mohale's Hoek",
+      "stateCode": "F",
+      "latitude": -30.1425917,
+      "longitude": 27.4673845,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66569,
+          "name": "Mohale’s Hoek",
+          "latitude": -30.15137,
+          "longitude": 27.47691,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3024,
+      "name": "Mokhotlong",
+      "stateCode": "J",
+      "latitude": -29.2573193,
+      "longitude": 28.9528645,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66570,
+          "name": "Mokhotlong",
+          "latitude": -29.28939,
+          "longitude": 29.06751,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3025,
+      "name": "Qacha's Nek",
+      "stateCode": "H",
+      "latitude": -30.1114565,
+      "longitude": 28.678979,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66572,
+          "name": "Qacha’s Nek",
+          "latitude": -30.11537,
+          "longitude": 28.68936,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3026,
+      "name": "Leribe",
+      "stateCode": "C",
+      "latitude": -28.8638065,
+      "longitude": 28.0478826,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66565,
+          "name": "Leribe",
+          "latitude": -28.87185,
+          "longitude": 28.04501,
+          "translations": []
+        },
+        {
+          "id": 66567,
+          "name": "Maputsoe",
+          "latitude": -28.8866,
+          "longitude": 27.89915,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3027,
+      "name": "Quthing",
+      "stateCode": "G",
+      "latitude": -30.4015687,
+      "longitude": 27.7080133,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66573,
+          "name": "Quthing",
+          "latitude": -30.40001,
+          "longitude": 27.70027,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3028,
+      "name": "Maseru",
+      "stateCode": "A",
+      "latitude": -29.516565,
+      "longitude": 27.8311428,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66568,
+          "name": "Maseru",
+          "latitude": -29.31667,
+          "longitude": 27.48333,
+          "translations": []
+        },
+        {
+          "id": 66571,
+          "name": "Nako",
+          "latitude": -29.61667,
+          "longitude": 27.76667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3029,
+      "name": "Butha-Buthe",
+      "stateCode": "B",
+      "latitude": -28.7653754,
+      "longitude": 28.2468148,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66564,
+          "name": "Butha-Buthe",
+          "latitude": -28.76659,
+          "longitude": 28.24937,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3030,
+      "name": "Berea",
+      "stateCode": "D",
+      "latitude": 41.3661614,
+      "longitude": -81.8543026,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66574,
+          "name": "Teyateyaneng",
+          "latitude": -29.14719,
+          "longitude": 27.74895,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3031,
+      "name": "Thaba-Tseka",
+      "stateCode": "K",
+      "latitude": -29.5238975,
+      "longitude": 28.6089752,
+      "type": "district",
+      "translations": [],
+      "cities": [
+        {
+          "id": 66575,
+          "name": "Thaba-Tseka",
+          "latitude": -29.52204,
+          "longitude": 28.6084,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": 237,
+  "name": "Vanuatu",
+  "nativeName": "Vanuatu",
+  "iso2": "VU",
+  "iso3": "VUT",
+  "numericCode": "548",
+  "phoneCode": "678",
+  "tld": ".vu",
+  "latitude": -16,
+  "longitude": 167,
+  "flagId": 9,
+  "regionId": 5,
+  "subregionId": 20,
+  "currencyIds": [
+    982
+  ],
+  "timezoneIds": [
+    2636
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "바누아투"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Vanuatu"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Vanuatu"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Vanuatu"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Vanuatu"
+    },
+    {
+      "languageCode": "fa",
+      "name": "وانواتو"
+    },
+    {
+      "languageCode": "de",
+      "name": "Vanuatu"
+    },
+    {
+      "languageCode": "es",
+      "name": "Vanuatu"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Vanuatu"
+    },
+    {
+      "languageCode": "ja",
+      "name": "バヌアツ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Vanuatu"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "瓦努阿图"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Vanuatu"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Вануату"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Вануату"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Vanuatu"
+    }
+  ],
+  "states": [
+    {
+      "id": 4772,
+      "name": "Torba",
+      "stateCode": "TOB",
+      "latitude": 37.07653,
+      "longitude": 27.456573,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130642,
+          "name": "Sola",
+          "latitude": -13.87611,
+          "longitude": 167.55167,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4773,
+      "name": "Penama",
+      "stateCode": "PAM",
+      "latitude": -15.3795758,
+      "longitude": 167.9053182,
+      "type": "province",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": 4774,
+      "name": "Shefa",
+      "stateCode": "SEE",
+      "latitude": 32.805765,
+      "longitude": 35.169971,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130641,
+          "name": "Port-Vila",
+          "latitude": -17.73648,
+          "longitude": 168.31366,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4775,
+      "name": "Malampa",
+      "stateCode": "MAP",
+      "latitude": -16.4011405,
+      "longitude": 167.6077865,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130637,
+          "name": "Lakatoro",
+          "latitude": -16.09992,
+          "longitude": 167.41636,
+          "translations": []
+        },
+        {
+          "id": 130639,
+          "name": "Norsup",
+          "latitude": -16.06536,
+          "longitude": 167.39714,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4776,
+      "name": "Sanma",
+      "stateCode": "SAM",
+      "latitude": -15.4840017,
+      "longitude": 166.9182097,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130638,
+          "name": "Luganville",
+          "latitude": -15.51989,
+          "longitude": 167.16235,
+          "translations": []
+        },
+        {
+          "id": 130640,
+          "name": "Port-Olry",
+          "latitude": -15.04175,
+          "longitude": 167.07265,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 4777,
+      "name": "Tafea",
+      "stateCode": "TAE",
+      "latitude": -18.7237827,
+      "longitude": 169.0645056,
+      "type": "province",
+      "translations": [],
+      "cities": [
+        {
+          "id": 130636,
+          "name": "Isangel",
+          "latitude": -19.54167,
+          "longitude": 169.28167,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

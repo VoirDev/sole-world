@@ -1,0 +1,552 @@
+{
+  "id": 139,
+  "name": "Mauritania",
+  "nativeName": "موريتانيا",
+  "iso2": "MR",
+  "iso3": "MRT",
+  "numericCode": "478",
+  "phoneCode": "222",
+  "tld": ".mr",
+  "latitude": 20,
+  "longitude": -12,
+  "flagId": 100,
+  "regionId": 1,
+  "subregionId": 3,
+  "currencyIds": [
+    921
+  ],
+  "timezoneIds": [
+    2456
+  ],
+  "officialLanguageIds": [
+    7
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "모리타니"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Mauritânia"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Mauritânia"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Mauritanië"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Mauritanija"
+    },
+    {
+      "languageCode": "fa",
+      "name": "موریتانی"
+    },
+    {
+      "languageCode": "de",
+      "name": "Mauretanien"
+    },
+    {
+      "languageCode": "es",
+      "name": "Mauritania"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Mauritanie"
+    },
+    {
+      "languageCode": "ja",
+      "name": "モーリタニア"
+    },
+    {
+      "languageCode": "it",
+      "name": "Mauritania"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "毛里塔尼亚"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Moritanya"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Мавритания"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Мавританія"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Mauretania"
+    }
+  ],
+  "states": [
+    {
+      "id": 3338,
+      "name": "Hodh Ech Chargui",
+      "stateCode": "01",
+      "latitude": 18.6737026,
+      "longitude": -7.092877,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67752,
+          "name": "Néma",
+          "latitude": 16.61702,
+          "longitude": -7.25649,
+          "translations": []
+        },
+        {
+          "id": 150066,
+          "name": "Diade",
+          "latitude": 16.23333333,
+          "longitude": -7.41666667,
+          "translations": []
+        },
+        {
+          "id": 150067,
+          "name": "Kataouane",
+          "latitude": 16.06888889,
+          "longitude": -6.49888889,
+          "translations": []
+        },
+        {
+          "id": 150068,
+          "name": "Timbedra",
+          "latitude": 16.24472222,
+          "longitude": -8.1675,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3339,
+      "name": "Brakna",
+      "stateCode": "05",
+      "latitude": 17.2317561,
+      "longitude": -13.1740348,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67745,
+          "name": "Aleg",
+          "latitude": 17.05314,
+          "longitude": -13.91312,
+          "translations": []
+        },
+        {
+          "id": 67757,
+          "name": "’Elb el Jmel",
+          "latitude": 17.0105,
+          "longitude": -13.97102,
+          "translations": []
+        },
+        {
+          "id": 150071,
+          "name": "Bofal",
+          "latitude": 16.41666667,
+          "longitude": -13.8,
+          "translations": []
+        },
+        {
+          "id": 150072,
+          "name": "Sori Malé",
+          "latitude": 16.95416667,
+          "longitude": -13.37916667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3340,
+      "name": "Tiris Zemmour",
+      "stateCode": "11",
+      "latitude": 24.5773764,
+      "longitude": -9.9018131,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67756,
+          "name": "Zouerate",
+          "latitude": 22.73542,
+          "longitude": -12.47134,
+          "translations": []
+        },
+        {
+          "id": 150078,
+          "name": "Ain Ben Tili",
+          "latitude": 25.99444444,
+          "longitude": -9.55333333,
+          "translations": []
+        },
+        {
+          "id": 150079,
+          "name": "Chegga",
+          "latitude": 25.37194444,
+          "longitude": -5.78666667,
+          "translations": []
+        },
+        {
+          "id": 150080,
+          "name": "Fderîck",
+          "latitude": 22.67777778,
+          "longitude": -12.7075,
+          "translations": []
+        },
+        {
+          "id": 150081,
+          "name": "Zouérat",
+          "latitude": 22.73444444,
+          "longitude": -12.4725,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3341,
+      "name": "Gorgol",
+      "stateCode": "04",
+      "latitude": 15.9717357,
+      "longitude": -12.6216211,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67749,
+          "name": "Kaédi",
+          "latitude": 16.15027,
+          "longitude": -13.5037,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3342,
+      "name": "Inchiri",
+      "stateCode": "12",
+      "latitude": 20.0280561,
+      "longitude": -15.4068079,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67744,
+          "name": "Akjoujt",
+          "latitude": 19.74657,
+          "longitude": -14.38531,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3343,
+      "name": "Nouakchott-Nord",
+      "stateCode": "14",
+      "latitude": 18.1130205,
+      "longitude": -15.8994956,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 150085,
+          "name": "Dar-Naim",
+          "latitude": 18.03333333,
+          "longitude": -15.96666667,
+          "translations": []
+        },
+        {
+          "id": 150086,
+          "name": "Teyarett",
+          "latitude": 18.1289572,
+          "longitude": -15.9377834,
+          "translations": []
+        },
+        {
+          "id": 150087,
+          "name": "Toujouonine",
+          "latitude": 18.07169,
+          "longitude": -15.90311,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3344,
+      "name": "Adrar",
+      "stateCode": "07",
+      "latitude": 19.8652176,
+      "longitude": -12.8054753,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67746,
+          "name": "Atar",
+          "latitude": 20.5177,
+          "longitude": -13.04857,
+          "translations": []
+        },
+        {
+          "id": 67748,
+          "name": "Chingueṭṭi",
+          "latitude": 20.463,
+          "longitude": -12.362,
+          "translations": []
+        },
+        {
+          "id": 150074,
+          "name": "Azougui",
+          "latitude": 20.56764,
+          "longitude": -13.11191,
+          "translations": []
+        },
+        {
+          "id": 150075,
+          "name": "Ksar el Khali",
+          "latitude": 20.93333333,
+          "longitude": -11.61666667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3345,
+      "name": "Tagant",
+      "stateCode": "09",
+      "latitude": 18.5467527,
+      "longitude": -9.9018131,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 153945,
+          "name": "Moudjeria",
+          "latitude": 17.9795514,
+          "longitude": -13.3979534,
+          "translations": []
+        },
+        {
+          "id": 153946,
+          "name": "Tichit",
+          "latitude": 18.4968626,
+          "longitude": -12.1219935,
+          "translations": []
+        },
+        {
+          "id": 153947,
+          "name": "Tijigja",
+          "latitude": 18.5164787,
+          "longitude": -12.9826476,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3346,
+      "name": "Dakhlet Nouadhibou",
+      "stateCode": "08",
+      "latitude": 20.5985588,
+      "longitude": -16.2522143,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67751,
+          "name": "Nouadhibou",
+          "latitude": 20.94188,
+          "longitude": -17.03842,
+          "translations": []
+        },
+        {
+          "id": 150076,
+          "name": "Cansado",
+          "latitude": 20.85333333,
+          "longitude": -17.0325,
+          "translations": []
+        },
+        {
+          "id": 150077,
+          "name": "Iouik",
+          "latitude": 19.84944444,
+          "longitude": -16.33083333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3347,
+      "name": "Nouakchott-Sud",
+      "stateCode": "15",
+      "latitude": 17.9709288,
+      "longitude": -15.9464874,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 150088,
+          "name": "Arafat",
+          "latitude": 18.04639,
+          "longitude": -15.97194,
+          "translations": []
+        },
+        {
+          "id": 150089,
+          "name": "Riyad",
+          "latitude": 18.10222222,
+          "longitude": -15.955,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3348,
+      "name": "Trarza",
+      "stateCode": "06",
+      "latitude": 17.8664964,
+      "longitude": -14.6587821,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67753,
+          "name": "Rosso",
+          "latitude": 16.51378,
+          "longitude": -15.80503,
+          "translations": []
+        },
+        {
+          "id": 67755,
+          "name": "Tékane",
+          "latitude": 16.60175,
+          "longitude": -15.34866,
+          "translations": []
+        },
+        {
+          "id": 150073,
+          "name": "Legat",
+          "latitude": 16.75,
+          "longitude": -14.83333333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3349,
+      "name": "Assaba",
+      "stateCode": "03",
+      "latitude": 16.7759558,
+      "longitude": -11.5248055,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67747,
+          "name": "Barkéwol",
+          "latitude": 16.64039,
+          "longitude": -12.49849,
+          "translations": []
+        },
+        {
+          "id": 67750,
+          "name": "Kiffa",
+          "latitude": 16.62073,
+          "longitude": -11.40208,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3350,
+      "name": "Guidimaka",
+      "stateCode": "10",
+      "latitude": 15.2557331,
+      "longitude": -12.2547919,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67754,
+          "name": "Sélibaby",
+          "latitude": 15.15846,
+          "longitude": -12.1843,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3351,
+      "name": "Hodh El Gharbi",
+      "stateCode": "02",
+      "latitude": 16.6912149,
+      "longitude": -9.5450974,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 67743,
+          "name": "Aioun",
+          "latitude": 16.6614,
+          "longitude": -9.6149,
+          "translations": []
+        },
+        {
+          "id": 150069,
+          "name": "Ayoun el Atrous",
+          "latitude": 16.66666667,
+          "longitude": -9.61666667,
+          "translations": []
+        },
+        {
+          "id": 150070,
+          "name": "Togba",
+          "latitude": 17.4,
+          "longitude": -10.36666667,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 3352,
+      "name": "Nouakchott-Ouest",
+      "stateCode": "13",
+      "latitude": 18.1511357,
+      "longitude": -15.993491,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 150082,
+          "name": "Ksar",
+          "latitude": 18.10222222,
+          "longitude": -15.955,
+          "translations": []
+        },
+        {
+          "id": 150083,
+          "name": "Sebkha",
+          "latitude": 18.07555556,
+          "longitude": -16.00194444,
+          "translations": []
+        },
+        {
+          "id": 150084,
+          "name": "Tevragh-Zeina",
+          "latitude": 18.11011,
+          "longitude": -15.99931,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}

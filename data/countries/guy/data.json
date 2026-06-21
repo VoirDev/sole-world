@@ -1,0 +1,301 @@
+{
+  "id": 94,
+  "name": "Guyana",
+  "nativeName": "Guyana",
+  "iso2": "GY",
+  "iso3": "GUY",
+  "numericCode": "328",
+  "phoneCode": "592",
+  "tld": ".gy",
+  "latitude": 5,
+  "longitude": -59,
+  "flagId": 155,
+  "regionId": 2,
+  "subregionId": 8,
+  "currencyIds": [
+    892
+  ],
+  "timezoneIds": [
+    2401
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "가이아나"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Guiana"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Guiana"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Guyana"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Gvajana"
+    },
+    {
+      "languageCode": "fa",
+      "name": "گویان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Guyana"
+    },
+    {
+      "languageCode": "es",
+      "name": "Guyana"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Guyane"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ガイアナ"
+    },
+    {
+      "languageCode": "it",
+      "name": "Guyana"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "圭亚那"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Guyana"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Гайана"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Гайана"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Gujana"
+    }
+  ],
+  "states": [
+    {
+      "id": 2760,
+      "name": "Cuyuni-Mazaruni",
+      "stateCode": "CU",
+      "latitude": 6.4642141,
+      "longitude": -60.2110752,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53822,
+          "name": "Bartica",
+          "latitude": 6.40799,
+          "longitude": -58.62192,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2761,
+      "name": "Potaro-Siparuni",
+      "stateCode": "PT",
+      "latitude": 4.7855853,
+      "longitude": -59.2879977,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53829,
+          "name": "Mahdia",
+          "latitude": 5.26667,
+          "longitude": -59.15,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2762,
+      "name": "Mahaica-Berbice",
+      "stateCode": "MA",
+      "latitude": 6.238496,
+      "longitude": -57.9162555,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53828,
+          "name": "Mahaicony Village",
+          "latitude": 6.57633,
+          "longitude": -57.80486,
+          "translations": []
+        },
+        {
+          "id": 53832,
+          "name": "Rosignol",
+          "latitude": 6.27095,
+          "longitude": -57.53697,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2763,
+      "name": "Upper Demerara-Berbice",
+      "stateCode": "UD",
+      "latitude": 5.3064879,
+      "longitude": -58.1892921,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53825,
+          "name": "Linden",
+          "latitude": 6.00809,
+          "longitude": -58.30714,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2764,
+      "name": "Barima-Waini",
+      "stateCode": "BA",
+      "latitude": 7.4882419,
+      "longitude": -59.6564494,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53826,
+          "name": "Mabaruma",
+          "latitude": 8.2,
+          "longitude": -59.78333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2765,
+      "name": "Pomeroon-Supenaam",
+      "stateCode": "PM",
+      "latitude": 7.1294166,
+      "longitude": -58.9206295,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53821,
+          "name": "Anna Regina",
+          "latitude": 7.26439,
+          "longitude": -58.50769,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2766,
+      "name": "East Berbice-Corentyne",
+      "stateCode": "EB",
+      "latitude": 2.7477922,
+      "longitude": -57.4627259,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53830,
+          "name": "New Amsterdam",
+          "latitude": 6.24793,
+          "longitude": -57.5171,
+          "translations": []
+        },
+        {
+          "id": 53833,
+          "name": "Skeldon",
+          "latitude": 5.88333,
+          "longitude": -57.13333,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2767,
+      "name": "Demerara-Mahaica",
+      "stateCode": "DE",
+      "latitude": 6.546426,
+      "longitude": -58.0982046,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53823,
+          "name": "Georgetown",
+          "latitude": 6.80448,
+          "longitude": -58.15527,
+          "translations": []
+        },
+        {
+          "id": 53827,
+          "name": "Mahaica Village",
+          "latitude": 6.68405,
+          "longitude": -57.92181,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2768,
+      "name": "Essequibo Islands-West Demerara",
+      "stateCode": "ES",
+      "latitude": 6.5720132,
+      "longitude": -58.4629997,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53831,
+          "name": "Parika",
+          "latitude": 6.83712,
+          "longitude": -58.42941,
+          "translations": []
+        },
+        {
+          "id": 53834,
+          "name": "Vreed-en-Hoop",
+          "latitude": 6.80927,
+          "longitude": -58.19798,
+          "translations": []
+        }
+      ]
+    },
+    {
+      "id": 2769,
+      "name": "Upper Takutu-Upper Essequibo",
+      "stateCode": "UT",
+      "latitude": 2.9239595,
+      "longitude": -58.7373634,
+      "type": "region",
+      "translations": [],
+      "cities": [
+        {
+          "id": 53824,
+          "name": "Lethem",
+          "latitude": 3.38333,
+          "longitude": -59.8,
+          "translations": []
+        }
+      ]
+    }
+  ]
+}
