@@ -11,7 +11,7 @@ plugins {
 
 val projectVersion = providers.gradleProperty("releaseVersion").orElse("1.0.1").get()
 
-group = "dev.voir.sole"
+group = "dev.voir.sole.world"
 version = projectVersion
 
 subprojects {
