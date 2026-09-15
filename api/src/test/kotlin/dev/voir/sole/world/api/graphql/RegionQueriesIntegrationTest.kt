@@ -34,7 +34,7 @@ class RegionQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: regions(ids: [10, 999]) { id name }
+              requested: regionsByIds(ids: [10, 999]) { id name }
             }
             """.trimIndent(),
         )

@@ -1,9 +1,6 @@
 package dev.voir.sole.world.api.model
 
-import dev.voir.sole.world.api.database.table.CurrenciesTable
-import dev.voir.sole.world.api.database.table.CurrenciesTranslationsTable
 import kotlinx.datetime.LocalDate
-import org.jetbrains.exposed.v1.core.ResultRow
 
 /**
  * API model returned for currency records.
@@ -23,7 +20,7 @@ import org.jetbrains.exposed.v1.core.ResultRow
  * @property flagId Shared flag id, when available.
  */
 data class CurrencyData(
-    val id: Int,
+    val id: Long,
     val iso3: String,
     val isoNumeric: String,
     val name: String,
@@ -35,34 +32,6 @@ data class CurrencyData(
     val introducedDate: LocalDate?,
     val obsolete: Boolean,
     val obsoleteAt: LocalDate?,
-    val replacedById: Int?,
-    val flagId: Int?,
-) {
-    companion object {
-        /**
-         * Maps an Exposed result row to a currency API model.
-         * @param languageCode Locale code used to select translated fields; null uses base table values.
-         * @return Currency API model populated from this row.
-         */
-        fun ResultRow.toCurrency(languageCode: String?) = CurrencyData(
-            id = this[CurrenciesTable.id].value,
-            iso3 = this[CurrenciesTable.iso3],
-            isoNumeric = this[CurrenciesTable.isoNumeric],
-            name = if (languageCode == null)
-                this[CurrenciesTable.name]
-            else
-                this.getOrNull(CurrenciesTranslationsTable.name) ?: this[CurrenciesTable.name],
-            decimalDigits = this[CurrenciesTable.decimalDigits],
-            description = if (languageCode == null) this[CurrenciesTable.description] else this[CurrenciesTranslationsTable.description]
-                ?: this[CurrenciesTable.description],
-            nativeName = this[CurrenciesTable.nativeName],
-            symbol = this[CurrenciesTable.symbol],
-            year = this[CurrenciesTable.year],
-            introducedDate = this[CurrenciesTable.introducedDate],
-            obsolete = this[CurrenciesTable.obsolete],
-            obsoleteAt = this[CurrenciesTable.obsoleteAt],
-            replacedById = this[CurrenciesTable.replacedBy]?.value,
-            flagId = this[CurrenciesTable.flag]?.value,
-        )
-    }
-}
+    val replacedById: Long?,
+    val flagId: Long?,
+)

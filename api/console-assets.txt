@@ -1,0 +1,26 @@
+# Third-party console assets vendored into the image at build time.
+#
+# The developer consoles used to load their JavaScript from a CDN. That put a third party in the
+# trust boundary of a route that is public by default, and it made both consoles blank on an
+# air-gapped deployment -- which contradicts the reason to self-host reference data at all.
+#
+# Each asset below is pinned to an exact version and verified against its SHA-256 digest at build
+# time, so the bytes in the image are the bytes that were reviewed. A changed upstream file fails
+# the build rather than silently shipping.
+#
+# To upgrade one, change the version in the URL, run:
+#     curl -sSLf <url> | shasum -a 256
+# and replace the digest. The consoles are developer tools, so an upgrade is a deliberate act.
+#
+# Columns: <path in the image>  <url>  <sha256>
+
+# Scalar renders /docs from the OpenAPI contract. One self-contained bundle, no imports.
+docs/api-reference.js https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.68.0/dist/browser/standalone.js 6a1407db14f57f7be9c98464b6d7e8899ba417c63b0d81363db2efb3e1022e1f
+
+# GraphiQL 4 is the last line that publishes a self-contained UMD build; 5 is distributed only as an
+# ES module graph that has to be resolved from a CDN at runtime, which is the problem being fixed.
+# Its only externals are React and ReactDOM, and React 18 is the last line to publish UMD builds.
+graphiql/react.production.min.js https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js d949f1c3687aedadcedac85261865f29b17cd273997e7f6b2bfc53b2f9d4c4dd
+graphiql/react-dom.production.min.js https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js 35f4f974f4b2bcd44da73963347f8952e341f83909e4498227d4e26b98f66f0d
+graphiql/graphiql.min.js https://cdn.jsdelivr.net/npm/graphiql@4.1.2/graphiql.min.js 867226ba8af5ce7949903fc53932f78dac9f4bfc6cc8da0fd3869b8bc6c5256b
+graphiql/graphiql.min.css https://cdn.jsdelivr.net/npm/graphiql@4.1.2/graphiql.min.css 30487e07635d312a63f647b140d37740a73c53332b0975bf4b1fe985ca6ec885

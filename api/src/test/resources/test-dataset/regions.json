@@ -1,0 +1,29 @@
+[
+  {
+    "id": 10,
+    "name": "Test Europe",
+    "wikiDataId": "Q10",
+    "translations": [{"languageCode": "ru", "name": "Тестовая Европа"}],
+    "subregions": [
+      {
+        "id": 20,
+        "name": "Test North",
+        "wikiDataId": "Q20",
+        "translations": [{"languageCode": "ru", "name": "Тестовый Север"}]
+      },
+      {
+        "id": 21,
+        "name": "Test South",
+        "wikiDataId": "Q21",
+        "translations": []
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Test Oceania",
+    "wikiDataId": "Q11",
+    "translations": [],
+    "subregions": []
+  }
+]

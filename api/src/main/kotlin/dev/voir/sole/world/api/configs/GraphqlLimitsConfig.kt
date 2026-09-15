@@ -1,5 +1,6 @@
 package dev.voir.sole.world.api.configs
 
+import dev.voir.sole.world.api.graphql.FieldCostCalculator
 import graphql.analysis.MaxQueryComplexityInstrumentation
 import graphql.analysis.MaxQueryDepthInstrumentation
 import graphql.execution.instrumentation.Instrumentation
@@ -25,12 +26,17 @@ class GraphqlLimitsConfig(
     @Bean
     @Order(Ordered.HIGHEST_PRECEDENCE + 1)
     fun maxQueryComplexityInstrumentation(): Instrumentation {
-        return MaxQueryComplexityInstrumentation(limits.maxComplexity)
+        return MaxQueryComplexityInstrumentation(limits.maxComplexity, FieldCostCalculator())
     }
 }
 
+/**
+ * GraphQL document limits.
+ * @property maxDepth Deepest selection path a document may contain.
+ * @property maxComplexity Largest total field cost a document may reach; see `@cost` in the schema.
+ */
 @ConfigurationProperties(prefix = "graphql.limits")
 data class GraphqlLimitsProperties(
-    val maxDepth: Int = 8,
-    val maxComplexity: Int = 250,
+    val maxDepth: Int = 30,
+    val maxComplexity: Int = 1000,
 )

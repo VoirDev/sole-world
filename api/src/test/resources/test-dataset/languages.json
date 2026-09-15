@@ -1,0 +1,22 @@
+[
+  {
+    "id": 201,
+    "code": "fd",
+    "nativeName": "Freedonian",
+    "name": "Freedonian",
+    "description": "Seeded official language",
+    "flagId": 1001,
+    "translations": [
+      {"languageCode": "ru", "name": "Фридонский", "description": "Тестовый официальный язык"}
+    ]
+  },
+  {
+    "id": 202,
+    "code": "sy",
+    "nativeName": "Sylvanian",
+    "name": "Sylvanian",
+    "description": "Seeded secondary language",
+    "flagId": 1002,
+    "translations": []
+  }
+]

@@ -6,22 +6,23 @@ import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertNotEquals
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
+import tools.jackson.databind.JsonNode
 
 class PaginationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     @Test
     fun `all list queries support multiple zero based pages`() {
         val listings = listOf(
-            "listCountries",
-            "listCurrencies",
-            "listLanguages",
-            "listFlags",
-            "listRegions",
-            "listSubregions",
-            "listTimezones",
-            "listCentralBanks",
-            "listStates",
-            "listCities",
-            "listMediaAssets",
+            "countries",
+            "currencies",
+            "languages",
+            "flags",
+            "regions",
+            "subregions",
+            "timezones",
+            "centralBanks",
+            "states",
+            "cities",
+            "mediaAssets",
         )
 
         listings.forEach { field ->
@@ -87,7 +88,7 @@ class PaginationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(id: 1) {
+              country(idOrCode: 1) {
                 firstStates: states(page: { page: 0, size: 1 }) {
                   items { id name }
                   pageInfo { page size totalItems totalPages hasNextPage hasPreviousPage }
@@ -116,7 +117,7 @@ class PaginationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         assertRelationshipPages(country.at("/firstCities"), country.at("/secondCities"), "cities")
     }
 
-    private fun assertRelationshipPages(first: tools.jackson.databind.JsonNode, second: tools.jackson.databind.JsonNode, name: String) {
+    private fun assertRelationshipPages(first: JsonNode, second: JsonNode, name: String) {
         assertEquals(1, first.at("/items").size(), "$name first page item count")
         assertEquals(1, second.at("/items").size(), "$name second page item count")
         assertNotEquals(

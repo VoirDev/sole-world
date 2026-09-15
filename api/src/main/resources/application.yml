@@ -10,37 +10,30 @@ spring:
       include-message: ${WEB_ERROR_INCLUDE_MESSAGE:never}
       include-binding-errors: ${WEB_ERROR_INCLUDE_BINDING_ERRORS:never}
 
-  datasource:
-    url: ${DATASOURCE_URL}
-    username: ${DATASOURCE_USERNAME}
-    password: ${DATASOURCE_PASSWORD}
-    driver-class-name: org.postgresql.Driver
-    hikari:
-      pool-name: sole-world-hikari-pool
-      maximum-pool-size: ${DB_POOL_MAX_SIZE:10}
-      minimum-idle: ${DB_POOL_MIN_IDLE:2}
-      connection-timeout: ${DB_CONNECTION_TIMEOUT_MS:3000}
-      validation-timeout: ${DB_VALIDATION_TIMEOUT_MS:2000}
-      idle-timeout: ${DB_IDLE_TIMEOUT_MS:600000}
-      max-lifetime: ${DB_MAX_LIFETIME_MS:1800000}
-      keepalive-time: ${DB_KEEPALIVE_TIME_MS:300000}
-      leak-detection-threshold: ${DB_LEAK_DETECTION_THRESHOLD_MS:0}
-
-  flyway:
-    enabled: ${FLYWAY_ENABLED:true}
-    locations: ${FLYWAY_LOCATIONS:classpath:db/migration}
+  mvc:
+    # Framework-raised failures (unknown route, wrong method) answer with RFC 9457 documents, so the
+    # error shape is the same whether the failure came from this application or from Spring.
+    problemdetails:
+      enabled: true
 
 server:
   shutdown: ${SERVER_SHUTDOWN:graceful}
   port: ${SERVER_PORT:8080}
 
+  tomcat:
+    threads:
+      # Every request reads an in-memory index and returns a bounded page, so a worker is busy for
+      # about a millisecond. The container default of 200 buys no throughput and costs up to 200 MB
+      # of thread stacks out of the same memory limit the heap comes from.
+      max: ${SERVER_THREADS_MAX:64}
+
 dgs:
   graphql:
     graphiql:
-      enabled: ${DGS_GRAPHIQL_ENABLED:true}
-      path: /graphiql
-    extensions:
-      scalars.enabled: true
+      # The starter's own console resolves React and GraphiQL from a CDN on every page load, so it
+      # cannot open without outbound internet access. This application serves its own instead; see
+      # api.graphiql below.
+      enabled: false
 
 graphql:
   limits:
@@ -50,26 +43,41 @@ graphql:
 logging:
   level:
     root: ${LOG_LEVEL:INFO}
-    dev.voir.sole.world: ${SONARS_LOG_LEVEL:${LOG_LEVEL:INFO}}
+    dev.voir.sole.world: ${SOLE_WORLD_LOG_LEVEL:${LOG_LEVEL:INFO}}
     org.springframework: ${SPRING_LOG_LEVEL:${LOG_LEVEL:INFO}}
-    org.springframework.amqp: ${SPRING_AMQP_LOG_LEVEL:${SPRING_LOG_LEVEL:${LOG_LEVEL:INFO}}}
-    org.jetbrains.exposed: ${EXPOSED_LOG_LEVEL:${LOG_LEVEL:INFO}}
-    com.zaxxer.hikari: ${HIKARI_LOG_LEVEL:${LOG_LEVEL:INFO}}
-    org.flywaydb: ${FLYWAY_LOG_LEVEL:${LOG_LEVEL:INFO}}
 
 cors:
   allowed-origins: ${CORS_ALLOWED_ORIGINS:*}
-  allowed-methods: ${CORS_ALLOWED_METHODS:GET,POST,PUT,DELETE}
+  allowed-methods: ${CORS_ALLOWED_METHODS:GET,HEAD,POST,OPTIONS}
   allowed-headers: ${CORS_ALLOWED_HEADERS:*}
 
-admin:
+api:
   security:
-    username: ${SUPER_ADMIN_USERNAME}
-    password: ${SUPER_ADMIN_PASSWORD}
+    # Comma- or whitespace-separated list of accepted API keys.
+    keys: ${API_KEYS:}
+    # Set to false only for a deliberately public deployment.
+    enabled: ${API_AUTH_ENABLED:true}
 
-client:
-  security:
-    access-key-hash-secret: ${ACCESS_KEY_HASH_SECRET}
+  rate-limit:
+    # Per-caller request limits on /v1/** and /graphql, keyed by API key (or by address when
+    # authentication is disabled). Buckets are per replica.
+    enabled: ${API_RATE_LIMIT_ENABLED:true}
+    requests-per-minute: ${API_RATE_LIMIT_REQUESTS_PER_MINUTE:600}
+    burst: ${API_RATE_LIMIT_BURST:120}
 
-seed:
-  import-enabled: ${SEED_IMPORT_ENABLED:true}
+  docs:
+    # Serves the OpenAPI contract at /openapi.yaml and its reference page at /docs.
+    # When false neither route exists, and neither is treated as public.
+    enabled: ${API_DOCS_ENABLED:true}
+
+  assets:
+    # Origin media asset paths are published under. Empty publishes them rooted at this deployment
+    # (/assets/flags/...). Set it to a CDN origin to publish absolute URLs pointing there instead.
+    base-url: ${ASSET_BASE_URL:}
+    # Directory the image files are served from, beside the jar rather than inside it.
+    directory: ${ASSET_DIRECTORY:assets}
+
+  graphiql:
+    # Serves the GraphiQL console at /graphiql.
+    # When false the route does not exist, and it is not treated as public.
+    enabled: ${GRAPHIQL_ENABLED:true}

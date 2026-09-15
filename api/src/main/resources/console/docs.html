@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sole World REST API</title>
+    <style>
+        body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+        .fallback { max-width: 40rem; margin: 4rem auto; padding: 0 1.5rem; line-height: 1.6; }
+        .fallback code { background: #f4f4f5; padding: 0.15em 0.4em; border-radius: 4px; }
+    </style>
+</head>
+<body>
+<!--
+  The reference renderer is served by this deployment, not by a CDN: it is pinned and digest-verified
+  into the image at build time, so this page runs no third-party code and works with no outbound
+  internet access. See api/console-assets.txt.
+-->
+<noscript>
+    <div class="fallback">
+        <h1>Sole World REST API</h1>
+        <p>This page renders the API reference with JavaScript. The OpenAPI document itself is
+            always available at <code>/openapi.yaml</code>.</p>
+    </div>
+</noscript>
+
+<!--
+  The renderer reaches for a third party in two places unless it is told not to: webfonts on a font
+  host, and a hosted API registry behind its developer-tools panel. Neither is reachable on an
+  air-gapped deployment, and neither belongs in a request this page makes on anyone's behalf. The
+  Content-Security-Policy on this route is the backstop if a future version adds another.
+-->
+<script id="api-reference"
+        data-url="/openapi.yaml"
+        data-configuration='{"withDefaultFonts": false, "showDeveloperTools": "never"}'></script>
+<script src="/docs/assets/api-reference.js"></script>
+</body>
+</html>

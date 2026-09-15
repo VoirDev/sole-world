@@ -35,7 +35,7 @@ class SubregionQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: subregions(ids: [20, 999]) { id name regionId }
+              requested: subregionsByIds(ids: [20, 999]) { id name regionId }
             }
             """.trimIndent(),
         )

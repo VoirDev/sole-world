@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "name": "Sylvania",
+  "nativeName": "Sylvania Native",
+  "iso2": "SY",
+  "iso3": "SYL",
+  "numericCode": "902",
+  "phoneCode": "+22",
+  "tld": ".sy",
+  "latitude": 46.1,
+  "longitude": 20.2,
+  "flagId": null,
+  "regionId": 10,
+  "subregionId": 21,
+  "currencyIds": [],
+  "timezoneIds": [],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [],
+  "translations": [],
+  "states": []
+}

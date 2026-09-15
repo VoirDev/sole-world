@@ -13,6 +13,13 @@ const ASSET_GROUPS = [
 
 const DATA_OUTPUT_FILE = 'data/media_assets.json';
 
+// An asset's description names what it shows, and what it shows is whatever record points at it.
+// Reading those records here is what keeps the description from drifting back into being a slug.
+const OWNER_FILES = [
+  {file: 'data/flags.json', idFields: ['square', 'wide'], describe: (record, field) => `${record.caption} flag, ${field === 'square' ? 'square' : 'wide'}`},
+  {file: 'data/cryptos.json', idFields: ['logoId'], describe: (record) => `${record.name} logo`},
+];
+
 const SQUARE_SIZES = [
   {key: 'xs', width: 64, height: 64},
   {key: 'sm', width: 128, height: 128},
@@ -37,12 +44,12 @@ const parseSvgName = (fileName) => {
     return null;
   }
 
-  const [, description, ratioSuffix] = match;
+  const [, key, ratioSuffix] = match;
   const imageAspectRatio = ratioSuffix === '1x1' ? 'square' : 'wide';
   const sizes = imageAspectRatio === 'square' ? SQUARE_SIZES : WIDE_SIZES;
 
   return {
-    description,
+    key,
     ratioSuffix,
     imageAspectRatio,
     sizes,
@@ -57,7 +64,7 @@ const readExistingAssets = async () => {
 
     return new Map(
       assets.map((asset) => [
-        `${asset.imageFormats.svg}|${asset.imageAspectRatio}|${asset.description}`,
+        `${asset.imageFormats.svg}|${asset.imageAspectRatio}|${asset.key}`,
         asset.id,
       ]),
     );
@@ -80,8 +87,8 @@ const nextAvailableId = (usedIds) => {
   return id;
 };
 
-const buildEntryId = (existingIds, usedIds, svgPath, imageAspectRatio, description) => {
-  const existingId = existingIds.get(`${svgPath}|${imageAspectRatio}|${description}`);
+const buildEntryId = (existingIds, usedIds, svgPath, imageAspectRatio, key) => {
+  const existingId = existingIds.get(`${svgPath}|${imageAspectRatio}|${key}`);
 
   if (existingId !== undefined) {
     usedIds.add(existingId);
@@ -103,11 +110,39 @@ const removeFileIfExists = async (filePath) => {
   }
 };
 
+const readOwnerDescriptions = async () => {
+  const descriptions = new Map();
+
+  for (const {file, idFields, describe} of OWNER_FILES) {
+    let records;
+
+    try {
+      records = JSON.parse(await fs.readFile(path.join(ROOT_DIR, file), 'utf8'));
+    } catch (error) {
+      if (error.code === 'ENOENT') {
+        continue;
+      }
+
+      throw error;
+    }
+
+    for (const record of records) {
+      for (const field of idFields) {
+        if (record[field] !== null && record[field] !== undefined) {
+          descriptions.set(record[field], describe(record, field));
+        }
+      }
+    }
+  }
+
+  return descriptions;
+};
+
 const renderRasterAssets = async (
   svgBuffer,
   outputDir,
   outputRelDir,
-  description,
+  assetKey,
   sizes,
   includeJpg,
 ) => {
@@ -117,8 +152,9 @@ const renderRasterAssets = async (
     webp: {},
   };
 
+  // The size's own key names the rendition (xs, sm, ...); the asset's key names the file.
   for (const {key, width, height} of sizes) {
-    const baseName = `${description}_${width}x${height}`;
+    const baseName = `${assetKey}_${width}x${height}`;
 
     const pngFile = `${baseName}.png`;
     const jpgFile = `${baseName}.jpg`;
@@ -155,6 +191,7 @@ const main = async () => {
   console.log('Start generating assets...');
 
   const existingIds = await readExistingAssets();
+  const ownerDescriptions = await readOwnerDescriptions();
   const usedIds = new Set();
   const resultJson = [];
 
@@ -170,26 +207,26 @@ const main = async () => {
         svgBuffer,
         outputDir,
         group.dir,
-        asset.description,
+        asset.key,
         asset.sizes,
         group.includeJpg,
       );
 
+      const id = buildEntryId(existingIds, usedIds, svgPath, asset.imageAspectRatio, asset.key);
+
       resultJson.push({
-        id: buildEntryId(
-          existingIds,
-          usedIds,
-          svgPath,
-          asset.imageAspectRatio,
-          asset.description,
-        ),
+        id,
         type: 'image',
+        key: asset.key,
+        // An asset nothing points at yet falls back to its key; adding the owning record and
+        // re-running fills it in.
+        description:
+          ownerDescriptions.get(id) ?? `${asset.key} image, ${asset.imageAspectRatio}`,
         imageAspectRatio: asset.imageAspectRatio,
         imageFormats: {
           svg: svgPath,
           ...rasterFormats,
         },
-        description: asset.description,
       });
     }
   }

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 401,
+    "name": "Freedonian Reserve",
+    "nativeName": "Reserve Native",
+    "websiteURL": "https://bank.example.test",
+    "establishmentYear": 1950,
+    "translations": [{"languageCode": "ru", "name": "Фридонский резерв"}],
+    "currencyIds": [101],
+    "countryIds": [1]
+  },
+  {
+    "id": 402,
+    "name": "Sylvania Reserve",
+    "nativeName": "Sylvania Reserve Native",
+    "websiteURL": "https://syl-bank.example.test",
+    "establishmentYear": 1960,
+    "translations": [],
+    "currencyIds": [],
+    "countryIds": []
+  }
+]

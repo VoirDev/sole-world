@@ -2,6 +2,7 @@ package dev.voir.sole.world.api.graphql
 
 import dev.voir.sole.world.api.integration.BaseGraphqlIntegrationTest
 import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
@@ -11,7 +12,7 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              currency(id: 101) {
+              currency(idOrCode: 101) {
                 id
                 iso3
                 isoNumeric
@@ -41,11 +42,42 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     }
 
     @Test
+    fun `currency query exposes introduced and obsolete dates`() {
+        // These fields are declared in the schema and present in the dataset, but the previous
+        // importer hard-coded both to null, so they were always absent from responses.
+        val response = graphQL(
+            """
+            query {
+              active: currency(idOrCode: 101) { introducedDate obsolete obsoleteAt }
+              retired: currency(idOrCode: 102, withObsolete: true) {
+                introducedDate obsolete obsoleteAt replacedById
+                replacedBy { id iso3 }
+              }
+            }
+            """.trimIndent(),
+        )
+
+        assertNoErrors(response)
+
+        val active = response.at("/data/active")
+        assertEquals("1991-01-01", active["introducedDate"].stringValue())
+        assertFalse(active["obsolete"].booleanValue())
+        assertTrue(isNullOrMissing(active["obsoleteAt"]))
+
+        val retired = response.at("/data/retired")
+        assertEquals("1901-01-01", retired["introducedDate"].stringValue())
+        assertTrue(retired["obsolete"].booleanValue())
+        assertEquals("1990-12-31", retired["obsoleteAt"].stringValue())
+        assertEquals("101", retired["replacedById"].stringValue())
+        assertEquals("FDC", retired.at("/replacedBy/iso3").stringValue())
+    }
+
+    @Test
     fun `currencies query supports required ids`() {
         val response = graphQL(
             """
             query {
-              requested: currencies(ids: [101, 102, 999]) { id iso3 }
+              requested: currenciesByIds(ids: [101, 102, 999]) { id iso3 }
             }
             """.trimIndent(),
         )
@@ -55,14 +87,14 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     }
 
     @Test
-    fun `resolveCurrency supports alpha numeric and obsolete parameters`() {
+    fun `a currency resolves by id, alpha code and numeric code`() {
         val response = graphQL(
             """
             query {
-              alpha: resolveCurrency(identifier: "FDC") { id iso3 obsolete }
-              numeric: resolveCurrency(identifier: "901") { id iso3 obsolete }
-              obsoleteHidden: resolveCurrency(identifier: "OLD") { id }
-              obsoleteVisible: resolveCurrency(identifier: "OLD", withObsolete: true) { id iso3 obsolete }
+              alpha: currency(idOrCode: "FDC") { id iso3 obsolete }
+              numeric: currency(idOrCode: "901") { id iso3 obsolete }
+              obsoleteHidden: currency(idOrCode: "OLD") { id }
+              obsoleteVisible: currency(idOrCode: "OLD", withObsolete: true) { id iso3 obsolete }
             }
             """.trimIndent(),
         )
@@ -81,7 +113,7 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              currency(id: 999) { id }
+              currency(idOrCode: 999) { id }
             }
             """.trimIndent(),
         )

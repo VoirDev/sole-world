@@ -36,7 +36,7 @@ class CentralBankQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: centralBanks(ids: [401, 999]) { id name }
+              requested: centralBanksByIds(ids: [401, 999]) { id name }
             }
             """.trimIndent(),
         )

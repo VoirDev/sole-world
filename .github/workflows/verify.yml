@@ -4,6 +4,11 @@ on:
   pull_request:
     branches:
       - main
+  # Also on push, so that main is known-good on its own rather than only at the moment each pull
+  # request was merged. Two changes that each pass alone can still break together.
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -16,19 +21,19 @@ jobs:
   build:
     name: Build and check whole repository
     runs-on: ubuntu-latest
-    if: ${{ !contains(github.event.pull_request.body || '', '[skip verify]') }}
+    if: ${{ github.event_name == 'push' || !contains(github.event.pull_request.body || '', '[skip verify]') }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up JDK
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: "21"
 
       - name: Set up Gradle
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@v6
         with:
           cache-read-only: true
           cache-cleanup: always
@@ -39,5 +44,31 @@ jobs:
             caches/kotlin-dsl
             wrapper/dists
 
+      # `build` runs ktlintCheck as well, since the plugin wires it into `check`.
       - name: Build and check whole repository
         run: ./gradlew build --no-daemon
+
+  image:
+    name: Build the image
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' || !contains(github.event.pull_request.body || '', '[skip verify]') }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+
+      # Nothing built the Dockerfile outside a release, so a broken image -- a bad layer path, a
+      # file that moved -- was only discovered while trying to cut one. This builds it and throws it
+      # away; the release pipeline is still what produces the artifact that gets published.
+      - name: Build API image
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: api/Dockerfile
+          push: false
+          platforms: linux/amd64,linux/arm64
+          cache-from: type=gha,scope=sole-world-api
+          cache-to: type=gha,mode=min,scope=sole-world-api
+          outputs: type=cacheonly

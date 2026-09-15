@@ -34,7 +34,7 @@ class CityQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: cities(ids: [601, 602, 999]) { id name }
+              requested: citiesByIds(ids: [601, 602, 999]) { id name }
             }
             """.trimIndent(),
         )
@@ -44,11 +44,11 @@ class CityQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     }
 
     @Test
-    fun `listCities supports zero based pages`() {
+    fun `cities supports zero based pages`() {
         val response = graphQL(
             """
             query {
-              listCities(page: { page: 1, size: 1 }) {
+              cities(page: { page: 1, size: 1 }) {
                 items { id name }
                 pageInfo {
                   page
@@ -64,7 +64,7 @@ class CityQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         )
 
         assertNoErrors(response)
-        val page = response.at("/data/listCities")
+        val page = response.at("/data/cities")
         assertEquals(1, page.at("/items").size())
         assertEquals(1, page.at("/pageInfo/page").intValue())
         assertEquals(1, page.at("/pageInfo/size").intValue())

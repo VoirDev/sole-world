@@ -38,7 +38,7 @@ class TimezoneQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: timezones(ids: [301, 999]) { id zoneName }
+              requested: timezonesByIds(ids: [301, 999]) { id zoneName }
             }
             """.trimIndent(),
         )

@@ -39,7 +39,7 @@ class StateQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: states(ids: [501, 502, 999]) { id name coordinates { latitude } }
+              requested: statesByIds(ids: [501, 502, 999]) { id name coordinates { latitude } }
               stateWithoutCoordinates: state(id: 502) { id coordinates { latitude } }
             }
             """.trimIndent(),

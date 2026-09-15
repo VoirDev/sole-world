@@ -7,7 +7,6 @@
     "generate:assets": "node generate-media-assets.mjs"
   },
   "dependencies": {
-    "sharp": "^0.35.2"
-  },
-  "devDependencies": {}
+    "sharp": "^0.35.4"
+  }
 }

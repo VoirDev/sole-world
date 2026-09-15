@@ -1,0 +1,20 @@
+[
+  {
+    "id": 301,
+    "zoneName": "Europe/Freedonia",
+    "gmtOffset": 3600,
+    "gmtOffsetName": "UTC+01:00",
+    "abbreviation": "FDT",
+    "tzName": "Freedonia Time",
+    "translations": [{"languageCode": "ru", "tzName": "Фридонское время"}]
+  },
+  {
+    "id": 302,
+    "zoneName": "Europe/Sylvania",
+    "gmtOffset": 7200,
+    "gmtOffsetName": "UTC+02:00",
+    "abbreviation": "SYT",
+    "tzName": "Sylvania Time",
+    "translations": []
+  }
+]

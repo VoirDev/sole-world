@@ -1,9 +1,5 @@
 package dev.voir.sole.world.api.model
 
-import dev.voir.sole.world.api.database.table.CountriesTable
-import dev.voir.sole.world.api.database.table.CountryTranslationsTable
-import org.jetbrains.exposed.v1.core.ResultRow
-
 /**
  * API model returned for country records.
  * @property id Primary key for the record.
@@ -21,7 +17,7 @@ import org.jetbrains.exposed.v1.core.ResultRow
  * @property subregionId Parent subregion id.
  */
 data class CountryData(
-    val id: Int,
+    val id: Long,
     val name: String,
     val nativeName: String?,
     val iso3: String,
@@ -31,33 +27,7 @@ data class CountryData(
     val tld: String?,
     val latitude: Double,
     val longitude: Double,
-    val flagId: Int?,
-    val regionId: Int,
-    val subregionId: Int,
-) {
-    companion object {
-        /**
-         * Maps an Exposed result row to a country API model.
-         * @param languageCode Locale code used to select translated fields; null uses base table values.
-         * @return Country API model populated from this row.
-         */
-        fun ResultRow.toCountry(languageCode: String?) = CountryData(
-            id = this[CountriesTable.id].value,
-            name = if (languageCode == null)
-                this[CountriesTable.name]
-            else
-                this.getOrNull(CountryTranslationsTable.name) ?: this[CountriesTable.name],
-            nativeName = this[CountriesTable.nativeName],
-            iso3 = this[CountriesTable.iso3],
-            iso2 = this[CountriesTable.iso2],
-            isoNumeric = this[CountriesTable.isoNumeric],
-            phoneCode = this[CountriesTable.phoneCode],
-            tld = this[CountriesTable.tld],
-            latitude = this[CountriesTable.latitude],
-            longitude = this[CountriesTable.longitude],
-            flagId = this[CountriesTable.flag]?.value,
-            regionId = this[CountriesTable.region].value,
-            subregionId = this[CountriesTable.subregion].value,
-        )
-    }
-}
+    val flagId: Long?,
+    val regionId: Long,
+    val subregionId: Long,
+)

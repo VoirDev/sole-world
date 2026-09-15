@@ -1,4 +1,22 @@
 """
+Relative cost of resolving a field, used by this deployment's query-complexity limit.
+
+The weight is the size of the record set the field may have to scan, in thousands, rounded up and
+never below one. A document's complexity is the sum of every selected field's weight, so the limit
+counts work rather than syntax: twenty aliased city listings cost twenty city scans, which is what
+they actually are, while a deeply nested query over small entities stays cheap.
+
+`GET /v1/meta` reports the limit this deployment enforces.
+"""
+directive @cost(
+    """
+    Records the field may scan, in thousands, rounded up. Defaults to 1 for fields that resolve
+    from an identifier or an already-narrowed collection.
+    """
+    weight: Int! = 1
+) on FIELD_DEFINITION
+
+"""
 Calendar date without a time or timezone.
 """
 scalar LocalDate
@@ -96,6 +114,16 @@ type CentralBank {
     Establishment year when known.
     """
     establishmentYear: Int
+
+    """
+    Countries this central bank serves.
+    """
+    countries: [Country!]
+
+    """
+    Currencies this central bank issues.
+    """
+    currencies: [Currency!]
 }
 
 """
@@ -116,6 +144,21 @@ type City {
     City coordinates.
     """
     coordinates: Coordinates!
+
+    """
+    Parent state or province identifier.
+    """
+    stateId: ID!
+
+    """
+    Parent state or province.
+    """
+    state: State
+
+    """
+    Country the parent state belongs to.
+    """
+    country: Country
 }
 
 """
@@ -131,6 +174,18 @@ type MediaAsset {
     Asset kind.
     """
     type: MediaAssetType!
+
+    """
+    Stable machine key for the asset, and the name its files are stored under — `zw` for Zimbabwe's
+    flag, `btc` for Bitcoin's logo. Match on this when a client needs to recognise an asset; it is
+    unique per aspect ratio, so a flag's square and wide images share one.
+    """
+    key: String!
+
+    """
+    Prose naming what the asset shows, for people rather than for matching.
+    """
+    description: String!
 
     """
     Image metadata when this media asset is an image.
@@ -155,6 +210,10 @@ type ImageAsset {
 
 """
 Available file formats for an image asset.
+
+Every path is published rooted at this deployment — `/assets/flags/us_1x1.svg` — or, when the
+deployment fronts its assets with a CDN, as an absolute URL against that origin. Either way it can
+be used as-is.
 """
 type ImageAssetFormats {
     """
@@ -365,7 +424,7 @@ type Country {
         Optional case-insensitive state or province name filter.
         """
         query: String
-    ): StatePage!
+    ): StatePage! @cost(weight: 3)
 
     """
     Cities grouped under the country's states.
@@ -380,7 +439,7 @@ type Country {
         Optional case-insensitive city name filter.
         """
         query: String
-    ): CityPage!
+    ): CityPage! @cost(weight: 20)
 }
 
 """
@@ -453,6 +512,11 @@ type Currency {
     replacedById: ID
 
     """
+    Replacement currency when this one is obsolete and a successor is known.
+    """
+    replacedBy: Currency
+
+    """
     Flag identifier when available.
     """
     flagId: ID
@@ -471,6 +535,72 @@ type Currency {
     Countries that use this currency.
     """
     countries: [Country!]
+}
+
+"""
+A cryptocurrency.
+"""
+type Crypto {
+    """
+    Stable cryptocurrency identifier.
+    """
+    id: ID!
+
+    """
+    Ticker symbol the coin trades under.
+    """
+    code: String!
+
+    """
+    Stable lowercase key for the coin. A ticker can be renamed; the alias is what stays the same,
+    and it is the name the coin's logo files are stored under.
+    """
+    alias: String!
+
+    """
+    Display name.
+    """
+    name: String!
+
+    """
+    Description text when available.
+    """
+    description: String
+
+    """
+    Official project website when known.
+    """
+    websiteUrl: String
+
+    """
+    Year the coin launched when known.
+    """
+    introducedYear: Int
+
+    """
+    Number of decimal digits commonly used for minor units.
+    """
+    decimalDigits: Int!
+
+    """
+    Whether the coin is no longer active.
+    """
+    obsolete: Boolean!
+
+    """
+    Date the coin became obsolete when known.
+    """
+    obsoleteAt: LocalDate
+
+    """
+    Media asset identifier of the coin's logo when one is bundled.
+    """
+    logoId: ID
+
+    """
+    The coin's logo when one is bundled.
+    """
+    logo: MediaAsset
 }
 
 """
@@ -606,6 +736,26 @@ type State {
     Parent country identifier.
     """
     countryId: ID!
+
+    """
+    Parent country.
+    """
+    country: Country
+
+    """
+    Cities inside this state or province.
+    """
+    cities(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+
+        """
+        Optional case-insensitive city name filter.
+        """
+        query: String
+    ): CityPage! @cost(weight: 3)
 }
 
 """
@@ -666,6 +816,21 @@ type CurrencyPage {
     Currencies on the requested page.
     """
     items: [Currency!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated cryptocurrencies result.
+"""
+type CryptoPage {
+    """
+    Cryptocurrencies on the requested page.
+    """
+    items: [Crypto!]!
 
     """
     Pagination metadata.
@@ -835,22 +1000,68 @@ enum ImageAssetAspectRatio {
 
 """
 Read-only GraphQL queries for world reference data.
+
+Every capability a resource has is reachable from both transports. Each resource offers a list field
+carrying the same filters and search as its REST collection, and a single-item field taking the same
+identifier the REST path segment takes. Loading a batch by ids is GraphQL-only, and embedding
+relationships with `include` is REST-only: each is that transport's answer to the same round-trip
+problem, and neither has anything to say on the other.
 """
 type Query {
     """
-    Lists countries using zero-based pagination.
+    Lists or searches countries. Filters combine with AND.
     """
-    listCountries(
+    countries(
         """
         Optional pagination request. Defaults to page 0 and size 50.
         """
         page: PageInput
+
+        """
+        Optional relevance search. Ranks the same way the REST endpoint does.
+        """
+        query: String
+
+        """
+        Only countries in this region.
+        """
+        regionId: ID
+
+        """
+        Only countries in this subregion.
+        """
+        subregionId: ID
+
+        """
+        Only countries that use this currency.
+        """
+        currencyId: ID
+
+        """
+        Only countries that use this language.
+        """
+        languageId: ID
+
+        """
+        Only countries in this timezone.
+        """
+        timezoneId: ID
     ): CountryPage!
+
+    """
+    Loads one country by identifier, the same identifiers the REST path accepts.
+    """
+    country(
+        """
+        Numeric identifier, ISO 3166-1 alpha-2 code, or alpha-3 code.
+        """
+        idOrCode: ID!
+    ): Country
 
     """
     Loads countries by id. Accepts at most 50 ids.
     """
-    countries(
+    countriesByIds(
         """
         Country ids to load.
         """
@@ -858,54 +1069,44 @@ type Query {
     ): [Country!]!
 
     """
-    Searches countries by name, ISO code, phone code, and top-level domain.
+    Lists or searches currencies.
     """
-    searchCountries(
-        """
-        Search text.
-        """
-        query: String!
-
-        """
-        Maximum number of countries to return. Defaults to 50 and cannot exceed 50.
-        """
-        limit: Int
-    ): [Country!]!
-
-    """
-    Loads one country by id.
-    """
-    country(
-        """
-        Country id to load.
-        """
-        id: ID!
-    ): Country
-
-    """
-    Lists currencies using zero-based pagination.
-    """
-    listCurrencies(
+    currencies(
         """
         Optional pagination request. Defaults to page 0 and size 50.
         """
         page: PageInput
+
+        """
+        Optional relevance search. Ranks the same way the REST endpoint does.
+        """
+        query: String
+
+        """
+        Restrict to obsolete or active currencies. Omit to return both.
+        """
+        obsolete: Boolean
     ): CurrencyPage!
 
     """
-    Loads one currency by id.
+    Loads one currency by identifier, the same identifiers the REST path accepts.
     """
     currency(
         """
-        Currency id to load.
+        Numeric identifier, ISO 4217 alpha code, or ISO 4217 numeric code.
         """
-        id: ID!
+        idOrCode: ID!
+
+        """
+        Allow an obsolete currency to be returned. Defaults to false.
+        """
+        withObsolete: Boolean
     ): Currency
 
     """
     Loads currencies by id. Accepts at most 50 ids.
     """
-    currencies(
+    currenciesByIds(
         """
         Currency ids to load.
         """
@@ -913,44 +1114,74 @@ type Query {
     ): [Currency!]!
 
     """
-    Resolves a currency by ISO alpha or numeric identifier.
+    Lists or searches cryptocurrencies.
     """
-    resolveCurrency(
-        """
-        ISO alpha or numeric currency identifier.
-        """
-        identifier: String!
-
-        """
-        Whether obsolete currencies may be returned.
-        """
-        withObsolete: Boolean
-    ): Currency
-
-    """
-    Lists languages using zero-based pagination.
-    """
-    listLanguages(
+    cryptos(
         """
         Optional pagination request. Defaults to page 0 and size 50.
         """
         page: PageInput
+
+        """
+        Optional relevance search. Ranks the same way the REST endpoint does.
+        """
+        query: String
+
+        """
+        Restrict to obsolete or active coins. Omit to return both.
+        """
+        obsolete: Boolean
+    ): CryptoPage!
+
+    """
+    Loads one cryptocurrency by identifier, the same identifiers the REST path accepts.
+    """
+    crypto(
+        """
+        Numeric identifier, ticker symbol, or alias.
+        """
+        idOrCode: ID!
+    ): Crypto
+
+    """
+    Loads cryptocurrencies by id. Accepts at most 50 ids.
+    """
+    cryptosByIds(
+        """
+        Cryptocurrency ids to load.
+        """
+        ids: [ID!]!
+    ): [Crypto!]!
+
+    """
+    Lists or searches languages.
+    """
+    languages(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+
+        """
+        Optional relevance search. Ranks the same way the REST endpoint does.
+        """
+        query: String
     ): LanguagePage!
 
     """
-    Loads one language by id.
+    Loads one language by identifier, the same identifiers the REST path accepts.
     """
     language(
         """
-        Language id to load.
+        Numeric identifier or language code.
         """
-        id: ID!
+        idOrCode: ID!
     ): Language
 
     """
     Loads languages by id. Accepts at most 50 ids.
     """
-    languages(
+    languagesByIds(
         """
         Language ids to load.
         """
@@ -958,43 +1189,18 @@ type Query {
     ): [Language!]!
 
     """
-    Lists flags using zero-based pagination.
+    Lists or searches regions.
     """
-    listFlags(
+    regions(
         """
         Optional pagination request. Defaults to page 0 and size 50.
         """
         page: PageInput
-    ): FlagPage!
 
-    """
-    Loads one flag by id.
-    """
-    flag(
         """
-        Flag id to load.
+        Optional relevance search. Ranks the same way the REST endpoint does.
         """
-        id: ID!
-    ): Flag
-
-    """
-    Loads flags by id. Accepts at most 50 ids.
-    """
-    flags(
-        """
-        Flag ids to load.
-        """
-        ids: [ID!]!
-    ): [Flag!]!
-
-    """
-    Lists regions using zero-based pagination.
-    """
-    listRegions(
-        """
-        Optional pagination request. Defaults to page 0 and size 50.
-        """
-        page: PageInput
+        query: String
     ): RegionPage!
 
     """
@@ -1010,7 +1216,7 @@ type Query {
     """
     Loads regions by id. Accepts at most 50 ids.
     """
-    regions(
+    regionsByIds(
         """
         Region ids to load.
         """
@@ -1018,13 +1224,23 @@ type Query {
     ): [Region!]!
 
     """
-    Lists subregions using zero-based pagination.
+    Lists or searches subregions.
     """
-    listSubregions(
+    subregions(
         """
         Optional pagination request. Defaults to page 0 and size 50.
         """
         page: PageInput
+
+        """
+        Optional relevance search. Ranks the same way the REST endpoint does.
+        """
+        query: String
+
+        """
+        Only subregions inside this region.
+        """
+        regionId: ID
     ): SubregionPage!
 
     """
@@ -1040,7 +1256,7 @@ type Query {
     """
     Loads subregions by id. Accepts at most 50 ids.
     """
-    subregions(
+    subregionsByIds(
         """
         Subregion ids to load.
         """
@@ -1048,43 +1264,18 @@ type Query {
     ): [Subregion!]!
 
     """
-    Lists timezones using zero-based pagination.
+    Lists or searches central banks.
     """
-    listTimezones(
+    centralBanks(
         """
         Optional pagination request. Defaults to page 0 and size 50.
         """
         page: PageInput
-    ): TimezonePage!
 
-    """
-    Loads one timezone by id.
-    """
-    timezone(
         """
-        Timezone id to load.
+        Optional relevance search. Ranks the same way the REST endpoint does.
         """
-        id: ID!
-    ): Timezone
-
-    """
-    Loads timezones by id. Accepts at most 50 ids.
-    """
-    timezones(
-        """
-        Timezone ids to load.
-        """
-        ids: [ID!]!
-    ): [Timezone!]!
-
-    """
-    Lists central banks using zero-based pagination.
-    """
-    listCentralBanks(
-        """
-        Optional pagination request. Defaults to page 0 and size 50.
-        """
-        page: PageInput
+        query: String
     ): CentralBankPage!
 
     """
@@ -1100,7 +1291,7 @@ type Query {
     """
     Loads central banks by id. Accepts at most 50 ids.
     """
-    centralBanks(
+    centralBanksByIds(
         """
         Central bank ids to load.
         """
@@ -1108,14 +1299,24 @@ type Query {
     ): [CentralBank!]!
 
     """
-    Lists states or provinces using zero-based pagination.
+    Lists or searches states and provinces.
     """
-    listStates(
+    states(
         """
         Optional pagination request. Defaults to page 0 and size 50.
         """
         page: PageInput
-    ): StatePage!
+
+        """
+        Optional relevance search. Ranks the same way the REST endpoint does.
+        """
+        query: String
+
+        """
+        Only states in this country.
+        """
+        countryId: ID
+    ): StatePage! @cost(weight: 6)
 
     """
     Loads one state or province by id.
@@ -1130,7 +1331,7 @@ type Query {
     """
     Loads states or provinces by id. Accepts at most 50 ids.
     """
-    states(
+    statesByIds(
         """
         State or province ids to load.
         """
@@ -1138,14 +1339,29 @@ type Query {
     ): [State!]!
 
     """
-    Lists cities using zero-based pagination.
+    Lists or searches cities. Filters combine with AND.
     """
-    listCities(
+    cities(
         """
         Optional pagination request. Defaults to page 0 and size 50.
         """
         page: PageInput
-    ): CityPage!
+
+        """
+        Optional relevance search. Ranks the same way the REST endpoint does.
+        """
+        query: String
+
+        """
+        Only cities in this country.
+        """
+        countryId: ID
+
+        """
+        Only cities in this state.
+        """
+        stateId: ID
+    ): CityPage! @cost(weight: 150)
 
     """
     Loads one city by id.
@@ -1160,7 +1376,7 @@ type Query {
     """
     Loads cities by id. Accepts at most 50 ids.
     """
-    cities(
+    citiesByIds(
         """
         City ids to load.
         """
@@ -1168,9 +1384,79 @@ type Query {
     ): [City!]!
 
     """
-    Lists media assets using zero-based pagination.
+    Lists or searches timezones.
     """
-    listMediaAssets(
+    timezones(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+
+        """
+        Optional relevance search. Ranks the same way the REST endpoint does.
+        """
+        query: String
+    ): TimezonePage!
+
+    """
+    Loads one timezone by id.
+    """
+    timezone(
+        """
+        Timezone id to load.
+        """
+        id: ID!
+    ): Timezone
+
+    """
+    Loads timezones by id. Accepts at most 50 ids.
+    """
+    timezonesByIds(
+        """
+        Timezone ids to load.
+        """
+        ids: [ID!]!
+    ): [Timezone!]!
+
+    """
+    Lists or searches flags. `query` ranks over captions and emoji.
+    """
+    flags(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+
+        """
+        Optional relevance search. Ranks the same way the REST endpoint does.
+        """
+        query: String
+    ): FlagPage!
+
+    """
+    Loads one flag by id.
+    """
+    flag(
+        """
+        Flag id to load.
+        """
+        id: ID!
+    ): Flag
+
+    """
+    Loads flags by id. Accepts at most 50 ids.
+    """
+    flagsByIds(
+        """
+        Flag ids to load.
+        """
+        ids: [ID!]!
+    ): [Flag!]!
+
+    """
+    Lists media assets.
+    """
+    mediaAssets(
         """
         Optional pagination request. Defaults to page 0 and size 50.
         """
@@ -1190,80 +1476,10 @@ type Query {
     """
     Loads media assets by id. Accepts at most 50 ids.
     """
-    mediaAssets(
+    mediaAssetsByIds(
         """
         Media asset ids to load.
         """
         ids: [ID!]!
     ): [MediaAsset!]!
-
-    """
-    Checks whether a currency id exists.
-    """
-    isValidCurrency(
-        """
-        Currency id to validate.
-        """
-        id: ID!
-    ): ValidationResponse!
-
-    """
-    Checks whether a country id exists.
-    """
-    isValidCountry(
-        """
-        Country id to validate.
-        """
-        id: ID!
-    ): ValidationResponse!
-
-    """
-    Checks whether a language id exists.
-    """
-    isValidLanguage(
-        """
-        Language id to validate.
-        """
-        id: ID!
-    ): ValidationResponse!
-
-    """
-    Checks whether a region id exists.
-    """
-    isValidRegion(
-        """
-        Region id to validate.
-        """
-        id: ID!
-    ): ValidationResponse!
-
-    """
-    Checks whether a subregion id exists.
-    """
-    isValidSubregion(
-        """
-        Subregion id to validate.
-        """
-        id: ID!
-    ): ValidationResponse!
-
-    """
-    Checks whether a timezone id exists.
-    """
-    isValidTimezone(
-        """
-        Timezone id to validate.
-        """
-        id: ID!
-    ): ValidationResponse!
-}
-
-"""
-Boolean validation result for identifier checks.
-"""
-type ValidationResponse {
-    """
-    Whether the supplied identifier exists.
-    """
-    valid: Boolean!
 }

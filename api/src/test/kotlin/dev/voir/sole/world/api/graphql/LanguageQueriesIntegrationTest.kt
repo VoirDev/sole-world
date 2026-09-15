@@ -11,7 +11,7 @@ class LanguageQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              language(id: 201) {
+              language(idOrCode: 201) {
                 id
                 code
                 nativeName
@@ -38,7 +38,7 @@ class LanguageQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: languages(ids: [201, 999]) { id code name }
+              requested: languagesByIds(ids: [201, 999]) { id code name }
             }
             """.trimIndent(),
         )
@@ -52,7 +52,7 @@ class LanguageQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              language(id: 999) { id }
+              language(idOrCode: 999) { id }
             }
             """.trimIndent(),
         )
