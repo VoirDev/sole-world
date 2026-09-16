@@ -37,8 +37,14 @@ class LocalizationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         assertEquals("Фридония", country.at("/name").stringValue())
         assertEquals("Тестовая Европа", country.at("/region/name").stringValue())
         assertEquals("Тестовый Север", country.at("/subregion/name").stringValue())
-        assertArrayValues(country["currencies"], "name", "Фридонский кредит")
-        assertArrayValues(country["currencies"], "description", "Активная тестовая валюта")
+        // The second currency has no Russian translation, so it falls back to base data.
+        assertArrayValues(country["currencies"], "name", "Фридонский кредит", "Alpine Thaler")
+        assertArrayValues(
+            country["currencies"],
+            "description",
+            "Активная тестовая валюта",
+            "Active seeded currency nobody uses",
+        )
         assertArrayValues(country["languages"], "name", "Фридонский")
         assertArrayValues(country["languages"], "description", "Тестовый официальный язык")
         assertArrayValues(country["timezones"], "tzName", "Фридонское время")

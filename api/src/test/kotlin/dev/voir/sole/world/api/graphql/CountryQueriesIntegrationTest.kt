@@ -95,7 +95,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
             country.at("/flag/squareAsset/image/formats/png").propertyNames().toSet(),
         )
 
-        assertArrayValues(country["currencies"], "iso3", "FDC")
+        assertArrayValues(country["currencies"], "iso3", "FDC", "ALT")
         assertArrayValues(country["timezones"], "zoneName", "Europe/Freedonia")
         assertArrayValues(country["languages"], "code", "fd")
         assertArrayValues(country["centralBanks"], "name", "Freedonian Reserve")
@@ -224,7 +224,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
         assertNoErrors(response)
         val country = response.at("/data/country")
-        assertArrayValues(country["currencies"], "iso3", "FDC")
+        assertArrayValues(country["currencies"], "iso3", "FDC", "ALT")
         assertArrayValues(country["languages"], "code", "fd")
         assertArrayValues(country.at("/states/items"), "name", "North Freedonia", "South Freedonia")
         assertArrayValues(country.at("/cities/items"), "name", "North City", "South City")

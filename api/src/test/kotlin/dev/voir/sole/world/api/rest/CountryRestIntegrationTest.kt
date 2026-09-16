@@ -48,7 +48,11 @@ class CountryRestIntegrationTest : BaseRestIntegrationTest() {
         assertEquals("Test Europe", country.at("/region/name").stringValue())
         assertEquals("Test North", country.at("/subregion/name").stringValue())
         assertEquals("Freedonia flag", country.at("/flag/caption").stringValue())
-        assertEquals(listOf("Freedonian Credit"), itemsField(country, "currencies", "name"))
+        // Currencies come back most widely used first, not alphabetically.
+        assertEquals(
+            listOf("Freedonian Credit", "Alpine Thaler"),
+            itemsField(country, "currencies", "name"),
+        )
         assertEquals(listOf("Freedonian"), itemsField(country, "languages", "name"))
         assertEquals(listOf("Freedonia Time"), itemsField(country, "timezones", "tzName"))
         assertEquals(listOf("Freedonian Reserve"), itemsField(country, "centralBanks", "name"))
@@ -156,7 +160,7 @@ class CountryRestIntegrationTest : BaseRestIntegrationTest() {
     fun `sub-resources are paginated and filtered`() {
         assertEquals(2, get("/v1/countries/1/states").at("/page/totalItems").intValue())
         assertEquals(2, get("/v1/countries/1/cities").at("/page/totalItems").intValue())
-        assertEquals(1, get("/v1/countries/1/currencies").at("/page/totalItems").intValue())
+        assertEquals(2, get("/v1/countries/1/currencies").at("/page/totalItems").intValue())
         assertEquals(1, get("/v1/countries/1/languages").at("/page/totalItems").intValue())
         assertEquals(1, get("/v1/countries/1/timezones").at("/page/totalItems").intValue())
         assertEquals(1, get("/v1/countries/1/central-banks").at("/page/totalItems").intValue())

@@ -19,6 +19,7 @@ import kotlinx.serialization.Serializable
  * @property flagId Shared flag id, when available.
  * @property translations Localized currency names.
  * @property decimalDigits Number of decimal digits used for minor units.
+ * @property popularity How widely the currency is used, from 0 to 100.
  */
 @Serializable
 data class CurrencyJSON(
@@ -37,4 +38,5 @@ data class CurrencyJSON(
     val flagId: Long?,
     val translations: List<CurrencyTranslationJSON>,
     val decimalDigits: Int,
+    val popularity: Int = 0,
 )

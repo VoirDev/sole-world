@@ -54,9 +54,78 @@ class ResourceRestIntegrationTest : BaseRestIntegrationTest() {
 
     @Test
     fun `currencies can be filtered by obsolescence`() {
-        assertEquals(listOf("Freedonian Credit"), itemNames(get("/v1/currencies?obsolete=false")))
+        assertEquals(
+            listOf("Freedonian Credit", "Alpine Thaler"),
+            itemNames(get("/v1/currencies?obsolete=false")),
+        )
         assertEquals(listOf("Old Freedonian Credit"), itemNames(get("/v1/currencies?obsolete=true")))
-        assertEquals(2, get("/v1/currencies").at("/page/totalItems").intValue())
+        assertEquals(3, get("/v1/currencies").at("/page/totalItems").intValue())
+    }
+
+    @Test
+    fun `a currency carries how widely it is used`() {
+        assertEquals(60, get("/v1/currencies/FDC")["popularity"].intValue())
+        // A currency nobody uses any more is not a currency anybody is looking for.
+        assertEquals(0, get("/v1/currencies/OLD?withObsolete=true")["popularity"].intValue())
+    }
+
+    @Test
+    fun `currencies are listed by popularity rather than by name`() {
+        assertEquals(
+            listOf("Freedonian Credit", "Alpine Thaler", "Old Freedonian Credit"),
+            itemNames(get("/v1/currencies")),
+        )
+    }
+
+    @Test
+    fun `currencies can be sorted by any documented field, in either direction`() {
+        assertEquals(
+            listOf("Alpine Thaler", "Freedonian Credit", "Old Freedonian Credit"),
+            itemNames(get("/v1/currencies?sort=name")),
+        )
+        assertEquals(
+            listOf("Old Freedonian Credit", "Freedonian Credit", "Alpine Thaler"),
+            itemNames(get("/v1/currencies?sort=name&order=desc")),
+        )
+        assertEquals(
+            listOf("Alpine Thaler", "Freedonian Credit", "Old Freedonian Credit"),
+            itemNames(get("/v1/currencies?sort=code")),
+        )
+        // Oldest first, and descending popularity is what the default already gives.
+        assertEquals(
+            listOf("Old Freedonian Credit", "Freedonian Credit", "Alpine Thaler"),
+            itemNames(get("/v1/currencies?sort=year")),
+        )
+        assertEquals(
+            listOf("Old Freedonian Credit", "Alpine Thaler", "Freedonian Credit"),
+            itemNames(get("/v1/currencies?sort=popularity&order=asc")),
+        )
+    }
+
+    @Test
+    fun `an unknown sort or order names the values that exist`() {
+        val sort = assertProblem(rest("/v1/currencies?sort=popularty"), status = 400)
+        assertTrue(sort["detail"].stringValue().contains("popularty"))
+        assertEquals("popularity", sort["allowed"][0].stringValue())
+
+        val order = assertProblem(rest("/v1/currencies?order=sideways"), status = 400)
+        val directions = mutableListOf<String>()
+        for (direction in order["allowed"]) {
+            directions += direction.stringValue()
+        }
+        assertEquals(listOf("asc", "desc"), directions)
+    }
+
+    @Test
+    fun `an explicit sort overrides relevance ranking`() {
+        assertEquals(
+            listOf("Freedonian Credit", "Old Freedonian Credit"),
+            itemNames(get("/v1/currencies?query=Credit")),
+        )
+        assertEquals(
+            listOf("Old Freedonian Credit", "Freedonian Credit"),
+            itemNames(get("/v1/currencies?query=Credit&sort=name&order=desc")),
+        )
     }
 
     @Test

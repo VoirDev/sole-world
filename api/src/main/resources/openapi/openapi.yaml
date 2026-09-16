@@ -29,6 +29,14 @@ info:
     country's cities are deliberately not includable — some countries have tens of thousands — so
     use `/v1/countries/{idOrCode}/cities`.
 
+    ## Ordering
+
+    Collections come back ordered by the name a reader of the requested language expects. Currencies
+    are the exception: they are ordered by `popularity`, most widely used first, because an
+    alphabetical first page of them reaches neither the dollar nor the euro. `/v1/currencies` takes
+    `sort` and `order` to choose another ordering, and every list of currencies — including the ones
+    reached through `include` and the currency sub-resources — is ordered by popularity.
+
     ## Localization
 
     Translated fields follow the `Accept-Language` request header. The `lang` query parameter
@@ -313,6 +321,7 @@ paths:
       tags: [countries]
       operationId: listCountryCurrencies
       summary: List the currencies a country uses
+      description: Ordered by popularity, most widely used first.
       parameters:
         - $ref: "#/components/parameters/CountryIdOrCode"
         - $ref: "#/components/parameters/Page"
@@ -422,12 +431,16 @@ paths:
       operationId: listCurrencies
       summary: List or search currencies
       description: >
-        Returns currencies ordered by localized name. `query` runs a relevance-ranked search over
-        names, native names, ISO codes and symbols.
+        Returns currencies ordered by `popularity`, most widely used first, so the first page is the
+        currencies a picker actually needs. `sort` and `order` choose another ordering. `query` runs
+        a relevance-ranked search over names, native names, ISO codes and symbols, ranking equally
+        relevant matches by popularity; an explicit `sort` overrides that ranking.
       parameters:
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/CurrencySort"
+        - $ref: "#/components/parameters/SortOrder"
         - $ref: "#/components/parameters/Lang"
         - $ref: "#/components/parameters/CurrencyInclude"
         - name: obsolete
@@ -971,6 +984,7 @@ paths:
       tags: [central-banks]
       operationId: listCentralBankCurrencies
       summary: List the currencies a central bank issues
+      description: Ordered by popularity, most widely used first.
       parameters:
         - $ref: "#/components/parameters/ResourceId"
         - $ref: "#/components/parameters/Page"
@@ -1359,6 +1373,24 @@ components:
       required: false
       description: "Relationships to embed. Allowed: `flag`, `countries`, `centralBanks`, `replacedBy`."
       schema: { type: string }
+    CurrencySort:
+      name: sort
+      in: query
+      required: false
+      description: >
+        Field to order by: `popularity`, `name`, `code` or `year`. Defaults to `popularity`, or to
+        relevance when `query` is supplied. An unrecognized value returns `400` listing the four.
+      schema: { type: string }
+      example: popularity
+    SortOrder:
+      name: order
+      in: query
+      required: false
+      description: >
+        Direction, `asc` or `desc`. Defaults to the direction the chosen field is useful in:
+        descending for `popularity`, ascending for `name`, `code` and `year`.
+      schema: { type: string }
+      example: desc
     CryptoInclude:
       name: include
       in: query
@@ -1815,7 +1847,7 @@ components:
 
     Currency:
       type: object
-      required: [id, iso3, isoNumeric, name, decimalDigits, obsolete]
+      required: [id, iso3, isoNumeric, name, decimalDigits, popularity, obsolete]
       properties:
         id: { type: integer, format: int64 }
         iso3: { type: string }
@@ -1825,6 +1857,16 @@ components:
         description: { type: string }
         symbol: { type: string }
         decimalDigits: { type: integer, format: int32 }
+        popularity:
+          type: integer
+          format: int32
+          minimum: 0
+          maximum: 100
+          description: >
+            How widely the currency is used today, from 0 to 100. The scale blends foreign-exchange
+            turnover, payment share and reserve status at the top with the size of the issuing
+            economy and the number of countries using it further down. Obsolete currencies score 0.
+          example: 100
         year: { type: integer, format: int32 }
         introducedDate: { type: string, format: date }
         obsolete: { type: boolean }

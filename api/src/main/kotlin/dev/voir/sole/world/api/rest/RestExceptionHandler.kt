@@ -43,6 +43,21 @@ class RestExceptionHandler {
         )
     }
 
+    /** Answers an unknown `sort` or `order` with the list of values the endpoint does accept. */
+    @ExceptionHandler(UnknownSortException::class)
+    fun onUnknownSort(
+        failure: UnknownSortException,
+        request: HttpServletRequest,
+    ): ResponseEntity<Problem> {
+        return problem(
+            status = HttpStatus.BAD_REQUEST,
+            title = "Unknown sort",
+            detail = "Unknown ${failure.parameter} '${failure.unknown}'.",
+            request = request,
+            allowed = failure.allowed,
+        )
+    }
+
     /** Answers a resource that does not exist. */
     @ExceptionHandler(ResourceNotFoundException::class)
     fun onNotFound(

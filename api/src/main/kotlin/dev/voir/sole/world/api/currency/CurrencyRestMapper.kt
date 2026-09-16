@@ -32,6 +32,7 @@ fun CurrencyData.toRest(
     isoNumeric = isoNumeric,
     name = name,
     decimalDigits = decimalDigits,
+    popularity = popularity,
     obsolete = obsolete,
     nativeName = nativeName,
     description = description,

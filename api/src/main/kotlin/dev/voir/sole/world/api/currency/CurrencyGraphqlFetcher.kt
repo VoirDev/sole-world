@@ -9,6 +9,7 @@ import dev.voir.sole.world.api.centralbank.CentralBankStore
 import dev.voir.sole.world.api.centralbank.toGql
 import dev.voir.sole.world.api.country.CountryStore
 import dev.voir.sole.world.api.country.toGql
+import dev.voir.sole.world.api.dataset.index.SortOrder
 import dev.voir.sole.world.api.flag.FlagStore
 import dev.voir.sole.world.api.flag.toGql
 import dev.voir.sole.world.api.graphql.GraphqlRequest
@@ -19,6 +20,8 @@ import dev.voir.sole.world.graphql.dto.types.CurrencyPage
 import dev.voir.sole.world.graphql.dto.types.Flag
 import dev.voir.sole.world.graphql.dto.types.PageInput
 import graphql.execution.DataFetcherResult
+import dev.voir.sole.world.graphql.dto.types.CurrencySort as GqlCurrencySort
+import dev.voir.sole.world.graphql.dto.types.SortOrder as GqlSortOrder
 
 /** GraphQL fetchers for currencies and every field hanging off a currency. */
 @DgsComponent
@@ -33,6 +36,8 @@ class CurrencyGraphqlFetcher(
      * @param page Optional pagination request.
      * @param query Optional relevance search.
      * @param obsolete Restricts results to obsolete or active currencies.
+     * @param sort Field to order by; defaults to popularity, or to relevance when searching.
+     * @param order Direction; defaults to the direction the chosen field is useful in.
      * @return Paginated currency result.
      */
     @DgsQuery
@@ -40,6 +45,8 @@ class CurrencyGraphqlFetcher(
         @InputArgument page: PageInput?,
         @InputArgument query: String?,
         @InputArgument obsolete: Boolean?,
+        @InputArgument sort: GqlCurrencySort?,
+        @InputArgument order: GqlSortOrder?,
     ): DataFetcherResult<CurrencyPage> {
         val language = GraphqlRequest.language()
         val result = currencyStore.page(
@@ -47,6 +54,10 @@ class CurrencyGraphqlFetcher(
             languageCode = language,
             query = GraphqlRequest.optionalSearchQuery(query),
             obsolete = obsolete,
+            // The schema enums are generated from the same names the store's own enums use, so the
+            // two stay in step: a value added to one does not compile until the other has it too.
+            sort = sort?.let { CurrencySort.valueOf(it.name) },
+            order = order?.let { SortOrder.valueOf(it.name) },
         )
 
         return GraphqlRequest.localized(

@@ -443,6 +443,39 @@ type Country {
 }
 
 """
+Field a currency listing is ordered by.
+"""
+enum CurrencySort {
+    """
+    Most widely used first.
+    """
+    POPULARITY
+
+    """
+    Display name in the requested language, collated for that language.
+    """
+    NAME
+
+    """
+    ISO 4217 alpha code.
+    """
+    CODE
+
+    """
+    Introduction year. Currencies with no known year come last in either direction.
+    """
+    YEAR
+}
+
+"""
+Direction a sorted listing runs in.
+"""
+enum SortOrder {
+    ASC
+    DESC
+}
+
+"""
 A currency, including active and obsolete records.
 """
 type Currency {
@@ -470,6 +503,13 @@ type Currency {
     Number of decimal digits commonly used by the currency.
     """
     decimalDigits: Int!
+
+    """
+    How widely the currency is used today, from 0 to 100. The scale blends foreign-exchange
+    turnover, payment share and reserve status at the top with the size of the issuing economy and
+    the number of countries using it further down. Obsolete currencies score 0.
+    """
+    popularity: Int!
 
     """
     Currency description when available.
@@ -1069,7 +1109,7 @@ type Query {
     ): [Country!]!
 
     """
-    Lists or searches currencies.
+    Lists or searches currencies, ordered by popularity unless `sort` says otherwise.
     """
     currencies(
         """
@@ -1086,6 +1126,18 @@ type Query {
         Restrict to obsolete or active currencies. Omit to return both.
         """
         obsolete: Boolean
+
+        """
+        Field to order by. Defaults to POPULARITY, or to relevance when `query` is supplied; an
+        explicit sort overrides relevance.
+        """
+        sort: CurrencySort
+
+        """
+        Direction. Defaults to the direction the chosen field is useful in: DESC for POPULARITY,
+        ASC for NAME, CODE and YEAR.
+        """
+        order: SortOrder
     ): CurrencyPage!
 
     """

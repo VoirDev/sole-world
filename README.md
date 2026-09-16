@@ -158,6 +158,37 @@ Set `ASSET_BASE_URL` to front them with a CDN, and every path becomes an absolut
 origin instead — in the media asset endpoints, in a flag's renditions, in a coin's logo, on both
 transports.
 
+### Currencies
+
+`/v1/currencies` covers 155 currencies, active and obsolete, with their ISO 4217 codes, symbols,
+minor-unit precision and the flag of the territory that issues them.
+
+Each one carries `popularity`, a 0–100 score of how widely it is used today. The scale blends
+foreign-exchange turnover, payment share and reserve status at the top — the dollar is 100, the euro
+96, the yen 92 — with the size of the issuing economy and the number of countries using it further
+down. Obsolete currencies score 0.
+
+**Currencies are listed by popularity rather than by name**, because an alphabetical first page of
+them runs from the Afghan afghani to the Bahraini dinar without reaching either the dollar or the
+euro. `sort` picks another ordering and `order` reverses it:
+
+```bash
+# the dollar, the euro, the yen, ...
+curl -H "X-API-KEY: $API_KEY" http://localhost:18080/v1/currencies
+
+# sort: popularity (default), name, code, year
+curl -H "X-API-KEY: $API_KEY" 'http://localhost:18080/v1/currencies?sort=name'
+curl -H "X-API-KEY: $API_KEY" 'http://localhost:18080/v1/currencies?sort=year&order=desc'
+```
+
+`sort` defaults to `popularity`, and `order` to the direction the chosen field is useful in:
+descending for `popularity`, ascending for `name`, `code` and `year`. An unrecognized value returns
+`400` listing the ones that exist. Searching orders by relevance instead, with popularity breaking
+ties — `?query=dollar` opens on the US dollar — and an explicit `sort` reorders those matches
+without widening them.
+
+On GraphQL the same two arguments are enums: `currencies(sort: NAME, order: DESC)`.
+
 ### Cryptocurrencies
 
 `/v1/cryptos` covers 150 coins with their tickers, launch years, minor-unit precision and, for 100 of
@@ -220,7 +251,8 @@ reported total stays exact.
 **Every collection accepts it**, including flags — where it ranks over captions and emoji, so
 pasting in a flag emoji is how you find out which flag it is. Every collection is also ordered by
 the name a reader of the requested language would expect, flags and coins included, even though
-their own names are the same in every language.
+their own names are the same in every language. Currencies are the one exception: they are ordered
+by `popularity` and take `sort` and `order`, as described above.
 
 ```bash
 # finds Germany
