@@ -33,7 +33,7 @@ RUN --mount=type=cache,target=/home/gradle/.gradle \
 # ---- Layer stage ----
 # Splits the application jar into its Spring Boot layers, so that the dependencies -- which change
 # only when a version does -- are a separate Docker layer from this project's own classes.
-FROM --platform=$BUILDPLATFORM eclipse-temurin:21-jre-alpine AS layers
+FROM --platform=$BUILDPLATFORM eclipse-temurin:25-jre-alpine AS layers
 WORKDIR /jar
 COPY --from=build /workspace/api/build/libs/api.jar app.jar
 RUN java -Djarmode=tools -jar app.jar extract --layers --launcher --destination /layers
@@ -41,7 +41,7 @@ RUN java -Djarmode=tools -jar app.jar extract --layers --launcher --destination 
 # ---- Runtime stage ----
 # No --platform, so this is built once per architecture the image is published for. It is a JRE plus
 # the application, which is why publishing for both amd64 and arm64 costs almost nothing.
-FROM eclipse-temurin:21-jre-alpine
+FROM eclipse-temurin:25-jre-alpine
 
 # The service reads its own files and writes logs to stdout. It never needs to write to disk, own a
 # port below 1024, or do anything else root is for, so it does not run as root.
