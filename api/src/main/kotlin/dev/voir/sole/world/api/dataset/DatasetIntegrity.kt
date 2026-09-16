@@ -16,6 +16,9 @@ object DatasetIntegrity {
     /** Problems listed per rule before the message says how many more there are. */
     private const val EXAMPLES_PER_RULE = 5
 
+    /** Range a currency's popularity score may fall in. */
+    private val POPULARITY = 0..100
+
     private const val SQUARE = "square"
     private const val WIDE = "wide"
 
@@ -79,6 +82,7 @@ object DatasetIntegrity {
         }
 
         for (currency in dataset.currencies) {
+            problems.inRange("currency ${currency.id} popularity", currency.popularity, POPULARITY)
             problems.resolves("currency ${currency.id} flagId", currency.flagId, flags, "flag")
             problems.resolves(
                 "currency ${currency.id} replacedBy",
@@ -238,6 +242,13 @@ object DatasetIntegrity {
         fun <ID> resolves(what: String, reference: ID?, known: Set<ID>, target: String) {
             if (reference != null && reference !in known) {
                 add("$target references that do not resolve", "$what=$reference")
+            }
+        }
+
+        /** Records a score outside the range the published contract promises. */
+        fun inRange(what: String, value: Int, allowed: IntRange) {
+            if (value !in allowed) {
+                add("scores outside their documented range", "$what=$value is not in $allowed")
             }
         }
 

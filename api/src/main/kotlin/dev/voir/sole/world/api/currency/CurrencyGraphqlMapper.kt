@@ -13,6 +13,7 @@ fun CurrencyData.toGql() = Currency(
     isoNumeric = isoNumeric,
     name = name,
     decimalDigits = decimalDigits,
+    popularity = popularity,
     description = description,
     nativeName = nativeName,
     symbol = symbol,

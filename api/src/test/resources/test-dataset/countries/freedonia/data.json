@@ -12,7 +12,7 @@
   "flagId": 1001,
   "regionId": 10,
   "subregionId": 20,
-  "currencyIds": [101],
+  "currencyIds": [101, 103],
   "timezoneIds": [301],
   "officialLanguageIds": [201],
   "otherLanguageIds": [],

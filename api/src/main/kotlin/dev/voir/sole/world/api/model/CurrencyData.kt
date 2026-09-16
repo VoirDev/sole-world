@@ -9,6 +9,7 @@ import kotlinx.datetime.LocalDate
  * @property isoNumeric Numeric ISO code represented as text to preserve leading zeros.
  * @property name Display name, localized by mapper functions when a language is requested.
  * @property decimalDigits Number of decimal digits used for minor currency units.
+ * @property popularity How widely the currency is used today, from 0 to 100.
  * @property description Description text, localized by mapper functions when available.
  * @property nativeName Name in the native language or script, when available.
  * @property symbol Currency symbol, when available.
@@ -25,6 +26,7 @@ data class CurrencyData(
     val isoNumeric: String,
     val name: String,
     val decimalDigits: Int,
+    val popularity: Int,
     val description: String?,
     val nativeName: String?,
     val symbol: String?,

@@ -79,7 +79,8 @@
         "name": "Afgani afgańskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 16
   },
   {
     "id": 835,
@@ -161,7 +162,8 @@
         "name": "Euro"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 96
   },
   {
     "id": 836,
@@ -243,7 +245,8 @@
         "name": "Lek albański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 25
   },
   {
     "id": 837,
@@ -325,7 +328,8 @@
         "name": "Dinar algierski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 33
   },
   {
     "id": 838,
@@ -407,7 +411,8 @@
         "name": "Dolar amerykański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 100
   },
   {
     "id": 839,
@@ -489,7 +494,8 @@
         "name": "Kwanza angolska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 26
   },
   {
     "id": 840,
@@ -571,7 +577,8 @@
         "name": "Dolar wschodniokaraibski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 22
   },
   {
     "id": 841,
@@ -653,7 +660,8 @@
         "name": "Peso argentyńskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 44
   },
   {
     "id": 842,
@@ -735,7 +743,8 @@
         "name": "Dram armeński"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 25
   },
   {
     "id": 843,
@@ -817,7 +826,8 @@
         "name": "Florin arubański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 16
   },
   {
     "id": 844,
@@ -899,7 +909,8 @@
         "name": "Dolar australijski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 80
   },
   {
     "id": 845,
@@ -981,7 +992,8 @@
         "name": "Manat azerski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 26
   },
   {
     "id": 846,
@@ -1063,7 +1075,8 @@
         "name": "Dinar bahrański"
       }
     ],
-    "decimalDigits": 3
+    "decimalDigits": 3,
+    "popularity": 36
   },
   {
     "id": 847,
@@ -1145,7 +1158,8 @@
         "name": "Taka bengalska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 43
   },
   {
     "id": 848,
@@ -1227,7 +1241,8 @@
         "name": "Dolar barbadoski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 20
   },
   {
     "id": 849,
@@ -1309,7 +1324,8 @@
         "name": "Rubel białoruski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 26
   },
   {
     "id": 850,
@@ -1391,7 +1407,8 @@
         "name": "Dolar belizeński"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 16
   },
   {
     "id": 851,
@@ -1473,7 +1490,8 @@
         "name": "Frank CFA"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 34
   },
   {
     "id": 852,
@@ -1555,7 +1573,8 @@
         "name": "Dolar bermudzki"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 853,
@@ -1637,7 +1656,8 @@
         "name": "Ngultrum bhutański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 12
   },
   {
     "id": 854,
@@ -1719,7 +1739,8 @@
         "name": "Boliviano boliwijskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 26
   },
   {
     "id": 855,
@@ -1801,7 +1822,8 @@
         "name": "Marka zamienna Bośni i Hercegowiny"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 25
   },
   {
     "id": 856,
@@ -1883,7 +1905,8 @@
         "name": "Pula botswańska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 26
   },
   {
     "id": 857,
@@ -1965,7 +1988,8 @@
         "name": "Real brazylijski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 65
   },
   {
     "id": 858,
@@ -2047,7 +2071,8 @@
         "name": "Dolar brunejski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 22
   },
   {
     "id": 859,
@@ -2129,7 +2154,8 @@
         "name": "Lew bułgarski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 31
   },
   {
     "id": 860,
@@ -2211,7 +2237,8 @@
         "name": "Frank burundyjski"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 16
   },
   {
     "id": 861,
@@ -2293,7 +2320,8 @@
         "name": "Riel kambodżański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 24
   },
   {
     "id": 862,
@@ -2375,7 +2403,8 @@
         "name": "Frank CFA BEAC"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 32
   },
   {
     "id": 863,
@@ -2457,7 +2486,8 @@
         "name": "Dolar kanadyjski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 82
   },
   {
     "id": 864,
@@ -2539,7 +2569,8 @@
         "name": "Escudo zielonoprzylądkowe"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 16
   },
   {
     "id": 865,
@@ -2621,7 +2652,8 @@
         "name": "Dolar kajmański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 866,
@@ -2703,7 +2735,8 @@
         "name": "Peso chilijskie"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 50
   },
   {
     "id": 867,
@@ -2785,7 +2818,8 @@
         "name": "Juan chiński"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 86
   },
   {
     "id": 868,
@@ -2867,7 +2901,8 @@
         "name": "Peso kolumbijskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 49
   },
   {
     "id": 869,
@@ -2949,7 +2984,8 @@
         "name": "Frank komoryjski"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 10
   },
   {
     "id": 870,
@@ -3031,7 +3067,8 @@
         "name": "Dolar nowozelandzki"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 71
   },
   {
     "id": 871,
@@ -3113,7 +3150,8 @@
         "name": "Colon kostarykański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 27
   },
   {
     "id": 872,
@@ -3195,7 +3233,8 @@
         "name": "Peso kubańskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 873,
@@ -3277,7 +3316,8 @@
         "name": "Gulden karaibski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 14
   },
   {
     "id": 874,
@@ -3359,7 +3399,8 @@
         "name": "Korona czeska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 55
   },
   {
     "id": 875,
@@ -3441,7 +3482,8 @@
         "name": "Frank kongijski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 24
   },
   {
     "id": 876,
@@ -3523,7 +3565,8 @@
         "name": "Korona duńska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 64
   },
   {
     "id": 877,
@@ -3605,7 +3648,8 @@
         "name": "Frank dżibutyjski"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 12
   },
   {
     "id": 878,
@@ -3687,7 +3731,8 @@
         "name": "Peso dominikańskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 28
   },
   {
     "id": 879,
@@ -3769,7 +3814,8 @@
         "name": "Funt egipski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 47
   },
   {
     "id": 880,
@@ -3851,7 +3897,8 @@
         "name": "Nakfa erytrejska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 10
   },
   {
     "id": 881,
@@ -3933,7 +3980,8 @@
         "name": "Lilangeni Suazi"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 882,
@@ -4015,7 +4063,8 @@
         "name": "Birr etiopski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 27
   },
   {
     "id": 883,
@@ -4097,7 +4146,8 @@
         "name": "Funt falklandzki"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 8
   },
   {
     "id": 884,
@@ -4179,7 +4229,8 @@
         "name": "Dolar fidżyjski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 21
   },
   {
     "id": 885,
@@ -4261,7 +4312,8 @@
         "name": "Frank CFP"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 16
   },
   {
     "id": 886,
@@ -4343,7 +4395,8 @@
         "name": "Lari gruzińskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 25
   },
   {
     "id": 887,
@@ -4425,7 +4478,8 @@
         "name": "Cedi ghańskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 28
   },
   {
     "id": 888,
@@ -4507,7 +4561,8 @@
         "name": "Funt gibraltarski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 14
   },
   {
     "id": 889,
@@ -4589,7 +4644,8 @@
         "name": "Quetzal gwatemalski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 27
   },
   {
     "id": 890,
@@ -4671,7 +4727,8 @@
         "name": "Funt szterling"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 90
   },
   {
     "id": 891,
@@ -4753,7 +4810,8 @@
         "name": "Frank gwinejski"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 18
   },
   {
     "id": 892,
@@ -4835,7 +4893,8 @@
         "name": "Dolar gujański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 893,
@@ -4917,7 +4976,8 @@
         "name": "Gourde haitański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 894,
@@ -4999,7 +5059,8 @@
         "name": "Lempira honduraska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 24
   },
   {
     "id": 895,
@@ -5081,7 +5142,8 @@
         "name": "Dolar hongkoński"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 78
   },
   {
     "id": 896,
@@ -5163,7 +5225,8 @@
         "name": "Forint węgierski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 52
   },
   {
     "id": 897,
@@ -5245,7 +5308,8 @@
         "name": "Korona islandzka"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 30
   },
   {
     "id": 898,
@@ -5327,7 +5391,8 @@
         "name": "Rupia indyjska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 70
   },
   {
     "id": 899,
@@ -5409,7 +5474,8 @@
         "name": "Rupia indonezyjska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 56
   },
   {
     "id": 900,
@@ -5491,7 +5557,8 @@
         "name": "Rial irański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 29
   },
   {
     "id": 901,
@@ -5573,7 +5640,8 @@
         "name": "Dinar iracki"
       }
     ],
-    "decimalDigits": 3
+    "decimalDigits": 3,
+    "popularity": 32
   },
   {
     "id": 902,
@@ -5655,7 +5723,8 @@
         "name": "Nowy szekel izraelski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 57
   },
   {
     "id": 903,
@@ -5737,7 +5806,8 @@
         "name": "Dolar jamajski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 24
   },
   {
     "id": 904,
@@ -5819,7 +5889,8 @@
         "name": "Jen japoński"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 92
   },
   {
     "id": 905,
@@ -5901,7 +5972,8 @@
         "name": "Dinar jordański"
       }
     ],
-    "decimalDigits": 3
+    "decimalDigits": 3,
+    "popularity": 28
   },
   {
     "id": 906,
@@ -5983,7 +6055,8 @@
         "name": "Tenge kazachskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 37
   },
   {
     "id": 907,
@@ -6065,7 +6138,8 @@
         "name": "Szyling kenijski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 30
   },
   {
     "id": 908,
@@ -6147,7 +6221,8 @@
         "name": "Dinar kuwejcki"
       }
     ],
-    "decimalDigits": 3
+    "decimalDigits": 3,
+    "popularity": 41
   },
   {
     "id": 909,
@@ -6229,7 +6304,8 @@
         "name": "Som kirgiski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 20
   },
   {
     "id": 910,
@@ -6311,7 +6387,8 @@
         "name": "Kip laotański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 20
   },
   {
     "id": 911,
@@ -6393,7 +6470,8 @@
         "name": "Funt libański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 24
   },
   {
     "id": 912,
@@ -6475,7 +6553,8 @@
         "name": "Loti sotyjskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 913,
@@ -6557,7 +6636,8 @@
         "name": "Dolar liberyjski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 16
   },
   {
     "id": 914,
@@ -6639,7 +6719,8 @@
         "name": "Dinar libijski"
       }
     ],
-    "decimalDigits": 3
+    "decimalDigits": 3,
+    "popularity": 24
   },
   {
     "id": 915,
@@ -6721,7 +6802,8 @@
         "name": "Frank szwajcarski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 84
   },
   {
     "id": 916,
@@ -6803,7 +6885,8 @@
         "name": "Pataca Makau"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 28
   },
   {
     "id": 917,
@@ -6885,7 +6968,8 @@
         "name": "Ariary malgaski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 20
   },
   {
     "id": 918,
@@ -6967,7 +7051,8 @@
         "name": "Kwacha malawijska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 20
   },
   {
     "id": 919,
@@ -7049,7 +7134,8 @@
         "name": "Ringgit malezyjski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 54
   },
   {
     "id": 920,
@@ -7131,7 +7217,8 @@
         "name": "Rupia malediwska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 22
   },
   {
     "id": 921,
@@ -7213,7 +7300,8 @@
         "name": "Ugija mauretańska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 922,
@@ -7295,7 +7383,8 @@
         "name": "Rupia maurytyjska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 26
   },
   {
     "id": 923,
@@ -7377,7 +7466,8 @@
         "name": "Peso meksykańskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 68
   },
   {
     "id": 924,
@@ -7459,7 +7549,8 @@
         "name": "Lej mołdawski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 24
   },
   {
     "id": 925,
@@ -7541,7 +7632,8 @@
         "name": "Tugrik mongolski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 22
   },
   {
     "id": 926,
@@ -7623,7 +7715,8 @@
         "name": "Dirham marokański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 38
   },
   {
     "id": 927,
@@ -7705,7 +7798,8 @@
         "name": "Metical mozambicki"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 24
   },
   {
     "id": 928,
@@ -7787,7 +7881,8 @@
         "name": "Kiat birmański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 24
   },
   {
     "id": 929,
@@ -7869,7 +7964,8 @@
         "name": "Dolar namibijski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 22
   },
   {
     "id": 930,
@@ -7951,7 +8047,8 @@
         "name": "Rupia nepalska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 25
   },
   {
     "id": 931,
@@ -8033,7 +8130,8 @@
         "name": "Cordoba nikaraguańska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 22
   },
   {
     "id": 932,
@@ -8115,7 +8213,8 @@
         "name": "Naira nigeryjska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 46
   },
   {
     "id": 933,
@@ -8197,7 +8296,8 @@
         "name": "Won północnokoreański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 10
   },
   {
     "id": 934,
@@ -8279,7 +8379,8 @@
         "name": "Denar macedoński"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 23
   },
   {
     "id": 935,
@@ -8361,7 +8462,8 @@
         "name": "Korona norweska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 72
   },
   {
     "id": 936,
@@ -8443,7 +8545,8 @@
         "name": "Rial omański"
       }
     ],
-    "decimalDigits": 3
+    "decimalDigits": 3,
+    "popularity": 35
   },
   {
     "id": 937,
@@ -8525,7 +8628,8 @@
         "name": "Rupia pakistańska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 45
   },
   {
     "id": 938,
@@ -8607,7 +8711,8 @@
         "name": "Balboa panamski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 22
   },
   {
     "id": 939,
@@ -8689,7 +8794,8 @@
         "name": "Kina papuańska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 21
   },
   {
     "id": 940,
@@ -8771,7 +8877,8 @@
         "name": "Guarani paragwajskie"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 26
   },
   {
     "id": 941,
@@ -8853,7 +8960,8 @@
         "name": "Sol peruwiański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 39
   },
   {
     "id": 942,
@@ -8935,7 +9043,8 @@
         "name": "Peso filipińskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 53
   },
   {
     "id": 943,
@@ -9017,7 +9126,8 @@
         "name": "Złoty polski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 63
   },
   {
     "id": 944,
@@ -9099,7 +9209,8 @@
         "name": "Rial katarski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 42
   },
   {
     "id": 945,
@@ -9181,7 +9292,8 @@
         "name": "Lej rumuński"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 48
   },
   {
     "id": 946,
@@ -9263,7 +9375,8 @@
         "name": "Rubel rosyjski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 61
   },
   {
     "id": 947,
@@ -9345,7 +9458,8 @@
         "name": "Frank ruandyjski"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 22
   },
   {
     "id": 948,
@@ -9427,7 +9541,8 @@
         "name": "Funt Świętej Heleny"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 8
   },
   {
     "id": 949,
@@ -9509,7 +9624,8 @@
         "name": "Tala samoańskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 10
   },
   {
     "id": 950,
@@ -9591,7 +9707,8 @@
         "name": "Dobra Wysp Świętego Tomasza i Książęcej"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 10
   },
   {
     "id": 951,
@@ -9673,7 +9790,8 @@
         "name": "Rial saudyjski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 59
   },
   {
     "id": 952,
@@ -9755,7 +9873,8 @@
         "name": "Dinar serbski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 30
   },
   {
     "id": 953,
@@ -9837,7 +9956,8 @@
         "name": "Rupia seszelska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 954,
@@ -9919,7 +10039,8 @@
         "name": "Leone sierraleoński"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 16
   },
   {
     "id": 955,
@@ -10001,7 +10122,8 @@
         "name": "Dolar singapurski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 76
   },
   {
     "id": 956,
@@ -10083,7 +10205,8 @@
         "name": "Dolar Wysp Salomona"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 12
   },
   {
     "id": 957,
@@ -10165,7 +10288,8 @@
         "name": "Szyling somalijski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 14
   },
   {
     "id": 958,
@@ -10247,7 +10371,8 @@
         "name": "Rand południowoafrykański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 66
   },
   {
     "id": 959,
@@ -10329,7 +10454,8 @@
         "name": "Won południowokoreański"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 73
   },
   {
     "id": 960,
@@ -10411,7 +10537,8 @@
         "name": "Funt południowosudański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 14
   },
   {
     "id": 961,
@@ -10493,7 +10620,8 @@
         "name": "Rupia lankijska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 27
   },
   {
     "id": 962,
@@ -10575,7 +10703,8 @@
         "name": "Funt sudański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 963,
@@ -10657,7 +10786,8 @@
         "name": "Dolar surinamski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 14
   },
   {
     "id": 964,
@@ -10739,7 +10869,8 @@
         "name": "Korona szwedzka"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 74
   },
   {
     "id": 965,
@@ -10821,7 +10952,8 @@
         "name": "Funt syryjski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 966,
@@ -10903,7 +11035,8 @@
         "name": "Nowy dolar tajwański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 67
   },
   {
     "id": 967,
@@ -10985,7 +11118,8 @@
         "name": "Somoni tadżyckie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 20
   },
   {
     "id": 968,
@@ -11067,7 +11201,8 @@
         "name": "Szyling tanzański"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 26
   },
   {
     "id": 969,
@@ -11149,7 +11284,8 @@
         "name": "Baht tajski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 58
   },
   {
     "id": 970,
@@ -11231,7 +11367,8 @@
         "name": "Dolar bahamski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 20
   },
   {
     "id": 971,
@@ -11313,7 +11450,8 @@
         "name": "Dalasi gambijskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 14
   },
   {
     "id": 972,
@@ -11395,7 +11533,8 @@
         "name": "Pa’anga tongijska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 10
   },
   {
     "id": 973,
@@ -11477,7 +11616,8 @@
         "name": "Dolar trynidadzki"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 22
   },
   {
     "id": 974,
@@ -11559,7 +11699,8 @@
         "name": "Dinar tunezyjski"
       }
     ],
-    "decimalDigits": 3
+    "decimalDigits": 3,
+    "popularity": 29
   },
   {
     "id": 975,
@@ -11641,7 +11782,8 @@
         "name": "Lira turecka"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 62
   },
   {
     "id": 976,
@@ -11723,7 +11865,8 @@
         "name": "Manat turkmeński"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 20
   },
   {
     "id": 977,
@@ -11805,7 +11948,8 @@
         "name": "Szyling ugandyjski"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 26
   },
   {
     "id": 978,
@@ -11887,7 +12031,8 @@
         "name": "Hrywna ukraińska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 40
   },
   {
     "id": 979,
@@ -11969,7 +12114,8 @@
         "name": "Dirham ZEA"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 60
   },
   {
     "id": 980,
@@ -12051,7 +12197,8 @@
         "name": "Peso urugwajskie"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 27
   },
   {
     "id": 981,
@@ -12133,7 +12280,8 @@
         "name": "Som uzbecki"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 28
   },
   {
     "id": 982,
@@ -12215,7 +12363,8 @@
         "name": "Vatu wanuackie"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 10
   },
   {
     "id": 983,
@@ -12297,7 +12446,8 @@
         "name": "Boliwar wenezuelski"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 33
   },
   {
     "id": 984,
@@ -12379,7 +12529,8 @@
         "name": "Dong wietnamski"
       }
     ],
-    "decimalDigits": 0
+    "decimalDigits": 0,
+    "popularity": 51
   },
   {
     "id": 985,
@@ -12461,7 +12612,8 @@
         "name": "Rial jemeński"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 18
   },
   {
     "id": 986,
@@ -12543,7 +12695,8 @@
         "name": "Kwacha zambijska"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 25
   },
   {
     "id": 988,
@@ -12625,7 +12778,8 @@
         "name": "Złoto Zimbabwe"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 14
   },
   {
     "id": 987,
@@ -12707,6 +12861,7 @@
         "name": "Dolar Zimbabwe (2009)"
       }
     ],
-    "decimalDigits": 2
+    "decimalDigits": 2,
+    "popularity": 0
   }
 ]

@@ -14,6 +14,7 @@
     "symbol": "F$",
     "flagId": 1001,
     "decimalDigits": 2,
+    "popularity": 60,
     "translations": [
       {"languageCode": "ru", "name": "Фридонский кредит", "description": "Активная тестовая валюта"}
     ]
@@ -33,6 +34,25 @@
     "symbol": "O$",
     "flagId": 1001,
     "decimalDigits": 0,
+    "popularity": 0,
+    "translations": []
+  },
+  {
+    "id": 103,
+    "iso3": "ALT",
+    "isoNumeric": "903",
+    "name": "Alpine Thaler",
+    "description": "Active seeded currency nobody uses",
+    "nativeName": "Taler",
+    "year": 2005,
+    "introducedDate": "2005-06-01",
+    "obsolete": false,
+    "obsoleteAt": null,
+    "replacedBy": null,
+    "symbol": "A$",
+    "flagId": 1001,
+    "decimalDigits": 2,
+    "popularity": 20,
     "translations": []
   }
 ]
