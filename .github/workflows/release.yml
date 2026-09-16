@@ -12,6 +12,10 @@ on:
         default: true
         required: false
         type: boolean
+      publish_version:
+        description: "Publish an already merged release, e.g. 1.0.2, instead of preparing a new one. Leave empty to prepare a release PR."
+        required: false
+        type: string
   pull_request:
     types:
       - opened
@@ -32,16 +36,44 @@ jobs:
   prepare:
     name: Prepare release PR
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch' && inputs.publish_version == ''
+    timeout-minutes: 15
     permissions:
       contents: write
       pull-requests: write
     steps:
+      - name: Validate release configuration
+        shell: bash
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          RELEASE_BOT_TOKEN: ${{ secrets.RELEASE_BOT_TOKEN }}
+          RELEASE_BOT_NAME: ${{ vars.RELEASE_BOT_NAME }}
+          RELEASE_BOT_EMAIL: ${{ vars.RELEASE_BOT_EMAIL }}
+        run: |
+          set -euo pipefail
+
+          if [ "$GITHUB_REF_NAME" != "$DEFAULT_BRANCH" ]; then
+            echo "Release must be prepared from $DEFAULT_BRANCH, not $GITHUB_REF_NAME." >&2
+            exit 1
+          fi
+
+          # Not the workflow's own GITHUB_TOKEN: a pull request it opened would not start the
+          # validation workflows that gate the release.
+          if [ -z "$RELEASE_BOT_TOKEN" ]; then
+            echo "RELEASE_BOT_TOKEN is required so the release PR can trigger validation workflows." >&2
+            exit 1
+          fi
+
+          if [ -z "$RELEASE_BOT_NAME" ] || [ -z "$RELEASE_BOT_EMAIL" ]; then
+            echo "Organization variables RELEASE_BOT_NAME and RELEASE_BOT_EMAIL are required." >&2
+            exit 1
+          fi
+
       - name: Checkout
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
-          persist-credentials: false
+          token: ${{ secrets.RELEASE_BOT_TOKEN }}
 
       - name: Resolve release version
         id: version
@@ -83,16 +115,13 @@ jobs:
         shell: bash
         env:
           GH_TOKEN: ${{ secrets.RELEASE_BOT_TOKEN }}
+          RELEASE_BOT_NAME: ${{ vars.RELEASE_BOT_NAME }}
+          RELEASE_BOT_EMAIL: ${{ vars.RELEASE_BOT_EMAIL }}
           RELEASE_VERSION: ${{ steps.version.outputs.release_version }}
           RELEASE_BRANCH: ${{ steps.version.outputs.branch }}
           SKIP_VERIFY_CHECKS: ${{ inputs.skip_verify_checks }}
         run: |
           set -euo pipefail
-
-          if [ -z "${GH_TOKEN:-}" ]; then
-            echo "RELEASE_BOT_TOKEN is required so the release PR can trigger validation workflows." >&2
-            exit 1
-          fi
 
           if git rev-parse "v$RELEASE_VERSION" >/dev/null 2>&1; then
             echo "Release tag already exists: v$RELEASE_VERSION" >&2
@@ -101,9 +130,8 @@ jobs:
 
           gh repo view "$GITHUB_REPOSITORY" >/dev/null
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git config user.name "$RELEASE_BOT_NAME"
+          git config user.email "$RELEASE_BOT_EMAIL"
 
           if git ls-remote --exit-code --heads origin "$RELEASE_BRANCH" >/dev/null 2>&1; then
             git fetch origin "$RELEASE_BRANCH"
@@ -151,6 +179,7 @@ jobs:
   validate-release-branch:
     name: Validate release PR
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     if: github.event_name == 'pull_request' && github.event.action != 'closed' && startsWith(github.event.pull_request.head.ref, 'release/v')
     permissions:
       contents: read
@@ -261,7 +290,10 @@ jobs:
   publish:
     name: Publish release
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'release/v')
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'release/v')) ||
+      (github.event_name == 'workflow_dispatch' && inputs.publish_version != '')
     permissions:
       actions: write
       contents: write
@@ -269,46 +301,91 @@ jobs:
       # Keyless signing exchanges this workflow's OIDC token for a short-lived certificate.
       id-token: write
     steps:
+      - name: Validate release configuration
+        shell: bash
+        env:
+          RELEASE_BOT_NAME: ${{ vars.RELEASE_BOT_NAME }}
+          RELEASE_BOT_EMAIL: ${{ vars.RELEASE_BOT_EMAIL }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$RELEASE_BOT_NAME" ] || [ -z "$RELEASE_BOT_EMAIL" ]; then
+            echo "Organization variables RELEASE_BOT_NAME and RELEASE_BOT_EMAIL are required." >&2
+            exit 1
+          fi
+
       - name: Checkout
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
-          ref: ${{ github.event.pull_request.base.ref }}
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.ref || github.ref_name }}
 
-      - name: Resolve release version
+      - name: Resolve release
         id: version
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
-          RELEASE_BRANCH: ${{ github.event.pull_request.head.ref }}
-          RELEASE_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          REQUESTED_VERSION: ${{ inputs.publish_version }}
+          PR_HEAD_REF: ${{ github.event.pull_request.head.ref }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
         run: |
           set -euo pipefail
 
-          release_version="$(sed -nE 's/^val projectVersion = providers\.gradleProperty\("releaseVersion"\)\.orElse\("([^"]+)"\)\.get\(\)$/\1/p' build.gradle.kts)"
+          if [ -n "$REQUESTED_VERSION" ]; then
+            release_branch="release/v$REQUESTED_VERSION"
+            release_sha="$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$release_branch" --base main --state merged --json mergeCommit --jq '.[0].mergeCommit.oid // empty')"
+            if [ -z "$release_sha" ]; then
+              echo "No merged release pull request found for $release_branch" >&2
+              exit 1
+            fi
+            validation_head_sha=""
+          else
+            release_branch="$PR_HEAD_REF"
+            release_sha="$PR_MERGE_SHA"
+            validation_head_sha="$PR_HEAD_SHA"
+          fi
+
+          if ! git cat-file -e "$release_sha^{commit}" 2>/dev/null; then
+            git fetch --no-tags origin "$release_sha"
+          fi
+
+          # Read the version out of the release commit rather than out of the working tree, and tag
+          # that commit further down: main can have moved on since the release merged -- always, for
+          # a run that publishes after the fact -- and the tag has to name what was released.
+          release_version="$(git show "$release_sha:build.gradle.kts" | sed -nE 's/^val projectVersion = providers\.gradleProperty\("releaseVersion"\)\.orElse\("([^"]+)"\)\.get\(\)$/\1/p')"
 
           if [ -z "$release_version" ]; then
-            echo "Could not read root Gradle version from build.gradle.kts" >&2
+            echo "Could not read root Gradle version from build.gradle.kts at $release_sha" >&2
             exit 1
           fi
 
-          if git rev-parse "v$release_version" >/dev/null 2>&1; then
+          if [ -n "$REQUESTED_VERSION" ] && [ "$REQUESTED_VERSION" != "$release_version" ]; then
+            echo "Requested v$REQUESTED_VERSION, but $release_branch was merged with version $release_version" >&2
+            exit 1
+          fi
+
+          # An existing tag means the release already went out, so a second merge from the same
+          # release branch publishes nothing. A manual run is an explicit request to finish a
+          # release that did not complete, so it is not held back by the parts that did succeed.
+          if [ -z "$REQUESTED_VERSION" ] && git rev-parse -q --verify "refs/tags/v$release_version" >/dev/null; then
             should_publish=false
             echo "Release tag already exists: v$release_version"
           else
             should_publish=true
           fi
 
-          validation_run="$(gh run list --repo "$GITHUB_REPOSITORY" --workflow release.yml --branch "$RELEASE_BRANCH" --event pull_request --status success --json databaseId,headSha,createdAt --limit 50 | jq --arg head_sha "$RELEASE_HEAD_SHA" 'map(select(.headSha == $head_sha)) | sort_by(.createdAt) | reverse | .[0] // {}')"
+          validation_run="$(gh run list --repo "$GITHUB_REPOSITORY" --workflow release.yml --branch "$release_branch" --event pull_request --status success --json databaseId,headSha,createdAt --limit 50 | jq --arg head_sha "$validation_head_sha" 'map(select($head_sha == "" or .headSha == $head_sha)) | sort_by(.createdAt) | reverse | .[0] // {}')"
           validation_run_id="$(jq -r '.databaseId // empty' <<< "$validation_run")"
           validation_head_sha="$(jq -r '.headSha // empty' <<< "$validation_run")"
 
-          if [ "$should_publish" = "true" ] && { [ -z "$validation_run_id" ] || [ "$validation_run_id" = "null" ] || [ -z "$validation_head_sha" ] || [ "$validation_head_sha" = "null" ]; }; then
-            echo "Could not find a successful release branch validation run for $RELEASE_BRANCH" >&2
+          if [ "$should_publish" = "true" ] && { [ -z "$validation_run_id" ] || [ -z "$validation_head_sha" ]; }; then
+            echo "Could not find a successful release branch validation run for $release_branch" >&2
             exit 1
           fi
 
           echo "release_version=$release_version" >> "$GITHUB_OUTPUT"
+          echo "release_sha=$release_sha" >> "$GITHUB_OUTPUT"
           echo "should_publish=$should_publish" >> "$GITHUB_OUTPUT"
           echo "validation_run_id=$validation_run_id" >> "$GITHUB_OUTPUT"
           echo "validation_head_sha=$validation_head_sha" >> "$GITHUB_OUTPUT"
@@ -368,7 +445,7 @@ jobs:
       # workflow rather than against a public key someone has to be told to trust.
       - name: Install cosign
         if: steps.version.outputs.should_publish == 'true'
-        uses: sigstore/cosign-installer@v4
+        uses: sigstore/cosign-installer@v4.1.2
 
       - name: Sign published image
         if: steps.version.outputs.should_publish == 'true'
@@ -389,13 +466,31 @@ jobs:
           echo "    --certificate-identity-regexp '^https://github.com/${GITHUB_REPOSITORY}/' \\"
           echo "    --certificate-oidc-issuer https://token.actions.githubusercontent.com"
 
-      - name: Create release tag
-        if: steps.version.outputs.should_publish == 'true'
-        run: git tag "v${{ steps.version.outputs.release_version }}"
-
       - name: Push release tag
         if: steps.version.outputs.should_publish == 'true'
-        run: git push origin "v${{ steps.version.outputs.release_version }}"
+        env:
+          RELEASE_VERSION: ${{ steps.version.outputs.release_version }}
+          RELEASE_SHA: ${{ steps.version.outputs.release_sha }}
+          RELEASE_BOT_NAME: ${{ vars.RELEASE_BOT_NAME }}
+          RELEASE_BOT_EMAIL: ${{ vars.RELEASE_BOT_EMAIL }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if git rev-parse -q --verify "refs/tags/v$RELEASE_VERSION" >/dev/null; then
+            tagged_commit="$(git rev-parse "refs/tags/v$RELEASE_VERSION^{commit}")"
+            if [ "$tagged_commit" != "$RELEASE_SHA" ]; then
+              echo "v$RELEASE_VERSION already points at $tagged_commit, not $RELEASE_SHA" >&2
+              exit 1
+            fi
+            echo "Release tag already exists: v$RELEASE_VERSION"
+            exit 0
+          fi
+
+          git config user.name "$RELEASE_BOT_NAME"
+          git config user.email "$RELEASE_BOT_EMAIL"
+          git tag --annotate "v$RELEASE_VERSION" "$RELEASE_SHA" --message "Release v$RELEASE_VERSION"
+          git push origin "v$RELEASE_VERSION"
 
       # Generated from the commits since the last tag rather than kept in a file, so it cannot drift
       # from what was actually released.
@@ -404,9 +499,15 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_VERSION: ${{ steps.version.outputs.release_version }}
+          RELEASE_SHA: ${{ steps.version.outputs.release_sha }}
         shell: bash
         run: |
           set -euo pipefail
+
+          if gh release view "v$RELEASE_VERSION" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release notes already published for v$RELEASE_VERSION"
+            exit 0
+          fi
 
           image_name="ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api"
 
@@ -427,6 +528,7 @@ jobs:
 
           gh release create "v$RELEASE_VERSION" \
             --repo "$GITHUB_REPOSITORY" \
+            --target "$RELEASE_SHA" \
             --title "v$RELEASE_VERSION" \
             --generate-notes \
             --notes-file "$notes_file"
