@@ -7,6 +7,7 @@ import dev.voir.sole.world.api.dataset.json.CurrencyJSON
 import dev.voir.sole.world.api.dataset.json.FlagJSON
 import dev.voir.sole.world.api.dataset.json.ImageFormatsJSON
 import dev.voir.sole.world.api.dataset.json.LanguageJSON
+import dev.voir.sole.world.api.dataset.json.LanguageTranslationJSON
 import dev.voir.sole.world.api.dataset.json.MediaAssetJSON
 import dev.voir.sole.world.api.dataset.json.RegionJSON
 import dev.voir.sole.world.api.dataset.json.StateJSON
@@ -105,6 +106,56 @@ class DatasetIntegrityTest {
     }
 
     @Test
+    fun `a translation in a language the dataset does not carry fails startup`() {
+        // The locale never matches, so the caller is served base data for a name that was in fact
+        // translated -- which reads as a gap in the translations rather than a broken row.
+        val failure = assertThrows<IllegalStateException> {
+            DatasetIntegrity.check(
+                dataset(languages = listOf(language(1, translations = listOf("xx")))),
+            )
+        }
+
+        assertTrue(
+            failure.message!!.contains("translations in a language the dataset does not carry"),
+            failure.message,
+        )
+        assertTrue(failure.message!!.contains("language 1 languageCode='xx'"), failure.message)
+    }
+
+    @Test
+    fun `a region qualified translation resolves through its primary subtag`() {
+        // pt-BR is a legitimate tag for the Portuguese the dataset carries as pt.
+        assertDoesNotThrow {
+            DatasetIntegrity.check(
+                dataset(languages = listOf(language(1, code = "pt", translations = listOf("pt-BR")))),
+            )
+        }
+    }
+
+    @Test
+    fun `a flag showing another territory's picture fails startup`() {
+        // What caught Curaçao serving the Cape Verde flag: both renditions agreed with each other,
+        // so only the emoji could say the picture belonged to a different country.
+        val failure = assertThrows<IllegalStateException> {
+            DatasetIntegrity.check(
+                dataset(flags = listOf(flag(emoji = "🇨🇼"))),
+            )
+        }
+
+        assertTrue(
+            failure.message!!.contains("flags showing another territory's picture"),
+            failure.message,
+        )
+        assertTrue(failure.message!!.contains("expects 'cw' but shows 'one'"), failure.message)
+    }
+
+    @Test
+    fun `a flag that is not a country flag has no territory to disagree with`() {
+        // Subdivision and organisation flags are not a pair of regional indicators.
+        assertDoesNotThrow { DatasetIntegrity.check(dataset(flags = listOf(flag(emoji = "🏴")))) }
+    }
+
+    @Test
     fun `a country reference into every related file is checked`() {
         for (country in listOf(
             country(regionId = 999),
@@ -187,8 +238,8 @@ class DatasetIntegrityTest {
         centralBanks = centralBanks,
     )
 
-    private fun flag(square: Long? = 10, wide: Long? = 11) =
-        FlagJSON(id = 20, caption = "Flag", emoji = "F", emojiU = "U", square = square, wide = wide)
+    private fun flag(square: Long? = 10, wide: Long? = 11, emoji: String = "F") =
+        FlagJSON(id = 20, caption = "Flag", emoji = emoji, emojiU = "U", square = square, wide = wide)
 
     private fun mediaAsset(id: Long, key: String = "test", aspectRatio: String = "square") = MediaAssetJSON(
         id = id,
@@ -199,15 +250,19 @@ class DatasetIntegrityTest {
         description = "asset",
     )
 
-    private fun language(id: Long, flagId: Long? = 20) =
-        LanguageJSON(
-            id = id,
-            code = "t$id",
-            nativeName = null,
-            name = "Language $id",
-            flagId = flagId,
-            translations = emptyList(),
-        )
+    private fun language(
+        id: Long,
+        flagId: Long? = 20,
+        code: String = "t$id",
+        translations: List<String> = emptyList(),
+    ) = LanguageJSON(
+        id = id,
+        code = code,
+        nativeName = null,
+        name = "Language $id",
+        flagId = flagId,
+        translations = translations.map { LanguageTranslationJSON(languageCode = it, name = "Name") },
+    )
 
     private fun crypto(id: Long, logoId: Long? = 10) = CryptoJSON(
         id = id,

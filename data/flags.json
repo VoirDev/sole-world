@@ -1580,8 +1580,8 @@
     "caption": "Curaçao",
     "emoji": "🇨🇼",
     "emojiU": "U+1F1E8 U+1F1FC",
-    "square": 216,
-    "wide": 487
+    "square": 215,
+    "wide": 486
   },
   {
     "id": 199,
@@ -1876,8 +1876,8 @@
     "caption": "Bosnia and Herzegovina",
     "emoji": "🇧🇦",
     "emojiU": "U+1F1E7 U+1F1E6",
-    "square": 256,
-    "wide": 527
+    "square": 253,
+    "wide": 524
   },
   {
     "id": 236,
@@ -1990,5 +1990,29 @@
     "emojiU": "U+1F3F4 U+200D U+2620 U+FE0F",
     "square": null,
     "wide": null
+  },
+  {
+    "id": 250,
+    "caption": "Antarctica",
+    "emoji": "🇦🇶",
+    "emojiU": "U+1F1E6 U+1F1F6",
+    "square": 263,
+    "wide": 534
+  },
+  {
+    "id": 251,
+    "caption": "Bouvet Island",
+    "emoji": "🇧🇻",
+    "emojiU": "U+1F1E7 U+1F1FB",
+    "square": 236,
+    "wide": 507
+  },
+  {
+    "id": 252,
+    "caption": "Heard Island and McDonald Islands",
+    "emoji": "🇭🇲",
+    "emojiU": "U+1F1ED U+1F1F2",
+    "square": 162,
+    "wide": 433
   }
 ]

@@ -18,10 +18,10 @@
   "timezoneIds": [
     2345
   ],
-  "officialLanguageIds": [],
-  "otherLanguageIds": [
+  "officialLanguageIds": [
     30
   ],
+  "otherLanguageIds": [],
   "translations": [
     {
       "languageCode": "ko",

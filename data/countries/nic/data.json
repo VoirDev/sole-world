@@ -19,10 +19,11 @@
     2490
   ],
   "officialLanguageIds": [
-    30,
     47
   ],
-  "otherLanguageIds": [],
+  "otherLanguageIds": [
+    30
+  ],
   "translations": [
     {
       "languageCode": "ko",

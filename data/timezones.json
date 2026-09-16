@@ -1727,74 +1727,74 @@
   {
     "id": 2257,
     "zoneName": "Antarctica/Macquarie",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
-    "abbreviation": "MIST",
-    "tzName": "Australian Eastern Daylight Time",
+    "gmtOffset": 36000,
+    "gmtOffsetName": "UTC+10:00",
+    "abbreviation": "AEST",
+    "tzName": "Australian Eastern Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "오스트레일리아 동부 하계 표준시"
+        "tzName": "호주 동부 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão da Austrália Oriental"
+        "tzName": "Horário Padrão da Austrália Oriental"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão da Austrália Oriental"
+        "tzName": "Horário Padrão da Austrália Oriental"
       },
       {
         "languageCode": "nl",
-        "tzName": "Oost-Australische zomertijd"
+        "tzName": "Oost-Australische standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "istočnoaustralsko ljetno vrijeme"
+        "tzName": "istočnoaustralsko standardno vrijeme"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی استرالیای شرقی"
+        "tzName": "وقت عادی استرالیای شرقی"
       },
       {
         "languageCode": "de",
-        "tzName": "Ostaustralische Sommerzeit"
+        "tzName": "Ostaustralische Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de Australia oriental"
+        "tzName": "hora estándar de Australia oriental"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été de l’Est de l’Australie"
+        "tzName": "heure normale de l’Est de l’Australie"
       },
       {
         "languageCode": "ja",
-        "tzName": "オーストラリア東部夏時間"
+        "tzName": "オーストラリア東部標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale dell’Australia orientale"
+        "tzName": "Ora standard dell’Australia orientale"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "澳大利亚东部夏令时间"
+        "tzName": "澳大利亚东部标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Doğu Avustralya Yaz Saati"
+        "tzName": "Doğu Avustralya Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "Восточная Австралия, летнее время"
+        "tzName": "Восточная Австралия, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім східноавстралійським часом"
+        "tzName": "за стандартним східноавстралійським часом"
       },
       {
         "languageCode": "pl",
-        "tzName": "czas wschodnioaustralijski letni"
+        "tzName": "czas wschodnioaustralijski standardowy"
       }
     ],
     "exemplarCity": "Macquarie"
@@ -1802,74 +1802,74 @@
   {
     "id": 2258,
     "zoneName": "Australia/Adelaide",
-    "gmtOffset": 37800,
-    "gmtOffsetName": "UTC+10:30",
-    "abbreviation": "ACDT",
-    "tzName": "Australian Central Daylight Time",
+    "gmtOffset": 34200,
+    "gmtOffsetName": "UTC+09:30",
+    "abbreviation": "ACST",
+    "tzName": "Australian Central Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "오스트레일리아 중부 하계 표준시"
+        "tzName": "호주 중부 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão da Austrália Central"
+        "tzName": "Horário Padrão da Austrália Central"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão da Austrália Central"
+        "tzName": "Horário Padrão da Austrália Central"
       },
       {
         "languageCode": "nl",
-        "tzName": "Midden-Australische zomertijd"
+        "tzName": "Midden-Australische standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "srednjoaustralsko ljetno vrijeme"
+        "tzName": "srednjoaustralsko standardno vrijeme"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی مرکز استرالیا"
+        "tzName": "وقت عادی مرکز استرالیا"
       },
       {
         "languageCode": "de",
-        "tzName": "Zentralaustralische Sommerzeit"
+        "tzName": "Zentralaustralische Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de Australia central"
+        "tzName": "hora estándar de Australia central"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été du centre de l’Australie"
+        "tzName": "heure normale du centre de l’Australie"
       },
       {
         "languageCode": "ja",
-        "tzName": "オーストラリア中部夏時間"
+        "tzName": "オーストラリア中部標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale dell’Australia centrale"
+        "tzName": "Ora standard dell’Australia centrale"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "澳大利亚中部夏令时间"
+        "tzName": "澳大利亚中部标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Orta Avustralya Yaz Saati"
+        "tzName": "Orta Avustralya Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "Центральная Австралия, летнее время"
+        "tzName": "Центральная Австралия, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім центральноавстралійським часом"
+        "tzName": "за стандартним центральноавстралійським часом"
       },
       {
         "languageCode": "pl",
-        "tzName": "czas środkowoaustralijski letni"
+        "tzName": "czas środkowoaustralijski standardowy"
       }
     ],
     "exemplarCity": "Adelaide"
@@ -1952,152 +1952,77 @@
   {
     "id": 2260,
     "zoneName": "Australia/Broken_Hill",
-    "gmtOffset": 37800,
-    "gmtOffsetName": "UTC+10:30",
-    "abbreviation": "ACDT",
-    "tzName": "Australian Central Daylight Time",
+    "gmtOffset": 34200,
+    "gmtOffsetName": "UTC+09:30",
+    "abbreviation": "ACST",
+    "tzName": "Australian Central Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "오스트레일리아 중부 하계 표준시"
+        "tzName": "호주 중부 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão da Austrália Central"
+        "tzName": "Horário Padrão da Austrália Central"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão da Austrália Central"
+        "tzName": "Horário Padrão da Austrália Central"
       },
       {
         "languageCode": "nl",
-        "tzName": "Midden-Australische zomertijd"
+        "tzName": "Midden-Australische standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "srednjoaustralsko ljetno vrijeme"
+        "tzName": "srednjoaustralsko standardno vrijeme"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی مرکز استرالیا"
+        "tzName": "وقت عادی مرکز استرالیا"
       },
       {
         "languageCode": "de",
-        "tzName": "Zentralaustralische Sommerzeit"
+        "tzName": "Zentralaustralische Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de Australia central"
+        "tzName": "hora estándar de Australia central"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été du centre de l’Australie"
+        "tzName": "heure normale du centre de l’Australie"
       },
       {
         "languageCode": "ja",
-        "tzName": "オーストラリア中部夏時間"
+        "tzName": "オーストラリア中部標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale dell’Australia centrale"
+        "tzName": "Ora standard dell’Australia centrale"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "澳大利亚中部夏令时间"
+        "tzName": "澳大利亚中部标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Orta Avustralya Yaz Saati"
+        "tzName": "Orta Avustralya Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "Центральная Австралия, летнее время"
+        "tzName": "Центральная Австралия, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім центральноавстралійським часом"
+        "tzName": "за стандартним центральноавстралійським часом"
       },
       {
         "languageCode": "pl",
-        "tzName": "czas środkowoaustralijski letni"
+        "tzName": "czas środkowoaustralijski standardowy"
       }
     ],
     "exemplarCity": "Broken Hill"
-  },
-  {
-    "id": 2261,
-    "zoneName": "Australia/Currie",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
-    "abbreviation": "AEDT",
-    "tzName": "Australian Eastern Daylight Time",
-    "translations": [
-      {
-        "languageCode": "ko",
-        "tzName": "오스트레일리아 동부 하계 표준시"
-      },
-      {
-        "languageCode": "pt",
-        "tzName": "Horário de Verão da Austrália Oriental"
-      },
-      {
-        "languageCode": "pt-BR",
-        "tzName": "Horário de Verão da Austrália Oriental"
-      },
-      {
-        "languageCode": "nl",
-        "tzName": "Oost-Australische zomertijd"
-      },
-      {
-        "languageCode": "hr",
-        "tzName": "istočnoaustralsko ljetno vrijeme"
-      },
-      {
-        "languageCode": "fa",
-        "tzName": "وقت تابستانی استرالیای شرقی"
-      },
-      {
-        "languageCode": "de",
-        "tzName": "Ostaustralische Sommerzeit"
-      },
-      {
-        "languageCode": "es",
-        "tzName": "hora de verano de Australia oriental"
-      },
-      {
-        "languageCode": "fr",
-        "tzName": "heure d’été de l’Est de l’Australie"
-      },
-      {
-        "languageCode": "ja",
-        "tzName": "オーストラリア東部夏時間"
-      },
-      {
-        "languageCode": "it",
-        "tzName": "Ora legale dell’Australia orientale"
-      },
-      {
-        "languageCode": "zh-CN",
-        "tzName": "澳大利亚东部夏令时间"
-      },
-      {
-        "languageCode": "tr",
-        "tzName": "Doğu Avustralya Yaz Saati"
-      },
-      {
-        "languageCode": "ru",
-        "tzName": "Восточная Австралия, летнее время"
-      },
-      {
-        "languageCode": "uk",
-        "tzName": "за літнім східноавстралійським часом"
-      },
-      {
-        "languageCode": "pl",
-        "tzName": "czas wschodnioaustralijski letni"
-      }
-    ],
-    "exemplarCity": "Currie"
   },
   {
     "id": 2262,
@@ -2252,74 +2177,74 @@
   {
     "id": 2264,
     "zoneName": "Australia/Hobart",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
-    "abbreviation": "AEDT",
-    "tzName": "Australian Eastern Daylight Time",
+    "gmtOffset": 36000,
+    "gmtOffsetName": "UTC+10:00",
+    "abbreviation": "AEST",
+    "tzName": "Australian Eastern Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "오스트레일리아 동부 하계 표준시"
+        "tzName": "호주 동부 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão da Austrália Oriental"
+        "tzName": "Horário Padrão da Austrália Oriental"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão da Austrália Oriental"
+        "tzName": "Horário Padrão da Austrália Oriental"
       },
       {
         "languageCode": "nl",
-        "tzName": "Oost-Australische zomertijd"
+        "tzName": "Oost-Australische standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "istočnoaustralsko ljetno vrijeme"
+        "tzName": "istočnoaustralsko standardno vrijeme"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی استرالیای شرقی"
+        "tzName": "وقت عادی استرالیای شرقی"
       },
       {
         "languageCode": "de",
-        "tzName": "Ostaustralische Sommerzeit"
+        "tzName": "Ostaustralische Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de Australia oriental"
+        "tzName": "hora estándar de Australia oriental"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été de l’Est de l’Australie"
+        "tzName": "heure normale de l’Est de l’Australie"
       },
       {
         "languageCode": "ja",
-        "tzName": "オーストラリア東部夏時間"
+        "tzName": "オーストラリア東部標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale dell’Australia orientale"
+        "tzName": "Ora standard dell’Australia orientale"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "澳大利亚东部夏令时间"
+        "tzName": "澳大利亚东部标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Doğu Avustralya Yaz Saati"
+        "tzName": "Doğu Avustralya Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "Восточная Австралия, летнее время"
+        "tzName": "Восточная Австралия, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім східноавстралійським часом"
+        "tzName": "за стандартним східноавстралійським часом"
       },
       {
         "languageCode": "pl",
-        "tzName": "czas wschodnioaustralijski letni"
+        "tzName": "czas wschodnioaustralijski standardowy"
       }
     ],
     "exemplarCity": "Hobart"
@@ -2402,74 +2327,74 @@
   {
     "id": 2266,
     "zoneName": "Australia/Lord_Howe",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
+    "gmtOffset": 37800,
+    "gmtOffsetName": "UTC+10:30",
     "abbreviation": "LHST",
-    "tzName": "Lord Howe Daylight Time",
+    "tzName": "Lord Howe Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "로드 하우 하계 표준시"
+        "tzName": "로드 하우 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão de Lord Howe"
+        "tzName": "Horário Padrão de Lord Howe"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão de Lord Howe"
+        "tzName": "Horário Padrão de Lord Howe"
       },
       {
         "languageCode": "nl",
-        "tzName": "Lord Howe-eilandse zomertijd"
+        "tzName": "Lord Howe-eilandse standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "ljetno vrijeme otoka Lord Howe"
+        "tzName": "standardno vrijeme otoka Lord Howe"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی لردهو"
+        "tzName": "وقت عادی لردهو"
       },
       {
         "languageCode": "de",
-        "tzName": "Lord-Howe-Sommerzeit"
+        "tzName": "Lord-Howe-Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de Lord Howe"
+        "tzName": "hora estándar de Lord Howe"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été de Lord Howe"
+        "tzName": "heure normale de Lord Howe"
       },
       {
         "languageCode": "ja",
-        "tzName": "ロードハウ夏時間"
+        "tzName": "ロードハウ標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale di Lord Howe"
+        "tzName": "Ora standard di Lord Howe"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "豪勋爵岛夏令时间"
+        "tzName": "豪勋爵岛标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Lord Howe Yaz Saati"
+        "tzName": "Lord Howe Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "Лорд-Хау, летнее время"
+        "tzName": "Лорд-Хау, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім часом на острові Лорд-Хау"
+        "tzName": "за стандартним часом на острові Лорд-Хау"
       },
       {
         "languageCode": "pl",
-        "tzName": "Lord Howe (czas letni)"
+        "tzName": "Lord Howe (czas standardowy)"
       }
     ],
     "exemplarCity": "Lord Howe"
@@ -2477,74 +2402,74 @@
   {
     "id": 2267,
     "zoneName": "Australia/Melbourne",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
-    "abbreviation": "AEDT",
-    "tzName": "Australian Eastern Daylight Time",
+    "gmtOffset": 36000,
+    "gmtOffsetName": "UTC+10:00",
+    "abbreviation": "AEST",
+    "tzName": "Australian Eastern Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "오스트레일리아 동부 하계 표준시"
+        "tzName": "호주 동부 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão da Austrália Oriental"
+        "tzName": "Horário Padrão da Austrália Oriental"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão da Austrália Oriental"
+        "tzName": "Horário Padrão da Austrália Oriental"
       },
       {
         "languageCode": "nl",
-        "tzName": "Oost-Australische zomertijd"
+        "tzName": "Oost-Australische standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "istočnoaustralsko ljetno vrijeme"
+        "tzName": "istočnoaustralsko standardno vrijeme"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی استرالیای شرقی"
+        "tzName": "وقت عادی استرالیای شرقی"
       },
       {
         "languageCode": "de",
-        "tzName": "Ostaustralische Sommerzeit"
+        "tzName": "Ostaustralische Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de Australia oriental"
+        "tzName": "hora estándar de Australia oriental"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été de l’Est de l’Australie"
+        "tzName": "heure normale de l’Est de l’Australie"
       },
       {
         "languageCode": "ja",
-        "tzName": "オーストラリア東部夏時間"
+        "tzName": "オーストラリア東部標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale dell’Australia orientale"
+        "tzName": "Ora standard dell’Australia orientale"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "澳大利亚东部夏令时间"
+        "tzName": "澳大利亚东部标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Doğu Avustralya Yaz Saati"
+        "tzName": "Doğu Avustralya Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "Восточная Австралия, летнее время"
+        "tzName": "Восточная Австралия, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім східноавстралійським часом"
+        "tzName": "за стандартним східноавстралійським часом"
       },
       {
         "languageCode": "pl",
-        "tzName": "czas wschodnioaustralijski letni"
+        "tzName": "czas wschodnioaustralijski standardowy"
       }
     ],
     "exemplarCity": "Melbourne"
@@ -2627,74 +2552,74 @@
   {
     "id": 2269,
     "zoneName": "Australia/Sydney",
-    "gmtOffset": 39600,
-    "gmtOffsetName": "UTC+11:00",
-    "abbreviation": "AEDT",
-    "tzName": "Australian Eastern Daylight Time",
+    "gmtOffset": 36000,
+    "gmtOffsetName": "UTC+10:00",
+    "abbreviation": "AEST",
+    "tzName": "Australian Eastern Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "오스트레일리아 동부 하계 표준시"
+        "tzName": "호주 동부 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão da Austrália Oriental"
+        "tzName": "Horário Padrão da Austrália Oriental"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão da Austrália Oriental"
+        "tzName": "Horário Padrão da Austrália Oriental"
       },
       {
         "languageCode": "nl",
-        "tzName": "Oost-Australische zomertijd"
+        "tzName": "Oost-Australische standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "istočnoaustralsko ljetno vrijeme"
+        "tzName": "istočnoaustralsko standardno vrijeme"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی استرالیای شرقی"
+        "tzName": "وقت عادی استرالیای شرقی"
       },
       {
         "languageCode": "de",
-        "tzName": "Ostaustralische Sommerzeit"
+        "tzName": "Ostaustralische Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de Australia oriental"
+        "tzName": "hora estándar de Australia oriental"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été de l’Est de l’Australie"
+        "tzName": "heure normale de l’Est de l’Australie"
       },
       {
         "languageCode": "ja",
-        "tzName": "オーストラリア東部夏時間"
+        "tzName": "オーストラリア東部標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale dell’Australia orientale"
+        "tzName": "Ora standard dell’Australia orientale"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "澳大利亚东部夏令时间"
+        "tzName": "澳大利亚东部标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Doğu Avustralya Yaz Saati"
+        "tzName": "Doğu Avustralya Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "Восточная Австралия, летнее время"
+        "tzName": "Восточная Австралия, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім східноавстралійським часом"
+        "tzName": "за стандартним східноавстралійським часом"
       },
       {
         "languageCode": "pl",
-        "tzName": "czas wschodnioaustralijski letni"
+        "tzName": "czas wschodnioaustralijski standardowy"
       }
     ],
     "exemplarCity": "Sydney"
@@ -3079,7 +3004,7 @@
     "zoneName": "Europe/Minsk",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
-    "abbreviation": "MSK",
+    "abbreviation": "+03",
     "tzName": "Moscow Standard Time",
     "translations": [
       {
@@ -6525,231 +6450,6 @@
     "exemplarCity": "Moncton"
   },
   {
-    "id": 2321,
-    "zoneName": "America/Nipigon",
-    "gmtOffset": -18000,
-    "gmtOffsetName": "UTC-05:00",
-    "abbreviation": "EST",
-    "tzName": "Eastern Standard Time",
-    "translations": [
-      {
-        "languageCode": "ko",
-        "tzName": "미 동부 표준시"
-      },
-      {
-        "languageCode": "pt",
-        "tzName": "Horário Padrão do Leste"
-      },
-      {
-        "languageCode": "pt-BR",
-        "tzName": "Horário Padrão do Leste"
-      },
-      {
-        "languageCode": "nl",
-        "tzName": "Eastern-standaardtijd"
-      },
-      {
-        "languageCode": "hr",
-        "tzName": "istočno standardno vrijeme"
-      },
-      {
-        "languageCode": "fa",
-        "tzName": "وقت عادی شرق امریکا"
-      },
-      {
-        "languageCode": "de",
-        "tzName": "Nordamerikanische Ostküsten-Normalzeit"
-      },
-      {
-        "languageCode": "es",
-        "tzName": "hora estándar oriental"
-      },
-      {
-        "languageCode": "fr",
-        "tzName": "heure normale de l’Est nord-américain"
-      },
-      {
-        "languageCode": "ja",
-        "tzName": "アメリカ東部標準時"
-      },
-      {
-        "languageCode": "it",
-        "tzName": "Ora standard orientale USA"
-      },
-      {
-        "languageCode": "zh-CN",
-        "tzName": "北美东部标准时间"
-      },
-      {
-        "languageCode": "tr",
-        "tzName": "Kuzey Amerika Doğu Standart Saati"
-      },
-      {
-        "languageCode": "ru",
-        "tzName": "Восточная Америка, стандартное время"
-      },
-      {
-        "languageCode": "uk",
-        "tzName": "за північноамериканським східним стандартним часом"
-      },
-      {
-        "languageCode": "pl",
-        "tzName": "czas wschodnioamerykański standardowy"
-      }
-    ],
-    "exemplarCity": "Nipigon"
-  },
-  {
-    "id": 2322,
-    "zoneName": "America/Pangnirtung",
-    "gmtOffset": -18000,
-    "gmtOffsetName": "UTC-05:00",
-    "abbreviation": "EST",
-    "tzName": "Eastern Standard Time",
-    "translations": [
-      {
-        "languageCode": "ko",
-        "tzName": "미 동부 표준시"
-      },
-      {
-        "languageCode": "pt",
-        "tzName": "Horário Padrão do Leste"
-      },
-      {
-        "languageCode": "pt-BR",
-        "tzName": "Horário Padrão do Leste"
-      },
-      {
-        "languageCode": "nl",
-        "tzName": "Eastern-standaardtijd"
-      },
-      {
-        "languageCode": "hr",
-        "tzName": "istočno standardno vrijeme"
-      },
-      {
-        "languageCode": "fa",
-        "tzName": "وقت عادی شرق امریکا"
-      },
-      {
-        "languageCode": "de",
-        "tzName": "Nordamerikanische Ostküsten-Normalzeit"
-      },
-      {
-        "languageCode": "es",
-        "tzName": "hora estándar oriental"
-      },
-      {
-        "languageCode": "fr",
-        "tzName": "heure normale de l’Est nord-américain"
-      },
-      {
-        "languageCode": "ja",
-        "tzName": "アメリカ東部標準時"
-      },
-      {
-        "languageCode": "it",
-        "tzName": "Ora standard orientale USA"
-      },
-      {
-        "languageCode": "zh-CN",
-        "tzName": "北美东部标准时间"
-      },
-      {
-        "languageCode": "tr",
-        "tzName": "Kuzey Amerika Doğu Standart Saati"
-      },
-      {
-        "languageCode": "ru",
-        "tzName": "Восточная Америка, стандартное время"
-      },
-      {
-        "languageCode": "uk",
-        "tzName": "за північноамериканським східним стандартним часом"
-      },
-      {
-        "languageCode": "pl",
-        "tzName": "czas wschodnioamerykański standardowy"
-      }
-    ],
-    "exemplarCity": "Pangnirtung"
-  },
-  {
-    "id": 2323,
-    "zoneName": "America/Rainy_River",
-    "gmtOffset": -21600,
-    "gmtOffsetName": "UTC-06:00",
-    "abbreviation": "CST",
-    "tzName": "Central Standard Time",
-    "translations": [
-      {
-        "languageCode": "ko",
-        "tzName": "미 중부 표준시"
-      },
-      {
-        "languageCode": "pt",
-        "tzName": "Horário Padrão Central"
-      },
-      {
-        "languageCode": "pt-BR",
-        "tzName": "Horário Padrão Central"
-      },
-      {
-        "languageCode": "nl",
-        "tzName": "Central-standaardtijd"
-      },
-      {
-        "languageCode": "hr",
-        "tzName": "središnje standardno vrijeme"
-      },
-      {
-        "languageCode": "fa",
-        "tzName": "وقت عادی مرکز امریکا"
-      },
-      {
-        "languageCode": "de",
-        "tzName": "Nordamerikanische Zentral-Normalzeit"
-      },
-      {
-        "languageCode": "es",
-        "tzName": "hora estándar central"
-      },
-      {
-        "languageCode": "fr",
-        "tzName": "heure normale du centre nord-américain"
-      },
-      {
-        "languageCode": "ja",
-        "tzName": "アメリカ中部標準時"
-      },
-      {
-        "languageCode": "it",
-        "tzName": "Ora standard centrale USA"
-      },
-      {
-        "languageCode": "zh-CN",
-        "tzName": "北美中部标准时间"
-      },
-      {
-        "languageCode": "tr",
-        "tzName": "Kuzey Amerika Merkezi Standart Saati"
-      },
-      {
-        "languageCode": "ru",
-        "tzName": "Центральная Америка, стандартное время"
-      },
-      {
-        "languageCode": "uk",
-        "tzName": "за північноамериканським центральним стандартним часом"
-      },
-      {
-        "languageCode": "pl",
-        "tzName": "czas środkowoamerykański standardowy"
-      }
-    ],
-    "exemplarCity": "Rainy River"
-  },
-  {
     "id": 2324,
     "zoneName": "America/Rankin_Inlet",
     "gmtOffset": -21600,
@@ -7125,81 +6825,6 @@
     "exemplarCity": "Swift Current"
   },
   {
-    "id": 2329,
-    "zoneName": "America/Thunder_Bay",
-    "gmtOffset": -18000,
-    "gmtOffsetName": "UTC-05:00",
-    "abbreviation": "EST",
-    "tzName": "Eastern Standard Time",
-    "translations": [
-      {
-        "languageCode": "ko",
-        "tzName": "미 동부 표준시"
-      },
-      {
-        "languageCode": "pt",
-        "tzName": "Horário Padrão do Leste"
-      },
-      {
-        "languageCode": "pt-BR",
-        "tzName": "Horário Padrão do Leste"
-      },
-      {
-        "languageCode": "nl",
-        "tzName": "Eastern-standaardtijd"
-      },
-      {
-        "languageCode": "hr",
-        "tzName": "istočno standardno vrijeme"
-      },
-      {
-        "languageCode": "fa",
-        "tzName": "وقت عادی شرق امریکا"
-      },
-      {
-        "languageCode": "de",
-        "tzName": "Nordamerikanische Ostküsten-Normalzeit"
-      },
-      {
-        "languageCode": "es",
-        "tzName": "hora estándar oriental"
-      },
-      {
-        "languageCode": "fr",
-        "tzName": "heure normale de l’Est nord-américain"
-      },
-      {
-        "languageCode": "ja",
-        "tzName": "アメリカ東部標準時"
-      },
-      {
-        "languageCode": "it",
-        "tzName": "Ora standard orientale USA"
-      },
-      {
-        "languageCode": "zh-CN",
-        "tzName": "北美东部标准时间"
-      },
-      {
-        "languageCode": "tr",
-        "tzName": "Kuzey Amerika Doğu Standart Saati"
-      },
-      {
-        "languageCode": "ru",
-        "tzName": "Восточная Америка, стандартное время"
-      },
-      {
-        "languageCode": "uk",
-        "tzName": "за північноамериканським східним стандартним часом"
-      },
-      {
-        "languageCode": "pl",
-        "tzName": "czas wschodnioamerykański standardowy"
-      }
-    ],
-    "exemplarCity": "Thunder Bay"
-  },
-  {
     "id": 2330,
     "zoneName": "America/Toronto",
     "gmtOffset": -18000,
@@ -7498,81 +7123,6 @@
       }
     ],
     "exemplarCity": "Winnipeg"
-  },
-  {
-    "id": 2334,
-    "zoneName": "America/Yellowknife",
-    "gmtOffset": -25200,
-    "gmtOffsetName": "UTC-07:00",
-    "abbreviation": "MST",
-    "tzName": "Mountain Standard Time",
-    "translations": [
-      {
-        "languageCode": "ko",
-        "tzName": "미 산악 표준시"
-      },
-      {
-        "languageCode": "pt",
-        "tzName": "Horário Padrão das Montanhas"
-      },
-      {
-        "languageCode": "pt-BR",
-        "tzName": "Horário Padrão das Montanhas"
-      },
-      {
-        "languageCode": "nl",
-        "tzName": "Mountain-standaardtijd"
-      },
-      {
-        "languageCode": "hr",
-        "tzName": "planinsko standardno vrijeme"
-      },
-      {
-        "languageCode": "fa",
-        "tzName": "وقت عادی کوهستانی امریکا"
-      },
-      {
-        "languageCode": "de",
-        "tzName": "Rocky-Mountains-Normalzeit"
-      },
-      {
-        "languageCode": "es",
-        "tzName": "hora estándar de las Montañas Rocosas"
-      },
-      {
-        "languageCode": "fr",
-        "tzName": "heure normale des Rocheuses"
-      },
-      {
-        "languageCode": "ja",
-        "tzName": "アメリカ山地標準時"
-      },
-      {
-        "languageCode": "it",
-        "tzName": "Ora standard Montagne Rocciose USA"
-      },
-      {
-        "languageCode": "zh-CN",
-        "tzName": "北美山区标准时间"
-      },
-      {
-        "languageCode": "tr",
-        "tzName": "Kuzey Amerika Dağ Standart Saati"
-      },
-      {
-        "languageCode": "ru",
-        "tzName": "Стандартное горное время (Северная Америка)"
-      },
-      {
-        "languageCode": "uk",
-        "tzName": "за північноамериканським гірським стандартним часом"
-      },
-      {
-        "languageCode": "pl",
-        "tzName": "czas górski standardowy"
-      }
-    ],
-    "exemplarCity": "Yellowknife"
   },
   {
     "id": 2335,
@@ -7952,74 +7502,74 @@
   {
     "id": 2340,
     "zoneName": "America/Santiago",
-    "gmtOffset": -10800,
-    "gmtOffsetName": "UTC-03:00",
-    "abbreviation": "CLST",
-    "tzName": "Chile Summer Time",
+    "gmtOffset": -14400,
+    "gmtOffsetName": "UTC-04:00",
+    "abbreviation": "CLT",
+    "tzName": "Chile Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "칠레 하계 표준시"
+        "tzName": "칠레 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão do Chile"
+        "tzName": "Horário Padrão do Chile"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão do Chile"
+        "tzName": "Horário Padrão do Chile"
       },
       {
         "languageCode": "nl",
-        "tzName": "Chileense zomertijd"
+        "tzName": "Chileense standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "čileansko ljetno vrijeme"
+        "tzName": "čileansko standardno vrijeme"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی شیلی"
+        "tzName": "وقت عادی شیلی"
       },
       {
         "languageCode": "de",
-        "tzName": "Chilenische Sommerzeit"
+        "tzName": "Chilenische Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de Chile"
+        "tzName": "hora estándar de Chile"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été du Chili"
+        "tzName": "heure normale du Chili"
       },
       {
         "languageCode": "ja",
-        "tzName": "チリ夏時間"
+        "tzName": "チリ標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale del Cile"
+        "tzName": "Ora standard del Cile"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "智利夏令时间"
+        "tzName": "智利标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Şili Yaz Saati"
+        "tzName": "Şili Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "Чили, летнее время"
+        "tzName": "Чили, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім чилійським часом"
+        "tzName": "за стандартним чилійським часом"
       },
       {
         "languageCode": "pl",
-        "tzName": "Chile (czas letni)"
+        "tzName": "Chile (czas standardowy)"
       }
     ],
     "exemplarCity": "Santiago"
@@ -8027,74 +7577,74 @@
   {
     "id": 2341,
     "zoneName": "Pacific/Easter",
-    "gmtOffset": -18000,
-    "gmtOffsetName": "UTC-05:00",
-    "abbreviation": "EASST",
-    "tzName": "Easter Island Summer Time",
+    "gmtOffset": -21600,
+    "gmtOffsetName": "UTC-06:00",
+    "abbreviation": "EAST",
+    "tzName": "Easter Island Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "이스터섬 하계 표준시"
+        "tzName": "이스터섬 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão da Ilha de Páscoa"
+        "tzName": "Horário Padrão da Ilha de Páscoa"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão da Ilha de Páscoa"
+        "tzName": "Horário Padrão da Ilha de Páscoa"
       },
       {
         "languageCode": "nl",
-        "tzName": "Paaseilandse zomertijd"
+        "tzName": "Paaseilandse standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "ljetno vrijeme Uskršnjeg otoka"
+        "tzName": "standardno vrijeme Uskršnjeg otoka"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی جزیرهٔ ایستر"
+        "tzName": "وقت عادی جزیرهٔ ایستر"
       },
       {
         "languageCode": "de",
-        "tzName": "Osterinsel-Sommerzeit"
+        "tzName": "Osterinsel-Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de la isla de Pascua"
+        "tzName": "hora estándar de la isla de Pascua"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été de l’île de Pâques"
+        "tzName": "heure normale de l’île de Pâques"
       },
       {
         "languageCode": "ja",
-        "tzName": "イースター島夏時間"
+        "tzName": "イースター島標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale dell’Isola di Pasqua"
+        "tzName": "Ora standard dell’Isola di Pasqua"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "复活节岛夏令时间"
+        "tzName": "复活节岛标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Paskalya Adası Yaz Saati"
+        "tzName": "Paskalya Adası Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "О-в Пасхи, летнее время"
+        "tzName": "О-в Пасхи, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім часом на острові Пасхи"
+        "tzName": "за стандартним часом на острові Пасхи"
       },
       {
         "languageCode": "pl",
-        "tzName": "Wyspa Wielkanocna (czas letni)"
+        "tzName": "Wyspa Wielkanocna (czas standardowy)"
       }
     ],
     "exemplarCity": "Easter"
@@ -11779,7 +11329,7 @@
     "zoneName": "America/Nuuk",
     "gmtOffset": -7200,
     "gmtOffsetName": "UTC-02:00",
-    "abbreviation": "GMT-2",
+    "abbreviation": "WGT",
     "tzName": "Greenland Standard Time",
     "translations": [
       {
@@ -11854,7 +11404,7 @@
     "zoneName": "America/Scoresbysund",
     "gmtOffset": -7200,
     "gmtOffsetName": "UTC-02:00",
-    "abbreviation": "GMT-2",
+    "abbreviation": "WGT",
     "tzName": "Greenland Standard Time",
     "translations": [
       {
@@ -12154,7 +11704,7 @@
     "zoneName": "Pacific/Guam",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
-    "abbreviation": "CHST",
+    "abbreviation": "ChST",
     "tzName": "Chamorro Standard Time",
     "translations": [
       {
@@ -13354,7 +12904,7 @@
     "zoneName": "Asia/Tehran",
     "gmtOffset": 12600,
     "gmtOffsetName": "UTC+03:30",
-    "abbreviation": "IRDT",
+    "abbreviation": "IRST",
     "tzName": "Iran Standard Time",
     "translations": [
       {
@@ -13954,7 +13504,7 @@
     "zoneName": "Asia/Amman",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
-    "abbreviation": "GMT+3",
+    "abbreviation": "+03",
     "tzName": "Jordan Time",
     "translations": [
       {
@@ -14029,7 +13579,7 @@
     "zoneName": "Asia/Almaty",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
-    "abbreviation": "GMT+5",
+    "abbreviation": "ALMT",
     "tzName": "Kazakhstan Time",
     "translations": [
       {
@@ -14254,7 +13804,7 @@
     "zoneName": "Asia/Atyrau",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
-    "abbreviation": "MSD+1",
+    "abbreviation": "+05",
     "tzName": "Kazakhstan Time",
     "translations": [
       {
@@ -14404,7 +13954,7 @@
     "zoneName": "Asia/Qostanay",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
-    "abbreviation": "GMT+5",
+    "abbreviation": "ALMT",
     "tzName": "Kazakhstan Time",
     "translations": [
       {
@@ -14623,81 +14173,6 @@
       }
     ],
     "exemplarCity": "Nairobi"
-  },
-  {
-    "id": 2429,
-    "zoneName": "Pacific/Enderbury",
-    "gmtOffset": 46800,
-    "gmtOffsetName": "UTC+13:00",
-    "abbreviation": "PHOT",
-    "tzName": "Phoenix Islands Time",
-    "translations": [
-      {
-        "languageCode": "ko",
-        "tzName": "피닉스 제도 시간"
-      },
-      {
-        "languageCode": "pt",
-        "tzName": "Horário das Ilhas Fênix"
-      },
-      {
-        "languageCode": "pt-BR",
-        "tzName": "Horário das Ilhas Fênix"
-      },
-      {
-        "languageCode": "nl",
-        "tzName": "Phoenixeilandse tijd"
-      },
-      {
-        "languageCode": "hr",
-        "tzName": "vrijeme Otoka Phoenix"
-      },
-      {
-        "languageCode": "fa",
-        "tzName": "وقت جزایر فونیکس"
-      },
-      {
-        "languageCode": "de",
-        "tzName": "Phoenixinseln-Zeit"
-      },
-      {
-        "languageCode": "es",
-        "tzName": "hora de las Islas Fénix"
-      },
-      {
-        "languageCode": "fr",
-        "tzName": "heure des îles Phoenix"
-      },
-      {
-        "languageCode": "ja",
-        "tzName": "フェニックス諸島時間"
-      },
-      {
-        "languageCode": "it",
-        "tzName": "Ora delle Isole della Fenice"
-      },
-      {
-        "languageCode": "zh-CN",
-        "tzName": "菲尼克斯群岛时间"
-      },
-      {
-        "languageCode": "tr",
-        "tzName": "Phoenix Adaları Saati"
-      },
-      {
-        "languageCode": "ru",
-        "tzName": "о-ва Феникс"
-      },
-      {
-        "languageCode": "uk",
-        "tzName": "за часом на островах Фенікс"
-      },
-      {
-        "languageCode": "pl",
-        "tzName": "czas Feniks"
-      }
-    ],
-    "exemplarCity": "Enderbury"
   },
   {
     "id": 2430,
@@ -18075,81 +17550,6 @@
     "exemplarCity": "Monaco"
   },
   {
-    "id": 2475,
-    "zoneName": "Asia/Choibalsan",
-    "gmtOffset": 28800,
-    "gmtOffsetName": "UTC+08:00",
-    "abbreviation": "CHOT",
-    "tzName": "Ulaanbaatar Standard Time",
-    "translations": [
-      {
-        "languageCode": "ko",
-        "tzName": "울란바토르 표준시"
-      },
-      {
-        "languageCode": "pt",
-        "tzName": "Horário Padrão de Ulan Bator"
-      },
-      {
-        "languageCode": "pt-BR",
-        "tzName": "Horário Padrão de Ulan Bator"
-      },
-      {
-        "languageCode": "nl",
-        "tzName": "Ulaanbaatar-standaardtijd"
-      },
-      {
-        "languageCode": "hr",
-        "tzName": "ulanbatorsko standardno vrijeme"
-      },
-      {
-        "languageCode": "fa",
-        "tzName": "وقت عادی اولان‌باتور"
-      },
-      {
-        "languageCode": "de",
-        "tzName": "Ulaanbaatar-Normalzeit"
-      },
-      {
-        "languageCode": "es",
-        "tzName": "hora estándar de Ulán Bator"
-      },
-      {
-        "languageCode": "fr",
-        "tzName": "heure normale d’Oulan-Bator"
-      },
-      {
-        "languageCode": "ja",
-        "tzName": "ウランバートル標準時"
-      },
-      {
-        "languageCode": "it",
-        "tzName": "Ora standard di Ulan Bator"
-      },
-      {
-        "languageCode": "zh-CN",
-        "tzName": "乌兰巴托标准时间"
-      },
-      {
-        "languageCode": "tr",
-        "tzName": "Ulan Batur Standart Saati"
-      },
-      {
-        "languageCode": "ru",
-        "tzName": "Улан-Батор, стандартное время"
-      },
-      {
-        "languageCode": "uk",
-        "tzName": "за стандартним часом в Улан-Баторі"
-      },
-      {
-        "languageCode": "pl",
-        "tzName": "Ułan Bator (czas standardowy)"
-      }
-    ],
-    "exemplarCity": "Choibalsan"
-  },
-  {
     "id": 2476,
     "zoneName": "Asia/Hovd",
     "gmtOffset": 25200,
@@ -18454,7 +17854,7 @@
     "zoneName": "Africa/Casablanca",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
-    "abbreviation": "WEST",
+    "abbreviation": "+01",
     "tzName": "Morocco Time",
     "translations": [
       {
@@ -18679,7 +18079,7 @@
     "zoneName": "Africa/Windhoek",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
-    "abbreviation": "WAST",
+    "abbreviation": "CAT",
     "tzName": "Central Africa Time",
     "translations": [
       {
@@ -19052,74 +18452,74 @@
   {
     "id": 2488,
     "zoneName": "Pacific/Auckland",
-    "gmtOffset": 46800,
-    "gmtOffsetName": "UTC+13:00",
-    "abbreviation": "NZDT",
-    "tzName": "New Zealand Daylight Time",
+    "gmtOffset": 43200,
+    "gmtOffsetName": "UTC+12:00",
+    "abbreviation": "NZST",
+    "tzName": "New Zealand Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "뉴질랜드 하계 표준시"
+        "tzName": "뉴질랜드 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão da Nova Zelândia"
+        "tzName": "Horário Padrão da Nova Zelândia"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão da Nova Zelândia"
+        "tzName": "Horário Padrão da Nova Zelândia"
       },
       {
         "languageCode": "nl",
-        "tzName": "Nieuw-Zeelandse zomertijd"
+        "tzName": "Nieuw-Zeelandse standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "novozelandsko ljetno vrijeme"
+        "tzName": "novozelandsko standardno vrijeme"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی نیوزیلند"
+        "tzName": "وقت عادی نیوزیلند"
       },
       {
         "languageCode": "de",
-        "tzName": "Neuseeland-Sommerzeit"
+        "tzName": "Neuseeland-Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de Nueva Zelanda"
+        "tzName": "hora estándar de Nueva Zelanda"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été de la Nouvelle-Zélande"
+        "tzName": "heure normale de la Nouvelle-Zélande"
       },
       {
         "languageCode": "ja",
-        "tzName": "ニュージーランド夏時間"
+        "tzName": "ニュージーランド標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale della Nuova Zelanda"
+        "tzName": "Ora standard della Nuova Zelanda"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "新西兰夏令时间"
+        "tzName": "新西兰标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Yeni Zelanda Yaz Saati"
+        "tzName": "Yeni Zelanda Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "Новая Зеландия, летнее время"
+        "tzName": "Новая Зеландия, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім часом у Новій Зеландії"
+        "tzName": "за стандартним часом у Новій Зеландії"
       },
       {
         "languageCode": "pl",
-        "tzName": "Nowa Zelandia (czas letni)"
+        "tzName": "Nowa Zelandia (czas standardowy)"
       }
     ],
     "exemplarCity": "Auckland"
@@ -19127,74 +18527,74 @@
   {
     "id": 2489,
     "zoneName": "Pacific/Chatham",
-    "gmtOffset": 49500,
-    "gmtOffsetName": "UTC+13:45",
+    "gmtOffset": 45900,
+    "gmtOffsetName": "UTC+12:45",
     "abbreviation": "CHAST",
-    "tzName": "Chatham Daylight Time",
+    "tzName": "Chatham Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "채텀 하계 표준시"
+        "tzName": "채텀 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão de Chatham"
+        "tzName": "Horário Padrão de Chatham"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão de Chatham"
+        "tzName": "Horário Padrão de Chatham"
       },
       {
         "languageCode": "nl",
-        "tzName": "Chatham-zomertijd"
+        "tzName": "Chatham-standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "ljetno vrijeme Chathama"
+        "tzName": "standardno vrijeme Chathama"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی چت‌هام"
+        "tzName": "وقت عادی چت‌هام"
       },
       {
         "languageCode": "de",
-        "tzName": "Chatham-Sommerzeit"
+        "tzName": "Chatham-Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de Chatham"
+        "tzName": "hora estándar de Chatham"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été des îles Chatham"
+        "tzName": "heure normale des îles Chatham"
       },
       {
         "languageCode": "ja",
-        "tzName": "チャタム夏時間"
+        "tzName": "チャタム標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale delle Chatham"
+        "tzName": "Ora standard delle Chatham"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "查塔姆夏令时间"
+        "tzName": "查塔姆标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Chatham Yaz Saati"
+        "tzName": "Chatham Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "Чатем, летнее время"
+        "tzName": "Чатем, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім часом на архіпелазі Чатем"
+        "tzName": "за стандартним часом на архіпелазі Чатем"
       },
       {
         "languageCode": "pl",
-        "tzName": "Chatham (czas letni)"
+        "tzName": "Chatham (czas standardowy)"
       }
     ],
     "exemplarCity": "Chatham"
@@ -19502,74 +18902,74 @@
   {
     "id": 2494,
     "zoneName": "Pacific/Norfolk",
-    "gmtOffset": 43200,
-    "gmtOffsetName": "UTC+12:00",
+    "gmtOffset": 39600,
+    "gmtOffsetName": "UTC+11:00",
     "abbreviation": "NFT",
-    "tzName": "Norfolk Island Daylight Time",
+    "tzName": "Norfolk Island Standard Time",
     "translations": [
       {
         "languageCode": "ko",
-        "tzName": "노퍽섬 하계 표준시"
+        "tzName": "노퍽섬 표준시"
       },
       {
         "languageCode": "pt",
-        "tzName": "Horário de Verão da Ilha Norfolk"
+        "tzName": "Horário Padrão da Ilha Norfolk"
       },
       {
         "languageCode": "pt-BR",
-        "tzName": "Horário de Verão da Ilha Norfolk"
+        "tzName": "Horário Padrão da Ilha Norfolk"
       },
       {
         "languageCode": "nl",
-        "tzName": "Norfolkeilandse zomertijd"
+        "tzName": "Norfolkeilandse standaardtijd"
       },
       {
         "languageCode": "hr",
-        "tzName": "ljetno vrijeme Otoka Norfolk"
+        "tzName": "standardno vrijeme Otoka Norfolk"
       },
       {
         "languageCode": "fa",
-        "tzName": "وقت تابستانی جزیرهٔ نورفولک"
+        "tzName": "وقت عادی جزیرهٔ نورفولک"
       },
       {
         "languageCode": "de",
-        "tzName": "Norfolkinsel-Sommerzeit"
+        "tzName": "Norfolkinsel-Normalzeit"
       },
       {
         "languageCode": "es",
-        "tzName": "hora de verano de la isla Norfolk"
+        "tzName": "hora estándar de la isla Norfolk"
       },
       {
         "languageCode": "fr",
-        "tzName": "heure d’été de l’île Norfolk"
+        "tzName": "heure normale de l’île Norfolk"
       },
       {
         "languageCode": "ja",
-        "tzName": "ノーフォーク島夏時間"
+        "tzName": "ノーフォーク島標準時"
       },
       {
         "languageCode": "it",
-        "tzName": "Ora legale delle Isole Norfolk"
+        "tzName": "Ora standard delle Isole Norfolk"
       },
       {
         "languageCode": "zh-CN",
-        "tzName": "诺福克岛夏令时间"
+        "tzName": "诺福克岛标准时间"
       },
       {
         "languageCode": "tr",
-        "tzName": "Norfolk Adası Yaz Saati"
+        "tzName": "Norfolk Adası Standart Saati"
       },
       {
         "languageCode": "ru",
-        "tzName": "Норфолк, летнее время"
+        "tzName": "Норфолк, стандартное время"
       },
       {
         "languageCode": "uk",
-        "tzName": "за літнім часом на острові Норфолк"
+        "tzName": "за стандартним часом на острові Норфолк"
       },
       {
         "languageCode": "pl",
-        "tzName": "Norfolk (czas letni)"
+        "tzName": "Norfolk (czas standardowy)"
       }
     ],
     "exemplarCity": "Norfolk"
@@ -22354,7 +21754,7 @@
     "zoneName": "Asia/Tomsk",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
-    "abbreviation": "MSD+3",
+    "abbreviation": "+07",
     "tzName": "Tomsk Time",
     "translations": [
       {
@@ -23104,7 +22504,7 @@
     "zoneName": "Europe/Saratov",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
-    "abbreviation": "MSD",
+    "abbreviation": "+04",
     "tzName": "Saratov Time",
     "translations": [
       {
@@ -23254,7 +22654,7 @@
     "zoneName": "Europe/Volgograd",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
-    "abbreviation": "GMT+3",
+    "abbreviation": "MSK",
     "tzName": "Volgograd Standard Time",
     "translations": [
       {
@@ -23929,7 +23329,7 @@
     "zoneName": "Pacific/Apia",
     "gmtOffset": 46800,
     "gmtOffsetName": "UTC+13:00",
-    "abbreviation": "GMT+13",
+    "abbreviation": "WSST",
     "tzName": "Samoa Standard Time",
     "translations": [
       {
@@ -25054,7 +24454,7 @@
     "zoneName": "Africa/Juba",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
-    "abbreviation": "GMT+2",
+    "abbreviation": "CAT",
     "tzName": "Central Africa Time",
     "translations": [
       {
@@ -25429,7 +24829,7 @@
     "zoneName": "Africa/Khartoum",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
-    "abbreviation": "EAT",
+    "abbreviation": "CAT",
     "tzName": "Central Africa Time",
     "translations": [
       {
@@ -25804,7 +25204,7 @@
     "zoneName": "Asia/Damascus",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
-    "abbreviation": "GMT+3",
+    "abbreviation": "+03",
     "tzName": "Syria Time",
     "translations": [
       {
@@ -26779,7 +26179,7 @@
     "zoneName": "Europe/Istanbul",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
-    "abbreviation": "EET",
+    "abbreviation": "TRT",
     "tzName": "Türkiye Time",
     "translations": [
       {
@@ -27150,81 +26550,6 @@
     "exemplarCity": "Kampala"
   },
   {
-    "id": 2596,
-    "zoneName": "Europe/Kiev",
-    "gmtOffset": 7200,
-    "gmtOffsetName": "UTC+02:00",
-    "abbreviation": "EET",
-    "tzName": "Eastern European Standard Time",
-    "translations": [
-      {
-        "languageCode": "ko",
-        "tzName": "동유럽 표준시"
-      },
-      {
-        "languageCode": "pt",
-        "tzName": "Horário Padrão da Europa Oriental"
-      },
-      {
-        "languageCode": "pt-BR",
-        "tzName": "Horário Padrão da Europa Oriental"
-      },
-      {
-        "languageCode": "nl",
-        "tzName": "Oost-Europese standaardtijd"
-      },
-      {
-        "languageCode": "hr",
-        "tzName": "istočnoeuropsko standardno vrijeme"
-      },
-      {
-        "languageCode": "fa",
-        "tzName": "وقت عادی شرق اروپا"
-      },
-      {
-        "languageCode": "de",
-        "tzName": "Osteuropäische Normalzeit"
-      },
-      {
-        "languageCode": "es",
-        "tzName": "hora estándar de Europa oriental"
-      },
-      {
-        "languageCode": "fr",
-        "tzName": "heure normale d’Europe de l’Est"
-      },
-      {
-        "languageCode": "ja",
-        "tzName": "東ヨーロッパ標準時"
-      },
-      {
-        "languageCode": "it",
-        "tzName": "Ora standard dell’Europa orientale"
-      },
-      {
-        "languageCode": "zh-CN",
-        "tzName": "东欧标准时间"
-      },
-      {
-        "languageCode": "tr",
-        "tzName": "Doğu Avrupa Standart Saati"
-      },
-      {
-        "languageCode": "ru",
-        "tzName": "Восточная Европа, стандартное время"
-      },
-      {
-        "languageCode": "uk",
-        "tzName": "за східноєвропейським стандартним часом"
-      },
-      {
-        "languageCode": "pl",
-        "tzName": "czas wschodnioeuropejski standardowy"
-      }
-    ],
-    "exemplarCity": "Kiev"
-  },
-  {
     "id": 2597,
     "zoneName": "Europe/Simferopol",
     "gmtOffset": 10800,
@@ -27298,156 +26623,6 @@
       }
     ],
     "exemplarCity": "Simferopol"
-  },
-  {
-    "id": 2598,
-    "zoneName": "Europe/Uzhgorod",
-    "gmtOffset": 7200,
-    "gmtOffsetName": "UTC+02:00",
-    "abbreviation": "EET",
-    "tzName": "Eastern European Standard Time",
-    "translations": [
-      {
-        "languageCode": "ko",
-        "tzName": "동유럽 표준시"
-      },
-      {
-        "languageCode": "pt",
-        "tzName": "Horário Padrão da Europa Oriental"
-      },
-      {
-        "languageCode": "pt-BR",
-        "tzName": "Horário Padrão da Europa Oriental"
-      },
-      {
-        "languageCode": "nl",
-        "tzName": "Oost-Europese standaardtijd"
-      },
-      {
-        "languageCode": "hr",
-        "tzName": "istočnoeuropsko standardno vrijeme"
-      },
-      {
-        "languageCode": "fa",
-        "tzName": "وقت عادی شرق اروپا"
-      },
-      {
-        "languageCode": "de",
-        "tzName": "Osteuropäische Normalzeit"
-      },
-      {
-        "languageCode": "es",
-        "tzName": "hora estándar de Europa oriental"
-      },
-      {
-        "languageCode": "fr",
-        "tzName": "heure normale d’Europe de l’Est"
-      },
-      {
-        "languageCode": "ja",
-        "tzName": "東ヨーロッパ標準時"
-      },
-      {
-        "languageCode": "it",
-        "tzName": "Ora standard dell’Europa orientale"
-      },
-      {
-        "languageCode": "zh-CN",
-        "tzName": "东欧标准时间"
-      },
-      {
-        "languageCode": "tr",
-        "tzName": "Doğu Avrupa Standart Saati"
-      },
-      {
-        "languageCode": "ru",
-        "tzName": "Восточная Европа, стандартное время"
-      },
-      {
-        "languageCode": "uk",
-        "tzName": "за східноєвропейським стандартним часом"
-      },
-      {
-        "languageCode": "pl",
-        "tzName": "czas wschodnioeuropejski standardowy"
-      }
-    ],
-    "exemplarCity": "Uzhgorod"
-  },
-  {
-    "id": 2599,
-    "zoneName": "Europe/Zaporozhye",
-    "gmtOffset": 7200,
-    "gmtOffsetName": "UTC+02:00",
-    "abbreviation": "EET",
-    "tzName": "Eastern European Standard Time",
-    "translations": [
-      {
-        "languageCode": "ko",
-        "tzName": "동유럽 표준시"
-      },
-      {
-        "languageCode": "pt",
-        "tzName": "Horário Padrão da Europa Oriental"
-      },
-      {
-        "languageCode": "pt-BR",
-        "tzName": "Horário Padrão da Europa Oriental"
-      },
-      {
-        "languageCode": "nl",
-        "tzName": "Oost-Europese standaardtijd"
-      },
-      {
-        "languageCode": "hr",
-        "tzName": "istočnoeuropsko standardno vrijeme"
-      },
-      {
-        "languageCode": "fa",
-        "tzName": "وقت عادی شرق اروپا"
-      },
-      {
-        "languageCode": "de",
-        "tzName": "Osteuropäische Normalzeit"
-      },
-      {
-        "languageCode": "es",
-        "tzName": "hora estándar de Europa oriental"
-      },
-      {
-        "languageCode": "fr",
-        "tzName": "heure normale d’Europe de l’Est"
-      },
-      {
-        "languageCode": "ja",
-        "tzName": "東ヨーロッパ標準時"
-      },
-      {
-        "languageCode": "it",
-        "tzName": "Ora standard dell’Europa orientale"
-      },
-      {
-        "languageCode": "zh-CN",
-        "tzName": "东欧标准时间"
-      },
-      {
-        "languageCode": "tr",
-        "tzName": "Doğu Avrupa Standart Saati"
-      },
-      {
-        "languageCode": "ru",
-        "tzName": "Восточная Европа, стандартное время"
-      },
-      {
-        "languageCode": "uk",
-        "tzName": "за східноєвропейським стандартним часом"
-      },
-      {
-        "languageCode": "pl",
-        "tzName": "czas wschodnioeuropejski standardowy"
-      }
-    ],
-    "exemplarCity": "Zaporozhye"
   },
   {
     "id": 2600,
@@ -30679,7 +29854,7 @@
     "zoneName": "Africa/El_Aaiun",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
-    "abbreviation": "WEST",
+    "abbreviation": "+01",
     "tzName": "Western Sahara Time",
     "translations": [
       {
@@ -30973,5 +30148,1205 @@
       }
     ],
     "exemplarCity": "Harare"
+  },
+  {
+    "id": 2596,
+    "zoneName": "Europe/Kyiv",
+    "gmtOffset": 7200,
+    "gmtOffsetName": "UTC+02:00",
+    "abbreviation": "EET",
+    "tzName": "Eastern European Standard Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "동유럽 표준시"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário Padrão da Europa Oriental"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário Padrão da Europa Oriental"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Oost-Europese standaardtijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "istočnoeuropsko standardno vrijeme"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت عادی شرق اروپا"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Osteuropäische Normalzeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora estándar de Europa oriental"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure normale d’Europe de l’Est"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "東ヨーロッパ標準時"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora standard dell’Europa orientale"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "东欧标准时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Doğu Avrupa Standart Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Восточная Европа, стандартное время"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за східноєвропейським стандартним часом"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas wschodnioeuropejski standardowy"
+      }
+    ],
+    "exemplarCity": "Kyiv"
+  },
+  {
+    "id": 2429,
+    "zoneName": "Pacific/Kanton",
+    "gmtOffset": 46800,
+    "gmtOffsetName": "UTC+13:00",
+    "abbreviation": "PHOT",
+    "tzName": "Phoenix Islands Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "피닉스 제도 시간"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário das Ilhas Fênix"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário das Ilhas Fênix"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Phoenixeilandse tijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "vrijeme Otoka Phoenix"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت جزایر فونیکس"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Phoenixinseln-Zeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora de las Islas Fénix"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure des îles Phoenix"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "フェニックス諸島時間"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora delle Isole della Fenice"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "菲尼克斯群岛时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Phoenix Adaları Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "о-ва Феникс"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за часом на островах Фенікс"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas Feniks"
+      }
+    ],
+    "exemplarCity": "Kanton"
+  },
+  {
+    "id": 2647,
+    "zoneName": "Antarctica/Casey",
+    "gmtOffset": 28800,
+    "gmtOffsetName": "UTC+08:00",
+    "abbreviation": "+08",
+    "tzName": "Australian Western Standard Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "호주 서부 표준시"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário Padrão da Austrália Ocidental"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário Padrão da Austrália Ocidental"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "West-Australische standaardtijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "zapadnoaustralsko standardno vrijeme"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت عادی استرالیای غربی"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Westaustralische Normalzeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora estándar de Australia occidental"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure normale de l’Ouest de l’Australie"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "オーストラリア西部標準時"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora standard dell’Australia occidentale"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "澳大利亚西部标准时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Batı Avustralya Standart Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Западная Австралия, стандартное время"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за стандартним західноавстралійським часом"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas zachodnioaustralijski standardowy"
+      }
+    ],
+    "exemplarCity": "Casey"
+  },
+  {
+    "id": 2648,
+    "zoneName": "Antarctica/Davis",
+    "gmtOffset": 25200,
+    "gmtOffsetName": "UTC+07:00",
+    "abbreviation": "+07",
+    "tzName": "Davis Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "데이비스 시간"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário de Davis"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário de Davis"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Davis-tijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "vrijeme Davisa"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت دیویس"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Davis-Zeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora de Davis"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure de Davis"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "デービス基地時間"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora di Davis"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "戴维斯时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Davis Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Дейвис"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за часом на станції Девіс"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas Davis"
+      }
+    ],
+    "exemplarCity": "Davis"
+  },
+  {
+    "id": 2649,
+    "zoneName": "Antarctica/DumontDUrville",
+    "gmtOffset": 36000,
+    "gmtOffsetName": "UTC+10:00",
+    "abbreviation": "+10",
+    "tzName": "Dumont d’Urville Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "뒤몽뒤르빌 시간"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário de Dumont-d’Urville"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário de Dumont-d’Urville"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Dumont-d’Urville-tijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "vrijeme Dumont-d’Urvillea"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت دومون دورویل"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Dumont-d’Urville-Zeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora de Dumont-d’Urville"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure de Dumont-d’Urville"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "デュモン・デュルヴィル基地時間"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora di Dumont-d’Urville"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "迪蒙·迪维尔时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Dumont-d’Urville Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Дюмон-д’Юрвиль"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за часом на станції Дюмон дʼЮрвіль"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas Dumont-d’Urville"
+      }
+    ],
+    "exemplarCity": "Dumont d’Urville"
+  },
+  {
+    "id": 2650,
+    "zoneName": "Antarctica/Mawson",
+    "gmtOffset": 18000,
+    "gmtOffsetName": "UTC+05:00",
+    "abbreviation": "+05",
+    "tzName": "Mawson Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "모슨 시간"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário de Mawson"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário de Mawson"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Mawson-tijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "mawsonsko vrijeme"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت ماوسون"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Mawson-Zeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora de Mawson"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure de Mawson"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "モーソン基地時間"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora di Mawson"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "莫森时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Mawson Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Моусон"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за часом на станції Моусон"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas Mawson"
+      }
+    ],
+    "exemplarCity": "Mawson"
+  },
+  {
+    "id": 2651,
+    "zoneName": "Antarctica/McMurdo",
+    "gmtOffset": 43200,
+    "gmtOffsetName": "UTC+12:00",
+    "abbreviation": "+12",
+    "tzName": "New Zealand Standard Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "뉴질랜드 표준시"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário Padrão da Nova Zelândia"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário Padrão da Nova Zelândia"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Nieuw-Zeelandse standaardtijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "novozelandsko standardno vrijeme"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت عادی نیوزیلند"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Neuseeland-Normalzeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora estándar de Nueva Zelanda"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure normale de la Nouvelle-Zélande"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "ニュージーランド標準時"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora standard della Nuova Zelanda"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "新西兰标准时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Yeni Zelanda Standart Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Новая Зеландия, стандартное время"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за стандартним часом у Новій Зеландії"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "Nowa Zelandia (czas standardowy)"
+      }
+    ],
+    "exemplarCity": "McMurdo"
+  },
+  {
+    "id": 2652,
+    "zoneName": "Antarctica/Palmer",
+    "gmtOffset": -10800,
+    "gmtOffsetName": "UTC-03:00",
+    "abbreviation": "-03",
+    "tzName": "Palmer Land Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "파머 시간"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário Palmer"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário Palmer"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "tijd in Palmer"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "GMT -03:00"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "‎−۰۳:۰۰ گرینویچ"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Palmer (Ortszeit)"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora de Palmer"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure : Palmer"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "パーマー基地時間"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora Palmer"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "帕尔默时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Palmer Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Палмер"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "час: Палмер"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas: Palmer"
+      }
+    ],
+    "exemplarCity": "Palmer"
+  },
+  {
+    "id": 2653,
+    "zoneName": "Antarctica/Rothera",
+    "gmtOffset": -10800,
+    "gmtOffsetName": "UTC-03:00",
+    "abbreviation": "-03",
+    "tzName": "Rothera Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "로데라 시간"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário de Rothera"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário de Rothera"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Rothera-tijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "vrijeme Rothere"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت روترا"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Rothera-Zeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora de Rothera"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure de Rothera"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "ロゼラ基地時間"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora di Rothera"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "罗瑟拉时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Rothera Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Ротера"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за часом на станції Ротера"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas Rothera"
+      }
+    ],
+    "exemplarCity": "Rothera"
+  },
+  {
+    "id": 2654,
+    "zoneName": "Antarctica/Syowa",
+    "gmtOffset": 10800,
+    "gmtOffsetName": "UTC+03:00",
+    "abbreviation": "+03",
+    "tzName": "Syowa Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "쇼와 시간"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário de Syowa"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário de Syowa"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Syowa-tijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "vrijeme Syowe"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت شووا"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Syowa-Zeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora de Syowa"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure de Syowa"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "昭和基地時間"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora di Syowa"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "昭和时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Showa Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Сёва"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за часом на станції Сева"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas Syowa"
+      }
+    ],
+    "exemplarCity": "Syowa"
+  },
+  {
+    "id": 2655,
+    "zoneName": "Antarctica/Troll",
+    "gmtOffset": 0,
+    "gmtOffsetName": "UTC+00:00",
+    "abbreviation": "+00",
+    "tzName": "Troll Station Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "트롤 시간"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário Troll"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário Troll"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "tijd in Troll"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "Troll"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "‎+۰۲:۰۰ گرینویچ"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Troll (Ortszeit)"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora de Troll"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure : Troll"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "トロル基地時間"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora Troll"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "特罗尔时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Troll Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Тролль"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "час: Тролл"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas: Troll"
+      }
+    ],
+    "exemplarCity": "Troll"
+  },
+  {
+    "id": 2656,
+    "zoneName": "Antarctica/Vostok",
+    "gmtOffset": 18000,
+    "gmtOffsetName": "UTC+05:00",
+    "abbreviation": "+05",
+    "tzName": "Vostok Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "보스톡 시간"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário de Vostok"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário de Vostok"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Vostok-tijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "vostočko vrijeme"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت وستوک"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Wostok-Zeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora de Vostok"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure de Vostok"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "ボストーク基地時間"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora di Vostok"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "沃斯托克时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Vostok Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Восток"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за часом на станції Восток"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas Wostok"
+      }
+    ],
+    "exemplarCity": "Vostok"
+  },
+  {
+    "id": 2657,
+    "zoneName": "America/Ciudad_Juarez",
+    "gmtOffset": -25200,
+    "gmtOffsetName": "UTC-07:00",
+    "abbreviation": "MST",
+    "tzName": "Mountain Standard Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "미 산악 표준시"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário Padrão das Montanhas"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário Padrão das Montanhas"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Mountain-standaardtijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "planinsko standardno vrijeme"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت عادی کوهستانی امریکا"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Rocky-Mountains-Normalzeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora estándar de las Montañas Rocosas"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure normale des Rocheuses"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "米国山岳標準時"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora standard Montagne Rocciose USA"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "北美山区标准时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Kuzey Amerika Dağ Standart Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Стандартное горное время (Северная Америка)"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за північноамериканським гірським стандартним часом"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas górski standardowy"
+      }
+    ],
+    "exemplarCity": "Ciudad Juarez"
+  },
+  {
+    "id": 2658,
+    "zoneName": "America/Coyhaique",
+    "gmtOffset": -10800,
+    "gmtOffsetName": "UTC-03:00",
+    "abbreviation": "-03",
+    "tzName": "Coyhaique Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "코이아이케 시간"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário Coihaique"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário Coihaique"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "tijd in Coyhaique"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "GMT -03:00"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "‎−۰۳:۰۰ گرینویچ"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Coyhaique (Ortszeit)"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora de Coyhaique"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure : Coyhaique"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "コジャイケ時間"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora Coyhaique"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "科伊艾克时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Coyhaique Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Койайке"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "час: Кояїке"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas: Coyhaique"
+      }
+    ],
+    "exemplarCity": "Coyhaique"
+  },
+  {
+    "id": 2659,
+    "zoneName": "America/Kralendijk",
+    "gmtOffset": -14400,
+    "gmtOffsetName": "UTC-04:00",
+    "abbreviation": "AST",
+    "tzName": "Atlantic Standard Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "대서양 표준시"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário Padrão do Atlântico"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário Padrão do Atlântico"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Atlantic-standaardtijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "atlantsko standardno vrijeme"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت عادی آتلانتیک"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Atlantik-Normalzeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora estándar del Atlántico"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure normale de l’Atlantique"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "大西洋標準時"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora standard dell’Atlantico"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "大西洋标准时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Atlantik Standart Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Атлантическое стандартное время"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за атлантичним стандартним часом"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas atlantycki standardowy"
+      }
+    ],
+    "exemplarCity": "Kralendijk"
+  },
+  {
+    "id": 2660,
+    "zoneName": "America/Lower_Princes",
+    "gmtOffset": -14400,
+    "gmtOffsetName": "UTC-04:00",
+    "abbreviation": "AST",
+    "tzName": "Atlantic Standard Time",
+    "translations": [
+      {
+        "languageCode": "ko",
+        "tzName": "대서양 표준시"
+      },
+      {
+        "languageCode": "pt",
+        "tzName": "Horário Padrão do Atlântico"
+      },
+      {
+        "languageCode": "pt-BR",
+        "tzName": "Horário Padrão do Atlântico"
+      },
+      {
+        "languageCode": "nl",
+        "tzName": "Atlantic-standaardtijd"
+      },
+      {
+        "languageCode": "hr",
+        "tzName": "atlantsko standardno vrijeme"
+      },
+      {
+        "languageCode": "fa",
+        "tzName": "وقت عادی آتلانتیک"
+      },
+      {
+        "languageCode": "de",
+        "tzName": "Atlantik-Normalzeit"
+      },
+      {
+        "languageCode": "es",
+        "tzName": "hora estándar del Atlántico"
+      },
+      {
+        "languageCode": "fr",
+        "tzName": "heure normale de l’Atlantique"
+      },
+      {
+        "languageCode": "ja",
+        "tzName": "大西洋標準時"
+      },
+      {
+        "languageCode": "it",
+        "tzName": "Ora standard dell’Atlantico"
+      },
+      {
+        "languageCode": "zh-CN",
+        "tzName": "大西洋标准时间"
+      },
+      {
+        "languageCode": "tr",
+        "tzName": "Atlantik Standart Saati"
+      },
+      {
+        "languageCode": "ru",
+        "tzName": "Атлантическое стандартное время"
+      },
+      {
+        "languageCode": "uk",
+        "tzName": "за атлантичним стандартним часом"
+      },
+      {
+        "languageCode": "pl",
+        "tzName": "czas atlantycki standardowy"
+      }
+    ],
+    "exemplarCity": "Lower Princes"
   }
 ]

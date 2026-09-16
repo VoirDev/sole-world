@@ -581,7 +581,7 @@ just running more containers.
 
 ### Resources
 
-The dataset is held in memory. On the bundled data — 247 countries, 5,069 states, 150,375 cities —
+The dataset is held in memory. On the bundled data — 250 countries, 5,069 states, 150,375 cities —
 the **live heap settles at roughly 110 MB** after a full collection, and the service starts in about
 two seconds. The Compose file sets a 768 MB limit.
 

@@ -1,0 +1,102 @@
+{
+  "id": 9,
+  "name": "Antarctica",
+  "nativeName": "Antarctica",
+  "iso2": "AQ",
+  "iso3": "ATA",
+  "numericCode": "010",
+  "phoneCode": "672",
+  "tld": ".aq",
+  "latitude": -75.25,
+  "longitude": -0.07,
+  "flagId": 250,
+  "regionId": 6,
+  "subregionId": 23,
+  "currencyIds": [],
+  "timezoneIds": [
+    2647,
+    2648,
+    2649,
+    2650,
+    2651,
+    2652,
+    2653,
+    2654,
+    2655,
+    2656
+  ],
+  "officialLanguageIds": [],
+  "otherLanguageIds": [
+    30,
+    33,
+    46,
+    47
+  ],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "남극 대륙"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Antártida"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Antártida"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Antarctica"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Antarktika"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جنوبگان"
+    },
+    {
+      "languageCode": "de",
+      "name": "Antarktis"
+    },
+    {
+      "languageCode": "es",
+      "name": "Antártida"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Antarctique"
+    },
+    {
+      "languageCode": "ja",
+      "name": "南極"
+    },
+    {
+      "languageCode": "it",
+      "name": "Antartide"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "南极洲"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Antarktika"
+    },
+    {
+      "languageCode": "ru",
+      "name": "Антарктида"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Антарктика"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Antarktyda"
+    }
+  ],
+  "states": []
+}

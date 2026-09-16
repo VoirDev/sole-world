@@ -68,17 +68,38 @@ class PaginationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
                 "$field should return different records on adjacent pages",
             )
 
+            // Page counts are read from the listing rather than hard coded, so that seeding one
+            // more record into a fixture collection does not read as a pagination failure.
+            val totalItems = first.at("/pageInfo/totalItems").intValue()
+
             assertEquals(0, first.at("/pageInfo/page").intValue(), "$field first page number")
             assertEquals(1, second.at("/pageInfo/page").intValue(), "$field second page number")
             assertEquals(1, first.at("/pageInfo/size").intValue(), "$field first page size")
             assertEquals(1, second.at("/pageInfo/size").intValue(), "$field second page size")
-            assertEquals(2, first.at("/pageInfo/totalItems").intValue(), "$field first total items")
-            assertEquals(2, second.at("/pageInfo/totalItems").intValue(), "$field second total items")
-            assertEquals(2, first.at("/pageInfo/totalPages").intValue(), "$field first total pages")
-            assertEquals(2, second.at("/pageInfo/totalPages").intValue(), "$field second total pages")
+            assertTrue(totalItems >= 2, "$field needs at least two records to page through")
+            assertEquals(
+                totalItems,
+                second.at("/pageInfo/totalItems").intValue(),
+                "$field second total items",
+            )
+            // One record per page, so a page exists for each record.
+            assertEquals(
+                totalItems,
+                first.at("/pageInfo/totalPages").intValue(),
+                "$field first total pages",
+            )
+            assertEquals(
+                totalItems,
+                second.at("/pageInfo/totalPages").intValue(),
+                "$field second total pages",
+            )
             assertTrue(first.at("/pageInfo/hasNextPage").booleanValue(), "$field first has next")
             assertFalse(first.at("/pageInfo/hasPreviousPage").booleanValue(), "$field first has previous")
-            assertFalse(second.at("/pageInfo/hasNextPage").booleanValue(), "$field second has next")
+            assertEquals(
+                totalItems > 2,
+                second.at("/pageInfo/hasNextPage").booleanValue(),
+                "$field second has next",
+            )
             assertTrue(second.at("/pageInfo/hasPreviousPage").booleanValue(), "$field second has previous")
         }
     }

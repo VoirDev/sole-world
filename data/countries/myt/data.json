@@ -18,7 +18,9 @@
   "timezoneIds": [
     2458
   ],
-  "officialLanguageIds": [],
+  "officialLanguageIds": [
+    33
+  ],
   "otherLanguageIds": [],
   "translations": [
     {

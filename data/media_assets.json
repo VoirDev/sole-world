@@ -4994,7 +4994,7 @@
     "id": 162,
     "type": "image",
     "key": "hm",
-    "description": "hm image, square",
+    "description": "Heard Island and McDonald Islands flag, square",
     "imageAspectRatio": "square",
     "imageFormats": {
       "svg": "assets/flags/hm_1x1.svg",
@@ -6637,7 +6637,7 @@
     "id": 215,
     "type": "image",
     "key": "cw",
-    "description": "cw image, square",
+    "description": "Curaçao flag, square",
     "imageAspectRatio": "square",
     "imageFormats": {
       "svg": "assets/flags/cw_1x1.svg",
@@ -6668,7 +6668,7 @@
     "id": 216,
     "type": "image",
     "key": "cv",
-    "description": "Curaçao flag, square",
+    "description": "Cape Verde flag, square",
     "imageAspectRatio": "square",
     "imageFormats": {
       "svg": "assets/flags/cv_1x1.svg",
@@ -7288,7 +7288,7 @@
     "id": 236,
     "type": "image",
     "key": "bv",
-    "description": "bv image, square",
+    "description": "Bouvet Island flag, square",
     "imageAspectRatio": "square",
     "imageFormats": {
       "svg": "assets/flags/bv_1x1.svg",
@@ -7815,7 +7815,7 @@
     "id": 253,
     "type": "image",
     "key": "ba",
-    "description": "ba image, square",
+    "description": "Bosnia and Herzegovina flag, square",
     "imageAspectRatio": "square",
     "imageFormats": {
       "svg": "assets/flags/ba_1x1.svg",
@@ -7908,7 +7908,7 @@
     "id": 256,
     "type": "image",
     "key": "aw",
-    "description": "Bosnia and Herzegovina flag, square",
+    "description": "Aruba flag, square",
     "imageAspectRatio": "square",
     "imageFormats": {
       "svg": "assets/flags/aw_1x1.svg",
@@ -8125,7 +8125,7 @@
     "id": 263,
     "type": "image",
     "key": "aq",
-    "description": "aq image, square",
+    "description": "Antarctica flag, square",
     "imageAspectRatio": "square",
     "imageFormats": {
       "svg": "assets/flags/aq_1x1.svg",
@@ -13395,7 +13395,7 @@
     "id": 433,
     "type": "image",
     "key": "hm",
-    "description": "hm image, wide",
+    "description": "Heard Island and McDonald Islands flag, wide",
     "imageAspectRatio": "wide",
     "imageFormats": {
       "svg": "assets/flags/hm_4x3.svg",
@@ -15038,7 +15038,7 @@
     "id": 486,
     "type": "image",
     "key": "cw",
-    "description": "cw image, wide",
+    "description": "Curaçao flag, wide",
     "imageAspectRatio": "wide",
     "imageFormats": {
       "svg": "assets/flags/cw_4x3.svg",
@@ -15069,7 +15069,7 @@
     "id": 487,
     "type": "image",
     "key": "cv",
-    "description": "Curaçao flag, wide",
+    "description": "Cape Verde flag, wide",
     "imageAspectRatio": "wide",
     "imageFormats": {
       "svg": "assets/flags/cv_4x3.svg",
@@ -15689,7 +15689,7 @@
     "id": 507,
     "type": "image",
     "key": "bv",
-    "description": "bv image, wide",
+    "description": "Bouvet Island flag, wide",
     "imageAspectRatio": "wide",
     "imageFormats": {
       "svg": "assets/flags/bv_4x3.svg",
@@ -16216,7 +16216,7 @@
     "id": 524,
     "type": "image",
     "key": "ba",
-    "description": "ba image, wide",
+    "description": "Bosnia and Herzegovina flag, wide",
     "imageAspectRatio": "wide",
     "imageFormats": {
       "svg": "assets/flags/ba_4x3.svg",
@@ -16309,7 +16309,7 @@
     "id": 527,
     "type": "image",
     "key": "aw",
-    "description": "Bosnia and Herzegovina flag, wide",
+    "description": "Aruba flag, wide",
     "imageAspectRatio": "wide",
     "imageFormats": {
       "svg": "assets/flags/aw_4x3.svg",
@@ -16526,7 +16526,7 @@
     "id": 534,
     "type": "image",
     "key": "aq",
-    "description": "aq image, wide",
+    "description": "Antarctica flag, wide",
     "imageAspectRatio": "wide",
     "imageFormats": {
       "svg": "assets/flags/aq_4x3.svg",

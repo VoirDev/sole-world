@@ -1996,6 +1996,78 @@
         "name": "Antarktyda"
       }
     ],
-    "subregions": []
+    "subregions": [
+      {
+        "id": 23,
+        "name": "Antarctica",
+        "wikiDataId": "Q51",
+        "translations": [
+          {
+            "languageCode": "ko",
+            "name": "남극 대륙"
+          },
+          {
+            "languageCode": "pt-BR",
+            "name": "Antártida"
+          },
+          {
+            "languageCode": "pt",
+            "name": "Antártida"
+          },
+          {
+            "languageCode": "nl",
+            "name": "Antarctica"
+          },
+          {
+            "languageCode": "hr",
+            "name": "Antarktika"
+          },
+          {
+            "languageCode": "fa",
+            "name": "جنوبگان"
+          },
+          {
+            "languageCode": "de",
+            "name": "Antarktis"
+          },
+          {
+            "languageCode": "es",
+            "name": "Antártida"
+          },
+          {
+            "languageCode": "fr",
+            "name": "Antarctique"
+          },
+          {
+            "languageCode": "ja",
+            "name": "南極"
+          },
+          {
+            "languageCode": "it",
+            "name": "Antartide"
+          },
+          {
+            "languageCode": "zh-CN",
+            "name": "南极洲"
+          },
+          {
+            "languageCode": "tr",
+            "name": "Antarktika"
+          },
+          {
+            "languageCode": "ru",
+            "name": "Антарктида"
+          },
+          {
+            "languageCode": "uk",
+            "name": "Антарктика"
+          },
+          {
+            "languageCode": "pl",
+            "name": "Antarktyda"
+          }
+        ]
+      }
+    ]
   }
 ]
