@@ -10,7 +10,7 @@ plugins {
     alias(libs.plugins.openapi.generator) apply false
 }
 
-val projectVersion = providers.gradleProperty("releaseVersion").orElse("1.0.2").get()
+val projectVersion = providers.gradleProperty("releaseVersion").orElse("1.0.3").get()
 
 group = "dev.voir.sole.world"
 version = projectVersion
