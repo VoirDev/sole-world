@@ -19,7 +19,9 @@
     2447,
     2448
   ],
-  "officialLanguageIds": [],
+  "officialLanguageIds": [
+    122
+  ],
   "otherLanguageIds": [
     30
   ],

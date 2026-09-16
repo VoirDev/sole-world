@@ -18,5 +18,14 @@
     "description": "Seeded secondary language",
     "flagId": 1002,
     "translations": []
+  },
+  {
+    "id": 203,
+    "code": "ru",
+    "nativeName": "Русский",
+    "name": "Russian",
+    "description": "The language the fixture's translations are written in",
+    "flagId": null,
+    "translations": []
   }
 ]

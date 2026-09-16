@@ -18,11 +18,12 @@
   "timezoneIds": [
     2443
   ],
-  "officialLanguageIds": [],
-  "otherLanguageIds": [
-    34,
-    33
+  "officialLanguageIds": [
+    110,
+    33,
+    34
   ],
+  "otherLanguageIds": [],
   "translations": [
     {
       "languageCode": "ko",

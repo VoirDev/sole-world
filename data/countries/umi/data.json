@@ -19,7 +19,9 @@
     2631,
     2632
   ],
-  "officialLanguageIds": [],
+  "officialLanguageIds": [
+    30
+  ],
   "otherLanguageIds": [],
   "translations": [
     {

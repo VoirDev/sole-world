@@ -19,6 +19,9 @@ object DatasetIntegrity {
     private const val SQUARE = "square"
     private const val WIDE = "wide"
 
+    /** Unicode regional indicator symbols A to Z, the pair that spells a flag emoji. */
+    private val REGIONAL_INDICATOR = 0x1F1E6..0x1F1FF
+
     /**
      * Verifies every cross-reference in a parsed dataset.
      * @param dataset Freshly parsed dataset.
@@ -63,6 +66,15 @@ object DatasetIntegrity {
             // key. This is what catches a flag that copied a neighbour's image id.
             if (square != null && wide != null && square.key != wide.key) {
                 problems.differentPictures(flag.id, square.key, wide.key)
+            }
+
+            // Copying a neighbour's flag wholesale keeps both renditions in step, so the check
+            // above cannot see it. The emoji says which country the flag is for, and the asset key
+            // says which country the picture is of; when they disagree the flag serves the wrong
+            // country's colours, which is exactly how Curaçao came to show the Cape Verde flag.
+            val territory = territoryOf(flag.emoji)
+            if (territory != null && square != null && square.key != territory) {
+                problems.wrongTerritory(flag.id, flag.caption, territory, square.key)
             }
         }
 
@@ -129,7 +141,78 @@ object DatasetIntegrity {
             )
         }
 
+        checkTranslationLanguages(dataset, problems)
+
         problems.failIfAny()
+    }
+
+    /**
+     * Verifies that every translation is tagged with a language the dataset knows.
+     *
+     * A translation's `languageCode` is a language tag rather than a foreign key, so nothing above
+     * could catch one that names a language the dataset does not carry. It reads as a missing
+     * translation instead of a broken row: the locale simply never matches, and the caller is
+     * served base data for a name that was in fact translated. Region-qualified tags such as
+     * `pt-BR` are legitimate, and are checked through their primary subtag.
+     */
+    private fun checkTranslationLanguages(dataset: RawDataset, problems: Problems) {
+        val known = dataset.languages.mapTo(HashSet()) { it.code.lowercase() }
+
+        fun check(what: String, codes: List<String>) {
+            for (code in codes) {
+                if (code.substringBefore('-').lowercase() !in known) {
+                    problems.unknownLanguage(what, code)
+                }
+            }
+        }
+
+        for (region in dataset.regions) {
+            check("region ${region.id}", region.translations.map { it.languageCode })
+            for (subregion in region.subregions) {
+                check("subregion ${subregion.id}", subregion.translations.map { it.languageCode })
+            }
+        }
+        for (timezone in dataset.timezones) {
+            check("timezone ${timezone.id}", timezone.translations.map { it.languageCode })
+        }
+        for (currency in dataset.currencies) {
+            check("currency ${currency.id}", currency.translations.map { it.languageCode })
+        }
+        for (language in dataset.languages) {
+            check("language ${language.id}", language.translations.map { it.languageCode })
+        }
+        for (bank in dataset.centralBanks) {
+            check("central bank ${bank.id}", bank.translations.map { it.languageCode })
+        }
+        for (country in dataset.countries) {
+            check("country ${country.id}", country.translations.map { it.languageCode })
+            for (state in country.states) {
+                check("state ${state.id}", state.translations.map { it.languageCode })
+                for (city in state.cities) {
+                    check("city ${city.id}", city.translations.map { it.languageCode })
+                }
+            }
+        }
+    }
+
+    /**
+     * Reads the territory a flag emoji stands for, as a lowercase ISO 3166-1 alpha-2 code.
+     *
+     * A country flag emoji is a pair of regional indicator symbols spelling that code. Subdivision
+     * and organisation flags are drawn some other way, and have no code to check against.
+     *
+     * @param emoji Flag emoji from the record.
+     * @return Territory code, or null when the emoji does not name one.
+     */
+    private fun territoryOf(emoji: String): String? {
+        val indicators = emoji.codePoints().toArray().filter { it in REGIONAL_INDICATOR }
+        if (indicators.size != 2 || indicators.size != emoji.codePoints().count().toInt()) {
+            return null
+        }
+
+        return indicators
+            .map { 'a' + (it - REGIONAL_INDICATOR.first) }
+            .joinToString("")
     }
 
     /** Collects every problem found so one startup failure can report all of them. */
@@ -161,6 +244,19 @@ object DatasetIntegrity {
         /** Records a reference to an image of the wrong aspect ratio. */
         fun wrongShape(what: String, assetId: Long, actual: String, expected: String) {
             add("media assets of the wrong shape", "$what=$assetId is $actual, expected $expected")
+        }
+
+        /** Records a translation tagged with a language the dataset does not carry. */
+        fun unknownLanguage(what: String, code: String) {
+            add("translations in a language the dataset does not carry", "$what languageCode='$code'")
+        }
+
+        /** Records a flag whose picture belongs to a different territory than its emoji. */
+        fun wrongTerritory(flagId: Long, caption: String, expected: String, actual: String) {
+            add(
+                "flags showing another territory's picture",
+                "flag $flagId '$caption' expects '$expected' but shows '$actual'",
+            )
         }
 
         /** Records a flag whose two renditions are pictures of different things. */

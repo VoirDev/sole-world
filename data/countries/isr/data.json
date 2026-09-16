@@ -21,7 +21,9 @@
   "officialLanguageIds": [
     36
   ],
-  "otherLanguageIds": [],
+  "otherLanguageIds": [
+    7
+  ],
   "translations": [
     {
       "languageCode": "ko",

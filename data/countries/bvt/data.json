@@ -1,0 +1,90 @@
+{
+  "id": 30,
+  "name": "Bouvet Island",
+  "nativeName": "Bouvetøya",
+  "iso2": "BV",
+  "iso3": "BVT",
+  "numericCode": "074",
+  "phoneCode": "47",
+  "tld": ".bv",
+  "latitude": -54.43,
+  "longitude": 3.41,
+  "flagId": 251,
+  "regionId": 6,
+  "subregionId": 23,
+  "currencyIds": [
+    935
+  ],
+  "timezoneIds": [],
+  "officialLanguageIds": [
+    61
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "부베섬"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilha Bouvet"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilha Bouvet"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Bouveteiland"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Otok Bouvet"
+    },
+    {
+      "languageCode": "fa",
+      "name": "جزیرهٔ بووه"
+    },
+    {
+      "languageCode": "de",
+      "name": "Bouvetinsel"
+    },
+    {
+      "languageCode": "es",
+      "name": "Isla Bouvet"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Île Bouvet"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ブーベ島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isola Bouvet"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "布韦岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Bouvet Adası"
+    },
+    {
+      "languageCode": "ru",
+      "name": "о-в Буве"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Острів Буве"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspa Bouveta"
+    }
+  ],
+  "states": []
+}

@@ -1,0 +1,92 @@
+{
+  "id": 96,
+  "name": "Heard Island and McDonald Islands",
+  "nativeName": "Heard Island and McDonald Islands",
+  "iso2": "HM",
+  "iso3": "HMD",
+  "numericCode": "334",
+  "phoneCode": "672",
+  "tld": ".hm",
+  "latitude": -53.08,
+  "longitude": 73.51,
+  "flagId": 252,
+  "regionId": 6,
+  "subregionId": 23,
+  "currencyIds": [
+    844
+  ],
+  "timezoneIds": [
+    2382
+  ],
+  "officialLanguageIds": [
+    30
+  ],
+  "otherLanguageIds": [],
+  "translations": [
+    {
+      "languageCode": "ko",
+      "name": "허드 맥도널드 제도"
+    },
+    {
+      "languageCode": "pt",
+      "name": "Ilhas Heard e McDonald"
+    },
+    {
+      "languageCode": "pt-BR",
+      "name": "Ilhas Heard e McDonald"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Heard en McDonaldeilanden"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Otoci Heard i McDonald"
+    },
+    {
+      "languageCode": "fa",
+      "name": "هرد و جزایر مک‌دونالد"
+    },
+    {
+      "languageCode": "de",
+      "name": "Heard und McDonaldinseln"
+    },
+    {
+      "languageCode": "es",
+      "name": "Islas Heard y McDonald"
+    },
+    {
+      "languageCode": "fr",
+      "name": "Îles Heard-et-MacDonald"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ハード島・マクドナルド諸島"
+    },
+    {
+      "languageCode": "it",
+      "name": "Isole Heard e McDonald"
+    },
+    {
+      "languageCode": "zh-CN",
+      "name": "赫德岛和麦克唐纳群岛"
+    },
+    {
+      "languageCode": "tr",
+      "name": "Heard Adası ve McDonald Adaları"
+    },
+    {
+      "languageCode": "ru",
+      "name": "о-ва Херд и Макдональд"
+    },
+    {
+      "languageCode": "uk",
+      "name": "Острови Герд і Макдоналд"
+    },
+    {
+      "languageCode": "pl",
+      "name": "Wyspy Heard i McDonalda"
+    }
+  ],
+  "states": []
+}
