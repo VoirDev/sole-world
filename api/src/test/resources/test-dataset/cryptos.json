@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "code": "frc",
+    "alias": "freecoin",
+    "name": "Freecoin",
+    "description": "The coin of Freedonia.",
+    "websiteUrl": "https://freecoin.example",
+    "introducedYear": 2011,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": 9001
+  },
+  {
+    "id": 2,
+    "code": "syl",
+    "alias": "sylvacoin",
+    "name": "Sylvacoin",
+    "description": null,
+    "websiteUrl": null,
+    "introducedYear": 2019,
+    "decimalDigits": 2,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null
+  },
+  {
+    "id": 3,
+    "code": "old",
+    "alias": "oldcoin",
+    "name": "Oldcoin",
+    "description": "Wound down in 2015.",
+    "websiteUrl": null,
+    "introducedYear": 2010,
+    "decimalDigits": 4,
+    "obsolete": true,
+    "obsoleteAt": "2015-06-30",
+    "logoId": null
+  }
+]

@@ -404,7 +404,7 @@
     "caption": "Slovenia",
     "emoji": "🇸🇮",
     "emojiU": "U+1F1F8 U+1F1EE",
-    "square": 54,
+    "square": 53,
     "wide": 324
   },
   {
@@ -1380,7 +1380,7 @@
     "caption": "India",
     "emoji": "🇮🇳",
     "emojiU": "U+1F1EE U+1F1F3",
-    "square": 182,
+    "square": 152,
     "wide": 423
   },
   {
@@ -1692,7 +1692,7 @@
     "caption": "Chile",
     "emoji": "🇨🇱",
     "emojiU": "U+1F1E8 U+1F1F1",
-    "square": 233,
+    "square": 223,
     "wide": 494
   },
   {
@@ -1980,8 +1980,8 @@
     "caption": "Cyprus",
     "emoji": "🇨🇾",
     "emojiU": "U+1F1E8 U+1F1FE",
-    "square": 484,
-    "wide": 213
+    "square": 213,
+    "wide": 484
   },
   {
     "id": 249,

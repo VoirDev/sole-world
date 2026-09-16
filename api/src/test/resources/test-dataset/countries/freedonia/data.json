@@ -1,0 +1,58 @@
+{
+  "id": 1,
+  "name": "Freedonia",
+  "nativeName": "Freedonia Native",
+  "iso2": "FD",
+  "iso3": "FRE",
+  "numericCode": "901",
+  "phoneCode": "+11",
+  "tld": ".fd",
+  "latitude": 45.1,
+  "longitude": 19.2,
+  "flagId": 1001,
+  "regionId": 10,
+  "subregionId": 20,
+  "currencyIds": [101],
+  "timezoneIds": [301],
+  "officialLanguageIds": [201],
+  "otherLanguageIds": [],
+  "translations": [{"languageCode": "ru", "name": "Фридония"}],
+  "states": [
+    {
+      "id": 501,
+      "name": "North Freedonia",
+      "stateCode": "NF",
+      "latitude": 45.2,
+      "longitude": 19.3,
+      "type": "province",
+      "translations": [{"languageCode": "ru", "name": "Северная Фридония"}],
+      "cities": [
+        {
+          "id": 601,
+          "name": "North City",
+          "latitude": 45.21,
+          "longitude": 19.31,
+          "translations": [{"languageCode": "ru", "name": "Северный город"}]
+        }
+      ]
+    },
+    {
+      "id": 502,
+      "name": "South Freedonia",
+      "stateCode": "SF",
+      "latitude": null,
+      "longitude": null,
+      "type": "province",
+      "translations": [{"languageCode": "ru", "name": "Южная Фридония"}],
+      "cities": [
+        {
+          "id": 602,
+          "name": "South City",
+          "latitude": 44.98,
+          "longitude": 19.01,
+          "translations": [{"languageCode": "ru", "name": "Южный город"}]
+        }
+      ]
+    }
+  ]
+}

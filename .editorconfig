@@ -1,0 +1,35 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{yml,yaml,json,md}]
+indent_size = 2
+
+[*.{kt,kts}]
+max_line_length = 110
+
+# This codebase is formatted the way IntelliJ formats Kotlin, which is also what a contributor gets
+# by default. ktlint's own `ktlint_official` style differs from it in wrapping conventions, and
+# reformatting several hundred places to adopt those would make the code read less like itself.
+ktlint_code_style = intellij_idea
+
+# The rules below decide *where a signature wraps*, which is a house-style question this project has
+# already answered: a parameter list is one per line when it does not fit, and stays as written when
+# it does. Enforcing ktlint's answer instead would, for example, collapse a readable three-line
+# constructor into one 101-character line. Everything ktlint checks that is not a wrapping opinion
+# stays on.
+ktlint_standard_class-signature = disabled
+ktlint_standard_function-signature = disabled
+ktlint_standard_function-expression-body = disabled
+ktlint_standard_argument-list-wrapping = disabled
+ktlint_standard_function-literal = disabled
+
+# Generated sources: how a code generator formats its output is not this project's business.
+[{**/build/**,**/generated/**}]
+ktlint = disabled

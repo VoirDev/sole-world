@@ -10,7 +10,7 @@ class LocalizationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(id: 1) {
+              country(idOrCode: 1) {
                 name
                 region { name }
                 subregion { name }
@@ -50,11 +50,11 @@ class LocalizationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     }
 
     @Test
-    fun `accept language header supports quality fallback and localized list ordering`() {
+    fun `accept language header honours quality values`() {
         val response = graphQL(
             """
             query {
-              listCountries(page: { page: 0, size: 1 }) {
+              countries(page: { page: 0, size: 2 }) {
                 items { name }
                 pageInfo { page size totalItems totalPages hasNextPage hasPreviousPage }
               }
@@ -64,12 +64,49 @@ class LocalizationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         )
 
         assertNoErrors(response)
-        val page = response.at("/data/listCountries")
-        assertArrayValues(page["items"], "name", "Фридония")
+        val page = response.at("/data/countries")
+
+        // Russian outranks German, so the translated country is rendered in Russian.
+        assertArrayValues(page["items"], "name", "Sylvania", "Фридония")
         assertEquals(0, page.at("/pageInfo/page").intValue())
-        assertEquals(1, page.at("/pageInfo/size").intValue())
+        assertEquals(2, page.at("/pageInfo/size").intValue())
         assertEquals(2, page.at("/pageInfo/totalItems").intValue())
-        assertEquals(2, page.at("/pageInfo/totalPages").intValue())
+        assertEquals(1, page.at("/pageInfo/totalPages").intValue())
+    }
+
+    @Test
+    fun `localized lists are ordered by the name the caller actually sees`() {
+        // Freedonia has a Russian translation and Sylvania does not, so Sylvania is rendered with its
+        // base name. Ordering follows the rendered names — Latin before Cyrillic — rather than the
+        // raw translation, which would otherwise sort Sylvania as an absent value and make paging
+        // skip or repeat records.
+        val firstPage = localizedCountryNames(page = 0)
+        val secondPage = localizedCountryNames(page = 1)
+
+        assertEquals(listOf("Sylvania"), firstPage)
+        assertEquals(listOf("Фридония"), secondPage)
+    }
+
+    private fun localizedCountryNames(page: Int): List<String> {
+        val response = graphQL(
+            """
+            query {
+              countries(page: { page: $page, size: 1 }) {
+                items { name }
+              }
+            }
+            """.trimIndent(),
+            acceptLanguage = "ru",
+        )
+
+        assertNoErrors(response)
+
+        val names = mutableListOf<String>()
+        for (item in response.at("/data/countries/items")) {
+            names += item["name"].stringValue()
+        }
+
+        return names
     }
 
     @Test
@@ -77,7 +114,7 @@ class LocalizationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(id: 1) {
+              country(idOrCode: 1) {
                 name
                 region { name }
                 states { items { name } }

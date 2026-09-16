@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sole World GraphQL</title>
+    <link rel="stylesheet" href="/graphiql/assets/graphiql.min.css">
+    <style>
+        body { margin: 0; }
+        #graphiql { height: 100dvh; }
+    </style>
+</head>
+<body>
+<!--
+  GraphiQL is served by this deployment, not by a CDN: it is pinned and digest-verified into the
+  image at build time, so this console runs no third-party code and works with no outbound internet
+  access. See api/console-assets.txt.
+
+  This replaces the console the GraphQL starter ships, which resolves its modules from esm.sh at
+  runtime. Everything else about it is the same.
+-->
+<div id="graphiql"></div>
+
+<script src="/graphiql/assets/react.production.min.js"></script>
+<script src="/graphiql/assets/react-dom.production.min.js"></script>
+<script src="/graphiql/assets/graphiql.min.js"></script>
+<script>
+    // Every request this console sends needs the same API key the caller's own clients use, so the
+    // header editor opens with a placeholder rather than the console silently getting a 401.
+    const fetcher = GraphiQL.createFetcher({ url: '/graphql' });
+
+    ReactDOM.createRoot(document.getElementById('graphiql')).render(
+        React.createElement(GraphiQL, {
+            fetcher: fetcher,
+            defaultEditorToolsVisibility: true,
+            shouldPersistHeaders: true,
+            defaultHeaders: JSON.stringify({ 'X-API-KEY': 'replace-with-your-api-key' }, null, 2),
+        }),
+    );
+</script>
+</body>
+</html>

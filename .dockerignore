@@ -1,8 +1,32 @@
+# Everything here is either secret, large, or rebuilt inside the image anyway. The Dockerfile copies
+# specific paths, so nothing below could reach the image — but the whole context is still sent to the
+# daemon, and a secret should not travel that far.
+
+# Local configuration. A .env on a developer's machine holds real API keys.
+.env
+.env.*
+*.env
+
+# Version control and CI definitions.
 .git
+.gitignore
+.gitattributes
 .github
+
+# Build output and caches; the image builds its own.
 .gradle
 **/.gradle
 **/build
+.kotlin
+**/.kotlin
+asset-tools/node_modules
+
+# Editor and OS noise.
 **/.idea
+**/.vscode
 **/.DS_Store
 *.iml
+
+# Documentation, which the image does not serve. The OpenAPI contract is under api/ and is copied.
+*.md
+LICENSE

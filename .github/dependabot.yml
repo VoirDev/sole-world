@@ -1,0 +1,40 @@
+version: 2
+
+updates:
+  # The image is scanned for critical vulnerabilities at release, which catches a bad dependency
+  # late. Dependabot is what keeps that gate from being the first time anyone hears about one.
+  - package-ecosystem: gradle
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      # Spring Boot publishes the versions of everything it starts, so its modules move together;
+      # separate pull requests for them would each fail dependency resolution.
+      spring:
+        patterns:
+          - "org.springframework*"
+          - "org.apache.tomcat.embed*"
+      kotlin:
+        patterns:
+          - "org.jetbrains.kotlin*"
+      dgs:
+        patterns:
+          - "com.netflix.graphql.dgs*"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: docker
+    directory: /api
+    schedule:
+      interval: weekly
+
+  # The asset generator. It never runs in production, but it does run on a maintainer's machine.
+  - package-ecosystem: npm
+    directory: /asset-tools
+    schedule:
+      interval: monthly

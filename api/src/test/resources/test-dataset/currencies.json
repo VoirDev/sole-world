@@ -1,0 +1,38 @@
+[
+  {
+    "id": 101,
+    "iso3": "FDC",
+    "isoNumeric": "901",
+    "name": "Freedonian Credit",
+    "description": "Active seeded currency",
+    "nativeName": "Credit",
+    "year": 1991,
+    "introducedDate": "1991-01-01",
+    "obsolete": false,
+    "obsoleteAt": null,
+    "replacedBy": null,
+    "symbol": "F$",
+    "flagId": 1001,
+    "decimalDigits": 2,
+    "translations": [
+      {"languageCode": "ru", "name": "Фридонский кредит", "description": "Активная тестовая валюта"}
+    ]
+  },
+  {
+    "id": 102,
+    "iso3": "OLD",
+    "isoNumeric": "902",
+    "name": "Old Freedonian Credit",
+    "description": "Obsolete seeded currency",
+    "nativeName": "Old Credit",
+    "year": 1901,
+    "introducedDate": "1901-01-01",
+    "obsolete": true,
+    "obsoleteAt": "1990-12-31",
+    "replacedBy": 101,
+    "symbol": "O$",
+    "flagId": 1001,
+    "decimalDigits": 0,
+    "translations": []
+  }
+]

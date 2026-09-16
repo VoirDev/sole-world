@@ -38,7 +38,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           persist-credentials: false
@@ -127,7 +127,7 @@ jobs:
             echo "This PR updates the root Gradle release version. Release validation builds the repository and the sole-world-api Docker image before merge."
             echo
             echo "After this PR is merged, the release workflow publishes:"
-            echo "- ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api:$RELEASE_VERSION and latest"
+            echo "- ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api:$RELEASE_VERSION and latest, for linux/amd64 and linux/arm64"
             if [ "$SKIP_VERIFY_CHECKS" = "true" ]; then
               echo
               echo "[skip verify]"
@@ -156,18 +156,18 @@ jobs:
       contents: read
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Set up JDK
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: "21"
 
       - name: Set up Gradle
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@v6
         with:
           cache-read-only: true
           cache-cleanup: always
@@ -198,25 +198,60 @@ jobs:
         run: ./gradlew build -PreleaseVersion=${{ steps.version.outputs.release_version }} --no-daemon
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v4
 
+      # The image is published for both architectures its audience runs: amd64 servers, and the
+      # Apple Silicon laptops the README's quick start targets, where an amd64-only image would run
+      # under emulation. Only the runtime stage is built twice — the build stage is pinned to the
+      # runner's own architecture, because all it produces is a jar.
       - name: Build API image artifact
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: api/Dockerfile
           push: false
+          platforms: linux/amd64,linux/arm64
           tags: sole-world-api:release-${{ steps.version.outputs.release_version }}
           build-args: |
             RELEASE_VERSION=${{ steps.version.outputs.release_version }}
           cache-from: type=gha,scope=sole-world-api
           cache-to: type=gha,mode=min,scope=sole-world-api
-          outputs: type=docker,dest=/tmp/sole-world-api.tar
-          provenance: false
-          sbom: false
+          # An OCI archive, not a docker one: `docker save` cannot carry a manifest list, so a
+          # multi-architecture image could not survive the trip through an artifact otherwise.
+          outputs: type=oci,dest=/tmp/sole-world-api.tar
+          # What was built, from what, by which workflow run, and everything inside it. Both travel
+          # with the image as attestations, so a consumer can answer those questions from the
+          # registry rather than from a claim in a README.
+          provenance: mode=max
+          sbom: true
+
+      # A release is gated on the image being free of known critical vulnerabilities with a fix
+      # available. Lower severities are reported rather than blocking: base-image advisories appear
+      # and are fixed continuously, and a release that cannot go out because one landed that morning
+      # is a release process that gets bypassed.
+      - name: Scan API image
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Trivy reads an OCI layout directory rather than the archive itself.
+          mkdir -p /tmp/sole-world-api-oci
+          tar -xf /tmp/sole-world-api.tar -C /tmp/sole-world-api-oci
+
+          for platform in linux/amd64 linux/arm64; do
+            echo "::group::Vulnerabilities in $platform"
+            docker run --rm -v /tmp/sole-world-api-oci:/image aquasec/trivy:latest image \
+              --input /image --platform "$platform" --scanners vuln --severity HIGH,MEDIUM,LOW \
+              --ignore-unfixed --no-progress
+            echo "::endgroup::"
+
+            docker run --rm -v /tmp/sole-world-api-oci:/image aquasec/trivy:latest image \
+              --input /image --platform "$platform" --scanners vuln --severity CRITICAL \
+              --ignore-unfixed --exit-code 1 --no-progress
+          done
 
       - name: Upload API image artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: sole-world-api-image-${{ steps.version.outputs.release_version }}-${{ steps.version.outputs.artifact_sha }}
           path: /tmp/sole-world-api.tar
@@ -231,9 +266,11 @@ jobs:
       actions: write
       contents: write
       packages: write
+      # Keyless signing exchanges this workflow's OIDC token for a short-lived certificate.
+      id-token: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.base.ref }}
@@ -278,7 +315,7 @@ jobs:
 
       - name: Download API image artifact
         if: steps.version.outputs.should_publish == 'true'
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: sole-world-api-image-${{ steps.version.outputs.release_version }}-${{ steps.version.outputs.validation_head_sha }}
           path: release-artifacts/images
@@ -287,17 +324,53 @@ jobs:
 
       - name: Log in to GitHub Container Registry
         if: steps.version.outputs.should_publish == 'true'
-        uses: docker/login-action@v3
+        uses: docker/login-action@v4
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Load API image artifact
+      # skopeo rather than docker load and push, because the docker daemon on a default runner
+      # cannot hold or push a manifest list. skopeo copies the archive's bytes straight to the
+      # registry, which is also what keeps the published image identical to the validated one.
+      - name: Install skopeo
         if: steps.version.outputs.should_publish == 'true'
-        run: docker load --input release-artifacts/images/sole-world-api.tar
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends --yes skopeo
 
       - name: Publish API image
+        if: steps.version.outputs.should_publish == 'true'
+        env:
+          RELEASE_VERSION: ${{ steps.version.outputs.release_version }}
+          REGISTRY_USERNAME: ${{ github.actor }}
+          REGISTRY_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          image_name="ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api"
+          archive="oci-archive:release-artifacts/images/sole-world-api.tar"
+
+          for tag in "$RELEASE_VERSION" latest; do
+            # --all copies every architecture in the manifest list, not just the runner's own.
+            skopeo copy --all \
+              --dest-creds "${REGISTRY_USERNAME}:${REGISTRY_PASSWORD}" \
+              "$archive" "docker://$image_name:$tag"
+          done
+
+          skopeo inspect --raw "docker://$image_name:$RELEASE_VERSION" |
+            jq -r '.manifests[].platform | select(.architecture != "unknown") | "published \(.os)/\(.architecture)"'
+
+      # Keyless: the signature is bound to this workflow's identity in GitHub's OIDC token, so
+      # there is no key to hold or rotate, and a consumer verifies against the repository and
+      # workflow rather than against a public key someone has to be told to trust.
+      - name: Install cosign
+        if: steps.version.outputs.should_publish == 'true'
+        uses: sigstore/cosign-installer@v4
+
+      - name: Sign published image
         if: steps.version.outputs.should_publish == 'true'
         env:
           RELEASE_VERSION: ${{ steps.version.outputs.release_version }}
@@ -306,10 +379,15 @@ jobs:
           set -euo pipefail
 
           image_name="ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api"
-          docker tag "sole-world-api:release-$RELEASE_VERSION" "$image_name:$RELEASE_VERSION"
-          docker tag "sole-world-api:release-$RELEASE_VERSION" "$image_name:latest"
-          docker push "$image_name:$RELEASE_VERSION"
-          docker push "$image_name:latest"
+
+          # Sign the manifest list by digest, which covers every architecture under it.
+          digest="$(skopeo inspect --format '{{.Digest}}' "docker://$image_name:$RELEASE_VERSION")"
+          cosign sign --yes "$image_name@$digest"
+
+          echo "Verify with:"
+          echo "  cosign verify $image_name:$RELEASE_VERSION \\"
+          echo "    --certificate-identity-regexp '^https://github.com/${GITHUB_REPOSITORY}/' \\"
+          echo "    --certificate-oidc-issuer https://token.actions.githubusercontent.com"
 
       - name: Create release tag
         if: steps.version.outputs.should_publish == 'true'
@@ -318,6 +396,40 @@ jobs:
       - name: Push release tag
         if: steps.version.outputs.should_publish == 'true'
         run: git push origin "v${{ steps.version.outputs.release_version }}"
+
+      # Generated from the commits since the last tag rather than kept in a file, so it cannot drift
+      # from what was actually released.
+      - name: Publish release notes
+        if: steps.version.outputs.should_publish == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_VERSION: ${{ steps.version.outputs.release_version }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          image_name="ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api"
+
+          notes_file="$(mktemp)"
+          {
+            echo "\`\`\`bash"
+            echo "docker pull $image_name:$RELEASE_VERSION"
+            echo "\`\`\`"
+            echo
+            echo "Published for \`linux/amd64\` and \`linux/arm64\`, with an SBOM and SLSA provenance attached, and signed:"
+            echo
+            echo "\`\`\`bash"
+            echo "cosign verify $image_name:$RELEASE_VERSION \\"
+            echo "  --certificate-identity-regexp '^https://github.com/${GITHUB_REPOSITORY}/' \\"
+            echo "  --certificate-oidc-issuer https://token.actions.githubusercontent.com"
+            echo "\`\`\`"
+          } > "$notes_file"
+
+          gh release create "v$RELEASE_VERSION" \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "v$RELEASE_VERSION" \
+            --generate-notes \
+            --notes-file "$notes_file"
 
       - name: Delete promoted release artifacts
         if: steps.version.outputs.should_publish == 'true'

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 9001,
+    "type": "image",
+    "key": "fd",
+    "description": "Freedonia square flag",
+    "imageAspectRatio": "square",
+    "imageFormats": {
+      "svg": "/assets/flags/fd_1x1.svg",
+      "png": {
+        "xs": "/fd_64.png",
+        "sm": "/fd_128.png",
+        "md": "/fd_256.png",
+        "lg": "/fd_512.png",
+        "xl": "/fd_1024.png"
+      },
+      "webp": {
+        "xs": "/fd_64.webp",
+        "sm": "/fd_128.webp",
+        "md": "/fd_256.webp",
+        "lg": "/fd_512.webp",
+        "xl": "/fd_1024.webp"
+      },
+      "jpg": {
+        "xs": "/fd_64.jpg",
+        "sm": "/fd_128.jpg",
+        "md": "/fd_256.jpg",
+        "lg": "/fd_512.jpg",
+        "xl": "/fd_1024.jpg"
+      }
+    }
+  },
+  {
+    "id": 9002,
+    "type": "image",
+    "key": "fd",
+    "description": "Freedonia wide flag",
+    "imageAspectRatio": "wide",
+    "imageFormats": {
+      "svg": "/assets/flags/fd_4x3.svg",
+      "png": {
+        "xs": "/fd_wide_64.png",
+        "sm": "/fd_wide_128.png",
+        "md": "/fd_wide_256.png",
+        "lg": "/fd_wide_512.png",
+        "xl": "/fd_wide_1024.png"
+      },
+      "webp": null,
+      "jpg": null
+    }
+  }
+]

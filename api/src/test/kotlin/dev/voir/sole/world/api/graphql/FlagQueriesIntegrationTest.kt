@@ -52,7 +52,7 @@ class FlagQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: flags(ids: [1001, 999]) { id caption }
+              requested: flagsByIds(ids: [1001, 999]) { id caption }
             }
             """.trimIndent(),
         )

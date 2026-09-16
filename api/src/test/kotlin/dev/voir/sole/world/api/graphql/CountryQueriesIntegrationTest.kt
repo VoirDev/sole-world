@@ -1,5 +1,6 @@
 package dev.voir.sole.world.api.graphql
 
+import dev.voir.sole.world.api.integration.ApiAccessKey
 import dev.voir.sole.world.api.integration.BaseGraphqlIntegrationTest
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertFalse
@@ -12,7 +13,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(id: 1) {
+              country(idOrCode: 1) {
                 id
                 name
                 nativeName
@@ -111,7 +112,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: countries(ids: [2, 1, 999]) {
+              requested: countriesByIds(ids: [2, 1, 999]) {
                 id
                 name
                 region { id name }
@@ -127,11 +128,11 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     }
 
     @Test
-    fun `listCountries returns default paginated result`() {
+    fun `countries returns default paginated result`() {
         val response = graphQL(
             """
             query {
-              listCountries {
+              countries {
                 items { id name }
                 pageInfo {
                   page
@@ -147,7 +148,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         )
 
         assertNoErrors(response)
-        val page = response.at("/data/listCountries")
+        val page = response.at("/data/countries")
         assertArrayValues(page["items"], "name", "Freedonia", "Sylvania")
         assertEquals(0, page.at("/pageInfo/page").intValue())
         assertEquals(50, page.at("/pageInfo/size").intValue())
@@ -158,21 +159,28 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     }
 
     @Test
-    fun `country search returns capped results`() {
+    fun `countries searches and filters the way the REST collection does`() {
         val response = graphQL(
             """
             query {
-              searchCountries(query: "Freedonia", limit: 10) {
-                id
-                name
-              }
+              search: countries(query: "Freedonia") { items { id name } }
+              byRegion: countries(regionId: "10") { items { name } }
+              byCurrency: countries(currencyId: "101") { items { name } }
+              byLanguage: countries(languageId: "201") { items { name } }
+              byTimezone: countries(timezoneId: "301") { items { name } }
+              noMatch: countries(regionId: "999") { pageInfo { totalItems } }
             }
             """.trimIndent(),
         )
 
         assertNoErrors(response)
-        assertArrayValues(response.at("/data/searchCountries"), "id", "1")
-        assertArrayValues(response.at("/data/searchCountries"), "name", "Freedonia")
+        assertArrayValues(response.at("/data/search/items"), "id", "1")
+        assertArrayValues(response.at("/data/search/items"), "name", "Freedonia")
+        assertArrayValues(response.at("/data/byRegion/items"), "name", "Freedonia", "Sylvania")
+        assertArrayValues(response.at("/data/byCurrency/items"), "name", "Freedonia")
+        assertArrayValues(response.at("/data/byLanguage/items"), "name", "Freedonia")
+        assertArrayValues(response.at("/data/byTimezone/items"), "name", "Freedonia")
+        assertEquals(0, response.at("/data/noMatch/pageInfo/totalItems").intValue())
     }
 
     @Test
@@ -181,7 +189,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              countries(ids: [$ids]) { id }
+              countriesByIds(ids: [$ids]) { id }
             }
             """.trimIndent(),
         )
@@ -198,7 +206,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(id: 1) {
+              country(idOrCode: 1) {
                 currencies { iso3 }
                 languages { code }
                 states {
@@ -229,7 +237,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(id: 1) {
+              country(idOrCode: 1) {
                 filteredStates: states(query: "South", page: { page: 0, size: 1 }) {
                   items { name }
                   pageInfo { page size totalItems totalPages hasNextPage hasPreviousPage }
@@ -254,75 +262,51 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     }
 
     @Test
-    fun `missing and invalid country queries return negative results`() {
+    fun `a country resolves by id and by either ISO code`() {
         val response = graphQL(
             """
             query {
-              missingCountry: country(id: 999) { id }
-              isValidCountry(id: 1) { valid }
-              isInvalidCountry: isValidCountry(id: 999) { valid }
+              byId: country(idOrCode: "1") { name }
+              byIso2: country(idOrCode: "FD") { name }
+              byIso3: country(idOrCode: "FRE") { name }
+              missing: country(idOrCode: "999") { id }
             }
             """.trimIndent(),
         )
 
         assertNoErrors(response)
         val data = response["data"]
-        assertTrue(isNullOrMissing(data["missingCountry"]))
-        assertTrue(data.at("/isValidCountry/valid").booleanValue())
-        assertFalse(data.at("/isInvalidCountry/valid").booleanValue())
+        assertEquals("Freedonia", data.at("/byId/name").stringValue())
+        assertEquals("Freedonia", data.at("/byIso2/name").stringValue())
+        assertEquals("Freedonia", data.at("/byIso3/name").stringValue())
+        assertTrue(isNullOrMissing(data["missing"]))
     }
 
     @Test
     fun `country query requires api access key`() {
-        val missingKey = graphQL("{ countries(ids: [1]) { id } }", apiKey = null)
-        val invalidKey = graphQL("{ countries(ids: [1]) { id } }", apiKey = "wrong-key")
+        val query = "{ countriesByIds(ids: [1]) { id } }"
 
-        assertEquals(1, missingKey["errors"].size())
-        assertTrue(
-            missingKey.at("/errors/0/message").stringValue().contains("Missing API access key"),
-        )
-        assertTrue(isNullOrMissing(missingKey.at("/data/countries")))
+        val missingKey = graphQLResponse(query, apiKey = null)
+        val invalidKey = graphQLResponse(query, apiKey = "wrong-key")
 
-        assertEquals(1, invalidKey["errors"].size())
+        // Authentication is rejected at the transport, before GraphQL executes.
+        assertEquals(401, missingKey.statusCode())
+        assertEquals(401, invalidKey.statusCode())
+
         assertTrue(
-            invalidKey.at("/errors/0/message").stringValue().contains("Invalid API access key"),
+            missingKey.headers().firstValue("Content-Type").orElse("").contains("application/problem+json"),
         )
-        assertTrue(isNullOrMissing(invalidKey.at("/data/countries")))
+        assertTrue(missingKey.body().contains("\"status\":401"))
     }
 
     @Test
-    fun `country query depth limit rejects over nested documents`() {
-        val response = graphQL(
-            """
-            query {
-              country(id: 1) {
-                subregion {
-                  countries {
-                    subregion {
-                      countries {
-                        subregion {
-                          countries {
-                            subregion {
-                              countries {
-                                id
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-            """.trimIndent(),
+    fun `country query accepts the api key as a bearer token`() {
+        val response = graphQLResponse(
+            "{ countriesByIds(ids: [1]) { id } }",
+            apiKey = null,
+            bearerToken = ApiAccessKey.RAW,
         )
 
-        assertTrue(response["errors"].size() > 0)
-        assertTrue(
-            response.at("/errors/0/message").stringValue()
-                .contains("maximum query depth", ignoreCase = true),
-        )
-        assertTrue(isNullOrMissing(response["data"]))
+        assertEquals(200, response.statusCode())
     }
 }

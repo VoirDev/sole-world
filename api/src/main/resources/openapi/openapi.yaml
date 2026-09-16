@@ -1,0 +1,2150 @@
+openapi: 3.1.0
+
+info:
+  title: Sole World REST API
+  version: "1.0.0"
+  description: |
+    Read-only world reference data: countries, currencies, languages, central banks, regions,
+    subregions, states, cities, timezones, flags and media assets.
+
+    This is the REST counterpart to the GraphQL API at `/graphql`. It trades precision for
+    convenience: instead of composing a query, you ask for a resource and name the related records
+    you want alongside it with `include`.
+
+    ## Authentication
+
+    Every endpoint requires an API key, sent either as `X-API-KEY: <key>` or as
+    `Authorization: Bearer <key>`. Keys are configured on the container through `API_KEYS`.
+
+    ## Includes
+
+    `include` takes a comma-separated list of relationship names. Each endpoint documents exactly
+    which names it accepts; anything else is a `400` that names the valid values.
+
+    Includes are **one level deep**. An included record never carries its own includes, so
+    `include=region` on a country gives you the region, not the region's countries.
+
+    Included collections are capped at 50 records. When a collection is cut short, its name appears
+    in `truncatedIncludes` and the dedicated sub-resource endpoint will page through the rest. A
+    country's cities are deliberately not includable — some countries have tens of thousands — so
+    use `/v1/countries/{idOrCode}/cities`.
+
+    ## Localization
+
+    Translated fields follow the `Accept-Language` request header. The `lang` query parameter
+    overrides it, which makes a localized response cacheable under its own URL. English, unsupported
+    languages and a missing header all return the base English data. `GET /v1/meta` lists the
+    supported languages.
+
+    ## Response headers
+
+    Every response carries `X-Content-Type-Options: nosniff` and `Referrer-Policy: no-referrer`.
+
+    Problem documents echo part of the request back — an unknown `include` value is named in
+    `detail`, and the request URI appears in `instance` — which is deliberate, and safe because the
+    document is served as `application/problem+json` and will not be sniffed as anything else.
+
+    ## Identifiers
+
+    Every identifier in this API is an `int64`, on every resource. The dataset's own ids are far
+    smaller than that, but a client should not have to track which resource happens to fit in 32
+    bits and which does not.
+
+    ## Assets
+
+    Image paths are published rooted at this deployment — `/assets/flags/us_1x1.svg` — so they can
+    be used as-is against the API's own origin. `/assets/` is served without an API key and cached
+    for a year; the files are immutable for the life of the image.
+
+    A deployment that fronts its assets with a CDN sets `ASSET_BASE_URL`, and every path becomes an
+    absolute URL against that origin instead. Either way a client concatenates nothing.
+
+    ## Caching
+
+    The dataset is fixed for the life of a deployment, so every successful response carries a strong
+    `ETag` and may be revalidated with `If-None-Match`, which answers `304`. Responses vary by
+    `Accept-Language`.
+
+    The validator depends only on the dataset version, the URL and the language that URL resolves
+    to, so a conditional request is answered *before* the endpoint runs: revalidating costs a hash
+    rather than the work of building the response again.
+
+    There is no `503`. The dataset is parsed while the application starts, so the service either
+    serves or is not listening — there is no partially-ready state to report.
+
+    ## Rate limiting
+
+    Each API key has a request allowance: a burst it may spend back to back, refilling at a
+    sustained rate. Spending it returns `429` with a `Retry-After` header giving whole seconds to
+    wait. `GET /v1/meta` reports the allowance this deployment grants, so a client can pace itself
+    rather than discover the limit by hitting it.
+
+    Allowances are counted per replica, so a deployment behind several replicas grants a caller that
+    allowance on each of them.
+  license:
+    name: Apache-2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0
+
+servers:
+  - url: /
+    description: This deployment
+
+security:
+  - ApiKeyHeader: []
+  - BearerToken: []
+
+tags:
+  - name: countries
+    description: Countries and territories.
+  - name: currencies
+    description: Currencies, including obsolete ones.
+  - name: cryptos
+    description: Cryptocurrencies.
+  - name: languages
+    description: Languages and the countries that use them.
+  - name: regions
+    description: Top-level geographic regions.
+  - name: subregions
+    description: Subregions inside a region.
+  - name: central-banks
+    description: Central banks, the countries they serve and the currencies they issue.
+  - name: states
+    description: First-level administrative divisions.
+  - name: cities
+    description: Populated places inside a state.
+  - name: timezones
+    description: Timezone records.
+  - name: flags
+    description: Flags and the media assets that render them.
+  - name: media-assets
+    description: Media asset metadata.
+  - name: meta
+    description: Dataset version and service capabilities.
+
+paths:
+  /v1/meta:
+    get:
+      tags: [meta]
+      operationId: getMeta
+      summary: Dataset version and service limits
+      description: Reports which dataset this deployment serves and the limits every endpoint applies.
+      responses:
+        "200":
+          $ref: "#/components/responses/MetaOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/countries:
+    get:
+      tags: [countries]
+      operationId: listCountries
+      summary: List or search countries
+      description: |
+        Returns countries ordered by localized name. When `query` is supplied the result is a
+        relevance-ranked search over names in every supported language, ISO codes, phone codes and
+        top-level domains, tolerant of typos and missing accents.
+
+        Filters combine with AND.
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+        - name: include
+          in: query
+          required: false
+          description: >
+            Relationships to embed. Allowed: `region`, `subregion`, `flag`, `currencies`,
+            `languages`, `timezones`, `centralBanks`, `states`.
+          schema: { type: string }
+          example: region,currencies
+        - name: regionId
+          in: query
+          required: false
+          description: Only countries in this region.
+          schema: { type: integer, format: int64 }
+        - name: subregionId
+          in: query
+          required: false
+          description: Only countries in this subregion.
+          schema: { type: integer, format: int64 }
+        - name: currencyId
+          in: query
+          required: false
+          description: Only countries that use this currency.
+          schema: { type: integer, format: int64 }
+        - name: languageId
+          in: query
+          required: false
+          description: Only countries that use this language.
+          schema: { type: integer, format: int64 }
+        - name: timezoneId
+          in: query
+          required: false
+          description: Only countries in this timezone.
+          schema: { type: integer, format: int64 }
+      responses:
+        "200":
+          $ref: "#/components/responses/CountryPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/countries/{idOrCode}:
+    get:
+      tags: [countries]
+      operationId: getCountry
+      summary: Load one country
+      description: Accepts a numeric identifier, an ISO 3166-1 alpha-2 code, or an alpha-3 code.
+      parameters:
+        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/Lang"
+        - name: include
+          in: query
+          required: false
+          description: >
+            Relationships to embed. Allowed: `region`, `subregion`, `flag`, `currencies`,
+            `languages`, `timezones`, `centralBanks`, `states`.
+          schema: { type: string }
+          example: region,subregion,currencies,flag
+      responses:
+        "200":
+          $ref: "#/components/responses/CountryOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/countries/{idOrCode}/states:
+    get:
+      tags: [countries]
+      operationId: listCountryStates
+      summary: List a country's states
+      description: >
+        Returns the country's first-level administrative divisions ordered by localized name.
+        `query` narrows the list by name; unlike the collection endpoints it is a literal filter,
+        so the reported total is the exact number of records whose name contains the text.
+      parameters:
+        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/FilterQuery"
+        - $ref: "#/components/parameters/Lang"
+        - name: include
+          in: query
+          required: false
+          description: "Relationships to embed. Allowed: `country`, `cities`."
+          schema: { type: string }
+      responses:
+        "200":
+          $ref: "#/components/responses/StatePageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/countries/{idOrCode}/cities:
+    get:
+      tags: [countries]
+      operationId: listCountryCities
+      summary: List a country's cities
+      description: >
+        Returns every city in the country, across all of its states, ordered by localized name.
+        `query` is a literal name filter. This endpoint exists because a country's cities cannot be
+        included on the country resource.
+      parameters:
+        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/FilterQuery"
+        - $ref: "#/components/parameters/Lang"
+        - name: include
+          in: query
+          required: false
+          description: "Relationships to embed. Allowed: `state`, `country`."
+          schema: { type: string }
+      responses:
+        "200":
+          $ref: "#/components/responses/CityPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/countries/{idOrCode}/currencies:
+    get:
+      tags: [countries]
+      operationId: listCountryCurrencies
+      summary: List the currencies a country uses
+      parameters:
+        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CurrencyInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CurrencyPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/countries/{idOrCode}/languages:
+    get:
+      tags: [countries]
+      operationId: listCountryLanguages
+      summary: List the languages a country uses
+      description: Includes both official and other languages recorded for the country.
+      parameters:
+        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/LanguageInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/LanguagePageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/countries/{idOrCode}/timezones:
+    get:
+      tags: [countries]
+      operationId: listCountryTimezones
+      summary: List a country's timezones
+      parameters:
+        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+      responses:
+        "200":
+          $ref: "#/components/responses/TimezonePageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/countries/{idOrCode}/central-banks:
+    get:
+      tags: [countries]
+      operationId: listCountryCentralBanks
+      summary: List the central banks serving a country
+      parameters:
+        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CentralBankInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CentralBankPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/currencies:
+    get:
+      tags: [currencies]
+      operationId: listCurrencies
+      summary: List or search currencies
+      description: >
+        Returns currencies ordered by localized name. `query` runs a relevance-ranked search over
+        names, native names, ISO codes and symbols.
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CurrencyInclude"
+        - name: obsolete
+          in: query
+          required: false
+          description: Restrict to obsolete or active currencies. Omit to return both.
+          schema: { type: boolean }
+      responses:
+        "200":
+          $ref: "#/components/responses/CurrencyPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/currencies/{idOrCode}:
+    get:
+      tags: [currencies]
+      operationId: getCurrency
+      summary: Load one currency
+      description: >
+        Accepts a numeric identifier, an ISO 4217 alpha code such as `EUR`, or an ISO 4217 numeric
+        code such as `978`. Obsolete currencies are only returned when `withObsolete` is true.
+      parameters:
+        - name: idOrCode
+          in: path
+          required: true
+          description: Numeric identifier, ISO 4217 alpha code, or ISO 4217 numeric code.
+          schema: { type: string }
+          example: EUR
+        - name: withObsolete
+          in: query
+          required: false
+          description: Allow an obsolete currency to be returned. Defaults to false.
+          schema: { type: boolean }
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CurrencyInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CurrencyOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/cryptos:
+    get:
+      tags: [cryptos]
+      operationId: listCryptos
+      summary: List or search cryptocurrencies
+      description: >
+        Returns cryptocurrencies ordered by name. `query` runs a relevance-ranked search over names,
+        ticker symbols and aliases. Coin names are the same in every language, so `lang` only selects
+        the collation order.
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CryptoInclude"
+        - name: obsolete
+          in: query
+          required: false
+          description: Restrict to obsolete or active coins. Omit to return both.
+          schema: { type: boolean }
+      responses:
+        "200":
+          $ref: "#/components/responses/CryptoPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/cryptos/{idOrCode}:
+    get:
+      tags: [cryptos]
+      operationId: getCrypto
+      summary: Load one cryptocurrency
+      description: >
+        Accepts a numeric identifier, a ticker symbol such as `BTC`, or the coin's alias. The alias
+        is the stable lowercase key a ticker can be renamed away from.
+      parameters:
+        - name: idOrCode
+          in: path
+          required: true
+          description: Numeric identifier, ticker symbol, or alias.
+          schema: { type: string }
+          example: BTC
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CryptoInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CryptoOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/currencies/{idOrCode}/countries:
+    get:
+      tags: [currencies]
+      operationId: listCurrencyCountries
+      summary: List the countries that use a currency
+      parameters:
+        - name: idOrCode
+          in: path
+          required: true
+          description: Numeric identifier, ISO 4217 alpha code, or ISO 4217 numeric code.
+          schema: { type: string }
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CountryInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CountryPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/currencies/{idOrCode}/central-banks:
+    get:
+      tags: [currencies]
+      operationId: listCurrencyCentralBanks
+      summary: List the central banks that issue a currency
+      parameters:
+        - name: idOrCode
+          in: path
+          required: true
+          description: Numeric identifier, ISO 4217 alpha code, or ISO 4217 numeric code.
+          schema: { type: string }
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CentralBankInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CentralBankPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/languages:
+    get:
+      tags: [languages]
+      operationId: listLanguages
+      summary: List or search languages
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/LanguageInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/LanguagePageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/languages/{idOrCode}:
+    get:
+      tags: [languages]
+      operationId: getLanguage
+      summary: Load one language
+      description: Accepts a numeric identifier or a language code such as `fr`.
+      parameters:
+        - name: idOrCode
+          in: path
+          required: true
+          description: Numeric identifier or language code.
+          schema: { type: string }
+          example: fr
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/LanguageInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/LanguageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/languages/{idOrCode}/countries:
+    get:
+      tags: [languages]
+      operationId: listLanguageCountries
+      summary: List the countries that use a language
+      parameters:
+        - name: idOrCode
+          in: path
+          required: true
+          description: Numeric identifier or language code.
+          schema: { type: string }
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CountryInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CountryPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/regions:
+    get:
+      tags: [regions]
+      operationId: listRegions
+      summary: List or search regions
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/RegionInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/RegionPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/regions/{id}:
+    get:
+      tags: [regions]
+      operationId: getRegion
+      summary: Load one region
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/RegionInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/RegionOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/regions/{id}/subregions:
+    get:
+      tags: [regions]
+      operationId: listRegionSubregions
+      summary: List the subregions inside a region
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/SubregionInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/SubregionPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/regions/{id}/countries:
+    get:
+      tags: [regions]
+      operationId: listRegionCountries
+      summary: List the countries inside a region
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CountryInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CountryPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/subregions:
+    get:
+      tags: [subregions]
+      operationId: listSubregions
+      summary: List or search subregions
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/SubregionInclude"
+        - name: regionId
+          in: query
+          required: false
+          description: Only subregions inside this region.
+          schema: { type: integer, format: int64 }
+      responses:
+        "200":
+          $ref: "#/components/responses/SubregionPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/subregions/{id}:
+    get:
+      tags: [subregions]
+      operationId: getSubregion
+      summary: Load one subregion
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/SubregionInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/SubregionOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/subregions/{id}/countries:
+    get:
+      tags: [subregions]
+      operationId: listSubregionCountries
+      summary: List the countries inside a subregion
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CountryInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CountryPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/central-banks:
+    get:
+      tags: [central-banks]
+      operationId: listCentralBanks
+      summary: List or search central banks
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CentralBankInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CentralBankPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/central-banks/{id}:
+    get:
+      tags: [central-banks]
+      operationId: getCentralBank
+      summary: Load one central bank
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CentralBankInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CentralBankOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/central-banks/{id}/countries:
+    get:
+      tags: [central-banks]
+      operationId: listCentralBankCountries
+      summary: List the countries a central bank serves
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CountryInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CountryPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/central-banks/{id}/currencies:
+    get:
+      tags: [central-banks]
+      operationId: listCentralBankCurrencies
+      summary: List the currencies a central bank issues
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CurrencyInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CurrencyPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/states:
+    get:
+      tags: [states]
+      operationId: listStates
+      summary: List or search states
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/StateInclude"
+        - name: countryId
+          in: query
+          required: false
+          description: Only states in this country.
+          schema: { type: integer, format: int64 }
+      responses:
+        "200":
+          $ref: "#/components/responses/StatePageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/states/{id}:
+    get:
+      tags: [states]
+      operationId: getState
+      summary: Load one state
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/StateInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/StateOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/states/{id}/cities:
+    get:
+      tags: [states]
+      operationId: listStateCities
+      summary: List the cities inside a state
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/FilterQuery"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CityInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CityPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/cities:
+    get:
+      tags: [cities]
+      operationId: listCities
+      summary: List or search cities
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CityInclude"
+        - name: countryId
+          in: query
+          required: false
+          description: Only cities in this country.
+          schema: { type: integer, format: int64 }
+        - name: stateId
+          in: query
+          required: false
+          description: Only cities in this state.
+          schema: { type: integer, format: int64 }
+      responses:
+        "200":
+          $ref: "#/components/responses/CityPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/cities/{id}:
+    get:
+      tags: [cities]
+      operationId: getCity
+      summary: Load one city
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/CityInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/CityOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/timezones:
+    get:
+      tags: [timezones]
+      operationId: listTimezones
+      summary: List or search timezones
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+      responses:
+        "200":
+          $ref: "#/components/responses/TimezonePageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/timezones/{id}:
+    get:
+      tags: [timezones]
+      operationId: getTimezone
+      summary: Load one timezone
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/Lang"
+      responses:
+        "200":
+          $ref: "#/components/responses/TimezoneOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/flags:
+    get:
+      tags: [flags]
+      operationId: listFlags
+      summary: List or search flags
+      description: >
+        Returns flags ordered by caption. `query` runs a relevance-ranked search over captions and
+        emoji — pasting in a flag emoji is how you find out which flag it is. Captions are the same
+        in every language, so `lang` only selects the collation order.
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/FlagInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/FlagPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/flags/{id}:
+    get:
+      tags: [flags]
+      operationId: getFlag
+      summary: Load one flag
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/FlagInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/FlagOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/media-assets:
+    get:
+      tags: [media-assets]
+      operationId: listMediaAssets
+      summary: List media assets
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+      responses:
+        "200":
+          $ref: "#/components/responses/MediaAssetPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/media-assets/{id}:
+    get:
+      tags: [media-assets]
+      operationId: getMediaAsset
+      summary: Load one media asset
+      parameters:
+        - $ref: "#/components/parameters/ResourceId"
+      responses:
+        "200":
+          $ref: "#/components/responses/MediaAssetOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+components:
+  securitySchemes:
+    ApiKeyHeader:
+      type: apiKey
+      in: header
+      name: X-API-KEY
+      description: API key configured on the container through `API_KEYS`.
+    BearerToken:
+      type: http
+      scheme: bearer
+      description: The same API key, sent as a bearer token.
+
+  parameters:
+    Page:
+      name: page
+      in: query
+      required: false
+      description: Zero-based page number.
+      schema: { type: integer, format: int32, minimum: 0, default: 0 }
+    Size:
+      name: size
+      in: query
+      required: false
+      description: Records per page.
+      schema: { type: integer, format: int32, minimum: 1, maximum: 50, default: 50 }
+    SearchQuery:
+      name: query
+      in: query
+      required: false
+      description: >
+        Relevance-ranked search text. Matching folds case, accents and script, and tolerates typos.
+      schema: { type: string, maxLength: 100 }
+    FilterQuery:
+      name: query
+      in: query
+      required: false
+      description: >
+        Literal name filter, matched against the record's name in any supported language. Unlike the
+        search parameter on collection endpoints this does not match approximately, so the reported
+        total is exact.
+      schema: { type: string, maxLength: 100 }
+    Lang:
+      name: lang
+      in: query
+      required: false
+      description: >
+        Translation language, overriding `Accept-Language`. An unsupported value returns base
+        English data. `GET /v1/meta` lists the supported languages.
+      schema: { type: string }
+      example: ru
+    ResourceId:
+      name: id
+      in: path
+      required: true
+      description: Numeric identifier.
+      schema: { type: integer, format: int64 }
+    CountryIdOrCode:
+      name: idOrCode
+      in: path
+      required: true
+      description: Numeric identifier, ISO 3166-1 alpha-2 code, or alpha-3 code.
+      schema: { type: string }
+      example: US
+    CountryInclude:
+      name: include
+      in: query
+      required: false
+      description: >
+        Relationships to embed. Allowed: `region`, `subregion`, `flag`, `currencies`, `languages`,
+        `timezones`, `centralBanks`, `states`.
+      schema: { type: string }
+    CurrencyInclude:
+      name: include
+      in: query
+      required: false
+      description: "Relationships to embed. Allowed: `flag`, `countries`, `centralBanks`, `replacedBy`."
+      schema: { type: string }
+    CryptoInclude:
+      name: include
+      in: query
+      required: false
+      description: "Relationships to embed. Allowed: `logo`."
+      schema: { type: string }
+    LanguageInclude:
+      name: include
+      in: query
+      required: false
+      description: "Relationships to embed. Allowed: `flag`, `countries`."
+      schema: { type: string }
+    RegionInclude:
+      name: include
+      in: query
+      required: false
+      description: "Relationships to embed. Allowed: `subregions`, `countries`."
+      schema: { type: string }
+    SubregionInclude:
+      name: include
+      in: query
+      required: false
+      description: "Relationships to embed. Allowed: `region`, `countries`."
+      schema: { type: string }
+    CentralBankInclude:
+      name: include
+      in: query
+      required: false
+      description: "Relationships to embed. Allowed: `countries`, `currencies`."
+      schema: { type: string }
+    StateInclude:
+      name: include
+      in: query
+      required: false
+      description: "Relationships to embed. Allowed: `country`, `cities`."
+      schema: { type: string }
+    CityInclude:
+      name: include
+      in: query
+      required: false
+      description: "Relationships to embed. Allowed: `state`, `country`."
+      schema: { type: string }
+    FlagInclude:
+      name: include
+      in: query
+      required: false
+      description: "Relationships to embed. Allowed: `squareAsset`, `wideAsset`."
+      schema: { type: string }
+
+  headers:
+    ETag:
+      description: >
+        Strong validator for this exact response. The dataset is fixed for the life of a deployment,
+        so a matching `If-None-Match` always yields `304`.
+      schema: { type: string }
+    CacheControl:
+      description: >
+        Caching policy for this response. `private` while the deployment requires an API key: the
+        data is not confidential, but a shared cache must not hand a body fetched with a valid key
+        to a caller presenting none. A deployment running with authentication off marks responses
+        `public`. Static assets under `/assets/` are always `public`.
+      schema: { type: string }
+    Vary:
+      description: Request headers this response varies by.
+      schema: { type: string }
+
+  responses:
+    BadRequest:
+      description: The request violates the documented contract, such as an unknown `include` value.
+      content:
+        application/problem+json:
+          schema: { $ref: "#/components/schemas/Problem" }
+    Unauthorized:
+      description: No API key was supplied, or the key is not configured on this deployment.
+      content:
+        application/problem+json:
+          schema: { $ref: "#/components/schemas/Problem" }
+    NotFound:
+      description: No record matches the supplied identifier.
+      content:
+        application/problem+json:
+          schema: { $ref: "#/components/schemas/Problem" }
+    NotModified:
+      description: >
+        The caller's cached copy is current. Answered before the endpoint runs, so revalidating
+        costs a hash rather than the work of building the response again.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+    InternalServerError:
+      description: >
+        The request could not be completed. The document carries no detail about why: an unexpected
+        failure is logged on the server rather than described to the caller.
+      content:
+        application/problem+json:
+          schema: { $ref: "#/components/schemas/Problem" }
+    TooManyRequests:
+      description: The caller has spent their request allowance.
+      headers:
+        Retry-After:
+          description: Whole seconds to wait before the next request is allowed.
+          schema: { type: integer, format: int32 }
+      content:
+        application/problem+json:
+          schema: { $ref: "#/components/schemas/Problem" }
+
+    MetaOk:
+      description: Dataset version and service limits.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Meta" }
+
+    CountryOk:
+      description: The requested country.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Country" }
+    CountryPageOk:
+      description: One page of countries.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/CountryPage" }
+
+    CurrencyOk:
+      description: The requested currency.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Currency" }
+    CurrencyPageOk:
+      description: One page of currencies.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/CurrencyPage" }
+
+    CryptoOk:
+      description: The requested cryptocurrency.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Crypto" }
+    CryptoPageOk:
+      description: One page of cryptocurrencies.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/CryptoPage" }
+
+    LanguageOk:
+      description: The requested language.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Language" }
+    LanguagePageOk:
+      description: One page of languages.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/LanguagePage" }
+
+    RegionOk:
+      description: The requested region.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Region" }
+    RegionPageOk:
+      description: One page of regions.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/RegionPage" }
+
+    SubregionOk:
+      description: The requested subregion.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Subregion" }
+    SubregionPageOk:
+      description: One page of subregions.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/SubregionPage" }
+
+    CentralBankOk:
+      description: The requested central bank.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/CentralBank" }
+    CentralBankPageOk:
+      description: One page of central banks.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/CentralBankPage" }
+
+    StateOk:
+      description: The requested state.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/State" }
+    StatePageOk:
+      description: One page of states.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/StatePage" }
+
+    CityOk:
+      description: The requested city.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/City" }
+    CityPageOk:
+      description: One page of cities.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/CityPage" }
+
+    TimezoneOk:
+      description: The requested timezone.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Timezone" }
+    TimezonePageOk:
+      description: One page of timezones.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/TimezonePage" }
+
+    FlagOk:
+      description: The requested flag.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Flag" }
+    FlagPageOk:
+      description: One page of flags.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/FlagPage" }
+
+    MediaAssetOk:
+      description: The requested media asset.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/MediaAsset" }
+    MediaAssetPageOk:
+      description: One page of media assets.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/MediaAssetPage" }
+
+  schemas:
+    Problem:
+      type: object
+      description: RFC 9457 problem details.
+      required: [type, title, status]
+      properties:
+        type: { type: string, description: Problem type URI. }
+        title: { type: string, description: Short, human-readable summary. }
+        status: { type: integer, format: int32, description: HTTP status code. }
+        detail: { type: string, description: Explanation specific to this occurrence. }
+        instance: { type: string, description: URI reference identifying this occurrence. }
+        allowed:
+          type: array
+          description: Accepted values, supplied when a parameter was rejected for being unknown.
+          items: { type: string }
+
+    PageInfo:
+      type: object
+      description: Where a page sits in the full result.
+      required: [page, size, totalItems, totalPages, hasNextPage, hasPreviousPage]
+      properties:
+        page: { type: integer, format: int32 }
+        size: { type: integer, format: int32 }
+        totalItems: { type: integer, format: int32 }
+        totalPages: { type: integer, format: int32 }
+        hasNextPage: { type: boolean }
+        hasPreviousPage: { type: boolean }
+
+    Coordinates:
+      type: object
+      description: Geographic coordinates in decimal degrees.
+      required: [latitude, longitude]
+      properties:
+        latitude: { type: number, format: double }
+        longitude: { type: number, format: double }
+
+    Meta:
+      type: object
+      description: What this deployment serves and the limits it applies.
+      required: [datasetVersion, datasetDate, supportedLanguages, maxPageSize, maxIncludedItems]
+      properties:
+        datasetVersion: { type: integer, format: int32 }
+        datasetDate: { type: string }
+        supportedLanguages:
+          type: array
+          description: Translation languages accepted by `Accept-Language` and `lang`.
+          items: { type: string }
+        maxPageSize: { type: integer, format: int32 }
+        maxIncludedItems:
+          type: integer
+          format: int32
+          description: Largest number of records returned inside an included collection.
+        counts:
+          type: object
+          description: Number of records of each kind in the loaded dataset.
+          additionalProperties: { type: integer, format: int32 }
+        rateLimit:
+          $ref: "#/components/schemas/RateLimit"
+
+    RateLimit:
+      type: object
+      description: >
+        The per-key request allowance this deployment grants, counted per replica. Absent when the
+        deployment does not rate limit.
+      required: [requestsPerMinute, burst]
+      properties:
+        requestsPerMinute:
+          type: integer
+          format: int32
+          description: Sustained request rate allowed for one key.
+        burst:
+          type: integer
+          format: int32
+          description: Requests one key may make back to back before the sustained rate applies.
+
+    Country:
+      type: object
+      required: [id, name, iso2, iso3, isoNumeric, phoneCode, coordinates, regionId, subregionId]
+      properties:
+        id: { type: integer, format: int64 }
+        name: { type: string, description: Localized display name. }
+        nativeName: { type: string }
+        iso2: { type: string }
+        iso3: { type: string }
+        isoNumeric: { type: string, description: Kept as text to preserve leading zeros. }
+        phoneCode: { type: string }
+        tld: { type: string }
+        coordinates: { $ref: "#/components/schemas/Coordinates" }
+        regionId: { type: integer, format: int64 }
+        subregionId: { type: integer, format: int64 }
+        flagId: { type: integer, format: int64 }
+        region: { $ref: "#/components/schemas/Region" }
+        subregion: { $ref: "#/components/schemas/Subregion" }
+        flag: { $ref: "#/components/schemas/Flag" }
+        currencies:
+          type: array
+          items: { $ref: "#/components/schemas/Currency" }
+        languages:
+          type: array
+          items: { $ref: "#/components/schemas/Language" }
+        timezones:
+          type: array
+          items: { $ref: "#/components/schemas/Timezone" }
+        centralBanks:
+          type: array
+          items: { $ref: "#/components/schemas/CentralBank" }
+        states:
+          type: array
+          items: { $ref: "#/components/schemas/State" }
+        truncatedIncludes:
+          type: array
+          description: Included collections that were capped. Page through them at their own endpoint.
+          items: { type: string }
+
+    Currency:
+      type: object
+      required: [id, iso3, isoNumeric, name, decimalDigits, obsolete]
+      properties:
+        id: { type: integer, format: int64 }
+        iso3: { type: string }
+        isoNumeric: { type: string }
+        name: { type: string, description: Localized display name. }
+        nativeName: { type: string }
+        description: { type: string }
+        symbol: { type: string }
+        decimalDigits: { type: integer, format: int32 }
+        year: { type: integer, format: int32 }
+        introducedDate: { type: string, format: date }
+        obsolete: { type: boolean }
+        obsoleteAt: { type: string, format: date }
+        replacedById: { type: integer, format: int64 }
+        flagId: { type: integer, format: int64 }
+        flag: { $ref: "#/components/schemas/Flag" }
+        replacedBy: { $ref: "#/components/schemas/Currency" }
+        countries:
+          type: array
+          items: { $ref: "#/components/schemas/Country" }
+        centralBanks:
+          type: array
+          items: { $ref: "#/components/schemas/CentralBank" }
+        truncatedIncludes:
+          type: array
+          items: { type: string }
+
+    Crypto:
+      type: object
+      required: [id, code, alias, name, decimalDigits, obsolete]
+      properties:
+        id: { type: integer, format: int64 }
+        code: { type: string, description: Ticker symbol the coin trades under. }
+        alias:
+          type: string
+          description: >
+            Stable lowercase key for the coin. A ticker can be renamed; the alias is what stays the
+            same, and it is the name the coin's logo files are stored under.
+        name: { type: string }
+        description: { type: string }
+        websiteUrl: { type: string }
+        introducedYear: { type: integer, format: int32 }
+        decimalDigits: { type: integer, format: int32 }
+        obsolete: { type: boolean }
+        obsoleteAt: { type: string, format: date }
+        logoId: { type: integer, format: int64 }
+        logo: { $ref: "#/components/schemas/MediaAsset" }
+        truncatedIncludes:
+          type: array
+          items: { type: string }
+
+    Language:
+      type: object
+      required: [id, code, name]
+      properties:
+        id: { type: integer, format: int64 }
+        code: { type: string }
+        name: { type: string, description: Localized display name. }
+        nativeName: { type: string }
+        description: { type: string }
+        flagId: { type: integer, format: int64 }
+        flag: { $ref: "#/components/schemas/Flag" }
+        countries:
+          type: array
+          items: { $ref: "#/components/schemas/Country" }
+        truncatedIncludes:
+          type: array
+          items: { type: string }
+
+    Region:
+      type: object
+      required: [id, name]
+      properties:
+        id: { type: integer, format: int64 }
+        name: { type: string, description: Localized display name. }
+        subregions:
+          type: array
+          items: { $ref: "#/components/schemas/Subregion" }
+        countries:
+          type: array
+          items: { $ref: "#/components/schemas/Country" }
+        truncatedIncludes:
+          type: array
+          items: { type: string }
+
+    Subregion:
+      type: object
+      required: [id, name, regionId]
+      properties:
+        id: { type: integer, format: int64 }
+        name: { type: string, description: Localized display name. }
+        regionId: { type: integer, format: int64 }
+        region: { $ref: "#/components/schemas/Region" }
+        countries:
+          type: array
+          items: { $ref: "#/components/schemas/Country" }
+        truncatedIncludes:
+          type: array
+          items: { type: string }
+
+    CentralBank:
+      type: object
+      required: [id, name]
+      properties:
+        id: { type: integer, format: int64 }
+        name: { type: string, description: Localized display name. }
+        nativeName: { type: string }
+        websiteUrl: { type: string }
+        establishmentYear: { type: integer, format: int32 }
+        countries:
+          type: array
+          items: { $ref: "#/components/schemas/Country" }
+        currencies:
+          type: array
+          items: { $ref: "#/components/schemas/Currency" }
+        truncatedIncludes:
+          type: array
+          items: { type: string }
+
+    State:
+      type: object
+      required: [id, name, countryId]
+      properties:
+        id: { type: integer, format: int64 }
+        name: { type: string, description: Localized display name. }
+        stateCode: { type: string }
+        type: { type: string, description: Administrative division type, such as "province". }
+        coordinates: { $ref: "#/components/schemas/Coordinates" }
+        countryId: { type: integer, format: int64 }
+        country: { $ref: "#/components/schemas/Country" }
+        cities:
+          type: array
+          items: { $ref: "#/components/schemas/City" }
+        truncatedIncludes:
+          type: array
+          items: { type: string }
+
+    City:
+      type: object
+      required: [id, name, stateId, coordinates]
+      properties:
+        id: { type: integer, format: int64 }
+        name: { type: string, description: Localized display name. }
+        stateId: { type: integer, format: int64 }
+        coordinates: { $ref: "#/components/schemas/Coordinates" }
+        state: { $ref: "#/components/schemas/State" }
+        country: { $ref: "#/components/schemas/Country" }
+        truncatedIncludes:
+          type: array
+          items: { type: string }
+
+    Timezone:
+      type: object
+      required: [id, zoneName, tzName, gmtOffset, gmtOffsetName, abbreviation]
+      properties:
+        id: { type: integer, format: int64 }
+        zoneName: { type: string, description: IANA timezone name. }
+        tzName: { type: string, description: Localized display name. }
+        gmtOffset: { type: integer, format: int32, description: Offset from GMT in seconds. }
+        gmtOffsetName: { type: string }
+        abbreviation: { type: string }
+
+    Flag:
+      type: object
+      required: [id, caption, emoji, emojiU]
+      properties:
+        id: { type: integer, format: int64 }
+        caption: { type: string }
+        emoji: { type: string }
+        emojiU: { type: string, description: Unicode code points for the emoji. }
+        squareAssetId: { type: integer, format: int64 }
+        wideAssetId: { type: integer, format: int64 }
+        squareAsset: { $ref: "#/components/schemas/MediaAsset" }
+        wideAsset: { $ref: "#/components/schemas/MediaAsset" }
+
+    MediaAsset:
+      type: object
+      required: [id, type, key, description]
+      properties:
+        id: { type: integer, format: int64 }
+        type:
+          type: string
+          enum: [image]
+        key:
+          type: string
+          description: >
+            Stable machine key for the asset, and the name its files are stored under — `zw` for
+            Zimbabwe's flag, `btc` for Bitcoin's logo. Match on this when a client needs to
+            recognise an asset; it is unique per aspect ratio, so a flag's square and wide images
+            share one.
+          example: zw
+        description:
+          type: string
+          description: Prose naming what the asset shows, for people rather than for matching.
+          example: Zimbabwe flag, square
+        image: { $ref: "#/components/schemas/ImageAsset" }
+
+    ImageAsset:
+      type: object
+      required: [aspectRatio, formats]
+      properties:
+        aspectRatio:
+          type: string
+          enum: [square, wide]
+        formats: { $ref: "#/components/schemas/ImageAssetFormats" }
+
+    ImageAssetFormats:
+      type: object
+      description: Paths for each available encoding of an image asset.
+      properties:
+        svg: { type: string }
+        png: { $ref: "#/components/schemas/ImageAssetSizes" }
+        webp: { $ref: "#/components/schemas/ImageAssetSizes" }
+        jpg: { $ref: "#/components/schemas/ImageAssetSizes" }
+
+    ImageAssetSizes:
+      type: object
+      description: Paths for each rendered size of one bitmap format.
+      properties:
+        xs: { type: string }
+        sm: { type: string }
+        md: { type: string }
+        lg: { type: string }
+        xl: { type: string }
+
+    CountryPage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/Country" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    CurrencyPage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/Currency" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    CryptoPage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/Crypto" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    LanguagePage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/Language" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    RegionPage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/Region" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    SubregionPage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/Subregion" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    CentralBankPage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/CentralBank" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    StatePage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/State" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    CityPage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/City" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    TimezonePage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/Timezone" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    FlagPage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/Flag" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    MediaAssetPage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/MediaAsset" }
+        page: { $ref: "#/components/schemas/PageInfo" }

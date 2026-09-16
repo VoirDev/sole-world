@@ -45,7 +45,7 @@ class MediaAssetQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              mediaAssets(ids: [9001, 9002, 9999]) {
+              mediaAssetsByIds(ids: [9001, 9002, 9999]) {
                 id
                 type
                 image { aspectRatio }
@@ -55,7 +55,7 @@ class MediaAssetQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         )
 
         assertNoErrors(response)
-        val assets = response.at("/data/mediaAssets")
+        val assets = response.at("/data/mediaAssetsByIds")
         assertArrayValues(assets, "id", "9001", "9002")
         assertArrayValues(assets, "type", "Image", "Image")
     }
