@@ -1,5 +1,5 @@
 {
-  "id": 74,
+  "id": "FI",
   "name": "Finland",
   "nativeName": "Suomi",
   "iso2": "FI",
@@ -9,18 +9,18 @@
   "tld": ".fi",
   "latitude": 64,
   "longitude": 26,
-  "flagId": 180,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "fi",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2376
+    "Europe/Helsinki"
   ],
   "officialLanguageIds": [
-    32,
-    48
+    "fi",
+    "sv"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 1493,
+      "id": "FI-06",
       "name": "Tavastia Proper",
       "stateCode": "06",
       "latitude": 60.907015,
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "id": 1494,
+      "id": "FI-07",
       "name": "Central Ostrobothnia",
       "stateCode": "07",
       "latitude": 63.5621735,
@@ -302,7 +302,7 @@
       ]
     },
     {
-      "id": 1495,
+      "id": "FI-04",
       "name": "Southern Savonia",
       "stateCode": "04",
       "latitude": 61.6945148,
@@ -460,7 +460,7 @@
       ]
     },
     {
-      "id": 1496,
+      "id": "FI-05",
       "name": "Kainuu",
       "stateCode": "05",
       "latitude": 64.3736564,
@@ -548,7 +548,7 @@
       ]
     },
     {
-      "id": 1497,
+      "id": "FI-02",
       "name": "South Karelia",
       "stateCode": "02",
       "latitude": 61.1181949,
@@ -650,7 +650,7 @@
       ]
     },
     {
-      "id": 1498,
+      "id": "FI-03",
       "name": "Southern Ostrobothnia",
       "stateCode": "03",
       "latitude": 62.9433099,
@@ -843,7 +843,7 @@
       ]
     },
     {
-      "id": 1500,
+      "id": "FI-10",
       "name": "Lapland",
       "stateCode": "10",
       "latitude": 67.9222304,
@@ -1015,7 +1015,7 @@
       ]
     },
     {
-      "id": 1501,
+      "id": "FI-17",
       "name": "Satakunta",
       "stateCode": "17",
       "latitude": 61.5932758,
@@ -1201,7 +1201,7 @@
       ]
     },
     {
-      "id": 1502,
+      "id": "FI-16",
       "name": "Päijänne Tavastia",
       "stateCode": "16",
       "latitude": 61.3230041,
@@ -1296,7 +1296,7 @@
       ]
     },
     {
-      "id": 1503,
+      "id": "FI-15",
       "name": "Northern Savonia",
       "stateCode": "15",
       "latitude": 63.08448,
@@ -1306,7 +1306,7 @@
       "cities": []
     },
     {
-      "id": 1504,
+      "id": "FI-13",
       "name": "North Karelia",
       "stateCode": "13",
       "latitude": 62.8062078,
@@ -1443,7 +1443,7 @@
       ]
     },
     {
-      "id": 1505,
+      "id": "FI-14",
       "name": "Northern Ostrobothnia",
       "stateCode": "14",
       "latitude": 65.279493,
@@ -1741,7 +1741,7 @@
       ]
     },
     {
-      "id": 1506,
+      "id": "FI-11",
       "name": "Pirkanmaa",
       "stateCode": "11",
       "latitude": 61.6986918,
@@ -2172,7 +2172,7 @@
       ]
     },
     {
-      "id": 1507,
+      "id": "FI-19",
       "name": "Finland Proper",
       "stateCode": "19",
       "latitude": 60.3627914,
@@ -2554,7 +2554,7 @@
       ]
     },
     {
-      "id": 1508,
+      "id": "FI-12",
       "name": "Ostrobothnia",
       "stateCode": "12",
       "latitude": 63.1181757,
@@ -2705,7 +2705,7 @@
       ]
     },
     {
-      "id": 1509,
+      "id": "FI-01",
       "name": "Åland Islands",
       "stateCode": "01",
       "latitude": 60.1785247,
@@ -2800,7 +2800,7 @@
       ]
     },
     {
-      "id": 1510,
+      "id": "FI-18",
       "name": "Uusimaa",
       "stateCode": "18",
       "latitude": 60.21872,
@@ -3133,7 +3133,7 @@
       ]
     },
     {
-      "id": 1511,
+      "id": "FI-08",
       "name": "Central Finland",
       "stateCode": "08",
       "latitude": 62.5666743,
@@ -3354,7 +3354,7 @@
       ]
     },
     {
-      "id": 1512,
+      "id": "FI-09",
       "name": "Kymenlaakso",
       "stateCode": "09",
       "latitude": 60.780512,

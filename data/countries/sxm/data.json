@@ -1,5 +1,5 @@
 {
-  "id": 250,
+  "id": "SX",
   "name": "Sint Maarten",
   "nativeName": "Sint Maarten",
   "iso2": "SX",
@@ -9,18 +9,18 @@
   "tld": ".sx",
   "latitude": 18.033333,
   "longitude": -63.05,
-  "flagId": 40,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "sx",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    873
+    "XCG"
   ],
   "timezoneIds": [
-    2660
+    "America/Lower_Princes"
   ],
   "officialLanguageIds": [
-    30,
-    29
+    "en",
+    "nl"
   ],
   "otherLanguageIds": [],
   "translations": [

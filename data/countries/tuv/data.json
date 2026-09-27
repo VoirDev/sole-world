@@ -1,5 +1,5 @@
 {
-  "id": 228,
+  "id": "TV",
   "name": "Tuvalu",
   "nativeName": "Tuvalu",
   "iso2": "TV",
@@ -9,17 +9,17 @@
   "tld": ".tv",
   "latitude": -8,
   "longitude": 178,
-  "flagId": 24,
-  "regionId": 5,
-  "subregionId": 22,
+  "flagId": "tv",
+  "regionId": "oceania",
+  "subregionId": "polynesia",
   "currencyIds": [
-    844
+    "AUD"
   ],
   "timezoneIds": [
-    2594
+    "Pacific/Funafuti"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3946,
+      "id": "TV-NIT",
       "name": "Niutao Island Council",
       "stateCode": "NIT",
       "latitude": -6.1064258,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 3947,
+      "id": "TV-NMG",
       "name": "Nanumanga",
       "stateCode": "NMG",
       "latitude": -6.2858019,
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": 3948,
+      "id": "TV-NUI",
       "name": "Nui",
       "stateCode": "NUI",
       "latitude": -7.2388768,
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": 3949,
+      "id": "TV-NMA",
       "name": "Nanumea",
       "stateCode": "NMA",
       "latitude": -5.6881617,
@@ -161,7 +161,7 @@
       "cities": []
     },
     {
-      "id": 3950,
+      "id": "TV-VAI",
       "name": "Vaitupu",
       "stateCode": "VAI",
       "latitude": -7.4767327,
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "id": 3951,
+      "id": "TV-FUN",
       "name": "Funafuti",
       "stateCode": "FUN",
       "latitude": -8.5211471,
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "id": 3952,
+      "id": "TV-NKF",
       "name": "Nukufetau",
       "stateCode": "NKF",
       "latitude": -8,
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "id": 3953,
+      "id": "TV-NKL",
       "name": "Nukulaelae",
       "stateCode": "NKL",
       "latitude": -9.381111,

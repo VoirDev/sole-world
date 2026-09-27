@@ -11,7 +11,7 @@ class FlagQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              flag(id: 1001) {
+              flag(id: "fd") {
                 id
                 caption
                 emoji
@@ -35,10 +35,10 @@ class FlagQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
         assertNoErrors(response)
         val flag = response.at("/data/flag")
-        assertEquals("1001", flag["id"].stringValue())
+        assertEquals("fd", flag["id"].stringValue())
         assertEquals("Freedonia flag", flag["caption"].stringValue())
-        assertEquals("9001", flag["squareAssetId"].stringValue())
-        assertEquals("9002", flag["wideAssetId"].stringValue())
+        assertEquals("flag-fd-square", flag["squareAssetId"].stringValue())
+        assertEquals("flag-fd-wide", flag["wideAssetId"].stringValue())
         assertEquals("Square", flag.at("/squareAsset/image/aspectRatio").stringValue())
         assertEquals("Wide", flag.at("/wideAsset/image/aspectRatio").stringValue())
         assertEquals(
@@ -52,7 +52,7 @@ class FlagQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: flagsByIds(ids: [1001, 999]) { id caption }
+              requested: flagsByIds(ids: ["fd", "xx"]) { id caption }
             }
             """.trimIndent(),
         )
@@ -66,7 +66,7 @@ class FlagQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              flag(id: 999) { id }
+              flag(id: "xx") { id }
             }
             """.trimIndent(),
         )

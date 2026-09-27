@@ -1,5 +1,5 @@
 {
-  "id": 237,
+  "id": "VU",
   "name": "Vanuatu",
   "nativeName": "Vanuatu",
   "iso2": "VU",
@@ -9,19 +9,19 @@
   "tld": ".vu",
   "latitude": -16,
   "longitude": 167,
-  "flagId": 9,
-  "regionId": 5,
-  "subregionId": 20,
+  "flagId": "vu",
+  "regionId": "oceania",
+  "subregionId": "melanesia",
   "currencyIds": [
-    982
+    "VUV"
   ],
   "timezoneIds": [
-    2636
+    "Pacific/Efate"
   ],
   "officialLanguageIds": [
-    20,
-    30,
-    33
+    "bi",
+    "en",
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 4772,
+      "id": "VU-TOB",
       "name": "Torba",
       "stateCode": "TOB",
       "latitude": 37.07653,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": 4773,
+      "id": "VU-PAM",
       "name": "Penama",
       "stateCode": "PAM",
       "latitude": -15.3795758,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 4774,
+      "id": "VU-SEE",
       "name": "Shefa",
       "stateCode": "SEE",
       "latitude": 32.805765,
@@ -138,7 +138,7 @@
       ]
     },
     {
-      "id": 4775,
+      "id": "VU-MAP",
       "name": "Malampa",
       "stateCode": "MAP",
       "latitude": -16.4011405,
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "id": 4776,
+      "id": "VU-SAM",
       "name": "Sanma",
       "stateCode": "SAM",
       "latitude": -15.4840017,
@@ -188,7 +188,7 @@
       ]
     },
     {
-      "id": 4777,
+      "id": "VU-TAE",
       "name": "Tafea",
       "stateCode": "TAE",
       "latitude": -18.7237827,

@@ -1,5 +1,5 @@
 {
-  "id": 91,
+  "id": "GG",
   "name": "Guernsey",
   "nativeName": "Guernsey",
   "iso2": "GG",
@@ -9,18 +9,18 @@
   "tld": ".gg",
   "latitude": 49.46666666,
   "longitude": -2.58333333,
-  "flagId": 168,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "gg",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    890
+    "GBP"
   ],
   "timezoneIds": [
-    2398
+    "Europe/Guernsey"
   ],
   "officialLanguageIds": [
-    30,
-    33
+    "en",
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [

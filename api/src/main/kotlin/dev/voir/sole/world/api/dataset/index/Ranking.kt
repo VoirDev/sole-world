@@ -13,14 +13,14 @@ object Ranking {
      * @param records Candidate records.
      * @param query Prepared search query.
      * @param score Relevance of one record against the query; zero or less means no match.
-     * @param tieBreaker Stable identifier ordering records of equal relevance.
+     * @param tieBreaker Stable value, usually the identifier, ordering records of equal relevance.
      * @return Matching records, most relevant first.
      */
     fun <T> rank(
         records: List<T>,
         query: SearchQuery,
         score: (T, SearchQuery) -> Int,
-        tieBreaker: (T) -> Long,
+        tieBreaker: (T) -> Comparable<*>,
     ): List<T> {
         val scored = ArrayList<Pair<T, Int>>()
         for (record in records) {

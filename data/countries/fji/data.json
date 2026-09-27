@@ -1,5 +1,5 @@
 {
-  "id": 73,
+  "id": "FJ",
   "name": "Fiji",
   "nativeName": "Fiji",
   "iso2": "FJ",
@@ -9,19 +9,19 @@
   "tld": ".fj",
   "latitude": -18,
   "longitude": 175,
-  "flagId": 179,
-  "regionId": 5,
-  "subregionId": 20,
+  "flagId": "fj",
+  "regionId": "oceania",
+  "subregionId": "melanesia",
   "currencyIds": [
-    884
+    "FJD"
   ],
   "timezoneIds": [
-    2375
+    "Pacific/Fiji"
   ],
   "officialLanguageIds": [
-    30,
-    79,
-    37
+    "en",
+    "fj",
+    "hi"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 1916,
+      "id": "FJ-06",
       "name": "Lomaiviti",
       "stateCode": "06",
       "latitude": -17.709,
@@ -102,7 +102,7 @@
       "cities": []
     },
     {
-      "id": 1917,
+      "id": "FJ-01",
       "name": "Ba",
       "stateCode": "01",
       "latitude": 36.0613893,
@@ -112,7 +112,7 @@
       "cities": []
     },
     {
-      "id": 1918,
+      "id": "FJ-14",
       "name": "Tailevu",
       "stateCode": "14",
       "latitude": -17.8269111,
@@ -122,7 +122,7 @@
       "cities": []
     },
     {
-      "id": 1919,
+      "id": "FJ-08",
       "name": "Nadroga-Navosa",
       "stateCode": "08",
       "latitude": -17.9865278,
@@ -132,7 +132,7 @@
       "cities": []
     },
     {
-      "id": 1920,
+      "id": "FJ-12",
       "name": "Rewa",
       "stateCode": "12",
       "latitude": 34.7923517,
@@ -142,7 +142,7 @@
       "cities": []
     },
     {
-      "id": 1921,
+      "id": "FJ-N",
       "name": "Northern",
       "stateCode": "N",
       "latitude": 32.8768766,
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "id": 1922,
+      "id": "FJ-07",
       "name": "Macuata",
       "stateCode": "07",
       "latitude": -16.4864922,
@@ -191,7 +191,7 @@
       "cities": []
     },
     {
-      "id": 1923,
+      "id": "FJ-W",
       "name": "Western",
       "stateCode": "W",
       "latitude": 42.9662198,
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "id": 1924,
+      "id": "FJ-03",
       "name": "Cakaudrove",
       "stateCode": "03",
       "latitude": -16.5814105,
@@ -254,7 +254,7 @@
       "cities": []
     },
     {
-      "id": 1925,
+      "id": "FJ-13",
       "name": "Serua",
       "stateCode": "13",
       "latitude": -18.1804749,
@@ -264,7 +264,7 @@
       "cities": []
     },
     {
-      "id": 1926,
+      "id": "FJ-11",
       "name": "Ra",
       "stateCode": "11",
       "latitude": 37.1003153,
@@ -274,7 +274,7 @@
       "cities": []
     },
     {
-      "id": 1927,
+      "id": "FJ-09",
       "name": "Naitasiri",
       "stateCode": "09",
       "latitude": -17.8975754,
@@ -284,7 +284,7 @@
       "cities": []
     },
     {
-      "id": 1928,
+      "id": "FJ-10",
       "name": "Namosi",
       "stateCode": "10",
       "latitude": -18.0864176,
@@ -294,7 +294,7 @@
       "cities": []
     },
     {
-      "id": 1929,
+      "id": "FJ-C",
       "name": "Central",
       "stateCode": "C",
       "latitude": 34.0440066,
@@ -347,7 +347,7 @@
       ]
     },
     {
-      "id": 1930,
+      "id": "FJ-02",
       "name": "Bua",
       "stateCode": "02",
       "latitude": 43.0964584,
@@ -357,7 +357,7 @@
       "cities": []
     },
     {
-      "id": 1931,
+      "id": "FJ-R",
       "name": "Rotuma",
       "stateCode": "R",
       "latitude": -12.5025069,
@@ -367,7 +367,7 @@
       "cities": []
     },
     {
-      "id": 1932,
+      "id": "FJ-E",
       "name": "Eastern",
       "stateCode": "E",
       "latitude": 32.8094305,
@@ -406,7 +406,7 @@
       ]
     },
     {
-      "id": 1933,
+      "id": "FJ-05",
       "name": "Lau",
       "stateCode": "05",
       "latitude": 31.6687015,
@@ -416,7 +416,7 @@
       "cities": []
     },
     {
-      "id": 1934,
+      "id": "FJ-04",
       "name": "Kadavu",
       "stateCode": "04",
       "latitude": -19.0127122,

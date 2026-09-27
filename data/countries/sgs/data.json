@@ -1,5 +1,5 @@
 {
-  "id": 205,
+  "id": "GS",
   "name": "South Georgia and the South Sandwich Islands",
   "nativeName": "South Georgia",
   "iso2": "GS",
@@ -9,17 +9,17 @@
   "tld": ".gs",
   "latitude": -54.5,
   "longitude": -37,
-  "flagId": 159,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "gs",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    890
+    "GBP"
   ],
   "timezoneIds": [
-    2566
+    "Atlantic/South_Georgia"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [

@@ -1,5 +1,5 @@
 {
-  "id": 12,
+  "id": "AM",
   "name": "Armenia",
   "nativeName": "Հայաստան",
   "iso2": "AM",
@@ -9,17 +9,17 @@
   "tld": ".am",
   "latitude": 40,
   "longitude": 45,
-  "flagId": 241,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "am",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    842
+    "AMD"
   ],
   "timezoneIds": [
-    2255
+    "Asia/Yerevan"
   ],
   "officialLanguageIds": [
-    9
+    "hy"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2023,
+      "id": "AM-AG",
       "name": "Aragatsotn",
       "stateCode": "AG",
       "latitude": 40.3347301,
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "id": 2024,
+      "id": "AM-AR",
       "name": "Ararat",
       "stateCode": "AR",
       "latitude": 39.9139415,
@@ -623,7 +623,7 @@
       ]
     },
     {
-      "id": 2025,
+      "id": "AM-VD",
       "name": "Vayots Dzor",
       "stateCode": "VD",
       "latitude": 39.7641996,
@@ -732,7 +732,7 @@
       ]
     },
     {
-      "id": 2026,
+      "id": "AM-AV",
       "name": "Armavir",
       "stateCode": "AV",
       "latitude": 40.1554631,
@@ -1121,7 +1121,7 @@
       ]
     },
     {
-      "id": 2027,
+      "id": "AM-SU",
       "name": "Syunik",
       "stateCode": "SU",
       "latitude": 39.5133112,
@@ -1230,7 +1230,7 @@
       ]
     },
     {
-      "id": 2028,
+      "id": "AM-GR",
       "name": "Gegharkunik",
       "stateCode": "GR",
       "latitude": 40.3526426,
@@ -1493,7 +1493,7 @@
       ]
     },
     {
-      "id": 2029,
+      "id": "AM-LO",
       "name": "Lori",
       "stateCode": "LO",
       "latitude": 40.9698452,
@@ -1756,7 +1756,7 @@
       ]
     },
     {
-      "id": 2030,
+      "id": "AM-ER",
       "name": "Yerevan",
       "stateCode": "ER",
       "latitude": 40.1872023,
@@ -1809,7 +1809,7 @@
       ]
     },
     {
-      "id": 2031,
+      "id": "AM-SH",
       "name": "Shirak",
       "stateCode": "SH",
       "latitude": 40.9630814,
@@ -2002,7 +2002,7 @@
       ]
     },
     {
-      "id": 2032,
+      "id": "AM-TV",
       "name": "Tavush",
       "stateCode": "TV",
       "latitude": 40.8866296,
@@ -2132,7 +2132,7 @@
       ]
     },
     {
-      "id": 2033,
+      "id": "AM-KT",
       "name": "Kotayk",
       "stateCode": "KT",
       "latitude": 40.5410214,

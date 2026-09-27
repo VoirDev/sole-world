@@ -1,5 +1,5 @@
 {
-  "id": 3,
+  "id": "AL",
   "name": "Albania",
   "nativeName": "Shqipëria",
   "iso2": "AL",
@@ -9,17 +9,17 @@
   "tld": ".al",
   "latitude": 41,
   "longitude": 20,
-  "flagId": 242,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "al",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    836
+    "ALL"
   ],
   "timezoneIds": [
-    2236
+    "Europe/Tirane"
   ],
   "officialLanguageIds": [
-    5
+    "sq"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 593,
+      "id": "AL-SK",
       "name": "Skrapar",
       "stateCode": "SK",
       "latitude": 40.5349946,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 594,
+      "id": "AL-KA",
       "name": "Kavajë",
       "stateCode": "KA",
       "latitude": 41.1844529,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 595,
+      "id": "AL-LE",
       "name": "Lezhë",
       "stateCode": "LE",
       "latitude": 41.786073,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 596,
+      "id": "AL-LB",
       "name": "Librazhd",
       "stateCode": "LB",
       "latitude": 41.1829232,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 597,
+      "id": "AL-KO",
       "name": "Korçë",
       "stateCode": "KO",
       "latitude": 40.590567,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 598,
+      "id": "AL-03",
       "name": "Elbasan",
       "stateCode": "03",
       "latitude": 41.1266672,
@@ -150,7 +150,7 @@
       "cities": []
     },
     {
-      "id": 599,
+      "id": "AL-LU",
       "name": "Lushnjë",
       "stateCode": "LU",
       "latitude": 40.941983,
@@ -160,7 +160,7 @@
       "cities": []
     },
     {
-      "id": 600,
+      "id": "AL-HA",
       "name": "Has",
       "stateCode": "HA",
       "latitude": 42.7901336,
@@ -170,7 +170,7 @@
       "cities": []
     },
     {
-      "id": 601,
+      "id": "AL-07",
       "name": "Kukës",
       "stateCode": "07",
       "latitude": 42.0807464,
@@ -180,7 +180,7 @@
       "cities": []
     },
     {
-      "id": 602,
+      "id": "AL-MM",
       "name": "Malësi e Madhe",
       "stateCode": "MM",
       "latitude": 42.4245173,
@@ -190,7 +190,7 @@
       "cities": []
     },
     {
-      "id": 603,
+      "id": "AL-01",
       "name": "Berat",
       "stateCode": "01",
       "latitude": 40.6953012,
@@ -200,7 +200,7 @@
       "cities": []
     },
     {
-      "id": 604,
+      "id": "AL-05",
       "name": "Gjirokastër",
       "stateCode": "05",
       "latitude": 40.0672874,
@@ -210,7 +210,7 @@
       "cities": []
     },
     {
-      "id": 605,
+      "id": "AL-DI",
       "name": "Dibër",
       "stateCode": "DI",
       "latitude": 41.5888163,
@@ -220,7 +220,7 @@
       "cities": []
     },
     {
-      "id": 606,
+      "id": "AL-PG",
       "name": "Pogradec",
       "stateCode": "PG",
       "latitude": 40.9015314,
@@ -230,7 +230,7 @@
       "cities": []
     },
     {
-      "id": 607,
+      "id": "AL-BU",
       "name": "Bulqizë",
       "stateCode": "BU",
       "latitude": 41.4942587,
@@ -240,7 +240,7 @@
       "cities": []
     },
     {
-      "id": 608,
+      "id": "AL-DV",
       "name": "Devoll",
       "stateCode": "DV",
       "latitude": 40.6447347,
@@ -250,7 +250,7 @@
       "cities": []
     },
     {
-      "id": 609,
+      "id": "AL-08",
       "name": "Lezhë",
       "stateCode": "08",
       "latitude": 41.7813759,
@@ -345,7 +345,7 @@
       ]
     },
     {
-      "id": 610,
+      "id": "AL-09",
       "name": "Dibër",
       "stateCode": "09",
       "latitude": 41.5888163,
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": 611,
+      "id": "AL-10",
       "name": "Shkodër",
       "stateCode": "10",
       "latitude": 42.150371,
@@ -443,7 +443,7 @@
       "cities": []
     },
     {
-      "id": 612,
+      "id": "AL-KC",
       "name": "Kuçovë",
       "stateCode": "KC",
       "latitude": 40.7837063,
@@ -453,7 +453,7 @@
       "cities": []
     },
     {
-      "id": 613,
+      "id": "AL-VL",
       "name": "Vlorë",
       "stateCode": "VL",
       "latitude": 40.4660668,
@@ -463,7 +463,7 @@
       "cities": []
     },
     {
-      "id": 614,
+      "id": "AL-KR",
       "name": "Krujë",
       "stateCode": "KR",
       "latitude": 41.5094765,
@@ -473,7 +473,7 @@
       "cities": []
     },
     {
-      "id": 615,
+      "id": "AL-11",
       "name": "Tirana",
       "stateCode": "11",
       "latitude": 41.2427598,
@@ -483,7 +483,7 @@
       "cities": []
     },
     {
-      "id": 616,
+      "id": "AL-TE",
       "name": "Tepelenë",
       "stateCode": "TE",
       "latitude": 40.2966632,
@@ -493,7 +493,7 @@
       "cities": []
     },
     {
-      "id": 617,
+      "id": "AL-GR",
       "name": "Gramsh",
       "stateCode": "GR",
       "latitude": 40.8669873,
@@ -503,7 +503,7 @@
       "cities": []
     },
     {
-      "id": 618,
+      "id": "AL-DL",
       "name": "Delvinë",
       "stateCode": "DL",
       "latitude": 39.9481364,
@@ -513,7 +513,7 @@
       "cities": []
     },
     {
-      "id": 619,
+      "id": "AL-PQ",
       "name": "Peqin",
       "stateCode": "PQ",
       "latitude": 41.0470902,
@@ -523,7 +523,7 @@
       "cities": []
     },
     {
-      "id": 620,
+      "id": "AL-PU",
       "name": "Pukë",
       "stateCode": "PU",
       "latitude": 42.0469772,
@@ -533,7 +533,7 @@
       "cities": []
     },
     {
-      "id": 621,
+      "id": "AL-GJ",
       "name": "Gjirokastër",
       "stateCode": "GJ",
       "latitude": 40.0672874,
@@ -642,7 +642,7 @@
       ]
     },
     {
-      "id": 622,
+      "id": "AL-KB",
       "name": "Kurbin",
       "stateCode": "KB",
       "latitude": 41.6412644,
@@ -652,7 +652,7 @@
       "cities": []
     },
     {
-      "id": 623,
+      "id": "AL-KU",
       "name": "Kukës",
       "stateCode": "KU",
       "latitude": 42.0807464,
@@ -698,7 +698,7 @@
       ]
     },
     {
-      "id": 624,
+      "id": "AL-SR",
       "name": "Sarandë",
       "stateCode": "SR",
       "latitude": 39.8592119,
@@ -708,7 +708,7 @@
       "cities": []
     },
     {
-      "id": 625,
+      "id": "AL-PR",
       "name": "Përmet",
       "stateCode": "PR",
       "latitude": 40.2361837,
@@ -718,7 +718,7 @@
       "cities": []
     },
     {
-      "id": 626,
+      "id": "AL-SH",
       "name": "Shkodër",
       "stateCode": "SH",
       "latitude": 42.0692985,
@@ -806,7 +806,7 @@
       ]
     },
     {
-      "id": 627,
+      "id": "AL-FR",
       "name": "Fier",
       "stateCode": "FR",
       "latitude": 40.727504,
@@ -816,7 +816,7 @@
       "cities": []
     },
     {
-      "id": 628,
+      "id": "AL-ER",
       "name": "Kolonjë",
       "stateCode": "ER",
       "latitude": 40.3373262,
@@ -826,7 +826,7 @@
       "cities": []
     },
     {
-      "id": 629,
+      "id": "AL-BR",
       "name": "Berat",
       "stateCode": "BR",
       "latitude": 40.7086377,
@@ -928,7 +928,7 @@
       ]
     },
     {
-      "id": 630,
+      "id": "AL-06",
       "name": "Korçë",
       "stateCode": "06",
       "latitude": 40.590567,
@@ -1051,7 +1051,7 @@
       ]
     },
     {
-      "id": 631,
+      "id": "AL-04",
       "name": "Fier",
       "stateCode": "04",
       "latitude": 40.9191392,
@@ -1153,7 +1153,7 @@
       ]
     },
     {
-      "id": 632,
+      "id": "AL-02",
       "name": "Durrës",
       "stateCode": "02",
       "latitude": 41.5080972,
@@ -1163,7 +1163,7 @@
       "cities": []
     },
     {
-      "id": 633,
+      "id": "AL-TR",
       "name": "Tirana",
       "stateCode": "TR",
       "latitude": 41.3275459,
@@ -1251,7 +1251,7 @@
       ]
     },
     {
-      "id": 634,
+      "id": "AL-12",
       "name": "Vlorë",
       "stateCode": "12",
       "latitude": 40.150096,
@@ -1360,7 +1360,7 @@
       ]
     },
     {
-      "id": 635,
+      "id": "AL-MT",
       "name": "Mat",
       "stateCode": "MT",
       "latitude": 41.5937675,
@@ -1370,7 +1370,7 @@
       "cities": []
     },
     {
-      "id": 636,
+      "id": "AL-TP",
       "name": "Tropojë",
       "stateCode": "TP",
       "latitude": 42.3982151,
@@ -1380,7 +1380,7 @@
       "cities": []
     },
     {
-      "id": 637,
+      "id": "AL-MK",
       "name": "Mallakastër",
       "stateCode": "MK",
       "latitude": 40.5273376,
@@ -1390,7 +1390,7 @@
       "cities": []
     },
     {
-      "id": 638,
+      "id": "AL-MR",
       "name": "Mirditë",
       "stateCode": "MR",
       "latitude": 41.764286,
@@ -1400,7 +1400,7 @@
       "cities": []
     },
     {
-      "id": 639,
+      "id": "AL-DR",
       "name": "Durrës",
       "stateCode": "DR",
       "latitude": 41.3706517,

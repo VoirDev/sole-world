@@ -1,5 +1,5 @@
 {
-  "id": 229,
+  "id": "UG",
   "name": "Uganda",
   "nativeName": "Uganda",
   "iso2": "UG",
@@ -9,18 +9,18 @@
   "tld": ".ug",
   "latitude": 1,
   "longitude": 32,
-  "flagId": 20,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "ug",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    977
+    "UGX"
   ],
   "timezoneIds": [
-    2595
+    "Africa/Kampala"
   ],
   "officialLanguageIds": [
-    30,
-    159
+    "en",
+    "sw"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 324,
+      "id": "UG-412",
       "name": "Rukungiri",
       "stateCode": "412",
       "latitude": -0.751849,
@@ -101,7 +101,7 @@
       "cities": []
     },
     {
-      "id": 325,
+      "id": "UG-123",
       "name": "Kyankwanzi",
       "stateCode": "123",
       "latitude": 1.0966037,
@@ -111,7 +111,7 @@
       "cities": []
     },
     {
-      "id": 326,
+      "id": "UG-405",
       "name": "Kabarole",
       "stateCode": "405",
       "latitude": 0.5850791,
@@ -121,7 +121,7 @@
       "cities": []
     },
     {
-      "id": 327,
+      "id": "UG-106",
       "name": "Mpigi",
       "stateCode": "106",
       "latitude": 0.2273528,
@@ -131,7 +131,7 @@
       "cities": []
     },
     {
-      "id": 328,
+      "id": "UG-302",
       "name": "Apac",
       "stateCode": "302",
       "latitude": 1.8730263,
@@ -141,7 +141,7 @@
       "cities": []
     },
     {
-      "id": 329,
+      "id": "UG-314",
       "name": "Abim",
       "stateCode": "314",
       "latitude": 2.706698,
@@ -151,7 +151,7 @@
       "cities": []
     },
     {
-      "id": 330,
+      "id": "UG-313",
       "name": "Yumbe",
       "stateCode": "313",
       "latitude": 3.4698023,
@@ -161,7 +161,7 @@
       "cities": []
     },
     {
-      "id": 331,
+      "id": "UG-431",
       "name": "Rukiga",
       "stateCode": "431",
       "latitude": -1.1326337,
@@ -171,7 +171,7 @@
       "cities": []
     },
     {
-      "id": 332,
+      "id": "UG-N",
       "name": "Northern",
       "stateCode": "N",
       "latitude": 9.5439269,
@@ -301,7 +301,7 @@
       ]
     },
     {
-      "id": 333,
+      "id": "UG-232",
       "name": "Serere",
       "stateCode": "232",
       "latitude": 1.4994033,
@@ -311,7 +311,7 @@
       "cities": []
     },
     {
-      "id": 334,
+      "id": "UG-205",
       "name": "Kamuli",
       "stateCode": "205",
       "latitude": 0.9187107,
@@ -321,7 +321,7 @@
       "cities": []
     },
     {
-      "id": 335,
+      "id": "UG-316",
       "name": "Amuru",
       "stateCode": "316",
       "latitude": 2.9667878,
@@ -331,7 +331,7 @@
       "cities": []
     },
     {
-      "id": 336,
+      "id": "UG-213",
       "name": "Kaberamaido",
       "stateCode": "213",
       "latitude": 1.6963322,
@@ -341,7 +341,7 @@
       "cities": []
     },
     {
-      "id": 337,
+      "id": "UG-224",
       "name": "Namutumba",
       "stateCode": "224",
       "latitude": 0.849261,
@@ -351,7 +351,7 @@
       "cities": []
     },
     {
-      "id": 338,
+      "id": "UG-227",
       "name": "Kibuku",
       "stateCode": "227",
       "latitude": 1.0452874,
@@ -361,7 +361,7 @@
       "cities": []
     },
     {
-      "id": 339,
+      "id": "UG-417",
       "name": "Ibanda",
       "stateCode": "417",
       "latitude": -0.096489,
@@ -371,7 +371,7 @@
       "cities": []
     },
     {
-      "id": 340,
+      "id": "UG-203",
       "name": "Iganga",
       "stateCode": "203",
       "latitude": 0.6600137,
@@ -381,7 +381,7 @@
       "cities": []
     },
     {
-      "id": 341,
+      "id": "UG-317",
       "name": "Dokolo",
       "stateCode": "317",
       "latitude": 1.9636421,
@@ -391,7 +391,7 @@
       "cities": []
     },
     {
-      "id": 342,
+      "id": "UG-307",
       "name": "Lira",
       "stateCode": "307",
       "latitude": 2.2316169,
@@ -401,7 +401,7 @@
       "cities": []
     },
     {
-      "id": 343,
+      "id": "UG-219",
       "name": "Bukedea",
       "stateCode": "219",
       "latitude": 1.3556898,
@@ -411,7 +411,7 @@
       "cities": []
     },
     {
-      "id": 344,
+      "id": "UG-323",
       "name": "Alebtong",
       "stateCode": "323",
       "latitude": 2.2545773,
@@ -421,7 +421,7 @@
       "cities": []
     },
     {
-      "id": 345,
+      "id": "UG-319",
       "name": "Koboko",
       "stateCode": "319",
       "latitude": 3.5237058,
@@ -431,7 +431,7 @@
       "cities": []
     },
     {
-      "id": 346,
+      "id": "UG-421",
       "name": "Kiryandongo",
       "stateCode": "421",
       "latitude": 2.0179907,
@@ -441,7 +441,7 @@
       "cities": []
     },
     {
-      "id": 347,
+      "id": "UG-103",
       "name": "Kiboga",
       "stateCode": "103",
       "latitude": 0.965759,
@@ -451,7 +451,7 @@
       "cities": []
     },
     {
-      "id": 348,
+      "id": "UG-305",
       "name": "Kitgum",
       "stateCode": "305",
       "latitude": 3.3396829,
@@ -461,7 +461,7 @@
       "cities": []
     },
     {
-      "id": 349,
+      "id": "UG-218",
       "name": "Bududa",
       "stateCode": "218",
       "latitude": 1.0029693,
@@ -471,7 +471,7 @@
       "cities": []
     },
     {
-      "id": 350,
+      "id": "UG-209",
       "name": "Mbale",
       "stateCode": "209",
       "latitude": 1.0344274,
@@ -481,7 +481,7 @@
       "cities": []
     },
     {
-      "id": 351,
+      "id": "UG-230",
       "name": "Namayingo",
       "stateCode": "230",
       "latitude": -0.2803575,
@@ -491,7 +491,7 @@
       "cities": []
     },
     {
-      "id": 352,
+      "id": "UG-216",
       "name": "Amuria",
       "stateCode": "216",
       "latitude": 2.03017,
@@ -501,7 +501,7 @@
       "cities": []
     },
     {
-      "id": 353,
+      "id": "UG-324",
       "name": "Amudat",
       "stateCode": "324",
       "latitude": 1.7916224,
@@ -511,7 +511,7 @@
       "cities": []
     },
     {
-      "id": 354,
+      "id": "UG-409",
       "name": "Masindi",
       "stateCode": "409",
       "latitude": 1.4920363,
@@ -521,7 +521,7 @@
       "cities": []
     },
     {
-      "id": 355,
+      "id": "UG-419",
       "name": "Kiruhura",
       "stateCode": "419",
       "latitude": -0.1927998,
@@ -531,7 +531,7 @@
       "cities": []
     },
     {
-      "id": 356,
+      "id": "UG-105",
       "name": "Masaka",
       "stateCode": "105",
       "latitude": -0.4463691,
@@ -541,7 +541,7 @@
       "cities": []
     },
     {
-      "id": 357,
+      "id": "UG-332",
       "name": "Pakwach",
       "stateCode": "332",
       "latitude": 2.4607141,
@@ -551,7 +551,7 @@
       "cities": []
     },
     {
-      "id": 358,
+      "id": "UG-429",
       "name": "Rubanda",
       "stateCode": "429",
       "latitude": -1.186119,
@@ -561,7 +561,7 @@
       "cities": []
     },
     {
-      "id": 359,
+      "id": "UG-212",
       "name": "Tororo",
       "stateCode": "212",
       "latitude": 0.6870994,
@@ -571,7 +571,7 @@
       "cities": []
     },
     {
-      "id": 360,
+      "id": "UG-413",
       "name": "Kamwenge",
       "stateCode": "413",
       "latitude": 0.225793,
@@ -581,7 +581,7 @@
       "cities": []
     },
     {
-      "id": 361,
+      "id": "UG-301",
       "name": "Adjumani",
       "stateCode": "301",
       "latitude": 3.2548527,
@@ -591,7 +591,7 @@
       "cities": []
     },
     {
-      "id": 362,
+      "id": "UG-113",
       "name": "Wakiso",
       "stateCode": "113",
       "latitude": 0.063019,
@@ -601,7 +601,7 @@
       "cities": []
     },
     {
-      "id": 363,
+      "id": "UG-309",
       "name": "Moyo",
       "stateCode": "309",
       "latitude": 3.5696464,
@@ -611,7 +611,7 @@
       "cities": []
     },
     {
-      "id": 364,
+      "id": "UG-115",
       "name": "Mityana",
       "stateCode": "115",
       "latitude": 0.4454845,
@@ -621,7 +621,7 @@
       "cities": []
     },
     {
-      "id": 365,
+      "id": "UG-221",
       "name": "Butaleja",
       "stateCode": "221",
       "latitude": 0.8474922,
@@ -631,7 +631,7 @@
       "cities": []
     },
     {
-      "id": 366,
+      "id": "UG-121",
       "name": "Gomba",
       "stateCode": "121",
       "latitude": 0.2229791,
@@ -641,7 +641,7 @@
       "cities": []
     },
     {
-      "id": 367,
+      "id": "UG-204",
       "name": "Jinja",
       "stateCode": "204",
       "latitude": 0.5343743,
@@ -651,7 +651,7 @@
       "cities": []
     },
     {
-      "id": 368,
+      "id": "UG-112",
       "name": "Kayunga",
       "stateCode": "112",
       "latitude": 0.9860182,
@@ -661,7 +661,7 @@
       "cities": []
     },
     {
-      "id": 369,
+      "id": "UG-228",
       "name": "Kween",
       "stateCode": "228",
       "latitude": 1.443879,
@@ -671,7 +671,7 @@
       "cities": []
     },
     {
-      "id": 370,
+      "id": "UG-W",
       "name": "Western",
       "stateCode": "W",
       "latitude": 40.7667215,
@@ -857,7 +857,7 @@
       ]
     },
     {
-      "id": 371,
+      "id": "UG-107",
       "name": "Mubende",
       "stateCode": "107",
       "latitude": 0.5772758,
@@ -867,7 +867,7 @@
       "cities": []
     },
     {
-      "id": 372,
+      "id": "UG-E",
       "name": "Eastern",
       "stateCode": "E",
       "latitude": 6.2374036,
@@ -1011,7 +1011,7 @@
       ]
     },
     {
-      "id": 373,
+      "id": "UG-414",
       "name": "Kanungu",
       "stateCode": "414",
       "latitude": -0.8195253,
@@ -1021,7 +1021,7 @@
       "cities": []
     },
     {
-      "id": 374,
+      "id": "UG-331",
       "name": "Omoro",
       "stateCode": "331",
       "latitude": 2.715223,
@@ -1031,7 +1031,7 @@
       "cities": []
     },
     {
-      "id": 375,
+      "id": "UG-118",
       "name": "Bukomansimbi",
       "stateCode": "118",
       "latitude": -0.1432752,
@@ -1041,7 +1041,7 @@
       "cities": []
     },
     {
-      "id": 376,
+      "id": "UG-114",
       "name": "Lyantonde",
       "stateCode": "114",
       "latitude": -0.2240696,
@@ -1051,7 +1051,7 @@
       "cities": []
     },
     {
-      "id": 377,
+      "id": "UG-117",
       "name": "Buikwe",
       "stateCode": "117",
       "latitude": 0.3144046,
@@ -1061,7 +1061,7 @@
       "cities": []
     },
     {
-      "id": 378,
+      "id": "UG-328",
       "name": "Nwoya",
       "stateCode": "328",
       "latitude": 2.562444,
@@ -1071,7 +1071,7 @@
       "cities": []
     },
     {
-      "id": 379,
+      "id": "UG-330",
       "name": "Zombo",
       "stateCode": "330",
       "latitude": 2.5544293,
@@ -1081,7 +1081,7 @@
       "cities": []
     },
     {
-      "id": 380,
+      "id": "UG-226",
       "name": "Buyende",
       "stateCode": "226",
       "latitude": 1.2413682,
@@ -1091,7 +1091,7 @@
       "cities": []
     },
     {
-      "id": 381,
+      "id": "UG-430",
       "name": "Bunyangabu",
       "stateCode": "430",
       "latitude": 0.4870918,
@@ -1101,7 +1101,7 @@
       "cities": []
     },
     {
-      "id": 382,
+      "id": "UG-102",
       "name": "Kampala",
       "stateCode": "102",
       "latitude": 0.3475964,
@@ -1111,7 +1111,7 @@
       "cities": []
     },
     {
-      "id": 383,
+      "id": "UG-418",
       "name": "Isingiro",
       "stateCode": "418",
       "latitude": -0.843543,
@@ -1121,7 +1121,7 @@
       "cities": []
     },
     {
-      "id": 384,
+      "id": "UG-119",
       "name": "Butambala",
       "stateCode": "119",
       "latitude": 0.17425,
@@ -1131,7 +1131,7 @@
       "cities": []
     },
     {
-      "id": 385,
+      "id": "UG-220",
       "name": "Bukwo",
       "stateCode": "220",
       "latitude": 1.2818651,
@@ -1141,7 +1141,7 @@
       "cities": []
     },
     {
-      "id": 386,
+      "id": "UG-402",
       "name": "Bushenyi",
       "stateCode": "402",
       "latitude": -0.4870918,
@@ -1151,7 +1151,7 @@
       "cities": []
     },
     {
-      "id": 387,
+      "id": "UG-201",
       "name": "Bugiri",
       "stateCode": "201",
       "latitude": 0.5316127,
@@ -1161,7 +1161,7 @@
       "cities": []
     },
     {
-      "id": 388,
+      "id": "UG-233",
       "name": "Butebo",
       "stateCode": "233",
       "latitude": 1.2141124,
@@ -1171,7 +1171,7 @@
       "cities": []
     },
     {
-      "id": 389,
+      "id": "UG-416",
       "name": "Buliisa",
       "stateCode": "416",
       "latitude": 2.0299607,
@@ -1181,7 +1181,7 @@
       "cities": []
     },
     {
-      "id": 390,
+      "id": "UG-329",
       "name": "Otuke",
       "stateCode": "329",
       "latitude": 2.5214059,
@@ -1191,7 +1191,7 @@
       "cities": []
     },
     {
-      "id": 391,
+      "id": "UG-420",
       "name": "Buhweju",
       "stateCode": "420",
       "latitude": -0.2911359,
@@ -1201,7 +1201,7 @@
       "cities": []
     },
     {
-      "id": 392,
+      "id": "UG-322",
       "name": "Agago",
       "stateCode": "322",
       "latitude": 2.925082,
@@ -1211,7 +1211,7 @@
       "cities": []
     },
     {
-      "id": 393,
+      "id": "UG-311",
       "name": "Nakapiripirit",
       "stateCode": "311",
       "latitude": 1.9606173,
@@ -1221,7 +1221,7 @@
       "cities": []
     },
     {
-      "id": 394,
+      "id": "UG-122",
       "name": "Kalungu",
       "stateCode": "122",
       "latitude": -0.0952831,
@@ -1231,7 +1231,7 @@
       "cities": []
     },
     {
-      "id": 395,
+      "id": "UG-308",
       "name": "Moroto",
       "stateCode": "308",
       "latitude": 2.6168545,
@@ -1241,7 +1241,7 @@
       "cities": []
     },
     {
-      "id": 396,
+      "id": "UG-C",
       "name": "Central",
       "stateCode": "C",
       "latitude": 44.296875,
@@ -1462,7 +1462,7 @@
       ]
     },
     {
-      "id": 397,
+      "id": "UG-321",
       "name": "Oyam",
       "stateCode": "321",
       "latitude": 2.2776281,
@@ -1472,7 +1472,7 @@
       "cities": []
     },
     {
-      "id": 398,
+      "id": "UG-222",
       "name": "Kaliro",
       "stateCode": "222",
       "latitude": 1.0431107,
@@ -1482,7 +1482,7 @@
       "cities": []
     },
     {
-      "id": 399,
+      "id": "UG-428",
       "name": "Kakumiro",
       "stateCode": "428",
       "latitude": 0.7808035,
@@ -1492,7 +1492,7 @@
       "cities": []
     },
     {
-      "id": 400,
+      "id": "UG-234",
       "name": "Namisindwa",
       "stateCode": "234",
       "latitude": 0.907101,
@@ -1502,7 +1502,7 @@
       "cities": []
     },
     {
-      "id": 401,
+      "id": "UG-325",
       "name": "Kole",
       "stateCode": "325",
       "latitude": 2.3701097,
@@ -1512,7 +1512,7 @@
       "cities": []
     },
     {
-      "id": 402,
+      "id": "UG-415",
       "name": "Kyenjojo",
       "stateCode": "415",
       "latitude": 0.6092923,
@@ -1522,7 +1522,7 @@
       "cities": []
     },
     {
-      "id": 403,
+      "id": "UG-427",
       "name": "Kagadi",
       "stateCode": "427",
       "latitude": 0.9400761,
@@ -1532,7 +1532,7 @@
       "cities": []
     },
     {
-      "id": 404,
+      "id": "UG-411",
       "name": "Ntungamo",
       "stateCode": "411",
       "latitude": -0.9807341,
@@ -1542,7 +1542,7 @@
       "cities": []
     },
     {
-      "id": 405,
+      "id": "UG-101",
       "name": "Kalangala",
       "stateCode": "101",
       "latitude": -0.6350578,
@@ -1552,7 +1552,7 @@
       "cities": []
     },
     {
-      "id": 406,
+      "id": "UG-109",
       "name": "Nakasongola",
       "stateCode": "109",
       "latitude": 1.3489721,
@@ -1562,7 +1562,7 @@
       "cities": []
     },
     {
-      "id": 407,
+      "id": "UG-426",
       "name": "Sheema",
       "stateCode": "426",
       "latitude": -0.5515298,
@@ -1572,7 +1572,7 @@
       "cities": []
     },
     {
-      "id": 408,
+      "id": "UG-312",
       "name": "Pader",
       "stateCode": "312",
       "latitude": 2.9430682,
@@ -1582,7 +1582,7 @@
       "cities": []
     },
     {
-      "id": 409,
+      "id": "UG-408",
       "name": "Kisoro",
       "stateCode": "408",
       "latitude": -1.220943,
@@ -1592,7 +1592,7 @@
       "cities": []
     },
     {
-      "id": 410,
+      "id": "UG-108",
       "name": "Mukono",
       "stateCode": "108",
       "latitude": 0.2835476,
@@ -1602,7 +1602,7 @@
       "cities": []
     },
     {
-      "id": 411,
+      "id": "UG-326",
       "name": "Lamwo",
       "stateCode": "326",
       "latitude": 3.5707568,
@@ -1612,7 +1612,7 @@
       "cities": []
     },
     {
-      "id": 412,
+      "id": "UG-210",
       "name": "Pallisa",
       "stateCode": "210",
       "latitude": 1.2324206,
@@ -1622,7 +1622,7 @@
       "cities": []
     },
     {
-      "id": 413,
+      "id": "UG-304",
       "name": "Gulu",
       "stateCode": "304",
       "latitude": 2.8185776,
@@ -1632,7 +1632,7 @@
       "cities": []
     },
     {
-      "id": 414,
+      "id": "UG-120",
       "name": "Buvuma",
       "stateCode": "120",
       "latitude": -0.3764912,
@@ -1642,7 +1642,7 @@
       "cities": []
     },
     {
-      "id": 415,
+      "id": "UG-410",
       "name": "Mbarara",
       "stateCode": "410",
       "latitude": -0.6071596,
@@ -1652,7 +1652,7 @@
       "cities": []
     },
     {
-      "id": 416,
+      "id": "UG-315",
       "name": "Amolatar",
       "stateCode": "315",
       "latitude": 1.6054402,
@@ -1662,7 +1662,7 @@
       "cities": []
     },
     {
-      "id": 417,
+      "id": "UG-124",
       "name": "Lwengo",
       "stateCode": "124",
       "latitude": -0.4165288,
@@ -1672,7 +1672,7 @@
       "cities": []
     },
     {
-      "id": 418,
+      "id": "UG-214",
       "name": "Mayuge",
       "stateCode": "214",
       "latitude": -0.2182982,
@@ -1682,7 +1682,7 @@
       "cities": []
     },
     {
-      "id": 419,
+      "id": "UG-401",
       "name": "Bundibugyo",
       "stateCode": "401",
       "latitude": 0.6851763,
@@ -1692,7 +1692,7 @@
       "cities": []
     },
     {
-      "id": 420,
+      "id": "UG-207",
       "name": "Katakwi",
       "stateCode": "207",
       "latitude": 1.973103,
@@ -1702,7 +1702,7 @@
       "cities": []
     },
     {
-      "id": 421,
+      "id": "UG-320",
       "name": "Maracha",
       "stateCode": "320",
       "latitude": 3.2873127,
@@ -1712,7 +1712,7 @@
       "cities": []
     },
     {
-      "id": 422,
+      "id": "UG-424",
       "name": "Ntoroko",
       "stateCode": "424",
       "latitude": 1.0788178,
@@ -1722,7 +1722,7 @@
       "cities": []
     },
     {
-      "id": 423,
+      "id": "UG-116",
       "name": "Nakaseke",
       "stateCode": "116",
       "latitude": 1.2230848,
@@ -1732,7 +1732,7 @@
       "cities": []
     },
     {
-      "id": 424,
+      "id": "UG-231",
       "name": "Ngora",
       "stateCode": "231",
       "latitude": 1.4908115,
@@ -1742,7 +1742,7 @@
       "cities": []
     },
     {
-      "id": 425,
+      "id": "UG-208",
       "name": "Kumi",
       "stateCode": "208",
       "latitude": 1.4876999,
@@ -1752,7 +1752,7 @@
       "cities": []
     },
     {
-      "id": 426,
+      "id": "UG-404",
       "name": "Kabale",
       "stateCode": "404",
       "latitude": -1.2493084,
@@ -1762,7 +1762,7 @@
       "cities": []
     },
     {
-      "id": 427,
+      "id": "UG-111",
       "name": "Sembabule",
       "stateCode": "111",
       "latitude": 0.0637715,
@@ -1772,7 +1772,7 @@
       "cities": []
     },
     {
-      "id": 428,
+      "id": "UG-225",
       "name": "Bulambuli",
       "stateCode": "225",
       "latitude": 1.4798846,
@@ -1782,7 +1782,7 @@
       "cities": []
     },
     {
-      "id": 429,
+      "id": "UG-215",
       "name": "Sironko",
       "stateCode": "215",
       "latitude": 1.2302274,
@@ -1792,7 +1792,7 @@
       "cities": []
     },
     {
-      "id": 430,
+      "id": "UG-327",
       "name": "Napak",
       "stateCode": "327",
       "latitude": 2.3629945,
@@ -1802,7 +1802,7 @@
       "cities": []
     },
     {
-      "id": 431,
+      "id": "UG-202",
       "name": "Busia",
       "stateCode": "202",
       "latitude": 0.4044731,
@@ -1812,7 +1812,7 @@
       "cities": []
     },
     {
-      "id": 432,
+      "id": "UG-206",
       "name": "Kapchorwa",
       "stateCode": "206",
       "latitude": 1.3350205,
@@ -1822,7 +1822,7 @@
       "cities": []
     },
     {
-      "id": 433,
+      "id": "UG-104",
       "name": "Luwero",
       "stateCode": "104",
       "latitude": 0.8271118,
@@ -1832,7 +1832,7 @@
       "cities": []
     },
     {
-      "id": 434,
+      "id": "UG-318",
       "name": "Kaabong",
       "stateCode": "318",
       "latitude": 3.5126215,
@@ -1842,7 +1842,7 @@
       "cities": []
     },
     {
-      "id": 435,
+      "id": "UG-423",
       "name": "Mitooma",
       "stateCode": "423",
       "latitude": -0.6193276,
@@ -1852,7 +1852,7 @@
       "cities": []
     },
     {
-      "id": 436,
+      "id": "UG-407",
       "name": "Kibaale",
       "stateCode": "407",
       "latitude": 0.9066802,
@@ -1862,7 +1862,7 @@
       "cities": []
     },
     {
-      "id": 437,
+      "id": "UG-422",
       "name": "Kyegegwa",
       "stateCode": "422",
       "latitude": 0.4818193,
@@ -1872,7 +1872,7 @@
       "cities": []
     },
     {
-      "id": 438,
+      "id": "UG-223",
       "name": "Manafwa",
       "stateCode": "223",
       "latitude": 0.9063599,
@@ -1882,7 +1882,7 @@
       "cities": []
     },
     {
-      "id": 439,
+      "id": "UG-110",
       "name": "Rakai",
       "stateCode": "110",
       "latitude": -0.7069135,
@@ -1892,7 +1892,7 @@
       "cities": []
     },
     {
-      "id": 440,
+      "id": "UG-406",
       "name": "Kasese",
       "stateCode": "406",
       "latitude": 0.0646285,
@@ -1902,7 +1902,7 @@
       "cities": []
     },
     {
-      "id": 441,
+      "id": "UG-217",
       "name": "Budaka",
       "stateCode": "217",
       "latitude": 1.1016277,
@@ -1912,7 +1912,7 @@
       "cities": []
     },
     {
-      "id": 442,
+      "id": "UG-425",
       "name": "Rubirizi",
       "stateCode": "425",
       "latitude": -0.264241,
@@ -1922,7 +1922,7 @@
       "cities": []
     },
     {
-      "id": 443,
+      "id": "UG-306",
       "name": "Kotido",
       "stateCode": "306",
       "latitude": 3.0415679,
@@ -1932,7 +1932,7 @@
       "cities": []
     },
     {
-      "id": 444,
+      "id": "UG-211",
       "name": "Soroti",
       "stateCode": "211",
       "latitude": 1.7229117,
@@ -1942,7 +1942,7 @@
       "cities": []
     },
     {
-      "id": 445,
+      "id": "UG-229",
       "name": "Luuka",
       "stateCode": "229",
       "latitude": 0.7250599,
@@ -1952,7 +1952,7 @@
       "cities": []
     },
     {
-      "id": 446,
+      "id": "UG-310",
       "name": "Nebbi",
       "stateCode": "310",
       "latitude": 2.4409392,
@@ -1962,7 +1962,7 @@
       "cities": []
     },
     {
-      "id": 447,
+      "id": "UG-303",
       "name": "Arua",
       "stateCode": "303",
       "latitude": 2.9959846,
@@ -1972,7 +1972,7 @@
       "cities": []
     },
     {
-      "id": 448,
+      "id": "UG-125",
       "name": "Kyotera",
       "stateCode": "125",
       "latitude": -0.6358988,
@@ -1982,7 +1982,7 @@
       "cities": []
     },
     {
-      "id": 5349,
+      "id": "UG-126",
       "name": "Kasanda",
       "stateCode": "126",
       "latitude": 0.5279491,
@@ -1992,7 +1992,7 @@
       "cities": []
     },
     {
-      "id": 5350,
+      "id": "UG-235",
       "name": "Bugweri",
       "stateCode": "235",
       "latitude": 0.6222229,
@@ -2002,7 +2002,7 @@
       "cities": []
     },
     {
-      "id": 5351,
+      "id": "UG-236",
       "name": "Kapelebyong",
       "stateCode": "236",
       "latitude": 2.1959736,
@@ -2012,7 +2012,7 @@
       "cities": []
     },
     {
-      "id": 5352,
+      "id": "UG-237",
       "name": "Kalaki",
       "stateCode": "237",
       "latitude": 1.829568,
@@ -2022,7 +2022,7 @@
       "cities": []
     },
     {
-      "id": 5353,
+      "id": "UG-333",
       "name": "Kwania",
       "stateCode": "333",
       "latitude": 1.9011971,
@@ -2032,7 +2032,7 @@
       "cities": []
     },
     {
-      "id": 5354,
+      "id": "UG-334",
       "name": "Nabilatuk",
       "stateCode": "334",
       "latitude": 2.0387033,
@@ -2042,7 +2042,7 @@
       "cities": []
     },
     {
-      "id": 5355,
+      "id": "UG-335",
       "name": "Karenga",
       "stateCode": "335",
       "latitude": 3.5877048,
@@ -2052,7 +2052,7 @@
       "cities": []
     },
     {
-      "id": 5356,
+      "id": "UG-336",
       "name": "Madi-Okollo",
       "stateCode": "336",
       "latitude": 2.8677307,
@@ -2062,7 +2062,7 @@
       "cities": []
     },
     {
-      "id": 5357,
+      "id": "UG-337",
       "name": "Obongi",
       "stateCode": "337",
       "latitude": 3.3639361,
@@ -2072,7 +2072,7 @@
       "cities": []
     },
     {
-      "id": 5358,
+      "id": "UG-403",
       "name": "Hoima",
       "stateCode": "403",
       "latitude": 1.5602343,
@@ -2082,7 +2082,7 @@
       "cities": []
     },
     {
-      "id": 5359,
+      "id": "UG-432",
       "name": "Kikuube",
       "stateCode": "432",
       "latitude": 1.310219,
@@ -2092,7 +2092,7 @@
       "cities": []
     },
     {
-      "id": 5360,
+      "id": "UG-433",
       "name": "Kazo",
       "stateCode": "433",
       "latitude": -0.051316,
@@ -2102,7 +2102,7 @@
       "cities": []
     },
     {
-      "id": 5361,
+      "id": "UG-434",
       "name": "Kitagwenda",
       "stateCode": "434",
       "latitude": 0.0143297,
@@ -2112,7 +2112,7 @@
       "cities": []
     },
     {
-      "id": 5362,
+      "id": "UG-435",
       "name": "Rwampara",
       "stateCode": "435",
       "latitude": -0.7345601,

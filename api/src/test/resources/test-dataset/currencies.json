@@ -1,6 +1,6 @@
 [
   {
-    "id": 101,
+    "id": "FDC",
     "iso3": "FDC",
     "isoNumeric": "901",
     "name": "Freedonian Credit",
@@ -12,15 +12,19 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "F$",
-    "flagId": 1001,
+    "flagId": "fd",
     "decimalDigits": 2,
     "popularity": 60,
     "translations": [
-      {"languageCode": "ru", "name": "Фридонский кредит", "description": "Активная тестовая валюта"}
+      {
+        "languageCode": "ru",
+        "name": "Фридонский кредит",
+        "description": "Активная тестовая валюта"
+      }
     ]
   },
   {
-    "id": 102,
+    "id": "OLD",
     "iso3": "OLD",
     "isoNumeric": "902",
     "name": "Old Freedonian Credit",
@@ -30,15 +34,15 @@
     "introducedDate": "1901-01-01",
     "obsolete": true,
     "obsoleteAt": "1990-12-31",
-    "replacedBy": 101,
+    "replacedBy": "FDC",
     "symbol": "O$",
-    "flagId": 1001,
+    "flagId": "fd",
     "decimalDigits": 0,
     "popularity": 0,
     "translations": []
   },
   {
-    "id": 103,
+    "id": "ALT",
     "iso3": "ALT",
     "isoNumeric": "903",
     "name": "Alpine Thaler",
@@ -50,7 +54,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "A$",
-    "flagId": 1001,
+    "flagId": "fd",
     "decimalDigits": 2,
     "popularity": 20,
     "translations": []

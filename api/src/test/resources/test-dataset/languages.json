@@ -1,26 +1,30 @@
 [
   {
-    "id": 201,
+    "id": "fd",
     "code": "fd",
     "nativeName": "Freedonian",
     "name": "Freedonian",
     "description": "Seeded official language",
-    "flagId": 1001,
+    "flagId": "fd",
     "translations": [
-      {"languageCode": "ru", "name": "Фридонский", "description": "Тестовый официальный язык"}
+      {
+        "languageCode": "ru",
+        "name": "Фридонский",
+        "description": "Тестовый официальный язык"
+      }
     ]
   },
   {
-    "id": 202,
+    "id": "sy",
     "code": "sy",
     "nativeName": "Sylvanian",
     "name": "Sylvanian",
     "description": "Seeded secondary language",
-    "flagId": 1002,
+    "flagId": "sy",
     "translations": []
   },
   {
-    "id": 203,
+    "id": "ru",
     "code": "ru",
     "nativeName": "Русский",
     "name": "Russian",

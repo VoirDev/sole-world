@@ -1,5 +1,5 @@
 {
-  "id": 18,
+  "id": "BH",
   "name": "Bahrain",
   "nativeName": "‏البحرين",
   "iso2": "BH",
@@ -9,17 +9,17 @@
   "tld": ".bh",
   "latitude": 26,
   "longitude": 50.55,
-  "flagId": 226,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "bh",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    846
+    "BHD"
   ],
   "timezoneIds": [
-    2272
+    "Asia/Bahrain"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1992,
+      "id": "BH-13",
       "name": "Capital",
       "stateCode": "13",
       "latitude": null,
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "id": 1993,
+      "id": "BH-14",
       "name": "Southern",
       "stateCode": "14",
       "latitude": 25.9381018,
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": 1994,
+      "id": "BH-17",
       "name": "Northern",
       "stateCode": "17",
       "latitude": 26.1551914,
@@ -164,7 +164,7 @@
       "cities": []
     },
     {
-      "id": 1995,
+      "id": "BH-15",
       "name": "Muharraq",
       "stateCode": "15",
       "latitude": 26.2685653,
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": 1996,
+      "id": "BH-16",
       "name": "Central",
       "stateCode": "16",
       "latitude": 26.1426093,

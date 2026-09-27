@@ -1,5 +1,5 @@
 {
-  "id": 37,
+  "id": "KH",
   "name": "Cambodia",
   "nativeName": "Kâmpŭchéa",
   "iso2": "KH",
@@ -9,17 +9,17 @@
   "tld": ".kh",
   "latitude": 13,
   "longitude": 105,
-  "flagId": 134,
-  "regionId": 3,
-  "subregionId": 13,
+  "flagId": "kh",
+  "regionId": "asia",
+  "subregionId": "south-eastern-asia",
   "currencyIds": [
-    861
+    "KHR"
   ],
   "timezoneIds": [
-    2305
+    "Asia/Phnom_Penh"
   ],
   "officialLanguageIds": [
-    57
+    "km"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3972,
+      "id": "KH-20",
       "name": "Svay Rieng",
       "stateCode": "20",
       "latitude": 11.142722,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 3973,
+      "id": "KH-13",
       "name": "Preah Vihear",
       "stateCode": "13",
       "latitude": 14.0085797,
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "id": 3974,
+      "id": "KH-14",
       "name": "Prey Veng",
       "stateCode": "14",
       "latitude": 11.3802442,
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "id": 3975,
+      "id": "KH-21",
       "name": "Takeo",
       "stateCode": "21",
       "latitude": 10.9321519,
@@ -260,7 +260,7 @@
       ]
     },
     {
-      "id": 3976,
+      "id": "KH-2",
       "name": "Battambang",
       "stateCode": "2",
       "latitude": 13.0286971,
@@ -306,7 +306,7 @@
       ]
     },
     {
-      "id": 3977,
+      "id": "KH-15",
       "name": "Pursat",
       "stateCode": "15",
       "latitude": 12.2720956,
@@ -359,7 +359,7 @@
       ]
     },
     {
-      "id": 3978,
+      "id": "KH-23",
       "name": "Kep",
       "stateCode": "23",
       "latitude": 10.536089,
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": 3979,
+      "id": "KH-4",
       "name": "Kampong Chhnang",
       "stateCode": "4",
       "latitude": 12.1392352,
@@ -430,7 +430,7 @@
       ]
     },
     {
-      "id": 3980,
+      "id": "KH-24",
       "name": "Pailin",
       "stateCode": "24",
       "latitude": 12.9092962,
@@ -455,7 +455,7 @@
       ]
     },
     {
-      "id": 3981,
+      "id": "KH-7",
       "name": "Kampot",
       "stateCode": "7",
       "latitude": 10.7325351,
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "id": 3982,
+      "id": "KH-9",
       "name": "Koh Kong",
       "stateCode": "9",
       "latitude": 11.5762804,
@@ -575,7 +575,7 @@
       ]
     },
     {
-      "id": 3983,
+      "id": "KH-8",
       "name": "Kandal",
       "stateCode": "8",
       "latitude": 11.2237383,
@@ -607,7 +607,7 @@
       ]
     },
     {
-      "id": 3984,
+      "id": "KH-1",
       "name": "Banteay Meanchey",
       "stateCode": "1",
       "latitude": 13.7531914,
@@ -653,7 +653,7 @@
       ]
     },
     {
-      "id": 3985,
+      "id": "KH-11",
       "name": "Mondulkiri",
       "stateCode": "11",
       "latitude": 12.7879427,
@@ -692,7 +692,7 @@
       ]
     },
     {
-      "id": 3986,
+      "id": "KH-10",
       "name": "Kratie",
       "stateCode": "10",
       "latitude": 12.5043608,
@@ -724,7 +724,7 @@
       ]
     },
     {
-      "id": 3987,
+      "id": "KH-22",
       "name": "Oddar Meanchey",
       "stateCode": "22",
       "latitude": 14.1609738,
@@ -763,7 +763,7 @@
       ]
     },
     {
-      "id": 3988,
+      "id": "KH-5",
       "name": "Kampong Speu",
       "stateCode": "5",
       "latitude": 11.6155109,
@@ -809,7 +809,7 @@
       ]
     },
     {
-      "id": 3989,
+      "id": "KH-18",
       "name": "Sihanoukville",
       "stateCode": "18",
       "latitude": 10.7581899,
@@ -834,7 +834,7 @@
       ]
     },
     {
-      "id": 3990,
+      "id": "KH-16",
       "name": "Ratanakiri",
       "stateCode": "16",
       "latitude": 13.8576607,
@@ -908,7 +908,7 @@
       ]
     },
     {
-      "id": 3991,
+      "id": "KH-3",
       "name": "Kampong Cham",
       "stateCode": "3",
       "latitude": 12.0982918,
@@ -940,7 +940,7 @@
       ]
     },
     {
-      "id": 3992,
+      "id": "KH-17",
       "name": "Siem Reap",
       "stateCode": "17",
       "latitude": 13.330266,
@@ -986,7 +986,7 @@
       ]
     },
     {
-      "id": 3993,
+      "id": "KH-19",
       "name": "Stung Treng",
       "stateCode": "19",
       "latitude": 13.576473,
@@ -1018,7 +1018,7 @@
       ]
     },
     {
-      "id": 3994,
+      "id": "KH-12",
       "name": "Phnom Penh",
       "stateCode": "12",
       "latitude": 11.5563738,
@@ -1085,7 +1085,7 @@
       ]
     },
     {
-      "id": 5070,
+      "id": "KH-6",
       "name": "Kampong Thom",
       "stateCode": "6",
       "latitude": 12.8167485,

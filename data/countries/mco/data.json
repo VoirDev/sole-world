@@ -1,5 +1,5 @@
 {
-  "id": 145,
+  "id": "MC",
   "name": "Monaco",
   "nativeName": "Monaco",
   "iso2": "MC",
@@ -9,20 +9,20 @@
   "tld": ".mc",
   "latitude": 43.73333333,
   "longitude": 7.4,
-  "flagId": 113,
-  "regionId": 4,
-  "subregionId": 17,
+  "flagId": "mc",
+  "regionId": "europe",
+  "subregionId": "western-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2474
+    "Europe/Monaco"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [
-    41
+    "it"
   ],
   "translations": [
     {
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 4917,
+      "id": "MC-CL",
       "name": "La Colle",
       "stateCode": "CL",
       "latitude": 43.7327465,
@@ -102,7 +102,7 @@
       "cities": []
     },
     {
-      "id": 4918,
+      "id": "MC-CO",
       "name": "La Condamine",
       "stateCode": "CO",
       "latitude": 43.7350665,
@@ -112,7 +112,7 @@
       "cities": []
     },
     {
-      "id": 4919,
+      "id": "MC-MG",
       "name": "Moneghetti",
       "stateCode": "MG",
       "latitude": 43.7364927,

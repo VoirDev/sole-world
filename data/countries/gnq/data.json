@@ -1,5 +1,5 @@
 {
-  "id": 67,
+  "id": "GQ",
   "name": "Equatorial Guinea",
   "nativeName": "Guinea Ecuatorial",
   "iso2": "GQ",
@@ -9,19 +9,19 @@
   "tld": ".gq",
   "latitude": 2,
   "longitude": 10,
-  "flagId": 161,
-  "regionId": 1,
-  "subregionId": 2,
+  "flagId": "gq",
+  "regionId": "africa",
+  "subregionId": "middle-africa",
   "currencyIds": [
-    862
+    "XAF"
   ],
   "timezoneIds": [
-    2368
+    "Africa/Malabo"
   ],
   "officialLanguageIds": [
-    47,
-    33,
-    45
+    "es",
+    "fr",
+    "pt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 3438,
+      "id": "GQ-C",
       "name": "Río Muni",
       "stateCode": "C",
       "latitude": 1.4610606,
@@ -102,7 +102,7 @@
       "cities": []
     },
     {
-      "id": 3439,
+      "id": "GQ-KN",
       "name": "Kié-Ntem",
       "stateCode": "KN",
       "latitude": 2.028093,
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "id": 3440,
+      "id": "GQ-WN",
       "name": "Wele-Nzas",
       "stateCode": "WN",
       "latitude": 1.4166162,
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "id": 3441,
+      "id": "GQ-LI",
       "name": "Litoral",
       "stateCode": "LI",
       "latitude": 1.5750244,
@@ -247,7 +247,7 @@
       ]
     },
     {
-      "id": 3442,
+      "id": "GQ-I",
       "name": "Insular",
       "stateCode": "I",
       "latitude": 37.09024,
@@ -257,7 +257,7 @@
       "cities": []
     },
     {
-      "id": 3443,
+      "id": "GQ-BS",
       "name": "Bioko Sur",
       "stateCode": "BS",
       "latitude": 3.4209785,
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "id": 3444,
+      "id": "GQ-AN",
       "name": "Annobón",
       "stateCode": "AN",
       "latitude": -1.4268782,
@@ -293,7 +293,7 @@
       ]
     },
     {
-      "id": 3445,
+      "id": "GQ-CS",
       "name": "Centro Sur",
       "stateCode": "CS",
       "latitude": 1.3436084,
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "id": 3446,
+      "id": "GQ-BN",
       "name": "Bioko Norte",
       "stateCode": "BN",
       "latitude": 3.6595072,

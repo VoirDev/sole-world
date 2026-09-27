@@ -1,5 +1,5 @@
 {
-  "id": 2,
+  "id": "SY",
   "name": "Sylvania",
   "nativeName": "Sylvania Native",
   "iso2": "SY",
@@ -10,8 +10,8 @@
   "latitude": 46.1,
   "longitude": 20.2,
   "flagId": null,
-  "regionId": 10,
-  "subregionId": 21,
+  "regionId": "test-europe",
+  "subregionId": "test-south",
   "currencyIds": [],
   "timezoneIds": [],
   "officialLanguageIds": [],

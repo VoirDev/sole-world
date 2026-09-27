@@ -1,5 +1,5 @@
 {
-  "id": 86,
+  "id": "GL",
   "name": "Greenland",
   "nativeName": "Kalaallit Nunaat",
   "iso2": "GL",
@@ -9,21 +9,21 @@
   "tld": ".gl",
   "latitude": 72,
   "longitude": -40,
-  "flagId": 165,
-  "regionId": 2,
-  "subregionId": 6,
+  "flagId": "gl",
+  "regionId": "americas",
+  "subregionId": "northern-america",
   "currencyIds": [
-    876
+    "DKK"
   ],
   "timezoneIds": [
-    2390,
-    2391,
-    2392,
-    2393
+    "America/Danmarkshavn",
+    "America/Nuuk",
+    "America/Scoresbysund",
+    "America/Thule"
   ],
   "officialLanguageIds": [
-    65,
-    28
+    "kl",
+    "da"
   ],
   "otherLanguageIds": [],
   "translations": [

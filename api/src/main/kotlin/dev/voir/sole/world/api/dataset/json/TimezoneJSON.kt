@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 /**
  * Timezone record read from bundled seed data.
- * @property id Timezone primary key used during import.
+ * @property id IANA timezone name, such as `Europe/Paris`.
  * @property zoneName IANA timezone identifier.
  * @property gmtOffset GMT offset in seconds.
  * @property gmtOffsetName Formatted GMT offset label.
@@ -15,7 +15,7 @@ import kotlinx.serialization.Serializable
  */
 @Serializable
 data class TimezoneJSON(
-    val id: Long,
+    val id: String,
     val zoneName: String,
     val gmtOffset: Int,
     val gmtOffsetName: String,

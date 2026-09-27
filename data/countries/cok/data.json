@@ -1,5 +1,5 @@
 {
-  "id": 52,
+  "id": "CK",
   "name": "Cook Islands",
   "nativeName": "Cook Islands",
   "iso2": "CK",
@@ -9,17 +9,17 @@
   "tld": ".ck",
   "latitude": -21.23333333,
   "longitude": -159.76666666,
-  "flagId": 204,
-  "regionId": 5,
-  "subregionId": 22,
+  "flagId": "ck",
+  "regionId": "oceania",
+  "subregionId": "polynesia",
   "currencyIds": [
-    870
+    "NZD"
   ],
   "timezoneIds": [
-    2349
+    "Pacific/Rarotonga"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [

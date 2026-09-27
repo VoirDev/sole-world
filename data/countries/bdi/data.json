@@ -1,5 +1,5 @@
 {
-  "id": 36,
+  "id": "BI",
   "name": "Burundi",
   "nativeName": "Burundi",
   "iso2": "BI",
@@ -9,19 +9,19 @@
   "tld": ".bi",
   "latitude": -3.5,
   "longitude": 30,
-  "flagId": 225,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "bi",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    860
+    "BIF"
   ],
   "timezoneIds": [
-    2304
+    "Africa/Bujumbura"
   ],
   "officialLanguageIds": [
-    33,
-    30,
-    144
+    "fr",
+    "en",
+    "rn"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 3185,
+      "id": "BI-RM",
       "name": "Rumonge",
       "stateCode": "RM",
       "latitude": -3.9754049,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": 3186,
+      "id": "BI-MY",
       "name": "Muyinga",
       "stateCode": "MY",
       "latitude": -2.7793511,
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "id": 3187,
+      "id": "BI-MW",
       "name": "Mwaro",
       "stateCode": "MW",
       "latitude": -3.5025918,
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "id": 3188,
+      "id": "BI-MA",
       "name": "Makamba",
       "stateCode": "MA",
       "latitude": -4.3257062,
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "id": 3189,
+      "id": "BI-RT",
       "name": "Rutana",
       "stateCode": "RT",
       "latitude": -3.8791523,
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "id": 3190,
+      "id": "BI-CI",
       "name": "Cibitoke",
       "stateCode": "CI",
       "latitude": -2.8102897,
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "id": 3191,
+      "id": "BI-RY",
       "name": "Ruyigi",
       "stateCode": "RY",
       "latitude": -3.446207,
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "id": 3192,
+      "id": "BI-KY",
       "name": "Kayanza",
       "stateCode": "KY",
       "latitude": -3.0077981,
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "id": 3193,
+      "id": "BI-MU",
       "name": "Muramvya",
       "stateCode": "MU",
       "latitude": -3.2898398,
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "id": 3194,
+      "id": "BI-KR",
       "name": "Karuzi",
       "stateCode": "KR",
       "latitude": -3.1340347,
@@ -272,7 +272,7 @@
       ]
     },
     {
-      "id": 3195,
+      "id": "BI-KI",
       "name": "Kirundo",
       "stateCode": "KI",
       "latitude": -2.5762882,
@@ -290,7 +290,7 @@
       ]
     },
     {
-      "id": 3196,
+      "id": "BI-BB",
       "name": "Bubanza",
       "stateCode": "BB",
       "latitude": -3.1572403,
@@ -308,7 +308,7 @@
       ]
     },
     {
-      "id": 3197,
+      "id": "BI-GI",
       "name": "Gitega",
       "stateCode": "GI",
       "latitude": -3.4929051,
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": 3198,
+      "id": "BI-BM",
       "name": "Bujumbura Mairie",
       "stateCode": "BM",
       "latitude": -3.3884141,
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "id": 3199,
+      "id": "BI-NG",
       "name": "Ngozi",
       "stateCode": "NG",
       "latitude": -2.8958243,
@@ -362,7 +362,7 @@
       ]
     },
     {
-      "id": 3200,
+      "id": "BI-BL",
       "name": "Bujumbura Rural",
       "stateCode": "BL",
       "latitude": -3.5090144,
@@ -372,7 +372,7 @@
       "cities": []
     },
     {
-      "id": 3201,
+      "id": "BI-CA",
       "name": "Cankuzo",
       "stateCode": "CA",
       "latitude": -3.1527788,
@@ -390,7 +390,7 @@
       ]
     },
     {
-      "id": 3202,
+      "id": "BI-BR",
       "name": "Bururi",
       "stateCode": "BR",
       "latitude": -3.9006851,

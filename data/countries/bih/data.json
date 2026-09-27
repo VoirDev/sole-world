@@ -1,5 +1,5 @@
 {
-  "id": 28,
+  "id": "BA",
   "name": "Bosnia and Herzegovina",
   "nativeName": "Bosna i Hercegovina",
   "iso2": "BA",
@@ -9,19 +9,19 @@
   "tld": ".ba",
   "latitude": 44,
   "longitude": 18,
-  "flagId": 235,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "ba",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    855
+    "BAM"
   ],
   "timezoneIds": [
-    2282
+    "Europe/Sarajevo"
   ],
   "officialLanguageIds": [
-    21,
-    26,
-    63
+    "bs",
+    "hr",
+    "sr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 460,
+      "id": "BA-BRC",
       "name": "Brčko",
       "stateCode": "BRC",
       "latitude": 44.8405944,
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "id": 461,
+      "id": "BA-03",
       "name": "Tuzla",
       "stateCode": "03",
       "latitude": 44.5343463,
@@ -127,7 +127,7 @@
       "cities": []
     },
     {
-      "id": 462,
+      "id": "BA-06",
       "name": "Central Bosnia",
       "stateCode": "06",
       "latitude": 44.1381856,
@@ -137,7 +137,7 @@
       "cities": []
     },
     {
-      "id": 463,
+      "id": "BA-07",
       "name": "Herzegovina-Neretva",
       "stateCode": "07",
       "latitude": 43.5265159,
@@ -147,7 +147,7 @@
       "cities": []
     },
     {
-      "id": 464,
+      "id": "BA-02",
       "name": "Posavina",
       "stateCode": "02",
       "latitude": 45.0752094,
@@ -157,7 +157,7 @@
       "cities": []
     },
     {
-      "id": 465,
+      "id": "BA-01",
       "name": "Una-Sana",
       "stateCode": "01",
       "latitude": 44.6503116,
@@ -167,7 +167,7 @@
       "cities": []
     },
     {
-      "id": 466,
+      "id": "BA-09",
       "name": "Sarajevo",
       "stateCode": "09",
       "latitude": 43.8512564,
@@ -177,7 +177,7 @@
       "cities": []
     },
     {
-      "id": 467,
+      "id": "BA-BIH",
       "name": "Federation of Bosnia and Herzegovina",
       "stateCode": "BIH",
       "latitude": 43.8874897,
@@ -1273,7 +1273,7 @@
       ]
     },
     {
-      "id": 468,
+      "id": "BA-04",
       "name": "Zenica-Doboj",
       "stateCode": "04",
       "latitude": 44.2127109,
@@ -1283,7 +1283,7 @@
       "cities": []
     },
     {
-      "id": 469,
+      "id": "BA-08",
       "name": "West Herzegovina",
       "stateCode": "08",
       "latitude": 43.4369244,
@@ -1293,7 +1293,7 @@
       "cities": []
     },
     {
-      "id": 470,
+      "id": "BA-SRP",
       "name": "Republika Srpska",
       "stateCode": "SRP",
       "latitude": 44.7280186,
@@ -1829,7 +1829,7 @@
       ]
     },
     {
-      "id": 471,
+      "id": "BA-10",
       "name": "Canton 10",
       "stateCode": "10",
       "latitude": 43.9534155,
@@ -1839,7 +1839,7 @@
       "cities": []
     },
     {
-      "id": 472,
+      "id": "BA-05",
       "name": "Bosnian Podrinje",
       "stateCode": "05",
       "latitude": 43.68749,

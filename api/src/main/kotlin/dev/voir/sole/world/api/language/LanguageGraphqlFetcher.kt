@@ -59,20 +59,20 @@ class LanguageGraphqlFetcher(
     @DgsQuery
     fun languagesByIds(@InputArgument ids: List<String>): DataFetcherResult<List<Language>> {
         val language = GraphqlRequest.language()
-        val languages = languageStore.byIds(GraphqlRequest.longIds(ids, "ids"), language)
+        val languages = languageStore.byIds(GraphqlRequest.ids(ids, "ids"), language)
 
         return GraphqlRequest.localized(languages.map { it.toGql() }, language)
     }
 
     /**
-     * Loads one language by numeric identifier or language code.
-     * @param idOrCode Numeric identifier or language code.
+     * Loads one language.
+     * @param id ISO 639-1 language code, in any case.
      * @return Matching language, or null when none exists.
      */
     @DgsQuery
-    fun language(@InputArgument idOrCode: String): DataFetcherResult<Language> {
+    fun language(@InputArgument id: String): DataFetcherResult<Language> {
         val languageCode = GraphqlRequest.language()
-        val language = languageStore.byIdentifier(idOrCode, languageCode)
+        val language = languageStore.byId(id, languageCode)
 
         return GraphqlRequest.localized(language?.toGql(), languageCode)
     }
@@ -84,7 +84,7 @@ class LanguageGraphqlFetcher(
         val languageCode = GraphqlRequest.language(dfe)
 
         return countryStore
-            .byLanguageId(GraphqlRequest.longId(source.id, "id"), languageCode)
+            .byLanguageId(source.id, languageCode)
             .map { it.toGql() }
     }
 
@@ -94,6 +94,6 @@ class LanguageGraphqlFetcher(
         val source: Language = dfe.getSource() ?: return null
         val flagId = source.flagId ?: return null
 
-        return flagStore.byId(GraphqlRequest.longId(flagId, "flagId"))?.toGql()
+        return flagStore.byId(flagId)?.toGql()
     }
 }

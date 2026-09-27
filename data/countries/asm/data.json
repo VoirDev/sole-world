@@ -1,5 +1,5 @@
 {
-  "id": 5,
+  "id": "AS",
   "name": "American Samoa",
   "nativeName": "American Samoa",
   "iso2": "AS",
@@ -9,17 +9,17 @@
   "tld": ".as",
   "latitude": -14.33333333,
   "longitude": -170,
-  "flagId": 238,
-  "regionId": 5,
-  "subregionId": 22,
+  "flagId": "as",
+  "regionId": "oceania",
+  "subregionId": "polynesia",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2238
+    "Pacific/Pago_Pago"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [

@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.region
 
 import dev.voir.sole.world.api.dataset.RawDataset
+import dev.voir.sole.world.api.dataset.index.IdIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedName
 import dev.voir.sole.world.api.dataset.index.Page
@@ -24,7 +25,7 @@ class RegionStore(dataset: RawDataset) {
         )
     }
 
-    private val byId: Map<Long, RegionRecord> = records.associateBy { it.id }
+    private val byId: IdIndex<RegionRecord> = IdIndex.of(records) { it.id }
 
     private val index = LocalizedIndex(
         records = records,
@@ -41,7 +42,7 @@ class RegionStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching region, or null when none exists.
      */
-    fun byId(id: Long, languageCode: String?): RegionData? = byId[id]?.localized(languageCode)
+    fun byId(id: String, languageCode: String?): RegionData? = byId[id]?.localized(languageCode)
 
     /**
      * Loads several regions, skipping identifiers that do not exist.
@@ -49,7 +50,7 @@ class RegionStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching regions in request order.
      */
-    fun byIds(ids: List<Long>, languageCode: String?): List<RegionData> =
+    fun byIds(ids: List<String>, languageCode: String?): List<RegionData> =
         ids.mapNotNull { byId[it]?.localized(languageCode) }
 
     /**
@@ -84,7 +85,7 @@ class RegionStore(dataset: RawDataset) {
  * @property name Display name in every available language.
  */
 private class RegionRecord(
-    val id: Long,
+    val id: String,
     val name: LocalizedName,
 ) {
     /** Scores this region against a search query. */

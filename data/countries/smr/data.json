@@ -1,5 +1,5 @@
 {
-  "id": 192,
+  "id": "SM",
   "name": "San Marino",
   "nativeName": "San Marino",
   "iso2": "SM",
@@ -9,17 +9,17 @@
   "tld": ".sm",
   "latitude": 43.76666666,
   "longitude": 12.41666666,
-  "flagId": 47,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "sm",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2554
+    "Europe/San_Marino"
   ],
   "officialLanguageIds": [
-    41
+    "it"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 58,
+      "id": "SM-07",
       "name": "San Marino",
       "stateCode": "07",
       "latitude": 43.94236,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 59,
+      "id": "SM-01",
       "name": "Acquaviva",
       "stateCode": "01",
       "latitude": 41.8671597,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 60,
+      "id": "SM-02",
       "name": "Chiesanuova",
       "stateCode": "02",
       "latitude": 45.4226172,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": 61,
+      "id": "SM-06",
       "name": "Borgo Maggiore",
       "stateCode": "06",
       "latitude": 43.9574882,
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": 62,
+      "id": "SM-04",
       "name": "Faetano",
       "stateCode": "04",
       "latitude": 43.9348967,
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "id": 63,
+      "id": "SM-08",
       "name": "Montegiardino",
       "stateCode": "08",
       "latitude": 43.9052999,
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "id": 64,
+      "id": "SM-03",
       "name": "Domagnano",
       "stateCode": "03",
       "latitude": 43.9501929,
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "id": 65,
+      "id": "SM-09",
       "name": "Serravalle",
       "stateCode": "09",
       "latitude": 44.7232084,
@@ -234,7 +234,7 @@
       ]
     },
     {
-      "id": 66,
+      "id": "SM-05",
       "name": "Fiorentino",
       "stateCode": "05",
       "latitude": 43.9078337,

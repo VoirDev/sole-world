@@ -31,7 +31,7 @@ class SubregionRestController(
         query: String?,
         lang: String?,
         include: String?,
-        regionId: Long?,
+        regionId: String?,
     ): ResponseEntity<SubregionPage> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, SubregionRestAssembler.ALLOWED_INCLUDES)
@@ -52,7 +52,7 @@ class SubregionRestController(
         )
     }
 
-    override fun getSubregion(id: Long, lang: String?, include: String?): ResponseEntity<Subregion> {
+    override fun getSubregion(id: String, lang: String?, include: String?): ResponseEntity<Subregion> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, SubregionRestAssembler.ALLOWED_INCLUDES)
         val subregion =
@@ -62,7 +62,7 @@ class SubregionRestController(
     }
 
     override fun listSubregionCountries(
-        id: Long,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,

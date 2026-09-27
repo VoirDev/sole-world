@@ -37,7 +37,7 @@ class AssetBaseUrlIntegrationTest {
 
     @Test
     fun `asset paths point at the configured origin everywhere they appear`() {
-        val asset = get("/v1/media-assets/9001")
+        val asset = get("/v1/media-assets/flag-fd-square")
         assertEquals(
             "https://cdn.example.com/assets/flags/fd_1x1.svg",
             asset.at("/image/formats/svg").stringValue(),
@@ -48,7 +48,7 @@ class AssetBaseUrlIntegrationTest {
         )
 
         // The same asset reached through a relationship, rather than its own endpoint.
-        val flag = get("/v1/flags/1001?include=squareAsset")
+        val flag = get("/v1/flags/fd?include=squareAsset")
         assertEquals(
             "https://cdn.example.com/assets/flags/fd_1x1.svg",
             flag.at("/squareAsset/image/formats/svg").stringValue(),

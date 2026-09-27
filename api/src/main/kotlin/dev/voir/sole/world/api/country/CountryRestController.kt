@@ -56,11 +56,11 @@ class CountryRestController(
         query: String?,
         lang: String?,
         include: String?,
-        regionId: Long?,
-        subregionId: Long?,
-        currencyId: Long?,
-        languageId: Long?,
-        timezoneId: Long?,
+        regionId: String?,
+        subregionId: String?,
+        currencyId: String?,
+        languageId: String?,
+        timezoneId: String?,
     ): ResponseEntity<CountryPage> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, CountryRestAssembler.ALLOWED_INCLUDES)
@@ -85,16 +85,16 @@ class CountryRestController(
         )
     }
 
-    override fun getCountry(idOrCode: String, lang: String?, include: String?): ResponseEntity<Country> {
+    override fun getCountry(id: String, lang: String?, include: String?): ResponseEntity<Country> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, CountryRestAssembler.ALLOWED_INCLUDES)
-        val country = requireCountry(idOrCode, language)
+        val country = requireCountry(id, language)
 
         return cache.ok(countries.assemble(country, includes, language), request)
     }
 
     override fun listCountryStates(
-        idOrCode: String,
+        id: String,
         page: Int,
         size: Int,
         query: String?,
@@ -103,7 +103,7 @@ class CountryRestController(
     ): ResponseEntity<StatePage> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, StateRestAssembler.ALLOWED_INCLUDES)
-        val country = requireCountry(idOrCode, language)
+        val country = requireCountry(id, language)
 
         val result = stateStore.pageByCountryId(
             countryId = country.id,
@@ -122,7 +122,7 @@ class CountryRestController(
     }
 
     override fun listCountryCities(
-        idOrCode: String,
+        id: String,
         page: Int,
         size: Int,
         query: String?,
@@ -131,7 +131,7 @@ class CountryRestController(
     ): ResponseEntity<CityPage> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, CityRestAssembler.ALLOWED_INCLUDES)
-        val country = requireCountry(idOrCode, language)
+        val country = requireCountry(id, language)
 
         val result = cityStore.pageByCountryId(
             countryId = country.id,
@@ -150,7 +150,7 @@ class CountryRestController(
     }
 
     override fun listCountryCurrencies(
-        idOrCode: String,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,
@@ -158,7 +158,7 @@ class CountryRestController(
     ): ResponseEntity<CurrencyPage> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, CurrencyRestAssembler.ALLOWED_INCLUDES)
-        val country = requireCountry(idOrCode, language)
+        val country = requireCountry(id, language)
 
         val result = currencyStore
             .byCountryId(country.id, language)
@@ -174,7 +174,7 @@ class CountryRestController(
     }
 
     override fun listCountryLanguages(
-        idOrCode: String,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,
@@ -182,7 +182,7 @@ class CountryRestController(
     ): ResponseEntity<LanguagePage> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, LanguageRestAssembler.ALLOWED_INCLUDES)
-        val country = requireCountry(idOrCode, language)
+        val country = requireCountry(id, language)
 
         val result = languageStore
             .byCountryId(country.id, language)
@@ -198,13 +198,13 @@ class CountryRestController(
     }
 
     override fun listCountryTimezones(
-        idOrCode: String,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,
     ): ResponseEntity<TimezonePage> {
         val language = RestRequest.language(lang, request)
-        val country = requireCountry(idOrCode, language)
+        val country = requireCountry(id, language)
 
         val result = timezoneStore
             .byCountryId(country.id, language)
@@ -220,7 +220,7 @@ class CountryRestController(
     }
 
     override fun listCountryCentralBanks(
-        idOrCode: String,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,
@@ -228,7 +228,7 @@ class CountryRestController(
     ): ResponseEntity<CentralBankPage> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, CentralBankRestAssembler.ALLOWED_INCLUDES)
-        val country = requireCountry(idOrCode, language)
+        val country = requireCountry(id, language)
 
         val result = centralBankStore
             .byCountryId(country.id, language)
@@ -249,7 +249,7 @@ class CountryRestController(
      * Sub-resource endpoints resolve the parent first so that a bad country identifier is a `404`
      * about the country, not an empty page that looks like the country simply has no records.
      */
-    private fun requireCountry(idOrCode: String, languageCode: String?): CountryData =
-        countryStore.byIdentifier(idOrCode, languageCode)
-            ?: throw ResourceNotFoundException.of("Country", idOrCode)
+    private fun requireCountry(id: String, languageCode: String?): CountryData =
+        countryStore.byIdentifier(id, languageCode)
+            ?: throw ResourceNotFoundException.of("Country", id)
 }

@@ -1,5 +1,5 @@
 {
-  "id": 193,
+  "id": "ST",
   "name": "São Tomé and Príncipe",
   "nativeName": "São Tomé e Príncipe",
   "iso2": "ST",
@@ -9,17 +9,17 @@
   "tld": ".st",
   "latitude": 1,
   "longitude": 7,
-  "flagId": 42,
-  "regionId": 1,
-  "subregionId": 2,
+  "flagId": "st",
+  "regionId": "africa",
+  "subregionId": "middle-africa",
   "currencyIds": [
-    950
+    "STN"
   ],
   "timezoneIds": [
-    2555
+    "Africa/Sao_Tome"
   ],
   "officialLanguageIds": [
-    45
+    "pt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 270,
+      "id": "ST-P",
       "name": "Príncipe",
       "stateCode": "P",
       "latitude": 1.6139381,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 271,
+      "id": "ST-S",
       "name": "São Tomé",
       "stateCode": "S",
       "latitude": 0.3301924,

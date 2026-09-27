@@ -1,5 +1,5 @@
 {
-  "id": 87,
+  "id": "GD",
   "name": "Grenada",
   "nativeName": "Grenada",
   "iso2": "GD",
@@ -9,20 +9,20 @@
   "tld": ".gd",
   "latitude": 12.11666666,
   "longitude": -61.66666666,
-  "flagId": 171,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "gd",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    840
+    "XCD"
   ],
   "timezoneIds": [
-    2394
+    "America/Grenada"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [
-    33
+    "fr"
   ],
   "translations": [
     {
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 3863,
+      "id": "GD-06",
       "name": "Saint Patrick",
       "stateCode": "06",
       "latitude": null,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": 3864,
+      "id": "GD-03",
       "name": "Saint George",
       "stateCode": "03",
       "latitude": null,
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "id": 3865,
+      "id": "GD-01",
       "name": "Saint Andrew",
       "stateCode": "01",
       "latitude": null,
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "id": 3866,
+      "id": "GD-05",
       "name": "Saint Mark",
       "stateCode": "05",
       "latitude": 40.5881863,
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "id": 3867,
+      "id": "GD-10",
       "name": "Carriacou",
       "stateCode": "10",
       "latitude": 12.4785888,
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "id": 3868,
+      "id": "GD-04",
       "name": "Saint John",
       "stateCode": "04",
       "latitude": 30.1118331,
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "id": 3869,
+      "id": "GD-02",
       "name": "Saint David",
       "stateCode": "02",
       "latitude": null,

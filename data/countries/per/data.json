@@ -1,5 +1,5 @@
 {
-  "id": 173,
+  "id": "PE",
   "name": "Peru",
   "nativeName": "Perú",
   "iso2": "PE",
@@ -9,20 +9,20 @@
   "tld": ".pe",
   "latitude": -10,
   "longitude": -76,
-  "flagId": 77,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "pe",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    941
+    "PEN"
   ],
   "officialLanguageIds": [
-    47,
-    142,
-    13
+    "es",
+    "qu",
+    "ay"
   ],
   "otherLanguageIds": [],
   "timezoneIds": [
-    2508
+    "America/Lima"
   ],
   "translations": [
     {
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 3678,
+      "id": "PE-MDD",
       "name": "Madre de Dios",
       "stateCode": "MDD",
       "latitude": -11.7668705,
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "id": 3679,
+      "id": "PE-HUV",
       "name": "Huancavelica",
       "stateCode": "HUV",
       "latitude": -12.7861978,
@@ -226,7 +226,7 @@
       ]
     },
     {
-      "id": 3680,
+      "id": "PE-ANC",
       "name": "Áncash",
       "stateCode": "ANC",
       "latitude": -9.3250497,
@@ -440,7 +440,7 @@
       ]
     },
     {
-      "id": 3681,
+      "id": "PE-ARE",
       "name": "Arequipa",
       "stateCode": "ARE",
       "latitude": -16.4090474,
@@ -640,7 +640,7 @@
       ]
     },
     {
-      "id": 3682,
+      "id": "PE-PUN",
       "name": "Puno",
       "stateCode": "PUN",
       "latitude": -15.8402218,
@@ -840,7 +840,7 @@
       ]
     },
     {
-      "id": 3683,
+      "id": "PE-LAL",
       "name": "La Libertad",
       "stateCode": "LAL",
       "latitude": 13.490697,
@@ -1061,7 +1061,7 @@
       ]
     },
     {
-      "id": 3684,
+      "id": "PE-UCA",
       "name": "Ucayali",
       "stateCode": "UCA",
       "latitude": -9.8251183,
@@ -1114,7 +1114,7 @@
       ]
     },
     {
-      "id": 3685,
+      "id": "PE-AMA",
       "name": "Amazonas",
       "stateCode": "AMA",
       "latitude": null,
@@ -1202,7 +1202,7 @@
       ]
     },
     {
-      "id": 3686,
+      "id": "PE-PAS",
       "name": "Pasco",
       "stateCode": "PAS",
       "latitude": 46.2305049,
@@ -1276,7 +1276,7 @@
       ]
     },
     {
-      "id": 3687,
+      "id": "PE-HUC",
       "name": "Huanuco",
       "stateCode": "HUC",
       "latitude": -9.9207648,
@@ -1413,7 +1413,7 @@
       ]
     },
     {
-      "id": 3688,
+      "id": "PE-CAJ",
       "name": "Cajamarca",
       "stateCode": "CAJ",
       "latitude": -7.1617465,
@@ -1557,7 +1557,7 @@
       ]
     },
     {
-      "id": 3689,
+      "id": "PE-TUM",
       "name": "Tumbes",
       "stateCode": "TUM",
       "latitude": -3.5564921,
@@ -1624,7 +1624,7 @@
       ]
     },
     {
-      "id": 3691,
+      "id": "PE-CUS",
       "name": "Cusco",
       "stateCode": "CUS",
       "latitude": -13.53195,
@@ -2006,7 +2006,7 @@
       ]
     },
     {
-      "id": 3692,
+      "id": "PE-AYA",
       "name": "Ayacucho",
       "stateCode": "AYA",
       "latitude": -13.1638737,
@@ -2143,7 +2143,7 @@
       ]
     },
     {
-      "id": 3693,
+      "id": "PE-JUN",
       "name": "Junín",
       "stateCode": "JUN",
       "latitude": -11.1581925,
@@ -2371,7 +2371,7 @@
       ]
     },
     {
-      "id": 3694,
+      "id": "PE-SAM",
       "name": "San Martín",
       "stateCode": "SAM",
       "latitude": 37.0849464,
@@ -2543,7 +2543,7 @@
       ]
     },
     {
-      "id": 3695,
+      "id": "PE-LIM",
       "name": "Lima",
       "stateCode": "LIM",
       "latitude": -12.0463731,
@@ -2820,7 +2820,7 @@
       ]
     },
     {
-      "id": 3696,
+      "id": "PE-TAC",
       "name": "Tacna",
       "stateCode": "TAC",
       "latitude": -18.0065679,
@@ -2922,7 +2922,7 @@
       ]
     },
     {
-      "id": 3697,
+      "id": "PE-PIU",
       "name": "Piura",
       "stateCode": "PIU",
       "latitude": -5.1782884,
@@ -3143,7 +3143,7 @@
       ]
     },
     {
-      "id": 3698,
+      "id": "PE-MOQ",
       "name": "Moquegua",
       "stateCode": "MOQ",
       "latitude": -17.1927361,
@@ -3203,7 +3203,7 @@
       ]
     },
     {
-      "id": 3699,
+      "id": "PE-APU",
       "name": "Apurímac",
       "stateCode": "APU",
       "latitude": -14.0504533,
@@ -3284,7 +3284,7 @@
       ]
     },
     {
-      "id": 3700,
+      "id": "PE-ICA",
       "name": "Ica",
       "stateCode": "ICA",
       "latitude": 42.3528832,
@@ -3428,7 +3428,7 @@
       ]
     },
     {
-      "id": 3701,
+      "id": "PE-CAL",
       "name": "Callao",
       "stateCode": "CAL",
       "latitude": -12.0508491,
@@ -3446,7 +3446,7 @@
       ]
     },
     {
-      "id": 3702,
+      "id": "PE-LAM",
       "name": "Lambayeque",
       "stateCode": "LAM",
       "latitude": -6.7197666,
@@ -3618,7 +3618,7 @@
       ]
     },
     {
-      "id": 4922,
+      "id": "PE-LOR",
       "name": "Loreto",
       "stateCode": "LOR",
       "latitude": -4.3741643,

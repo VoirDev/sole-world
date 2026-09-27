@@ -1,5 +1,5 @@
 {
-  "id": 200,
+  "id": "SK",
   "name": "Slovakia",
   "nativeName": "Slovensko",
   "iso2": "SK",
@@ -9,17 +9,17 @@
   "tld": ".sk",
   "latitude": 48.66666666,
   "longitude": 19.5,
-  "flagId": 49,
-  "regionId": 4,
-  "subregionId": 15,
+  "flagId": "sk",
+  "regionId": "europe",
+  "subregionId": "eastern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2561
+    "Europe/Bratislava"
   ],
   "officialLanguageIds": [
-    64
+    "sk"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4352,
+      "id": "SK-BC",
       "name": "Banská Bystrica",
       "stateCode": "BC",
       "latitude": 48.5312499,
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "id": 4353,
+      "id": "SK-KI",
       "name": "Košice",
       "stateCode": "KI",
       "latitude": 48.6375737,
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "id": 4354,
+      "id": "SK-PV",
       "name": "Prešov",
       "stateCode": "PV",
       "latitude": 49.1716773,
@@ -844,7 +844,7 @@
       ]
     },
     {
-      "id": 4355,
+      "id": "SK-TA",
       "name": "Trnava",
       "stateCode": "TA",
       "latitude": 48.3943898,
@@ -1016,7 +1016,7 @@
       ]
     },
     {
-      "id": 4356,
+      "id": "SK-BL",
       "name": "Bratislava",
       "stateCode": "BL",
       "latitude": 48.3118304,
@@ -1167,7 +1167,7 @@
       ]
     },
     {
-      "id": 4357,
+      "id": "SK-NI",
       "name": "Nitra",
       "stateCode": "NI",
       "latitude": 48.0143765,
@@ -1339,7 +1339,7 @@
       ]
     },
     {
-      "id": 4358,
+      "id": "SK-TC",
       "name": "Trenčín",
       "stateCode": "TC",
       "latitude": 48.8086758,
@@ -1553,7 +1553,7 @@
       ]
     },
     {
-      "id": 4359,
+      "id": "SK-ZI",
       "name": "Žilina",
       "stateCode": "ZI",
       "latitude": 49.2031435,

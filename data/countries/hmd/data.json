@@ -1,5 +1,5 @@
 {
-  "id": 96,
+  "id": "HM",
   "name": "Heard Island and McDonald Islands",
   "nativeName": "Heard Island and McDonald Islands",
   "iso2": "HM",
@@ -9,17 +9,17 @@
   "tld": ".hm",
   "latitude": -53.08,
   "longitude": 73.51,
-  "flagId": 252,
-  "regionId": 6,
-  "subregionId": 23,
+  "flagId": "hm",
+  "regionId": "antarctica",
+  "subregionId": "antarctica",
   "currencyIds": [
-    844
+    "AUD"
   ],
   "timezoneIds": [
-    2382
+    "Indian/Kerguelen"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [

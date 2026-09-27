@@ -1,5 +1,5 @@
 {
-  "id": 20,
+  "id": "BB",
   "name": "Barbados",
   "nativeName": "Barbados",
   "iso2": "BB",
@@ -9,17 +9,17 @@
   "tld": ".bb",
   "latitude": 13.16666666,
   "longitude": -59.53333333,
-  "flagId": 231,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "bb",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    848
+    "BBD"
   ],
   "timezoneIds": [
-    2274
+    "America/Barbados"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1220,
+      "id": "BB-10",
       "name": "Saint Philip",
       "stateCode": "10",
       "latitude": 35.233114,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 1221,
+      "id": "BB-07",
       "name": "Saint Lucy",
       "stateCode": "07",
       "latitude": 38.7614625,
@@ -118,7 +118,7 @@
       "cities": []
     },
     {
-      "id": 1222,
+      "id": "BB-09",
       "name": "Saint Peter",
       "stateCode": "09",
       "latitude": 37.0827119,
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": 1223,
+      "id": "BB-06",
       "name": "Saint Joseph",
       "stateCode": "06",
       "latitude": 39.7674578,
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": 1224,
+      "id": "BB-04",
       "name": "Saint James",
       "stateCode": "04",
       "latitude": 48.523566,
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "id": 1225,
+      "id": "BB-11",
       "name": "Saint Thomas",
       "stateCode": "11",
       "latitude": 18.3380965,
@@ -182,7 +182,7 @@
       "cities": []
     },
     {
-      "id": 1226,
+      "id": "BB-03",
       "name": "Saint George",
       "stateCode": "03",
       "latitude": 37.0965278,
@@ -192,7 +192,7 @@
       "cities": []
     },
     {
-      "id": 1227,
+      "id": "BB-05",
       "name": "Saint John",
       "stateCode": "05",
       "latitude": 45.2733153,
@@ -202,7 +202,7 @@
       "cities": []
     },
     {
-      "id": 1228,
+      "id": "BB-01",
       "name": "Christ Church",
       "stateCode": "01",
       "latitude": 36.0060407,
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "id": 1229,
+      "id": "BB-02",
       "name": "Saint Andrew",
       "stateCode": "02",
       "latitude": null,
@@ -238,7 +238,7 @@
       ]
     },
     {
-      "id": 1230,
+      "id": "BB-08",
       "name": "Saint Michael",
       "stateCode": "08",
       "latitude": 36.035977,

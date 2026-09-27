@@ -77,24 +77,24 @@ class CurrencyGraphqlFetcher(
     @DgsQuery
     fun currenciesByIds(@InputArgument ids: List<String>): DataFetcherResult<List<Currency>> {
         val language = GraphqlRequest.language()
-        val currencies = currencyStore.byIds(GraphqlRequest.longIds(ids, "ids"), language)
+        val currencies = currencyStore.byIds(GraphqlRequest.ids(ids, "ids"), language)
 
         return GraphqlRequest.localized(currencies.map { it.toGql() }, language)
     }
 
     /**
-     * Loads one currency by numeric identifier or ISO code.
-     * @param idOrCode Numeric identifier, ISO 4217 alpha code, or ISO 4217 numeric code.
+     * Loads one currency by its identifier or its ISO 4217 numeric code.
+     * @param id ISO 4217 alpha identifier or numeric code, in any case.
      * @param withObsolete Whether an obsolete currency may be returned.
      * @return Matching currency, or null when none matches.
      */
     @DgsQuery
     fun currency(
-        @InputArgument idOrCode: String,
+        @InputArgument id: String,
         @InputArgument withObsolete: Boolean?,
     ): DataFetcherResult<Currency> {
         val language = GraphqlRequest.language()
-        val currency = currencyStore.resolve(idOrCode, withObsolete, language)
+        val currency = currencyStore.resolve(id, withObsolete, language)
 
         return GraphqlRequest.localized(currency?.toGql(), language)
     }
@@ -107,7 +107,7 @@ class CurrencyGraphqlFetcher(
         val language = GraphqlRequest.language(dfe)
 
         return currencyStore
-            .byId(GraphqlRequest.longId(replacedById, "replacedById"), language)
+            .byId(replacedById, language)
             ?.toGql()
     }
 
@@ -117,7 +117,7 @@ class CurrencyGraphqlFetcher(
         val currency: Currency = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        return countryStore.byCurrencyId(currencyId(currency), language).map { it.toGql() }
+        return countryStore.byCurrencyId(currency.id, language).map { it.toGql() }
     }
 
     /** Resolves the central banks that issue a currency. */
@@ -126,7 +126,7 @@ class CurrencyGraphqlFetcher(
         val currency: Currency = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        return centralBankStore.byCurrencyId(currencyId(currency), language).map { it.toGql() }
+        return centralBankStore.byCurrencyId(currency.id, language).map { it.toGql() }
     }
 
     /** Resolves the flag associated with a currency. */
@@ -135,8 +135,6 @@ class CurrencyGraphqlFetcher(
         val currency: Currency = dfe.getSource() ?: return null
         val flagId = currency.flagId ?: return null
 
-        return flagStore.byId(GraphqlRequest.longId(flagId, "flagId"))?.toGql()
+        return flagStore.byId(flagId)?.toGql()
     }
-
-    private fun currencyId(currency: Currency): Long = GraphqlRequest.longId(currency.id, "id")
 }

@@ -1,5 +1,5 @@
 {
-  "id": 61,
+  "id": "DM",
   "name": "Dominica",
   "nativeName": "Dominica",
   "iso2": "DM",
@@ -9,17 +9,17 @@
   "tld": ".dm",
   "latitude": 15.41666666,
   "longitude": -61.33333333,
-  "flagId": 191,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "dm",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    840
+    "XCD"
   ],
   "timezoneIds": [
-    2362
+    "America/Dominica"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4076,
+      "id": "DM-05",
       "name": "Saint John",
       "stateCode": "05",
       "latitude": null,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 4077,
+      "id": "DM-08",
       "name": "Saint Mark",
       "stateCode": "08",
       "latitude": null,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 4078,
+      "id": "DM-03",
       "name": "Saint David",
       "stateCode": "03",
       "latitude": null,
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": 4079,
+      "id": "DM-04",
       "name": "Saint George",
       "stateCode": "04",
       "latitude": null,
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "id": 4080,
+      "id": "DM-09",
       "name": "Saint Patrick",
       "stateCode": "09",
       "latitude": null,
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "id": 4081,
+      "id": "DM-11",
       "name": "Saint Peter",
       "stateCode": "11",
       "latitude": 40.4524194,
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "id": 4082,
+      "id": "DM-02",
       "name": "Saint Andrew",
       "stateCode": "02",
       "latitude": null,
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "id": 4083,
+      "id": "DM-07",
       "name": "Saint Luke",
       "stateCode": "07",
       "latitude": 42.1051363,
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "id": 4084,
+      "id": "DM-10",
       "name": "Saint Paul",
       "stateCode": "10",
       "latitude": 38.86146,
@@ -294,7 +294,7 @@
       ]
     },
     {
-      "id": 4085,
+      "id": "DM-06",
       "name": "Saint Joseph",
       "stateCode": "06",
       "latitude": 39.0222712,

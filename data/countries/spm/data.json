@@ -1,5 +1,5 @@
 {
-  "id": 187,
+  "id": "PM",
   "name": "Saint Pierre and Miquelon",
   "nativeName": "Saint-Pierre-et-Miquelon",
   "iso2": "PM",
@@ -9,17 +9,17 @@
   "tld": ".pm",
   "latitude": 46.83333333,
   "longitude": -56.33333333,
-  "flagId": 71,
-  "regionId": 2,
-  "subregionId": 6,
+  "flagId": "pm",
+  "regionId": "americas",
+  "subregionId": "northern-america",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2549
+    "America/Miquelon"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [

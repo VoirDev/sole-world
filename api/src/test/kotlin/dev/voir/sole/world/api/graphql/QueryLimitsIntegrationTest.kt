@@ -28,7 +28,7 @@ class QueryLimitsIntegrationTest : BaseGraphqlIntegrationTest() {
     @Test
     fun `aliasing a cheap lookup many times is allowed`() {
         // The limit charges for scans, not for syntax, so repeating a by-id lookup stays cheap.
-        val aliases = (1..20).joinToString("\n") { "a$it: country(idOrCode: \"1\") { id name }" }
+        val aliases = (1..20).joinToString("\n") { "a$it: country(id: \"FD\") { id name }" }
 
         assertNoErrors(graphQL("query { $aliases }"))
     }
@@ -61,7 +61,7 @@ class QueryLimitsIntegrationTest : BaseGraphqlIntegrationTest() {
         // Country and Subregion point at each other, so a document can be nested without end.
         val nested = (1..20).fold("id") { inner, _ -> "subregion { countries { $inner } }" }
 
-        assertRejected(graphQL("query { country(idOrCode: 1) { $nested } }"), "maximum query depth")
+        assertRejected(graphQL("query { country(id: \"FD\") { $nested } }"), "maximum query depth")
     }
 
     private fun assertRejected(response: JsonNode, expectedInMessage: String) {

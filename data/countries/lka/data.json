@@ -1,5 +1,5 @@
 {
-  "id": 208,
+  "id": "LK",
   "name": "Sri Lanka",
   "nativeName": "śrī laṃkāva",
   "iso2": "LK",
@@ -9,21 +9,21 @@
   "tld": ".lk",
   "latitude": 7,
   "longitude": 81,
-  "flagId": 121,
-  "regionId": 3,
-  "subregionId": 14,
+  "flagId": "lk",
+  "regionId": "asia",
+  "subregionId": "southern-asia",
   "currencyIds": [
-    961
+    "LKR"
   ],
   "timezoneIds": [
-    2572
+    "Asia/Colombo"
   ],
   "officialLanguageIds": [
-    151,
-    160
+    "si",
+    "ta"
   ],
   "otherLanguageIds": [
-    30
+    "en"
   ],
   "translations": [
     {
@@ -93,7 +93,7 @@
   ],
   "states": [
     {
-      "id": 2787,
+      "id": "LK-41",
       "name": "Jaffna",
       "stateCode": "41",
       "latitude": 9.6930468,
@@ -103,7 +103,7 @@
       "cities": []
     },
     {
-      "id": 2788,
+      "id": "LK-21",
       "name": "Kandy",
       "stateCode": "21",
       "latitude": 7.2931588,
@@ -429,7 +429,7 @@
       ]
     },
     {
-      "id": 2789,
+      "id": "LK-13",
       "name": "Kalutara",
       "stateCode": "13",
       "latitude": 6.6084686,
@@ -439,7 +439,7 @@
       "cities": []
     },
     {
-      "id": 2790,
+      "id": "LK-81",
       "name": "Badulla",
       "stateCode": "81",
       "latitude": 6.9934009,
@@ -449,7 +449,7 @@
       "cities": []
     },
     {
-      "id": 2791,
+      "id": "LK-33",
       "name": "Hambantota",
       "stateCode": "33",
       "latitude": 6.1535816,
@@ -459,7 +459,7 @@
       "cities": []
     },
     {
-      "id": 2792,
+      "id": "LK-31",
       "name": "Galle",
       "stateCode": "31",
       "latitude": 6.057749,
@@ -469,7 +469,7 @@
       "cities": []
     },
     {
-      "id": 2793,
+      "id": "LK-42",
       "name": "Kilinochchi",
       "stateCode": "42",
       "latitude": 9.3677971,
@@ -479,7 +479,7 @@
       "cities": []
     },
     {
-      "id": 2794,
+      "id": "LK-23",
       "name": "Nuwara Eliya",
       "stateCode": "23",
       "latitude": 6.9606532,
@@ -489,7 +489,7 @@
       "cities": []
     },
     {
-      "id": 2795,
+      "id": "LK-53",
       "name": "Trincomalee",
       "stateCode": "53",
       "latitude": 8.6013069,
@@ -499,7 +499,7 @@
       "cities": []
     },
     {
-      "id": 2796,
+      "id": "LK-62",
       "name": "Puttalam",
       "stateCode": "62",
       "latitude": 8.0259915,
@@ -509,7 +509,7 @@
       "cities": []
     },
     {
-      "id": 2797,
+      "id": "LK-92",
       "name": "Kegalle",
       "stateCode": "92",
       "latitude": 7.1204053,
@@ -519,7 +519,7 @@
       "cities": []
     },
     {
-      "id": 2798,
+      "id": "LK-2",
       "name": "Central",
       "stateCode": "2",
       "latitude": 7.3816445,
@@ -600,7 +600,7 @@
       ]
     },
     {
-      "id": 2799,
+      "id": "LK-52",
       "name": "Ampara",
       "stateCode": "52",
       "latitude": 7.2911685,
@@ -610,7 +610,7 @@
       "cities": []
     },
     {
-      "id": 2800,
+      "id": "LK-7",
       "name": "North Central",
       "stateCode": "7",
       "latitude": 8.1995638,
@@ -656,7 +656,7 @@
       ]
     },
     {
-      "id": 2801,
+      "id": "LK-3",
       "name": "Southern",
       "stateCode": "3",
       "latitude": 6.250365,
@@ -772,7 +772,7 @@
       ]
     },
     {
-      "id": 2802,
+      "id": "LK-1",
       "name": "Western",
       "stateCode": "1",
       "latitude": 6.828235,
@@ -958,7 +958,7 @@
       ]
     },
     {
-      "id": 2803,
+      "id": "LK-9",
       "name": "Sabaragamuwa",
       "stateCode": "9",
       "latitude": 6.7395941,
@@ -997,7 +997,7 @@
       ]
     },
     {
-      "id": 2804,
+      "id": "LK-12",
       "name": "Gampaha",
       "stateCode": "12",
       "latitude": 7.0712619,
@@ -1007,7 +1007,7 @@
       "cities": []
     },
     {
-      "id": 2805,
+      "id": "LK-43",
       "name": "Mannar",
       "stateCode": "43",
       "latitude": 8.9809531,
@@ -1017,7 +1017,7 @@
       "cities": []
     },
     {
-      "id": 2806,
+      "id": "LK-32",
       "name": "Matara",
       "stateCode": "32",
       "latitude": 5.9449348,
@@ -1027,7 +1027,7 @@
       "cities": []
     },
     {
-      "id": 2807,
+      "id": "LK-91",
       "name": "Ratnapura",
       "stateCode": "91",
       "latitude": 6.7055168,
@@ -1037,7 +1037,7 @@
       "cities": []
     },
     {
-      "id": 2808,
+      "id": "LK-5",
       "name": "Eastern",
       "stateCode": "5",
       "latitude": 7.7487176,
@@ -1111,7 +1111,7 @@
       ]
     },
     {
-      "id": 2809,
+      "id": "LK-44",
       "name": "Vavuniya",
       "stateCode": "44",
       "latitude": 8.7594739,
@@ -1121,7 +1121,7 @@
       "cities": []
     },
     {
-      "id": 2810,
+      "id": "LK-22",
       "name": "Matale",
       "stateCode": "22",
       "latitude": 7.4659646,
@@ -1131,7 +1131,7 @@
       "cities": []
     },
     {
-      "id": 2811,
+      "id": "LK-8",
       "name": "Uva",
       "stateCode": "8",
       "latitude": 6.8427612,
@@ -1198,7 +1198,7 @@
       ]
     },
     {
-      "id": 2812,
+      "id": "LK-72",
       "name": "Polonnaruwa",
       "stateCode": "72",
       "latitude": 7.9395567,
@@ -1208,7 +1208,7 @@
       "cities": []
     },
     {
-      "id": 2813,
+      "id": "LK-4",
       "name": "Northern",
       "stateCode": "4",
       "latitude": 9.3723833,
@@ -1275,7 +1275,7 @@
       ]
     },
     {
-      "id": 2814,
+      "id": "LK-45",
       "name": "Mullaitivu",
       "stateCode": "45",
       "latitude": 9.2675388,
@@ -1285,7 +1285,7 @@
       "cities": []
     },
     {
-      "id": 2815,
+      "id": "LK-11",
       "name": "Colombo",
       "stateCode": "11",
       "latitude": 6.9269557,
@@ -1380,7 +1380,7 @@
       ]
     },
     {
-      "id": 2816,
+      "id": "LK-71",
       "name": "Anuradhapura",
       "stateCode": "71",
       "latitude": 8.3318305,
@@ -1390,7 +1390,7 @@
       "cities": []
     },
     {
-      "id": 2817,
+      "id": "LK-6",
       "name": "North Western",
       "stateCode": "6",
       "latitude": 7.7584091,
@@ -1443,7 +1443,7 @@
       ]
     },
     {
-      "id": 2818,
+      "id": "LK-51",
       "name": "Batticaloa",
       "stateCode": "51",
       "latitude": 7.8292781,
@@ -1453,7 +1453,7 @@
       "cities": []
     },
     {
-      "id": 2819,
+      "id": "LK-82",
       "name": "Monaragala",
       "stateCode": "82",
       "latitude": 6.8727781,
@@ -1463,7 +1463,7 @@
       "cities": []
     },
     {
-      "id": 5342,
+      "id": "LK-61",
       "name": "Kurunegala",
       "stateCode": "61",
       "latitude": 7.7285647,

@@ -1,5 +1,5 @@
 {
-  "id": 133,
+  "id": "MV",
   "name": "Maldives",
   "nativeName": "Maldives",
   "iso2": "MV",
@@ -9,20 +9,20 @@
   "tld": ".mv",
   "latitude": 3.25,
   "longitude": 73,
-  "flagId": 96,
-  "regionId": 3,
-  "subregionId": 14,
+  "flagId": "mv",
+  "regionId": "asia",
+  "subregionId": "southern-asia",
   "currencyIds": [
-    920
+    "MVR"
   ],
   "timezoneIds": [
-    2449
+    "Indian/Maldives"
   ],
   "officialLanguageIds": [
-    74
+    "dv"
   ],
   "otherLanguageIds": [
-    30
+    "en"
   ],
   "translations": [
     {
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 2584,
+      "id": "MV-04",
       "name": "Vaavu",
       "stateCode": "04",
       "latitude": 3.3955438,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": 2585,
+      "id": "MV-24",
       "name": "Shaviyani",
       "stateCode": "24",
       "latitude": 6.17511,
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "id": 2586,
+      "id": "MV-07",
       "name": "Haa Alif",
       "stateCode": "07",
       "latitude": 6.9903488,
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "id": 2587,
+      "id": "MV-02",
       "name": "Alif Alif",
       "stateCode": "02",
       "latitude": 4.085,
@@ -156,7 +156,7 @@
       "cities": []
     },
     {
-      "id": 2589,
+      "id": "MV-NC",
       "name": "North Central",
       "stateCode": "NC",
       "latitude": null,
@@ -166,7 +166,7 @@
       "cities": []
     },
     {
-      "id": 2590,
+      "id": "MV-17",
       "name": "Dhaalu",
       "stateCode": "17",
       "latitude": 2.8468502,
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "id": 2591,
+      "id": "MV-08",
       "name": "Thaa",
       "stateCode": "08",
       "latitude": 2.4311161,
@@ -202,7 +202,7 @@
       ]
     },
     {
-      "id": 2592,
+      "id": "MV-25",
       "name": "Noonu",
       "stateCode": "25",
       "latitude": 5.8551276,
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "id": 2593,
+      "id": "MV-US",
       "name": "Upper South",
       "stateCode": "US",
       "latitude": 0.2307,
@@ -230,7 +230,7 @@
       "cities": []
     },
     {
-      "id": 2594,
+      "id": "MV-01",
       "name": "Addu",
       "stateCode": "01",
       "latitude": -0.6300995,
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "id": 2595,
+      "id": "MV-29",
       "name": "Gnaviyani",
       "stateCode": "29",
       "latitude": -0.3006425,
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "id": 2596,
+      "id": "MV-26",
       "name": "Kaafu",
       "stateCode": "26",
       "latitude": 4.4558979,
@@ -312,7 +312,7 @@
       ]
     },
     {
-      "id": 2597,
+      "id": "MV-23",
       "name": "Haa Dhaalu",
       "stateCode": "23",
       "latitude": 6.5782717,
@@ -330,7 +330,7 @@
       ]
     },
     {
-      "id": 2598,
+      "id": "MV-27",
       "name": "Gaafu Alif",
       "stateCode": "27",
       "latitude": 0.6124813,
@@ -348,7 +348,7 @@
       ]
     },
     {
-      "id": 2599,
+      "id": "MV-14",
       "name": "Faafu",
       "stateCode": "14",
       "latitude": 3.2309409,
@@ -358,7 +358,7 @@
       "cities": []
     },
     {
-      "id": 2600,
+      "id": "MV-00",
       "name": "Alif Dhaal",
       "stateCode": "00",
       "latitude": 3.6543302,
@@ -368,7 +368,7 @@
       "cities": []
     },
     {
-      "id": 2601,
+      "id": "MV-05",
       "name": "Laamu",
       "stateCode": "05",
       "latitude": 1.9430737,
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "id": 2602,
+      "id": "MV-13",
       "name": "Raa",
       "stateCode": "13",
       "latitude": 5.6006457,
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "id": 2603,
+      "id": "MV-28",
       "name": "Gaafu Dhaalu",
       "stateCode": "28",
       "latitude": 0.358804,
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "id": 2604,
+      "id": "MV-CE",
       "name": "Central",
       "stateCode": "CE",
       "latitude": null,
@@ -432,7 +432,7 @@
       "cities": []
     },
     {
-      "id": 2605,
+      "id": "MV-SU",
       "name": "South",
       "stateCode": "SU",
       "latitude": -21.7482006,
@@ -442,7 +442,7 @@
       "cities": []
     },
     {
-      "id": 2606,
+      "id": "MV-SC",
       "name": "South Central",
       "stateCode": "SC",
       "latitude": 7.2564996,
@@ -460,7 +460,7 @@
       ]
     },
     {
-      "id": 2607,
+      "id": "MV-03",
       "name": "Lhaviyani",
       "stateCode": "03",
       "latitude": 5.3747021,
@@ -478,7 +478,7 @@
       ]
     },
     {
-      "id": 2608,
+      "id": "MV-12",
       "name": "Meemu",
       "stateCode": "12",
       "latitude": 3.0090345,
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": 2609,
+      "id": "MV-MLE",
       "name": "Malé",
       "stateCode": "MLE",
       "latitude": 46.3488867,

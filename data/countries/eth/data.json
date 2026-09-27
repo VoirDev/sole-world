@@ -1,5 +1,5 @@
 {
-  "id": 70,
+  "id": "ET",
   "name": "Ethiopia",
   "nativeName": "ኢትዮጵያ",
   "iso2": "ET",
@@ -9,21 +9,21 @@
   "tld": ".et",
   "latitude": 8,
   "longitude": 38,
-  "flagId": 182,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "et",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    882
+    "ETB"
   ],
   "timezoneIds": [
-    2372
+    "Africa/Addis_Ababa"
   ],
   "officialLanguageIds": [
-    6,
-    136,
-    164,
-    155,
-    2
+    "am",
+    "om",
+    "ti",
+    "so",
+    "aa"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -94,7 +94,7 @@
   ],
   "states": [
     {
-      "id": 1,
+      "id": "ET-SN",
       "name": "Southern Nations, Nationalities, and Peoples'",
       "stateCode": "SN",
       "latitude": 6.5156911,
@@ -336,7 +336,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "ET-SO",
       "name": "Somali",
       "stateCode": "SO",
       "latitude": 6.6612293,
@@ -389,7 +389,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "ET-AM",
       "name": "Amhara",
       "stateCode": "AM",
       "latitude": 11.3494247,
@@ -603,7 +603,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "ET-TI",
       "name": "Tigray",
       "stateCode": "TI",
       "latitude": 14.0323336,
@@ -670,7 +670,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "ET-OR",
       "name": "Oromia",
       "stateCode": "OR",
       "latitude": 7.5460377,
@@ -1059,7 +1059,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "ET-AF",
       "name": "Afar",
       "stateCode": "AF",
       "latitude": 11.7559388,
@@ -1119,7 +1119,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "ET-HA",
       "name": "Harari",
       "stateCode": "HA",
       "latitude": 9.314866,
@@ -1137,7 +1137,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": "ET-DD",
       "name": "Dire Dawa",
       "stateCode": "DD",
       "latitude": 9.6008747,
@@ -1155,7 +1155,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": "ET-BE",
       "name": "Benishangul-Gumuz",
       "stateCode": "BE",
       "latitude": 10.7802889,
@@ -1180,7 +1180,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": "ET-GA",
       "name": "Gambela",
       "stateCode": "GA",
       "latitude": 7.9219687,
@@ -1205,7 +1205,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": "ET-AA",
       "name": "Addis Ababa",
       "stateCode": "AA",
       "latitude": 8.9806034,

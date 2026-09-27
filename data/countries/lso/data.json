@@ -1,5 +1,5 @@
 {
-  "id": 122,
+  "id": "LS",
   "name": "Lesotho",
   "nativeName": "Lesotho",
   "iso2": "LS",
@@ -9,18 +9,18 @@
   "tld": ".ls",
   "latitude": -29.5,
   "longitude": 28.5,
-  "flagId": 119,
-  "regionId": 1,
-  "subregionId": 5,
+  "flagId": "ls",
+  "regionId": "africa",
+  "subregionId": "southern-africa",
   "currencyIds": [
-    912
+    "LSL"
   ],
   "timezoneIds": [
-    2438
+    "Africa/Maseru"
   ],
   "officialLanguageIds": [
-    30,
-    157
+    "en",
+    "st"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 3022,
+      "id": "LS-E",
       "name": "Mafeteng",
       "stateCode": "E",
       "latitude": -29.8041008,
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "id": 3023,
+      "id": "LS-F",
       "name": "Mohale's Hoek",
       "stateCode": "F",
       "latitude": -30.1425917,
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "id": 3024,
+      "id": "LS-J",
       "name": "Mokhotlong",
       "stateCode": "J",
       "latitude": -29.2573193,
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": 3025,
+      "id": "LS-H",
       "name": "Qacha's Nek",
       "stateCode": "H",
       "latitude": -30.1114565,
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "id": 3026,
+      "id": "LS-C",
       "name": "Leribe",
       "stateCode": "C",
       "latitude": -28.8638065,
@@ -188,7 +188,7 @@
       ]
     },
     {
-      "id": 3027,
+      "id": "LS-G",
       "name": "Quthing",
       "stateCode": "G",
       "latitude": -30.4015687,
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "id": 3028,
+      "id": "LS-A",
       "name": "Maseru",
       "stateCode": "A",
       "latitude": -29.516565,
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "id": 3029,
+      "id": "LS-B",
       "name": "Butha-Buthe",
       "stateCode": "B",
       "latitude": -28.7653754,
@@ -249,7 +249,7 @@
       ]
     },
     {
-      "id": 3030,
+      "id": "LS-D",
       "name": "Berea",
       "stateCode": "D",
       "latitude": 41.3661614,
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "id": 3031,
+      "id": "LS-K",
       "name": "Thaba-Tseka",
       "stateCode": "K",
       "latitude": -29.5238975,

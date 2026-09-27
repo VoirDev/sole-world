@@ -42,7 +42,7 @@ class SubregionGraphqlFetcher(
             request = GraphqlRequest.pageRequest(page),
             languageCode = language,
             query = GraphqlRequest.optionalSearchQuery(query),
-            regionId = GraphqlRequest.optionalLongId(regionId, "regionId"),
+            regionId = GraphqlRequest.optionalId(regionId),
         )
 
         return GraphqlRequest.localized(
@@ -62,7 +62,7 @@ class SubregionGraphqlFetcher(
     @DgsQuery
     fun subregionsByIds(@InputArgument ids: List<String>): DataFetcherResult<List<Subregion>> {
         val language = GraphqlRequest.language()
-        val subregions = subregionStore.byIds(GraphqlRequest.longIds(ids, "ids"), language)
+        val subregions = subregionStore.byIds(GraphqlRequest.ids(ids, "ids"), language)
 
         return GraphqlRequest.localized(subregions.map { it.toGql() }, language)
     }
@@ -75,7 +75,7 @@ class SubregionGraphqlFetcher(
     @DgsQuery
     fun subregion(@InputArgument id: String): DataFetcherResult<Subregion> {
         val language = GraphqlRequest.language()
-        val subregion = subregionStore.byId(GraphqlRequest.longId(id, "id"), language)
+        val subregion = subregionStore.byId(id, language)
 
         return GraphqlRequest.localized(subregion?.toGql(), language)
     }
@@ -86,7 +86,7 @@ class SubregionGraphqlFetcher(
         val subregion: Subregion = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        return regionStore.byId(GraphqlRequest.longId(subregion.regionId, "regionId"), language)?.toGql()
+        return regionStore.byId(subregion.regionId, language)?.toGql()
     }
 
     /** Resolves the countries inside a subregion. */
@@ -96,7 +96,7 @@ class SubregionGraphqlFetcher(
         val language = GraphqlRequest.language(dfe)
 
         return countryStore
-            .bySubregionId(GraphqlRequest.longId(subregion.id, "id"), language)
+            .bySubregionId(subregion.id, language)
             .map { it.toGql() }
     }
 }

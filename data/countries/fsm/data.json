@@ -1,5 +1,5 @@
 {
-  "id": 143,
+  "id": "FM",
   "name": "Micronesia",
   "nativeName": "Micronesia",
   "iso2": "FM",
@@ -9,19 +9,19 @@
   "tld": ".fm",
   "latitude": 6.91666666,
   "longitude": 158.25,
-  "flagId": 177,
-  "regionId": 5,
-  "subregionId": 21,
+  "flagId": "fm",
+  "regionId": "oceania",
+  "subregionId": "micronesia",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2470,
-    2471,
-    2472
+    "Pacific/Chuuk",
+    "Pacific/Kosrae",
+    "Pacific/Pohnpei"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 2580,
+      "id": "FM-TRK",
       "name": "Chuuk",
       "stateCode": "TRK",
       "latitude": 7.1386759,
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "id": 2581,
+      "id": "FM-PNI",
       "name": "Pohnpei",
       "stateCode": "PNI",
       "latitude": 6.8541254,
@@ -513,7 +513,7 @@
       ]
     },
     {
-      "id": 2582,
+      "id": "FM-YAP",
       "name": "Yap",
       "stateCode": "YAP",
       "latitude": 8.671649,
@@ -657,7 +657,7 @@
       ]
     },
     {
-      "id": 2583,
+      "id": "FM-KSA",
       "name": "Kosrae",
       "stateCode": "KSA",
       "latitude": 5.3095618,

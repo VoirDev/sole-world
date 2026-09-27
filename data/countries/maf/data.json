@@ -1,5 +1,5 @@
 {
-  "id": 190,
+  "id": "MF",
   "name": "Saint Martin",
   "nativeName": "Saint-Martin",
   "iso2": "MF",
@@ -9,17 +9,17 @@
   "tld": ".mf",
   "latitude": 18.08333333,
   "longitude": -63.95,
-  "flagId": 110,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "mf",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2552
+    "America/Marigot"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [

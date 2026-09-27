@@ -1,5 +1,5 @@
 {
-  "id": 183,
+  "id": "RW",
   "name": "Rwanda",
   "nativeName": "Rwanda",
   "iso2": "RW",
@@ -9,20 +9,20 @@
   "tld": ".rw",
   "latitude": -2,
   "longitude": 30,
-  "flagId": 59,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "rw",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    947
+    "RWF"
   ],
   "timezoneIds": [
-    2545
+    "Africa/Kigali"
   ],
   "officialLanguageIds": [
-    145,
-    30,
-    33,
-    159
+    "rw",
+    "en",
+    "fr",
+    "sw"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -93,7 +93,7 @@
   ],
   "states": [
     {
-      "id": 259,
+      "id": "RW-05",
       "name": "Southern",
       "stateCode": "05",
       "latitude": null,
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "id": 260,
+      "id": "RW-04",
       "name": "Western",
       "stateCode": "04",
       "latitude": null,
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "id": 261,
+      "id": "RW-02",
       "name": "Eastern",
       "stateCode": "02",
       "latitude": null,
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": 262,
+      "id": "RW-01",
       "name": "Kigali",
       "stateCode": "01",
       "latitude": -1.9440727,
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "id": 263,
+      "id": "RW-03",
       "name": "Northern",
       "stateCode": "03",
       "latitude": null,

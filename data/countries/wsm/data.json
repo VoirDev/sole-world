@@ -1,5 +1,5 @@
 {
-  "id": 191,
+  "id": "WS",
   "name": "Samoa",
   "nativeName": "Samoa",
   "iso2": "WS",
@@ -9,18 +9,18 @@
   "tld": ".ws",
   "latitude": -13.58333333,
   "longitude": -172.33333333,
-  "flagId": 7,
-  "regionId": 5,
-  "subregionId": 22,
+  "flagId": "ws",
+  "regionId": "oceania",
+  "subregionId": "polynesia",
   "currencyIds": [
-    949
+    "WST"
   ],
   "timezoneIds": [
-    2553
+    "Pacific/Apia"
   ],
   "officialLanguageIds": [
-    153,
-    30
+    "sm",
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 4761,
+      "id": "WS-AL",
       "name": "Aiga-i-le-Tai",
       "stateCode": "AL",
       "latitude": -13.8513791,
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "id": 4762,
+      "id": "WS-SA",
       "name": "Satupa'itea",
       "stateCode": "SA",
       "latitude": -13.6538214,
@@ -119,7 +119,7 @@
       "cities": []
     },
     {
-      "id": 4763,
+      "id": "WS-AA",
       "name": "A'ana",
       "stateCode": "AA",
       "latitude": -13.898418,
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "id": 4764,
+      "id": "WS-FA",
       "name": "Fa'asaleleaga",
       "stateCode": "FA",
       "latitude": -13.6307638,
@@ -168,7 +168,7 @@
       "cities": []
     },
     {
-      "id": 4765,
+      "id": "WS-AT",
       "name": "Atua",
       "stateCode": "AT",
       "latitude": -13.9787053,
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "id": 4766,
+      "id": "WS-VS",
       "name": "Vaisigano",
       "stateCode": "VS",
       "latitude": -13.5413827,
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "id": 4767,
+      "id": "WS-PA",
       "name": "Palauli",
       "stateCode": "PA",
       "latitude": -13.7294579,
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "id": 4768,
+      "id": "WS-VF",
       "name": "Va'a-o-Fonoti",
       "stateCode": "VF",
       "latitude": -13.9470903,
@@ -268,7 +268,7 @@
       ]
     },
     {
-      "id": 4769,
+      "id": "WS-GE",
       "name": "Gaga'emauga",
       "stateCode": "GE",
       "latitude": -13.5428666,
@@ -278,7 +278,7 @@
       "cities": []
     },
     {
-      "id": 4770,
+      "id": "WS-TU",
       "name": "Tuamasaga",
       "stateCode": "TU",
       "latitude": -13.9163592,
@@ -324,7 +324,7 @@
       ]
     },
     {
-      "id": 4771,
+      "id": "WS-GI",
       "name": "Gaga'ifomauga",
       "stateCode": "GI",
       "latitude": -13.5468007,

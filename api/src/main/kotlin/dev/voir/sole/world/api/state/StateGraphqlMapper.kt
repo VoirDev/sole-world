@@ -10,7 +10,7 @@ import dev.voir.sole.world.graphql.dto.types.State
  * @return GraphQL state type.
  */
 fun StateData.toGql() = State(
-    id = id.toString(),
+    id = id,
     name = name,
     stateCode = stateCode,
     coordinates = if (latitude == null || longitude == null) {
@@ -19,6 +19,6 @@ fun StateData.toGql() = State(
         Coordinates(latitude = latitude, longitude = longitude)
     },
     type = type,
-    countryId = countryId.toString(),
+    countryId = countryId,
     cities = EmptyPage.CITIES,
 )

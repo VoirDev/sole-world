@@ -17,7 +17,7 @@ import dev.voir.sole.world.graphql.dto.types.MediaAssetType
  * @return GraphQL media asset type.
  */
 fun MediaAssetData.toGql() = MediaAsset(
-    id = id.toString(),
+    id = id,
     type = when (type) {
         MediaAssetTypeData.Image -> MediaAssetType.Image
     },

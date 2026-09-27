@@ -1,5 +1,5 @@
 {
-  "id": 105,
+  "id": "IE",
   "name": "Ireland",
   "nativeName": "Éire",
   "iso2": "IE",
@@ -9,18 +9,18 @@
   "tld": ".ie",
   "latitude": 53,
   "longitude": -8,
-  "flagId": 148,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "ie",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2414
+    "Europe/Dublin"
   ],
   "officialLanguageIds": [
-    30,
-    82
+    "en",
+    "ga"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 1069,
+      "id": "IE-TA",
       "name": "Tipperary",
       "stateCode": "TA",
       "latitude": 52.4737894,
@@ -101,7 +101,7 @@
       "cities": []
     },
     {
-      "id": 1070,
+      "id": "IE-SO",
       "name": "Sligo",
       "stateCode": "SO",
       "latitude": 54.1553277,
@@ -111,7 +111,7 @@
       "cities": []
     },
     {
-      "id": 1071,
+      "id": "IE-DL",
       "name": "Donegal",
       "stateCode": "DL",
       "latitude": 54.6548993,
@@ -121,7 +121,7 @@
       "cities": []
     },
     {
-      "id": 1072,
+      "id": "IE-D",
       "name": "Dublin",
       "stateCode": "D",
       "latitude": 53.3498053,
@@ -131,7 +131,7 @@
       "cities": []
     },
     {
-      "id": 1073,
+      "id": "IE-L",
       "name": "Leinster",
       "stateCode": "L",
       "latitude": 53.3271538,
@@ -1626,7 +1626,7 @@
       ]
     },
     {
-      "id": 1074,
+      "id": "IE-CO",
       "name": "Cork",
       "stateCode": "CO",
       "latitude": 51.8985143,
@@ -1636,7 +1636,7 @@
       "cities": []
     },
     {
-      "id": 1075,
+      "id": "IE-MN",
       "name": "Monaghan",
       "stateCode": "MN",
       "latitude": 54.2492046,
@@ -1646,7 +1646,7 @@
       "cities": []
     },
     {
-      "id": 1076,
+      "id": "IE-LD",
       "name": "Longford",
       "stateCode": "LD",
       "latitude": 53.7274982,
@@ -1656,7 +1656,7 @@
       "cities": []
     },
     {
-      "id": 1077,
+      "id": "IE-KY",
       "name": "Kerry",
       "stateCode": "KY",
       "latitude": 52.1544607,
@@ -1666,7 +1666,7 @@
       "cities": []
     },
     {
-      "id": 1078,
+      "id": "IE-OY",
       "name": "Offaly",
       "stateCode": "OY",
       "latitude": 53.2356871,
@@ -1676,7 +1676,7 @@
       "cities": []
     },
     {
-      "id": 1079,
+      "id": "IE-G",
       "name": "Galway",
       "stateCode": "G",
       "latitude": 53.3564509,
@@ -1686,7 +1686,7 @@
       "cities": []
     },
     {
-      "id": 1080,
+      "id": "IE-M",
       "name": "Munster",
       "stateCode": "M",
       "latitude": 51.9471197,
@@ -2278,7 +2278,7 @@
       ]
     },
     {
-      "id": 1081,
+      "id": "IE-RN",
       "name": "Roscommon",
       "stateCode": "RN",
       "latitude": 53.7592604,
@@ -2288,7 +2288,7 @@
       "cities": []
     },
     {
-      "id": 1082,
+      "id": "IE-KE",
       "name": "Kildare",
       "stateCode": "KE",
       "latitude": 53.2120434,
@@ -2298,7 +2298,7 @@
       "cities": []
     },
     {
-      "id": 1083,
+      "id": "IE-LH",
       "name": "Louth",
       "stateCode": "LH",
       "latitude": 53.9252324,
@@ -2308,7 +2308,7 @@
       "cities": []
     },
     {
-      "id": 1084,
+      "id": "IE-MO",
       "name": "Mayo",
       "stateCode": "MO",
       "latitude": 54.0152604,
@@ -2318,7 +2318,7 @@
       "cities": []
     },
     {
-      "id": 1085,
+      "id": "IE-WW",
       "name": "Wicklow",
       "stateCode": "WW",
       "latitude": 52.9862313,
@@ -2328,7 +2328,7 @@
       "cities": []
     },
     {
-      "id": 1086,
+      "id": "IE-U",
       "name": "Ulster",
       "stateCode": "U",
       "latitude": 54.7616555,
@@ -2584,7 +2584,7 @@
       ]
     },
     {
-      "id": 1087,
+      "id": "IE-C",
       "name": "Connacht",
       "stateCode": "C",
       "latitude": 53.8376243,
@@ -2889,7 +2889,7 @@
       ]
     },
     {
-      "id": 1088,
+      "id": "IE-CN",
       "name": "Cavan",
       "stateCode": "CN",
       "latitude": 53.9765424,
@@ -2899,7 +2899,7 @@
       "cities": []
     },
     {
-      "id": 1089,
+      "id": "IE-WD",
       "name": "Waterford",
       "stateCode": "WD",
       "latitude": 52.1943549,
@@ -2909,7 +2909,7 @@
       "cities": []
     },
     {
-      "id": 1090,
+      "id": "IE-KK",
       "name": "Kilkenny",
       "stateCode": "KK",
       "latitude": 52.5776957,
@@ -2919,7 +2919,7 @@
       "cities": []
     },
     {
-      "id": 1091,
+      "id": "IE-CE",
       "name": "Clare",
       "stateCode": "CE",
       "latitude": 43.04664,
@@ -2929,7 +2929,7 @@
       "cities": []
     },
     {
-      "id": 1092,
+      "id": "IE-MH",
       "name": "Meath",
       "stateCode": "MH",
       "latitude": 53.605548,
@@ -2939,7 +2939,7 @@
       "cities": []
     },
     {
-      "id": 1093,
+      "id": "IE-WX",
       "name": "Wexford",
       "stateCode": "WX",
       "latitude": 52.4793603,
@@ -2949,7 +2949,7 @@
       "cities": []
     },
     {
-      "id": 1094,
+      "id": "IE-LK",
       "name": "Limerick",
       "stateCode": "LK",
       "latitude": 52.5090517,
@@ -2959,7 +2959,7 @@
       "cities": []
     },
     {
-      "id": 1095,
+      "id": "IE-CW",
       "name": "Carlow",
       "stateCode": "CW",
       "latitude": 52.7232217,
@@ -2969,7 +2969,7 @@
       "cities": []
     },
     {
-      "id": 1096,
+      "id": "IE-LS",
       "name": "Laois",
       "stateCode": "LS",
       "latitude": 52.994295,
@@ -2979,7 +2979,7 @@
       "cities": []
     },
     {
-      "id": 1097,
+      "id": "IE-WH",
       "name": "Westmeath",
       "stateCode": "WH",
       "latitude": 53.5345308,
@@ -2989,7 +2989,7 @@
       "cities": []
     },
     {
-      "id": 5345,
+      "id": "IE-LM",
       "name": "Leitrim",
       "stateCode": "LM",
       "latitude": 54.139163,

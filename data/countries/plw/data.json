@@ -1,5 +1,5 @@
 {
-  "id": 168,
+  "id": "PW",
   "name": "Palau",
   "nativeName": "Palau",
   "iso2": "PW",
@@ -9,17 +9,17 @@
   "tld": ".pw",
   "latitude": 7.5,
   "longitude": 134.5,
-  "flagId": 66,
-  "regionId": 5,
-  "subregionId": 21,
+  "flagId": "pw",
+  "regionId": "oceania",
+  "subregionId": "micronesia",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2501
+    "Pacific/Palau"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4526,
+      "id": "PW-350",
       "name": "Peleliu",
       "stateCode": "350",
       "latitude": 7.0022906,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 4527,
+      "id": "PW-222",
       "name": "Ngardmau",
       "stateCode": "222",
       "latitude": 7.5850486,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 4528,
+      "id": "PW-004",
       "name": "Airai",
       "stateCode": "004",
       "latitude": 7.3966118,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": 4529,
+      "id": "PW-050",
       "name": "Hatohobei",
       "stateCode": "050",
       "latitude": 3.0070658,
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": 4530,
+      "id": "PW-212",
       "name": "Melekeok",
       "stateCode": "212",
       "latitude": 7.5150286,
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "id": 4531,
+      "id": "PW-224",
       "name": "Ngatpang",
       "stateCode": "224",
       "latitude": 7.4710994,
@@ -190,7 +190,7 @@
       "cities": []
     },
     {
-      "id": 4532,
+      "id": "PW-150",
       "name": "Koror",
       "stateCode": "150",
       "latitude": 7.3375646,
@@ -215,7 +215,7 @@
       ]
     },
     {
-      "id": 4533,
+      "id": "PW-218",
       "name": "Ngarchelong",
       "stateCode": "218",
       "latitude": 7.7105469,
@@ -233,7 +233,7 @@
       ]
     },
     {
-      "id": 4534,
+      "id": "PW-228",
       "name": "Ngiwal",
       "stateCode": "228",
       "latitude": 7.5614764,
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "id": 4535,
+      "id": "PW-370",
       "name": "Sonsorol",
       "stateCode": "370",
       "latitude": 5.3268119,
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "id": 4536,
+      "id": "PW-226",
       "name": "Ngchesar",
       "stateCode": "226",
       "latitude": 7.452328,
@@ -287,7 +287,7 @@
       ]
     },
     {
-      "id": 4537,
+      "id": "PW-214",
       "name": "Ngaraard",
       "stateCode": "214",
       "latitude": 7.60794,
@@ -305,7 +305,7 @@
       ]
     },
     {
-      "id": 4538,
+      "id": "PW-010",
       "name": "Angaur",
       "stateCode": "010",
       "latitude": 6.909223,
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "id": 4539,
+      "id": "PW-100",
       "name": "Kayangel",
       "stateCode": "100",
       "latitude": 8.07,
@@ -341,7 +341,7 @@
       ]
     },
     {
-      "id": 4540,
+      "id": "PW-002",
       "name": "Aimeliik",
       "stateCode": "002",
       "latitude": 7.4455859,
@@ -359,7 +359,7 @@
       ]
     },
     {
-      "id": 4541,
+      "id": "PW-227",
       "name": "Ngeremlengui",
       "stateCode": "227",
       "latitude": 7.5198397,

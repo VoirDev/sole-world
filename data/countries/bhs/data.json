@@ -1,5 +1,5 @@
 {
-  "id": 17,
+  "id": "BS",
   "name": "The Bahamas",
   "nativeName": "Bahamas",
   "iso2": "BS",
@@ -9,17 +9,17 @@
   "tld": ".bs",
   "latitude": 24.25,
   "longitude": -76,
-  "flagId": 217,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "bs",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    970
+    "BSD"
   ],
   "timezoneIds": [
-    2583
+    "America/Nassau"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3593,
+      "id": "BS-BY",
       "name": "Berry Islands",
       "stateCode": "BY",
       "latitude": 25.6250042,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 3594,
+      "id": "BS-NB",
       "name": "Nichollstown and Berry Islands",
       "stateCode": "NB",
       "latitude": 25.7236234,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 3595,
+      "id": "BS-GT",
       "name": "Green Turtle Cay",
       "stateCode": "GT",
       "latitude": 26.7747107,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 3596,
+      "id": "BS-CE",
       "name": "Central Eleuthera",
       "stateCode": "CE",
       "latitude": 25.1362037,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 3597,
+      "id": "BS-GH",
       "name": "Governor's Harbour",
       "stateCode": "GH",
       "latitude": 25.1948096,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 3598,
+      "id": "BS-HR",
       "name": "High Rock",
       "stateCode": "HR",
       "latitude": 46.6843415,
@@ -150,7 +150,7 @@
       "cities": []
     },
     {
-      "id": 3599,
+      "id": "BS-WG",
       "name": "West Grand Bahama",
       "stateCode": "WG",
       "latitude": 26.659447,
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": 3600,
+      "id": "BS-RC",
       "name": "Rum Cay",
       "stateCode": "RC",
       "latitude": 23.6854676,
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "id": 3601,
+      "id": "BS-AK",
       "name": "Acklins",
       "stateCode": "AK",
       "latitude": 22.3657708,
@@ -196,7 +196,7 @@
       "cities": []
     },
     {
-      "id": 3602,
+      "id": "BS-NE",
       "name": "North Eleuthera",
       "stateCode": "NE",
       "latitude": 25.4647517,
@@ -206,7 +206,7 @@
       "cities": []
     },
     {
-      "id": 3603,
+      "id": "BS-CO",
       "name": "Central Abaco",
       "stateCode": "CO",
       "latitude": 26.3555029,
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "id": 3604,
+      "id": "BS-MH",
       "name": "Marsh Harbour",
       "stateCode": "MH",
       "latitude": 26.5241653,
@@ -234,7 +234,7 @@
       "cities": []
     },
     {
-      "id": 3605,
+      "id": "BS-BP",
       "name": "Black Point",
       "stateCode": "BP",
       "latitude": 41.3951024,
@@ -244,7 +244,7 @@
       "cities": []
     },
     {
-      "id": 3606,
+      "id": "BS-SP",
       "name": "Sandy Point",
       "stateCode": "SP",
       "latitude": 39.0145464,
@@ -254,7 +254,7 @@
       "cities": []
     },
     {
-      "id": 3607,
+      "id": "BS-SE",
       "name": "South Eleuthera",
       "stateCode": "SE",
       "latitude": 24.7708562,
@@ -264,7 +264,7 @@
       "cities": []
     },
     {
-      "id": 3608,
+      "id": "BS-SO",
       "name": "South Abaco",
       "stateCode": "SO",
       "latitude": 26.0640591,
@@ -274,7 +274,7 @@
       "cities": []
     },
     {
-      "id": 3609,
+      "id": "BS-IN",
       "name": "Inagua",
       "stateCode": "IN",
       "latitude": 21.0656066,
@@ -292,7 +292,7 @@
       ]
     },
     {
-      "id": 3610,
+      "id": "BS-LI",
       "name": "Long Island",
       "stateCode": "LI",
       "latitude": 40.789142,
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "id": 3611,
+      "id": "BS-CI",
       "name": "Cat Island",
       "stateCode": "CI",
       "latitude": 30.2280136,
@@ -328,7 +328,7 @@
       ]
     },
     {
-      "id": 3612,
+      "id": "BS-EX",
       "name": "Exuma",
       "stateCode": "EX",
       "latitude": 23.6192598,
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "id": 3613,
+      "id": "BS-HI",
       "name": "Harbour Island",
       "stateCode": "HI",
       "latitude": 25.50011,
@@ -364,7 +364,7 @@
       ]
     },
     {
-      "id": 3614,
+      "id": "BS-EG",
       "name": "East Grand Bahama",
       "stateCode": "EG",
       "latitude": 26.6582823,
@@ -382,7 +382,7 @@
       ]
     },
     {
-      "id": 3615,
+      "id": "BS-RI",
       "name": "Ragged Island",
       "stateCode": "RI",
       "latitude": 41.597431,
@@ -400,7 +400,7 @@
       ]
     },
     {
-      "id": 3616,
+      "id": "BS-NO",
       "name": "North Abaco",
       "stateCode": "NO",
       "latitude": 26.7871697,
@@ -418,7 +418,7 @@
       ]
     },
     {
-      "id": 3617,
+      "id": "BS-NS",
       "name": "North Andros",
       "stateCode": "NS",
       "latitude": 24.7063805,
@@ -443,7 +443,7 @@
       ]
     },
     {
-      "id": 3618,
+      "id": "BS-KB",
       "name": "Kemps Bay",
       "stateCode": "KB",
       "latitude": 24.02364,
@@ -453,7 +453,7 @@
       "cities": []
     },
     {
-      "id": 3619,
+      "id": "BS-FC",
       "name": "Fresh Creek",
       "stateCode": "FC",
       "latitude": 40.6543756,
@@ -463,7 +463,7 @@
       "cities": []
     },
     {
-      "id": 3620,
+      "id": "BS-SR",
       "name": "San Salvador and Rum Cay",
       "stateCode": "SR",
       "latitude": 23.6854676,
@@ -473,7 +473,7 @@
       "cities": []
     },
     {
-      "id": 3621,
+      "id": "BS-CK",
       "name": "Crooked Island",
       "stateCode": "CK",
       "latitude": 22.6390982,
@@ -491,7 +491,7 @@
       ]
     },
     {
-      "id": 3622,
+      "id": "BS-SA",
       "name": "South Andros",
       "stateCode": "SA",
       "latitude": 23.9713556,
@@ -501,7 +501,7 @@
       "cities": []
     },
     {
-      "id": 3623,
+      "id": "BS-RS",
       "name": "Rock Sound",
       "stateCode": "RS",
       "latitude": 39.0142443,
@@ -511,7 +511,7 @@
       "cities": []
     },
     {
-      "id": 3624,
+      "id": "BS-HT",
       "name": "Hope Town",
       "stateCode": "HT",
       "latitude": 26.5009504,
@@ -521,7 +521,7 @@
       "cities": []
     },
     {
-      "id": 3625,
+      "id": "BS-MC",
       "name": "Mangrove Cay",
       "stateCode": "MC",
       "latitude": 24.1481425,
@@ -531,7 +531,7 @@
       "cities": []
     },
     {
-      "id": 3626,
+      "id": "BS-FP",
       "name": "Freeport",
       "stateCode": "FP",
       "latitude": 42.2966861,
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "id": 3627,
+      "id": "BS-SS",
       "name": "San Salvador Island",
       "stateCode": "SS",
       "latitude": 24.0775546,
@@ -574,7 +574,7 @@
       ]
     },
     {
-      "id": 3628,
+      "id": "BS-AC",
       "name": "Acklins and Crooked Islands",
       "stateCode": "AC",
       "latitude": 22.3657708,
@@ -584,7 +584,7 @@
       "cities": []
     },
     {
-      "id": 3629,
+      "id": "BS-BI",
       "name": "Bimini",
       "stateCode": "BI",
       "latitude": 24.6415325,
@@ -602,7 +602,7 @@
       ]
     },
     {
-      "id": 3630,
+      "id": "BS-SW",
       "name": "Spanish Wells",
       "stateCode": "SW",
       "latitude": 26.3250599,
@@ -620,7 +620,7 @@
       ]
     },
     {
-      "id": 3631,
+      "id": "BS-CS",
       "name": "Central Andros",
       "stateCode": "CS",
       "latitude": 24.4688482,
@@ -630,7 +630,7 @@
       "cities": []
     },
     {
-      "id": 3632,
+      "id": "BS-GC",
       "name": "Grand Cay",
       "stateCode": "GC",
       "latitude": 27.2162615,
@@ -640,7 +640,7 @@
       "cities": []
     },
     {
-      "id": 3633,
+      "id": "BS-MG",
       "name": "Mayaguana",
       "stateCode": "MG",
       "latitude": 22.4017714,
@@ -658,7 +658,7 @@
       ]
     },
     {
-      "id": 4881,
+      "id": "BS-NP",
       "name": "New Providence",
       "stateCode": "NP",
       "latitude": 40.6984348,

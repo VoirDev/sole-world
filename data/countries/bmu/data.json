@@ -1,5 +1,5 @@
 {
-  "id": 25,
+  "id": "BM",
   "name": "Bermuda",
   "nativeName": "Bermuda",
   "iso2": "BM",
@@ -9,17 +9,17 @@
   "tld": ".bm",
   "latitude": 32.33333333,
   "longitude": -64.75,
-  "flagId": 222,
-  "regionId": 2,
-  "subregionId": 6,
+  "flagId": "bm",
+  "regionId": "americas",
+  "subregionId": "northern-america",
   "currencyIds": [
-    852
+    "BMD"
   ],
   "timezoneIds": [
-    2279
+    "Atlantic/Bermuda"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4860,
+      "id": "BM-DEV",
       "name": "Devonshire",
       "stateCode": "DEV",
       "latitude": 32.3038062,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 4861,
+      "id": "BM-HA",
       "name": "Hamilton",
       "stateCode": "HA",
       "latitude": 32.3449432,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 4863,
+      "id": "BM-PAG",
       "name": "Paget",
       "stateCode": "PAG",
       "latitude": 32.281074,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": 4864,
+      "id": "BM-PEM",
       "name": "Pembroke",
       "stateCode": "PEM",
       "latitude": 32.3007672,
@@ -154,7 +154,7 @@
       "cities": []
     },
     {
-      "id": 4866,
+      "id": "BM-SGE",
       "name": "Saint George's",
       "stateCode": "SGE",
       "latitude": 17.1257759,
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "id": 4867,
+      "id": "BM-SAN",
       "name": "Sandys",
       "stateCode": "SAN",
       "latitude": 32.2999528,
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "id": 4868,
+      "id": "BM-SMI",
       "name": "Smith's",
       "stateCode": "SMI",
       "latitude": 32.3133966,
@@ -215,7 +215,7 @@
       ]
     },
     {
-      "id": 4869,
+      "id": "BM-SOU",
       "name": "Southampton",
       "stateCode": "SOU",
       "latitude": 32.2540095,
@@ -233,7 +233,7 @@
       ]
     },
     {
-      "id": 4870,
+      "id": "BM-WAR",
       "name": "Warwick",
       "stateCode": "WAR",
       "latitude": 32.2661534,

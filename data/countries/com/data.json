@@ -1,5 +1,5 @@
 {
-  "id": 49,
+  "id": "KM",
   "name": "Comoros",
   "nativeName": "Komori",
   "iso2": "KM",
@@ -9,18 +9,18 @@
   "tld": ".km",
   "latitude": -12.16666666,
   "longitude": 44.25,
-  "flagId": 132,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "km",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    869
+    "KMF"
   ],
   "timezoneIds": [
-    2347
+    "Indian/Comoro"
   ],
   "officialLanguageIds": [
-    33,
-    7
+    "fr",
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 2820,
+      "id": "KM-M",
       "name": "Mohéli",
       "stateCode": "M",
       "latitude": -12.3377376,
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": 2821,
+      "id": "KM-A",
       "name": "Anjouan",
       "stateCode": "A",
       "latitude": -12.2138145,
@@ -449,7 +449,7 @@
       ]
     },
     {
-      "id": 2822,
+      "id": "KM-G",
       "name": "Grande Comore",
       "stateCode": "G",
       "latitude": -11.7167338,

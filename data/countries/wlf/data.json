@@ -1,5 +1,5 @@
 {
-  "id": 243,
+  "id": "WF",
   "name": "Wallis and Futuna",
   "nativeName": "Wallis et Futuna",
   "iso2": "WF",
@@ -9,17 +9,17 @@
   "tld": ".wf",
   "latitude": -13.3,
   "longitude": -176.2,
-  "flagId": 8,
-  "regionId": 5,
-  "subregionId": 22,
+  "flagId": "wf",
+  "regionId": "oceania",
+  "subregionId": "polynesia",
   "currencyIds": [
-    885
+    "XPF"
   ],
   "timezoneIds": [
-    2642
+    "Pacific/Wallis"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [

@@ -1,5 +1,5 @@
 {
-  "id": 226,
+  "id": "TM",
   "name": "Turkmenistan",
   "nativeName": "Türkmenistan",
   "iso2": "TM",
@@ -9,17 +9,17 @@
   "tld": ".tm",
   "latitude": 40,
   "longitude": 60,
-  "flagId": 29,
-  "regionId": 3,
-  "subregionId": 10,
+  "flagId": "tm",
+  "regionId": "asia",
+  "subregionId": "central-asia",
   "currencyIds": [
-    976
+    "TMT"
   ],
   "timezoneIds": [
-    2592
+    "Asia/Ashgabat"
   ],
   "officialLanguageIds": [
-    165
+    "tk"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3369,
+      "id": "TM-M",
       "name": "Mary",
       "stateCode": "M",
       "latitude": 36.9481623,
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": 3370,
+      "id": "TM-L",
       "name": "Lebap",
       "stateCode": "L",
       "latitude": 38.1272462,
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": 3371,
+      "id": "TM-S",
       "name": "Ashgabat",
       "stateCode": "S",
       "latitude": 37.9600766,
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "id": 3372,
+      "id": "TM-B",
       "name": "Balkan",
       "stateCode": "B",
       "latitude": 41.8101472,
@@ -260,7 +260,7 @@
       ]
     },
     {
-      "id": 3373,
+      "id": "TM-D",
       "name": "Daşoguz",
       "stateCode": "D",
       "latitude": 41.8368737,
@@ -313,7 +313,7 @@
       ]
     },
     {
-      "id": 3374,
+      "id": "TM-A",
       "name": "Ahal",
       "stateCode": "A",
       "latitude": 38.6399398,

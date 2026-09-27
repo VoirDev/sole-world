@@ -10,7 +10,7 @@ class LocalizationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(idOrCode: 1) {
+              country(id: "FD") {
                 name
                 region { name }
                 subregion { name }
@@ -120,7 +120,7 @@ class LocalizationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(idOrCode: 1) {
+              country(id: "FD") {
                 name
                 region { name }
                 states { items { name } }

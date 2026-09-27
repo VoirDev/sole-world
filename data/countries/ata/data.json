@@ -1,5 +1,5 @@
 {
-  "id": 9,
+  "id": "AQ",
   "name": "Antarctica",
   "nativeName": "Antarctica",
   "iso2": "AQ",
@@ -9,28 +9,28 @@
   "tld": ".aq",
   "latitude": -75.25,
   "longitude": -0.07,
-  "flagId": 250,
-  "regionId": 6,
-  "subregionId": 23,
+  "flagId": "aq",
+  "regionId": "antarctica",
+  "subregionId": "antarctica",
   "currencyIds": [],
   "timezoneIds": [
-    2647,
-    2648,
-    2649,
-    2650,
-    2651,
-    2652,
-    2653,
-    2654,
-    2655,
-    2656
+    "Antarctica/Casey",
+    "Antarctica/Davis",
+    "Antarctica/DumontDUrville",
+    "Antarctica/Mawson",
+    "Antarctica/McMurdo",
+    "Antarctica/Palmer",
+    "Antarctica/Rothera",
+    "Antarctica/Syowa",
+    "Antarctica/Troll",
+    "Antarctica/Vostok"
   ],
   "officialLanguageIds": [],
   "otherLanguageIds": [
-    30,
-    33,
-    46,
-    47
+    "en",
+    "fr",
+    "ru",
+    "es"
   ],
   "translations": [
     {

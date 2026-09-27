@@ -1,5 +1,5 @@
 {
-  "id": 175,
+  "id": "PN",
   "name": "Pitcairn Islands",
   "nativeName": "Pitcairn Islands",
   "iso2": "PN",
@@ -9,17 +9,17 @@
   "tld": ".pn",
   "latitude": -25.06666666,
   "longitude": -130.1,
-  "flagId": 70,
-  "regionId": 5,
-  "subregionId": 22,
+  "flagId": "pn",
+  "regionId": "oceania",
+  "subregionId": "polynesia",
   "currencyIds": [
-    870
+    "NZD"
   ],
   "timezoneIds": [
-    2510
+    "Pacific/Pitcairn"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [

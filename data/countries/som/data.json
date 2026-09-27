@@ -1,5 +1,5 @@
 {
-  "id": 203,
+  "id": "SO",
   "name": "Somalia",
   "nativeName": "Soomaaliya",
   "iso2": "SO",
@@ -9,18 +9,18 @@
   "tld": ".so",
   "latitude": 10,
   "longitude": 49,
-  "flagId": 45,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "so",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    957
+    "SOS"
   ],
   "timezoneIds": [
-    2564
+    "Africa/Mogadishu"
   ],
   "officialLanguageIds": [
-    7,
-    155
+    "ar",
+    "so"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 915,
+      "id": "SO-HI",
       "name": "Hiran",
       "stateCode": "HI",
       "latitude": 4.321015,
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": 916,
+      "id": "SO-MU",
       "name": "Mudug",
       "stateCode": "MU",
       "latitude": 6.5656726,
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "id": 917,
+      "id": "SO-BK",
       "name": "Bakool",
       "stateCode": "BK",
       "latitude": 4.3657221,
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "id": 918,
+      "id": "SO-GA",
       "name": "Galguduud",
       "stateCode": "GA",
       "latitude": 5.1850128,
@@ -226,7 +226,7 @@
       ]
     },
     {
-      "id": 919,
+      "id": "SO-SA",
       "name": "Sanaag",
       "stateCode": "SA",
       "latitude": 10.3938218,
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "id": 920,
+      "id": "SO-NU",
       "name": "Nugal",
       "stateCode": "NU",
       "latitude": 43.2793861,
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "id": 921,
+      "id": "SO-SH",
       "name": "Lower Shebelle",
       "stateCode": "SH",
       "latitude": 1.8766458,
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "id": 922,
+      "id": "SO-JD",
       "name": "Middle Juba",
       "stateCode": "JD",
       "latitude": 2.0780488,
@@ -347,7 +347,7 @@
       ]
     },
     {
-      "id": 923,
+      "id": "SO-SD",
       "name": "Middle Shebelle",
       "stateCode": "SD",
       "latitude": 2.9250247,
@@ -379,7 +379,7 @@
       ]
     },
     {
-      "id": 924,
+      "id": "SO-JH",
       "name": "Lower Juba",
       "stateCode": "JH",
       "latitude": 0.224021,
@@ -411,7 +411,7 @@
       ]
     },
     {
-      "id": 925,
+      "id": "SO-AW",
       "name": "Awdal",
       "stateCode": "AW",
       "latitude": 10.6334285,
@@ -421,7 +421,7 @@
       "cities": []
     },
     {
-      "id": 926,
+      "id": "SO-BY",
       "name": "Bay",
       "stateCode": "BY",
       "latitude": 37.0365534,
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": 927,
+      "id": "SO-BN",
       "name": "Banaadir",
       "stateCode": "BN",
       "latitude": 2.1187375,
@@ -464,7 +464,7 @@
       ]
     },
     {
-      "id": 928,
+      "id": "SO-GE",
       "name": "Gedo",
       "stateCode": "GE",
       "latitude": 3.5039227,
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": 929,
+      "id": "SO-TO",
       "name": "Togdheer",
       "stateCode": "TO",
       "latitude": 9.4460587,
@@ -528,7 +528,7 @@
       ]
     },
     {
-      "id": 930,
+      "id": "SO-BR",
       "name": "Bari",
       "stateCode": "BR",
       "latitude": 41.1171432,

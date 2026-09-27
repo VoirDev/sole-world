@@ -1,5 +1,5 @@
 {
-  "id": 213,
+  "id": "SE",
   "name": "Sweden",
   "nativeName": "Sverige",
   "iso2": "SE",
@@ -9,17 +9,17 @@
   "tld": ".se",
   "latitude": 62,
   "longitude": 15,
-  "flagId": 54,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "se",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    964
+    "SEK"
   ],
   "timezoneIds": [
-    2576
+    "Europe/Stockholm"
   ],
   "officialLanguageIds": [
-    48
+    "sv"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1533,
+      "id": "SE-X",
       "name": "Gävleborg",
       "stateCode": "X",
       "latitude": 61.3011993,
@@ -297,7 +297,7 @@
       ]
     },
     {
-      "id": 1534,
+      "id": "SE-W",
       "name": "Dalarna",
       "stateCode": "W",
       "latitude": 61.0917012,
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "id": 1535,
+      "id": "SE-S",
       "name": "Värmland",
       "stateCode": "S",
       "latitude": 59.7294065,
@@ -753,7 +753,7 @@
       ]
     },
     {
-      "id": 1536,
+      "id": "SE-E",
       "name": "Östergötland",
       "stateCode": "E",
       "latitude": 58.3453635,
@@ -1023,7 +1023,7 @@
       ]
     },
     {
-      "id": 1537,
+      "id": "SE-K",
       "name": "Blekinge",
       "stateCode": "K",
       "latitude": 56.28333333,
@@ -1153,7 +1153,7 @@
       ]
     },
     {
-      "id": 1538,
+      "id": "SE-BD",
       "name": "Norrbotten",
       "stateCode": "BD",
       "latitude": 66.8309216,
@@ -1367,7 +1367,7 @@
       ]
     },
     {
-      "id": 1539,
+      "id": "SE-T",
       "name": "Örebro",
       "stateCode": "T",
       "latitude": 59.535036,
@@ -1546,7 +1546,7 @@
       ]
     },
     {
-      "id": 1540,
+      "id": "SE-D",
       "name": "Södermanland",
       "stateCode": "D",
       "latitude": 59.0336349,
@@ -1739,7 +1739,7 @@
       ]
     },
     {
-      "id": 1541,
+      "id": "SE-M",
       "name": "Skåne",
       "stateCode": "M",
       "latitude": 55.9902572,
@@ -2569,7 +2569,7 @@
       ]
     },
     {
-      "id": 1542,
+      "id": "SE-G",
       "name": "Kronoberg",
       "stateCode": "G",
       "latitude": 56.7183403,
@@ -2720,7 +2720,7 @@
       ]
     },
     {
-      "id": 1543,
+      "id": "SE-AC",
       "name": "Västerbotten",
       "stateCode": "AC",
       "latitude": 65.3337311,
@@ -2990,7 +2990,7 @@
       ]
     },
     {
-      "id": 1544,
+      "id": "SE-H",
       "name": "Kalmar",
       "stateCode": "H",
       "latitude": 57.2350156,
@@ -3225,7 +3225,7 @@
       ]
     },
     {
-      "id": 1545,
+      "id": "SE-C",
       "name": "Uppsala",
       "stateCode": "C",
       "latitude": 60.0092262,
@@ -3460,7 +3460,7 @@
       ]
     },
     {
-      "id": 1546,
+      "id": "SE-I",
       "name": "Gotland",
       "stateCode": "I",
       "latitude": 57.4684121,
@@ -3506,7 +3506,7 @@
       ]
     },
     {
-      "id": 1547,
+      "id": "SE-O",
       "name": "Västra Götaland",
       "stateCode": "O",
       "latitude": 58.2527926,
@@ -4462,7 +4462,7 @@
       ]
     },
     {
-      "id": 1548,
+      "id": "SE-N",
       "name": "Halland",
       "stateCode": "N",
       "latitude": 56.8966805,
@@ -4711,7 +4711,7 @@
       ]
     },
     {
-      "id": 1549,
+      "id": "SE-U",
       "name": "Västmanland",
       "stateCode": "U",
       "latitude": 59.6713879,
@@ -4862,7 +4862,7 @@
       ]
     },
     {
-      "id": 1550,
+      "id": "SE-F",
       "name": "Jönköping",
       "stateCode": "F",
       "latitude": 57.3708434,
@@ -5146,7 +5146,7 @@
       ]
     },
     {
-      "id": 1551,
+      "id": "SE-AB",
       "name": "Stockholm",
       "stateCode": "AB",
       "latitude": 59.6024958,
@@ -5717,7 +5717,7 @@
       ]
     },
     {
-      "id": 1552,
+      "id": "SE-Y",
       "name": "Västernorrland",
       "stateCode": "Y",
       "latitude": 63.4276473,
@@ -5910,7 +5910,7 @@
       ]
     },
     {
-      "id": 5117,
+      "id": "SE-Z",
       "name": "Jämtland",
       "stateCode": "Z",
       "latitude": 63.283062,

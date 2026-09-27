@@ -1,5 +1,5 @@
 {
-  "id": 11,
+  "id": "AR",
   "name": "Argentina",
   "nativeName": "Argentina",
   "iso2": "AR",
@@ -9,28 +9,28 @@
   "tld": ".ar",
   "latitude": -34,
   "longitude": -64,
-  "flagId": 239,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "ar",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    841
+    "ARS"
   ],
   "timezoneIds": [
-    2243,
-    2244,
-    2245,
-    2246,
-    2247,
-    2248,
-    2249,
-    2250,
-    2251,
-    2252,
-    2253,
-    2254
+    "America/Argentina/Buenos_Aires",
+    "America/Argentina/Catamarca",
+    "America/Argentina/Cordoba",
+    "America/Argentina/Jujuy",
+    "America/Argentina/La_Rioja",
+    "America/Argentina/Mendoza",
+    "America/Argentina/Rio_Gallegos",
+    "America/Argentina/Salta",
+    "America/Argentina/San_Juan",
+    "America/Argentina/San_Luis",
+    "America/Argentina/Tucuman",
+    "America/Argentina/Ushuaia"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -101,7 +101,7 @@
   ],
   "states": [
     {
-      "id": 3634,
+      "id": "AR-J",
       "name": "San Juan",
       "stateCode": "J",
       "latitude": -31.5316976,
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "id": 3635,
+      "id": "AR-G",
       "name": "Santiago del Estero",
       "stateCode": "G",
       "latitude": -27.7833574,
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "id": 3636,
+      "id": "AR-D",
       "name": "San Luis",
       "stateCode": "D",
       "latitude": -33.2962042,
@@ -666,7 +666,7 @@
       ]
     },
     {
-      "id": 3637,
+      "id": "AR-T",
       "name": "Tucumán",
       "stateCode": "T",
       "latitude": -26.8221127,
@@ -859,7 +859,7 @@
       ]
     },
     {
-      "id": 3638,
+      "id": "AR-W",
       "name": "Corrientes",
       "stateCode": "W",
       "latitude": -27.4692131,
@@ -1388,7 +1388,7 @@
       ]
     },
     {
-      "id": 3639,
+      "id": "AR-R",
       "name": "Río Negro",
       "stateCode": "R",
       "latitude": -40.8261434,
@@ -1658,7 +1658,7 @@
       ]
     },
     {
-      "id": 3640,
+      "id": "AR-H",
       "name": "Chaco",
       "stateCode": "H",
       "latitude": -27.4257175,
@@ -2187,7 +2187,7 @@
       ]
     },
     {
-      "id": 3641,
+      "id": "AR-S",
       "name": "Santa Fe",
       "stateCode": "S",
       "latitude": -31.5855109,
@@ -2688,7 +2688,7 @@
       ]
     },
     {
-      "id": 3642,
+      "id": "AR-X",
       "name": "Córdoba",
       "stateCode": "X",
       "latitude": -31.3992876,
@@ -4008,7 +4008,7 @@
       ]
     },
     {
-      "id": 3643,
+      "id": "AR-A",
       "name": "Salta",
       "stateCode": "A",
       "latitude": -24.7997688,
@@ -4250,7 +4250,7 @@
       ]
     },
     {
-      "id": 3644,
+      "id": "AR-N",
       "name": "Misiones",
       "stateCode": "N",
       "latitude": -27.4269255,
@@ -4751,7 +4751,7 @@
       ]
     },
     {
-      "id": 3645,
+      "id": "AR-Y",
       "name": "Jujuy",
       "stateCode": "Y",
       "latitude": -24.1843397,
@@ -4909,7 +4909,7 @@
       ]
     },
     {
-      "id": 3646,
+      "id": "AR-M",
       "name": "Mendoza",
       "stateCode": "M",
       "latitude": -32.8894587,
@@ -5074,7 +5074,7 @@
       ]
     },
     {
-      "id": 3647,
+      "id": "AR-K",
       "name": "Catamarca",
       "stateCode": "K",
       "latitude": -28.4715877,
@@ -5330,7 +5330,7 @@
       ]
     },
     {
-      "id": 3648,
+      "id": "AR-Q",
       "name": "Neuquén",
       "stateCode": "Q",
       "latitude": -38.94587,
@@ -5579,7 +5579,7 @@
       ]
     },
     {
-      "id": 3649,
+      "id": "AR-Z",
       "name": "Santa Cruz",
       "stateCode": "Z",
       "latitude": -51.6352821,
@@ -5730,7 +5730,7 @@
       ]
     },
     {
-      "id": 3650,
+      "id": "AR-V",
       "name": "Tierra del Fuego",
       "stateCode": "V",
       "latitude": -54.8053998,
@@ -5762,7 +5762,7 @@
       ]
     },
     {
-      "id": 3651,
+      "id": "AR-U",
       "name": "Chubut",
       "stateCode": "U",
       "latitude": -43.2934246,
@@ -6032,7 +6032,7 @@
       ]
     },
     {
-      "id": 3652,
+      "id": "AR-P",
       "name": "Formosa",
       "stateCode": "P",
       "latitude": -26.1894804,
@@ -6183,7 +6183,7 @@
       ]
     },
     {
-      "id": 3653,
+      "id": "AR-F",
       "name": "La Rioja",
       "stateCode": "F",
       "latitude": -29.4193793,
@@ -6264,7 +6264,7 @@
       ]
     },
     {
-      "id": 3654,
+      "id": "AR-E",
       "name": "Entre Ríos",
       "stateCode": "E",
       "latitude": -31.7746654,
@@ -6730,7 +6730,7 @@
       ]
     },
     {
-      "id": 3655,
+      "id": "AR-L",
       "name": "La Pampa",
       "stateCode": "L",
       "latitude": -36.6147573,
@@ -7014,7 +7014,7 @@
       ]
     },
     {
-      "id": 3656,
+      "id": "AR-B",
       "name": "Buenos Aires",
       "stateCode": "B",
       "latitude": -37.2017285,
@@ -8040,7 +8040,7 @@
       ]
     },
     {
-      "id": 4880,
+      "id": "AR-C",
       "name": "Ciudad Autónoma de Buenos Aires",
       "stateCode": "C",
       "latitude": -34.6036844,

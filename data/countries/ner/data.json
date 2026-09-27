@@ -1,5 +1,5 @@
 {
-  "id": 160,
+  "id": "NE",
   "name": "Niger",
   "nativeName": "Niger",
   "iso2": "NE",
@@ -9,18 +9,18 @@
   "tld": ".ne",
   "latitude": 16,
   "longitude": 8,
-  "flagId": 89,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "ne",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    851
+    "XOF"
   ],
   "timezoneIds": [
-    2491
+    "Africa/Niamey"
   ],
   "officialLanguageIds": [
-    33,
-    88
+    "fr",
+    "ha"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 67,
+      "id": "NE-6",
       "name": "Tillabéri",
       "stateCode": "6",
       "latitude": 14.6489525,
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "id": 68,
+      "id": "NE-3",
       "name": "Dosso",
       "stateCode": "3",
       "latitude": 13.1513947,
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "id": 69,
+      "id": "NE-7",
       "name": "Zinder",
       "stateCode": "7",
       "latitude": 15.1718881,
@@ -341,7 +341,7 @@
       ]
     },
     {
-      "id": 70,
+      "id": "NE-4",
       "name": "Maradi",
       "stateCode": "4",
       "latitude": 13.8018074,
@@ -436,7 +436,7 @@
       ]
     },
     {
-      "id": 71,
+      "id": "NE-1",
       "name": "Agadez",
       "stateCode": "1",
       "latitude": 20.6670752,
@@ -489,7 +489,7 @@
       ]
     },
     {
-      "id": 72,
+      "id": "NE-2",
       "name": "Diffa",
       "stateCode": "2",
       "latitude": 13.6768647,
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": 73,
+      "id": "NE-5",
       "name": "Tahoua",
       "stateCode": "5",
       "latitude": 16.0902543,

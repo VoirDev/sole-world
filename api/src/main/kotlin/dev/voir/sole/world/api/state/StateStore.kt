@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.state
 
 import dev.voir.sole.world.api.dataset.RawDataset
+import dev.voir.sole.world.api.dataset.index.IdIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedName
 import dev.voir.sole.world.api.dataset.index.Page
@@ -31,9 +32,9 @@ class StateStore(dataset: RawDataset) {
         }
     }
 
-    private val byId: Map<Long, StateRecord> = records.associateBy { it.id }
+    private val byId: IdIndex<StateRecord> = IdIndex.of(records) { it.id }
 
-    private val byCountryId: Map<Long, List<StateRecord>> = records.groupBy { it.countryId }
+    private val byCountryId: IdIndex<List<StateRecord>> = IdIndex.grouped(records) { it.countryId }
 
     private val index = LocalizedIndex(
         records = records,
@@ -50,7 +51,7 @@ class StateStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching state, or null when none exists.
      */
-    fun byId(id: Long, languageCode: String?): StateData? = byId[id]?.localized(languageCode)
+    fun byId(id: String, languageCode: String?): StateData? = byId[id]?.localized(languageCode)
 
     /**
      * Loads several states, skipping identifiers that do not exist.
@@ -58,7 +59,7 @@ class StateStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching states in request order.
      */
-    fun byIds(ids: List<Long>, languageCode: String?): List<StateData> =
+    fun byIds(ids: List<String>, languageCode: String?): List<StateData> =
         ids.mapNotNull { byId[it]?.localized(languageCode) }
 
     /**
@@ -73,7 +74,7 @@ class StateStore(dataset: RawDataset) {
         request: PageRequest,
         languageCode: String?,
         query: SearchQuery? = null,
-        countryId: Long? = null,
+        countryId: String? = null,
     ): Page<StateData> {
         val candidates = if (countryId == null) records else byCountryId[countryId].orEmpty()
 
@@ -95,7 +96,7 @@ class StateStore(dataset: RawDataset) {
      * @return Requested page.
      */
     fun pageByCountryId(
-        countryId: Long,
+        countryId: String,
         request: PageRequest,
         query: SearchQuery?,
         languageCode: String?,
@@ -128,8 +129,8 @@ class StateStore(dataset: RawDataset) {
  * @property type Administrative division type, when available.
  */
 private class StateRecord(
-    val id: Long,
-    val countryId: Long,
+    val id: String,
+    val countryId: String,
     val name: LocalizedName,
     val stateCode: String?,
     val latitude: Double?,

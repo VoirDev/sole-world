@@ -36,13 +36,13 @@ class PublicDeploymentIntegrationTest {
 
     @Test
     fun `every route is reachable without a key`() {
-        assertEquals(200, get("/v1/countries/1").statusCode())
+        assertEquals(200, get("/v1/countries/FD").statusCode())
         assertEquals(200, get("/v1/meta").statusCode())
     }
 
     @Test
     fun `responses are publicly cacheable because nothing gates them`() {
-        val cacheControl = get("/v1/countries/1").headers().firstValue("Cache-Control").orElse("")
+        val cacheControl = get("/v1/countries/FD").headers().firstValue("Cache-Control").orElse("")
 
         assertTrue(cacheControl.contains("public"), cacheControl)
         assertTrue(cacheControl.contains("max-age"), cacheControl)

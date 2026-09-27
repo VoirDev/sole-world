@@ -1,5 +1,5 @@
 {
-  "id": 63,
+  "id": "TL",
   "name": "Timor-Leste",
   "nativeName": "Timor-Leste",
   "iso2": "TL",
@@ -9,17 +9,17 @@
   "tld": ".tl",
   "latitude": -8.83333333,
   "longitude": 125.91666666,
-  "flagId": 30,
-  "regionId": 3,
-  "subregionId": 13,
+  "flagId": "tl",
+  "regionId": "asia",
+  "subregionId": "south-eastern-asia",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2585
+    "Asia/Dili"
   ],
   "officialLanguageIds": [
-    45
+    "pt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4514,
+      "id": "TL-VI",
       "name": "Viqueque",
       "stateCode": "VI",
       "latitude": -8.8597918,
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": 4515,
+      "id": "TL-LI",
       "name": "Liquiçá",
       "stateCode": "LI",
       "latitude": -8.6674095,
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": 4516,
+      "id": "TL-ER",
       "name": "Ermera",
       "stateCode": "ER",
       "latitude": -8.7524802,
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "id": 4517,
+      "id": "TL-MT",
       "name": "Manatuto",
       "stateCode": "MT",
       "latitude": -8.5155608,
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "id": 4518,
+      "id": "TL-AN",
       "name": "Ainaro",
       "stateCode": "AN",
       "latitude": -9.0113171,
@@ -292,7 +292,7 @@
       ]
     },
     {
-      "id": 4519,
+      "id": "TL-MF",
       "name": "Manufahi",
       "stateCode": "MF",
       "latitude": -9.0145495,
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "id": 4520,
+      "id": "TL-AL",
       "name": "Aileu",
       "stateCode": "AL",
       "latitude": -8.7043994,
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "id": 4521,
+      "id": "TL-BA",
       "name": "Baucau",
       "stateCode": "BA",
       "latitude": -8.4714308,
@@ -423,7 +423,7 @@
       ]
     },
     {
-      "id": 4522,
+      "id": "TL-CO",
       "name": "Cova Lima",
       "stateCode": "CO",
       "latitude": -9.2650375,
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": 4523,
+      "id": "TL-LA",
       "name": "Lautém",
       "stateCode": "LA",
       "latitude": -8.3642307,
@@ -515,7 +515,7 @@
       ]
     },
     {
-      "id": 4524,
+      "id": "TL-DI",
       "name": "Dili",
       "stateCode": "DI",
       "latitude": -8.2449613,
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": 4525,
+      "id": "TL-BO",
       "name": "Bobonaro",
       "stateCode": "BO",
       "latitude": -8.9655406,

@@ -1,5 +1,5 @@
 {
-  "id": 84,
+  "id": "GI",
   "name": "Gibraltar",
   "nativeName": "Gibraltar",
   "iso2": "GI",
@@ -9,20 +9,20 @@
   "tld": ".gi",
   "latitude": 36.13333333,
   "longitude": -5.35,
-  "flagId": 166,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "gi",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    888
+    "GIP"
   ],
   "timezoneIds": [
-    2388
+    "Europe/Gibraltar"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [
-    47
+    "es"
   ],
   "translations": [
     {

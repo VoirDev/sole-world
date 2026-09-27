@@ -82,18 +82,24 @@ class RestContractIntegrationTest : BaseRestIntegrationTest() {
 
     @Test
     fun `language comes from the header and the lang parameter overrides it`() {
-        assertEquals("Freedonia", get("/v1/countries/1")["name"].stringValue())
-        assertEquals("Фридония", get("/v1/countries/1", acceptLanguage = "ru")["name"].stringValue())
-        assertEquals("Фридония", get("/v1/countries/1?lang=ru")["name"].stringValue())
+        assertEquals("Freedonia", get("/v1/countries/FD")["name"].stringValue())
+        assertEquals("Фридония", get("/v1/countries/FD", acceptLanguage = "ru")["name"].stringValue())
+        assertEquals("Фридония", get("/v1/countries/FD?lang=ru")["name"].stringValue())
 
         // The explicit parameter wins, so a localized URL is self-describing.
-        assertEquals("Freedonia", get("/v1/countries/1?lang=en", acceptLanguage = "ru")["name"].stringValue())
-        assertEquals("Фридония", get("/v1/countries/1?lang=ru", acceptLanguage = "de")["name"].stringValue())
+        assertEquals(
+            "Freedonia",
+            get("/v1/countries/FD?lang=en", acceptLanguage = "ru")["name"].stringValue(),
+        )
+        assertEquals(
+            "Фридония",
+            get("/v1/countries/FD?lang=ru", acceptLanguage = "de")["name"].stringValue(),
+        )
     }
 
     @Test
     fun `an unsupported language falls back to base data`() {
-        assertEquals("Freedonia", get("/v1/countries/1?lang=sv")["name"].stringValue())
+        assertEquals("Freedonia", get("/v1/countries/FD?lang=sv")["name"].stringValue())
     }
 
     @Test
@@ -159,18 +165,18 @@ class RestContractIntegrationTest : BaseRestIntegrationTest() {
     /** Substitutes fixture identifiers for the path placeholders in the contract. */
     private fun resolvePlaceholders(path: String): String {
         val identifier = when {
-            path.startsWith("/v1/countries/") -> "1"
-            path.startsWith("/v1/currencies/") -> "101"
-            path.startsWith("/v1/cryptos/") -> "1"
-            path.startsWith("/v1/languages/") -> "201"
-            path.startsWith("/v1/regions/") -> "10"
-            path.startsWith("/v1/subregions/") -> "20"
-            path.startsWith("/v1/central-banks/") -> "401"
-            path.startsWith("/v1/states/") -> "501"
+            path.startsWith("/v1/countries/") -> "FD"
+            path.startsWith("/v1/currencies/") -> "FDC"
+            path.startsWith("/v1/cryptos/") -> "freecoin"
+            path.startsWith("/v1/languages/") -> "fd"
+            path.startsWith("/v1/regions/") -> "test-europe"
+            path.startsWith("/v1/subregions/") -> "test-north"
+            path.startsWith("/v1/central-banks/") -> "freedonian-reserve"
+            path.startsWith("/v1/states/") -> "FD-NF"
             path.startsWith("/v1/cities/") -> "601"
-            path.startsWith("/v1/timezones/") -> "301"
-            path.startsWith("/v1/flags/") -> "1001"
-            path.startsWith("/v1/media-assets/") -> "9001"
+            path.startsWith("/v1/timezones/") -> "Europe/Freedonia"
+            path.startsWith("/v1/flags/") -> "fd"
+            path.startsWith("/v1/media-assets/") -> "flag-fd-square"
             else -> ""
         }
 

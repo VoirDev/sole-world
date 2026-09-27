@@ -1,5 +1,5 @@
 {
-  "id": 230,
+  "id": "UA",
   "name": "Ukraine",
   "nativeName": "Україна",
   "iso2": "UA",
@@ -9,18 +9,18 @@
   "tld": ".ua",
   "latitude": 49,
   "longitude": 32,
-  "flagId": 21,
-  "regionId": 4,
-  "subregionId": 15,
+  "flagId": "ua",
+  "regionId": "europe",
+  "subregionId": "eastern-europe",
   "currencyIds": [
-    978
+    "UAH"
   ],
   "timezoneIds": [
-    2596,
-    2597
+    "Europe/Kyiv",
+    "Europe/Simferopol"
   ],
   "officialLanguageIds": [
-    50
+    "uk"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 1912,
+      "id": "UA-40",
       "name": "Sevastopol",
       "stateCode": "40",
       "latitude": 44.61665,
@@ -1131,7 +1131,7 @@
       ]
     },
     {
-      "id": 4668,
+      "id": "UA-18",
       "name": "Zhytomyrska oblast",
       "stateCode": "18",
       "latitude": 50.25465,
@@ -1527,7 +1527,7 @@
       ]
     },
     {
-      "id": 4669,
+      "id": "UA-05",
       "name": "Vinnytska oblast",
       "stateCode": "05",
       "latitude": 49.233083,
@@ -1895,7 +1895,7 @@
       ]
     },
     {
-      "id": 4670,
+      "id": "UA-21",
       "name": "Zakarpatska Oblast",
       "stateCode": "21",
       "latitude": 48.6208,
@@ -2480,7 +2480,7 @@
       ]
     },
     {
-      "id": 4671,
+      "id": "UA-32",
       "name": "Kyivska oblast",
       "stateCode": "32",
       "latitude": 50.0529506,
@@ -3114,7 +3114,7 @@
       ]
     },
     {
-      "id": 4672,
+      "id": "UA-46",
       "name": "Lvivska oblast",
       "stateCode": "46",
       "latitude": 49.839683,
@@ -3692,7 +3692,7 @@
       ]
     },
     {
-      "id": 4673,
+      "id": "UA-09",
       "name": "Luhanska oblast",
       "stateCode": "09",
       "latitude": 48.574041,
@@ -4179,7 +4179,7 @@
       ]
     },
     {
-      "id": 4674,
+      "id": "UA-61",
       "name": "Ternopilska oblast",
       "stateCode": "61",
       "latitude": 49.553517,
@@ -4414,7 +4414,7 @@
       ]
     },
     {
-      "id": 4675,
+      "id": "UA-12",
       "name": "Dnipropetrovska oblast",
       "stateCode": "12",
       "latitude": 48.464717,
@@ -4789,7 +4789,7 @@
       ]
     },
     {
-      "id": 4676,
+      "id": "UA-30",
       "name": "Kyiv",
       "stateCode": "30",
       "latitude": 50.4501,
@@ -4884,7 +4884,7 @@
       ]
     },
     {
-      "id": 4677,
+      "id": "UA-35",
       "name": "Kirovohradska oblast",
       "stateCode": "35",
       "latitude": 48.507933,
@@ -5203,7 +5203,7 @@
       ]
     },
     {
-      "id": 4678,
+      "id": "UA-77",
       "name": "Chernivetska oblast",
       "stateCode": "77",
       "latitude": 48.291683,
@@ -5424,7 +5424,7 @@
       ]
     },
     {
-      "id": 4679,
+      "id": "UA-48",
       "name": "Mykolaivska oblast",
       "stateCode": "48",
       "latitude": 46.975033,
@@ -5624,7 +5624,7 @@
       ]
     },
     {
-      "id": 4680,
+      "id": "UA-71",
       "name": "Cherkaska oblast",
       "stateCode": "71",
       "latitude": 49.444433,
@@ -5873,7 +5873,7 @@
       ]
     },
     {
-      "id": 4681,
+      "id": "UA-68",
       "name": "Khmelnytska oblast",
       "stateCode": "68",
       "latitude": 49.422983,
@@ -6087,7 +6087,7 @@
       ]
     },
     {
-      "id": 4682,
+      "id": "UA-26",
       "name": "Ivano-Frankivska oblast",
       "stateCode": "26",
       "latitude": 48.922633,
@@ -6700,7 +6700,7 @@
       ]
     },
     {
-      "id": 4683,
+      "id": "UA-56",
       "name": "Rivnenska oblast",
       "stateCode": "56",
       "latitude": 50.6199,
@@ -6914,7 +6914,7 @@
       ]
     },
     {
-      "id": 4684,
+      "id": "UA-65",
       "name": "Khersonska oblast",
       "stateCode": "65",
       "latitude": 46.635417,
@@ -7233,7 +7233,7 @@
       ]
     },
     {
-      "id": 4685,
+      "id": "UA-59",
       "name": "Sumska oblast",
       "stateCode": "59",
       "latitude": 50.9077,
@@ -7454,7 +7454,7 @@
       ]
     },
     {
-      "id": 4686,
+      "id": "UA-63",
       "name": "Kharkivska oblast",
       "stateCode": "63",
       "latitude": 49.9935,
@@ -7927,7 +7927,7 @@
       ]
     },
     {
-      "id": 4687,
+      "id": "UA-23",
       "name": "Zaporizka oblast",
       "stateCode": "23",
       "latitude": 47.8388,
@@ -8323,7 +8323,7 @@
       ]
     },
     {
-      "id": 4688,
+      "id": "UA-51",
       "name": "Odeska oblast",
       "stateCode": "51",
       "latitude": 46.484583,
@@ -8845,7 +8845,7 @@
       ]
     },
     {
-      "id": 4689,
+      "id": "UA-43",
       "name": "Autonomous Republic of Crimea",
       "stateCode": "43",
       "latitude": 44.952117,
@@ -11320,7 +11320,7 @@
       ]
     },
     {
-      "id": 4690,
+      "id": "UA-07",
       "name": "Volynska oblast",
       "stateCode": "07",
       "latitude": 50.747233,
@@ -11534,7 +11534,7 @@
       ]
     },
     {
-      "id": 4691,
+      "id": "UA-14",
       "name": "Donetska oblast",
       "stateCode": "14",
       "latitude": 48.015883,
@@ -12091,7 +12091,7 @@
       ]
     },
     {
-      "id": 4692,
+      "id": "UA-74",
       "name": "Chernihivska oblast",
       "stateCode": "74",
       "latitude": 51.4982,
@@ -12389,7 +12389,7 @@
       ]
     },
     {
-      "id": 5071,
+      "id": "UA-53",
       "name": "Poltavska oblast",
       "stateCode": "53",
       "latitude": 49.6429196,

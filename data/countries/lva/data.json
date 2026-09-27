@@ -1,5 +1,5 @@
 {
-  "id": 120,
+  "id": "LV",
   "name": "Latvia",
   "nativeName": "Latvija",
   "iso2": "LV",
@@ -9,17 +9,17 @@
   "tld": ".lv",
   "latitude": 57,
   "longitude": 25,
-  "flagId": 116,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "lv",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2436
+    "Europe/Riga"
   ],
   "officialLanguageIds": [
-    59
+    "lv"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4400,
+      "id": "LV-033",
       "name": "Gulbene",
       "stateCode": "033",
       "latitude": 57.2155645,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 4401,
+      "id": "LV-056",
       "name": "Līvāni",
       "stateCode": "056",
       "latitude": 56.3550942,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 4402,
+      "id": "LV-087",
       "name": "Salaspils",
       "stateCode": "087",
       "latitude": 56.8608152,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": 4403,
+      "id": "LV-106",
       "name": "Ventspils",
       "stateCode": "106",
       "latitude": 57.2833682,
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": 4409,
+      "id": "LV-099",
       "name": "Tukums",
       "stateCode": "099",
       "latitude": 56.9672868,
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "id": 4416,
+      "id": "LV-067",
       "name": "Ogre",
       "stateCode": "067",
       "latitude": 56.8147355,
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "id": 4417,
+      "id": "LV-068",
       "name": "Olaine",
       "stateCode": "068",
       "latitude": 56.7952353,
@@ -272,7 +272,7 @@
       ]
     },
     {
-      "id": 4418,
+      "id": "LV-054",
       "name": "Limbaži",
       "stateCode": "054",
       "latitude": 57.5403227,
@@ -318,7 +318,7 @@
       ]
     },
     {
-      "id": 4421,
+      "id": "LV-VEN",
       "name": "Ventspils",
       "stateCode": "VEN",
       "latitude": 57.3937216,
@@ -336,7 +336,7 @@
       ]
     },
     {
-      "id": 4424,
+      "id": "LV-041",
       "name": "Jelgava",
       "stateCode": "041",
       "latitude": 56.5895689,
@@ -361,7 +361,7 @@
       ]
     },
     {
-      "id": 4425,
+      "id": "LV-101",
       "name": "Valka",
       "stateCode": "101",
       "latitude": 57.77439,
@@ -379,7 +379,7 @@
       ]
     },
     {
-      "id": 4431,
+      "id": "LV-102",
       "name": "Varakļāni",
       "stateCode": "102",
       "latitude": 56.6688006,
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": 4433,
+      "id": "LV-059",
       "name": "Madona",
       "stateCode": "059",
       "latitude": 56.8598923,
@@ -436,7 +436,7 @@
       ]
     },
     {
-      "id": 4435,
+      "id": "LV-052",
       "name": "Ķekava",
       "stateCode": "052",
       "latitude": 56.8064351,
@@ -468,7 +468,7 @@
       ]
     },
     {
-      "id": 4437,
+      "id": "LV-026",
       "name": "Dobele",
       "stateCode": "026",
       "latitude": 56.626305,
@@ -507,7 +507,7 @@
       ]
     },
     {
-      "id": 4438,
+      "id": "LV-042",
       "name": "Jēkabpils",
       "stateCode": "042",
       "latitude": 56.291932,
@@ -546,7 +546,7 @@
       ]
     },
     {
-      "id": 4439,
+      "id": "LV-088",
       "name": "Saldus",
       "stateCode": "088",
       "latitude": 56.6665088,
@@ -571,7 +571,7 @@
       ]
     },
     {
-      "id": 4443,
+      "id": "LV-089",
       "name": "Saulkrasti",
       "stateCode": "089",
       "latitude": 57.2579418,
@@ -589,7 +589,7 @@
       ]
     },
     {
-      "id": 4446,
+      "id": "LV-JUR",
       "name": "Jūrmala",
       "stateCode": "JUR",
       "latitude": 56.947079,
@@ -607,7 +607,7 @@
       ]
     },
     {
-      "id": 4450,
+      "id": "LV-062",
       "name": "Mārupe",
       "stateCode": "062",
       "latitude": 56.8965717,
@@ -632,7 +632,7 @@
       ]
     },
     {
-      "id": 4454,
+      "id": "LV-011",
       "name": "Ādaži",
       "stateCode": "011",
       "latitude": 57.1112456,
@@ -650,7 +650,7 @@
       ]
     },
     {
-      "id": 4455,
+      "id": "LV-077",
       "name": "Rēzekne",
       "stateCode": "077",
       "latitude": 56.3273638,
@@ -668,7 +668,7 @@
       ]
     },
     {
-      "id": 4459,
+      "id": "LV-097",
       "name": "Talsi",
       "stateCode": "097",
       "latitude": 57.3415208,
@@ -721,7 +721,7 @@
       ]
     },
     {
-      "id": 4460,
+      "id": "LV-LPX",
       "name": "Liepāja",
       "stateCode": "LPX",
       "latitude": 56.5046678,
@@ -746,7 +746,7 @@
       ]
     },
     {
-      "id": 4462,
+      "id": "LV-094",
       "name": "Smiltene",
       "stateCode": "094",
       "latitude": 57.4230332,
@@ -778,7 +778,7 @@
       ]
     },
     {
-      "id": 4463,
+      "id": "LV-DGV",
       "name": "Daugavpils",
       "stateCode": "DGV",
       "latitude": 55.874736,
@@ -788,7 +788,7 @@
       "cities": []
     },
     {
-      "id": 4465,
+      "id": "LV-016",
       "name": "Bauska",
       "stateCode": "016",
       "latitude": 56.4101868,
@@ -827,7 +827,7 @@
       ]
     },
     {
-      "id": 4469,
+      "id": "LV-022",
       "name": "Cēsis",
       "stateCode": "022",
       "latitude": 57.3102897,
@@ -873,7 +873,7 @@
       ]
     },
     {
-      "id": 4472,
+      "id": "LV-002",
       "name": "Aizkraukle",
       "stateCode": "002",
       "latitude": 56.646108,
@@ -926,7 +926,7 @@
       ]
     },
     {
-      "id": 4473,
+      "id": "LV-113",
       "name": "Valmiera",
       "stateCode": "113",
       "latitude": 57.5384659,
@@ -993,7 +993,7 @@
       ]
     },
     {
-      "id": 4474,
+      "id": "LV-047",
       "name": "Krāslava",
       "stateCode": "047",
       "latitude": 55.8951464,
@@ -1018,7 +1018,7 @@
       ]
     },
     {
-      "id": 4476,
+      "id": "LV-091",
       "name": "Sigulda",
       "stateCode": "091",
       "latitude": 57.1055092,
@@ -1050,7 +1050,7 @@
       ]
     },
     {
-      "id": 4483,
+      "id": "LV-073",
       "name": "Preiļi",
       "stateCode": "073",
       "latitude": 56.1511157,
@@ -1096,7 +1096,7 @@
       ]
     },
     {
-      "id": 4487,
+      "id": "LV-007",
       "name": "Alūksne",
       "stateCode": "007",
       "latitude": 57.4254485,
@@ -1114,7 +1114,7 @@
       ]
     },
     {
-      "id": 4490,
+      "id": "LV-050",
       "name": "Kuldīga",
       "stateCode": "050",
       "latitude": 56.9687257,
@@ -1146,7 +1146,7 @@
       ]
     },
     {
-      "id": 4491,
+      "id": "LV-RIX",
       "name": "Riga",
       "stateCode": "RIX",
       "latitude": 56.9496487,
@@ -1192,7 +1192,7 @@
       ]
     },
     {
-      "id": 4492,
+      "id": "LV-111",
       "name": "Augšdaugava",
       "stateCode": "111",
       "latitude": 55.9396978,
@@ -1217,7 +1217,7 @@
       ]
     },
     {
-      "id": 4493,
+      "id": "LV-080",
       "name": "Ropaži",
       "stateCode": "080",
       "latitude": 56.9615786,
@@ -1256,7 +1256,7 @@
       ]
     },
     {
-      "id": 4500,
+      "id": "LV-JEL",
       "name": "Jelgava",
       "stateCode": "JEL",
       "latitude": 56.6511091,
@@ -1274,7 +1274,7 @@
       ]
     },
     {
-      "id": 4501,
+      "id": "LV-058",
       "name": "Ludza",
       "stateCode": "058",
       "latitude": 56.545959,
@@ -1313,7 +1313,7 @@
       ]
     },
     {
-      "id": 4505,
+      "id": "LV-015",
       "name": "Balvi",
       "stateCode": "015",
       "latitude": 57.132624,
@@ -1352,7 +1352,7 @@
       ]
     },
     {
-      "id": 4508,
+      "id": "LV-112",
       "name": "Dienvidkurzemes",
       "stateCode": "112",
       "latitude": 56.5206312,
@@ -1419,7 +1419,7 @@
       ]
     },
     {
-      "id": 4509,
+      "id": "LV-REZ",
       "name": "Rēzekne",
       "stateCode": "REZ",
       "latitude": 56.5099223,

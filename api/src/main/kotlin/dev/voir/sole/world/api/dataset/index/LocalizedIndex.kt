@@ -23,7 +23,7 @@ import java.util.concurrent.ConcurrentHashMap
 class LocalizedIndex<T : Any>(
     private val records: List<T>,
     private val displayName: (T, String?) -> String,
-    private val tieBreaker: (T) -> Long,
+    private val tieBreaker: (T) -> Comparable<*>,
 ) {
     private val orderings = ConcurrentHashMap<String, List<T>>()
 
@@ -79,7 +79,7 @@ class LocalizedIndex<T : Any>(
 
     private class Sortable<T>(
         val key: CollationKey,
-        val tieBreaker: Long,
+        val tieBreaker: Comparable<*>,
         val record: T,
     )
 

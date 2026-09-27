@@ -1,5 +1,5 @@
 {
-  "id": 65,
+  "id": "EG",
   "name": "Egypt",
   "nativeName": "مصر",
   "iso2": "EG",
@@ -9,17 +9,17 @@
   "tld": ".eg",
   "latitude": 27,
   "longitude": 30,
-  "flagId": 186,
-  "regionId": 1,
-  "subregionId": 1,
+  "flagId": "eg",
+  "regionId": "africa",
+  "subregionId": "northern-africa",
   "currencyIds": [
-    879
+    "EGP"
   ],
   "timezoneIds": [
-    2366
+    "Africa/Cairo"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3222,
+      "id": "EG-KFS",
       "name": "Kafr El-Sheikh",
       "stateCode": "KFS",
       "latitude": 31.3085444,
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "id": 3223,
+      "id": "EG-C",
       "name": "Cairo",
       "stateCode": "C",
       "latitude": 29.9537564,
@@ -252,7 +252,7 @@
       ]
     },
     {
-      "id": 3224,
+      "id": "EG-DT",
       "name": "Damietta",
       "stateCode": "DT",
       "latitude": 31.3625799,
@@ -284,7 +284,7 @@
       ]
     },
     {
-      "id": 3225,
+      "id": "EG-ASN",
       "name": "Aswan",
       "stateCode": "ASN",
       "latitude": 23.6966498,
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "id": 3226,
+      "id": "EG-SHG",
       "name": "Sohag",
       "stateCode": "SHG",
       "latitude": 26.693834,
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": 3227,
+      "id": "EG-SIN",
       "name": "North Sinai",
       "stateCode": "SIN",
       "latitude": 30.282365,
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "id": 3228,
+      "id": "EG-MNF",
       "name": "Monufia",
       "stateCode": "MNF",
       "latitude": 30.5972455,
@@ -475,7 +475,7 @@
       ]
     },
     {
-      "id": 3229,
+      "id": "EG-PTS",
       "name": "Port Said",
       "stateCode": "PTS",
       "latitude": 31.0758606,
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": 3230,
+      "id": "EG-BNS",
       "name": "Beni Suef",
       "stateCode": "BNS",
       "latitude": 28.8938837,
@@ -532,7 +532,7 @@
       ]
     },
     {
-      "id": 3231,
+      "id": "EG-MT",
       "name": "Matrouh",
       "stateCode": "MT",
       "latitude": 29.569635,
@@ -564,7 +564,7 @@
       ]
     },
     {
-      "id": 3232,
+      "id": "EG-KB",
       "name": "Qalyubia",
       "stateCode": "KB",
       "latitude": 30.3292368,
@@ -617,7 +617,7 @@
       ]
     },
     {
-      "id": 3233,
+      "id": "EG-SUZ",
       "name": "Suez",
       "stateCode": "SUZ",
       "latitude": 29.3682255,
@@ -642,7 +642,7 @@
       ]
     },
     {
-      "id": 3234,
+      "id": "EG-GH",
       "name": "Gharbia",
       "stateCode": "GH",
       "latitude": 30.8753556,
@@ -702,7 +702,7 @@
       ]
     },
     {
-      "id": 3235,
+      "id": "EG-ALX",
       "name": "Alexandria",
       "stateCode": "ALX",
       "latitude": 30.8760568,
@@ -769,7 +769,7 @@
       ]
     },
     {
-      "id": 3236,
+      "id": "EG-AST",
       "name": "Asyut",
       "stateCode": "AST",
       "latitude": 27.2133831,
@@ -829,7 +829,7 @@
       ]
     },
     {
-      "id": 3237,
+      "id": "EG-JS",
       "name": "South Sinai",
       "stateCode": "JS",
       "latitude": 29.3101828,
@@ -875,7 +875,7 @@
       ]
     },
     {
-      "id": 3238,
+      "id": "EG-FYM",
       "name": "Faiyum",
       "stateCode": "FYM",
       "latitude": 29.3084021,
@@ -921,7 +921,7 @@
       ]
     },
     {
-      "id": 3239,
+      "id": "EG-GZ",
       "name": "Giza",
       "stateCode": "GZ",
       "latitude": 28.7666216,
@@ -981,7 +981,7 @@
       ]
     },
     {
-      "id": 3240,
+      "id": "EG-BA",
       "name": "Red Sea",
       "stateCode": "BA",
       "latitude": 24.6826316,
@@ -1041,7 +1041,7 @@
       ]
     },
     {
-      "id": 3241,
+      "id": "EG-BH",
       "name": "Beheira",
       "stateCode": "BH",
       "latitude": 30.8480986,
@@ -1108,7 +1108,7 @@
       ]
     },
     {
-      "id": 3242,
+      "id": "EG-LX",
       "name": "Luxor",
       "stateCode": "LX",
       "latitude": 25.3944444,
@@ -1133,7 +1133,7 @@
       ]
     },
     {
-      "id": 3243,
+      "id": "EG-MN",
       "name": "Minya",
       "stateCode": "MN",
       "latitude": 28.284729,
@@ -1193,7 +1193,7 @@
       ]
     },
     {
-      "id": 3244,
+      "id": "EG-IS",
       "name": "Ismailia",
       "stateCode": "IS",
       "latitude": 30.5830934,
@@ -1211,7 +1211,7 @@
       ]
     },
     {
-      "id": 3245,
+      "id": "EG-DK",
       "name": "Dakahlia",
       "stateCode": "DK",
       "latitude": 31.1656044,
@@ -1299,7 +1299,7 @@
       ]
     },
     {
-      "id": 3246,
+      "id": "EG-WAD",
       "name": "New Valley",
       "stateCode": "WAD",
       "latitude": 24.5455638,
@@ -1324,7 +1324,7 @@
       ]
     },
     {
-      "id": 3247,
+      "id": "EG-KN",
       "name": "Qena",
       "stateCode": "KN",
       "latitude": 26.2346033,
@@ -1377,7 +1377,7 @@
       ]
     },
     {
-      "id": 5067,
+      "id": "EG-SHR",
       "name": "Sharqia",
       "stateCode": "SHR",
       "latitude": 30.6730545,

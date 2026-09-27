@@ -1,5 +1,5 @@
 {
-  "id": 41,
+  "id": "KY",
   "name": "Cayman Islands",
   "nativeName": "Cayman Islands",
   "iso2": "KY",
@@ -9,17 +9,17 @@
   "tld": ".ky",
   "latitude": 19.5,
   "longitude": -80.5,
-  "flagId": 127,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "ky",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    865
+    "KYD"
   ],
   "timezoneIds": [
-    2336
+    "America/Cayman"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,12 +90,12 @@
   ],
   "states": [
     {
-      "id": 5251,
+      "id": "KY-GRAND-CAYMAN",
       "name": "Grand Cayman",
-      "stateCode": "NULL",
+      "stateCode": null,
       "latitude": 19.3301271,
       "longitude": -81.4172451,
-      "type": "NULL",
+      "type": null,
       "translations": [],
       "cities": [
         {
@@ -136,12 +136,12 @@
       ]
     },
     {
-      "id": 5252,
+      "id": "KY-CAYMAN-BRAC",
       "name": "Cayman Brac",
-      "stateCode": "NULL",
+      "stateCode": null,
       "latitude": 19.719997,
       "longitude": -79.8907266,
-      "type": "NULL",
+      "type": null,
       "translations": [],
       "cities": [
         {
@@ -154,12 +154,12 @@
       ]
     },
     {
-      "id": 5253,
+      "id": "KY-LITTLE-CAYMAN",
       "name": "Little Cayman",
-      "stateCode": "NULL",
+      "stateCode": null,
       "latitude": 19.6856739,
       "longitude": -80.1183019,
-      "type": "NULL",
+      "type": null,
       "translations": [],
       "cities": [
         {

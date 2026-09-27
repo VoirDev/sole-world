@@ -1,5 +1,5 @@
 {
-  "id": 110,
+  "id": "JE",
   "name": "Jersey",
   "nativeName": "Jersey",
   "iso2": "JE",
@@ -9,17 +9,17 @@
   "tld": ".je",
   "latitude": 49.25,
   "longitude": -2.16666666,
-  "flagId": 140,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "je",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    890
+    "GBP"
   ],
   "timezoneIds": [
-    2419
+    "Europe/Jersey"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 5309,
+      "id": "JE-01",
       "name": "Grouville",
       "stateCode": "01",
       "latitude": 49.1821257,
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": 5310,
+      "id": "JE-02",
       "name": "St Brelade",
       "stateCode": "02",
       "latitude": 49.18488,
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": 5311,
+      "id": "JE-03",
       "name": "St Clement",
       "stateCode": "03",
       "latitude": 49.1696579,
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "id": 5312,
+      "id": "JE-04",
       "name": "St Helier",
       "stateCode": "04",
       "latitude": 49.1811523,
@@ -253,7 +253,7 @@
       ]
     },
     {
-      "id": 5313,
+      "id": "JE-05",
       "name": "St John",
       "stateCode": "05",
       "latitude": 49.2391257,
@@ -285,7 +285,7 @@
       ]
     },
     {
-      "id": 5314,
+      "id": "JE-06",
       "name": "St Lawrence",
       "stateCode": "06",
       "latitude": 49.2152748,
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "id": 5315,
+      "id": "JE-07",
       "name": "St Martin",
       "stateCode": "07",
       "latitude": 49.2164149,
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": 5316,
+      "id": "JE-08",
       "name": "St Mary",
       "stateCode": "08",
       "latitude": 49.2378181,
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": 5317,
+      "id": "JE-09",
       "name": "St Ouen",
       "stateCode": "09",
       "latitude": 49.2368076,
@@ -462,7 +462,7 @@
       ]
     },
     {
-      "id": 5318,
+      "id": "JE-10",
       "name": "St Peter",
       "stateCode": "10",
       "latitude": 49.2144278,
@@ -501,7 +501,7 @@
       ]
     },
     {
-      "id": 5319,
+      "id": "JE-11",
       "name": "St Saviour",
       "stateCode": "11",
       "latitude": 49.2011989,
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": 5320,
+      "id": "JE-12",
       "name": "Trinity",
       "stateCode": "12",
       "latitude": 49.23059,

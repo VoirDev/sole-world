@@ -1,5 +1,5 @@
 {
-  "id": 62,
+  "id": "DO",
   "name": "Dominican Republic",
   "nativeName": "República Dominicana",
   "iso2": "DO",
@@ -9,17 +9,17 @@
   "tld": ".do",
   "latitude": 19,
   "longitude": -70.66666666,
-  "flagId": 190,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "do",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    878
+    "DOP"
   ],
   "timezoneIds": [
-    2363
+    "America/Santo_Domingo"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4086,
+      "id": "DO-08",
       "name": "El Seibo",
       "stateCode": "08",
       "latitude": 18.7658496,
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "id": 4087,
+      "id": "DO-12",
       "name": "La Romana",
       "stateCode": "12",
       "latitude": 18.4310271,
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "id": 4088,
+      "id": "DO-24",
       "name": "Sánchez Ramírez",
       "stateCode": "24",
       "latitude": 19.052706,
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "id": 4089,
+      "id": "DO-19",
       "name": "Hermanas Mirabal",
       "stateCode": "19",
       "latitude": 19.3747559,
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "id": 4090,
+      "id": "DO-04",
       "name": "Barahona",
       "stateCode": "04",
       "latitude": 18.2139066,
@@ -327,7 +327,7 @@
       ]
     },
     {
-      "id": 4091,
+      "id": "DO-21",
       "name": "San Cristóbal",
       "stateCode": "21",
       "latitude": 18.4180414,
@@ -401,7 +401,7 @@
       ]
     },
     {
-      "id": 4092,
+      "id": "DO-18",
       "name": "Puerto Plata",
       "stateCode": "18",
       "latitude": 19.7543225,
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": 4093,
+      "id": "DO-32",
       "name": "Santo Domingo",
       "stateCode": "32",
       "latitude": 18.5104253,
@@ -528,7 +528,7 @@
       ]
     },
     {
-      "id": 4094,
+      "id": "DO-14",
       "name": "María Trinidad Sánchez",
       "stateCode": "14",
       "latitude": 19.3734597,
@@ -581,7 +581,7 @@
       ]
     },
     {
-      "id": 4095,
+      "id": "DO-01",
       "name": "Distrito Nacional",
       "stateCode": "01",
       "latitude": 18.4860575,
@@ -662,7 +662,7 @@
       ]
     },
     {
-      "id": 4096,
+      "id": "DO-17",
       "name": "Peravia",
       "stateCode": "17",
       "latitude": 18.2786594,
@@ -715,7 +715,7 @@
       ]
     },
     {
-      "id": 4097,
+      "id": "DO-10",
       "name": "Independencia",
       "stateCode": "10",
       "latitude": 32.6335748,
@@ -775,7 +775,7 @@
       ]
     },
     {
-      "id": 4098,
+      "id": "DO-22",
       "name": "San Juan",
       "stateCode": "22",
       "latitude": -31.5287127,
@@ -849,7 +849,7 @@
       ]
     },
     {
-      "id": 4099,
+      "id": "DO-28",
       "name": "Monseñor Nouel",
       "stateCode": "28",
       "latitude": 18.9215234,
@@ -895,7 +895,7 @@
       ]
     },
     {
-      "id": 4100,
+      "id": "DO-26",
       "name": "Santiago Rodríguez",
       "stateCode": "26",
       "latitude": 19.4713181,
@@ -927,7 +927,7 @@
       ]
     },
     {
-      "id": 4101,
+      "id": "DO-16",
       "name": "Pedernales",
       "stateCode": "16",
       "latitude": 17.8537626,
@@ -959,7 +959,7 @@
       ]
     },
     {
-      "id": 4102,
+      "id": "DO-09",
       "name": "Espaillat",
       "stateCode": "09",
       "latitude": 19.6277658,
@@ -1026,7 +1026,7 @@
       ]
     },
     {
-      "id": 4103,
+      "id": "DO-20",
       "name": "Samaná",
       "stateCode": "20",
       "latitude": 19.2058371,
@@ -1058,7 +1058,7 @@
       ]
     },
     {
-      "id": 4104,
+      "id": "DO-27",
       "name": "Valverde",
       "stateCode": "27",
       "latitude": 19.5881221,
@@ -1132,7 +1132,7 @@
       ]
     },
     {
-      "id": 4105,
+      "id": "DO-03",
       "name": "Baoruco",
       "stateCode": "03",
       "latitude": 18.4879898,
@@ -1192,7 +1192,7 @@
       ]
     },
     {
-      "id": 4106,
+      "id": "DO-30",
       "name": "Hato Mayor",
       "stateCode": "30",
       "latitude": 18.7635799,
@@ -1231,7 +1231,7 @@
       ]
     },
     {
-      "id": 4107,
+      "id": "DO-05",
       "name": "Dajabón",
       "stateCode": "05",
       "latitude": 19.5499241,
@@ -1277,7 +1277,7 @@
       ]
     },
     {
-      "id": 4108,
+      "id": "DO-25",
       "name": "Santiago",
       "stateCode": "25",
       "latitude": -33.45,
@@ -1386,7 +1386,7 @@
       ]
     },
     {
-      "id": 4109,
+      "id": "DO-11",
       "name": "La Altagracia",
       "stateCode": "11",
       "latitude": 18.5850236,
@@ -1439,7 +1439,7 @@
       ]
     },
     {
-      "id": 4110,
+      "id": "DO-23",
       "name": "San Pedro de Macorís",
       "stateCode": "23",
       "latitude": 18.46266,
@@ -1485,7 +1485,7 @@
       ]
     },
     {
-      "id": 4111,
+      "id": "DO-29",
       "name": "Monte Plata",
       "stateCode": "29",
       "latitude": 18.8080878,
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": 4112,
+      "id": "DO-31",
       "name": "San José de Ocoa",
       "stateCode": "31",
       "latitude": 18.543858,
@@ -1577,7 +1577,7 @@
       ]
     },
     {
-      "id": 4113,
+      "id": "DO-06",
       "name": "Duarte",
       "stateCode": "06",
       "latitude": 19.2090823,
@@ -1644,7 +1644,7 @@
       ]
     },
     {
-      "id": 4114,
+      "id": "DO-02",
       "name": "Azua",
       "stateCode": "02",
       "latitude": 18.4552709,
@@ -1739,7 +1739,7 @@
       ]
     },
     {
-      "id": 4115,
+      "id": "DO-15",
       "name": "Monte Cristi",
       "stateCode": "15",
       "latitude": 19.7396899,
@@ -1820,7 +1820,7 @@
       ]
     },
     {
-      "id": 4116,
+      "id": "DO-13",
       "name": "La Vega",
       "stateCode": "13",
       "latitude": 19.2211554,

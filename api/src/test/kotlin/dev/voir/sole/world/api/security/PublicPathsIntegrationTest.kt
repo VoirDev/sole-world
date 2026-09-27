@@ -23,7 +23,7 @@ class PublicPathsIntegrationTest : BaseRestIntegrationTest() {
 
     @Test
     fun `everything else needs one`() {
-        for (path in listOf("/v1/meta", "/v1/countries", "/v1/countries/1", "/v1/cities?size=1")) {
+        for (path in listOf("/v1/meta", "/v1/countries", "/v1/countries/FD", "/v1/cities?size=1")) {
             assertEquals(401, rest(path, apiKey = null).statusCode(), path)
         }
     }

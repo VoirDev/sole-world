@@ -1,5 +1,5 @@
 {
-  "id": 141,
+  "id": "YT",
   "name": "Mayotte",
   "nativeName": "Mayotte",
   "iso2": "YT",
@@ -9,17 +9,17 @@
   "tld": ".yt",
   "latitude": -12.83333333,
   "longitude": 45.16666666,
-  "flagId": 4,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "yt",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2458
+    "Indian/Mayotte"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [

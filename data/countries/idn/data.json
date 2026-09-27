@@ -1,5 +1,5 @@
 {
-  "id": 102,
+  "id": "ID",
   "name": "Indonesia",
   "nativeName": "Indonesia",
   "iso2": "ID",
@@ -9,23 +9,23 @@
   "tld": ".id",
   "latitude": -5,
   "longitude": 120,
-  "flagId": 149,
-  "regionId": 3,
-  "subregionId": 13,
+  "flagId": "id",
+  "regionId": "asia",
+  "subregionId": "south-eastern-asia",
   "currencyIds": [
-    899
+    "IDR"
   ],
   "timezoneIds": [
-    2408,
-    2409,
-    2410,
-    2411
+    "Asia/Jakarta",
+    "Asia/Jayapura",
+    "Asia/Makassar",
+    "Asia/Pontianak"
   ],
   "officialLanguageIds": [
-    40
+    "id"
   ],
   "otherLanguageIds": [
-    99
+    "jv"
   ],
   "translations": [
     {
@@ -95,7 +95,7 @@
   ],
   "states": [
     {
-      "id": 1792,
+      "id": "ID-SU",
       "name": "Sumatera Utara",
       "stateCode": "SU",
       "latitude": 2.1153547,
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "id": 1793,
+      "id": "ID-BE",
       "name": "Bengkulu",
       "stateCode": "BE",
       "latitude": -3.7928451,
@@ -558,7 +558,7 @@
       ]
     },
     {
-      "id": 1794,
+      "id": "ID-KT",
       "name": "Kalimantan Tengah",
       "stateCode": "KT",
       "latitude": -1.6814878,
@@ -688,7 +688,7 @@
       ]
     },
     {
-      "id": 1795,
+      "id": "ID-SN",
       "name": "Sulawesi Selatan",
       "stateCode": "SN",
       "latitude": -3.6687994,
@@ -909,7 +909,7 @@
       ]
     },
     {
-      "id": 1796,
+      "id": "ID-SG",
       "name": "Sulawesi Tenggara",
       "stateCode": "SG",
       "latitude": -4.14491,
@@ -1039,7 +1039,7 @@
       ]
     },
     {
-      "id": 1798,
+      "id": "ID-PA",
       "name": "Papua",
       "stateCode": "PA",
       "latitude": -5.0122202,
@@ -1134,7 +1134,7 @@
       ]
     },
     {
-      "id": 1799,
+      "id": "ID-PB",
       "name": "Papua Barat",
       "stateCode": "PB",
       "latitude": -1.3361154,
@@ -1194,7 +1194,7 @@
       ]
     },
     {
-      "id": 1800,
+      "id": "ID-MA",
       "name": "Maluku",
       "stateCode": "MA",
       "latitude": -3.2384616,
@@ -1289,7 +1289,7 @@
       ]
     },
     {
-      "id": 1801,
+      "id": "ID-MU",
       "name": "Maluku Utara",
       "stateCode": "MU",
       "latitude": 1.5709993,
@@ -1377,7 +1377,7 @@
       ]
     },
     {
-      "id": 1802,
+      "id": "ID-JT",
       "name": "Jawa Tengah",
       "stateCode": "JT",
       "latitude": -7.150975,
@@ -2137,7 +2137,7 @@
       ]
     },
     {
-      "id": 1804,
+      "id": "ID-KI",
       "name": "Kalimantan Timur",
       "stateCode": "KI",
       "latitude": 0.5386586,
@@ -2232,7 +2232,7 @@
       ]
     },
     {
-      "id": 1805,
+      "id": "ID-JK",
       "name": "DKI Jakarta",
       "stateCode": "JK",
       "latitude": -6.2087634,
@@ -2278,7 +2278,7 @@
       ]
     },
     {
-      "id": 1806,
+      "id": "ID-KB",
       "name": "Kalimantan Barat",
       "stateCode": "KB",
       "latitude": 0.4773475,
@@ -2401,7 +2401,7 @@
       ]
     },
     {
-      "id": 1807,
+      "id": "ID-KR",
       "name": "Kepulauan Riau",
       "stateCode": "KR",
       "latitude": 3.9456514,
@@ -2461,7 +2461,7 @@
       ]
     },
     {
-      "id": 1808,
+      "id": "ID-SA",
       "name": "Sulawesi Utara",
       "stateCode": "SA",
       "latitude": 0.6246932,
@@ -2577,7 +2577,7 @@
       ]
     },
     {
-      "id": 1809,
+      "id": "ID-RI",
       "name": "Riau",
       "stateCode": "RI",
       "latitude": 0.2933469,
@@ -2686,7 +2686,7 @@
       ]
     },
     {
-      "id": 1810,
+      "id": "ID-BT",
       "name": "Banten",
       "stateCode": "BT",
       "latitude": -6.4058172,
@@ -2753,7 +2753,7 @@
       ]
     },
     {
-      "id": 1811,
+      "id": "ID-LA",
       "name": "Lampung",
       "stateCode": "LA",
       "latitude": -4.5585849,
@@ -2876,7 +2876,7 @@
       ]
     },
     {
-      "id": 1812,
+      "id": "ID-GO",
       "name": "Gorontalo",
       "stateCode": "GO",
       "latitude": 0.5435442,
@@ -2929,7 +2929,7 @@
       ]
     },
     {
-      "id": 1813,
+      "id": "ID-ST",
       "name": "Sulawesi Tengah",
       "stateCode": "ST",
       "latitude": -1.4300254,
@@ -3045,7 +3045,7 @@
       ]
     },
     {
-      "id": 1814,
+      "id": "ID-NB",
       "name": "Nusa Tenggara Barat",
       "stateCode": "NB",
       "latitude": -8.6529334,
@@ -3189,7 +3189,7 @@
       ]
     },
     {
-      "id": 1815,
+      "id": "ID-JA",
       "name": "Jambi",
       "stateCode": "JA",
       "latitude": -1.6101229,
@@ -3305,7 +3305,7 @@
       ]
     },
     {
-      "id": 1816,
+      "id": "ID-SS",
       "name": "Sumatera Selatan",
       "stateCode": "SS",
       "latitude": -3.3194374,
@@ -3449,7 +3449,7 @@
       ]
     },
     {
-      "id": 1817,
+      "id": "ID-SR",
       "name": "Sulawesi Barat",
       "stateCode": "SR",
       "latitude": -2.8441371,
@@ -3523,7 +3523,7 @@
       ]
     },
     {
-      "id": 1818,
+      "id": "ID-NT",
       "name": "Nusa Tenggara Timur",
       "stateCode": "NT",
       "latitude": -8.6573819,
@@ -3758,7 +3758,7 @@
       ]
     },
     {
-      "id": 1819,
+      "id": "ID-KS",
       "name": "Kalimantan Selatan",
       "stateCode": "KS",
       "latitude": -3.0926415,
@@ -3874,7 +3874,7 @@
       ]
     },
     {
-      "id": 1820,
+      "id": "ID-BB",
       "name": "Kepulauan Bangka Belitung",
       "stateCode": "BB",
       "latitude": -2.7410513,
@@ -3962,7 +3962,7 @@
       ]
     },
     {
-      "id": 1822,
+      "id": "ID-AC",
       "name": "Aceh",
       "stateCode": "AC",
       "latitude": 4.695135,
@@ -4162,7 +4162,7 @@
       ]
     },
     {
-      "id": 1824,
+      "id": "ID-KU",
       "name": "Kalimantan Utara",
       "stateCode": "KU",
       "latitude": 3.0730929,
@@ -4215,7 +4215,7 @@
       ]
     },
     {
-      "id": 1825,
+      "id": "ID-JB",
       "name": "Jawa Barat",
       "stateCode": "JB",
       "latitude": -7.090911,
@@ -4786,7 +4786,7 @@
       ]
     },
     {
-      "id": 1826,
+      "id": "ID-BA",
       "name": "Bali",
       "stateCode": "BA",
       "latitude": -8.3405389,
@@ -4979,7 +4979,7 @@
       ]
     },
     {
-      "id": 1827,
+      "id": "ID-JI",
       "name": "Jawa Timur",
       "stateCode": "JI",
       "latitude": -7.5360639,
@@ -5697,7 +5697,7 @@
       ]
     },
     {
-      "id": 1828,
+      "id": "ID-SB",
       "name": "Sumatera Barat",
       "stateCode": "SB",
       "latitude": -0.7399397,
@@ -5834,7 +5834,7 @@
       ]
     },
     {
-      "id": 1829,
+      "id": "ID-YO",
       "name": "DI Yogyakarta",
       "stateCode": "YO",
       "latitude": -7.8753849,
@@ -5880,7 +5880,7 @@
       ]
     },
     {
-      "id": 5235,
+      "id": "ID-PT",
       "name": "Papua Tengah",
       "stateCode": "PT",
       "latitude": -4,
@@ -5954,7 +5954,7 @@
       ]
     },
     {
-      "id": 5236,
+      "id": "ID-PE",
       "name": "Papua Pegunungan",
       "stateCode": "PE",
       "latitude": -4,
@@ -6021,7 +6021,7 @@
       ]
     },
     {
-      "id": 5237,
+      "id": "ID-PS",
       "name": "Papua Selatan",
       "stateCode": "PS",
       "latitude": -6.5,
@@ -6060,7 +6060,7 @@
       ]
     },
     {
-      "id": 5238,
+      "id": "ID-PD",
       "name": "Papua Barat Daya",
       "stateCode": "PD",
       "latitude": -0.9,

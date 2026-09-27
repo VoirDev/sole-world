@@ -1,5 +1,5 @@
 {
-  "id": 195,
+  "id": "SN",
   "name": "Senegal",
   "nativeName": "Sénégal",
   "iso2": "SN",
@@ -9,17 +9,17 @@
   "tld": ".sn",
   "latitude": 14,
   "longitude": -14,
-  "flagId": 46,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "sn",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    851
+    "XOF"
   ],
   "timezoneIds": [
-    2557
+    "Africa/Dakar"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 473,
+      "id": "SN-DK",
       "name": "Dakar",
       "stateCode": "DK",
       "latitude": 14.716677,
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "id": 474,
+      "id": "SN-KD",
       "name": "Kolda",
       "stateCode": "KD",
       "latitude": 12.9107495,
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "id": 475,
+      "id": "SN-KA",
       "name": "Kaffrine",
       "stateCode": "KA",
       "latitude": 14.105202,
@@ -221,7 +221,7 @@
       ]
     },
     {
-      "id": 476,
+      "id": "SN-MT",
       "name": "Matam",
       "stateCode": "MT",
       "latitude": 15.6600225,
@@ -288,7 +288,7 @@
       ]
     },
     {
-      "id": 477,
+      "id": "SN-SL",
       "name": "Saint-Louis",
       "stateCode": "SL",
       "latitude": 38.6270025,
@@ -341,7 +341,7 @@
       ]
     },
     {
-      "id": 478,
+      "id": "SN-ZG",
       "name": "Ziguinchor",
       "stateCode": "ZG",
       "latitude": 12.5641479,
@@ -387,7 +387,7 @@
       ]
     },
     {
-      "id": 479,
+      "id": "SN-FK",
       "name": "Fatick",
       "stateCode": "FK",
       "latitude": 14.3390167,
@@ -447,7 +447,7 @@
       ]
     },
     {
-      "id": 480,
+      "id": "SN-DB",
       "name": "Diourbel Region",
       "stateCode": "DB",
       "latitude": 14.7283085,
@@ -486,7 +486,7 @@
       ]
     },
     {
-      "id": 481,
+      "id": "SN-KE",
       "name": "Kédougou",
       "stateCode": "KE",
       "latitude": 12.5604607,
@@ -525,7 +525,7 @@
       ]
     },
     {
-      "id": 482,
+      "id": "SN-SE",
       "name": "Sédhiou",
       "stateCode": "SE",
       "latitude": 12.704604,
@@ -550,7 +550,7 @@
       ]
     },
     {
-      "id": 483,
+      "id": "SN-KL",
       "name": "Kaolack",
       "stateCode": "KL",
       "latitude": 14.1652083,
@@ -589,7 +589,7 @@
       ]
     },
     {
-      "id": 484,
+      "id": "SN-TH",
       "name": "Thiès Region",
       "stateCode": "TH",
       "latitude": 14.7910052,
@@ -684,7 +684,7 @@
       ]
     },
     {
-      "id": 485,
+      "id": "SN-LG",
       "name": "Louga",
       "stateCode": "LG",
       "latitude": 15.6141768,
@@ -730,7 +730,7 @@
       ]
     },
     {
-      "id": 486,
+      "id": "SN-TC",
       "name": "Tambacounda Region",
       "stateCode": "TC",
       "latitude": 13.5619011,

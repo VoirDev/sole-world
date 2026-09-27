@@ -4,9 +4,8 @@ import kotlinx.serialization.Serializable
 
 /**
  * Cryptocurrency record read from the bundled seed data.
- * @property id Cryptocurrency primary key used during import.
+ * @property id The coin's alias: its stable lowercase key, and the name its logo files are stored under.
  * @property code Ticker symbol the coin trades under.
- * @property alias Stable lowercase key, also the name its logo files are stored under.
  * @property name Display name.
  * @property description Description text, when available.
  * @property websiteUrl Official project website, when known.
@@ -18,9 +17,8 @@ import kotlinx.serialization.Serializable
  */
 @Serializable
 data class CryptoJSON(
-    val id: Long,
+    val id: String,
     val code: String,
-    val alias: String,
     val name: String,
     val description: String?,
     val websiteUrl: String?,
@@ -28,5 +26,5 @@ data class CryptoJSON(
     val decimalDigits: Int,
     val obsolete: Boolean,
     val obsoleteAt: String?,
-    val logoId: Long?,
+    val logoId: String?,
 )

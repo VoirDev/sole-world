@@ -1,5 +1,5 @@
 {
-  "id": 32,
+  "id": "IO",
   "name": "British Indian Ocean Territory",
   "nativeName": "British Indian Ocean Territory",
   "iso2": "IO",
@@ -9,17 +9,17 @@
   "tld": ".io",
   "latitude": -6,
   "longitude": 71.5,
-  "flagId": 145,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "io",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2300
+    "Indian/Chagos"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [

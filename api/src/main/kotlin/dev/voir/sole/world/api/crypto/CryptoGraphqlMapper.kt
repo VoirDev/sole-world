@@ -8,9 +8,8 @@ import dev.voir.sole.world.graphql.dto.types.Crypto
  * @return GraphQL cryptocurrency type.
  */
 fun CryptoData.toGql() = Crypto(
-    id = id.toString(),
+    id = id,
     code = code,
-    alias = alias,
     name = name,
     description = description,
     websiteUrl = websiteUrl,
@@ -18,5 +17,5 @@ fun CryptoData.toGql() = Crypto(
     decimalDigits = decimalDigits,
     obsolete = obsolete,
     obsoleteAt = obsoleteAt,
-    logoId = logoId?.toString(),
+    logoId = logoId,
 )

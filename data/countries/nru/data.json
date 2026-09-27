@@ -1,5 +1,5 @@
 {
-  "id": 153,
+  "id": "NR",
   "name": "Nauru",
   "nativeName": "Nauru",
   "iso2": "NR",
@@ -9,18 +9,18 @@
   "tld": ".nr",
   "latitude": -0.53333333,
   "longitude": 166.91666666,
-  "flagId": 82,
-  "regionId": 5,
-  "subregionId": 21,
+  "flagId": "nr",
+  "regionId": "oceania",
+  "subregionId": "micronesia",
   "currencyIds": [
-    844
+    "AUD"
   ],
   "timezoneIds": [
-    2484
+    "Pacific/Nauru"
   ],
   "officialLanguageIds": [
-    30,
-    125
+    "en",
+    "na"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 4654,
+      "id": "NR-09",
       "name": "Ewa",
       "stateCode": "09",
       "latitude": -0.5087241,
@@ -101,7 +101,7 @@
       "cities": []
     },
     {
-      "id": 4655,
+      "id": "NR-13",
       "name": "Uaboe",
       "stateCode": "13",
       "latitude": -0.5202222,
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "id": 4656,
+      "id": "NR-01",
       "name": "Aiwo",
       "stateCode": "01",
       "latitude": -0.5340012,
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "id": 4657,
+      "id": "NR-11",
       "name": "Meneng",
       "stateCode": "11",
       "latitude": -0.546724,
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "id": 4658,
+      "id": "NR-02",
       "name": "Anabar",
       "stateCode": "02",
       "latitude": -0.5133517,
@@ -173,7 +173,7 @@
       ]
     },
     {
-      "id": 4659,
+      "id": "NR-12",
       "name": "Nibok",
       "stateCode": "12",
       "latitude": -0.5196208,
@@ -183,7 +183,7 @@
       "cities": []
     },
     {
-      "id": 4660,
+      "id": "NR-05",
       "name": "Baiti",
       "stateCode": "05",
       "latitude": -0.510431,
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "id": 4661,
+      "id": "NR-10",
       "name": "Ijuw",
       "stateCode": "10",
       "latitude": -0.5202767,
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "id": 4662,
+      "id": "NR-07",
       "name": "Buada",
       "stateCode": "07",
       "latitude": -0.5328777,
@@ -229,7 +229,7 @@
       "cities": []
     },
     {
-      "id": 4663,
+      "id": "NR-04",
       "name": "Anibare",
       "stateCode": "04",
       "latitude": -0.5294758,
@@ -239,7 +239,7 @@
       "cities": []
     },
     {
-      "id": 4664,
+      "id": "NR-14",
       "name": "Yaren",
       "stateCode": "14",
       "latitude": -0.5466857,
@@ -257,7 +257,7 @@
       ]
     },
     {
-      "id": 4665,
+      "id": "NR-06",
       "name": "Boe",
       "stateCode": "06",
       "latitude": 39.0732776,
@@ -267,7 +267,7 @@
       "cities": []
     },
     {
-      "id": 4666,
+      "id": "NR-08",
       "name": "Denigomodu",
       "stateCode": "08",
       "latitude": -0.5247964,
@@ -277,7 +277,7 @@
       "cities": []
     },
     {
-      "id": 4667,
+      "id": "NR-03",
       "name": "Anetan",
       "stateCode": "03",
       "latitude": -0.5064343,

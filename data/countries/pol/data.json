@@ -1,5 +1,5 @@
 {
-  "id": 176,
+  "id": "PL",
   "name": "Poland",
   "nativeName": "Polska",
   "iso2": "PL",
@@ -9,17 +9,17 @@
   "tld": ".pl",
   "latitude": 52,
   "longitude": 20,
-  "flagId": 72,
-  "regionId": 4,
-  "subregionId": 15,
+  "flagId": "pl",
+  "regionId": "europe",
+  "subregionId": "eastern-europe",
   "currencyIds": [
-    943
+    "PLN"
   ],
   "timezoneIds": [
-    2511
+    "Europe/Warsaw"
   ],
   "officialLanguageIds": [
-    44
+    "pl"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1622,
+      "id": "PL-16",
       "name": "Upper Silesia",
       "stateCode": "16",
       "latitude": 50.8003761,
@@ -829,7 +829,7 @@
       ]
     },
     {
-      "id": 1623,
+      "id": "PL-24",
       "name": "Silesia",
       "stateCode": "24",
       "latitude": 50.5716595,
@@ -3038,7 +3038,7 @@
       ]
     },
     {
-      "id": 1624,
+      "id": "PL-22",
       "name": "Pomerania",
       "stateCode": "22",
       "latitude": 54.2944252,
@@ -4071,7 +4071,7 @@
       ]
     },
     {
-      "id": 1625,
+      "id": "PL-04",
       "name": "Kuyavia-Pomerania",
       "stateCode": "04",
       "latitude": 53.1648363,
@@ -5090,7 +5090,7 @@
       ]
     },
     {
-      "id": 1626,
+      "id": "PL-18",
       "name": "Subcarpathia",
       "stateCode": "18",
       "latitude": 50.0574749,
@@ -6984,7 +6984,7 @@
       ]
     },
     {
-      "id": 1628,
+      "id": "PL-28",
       "name": "Warmia-Masuria",
       "stateCode": "28",
       "latitude": 53.8671117,
@@ -7709,7 +7709,7 @@
       ]
     },
     {
-      "id": 1629,
+      "id": "PL-02",
       "name": "Lower Silesia",
       "stateCode": "02",
       "latitude": 51.1339861,
@@ -9400,7 +9400,7 @@
       ]
     },
     {
-      "id": 1630,
+      "id": "PL-26",
       "name": "Holy Cross",
       "stateCode": "26",
       "latitude": 50.6261041,
@@ -10244,7 +10244,7 @@
       ]
     },
     {
-      "id": 1631,
+      "id": "PL-08",
       "name": "Lubusz",
       "stateCode": "08",
       "latitude": 52.2274612,
@@ -10934,7 +10934,7 @@
       ]
     },
     {
-      "id": 1632,
+      "id": "PL-20",
       "name": "Podlaskie",
       "stateCode": "20",
       "latitude": 53.0697159,
@@ -11512,7 +11512,7 @@
       ]
     },
     {
-      "id": 1633,
+      "id": "PL-32",
       "name": "West Pomerania",
       "stateCode": "32",
       "latitude": 53.4657891,
@@ -12363,7 +12363,7 @@
       ]
     },
     {
-      "id": 1634,
+      "id": "PL-30",
       "name": "Greater Poland",
       "stateCode": "30",
       "latitude": 52.279986,
@@ -14250,7 +14250,7 @@
       ]
     },
     {
-      "id": 1635,
+      "id": "PL-12",
       "name": "Lesser Poland",
       "stateCode": "12",
       "latitude": 49.7225306,
@@ -16914,7 +16914,7 @@
       ]
     },
     {
-      "id": 1636,
+      "id": "PL-10",
       "name": "Łódź",
       "stateCode": "10",
       "latitude": 51.4634771,
@@ -18157,7 +18157,7 @@
       ]
     },
     {
-      "id": 1637,
+      "id": "PL-14",
       "name": "Mazovia",
       "stateCode": "14",
       "latitude": 51.8927182,
@@ -20709,7 +20709,7 @@
       ]
     },
     {
-      "id": 1638,
+      "id": "PL-06",
       "name": "Lublin",
       "stateCode": "06",
       "latitude": 51.2493519,

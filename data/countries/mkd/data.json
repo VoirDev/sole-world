@@ -1,5 +1,5 @@
 {
-  "id": 129,
+  "id": "MK",
   "name": "North Macedonia",
   "nativeName": "Северна Македонија",
   "iso2": "MK",
@@ -9,18 +9,18 @@
   "tld": ".mk",
   "latitude": 41.83333333,
   "longitude": 22,
-  "flagId": 107,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "mk",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    934
+    "MKD"
   ],
   "timezoneIds": [
-    2496
+    "Europe/Skopje"
   ],
   "officialLanguageIds": [
-    119,
-    5
+    "mk",
+    "sq"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 640,
+      "id": "MK-69",
       "name": "Sveti Nikole",
       "stateCode": "69",
       "latitude": 41.8980312,
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "id": 641,
+      "id": "MK-43",
       "name": "Kratovo",
       "stateCode": "43",
       "latitude": 42.0537141,
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "id": 642,
+      "id": "MK-31",
       "name": "Zajas",
       "stateCode": "31",
       "latitude": 41.6030328,
@@ -144,7 +144,7 @@
       "cities": []
     },
     {
-      "id": 643,
+      "id": "MK-71",
       "name": "Staro Nagoričane",
       "stateCode": "71",
       "latitude": 42.2191692,
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": 644,
+      "id": "MK-81",
       "name": "Češinovo-Obleševo",
       "stateCode": "81",
       "latitude": 41.8639316,
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "id": 645,
+      "id": "MK-22",
       "name": "Debarca",
       "stateCode": "22",
       "latitude": 41.3584077,
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "id": 646,
+      "id": "MK-63",
       "name": "Probištip",
       "stateCode": "63",
       "latitude": 41.9589146,
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "id": 647,
+      "id": "MK-45",
       "name": "Krivogaštani",
       "stateCode": "45",
       "latitude": 41.3082306,
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "id": 648,
+      "id": "MK-18",
       "name": "Gevgelija",
       "stateCode": "18",
       "latitude": 41.2118606,
@@ -294,7 +294,7 @@
       ]
     },
     {
-      "id": 649,
+      "id": "MK-05",
       "name": "Bogdanci",
       "stateCode": "05",
       "latitude": 41.1869616,
@@ -319,7 +319,7 @@
       ]
     },
     {
-      "id": 650,
+      "id": "MK-15",
       "name": "Vraneštica",
       "stateCode": "15",
       "latitude": 41.4829087,
@@ -329,7 +329,7 @@
       "cities": []
     },
     {
-      "id": 651,
+      "id": "MK-13",
       "name": "Veles",
       "stateCode": "13",
       "latitude": 41.7274426,
@@ -361,7 +361,7 @@
       ]
     },
     {
-      "id": 652,
+      "id": "MK-07",
       "name": "Bosilovo",
       "stateCode": "07",
       "latitude": 41.4904864,
@@ -393,7 +393,7 @@
       ]
     },
     {
-      "id": 653,
+      "id": "MK-53",
       "name": "Mogila",
       "stateCode": "53",
       "latitude": 41.1479645,
@@ -432,7 +432,7 @@
       ]
     },
     {
-      "id": 654,
+      "id": "MK-75",
       "name": "Tearce",
       "stateCode": "75",
       "latitude": 42.0777511,
@@ -478,7 +478,7 @@
       ]
     },
     {
-      "id": 655,
+      "id": "MK-24",
       "name": "Demir Kapija",
       "stateCode": "24",
       "latitude": 41.3795538,
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": 656,
+      "id": "MK-02",
       "name": "Aračinovo",
       "stateCode": "02",
       "latitude": 42.0247381,
@@ -514,7 +514,7 @@
       ]
     },
     {
-      "id": 657,
+      "id": "MK-28",
       "name": "Drugovo",
       "stateCode": "28",
       "latitude": 41.4408153,
@@ -524,7 +524,7 @@
       "cities": []
     },
     {
-      "id": 658,
+      "id": "MK-11",
       "name": "Vasilevo",
       "stateCode": "11",
       "latitude": 41.4741699,
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": 659,
+      "id": "MK-48",
       "name": "Lipkovo",
       "stateCode": "48",
       "latitude": 42.2006626,
@@ -602,7 +602,7 @@
       ]
     },
     {
-      "id": 660,
+      "id": "MK-08",
       "name": "Brvenica",
       "stateCode": "08",
       "latitude": 41.9681482,
@@ -641,7 +641,7 @@
       ]
     },
     {
-      "id": 661,
+      "id": "MK-83",
       "name": "Štip",
       "stateCode": "83",
       "latitude": 41.7079297,
@@ -659,7 +659,7 @@
       ]
     },
     {
-      "id": 662,
+      "id": "MK-12",
       "name": "Vevčani",
       "stateCode": "12",
       "latitude": 41.2407543,
@@ -677,7 +677,7 @@
       ]
     },
     {
-      "id": 663,
+      "id": "MK-76",
       "name": "Tetovo",
       "stateCode": "76",
       "latitude": 42.027486,
@@ -744,7 +744,7 @@
       ]
     },
     {
-      "id": 664,
+      "id": "MK-54",
       "name": "Negotino",
       "stateCode": "54",
       "latitude": 41.4989985,
@@ -762,7 +762,7 @@
       ]
     },
     {
-      "id": 665,
+      "id": "MK-41",
       "name": "Konče",
       "stateCode": "41",
       "latitude": 41.5171011,
@@ -780,7 +780,7 @@
       ]
     },
     {
-      "id": 666,
+      "id": "MK-62",
       "name": "Prilep",
       "stateCode": "62",
       "latitude": 41.2693142,
@@ -819,7 +819,7 @@
       ]
     },
     {
-      "id": 667,
+      "id": "MK-68",
       "name": "Saraj",
       "stateCode": "68",
       "latitude": 41.9869496,
@@ -858,7 +858,7 @@
       ]
     },
     {
-      "id": 668,
+      "id": "MK-30",
       "name": "Želino",
       "stateCode": "30",
       "latitude": 41.9006531,
@@ -904,7 +904,7 @@
       ]
     },
     {
-      "id": 669,
+      "id": "MK-50",
       "name": "Mavrovo and Rostuša",
       "stateCode": "50",
       "latitude": 41.6092427,
@@ -922,7 +922,7 @@
       ]
     },
     {
-      "id": 670,
+      "id": "MK-61",
       "name": "Plasnica",
       "stateCode": "61",
       "latitude": 41.4546349,
@@ -947,7 +947,7 @@
       ]
     },
     {
-      "id": 671,
+      "id": "MK-10",
       "name": "Valandovo",
       "stateCode": "10",
       "latitude": 41.3211909,
@@ -972,7 +972,7 @@
       ]
     },
     {
-      "id": 672,
+      "id": "MK-14",
       "name": "Vinica",
       "stateCode": "14",
       "latitude": 41.857102,
@@ -1004,7 +1004,7 @@
       ]
     },
     {
-      "id": 673,
+      "id": "MK-33",
       "name": "Zrnovci",
       "stateCode": "33",
       "latitude": 41.8228221,
@@ -1022,7 +1022,7 @@
       ]
     },
     {
-      "id": 674,
+      "id": "MK-37",
       "name": "Karbinci",
       "stateCode": "37",
       "latitude": 41.8180159,
@@ -1040,7 +1040,7 @@
       ]
     },
     {
-      "id": 675,
+      "id": "MK-27",
       "name": "Dolneni",
       "stateCode": "27",
       "latitude": 41.4640935,
@@ -1086,7 +1086,7 @@
       ]
     },
     {
-      "id": 676,
+      "id": "MK-80",
       "name": "Čaška",
       "stateCode": "80",
       "latitude": 41.647438,
@@ -1111,7 +1111,7 @@
       ]
     },
     {
-      "id": 677,
+      "id": "MK-44",
       "name": "Kriva Palanka",
       "stateCode": "44",
       "latitude": 42.2058454,
@@ -1129,7 +1129,7 @@
       ]
     },
     {
-      "id": 678,
+      "id": "MK-35",
       "name": "Jegunovce",
       "stateCode": "35",
       "latitude": 42.074072,
@@ -1154,7 +1154,7 @@
       ]
     },
     {
-      "id": 679,
+      "id": "MK-04",
       "name": "Bitola",
       "stateCode": "04",
       "latitude": 41.0363302,
@@ -1214,7 +1214,7 @@
       ]
     },
     {
-      "id": 680,
+      "id": "MK-84",
       "name": "Šuto Orizari",
       "stateCode": "84",
       "latitude": 42.0290416,
@@ -1232,7 +1232,7 @@
       ]
     },
     {
-      "id": 681,
+      "id": "MK-38",
       "name": "Karpoš",
       "stateCode": "38",
       "latitude": 41.9709661,
@@ -1250,7 +1250,7 @@
       ]
     },
     {
-      "id": 682,
+      "id": "MK-57",
       "name": "Oslomej ",
       "stateCode": "57",
       "latitude": 41.5758391,
@@ -1260,7 +1260,7 @@
       "cities": []
     },
     {
-      "id": 683,
+      "id": "MK-47",
       "name": "Kumanovo",
       "stateCode": "47",
       "latitude": 42.0732613,
@@ -1292,7 +1292,7 @@
       ]
     },
     {
-      "id": 684,
+      "id": "MK-85",
       "name": "Greater Skopje",
       "stateCode": "85",
       "latitude": 41.9981294,
@@ -1338,7 +1338,7 @@
       ]
     },
     {
-      "id": 685,
+      "id": "MK-60",
       "name": "Pehčevo",
       "stateCode": "60",
       "latitude": 41.7737132,
@@ -1356,7 +1356,7 @@
       ]
     },
     {
-      "id": 686,
+      "id": "MK-39",
       "name": "Kisela Voda",
       "stateCode": "39",
       "latitude": 41.92748,
@@ -1374,7 +1374,7 @@
       ]
     },
     {
-      "id": 687,
+      "id": "MK-25",
       "name": "Demir Hisar",
       "stateCode": "25",
       "latitude": 41.227083,
@@ -1406,7 +1406,7 @@
       ]
     },
     {
-      "id": 688,
+      "id": "MK-40",
       "name": "Kičevo",
       "stateCode": "40",
       "latitude": 41.5129112,
@@ -1466,7 +1466,7 @@
       ]
     },
     {
-      "id": 689,
+      "id": "MK-16",
       "name": "Vrapčište",
       "stateCode": "16",
       "latitude": 41.879116,
@@ -1498,7 +1498,7 @@
       ]
     },
     {
-      "id": 690,
+      "id": "MK-34",
       "name": "Ilinden",
       "stateCode": "34",
       "latitude": 41.9957443,
@@ -1551,7 +1551,7 @@
       ]
     },
     {
-      "id": 691,
+      "id": "MK-67",
       "name": "Rosoman",
       "stateCode": "67",
       "latitude": 41.4848006,
@@ -1569,7 +1569,7 @@
       ]
     },
     {
-      "id": 692,
+      "id": "MK-52",
       "name": "Makedonski Brod",
       "stateCode": "52",
       "latitude": 41.5133088,
@@ -1594,7 +1594,7 @@
       ]
     },
     {
-      "id": 693,
+      "id": "MK-19",
       "name": "Gostivar",
       "stateCode": "19",
       "latitude": 41.8025541,
@@ -1647,7 +1647,7 @@
       ]
     },
     {
-      "id": 694,
+      "id": "MK-09",
       "name": "Butel",
       "stateCode": "09",
       "latitude": 42.0895068,
@@ -1672,7 +1672,7 @@
       ]
     },
     {
-      "id": 695,
+      "id": "MK-23",
       "name": "Delčevo",
       "stateCode": "23",
       "latitude": 41.9684387,
@@ -1690,7 +1690,7 @@
       ]
     },
     {
-      "id": 696,
+      "id": "MK-55",
       "name": "Novaci",
       "stateCode": "55",
       "latitude": 41.0442661,
@@ -1708,7 +1708,7 @@
       ]
     },
     {
-      "id": 697,
+      "id": "MK-26",
       "name": "Dojran",
       "stateCode": "26",
       "latitude": 41.2436672,
@@ -1726,7 +1726,7 @@
       ]
     },
     {
-      "id": 698,
+      "id": "MK-59",
       "name": "Petrovec",
       "stateCode": "59",
       "latitude": 41.9029897,
@@ -1751,7 +1751,7 @@
       ]
     },
     {
-      "id": 699,
+      "id": "MK-58",
       "name": "Ohrid",
       "stateCode": "58",
       "latitude": 41.0682088,
@@ -1783,7 +1783,7 @@
       ]
     },
     {
-      "id": 700,
+      "id": "MK-72",
       "name": "Struga",
       "stateCode": "72",
       "latitude": 41.3173744,
@@ -1850,7 +1850,7 @@
       ]
     },
     {
-      "id": 701,
+      "id": "MK-51",
       "name": "Makedonska Kamenica",
       "stateCode": "51",
       "latitude": 42.0694604,
@@ -1868,7 +1868,7 @@
       ]
     },
     {
-      "id": 702,
+      "id": "MK-77",
       "name": "Centar",
       "stateCode": "77",
       "latitude": 41.9698934,
@@ -1878,7 +1878,7 @@
       "cities": []
     },
     {
-      "id": 703,
+      "id": "MK-01",
       "name": "Aerodrom",
       "stateCode": "01",
       "latitude": 41.9464363,
@@ -1888,7 +1888,7 @@
       "cities": []
     },
     {
-      "id": 704,
+      "id": "MK-79",
       "name": "Čair",
       "stateCode": "79",
       "latitude": 41.9930355,
@@ -1906,7 +1906,7 @@
       ]
     },
     {
-      "id": 705,
+      "id": "MK-49",
       "name": "Lozovo",
       "stateCode": "49",
       "latitude": 41.7818139,
@@ -1924,7 +1924,7 @@
       ]
     },
     {
-      "id": 706,
+      "id": "MK-32",
       "name": "Zelenikovo",
       "stateCode": "32",
       "latitude": 41.8733812,
@@ -1942,7 +1942,7 @@
       ]
     },
     {
-      "id": 707,
+      "id": "MK-17",
       "name": "Gazi Baba",
       "stateCode": "17",
       "latitude": 42.0162961,
@@ -1960,7 +1960,7 @@
       ]
     },
     {
-      "id": 708,
+      "id": "MK-20",
       "name": "Gradsko",
       "stateCode": "20",
       "latitude": 41.5991608,
@@ -1978,7 +1978,7 @@
       ]
     },
     {
-      "id": 709,
+      "id": "MK-64",
       "name": "Radoviš",
       "stateCode": "64",
       "latitude": 41.6495531,
@@ -2010,7 +2010,7 @@
       ]
     },
     {
-      "id": 710,
+      "id": "MK-73",
       "name": "Strumica",
       "stateCode": "73",
       "latitude": 41.4378004,
@@ -2049,7 +2049,7 @@
       ]
     },
     {
-      "id": 711,
+      "id": "MK-74",
       "name": "Studeničani",
       "stateCode": "74",
       "latitude": 41.9225639,
@@ -2088,7 +2088,7 @@
       ]
     },
     {
-      "id": 712,
+      "id": "MK-66",
       "name": "Resen",
       "stateCode": "66",
       "latitude": 40.9368093,
@@ -2127,7 +2127,7 @@
       ]
     },
     {
-      "id": 713,
+      "id": "MK-36",
       "name": "Kavadarci",
       "stateCode": "36",
       "latitude": 41.2890068,
@@ -2152,7 +2152,7 @@
       ]
     },
     {
-      "id": 714,
+      "id": "MK-46",
       "name": "Kruševo",
       "stateCode": "46",
       "latitude": 41.3769331,
@@ -2177,7 +2177,7 @@
       ]
     },
     {
-      "id": 715,
+      "id": "MK-82",
       "name": "Čučer-Sandevo",
       "stateCode": "82",
       "latitude": 42.1483946,
@@ -2195,7 +2195,7 @@
       ]
     },
     {
-      "id": 716,
+      "id": "MK-03",
       "name": "Berovo",
       "stateCode": "03",
       "latitude": 41.6661929,
@@ -2227,7 +2227,7 @@
       ]
     },
     {
-      "id": 717,
+      "id": "MK-65",
       "name": "Rankovce",
       "stateCode": "65",
       "latitude": 42.1808141,
@@ -2245,7 +2245,7 @@
       ]
     },
     {
-      "id": 718,
+      "id": "MK-56",
       "name": "Novo Selo",
       "stateCode": "56",
       "latitude": 41.432558,
@@ -2270,7 +2270,7 @@
       ]
     },
     {
-      "id": 719,
+      "id": "MK-70",
       "name": "Sopište",
       "stateCode": "70",
       "latitude": 41.8638492,
@@ -2288,7 +2288,7 @@
       ]
     },
     {
-      "id": 720,
+      "id": "MK-78",
       "name": "Centar Župa",
       "stateCode": "78",
       "latitude": 41.4652259,
@@ -2306,7 +2306,7 @@
       ]
     },
     {
-      "id": 721,
+      "id": "MK-06",
       "name": "Bogovinje",
       "stateCode": "06",
       "latitude": 41.9236371,
@@ -2345,7 +2345,7 @@
       ]
     },
     {
-      "id": 722,
+      "id": "MK-29",
       "name": "Gjorče Petrov",
       "stateCode": "29",
       "latitude": 42.0606374,
@@ -2363,7 +2363,7 @@
       ]
     },
     {
-      "id": 723,
+      "id": "MK-42",
       "name": "Kočani",
       "stateCode": "42",
       "latitude": 41.9858374,

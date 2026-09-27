@@ -1,5 +1,5 @@
 {
-  "id": 147,
+  "id": "ME",
   "name": "Montenegro",
   "nativeName": "Црна Гора",
   "iso2": "ME",
@@ -9,17 +9,17 @@
   "tld": ".me",
   "latitude": 42.5,
   "longitude": 19.3,
-  "flagId": 111,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "me",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2478
+    "Europe/Podgorica"
   ],
   "officialLanguageIds": [
-    63
+    "sr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 12,
+      "id": "ME-23",
       "name": "Petnjica",
       "stateCode": "23",
       "latitude": 42.935348,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 13,
+      "id": "ME-02",
       "name": "Bar",
       "stateCode": "02",
       "latitude": 42.1278119,
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": "ME-07",
       "name": "Danilovgrad",
       "stateCode": "07",
       "latitude": 42.58357,
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": "ME-17",
       "name": "Rožaje",
       "stateCode": "17",
       "latitude": 42.8408389,
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": "ME-15",
       "name": "Plužine",
       "stateCode": "15",
       "latitude": 43.1593384,
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": "ME-12",
       "name": "Nikšić",
       "stateCode": "12",
       "latitude": 42.7997184,
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": "ME-18",
       "name": "Šavnik",
       "stateCode": "18",
       "latitude": 42.9603756,
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": "ME-13",
       "name": "Plav",
       "stateCode": "13",
       "latitude": 42.6001337,
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": "ME-14",
       "name": "Pljevlja",
       "stateCode": "14",
       "latitude": 43.2723383,
@@ -272,7 +272,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": "ME-03",
       "name": "Berane",
       "stateCode": "03",
       "latitude": 42.8257289,
@@ -290,7 +290,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": "ME-11",
       "name": "Mojkovac",
       "stateCode": "11",
       "latitude": 42.9688018,
@@ -308,7 +308,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": "ME-01",
       "name": "Andrijevica",
       "stateCode": "01",
       "latitude": 42.7362477,
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": "ME-22",
       "name": "Gusinje",
       "stateCode": "22",
       "latitude": 42.5563455,
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": "ME-04",
       "name": "Bijelo Polje",
       "stateCode": "04",
       "latitude": 43.0846526,
@@ -362,7 +362,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": "ME-10",
       "name": "Kotor",
       "stateCode": "10",
       "latitude": 42.5740261,
@@ -401,7 +401,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": "ME-16",
       "name": "Podgorica",
       "stateCode": "16",
       "latitude": 42.3693834,
@@ -454,7 +454,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": "ME-06",
       "name": "Old Royal Capital Cetinje",
       "stateCode": "06",
       "latitude": 42.3930959,
@@ -472,7 +472,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": "ME-19",
       "name": "Tivat",
       "stateCode": "19",
       "latitude": 42.42348,
@@ -490,7 +490,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": "ME-05",
       "name": "Budva",
       "stateCode": "05",
       "latitude": 42.314072,
@@ -515,7 +515,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": "ME-09",
       "name": "Kolašin",
       "stateCode": "09",
       "latitude": 42.7601916,
@@ -533,7 +533,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": "ME-21",
       "name": "Žabljak",
       "stateCode": "21",
       "latitude": 43.1555152,
@@ -551,7 +551,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": "ME-20",
       "name": "Ulcinj",
       "stateCode": "20",
       "latitude": 41.9652795,

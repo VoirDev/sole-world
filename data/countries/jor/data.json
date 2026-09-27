@@ -1,5 +1,5 @@
 {
-  "id": 111,
+  "id": "JO",
   "name": "Jordan",
   "nativeName": "الأردن",
   "iso2": "JO",
@@ -9,17 +9,17 @@
   "tld": ".jo",
   "latitude": 31,
   "longitude": 36,
-  "flagId": 138,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "jo",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    905
+    "JOD"
   ],
   "timezoneIds": [
-    2420
+    "Asia/Amman"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 956,
+      "id": "JO-KA",
       "name": "Karak",
       "stateCode": "KA",
       "latitude": 31.1853527,
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "id": 957,
+      "id": "JO-AT",
       "name": "Tafilah",
       "stateCode": "AT",
       "latitude": 30.8338063,
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": 958,
+      "id": "JO-MD",
       "name": "Madaba",
       "stateCode": "MD",
       "latitude": 31.7196097,
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "id": 959,
+      "id": "JO-AQ",
       "name": "Aqaba",
       "stateCode": "AQ",
       "latitude": 29.532086,
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "id": 960,
+      "id": "JO-IR",
       "name": "Irbid",
       "stateCode": "IR",
       "latitude": 32.5569636,
@@ -432,7 +432,7 @@
       ]
     },
     {
-      "id": 961,
+      "id": "JO-BA",
       "name": "Balqa",
       "stateCode": "BA",
       "latitude": 32.0366806,
@@ -464,7 +464,7 @@
       ]
     },
     {
-      "id": 962,
+      "id": "JO-MA",
       "name": "Mafraq",
       "stateCode": "MA",
       "latitude": 32.3416923,
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": 963,
+      "id": "JO-AJ",
       "name": "Ajloun",
       "stateCode": "AJ",
       "latitude": 32.3325584,
@@ -563,7 +563,7 @@
       ]
     },
     {
-      "id": 964,
+      "id": "JO-MN",
       "name": "Ma'an",
       "stateCode": "MN",
       "latitude": 30.1926789,
@@ -623,7 +623,7 @@
       ]
     },
     {
-      "id": 965,
+      "id": "JO-AM",
       "name": "Amman",
       "stateCode": "AM",
       "latitude": 31.9453633,
@@ -697,7 +697,7 @@
       ]
     },
     {
-      "id": 966,
+      "id": "JO-JA",
       "name": "Jerash",
       "stateCode": "JA",
       "latitude": 32.2747237,
@@ -764,7 +764,7 @@
       ]
     },
     {
-      "id": 967,
+      "id": "JO-AZ",
       "name": "Zarqa",
       "stateCode": "AZ",
       "latitude": 32.0608505,

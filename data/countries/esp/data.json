@@ -1,5 +1,5 @@
 {
-  "id": 207,
+  "id": "ES",
   "name": "Spain",
   "nativeName": "España",
   "iso2": "ES",
@@ -9,24 +9,24 @@
   "tld": ".es",
   "latitude": 40,
   "longitude": -4,
-  "flagId": 183,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "es",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2569,
-    2570,
-    2571
+    "Africa/Ceuta",
+    "Atlantic/Canary",
+    "Europe/Madrid"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [
-    24,
-    17,
-    84
+    "ca",
+    "eu",
+    "gl"
   ],
   "translations": [
     {
@@ -96,7 +96,7 @@
   ],
   "states": [
     {
-      "id": 1146,
+      "id": "ES-BU",
       "name": "Burgos",
       "stateCode": "BU",
       "latitude": 42.3380758,
@@ -2704,7 +2704,7 @@
       ]
     },
     {
-      "id": 1147,
+      "id": "ES-SA",
       "name": "Salamanca",
       "stateCode": "SA",
       "latitude": 40.9515263,
@@ -5249,7 +5249,7 @@
       ]
     },
     {
-      "id": 1157,
+      "id": "ES-P",
       "name": "Palencia",
       "stateCode": "P",
       "latitude": 42.0096832,
@@ -6597,7 +6597,7 @@
       ]
     },
     {
-      "id": 1158,
+      "id": "ES-M",
       "name": "Madrid",
       "stateCode": "M",
       "latitude": 40.4167515,
@@ -8148,7 +8148,7 @@
       ]
     },
     {
-      "id": 1160,
+      "id": "ES-O",
       "name": "Asturias",
       "stateCode": "O",
       "latitude": 43.3613953,
@@ -8698,7 +8698,7 @@
       ]
     },
     {
-      "id": 1161,
+      "id": "ES-ZA",
       "name": "Zamora",
       "stateCode": "ZA",
       "latitude": 41.6095744,
@@ -10445,7 +10445,7 @@
       ]
     },
     {
-      "id": 1167,
+      "id": "ES-PO",
       "name": "Pontevedra",
       "stateCode": "PO",
       "latitude": 42.4338595,
@@ -10911,7 +10911,7 @@
       ]
     },
     {
-      "id": 1170,
+      "id": "ES-S",
       "name": "Cantabria",
       "stateCode": "S",
       "latitude": 43.1828396,
@@ -11671,7 +11671,7 @@
       ]
     },
     {
-      "id": 1171,
+      "id": "ES-LO",
       "name": "La Rioja",
       "stateCode": "LO",
       "latitude": 42.2870733,
@@ -12914,7 +12914,7 @@
       ]
     },
     {
-      "id": 1174,
+      "id": "ES-PM",
       "name": "Islas Baleares",
       "stateCode": "PM",
       "latitude": 39.3587759,
@@ -13611,7 +13611,7 @@
       ]
     },
     {
-      "id": 1175,
+      "id": "ES-V",
       "name": "Valencia",
       "stateCode": "V",
       "latitude": 39.4840108,
@@ -16037,7 +16037,7 @@
       ]
     },
     {
-      "id": 1176,
+      "id": "ES-MU",
       "name": "Murcia",
       "stateCode": "MU",
       "latitude": 38.1398141,
@@ -16489,7 +16489,7 @@
       ]
     },
     {
-      "id": 1177,
+      "id": "ES-HU",
       "name": "Huesca",
       "stateCode": "HU",
       "latitude": 41.5976275,
@@ -18054,7 +18054,7 @@
       ]
     },
     {
-      "id": 1183,
+      "id": "ES-VA",
       "name": "Valladolid",
       "stateCode": "VA",
       "latitude": 41.6517375,
@@ -19640,7 +19640,7 @@
       ]
     },
     {
-      "id": 1185,
+      "id": "ES-GC",
       "name": "Las Palmas",
       "stateCode": "GC",
       "latitude": 28.2915637,
@@ -20169,7 +20169,7 @@
       ]
     },
     {
-      "id": 1189,
+      "id": "ES-AV",
       "name": "Ávila",
       "stateCode": "AV",
       "latitude": 40.6934511,
@@ -21916,7 +21916,7 @@
       ]
     },
     {
-      "id": 1190,
+      "id": "ES-CC",
       "name": "Caceres",
       "stateCode": "CC",
       "latitude": 39.4716313,
@@ -23460,7 +23460,7 @@
       ]
     },
     {
-      "id": 1191,
+      "id": "ES-SS",
       "name": "Gipuzkoa",
       "stateCode": "SS",
       "latitude": 43.145236,
@@ -24087,7 +24087,7 @@
       ]
     },
     {
-      "id": 1192,
+      "id": "ES-SG",
       "name": "Segovia",
       "stateCode": "SG",
       "latitude": 40.9429296,
@@ -25561,7 +25561,7 @@
       ]
     },
     {
-      "id": 1193,
+      "id": "ES-SE",
       "name": "Sevilla",
       "stateCode": "SE",
       "latitude": 37.3753501,
@@ -26307,7 +26307,7 @@
       ]
     },
     {
-      "id": 1200,
+      "id": "ES-LE",
       "name": "León",
       "stateCode": "LE",
       "latitude": 42.5987041,
@@ -28054,7 +28054,7 @@
       ]
     },
     {
-      "id": 1203,
+      "id": "ES-T",
       "name": "Tarragona",
       "stateCode": "T",
       "latitude": 41.1258642,
@@ -29353,7 +29353,7 @@
       ]
     },
     {
-      "id": 1204,
+      "id": "ES-NA",
       "name": "Navarra",
       "stateCode": "NA",
       "latitude": 42.6953909,
@@ -31534,7 +31534,7 @@
       ]
     },
     {
-      "id": 1205,
+      "id": "ES-TO",
       "name": "Toledo",
       "stateCode": "TO",
       "latitude": 39.86232,
@@ -32973,7 +32973,7 @@
       ]
     },
     {
-      "id": 1208,
+      "id": "ES-SO",
       "name": "Soria",
       "stateCode": "SO",
       "latitude": 41.7665464,
@@ -34265,7 +34265,7 @@
       ]
     },
     {
-      "id": 5089,
+      "id": "ES-C",
       "name": "A Coruña",
       "stateCode": "C",
       "latitude": 43.361904,
@@ -34948,7 +34948,7 @@
       ]
     },
     {
-      "id": 5090,
+      "id": "ES-LU",
       "name": "Lugo",
       "stateCode": "LU",
       "latitude": 43.0123137,
@@ -35442,7 +35442,7 @@
       ]
     },
     {
-      "id": 5091,
+      "id": "ES-OR",
       "name": "Ourense",
       "stateCode": "OR",
       "latitude": 42.3383613,
@@ -36132,7 +36132,7 @@
       ]
     },
     {
-      "id": 5092,
+      "id": "ES-BA",
       "name": "Badajoz",
       "stateCode": "BA",
       "latitude": 38.8793748,
@@ -37284,7 +37284,7 @@
       ]
     },
     {
-      "id": 5093,
+      "id": "ES-VI",
       "name": "Araba",
       "stateCode": "VI",
       "latitude": 42.8395119,
@@ -37652,7 +37652,7 @@
       ]
     },
     {
-      "id": 5094,
+      "id": "ES-BI",
       "name": "Bizkaia",
       "stateCode": "BI",
       "latitude": 43.2192199,
@@ -38447,7 +38447,7 @@
       ]
     },
     {
-      "id": 5095,
+      "id": "ES-AL",
       "name": "Almeria",
       "stateCode": "AL",
       "latitude": 36.8415268,
@@ -39172,7 +39172,7 @@
       ]
     },
     {
-      "id": 5096,
+      "id": "ES-CA",
       "name": "Cádiz",
       "stateCode": "CA",
       "latitude": 36.5163851,
@@ -39491,7 +39491,7 @@
       ]
     },
     {
-      "id": 5097,
+      "id": "ES-CO",
       "name": "Córdoba",
       "stateCode": "CO",
       "latitude": 36.5163851,
@@ -40027,7 +40027,7 @@
       ]
     },
     {
-      "id": 5098,
+      "id": "ES-GR",
       "name": "Granada",
       "stateCode": "GR",
       "latitude": 37.1809411,
@@ -41214,7 +41214,7 @@
       ]
     },
     {
-      "id": 5099,
+      "id": "ES-H",
       "name": "Huelva",
       "stateCode": "H",
       "latitude": 37.2708666,
@@ -41778,7 +41778,7 @@
       ]
     },
     {
-      "id": 5100,
+      "id": "ES-J",
       "name": "Jaén",
       "stateCode": "J",
       "latitude": 37.7800931,
@@ -42468,7 +42468,7 @@
       ]
     },
     {
-      "id": 5101,
+      "id": "ES-MA",
       "name": "Málaga",
       "stateCode": "MA",
       "latitude": 36.7182015,
@@ -43186,7 +43186,7 @@
       ]
     },
     {
-      "id": 5102,
+      "id": "ES-B",
       "name": "Barcelona",
       "stateCode": "B",
       "latitude": 41.3926679,
@@ -45374,7 +45374,7 @@
       ]
     },
     {
-      "id": 5103,
+      "id": "ES-GI",
       "name": "Girona",
       "stateCode": "GI",
       "latitude": 41.9803445,
@@ -46925,7 +46925,7 @@
       ]
     },
     {
-      "id": 5104,
+      "id": "ES-L",
       "name": "Lleida",
       "stateCode": "L",
       "latitude": 41.6183731,
@@ -48553,7 +48553,7 @@
       ]
     },
     {
-      "id": 5105,
+      "id": "ES-CR",
       "name": "Ciudad Real",
       "stateCode": "CR",
       "latitude": 38.9860758,
@@ -49271,7 +49271,7 @@
       ]
     },
     {
-      "id": 5106,
+      "id": "ES-CU",
       "name": "Cuenca",
       "stateCode": "CU",
       "latitude": 40.0620036,
@@ -50941,7 +50941,7 @@
       ]
     },
     {
-      "id": 5107,
+      "id": "ES-GU",
       "name": "Guadalajara",
       "stateCode": "GU",
       "latitude": 40.6322214,
@@ -52968,7 +52968,7 @@
       ]
     },
     {
-      "id": 5108,
+      "id": "ES-A",
       "name": "Alicante",
       "stateCode": "A",
       "latitude": 38.3579546,
@@ -53966,7 +53966,7 @@
       ]
     },
     {
-      "id": 5109,
+      "id": "ES-AB",
       "name": "Albacete",
       "stateCode": "AB",
       "latitude": 38.9922312,
@@ -54586,7 +54586,7 @@
       ]
     },
     {
-      "id": 5110,
+      "id": "ES-CS",
       "name": "Castellón",
       "stateCode": "CS",
       "latitude": 39.9811435,
@@ -55542,7 +55542,7 @@
       ]
     },
     {
-      "id": 5111,
+      "id": "ES-TE",
       "name": "Teruel",
       "stateCode": "TE",
       "latitude": 40.345041,
@@ -57198,7 +57198,7 @@
       ]
     },
     {
-      "id": 5112,
+      "id": "ES-TF",
       "name": "Santa Cruz de Tenerife",
       "stateCode": "TF",
       "latitude": 28.4578914,
@@ -57587,7 +57587,7 @@
       ]
     },
     {
-      "id": 5113,
+      "id": "ES-Z",
       "name": "Zaragoza",
       "stateCode": "Z",
       "latitude": 41.6517501,
@@ -59649,7 +59649,7 @@
       ]
     },
     {
-      "id": 5222,
+      "id": "ES-CN",
       "name": "Canary Islands",
       "stateCode": "CN",
       "latitude": 28.2916,
@@ -59709,7 +59709,7 @@
       ]
     },
     {
-      "id": 5223,
+      "id": "ES-CE",
       "name": "Ceuta",
       "stateCode": "CE",
       "latitude": 35.889,
@@ -59719,7 +59719,7 @@
       "cities": []
     },
     {
-      "id": 5224,
+      "id": "ES-ML",
       "name": "Melilla",
       "stateCode": "ML",
       "latitude": 35.2937,
@@ -59729,7 +59729,7 @@
       "cities": []
     },
     {
-      "id": 5325,
+      "id": "ES-AN",
       "name": "Andalusia",
       "stateCode": "AN",
       "latitude": 37.3084061,
@@ -59739,7 +59739,7 @@
       "cities": []
     },
     {
-      "id": 5326,
+      "id": "ES-AR",
       "name": "Aragon",
       "stateCode": "AR",
       "latitude": 41.3801114,
@@ -59749,7 +59749,7 @@
       "cities": []
     },
     {
-      "id": 5327,
+      "id": "ES-AS",
       "name": "Asturias",
       "stateCode": "AS",
       "latitude": 43.2689279,
@@ -59759,7 +59759,7 @@
       "cities": []
     },
     {
-      "id": 5328,
+      "id": "ES-CB",
       "name": "Cantabria",
       "stateCode": "CB",
       "latitude": 43.1349728,
@@ -59769,7 +59769,7 @@
       "cities": []
     },
     {
-      "id": 5329,
+      "id": "ES-CL",
       "name": "Castile and Leon",
       "stateCode": "CL",
       "latitude": 41.6338445,
@@ -59779,7 +59779,7 @@
       "cities": []
     },
     {
-      "id": 5330,
+      "id": "ES-CM",
       "name": "Castilla-La Mancha",
       "stateCode": "CM",
       "latitude": 39.6489544,
@@ -59789,7 +59789,7 @@
       "cities": []
     },
     {
-      "id": 5331,
+      "id": "ES-CT",
       "name": "Catalonia",
       "stateCode": "CT",
       "latitude": 41.6867211,
@@ -59799,7 +59799,7 @@
       "cities": []
     },
     {
-      "id": 5332,
+      "id": "ES-PV",
       "name": "Basque Country",
       "stateCode": "PV",
       "latitude": 42.9639085,
@@ -59809,7 +59809,7 @@
       "cities": []
     },
     {
-      "id": 5333,
+      "id": "ES-EX",
       "name": "Estremadura",
       "stateCode": "EX",
       "latitude": 39.2084979,
@@ -59819,7 +59819,7 @@
       "cities": []
     },
     {
-      "id": 5334,
+      "id": "ES-GA",
       "name": "Galicia",
       "stateCode": "GA",
       "latitude": 42.7942875,
@@ -59829,7 +59829,7 @@
       "cities": []
     },
     {
-      "id": 5335,
+      "id": "ES-IB",
       "name": "Balearic Islands",
       "stateCode": "IB",
       "latitude": 39.3621586,
@@ -59839,7 +59839,7 @@
       "cities": []
     },
     {
-      "id": 5336,
+      "id": "ES-RI",
       "name": "La Rioja",
       "stateCode": "RI",
       "latitude": 42.2807692,
@@ -59849,7 +59849,7 @@
       "cities": []
     },
     {
-      "id": 5337,
+      "id": "ES-MD",
       "name": "Community of Madrid",
       "stateCode": "MD",
       "latitude": 40.5244522,
@@ -59859,7 +59859,7 @@
       "cities": []
     },
     {
-      "id": 5338,
+      "id": "ES-MC",
       "name": "Region of Murcia",
       "stateCode": "MC",
       "latitude": 38.0636582,
@@ -59869,7 +59869,7 @@
       "cities": []
     },
     {
-      "id": 5339,
+      "id": "ES-NC",
       "name": "Navarre",
       "stateCode": "NC",
       "latitude": 42.6114729,
@@ -59879,7 +59879,7 @@
       "cities": []
     },
     {
-      "id": 5340,
+      "id": "ES-VC",
       "name": "Valencian Community",
       "stateCode": "VC",
       "latitude": 39.3108869,

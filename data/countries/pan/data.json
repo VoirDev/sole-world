@@ -1,5 +1,5 @@
 {
-  "id": 170,
+  "id": "PA",
   "name": "Panama",
   "nativeName": "Panamá",
   "iso2": "PA",
@@ -9,17 +9,17 @@
   "tld": ".pa",
   "latitude": 9,
   "longitude": -80,
-  "flagId": 78,
-  "regionId": 2,
-  "subregionId": 9,
+  "flagId": "pa",
+  "regionId": "americas",
+  "subregionId": "central-america",
   "currencyIds": [
-    938
+    "PAB"
   ],
   "timezoneIds": [
-    2504
+    "America/Panama"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1385,
+      "id": "PA-5",
       "name": "Darién",
       "stateCode": "5",
       "latitude": 7.8681713,
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "id": 1386,
+      "id": "PA-3",
       "name": "Colón",
       "stateCode": "3",
       "latitude": 9.1851989,
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": 1387,
+      "id": "PA-2",
       "name": "Coclé",
       "stateCode": "2",
       "latitude": 8.6266068,
@@ -865,7 +865,7 @@
       ]
     },
     {
-      "id": 1388,
+      "id": "PA-KY",
       "name": "Guna",
       "stateCode": "KY",
       "latitude": 9.2344395,
@@ -953,7 +953,7 @@
       ]
     },
     {
-      "id": 1389,
+      "id": "PA-6",
       "name": "Herrera",
       "stateCode": "6",
       "latitude": 7.7704282,
@@ -1293,7 +1293,7 @@
       ]
     },
     {
-      "id": 1390,
+      "id": "PA-7",
       "name": "Los Santos",
       "stateCode": "7",
       "latitude": 7.5909302,
@@ -1843,7 +1843,7 @@
       ]
     },
     {
-      "id": 1391,
+      "id": "PA-NB",
       "name": "Ngöbe-Buglé Comarca",
       "stateCode": "NB",
       "latitude": 8.6595833,
@@ -2064,7 +2064,7 @@
       ]
     },
     {
-      "id": 1392,
+      "id": "PA-9",
       "name": "Veraguas",
       "stateCode": "9",
       "latitude": 8.1231033,
@@ -2642,7 +2642,7 @@
       ]
     },
     {
-      "id": 1393,
+      "id": "PA-1",
       "name": "Bocas del Toro",
       "stateCode": "1",
       "latitude": 9.4165521,
@@ -2800,7 +2800,7 @@
       ]
     },
     {
-      "id": 1394,
+      "id": "PA-10",
       "name": "Panamá Oeste",
       "stateCode": "10",
       "latitude": 9.1196751,
@@ -3217,7 +3217,7 @@
       ]
     },
     {
-      "id": 1395,
+      "id": "PA-8",
       "name": "Panamá",
       "stateCode": "8",
       "latitude": 9.1196751,
@@ -3599,7 +3599,7 @@
       ]
     },
     {
-      "id": 1396,
+      "id": "PA-EM",
       "name": "Emberá-Wounaan Comarca",
       "stateCode": "EM",
       "latitude": 8.3766983,
@@ -3652,7 +3652,7 @@
       ]
     },
     {
-      "id": 1397,
+      "id": "PA-4",
       "name": "Chiriquí Province",
       "stateCode": "4",
       "latitude": 8.584898,

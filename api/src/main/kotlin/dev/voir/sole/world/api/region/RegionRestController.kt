@@ -55,7 +55,7 @@ class RegionRestController(
         )
     }
 
-    override fun getRegion(id: Long, lang: String?, include: String?): ResponseEntity<Region> {
+    override fun getRegion(id: String, lang: String?, include: String?): ResponseEntity<Region> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, RegionRestAssembler.ALLOWED_INCLUDES)
         val region = regionStore.byId(id, language) ?: throw ResourceNotFoundException.of("Region", id)
@@ -64,7 +64,7 @@ class RegionRestController(
     }
 
     override fun listRegionSubregions(
-        id: Long,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,
@@ -88,7 +88,7 @@ class RegionRestController(
     }
 
     override fun listRegionCountries(
-        id: Long,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,
@@ -111,7 +111,7 @@ class RegionRestController(
         )
     }
 
-    private fun requireRegion(id: Long, languageCode: String?) {
+    private fun requireRegion(id: String, languageCode: String?) {
         regionStore.byId(id, languageCode) ?: throw ResourceNotFoundException.of("Region", id)
     }
 }

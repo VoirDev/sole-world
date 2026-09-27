@@ -1,5 +1,5 @@
 {
-  "id": 162,
+  "id": "NU",
   "name": "Niue",
   "nativeName": "Niuē",
   "iso2": "NU",
@@ -9,17 +9,17 @@
   "tld": ".nu",
   "latitude": -19.03333333,
   "longitude": -169.86666666,
-  "flagId": 81,
-  "regionId": 5,
-  "subregionId": 22,
+  "flagId": "nu",
+  "regionId": "oceania",
+  "subregionId": "polynesia",
   "currencyIds": [
-    870
+    "NZD"
   ],
   "timezoneIds": [
-    2493
+    "Pacific/Niue"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [

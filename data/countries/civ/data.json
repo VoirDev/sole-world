@@ -1,5 +1,5 @@
 {
-  "id": 54,
+  "id": "CI",
   "name": "Côte d'Ivoire",
   "nativeName": "Côte d'Ivoire",
   "iso2": "CI",
@@ -9,17 +9,17 @@
   "tld": ".ci",
   "latitude": 8,
   "longitude": -5,
-  "flagId": 205,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "ci",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    851
+    "XOF"
   ],
   "timezoneIds": [
-    2351
+    "Africa/Abidjan"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2625,
+      "id": "CI-03",
       "name": "Savanes",
       "stateCode": "03",
       "latitude": null,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 2626,
+      "id": "CI-16",
       "name": "Agnéby",
       "stateCode": "16",
       "latitude": 5.3224503,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 2627,
+      "id": "CI-LG",
       "name": "Lagunes",
       "stateCode": "LG",
       "latitude": 5.8827334,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 2628,
+      "id": "CI-15",
       "name": "Sud-Bandama",
       "stateCode": "15",
       "latitude": 5.5357083,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 2629,
+      "id": "CI-MG",
       "name": "Montagnes",
       "stateCode": "MG",
       "latitude": 7.3762373,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 2630,
+      "id": "CI-05",
       "name": "Moyen-Comoé",
       "stateCode": "05",
       "latitude": 6.6514917,
@@ -150,7 +150,7 @@
       "cities": []
     },
     {
-      "id": 2631,
+      "id": "CI-12",
       "name": "Marahoué",
       "stateCode": "12",
       "latitude": 6.8846207,
@@ -160,7 +160,7 @@
       "cities": []
     },
     {
-      "id": 2632,
+      "id": "CI-LC",
       "name": "Lacs",
       "stateCode": "LC",
       "latitude": 48.1980169,
@@ -170,7 +170,7 @@
       "cities": []
     },
     {
-      "id": 2633,
+      "id": "CI-18",
       "name": "Fromager",
       "stateCode": "18",
       "latitude": 45.5450213,
@@ -180,7 +180,7 @@
       "cities": []
     },
     {
-      "id": 2634,
+      "id": "CI-AB",
       "name": "Abidjan",
       "stateCode": "AB",
       "latitude": 5.3599517,
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "id": 2635,
+      "id": "CI-09",
       "name": "Bas-Sassandra",
       "stateCode": "09",
       "latitude": 5.3567916,
@@ -229,7 +229,7 @@
       "cities": []
     },
     {
-      "id": 2636,
+      "id": "CI-17",
       "name": "Bafing",
       "stateCode": "17",
       "latitude": 8.3252047,
@@ -239,7 +239,7 @@
       "cities": []
     },
     {
-      "id": 2637,
+      "id": "CI-VB",
       "name": "Vallée du Bandama",
       "stateCode": "VB",
       "latitude": 8.278978,
@@ -249,7 +249,7 @@
       "cities": []
     },
     {
-      "id": 2638,
+      "id": "CI-02",
       "name": "Haut-Sassandra",
       "stateCode": "02",
       "latitude": 6.8757848,
@@ -259,7 +259,7 @@
       "cities": []
     },
     {
-      "id": 2639,
+      "id": "CI-01",
       "name": "Lagunes",
       "stateCode": "01",
       "latitude": 5.8827334,
@@ -333,7 +333,7 @@
       ]
     },
     {
-      "id": 2640,
+      "id": "CI-07",
       "name": "Lacs",
       "stateCode": "07",
       "latitude": 47.7395866,
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": 2641,
+      "id": "CI-ZZ",
       "name": "Zanzan",
       "stateCode": "ZZ",
       "latitude": 8.8207904,
@@ -474,7 +474,7 @@
       ]
     },
     {
-      "id": 2642,
+      "id": "CI-10",
       "name": "Denguélé",
       "stateCode": "10",
       "latitude": 9.4662372,
@@ -484,7 +484,7 @@
       "cities": []
     },
     {
-      "id": 2643,
+      "id": "CI-BS",
       "name": "Bas-Sassandra",
       "stateCode": "BS",
       "latitude": 5.2798356,
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": 2644,
+      "id": "CI-DN",
       "name": "Denguélé",
       "stateCode": "DN",
       "latitude": 48.0707763,
@@ -562,7 +562,7 @@
       ]
     },
     {
-      "id": 2645,
+      "id": "CI-06",
       "name": "Dix-Huit Montagnes",
       "stateCode": "06",
       "latitude": 7.3762373,
@@ -643,7 +643,7 @@
       ]
     },
     {
-      "id": 2646,
+      "id": "CI-19",
       "name": "Moyen-Cavally",
       "stateCode": "19",
       "latitude": 6.5208793,
@@ -653,7 +653,7 @@
       "cities": []
     },
     {
-      "id": 2647,
+      "id": "CI-04",
       "name": "Vallée du Bandama",
       "stateCode": "04",
       "latitude": 8.278978,
@@ -720,7 +720,7 @@
       ]
     },
     {
-      "id": 2648,
+      "id": "CI-SM",
       "name": "Sassandra-Marahoué",
       "stateCode": "SM",
       "latitude": 6.8803348,
@@ -780,7 +780,7 @@
       ]
     },
     {
-      "id": 2649,
+      "id": "CI-14",
       "name": "Worodougou",
       "stateCode": "14",
       "latitude": 8.2548962,
@@ -790,7 +790,7 @@
       "cities": []
     },
     {
-      "id": 2650,
+      "id": "CI-WR",
       "name": "Woroba",
       "stateCode": "WR",
       "latitude": 8.2491372,
@@ -843,7 +843,7 @@
       ]
     },
     {
-      "id": 2651,
+      "id": "CI-GD",
       "name": "Gôh-Djiboua",
       "stateCode": "GD",
       "latitude": 5.8711393,
@@ -903,7 +903,7 @@
       ]
     },
     {
-      "id": 2652,
+      "id": "CI-13",
       "name": "Sud-Comoé",
       "stateCode": "13",
       "latitude": 5.552793,
@@ -913,7 +913,7 @@
       "cities": []
     },
     {
-      "id": 2653,
+      "id": "CI-YM",
       "name": "Yamoussoukro",
       "stateCode": "YM",
       "latitude": 6.8276228,
@@ -923,7 +923,7 @@
       "cities": []
     },
     {
-      "id": 2654,
+      "id": "CI-CM",
       "name": "Comoé",
       "stateCode": "CM",
       "latitude": 5.552793,
@@ -997,7 +997,7 @@
       ]
     },
     {
-      "id": 2655,
+      "id": "CI-11",
       "name": "N'zi-Comoé",
       "stateCode": "11",
       "latitude": 7.2456749,

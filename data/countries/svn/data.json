@@ -1,5 +1,5 @@
 {
-  "id": 201,
+  "id": "SI",
   "name": "Slovenia",
   "nativeName": "Slovenija",
   "iso2": "SI",
@@ -9,17 +9,17 @@
   "tld": ".si",
   "latitude": 46.11666666,
   "longitude": 14.81666666,
-  "flagId": 51,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "si",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2562
+    "Europe/Ljubljana"
   ],
   "officialLanguageIds": [
-    152
+    "sl"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4141,
+      "id": "SI-151",
       "name": "Braslovče",
       "stateCode": "151",
       "latitude": 46.2836192,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 4142,
+      "id": "SI-058",
       "name": "Lenart",
       "stateCode": "058",
       "latitude": 46.5834424,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 4143,
+      "id": "SI-171",
       "name": "Oplotnica",
       "stateCode": "171",
       "latitude": 46.387163,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": 4144,
+      "id": "SI-134",
       "name": "Velike Lašče",
       "stateCode": "134",
       "latitude": 45.8336591,
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": 4145,
+      "id": "SI-159",
       "name": "Hajdina",
       "stateCode": "159",
       "latitude": 46.4185014,
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "id": 4146,
+      "id": "SI-092",
       "name": "Podčetrtek",
       "stateCode": "092",
       "latitude": 46.1739542,
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "id": 4147,
+      "id": "SI-152",
       "name": "Cankova",
       "stateCode": "152",
       "latitude": 46.718237,
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "id": 4148,
+      "id": "SI-137",
       "name": "Vitanje",
       "stateCode": "137",
       "latitude": 46.3815323,
@@ -234,7 +234,7 @@
       ]
     },
     {
-      "id": 4149,
+      "id": "SI-111",
       "name": "Sežana",
       "stateCode": "111",
       "latitude": 45.7275109,
@@ -252,7 +252,7 @@
       ]
     },
     {
-      "id": 4150,
+      "id": "SI-045",
       "name": "Kidričevo",
       "stateCode": "045",
       "latitude": 46.3957572,
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "id": 4151,
+      "id": "SI-015",
       "name": "Črenšovci",
       "stateCode": "015",
       "latitude": 46.5720029,
@@ -288,7 +288,7 @@
       ]
     },
     {
-      "id": 4152,
+      "id": "SI-036",
       "name": "Idrija",
       "stateCode": "036",
       "latitude": 46.0040939,
@@ -313,7 +313,7 @@
       ]
     },
     {
-      "id": 4153,
+      "id": "SI-185",
       "name": "Trnovska Vas",
       "stateCode": "185",
       "latitude": 46.5294035,
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "id": 4154,
+      "id": "SI-138",
       "name": "Vodice",
       "stateCode": "138",
       "latitude": 46.1896643,
@@ -349,7 +349,7 @@
       ]
     },
     {
-      "id": 4155,
+      "id": "SI-103",
       "name": "Ravne na Koroškem",
       "stateCode": "103",
       "latitude": 46.5521194,
@@ -374,7 +374,7 @@
       ]
     },
     {
-      "id": 4156,
+      "id": "SI-167",
       "name": "Lovrenc na Pohorju",
       "stateCode": "167",
       "latitude": 46.5419638,
@@ -392,7 +392,7 @@
       ]
     },
     {
-      "id": 4157,
+      "id": "SI-069",
       "name": "Majšperk",
       "stateCode": "069",
       "latitude": 46.3503019,
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "id": 4158,
+      "id": "SI-066",
       "name": "Loški Potok",
       "stateCode": "066",
       "latitude": 45.6909637,
@@ -428,7 +428,7 @@
       ]
     },
     {
-      "id": 4159,
+      "id": "SI-023",
       "name": "Domžale",
       "stateCode": "023",
       "latitude": 46.1438269,
@@ -467,7 +467,7 @@
       ]
     },
     {
-      "id": 4160,
+      "id": "SI-209",
       "name": "Rečica ob Savinji",
       "stateCode": "209",
       "latitude": 46.323379,
@@ -477,7 +477,7 @@
       "cities": []
     },
     {
-      "id": 4161,
+      "id": "SI-172",
       "name": "Podlehnik",
       "stateCode": "172",
       "latitude": 46.3310782,
@@ -495,7 +495,7 @@
       ]
     },
     {
-      "id": 4162,
+      "id": "SI-013",
       "name": "Cerknica",
       "stateCode": "013",
       "latitude": 45.7966255,
@@ -520,7 +520,7 @@
       ]
     },
     {
-      "id": 4163,
+      "id": "SI-189",
       "name": "Vransko",
       "stateCode": "189",
       "latitude": 46.239006,
@@ -538,7 +538,7 @@
       ]
     },
     {
-      "id": 4164,
+      "id": "SI-181",
       "name": "Sveta Ana",
       "stateCode": "181",
       "latitude": 46.65,
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "id": 4165,
+      "id": "SI-008",
       "name": "Brezovica",
       "stateCode": "008",
       "latitude": 45.9559351,
@@ -602,7 +602,7 @@
       ]
     },
     {
-      "id": 4166,
+      "id": "SI-148",
       "name": "Benedikt",
       "stateCode": "148",
       "latitude": 46.6155841,
@@ -620,7 +620,7 @@
       ]
     },
     {
-      "id": 4167,
+      "id": "SI-019",
       "name": "Divača",
       "stateCode": "019",
       "latitude": 45.6806069,
@@ -638,7 +638,7 @@
       ]
     },
     {
-      "id": 4168,
+      "id": "SI-077",
       "name": "Moravče",
       "stateCode": "077",
       "latitude": 46.1362781,
@@ -656,7 +656,7 @@
       ]
     },
     {
-      "id": 4169,
+      "id": "SI-112",
       "name": "Slovenj Gradec",
       "stateCode": "112",
       "latitude": 46.4877718,
@@ -695,7 +695,7 @@
       ]
     },
     {
-      "id": 4170,
+      "id": "SI-121",
       "name": "Škocjan",
       "stateCode": "121",
       "latitude": 45.9175454,
@@ -713,7 +713,7 @@
       ]
     },
     {
-      "id": 4171,
+      "id": "SI-120",
       "name": "Šentjur",
       "stateCode": "120",
       "latitude": 46.2654339,
@@ -731,7 +731,7 @@
       ]
     },
     {
-      "id": 4172,
+      "id": "SI-089",
       "name": "Pesnica",
       "stateCode": "089",
       "latitude": 46.6088755,
@@ -749,7 +749,7 @@
       ]
     },
     {
-      "id": 4173,
+      "id": "SI-022",
       "name": "Dol pri Ljubljani",
       "stateCode": "022",
       "latitude": 46.0884386,
@@ -767,7 +767,7 @@
       ]
     },
     {
-      "id": 4174,
+      "id": "SI-065",
       "name": "Loška Dolina",
       "stateCode": "065",
       "latitude": 45.6477908,
@@ -785,7 +785,7 @@
       ]
     },
     {
-      "id": 4175,
+      "id": "SI-160",
       "name": "Hoče–Slivnica",
       "stateCode": "160",
       "latitude": 46.477858,
@@ -824,7 +824,7 @@
       ]
     },
     {
-      "id": 4176,
+      "id": "SI-153",
       "name": "Cerkvenjak",
       "stateCode": "153",
       "latitude": 46.5670711,
@@ -842,7 +842,7 @@
       ]
     },
     {
-      "id": 4177,
+      "id": "SI-082",
       "name": "Naklo",
       "stateCode": "082",
       "latitude": 46.2718663,
@@ -860,7 +860,7 @@
       ]
     },
     {
-      "id": 4178,
+      "id": "SI-014",
       "name": "Cerkno",
       "stateCode": "014",
       "latitude": 46.1288414,
@@ -878,7 +878,7 @@
       ]
     },
     {
-      "id": 4179,
+      "id": "SI-149",
       "name": "Bistrica ob Sotli",
       "stateCode": "149",
       "latitude": 46.0565579,
@@ -896,7 +896,7 @@
       ]
     },
     {
-      "id": 4180,
+      "id": "SI-043",
       "name": "Kamnik",
       "stateCode": "043",
       "latitude": 46.2221666,
@@ -928,7 +928,7 @@
       ]
     },
     {
-      "id": 4181,
+      "id": "SI-006",
       "name": "Bovec",
       "stateCode": "006",
       "latitude": 46.3380495,
@@ -953,7 +953,7 @@
       ]
     },
     {
-      "id": 4182,
+      "id": "SI-143",
       "name": "Zavrč",
       "stateCode": "143",
       "latitude": 46.35713,
@@ -971,7 +971,7 @@
       ]
     },
     {
-      "id": 4183,
+      "id": "SI-001",
       "name": "Ajdovščina",
       "stateCode": "001",
       "latitude": 45.8870776,
@@ -1003,7 +1003,7 @@
       ]
     },
     {
-      "id": 4184,
+      "id": "SI-091",
       "name": "Pivka",
       "stateCode": "091",
       "latitude": 45.6789296,
@@ -1021,7 +1021,7 @@
       ]
     },
     {
-      "id": 4185,
+      "id": "SI-127",
       "name": "Štore",
       "stateCode": "127",
       "latitude": 46.2222514,
@@ -1039,7 +1039,7 @@
       ]
     },
     {
-      "id": 4186,
+      "id": "SI-051",
       "name": "Kozje",
       "stateCode": "051",
       "latitude": 46.0733211,
@@ -1057,7 +1057,7 @@
       ]
     },
     {
-      "id": 4187,
+      "id": "SI-123",
       "name": "Škofljica",
       "stateCode": "123",
       "latitude": 45.9840962,
@@ -1082,7 +1082,7 @@
       ]
     },
     {
-      "id": 4188,
+      "id": "SI-174",
       "name": "Prebold",
       "stateCode": "174",
       "latitude": 46.2359136,
@@ -1100,7 +1100,7 @@
       ]
     },
     {
-      "id": 4189,
+      "id": "SI-156",
       "name": "Dobrovnik",
       "stateCode": "156",
       "latitude": 46.6538662,
@@ -1118,7 +1118,7 @@
       ]
     },
     {
-      "id": 4190,
+      "id": "SI-079",
       "name": "Mozirje",
       "stateCode": "079",
       "latitude": 46.339435,
@@ -1136,7 +1136,7 @@
       ]
     },
     {
-      "id": 4191,
+      "id": "SI-011",
       "name": "Celje",
       "stateCode": "011",
       "latitude": 46.2397495,
@@ -1168,7 +1168,7 @@
       ]
     },
     {
-      "id": 4192,
+      "id": "SI-147",
       "name": "Žiri",
       "stateCode": "147",
       "latitude": 46.0472499,
@@ -1186,7 +1186,7 @@
       ]
     },
     {
-      "id": 4193,
+      "id": "SI-162",
       "name": "Horjul",
       "stateCode": "162",
       "latitude": 46.0225378,
@@ -1204,7 +1204,7 @@
       ]
     },
     {
-      "id": 4194,
+      "id": "SI-184",
       "name": "Tabor",
       "stateCode": "184",
       "latitude": 46.2107921,
@@ -1222,7 +1222,7 @@
       ]
     },
     {
-      "id": 4195,
+      "id": "SI-099",
       "name": "Radeče",
       "stateCode": "099",
       "latitude": 46.0666954,
@@ -1240,7 +1240,7 @@
       ]
     },
     {
-      "id": 4196,
+      "id": "SI-136",
       "name": "Vipava",
       "stateCode": "136",
       "latitude": 45.8412674,
@@ -1258,7 +1258,7 @@
       ]
     },
     {
-      "id": 4197,
+      "id": "SI-055",
       "name": "Kungota",
       "stateCode": "055",
       "latitude": 46.6418793,
@@ -1276,7 +1276,7 @@
       ]
     },
     {
-      "id": 4198,
+      "id": "SI-114",
       "name": "Slovenske Konjice",
       "stateCode": "114",
       "latitude": 46.3369191,
@@ -1294,7 +1294,7 @@
       ]
     },
     {
-      "id": 4199,
+      "id": "SI-088",
       "name": "Osilnica",
       "stateCode": "088",
       "latitude": 45.5418467,
@@ -1312,7 +1312,7 @@
       ]
     },
     {
-      "id": 4200,
+      "id": "SI-005",
       "name": "Borovnica",
       "stateCode": "005",
       "latitude": 45.9044525,
@@ -1337,7 +1337,7 @@
       ]
     },
     {
-      "id": 4201,
+      "id": "SI-090",
       "name": "Piran",
       "stateCode": "090",
       "latitude": 45.5288856,
@@ -1376,7 +1376,7 @@
       ]
     },
     {
-      "id": 4202,
+      "id": "SI-003",
       "name": "Bled",
       "stateCode": "003",
       "latitude": 46.3683266,
@@ -1408,7 +1408,7 @@
       ]
     },
     {
-      "id": 4203,
+      "id": "SI-163",
       "name": "Jezersko",
       "stateCode": "163",
       "latitude": 46.3942794,
@@ -1426,7 +1426,7 @@
       ]
     },
     {
-      "id": 4204,
+      "id": "SI-098",
       "name": "Rače–Fram",
       "stateCode": "098",
       "latitude": 46.4542083,
@@ -1458,7 +1458,7 @@
       ]
     },
     {
-      "id": 4205,
+      "id": "SI-084",
       "name": "Nova Gorica",
       "stateCode": "084",
       "latitude": 45.976276,
@@ -1504,7 +1504,7 @@
       ]
     },
     {
-      "id": 4206,
+      "id": "SI-176",
       "name": "Razkrižje",
       "stateCode": "176",
       "latitude": 46.5226339,
@@ -1522,7 +1522,7 @@
       ]
     },
     {
-      "id": 4207,
+      "id": "SI-177",
       "name": "Ribnica na Pohorju",
       "stateCode": "177",
       "latitude": 46.5356145,
@@ -1540,7 +1540,7 @@
       ]
     },
     {
-      "id": 4208,
+      "id": "SI-081",
       "name": "Muta",
       "stateCode": "081",
       "latitude": 46.6097366,
@@ -1558,7 +1558,7 @@
       ]
     },
     {
-      "id": 4209,
+      "id": "SI-107",
       "name": "Rogatec",
       "stateCode": "107",
       "latitude": 46.2286626,
@@ -1576,7 +1576,7 @@
       ]
     },
     {
-      "id": 4210,
+      "id": "SI-028",
       "name": "Gorišnica",
       "stateCode": "028",
       "latitude": 46.4120271,
@@ -1594,7 +1594,7 @@
       ]
     },
     {
-      "id": 4211,
+      "id": "SI-056",
       "name": "Kuzma",
       "stateCode": "056",
       "latitude": 46.8351038,
@@ -1612,7 +1612,7 @@
       ]
     },
     {
-      "id": 4212,
+      "id": "SI-076",
       "name": "Mislinja",
       "stateCode": "076",
       "latitude": 46.4429403,
@@ -1630,7 +1630,7 @@
       ]
     },
     {
-      "id": 4213,
+      "id": "SI-026",
       "name": "Duplek",
       "stateCode": "026",
       "latitude": 46.5010016,
@@ -1655,7 +1655,7 @@
       ]
     },
     {
-      "id": 4214,
+      "id": "SI-130",
       "name": "Trebnje",
       "stateCode": "130",
       "latitude": 45.9080163,
@@ -1673,7 +1673,7 @@
       ]
     },
     {
-      "id": 4215,
+      "id": "SI-009",
       "name": "Brežice",
       "stateCode": "009",
       "latitude": 45.9041096,
@@ -1698,7 +1698,7 @@
       ]
     },
     {
-      "id": 4216,
+      "id": "SI-020",
       "name": "Dobrepolje",
       "stateCode": "020",
       "latitude": 45.8524951,
@@ -1716,7 +1716,7 @@
       ]
     },
     {
-      "id": 4217,
+      "id": "SI-158",
       "name": "Grad",
       "stateCode": "158",
       "latitude": 46.808732,
@@ -1734,7 +1734,7 @@
       ]
     },
     {
-      "id": 4218,
+      "id": "SI-078",
       "name": "Moravske Toplice",
       "stateCode": "078",
       "latitude": 46.6856932,
@@ -1752,7 +1752,7 @@
       ]
     },
     {
-      "id": 4219,
+      "id": "SI-067",
       "name": "Luče",
       "stateCode": "067",
       "latitude": 46.3544925,
@@ -1770,7 +1770,7 @@
       ]
     },
     {
-      "id": 4220,
+      "id": "SI-075",
       "name": "Miren–Kostanjevica",
       "stateCode": "075",
       "latitude": 45.8436029,
@@ -1795,7 +1795,7 @@
       ]
     },
     {
-      "id": 4221,
+      "id": "SI-087",
       "name": "Ormož",
       "stateCode": "087",
       "latitude": 46.4353333,
@@ -1813,7 +1813,7 @@
       ]
     },
     {
-      "id": 4222,
+      "id": "SI-033",
       "name": "Šalovci",
       "stateCode": "033",
       "latitude": 46.8533568,
@@ -1831,7 +1831,7 @@
       ]
     },
     {
-      "id": 4223,
+      "id": "SI-169",
       "name": "Miklavž na Dravskem Polju",
       "stateCode": "169",
       "latitude": 46.5082628,
@@ -1849,7 +1849,7 @@
       ]
     },
     {
-      "id": 4224,
+      "id": "SI-198",
       "name": "Makole",
       "stateCode": "198",
       "latitude": 46.3168697,
@@ -1859,7 +1859,7 @@
       "cities": []
     },
     {
-      "id": 4225,
+      "id": "SI-059",
       "name": "Lendava",
       "stateCode": "059",
       "latitude": 46.5513483,
@@ -1877,7 +1877,7 @@
       ]
     },
     {
-      "id": 4226,
+      "id": "SI-141",
       "name": "Vuzenica",
       "stateCode": "141",
       "latitude": 46.5980836,
@@ -1895,7 +1895,7 @@
       ]
     },
     {
-      "id": 4227,
+      "id": "SI-044",
       "name": "Kanal ob Soči",
       "stateCode": "044",
       "latitude": 46.067353,
@@ -1920,7 +1920,7 @@
       ]
     },
     {
-      "id": 4228,
+      "id": "SI-096",
       "name": "Ptuj",
       "stateCode": "096",
       "latitude": 46.4199535,
@@ -1938,7 +1938,7 @@
       ]
     },
     {
-      "id": 4229,
+      "id": "SI-182",
       "name": "Sveti Andraž v Slovenskih Goricah",
       "stateCode": "182",
       "latitude": 46.5189747,
@@ -1956,7 +1956,7 @@
       ]
     },
     {
-      "id": 4230,
+      "id": "SI-178",
       "name": "Selnica ob Dravi",
       "stateCode": "178",
       "latitude": 46.5513918,
@@ -1974,7 +1974,7 @@
       ]
     },
     {
-      "id": 4231,
+      "id": "SI-102",
       "name": "Radovljica",
       "stateCode": "102",
       "latitude": 46.3355827,
@@ -1999,7 +1999,7 @@
       ]
     },
     {
-      "id": 4232,
+      "id": "SI-016",
       "name": "Črna na Koroškem",
       "stateCode": "016",
       "latitude": 46.4704529,
@@ -2017,7 +2017,7 @@
       ]
     },
     {
-      "id": 4233,
+      "id": "SI-106",
       "name": "Rogaška Slatina",
       "stateCode": "106",
       "latitude": 46.2453973,
@@ -2035,7 +2035,7 @@
       ]
     },
     {
-      "id": 4234,
+      "id": "SI-093",
       "name": "Podvelka",
       "stateCode": "093",
       "latitude": 46.6221952,
@@ -2053,7 +2053,7 @@
       ]
     },
     {
-      "id": 4235,
+      "id": "SI-104",
       "name": "Ribnica",
       "stateCode": "104",
       "latitude": 45.7400303,
@@ -2071,7 +2071,7 @@
       ]
     },
     {
-      "id": 4236,
+      "id": "SI-085",
       "name": "Novo Mesto",
       "stateCode": "085",
       "latitude": 45.8010824,
@@ -2089,7 +2089,7 @@
       ]
     },
     {
-      "id": 4237,
+      "id": "SI-170",
       "name": "Mirna Peč",
       "stateCode": "170",
       "latitude": 45.8481574,
@@ -2107,7 +2107,7 @@
       ]
     },
     {
-      "id": 4238,
+      "id": "SI-166",
       "name": "Križevci",
       "stateCode": "166",
       "latitude": 46.5701821,
@@ -2125,7 +2125,7 @@
       ]
     },
     {
-      "id": 4239,
+      "id": "SI-200",
       "name": "Poljčane",
       "stateCode": "200",
       "latitude": 46.3139853,
@@ -2135,7 +2135,7 @@
       "cities": []
     },
     {
-      "id": 4240,
+      "id": "SI-007",
       "name": "Brda",
       "stateCode": "007",
       "latitude": 45.9975652,
@@ -2160,7 +2160,7 @@
       ]
     },
     {
-      "id": 4241,
+      "id": "SI-119",
       "name": "Šentjernej",
       "stateCode": "119",
       "latitude": 45.843413,
@@ -2178,7 +2178,7 @@
       ]
     },
     {
-      "id": 4242,
+      "id": "SI-070",
       "name": "Maribor",
       "stateCode": "070",
       "latitude": 46.5506496,
@@ -2231,7 +2231,7 @@
       ]
     },
     {
-      "id": 4243,
+      "id": "SI-046",
       "name": "Kobarid",
       "stateCode": "046",
       "latitude": 46.2456971,
@@ -2249,7 +2249,7 @@
       ]
     },
     {
-      "id": 4244,
+      "id": "SI-168",
       "name": "Markovci",
       "stateCode": "168",
       "latitude": 46.3879309,
@@ -2267,7 +2267,7 @@
       ]
     },
     {
-      "id": 4245,
+      "id": "SI-139",
       "name": "Vojnik",
       "stateCode": "139",
       "latitude": 46.2920581,
@@ -2285,7 +2285,7 @@
       ]
     },
     {
-      "id": 4246,
+      "id": "SI-129",
       "name": "Trbovlje",
       "stateCode": "129",
       "latitude": 46.1503563,
@@ -2303,7 +2303,7 @@
       ]
     },
     {
-      "id": 4247,
+      "id": "SI-128",
       "name": "Tolmin",
       "stateCode": "128",
       "latitude": 46.1857188,
@@ -2321,7 +2321,7 @@
       ]
     },
     {
-      "id": 4248,
+      "id": "SI-126",
       "name": "Šoštanj",
       "stateCode": "126",
       "latitude": 46.3782836,
@@ -2353,7 +2353,7 @@
       ]
     },
     {
-      "id": 4249,
+      "id": "SI-191",
       "name": "Žetale",
       "stateCode": "191",
       "latitude": 46.2742833,
@@ -2371,7 +2371,7 @@
       ]
     },
     {
-      "id": 4250,
+      "id": "SI-131",
       "name": "Tržič",
       "stateCode": "131",
       "latitude": 46.3593514,
@@ -2396,7 +2396,7 @@
       ]
     },
     {
-      "id": 4251,
+      "id": "SI-132",
       "name": "Turnišče",
       "stateCode": "132",
       "latitude": 46.6137504,
@@ -2414,7 +2414,7 @@
       ]
     },
     {
-      "id": 4252,
+      "id": "SI-155",
       "name": "Dobrna",
       "stateCode": "155",
       "latitude": 46.3356141,
@@ -2432,7 +2432,7 @@
       ]
     },
     {
-      "id": 4253,
+      "id": "SI-201",
       "name": "Renče–Vogrsko",
       "stateCode": "201",
       "latitude": 45.8954617,
@@ -2457,7 +2457,7 @@
       ]
     },
     {
-      "id": 4254,
+      "id": "SI-197",
       "name": "Kostanjevica na Krki",
       "stateCode": "197",
       "latitude": 45.8316638,
@@ -2467,7 +2467,7 @@
       "cities": []
     },
     {
-      "id": 4255,
+      "id": "SI-116",
       "name": "Sveti Jurij ob Ščavnici",
       "stateCode": "116",
       "latitude": 46.5687452,
@@ -2477,7 +2477,7 @@
       "cities": []
     },
     {
-      "id": 4256,
+      "id": "SI-146",
       "name": "Železniki",
       "stateCode": "146",
       "latitude": 46.2256377,
@@ -2495,7 +2495,7 @@
       ]
     },
     {
-      "id": 4257,
+      "id": "SI-188",
       "name": "Veržej",
       "stateCode": "188",
       "latitude": 46.5841135,
@@ -2513,7 +2513,7 @@
       ]
     },
     {
-      "id": 4258,
+      "id": "SI-190",
       "name": "Žalec",
       "stateCode": "190",
       "latitude": 46.2519712,
@@ -2552,7 +2552,7 @@
       ]
     },
     {
-      "id": 4259,
+      "id": "SI-115",
       "name": "Starše",
       "stateCode": "115",
       "latitude": 46.4674331,
@@ -2570,7 +2570,7 @@
       ]
     },
     {
-      "id": 4260,
+      "id": "SI-204",
       "name": "Sveta Trojica v Slovenskih Goricah",
       "stateCode": "204",
       "latitude": 46.5680809,
@@ -2588,7 +2588,7 @@
       ]
     },
     {
-      "id": 4261,
+      "id": "SI-180",
       "name": "Solčava",
       "stateCode": "180",
       "latitude": 46.4023526,
@@ -2606,7 +2606,7 @@
       ]
     },
     {
-      "id": 4262,
+      "id": "SI-140",
       "name": "Vrhnika",
       "stateCode": "140",
       "latitude": 45.9502719,
@@ -2631,7 +2631,7 @@
       ]
     },
     {
-      "id": 4263,
+      "id": "SI-202",
       "name": "Središče ob Dravi",
       "stateCode": "202",
       "latitude": 46.3959282,
@@ -2649,7 +2649,7 @@
       ]
     },
     {
-      "id": 4264,
+      "id": "SI-105",
       "name": "Rogašovci",
       "stateCode": "105",
       "latitude": 46.8055785,
@@ -2667,7 +2667,7 @@
       ]
     },
     {
-      "id": 4265,
+      "id": "SI-074",
       "name": "Mežica",
       "stateCode": "074",
       "latitude": 46.5215027,
@@ -2685,7 +2685,7 @@
       ]
     },
     {
-      "id": 4266,
+      "id": "SI-042",
       "name": "Juršinci",
       "stateCode": "042",
       "latitude": 46.4898651,
@@ -2703,7 +2703,7 @@
       ]
     },
     {
-      "id": 4267,
+      "id": "SI-187",
       "name": "Velika Polana",
       "stateCode": "187",
       "latitude": 46.5731715,
@@ -2721,7 +2721,7 @@
       ]
     },
     {
-      "id": 4268,
+      "id": "SI-110",
       "name": "Sevnica",
       "stateCode": "110",
       "latitude": 46.0070317,
@@ -2739,7 +2739,7 @@
       ]
     },
     {
-      "id": 4269,
+      "id": "SI-142",
       "name": "Zagorje ob Savi",
       "stateCode": "142",
       "latitude": 46.1345202,
@@ -2771,7 +2771,7 @@
       ]
     },
     {
-      "id": 4270,
+      "id": "SI-061",
       "name": "Ljubljana",
       "stateCode": "061",
       "latitude": 46.0569465,
@@ -2859,7 +2859,7 @@
       ]
     },
     {
-      "id": 4271,
+      "id": "SI-031",
       "name": "Gornji Petrovci",
       "stateCode": "031",
       "latitude": 46.8037128,
@@ -2877,7 +2877,7 @@
       ]
     },
     {
-      "id": 4272,
+      "id": "SI-173",
       "name": "Polzela",
       "stateCode": "173",
       "latitude": 46.280897,
@@ -2895,7 +2895,7 @@
       ]
     },
     {
-      "id": 4273,
+      "id": "SI-205",
       "name": "Sveti Tomaž",
       "stateCode": "205",
       "latitude": 46.4835283,
@@ -2913,7 +2913,7 @@
       ]
     },
     {
-      "id": 4274,
+      "id": "SI-175",
       "name": "Prevalje",
       "stateCode": "175",
       "latitude": 46.5621146,
@@ -2931,7 +2931,7 @@
       ]
     },
     {
-      "id": 4275,
+      "id": "SI-101",
       "name": "Radlje ob Dravi",
       "stateCode": "101",
       "latitude": 46.6135732,
@@ -2949,7 +2949,7 @@
       ]
     },
     {
-      "id": 4276,
+      "id": "SI-192",
       "name": "Žirovnica",
       "stateCode": "192",
       "latitude": 46.3954403,
@@ -2967,7 +2967,7 @@
       ]
     },
     {
-      "id": 4277,
+      "id": "SI-179",
       "name": "Sodražica",
       "stateCode": "179",
       "latitude": 45.7616565,
@@ -2985,7 +2985,7 @@
       ]
     },
     {
-      "id": 4278,
+      "id": "SI-150",
       "name": "Bloke",
       "stateCode": "150",
       "latitude": 45.7728141,
@@ -3003,7 +3003,7 @@
       ]
     },
     {
-      "id": 4279,
+      "id": "SI-194",
       "name": "Šmartno pri Litiji",
       "stateCode": "194",
       "latitude": 46.0454971,
@@ -3021,7 +3021,7 @@
       ]
     },
     {
-      "id": 4280,
+      "id": "SI-108",
       "name": "Ruše",
       "stateCode": "108",
       "latitude": 46.5206265,
@@ -3046,7 +3046,7 @@
       ]
     },
     {
-      "id": 4281,
+      "id": "SI-157",
       "name": "Dolenjske Toplice",
       "stateCode": "157",
       "latitude": 45.7345711,
@@ -3064,7 +3064,7 @@
       ]
     },
     {
-      "id": 4282,
+      "id": "SI-004",
       "name": "Bohinj",
       "stateCode": "004",
       "latitude": 46.3005652,
@@ -3096,7 +3096,7 @@
       ]
     },
     {
-      "id": 4283,
+      "id": "SI-164",
       "name": "Komenda",
       "stateCode": "164",
       "latitude": 46.206488,
@@ -3121,7 +3121,7 @@
       ]
     },
     {
-      "id": 4284,
+      "id": "SI-207",
       "name": "Gorje",
       "stateCode": "207",
       "latitude": 46.3802458,
@@ -3131,7 +3131,7 @@
       "cities": []
     },
     {
-      "id": 4285,
+      "id": "SI-124",
       "name": "Šmarje pri Jelšah",
       "stateCode": "124",
       "latitude": 46.2287025,
@@ -3149,7 +3149,7 @@
       ]
     },
     {
-      "id": 4286,
+      "id": "SI-037",
       "name": "Ig",
       "stateCode": "037",
       "latitude": 45.9588868,
@@ -3167,7 +3167,7 @@
       ]
     },
     {
-      "id": 4287,
+      "id": "SI-052",
       "name": "Kranj",
       "stateCode": "052",
       "latitude": 46.2585021,
@@ -3220,7 +3220,7 @@
       ]
     },
     {
-      "id": 4288,
+      "id": "SI-097",
       "name": "Puconci",
       "stateCode": "097",
       "latitude": 46.7200418,
@@ -3238,7 +3238,7 @@
       ]
     },
     {
-      "id": 4289,
+      "id": "SI-206",
       "name": "Šmarješke Toplice",
       "stateCode": "206",
       "latitude": 45.8680377,
@@ -3256,7 +3256,7 @@
       ]
     },
     {
-      "id": 4290,
+      "id": "SI-024",
       "name": "Dornava",
       "stateCode": "024",
       "latitude": 46.4443513,
@@ -3274,7 +3274,7 @@
       ]
     },
     {
-      "id": 4291,
+      "id": "SI-017",
       "name": "Črnomelj",
       "stateCode": "017",
       "latitude": 45.5361225,
@@ -3292,7 +3292,7 @@
       ]
     },
     {
-      "id": 4292,
+      "id": "SI-100",
       "name": "Radenci",
       "stateCode": "100",
       "latitude": 46.6231121,
@@ -3310,7 +3310,7 @@
       ]
     },
     {
-      "id": 4293,
+      "id": "SI-027",
       "name": "Gorenja Vas–Poljane",
       "stateCode": "027",
       "latitude": 46.1116582,
@@ -3328,7 +3328,7 @@
       ]
     },
     {
-      "id": 4294,
+      "id": "SI-062",
       "name": "Ljubno",
       "stateCode": "062",
       "latitude": 46.3443125,
@@ -3346,7 +3346,7 @@
       ]
     },
     {
-      "id": 4295,
+      "id": "SI-154",
       "name": "Dobje",
       "stateCode": "154",
       "latitude": 46.1370037,
@@ -3364,7 +3364,7 @@
       ]
     },
     {
-      "id": 4296,
+      "id": "SI-125",
       "name": "Šmartno ob Paki",
       "stateCode": "125",
       "latitude": 46.3290372,
@@ -3382,7 +3382,7 @@
       ]
     },
     {
-      "id": 4297,
+      "id": "SI-199",
       "name": "Mokronog–Trebelno",
       "stateCode": "199",
       "latitude": 45.9088529,
@@ -3392,7 +3392,7 @@
       "cities": []
     },
     {
-      "id": 4298,
+      "id": "SI-212",
       "name": "Mirna",
       "stateCode": "212",
       "latitude": 45.9515647,
@@ -3402,7 +3402,7 @@
       "cities": []
     },
     {
-      "id": 4299,
+      "id": "SI-117",
       "name": "Šenčur",
       "stateCode": "117",
       "latitude": 46.2433699,
@@ -3427,7 +3427,7 @@
       ]
     },
     {
-      "id": 4300,
+      "id": "SI-135",
       "name": "Videm",
       "stateCode": "135",
       "latitude": 46.363833,
@@ -3445,7 +3445,7 @@
       ]
     },
     {
-      "id": 4301,
+      "id": "SI-002",
       "name": "Beltinci",
       "stateCode": "002",
       "latitude": 46.6079153,
@@ -3484,7 +3484,7 @@
       ]
     },
     {
-      "id": 4302,
+      "id": "SI-068",
       "name": "Lukovica",
       "stateCode": "068",
       "latitude": 46.1696293,
@@ -3502,7 +3502,7 @@
       ]
     },
     {
-      "id": 4303,
+      "id": "SI-095",
       "name": "Preddvor",
       "stateCode": "095",
       "latitude": 46.3017139,
@@ -3520,7 +3520,7 @@
       ]
     },
     {
-      "id": 4304,
+      "id": "SI-018",
       "name": "Destrnik",
       "stateCode": "018",
       "latitude": 46.4922368,
@@ -3538,7 +3538,7 @@
       ]
     },
     {
-      "id": 4305,
+      "id": "SI-039",
       "name": "Ivančna Gorica",
       "stateCode": "039",
       "latitude": 45.9395841,
@@ -3563,7 +3563,7 @@
       ]
     },
     {
-      "id": 4306,
+      "id": "SI-208",
       "name": "Log–Dragomer",
       "stateCode": "208",
       "latitude": 46.0178747,
@@ -3573,7 +3573,7 @@
       "cities": []
     },
     {
-      "id": 4307,
+      "id": "SI-193",
       "name": "Žužemberk",
       "stateCode": "193",
       "latitude": 45.820035,
@@ -3591,7 +3591,7 @@
       ]
     },
     {
-      "id": 4308,
+      "id": "SI-021",
       "name": "Dobrova–Polhov Gradec",
       "stateCode": "021",
       "latitude": 46.0648896,
@@ -3609,7 +3609,7 @@
       ]
     },
     {
-      "id": 4309,
+      "id": "SI-196",
       "name": "Cirkulane",
       "stateCode": "196",
       "latitude": 46.3298322,
@@ -3619,7 +3619,7 @@
       "cities": []
     },
     {
-      "id": 4310,
+      "id": "SI-012",
       "name": "Cerklje na Gorenjskem",
       "stateCode": "012",
       "latitude": 46.2517054,
@@ -3637,7 +3637,7 @@
       ]
     },
     {
-      "id": 4311,
+      "id": "SI-211",
       "name": "Šentrupert",
       "stateCode": "211",
       "latitude": 45.9873142,
@@ -3655,7 +3655,7 @@
       ]
     },
     {
-      "id": 4312,
+      "id": "SI-010",
       "name": "Tišina",
       "stateCode": "010",
       "latitude": 46.6541884,
@@ -3673,7 +3673,7 @@
       ]
     },
     {
-      "id": 4313,
+      "id": "SI-080",
       "name": "Murska Sobota",
       "stateCode": "080",
       "latitude": 46.6432147,
@@ -3719,7 +3719,7 @@
       ]
     },
     {
-      "id": 4314,
+      "id": "SI-054",
       "name": "Krško",
       "stateCode": "054",
       "latitude": 45.9589609,
@@ -3751,7 +3751,7 @@
       ]
     },
     {
-      "id": 4315,
+      "id": "SI-049",
       "name": "Komen",
       "stateCode": "049",
       "latitude": 45.8175235,
@@ -3769,7 +3769,7 @@
       ]
     },
     {
-      "id": 4316,
+      "id": "SI-122",
       "name": "Škofja Loka",
       "stateCode": "122",
       "latitude": 46.1409844,
@@ -3794,7 +3794,7 @@
       ]
     },
     {
-      "id": 4317,
+      "id": "SI-183",
       "name": "Šempeter–Vrtojba",
       "stateCode": "183",
       "latitude": 45.9290095,
@@ -3826,7 +3826,7 @@
       ]
     },
     {
-      "id": 4318,
+      "id": "SI-195",
       "name": "Apače",
       "stateCode": "195",
       "latitude": 46.6974679,
@@ -3844,7 +3844,7 @@
       ]
     },
     {
-      "id": 4319,
+      "id": "SI-050",
       "name": "Koper",
       "stateCode": "050",
       "latitude": 45.548059,
@@ -3904,7 +3904,7 @@
       ]
     },
     {
-      "id": 4320,
+      "id": "SI-086",
       "name": "Odranci",
       "stateCode": "086",
       "latitude": 46.5901017,
@@ -3922,7 +3922,7 @@
       ]
     },
     {
-      "id": 4321,
+      "id": "SI-035",
       "name": "Hrpelje–Kozina",
       "stateCode": "035",
       "latitude": 45.6091192,
@@ -3940,7 +3940,7 @@
       ]
     },
     {
-      "id": 4322,
+      "id": "SI-040",
       "name": "Izola",
       "stateCode": "040",
       "latitude": 45.5313557,
@@ -3965,7 +3965,7 @@
       ]
     },
     {
-      "id": 4323,
+      "id": "SI-073",
       "name": "Metlika",
       "stateCode": "073",
       "latitude": 45.6480715,
@@ -3983,7 +3983,7 @@
       ]
     },
     {
-      "id": 4324,
+      "id": "SI-118",
       "name": "Šentilj",
       "stateCode": "118",
       "latitude": 46.6862839,
@@ -4008,7 +4008,7 @@
       ]
     },
     {
-      "id": 4325,
+      "id": "SI-047",
       "name": "Kobilje",
       "stateCode": "047",
       "latitude": 46.68518,
@@ -4026,7 +4026,7 @@
       ]
     },
     {
-      "id": 4326,
+      "id": "SI-213",
       "name": "Ankaran",
       "stateCode": "213",
       "latitude": 45.578451,
@@ -4044,7 +4044,7 @@
       ]
     },
     {
-      "id": 4327,
+      "id": "SI-161",
       "name": "Hodoš",
       "stateCode": "161",
       "latitude": 46.8314134,
@@ -4062,7 +4062,7 @@
       ]
     },
     {
-      "id": 4328,
+      "id": "SI-210",
       "name": "Sveti Jurij v Slovenskih Goricah",
       "stateCode": "210",
       "latitude": 46.6170791,
@@ -4080,7 +4080,7 @@
       ]
     },
     {
-      "id": 4329,
+      "id": "SI-083",
       "name": "Nazarje",
       "stateCode": "083",
       "latitude": 46.2821741,
@@ -4098,7 +4098,7 @@
       ]
     },
     {
-      "id": 4330,
+      "id": "SI-094",
       "name": "Postojna",
       "stateCode": "094",
       "latitude": 45.774939,
@@ -4116,7 +4116,7 @@
       ]
     },
     {
-      "id": 4331,
+      "id": "SI-165",
       "name": "Kostel",
       "stateCode": "165",
       "latitude": 45.4928255,
@@ -4134,7 +4134,7 @@
       ]
     },
     {
-      "id": 4332,
+      "id": "SI-113",
       "name": "Slovenska Bistrica",
       "stateCode": "113",
       "latitude": 46.3919813,
@@ -4166,7 +4166,7 @@
       ]
     },
     {
-      "id": 4333,
+      "id": "SI-203",
       "name": "Straža",
       "stateCode": "203",
       "latitude": 45.7768428,
@@ -4184,7 +4184,7 @@
       ]
     },
     {
-      "id": 4334,
+      "id": "SI-186",
       "name": "Trzin",
       "stateCode": "186",
       "latitude": 46.1298241,
@@ -4209,7 +4209,7 @@
       ]
     },
     {
-      "id": 4335,
+      "id": "SI-048",
       "name": "Kočevje",
       "stateCode": "048",
       "latitude": 45.6428,
@@ -4227,7 +4227,7 @@
       ]
     },
     {
-      "id": 4336,
+      "id": "SI-032",
       "name": "Grosuplje",
       "stateCode": "032",
       "latitude": 45.9557645,
@@ -4252,7 +4252,7 @@
       ]
     },
     {
-      "id": 4337,
+      "id": "SI-041",
       "name": "Jesenice",
       "stateCode": "041",
       "latitude": 46.4367047,
@@ -4291,7 +4291,7 @@
       ]
     },
     {
-      "id": 4338,
+      "id": "SI-057",
       "name": "Laško",
       "stateCode": "057",
       "latitude": 46.1542236,
@@ -4309,7 +4309,7 @@
       ]
     },
     {
-      "id": 4339,
+      "id": "SI-030",
       "name": "Gornji Grad",
       "stateCode": "030",
       "latitude": 46.2961712,
@@ -4327,7 +4327,7 @@
       ]
     },
     {
-      "id": 4340,
+      "id": "SI-053",
       "name": "Kranjska Gora",
       "stateCode": "053",
       "latitude": 46.4845293,
@@ -4352,7 +4352,7 @@
       ]
     },
     {
-      "id": 4341,
+      "id": "SI-034",
       "name": "Hrastnik",
       "stateCode": "034",
       "latitude": 46.1417288,
@@ -4377,7 +4377,7 @@
       ]
     },
     {
-      "id": 4342,
+      "id": "SI-144",
       "name": "Zreče",
       "stateCode": "144",
       "latitude": 46.4177786,
@@ -4395,7 +4395,7 @@
       ]
     },
     {
-      "id": 4343,
+      "id": "SI-029",
       "name": "Gornja Radgona",
       "stateCode": "029",
       "latitude": 46.6767099,
@@ -4413,7 +4413,7 @@
       ]
     },
     {
-      "id": 4344,
+      "id": "SI-038",
       "name": "Ilirska Bistrica",
       "stateCode": "038",
       "latitude": 45.5791323,
@@ -4431,7 +4431,7 @@
       ]
     },
     {
-      "id": 4345,
+      "id": "SI-025",
       "name": "Dravograd",
       "stateCode": "025",
       "latitude": 46.589219,
@@ -4449,7 +4449,7 @@
       ]
     },
     {
-      "id": 4346,
+      "id": "SI-109",
       "name": "Semič",
       "stateCode": "109",
       "latitude": 45.6520534,
@@ -4467,7 +4467,7 @@
       ]
     },
     {
-      "id": 4347,
+      "id": "SI-060",
       "name": "Litija",
       "stateCode": "060",
       "latitude": 46.0573226,
@@ -4485,7 +4485,7 @@
       ]
     },
     {
-      "id": 4348,
+      "id": "SI-072",
       "name": "Mengeš",
       "stateCode": "072",
       "latitude": 46.1659122,
@@ -4510,7 +4510,7 @@
       ]
     },
     {
-      "id": 4349,
+      "id": "SI-071",
       "name": "Medvode",
       "stateCode": "071",
       "latitude": 46.141908,
@@ -4542,7 +4542,7 @@
       ]
     },
     {
-      "id": 4350,
+      "id": "SI-064",
       "name": "Logatec",
       "stateCode": "064",
       "latitude": 45.917611,
@@ -4560,7 +4560,7 @@
       ]
     },
     {
-      "id": 4351,
+      "id": "SI-063",
       "name": "Ljutomer",
       "stateCode": "063",
       "latitude": 46.5190848,

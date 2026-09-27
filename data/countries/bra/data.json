@@ -1,5 +1,5 @@
 {
-  "id": 31,
+  "id": "BR",
   "name": "Brazil",
   "nativeName": "Brasil",
   "iso2": "BR",
@@ -9,32 +9,32 @@
   "tld": ".br",
   "latitude": -10,
   "longitude": -55,
-  "flagId": 218,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "br",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    857
+    "BRL"
   ],
   "timezoneIds": [
-    2284,
-    2285,
-    2286,
-    2287,
-    2288,
-    2289,
-    2290,
-    2291,
-    2292,
-    2293,
-    2294,
-    2295,
-    2296,
-    2297,
-    2298,
-    2299
+    "America/Araguaina",
+    "America/Bahia",
+    "America/Belem",
+    "America/Boa_Vista",
+    "America/Campo_Grande",
+    "America/Cuiaba",
+    "America/Eirunepe",
+    "America/Fortaleza",
+    "America/Maceio",
+    "America/Manaus",
+    "America/Noronha",
+    "America/Porto_Velho",
+    "America/Recife",
+    "America/Rio_Branco",
+    "America/Santarem",
+    "America/Sao_Paulo"
   ],
   "officialLanguageIds": [
-    45
+    "pt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -105,7 +105,7 @@
   ],
   "states": [
     {
-      "id": 1997,
+      "id": "BR-RJ",
       "name": "Rio de Janeiro",
       "stateCode": "RJ",
       "latitude": -22.9068467,
@@ -774,7 +774,7 @@
       ]
     },
     {
-      "id": 1998,
+      "id": "BR-MG",
       "name": "Minas Gerais",
       "stateCode": "MG",
       "latitude": -18.512178,
@@ -6777,7 +6777,7 @@
       ]
     },
     {
-      "id": 1999,
+      "id": "BR-AP",
       "name": "Amapá",
       "stateCode": "AP",
       "latitude": 0.9019925,
@@ -6900,7 +6900,7 @@
       ]
     },
     {
-      "id": 2000,
+      "id": "BR-GO",
       "name": "Goiás",
       "stateCode": "GO",
       "latitude": -15.8270369,
@@ -8633,7 +8633,7 @@
       ]
     },
     {
-      "id": 2001,
+      "id": "BR-RS",
       "name": "Rio Grande do Sul",
       "stateCode": "RS",
       "latitude": -30.0346316,
@@ -12151,7 +12151,7 @@
       ]
     },
     {
-      "id": 2002,
+      "id": "BR-BA",
       "name": "Bahia",
       "stateCode": "BA",
       "latitude": -11.409874,
@@ -15109,7 +15109,7 @@
       ]
     },
     {
-      "id": 2003,
+      "id": "BR-SE",
       "name": "Sergipe",
       "stateCode": "SE",
       "latitude": -10.5740934,
@@ -15645,7 +15645,7 @@
       ]
     },
     {
-      "id": 2004,
+      "id": "BR-AM",
       "name": "Amazonas",
       "stateCode": "AM",
       "latitude": -3.07,
@@ -16090,7 +16090,7 @@
       ]
     },
     {
-      "id": 2005,
+      "id": "BR-PB",
       "name": "Paraíba",
       "stateCode": "PB",
       "latitude": -7.2399609,
@@ -17662,7 +17662,7 @@
       ]
     },
     {
-      "id": 2006,
+      "id": "BR-PE",
       "name": "Pernambuco",
       "stateCode": "PE",
       "latitude": -8.8137173,
@@ -19024,7 +19024,7 @@
       ]
     },
     {
-      "id": 2007,
+      "id": "BR-AL",
       "name": "Alagoas",
       "stateCode": "AL",
       "latitude": -9.5713058,
@@ -19749,7 +19749,7 @@
       ]
     },
     {
-      "id": 2008,
+      "id": "BR-PI",
       "name": "Piauí",
       "stateCode": "PI",
       "latitude": -7.7183401,
@@ -21335,7 +21335,7 @@
       ]
     },
     {
-      "id": 2009,
+      "id": "BR-PA",
       "name": "Pará",
       "stateCode": "PA",
       "latitude": -1.9981271,
@@ -22375,7 +22375,7 @@
       ]
     },
     {
-      "id": 2010,
+      "id": "BR-MS",
       "name": "Mato Grosso do Sul",
       "stateCode": "MS",
       "latitude": -20.7722295,
@@ -22960,7 +22960,7 @@
       ]
     },
     {
-      "id": 2011,
+      "id": "BR-MT",
       "name": "Mato Grosso",
       "stateCode": "MT",
       "latitude": -12.6818712,
@@ -23972,7 +23972,7 @@
       ]
     },
     {
-      "id": 2012,
+      "id": "BR-AC",
       "name": "Acre",
       "stateCode": "AC",
       "latitude": -9.023796,
@@ -24137,7 +24137,7 @@
       ]
     },
     {
-      "id": 2013,
+      "id": "BR-RO",
       "name": "Rondônia",
       "stateCode": "RO",
       "latitude": -11.5057341,
@@ -24540,7 +24540,7 @@
       ]
     },
     {
-      "id": 2014,
+      "id": "BR-SC",
       "name": "Santa Catarina",
       "stateCode": "SC",
       "latitude": -27.33,
@@ -26742,7 +26742,7 @@
       ]
     },
     {
-      "id": 2015,
+      "id": "BR-MA",
       "name": "Maranhão",
       "stateCode": "MA",
       "latitude": -4.9609498,
@@ -28286,7 +28286,7 @@
       ]
     },
     {
-      "id": 2016,
+      "id": "BR-CE",
       "name": "Ceará",
       "stateCode": "CE",
       "latitude": -5.4983977,
@@ -29606,7 +29606,7 @@
       ]
     },
     {
-      "id": 2017,
+      "id": "BR-DF",
       "name": "Distrito Federal",
       "stateCode": "DF",
       "latitude": -15.7997654,
@@ -29631,7 +29631,7 @@
       ]
     },
     {
-      "id": 2018,
+      "id": "BR-ES",
       "name": "Espírito Santo",
       "stateCode": "ES",
       "latitude": -19.1834229,
@@ -30195,7 +30195,7 @@
       ]
     },
     {
-      "id": 2019,
+      "id": "BR-RN",
       "name": "Rio Grande do Norte",
       "stateCode": "RN",
       "latitude": -5.4025803,
@@ -31389,7 +31389,7 @@
       ]
     },
     {
-      "id": 2020,
+      "id": "BR-TO",
       "name": "Tocantins",
       "stateCode": "TO",
       "latitude": -10.17528,
@@ -32373,7 +32373,7 @@
       ]
     },
     {
-      "id": 2021,
+      "id": "BR-SP",
       "name": "São Paulo",
       "stateCode": "SP",
       "latitude": -23.5505199,
@@ -36955,7 +36955,7 @@
       ]
     },
     {
-      "id": 2022,
+      "id": "BR-PR",
       "name": "Paraná",
       "stateCode": "PR",
       "latitude": -25.2520888,
@@ -39766,7 +39766,7 @@
       ]
     },
     {
-      "id": 4858,
+      "id": "BR-RR",
       "name": "Roraima",
       "stateCode": "RR",
       "latitude": 2.7375971,

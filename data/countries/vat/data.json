@@ -1,5 +1,5 @@
 {
-  "id": 238,
+  "id": "VA",
   "name": "Vatican City",
   "nativeName": "Vaticano",
   "iso2": "VA",
@@ -9,18 +9,18 @@
   "tld": ".va",
   "latitude": 41.9,
   "longitude": 12.45,
-  "flagId": 15,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "va",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2637
+    "Europe/Vatican"
   ],
   "officialLanguageIds": [
-    41,
-    109
+    "it",
+    "la"
   ],
   "otherLanguageIds": [],
   "translations": [

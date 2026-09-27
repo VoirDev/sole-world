@@ -11,7 +11,7 @@ class TimezoneQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              timezone(id: 301) {
+              timezone(id: "Europe/Freedonia") {
                 id
                 zoneName
                 tzName
@@ -25,7 +25,7 @@ class TimezoneQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
         assertNoErrors(response)
         val timezone = response.at("/data/timezone")
-        assertEquals("301", timezone["id"].stringValue())
+        assertEquals("Europe/Freedonia", timezone["id"].stringValue())
         assertEquals("Europe/Freedonia", timezone["zoneName"].stringValue())
         assertEquals("Freedonia Time", timezone["tzName"].stringValue())
         assertEquals(3600, timezone["gmtOffset"].intValue())
@@ -38,7 +38,7 @@ class TimezoneQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: timezonesByIds(ids: [301, 999]) { id zoneName }
+              requested: timezonesByIds(ids: ["Europe/Freedonia", "Mars/Olympus"]) { id zoneName }
             }
             """.trimIndent(),
         )
@@ -52,7 +52,7 @@ class TimezoneQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              timezone(id: 999) { id }
+              timezone(id: "Mars/Olympus") { id }
             }
             """.trimIndent(),
         )

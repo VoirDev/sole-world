@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.timezone
 
 import dev.voir.sole.world.api.dataset.RawDataset
+import dev.voir.sole.world.api.dataset.index.IdIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedName
 import dev.voir.sole.world.api.dataset.index.Page
@@ -28,7 +29,7 @@ class TimezoneStore(dataset: RawDataset) {
         )
     }
 
-    private val byId: Map<Long, TimezoneRecord> = records.associateBy { it.id }
+    private val byId: IdIndex<TimezoneRecord> = IdIndex.of(records) { it.id }
 
     private val index = LocalizedIndex(
         records = records,
@@ -36,8 +37,8 @@ class TimezoneStore(dataset: RawDataset) {
         tieBreaker = TimezoneRecord::id,
     )
 
-    private val idsByCountryId: Map<Long, List<Long>> = dataset.countries
-        .associate { country -> country.id to country.timezoneIds }
+    private val idsByCountryId: IdIndex<List<String>> =
+        IdIndex.from(dataset.countries.associate { country -> country.id to country.timezoneIds })
 
     /** Total number of timezones. */
     val size: Int get() = records.size
@@ -48,7 +49,7 @@ class TimezoneStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching timezone, or null when none exists.
      */
-    fun byId(id: Long, languageCode: String?): TimezoneData? = byId[id]?.localized(languageCode)
+    fun byId(id: String, languageCode: String?): TimezoneData? = byId[id]?.localized(languageCode)
 
     /**
      * Loads several timezones, skipping identifiers that do not exist.
@@ -56,7 +57,7 @@ class TimezoneStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching timezones in request order.
      */
-    fun byIds(ids: List<Long>, languageCode: String?): List<TimezoneData> =
+    fun byIds(ids: List<String>, languageCode: String?): List<TimezoneData> =
         ids.mapNotNull { byId[it]?.localized(languageCode) }
 
     /**
@@ -90,7 +91,7 @@ class TimezoneStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Timezones ordered by localized name.
      */
-    fun byCountryId(countryId: Long, languageCode: String?): List<TimezoneData> {
+    fun byCountryId(countryId: String, languageCode: String?): List<TimezoneData> {
         val ids = idsByCountryId[countryId].orEmpty()
         if (ids.isEmpty()) {
             return emptyList()
@@ -111,7 +112,7 @@ class TimezoneStore(dataset: RawDataset) {
  * @property gmtOffsetName Human-readable GMT offset.
  */
 private class TimezoneRecord(
-    val id: Long,
+    val id: String,
     val zoneName: String,
     val tzName: LocalizedName,
     val abbreviation: String,

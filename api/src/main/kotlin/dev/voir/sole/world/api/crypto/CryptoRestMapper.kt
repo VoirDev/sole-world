@@ -17,7 +17,6 @@ import org.springframework.stereotype.Component
 fun CryptoData.toRest(logo: MediaAsset? = null) = Crypto(
     id = id,
     code = code,
-    alias = alias,
     name = name,
     decimalDigits = decimalDigits,
     obsolete = obsolete,

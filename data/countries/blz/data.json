@@ -1,5 +1,5 @@
 {
-  "id": 23,
+  "id": "BZ",
   "name": "Belize",
   "nativeName": "Belize",
   "iso2": "BZ",
@@ -9,17 +9,17 @@
   "tld": ".bz",
   "latitude": 17.25,
   "longitude": -88.75,
-  "flagId": 213,
-  "regionId": 2,
-  "subregionId": 9,
+  "flagId": "bz",
+  "regionId": "americas",
+  "subregionId": "central-america",
   "currencyIds": [
-    850
+    "BZD"
   ],
   "timezoneIds": [
-    2277
+    "America/Belize"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 264,
+      "id": "BZ-BZ",
       "name": "Belize",
       "stateCode": "BZ",
       "latitude": 17.5677679,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 265,
+      "id": "BZ-SC",
       "name": "Stann Creek",
       "stateCode": "SC",
       "latitude": 16.8116631,
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "id": 266,
+      "id": "BZ-CZL",
       "name": "Corozal",
       "stateCode": "CZL",
       "latitude": 18.1349238,
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "id": 267,
+      "id": "BZ-TOL",
       "name": "Toledo",
       "stateCode": "TOL",
       "latitude": 16.2491923,
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "id": 268,
+      "id": "BZ-OW",
       "name": "Orange Walk",
       "stateCode": "OW",
       "latitude": 17.760353,
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "id": 269,
+      "id": "BZ-CY",
       "name": "Cayo",
       "stateCode": "CY",
       "latitude": 17.0984445,

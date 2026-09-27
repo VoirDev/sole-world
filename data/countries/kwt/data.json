@@ -1,5 +1,5 @@
 {
-  "id": 117,
+  "id": "KW",
   "name": "Kuwait",
   "nativeName": "الكويت",
   "iso2": "KW",
@@ -9,17 +9,17 @@
   "tld": ".kw",
   "latitude": 29.5,
   "longitude": 45.75,
-  "flagId": 128,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "kw",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    908
+    "KWD"
   ],
   "timezoneIds": [
-    2433
+    "Asia/Kuwait"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 972,
+      "id": "KW-JA",
       "name": "Al Jahra",
       "stateCode": "JA",
       "latitude": 29.9931831,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 973,
+      "id": "KW-HA",
       "name": "Hawalli",
       "stateCode": "HA",
       "latitude": 29.3056716,
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": 974,
+      "id": "KW-MU",
       "name": "Mubarak Al-Kabeer",
       "stateCode": "MU",
       "latitude": 29.21224,
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "id": 975,
+      "id": "KW-FA",
       "name": "Al Farwaniyah",
       "stateCode": "FA",
       "latitude": 29.273357,
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "id": 976,
+      "id": "KW-KU",
       "name": "Al Asimah",
       "stateCode": "KU",
       "latitude": 26.2285161,
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "id": 977,
+      "id": "KW-AH",
       "name": "Al Ahmadi",
       "stateCode": "AH",
       "latitude": 28.5745125,

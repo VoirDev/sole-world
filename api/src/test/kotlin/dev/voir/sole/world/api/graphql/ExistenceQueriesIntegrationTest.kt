@@ -19,18 +19,47 @@ class ExistenceQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country:     country(idOrCode: "1")    { id }
-              currency:    currency(idOrCode: "101")  { id }
-              crypto:      crypto(idOrCode: "1")      { id }
-              language:    language(idOrCode: "201")  { id }
-              region:      region(id: "10")           { id }
-              subregion:   subregion(id: "20")        { id }
-              centralBank: centralBank(id: "401")     { id }
-              state:       state(id: "501")           { id }
-              city:        city(id: "601")            { id }
-              timezone:    timezone(id: "301")        { id }
-              flag:        flag(id: "1001")           { id }
-              mediaAsset:  mediaAsset(id: "9001")     { id }
+              country:     country(id: "FD")                    { id }
+              currency:    currency(id: "FDC")                  { id }
+              crypto:      crypto(id: "freecoin")               { id }
+              language:    language(id: "fd")                   { id }
+              region:      region(id: "test-europe")            { id }
+              subregion:   subregion(id: "test-north")          { id }
+              centralBank: centralBank(id: "freedonian-reserve") { id }
+              state:       state(id: "FD-NF")                   { id }
+              city:        city(id: "601")                      { id }
+              timezone:    timezone(id: "Europe/Freedonia")     { id }
+              flag:        flag(id: "fd")                       { id }
+              mediaAsset:  mediaAsset(id: "flag-fd-square")     { id }
+            }
+            """.trimIndent(),
+        )
+
+        assertNoErrors(response)
+        for ((field, id) in EXISTING) {
+            assertEquals(id, response.at("/data/$field/id").stringValue(), field)
+        }
+    }
+
+    @Test
+    fun `a lookup ignores case and answers with the id as published`() {
+        // A caller that stored or typed an id in another case still finds the record, and learns
+        // the one spelling every response uses.
+        val response = graphQL(
+            """
+            query {
+              country:     country(id: "fd")                    { id }
+              currency:    currency(id: "fdc")                  { id }
+              crypto:      crypto(id: "FREECOIN")               { id }
+              language:    language(id: "FD")                   { id }
+              region:      region(id: "TEST-EUROPE")            { id }
+              subregion:   subregion(id: "Test-North")          { id }
+              centralBank: centralBank(id: "Freedonian-Reserve") { id }
+              state:       state(id: "fd-nf")                   { id }
+              city:        city(id: "601")                      { id }
+              timezone:    timezone(id: "europe/freedonia")     { id }
+              flag:        flag(id: "FD")                       { id }
+              mediaAsset:  mediaAsset(id: "FLAG-FD-SQUARE")     { id }
             }
             """.trimIndent(),
         )
@@ -46,18 +75,18 @@ class ExistenceQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country:     country(idOrCode: "999")  { id }
-              currency:    currency(idOrCode: "999") { id }
-              crypto:      crypto(idOrCode: "999")   { id }
-              language:    language(idOrCode: "999") { id }
-              region:      region(id: "999")         { id }
-              subregion:   subregion(id: "999")      { id }
-              centralBank: centralBank(id: "999")    { id }
-              state:       state(id: "999")          { id }
+              country:     country(id: "XX")         { id }
+              currency:    currency(id: "XXX")       { id }
+              crypto:      crypto(id: "nosuchcoin")  { id }
+              language:    language(id: "xx")        { id }
+              region:      region(id: "atlantis")    { id }
+              subregion:   subregion(id: "atlantis") { id }
+              centralBank: centralBank(id: "none")   { id }
+              state:       state(id: "FD-XX")        { id }
               city:        city(id: "999")           { id }
-              timezone:    timezone(id: "999")       { id }
-              flag:        flag(id: "999")           { id }
-              mediaAsset:  mediaAsset(id: "999")     { id }
+              timezone:    timezone(id: "Mars/Olympus") { id }
+              flag:        flag(id: "xx")            { id }
+              mediaAsset:  mediaAsset(id: "flag-xx-square") { id }
             }
             """.trimIndent(),
         )
@@ -70,18 +99,18 @@ class ExistenceQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
     private companion object {
         val EXISTING = listOf(
-            "country" to "1",
-            "currency" to "101",
-            "crypto" to "1",
-            "language" to "201",
-            "region" to "10",
-            "subregion" to "20",
-            "centralBank" to "401",
-            "state" to "501",
+            "country" to "FD",
+            "currency" to "FDC",
+            "crypto" to "freecoin",
+            "language" to "fd",
+            "region" to "test-europe",
+            "subregion" to "test-north",
+            "centralBank" to "freedonian-reserve",
+            "state" to "FD-NF",
             "city" to "601",
-            "timezone" to "301",
-            "flag" to "1001",
-            "mediaAsset" to "9001",
+            "timezone" to "Europe/Freedonia",
+            "flag" to "fd",
+            "mediaAsset" to "flag-fd-square",
         )
     }
 }

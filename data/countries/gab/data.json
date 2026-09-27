@@ -1,5 +1,5 @@
 {
-  "id": 79,
+  "id": "GA",
   "name": "Gabon",
   "nativeName": "Gabon",
   "iso2": "GA",
@@ -9,17 +9,17 @@
   "tld": ".ga",
   "latitude": -1,
   "longitude": 11.75,
-  "flagId": 174,
-  "regionId": 1,
-  "subregionId": 2,
+  "flagId": "ga",
+  "regionId": "africa",
+  "subregionId": "middle-africa",
   "currencyIds": [
-    862
+    "XAF"
   ],
   "timezoneIds": [
-    2383
+    "Africa/Libreville"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2723,
+      "id": "GA-9",
       "name": "Woleu-Ntem",
       "stateCode": "9",
       "latitude": 2.2989827,
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "id": 2724,
+      "id": "GA-6",
       "name": "Ogooué-Ivindo",
       "stateCode": "6",
       "latitude": 0.8818311,
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": 2725,
+      "id": "GA-5",
       "name": "Nyanga",
       "stateCode": "5",
       "latitude": -2.8821033,
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "id": 2726,
+      "id": "GA-2",
       "name": "Haut-Ogooué",
       "stateCode": "2",
       "latitude": -1.4762544,
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "id": 2727,
+      "id": "GA-1",
       "name": "Estuaire",
       "stateCode": "1",
       "latitude": 0.4432864,
@@ -257,7 +257,7 @@
       ]
     },
     {
-      "id": 2728,
+      "id": "GA-8",
       "name": "Ogooué-Maritime",
       "stateCode": "8",
       "latitude": -1.3465975,
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "id": 2729,
+      "id": "GA-7",
       "name": "Ogooué-Lolo",
       "stateCode": "7",
       "latitude": -0.8844093,
@@ -314,7 +314,7 @@
       ]
     },
     {
-      "id": 2730,
+      "id": "GA-3",
       "name": "Moyen-Ogooué",
       "stateCode": "3",
       "latitude": -0.442784,
@@ -339,7 +339,7 @@
       ]
     },
     {
-      "id": 2731,
+      "id": "GA-4",
       "name": "Ngounié",
       "stateCode": "4",
       "latitude": -1.4930303,
