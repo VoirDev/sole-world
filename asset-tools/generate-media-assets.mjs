@@ -6,9 +6,11 @@ import sharp from 'sharp';
 const TOOL_DIR = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(TOOL_DIR, '..');
 
+// An asset's id names what it belongs to, its key and its shape — `flag-us-square` — so it is
+// derived from the file rather than assigned, and regenerating can never renumber it.
 const ASSET_GROUPS = [
-  {type: 'flags', dir: 'assets/flags', includeJpg: true},
-  {type: 'cryptos', dir: 'assets/cryptos', includeJpg: false},
+  {type: 'flags', owner: 'flag', dir: 'assets/flags', includeJpg: true},
+  {type: 'cryptos', owner: 'crypto', dir: 'assets/cryptos', includeJpg: false},
 ];
 
 const DATA_OUTPUT_FILE = 'data/media_assets.json';
@@ -57,48 +59,7 @@ const parseSvgName = (fileName) => {
   };
 };
 
-const readExistingAssets = async () => {
-  try {
-    const content = await fs.readFile(path.join(ROOT_DIR, DATA_OUTPUT_FILE), 'utf8');
-    const assets = JSON.parse(content);
-
-    return new Map(
-      assets.map((asset) => [
-        `${asset.imageFormats.svg}|${asset.imageAspectRatio}|${asset.key}`,
-        asset.id,
-      ]),
-    );
-  } catch (error) {
-    if (error.code === 'ENOENT') {
-      return new Map();
-    }
-
-    throw error;
-  }
-};
-
-const nextAvailableId = (usedIds) => {
-  let id = 1;
-
-  while (usedIds.has(id)) {
-    id += 1;
-  }
-
-  return id;
-};
-
-const buildEntryId = (existingIds, usedIds, svgPath, imageAspectRatio, key) => {
-  const existingId = existingIds.get(`${svgPath}|${imageAspectRatio}|${key}`);
-
-  if (existingId !== undefined) {
-    usedIds.add(existingId);
-    return existingId;
-  }
-
-  const id = nextAvailableId(usedIds);
-  usedIds.add(id);
-  return id;
-};
+const assetId = (owner, key, imageAspectRatio) => `${owner}-${key}-${imageAspectRatio}`;
 
 const removeFileIfExists = async (filePath) => {
   try {
@@ -190,9 +151,7 @@ const collectSvgFiles = async (dir) => {
 const main = async () => {
   console.log('Start generating assets...');
 
-  const existingIds = await readExistingAssets();
   const ownerDescriptions = await readOwnerDescriptions();
-  const usedIds = new Set();
   const resultJson = [];
 
   for (const group of ASSET_GROUPS) {
@@ -212,7 +171,7 @@ const main = async () => {
         group.includeJpg,
       );
 
-      const id = buildEntryId(existingIds, usedIds, svgPath, asset.imageAspectRatio, asset.key);
+      const id = assetId(group.owner, asset.key, asset.imageAspectRatio);
 
       resultJson.push({
         id,
@@ -231,7 +190,8 @@ const main = async () => {
     }
   }
 
-  resultJson.sort((left, right) => left.id - right.id);
+  // Ordered by code point, not by locale, so the file comes out the same on every machine.
+  resultJson.sort((left, right) => (left.id < right.id ? -1 : left.id > right.id ? 1 : 0));
 
   await fs.writeFile(
     path.join(ROOT_DIR, DATA_OUTPUT_FILE),

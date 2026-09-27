@@ -1,5 +1,5 @@
 {
-  "id": 6,
+  "id": "AD",
   "name": "Andorra",
   "nativeName": "Andorra",
   "iso2": "AD",
@@ -9,17 +9,17 @@
   "tld": ".ad",
   "latitude": 42.5,
   "longitude": 1.5,
-  "flagId": 247,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "ad",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2239
+    "Europe/Andorra"
   ],
   "officialLanguageIds": [
-    24
+    "ca"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 487,
+      "id": "AD-03",
       "name": "Encamp",
       "stateCode": "03",
       "latitude": 42.5359764,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 488,
+      "id": "AD-07",
       "name": "Andorra la Vella",
       "stateCode": "07",
       "latitude": 42.5063174,
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": 489,
+      "id": "AD-02",
       "name": "Canillo",
       "stateCode": "02",
       "latitude": 42.5978249,
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "id": 490,
+      "id": "AD-06",
       "name": "Sant Julià de Lòria",
       "stateCode": "06",
       "latitude": 42.4529631,
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "id": 491,
+      "id": "AD-05",
       "name": "Ordino",
       "stateCode": "05",
       "latitude": 42.5994433,
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "id": 492,
+      "id": "AD-08",
       "name": "Escaldes-Engordany",
       "stateCode": "08",
       "latitude": 42.4909379,
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "id": 493,
+      "id": "AD-04",
       "name": "La Massana",
       "stateCode": "04",
       "latitude": 42.545625,

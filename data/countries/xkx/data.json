@@ -1,5 +1,5 @@
 {
-  "id": 248,
+  "id": "XK",
   "name": "Kosovo",
   "nativeName": "Republika e Kosovës",
   "iso2": "XK",
@@ -9,18 +9,18 @@
   "tld": ".xk",
   "latitude": 42.5612909,
   "longitude": 20.3403035,
-  "flagId": 6,
-  "regionId": 4,
-  "subregionId": 15,
+  "flagId": "xk",
+  "regionId": "europe",
+  "subregionId": "eastern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2432
+    "Europe/Belgrade"
   ],
   "officialLanguageIds": [
-    5,
-    63
+    "sq",
+    "sr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 4874,
+      "id": "XK-XUF",
       "name": "Ferizaj",
       "stateCode": "XUF",
       "latitude": 42.3701844,
@@ -101,7 +101,7 @@
       "cities": []
     },
     {
-      "id": 4876,
+      "id": "XK-XDG",
       "name": "Gjakove",
       "stateCode": "XDG",
       "latitude": 42.4375756,
@@ -111,7 +111,7 @@
       "cities": []
     },
     {
-      "id": 4877,
+      "id": "XK-XGJ",
       "name": "Gjilan",
       "stateCode": "XGJ",
       "latitude": 42.4635206,
@@ -121,7 +121,7 @@
       "cities": []
     },
     {
-      "id": 4878,
+      "id": "XK-XKM",
       "name": "Mitrovica",
       "stateCode": "XKM",
       "latitude": 42.8913909,
@@ -131,7 +131,7 @@
       "cities": []
     },
     {
-      "id": 4879,
+      "id": "XK-XPI",
       "name": "Pristina",
       "stateCode": "XPI",
       "latitude": 42.6629138,
@@ -141,7 +141,7 @@
       "cities": []
     },
     {
-      "id": 5321,
+      "id": "XK-PEJ",
       "name": "Peja",
       "stateCode": "PEJ",
       "latitude": 42.7031709,
@@ -151,7 +151,7 @@
       "cities": []
     },
     {
-      "id": 5322,
+      "id": "XK-PRI",
       "name": "Prizren",
       "stateCode": "PRI",
       "latitude": 42.2324565,

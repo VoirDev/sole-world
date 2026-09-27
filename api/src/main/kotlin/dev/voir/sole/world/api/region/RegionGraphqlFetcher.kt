@@ -59,7 +59,7 @@ class RegionGraphqlFetcher(
     @DgsQuery
     fun regionsByIds(@InputArgument ids: List<String>): DataFetcherResult<List<Region>> {
         val language = GraphqlRequest.language()
-        val regions = regionStore.byIds(GraphqlRequest.longIds(ids, "ids"), language)
+        val regions = regionStore.byIds(GraphqlRequest.ids(ids, "ids"), language)
 
         return GraphqlRequest.localized(regions.map { it.toGql() }, language)
     }
@@ -72,7 +72,7 @@ class RegionGraphqlFetcher(
     @DgsQuery
     fun region(@InputArgument id: String): DataFetcherResult<Region> {
         val language = GraphqlRequest.language()
-        val region = regionStore.byId(GraphqlRequest.longId(id, "id"), language)
+        val region = regionStore.byId(id, language)
 
         return GraphqlRequest.localized(region?.toGql(), language)
     }
@@ -84,7 +84,7 @@ class RegionGraphqlFetcher(
         val language = GraphqlRequest.language(dfe)
 
         return subregionStore
-            .byRegionId(GraphqlRequest.longId(region.id, "id"), language)
+            .byRegionId(region.id, language)
             .map { it.toGql() }
     }
 
@@ -95,7 +95,7 @@ class RegionGraphqlFetcher(
         val language = GraphqlRequest.language(dfe)
 
         return countryStore
-            .byRegionId(GraphqlRequest.longId(region.id, "id"), language)
+            .byRegionId(region.id, language)
             .map { it.toGql() }
     }
 }

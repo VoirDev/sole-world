@@ -1,5 +1,5 @@
 {
-  "id": 127,
+  "id": "LU",
   "name": "Luxembourg",
   "nativeName": "Luxembourg",
   "iso2": "LU",
@@ -9,19 +9,19 @@
   "tld": ".lu",
   "latitude": 49.75,
   "longitude": 6.16666666,
-  "flagId": 117,
-  "regionId": 4,
-  "subregionId": 17,
+  "flagId": "lu",
+  "regionId": "europe",
+  "subregionId": "western-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2443
+    "Europe/Luxembourg"
   ],
   "officialLanguageIds": [
-    110,
-    33,
-    34
+    "lb",
+    "fr",
+    "de"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 1513,
+      "id": "LU-DI",
       "name": "Diekirch",
       "stateCode": "DI",
       "latitude": 49.8671784,
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "id": 1514,
+      "id": "LU-L",
       "name": "Luxembourg ",
       "stateCode": "L",
       "latitude": 49.5953706,
@@ -359,7 +359,7 @@
       ]
     },
     {
-      "id": 1515,
+      "id": "LU-EC",
       "name": "Echternach",
       "stateCode": "EC",
       "latitude": 49.8114133,
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": 1516,
+      "id": "LU-RD",
       "name": "Redange",
       "stateCode": "RD",
       "latitude": 49.76455,
@@ -514,7 +514,7 @@
       ]
     },
     {
-      "id": 1517,
+      "id": "LU-ES",
       "name": "Esch-sur-Alzette",
       "stateCode": "ES",
       "latitude": 49.5008805,
@@ -700,7 +700,7 @@
       ]
     },
     {
-      "id": 1518,
+      "id": "LU-CA",
       "name": "Capellen",
       "stateCode": "CA",
       "latitude": 49.6403931,
@@ -830,7 +830,7 @@
       ]
     },
     {
-      "id": 1519,
+      "id": "LU-RM",
       "name": "Remich",
       "stateCode": "RM",
       "latitude": 49.545017,
@@ -897,7 +897,7 @@
       ]
     },
     {
-      "id": 1520,
+      "id": "LU-G",
       "name": "Grevenmacher",
       "stateCode": "G",
       "latitude": 49.680851,
@@ -978,7 +978,7 @@
       ]
     },
     {
-      "id": 1521,
+      "id": "LU-CL",
       "name": "Clervaux",
       "stateCode": "CL",
       "latitude": 50.0546313,
@@ -1031,7 +1031,7 @@
       ]
     },
     {
-      "id": 1522,
+      "id": "LU-ME",
       "name": "Mersch",
       "stateCode": "ME",
       "latitude": 49.7542906,
@@ -1126,7 +1126,7 @@
       ]
     },
     {
-      "id": 1523,
+      "id": "LU-VD",
       "name": "Vianden",
       "stateCode": "VD",
       "latitude": 49.9341924,
@@ -1158,7 +1158,7 @@
       ]
     },
     {
-      "id": 1526,
+      "id": "LU-WI",
       "name": "Wiltz",
       "stateCode": "WI",
       "latitude": 49.96622,

@@ -1,5 +1,5 @@
 {
-  "id": 245,
+  "id": "YE",
   "name": "Yemen",
   "nativeName": "اليمن",
   "iso2": "YE",
@@ -9,17 +9,17 @@
   "tld": ".ye",
   "latitude": 15,
   "longitude": 48,
-  "flagId": 5,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "ye",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    985
+    "YER"
   ],
   "timezoneIds": [
-    2644
+    "Asia/Aden"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1231,
+      "id": "YE-TA",
       "name": "Ta'izz",
       "stateCode": "TA",
       "latitude": 13.5775886,
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "id": 1232,
+      "id": "YE-SA",
       "name": "Amanat Al Asimah",
       "stateCode": "SA",
       "latitude": 15.3694451,
@@ -286,7 +286,7 @@
       "cities": []
     },
     {
-      "id": 1233,
+      "id": "YE-IB",
       "name": "Ibb",
       "stateCode": "IB",
       "latitude": 14.1415717,
@@ -437,7 +437,7 @@
       ]
     },
     {
-      "id": 1234,
+      "id": "YE-MA",
       "name": "Ma'rib",
       "stateCode": "MA",
       "latitude": 15.515888,
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "id": 1235,
+      "id": "YE-MW",
       "name": "Al Mahwit",
       "stateCode": "MW",
       "latitude": 15.3963229,
@@ -627,7 +627,7 @@
       ]
     },
     {
-      "id": 1236,
+      "id": "YE-SN",
       "name": "Sana'a",
       "stateCode": "SN",
       "latitude": 15.3168913,
@@ -778,7 +778,7 @@
       ]
     },
     {
-      "id": 1237,
+      "id": "YE-AB",
       "name": "Abyan",
       "stateCode": "AB",
       "latitude": 13.6343413,
@@ -880,7 +880,7 @@
       ]
     },
     {
-      "id": 1238,
+      "id": "YE-HD",
       "name": "Hadhramaut",
       "stateCode": "HD",
       "latitude": 16.9304135,
@@ -1129,7 +1129,7 @@
       ]
     },
     {
-      "id": 1239,
+      "id": "YE-SU",
       "name": "Socotra",
       "stateCode": "SU",
       "latitude": 12.4634205,
@@ -1168,7 +1168,7 @@
       ]
     },
     {
-      "id": 1240,
+      "id": "YE-BA",
       "name": "Al Bayda'",
       "stateCode": "BA",
       "latitude": 14.3588662,
@@ -1326,7 +1326,7 @@
       ]
     },
     {
-      "id": 1241,
+      "id": "YE-HU",
       "name": "Al Hudaydah",
       "stateCode": "HU",
       "latitude": 15.3053072,
@@ -1519,7 +1519,7 @@
       ]
     },
     {
-      "id": 1242,
+      "id": "YE-AD",
       "name": "'Adan",
       "stateCode": "AD",
       "latitude": 12.8257481,
@@ -1586,7 +1586,7 @@
       ]
     },
     {
-      "id": 1243,
+      "id": "YE-JA",
       "name": "Al Jawf",
       "stateCode": "JA",
       "latitude": 16.7901819,
@@ -1688,7 +1688,7 @@
       ]
     },
     {
-      "id": 1244,
+      "id": "YE-HJ",
       "name": "Hajjah",
       "stateCode": "HJ",
       "latitude": 16.1180631,
@@ -1916,7 +1916,7 @@
       ]
     },
     {
-      "id": 1245,
+      "id": "YE-LA",
       "name": "Lahij",
       "stateCode": "LA",
       "latitude": 13.1489588,
@@ -2046,7 +2046,7 @@
       ]
     },
     {
-      "id": 1246,
+      "id": "YE-DH",
       "name": "Dhamar",
       "stateCode": "DH",
       "latitude": 14.7195344,
@@ -2148,7 +2148,7 @@
       ]
     },
     {
-      "id": 1247,
+      "id": "YE-SH",
       "name": "Shabwah",
       "stateCode": "SH",
       "latitude": 14.7546303,
@@ -2299,7 +2299,7 @@
       ]
     },
     {
-      "id": 1248,
+      "id": "YE-RA",
       "name": "Raymah",
       "stateCode": "RA",
       "latitude": 14.6277682,
@@ -2352,7 +2352,7 @@
       ]
     },
     {
-      "id": 1249,
+      "id": "YE-SD",
       "name": "Saada",
       "stateCode": "SD",
       "latitude": 16.8476528,
@@ -2482,7 +2482,7 @@
       ]
     },
     {
-      "id": 1250,
+      "id": "YE-AM",
       "name": "'Amran",
       "stateCode": "AM",
       "latitude": 16.2569214,
@@ -2633,7 +2633,7 @@
       ]
     },
     {
-      "id": 1251,
+      "id": "YE-MR",
       "name": "Al Mahrah",
       "stateCode": "MR",
       "latitude": 16.5238423,

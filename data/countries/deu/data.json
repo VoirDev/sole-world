@@ -1,5 +1,5 @@
 {
-  "id": 82,
+  "id": "DE",
   "name": "Germany",
   "nativeName": "Deutschland",
   "iso2": "DE",
@@ -9,18 +9,18 @@
   "tld": ".de",
   "latitude": 51,
   "longitude": 9,
-  "flagId": 194,
-  "regionId": 4,
-  "subregionId": 17,
+  "flagId": "de",
+  "regionId": "europe",
+  "subregionId": "western-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2385,
-    2386
+    "Europe/Berlin",
+    "Europe/Busingen"
   ],
   "officialLanguageIds": [
-    34
+    "de"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 3005,
+      "id": "DE-SH",
       "name": "Schleswig-Holstein",
       "stateCode": "SH",
       "latitude": 54.2193672,
@@ -2804,7 +2804,7 @@
       ]
     },
     {
-      "id": 3006,
+      "id": "DE-BW",
       "name": "Baden-Württemberg",
       "stateCode": "BW",
       "latitude": 48.6616037,
@@ -9430,7 +9430,7 @@
       ]
     },
     {
-      "id": 3007,
+      "id": "DE-MV",
       "name": "Mecklenburg-Vorpommern",
       "stateCode": "MV",
       "latitude": 53.6126505,
@@ -11212,7 +11212,7 @@
       ]
     },
     {
-      "id": 3008,
+      "id": "DE-NI",
       "name": "Lower Saxony",
       "stateCode": "NI",
       "latitude": 52.6367036,
@@ -16480,7 +16480,7 @@
       ]
     },
     {
-      "id": 3009,
+      "id": "DE-BY",
       "name": "Bavaria",
       "stateCode": "BY",
       "latitude": 48.7904472,
@@ -28790,7 +28790,7 @@
       ]
     },
     {
-      "id": 3010,
+      "id": "DE-BE",
       "name": "Berlin",
       "stateCode": "BE",
       "latitude": 52.5200066,
@@ -29480,7 +29480,7 @@
       ]
     },
     {
-      "id": 3011,
+      "id": "DE-ST",
       "name": "Saxony-Anhalt",
       "stateCode": "ST",
       "latitude": 51.9502649,
@@ -32074,7 +32074,7 @@
       ]
     },
     {
-      "id": 3013,
+      "id": "DE-BB",
       "name": "Brandenburg",
       "stateCode": "BB",
       "latitude": 52.4125287,
@@ -33604,7 +33604,7 @@
       ]
     },
     {
-      "id": 3014,
+      "id": "DE-HB",
       "name": "Bremen",
       "stateCode": "HB",
       "latitude": 53.0792962,
@@ -33643,7 +33643,7 @@
       ]
     },
     {
-      "id": 3015,
+      "id": "DE-TH",
       "name": "Thuringia",
       "stateCode": "TH",
       "latitude": 51.0109892,
@@ -35915,7 +35915,7 @@
       ]
     },
     {
-      "id": 3016,
+      "id": "DE-HH",
       "name": "Hamburg",
       "stateCode": "HH",
       "latitude": 53.5510846,
@@ -36185,7 +36185,7 @@
       ]
     },
     {
-      "id": 3017,
+      "id": "DE-NW",
       "name": "North Rhine-Westphalia",
       "stateCode": "NW",
       "latitude": 51.4332367,
@@ -39192,7 +39192,7 @@
       ]
     },
     {
-      "id": 3018,
+      "id": "DE-HE",
       "name": "Hessen",
       "stateCode": "HE",
       "latitude": 50.6520515,
@@ -41632,7 +41632,7 @@
       ]
     },
     {
-      "id": 3019,
+      "id": "DE-RP",
       "name": "Rhineland-Palatinate",
       "stateCode": "RP",
       "latitude": 50.118346,
@@ -46459,7 +46459,7 @@
       ]
     },
     {
-      "id": 3020,
+      "id": "DE-SL",
       "name": "Saarland",
       "stateCode": "SL",
       "latitude": 49.3964234,
@@ -46890,7 +46890,7 @@
       ]
     },
     {
-      "id": 3021,
+      "id": "DE-SN",
       "name": "Saxony",
       "stateCode": "SN",
       "latitude": 51.1045407,

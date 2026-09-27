@@ -1,5 +1,5 @@
 {
-  "id": 167,
+  "id": "PK",
   "name": "Pakistan",
   "nativeName": "پاکستان",
   "iso2": "PK",
@@ -9,18 +9,18 @@
   "tld": ".pk",
   "latitude": 30,
   "longitude": 70,
-  "flagId": 73,
-  "regionId": 3,
-  "subregionId": 14,
+  "flagId": "pk",
+  "regionId": "asia",
+  "subregionId": "southern-asia",
   "currencyIds": [
-    937
+    "PKR"
   ],
   "timezoneIds": [
-    2500
+    "Asia/Karachi"
   ],
   "officialLanguageIds": [
-    30,
-    174
+    "en",
+    "ur"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 3169,
+      "id": "PK-IS",
       "name": "Islamabad",
       "stateCode": "IS",
       "latitude": 33.7204997,
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "id": 3170,
+      "id": "PK-GB",
       "name": "Gilgit-Baltistan",
       "stateCode": "GB",
       "latitude": 35.8025667,
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "id": 3171,
+      "id": "PK-KP",
       "name": "Khyber Pakhtunkhwa",
       "stateCode": "KP",
       "latitude": 34.9526205,
@@ -495,7 +495,7 @@
       ]
     },
     {
-      "id": 3172,
+      "id": "PK-JK",
       "name": "Azad Kashmir",
       "stateCode": "JK",
       "latitude": 33.9259055,
@@ -555,7 +555,7 @@
       ]
     },
     {
-      "id": 3173,
+      "id": "PK-TA",
       "name": "Federally Administered Tribal Areas",
       "stateCode": "TA",
       "latitude": 32.667476,
@@ -622,7 +622,7 @@
       ]
     },
     {
-      "id": 3174,
+      "id": "PK-BA",
       "name": "Balochistan",
       "stateCode": "BA",
       "latitude": 28.4907332,
@@ -1032,7 +1032,7 @@
       ]
     },
     {
-      "id": 3175,
+      "id": "PK-SD",
       "name": "Sindh",
       "stateCode": "SD",
       "latitude": 25.8943018,
@@ -1876,7 +1876,7 @@
       ]
     },
     {
-      "id": 3176,
+      "id": "PK-PB",
       "name": "Punjab",
       "stateCode": "PB",
       "latitude": 31.1471305,

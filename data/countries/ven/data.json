@@ -1,5 +1,5 @@
 {
-  "id": 239,
+  "id": "VE",
   "name": "Venezuela",
   "nativeName": "Venezuela",
   "iso2": "VE",
@@ -9,17 +9,17 @@
   "tld": ".ve",
   "latitude": 8,
   "longitude": -66,
-  "flagId": 13,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "ve",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    983
+    "VES"
   ],
   "timezoneIds": [
-    2638
+    "America/Caracas"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2034,
+      "id": "VE-H",
       "name": "Cojedes",
       "stateCode": "H",
       "latitude": 9.3816682,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 2035,
+      "id": "VE-I",
       "name": "Falcón",
       "stateCode": "I",
       "latitude": 11.1810674,
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "id": 2036,
+      "id": "VE-P",
       "name": "Portuguesa",
       "stateCode": "P",
       "latitude": 9.0943999,
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "id": 2037,
+      "id": "VE-M",
       "name": "Miranda",
       "stateCode": "M",
       "latitude": 42.3519383,
@@ -351,7 +351,7 @@
       ]
     },
     {
-      "id": 2038,
+      "id": "VE-K",
       "name": "Lara",
       "stateCode": "K",
       "latitude": 33.9822165,
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "id": 2039,
+      "id": "VE-F",
       "name": "Bolívar",
       "stateCode": "F",
       "latitude": 37.6144838,
@@ -450,7 +450,7 @@
       ]
     },
     {
-      "id": 2040,
+      "id": "VE-G",
       "name": "Carabobo",
       "stateCode": "G",
       "latitude": 10.1176433,
@@ -531,7 +531,7 @@
       ]
     },
     {
-      "id": 2041,
+      "id": "VE-U",
       "name": "Yaracuy",
       "stateCode": "U",
       "latitude": 10.339389,
@@ -577,7 +577,7 @@
       ]
     },
     {
-      "id": 2042,
+      "id": "VE-V",
       "name": "Zulia",
       "stateCode": "V",
       "latitude": 10.2910237,
@@ -644,7 +644,7 @@
       ]
     },
     {
-      "id": 2043,
+      "id": "VE-T",
       "name": "Trujillo",
       "stateCode": "T",
       "latitude": 36.6734343,
@@ -690,7 +690,7 @@
       ]
     },
     {
-      "id": 2044,
+      "id": "VE-Z",
       "name": "Amazonas",
       "stateCode": "Z",
       "latitude": -3.4168427,
@@ -743,7 +743,7 @@
       ]
     },
     {
-      "id": 2045,
+      "id": "VE-J",
       "name": "Guárico",
       "stateCode": "J",
       "latitude": 8.7489309,
@@ -789,7 +789,7 @@
       ]
     },
     {
-      "id": 2046,
+      "id": "VE-W",
       "name": "Venezuela",
       "stateCode": "W",
       "latitude": 10.9377053,
@@ -799,7 +799,7 @@
       "cities": []
     },
     {
-      "id": 2047,
+      "id": "VE-D",
       "name": "Aragua",
       "stateCode": "D",
       "latitude": 10.0635758,
@@ -880,7 +880,7 @@
       ]
     },
     {
-      "id": 2048,
+      "id": "VE-S",
       "name": "Táchira",
       "stateCode": "S",
       "latitude": 7.9137001,
@@ -947,7 +947,7 @@
       ]
     },
     {
-      "id": 2049,
+      "id": "VE-E",
       "name": "Barinas",
       "stateCode": "E",
       "latitude": 8.6231498,
@@ -986,7 +986,7 @@
       ]
     },
     {
-      "id": 2050,
+      "id": "VE-B",
       "name": "Anzoátegui",
       "stateCode": "B",
       "latitude": 8.5913073,
@@ -1067,7 +1067,7 @@
       ]
     },
     {
-      "id": 2051,
+      "id": "VE-Y",
       "name": "Delta Amacuro",
       "stateCode": "Y",
       "latitude": 8.8499307,
@@ -1085,7 +1085,7 @@
       ]
     },
     {
-      "id": 2052,
+      "id": "VE-O",
       "name": "Nueva Esparta",
       "stateCode": "O",
       "latitude": 10.9970723,
@@ -1117,7 +1117,7 @@
       ]
     },
     {
-      "id": 2053,
+      "id": "VE-L",
       "name": "Mérida",
       "stateCode": "L",
       "latitude": 20.9673702,
@@ -1163,7 +1163,7 @@
       ]
     },
     {
-      "id": 2054,
+      "id": "VE-N",
       "name": "Monagas",
       "stateCode": "N",
       "latitude": 9.3241652,
@@ -1202,7 +1202,7 @@
       ]
     },
     {
-      "id": 2055,
+      "id": "VE-X",
       "name": "La Guaira",
       "stateCode": "X",
       "latitude": 29.3052268,
@@ -1241,7 +1241,7 @@
       ]
     },
     {
-      "id": 2056,
+      "id": "VE-R",
       "name": "Sucre",
       "stateCode": "R",
       "latitude": -19.035345,
@@ -1280,7 +1280,7 @@
       ]
     },
     {
-      "id": 4855,
+      "id": "VE-A",
       "name": "Distrito Capital",
       "stateCode": "A",
       "latitude": 41.2614846,
@@ -1298,7 +1298,7 @@
       ]
     },
     {
-      "id": 4856,
+      "id": "VE-C",
       "name": "Apure",
       "stateCode": "C",
       "latitude": 6.9269483,

@@ -1,5 +1,5 @@
 {
-  "id": 233,
+  "id": "US",
   "name": "United States",
   "nativeName": "United States",
   "iso2": "US",
@@ -9,45 +9,45 @@
   "tld": ".us",
   "latitude": 38,
   "longitude": -97,
-  "flagId": 18,
-  "regionId": 2,
-  "subregionId": 6,
+  "flagId": "us",
+  "regionId": "americas",
+  "subregionId": "northern-america",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2602,
-    2603,
-    2604,
-    2605,
-    2606,
-    2607,
-    2608,
-    2609,
-    2610,
-    2611,
-    2612,
-    2613,
-    2614,
-    2615,
-    2616,
-    2617,
-    2618,
-    2619,
-    2620,
-    2621,
-    2622,
-    2623,
-    2624,
-    2625,
-    2626,
-    2627,
-    2628,
-    2629,
-    2630
+    "America/Adak",
+    "America/Anchorage",
+    "America/Boise",
+    "America/Chicago",
+    "America/Denver",
+    "America/Detroit",
+    "America/Indiana/Indianapolis",
+    "America/Indiana/Knox",
+    "America/Indiana/Marengo",
+    "America/Indiana/Petersburg",
+    "America/Indiana/Tell_City",
+    "America/Indiana/Vevay",
+    "America/Indiana/Vincennes",
+    "America/Indiana/Winamac",
+    "America/Juneau",
+    "America/Kentucky/Louisville",
+    "America/Kentucky/Monticello",
+    "America/Los_Angeles",
+    "America/Menominee",
+    "America/Metlakatla",
+    "America/New_York",
+    "America/Nome",
+    "America/North_Dakota/Beulah",
+    "America/North_Dakota/Center",
+    "America/North_Dakota/New_Salem",
+    "America/Phoenix",
+    "America/Sitka",
+    "America/Yakutat",
+    "Pacific/Honolulu"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -118,17 +118,7 @@
   ],
   "states": [
     {
-      "id": 1398,
-      "name": "Howland Island",
-      "stateCode": "UM-84",
-      "latitude": 0.8113219,
-      "longitude": -176.6182736,
-      "type": "islands / groups of islands",
-      "translations": [],
-      "cities": []
-    },
-    {
-      "id": 1399,
+      "id": "US-DE",
       "name": "Delaware",
       "stateCode": "DE",
       "latitude": 38.9108325,
@@ -517,7 +507,7 @@
       ]
     },
     {
-      "id": 1400,
+      "id": "US-AK",
       "name": "Alaska",
       "stateCode": "AK",
       "latitude": 64.2008413,
@@ -1200,7 +1190,7 @@
       ]
     },
     {
-      "id": 1401,
+      "id": "US-MD",
       "name": "Maryland",
       "stateCode": "MD",
       "latitude": 39.0457549,
@@ -3759,27 +3749,7 @@
       ]
     },
     {
-      "id": 1402,
-      "name": "Baker Island",
-      "stateCode": "UM-81",
-      "latitude": 0.1936266,
-      "longitude": -176.476908,
-      "type": "islands / groups of islands",
-      "translations": [],
-      "cities": []
-    },
-    {
-      "id": 1403,
-      "name": "Kingman Reef",
-      "stateCode": "UM-89",
-      "latitude": 6.383333,
-      "longitude": -162.416667,
-      "type": "islands / groups of islands",
-      "translations": [],
-      "cities": []
-    },
-    {
-      "id": 1404,
+      "id": "US-NH",
       "name": "New Hampshire",
       "stateCode": "NH",
       "latitude": 43.1938516,
@@ -5092,17 +5062,7 @@
       ]
     },
     {
-      "id": 1405,
-      "name": "Wake Island",
-      "stateCode": "UM-79",
-      "latitude": 19.279619,
-      "longitude": 166.6499348,
-      "type": "islands / groups of islands",
-      "translations": [],
-      "cities": []
-    },
-    {
-      "id": 1406,
+      "id": "US-KS",
       "name": "Kansas",
       "stateCode": "KS",
       "latitude": 39.011902,
@@ -7346,7 +7306,7 @@
       ]
     },
     {
-      "id": 1407,
+      "id": "US-TX",
       "name": "Texas",
       "stateCode": "TX",
       "latitude": 31.9685988,
@@ -16296,7 +16256,7 @@
       ]
     },
     {
-      "id": 1408,
+      "id": "US-NE",
       "name": "Nebraska",
       "stateCode": "NE",
       "latitude": 41.4925374,
@@ -17973,7 +17933,7 @@
       ]
     },
     {
-      "id": 1409,
+      "id": "US-VT",
       "name": "Vermont",
       "stateCode": "VT",
       "latitude": 44.5588028,
@@ -18656,17 +18616,7 @@
       ]
     },
     {
-      "id": 1410,
-      "name": "Jarvis Island",
-      "stateCode": "UM-86",
-      "latitude": -0.3743503,
-      "longitude": -159.9967206,
-      "type": "islands / groups of islands",
-      "translations": [],
-      "cities": []
-    },
-    {
-      "id": 1411,
+      "id": "US-HI",
       "name": "Hawaii",
       "stateCode": "HI",
       "latitude": 19.8967662,
@@ -19524,7 +19474,7 @@
       ]
     },
     {
-      "id": 1412,
+      "id": "US-GU",
       "name": "Guam",
       "stateCode": "GU",
       "latitude": 13.444304,
@@ -19534,7 +19484,7 @@
       "cities": []
     },
     {
-      "id": 1413,
+      "id": "US-VI",
       "name": "United States Virgin Islands",
       "stateCode": "VI",
       "latitude": 18.335765,
@@ -19544,7 +19494,7 @@
       "cities": []
     },
     {
-      "id": 1414,
+      "id": "US-UT",
       "name": "Utah",
       "stateCode": "UT",
       "latitude": 39.3209801,
@@ -21004,7 +20954,7 @@
       ]
     },
     {
-      "id": 1415,
+      "id": "US-OR",
       "name": "Oregon",
       "stateCode": "OR",
       "latitude": 43.8041334,
@@ -22800,7 +22750,7 @@
       ]
     },
     {
-      "id": 1416,
+      "id": "US-CA",
       "name": "California",
       "stateCode": "CA",
       "latitude": 36.778261,
@@ -30679,7 +30629,7 @@
       ]
     },
     {
-      "id": 1417,
+      "id": "US-NJ",
       "name": "New Jersey",
       "stateCode": "NJ",
       "latitude": 40.0583238,
@@ -34561,7 +34511,7 @@
       ]
     },
     {
-      "id": 1418,
+      "id": "US-ND",
       "name": "North Dakota",
       "stateCode": "ND",
       "latitude": 47.5514926,
@@ -35503,7 +35453,7 @@
       ]
     },
     {
-      "id": 1419,
+      "id": "US-KY",
       "name": "Kentucky",
       "stateCode": "KY",
       "latitude": 37.8393332,
@@ -38230,7 +38180,7 @@
       ]
     },
     {
-      "id": 1420,
+      "id": "US-MN",
       "name": "Minnesota",
       "stateCode": "MN",
       "latitude": 46.729553,
@@ -41461,7 +41411,7 @@
       ]
     },
     {
-      "id": 1421,
+      "id": "US-OK",
       "name": "Oklahoma",
       "stateCode": "OK",
       "latitude": 35.4675602,
@@ -43712,7 +43662,7 @@
       ]
     },
     {
-      "id": 1422,
+      "id": "US-PA",
       "name": "Pennsylvania",
       "stateCode": "PA",
       "latitude": 41.2033216,
@@ -51101,7 +51051,7 @@
       ]
     },
     {
-      "id": 1423,
+      "id": "US-NM",
       "name": "New Mexico",
       "stateCode": "NM",
       "latitude": 34.5199402,
@@ -52386,7 +52336,7 @@
       ]
     },
     {
-      "id": 1424,
+      "id": "US-AS",
       "name": "American Samoa",
       "stateCode": "AS",
       "latitude": -14.270972,
@@ -52396,7 +52346,7 @@
       "cities": []
     },
     {
-      "id": 1425,
+      "id": "US-IL",
       "name": "Illinois",
       "stateCode": "IL",
       "latitude": 40.6331249,
@@ -58392,7 +58342,7 @@
       ]
     },
     {
-      "id": 1426,
+      "id": "US-MI",
       "name": "Michigan",
       "stateCode": "MI",
       "latitude": 44.3148443,
@@ -62085,7 +62035,7 @@
       ]
     },
     {
-      "id": 1427,
+      "id": "US-VA",
       "name": "Virginia",
       "stateCode": "VA",
       "latitude": 37.4315734,
@@ -65617,17 +65567,7 @@
       ]
     },
     {
-      "id": 1428,
-      "name": "Johnston Atoll",
-      "stateCode": "UM-67",
-      "latitude": 16.7295035,
-      "longitude": -169.5336477,
-      "type": "islands / groups of islands",
-      "translations": [],
-      "cities": []
-    },
-    {
-      "id": 1429,
+      "id": "US-WV",
       "name": "West Virginia",
       "stateCode": "WV",
       "latitude": 38.5976262,
@@ -67164,7 +67104,7 @@
       ]
     },
     {
-      "id": 1430,
+      "id": "US-MS",
       "name": "Mississippi",
       "stateCode": "MS",
       "latitude": 32.3546679,
@@ -69240,7 +69180,7 @@
       ]
     },
     {
-      "id": 1431,
+      "id": "US-MP",
       "name": "Northern Mariana Islands",
       "stateCode": "MP",
       "latitude": 15.0979,
@@ -69250,7 +69190,7 @@
       "cities": []
     },
     {
-      "id": 1432,
+      "id": "US-UM",
       "name": "United States Minor Outlying Islands",
       "stateCode": "UM",
       "latitude": 19.2823192,
@@ -69260,7 +69200,7 @@
       "cities": []
     },
     {
-      "id": 1433,
+      "id": "US-MA",
       "name": "Massachusetts",
       "stateCode": "MA",
       "latitude": 42.4072107,
@@ -72106,7 +72046,7 @@
       ]
     },
     {
-      "id": 1434,
+      "id": "US-AZ",
       "name": "Arizona",
       "stateCode": "AZ",
       "latitude": 34.0489281,
@@ -73706,7 +73646,7 @@
       ]
     },
     {
-      "id": 1435,
+      "id": "US-CT",
       "name": "Connecticut",
       "stateCode": "CT",
       "latitude": 41.6032207,
@@ -75061,7 +75001,7 @@
       ]
     },
     {
-      "id": 1436,
+      "id": "US-FL",
       "name": "Florida",
       "stateCode": "FL",
       "latitude": 27.6648274,
@@ -80987,7 +80927,7 @@
       ]
     },
     {
-      "id": 1437,
+      "id": "US-DC",
       "name": "District of Columbia",
       "stateCode": "DC",
       "latitude": 38.9071923,
@@ -81033,27 +80973,7 @@
       ]
     },
     {
-      "id": 1438,
-      "name": "Midway Atoll",
-      "stateCode": "UM-71",
-      "latitude": 28.2072168,
-      "longitude": -177.3734926,
-      "type": "islands / groups of islands",
-      "translations": [],
-      "cities": []
-    },
-    {
-      "id": 1439,
-      "name": "Navassa Island",
-      "stateCode": "UM-76",
-      "latitude": 18.4100689,
-      "longitude": -75.0114612,
-      "type": "islands / groups of islands",
-      "translations": [],
-      "cities": []
-    },
-    {
-      "id": 1440,
+      "id": "US-IN",
       "name": "Indiana",
       "stateCode": "IN",
       "latitude": 40.2671941,
@@ -84102,7 +84022,7 @@
       ]
     },
     {
-      "id": 1441,
+      "id": "US-WI",
       "name": "Wisconsin",
       "stateCode": "WI",
       "latitude": 43.7844397,
@@ -87557,7 +87477,7 @@
       ]
     },
     {
-      "id": 1442,
+      "id": "US-WY",
       "name": "Wyoming",
       "stateCode": "WY",
       "latitude": 43.0759678,
@@ -88128,7 +88048,7 @@
       ]
     },
     {
-      "id": 1443,
+      "id": "US-SC",
       "name": "South Carolina",
       "stateCode": "SC",
       "latitude": 33.836081,
@@ -90120,7 +90040,7 @@
       ]
     },
     {
-      "id": 1444,
+      "id": "US-AR",
       "name": "Arkansas",
       "stateCode": "AR",
       "latitude": 35.20105,
@@ -92140,7 +92060,7 @@
       ]
     },
     {
-      "id": 1445,
+      "id": "US-SD",
       "name": "South Dakota",
       "stateCode": "SD",
       "latitude": 43.9695148,
@@ -93320,7 +93240,7 @@
       ]
     },
     {
-      "id": 1446,
+      "id": "US-MT",
       "name": "Montana",
       "stateCode": "MT",
       "latitude": 46.8796822,
@@ -94458,7 +94378,7 @@
       ]
     },
     {
-      "id": 1447,
+      "id": "US-NC",
       "name": "North Carolina",
       "stateCode": "NC",
       "latitude": 35.7595731,
@@ -98347,17 +98267,7 @@
       ]
     },
     {
-      "id": 1448,
-      "name": "Palmyra Atoll",
-      "stateCode": "UM-95",
-      "latitude": 5.8885026,
-      "longitude": -162.0786656,
-      "type": "islands / groups of islands",
-      "translations": [],
-      "cities": []
-    },
-    {
-      "id": 1449,
+      "id": "US-PR",
       "name": "Puerto Rico",
       "stateCode": "PR",
       "latitude": 18.220833,
@@ -100153,7 +100063,7 @@
       ]
     },
     {
-      "id": 1450,
+      "id": "US-CO",
       "name": "Colorado",
       "stateCode": "CO",
       "latitude": 39.5500507,
@@ -102187,7 +102097,7 @@
       ]
     },
     {
-      "id": 1451,
+      "id": "US-MO",
       "name": "Missouri",
       "stateCode": "MO",
       "latitude": 37.9642529,
@@ -105768,7 +105678,7 @@
       ]
     },
     {
-      "id": 1452,
+      "id": "US-NY",
       "name": "New York",
       "stateCode": "NY",
       "latitude": 40.7127753,
@@ -113129,7 +113039,7 @@
       ]
     },
     {
-      "id": 1453,
+      "id": "US-ME",
       "name": "Maine",
       "stateCode": "ME",
       "latitude": 45.253783,
@@ -115037,7 +114947,7 @@
       ]
     },
     {
-      "id": 1454,
+      "id": "US-TN",
       "name": "Tennessee",
       "stateCode": "TN",
       "latitude": 35.5174913,
@@ -117757,7 +117667,7 @@
       ]
     },
     {
-      "id": 1455,
+      "id": "US-GA",
       "name": "Georgia",
       "stateCode": "GA",
       "latitude": 32.1656221,
@@ -121506,7 +121416,7 @@
       ]
     },
     {
-      "id": 1456,
+      "id": "US-AL",
       "name": "Alabama",
       "stateCode": "AL",
       "latitude": 32.3182314,
@@ -124163,7 +124073,7 @@
       ]
     },
     {
-      "id": 1457,
+      "id": "US-LA",
       "name": "Louisiana",
       "stateCode": "LA",
       "latitude": 30.9842977,
@@ -126582,7 +126492,7 @@
       ]
     },
     {
-      "id": 1458,
+      "id": "US-NV",
       "name": "Nevada",
       "stateCode": "NV",
       "latitude": 38.8026097,
@@ -127167,7 +127077,7 @@
       ]
     },
     {
-      "id": 1459,
+      "id": "US-IA",
       "name": "Iowa",
       "stateCode": "IA",
       "latitude": 41.8780025,
@@ -129859,7 +129769,7 @@
       ]
     },
     {
-      "id": 1460,
+      "id": "US-ID",
       "name": "Idaho",
       "stateCode": "ID",
       "latitude": 44.0682019,
@@ -130864,7 +130774,7 @@
       ]
     },
     {
-      "id": 1461,
+      "id": "US-RI",
       "name": "Rhode Island",
       "stateCode": "RI",
       "latitude": 41.5800945,
@@ -131253,7 +131163,7 @@
       ]
     },
     {
-      "id": 1462,
+      "id": "US-WA",
       "name": "Washington",
       "stateCode": "WA",
       "latitude": 47.7510741,
@@ -134295,7 +134205,7 @@
       ]
     },
     {
-      "id": 4851,
+      "id": "US-OH",
       "name": "Ohio",
       "stateCode": "OH",
       "latitude": 40.4172871,

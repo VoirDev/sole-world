@@ -9,11 +9,11 @@ import org.junit.jupiter.api.Test
 /** Covers the cryptocurrency resource on the REST transport. */
 class CryptoRestIntegrationTest : BaseRestIntegrationTest() {
     @Test
-    fun `a coin resolves by id, ticker and alias`() {
-        assertEquals("Freecoin", get("/v1/cryptos/1")["name"].stringValue())
+    fun `a coin resolves by its alias id and by its ticker, in any case`() {
+        assertEquals("Freecoin", get("/v1/cryptos/freecoin")["name"].stringValue())
+        assertEquals("Freecoin", get("/v1/cryptos/FREECOIN")["name"].stringValue())
         assertEquals("Freecoin", get("/v1/cryptos/frc")["name"].stringValue())
         assertEquals("Freecoin", get("/v1/cryptos/FRC")["name"].stringValue())
-        assertEquals("Freecoin", get("/v1/cryptos/freecoin")["name"].stringValue())
     }
 
     @Test
@@ -25,14 +25,14 @@ class CryptoRestIntegrationTest : BaseRestIntegrationTest() {
     fun `every published field is carried`() {
         val coin = get("/v1/cryptos/frc")
 
-        assertEquals(1, coin["id"].intValue())
+        assertEquals("freecoin", coin["id"].stringValue())
         assertEquals("frc", coin["code"].stringValue())
-        assertEquals("freecoin", coin["alias"].stringValue())
+        assertNull(coin["alias"], "the alias is the id, not a field of its own")
         assertEquals("The coin of Freedonia.", coin["description"].stringValue())
         assertEquals("https://freecoin.example", coin["websiteUrl"].stringValue())
         assertEquals(2011, coin["introducedYear"].intValue())
         assertEquals(8, coin["decimalDigits"].intValue())
-        assertEquals(9001, coin["logoId"].intValue())
+        assertEquals("flag-fd-square", coin["logoId"].stringValue())
         assertEquals(false, coin["obsolete"].booleanValue())
     }
 
@@ -40,7 +40,7 @@ class CryptoRestIntegrationTest : BaseRestIntegrationTest() {
     fun `a coin embeds the logo it points at`() {
         val coin = get("/v1/cryptos/frc?include=logo")
 
-        assertEquals(9001, coin.at("/logo/id").intValue())
+        assertEquals("flag-fd-square", coin.at("/logo/id").stringValue())
         assertEquals("/assets/flags/fd_1x1.svg", coin.at("/logo/image/formats/svg").stringValue())
     }
 

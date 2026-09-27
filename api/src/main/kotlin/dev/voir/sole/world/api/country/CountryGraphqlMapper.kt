@@ -10,7 +10,7 @@ import dev.voir.sole.world.graphql.dto.types.Country
  * @return GraphQL country type.
  */
 fun CountryData.toGql() = Country(
-    id = id.toString(),
+    id = id,
     name = name,
     nativeName = nativeName,
     iso3 = iso3,
@@ -19,9 +19,9 @@ fun CountryData.toGql() = Country(
     phoneCode = phoneCode,
     tld = tld,
     coordinates = Coordinates(latitude = latitude, longitude = longitude),
-    regionId = regionId.toString(),
-    subregionId = subregionId.toString(),
-    flagId = flagId?.toString(),
+    regionId = regionId,
+    subregionId = subregionId,
+    flagId = flagId,
     states = EmptyPage.STATES,
     cities = EmptyPage.CITIES,
 )

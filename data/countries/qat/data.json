@@ -1,5 +1,5 @@
 {
-  "id": 179,
+  "id": "QA",
   "name": "Qatar",
   "nativeName": "قطر",
   "iso2": "QA",
@@ -9,17 +9,17 @@
   "tld": ".qa",
   "latitude": 25.5,
   "longitude": 51.25,
-  "flagId": 64,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "qa",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    944
+    "QAR"
   ],
   "timezoneIds": [
-    2516
+    "Asia/Qatar"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3177,
+      "id": "QA-RA",
       "name": "Al Rayyan",
       "stateCode": "RA",
       "latitude": 25.2522551,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 3178,
+      "id": "QA-SH",
       "name": "Al-Shahaniya",
       "stateCode": "SH",
       "latitude": 25.4106386,
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "id": 3179,
+      "id": "QA-WA",
       "name": "Al Wakrah",
       "stateCode": "WA",
       "latitude": 25.1659314,
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "id": 3180,
+      "id": "QA-MS",
       "name": "Madinat ash Shamal",
       "stateCode": "MS",
       "latitude": 26.1182743,
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "id": 3181,
+      "id": "QA-DA",
       "name": "Doha",
       "stateCode": "DA",
       "latitude": 25.2854473,
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "id": 3182,
+      "id": "QA-ZA",
       "name": "Al Daayen",
       "stateCode": "ZA",
       "latitude": 25.5784559,
@@ -239,7 +239,7 @@
       "cities": []
     },
     {
-      "id": 3183,
+      "id": "QA-KH",
       "name": "Al Khor",
       "stateCode": "KH",
       "latitude": 25.6804078,
@@ -264,7 +264,7 @@
       ]
     },
     {
-      "id": 3184,
+      "id": "QA-US",
       "name": "Umm Salal",
       "stateCode": "US",
       "latitude": 25.4875242,

@@ -1,6 +1,6 @@
 [
   {
-    "id": 834,
+    "id": "AFN",
     "iso3": "AFN",
     "isoNumeric": "971",
     "name": "Afghan afghani",
@@ -12,7 +12,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "؋",
-    "flagId": 245,
+    "flagId": "af",
     "translations": [
       {
         "languageCode": "ko",
@@ -83,7 +83,7 @@
     "popularity": 16
   },
   {
-    "id": 835,
+    "id": "EUR",
     "iso3": "EUR",
     "isoNumeric": "978",
     "name": "Euro",
@@ -95,7 +95,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "€",
-    "flagId": 181,
+    "flagId": "eu",
     "translations": [
       {
         "languageCode": "ko",
@@ -166,7 +166,7 @@
     "popularity": 96
   },
   {
-    "id": 836,
+    "id": "ALL",
     "iso3": "ALL",
     "isoNumeric": "008",
     "name": "Albanian lek",
@@ -178,7 +178,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "L",
-    "flagId": 242,
+    "flagId": "al",
     "translations": [
       {
         "languageCode": "ko",
@@ -249,7 +249,7 @@
     "popularity": 25
   },
   {
-    "id": 837,
+    "id": "DZD",
     "iso3": "DZD",
     "isoNumeric": "012",
     "name": "Algerian dinar",
@@ -261,7 +261,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "د.ج",
-    "flagId": 189,
+    "flagId": "dz",
     "translations": [
       {
         "languageCode": "ko",
@@ -332,7 +332,7 @@
     "popularity": 33
   },
   {
-    "id": 838,
+    "id": "USD",
     "iso3": "USD",
     "isoNumeric": "840",
     "name": "United States dollar",
@@ -344,7 +344,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "$",
-    "flagId": 18,
+    "flagId": "us",
     "translations": [
       {
         "languageCode": "ko",
@@ -415,7 +415,7 @@
     "popularity": 100
   },
   {
-    "id": 839,
+    "id": "AOA",
     "iso3": "AOA",
     "isoNumeric": "973",
     "name": "Angolan kwanza",
@@ -427,7 +427,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Kz",
-    "flagId": 240,
+    "flagId": "ao",
     "translations": [
       {
         "languageCode": "ko",
@@ -498,7 +498,7 @@
     "popularity": 26
   },
   {
-    "id": 840,
+    "id": "XCD",
     "iso3": "XCD",
     "isoNumeric": "951",
     "name": "Eastern Caribbean dollar",
@@ -510,7 +510,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "EC$",
-    "flagId": 191,
+    "flagId": "dm",
     "translations": [
       {
         "languageCode": "ko",
@@ -581,7 +581,7 @@
     "popularity": 22
   },
   {
-    "id": 841,
+    "id": "ARS",
     "iso3": "ARS",
     "isoNumeric": "032",
     "name": "Argentine peso",
@@ -593,7 +593,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "$",
-    "flagId": 239,
+    "flagId": "ar",
     "translations": [
       {
         "languageCode": "ko",
@@ -664,7 +664,7 @@
     "popularity": 44
   },
   {
-    "id": 842,
+    "id": "AMD",
     "iso3": "AMD",
     "isoNumeric": "051",
     "name": "Armenian dram",
@@ -676,7 +676,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "֏",
-    "flagId": 241,
+    "flagId": "am",
     "translations": [
       {
         "languageCode": "ko",
@@ -747,7 +747,7 @@
     "popularity": 25
   },
   {
-    "id": 843,
+    "id": "AWG",
     "iso3": "AWG",
     "isoNumeric": "533",
     "name": "Aruban florin",
@@ -759,7 +759,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Afl.",
-    "flagId": 234,
+    "flagId": "aw",
     "translations": [
       {
         "languageCode": "ko",
@@ -830,7 +830,7 @@
     "popularity": 16
   },
   {
-    "id": 844,
+    "id": "AUD",
     "iso3": "AUD",
     "isoNumeric": "036",
     "name": "Australian dollar",
@@ -842,7 +842,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "A$",
-    "flagId": 236,
+    "flagId": "au",
     "translations": [
       {
         "languageCode": "ko",
@@ -913,7 +913,7 @@
     "popularity": 80
   },
   {
-    "id": 845,
+    "id": "AZN",
     "iso3": "AZN",
     "isoNumeric": "944",
     "name": "Azerbaijani manat",
@@ -925,7 +925,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₼",
-    "flagId": 232,
+    "flagId": "az",
     "translations": [
       {
         "languageCode": "ko",
@@ -996,7 +996,7 @@
     "popularity": 26
   },
   {
-    "id": 846,
+    "id": "BHD",
     "iso3": "BHD",
     "isoNumeric": "048",
     "name": "Bahraini dinar",
@@ -1008,7 +1008,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "د.ب",
-    "flagId": 226,
+    "flagId": "bh",
     "translations": [
       {
         "languageCode": "ko",
@@ -1079,7 +1079,7 @@
     "popularity": 36
   },
   {
-    "id": 847,
+    "id": "BDT",
     "iso3": "BDT",
     "isoNumeric": "050",
     "name": "Bangladeshi taka",
@@ -1091,7 +1091,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "৳",
-    "flagId": 230,
+    "flagId": "bd",
     "translations": [
       {
         "languageCode": "ko",
@@ -1162,7 +1162,7 @@
     "popularity": 43
   },
   {
-    "id": 848,
+    "id": "BBD",
     "iso3": "BBD",
     "isoNumeric": "052",
     "name": "Barbadian dollar",
@@ -1174,7 +1174,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Bds$",
-    "flagId": 231,
+    "flagId": "bb",
     "translations": [
       {
         "languageCode": "ko",
@@ -1245,7 +1245,7 @@
     "popularity": 20
   },
   {
-    "id": 849,
+    "id": "BYN",
     "iso3": "BYN",
     "isoNumeric": "933",
     "name": "Belarusian ruble",
@@ -1257,7 +1257,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Br",
-    "flagId": 214,
+    "flagId": "by",
     "translations": [
       {
         "languageCode": "ko",
@@ -1328,7 +1328,7 @@
     "popularity": 26
   },
   {
-    "id": 850,
+    "id": "BZD",
     "iso3": "BZD",
     "isoNumeric": "084",
     "name": "Belize dollar",
@@ -1340,7 +1340,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "BZ$",
-    "flagId": 213,
+    "flagId": "bz",
     "translations": [
       {
         "languageCode": "ko",
@@ -1411,7 +1411,7 @@
     "popularity": 16
   },
   {
-    "id": 851,
+    "id": "XOF",
     "iso3": "XOF",
     "isoNumeric": "952",
     "name": "West African CFA franc",
@@ -1423,7 +1423,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "CFA",
-    "flagId": 224,
+    "flagId": "bj",
     "translations": [
       {
         "languageCode": "ko",
@@ -1494,7 +1494,7 @@
     "popularity": 34
   },
   {
-    "id": 852,
+    "id": "BMD",
     "iso3": "BMD",
     "isoNumeric": "060",
     "name": "Bermudian dollar",
@@ -1506,7 +1506,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "BD$",
-    "flagId": 222,
+    "flagId": "bm",
     "translations": [
       {
         "languageCode": "ko",
@@ -1577,7 +1577,7 @@
     "popularity": 18
   },
   {
-    "id": 853,
+    "id": "BTN",
     "iso3": "BTN",
     "isoNumeric": "064",
     "name": "Bhutanese ngultrum",
@@ -1589,7 +1589,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Nu.",
-    "flagId": 216,
+    "flagId": "bt",
     "translations": [
       {
         "languageCode": "ko",
@@ -1660,7 +1660,7 @@
     "popularity": 12
   },
   {
-    "id": 854,
+    "id": "BOB",
     "iso3": "BOB",
     "isoNumeric": "068",
     "name": "Bolivian boliviano",
@@ -1672,7 +1672,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Bs.",
-    "flagId": 220,
+    "flagId": "bo",
     "translations": [
       {
         "languageCode": "ko",
@@ -1743,7 +1743,7 @@
     "popularity": 26
   },
   {
-    "id": 855,
+    "id": "BAM",
     "iso3": "BAM",
     "isoNumeric": "977",
     "name": "Bosnia and Herzegovina convertible mark",
@@ -1755,7 +1755,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "KM",
-    "flagId": 235,
+    "flagId": "ba",
     "translations": [
       {
         "languageCode": "ko",
@@ -1826,7 +1826,7 @@
     "popularity": 25
   },
   {
-    "id": 856,
+    "id": "BWP",
     "iso3": "BWP",
     "isoNumeric": "072",
     "name": "Botswana pula",
@@ -1838,7 +1838,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "P",
-    "flagId": 215,
+    "flagId": "bw",
     "translations": [
       {
         "languageCode": "ko",
@@ -1909,7 +1909,7 @@
     "popularity": 26
   },
   {
-    "id": 857,
+    "id": "BRL",
     "iso3": "BRL",
     "isoNumeric": "986",
     "name": "Brazilian real",
@@ -1921,7 +1921,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "R$",
-    "flagId": 218,
+    "flagId": "br",
     "translations": [
       {
         "languageCode": "ko",
@@ -1992,7 +1992,7 @@
     "popularity": 65
   },
   {
-    "id": 858,
+    "id": "BND",
     "iso3": "BND",
     "isoNumeric": "096",
     "name": "Brunei dollar",
@@ -2004,7 +2004,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "B$",
-    "flagId": 221,
+    "flagId": "bn",
     "translations": [
       {
         "languageCode": "ko",
@@ -2075,7 +2075,7 @@
     "popularity": 22
   },
   {
-    "id": 859,
+    "id": "BGN",
     "iso3": "BGN",
     "isoNumeric": "975",
     "name": "Bulgarian lev",
@@ -2087,7 +2087,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "лв.",
-    "flagId": 227,
+    "flagId": "bg",
     "translations": [
       {
         "languageCode": "ko",
@@ -2158,7 +2158,7 @@
     "popularity": 31
   },
   {
-    "id": 860,
+    "id": "BIF",
     "iso3": "BIF",
     "isoNumeric": "108",
     "name": "Burundian franc",
@@ -2170,7 +2170,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "FBu",
-    "flagId": 225,
+    "flagId": "bi",
     "translations": [
       {
         "languageCode": "ko",
@@ -2241,7 +2241,7 @@
     "popularity": 16
   },
   {
-    "id": 861,
+    "id": "KHR",
     "iso3": "KHR",
     "isoNumeric": "116",
     "name": "Cambodian riel",
@@ -2253,7 +2253,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "៛",
-    "flagId": 134,
+    "flagId": "kh",
     "translations": [
       {
         "languageCode": "ko",
@@ -2324,7 +2324,7 @@
     "popularity": 24
   },
   {
-    "id": 862,
+    "id": "XAF",
     "iso3": "XAF",
     "isoNumeric": "950",
     "name": "Central African CFA franc",
@@ -2336,7 +2336,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "FCFA",
-    "flagId": 208,
+    "flagId": "cf",
     "translations": [
       {
         "languageCode": "ko",
@@ -2407,7 +2407,7 @@
     "popularity": 32
   },
   {
-    "id": 863,
+    "id": "CAD",
     "iso3": "CAD",
     "isoNumeric": "124",
     "name": "Canadian dollar",
@@ -2419,7 +2419,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "CA$",
-    "flagId": 211,
+    "flagId": "ca",
     "translations": [
       {
         "languageCode": "ko",
@@ -2490,7 +2490,7 @@
     "popularity": 82
   },
   {
-    "id": 864,
+    "id": "CVE",
     "iso3": "CVE",
     "isoNumeric": "132",
     "name": "Cape Verdean escudo",
@@ -2502,7 +2502,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "$",
-    "flagId": 197,
+    "flagId": "cv",
     "translations": [
       {
         "languageCode": "ko",
@@ -2573,7 +2573,7 @@
     "popularity": 16
   },
   {
-    "id": 865,
+    "id": "KYD",
     "iso3": "KYD",
     "isoNumeric": "136",
     "name": "Cayman Islands dollar",
@@ -2585,7 +2585,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "CI$",
-    "flagId": 127,
+    "flagId": "ky",
     "translations": [
       {
         "languageCode": "ko",
@@ -2656,7 +2656,7 @@
     "popularity": 18
   },
   {
-    "id": 866,
+    "id": "CLP",
     "iso3": "CLP",
     "isoNumeric": "152",
     "name": "Chilean peso",
@@ -2668,7 +2668,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "$",
-    "flagId": 212,
+    "flagId": "cl",
     "translations": [
       {
         "languageCode": "ko",
@@ -2739,7 +2739,7 @@
     "popularity": 50
   },
   {
-    "id": 867,
+    "id": "CNY",
     "iso3": "CNY",
     "isoNumeric": "156",
     "name": "Chinese yuan",
@@ -2751,7 +2751,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "¥",
-    "flagId": 202,
+    "flagId": "cn",
     "translations": [
       {
         "languageCode": "ko",
@@ -2822,7 +2822,7 @@
     "popularity": 86
   },
   {
-    "id": 868,
+    "id": "COP",
     "iso3": "COP",
     "isoNumeric": "170",
     "name": "Colombian peso",
@@ -2834,7 +2834,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "$",
-    "flagId": 201,
+    "flagId": "co",
     "translations": [
       {
         "languageCode": "ko",
@@ -2905,7 +2905,7 @@
     "popularity": 49
   },
   {
-    "id": 869,
+    "id": "KMF",
     "iso3": "KMF",
     "isoNumeric": "174",
     "name": "Comorian franc",
@@ -2917,7 +2917,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "CF",
-    "flagId": 132,
+    "flagId": "km",
     "translations": [
       {
         "languageCode": "ko",
@@ -2988,7 +2988,7 @@
     "popularity": 10
   },
   {
-    "id": 870,
+    "id": "NZD",
     "iso3": "NZD",
     "isoNumeric": "554",
     "name": "New Zealand dollar",
@@ -3000,7 +3000,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "NZ$",
-    "flagId": 80,
+    "flagId": "nz",
     "translations": [
       {
         "languageCode": "ko",
@@ -3071,7 +3071,7 @@
     "popularity": 71
   },
   {
-    "id": 871,
+    "id": "CRC",
     "iso3": "CRC",
     "isoNumeric": "188",
     "name": "Costa Rican colón",
@@ -3083,7 +3083,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₡",
-    "flagId": 200,
+    "flagId": "cr",
     "translations": [
       {
         "languageCode": "ko",
@@ -3154,7 +3154,7 @@
     "popularity": 27
   },
   {
-    "id": 872,
+    "id": "CUP",
     "iso3": "CUP",
     "isoNumeric": "192",
     "name": "Cuban peso",
@@ -3166,7 +3166,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "$",
-    "flagId": 199,
+    "flagId": "cu",
     "translations": [
       {
         "languageCode": "ko",
@@ -3237,7 +3237,7 @@
     "popularity": 18
   },
   {
-    "id": 873,
+    "id": "XCG",
     "iso3": "XCG",
     "isoNumeric": "532",
     "name": "Caribbean guilder",
@@ -3249,7 +3249,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Cg",
-    "flagId": 198,
+    "flagId": "cw",
     "translations": [
       {
         "languageCode": "ko",
@@ -3320,7 +3320,7 @@
     "popularity": 14
   },
   {
-    "id": 874,
+    "id": "CZK",
     "iso3": "CZK",
     "isoNumeric": "203",
     "name": "Czech koruna",
@@ -3332,7 +3332,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Kč",
-    "flagId": 195,
+    "flagId": "cz",
     "translations": [
       {
         "languageCode": "ko",
@@ -3403,7 +3403,7 @@
     "popularity": 55
   },
   {
-    "id": 875,
+    "id": "CDF",
     "iso3": "CDF",
     "isoNumeric": "976",
     "name": "Congolese franc",
@@ -3415,7 +3415,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "FC",
-    "flagId": 209,
+    "flagId": "cd",
     "translations": [
       {
         "languageCode": "ko",
@@ -3486,7 +3486,7 @@
     "popularity": 24
   },
   {
-    "id": 876,
+    "id": "DKK",
     "iso3": "DKK",
     "isoNumeric": "208",
     "name": "Danish krone",
@@ -3498,7 +3498,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "kr.",
-    "flagId": 192,
+    "flagId": "dk",
     "translations": [
       {
         "languageCode": "ko",
@@ -3569,7 +3569,7 @@
     "popularity": 64
   },
   {
-    "id": 877,
+    "id": "DJF",
     "iso3": "DJF",
     "isoNumeric": "262",
     "name": "Djiboutian franc",
@@ -3581,7 +3581,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Fdj",
-    "flagId": 193,
+    "flagId": "dj",
     "translations": [
       {
         "languageCode": "ko",
@@ -3652,7 +3652,7 @@
     "popularity": 12
   },
   {
-    "id": 878,
+    "id": "DOP",
     "iso3": "DOP",
     "isoNumeric": "214",
     "name": "Dominican peso",
@@ -3664,7 +3664,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "RD$",
-    "flagId": 190,
+    "flagId": "do",
     "translations": [
       {
         "languageCode": "ko",
@@ -3735,7 +3735,7 @@
     "popularity": 28
   },
   {
-    "id": 879,
+    "id": "EGP",
     "iso3": "EGP",
     "isoNumeric": "818",
     "name": "Egyptian pound",
@@ -3747,7 +3747,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "ج.م",
-    "flagId": 186,
+    "flagId": "eg",
     "translations": [
       {
         "languageCode": "ko",
@@ -3818,7 +3818,7 @@
     "popularity": 47
   },
   {
-    "id": 880,
+    "id": "ERN",
     "iso3": "ERN",
     "isoNumeric": "232",
     "name": "Eritrean nakfa",
@@ -3830,7 +3830,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Nfk",
-    "flagId": 184,
+    "flagId": "er",
     "translations": [
       {
         "languageCode": "ko",
@@ -3901,7 +3901,7 @@
     "popularity": 10
   },
   {
-    "id": 881,
+    "id": "SZL",
     "iso3": "SZL",
     "isoNumeric": "748",
     "name": "Swazi lilangeni",
@@ -3913,7 +3913,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "E",
-    "flagId": 38,
+    "flagId": "sz",
     "translations": [
       {
         "languageCode": "ko",
@@ -3984,7 +3984,7 @@
     "popularity": 18
   },
   {
-    "id": 882,
+    "id": "ETB",
     "iso3": "ETB",
     "isoNumeric": "230",
     "name": "Ethiopian birr",
@@ -3996,7 +3996,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Br",
-    "flagId": 182,
+    "flagId": "et",
     "translations": [
       {
         "languageCode": "ko",
@@ -4067,7 +4067,7 @@
     "popularity": 27
   },
   {
-    "id": 883,
+    "id": "FKP",
     "iso3": "FKP",
     "isoNumeric": "238",
     "name": "Falkland Islands pound",
@@ -4079,7 +4079,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "£",
-    "flagId": 178,
+    "flagId": "fk",
     "translations": [
       {
         "languageCode": "ko",
@@ -4150,7 +4150,7 @@
     "popularity": 8
   },
   {
-    "id": 884,
+    "id": "FJD",
     "iso3": "FJD",
     "isoNumeric": "242",
     "name": "Fijian dollar",
@@ -4162,7 +4162,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "FJ$",
-    "flagId": 179,
+    "flagId": "fj",
     "translations": [
       {
         "languageCode": "ko",
@@ -4233,7 +4233,7 @@
     "popularity": 21
   },
   {
-    "id": 885,
+    "id": "XPF",
     "iso3": "XPF",
     "isoNumeric": "953",
     "name": "CFP franc",
@@ -4245,7 +4245,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₣",
-    "flagId": 76,
+    "flagId": "pf",
     "translations": [
       {
         "languageCode": "ko",
@@ -4316,7 +4316,7 @@
     "popularity": 16
   },
   {
-    "id": 886,
+    "id": "GEL",
     "iso3": "GEL",
     "isoNumeric": "981",
     "name": "Georgian lari",
@@ -4328,7 +4328,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₾",
-    "flagId": 170,
+    "flagId": "ge",
     "translations": [
       {
         "languageCode": "ko",
@@ -4399,7 +4399,7 @@
     "popularity": 25
   },
   {
-    "id": 887,
+    "id": "GHS",
     "iso3": "GHS",
     "isoNumeric": "936",
     "name": "Ghanaian cedi",
@@ -4411,7 +4411,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "GH₵",
-    "flagId": 167,
+    "flagId": "gh",
     "translations": [
       {
         "languageCode": "ko",
@@ -4482,7 +4482,7 @@
     "popularity": 28
   },
   {
-    "id": 888,
+    "id": "GIP",
     "iso3": "GIP",
     "isoNumeric": "292",
     "name": "Gibraltar pound",
@@ -4494,7 +4494,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "£",
-    "flagId": 166,
+    "flagId": "gi",
     "translations": [
       {
         "languageCode": "ko",
@@ -4565,7 +4565,7 @@
     "popularity": 14
   },
   {
-    "id": 889,
+    "id": "GTQ",
     "iso3": "GTQ",
     "isoNumeric": "320",
     "name": "Guatemalan quetzal",
@@ -4577,7 +4577,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Q",
-    "flagId": 158,
+    "flagId": "gt",
     "translations": [
       {
         "languageCode": "ko",
@@ -4648,7 +4648,7 @@
     "popularity": 27
   },
   {
-    "id": 890,
+    "id": "GBP",
     "iso3": "GBP",
     "isoNumeric": "826",
     "name": "British pound",
@@ -4660,7 +4660,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "£",
-    "flagId": 172,
+    "flagId": "gb",
     "translations": [
       {
         "languageCode": "ko",
@@ -4731,7 +4731,7 @@
     "popularity": 90
   },
   {
-    "id": 891,
+    "id": "GNF",
     "iso3": "GNF",
     "isoNumeric": "324",
     "name": "Guinean franc",
@@ -4743,7 +4743,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "FG",
-    "flagId": 163,
+    "flagId": "gn",
     "translations": [
       {
         "languageCode": "ko",
@@ -4814,7 +4814,7 @@
     "popularity": 18
   },
   {
-    "id": 892,
+    "id": "GYD",
     "iso3": "GYD",
     "isoNumeric": "328",
     "name": "Guyanese dollar",
@@ -4826,7 +4826,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "G$",
-    "flagId": 155,
+    "flagId": "gy",
     "translations": [
       {
         "languageCode": "ko",
@@ -4897,7 +4897,7 @@
     "popularity": 18
   },
   {
-    "id": 893,
+    "id": "HTG",
     "iso3": "HTG",
     "isoNumeric": "332",
     "name": "Haitian gourde",
@@ -4909,7 +4909,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "G",
-    "flagId": 151,
+    "flagId": "ht",
     "translations": [
       {
         "languageCode": "ko",
@@ -4980,7 +4980,7 @@
     "popularity": 18
   },
   {
-    "id": 894,
+    "id": "HNL",
     "iso3": "HNL",
     "isoNumeric": "340",
     "name": "Honduran lempira",
@@ -4992,7 +4992,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "L",
-    "flagId": 153,
+    "flagId": "hn",
     "translations": [
       {
         "languageCode": "ko",
@@ -5063,7 +5063,7 @@
     "popularity": 24
   },
   {
-    "id": 895,
+    "id": "HKD",
     "iso3": "HKD",
     "isoNumeric": "344",
     "name": "Hong Kong dollar",
@@ -5075,7 +5075,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "HK$",
-    "flagId": 154,
+    "flagId": "hk",
     "translations": [
       {
         "languageCode": "ko",
@@ -5146,7 +5146,7 @@
     "popularity": 78
   },
   {
-    "id": 896,
+    "id": "HUF",
     "iso3": "HUF",
     "isoNumeric": "348",
     "name": "Hungarian forint",
@@ -5158,7 +5158,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Ft",
-    "flagId": 150,
+    "flagId": "hu",
     "translations": [
       {
         "languageCode": "ko",
@@ -5229,7 +5229,7 @@
     "popularity": 52
   },
   {
-    "id": 897,
+    "id": "ISK",
     "iso3": "ISK",
     "isoNumeric": "352",
     "name": "Icelandic króna",
@@ -5241,7 +5241,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "kr",
-    "flagId": 142,
+    "flagId": "is",
     "translations": [
       {
         "languageCode": "ko",
@@ -5312,7 +5312,7 @@
     "popularity": 30
   },
   {
-    "id": 898,
+    "id": "INR",
     "iso3": "INR",
     "isoNumeric": "356",
     "name": "Indian rupee",
@@ -5324,7 +5324,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₹",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -5395,7 +5395,7 @@
     "popularity": 70
   },
   {
-    "id": 899,
+    "id": "IDR",
     "iso3": "IDR",
     "isoNumeric": "360",
     "name": "Indonesian rupiah",
@@ -5407,7 +5407,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Rp",
-    "flagId": 149,
+    "flagId": "id",
     "translations": [
       {
         "languageCode": "ko",
@@ -5478,7 +5478,7 @@
     "popularity": 56
   },
   {
-    "id": 900,
+    "id": "IRR",
     "iso3": "IRR",
     "isoNumeric": "364",
     "name": "Iranian rial",
@@ -5490,7 +5490,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "﷼",
-    "flagId": 143,
+    "flagId": "ir",
     "translations": [
       {
         "languageCode": "ko",
@@ -5561,7 +5561,7 @@
     "popularity": 29
   },
   {
-    "id": 901,
+    "id": "IQD",
     "iso3": "IQD",
     "isoNumeric": "368",
     "name": "Iraqi dinar",
@@ -5573,7 +5573,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "د.ع",
-    "flagId": 144,
+    "flagId": "iq",
     "translations": [
       {
         "languageCode": "ko",
@@ -5644,7 +5644,7 @@
     "popularity": 32
   },
   {
-    "id": 902,
+    "id": "ILS",
     "iso3": "ILS",
     "isoNumeric": "376",
     "name": "Israeli new shekel",
@@ -5656,7 +5656,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₪",
-    "flagId": 147,
+    "flagId": "il",
     "translations": [
       {
         "languageCode": "ko",
@@ -5727,7 +5727,7 @@
     "popularity": 57
   },
   {
-    "id": 903,
+    "id": "JMD",
     "iso3": "JMD",
     "isoNumeric": "388",
     "name": "Jamaican dollar",
@@ -5739,7 +5739,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "J$",
-    "flagId": 139,
+    "flagId": "jm",
     "translations": [
       {
         "languageCode": "ko",
@@ -5810,7 +5810,7 @@
     "popularity": 24
   },
   {
-    "id": 904,
+    "id": "JPY",
     "iso3": "JPY",
     "isoNumeric": "392",
     "name": "Japanese yen",
@@ -5822,7 +5822,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "¥",
-    "flagId": 137,
+    "flagId": "jp",
     "translations": [
       {
         "languageCode": "ko",
@@ -5893,7 +5893,7 @@
     "popularity": 92
   },
   {
-    "id": 905,
+    "id": "JOD",
     "iso3": "JOD",
     "isoNumeric": "400",
     "name": "Jordanian dinar",
@@ -5905,7 +5905,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "د.أ",
-    "flagId": 138,
+    "flagId": "jo",
     "translations": [
       {
         "languageCode": "ko",
@@ -5976,7 +5976,7 @@
     "popularity": 28
   },
   {
-    "id": 906,
+    "id": "KZT",
     "iso3": "KZT",
     "isoNumeric": "398",
     "name": "Kazakhstani tenge",
@@ -5988,7 +5988,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₸",
-    "flagId": 126,
+    "flagId": "kz",
     "translations": [
       {
         "languageCode": "ko",
@@ -6059,7 +6059,7 @@
     "popularity": 37
   },
   {
-    "id": 907,
+    "id": "KES",
     "iso3": "KES",
     "isoNumeric": "404",
     "name": "Kenyan shilling",
@@ -6071,7 +6071,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "KSh",
-    "flagId": 136,
+    "flagId": "ke",
     "translations": [
       {
         "languageCode": "ko",
@@ -6142,7 +6142,7 @@
     "popularity": 30
   },
   {
-    "id": 908,
+    "id": "KWD",
     "iso3": "KWD",
     "isoNumeric": "414",
     "name": "Kuwaiti dinar",
@@ -6154,7 +6154,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "د.ك",
-    "flagId": 128,
+    "flagId": "kw",
     "translations": [
       {
         "languageCode": "ko",
@@ -6225,7 +6225,7 @@
     "popularity": 41
   },
   {
-    "id": 909,
+    "id": "KGS",
     "iso3": "KGS",
     "isoNumeric": "417",
     "name": "Kyrgyzstani som",
@@ -6237,7 +6237,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "сом",
-    "flagId": 135,
+    "flagId": "kg",
     "translations": [
       {
         "languageCode": "ko",
@@ -6308,7 +6308,7 @@
     "popularity": 20
   },
   {
-    "id": 910,
+    "id": "LAK",
     "iso3": "LAK",
     "isoNumeric": "418",
     "name": "Lao kip",
@@ -6320,7 +6320,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₭",
-    "flagId": 125,
+    "flagId": "la",
     "translations": [
       {
         "languageCode": "ko",
@@ -6391,7 +6391,7 @@
     "popularity": 20
   },
   {
-    "id": 911,
+    "id": "LBP",
     "iso3": "LBP",
     "isoNumeric": "422",
     "name": "Lebanese pound",
@@ -6403,7 +6403,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "ل.ل",
-    "flagId": 124,
+    "flagId": "lb",
     "translations": [
       {
         "languageCode": "ko",
@@ -6474,7 +6474,7 @@
     "popularity": 24
   },
   {
-    "id": 912,
+    "id": "LSL",
     "iso3": "LSL",
     "isoNumeric": "426",
     "name": "Lesotho loti",
@@ -6486,7 +6486,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "L",
-    "flagId": 119,
+    "flagId": "ls",
     "translations": [
       {
         "languageCode": "ko",
@@ -6557,7 +6557,7 @@
     "popularity": 18
   },
   {
-    "id": 913,
+    "id": "LRD",
     "iso3": "LRD",
     "isoNumeric": "430",
     "name": "Liberian dollar",
@@ -6569,7 +6569,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "L$",
-    "flagId": 120,
+    "flagId": "lr",
     "translations": [
       {
         "languageCode": "ko",
@@ -6640,7 +6640,7 @@
     "popularity": 16
   },
   {
-    "id": 914,
+    "id": "LYD",
     "iso3": "LYD",
     "isoNumeric": "434",
     "name": "Libyan dinar",
@@ -6652,7 +6652,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "د.ل",
-    "flagId": 115,
+    "flagId": "ly",
     "translations": [
       {
         "languageCode": "ko",
@@ -6723,7 +6723,7 @@
     "popularity": 24
   },
   {
-    "id": 915,
+    "id": "CHF",
     "iso3": "CHF",
     "isoNumeric": "756",
     "name": "Swiss franc",
@@ -6735,7 +6735,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "CHF",
-    "flagId": 206,
+    "flagId": "ch",
     "translations": [
       {
         "languageCode": "ko",
@@ -6806,7 +6806,7 @@
     "popularity": 84
   },
   {
-    "id": 916,
+    "id": "MOP",
     "iso3": "MOP",
     "isoNumeric": "446",
     "name": "Macanese pataca",
@@ -6818,7 +6818,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "MOP$",
-    "flagId": 103,
+    "flagId": "mo",
     "translations": [
       {
         "languageCode": "ko",
@@ -6889,7 +6889,7 @@
     "popularity": 28
   },
   {
-    "id": 917,
+    "id": "MGA",
     "iso3": "MGA",
     "isoNumeric": "969",
     "name": "Malagasy ariary",
@@ -6901,7 +6901,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Ar",
-    "flagId": 109,
+    "flagId": "mg",
     "translations": [
       {
         "languageCode": "ko",
@@ -6972,7 +6972,7 @@
     "popularity": 20
   },
   {
-    "id": 918,
+    "id": "MWK",
     "iso3": "MWK",
     "isoNumeric": "454",
     "name": "Malawian kwacha",
@@ -6984,7 +6984,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "MK",
-    "flagId": 95,
+    "flagId": "mw",
     "translations": [
       {
         "languageCode": "ko",
@@ -7055,7 +7055,7 @@
     "popularity": 20
   },
   {
-    "id": 919,
+    "id": "MYR",
     "iso3": "MYR",
     "isoNumeric": "458",
     "name": "Malaysian ringgit",
@@ -7067,7 +7067,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "RM",
-    "flagId": 93,
+    "flagId": "my",
     "translations": [
       {
         "languageCode": "ko",
@@ -7138,7 +7138,7 @@
     "popularity": 54
   },
   {
-    "id": 920,
+    "id": "MVR",
     "iso3": "MVR",
     "isoNumeric": "462",
     "name": "Maldivian rufiyaa",
@@ -7150,7 +7150,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Rf",
-    "flagId": 96,
+    "flagId": "mv",
     "translations": [
       {
         "languageCode": "ko",
@@ -7221,7 +7221,7 @@
     "popularity": 22
   },
   {
-    "id": 921,
+    "id": "MRU",
     "iso3": "MRU",
     "isoNumeric": "929",
     "name": "Mauritanian ouguiya",
@@ -7233,7 +7233,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "UM",
-    "flagId": 100,
+    "flagId": "mr",
     "translations": [
       {
         "languageCode": "ko",
@@ -7304,7 +7304,7 @@
     "popularity": 18
   },
   {
-    "id": 922,
+    "id": "MUR",
     "iso3": "MUR",
     "isoNumeric": "480",
     "name": "Mauritian rupee",
@@ -7316,7 +7316,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₨",
-    "flagId": 97,
+    "flagId": "mu",
     "translations": [
       {
         "languageCode": "ko",
@@ -7387,7 +7387,7 @@
     "popularity": 26
   },
   {
-    "id": 923,
+    "id": "MXN",
     "iso3": "MXN",
     "isoNumeric": "484",
     "name": "Mexican peso",
@@ -7399,7 +7399,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "$",
-    "flagId": 94,
+    "flagId": "mx",
     "translations": [
       {
         "languageCode": "ko",
@@ -7470,7 +7470,7 @@
     "popularity": 68
   },
   {
-    "id": 924,
+    "id": "MDL",
     "iso3": "MDL",
     "isoNumeric": "498",
     "name": "Moldovan leu",
@@ -7482,7 +7482,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "L",
-    "flagId": 112,
+    "flagId": "md",
     "translations": [
       {
         "languageCode": "ko",
@@ -7553,7 +7553,7 @@
     "popularity": 24
   },
   {
-    "id": 925,
+    "id": "MNT",
     "iso3": "MNT",
     "isoNumeric": "496",
     "name": "Mongolian tögrög",
@@ -7565,7 +7565,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₮",
-    "flagId": 104,
+    "flagId": "mn",
     "translations": [
       {
         "languageCode": "ko",
@@ -7636,7 +7636,7 @@
     "popularity": 22
   },
   {
-    "id": 926,
+    "id": "MAD",
     "iso3": "MAD",
     "isoNumeric": "504",
     "name": "Moroccan dirham",
@@ -7648,7 +7648,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "د.م.",
-    "flagId": 114,
+    "flagId": "ma",
     "translations": [
       {
         "languageCode": "ko",
@@ -7719,7 +7719,7 @@
     "popularity": 38
   },
   {
-    "id": 927,
+    "id": "MZN",
     "iso3": "MZN",
     "isoNumeric": "943",
     "name": "Mozambican metical",
@@ -7731,7 +7731,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "MT",
-    "flagId": 92,
+    "flagId": "mz",
     "translations": [
       {
         "languageCode": "ko",
@@ -7802,7 +7802,7 @@
     "popularity": 24
   },
   {
-    "id": 928,
+    "id": "MMK",
     "iso3": "MMK",
     "isoNumeric": "104",
     "name": "Burmese kyat",
@@ -7814,7 +7814,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "K",
-    "flagId": 105,
+    "flagId": "mm",
     "translations": [
       {
         "languageCode": "ko",
@@ -7885,7 +7885,7 @@
     "popularity": 24
   },
   {
-    "id": 929,
+    "id": "NAD",
     "iso3": "NAD",
     "isoNumeric": "516",
     "name": "Namibian dollar",
@@ -7897,7 +7897,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "N$",
-    "flagId": 91,
+    "flagId": "na",
     "translations": [
       {
         "languageCode": "ko",
@@ -7968,7 +7968,7 @@
     "popularity": 22
   },
   {
-    "id": 930,
+    "id": "NPR",
     "iso3": "NPR",
     "isoNumeric": "524",
     "name": "Nepalese rupee",
@@ -7980,7 +7980,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₨",
-    "flagId": 83,
+    "flagId": "np",
     "translations": [
       {
         "languageCode": "ko",
@@ -8051,7 +8051,7 @@
     "popularity": 25
   },
   {
-    "id": 931,
+    "id": "NIO",
     "iso3": "NIO",
     "isoNumeric": "558",
     "name": "Nicaraguan córdoba",
@@ -8063,7 +8063,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "C$",
-    "flagId": 86,
+    "flagId": "ni",
     "translations": [
       {
         "languageCode": "ko",
@@ -8134,7 +8134,7 @@
     "popularity": 22
   },
   {
-    "id": 932,
+    "id": "NGN",
     "iso3": "NGN",
     "isoNumeric": "566",
     "name": "Nigerian naira",
@@ -8146,7 +8146,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₦",
-    "flagId": 87,
+    "flagId": "ng",
     "translations": [
       {
         "languageCode": "ko",
@@ -8217,7 +8217,7 @@
     "popularity": 46
   },
   {
-    "id": 933,
+    "id": "KPW",
     "iso3": "KPW",
     "isoNumeric": "408",
     "name": "North Korean won",
@@ -8229,7 +8229,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₩",
-    "flagId": 130,
+    "flagId": "kp",
     "translations": [
       {
         "languageCode": "ko",
@@ -8300,7 +8300,7 @@
     "popularity": 10
   },
   {
-    "id": 934,
+    "id": "MKD",
     "iso3": "MKD",
     "isoNumeric": "807",
     "name": "Macedonian denar",
@@ -8312,7 +8312,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "ден",
-    "flagId": 107,
+    "flagId": "mk",
     "translations": [
       {
         "languageCode": "ko",
@@ -8383,7 +8383,7 @@
     "popularity": 23
   },
   {
-    "id": 935,
+    "id": "NOK",
     "iso3": "NOK",
     "isoNumeric": "578",
     "name": "Norwegian krone",
@@ -8395,7 +8395,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "kr",
-    "flagId": 84,
+    "flagId": "no",
     "translations": [
       {
         "languageCode": "ko",
@@ -8466,7 +8466,7 @@
     "popularity": 72
   },
   {
-    "id": 936,
+    "id": "OMR",
     "iso3": "OMR",
     "isoNumeric": "512",
     "name": "Omani rial",
@@ -8478,7 +8478,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "ر.ع.",
-    "flagId": 79,
+    "flagId": "om",
     "translations": [
       {
         "languageCode": "ko",
@@ -8549,7 +8549,7 @@
     "popularity": 35
   },
   {
-    "id": 937,
+    "id": "PKR",
     "iso3": "PKR",
     "isoNumeric": "586",
     "name": "Pakistani rupee",
@@ -8561,7 +8561,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₨",
-    "flagId": 73,
+    "flagId": "pk",
     "translations": [
       {
         "languageCode": "ko",
@@ -8632,7 +8632,7 @@
     "popularity": 45
   },
   {
-    "id": 938,
+    "id": "PAB",
     "iso3": "PAB",
     "isoNumeric": "590",
     "name": "Panamanian balboa",
@@ -8644,7 +8644,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "B/.",
-    "flagId": 78,
+    "flagId": "pa",
     "translations": [
       {
         "languageCode": "ko",
@@ -8715,7 +8715,7 @@
     "popularity": 22
   },
   {
-    "id": 939,
+    "id": "PGK",
     "iso3": "PGK",
     "isoNumeric": "598",
     "name": "Papua New Guinean kina",
@@ -8727,7 +8727,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "K",
-    "flagId": 75,
+    "flagId": "pg",
     "translations": [
       {
         "languageCode": "ko",
@@ -8798,7 +8798,7 @@
     "popularity": 21
   },
   {
-    "id": 940,
+    "id": "PYG",
     "iso3": "PYG",
     "isoNumeric": "600",
     "name": "Paraguayan guarani",
@@ -8810,7 +8810,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₲",
-    "flagId": 65,
+    "flagId": "py",
     "translations": [
       {
         "languageCode": "ko",
@@ -8881,7 +8881,7 @@
     "popularity": 26
   },
   {
-    "id": 941,
+    "id": "PEN",
     "iso3": "PEN",
     "isoNumeric": "604",
     "name": "Peruvian sol",
@@ -8893,7 +8893,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "S/",
-    "flagId": 77,
+    "flagId": "pe",
     "translations": [
       {
         "languageCode": "ko",
@@ -8964,7 +8964,7 @@
     "popularity": 39
   },
   {
-    "id": 942,
+    "id": "PHP",
     "iso3": "PHP",
     "isoNumeric": "608",
     "name": "Philippine peso",
@@ -8976,7 +8976,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₱",
-    "flagId": 74,
+    "flagId": "ph",
     "translations": [
       {
         "languageCode": "ko",
@@ -9047,7 +9047,7 @@
     "popularity": 53
   },
   {
-    "id": 943,
+    "id": "PLN",
     "iso3": "PLN",
     "isoNumeric": "985",
     "name": "Polish złoty",
@@ -9059,7 +9059,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "zł",
-    "flagId": 72,
+    "flagId": "pl",
     "translations": [
       {
         "languageCode": "ko",
@@ -9130,7 +9130,7 @@
     "popularity": 63
   },
   {
-    "id": 944,
+    "id": "QAR",
     "iso3": "QAR",
     "isoNumeric": "634",
     "name": "Qatari riyal",
@@ -9142,7 +9142,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "ر.ق",
-    "flagId": 64,
+    "flagId": "qa",
     "translations": [
       {
         "languageCode": "ko",
@@ -9213,7 +9213,7 @@
     "popularity": 42
   },
   {
-    "id": 945,
+    "id": "RON",
     "iso3": "RON",
     "isoNumeric": "946",
     "name": "Romanian leu",
@@ -9225,7 +9225,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "lei",
-    "flagId": 62,
+    "flagId": "ro",
     "translations": [
       {
         "languageCode": "ko",
@@ -9296,7 +9296,7 @@
     "popularity": 48
   },
   {
-    "id": 946,
+    "id": "RUB",
     "iso3": "RUB",
     "isoNumeric": "643",
     "name": "Russian ruble",
@@ -9308,7 +9308,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₽",
-    "flagId": 60,
+    "flagId": "ru",
     "translations": [
       {
         "languageCode": "ko",
@@ -9379,7 +9379,7 @@
     "popularity": 61
   },
   {
-    "id": 947,
+    "id": "RWF",
     "iso3": "RWF",
     "isoNumeric": "646",
     "name": "Rwandan franc",
@@ -9391,7 +9391,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "FRw",
-    "flagId": 59,
+    "flagId": "rw",
     "translations": [
       {
         "languageCode": "ko",
@@ -9462,7 +9462,7 @@
     "popularity": 22
   },
   {
-    "id": 948,
+    "id": "SHP",
     "iso3": "SHP",
     "isoNumeric": "654",
     "name": "Saint Helena pound",
@@ -9474,7 +9474,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "£",
-    "flagId": 52,
+    "flagId": "sh",
     "translations": [
       {
         "languageCode": "ko",
@@ -9545,7 +9545,7 @@
     "popularity": 8
   },
   {
-    "id": 949,
+    "id": "WST",
     "iso3": "WST",
     "isoNumeric": "882",
     "name": "Samoan tālā",
@@ -9557,7 +9557,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "WS$",
-    "flagId": 7,
+    "flagId": "ws",
     "translations": [
       {
         "languageCode": "ko",
@@ -9628,7 +9628,7 @@
     "popularity": 10
   },
   {
-    "id": 950,
+    "id": "STN",
     "iso3": "STN",
     "isoNumeric": "930",
     "name": "São Tomé and Príncipe dobra",
@@ -9640,7 +9640,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Db",
-    "flagId": 42,
+    "flagId": "st",
     "translations": [
       {
         "languageCode": "ko",
@@ -9711,7 +9711,7 @@
     "popularity": 10
   },
   {
-    "id": 951,
+    "id": "SAR",
     "iso3": "SAR",
     "isoNumeric": "682",
     "name": "Saudi riyal",
@@ -9723,7 +9723,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "ر.س",
-    "flagId": 58,
+    "flagId": "sa",
     "translations": [
       {
         "languageCode": "ko",
@@ -9794,7 +9794,7 @@
     "popularity": 59
   },
   {
-    "id": 952,
+    "id": "RSD",
     "iso3": "RSD",
     "isoNumeric": "941",
     "name": "Serbian dinar",
@@ -9806,7 +9806,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "дин.",
-    "flagId": 61,
+    "flagId": "rs",
     "translations": [
       {
         "languageCode": "ko",
@@ -9877,7 +9877,7 @@
     "popularity": 30
   },
   {
-    "id": 953,
+    "id": "SCR",
     "iso3": "SCR",
     "isoNumeric": "690",
     "name": "Seychellois rupee",
@@ -9889,7 +9889,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₨",
-    "flagId": 56,
+    "flagId": "sc",
     "translations": [
       {
         "languageCode": "ko",
@@ -9960,7 +9960,7 @@
     "popularity": 18
   },
   {
-    "id": 954,
+    "id": "SLE",
     "iso3": "SLE",
     "isoNumeric": "925",
     "name": "Sierra Leonean leone",
@@ -9972,7 +9972,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Le",
-    "flagId": 48,
+    "flagId": "sl",
     "translations": [
       {
         "languageCode": "ko",
@@ -10043,7 +10043,7 @@
     "popularity": 16
   },
   {
-    "id": 955,
+    "id": "SGD",
     "iso3": "SGD",
     "isoNumeric": "702",
     "name": "Singapore dollar",
@@ -10055,7 +10055,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "S$",
-    "flagId": 53,
+    "flagId": "sg",
     "translations": [
       {
         "languageCode": "ko",
@@ -10126,7 +10126,7 @@
     "popularity": 76
   },
   {
-    "id": 956,
+    "id": "SBD",
     "iso3": "SBD",
     "isoNumeric": "090",
     "name": "Solomon Islands dollar",
@@ -10138,7 +10138,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "SI$",
-    "flagId": 57,
+    "flagId": "sb",
     "translations": [
       {
         "languageCode": "ko",
@@ -10209,7 +10209,7 @@
     "popularity": 12
   },
   {
-    "id": 957,
+    "id": "SOS",
     "iso3": "SOS",
     "isoNumeric": "706",
     "name": "Somali shilling",
@@ -10221,7 +10221,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Sh",
-    "flagId": 45,
+    "flagId": "so",
     "translations": [
       {
         "languageCode": "ko",
@@ -10292,7 +10292,7 @@
     "popularity": 14
   },
   {
-    "id": 958,
+    "id": "ZAR",
     "iso3": "ZAR",
     "isoNumeric": "710",
     "name": "South African rand",
@@ -10304,7 +10304,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "R",
-    "flagId": 3,
+    "flagId": "za",
     "translations": [
       {
         "languageCode": "ko",
@@ -10375,7 +10375,7 @@
     "popularity": 66
   },
   {
-    "id": 959,
+    "id": "KRW",
     "iso3": "KRW",
     "isoNumeric": "410",
     "name": "South Korean won",
@@ -10387,7 +10387,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₩",
-    "flagId": 129,
+    "flagId": "kr",
     "translations": [
       {
         "languageCode": "ko",
@@ -10458,7 +10458,7 @@
     "popularity": 73
   },
   {
-    "id": 960,
+    "id": "SSP",
     "iso3": "SSP",
     "isoNumeric": "728",
     "name": "South Sudanese pound",
@@ -10470,7 +10470,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "£",
-    "flagId": 43,
+    "flagId": "ss",
     "translations": [
       {
         "languageCode": "ko",
@@ -10541,7 +10541,7 @@
     "popularity": 14
   },
   {
-    "id": 961,
+    "id": "LKR",
     "iso3": "LKR",
     "isoNumeric": "144",
     "name": "Sri Lankan rupee",
@@ -10553,7 +10553,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Rs",
-    "flagId": 121,
+    "flagId": "lk",
     "translations": [
       {
         "languageCode": "ko",
@@ -10624,7 +10624,7 @@
     "popularity": 27
   },
   {
-    "id": 962,
+    "id": "SDG",
     "iso3": "SDG",
     "isoNumeric": "938",
     "name": "Sudanese pound",
@@ -10636,7 +10636,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "ج.س.",
-    "flagId": 55,
+    "flagId": "sd",
     "translations": [
       {
         "languageCode": "ko",
@@ -10707,7 +10707,7 @@
     "popularity": 18
   },
   {
-    "id": 963,
+    "id": "SRD",
     "iso3": "SRD",
     "isoNumeric": "968",
     "name": "Surinamese dollar",
@@ -10719,7 +10719,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "$",
-    "flagId": 44,
+    "flagId": "sr",
     "translations": [
       {
         "languageCode": "ko",
@@ -10790,7 +10790,7 @@
     "popularity": 14
   },
   {
-    "id": 964,
+    "id": "SEK",
     "iso3": "SEK",
     "isoNumeric": "752",
     "name": "Swedish krona",
@@ -10802,7 +10802,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "kr",
-    "flagId": 54,
+    "flagId": "se",
     "translations": [
       {
         "languageCode": "ko",
@@ -10873,7 +10873,7 @@
     "popularity": 74
   },
   {
-    "id": 965,
+    "id": "SYP",
     "iso3": "SYP",
     "isoNumeric": "760",
     "name": "Syrian pound",
@@ -10885,7 +10885,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "ل.س",
-    "flagId": 39,
+    "flagId": "sy",
     "translations": [
       {
         "languageCode": "ko",
@@ -10956,7 +10956,7 @@
     "popularity": 18
   },
   {
-    "id": 966,
+    "id": "TWD",
     "iso3": "TWD",
     "isoNumeric": "901",
     "name": "New Taiwan dollar",
@@ -10968,7 +10968,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "NT$",
-    "flagId": 23,
+    "flagId": "tw",
     "translations": [
       {
         "languageCode": "ko",
@@ -11039,7 +11039,7 @@
     "popularity": 67
   },
   {
-    "id": 967,
+    "id": "TJS",
     "iso3": "TJS",
     "isoNumeric": "972",
     "name": "Tajikistani somoni",
@@ -11051,7 +11051,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "сом.",
-    "flagId": 32,
+    "flagId": "tj",
     "translations": [
       {
         "languageCode": "ko",
@@ -11122,7 +11122,7 @@
     "popularity": 20
   },
   {
-    "id": 968,
+    "id": "TZS",
     "iso3": "TZS",
     "isoNumeric": "834",
     "name": "Tanzanian shilling",
@@ -11134,7 +11134,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "TSh",
-    "flagId": 22,
+    "flagId": "tz",
     "translations": [
       {
         "languageCode": "ko",
@@ -11205,7 +11205,7 @@
     "popularity": 26
   },
   {
-    "id": 969,
+    "id": "THB",
     "iso3": "THB",
     "isoNumeric": "764",
     "name": "Thai baht",
@@ -11217,7 +11217,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "฿",
-    "flagId": 33,
+    "flagId": "th",
     "translations": [
       {
         "languageCode": "ko",
@@ -11288,7 +11288,7 @@
     "popularity": 58
   },
   {
-    "id": 970,
+    "id": "BSD",
     "iso3": "BSD",
     "isoNumeric": "044",
     "name": "Bahamian dollar",
@@ -11300,7 +11300,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "B$",
-    "flagId": 217,
+    "flagId": "bs",
     "translations": [
       {
         "languageCode": "ko",
@@ -11371,7 +11371,7 @@
     "popularity": 20
   },
   {
-    "id": 971,
+    "id": "GMD",
     "iso3": "GMD",
     "isoNumeric": "270",
     "name": "Gambian dalasi",
@@ -11383,7 +11383,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "D",
-    "flagId": 164,
+    "flagId": "gm",
     "translations": [
       {
         "languageCode": "ko",
@@ -11454,7 +11454,7 @@
     "popularity": 14
   },
   {
-    "id": 972,
+    "id": "TOP",
     "iso3": "TOP",
     "isoNumeric": "776",
     "name": "Tongan paʻanga",
@@ -11466,7 +11466,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "T$",
-    "flagId": 27,
+    "flagId": "to",
     "translations": [
       {
         "languageCode": "ko",
@@ -11537,7 +11537,7 @@
     "popularity": 10
   },
   {
-    "id": 973,
+    "id": "TTD",
     "iso3": "TTD",
     "isoNumeric": "780",
     "name": "Trinidad and Tobago dollar",
@@ -11549,7 +11549,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "TT$",
-    "flagId": 25,
+    "flagId": "tt",
     "translations": [
       {
         "languageCode": "ko",
@@ -11620,7 +11620,7 @@
     "popularity": 22
   },
   {
-    "id": 974,
+    "id": "TND",
     "iso3": "TND",
     "isoNumeric": "788",
     "name": "Tunisian dinar",
@@ -11632,7 +11632,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "د.ت",
-    "flagId": 28,
+    "flagId": "tn",
     "translations": [
       {
         "languageCode": "ko",
@@ -11703,7 +11703,7 @@
     "popularity": 29
   },
   {
-    "id": 975,
+    "id": "TRY",
     "iso3": "TRY",
     "isoNumeric": "949",
     "name": "Turkish lira",
@@ -11715,7 +11715,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₺",
-    "flagId": 26,
+    "flagId": "tr",
     "translations": [
       {
         "languageCode": "ko",
@@ -11786,7 +11786,7 @@
     "popularity": 62
   },
   {
-    "id": 976,
+    "id": "TMT",
     "iso3": "TMT",
     "isoNumeric": "934",
     "name": "Turkmenistan manat",
@@ -11798,7 +11798,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "m",
-    "flagId": 29,
+    "flagId": "tm",
     "translations": [
       {
         "languageCode": "ko",
@@ -11869,7 +11869,7 @@
     "popularity": 20
   },
   {
-    "id": 977,
+    "id": "UGX",
     "iso3": "UGX",
     "isoNumeric": "800",
     "name": "Ugandan shilling",
@@ -11881,7 +11881,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "USh",
-    "flagId": 20,
+    "flagId": "ug",
     "translations": [
       {
         "languageCode": "ko",
@@ -11952,7 +11952,7 @@
     "popularity": 26
   },
   {
-    "id": 978,
+    "id": "UAH",
     "iso3": "UAH",
     "isoNumeric": "980",
     "name": "Ukrainian hryvnia",
@@ -11964,7 +11964,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₴",
-    "flagId": 21,
+    "flagId": "ua",
     "translations": [
       {
         "languageCode": "ko",
@@ -12035,11 +12035,11 @@
     "popularity": 40
   },
   {
-    "id": 979,
+    "id": "AED",
     "iso3": "AED",
     "isoNumeric": "784",
     "name": "United Arab Emirates dirham",
-    "flagId": 246,
+    "flagId": "ae",
     "description": null,
     "nativeName": "درهم إماراتي",
     "year": 1973,
@@ -12118,7 +12118,7 @@
     "popularity": 60
   },
   {
-    "id": 980,
+    "id": "UYU",
     "iso3": "UYU",
     "isoNumeric": "858",
     "name": "Uruguayan peso",
@@ -12130,7 +12130,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "$U",
-    "flagId": 17,
+    "flagId": "uy",
     "translations": [
       {
         "languageCode": "ko",
@@ -12201,7 +12201,7 @@
     "popularity": 27
   },
   {
-    "id": 981,
+    "id": "UZS",
     "iso3": "UZS",
     "isoNumeric": "860",
     "name": "Uzbekistani soʻm",
@@ -12213,7 +12213,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "soʻm",
-    "flagId": 16,
+    "flagId": "uz",
     "translations": [
       {
         "languageCode": "ko",
@@ -12284,7 +12284,7 @@
     "popularity": 28
   },
   {
-    "id": 982,
+    "id": "VUV",
     "iso3": "VUV",
     "isoNumeric": "548",
     "name": "Vanuatu vatu",
@@ -12296,7 +12296,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "VT",
-    "flagId": 9,
+    "flagId": "vu",
     "translations": [
       {
         "languageCode": "ko",
@@ -12367,7 +12367,7 @@
     "popularity": 10
   },
   {
-    "id": 983,
+    "id": "VES",
     "iso3": "VES",
     "isoNumeric": "928",
     "name": "Venezuelan bolívar",
@@ -12379,7 +12379,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "Bs.",
-    "flagId": 13,
+    "flagId": "ve",
     "translations": [
       {
         "languageCode": "ko",
@@ -12450,7 +12450,7 @@
     "popularity": 33
   },
   {
-    "id": 984,
+    "id": "VND",
     "iso3": "VND",
     "isoNumeric": "704",
     "name": "Vietnamese đồng",
@@ -12462,7 +12462,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "₫",
-    "flagId": 10,
+    "flagId": "vn",
     "translations": [
       {
         "languageCode": "ko",
@@ -12533,7 +12533,7 @@
     "popularity": 51
   },
   {
-    "id": 985,
+    "id": "YER",
     "iso3": "YER",
     "isoNumeric": "886",
     "name": "Yemeni rial",
@@ -12545,7 +12545,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "ر.ي",
-    "flagId": 5,
+    "flagId": "ye",
     "translations": [
       {
         "languageCode": "ko",
@@ -12616,7 +12616,7 @@
     "popularity": 18
   },
   {
-    "id": 986,
+    "id": "ZMW",
     "iso3": "ZMW",
     "isoNumeric": "967",
     "name": "Zambian kwacha",
@@ -12628,7 +12628,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "ZK",
-    "flagId": 2,
+    "flagId": "zm",
     "translations": [
       {
         "languageCode": "ko",
@@ -12699,7 +12699,7 @@
     "popularity": 25
   },
   {
-    "id": 988,
+    "id": "ZWG",
     "iso3": "ZWG",
     "isoNumeric": "924",
     "name": "Zimbabwe Gold",
@@ -12711,7 +12711,7 @@
     "obsoleteAt": null,
     "replacedBy": null,
     "symbol": "ZiG",
-    "flagId": 1,
+    "flagId": "zw",
     "translations": [
       {
         "languageCode": "ko",
@@ -12782,7 +12782,7 @@
     "popularity": 14
   },
   {
-    "id": 987,
+    "id": "ZWL",
     "iso3": "ZWL",
     "isoNumeric": "932",
     "name": "Zimbabwean dollar",
@@ -12792,9 +12792,9 @@
     "introducedDate": "2019-02-25",
     "obsolete": true,
     "obsoleteAt": "2024-08-31",
-    "replacedBy": 988,
+    "replacedBy": "ZWG",
     "symbol": "Z$",
-    "flagId": 1,
+    "flagId": "zw",
     "translations": [
       {
         "languageCode": "ko",

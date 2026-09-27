@@ -49,7 +49,7 @@ class TimezoneGraphqlFetcher(
     @DgsQuery
     fun timezonesByIds(@InputArgument ids: List<String>): DataFetcherResult<List<Timezone>> {
         val language = GraphqlRequest.language()
-        val timezones = timezoneStore.byIds(GraphqlRequest.longIds(ids, "ids"), language)
+        val timezones = timezoneStore.byIds(GraphqlRequest.ids(ids, "ids"), language)
 
         return GraphqlRequest.localized(timezones.map { it.toGql() }, language)
     }
@@ -62,7 +62,7 @@ class TimezoneGraphqlFetcher(
     @DgsQuery
     fun timezone(@InputArgument id: String): DataFetcherResult<Timezone> {
         val language = GraphqlRequest.language()
-        val timezone = timezoneStore.byId(GraphqlRequest.longId(id, "id"), language)
+        val timezone = timezoneStore.byId(id, language)
 
         return GraphqlRequest.localized(timezone?.toGql(), language)
     }

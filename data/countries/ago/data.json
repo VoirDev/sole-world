@@ -1,5 +1,5 @@
 {
-  "id": 7,
+  "id": "AO",
   "name": "Angola",
   "nativeName": "Angola",
   "iso2": "AO",
@@ -9,17 +9,17 @@
   "tld": ".ao",
   "latitude": -12.5,
   "longitude": 18.5,
-  "flagId": 240,
-  "regionId": 1,
-  "subregionId": 2,
+  "flagId": "ao",
+  "regionId": "africa",
+  "subregionId": "middle-africa",
   "currencyIds": [
-    839
+    "AOA"
   ],
   "timezoneIds": [
-    2240
+    "Africa/Luanda"
   ],
   "officialLanguageIds": [
-    45
+    "pt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 212,
+      "id": "AO-BIE",
       "name": "Bié",
       "stateCode": "BIE",
       "latitude": -12.5727907,
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": 213,
+      "id": "AO-HUA",
       "name": "Huambo",
       "stateCode": "HUA",
       "latitude": -12.5268221,
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": 214,
+      "id": "AO-ZAI",
       "name": "Zaire",
       "stateCode": "ZAI",
       "latitude": -6.5733458,
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "id": 215,
+      "id": "AO-CNN",
       "name": "Cunene",
       "stateCode": "CNN",
       "latitude": -16.2802221,
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "id": 216,
+      "id": "AO-CUS",
       "name": "Cuanza",
       "stateCode": "CUS",
       "latitude": -10.595191,
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "id": 217,
+      "id": "AO-CNO",
       "name": "Cuanza Norte",
       "stateCode": "CNO",
       "latitude": -9.2398513,
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "id": 218,
+      "id": "AO-BGU",
       "name": "Benguela",
       "stateCode": "BGU",
       "latitude": -12.8003744,
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "id": 219,
+      "id": "AO-MOX",
       "name": "Moxico",
       "stateCode": "MOX",
       "latitude": -13.4293579,
@@ -402,7 +402,7 @@
       ]
     },
     {
-      "id": 220,
+      "id": "AO-LSU",
       "name": "Lunda Sul",
       "stateCode": "LSU",
       "latitude": -10.2866578,
@@ -427,7 +427,7 @@
       ]
     },
     {
-      "id": 221,
+      "id": "AO-BGO",
       "name": "Bengo",
       "stateCode": "BGO",
       "latitude": -9.1042257,
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": 222,
+      "id": "AO-LUA",
       "name": "Luanda",
       "stateCode": "LUA",
       "latitude": -9.035088,
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": 223,
+      "id": "AO-LNO",
       "name": "Lunda Norte",
       "stateCode": "LNO",
       "latitude": -8.3525022,
@@ -572,7 +572,7 @@
       ]
     },
     {
-      "id": 224,
+      "id": "AO-UIG",
       "name": "Uíge",
       "stateCode": "UIG",
       "latitude": -7.1736732,
@@ -590,7 +590,7 @@
       ]
     },
     {
-      "id": 225,
+      "id": "AO-HUI",
       "name": "Huíla",
       "stateCode": "HUI",
       "latitude": -14.9280553,
@@ -692,7 +692,7 @@
       ]
     },
     {
-      "id": 226,
+      "id": "AO-CCU",
       "name": "Cuando Cubango",
       "stateCode": "CCU",
       "latitude": -16.4180824,
@@ -710,7 +710,7 @@
       ]
     },
     {
-      "id": 227,
+      "id": "AO-MAL",
       "name": "Malanje",
       "stateCode": "MAL",
       "latitude": -9.8251183,
@@ -728,7 +728,7 @@
       ]
     },
     {
-      "id": 228,
+      "id": "AO-CAB",
       "name": "Cabinda",
       "stateCode": "CAB",
       "latitude": -5.0248749,

@@ -1,5 +1,5 @@
 {
-  "id": 199,
+  "id": "SG",
   "name": "Singapore",
   "nativeName": "Singapore",
   "iso2": "SG",
@@ -9,20 +9,20 @@
   "tld": ".sg",
   "latitude": 1.36666666,
   "longitude": 103.8,
-  "flagId": 53,
-  "regionId": 3,
-  "subregionId": 13,
+  "flagId": "sg",
+  "regionId": "asia",
+  "subregionId": "south-eastern-asia",
   "currencyIds": [
-    955
+    "SGD"
   ],
   "timezoneIds": [
-    2560
+    "Asia/Singapore"
   ],
   "officialLanguageIds": [
-    30,
-    122,
-    160,
-    25
+    "en",
+    "ms",
+    "ta",
+    "zh"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -93,7 +93,7 @@
   ],
   "states": [
     {
-      "id": 4649,
+      "id": "SG-02",
       "name": "North East",
       "stateCode": "02",
       "latitude": 1.3824,
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "id": 4650,
+      "id": "SG-04",
       "name": "South East",
       "stateCode": "04",
       "latitude": 1.3571,
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "id": 4651,
+      "id": "SG-01",
       "name": "Central Singapore",
       "stateCode": "01",
       "latitude": 1.2884,
@@ -266,7 +266,7 @@
       ]
     },
     {
-      "id": 4652,
+      "id": "SG-05",
       "name": "South West",
       "stateCode": "05",
       "latitude": 1.3571,
@@ -298,7 +298,7 @@
       ]
     },
     {
-      "id": 4653,
+      "id": "SG-03",
       "name": "North West",
       "stateCode": "03",
       "latitude": 1.418,

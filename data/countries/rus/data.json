@@ -1,5 +1,5 @@
 {
-  "id": 182,
+  "id": "RU",
   "name": "Russia",
   "nativeName": "Россия",
   "iso2": "RU",
@@ -9,42 +9,42 @@
   "tld": ".ru",
   "latitude": 60,
   "longitude": 100,
-  "flagId": 60,
-  "regionId": 4,
-  "subregionId": 15,
+  "flagId": "ru",
+  "regionId": "europe",
+  "subregionId": "eastern-europe",
   "currencyIds": [
-    946
+    "RUB"
   ],
   "timezoneIds": [
-    2519,
-    2520,
-    2521,
-    2522,
-    2523,
-    2524,
-    2525,
-    2526,
-    2527,
-    2528,
-    2529,
-    2530,
-    2531,
-    2532,
-    2533,
-    2534,
-    2535,
-    2536,
-    2537,
-    2538,
-    2539,
-    2540,
-    2541,
-    2542,
-    2543,
-    2544
+    "Asia/Anadyr",
+    "Asia/Barnaul",
+    "Asia/Chita",
+    "Asia/Irkutsk",
+    "Asia/Kamchatka",
+    "Asia/Khandyga",
+    "Asia/Krasnoyarsk",
+    "Asia/Magadan",
+    "Asia/Novokuznetsk",
+    "Asia/Novosibirsk",
+    "Asia/Omsk",
+    "Asia/Sakhalin",
+    "Asia/Srednekolymsk",
+    "Asia/Tomsk",
+    "Asia/Ust-Nera",
+    "Asia/Vladivostok",
+    "Asia/Yakutsk",
+    "Asia/Yekaterinburg",
+    "Europe/Astrakhan",
+    "Europe/Kaliningrad",
+    "Europe/Kirov",
+    "Europe/Moscow",
+    "Europe/Samara",
+    "Europe/Saratov",
+    "Europe/Ulyanovsk",
+    "Europe/Volgograd"
   ],
   "officialLanguageIds": [
-    46
+    "ru"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -115,7 +115,7 @@
   ],
   "states": [
     {
-      "id": 1833,
+      "id": "RU-PRI",
       "name": "Primorsky",
       "stateCode": "PRI",
       "latitude": 45.0525641,
@@ -7103,7 +7103,7 @@
       ]
     },
     {
-      "id": 1834,
+      "id": "RU-NGR",
       "name": "Novgorod",
       "stateCode": "NGR",
       "latitude": 58.2427552,
@@ -11067,7 +11067,7 @@
       ]
     },
     {
-      "id": 1835,
+      "id": "RU-YEV",
       "name": "Jewish",
       "stateCode": "YEV",
       "latitude": 48.4808147,
@@ -12439,7 +12439,7 @@
       ]
     },
     {
-      "id": 1836,
+      "id": "RU-NEN",
       "name": "Nenets",
       "stateCode": "NEN",
       "latitude": 67.6078337,
@@ -12659,7 +12659,7 @@
       ]
     },
     {
-      "id": 1837,
+      "id": "RU-ROS",
       "name": "Rostov",
       "stateCode": "ROS",
       "latitude": 47.6853247,
@@ -20583,7 +20583,7 @@
       ]
     },
     {
-      "id": 1838,
+      "id": "RU-KHM",
       "name": "Khanty-Mansi",
       "stateCode": "KHM",
       "latitude": 62.2287062,
@@ -23827,7 +23827,7 @@
       ]
     },
     {
-      "id": 1839,
+      "id": "RU-MAG",
       "name": "Magadan",
       "stateCode": "MAG",
       "latitude": 62.6643417,
@@ -25487,7 +25487,7 @@
       ]
     },
     {
-      "id": 1840,
+      "id": "RU-KYA",
       "name": "Krasnoyarsk",
       "stateCode": "KYA",
       "latitude": 64.2479758,
@@ -33411,7 +33411,7 @@
       ]
     },
     {
-      "id": 1841,
+      "id": "RU-KR",
       "name": "Karelia",
       "stateCode": "KR",
       "latitude": 63.1558702,
@@ -36943,7 +36943,7 @@
       ]
     },
     {
-      "id": 1842,
+      "id": "RU-BU",
       "name": "Buryatia",
       "stateCode": "BU",
       "latitude": 54.8331146,
@@ -41771,7 +41771,7 @@
       ]
     },
     {
-      "id": 1843,
+      "id": "RU-MUR",
       "name": "Murmansk",
       "stateCode": "MUR",
       "latitude": 67.8442674,
@@ -44871,7 +44871,7 @@
       ]
     },
     {
-      "id": 1844,
+      "id": "RU-KLU",
       "name": "Kaluga",
       "stateCode": "KLU",
       "latitude": 54.3872666,
@@ -49987,7 +49987,7 @@
       ]
     },
     {
-      "id": 1845,
+      "id": "RU-CHE",
       "name": "Chelyabinsk",
       "stateCode": "CHE",
       "latitude": 54.4319422,
@@ -56831,7 +56831,7 @@
       ]
     },
     {
-      "id": 1846,
+      "id": "RU-OMS",
       "name": "Omsk",
       "stateCode": "OMS",
       "latitude": 55.0554669,
@@ -59643,7 +59643,7 @@
       ]
     },
     {
-      "id": 1847,
+      "id": "RU-YAN",
       "name": "Yamalo-Nenets",
       "stateCode": "YAN",
       "latitude": 66.0653057,
@@ -61447,7 +61447,7 @@
       ]
     },
     {
-      "id": 1848,
+      "id": "RU-SA",
       "name": "Sakha",
       "stateCode": "SA",
       "latitude": 66.7613451,
@@ -67715,7 +67715,7 @@
       ]
     },
     {
-      "id": 1849,
+      "id": "RU-ARK",
       "name": "Arkhangelsk",
       "stateCode": "ARK",
       "latitude": 64.5458549,
@@ -72903,7 +72903,7 @@
       ]
     },
     {
-      "id": 1850,
+      "id": "RU-DA",
       "name": "Dagestan",
       "stateCode": "DA",
       "latitude": 42.1431886,
@@ -85579,7 +85579,7 @@
       ]
     },
     {
-      "id": 1851,
+      "id": "RU-YAR",
       "name": "Yaroslavl",
       "stateCode": "YAR",
       "latitude": 57.8991523,
@@ -89399,7 +89399,7 @@
       ]
     },
     {
-      "id": 1852,
+      "id": "RU-AD",
       "name": "Adygea",
       "stateCode": "AD",
       "latitude": 44.8229155,
@@ -91635,7 +91635,7 @@
       ]
     },
     {
-      "id": 1853,
+      "id": "RU-SE",
       "name": "North Ossetia-Alania",
       "stateCode": "SE",
       "latitude": 43.0451302,
@@ -93943,7 +93943,7 @@
       ]
     },
     {
-      "id": 1854,
+      "id": "RU-BA",
       "name": "Bashkortostan",
       "stateCode": "BA",
       "latitude": 54.2312172,
@@ -102011,7 +102011,7 @@
       ]
     },
     {
-      "id": 1855,
+      "id": "RU-KRS",
       "name": "Kursk",
       "stateCode": "KRS",
       "latitude": 51.7634026,
@@ -105255,7 +105255,7 @@
       ]
     },
     {
-      "id": 1856,
+      "id": "RU-ULY",
       "name": "Ulyanovsk",
       "stateCode": "ULY",
       "latitude": 53.9793357,
@@ -108571,7 +108571,7 @@
       ]
     },
     {
-      "id": 1857,
+      "id": "RU-NIZ",
       "name": "Nizhny Novgorod",
       "stateCode": "NIZ",
       "latitude": 55.7995159,
@@ -117791,7 +117791,7 @@
       ]
     },
     {
-      "id": 1858,
+      "id": "RU-AMU",
       "name": "Amur",
       "stateCode": "AMU",
       "latitude": 54.6035065,
@@ -122043,7 +122043,7 @@
       ]
     },
     {
-      "id": 1859,
+      "id": "RU-CHU",
       "name": "Chukotka",
       "stateCode": "CHU",
       "latitude": 65.6298355,
@@ -122839,7 +122839,7 @@
       ]
     },
     {
-      "id": 1860,
+      "id": "RU-TVE",
       "name": "Tver",
       "stateCode": "TVE",
       "latitude": 57.0021654,
@@ -129323,7 +129323,7 @@
       ]
     },
     {
-      "id": 1861,
+      "id": "RU-TA",
       "name": "Tatarstan",
       "stateCode": "TA",
       "latitude": 55.1802364,
@@ -136959,7 +136959,7 @@
       ]
     },
     {
-      "id": 1862,
+      "id": "RU-SAM",
       "name": "Samara",
       "stateCode": "SAM",
       "latitude": 53.4183839,
@@ -141643,7 +141643,7 @@
       ]
     },
     {
-      "id": 1863,
+      "id": "RU-PSK",
       "name": "Pskov",
       "stateCode": "PSK",
       "latitude": 56.7708599,
@@ -144887,7 +144887,7 @@
       ]
     },
     {
-      "id": 1864,
+      "id": "RU-IVA",
       "name": "Ivanovo",
       "stateCode": "IVA",
       "latitude": 57.1056854,
@@ -149355,7 +149355,7 @@
       ]
     },
     {
-      "id": 1865,
+      "id": "RU-KAM",
       "name": "Kamchatka",
       "stateCode": "KAM",
       "latitude": 61.4343981,
@@ -151303,7 +151303,7 @@
       ]
     },
     {
-      "id": 1866,
+      "id": "RU-AST",
       "name": "Astrakhan",
       "stateCode": "AST",
       "latitude": 46.1321166,
@@ -154259,7 +154259,7 @@
       ]
     },
     {
-      "id": 1867,
+      "id": "RU-BRY",
       "name": "Bryansk",
       "stateCode": "BRY",
       "latitude": 53.0408599,
@@ -160311,7 +160311,7 @@
       ]
     },
     {
-      "id": 1868,
+      "id": "RU-STA",
       "name": "Stavropol",
       "stateCode": "STA",
       "latitude": 44.6680993,
@@ -169027,7 +169027,7 @@
       ]
     },
     {
-      "id": 1869,
+      "id": "RU-KC",
       "name": "Karachay-Cherkess",
       "stateCode": "KC",
       "latitude": 43.8845143,
@@ -171551,7 +171551,7 @@
       ]
     },
     {
-      "id": 1870,
+      "id": "RU-ME",
       "name": "Mari El",
       "stateCode": "ME",
       "latitude": 56.438457,
@@ -174147,7 +174147,7 @@
       ]
     },
     {
-      "id": 1871,
+      "id": "RU-PER",
       "name": "Perm",
       "stateCode": "PER",
       "latitude": 58.8231929,
@@ -180199,7 +180199,7 @@
       ]
     },
     {
-      "id": 1872,
+      "id": "RU-TOM",
       "name": "Tomsk",
       "stateCode": "TOM",
       "latitude": 58.8969882,
@@ -182435,7 +182435,7 @@
       ]
     },
     {
-      "id": 1873,
+      "id": "RU-KHA",
       "name": "Khabarovsk",
       "stateCode": "KHA",
       "latitude": 50.5888431,
@@ -185391,7 +185391,7 @@
       ]
     },
     {
-      "id": 1874,
+      "id": "RU-VLG",
       "name": "Vologda",
       "stateCode": "VLG",
       "latitude": 59.8706711,
@@ -190003,7 +190003,7 @@
       ]
     },
     {
-      "id": 1875,
+      "id": "RU-SAK",
       "name": "Sakhalin",
       "stateCode": "SAK",
       "latitude": 50.6909848,
@@ -193103,7 +193103,7 @@
       ]
     },
     {
-      "id": 1876,
+      "id": "RU-AL",
       "name": "Altai",
       "stateCode": "AL",
       "latitude": 50.6181924,
@@ -194979,7 +194979,7 @@
       ]
     },
     {
-      "id": 1877,
+      "id": "RU-KK",
       "name": "Khakassia",
       "stateCode": "KK",
       "latitude": 53.0452281,
@@ -196639,7 +196639,7 @@
       ]
     },
     {
-      "id": 1878,
+      "id": "RU-TAM",
       "name": "Tambov",
       "stateCode": "TAM",
       "latitude": 52.6416589,
@@ -199235,7 +199235,7 @@
       ]
     },
     {
-      "id": 1879,
+      "id": "RU-SPE",
       "name": "Saint Petersburg",
       "stateCode": "SPE",
       "latitude": 59.9310584,
@@ -203487,7 +203487,7 @@
       ]
     },
     {
-      "id": 1880,
+      "id": "RU-IRK",
       "name": "Irkutsk",
       "stateCode": "IRK",
       "latitude": 52.2854834,
@@ -203562,7 +203562,7 @@
       "cities": []
     },
     {
-      "id": 1881,
+      "id": "RU-VLA",
       "name": "Vladimir",
       "stateCode": "VLA",
       "latitude": 56.1553465,
@@ -208390,7 +208390,7 @@
       ]
     },
     {
-      "id": 1882,
+      "id": "RU-MOS",
       "name": "Moscow",
       "stateCode": "MOS",
       "latitude": 55.340396,
@@ -232370,7 +232370,7 @@
       ]
     },
     {
-      "id": 1883,
+      "id": "RU-KL",
       "name": "Kalmykia",
       "stateCode": "KL",
       "latitude": 46.1867176,
@@ -233742,7 +233742,7 @@
       ]
     },
     {
-      "id": 1884,
+      "id": "RU-IN",
       "name": "Ingushetia",
       "stateCode": "IN",
       "latitude": 43.4051698,
@@ -235618,7 +235618,7 @@
       ]
     },
     {
-      "id": 1885,
+      "id": "RU-SMO",
       "name": "Smolensk",
       "stateCode": "SMO",
       "latitude": 54.9882994,
@@ -238286,7 +238286,7 @@
       ]
     },
     {
-      "id": 1886,
+      "id": "RU-ORE",
       "name": "Orenburg",
       "stateCode": "ORE",
       "latitude": 51.7634026,
@@ -242106,7 +242106,7 @@
       ]
     },
     {
-      "id": 1887,
+      "id": "RU-SAR",
       "name": "Saratov",
       "stateCode": "SAR",
       "latitude": 51.8369263,
@@ -247294,7 +247294,7 @@
       ]
     },
     {
-      "id": 1888,
+      "id": "RU-NVS",
       "name": "Novosibirsk",
       "stateCode": "NVS",
       "latitude": 54.9832693,
@@ -251618,7 +251618,7 @@
       ]
     },
     {
-      "id": 1889,
+      "id": "RU-LIP",
       "name": "Lipetsk",
       "stateCode": "LIP",
       "latitude": 52.5264702,
@@ -255078,7 +255078,7 @@
       ]
     },
     {
-      "id": 1890,
+      "id": "RU-KIR",
       "name": "Kirov",
       "stateCode": "KIR",
       "latitude": 58.4198529,
@@ -261562,7 +261562,7 @@
       ]
     },
     {
-      "id": 1891,
+      "id": "RU-KDA",
       "name": "Krasnodar",
       "stateCode": "KDA",
       "latitude": 45.6415289,
@@ -278126,7 +278126,7 @@
       ]
     },
     {
-      "id": 1892,
+      "id": "RU-KB",
       "name": "Kabardino-Balkar",
       "stateCode": "KB",
       "latitude": 43.3932469,
@@ -282810,7 +282810,7 @@
       ]
     },
     {
-      "id": 1893,
+      "id": "RU-CE",
       "name": "Chechen",
       "stateCode": "CE",
       "latitude": 43.4023301,
@@ -289006,7 +289006,7 @@
       ]
     },
     {
-      "id": 1894,
+      "id": "RU-SVE",
       "name": "Sverdlovsk",
       "stateCode": "SVE",
       "latitude": 56.8430993,
@@ -299018,7 +299018,7 @@
       ]
     },
     {
-      "id": 1895,
+      "id": "RU-TUL",
       "name": "Tula",
       "stateCode": "TUL",
       "latitude": 54.163768,
@@ -303702,7 +303702,7 @@
       ]
     },
     {
-      "id": 1896,
+      "id": "RU-LEN",
       "name": "Leningrad",
       "stateCode": "LEN",
       "latitude": 60.0793208,
@@ -313930,7 +313930,7 @@
       ]
     },
     {
-      "id": 1897,
+      "id": "RU-KEM",
       "name": "Kemerovo",
       "stateCode": "KEM",
       "latitude": 54.7574648,
@@ -319190,7 +319190,7 @@
       ]
     },
     {
-      "id": 1898,
+      "id": "RU-MO",
       "name": "Mordovia",
       "stateCode": "MO",
       "latitude": 54.2369441,
@@ -322722,7 +322722,7 @@
       ]
     },
     {
-      "id": 1899,
+      "id": "RU-KO",
       "name": "Komi",
       "stateCode": "KO",
       "latitude": 63.8630539,
@@ -326470,7 +326470,7 @@
       ]
     },
     {
-      "id": 1900,
+      "id": "RU-TY",
       "name": "Tuva",
       "stateCode": "TY",
       "latitude": 51.8872669,
@@ -328058,7 +328058,7 @@
       ]
     },
     {
-      "id": 1901,
+      "id": "RU-MOW",
       "name": "Moscow",
       "stateCode": "MOW",
       "latitude": 55.755826,
@@ -334758,7 +334758,7 @@
       ]
     },
     {
-      "id": 1902,
+      "id": "RU-KGD",
       "name": "Kaliningrad",
       "stateCode": "KGD",
       "latitude": 54.7104264,
@@ -337498,7 +337498,7 @@
       ]
     },
     {
-      "id": 1903,
+      "id": "RU-BEL",
       "name": "Belgorod",
       "stateCode": "BEL",
       "latitude": 50.7106926,
@@ -341606,7 +341606,7 @@
       ]
     },
     {
-      "id": 1904,
+      "id": "RU-ZAB",
       "name": "Zabaykalsky",
       "stateCode": "ZAB",
       "latitude": 53.0928771,
@@ -347082,7 +347082,7 @@
       ]
     },
     {
-      "id": 1905,
+      "id": "RU-RYA",
       "name": "Ryazan",
       "stateCode": "RYA",
       "latitude": 54.3875964,
@@ -350614,7 +350614,7 @@
       ]
     },
     {
-      "id": 1906,
+      "id": "RU-VOR",
       "name": "Voronezh",
       "stateCode": "VOR",
       "latitude": 50.8589713,
@@ -357314,7 +357314,7 @@
       ]
     },
     {
-      "id": 1907,
+      "id": "RU-TYU",
       "name": "Tyumen",
       "stateCode": "TYU",
       "latitude": 56.9634387,
@@ -360702,7 +360702,7 @@
       ]
     },
     {
-      "id": 1908,
+      "id": "RU-ORL",
       "name": "Oryol",
       "stateCode": "ORL",
       "latitude": 52.7856414,
@@ -362722,7 +362722,7 @@
       ]
     },
     {
-      "id": 1909,
+      "id": "RU-PNZ",
       "name": "Penza",
       "stateCode": "PNZ",
       "latitude": 53.1412105,
@@ -366182,7 +366182,7 @@
       ]
     },
     {
-      "id": 1910,
+      "id": "RU-KOS",
       "name": "Kostroma",
       "stateCode": "KOS",
       "latitude": 58.5501069,
@@ -369426,7 +369426,7 @@
       ]
     },
     {
-      "id": 1911,
+      "id": "RU-ALT",
       "name": "Altai",
       "stateCode": "ALT",
       "latitude": 51.7936298,
@@ -380518,7 +380518,7 @@
       ]
     },
     {
-      "id": 1913,
+      "id": "RU-UD",
       "name": "Udmurt",
       "stateCode": "UD",
       "latitude": 57.0670218,
@@ -383186,7 +383186,7 @@
       ]
     },
     {
-      "id": 1914,
+      "id": "RU-CU",
       "name": "Chuvash",
       "stateCode": "CU",
       "latitude": 55.5595992,
@@ -386790,7 +386790,7 @@
       ]
     },
     {
-      "id": 1915,
+      "id": "RU-KGN",
       "name": "Kurgan",
       "stateCode": "KGN",
       "latitude": 55.4481548,
@@ -389098,7 +389098,7 @@
       ]
     },
     {
-      "id": 4916,
+      "id": "RU-VGG",
       "name": "Volgograd Oblast",
       "stateCode": "VGG",
       "latitude": 49.2587393,

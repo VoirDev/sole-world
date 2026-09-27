@@ -1,5 +1,5 @@
 {
-  "id": 114,
+  "id": "KI",
   "name": "Kiribati",
   "nativeName": "Kiribati",
   "iso2": "KI",
@@ -9,19 +9,19 @@
   "tld": ".ki",
   "latitude": 1.41666666,
   "longitude": 173,
-  "flagId": 133,
-  "regionId": 5,
-  "subregionId": 21,
+  "flagId": "ki",
+  "regionId": "oceania",
+  "subregionId": "micronesia",
   "currencyIds": [
-    844
+    "AUD"
   ],
   "timezoneIds": [
-    2429,
-    2430,
-    2431
+    "Pacific/Kanton",
+    "Pacific/Kiritimati",
+    "Pacific/Tarawa"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 1830,
+      "id": "KI-P",
       "name": "Phoenix",
       "stateCode": "P",
       "latitude": 33.3284369,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": 1831,
+      "id": "KI-G",
       "name": "Gilbert",
       "stateCode": "G",
       "latitude": 0.3524262,
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "id": 1832,
+      "id": "KI-L",
       "name": "Line",
       "stateCode": "L",
       "latitude": 1.7429439,

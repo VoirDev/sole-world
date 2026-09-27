@@ -1,5 +1,5 @@
 {
-  "id": 204,
+  "id": "ZA",
   "name": "South Africa",
   "nativeName": "South Africa",
   "iso2": "ZA",
@@ -9,26 +9,26 @@
   "tld": ".za",
   "latitude": -29,
   "longitude": 24,
-  "flagId": 3,
-  "regionId": 1,
-  "subregionId": 5,
+  "flagId": "za",
+  "regionId": "africa",
+  "subregionId": "southern-africa",
   "currencyIds": [
-    958
+    "ZAR"
   ],
   "timezoneIds": [
-    2565
+    "Africa/Johannesburg"
   ],
   "officialLanguageIds": [
-    3,
-    30,
-    131,
-    157,
-    156,
-    169,
-    167,
-    176,
-    180,
-    52
+    "af",
+    "en",
+    "nr",
+    "st",
+    "ss",
+    "ts",
+    "tn",
+    "ve",
+    "xh",
+    "zu"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -99,7 +99,7 @@
   ],
   "states": [
     {
-      "id": 931,
+      "id": "ZA-NC",
       "name": "Northern Cape",
       "stateCode": "NC",
       "latitude": -29.0466808,
@@ -306,7 +306,7 @@
       ]
     },
     {
-      "id": 932,
+      "id": "ZA-FS",
       "name": "Free State",
       "stateCode": "FS",
       "latitude": 37.6858525,
@@ -604,7 +604,7 @@
       ]
     },
     {
-      "id": 933,
+      "id": "ZA-LP",
       "name": "Limpopo",
       "stateCode": "LP",
       "latitude": -23.4012946,
@@ -776,7 +776,7 @@
       ]
     },
     {
-      "id": 934,
+      "id": "ZA-NW",
       "name": "North West",
       "stateCode": "NW",
       "latitude": 32.758852,
@@ -955,7 +955,7 @@
       ]
     },
     {
-      "id": 935,
+      "id": "ZA-KZN",
       "name": "KwaZulu-Natal",
       "stateCode": "KZN",
       "latitude": -28.5305539,
@@ -1267,7 +1267,7 @@
       ]
     },
     {
-      "id": 936,
+      "id": "ZA-GP",
       "name": "Gauteng",
       "stateCode": "GP",
       "latitude": -26.2707593,
@@ -1551,7 +1551,7 @@
       ]
     },
     {
-      "id": 937,
+      "id": "ZA-MP",
       "name": "Mpumalanga",
       "stateCode": "MP",
       "latitude": -25.565336,
@@ -1744,7 +1744,7 @@
       ]
     },
     {
-      "id": 938,
+      "id": "ZA-EC",
       "name": "Eastern Cape",
       "stateCode": "EC",
       "latitude": -32.2968402,
@@ -2021,7 +2021,7 @@
       ]
     },
     {
-      "id": 939,
+      "id": "ZA-WC",
       "name": "Western Cape",
       "stateCode": "WC",
       "latitude": -33.2277918,

@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 /**
  * Central bank record read from the bundled seed data.
- * @property id Central bank primary key used during import.
+ * @property id Central bank alias, such as `federal-reserve`.
  * @property name Default display name.
  * @property nativeName Native-language name, when available.
  * @property websiteURL Official website URL, when available.
@@ -15,12 +15,12 @@ import kotlinx.serialization.Serializable
  */
 @Serializable
 data class CentralBankJSON(
-    val id: Long,
+    val id: String,
     val name: String,
     val nativeName: String?,
     val websiteURL: String?,
     val establishmentYear: Int?,
     val translations: List<CentralBankTranslationJSON>,
-    val currencyIds: List<Long>,
-    val countryIds: List<Long>,
+    val currencyIds: List<String>,
+    val countryIds: List<String>,
 )

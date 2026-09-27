@@ -1,5 +1,5 @@
 {
-  "id": 234,
+  "id": "UM",
   "name": "United States Minor Outlying Islands",
   "nativeName": "United States Minor Outlying Islands",
   "iso2": "UM",
@@ -9,18 +9,18 @@
   "tld": ".us",
   "latitude": 0,
   "longitude": 0,
-  "flagId": 19,
-  "regionId": 2,
-  "subregionId": 6,
+  "flagId": "um",
+  "regionId": "americas",
+  "subregionId": "northern-america",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2631,
-    2632
+    "Pacific/Midway",
+    "Pacific/Wake"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 5212,
+      "id": "UM-81",
       "name": "Baker Island",
       "stateCode": "81",
       "latitude": 0.1936266,
@@ -101,7 +101,7 @@
       "cities": []
     },
     {
-      "id": 5213,
+      "id": "UM-84",
       "name": "Howland Island",
       "stateCode": "84",
       "latitude": 0.8113219,
@@ -111,7 +111,7 @@
       "cities": []
     },
     {
-      "id": 5214,
+      "id": "UM-86",
       "name": "Jarvis Island",
       "stateCode": "86",
       "latitude": -0.3743503,
@@ -121,7 +121,7 @@
       "cities": []
     },
     {
-      "id": 5215,
+      "id": "UM-67",
       "name": "Johnston Atoll",
       "stateCode": "67",
       "latitude": 16.7295035,
@@ -131,7 +131,7 @@
       "cities": []
     },
     {
-      "id": 5216,
+      "id": "UM-89",
       "name": "Kingman Reef",
       "stateCode": "89",
       "latitude": 6.383333,
@@ -141,7 +141,7 @@
       "cities": []
     },
     {
-      "id": 5217,
+      "id": "UM-71",
       "name": "Midway Islands",
       "stateCode": "71",
       "latitude": 28.2072168,
@@ -151,7 +151,7 @@
       "cities": []
     },
     {
-      "id": 5218,
+      "id": "UM-76",
       "name": "Navassa Island",
       "stateCode": "76",
       "latitude": 18.4100689,
@@ -161,7 +161,7 @@
       "cities": []
     },
     {
-      "id": 5219,
+      "id": "UM-95",
       "name": "Palmyra Atoll",
       "stateCode": "95",
       "latitude": 5.8885026,
@@ -171,7 +171,7 @@
       "cities": []
     },
     {
-      "id": 5220,
+      "id": "UM-79",
       "name": "Wake Island",
       "stateCode": "79",
       "latitude": 19.279619,

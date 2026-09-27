@@ -1,5 +1,5 @@
 {
-  "id": 181,
+  "id": "RO",
   "name": "Romania",
   "nativeName": "România",
   "iso2": "RO",
@@ -9,17 +9,17 @@
   "tld": ".ro",
   "latitude": 46,
   "longitude": 25,
-  "flagId": 62,
-  "regionId": 4,
-  "subregionId": 15,
+  "flagId": "ro",
+  "regionId": "europe",
+  "subregionId": "eastern-europe",
   "currencyIds": [
-    945
+    "RON"
   ],
   "timezoneIds": [
-    2518
+    "Europe/Bucharest"
   ],
   "officialLanguageIds": [
-    62
+    "ro"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4720,
+      "id": "RO-SV",
       "name": "Suceava",
       "stateCode": "SV",
       "latitude": 47.5505548,
@@ -2089,7 +2089,7 @@
       ]
     },
     {
-      "id": 4721,
+      "id": "RO-HD",
       "name": "Hunedoara",
       "stateCode": "HD",
       "latitude": 45.793638,
@@ -3150,7 +3150,7 @@
       ]
     },
     {
-      "id": 4722,
+      "id": "RO-AG",
       "name": "Arges",
       "stateCode": "AG",
       "latitude": 45.0722527,
@@ -4953,7 +4953,7 @@
       ]
     },
     {
-      "id": 4723,
+      "id": "RO-BH",
       "name": "Bihor",
       "stateCode": "BH",
       "latitude": 47.0157516,
@@ -6665,7 +6665,7 @@
       ]
     },
     {
-      "id": 4724,
+      "id": "RO-AB",
       "name": "Alba",
       "stateCode": "AB",
       "latitude": 44.7009153,
@@ -7978,7 +7978,7 @@
       ]
     },
     {
-      "id": 4725,
+      "id": "RO-IF",
       "name": "Ilfov",
       "stateCode": "IF",
       "latitude": 44.535548,
@@ -8731,7 +8731,7 @@
       ]
     },
     {
-      "id": 4726,
+      "id": "RO-GR",
       "name": "Giurgiu",
       "stateCode": "GR",
       "latitude": 43.9037076,
@@ -9771,7 +9771,7 @@
       ]
     },
     {
-      "id": 4727,
+      "id": "RO-TL",
       "name": "Tulcea",
       "stateCode": "TL",
       "latitude": 45.0450565,
@@ -10608,7 +10608,7 @@
       ]
     },
     {
-      "id": 4728,
+      "id": "RO-TR",
       "name": "Teleorman",
       "stateCode": "TR",
       "latitude": 44.0160491,
@@ -12278,7 +12278,7 @@
       ]
     },
     {
-      "id": 4729,
+      "id": "RO-PH",
       "name": "Prahova",
       "stateCode": "PH",
       "latitude": 45.0891906,
@@ -14375,7 +14375,7 @@
       ]
     },
     {
-      "id": 4730,
+      "id": "RO-B",
       "name": "Bucharest",
       "stateCode": "B",
       "latitude": 44.4267674,
@@ -14435,7 +14435,7 @@
       ]
     },
     {
-      "id": 4731,
+      "id": "RO-NT",
       "name": "Neamț",
       "stateCode": "NT",
       "latitude": 46.9758685,
@@ -15972,7 +15972,7 @@
       ]
     },
     {
-      "id": 4732,
+      "id": "RO-CL",
       "name": "Călărași",
       "stateCode": "CL",
       "latitude": 44.3658715,
@@ -16900,7 +16900,7 @@
       ]
     },
     {
-      "id": 4733,
+      "id": "RO-BN",
       "name": "Bistrița-Năsăud",
       "stateCode": "BN",
       "latitude": 47.2486107,
@@ -17947,7 +17947,7 @@
       ]
     },
     {
-      "id": 4734,
+      "id": "RO-CJ",
       "name": "Cluj",
       "stateCode": "CJ",
       "latitude": 46.7941797,
@@ -19239,7 +19239,7 @@
       ]
     },
     {
-      "id": 4735,
+      "id": "RO-IS",
       "name": "Iași",
       "stateCode": "IS",
       "latitude": 47.2679653,
@@ -21105,7 +21105,7 @@
       ]
     },
     {
-      "id": 4736,
+      "id": "RO-BR",
       "name": "Braila",
       "stateCode": "BR",
       "latitude": 45.2652463,
@@ -21837,7 +21837,7 @@
       ]
     },
     {
-      "id": 4737,
+      "id": "RO-CT",
       "name": "Constanța",
       "stateCode": "CT",
       "latitude": 44.212987,
@@ -22989,7 +22989,7 @@
       ]
     },
     {
-      "id": 4738,
+      "id": "RO-OT",
       "name": "Olt",
       "stateCode": "OT",
       "latitude": 44.200797,
@@ -24841,7 +24841,7 @@
       ]
     },
     {
-      "id": 4739,
+      "id": "RO-AR",
       "name": "Arad",
       "stateCode": "AR",
       "latitude": 46.2283651,
@@ -26161,7 +26161,7 @@
       ]
     },
     {
-      "id": 4740,
+      "id": "RO-BT",
       "name": "Botoșani",
       "stateCode": "BT",
       "latitude": 47.8924042,
@@ -27565,7 +27565,7 @@
       ]
     },
     {
-      "id": 4741,
+      "id": "RO-SJ",
       "name": "Sălaj",
       "stateCode": "SJ",
       "latitude": 47.2090813,
@@ -28535,7 +28535,7 @@
       ]
     },
     {
-      "id": 4742,
+      "id": "RO-DJ",
       "name": "Dolj",
       "stateCode": "DJ",
       "latitude": 44.1623022,
@@ -30345,7 +30345,7 @@
       ]
     },
     {
-      "id": 4743,
+      "id": "RO-IL",
       "name": "Ialomița",
       "stateCode": "IL",
       "latitude": 44.603133,
@@ -31399,7 +31399,7 @@
       ]
     },
     {
-      "id": 4744,
+      "id": "RO-BC",
       "name": "Bacău",
       "stateCode": "BC",
       "latitude": 46.3258184,
@@ -33188,7 +33188,7 @@
       ]
     },
     {
-      "id": 4745,
+      "id": "RO-DB",
       "name": "Dâmbovița",
       "stateCode": "DB",
       "latitude": 44.9289893,
@@ -34970,7 +34970,7 @@
       ]
     },
     {
-      "id": 4746,
+      "id": "RO-SM",
       "name": "Satu Mare",
       "stateCode": "SM",
       "latitude": 47.7668905,
@@ -36080,7 +36080,7 @@
       ]
     },
     {
-      "id": 4747,
+      "id": "RO-GL",
       "name": "Galați",
       "stateCode": "GL",
       "latitude": 45.7800569,
@@ -37169,7 +37169,7 @@
       ]
     },
     {
-      "id": 4748,
+      "id": "RO-TM",
       "name": "Timiș",
       "stateCode": "TM",
       "latitude": 45.8138902,
@@ -38713,7 +38713,7 @@
       ]
     },
     {
-      "id": 4749,
+      "id": "RO-HR",
       "name": "Harghita",
       "stateCode": "HR",
       "latitude": 46.4928507,
@@ -39760,7 +39760,7 @@
       ]
     },
     {
-      "id": 4750,
+      "id": "RO-GJ",
       "name": "Gorj",
       "stateCode": "GJ",
       "latitude": 44.9485595,
@@ -40898,7 +40898,7 @@
       ]
     },
     {
-      "id": 4751,
+      "id": "RO-MH",
       "name": "Mehedinți",
       "stateCode": "MH",
       "latitude": 44.5515053,
@@ -41987,7 +41987,7 @@
       ]
     },
     {
-      "id": 4752,
+      "id": "RO-VS",
       "name": "Vaslui",
       "stateCode": "VS",
       "latitude": 46.4631059,
@@ -43384,7 +43384,7 @@
       ]
     },
     {
-      "id": 4753,
+      "id": "RO-CS",
       "name": "Caraș-Severin",
       "stateCode": "CS",
       "latitude": 45.1139646,
@@ -44592,7 +44592,7 @@
       ]
     },
     {
-      "id": 4754,
+      "id": "RO-CV",
       "name": "Covasna",
       "stateCode": "CV",
       "latitude": 45.9426347,
@@ -45296,7 +45296,7 @@
       ]
     },
     {
-      "id": 4755,
+      "id": "RO-SB",
       "name": "Sibiu",
       "stateCode": "SB",
       "latitude": 45.9269106,
@@ -46294,7 +46294,7 @@
       ]
     },
     {
-      "id": 4756,
+      "id": "RO-BZ",
       "name": "Buzău",
       "stateCode": "BZ",
       "latitude": 45.3350912,
@@ -47866,7 +47866,7 @@
       ]
     },
     {
-      "id": 4757,
+      "id": "RO-VL",
       "name": "Vâlcea",
       "stateCode": "VL",
       "latitude": 45.0798051,
@@ -49277,7 +49277,7 @@
       ]
     },
     {
-      "id": 4758,
+      "id": "RO-VN",
       "name": "Vrancea",
       "stateCode": "VN",
       "latitude": 45.8134876,
@@ -50527,7 +50527,7 @@
       ]
     },
     {
-      "id": 4759,
+      "id": "RO-BV",
       "name": "Brașov",
       "stateCode": "BV",
       "latitude": 45.7781844,
@@ -51462,7 +51462,7 @@
       ]
     },
     {
-      "id": 4760,
+      "id": "RO-MM",
       "name": "Maramureș",
       "stateCode": "MM",
       "latitude": 46.5569904,
@@ -53622,7 +53622,7 @@
       ]
     },
     {
-      "id": 4915,
+      "id": "RO-MS",
       "name": "Mureș",
       "stateCode": "MS",
       "latitude": 46.5569904,

@@ -1,8 +1,7 @@
 [
   {
-    "id": 1,
+    "id": "btc",
     "code": "btc",
-    "alias": "btc",
     "name": "Bitcoin",
     "description": "Bitcoin Token (BTC) is the original cryptocurrency that enables peer-to-peer transactions on a decentralized network, functioning as a digital alternative to traditional currency. It operates on blockchain technology, ensuring security and transparency in transactions.",
     "websiteUrl": "https://www.bitcoin.org",
@@ -10,12 +9,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 543
+    "logoId": "crypto-btc-square"
   },
   {
-    "id": 2,
+    "id": "eth",
     "code": "eth",
-    "alias": "eth",
     "name": "Ethereum",
     "description": "Ethereum (ETH) is a decentralized platform that enables developers to build and deploy smart contracts and decentralized applications (dApps) using blockchain technology. It facilitates peer-to-peer transactions and applications without a central authority.",
     "websiteUrl": "https://www.ethereum.org/",
@@ -23,12 +21,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 544
+    "logoId": "crypto-eth-square"
   },
   {
-    "id": 3,
+    "id": "usdt",
     "code": "usdt",
-    "alias": "usdt",
     "name": "Tether USDt",
     "description": "Tether (USDT) is a stablecoin that aims to bridge the gap between cryptocurrencies and traditional fiat currencies by pegging its value to the US Dollar. It allows for digital transactions while minimizing volatility commonly associated with cryptocurrencies.",
     "websiteUrl": "https://tether.to",
@@ -36,12 +33,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 545
+    "logoId": "crypto-usdt-square"
   },
   {
-    "id": 4,
+    "id": "bnb",
     "code": "bnb",
-    "alias": "bnb",
     "name": "BNB",
     "description": "BNB (Binance Coin) is the native cryptocurrency of the Binance exchange, originally created to provide discounts on trading fees and facilitate various transactions within the Binance ecosystem. It is now used for a variety of applications, including trading, payments, and powering the Binance Smart Chain.",
     "websiteUrl": "https://www.binance.com",
@@ -49,12 +45,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 546
+    "logoId": "crypto-bnb-square"
   },
   {
-    "id": 5,
+    "id": "usdc",
     "code": "usdc",
-    "alias": "usdc",
     "name": "USDC",
     "description": "USDC is a stablecoin pegged to the US dollar, designed to provide a reliable digital currency for transactions and value storage on blockchain networks. It is governed by the Centre consortium, which includes major players like Circle and Coinbase.",
     "websiteUrl": "https://www.usdc.com",
@@ -62,12 +57,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 547
+    "logoId": "crypto-usdc-square"
   },
   {
-    "id": 6,
+    "id": "xrp",
     "code": "xrp",
-    "alias": "xrp",
     "name": "XRP",
     "description": "XRP Token (XRP) is a digital asset designed for fast and cost-effective cross-border payments, built on the XRP Ledger to enhance the efficiency of global financial transactions. Its consensus algorithm allows for quick processing times and scalability, making it a key player in the cryptocurrency space.",
     "websiteUrl": null,
@@ -75,12 +69,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 548
+    "logoId": "crypto-xrp-square"
   },
   {
-    "id": 7,
+    "id": "sol",
     "code": "sol",
-    "alias": "sol",
     "name": "Solana",
     "description": "Solana (SOL) is a high-performance blockchain platform designed for decentralized applications and crypto projects, featuring fast transaction speeds and low costs. It aims to provide scalable solutions for developers while maintaining high security and decentralization.",
     "websiteUrl": "https://solana.com",
@@ -88,12 +81,11 @@
     "decimalDigits": 9,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 549
+    "logoId": "crypto-sol-square"
   },
   {
-    "id": 8,
+    "id": "trx",
     "code": "trx",
-    "alias": "trx",
     "name": "TRON",
     "description": "TRON (TRX) is a decentralized platform designed to build and deploy decentralized applications (dApps) and smart contracts on its blockchain. It aims to revolutionize the digital content ecosystem by enabling direct sharing and distribution without intermediaries.",
     "websiteUrl": "https://tron.network/",
@@ -101,12 +93,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 550
+    "logoId": "crypto-trx-square"
   },
   {
-    "id": 9,
+    "id": "hype",
     "code": "hype",
-    "alias": "hype",
     "name": "Hyperliquid",
     "description": "Hyperliquid (HYPE) is a decentralized perpetual exchange designed for trading cryptocurrency derivatives with high efficiency and low latency. It aims to provide users with a seamless trading experience while ensuring liquidity and security.",
     "websiteUrl": "https://hyperfoundation.org/",
@@ -117,9 +108,8 @@
     "logoId": null
   },
   {
-    "id": 10,
+    "id": "doge",
     "code": "doge",
-    "alias": "doge",
     "name": "Dogecoin",
     "description": "Dogecoin (DOGE) is a cryptocurrency that started as a joke featuring the Shiba Inu dog from the popular meme, but it has grown into a widely used digital currency for tipping, charity, and online transactions. Initially created for fun, Dogecoin has gained a large community and significant market presence.",
     "websiteUrl": "https://dogecoin.com/",
@@ -127,12 +117,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 551
+    "logoId": "crypto-doge-square"
   },
   {
-    "id": 11,
+    "id": "leo",
     "code": "leo",
-    "alias": "leo",
     "name": "UNUS SED LEO",
     "description": "LEO Token is a utility token used on the Bitfinex exchange to reduce trading fees and access various services within the platform. It aims to enhance liquidity and support the overall ecosystem of Bitfinex and its users.",
     "websiteUrl": "https://www.bitfinex.com/",
@@ -140,12 +129,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 552
+    "logoId": "crypto-leo-square"
   },
   {
-    "id": 12,
+    "id": "zec",
     "code": "zec",
-    "alias": "zec",
     "name": "Zcash",
     "description": "Zcash (ZEC) is a privacy-focused cryptocurrency that enables secure and anonymous transactions through advanced cryptographic techniques. It aims to provide users with greater financial privacy compared to traditional cryptocurrencies like Bitcoin.",
     "websiteUrl": null,
@@ -153,12 +141,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 553
+    "logoId": "crypto-zec-square"
   },
   {
-    "id": 13,
+    "id": "xlm",
     "code": "xlm",
-    "alias": "xlm",
     "name": "Stellar",
     "description": "Stellar (XLM) is a decentralized blockchain platform designed to facilitate cross-border transactions and provide financial services to the unbanked. It uses its native cryptocurrency, Lumens (XLM), to enable fast and low-cost transfers.",
     "websiteUrl": "https://www.stellar.org",
@@ -166,12 +153,11 @@
     "decimalDigits": 7,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 554
+    "logoId": "crypto-xlm-square"
   },
   {
-    "id": 14,
+    "id": "cc",
     "code": "cc",
-    "alias": "cc",
     "name": "Canton",
     "description": "Canton Network (CC) is a decentralized network designed to facilitate seamless inter-blockchain communication, enabling diverse blockchain ecosystems to interact and share data securely. Its architecture aims to enhance scalability and interoperability across various digital assets and platforms.",
     "websiteUrl": "https://www.canton.network",
@@ -182,9 +168,8 @@
     "logoId": null
   },
   {
-    "id": 15,
+    "id": "xmr",
     "code": "xmr",
-    "alias": "xmr",
     "name": "Monero",
     "description": "Monero (XMR) is a privacy-focused cryptocurrency that utilizes advanced cryptographic techniques to ensure secure and anonymous transactions. It aims to provide users with complete control over their financial privacy.",
     "websiteUrl": "https://getmonero.org/",
@@ -192,12 +177,11 @@
     "decimalDigits": 12,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 555
+    "logoId": "crypto-xmr-square"
   },
   {
-    "id": 16,
+    "id": "ada",
     "code": "ada",
-    "alias": "ada",
     "name": "Cardano",
     "description": "Cardano Token (ADA) is a cryptocurrency that operates on the Cardano blockchain platform, designed to enable smart contracts and decentralized applications with a focus on security and scalability. It aims to provide a more secure and sustainable infrastructure for the development of blockchain solutions.",
     "websiteUrl": null,
@@ -205,12 +189,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 556
+    "logoId": "crypto-ada-square"
   },
   {
-    "id": 17,
+    "id": "link",
     "code": "link",
-    "alias": "link",
     "name": "Chainlink",
     "description": "Chainlink (LINK) is a decentralized oracle network that enables smart contracts to securely interact with real-world data and off-chain resources. It aims to bridge the gap between blockchain technology and external data sources for enhanced functionality.",
     "websiteUrl": "https://chain.link/",
@@ -218,12 +201,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 557
+    "logoId": "crypto-link-square"
   },
   {
-    "id": 18,
+    "id": "dai",
     "code": "dai",
-    "alias": "dai",
     "name": "Dai",
     "description": "Dai (DAI) is a decentralized stablecoin on the Ethereum blockchain, pegged to the US Dollar, designed to maintain price stability through collateralization and smart contracts. It is governed by the MakerDAO community, enabling users to create and manage Dai through over-collateralized loans.",
     "websiteUrl": "https://makerdao.com/",
@@ -231,12 +213,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 558
+    "logoId": "crypto-dai-square"
   },
   {
-    "id": 19,
+    "id": "usd1",
     "code": "usd1",
-    "alias": "usd1",
     "name": "World Liberty Financial USD",
     "description": "USD1 (USD1) is a stablecoin designed to maintain a 1:1 peg with the US dollar, facilitating seamless transactions within the cryptocurrency ecosystem. It aims to provide a stable digital currency solution for users and businesses alike.",
     "websiteUrl": "https://www.worldlibertyfinancial.com",
@@ -247,9 +228,8 @@
     "logoId": null
   },
   {
-    "id": 20,
+    "id": "usde",
     "code": "usde",
-    "alias": "usde",
     "name": "Ethena USDe",
     "description": "Ethena USDe (USDE) is a stablecoin designed to maintain a 1:1 peg with the US dollar, offering a secure digital asset for transactions and value storage. It aims to combine the stability of traditional currency with the benefits of blockchain technology.",
     "websiteUrl": "https://app.ethena.fi",
@@ -257,12 +237,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 559
+    "logoId": "crypto-usde-square"
   },
   {
-    "id": 21,
+    "id": "gram",
     "code": "gram",
-    "alias": "gram",
     "name": "Gram (prev. Toncoin)",
     "description": "GRAM Token (GRAM) is the native cryptocurrency of the Telegram Open Network (TON), designed for fast and secure transactions within the Telegram ecosystem. It aims to bridge the gap between users and the blockchain by enabling various decentralized applications and services.",
     "websiteUrl": "https://ton.org",
@@ -273,9 +252,8 @@
     "logoId": null
   },
   {
-    "id": 22,
+    "id": "bch",
     "code": "bch",
-    "alias": "bch",
     "name": "Bitcoin Cash",
     "description": "Bitcoin Cash Token (BCH) is a cryptocurrency that originated from a hard fork of Bitcoin, designed to enable fast and low-cost transactions while improving scalability. It aims to provide a peer-to-peer electronic cash system for everyday transactions.",
     "websiteUrl": null,
@@ -283,12 +261,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 560
+    "logoId": "crypto-bch-square"
   },
   {
-    "id": 23,
+    "id": "m",
     "code": "m",
-    "alias": "m",
     "name": "MemeCore",
     "description": "MemeCore (M) is a cryptocurrency that aims to blend humor and digital culture, allowing users to engage with meme-based content while participating in a unique blockchain ecosystem. It brings a playful approach to the crypto space, celebrating internet meme culture.",
     "websiteUrl": "https://memecore.com",
@@ -299,9 +276,8 @@
     "logoId": null
   },
   {
-    "id": 24,
+    "id": "hbar",
     "code": "hbar",
-    "alias": "hbar",
     "name": "Hedera",
     "description": "Hedera Hashgraph (HBAR) is a decentralized public network that enables fast, secure, and low-cost transactions through its unique consensus algorithm known as Hashgraph. It is designed for a variety of applications, including decentralized finance, digital identity, and supply chain management.",
     "websiteUrl": "https://www.hedera.com",
@@ -309,12 +285,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 561
+    "logoId": "crypto-hbar-square"
   },
   {
-    "id": 25,
+    "id": "ltc",
     "code": "ltc",
-    "alias": "ltc",
     "name": "Litecoin",
     "description": "Litecoin (LTC) is a peer-to-peer cryptocurrency designed to enable fast and low-cost transactions, often considered the silver to Bitcoin's gold. It was created by Charlie Lee in 2011, utilizing a different hashing algorithm and a shorter block generation time.",
     "websiteUrl": "https://litecoin.org/",
@@ -322,12 +297,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 562
+    "logoId": "crypto-ltc-square"
   },
   {
-    "id": 26,
+    "id": "sui",
     "code": "sui",
-    "alias": "sui",
     "name": "Sui",
     "description": "SUI Token is the native cryptocurrency of the Sui blockchain, designed to enable secure, fast, and scalable decentralized applications and digital assets. It aims to provide developers with the tools needed to create high-performance blockchain solutions.",
     "websiteUrl": null,
@@ -335,12 +309,11 @@
     "decimalDigits": 9,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 563
+    "logoId": "crypto-sui-square"
   },
   {
-    "id": 27,
+    "id": "near",
     "code": "near",
-    "alias": "near",
     "name": "NEAR Protocol",
     "description": "Near Protocol (NEAR) is a scalable, developer-friendly blockchain platform designed to provide high-performance decentralized applications and smart contracts. It utilizes a unique sharding technology to optimize throughput and user experience.",
     "websiteUrl": "https://near.org",
@@ -348,12 +321,11 @@
     "decimalDigits": 24,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 564
+    "logoId": "crypto-near-square"
   },
   {
-    "id": 28,
+    "id": "usdg",
     "code": "usdg",
-    "alias": "usdg",
     "name": "Global Dollar",
     "description": "Global Dollar (USDG) is a digital currency designed to provide a stable and secure means of value transfer, aiming to bridge traditional finance and the blockchain ecosystem. It seeks to enhance financial inclusion and improve transaction efficiency.",
     "websiteUrl": "https://globaldollar.com",
@@ -364,9 +336,8 @@
     "logoId": null
   },
   {
-    "id": 29,
+    "id": "shib",
     "code": "shib",
-    "alias": "shib",
     "name": "Shiba Inu",
     "description": "Shiba Inu Token (SHIB) is a decentralized meme token that grew into a vibrant ecosystem, often referred to as the \"Dogecoin killer.\" It aims to be an experiment in community building and decentralized finance.",
     "websiteUrl": null,
@@ -374,12 +345,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 565
+    "logoId": "crypto-shib-square"
   },
   {
-    "id": 30,
+    "id": "pyusd",
     "code": "pyusd",
-    "alias": "pyusd",
     "name": "PayPal USD",
     "description": "PayPal USD (PYUSD) is a stablecoin issued by PayPal, designed to facilitate seamless and secure digital transactions. It is pegged to the US dollar, enabling users to transact in a stable value within the PayPal ecosystem.",
     "websiteUrl": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
@@ -387,12 +357,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 566
+    "logoId": "crypto-pyusd-square"
   },
   {
-    "id": 31,
+    "id": "cro",
     "code": "cro",
-    "alias": "cro",
     "name": "Cronos",
     "description": "Cronos (CRO) is the native cryptocurrency of the Cronos blockchain, designed to facilitate fast and efficient transactions in the Crypto.com ecosystem. It aims to provide a seamless experience for users engaging in decentralized finance and payments.",
     "websiteUrl": "https://cronos.com",
@@ -400,12 +369,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 567
+    "logoId": "crypto-cro-square"
   },
   {
-    "id": 32,
+    "id": "avax",
     "code": "avax",
-    "alias": "avax",
     "name": "Avalanche",
     "description": "Avalanche (AVAX) is a decentralized platform designed for launching applications and custom blockchain networks, integrating high throughput with sub-second finality. It aims to provide a scalable and efficient solution for DeFi, enterprise applications, and more.",
     "websiteUrl": "https://avalabs.org",
@@ -413,12 +381,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 568
+    "logoId": "crypto-avax-square"
   },
   {
-    "id": 33,
+    "id": "xaut",
     "code": "xaut",
-    "alias": "xaut",
     "name": "Tether Gold",
     "description": "Tether Gold (XAUT) is a digital asset backed by physical gold, allowing users to trade and hold a representation of gold in a blockchain-based form. It combines the stability of gold with the efficiency of blockchain technology.",
     "websiteUrl": "https://gold.tether.to/",
@@ -426,12 +393,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 569
+    "logoId": "crypto-xaut-square"
   },
   {
-    "id": 34,
+    "id": "tao",
     "code": "tao",
-    "alias": "tao",
     "name": "Bittensor",
     "description": "BitTensor (TAO) is a decentralized ecosystem that enables artificial intelligence training by allowing users to contribute computing power and be rewarded in TAO tokens. It aims to create a collaborative network for machine learning with enhanced scalability and efficiency.",
     "websiteUrl": "https://bittensor.com",
@@ -439,12 +405,11 @@
     "decimalDigits": 9,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 570
+    "logoId": "crypto-tao-square"
   },
   {
-    "id": 35,
+    "id": "wld",
     "code": "wld",
-    "alias": "wld",
     "name": "Worldcoin",
     "description": "Worldcoin (WLD) is a cryptocurrency designed to create a globally inclusive financial network by distributing digital currency to individuals through a unique biometric identification system. It aims to promote economic equity and secure identities in the digital economy.",
     "websiteUrl": "https://world.org",
@@ -452,12 +417,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 571
+    "logoId": "crypto-wld-square"
   },
   {
-    "id": 36,
+    "id": "uni",
     "code": "uni",
-    "alias": "uni",
     "name": "Uniswap",
     "description": "Uniswap (UNI) is a decentralized exchange protocol enabling users to swap various cryptocurrencies without the need for a centralized intermediary. It operates on the Ethereum blockchain and uses an automated liquidity protocol.",
     "websiteUrl": "https://uniswap.org/",
@@ -465,12 +429,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 572
+    "logoId": "crypto-uni-square"
   },
   {
-    "id": 37,
+    "id": "paxg",
     "code": "paxg",
-    "alias": "paxg",
     "name": "PAX Gold",
     "description": "PAX Gold (PAXG) is a digital asset backed by physical gold, designed to combine the stability of gold with the flexibility of blockchain technology. Each PAXG token is equivalent to one troy ounce of gold stored in professional vaults.",
     "websiteUrl": "https://www.paxos.com/paxgold",
@@ -478,12 +441,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 573
+    "logoId": "crypto-paxg-square"
   },
   {
-    "id": 38,
+    "id": "wlfi",
     "code": "wlfi",
-    "alias": "wlfi",
     "name": "World Liberty Financial",
     "description": "World Liberty Financial (WLFI) is a digital asset designed to facilitate global financial transactions and services. It aims to enhance financial accessibility and inclusivity for users worldwide.",
     "websiteUrl": "https://www.worldlibertyfinancial.com",
@@ -494,9 +456,8 @@
     "logoId": null
   },
   {
-    "id": 39,
+    "id": "mnt",
     "code": "mnt",
-    "alias": "mnt",
     "name": "Mantle",
     "description": "Mantle (MNT) is a decentralized layer-2 scaling solution built on Ethereum, designed to enhance transaction speeds and reduce gas fees for users and developers. It aims to provide a seamless experience for decentralized applications and blockchain interactions.",
     "websiteUrl": "https://www.mantle.xyz/",
@@ -504,12 +465,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 574
+    "logoId": "crypto-mnt-square"
   },
   {
-    "id": 40,
+    "id": "ondo",
     "code": "ondo",
-    "alias": "ondo",
     "name": "Ondo",
     "description": "Ondo (ONDO) is a decentralized finance protocol designed to optimize yield generation through innovative staking and liquidity solutions. It aims to empower users with greater control and flexibility over their assets.",
     "websiteUrl": "https://ondo.foundation",
@@ -517,12 +477,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 575
+    "logoId": "crypto-ondo-square"
   },
   {
-    "id": 41,
+    "id": "aster",
     "code": "aster",
-    "alias": "aster",
     "name": "Aster",
     "description": "Aster (ASTER) is a decentralized platform designed to enable the easy development and deployment of decentralized applications (dApps) and smart contracts. It aims to enhance scalability and interoperability within the blockchain ecosystem.",
     "websiteUrl": "https://www.asterdex.com",
@@ -533,9 +492,8 @@
     "logoId": null
   },
   {
-    "id": 42,
+    "id": "rlusd",
     "code": "rlusd",
-    "alias": "rlusd",
     "name": "Ripple USD",
     "description": "Ripple USD (RLUSD) is a digital currency designed to facilitate instant and cost-effective cross-border transactions by leveraging the Ripple payment protocol. It aims to provide a secure and efficient means of transferring value across global networks.",
     "websiteUrl": "https://ripple.com/solutions/stablecoin/",
@@ -546,9 +504,8 @@
     "logoId": null
   },
   {
-    "id": 43,
+    "id": "dot",
     "code": "dot",
-    "alias": "dot",
     "name": "Polkadot",
     "description": "Polkadot (DOT) is a next-generation blockchain protocol that enables interconnectivity between multiple blockchains, allowing them to share information and transactions in a secure and scalable manner. This ecosystem promotes seamless communication and innovation across various blockchain networks.",
     "websiteUrl": "https://polkadot.com",
@@ -556,12 +513,11 @@
     "decimalDigits": 10,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 576
+    "logoId": "crypto-dot-square"
   },
   {
-    "id": 44,
+    "id": "okb",
     "code": "okb",
-    "alias": "okb",
     "name": "OKB",
     "description": "OKB is a utility token issued by the OK Blockchain Foundation, primarily used within the OKEx exchange ecosystem for trading fee discounts, participation in token sales, and other services. It aims to enhance user engagement and provide a variety of benefits for its holders.",
     "websiteUrl": "https://www.okx.com",
@@ -569,12 +525,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 577
+    "logoId": "crypto-okb-square"
   },
   {
-    "id": 45,
+    "id": "pi",
     "code": "pi",
-    "alias": "pi",
     "name": "Pi",
     "description": "Pi Network is a digital currency that aims to provide users with an accessible way to mine cryptocurrency on their mobile devices without consuming significant resources. It leverages a unique consensus algorithm to secure the network while enabling users to earn Pi coins through participation.",
     "websiteUrl": "https://minepi.com",
@@ -585,9 +540,8 @@
     "logoId": null
   },
   {
-    "id": 46,
+    "id": "dexe",
     "code": "dexe",
-    "alias": "dexe",
     "name": "DeXe",
     "description": "DeXe is a decentralized trading platform that allows users to copy the trading strategies of successful traders while providing tools for portfolio management and social trading. It aims to enhance the trading experience by combining automation with community-driven insights.",
     "websiteUrl": "https://dexe.network",
@@ -598,9 +552,8 @@
     "logoId": null
   },
   {
-    "id": 47,
+    "id": "usdd",
     "code": "usdd",
-    "alias": "usdd",
     "name": "USDD",
     "description": "USDD is a decentralized stablecoin designed to maintain a 1:1 peg with the US dollar, aiming to provide a stable medium of exchange in the cryptocurrency ecosystem. It is built on the TRON blockchain and supports various decentralized applications and transactions.",
     "websiteUrl": "https://usdd.io/#/",
@@ -608,12 +561,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 578
+    "logoId": "crypto-usdd-square"
   },
   {
-    "id": 48,
+    "id": "sky",
     "code": "sky",
-    "alias": "sky",
     "name": "Sky",
     "description": "Sky (SKY) is a decentralized blockchain platform that aims to facilitate the development of decentralized applications and smart contracts, leveraging a unique consensus mechanism for enhanced security. Its ecosystem is designed to provide scalability and efficiency for developers and users alike.",
     "websiteUrl": "https://sky.money/",
@@ -621,12 +573,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 579
+    "logoId": "crypto-sky-square"
   },
   {
-    "id": 49,
+    "id": "icp",
     "code": "icp",
-    "alias": "icp",
     "name": "Internet Computer",
     "description": "Internet Computer (ICP) is a blockchain-based platform that enables developers to build and deploy decentralized applications and services on the internet, aiming to extend the functionality of the web. It provides a scalable and efficient environment for running smart contracts and hosting software.",
     "websiteUrl": "https://internetcomputer.org/",
@@ -634,12 +585,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 580
+    "logoId": "crypto-icp-square"
   },
   {
-    "id": 50,
+    "id": "bgb",
     "code": "bgb",
-    "alias": "bgb",
     "name": "Bitget Token",
     "description": "Bitget Token (BGB) is the native utility token of the Bitget exchange, used for fee discounts, trading rewards, and participating in token sales. It aims to enhance user experience and engagement on the platform.",
     "websiteUrl": "https://www.bitget.com/",
@@ -647,12 +597,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 581
+    "logoId": "crypto-bgb-square"
   },
   {
-    "id": 51,
+    "id": "etc",
     "code": "etc",
-    "alias": "etc",
     "name": "Ethereum Classic",
     "description": "Ethereum Classic (ETC) is a decentralized blockchain platform that enables smart contracts and decentralized applications, originating from a split of the original Ethereum network in 2016. It maintains the original Ethereum blockchain's principles, promoting immutability and resistance to censorship.",
     "websiteUrl": "https://ethereumclassic.org/",
@@ -660,12 +609,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 582
+    "logoId": "crypto-etc-square"
   },
   {
-    "id": 52,
+    "id": "pepe",
     "code": "pepe",
-    "alias": "pepe",
     "name": "Pepe",
     "description": "Pepe (PEPE) is a meme-inspired cryptocurrency that leverages the popular internet meme culture associated with the character Pepe the Frog. It aims to create a fun and engaging community for meme enthusiasts and cryptocurrency fans alike.",
     "websiteUrl": null,
@@ -673,12 +621,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 583
+    "logoId": "crypto-pepe-square"
   },
   {
-    "id": 53,
+    "id": "aave",
     "code": "aave",
-    "alias": "aave",
     "name": "Aave",
     "description": "Aave (AAVE) is a decentralized finance (DeFi) protocol that allows users to lend and borrow cryptocurrencies without intermediaries, utilizing smart contracts on the Ethereum blockchain. Its native token, AAVE, is used for governance and incentivizing the platform's ecosystem.",
     "websiteUrl": "https://aave.com/",
@@ -686,12 +633,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 584
+    "logoId": "crypto-aave-square"
   },
   {
-    "id": 54,
+    "id": "u",
     "code": "u",
-    "alias": "u",
     "name": "United Stables",
     "description": null,
     "websiteUrl": "https://u.tech",
@@ -702,9 +648,8 @@
     "logoId": null
   },
   {
-    "id": 55,
+    "id": "kcs",
     "code": "kcs",
-    "alias": "kcs",
     "name": "KuCoin Token",
     "description": "KuCoin Token (KCS) is the native cryptocurrency of the KuCoin exchange, enabling users to receive trading fee discounts, participate in token sales, and earn rewards. Holding KCS also allows users to benefit from the exchange's profit-sharing model.",
     "websiteUrl": "https://www.kucoin.com/",
@@ -712,12 +657,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 585
+    "logoId": "crypto-kcs-square"
   },
   {
-    "id": 56,
+    "id": "morpho",
     "code": "morpho",
-    "alias": "morpho",
     "name": "Morpho",
     "description": "Morpho (MORPHO) is a decentralized platform designed to enhance user privacy and security in digital transactions and communications. It utilizes innovative cryptographic techniques to empower individuals while maintaining transparency and decentralization.",
     "websiteUrl": "https://morpho.org/",
@@ -728,9 +672,8 @@
     "logoId": null
   },
   {
-    "id": 57,
+    "id": "atom",
     "code": "atom",
-    "alias": "atom",
     "name": "Cosmos",
     "description": "Cosmos Token (ATOM) is the native cryptocurrency of the Cosmos network, designed to facilitate interoperability between various blockchains and enhance their scalability. It allows users to participate in governance and staking within the Cosmos ecosystem.",
     "websiteUrl": null,
@@ -738,12 +681,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 586
+    "logoId": "crypto-atom-square"
   },
   {
-    "id": 58,
+    "id": "render",
     "code": "render",
-    "alias": "render",
     "name": "Render",
     "description": "Render (RENDER) is a decentralized rendering network that connects users who require rendering services with miners who provide computing power for rendering graphics and visual content. It aims to facilitate efficient and cost-effective rendering solutions in the digital space.",
     "websiteUrl": "https://rendernetwork.com/",
@@ -754,9 +696,8 @@
     "logoId": null
   },
   {
-    "id": 59,
+    "id": "pol",
     "code": "pol",
-    "alias": "pol",
     "name": "Polygon (prev. MATIC)",
     "description": "Polygon Ecosystem Token (POL) is the native utility token designed to facilitate transactions and interactions within the Polygon ecosystem, supporting various blockchain solutions and applications. It aims to enhance scalability and usability across decentralized applications (dApps).",
     "websiteUrl": "https://polygon.technology/",
@@ -764,12 +705,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 587
+    "logoId": "crypto-pol-square"
   },
   {
-    "id": 60,
+    "id": "qnt",
     "code": "qnt",
-    "alias": "qnt",
     "name": "Quant",
     "description": "Quant (QNT) is a blockchain platform designed to enable interoperability between various blockchains and networks, facilitating the seamless transfer of data and assets. It aims to connect different systems and improve their functionality through its Overledger technology.",
     "websiteUrl": "https://quant.network/",
@@ -777,12 +717,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 588
+    "logoId": "crypto-qnt-square"
   },
   {
-    "id": 61,
+    "id": "algo",
     "code": "algo",
-    "alias": "algo",
     "name": "Algorand",
     "description": "Algorand (ALGO) is a decentralized blockchain platform designed for speed and efficiency, enabling the creation of secure and scalable applications. It uses a unique consensus mechanism called Pure Proof-of-Stake to facilitate fast transactions and maintain network security.",
     "websiteUrl": "https://algorand.co",
@@ -790,12 +729,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 589
+    "logoId": "crypto-algo-square"
   },
   {
-    "id": 62,
+    "id": "kas",
     "code": "kas",
-    "alias": "kas",
     "name": "Kaspa",
     "description": "Kaspa (KAS) is a high-performance blockchain that utilizes a blockDAG architecture, enabling fast and secure transactions with a unique consensus mechanism. Its design aims to provide scalability and efficiency for decentralized applications.",
     "websiteUrl": "https://kaspa.org/",
@@ -803,12 +741,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 590
+    "logoId": "crypto-kas-square"
   },
   {
-    "id": 63,
+    "id": "ena",
     "code": "ena",
-    "alias": "ena",
     "name": "Ethena",
     "description": "Ethena (ENA) is a blockchain-based platform that aims to provide decentralized and secure financial services through smart contracts. It focuses on enabling efficient transactions and fostering a collaborative ecosystem for users.",
     "websiteUrl": "https://www.ethena.fi/",
@@ -816,12 +753,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 591
+    "logoId": "crypto-ena-square"
   },
   {
-    "id": 64,
+    "id": "stable",
     "code": "stable",
-    "alias": "stable",
     "name": "Stable",
     "description": "What is Stable? Stable (STABLE) is a cryptocurrency project designed to provide stability in the digital asset market. Launched on the Ethereum blockchain, Stable aims to address the volatility commonly associated with cryptocurrencies. It achieves this by pegging its value to a stable asset or basket of assets, ensuring minimal price fluctuations. The native token, STABLE, serves as a medium for transactions within the network and is primaril...",
     "websiteUrl": null,
@@ -832,9 +768,8 @@
     "logoId": null
   },
   {
-    "id": 65,
+    "id": "binance-life",
     "code": "币安人生",
-    "alias": "binance_life",
     "name": "币安人生",
     "description": "币安人生 is a digital currency associated with the Binance platform, designed to enhance user experience and engagement within the Binance ecosystem.",
     "websiteUrl": null,
@@ -845,9 +780,8 @@
     "logoId": null
   },
   {
-    "id": 66,
+    "id": "gt",
     "code": "gt",
-    "alias": "gt",
     "name": "GateToken",
     "description": "GateToken (GT) is the native utility token of the Gate.io exchange, designed to be used for trading fee discounts, participation in token sales, and other platform perks. It aims to enhance user experience and promote engagement within the Gate.io ecosystem.",
     "websiteUrl": "https://gatechain.io",
@@ -858,9 +792,8 @@
     "logoId": null
   },
   {
-    "id": 67,
+    "id": "jst",
     "code": "jst",
-    "alias": "jst",
     "name": "JUST",
     "description": "JUST (JST) is a blockchain-based platform that aims to provide a decentralized stablecoin ecosystem, enabling users to create and manage collateralized tokens. It focuses on empowering various decentralized financial services within the TRON network.",
     "websiteUrl": "https://just.network",
@@ -868,12 +801,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 592
+    "logoId": "crypto-jst-square"
   },
   {
-    "id": 68,
+    "id": "vvv",
     "code": "vvv",
-    "alias": "vvv",
     "name": "Venice Token",
     "description": "Venice Token (VVV) is a cryptocurrency designed to facilitate transactions and interactions within the Venice ecosystem, promoting community engagement and collaboration. It aims to provide users with a secure and innovative platform for various digital activities.",
     "websiteUrl": "https://venice.ai",
@@ -884,9 +816,8 @@
     "logoId": null
   },
   {
-    "id": 69,
+    "id": "flr",
     "code": "flr",
-    "alias": "flr",
     "name": "Flare",
     "description": "Flare (FLR) is a blockchain platform designed to bring smart contract capabilities to non-Turing complete networks, enabling the integration of blockchain assets into various decentralized applications. It utilizes the Ethereum Virtual Machine (EVM) and aims to enhance interoperability across different blockchain ecosystems.",
     "websiteUrl": null,
@@ -894,12 +825,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 593
+    "logoId": "crypto-flr-square"
   },
   {
-    "id": 70,
+    "id": "jup",
     "code": "jup",
-    "alias": "jup",
     "name": "Jupiter",
     "description": "Jupiter (JUP) is a cryptocurrency designed for the decentralized creation and management of user-focused applications, emphasizing interoperability and user-friendliness. It aims to connect various blockchain ecosystems while providing tools for developers and users alike.",
     "websiteUrl": "https://www.jup.io/",
@@ -907,12 +837,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 594
+    "logoId": "crypto-jup-square"
   },
   {
-    "id": 71,
+    "id": "h",
     "code": "h",
-    "alias": "h",
     "name": "Humanity",
     "description": "Humanity (H) is a cryptocurrency designed to promote charitable giving and social impact, enabling users to support various humanitarian initiatives worldwide. It aims to create a community-driven ecosystem that fosters positive change through decentralized funding.",
     "websiteUrl": "https://www.humanity.org",
@@ -923,9 +852,8 @@
     "logoId": null
   },
   {
-    "id": 72,
+    "id": "fil",
     "code": "fil",
-    "alias": "fil",
     "name": "Filecoin",
     "description": "Filecoin (FIL) is a decentralized storage network that enables users to rent out their unused hard drive space in exchange for Filecoin tokens. It incentivizes file storage and retrieval on the blockchain, ensuring data can be stored reliably and efficiently.",
     "websiteUrl": "https://filecoin.io/",
@@ -933,12 +861,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 595
+    "logoId": "crypto-fil-square"
   },
   {
-    "id": 73,
+    "id": "xdc",
     "code": "xdc",
-    "alias": "xdc",
     "name": "XDC Network",
     "description": "XDC Network (XDC) is a hybrid blockchain platform designed for enterprise use, enabling fast and low-cost transactions while providing smart contract functionalities. It aims to improve cross-border trade and streamline processes in various industries.",
     "websiteUrl": "https://www.xinfin.org/",
@@ -949,9 +876,8 @@
     "logoId": null
   },
   {
-    "id": 74,
+    "id": "beat",
     "code": "beat",
-    "alias": "beat",
     "name": "Audiera",
     "description": "Beat Matchmaker (BEAT) is a decentralized platform that connects artists with fans and allows for easy collaboration within the music industry. It aims to revolutionize the way music is produced, shared, and monetized.",
     "websiteUrl": "https://audiera.fi",
@@ -962,9 +888,8 @@
     "logoId": null
   },
   {
-    "id": 75,
+    "id": "arb",
     "code": "arb",
-    "alias": "arb",
     "name": "Arbitrum",
     "description": "Arbitrum (ARB) is a layer-2 scaling solution for Ethereum that enhances transaction speed and reduces costs by utilizing optimistic rollups. It enables decentralized applications to operate more efficiently on the Ethereum network.",
     "websiteUrl": "https://arbitrum.io/",
@@ -972,12 +897,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 596
+    "logoId": "crypto-arb-square"
   },
   {
-    "id": 76,
+    "id": "apt",
     "code": "apt",
-    "alias": "apt",
     "name": "Aptos",
     "description": "Aptos (APT) is a Layer 1 blockchain designed for high scalability and safety, utilizing a novel programming language and parallel execution to enhance transaction speed and efficiency. It aims to deliver a user-friendly environment for developers and end-users alike.",
     "websiteUrl": "https://aptoslabs.com/",
@@ -985,12 +909,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 597
+    "logoId": "crypto-apt-square"
   },
   {
-    "id": 77,
+    "id": "night",
     "code": "night",
-    "alias": "night",
     "name": "Midnight",
     "description": "Midnight (NIGHT) is a decentralized blockchain platform designed to facilitate privacy-focused transactions and smart contracts. It aims to enhance user anonymity while maintaining security and scalability for various applications.",
     "websiteUrl": "https://midnight.network",
@@ -1001,9 +924,8 @@
     "logoId": null
   },
   {
-    "id": 78,
+    "id": "nexo",
     "code": "nexo",
-    "alias": "nexo",
     "name": "Nexo",
     "description": "Nexo Token (NEXO) is a digital asset that powers the Nexo platform, offering users services like instant crypto-backed loans and high-yield interest on cryptocurrencies. It aims to bridge the gap between traditional finance and the crypto economy.",
     "websiteUrl": null,
@@ -1011,12 +933,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 598
+    "logoId": "crypto-nexo-square"
   },
   {
-    "id": 79,
+    "id": "inj",
     "code": "inj",
-    "alias": "inj",
     "name": "Injective",
     "description": "Injective Protocol (INJ) is a decentralized exchange protocol that enables the trading of any financial market without front-running, offering users advanced features like cross-chain trading and a fully customizable trading experience.",
     "websiteUrl": "https://injective.com",
@@ -1024,12 +945,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 599
+    "logoId": "crypto-inj-square"
   },
   {
-    "id": 80,
+    "id": "tusd",
     "code": "tusd",
-    "alias": "tusd",
     "name": "TrueUSD",
     "description": "TrueUSD (TUSD) is a stablecoin pegged to the US Dollar, designed to provide a secure and transparent way to transact on the blockchain. It aims to maintain a 1:1 value with the USD, ensuring users have a reliable digital currency option.",
     "websiteUrl": "https://tusd.io",
@@ -1037,12 +957,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 600
+    "logoId": "crypto-tusd-square"
   },
   {
-    "id": 81,
+    "id": "dash",
     "code": "dash",
-    "alias": "dash",
     "name": "Dash",
     "description": "Dash (DASH) is a digital currency that enables fast, low-cost transactions and enhanced privacy features through its unique two-tier network. It aims to provide a user-friendly experience for everyday transactions.",
     "websiteUrl": "https://www.dash.org/",
@@ -1050,12 +969,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 601
+    "logoId": "crypto-dash-square"
   },
   {
-    "id": 82,
+    "id": "pump",
     "code": "pump",
-    "alias": "pump",
     "name": "Pump.fun",
     "description": null,
     "websiteUrl": null,
@@ -1066,9 +984,8 @@
     "logoId": null
   },
   {
-    "id": 83,
+    "id": "aero",
     "code": "aero",
-    "alias": "aero",
     "name": "Aerodrome Finance",
     "description": null,
     "websiteUrl": null,
@@ -1079,9 +996,8 @@
     "logoId": null
   },
   {
-    "id": 84,
+    "id": "cake",
     "code": "cake",
-    "alias": "cake",
     "name": "PancakeSwap",
     "description": null,
     "websiteUrl": null,
@@ -1089,12 +1005,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 602
+    "logoId": "crypto-cake-square"
   },
   {
-    "id": 85,
+    "id": "eurc",
     "code": "eurc",
-    "alias": "eurc",
     "name": "EURC",
     "description": null,
     "websiteUrl": null,
@@ -1105,9 +1020,8 @@
     "logoId": null
   },
   {
-    "id": 86,
+    "id": "trump",
     "code": "trump",
-    "alias": "trump",
     "name": "OFFICIAL TRUMP",
     "description": null,
     "websiteUrl": null,
@@ -1118,9 +1032,8 @@
     "logoId": null
   },
   {
-    "id": 87,
+    "id": "fet",
     "code": "fet",
-    "alias": "fet",
     "name": "Artificial Superintelligence Alliance",
     "description": null,
     "websiteUrl": null,
@@ -1128,12 +1041,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 603
+    "logoId": "crypto-fet-square"
   },
   {
-    "id": 88,
+    "id": "vet",
     "code": "vet",
-    "alias": "vet",
     "name": "VeChain",
     "description": null,
     "websiteUrl": null,
@@ -1141,12 +1053,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 604
+    "logoId": "crypto-vet-square"
   },
   {
-    "id": 89,
+    "id": "pengu",
     "code": "pengu",
-    "alias": "pengu",
     "name": "Pudgy Penguins",
     "description": null,
     "websiteUrl": null,
@@ -1157,9 +1068,8 @@
     "logoId": null
   },
   {
-    "id": 90,
+    "id": "virtual",
     "code": "virtual",
-    "alias": "virtual",
     "name": "Virtuals Protocol",
     "description": null,
     "websiteUrl": null,
@@ -1167,12 +1077,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 605
+    "logoId": "crypto-virtual-square"
   },
   {
-    "id": 91,
+    "id": "bonk",
     "code": "bonk",
-    "alias": "bonk",
     "name": "Bonk",
     "description": null,
     "websiteUrl": null,
@@ -1180,12 +1089,11 @@
     "decimalDigits": 5,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 606
+    "logoId": "crypto-bonk-square"
   },
   {
-    "id": 92,
+    "id": "sei",
     "code": "sei",
-    "alias": "sei",
     "name": "Sei",
     "description": null,
     "websiteUrl": null,
@@ -1193,12 +1101,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 607
+    "logoId": "crypto-sei-square"
   },
   {
-    "id": 93,
+    "id": "lit",
     "code": "lit",
-    "alias": "lit",
     "name": "Lighter",
     "description": null,
     "websiteUrl": null,
@@ -1209,9 +1116,8 @@
     "logoId": null
   },
   {
-    "id": 94,
+    "id": "lunc",
     "code": "lunc",
-    "alias": "lunc",
     "name": "Terra Classic",
     "description": null,
     "websiteUrl": null,
@@ -1222,9 +1128,8 @@
     "logoId": null
   },
   {
-    "id": 95,
+    "id": "jto",
     "code": "jto",
-    "alias": "jto",
     "name": "Jito",
     "description": null,
     "websiteUrl": null,
@@ -1235,9 +1140,8 @@
     "logoId": null
   },
   {
-    "id": 96,
+    "id": "skyai",
     "code": "skyai",
-    "alias": "skyai",
     "name": "SKYAI",
     "description": null,
     "websiteUrl": null,
@@ -1248,9 +1152,8 @@
     "logoId": null
   },
   {
-    "id": 97,
+    "id": "fdusd",
     "code": "fdusd",
-    "alias": "fdusd",
     "name": "First Digital USD",
     "description": null,
     "websiteUrl": null,
@@ -1258,12 +1161,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 608
+    "logoId": "crypto-fdusd-square"
   },
   {
-    "id": 98,
+    "id": "tia",
     "code": "tia",
-    "alias": "tia",
     "name": "Celestia",
     "description": null,
     "websiteUrl": null,
@@ -1271,12 +1173,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 609
+    "logoId": "crypto-tia-square"
   },
   {
-    "id": 99,
+    "id": "spx",
     "code": "spx",
-    "alias": "spx",
     "name": "SPX6900",
     "description": null,
     "websiteUrl": null,
@@ -1287,9 +1188,8 @@
     "logoId": null
   },
   {
-    "id": 100,
+    "id": "zro",
     "code": "zro",
-    "alias": "zro",
     "name": "LayerZero",
     "description": null,
     "websiteUrl": null,
@@ -1300,9 +1200,8 @@
     "logoId": null
   },
   {
-    "id": 101,
+    "id": "sun",
     "code": "sun",
-    "alias": "sun",
     "name": "Sun [New]",
     "description": null,
     "websiteUrl": null,
@@ -1313,9 +1212,8 @@
     "logoId": null
   },
   {
-    "id": 102,
+    "id": "stx",
     "code": "stx",
-    "alias": "stx",
     "name": "Stacks",
     "description": null,
     "websiteUrl": null,
@@ -1323,12 +1221,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 610
+    "logoId": "crypto-stx-square"
   },
   {
-    "id": 103,
+    "id": "crv",
     "code": "crv",
-    "alias": "crv",
     "name": "Curve DAO Token",
     "description": null,
     "websiteUrl": null,
@@ -1336,12 +1233,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 611
+    "logoId": "crypto-crv-square"
   },
   {
-    "id": 104,
+    "id": "kite",
     "code": "kite",
-    "alias": "kite",
     "name": "Kite",
     "description": null,
     "websiteUrl": null,
@@ -1352,9 +1248,8 @@
     "logoId": null
   },
   {
-    "id": 105,
+    "id": "ethfi",
     "code": "ethfi",
-    "alias": "ethfi",
     "name": "ether.fi",
     "description": null,
     "websiteUrl": null,
@@ -1362,12 +1257,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 612
+    "logoId": "crypto-ethfi-square"
   },
   {
-    "id": 106,
+    "id": "pyth",
     "code": "pyth",
-    "alias": "pyth",
     "name": "Pyth Network",
     "description": null,
     "websiteUrl": null,
@@ -1375,12 +1269,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 613
+    "logoId": "crypto-pyth-square"
   },
   {
-    "id": 107,
+    "id": "gno",
     "code": "gno",
-    "alias": "gno",
     "name": "Gnosis",
     "description": null,
     "websiteUrl": null,
@@ -1388,12 +1281,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 614
+    "logoId": "crypto-gno-square"
   },
   {
-    "id": 108,
+    "id": "imx",
     "code": "imx",
-    "alias": "imx",
     "name": "Immutable",
     "description": null,
     "websiteUrl": null,
@@ -1401,12 +1293,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 615
+    "logoId": "crypto-imx-square"
   },
   {
-    "id": 109,
+    "id": "xtz",
     "code": "xtz",
-    "alias": "xtz",
     "name": "Tezos",
     "description": null,
     "websiteUrl": null,
@@ -1414,12 +1305,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 616
+    "logoId": "crypto-xtz-square"
   },
   {
-    "id": 110,
+    "id": "nft",
     "code": "nft",
-    "alias": "nft",
     "name": "AINFT",
     "description": null,
     "websiteUrl": null,
@@ -1427,12 +1317,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 617
+    "logoId": "crypto-nft-square"
   },
   {
-    "id": 111,
+    "id": "btt",
     "code": "btt",
-    "alias": "btt",
     "name": "BitTorrent [New]",
     "description": null,
     "websiteUrl": null,
@@ -1440,12 +1329,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 618
+    "logoId": "crypto-btt-square"
   },
   {
-    "id": 112,
+    "id": "cfx",
     "code": "cfx",
-    "alias": "cfx",
     "name": "Conflux",
     "description": null,
     "websiteUrl": null,
@@ -1453,12 +1341,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 619
+    "logoId": "crypto-cfx-square"
   },
   {
-    "id": 113,
+    "id": "zbcn",
     "code": "zbcn",
-    "alias": "zbcn",
     "name": "Zebec Network",
     "description": null,
     "websiteUrl": null,
@@ -1469,9 +1356,8 @@
     "logoId": null
   },
   {
-    "id": 114,
+    "id": "floki",
     "code": "floki",
-    "alias": "floki",
     "name": "FLOKI",
     "description": null,
     "websiteUrl": null,
@@ -1479,12 +1365,11 @@
     "decimalDigits": 9,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 620
+    "logoId": "crypto-floki-square"
   },
   {
-    "id": 115,
+    "id": "2z",
     "code": "2z",
-    "alias": "2z",
     "name": "DoubleZero",
     "description": null,
     "websiteUrl": null,
@@ -1495,9 +1380,8 @@
     "logoId": null
   },
   {
-    "id": 116,
+    "id": "mon",
     "code": "mon",
-    "alias": "mon",
     "name": "Monad",
     "description": null,
     "websiteUrl": null,
@@ -1508,9 +1392,8 @@
     "logoId": null
   },
   {
-    "id": 117,
+    "id": "pendle",
     "code": "pendle",
-    "alias": "pendle",
     "name": "Pendle",
     "description": null,
     "websiteUrl": null,
@@ -1518,12 +1401,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 621
+    "logoId": "crypto-pendle-square"
   },
   {
-    "id": 118,
+    "id": "kaia",
     "code": "kaia",
-    "alias": "kaia",
     "name": "Kaia",
     "description": null,
     "websiteUrl": null,
@@ -1531,12 +1413,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 622
+    "logoId": "crypto-kaia-square"
   },
   {
-    "id": 119,
+    "id": "ldo",
     "code": "ldo",
-    "alias": "ldo",
     "name": "Lido DAO",
     "description": null,
     "websiteUrl": null,
@@ -1544,12 +1425,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 623
+    "logoId": "crypto-ldo-square"
   },
   {
-    "id": 120,
+    "id": "jasmy",
     "code": "jasmy",
-    "alias": "jasmy",
     "name": "JasmyCoin",
     "description": null,
     "websiteUrl": null,
@@ -1557,12 +1437,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 624
+    "logoId": "crypto-jasmy-square"
   },
   {
-    "id": 121,
+    "id": "bsv",
     "code": "bsv",
-    "alias": "bsv",
     "name": "Bitcoin SV",
     "description": null,
     "websiteUrl": null,
@@ -1570,12 +1449,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 625
+    "logoId": "crypto-bsv-square"
   },
   {
-    "id": 122,
+    "id": "tel",
     "code": "tel",
-    "alias": "tel",
     "name": "Telcoin",
     "description": null,
     "websiteUrl": null,
@@ -1583,12 +1461,11 @@
     "decimalDigits": 2,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 626
+    "logoId": "crypto-tel-square"
   },
   {
-    "id": 123,
+    "id": "chz",
     "code": "chz",
-    "alias": "chz",
     "name": "Chiliz",
     "description": null,
     "websiteUrl": null,
@@ -1599,9 +1476,8 @@
     "logoId": null
   },
   {
-    "id": 124,
+    "id": "op",
     "code": "op",
-    "alias": "op",
     "name": "Optimism",
     "description": null,
     "websiteUrl": null,
@@ -1609,12 +1485,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 627
+    "logoId": "crypto-op-square"
   },
   {
-    "id": 125,
+    "id": "strk",
     "code": "strk",
-    "alias": "strk",
     "name": "Starknet",
     "description": null,
     "websiteUrl": null,
@@ -1622,12 +1497,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 628
+    "logoId": "crypto-strk-square"
   },
   {
-    "id": 126,
+    "id": "akt",
     "code": "akt",
-    "alias": "akt",
     "name": "Akash Network",
     "description": null,
     "websiteUrl": null,
@@ -1635,12 +1509,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 629
+    "logoId": "crypto-akt-square"
   },
   {
-    "id": 127,
+    "id": "b",
     "code": "b",
-    "alias": "b",
     "name": "BUILDon",
     "description": null,
     "websiteUrl": null,
@@ -1651,9 +1524,8 @@
     "logoId": null
   },
   {
-    "id": 128,
+    "id": "ens",
     "code": "ens",
-    "alias": "ens",
     "name": "Ethereum Name Service",
     "description": null,
     "websiteUrl": null,
@@ -1661,12 +1533,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 630
+    "logoId": "crypto-ens-square"
   },
   {
-    "id": 129,
+    "id": "grt",
     "code": "grt",
-    "alias": "grt",
     "name": "The Graph",
     "description": null,
     "websiteUrl": null,
@@ -1674,12 +1545,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 631
+    "logoId": "crypto-grt-square"
   },
   {
-    "id": 130,
+    "id": "dcr",
     "code": "dcr",
-    "alias": "dcr",
     "name": "Decred",
     "description": null,
     "websiteUrl": null,
@@ -1687,12 +1557,11 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 632
+    "logoId": "crypto-dcr-square"
   },
   {
-    "id": 131,
+    "id": "iota",
     "code": "iota",
-    "alias": "iota",
     "name": "IOTA",
     "description": null,
     "websiteUrl": null,
@@ -1700,12 +1569,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 633
+    "logoId": "crypto-iota-square"
   },
   {
-    "id": 132,
+    "id": "ff",
     "code": "ff",
-    "alias": "ff",
     "name": "Falcon Finance",
     "description": null,
     "websiteUrl": null,
@@ -1716,9 +1584,8 @@
     "logoId": null
   },
   {
-    "id": 133,
+    "id": "eigen",
     "code": "eigen",
-    "alias": "eigen",
     "name": "EigenCloud",
     "description": null,
     "websiteUrl": null,
@@ -1726,12 +1593,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 634
+    "logoId": "crypto-eigen-square"
   },
   {
-    "id": 134,
+    "id": "gwei",
     "code": "gwei",
-    "alias": "gwei",
     "name": "ETHGas",
     "description": null,
     "websiteUrl": null,
@@ -1742,9 +1608,8 @@
     "logoId": null
   },
   {
-    "id": 135,
+    "id": "xpl",
     "code": "xpl",
-    "alias": "xpl",
     "name": "Plasma",
     "description": null,
     "websiteUrl": null,
@@ -1755,9 +1620,8 @@
     "logoId": null
   },
   {
-    "id": 136,
+    "id": "comp",
     "code": "comp",
-    "alias": "comp",
     "name": "Compound",
     "description": null,
     "websiteUrl": null,
@@ -1765,12 +1629,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 635
+    "logoId": "crypto-comp-square"
   },
   {
-    "id": 137,
+    "id": "pieverse",
     "code": "pieverse",
-    "alias": "pieverse",
     "name": "Pieverse",
     "description": null,
     "websiteUrl": null,
@@ -1781,9 +1644,8 @@
     "logoId": null
   },
   {
-    "id": 138,
+    "id": "trac",
     "code": "trac",
-    "alias": "trac",
     "name": "OriginTrail",
     "description": null,
     "websiteUrl": null,
@@ -1791,12 +1653,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 636
+    "logoId": "crypto-trac-square"
   },
   {
-    "id": 139,
+    "id": "axs",
     "code": "axs",
-    "alias": "axs",
     "name": "Axie Infinity",
     "description": null,
     "websiteUrl": null,
@@ -1804,12 +1665,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 637
+    "logoId": "crypto-axs-square"
   },
   {
-    "id": 140,
+    "id": "twt",
     "code": "twt",
-    "alias": "twt",
     "name": "Trust Wallet Token",
     "description": null,
     "websiteUrl": null,
@@ -1820,9 +1680,8 @@
     "logoId": null
   },
   {
-    "id": 141,
+    "id": "wif",
     "code": "wif",
-    "alias": "wif",
     "name": "dogwifhat",
     "description": null,
     "websiteUrl": null,
@@ -1830,12 +1689,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 638
+    "logoId": "crypto-wif-square"
   },
   {
-    "id": 142,
+    "id": "syrup",
     "code": "syrup",
-    "alias": "syrup",
     "name": "Maple Finance",
     "description": null,
     "websiteUrl": null,
@@ -1846,9 +1704,8 @@
     "logoId": null
   },
   {
-    "id": 143,
+    "id": "mx",
     "code": "mx",
-    "alias": "mx",
     "name": "MX Token",
     "description": null,
     "websiteUrl": null,
@@ -1859,9 +1716,8 @@
     "logoId": null
   },
   {
-    "id": 144,
+    "id": "ray",
     "code": "ray",
-    "alias": "ray",
     "name": "Raydium",
     "description": null,
     "websiteUrl": null,
@@ -1869,12 +1725,11 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 639
+    "logoId": "crypto-ray-square"
   },
   {
-    "id": 145,
+    "id": "neo",
     "code": "neo",
-    "alias": "neo",
     "name": "Neo",
     "description": null,
     "websiteUrl": null,
@@ -1882,12 +1737,11 @@
     "decimalDigits": 0,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 640
+    "logoId": "crypto-neo-square"
   },
   {
-    "id": 146,
+    "id": "nex",
     "code": "nex",
-    "alias": "nex",
     "name": "Nexus",
     "description": null,
     "websiteUrl": null,
@@ -1898,9 +1752,8 @@
     "logoId": null
   },
   {
-    "id": 147,
+    "id": "theta",
     "code": "theta",
-    "alias": "theta",
     "name": "Theta Network",
     "description": null,
     "websiteUrl": null,
@@ -1908,12 +1761,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 641
+    "logoId": "crypto-theta-square"
   },
   {
-    "id": 148,
+    "id": "xcn",
     "code": "xcn",
-    "alias": "xcn",
     "name": "Onyxcoin",
     "description": null,
     "websiteUrl": null,
@@ -1924,9 +1776,8 @@
     "logoId": null
   },
   {
-    "id": 149,
+    "id": "sand",
     "code": "sand",
-    "alias": "sand",
     "name": "The Sandbox",
     "description": null,
     "websiteUrl": null,
@@ -1934,12 +1785,11 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": 642
+    "logoId": "crypto-sand-square"
   },
   {
-    "id": 150,
+    "id": "stg",
     "code": "stg",
-    "alias": "stg",
     "name": "Stargate Finance",
     "description": null,
     "websiteUrl": null,

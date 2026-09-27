@@ -34,27 +34,57 @@ class DatasetIntegrityTest {
     @Test
     fun `a duplicate id fails startup and names the collection`() {
         val failure = assertThrows<IllegalStateException> {
-            DatasetIntegrity.check(dataset(languages = listOf(language(1), language(1))))
+            DatasetIntegrity.check(dataset(languages = listOf(language("aa"), language("aa"))))
         }
 
         assertTrue(failure.message!!.contains("duplicate languages ids"), failure.message)
-        assertTrue(failure.message!!.contains("1"), failure.message)
+        assertTrue(failure.message!!.contains("aa"), failure.message)
+    }
+
+    @Test
+    fun `ids that differ only in case are duplicates`() {
+        // Lookups ignore case, so only one of the two could ever be found.
+        val failure = assertThrows<IllegalStateException> {
+            DatasetIntegrity.check(dataset(languages = listOf(language("aa"), language("AA"))))
+        }
+
+        assertTrue(failure.message!!.contains("duplicate languages ids, ignoring case"), failure.message)
+    }
+
+    @Test
+    fun `an id padded with whitespace fails startup`() {
+        // Lookups trim what they are given, so a padded id could never be found.
+        val failure = assertThrows<IllegalStateException> {
+            DatasetIntegrity.check(dataset(languages = listOf(language(" aa"))))
+        }
+
+        assertTrue(failure.message!!.contains("blank or padded languages ids"), failure.message)
+    }
+
+    @Test
+    fun `a reference must spell the id the way the record does`() {
+        // Lookups would find it either way, but the published data spells every id one way.
+        val failure = assertThrows<IllegalStateException> {
+            DatasetIntegrity.check(dataset(languages = listOf(language("aa", flagId = "ONE"))))
+        }
+
+        assertTrue(failure.message!!.contains("language aa flagId=ONE"), failure.message)
     }
 
     @Test
     fun `a reference that does not resolve fails startup and names the row`() {
         val failure = assertThrows<IllegalStateException> {
-            DatasetIntegrity.check(dataset(languages = listOf(language(1, flagId = 999))))
+            DatasetIntegrity.check(dataset(languages = listOf(language("aa", flagId = "missing"))))
         }
 
         assertTrue(failure.message!!.contains("flag references that do not resolve"), failure.message)
-        assertTrue(failure.message!!.contains("language 1 flagId=999"), failure.message)
+        assertTrue(failure.message!!.contains("language aa flagId=missing"), failure.message)
     }
 
     @Test
     fun `an absent reference is not a broken one`() {
         assertDoesNotThrow {
-            DatasetIntegrity.check(dataset(languages = listOf(language(1, flagId = null))))
+            DatasetIntegrity.check(dataset(languages = listOf(language("aa", flagId = null))))
         }
     }
 
@@ -64,15 +94,15 @@ class DatasetIntegrityTest {
         val failure = assertThrows<IllegalStateException> {
             DatasetIntegrity.check(
                 dataset(
-                    languages = listOf(language(1, flagId = 999), language(2, flagId = 998)),
-                    cryptos = listOf(crypto(1, logoId = 997)),
+                    languages = listOf(language("aa", flagId = "missing"), language("bb", flagId = "absent")),
+                    cryptos = listOf(crypto("coin", logoId = "gone")),
                 ),
             )
         }
 
-        assertTrue(failure.message!!.contains("flagId=999"), failure.message)
-        assertTrue(failure.message!!.contains("flagId=998"), failure.message)
-        assertTrue(failure.message!!.contains("logoId=997"), failure.message)
+        assertTrue(failure.message!!.contains("flagId=missing"), failure.message)
+        assertTrue(failure.message!!.contains("flagId=absent"), failure.message)
+        assertTrue(failure.message!!.contains("logoId=gone"), failure.message)
     }
 
     @Test
@@ -80,7 +110,7 @@ class DatasetIntegrityTest {
         // The id resolves and the response is well formed, so nothing downstream would notice that
         // the flag is serving a picture of the wrong shape.
         val failure = assertThrows<IllegalStateException> {
-            DatasetIntegrity.check(dataset(flags = listOf(flag(square = 11, wide = 11))))
+            DatasetIntegrity.check(dataset(flags = listOf(flag(square = "one-wide", wide = "one-wide"))))
         }
 
         assertTrue(failure.message!!.contains("media assets of the wrong shape"), failure.message)
@@ -90,7 +120,7 @@ class DatasetIntegrityTest {
     fun `a flag whose two images are different pictures fails startup`() {
         // What caught Slovenia, India and Chile each naming the next flag's square image.
         val failure = assertThrows<IllegalStateException> {
-            DatasetIntegrity.check(dataset(flags = listOf(flag(square = 10, wide = 12))))
+            DatasetIntegrity.check(dataset(flags = listOf(flag(square = "one-square", wide = "two-wide"))))
         }
 
         assertTrue(
@@ -111,7 +141,7 @@ class DatasetIntegrityTest {
         // translated -- which reads as a gap in the translations rather than a broken row.
         val failure = assertThrows<IllegalStateException> {
             DatasetIntegrity.check(
-                dataset(languages = listOf(language(1, translations = listOf("xx")))),
+                dataset(languages = listOf(language("aa", translations = listOf("xx")))),
             )
         }
 
@@ -119,7 +149,7 @@ class DatasetIntegrityTest {
             failure.message!!.contains("translations in a language the dataset does not carry"),
             failure.message,
         )
-        assertTrue(failure.message!!.contains("language 1 languageCode='xx'"), failure.message)
+        assertTrue(failure.message!!.contains("language aa languageCode='xx'"), failure.message)
     }
 
     @Test
@@ -127,7 +157,7 @@ class DatasetIntegrityTest {
         // pt-BR is a legitimate tag for the Portuguese the dataset carries as pt.
         assertDoesNotThrow {
             DatasetIntegrity.check(
-                dataset(languages = listOf(language(1, code = "pt", translations = listOf("pt-BR")))),
+                dataset(languages = listOf(language("aa"), language("pt", translations = listOf("pt-BR")))),
             )
         }
     }
@@ -158,13 +188,13 @@ class DatasetIntegrityTest {
     @Test
     fun `a country reference into every related file is checked`() {
         for (country in listOf(
-            country(regionId = 999),
-            country(subregionId = 999),
-            country(flagId = 999),
-            country(currencyIds = listOf(999)),
-            country(timezoneIds = listOf(999)),
-            country(officialLanguageIds = listOf(999)),
-            country(otherLanguageIds = listOf(999)),
+            country(regionId = "missing"),
+            country(subregionId = "missing"),
+            country(flagId = "missing"),
+            country(currencyIds = listOf("missing")),
+            country(timezoneIds = listOf("missing")),
+            country(officialLanguageIds = listOf("missing")),
+            country(otherLanguageIds = listOf("missing")),
         )) {
             assertThrows<IllegalStateException>("country with a dangling reference should fail") {
                 DatasetIntegrity.check(dataset(countries = listOf(country)))
@@ -173,28 +203,28 @@ class DatasetIntegrityTest {
     }
 
     private fun dataset(
-        languages: List<LanguageJSON> = listOf(language(1)),
-        cryptos: List<CryptoJSON> = listOf(crypto(1)),
+        languages: List<LanguageJSON> = listOf(language("aa")),
+        cryptos: List<CryptoJSON> = listOf(crypto("coin")),
         countries: List<CountryJSON> = listOf(country()),
         centralBanks: List<CentralBankJSON> = emptyList(),
         flags: List<FlagJSON> = listOf(flag()),
     ) = RawDataset(
         meta = DatasetMeta(version = 1, date = "2026-01-01"),
         mediaAssets = listOf(
-            mediaAsset(10, key = "one", aspectRatio = "square"),
-            mediaAsset(11, key = "one", aspectRatio = "wide"),
-            mediaAsset(12, key = "two", aspectRatio = "wide"),
+            mediaAsset("one-square", key = "one", aspectRatio = "square"),
+            mediaAsset("one-wide", key = "one", aspectRatio = "wide"),
+            mediaAsset("two-wide", key = "two", aspectRatio = "wide"),
         ),
         flags = flags,
         regions = listOf(
             RegionJSON(
-                id = 30,
+                id = "region",
                 name = "Region",
                 wikiDataId = "Q30",
                 translations = emptyList(),
                 subregions = listOf(
                     SubregionJSON(
-                        id = 40,
+                        id = "subregion",
                         name = "Subregion",
                         wikiDataId = "Q40",
                         translations = emptyList(),
@@ -204,7 +234,7 @@ class DatasetIntegrityTest {
         ),
         timezones = listOf(
             TimezoneJSON(
-                id = 50,
+                id = "Test/Zone",
                 zoneName = "Test/Zone",
                 gmtOffset = 0,
                 gmtOffsetName = "UTC",
@@ -215,7 +245,7 @@ class DatasetIntegrityTest {
         ),
         currencies = listOf(
             CurrencyJSON(
-                id = 60,
+                id = "TST",
                 iso3 = "TST",
                 isoNumeric = "001",
                 name = "Test",
@@ -227,7 +257,7 @@ class DatasetIntegrityTest {
                 obsoleteAt = null,
                 replacedBy = null,
                 symbol = null,
-                flagId = 20,
+                flagId = "one",
                 translations = emptyList(),
                 decimalDigits = 2,
             ),
@@ -238,10 +268,10 @@ class DatasetIntegrityTest {
         centralBanks = centralBanks,
     )
 
-    private fun flag(square: Long? = 10, wide: Long? = 11, emoji: String = "F") =
-        FlagJSON(id = 20, caption = "Flag", emoji = emoji, emojiU = "U", square = square, wide = wide)
+    private fun flag(square: String? = "one-square", wide: String? = "one-wide", emoji: String = "F") =
+        FlagJSON(id = "one", caption = "Flag", emoji = emoji, emojiU = "U", square = square, wide = wide)
 
-    private fun mediaAsset(id: Long, key: String = "test", aspectRatio: String = "square") = MediaAssetJSON(
+    private fun mediaAsset(id: String, key: String = "test", aspectRatio: String = "square") = MediaAssetJSON(
         id = id,
         type = "image",
         key = key,
@@ -251,9 +281,9 @@ class DatasetIntegrityTest {
     )
 
     private fun language(
-        id: Long,
-        flagId: Long? = 20,
-        code: String = "t$id",
+        id: String,
+        flagId: String? = "one",
+        code: String = id,
         translations: List<String> = emptyList(),
     ) = LanguageJSON(
         id = id,
@@ -264,10 +294,9 @@ class DatasetIntegrityTest {
         translations = translations.map { LanguageTranslationJSON(languageCode = it, name = "Name") },
     )
 
-    private fun crypto(id: Long, logoId: Long? = 10) = CryptoJSON(
+    private fun crypto(id: String, logoId: String? = "one-square") = CryptoJSON(
         id = id,
-        code = "t$id",
-        alias = "test$id",
+        code = id.uppercase(),
         name = "Test $id",
         description = null,
         websiteUrl = null,
@@ -279,15 +308,15 @@ class DatasetIntegrityTest {
     )
 
     private fun country(
-        regionId: Long = 30,
-        subregionId: Long = 40,
-        flagId: Long? = 20,
-        currencyIds: List<Long> = listOf(60),
-        timezoneIds: List<Long> = listOf(50),
-        officialLanguageIds: List<Long> = listOf(1),
-        otherLanguageIds: List<Long> = emptyList(),
+        regionId: String = "region",
+        subregionId: String = "subregion",
+        flagId: String? = "one",
+        currencyIds: List<String> = listOf("TST"),
+        timezoneIds: List<String> = listOf("Test/Zone"),
+        officialLanguageIds: List<String> = listOf("aa"),
+        otherLanguageIds: List<String> = emptyList(),
     ) = CountryJSON(
-        id = 70,
+        id = "CO",
         name = "Country",
         nativeName = null,
         iso2 = "CO",
@@ -307,7 +336,7 @@ class DatasetIntegrityTest {
         translations = emptyList(),
         states = listOf(
             StateJSON(
-                id = 80,
+                id = "CO-ST",
                 name = "State",
                 stateCode = null,
                 latitude = null,

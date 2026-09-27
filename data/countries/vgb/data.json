@@ -1,5 +1,5 @@
 {
-  "id": 241,
+  "id": "VG",
   "name": "British Virgin Islands",
   "nativeName": "British Virgin Islands",
   "iso2": "VG",
@@ -9,17 +9,17 @@
   "tld": ".vg",
   "latitude": 18.431383,
   "longitude": -64.62305,
-  "flagId": 12,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "vg",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2640
+    "America/Tortola"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [

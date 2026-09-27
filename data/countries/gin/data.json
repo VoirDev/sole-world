@@ -1,5 +1,5 @@
 {
-  "id": 92,
+  "id": "GN",
   "name": "Guinea",
   "nativeName": "Guinée",
   "iso2": "GN",
@@ -9,17 +9,17 @@
   "tld": ".gn",
   "latitude": 11,
   "longitude": -10,
-  "flagId": 163,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "gn",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    891
+    "GNF"
   ],
   "timezoneIds": [
-    2399
+    "Africa/Conakry"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2672,
+      "id": "GN-BE",
       "name": "Beyla",
       "stateCode": "BE",
       "latitude": 8.9198178,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 2673,
+      "id": "GN-MD",
       "name": "Mandiana",
       "stateCode": "MD",
       "latitude": 10.6172827,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 2674,
+      "id": "GN-YO",
       "name": "Yomou",
       "stateCode": "YO",
       "latitude": 7.5696279,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 2675,
+      "id": "GN-FR",
       "name": "Fria",
       "stateCode": "FR",
       "latitude": 10.3674543,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 2676,
+      "id": "GN-B",
       "name": "Boké",
       "stateCode": "B",
       "latitude": 11.1864672,
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "id": 2677,
+      "id": "GN-L",
       "name": "Labé",
       "stateCode": "L",
       "latitude": 11.3232042,
@@ -292,7 +292,7 @@
       ]
     },
     {
-      "id": 2678,
+      "id": "GN-NZ",
       "name": "Nzérékoré",
       "stateCode": "NZ",
       "latitude": 7.7478359,
@@ -302,7 +302,7 @@
       "cities": []
     },
     {
-      "id": 2679,
+      "id": "GN-DB",
       "name": "Dabola",
       "stateCode": "DB",
       "latitude": 10.7297806,
@@ -312,7 +312,7 @@
       "cities": []
     },
     {
-      "id": 2680,
+      "id": "GN-LA",
       "name": "Labé",
       "stateCode": "LA",
       "latitude": 11.3541939,
@@ -322,7 +322,7 @@
       "cities": []
     },
     {
-      "id": 2681,
+      "id": "GN-DU",
       "name": "Dubréka",
       "stateCode": "DU",
       "latitude": 9.7907348,
@@ -332,7 +332,7 @@
       "cities": []
     },
     {
-      "id": 2682,
+      "id": "GN-FA",
       "name": "Faranah",
       "stateCode": "FA",
       "latitude": 9.9057399,
@@ -342,7 +342,7 @@
       "cities": []
     },
     {
-      "id": 2683,
+      "id": "GN-FO",
       "name": "Forécariah",
       "stateCode": "FO",
       "latitude": 9.3886187,
@@ -352,7 +352,7 @@
       "cities": []
     },
     {
-      "id": 2684,
+      "id": "GN-N",
       "name": "Nzérékoré",
       "stateCode": "N",
       "latitude": 8.038587,
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": 2685,
+      "id": "GN-GA",
       "name": "Gaoual",
       "stateCode": "GA",
       "latitude": 11.5762804,
@@ -436,7 +436,7 @@
       "cities": []
     },
     {
-      "id": 2686,
+      "id": "GN-C",
       "name": "Conakry",
       "stateCode": "C",
       "latitude": 9.6411855,
@@ -461,7 +461,7 @@
       ]
     },
     {
-      "id": 2687,
+      "id": "GN-TE",
       "name": "Télimélé",
       "stateCode": "TE",
       "latitude": 10.9089364,
@@ -471,7 +471,7 @@
       "cities": []
     },
     {
-      "id": 2688,
+      "id": "GN-DI",
       "name": "Dinguiraye",
       "stateCode": "DI",
       "latitude": 11.6844222,
@@ -481,7 +481,7 @@
       "cities": []
     },
     {
-      "id": 2689,
+      "id": "GN-MM",
       "name": "Mamou",
       "stateCode": "MM",
       "latitude": 10.5736024,
@@ -491,7 +491,7 @@
       "cities": []
     },
     {
-      "id": 2690,
+      "id": "GN-LE",
       "name": "Lélouma",
       "stateCode": "LE",
       "latitude": 11.183333,
@@ -501,7 +501,7 @@
       "cities": []
     },
     {
-      "id": 2691,
+      "id": "GN-KS",
       "name": "Kissidougou",
       "stateCode": "KS",
       "latitude": 9.2252022,
@@ -511,7 +511,7 @@
       "cities": []
     },
     {
-      "id": 2692,
+      "id": "GN-KB",
       "name": "Koubia",
       "stateCode": "KB",
       "latitude": 11.582354,
@@ -521,7 +521,7 @@
       "cities": []
     },
     {
-      "id": 2693,
+      "id": "GN-KD",
       "name": "Kindia",
       "stateCode": "KD",
       "latitude": 10.1013292,
@@ -531,7 +531,7 @@
       "cities": []
     },
     {
-      "id": 2694,
+      "id": "GN-PI",
       "name": "Pita",
       "stateCode": "PI",
       "latitude": 10.8062086,
@@ -541,7 +541,7 @@
       "cities": []
     },
     {
-      "id": 2695,
+      "id": "GN-KO",
       "name": "Kouroussa",
       "stateCode": "KO",
       "latitude": 10.6489229,
@@ -551,7 +551,7 @@
       "cities": []
     },
     {
-      "id": 2696,
+      "id": "GN-TO",
       "name": "Tougué",
       "stateCode": "TO",
       "latitude": 11.3841583,
@@ -561,7 +561,7 @@
       "cities": []
     },
     {
-      "id": 2697,
+      "id": "GN-K",
       "name": "Kankan",
       "stateCode": "K",
       "latitude": 10.120923,
@@ -642,7 +642,7 @@
       ]
     },
     {
-      "id": 2698,
+      "id": "GN-M",
       "name": "Mamou",
       "stateCode": "M",
       "latitude": 10.5736024,
@@ -681,7 +681,7 @@
       ]
     },
     {
-      "id": 2699,
+      "id": "GN-BF",
       "name": "Boffa",
       "stateCode": "BF",
       "latitude": 10.1808254,
@@ -691,7 +691,7 @@
       "cities": []
     },
     {
-      "id": 2700,
+      "id": "GN-ML",
       "name": "Mali",
       "stateCode": "ML",
       "latitude": 11.983709,
@@ -701,7 +701,7 @@
       "cities": []
     },
     {
-      "id": 2701,
+      "id": "GN-D",
       "name": "Kindia",
       "stateCode": "D",
       "latitude": 10.1781694,
@@ -775,7 +775,7 @@
       ]
     },
     {
-      "id": 2702,
+      "id": "GN-MC",
       "name": "Macenta",
       "stateCode": "MC",
       "latitude": 8.4615795,
@@ -785,7 +785,7 @@
       "cities": []
     },
     {
-      "id": 2703,
+      "id": "GN-KN",
       "name": "Koundara",
       "stateCode": "KN",
       "latitude": 12.4894021,
@@ -795,7 +795,7 @@
       "cities": []
     },
     {
-      "id": 2704,
+      "id": "GN-KA",
       "name": "Kankan",
       "stateCode": "KA",
       "latitude": 10.3034465,
@@ -805,7 +805,7 @@
       "cities": []
     },
     {
-      "id": 2705,
+      "id": "GN-CO",
       "name": "Coyah",
       "stateCode": "CO",
       "latitude": 9.7715535,
@@ -815,7 +815,7 @@
       "cities": []
     },
     {
-      "id": 2706,
+      "id": "GN-DL",
       "name": "Dalaba",
       "stateCode": "DL",
       "latitude": 10.6868176,
@@ -825,7 +825,7 @@
       "cities": []
     },
     {
-      "id": 2707,
+      "id": "GN-SI",
       "name": "Siguiri",
       "stateCode": "SI",
       "latitude": 11.4148113,
@@ -835,7 +835,7 @@
       "cities": []
     },
     {
-      "id": 2708,
+      "id": "GN-LO",
       "name": "Lola",
       "stateCode": "LO",
       "latitude": 7.9613818,
@@ -845,7 +845,7 @@
       "cities": []
     },
     {
-      "id": 2709,
+      "id": "GN-BK",
       "name": "Boké",
       "stateCode": "BK",
       "latitude": 11.0847379,
@@ -855,7 +855,7 @@
       "cities": []
     },
     {
-      "id": 2710,
+      "id": "GN-KE",
       "name": "Kérouané",
       "stateCode": "KE",
       "latitude": 9.2536643,
@@ -865,7 +865,7 @@
       "cities": []
     },
     {
-      "id": 2711,
+      "id": "GN-GU",
       "name": "Guéckédou",
       "stateCode": "GU",
       "latitude": 8.5649688,
@@ -875,7 +875,7 @@
       "cities": []
     },
     {
-      "id": 5344,
+      "id": "GN-F",
       "name": "Faranah",
       "stateCode": "F",
       "latitude": 10.5473035,

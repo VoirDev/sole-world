@@ -1,6 +1,6 @@
 [
   {
-    "id": 2234,
+    "id": "Asia/Kabul",
     "zoneName": "Asia/Kabul",
     "gmtOffset": 16200,
     "gmtOffsetName": "UTC+04:30",
@@ -75,7 +75,7 @@
     "exemplarCity": "Kabul"
   },
   {
-    "id": 2235,
+    "id": "Europe/Mariehamn",
     "zoneName": "Europe/Mariehamn",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -150,7 +150,7 @@
     "exemplarCity": "Mariehamn"
   },
   {
-    "id": 2236,
+    "id": "Europe/Tirane",
     "zoneName": "Europe/Tirane",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -225,7 +225,7 @@
     "exemplarCity": "Tirane"
   },
   {
-    "id": 2237,
+    "id": "Africa/Algiers",
     "zoneName": "Africa/Algiers",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -300,7 +300,7 @@
     "exemplarCity": "Algiers"
   },
   {
-    "id": 2238,
+    "id": "Pacific/Pago_Pago",
     "zoneName": "Pacific/Pago_Pago",
     "gmtOffset": -39600,
     "gmtOffsetName": "UTC-11:00",
@@ -375,7 +375,7 @@
     "exemplarCity": "Pago Pago"
   },
   {
-    "id": 2239,
+    "id": "Europe/Andorra",
     "zoneName": "Europe/Andorra",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -450,7 +450,7 @@
     "exemplarCity": "Andorra"
   },
   {
-    "id": 2240,
+    "id": "Africa/Luanda",
     "zoneName": "Africa/Luanda",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -525,7 +525,7 @@
     "exemplarCity": "Luanda"
   },
   {
-    "id": 2241,
+    "id": "America/Anguilla",
     "zoneName": "America/Anguilla",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -600,7 +600,7 @@
     "exemplarCity": "Anguilla"
   },
   {
-    "id": 2242,
+    "id": "America/Antigua",
     "zoneName": "America/Antigua",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -675,7 +675,7 @@
     "exemplarCity": "Antigua"
   },
   {
-    "id": 2243,
+    "id": "America/Argentina/Buenos_Aires",
     "zoneName": "America/Argentina/Buenos_Aires",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -750,7 +750,7 @@
     "exemplarCity": "Buenos Aires"
   },
   {
-    "id": 2244,
+    "id": "America/Argentina/Catamarca",
     "zoneName": "America/Argentina/Catamarca",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -825,7 +825,7 @@
     "exemplarCity": "Catamarca"
   },
   {
-    "id": 2245,
+    "id": "America/Argentina/Cordoba",
     "zoneName": "America/Argentina/Cordoba",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -900,7 +900,7 @@
     "exemplarCity": "Cordoba"
   },
   {
-    "id": 2246,
+    "id": "America/Argentina/Jujuy",
     "zoneName": "America/Argentina/Jujuy",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -975,7 +975,7 @@
     "exemplarCity": "Jujuy"
   },
   {
-    "id": 2247,
+    "id": "America/Argentina/La_Rioja",
     "zoneName": "America/Argentina/La_Rioja",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -1050,7 +1050,7 @@
     "exemplarCity": "La Rioja"
   },
   {
-    "id": 2248,
+    "id": "America/Argentina/Mendoza",
     "zoneName": "America/Argentina/Mendoza",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -1125,7 +1125,7 @@
     "exemplarCity": "Mendoza"
   },
   {
-    "id": 2249,
+    "id": "America/Argentina/Rio_Gallegos",
     "zoneName": "America/Argentina/Rio_Gallegos",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -1200,7 +1200,7 @@
     "exemplarCity": "Rio Gallegos"
   },
   {
-    "id": 2250,
+    "id": "America/Argentina/Salta",
     "zoneName": "America/Argentina/Salta",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -1275,7 +1275,7 @@
     "exemplarCity": "Salta"
   },
   {
-    "id": 2251,
+    "id": "America/Argentina/San_Juan",
     "zoneName": "America/Argentina/San_Juan",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -1350,7 +1350,7 @@
     "exemplarCity": "San Juan"
   },
   {
-    "id": 2252,
+    "id": "America/Argentina/San_Luis",
     "zoneName": "America/Argentina/San_Luis",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -1425,7 +1425,7 @@
     "exemplarCity": "San Luis"
   },
   {
-    "id": 2253,
+    "id": "America/Argentina/Tucuman",
     "zoneName": "America/Argentina/Tucuman",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -1500,7 +1500,7 @@
     "exemplarCity": "Tucuman"
   },
   {
-    "id": 2254,
+    "id": "America/Argentina/Ushuaia",
     "zoneName": "America/Argentina/Ushuaia",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -1575,7 +1575,7 @@
     "exemplarCity": "Ushuaia"
   },
   {
-    "id": 2255,
+    "id": "Asia/Yerevan",
     "zoneName": "Asia/Yerevan",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -1650,7 +1650,7 @@
     "exemplarCity": "Yerevan"
   },
   {
-    "id": 2256,
+    "id": "America/Aruba",
     "zoneName": "America/Aruba",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -1725,7 +1725,7 @@
     "exemplarCity": "Aruba"
   },
   {
-    "id": 2257,
+    "id": "Antarctica/Macquarie",
     "zoneName": "Antarctica/Macquarie",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -1800,7 +1800,7 @@
     "exemplarCity": "Macquarie"
   },
   {
-    "id": 2258,
+    "id": "Australia/Adelaide",
     "zoneName": "Australia/Adelaide",
     "gmtOffset": 34200,
     "gmtOffsetName": "UTC+09:30",
@@ -1875,7 +1875,7 @@
     "exemplarCity": "Adelaide"
   },
   {
-    "id": 2259,
+    "id": "Australia/Brisbane",
     "zoneName": "Australia/Brisbane",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -1950,7 +1950,7 @@
     "exemplarCity": "Brisbane"
   },
   {
-    "id": 2260,
+    "id": "Australia/Broken_Hill",
     "zoneName": "Australia/Broken_Hill",
     "gmtOffset": 34200,
     "gmtOffsetName": "UTC+09:30",
@@ -2025,7 +2025,7 @@
     "exemplarCity": "Broken Hill"
   },
   {
-    "id": 2262,
+    "id": "Australia/Darwin",
     "zoneName": "Australia/Darwin",
     "gmtOffset": 34200,
     "gmtOffsetName": "UTC+09:30",
@@ -2100,7 +2100,7 @@
     "exemplarCity": "Darwin"
   },
   {
-    "id": 2263,
+    "id": "Australia/Eucla",
     "zoneName": "Australia/Eucla",
     "gmtOffset": 31500,
     "gmtOffsetName": "UTC+08:45",
@@ -2175,7 +2175,7 @@
     "exemplarCity": "Eucla"
   },
   {
-    "id": 2264,
+    "id": "Australia/Hobart",
     "zoneName": "Australia/Hobart",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -2250,7 +2250,7 @@
     "exemplarCity": "Hobart"
   },
   {
-    "id": 2265,
+    "id": "Australia/Lindeman",
     "zoneName": "Australia/Lindeman",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -2325,7 +2325,7 @@
     "exemplarCity": "Lindeman"
   },
   {
-    "id": 2266,
+    "id": "Australia/Lord_Howe",
     "zoneName": "Australia/Lord_Howe",
     "gmtOffset": 37800,
     "gmtOffsetName": "UTC+10:30",
@@ -2400,7 +2400,7 @@
     "exemplarCity": "Lord Howe"
   },
   {
-    "id": 2267,
+    "id": "Australia/Melbourne",
     "zoneName": "Australia/Melbourne",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -2475,7 +2475,7 @@
     "exemplarCity": "Melbourne"
   },
   {
-    "id": 2268,
+    "id": "Australia/Perth",
     "zoneName": "Australia/Perth",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -2550,7 +2550,7 @@
     "exemplarCity": "Perth"
   },
   {
-    "id": 2269,
+    "id": "Australia/Sydney",
     "zoneName": "Australia/Sydney",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -2625,7 +2625,7 @@
     "exemplarCity": "Sydney"
   },
   {
-    "id": 2270,
+    "id": "Europe/Vienna",
     "zoneName": "Europe/Vienna",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -2700,7 +2700,7 @@
     "exemplarCity": "Vienna"
   },
   {
-    "id": 2271,
+    "id": "Asia/Baku",
     "zoneName": "Asia/Baku",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -2775,7 +2775,7 @@
     "exemplarCity": "Baku"
   },
   {
-    "id": 2272,
+    "id": "Asia/Bahrain",
     "zoneName": "Asia/Bahrain",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -2850,7 +2850,7 @@
     "exemplarCity": "Bahrain"
   },
   {
-    "id": 2273,
+    "id": "Asia/Dhaka",
     "zoneName": "Asia/Dhaka",
     "gmtOffset": 21600,
     "gmtOffsetName": "UTC+06:00",
@@ -2925,7 +2925,7 @@
     "exemplarCity": "Dhaka"
   },
   {
-    "id": 2274,
+    "id": "America/Barbados",
     "zoneName": "America/Barbados",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -3000,7 +3000,7 @@
     "exemplarCity": "Barbados"
   },
   {
-    "id": 2275,
+    "id": "Europe/Minsk",
     "zoneName": "Europe/Minsk",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -3075,7 +3075,7 @@
     "exemplarCity": "Minsk"
   },
   {
-    "id": 2276,
+    "id": "Europe/Brussels",
     "zoneName": "Europe/Brussels",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -3150,7 +3150,7 @@
     "exemplarCity": "Brussels"
   },
   {
-    "id": 2277,
+    "id": "America/Belize",
     "zoneName": "America/Belize",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -3225,7 +3225,7 @@
     "exemplarCity": "Belize"
   },
   {
-    "id": 2278,
+    "id": "Africa/Porto-Novo",
     "zoneName": "Africa/Porto-Novo",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -3300,7 +3300,7 @@
     "exemplarCity": "Porto-Novo"
   },
   {
-    "id": 2279,
+    "id": "Atlantic/Bermuda",
     "zoneName": "Atlantic/Bermuda",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -3375,7 +3375,7 @@
     "exemplarCity": "Bermuda"
   },
   {
-    "id": 2280,
+    "id": "Asia/Thimphu",
     "zoneName": "Asia/Thimphu",
     "gmtOffset": 21600,
     "gmtOffsetName": "UTC+06:00",
@@ -3450,7 +3450,7 @@
     "exemplarCity": "Thimphu"
   },
   {
-    "id": 2281,
+    "id": "America/La_Paz",
     "zoneName": "America/La_Paz",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -3525,7 +3525,7 @@
     "exemplarCity": "La Paz"
   },
   {
-    "id": 2282,
+    "id": "Europe/Sarajevo",
     "zoneName": "Europe/Sarajevo",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -3600,7 +3600,7 @@
     "exemplarCity": "Sarajevo"
   },
   {
-    "id": 2283,
+    "id": "Africa/Gaborone",
     "zoneName": "Africa/Gaborone",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -3675,7 +3675,7 @@
     "exemplarCity": "Gaborone"
   },
   {
-    "id": 2284,
+    "id": "America/Araguaina",
     "zoneName": "America/Araguaina",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -3750,7 +3750,7 @@
     "exemplarCity": "Araguaina"
   },
   {
-    "id": 2285,
+    "id": "America/Bahia",
     "zoneName": "America/Bahia",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -3825,7 +3825,7 @@
     "exemplarCity": "Bahia"
   },
   {
-    "id": 2286,
+    "id": "America/Belem",
     "zoneName": "America/Belem",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -3900,7 +3900,7 @@
     "exemplarCity": "Belem"
   },
   {
-    "id": 2287,
+    "id": "America/Boa_Vista",
     "zoneName": "America/Boa_Vista",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -3975,7 +3975,7 @@
     "exemplarCity": "Boa Vista"
   },
   {
-    "id": 2288,
+    "id": "America/Campo_Grande",
     "zoneName": "America/Campo_Grande",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -4050,7 +4050,7 @@
     "exemplarCity": "Campo Grande"
   },
   {
-    "id": 2289,
+    "id": "America/Cuiaba",
     "zoneName": "America/Cuiaba",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -4125,7 +4125,7 @@
     "exemplarCity": "Cuiaba"
   },
   {
-    "id": 2290,
+    "id": "America/Eirunepe",
     "zoneName": "America/Eirunepe",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -4200,7 +4200,7 @@
     "exemplarCity": "Eirunepe"
   },
   {
-    "id": 2291,
+    "id": "America/Fortaleza",
     "zoneName": "America/Fortaleza",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -4275,7 +4275,7 @@
     "exemplarCity": "Fortaleza"
   },
   {
-    "id": 2292,
+    "id": "America/Maceio",
     "zoneName": "America/Maceio",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -4350,7 +4350,7 @@
     "exemplarCity": "Maceio"
   },
   {
-    "id": 2293,
+    "id": "America/Manaus",
     "zoneName": "America/Manaus",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -4425,7 +4425,7 @@
     "exemplarCity": "Manaus"
   },
   {
-    "id": 2294,
+    "id": "America/Noronha",
     "zoneName": "America/Noronha",
     "gmtOffset": -7200,
     "gmtOffsetName": "UTC-02:00",
@@ -4500,7 +4500,7 @@
     "exemplarCity": "Noronha"
   },
   {
-    "id": 2295,
+    "id": "America/Porto_Velho",
     "zoneName": "America/Porto_Velho",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -4575,7 +4575,7 @@
     "exemplarCity": "Porto Velho"
   },
   {
-    "id": 2296,
+    "id": "America/Recife",
     "zoneName": "America/Recife",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -4650,7 +4650,7 @@
     "exemplarCity": "Recife"
   },
   {
-    "id": 2297,
+    "id": "America/Rio_Branco",
     "zoneName": "America/Rio_Branco",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -4725,7 +4725,7 @@
     "exemplarCity": "Rio Branco"
   },
   {
-    "id": 2298,
+    "id": "America/Santarem",
     "zoneName": "America/Santarem",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -4800,7 +4800,7 @@
     "exemplarCity": "Santarem"
   },
   {
-    "id": 2299,
+    "id": "America/Sao_Paulo",
     "zoneName": "America/Sao_Paulo",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -4875,7 +4875,7 @@
     "exemplarCity": "Sao Paulo"
   },
   {
-    "id": 2300,
+    "id": "Indian/Chagos",
     "zoneName": "Indian/Chagos",
     "gmtOffset": 21600,
     "gmtOffsetName": "UTC+06:00",
@@ -4950,7 +4950,7 @@
     "exemplarCity": "Chagos"
   },
   {
-    "id": 2301,
+    "id": "Asia/Brunei",
     "zoneName": "Asia/Brunei",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -5025,7 +5025,7 @@
     "exemplarCity": "Brunei"
   },
   {
-    "id": 2302,
+    "id": "Europe/Sofia",
     "zoneName": "Europe/Sofia",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -5100,7 +5100,7 @@
     "exemplarCity": "Sofia"
   },
   {
-    "id": 2303,
+    "id": "Africa/Ouagadougou",
     "zoneName": "Africa/Ouagadougou",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -5175,7 +5175,7 @@
     "exemplarCity": "Ouagadougou"
   },
   {
-    "id": 2304,
+    "id": "Africa/Bujumbura",
     "zoneName": "Africa/Bujumbura",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -5250,7 +5250,7 @@
     "exemplarCity": "Bujumbura"
   },
   {
-    "id": 2305,
+    "id": "Asia/Phnom_Penh",
     "zoneName": "Asia/Phnom_Penh",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -5325,7 +5325,7 @@
     "exemplarCity": "Phnom Penh"
   },
   {
-    "id": 2306,
+    "id": "Africa/Douala",
     "zoneName": "Africa/Douala",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -5400,7 +5400,7 @@
     "exemplarCity": "Douala"
   },
   {
-    "id": 2307,
+    "id": "America/Atikokan",
     "zoneName": "America/Atikokan",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -5475,7 +5475,7 @@
     "exemplarCity": "Atikokan"
   },
   {
-    "id": 2308,
+    "id": "America/Blanc-Sablon",
     "zoneName": "America/Blanc-Sablon",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -5550,7 +5550,7 @@
     "exemplarCity": "Blanc-Sablon"
   },
   {
-    "id": 2309,
+    "id": "America/Cambridge_Bay",
     "zoneName": "America/Cambridge_Bay",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -5625,7 +5625,7 @@
     "exemplarCity": "Cambridge Bay"
   },
   {
-    "id": 2310,
+    "id": "America/Creston",
     "zoneName": "America/Creston",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -5700,7 +5700,7 @@
     "exemplarCity": "Creston"
   },
   {
-    "id": 2311,
+    "id": "America/Dawson",
     "zoneName": "America/Dawson",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -5775,7 +5775,7 @@
     "exemplarCity": "Dawson"
   },
   {
-    "id": 2312,
+    "id": "America/Dawson_Creek",
     "zoneName": "America/Dawson_Creek",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -5850,7 +5850,7 @@
     "exemplarCity": "Dawson Creek"
   },
   {
-    "id": 2313,
+    "id": "America/Edmonton",
     "zoneName": "America/Edmonton",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -5925,7 +5925,7 @@
     "exemplarCity": "Edmonton"
   },
   {
-    "id": 2314,
+    "id": "America/Fort_Nelson",
     "zoneName": "America/Fort_Nelson",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -6000,7 +6000,7 @@
     "exemplarCity": "Fort Nelson"
   },
   {
-    "id": 2315,
+    "id": "America/Glace_Bay",
     "zoneName": "America/Glace_Bay",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -6075,7 +6075,7 @@
     "exemplarCity": "Glace Bay"
   },
   {
-    "id": 2316,
+    "id": "America/Goose_Bay",
     "zoneName": "America/Goose_Bay",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -6150,7 +6150,7 @@
     "exemplarCity": "Goose Bay"
   },
   {
-    "id": 2317,
+    "id": "America/Halifax",
     "zoneName": "America/Halifax",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -6225,7 +6225,7 @@
     "exemplarCity": "Halifax"
   },
   {
-    "id": 2318,
+    "id": "America/Inuvik",
     "zoneName": "America/Inuvik",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -6300,7 +6300,7 @@
     "exemplarCity": "Inuvik"
   },
   {
-    "id": 2319,
+    "id": "America/Iqaluit",
     "zoneName": "America/Iqaluit",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -6375,7 +6375,7 @@
     "exemplarCity": "Iqaluit"
   },
   {
-    "id": 2320,
+    "id": "America/Moncton",
     "zoneName": "America/Moncton",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -6450,7 +6450,7 @@
     "exemplarCity": "Moncton"
   },
   {
-    "id": 2324,
+    "id": "America/Rankin_Inlet",
     "zoneName": "America/Rankin_Inlet",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -6525,7 +6525,7 @@
     "exemplarCity": "Rankin Inlet"
   },
   {
-    "id": 2325,
+    "id": "America/Regina",
     "zoneName": "America/Regina",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -6600,7 +6600,7 @@
     "exemplarCity": "Regina"
   },
   {
-    "id": 2326,
+    "id": "America/Resolute",
     "zoneName": "America/Resolute",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -6675,7 +6675,7 @@
     "exemplarCity": "Resolute"
   },
   {
-    "id": 2327,
+    "id": "America/St_Johns",
     "zoneName": "America/St_Johns",
     "gmtOffset": -12600,
     "gmtOffsetName": "UTC-03:30",
@@ -6750,7 +6750,7 @@
     "exemplarCity": "St Johns"
   },
   {
-    "id": 2328,
+    "id": "America/Swift_Current",
     "zoneName": "America/Swift_Current",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -6825,7 +6825,7 @@
     "exemplarCity": "Swift Current"
   },
   {
-    "id": 2330,
+    "id": "America/Toronto",
     "zoneName": "America/Toronto",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -6900,7 +6900,7 @@
     "exemplarCity": "Toronto"
   },
   {
-    "id": 2331,
+    "id": "America/Vancouver",
     "zoneName": "America/Vancouver",
     "gmtOffset": -28800,
     "gmtOffsetName": "UTC-08:00",
@@ -6975,7 +6975,7 @@
     "exemplarCity": "Vancouver"
   },
   {
-    "id": 2332,
+    "id": "America/Whitehorse",
     "zoneName": "America/Whitehorse",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -7050,7 +7050,7 @@
     "exemplarCity": "Whitehorse"
   },
   {
-    "id": 2333,
+    "id": "America/Winnipeg",
     "zoneName": "America/Winnipeg",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -7125,7 +7125,7 @@
     "exemplarCity": "Winnipeg"
   },
   {
-    "id": 2335,
+    "id": "Atlantic/Cape_Verde",
     "zoneName": "Atlantic/Cape_Verde",
     "gmtOffset": -3600,
     "gmtOffsetName": "UTC-01:00",
@@ -7200,7 +7200,7 @@
     "exemplarCity": "Cape Verde"
   },
   {
-    "id": 2336,
+    "id": "America/Cayman",
     "zoneName": "America/Cayman",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -7275,7 +7275,7 @@
     "exemplarCity": "Cayman"
   },
   {
-    "id": 2337,
+    "id": "Africa/Bangui",
     "zoneName": "Africa/Bangui",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -7350,7 +7350,7 @@
     "exemplarCity": "Bangui"
   },
   {
-    "id": 2338,
+    "id": "Africa/Ndjamena",
     "zoneName": "Africa/Ndjamena",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -7425,7 +7425,7 @@
     "exemplarCity": "Ndjamena"
   },
   {
-    "id": 2339,
+    "id": "America/Punta_Arenas",
     "zoneName": "America/Punta_Arenas",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -7500,7 +7500,7 @@
     "exemplarCity": "Punta Arenas"
   },
   {
-    "id": 2340,
+    "id": "America/Santiago",
     "zoneName": "America/Santiago",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -7575,7 +7575,7 @@
     "exemplarCity": "Santiago"
   },
   {
-    "id": 2341,
+    "id": "Pacific/Easter",
     "zoneName": "Pacific/Easter",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -7650,7 +7650,7 @@
     "exemplarCity": "Easter"
   },
   {
-    "id": 2342,
+    "id": "Asia/Shanghai",
     "zoneName": "Asia/Shanghai",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -7725,7 +7725,7 @@
     "exemplarCity": "Shanghai"
   },
   {
-    "id": 2343,
+    "id": "Asia/Urumqi",
     "zoneName": "Asia/Urumqi",
     "gmtOffset": 21600,
     "gmtOffsetName": "UTC+06:00",
@@ -7800,7 +7800,7 @@
     "exemplarCity": "Urumqi"
   },
   {
-    "id": 2344,
+    "id": "Indian/Christmas",
     "zoneName": "Indian/Christmas",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -7875,7 +7875,7 @@
     "exemplarCity": "Christmas"
   },
   {
-    "id": 2345,
+    "id": "Indian/Cocos",
     "zoneName": "Indian/Cocos",
     "gmtOffset": 23400,
     "gmtOffsetName": "UTC+06:30",
@@ -7950,7 +7950,7 @@
     "exemplarCity": "Cocos"
   },
   {
-    "id": 2346,
+    "id": "America/Bogota",
     "zoneName": "America/Bogota",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -8025,7 +8025,7 @@
     "exemplarCity": "Bogota"
   },
   {
-    "id": 2347,
+    "id": "Indian/Comoro",
     "zoneName": "Indian/Comoro",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -8100,7 +8100,7 @@
     "exemplarCity": "Comoro"
   },
   {
-    "id": 2348,
+    "id": "Africa/Brazzaville",
     "zoneName": "Africa/Brazzaville",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -8175,7 +8175,7 @@
     "exemplarCity": "Brazzaville"
   },
   {
-    "id": 2349,
+    "id": "Pacific/Rarotonga",
     "zoneName": "Pacific/Rarotonga",
     "gmtOffset": -36000,
     "gmtOffsetName": "UTC-10:00",
@@ -8250,7 +8250,7 @@
     "exemplarCity": "Rarotonga"
   },
   {
-    "id": 2350,
+    "id": "America/Costa_Rica",
     "zoneName": "America/Costa_Rica",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -8325,7 +8325,7 @@
     "exemplarCity": "Costa Rica"
   },
   {
-    "id": 2351,
+    "id": "Africa/Abidjan",
     "zoneName": "Africa/Abidjan",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -8400,7 +8400,7 @@
     "exemplarCity": "Abidjan"
   },
   {
-    "id": 2352,
+    "id": "Europe/Zagreb",
     "zoneName": "Europe/Zagreb",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -8475,7 +8475,7 @@
     "exemplarCity": "Zagreb"
   },
   {
-    "id": 2353,
+    "id": "America/Havana",
     "zoneName": "America/Havana",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -8550,7 +8550,7 @@
     "exemplarCity": "Havana"
   },
   {
-    "id": 2354,
+    "id": "America/Curacao",
     "zoneName": "America/Curacao",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -8625,7 +8625,7 @@
     "exemplarCity": "Curacao"
   },
   {
-    "id": 2355,
+    "id": "Asia/Famagusta",
     "zoneName": "Asia/Famagusta",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -8700,7 +8700,7 @@
     "exemplarCity": "Famagusta"
   },
   {
-    "id": 2356,
+    "id": "Asia/Nicosia",
     "zoneName": "Asia/Nicosia",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -8775,7 +8775,7 @@
     "exemplarCity": "Nicosia"
   },
   {
-    "id": 2357,
+    "id": "Europe/Prague",
     "zoneName": "Europe/Prague",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -8850,7 +8850,7 @@
     "exemplarCity": "Prague"
   },
   {
-    "id": 2358,
+    "id": "Africa/Kinshasa",
     "zoneName": "Africa/Kinshasa",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -8925,7 +8925,7 @@
     "exemplarCity": "Kinshasa"
   },
   {
-    "id": 2359,
+    "id": "Africa/Lubumbashi",
     "zoneName": "Africa/Lubumbashi",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -9000,7 +9000,7 @@
     "exemplarCity": "Lubumbashi"
   },
   {
-    "id": 2360,
+    "id": "Europe/Copenhagen",
     "zoneName": "Europe/Copenhagen",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -9075,7 +9075,7 @@
     "exemplarCity": "Copenhagen"
   },
   {
-    "id": 2361,
+    "id": "Africa/Djibouti",
     "zoneName": "Africa/Djibouti",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -9150,7 +9150,7 @@
     "exemplarCity": "Djibouti"
   },
   {
-    "id": 2362,
+    "id": "America/Dominica",
     "zoneName": "America/Dominica",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -9225,7 +9225,7 @@
     "exemplarCity": "Dominica"
   },
   {
-    "id": 2363,
+    "id": "America/Santo_Domingo",
     "zoneName": "America/Santo_Domingo",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -9300,7 +9300,7 @@
     "exemplarCity": "Santo Domingo"
   },
   {
-    "id": 2364,
+    "id": "America/Guayaquil",
     "zoneName": "America/Guayaquil",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -9375,7 +9375,7 @@
     "exemplarCity": "Guayaquil"
   },
   {
-    "id": 2365,
+    "id": "Pacific/Galapagos",
     "zoneName": "Pacific/Galapagos",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -9450,7 +9450,7 @@
     "exemplarCity": "Galapagos"
   },
   {
-    "id": 2366,
+    "id": "Africa/Cairo",
     "zoneName": "Africa/Cairo",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -9525,7 +9525,7 @@
     "exemplarCity": "Cairo"
   },
   {
-    "id": 2367,
+    "id": "America/El_Salvador",
     "zoneName": "America/El_Salvador",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -9600,7 +9600,7 @@
     "exemplarCity": "El Salvador"
   },
   {
-    "id": 2368,
+    "id": "Africa/Malabo",
     "zoneName": "Africa/Malabo",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -9675,7 +9675,7 @@
     "exemplarCity": "Malabo"
   },
   {
-    "id": 2369,
+    "id": "Africa/Asmara",
     "zoneName": "Africa/Asmara",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -9750,7 +9750,7 @@
     "exemplarCity": "Asmara"
   },
   {
-    "id": 2370,
+    "id": "Europe/Tallinn",
     "zoneName": "Europe/Tallinn",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -9825,7 +9825,7 @@
     "exemplarCity": "Tallinn"
   },
   {
-    "id": 2371,
+    "id": "Africa/Mbabane",
     "zoneName": "Africa/Mbabane",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -9900,7 +9900,7 @@
     "exemplarCity": "Mbabane"
   },
   {
-    "id": 2372,
+    "id": "Africa/Addis_Ababa",
     "zoneName": "Africa/Addis_Ababa",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -9975,7 +9975,7 @@
     "exemplarCity": "Addis Ababa"
   },
   {
-    "id": 2373,
+    "id": "Atlantic/Stanley",
     "zoneName": "Atlantic/Stanley",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -10050,7 +10050,7 @@
     "exemplarCity": "Stanley"
   },
   {
-    "id": 2374,
+    "id": "Atlantic/Faroe",
     "zoneName": "Atlantic/Faroe",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -10125,7 +10125,7 @@
     "exemplarCity": "Faroe"
   },
   {
-    "id": 2375,
+    "id": "Pacific/Fiji",
     "zoneName": "Pacific/Fiji",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -10200,7 +10200,7 @@
     "exemplarCity": "Fiji"
   },
   {
-    "id": 2376,
+    "id": "Europe/Helsinki",
     "zoneName": "Europe/Helsinki",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -10275,7 +10275,7 @@
     "exemplarCity": "Helsinki"
   },
   {
-    "id": 2377,
+    "id": "Europe/Paris",
     "zoneName": "Europe/Paris",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -10350,7 +10350,7 @@
     "exemplarCity": "Paris"
   },
   {
-    "id": 2378,
+    "id": "America/Cayenne",
     "zoneName": "America/Cayenne",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -10425,7 +10425,7 @@
     "exemplarCity": "Cayenne"
   },
   {
-    "id": 2379,
+    "id": "Pacific/Gambier",
     "zoneName": "Pacific/Gambier",
     "gmtOffset": -32400,
     "gmtOffsetName": "UTC-09:00",
@@ -10500,7 +10500,7 @@
     "exemplarCity": "Gambier"
   },
   {
-    "id": 2380,
+    "id": "Pacific/Marquesas",
     "zoneName": "Pacific/Marquesas",
     "gmtOffset": -34200,
     "gmtOffsetName": "UTC-09:30",
@@ -10575,7 +10575,7 @@
     "exemplarCity": "Marquesas"
   },
   {
-    "id": 2381,
+    "id": "Pacific/Tahiti",
     "zoneName": "Pacific/Tahiti",
     "gmtOffset": -36000,
     "gmtOffsetName": "UTC-10:00",
@@ -10650,7 +10650,7 @@
     "exemplarCity": "Tahiti"
   },
   {
-    "id": 2382,
+    "id": "Indian/Kerguelen",
     "zoneName": "Indian/Kerguelen",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -10725,7 +10725,7 @@
     "exemplarCity": "Kerguelen"
   },
   {
-    "id": 2383,
+    "id": "Africa/Libreville",
     "zoneName": "Africa/Libreville",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -10800,7 +10800,7 @@
     "exemplarCity": "Libreville"
   },
   {
-    "id": 2384,
+    "id": "Asia/Tbilisi",
     "zoneName": "Asia/Tbilisi",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -10875,7 +10875,7 @@
     "exemplarCity": "Tbilisi"
   },
   {
-    "id": 2385,
+    "id": "Europe/Berlin",
     "zoneName": "Europe/Berlin",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -10950,7 +10950,7 @@
     "exemplarCity": "Berlin"
   },
   {
-    "id": 2386,
+    "id": "Europe/Busingen",
     "zoneName": "Europe/Busingen",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -11025,7 +11025,7 @@
     "exemplarCity": "Busingen"
   },
   {
-    "id": 2387,
+    "id": "Africa/Accra",
     "zoneName": "Africa/Accra",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -11100,7 +11100,7 @@
     "exemplarCity": "Accra"
   },
   {
-    "id": 2388,
+    "id": "Europe/Gibraltar",
     "zoneName": "Europe/Gibraltar",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -11175,7 +11175,7 @@
     "exemplarCity": "Gibraltar"
   },
   {
-    "id": 2389,
+    "id": "Europe/Athens",
     "zoneName": "Europe/Athens",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -11250,7 +11250,7 @@
     "exemplarCity": "Athens"
   },
   {
-    "id": 2390,
+    "id": "America/Danmarkshavn",
     "zoneName": "America/Danmarkshavn",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -11325,7 +11325,7 @@
     "exemplarCity": "Danmarkshavn"
   },
   {
-    "id": 2391,
+    "id": "America/Nuuk",
     "zoneName": "America/Nuuk",
     "gmtOffset": -7200,
     "gmtOffsetName": "UTC-02:00",
@@ -11400,7 +11400,7 @@
     "exemplarCity": "Nuuk"
   },
   {
-    "id": 2392,
+    "id": "America/Scoresbysund",
     "zoneName": "America/Scoresbysund",
     "gmtOffset": -7200,
     "gmtOffsetName": "UTC-02:00",
@@ -11475,7 +11475,7 @@
     "exemplarCity": "Scoresbysund"
   },
   {
-    "id": 2393,
+    "id": "America/Thule",
     "zoneName": "America/Thule",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -11550,7 +11550,7 @@
     "exemplarCity": "Thule"
   },
   {
-    "id": 2394,
+    "id": "America/Grenada",
     "zoneName": "America/Grenada",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -11625,7 +11625,7 @@
     "exemplarCity": "Grenada"
   },
   {
-    "id": 2395,
+    "id": "America/Guadeloupe",
     "zoneName": "America/Guadeloupe",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -11700,7 +11700,7 @@
     "exemplarCity": "Guadeloupe"
   },
   {
-    "id": 2396,
+    "id": "Pacific/Guam",
     "zoneName": "Pacific/Guam",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -11775,7 +11775,7 @@
     "exemplarCity": "Guam"
   },
   {
-    "id": 2397,
+    "id": "America/Guatemala",
     "zoneName": "America/Guatemala",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -11850,7 +11850,7 @@
     "exemplarCity": "Guatemala"
   },
   {
-    "id": 2398,
+    "id": "Europe/Guernsey",
     "zoneName": "Europe/Guernsey",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -11925,7 +11925,7 @@
     "exemplarCity": "Guernsey"
   },
   {
-    "id": 2399,
+    "id": "Africa/Conakry",
     "zoneName": "Africa/Conakry",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -12000,7 +12000,7 @@
     "exemplarCity": "Conakry"
   },
   {
-    "id": 2400,
+    "id": "Africa/Bissau",
     "zoneName": "Africa/Bissau",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -12075,7 +12075,7 @@
     "exemplarCity": "Bissau"
   },
   {
-    "id": 2401,
+    "id": "America/Guyana",
     "zoneName": "America/Guyana",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -12150,7 +12150,7 @@
     "exemplarCity": "Guyana"
   },
   {
-    "id": 2402,
+    "id": "America/Port-au-Prince",
     "zoneName": "America/Port-au-Prince",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -12225,7 +12225,7 @@
     "exemplarCity": "Port-au-Prince"
   },
   {
-    "id": 2403,
+    "id": "America/Tegucigalpa",
     "zoneName": "America/Tegucigalpa",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -12300,7 +12300,7 @@
     "exemplarCity": "Tegucigalpa"
   },
   {
-    "id": 2404,
+    "id": "Asia/Hong_Kong",
     "zoneName": "Asia/Hong_Kong",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -12375,7 +12375,7 @@
     "exemplarCity": "Hong Kong"
   },
   {
-    "id": 2405,
+    "id": "Europe/Budapest",
     "zoneName": "Europe/Budapest",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -12450,7 +12450,7 @@
     "exemplarCity": "Budapest"
   },
   {
-    "id": 2406,
+    "id": "Atlantic/Reykjavik",
     "zoneName": "Atlantic/Reykjavik",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -12525,7 +12525,7 @@
     "exemplarCity": "Reykjavik"
   },
   {
-    "id": 2407,
+    "id": "Asia/Kolkata",
     "zoneName": "Asia/Kolkata",
     "gmtOffset": 19800,
     "gmtOffsetName": "UTC+05:30",
@@ -12600,7 +12600,7 @@
     "exemplarCity": "Kolkata"
   },
   {
-    "id": 2408,
+    "id": "Asia/Jakarta",
     "zoneName": "Asia/Jakarta",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -12675,7 +12675,7 @@
     "exemplarCity": "Jakarta"
   },
   {
-    "id": 2409,
+    "id": "Asia/Jayapura",
     "zoneName": "Asia/Jayapura",
     "gmtOffset": 32400,
     "gmtOffsetName": "UTC+09:00",
@@ -12750,7 +12750,7 @@
     "exemplarCity": "Jayapura"
   },
   {
-    "id": 2410,
+    "id": "Asia/Makassar",
     "zoneName": "Asia/Makassar",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -12825,7 +12825,7 @@
     "exemplarCity": "Makassar"
   },
   {
-    "id": 2411,
+    "id": "Asia/Pontianak",
     "zoneName": "Asia/Pontianak",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -12900,7 +12900,7 @@
     "exemplarCity": "Pontianak"
   },
   {
-    "id": 2412,
+    "id": "Asia/Tehran",
     "zoneName": "Asia/Tehran",
     "gmtOffset": 12600,
     "gmtOffsetName": "UTC+03:30",
@@ -12975,7 +12975,7 @@
     "exemplarCity": "Tehran"
   },
   {
-    "id": 2413,
+    "id": "Asia/Baghdad",
     "zoneName": "Asia/Baghdad",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -13050,7 +13050,7 @@
     "exemplarCity": "Baghdad"
   },
   {
-    "id": 2414,
+    "id": "Europe/Dublin",
     "zoneName": "Europe/Dublin",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -13125,7 +13125,7 @@
     "exemplarCity": "Dublin"
   },
   {
-    "id": 2415,
+    "id": "Asia/Jerusalem",
     "zoneName": "Asia/Jerusalem",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -13200,7 +13200,7 @@
     "exemplarCity": "Jerusalem"
   },
   {
-    "id": 2416,
+    "id": "Europe/Rome",
     "zoneName": "Europe/Rome",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -13275,7 +13275,7 @@
     "exemplarCity": "Rome"
   },
   {
-    "id": 2417,
+    "id": "America/Jamaica",
     "zoneName": "America/Jamaica",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -13350,7 +13350,7 @@
     "exemplarCity": "Jamaica"
   },
   {
-    "id": 2418,
+    "id": "Asia/Tokyo",
     "zoneName": "Asia/Tokyo",
     "gmtOffset": 32400,
     "gmtOffsetName": "UTC+09:00",
@@ -13425,7 +13425,7 @@
     "exemplarCity": "Tokyo"
   },
   {
-    "id": 2419,
+    "id": "Europe/Jersey",
     "zoneName": "Europe/Jersey",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -13500,7 +13500,7 @@
     "exemplarCity": "Jersey"
   },
   {
-    "id": 2420,
+    "id": "Asia/Amman",
     "zoneName": "Asia/Amman",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -13575,7 +13575,7 @@
     "exemplarCity": "Amman"
   },
   {
-    "id": 2421,
+    "id": "Asia/Almaty",
     "zoneName": "Asia/Almaty",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -13650,7 +13650,7 @@
     "exemplarCity": "Almaty"
   },
   {
-    "id": 2422,
+    "id": "Asia/Aqtau",
     "zoneName": "Asia/Aqtau",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -13725,7 +13725,7 @@
     "exemplarCity": "Aqtau"
   },
   {
-    "id": 2423,
+    "id": "Asia/Aqtobe",
     "zoneName": "Asia/Aqtobe",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -13800,7 +13800,7 @@
     "exemplarCity": "Aqtobe"
   },
   {
-    "id": 2424,
+    "id": "Asia/Atyrau",
     "zoneName": "Asia/Atyrau",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -13875,7 +13875,7 @@
     "exemplarCity": "Atyrau"
   },
   {
-    "id": 2425,
+    "id": "Asia/Oral",
     "zoneName": "Asia/Oral",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -13950,7 +13950,7 @@
     "exemplarCity": "Oral"
   },
   {
-    "id": 2426,
+    "id": "Asia/Qostanay",
     "zoneName": "Asia/Qostanay",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -14025,7 +14025,7 @@
     "exemplarCity": "Qostanay"
   },
   {
-    "id": 2427,
+    "id": "Asia/Qyzylorda",
     "zoneName": "Asia/Qyzylorda",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -14100,7 +14100,7 @@
     "exemplarCity": "Qyzylorda"
   },
   {
-    "id": 2428,
+    "id": "Africa/Nairobi",
     "zoneName": "Africa/Nairobi",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -14175,7 +14175,7 @@
     "exemplarCity": "Nairobi"
   },
   {
-    "id": 2430,
+    "id": "Pacific/Kiritimati",
     "zoneName": "Pacific/Kiritimati",
     "gmtOffset": 50400,
     "gmtOffsetName": "UTC+14:00",
@@ -14250,7 +14250,7 @@
     "exemplarCity": "Kiritimati"
   },
   {
-    "id": 2431,
+    "id": "Pacific/Tarawa",
     "zoneName": "Pacific/Tarawa",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -14325,7 +14325,7 @@
     "exemplarCity": "Tarawa"
   },
   {
-    "id": 2432,
+    "id": "Europe/Belgrade",
     "zoneName": "Europe/Belgrade",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -14400,7 +14400,7 @@
     "exemplarCity": "Belgrade"
   },
   {
-    "id": 2433,
+    "id": "Asia/Kuwait",
     "zoneName": "Asia/Kuwait",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -14475,7 +14475,7 @@
     "exemplarCity": "Kuwait"
   },
   {
-    "id": 2434,
+    "id": "Asia/Bishkek",
     "zoneName": "Asia/Bishkek",
     "gmtOffset": 21600,
     "gmtOffsetName": "UTC+06:00",
@@ -14550,7 +14550,7 @@
     "exemplarCity": "Bishkek"
   },
   {
-    "id": 2435,
+    "id": "Asia/Vientiane",
     "zoneName": "Asia/Vientiane",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -14625,7 +14625,7 @@
     "exemplarCity": "Vientiane"
   },
   {
-    "id": 2436,
+    "id": "Europe/Riga",
     "zoneName": "Europe/Riga",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -14700,7 +14700,7 @@
     "exemplarCity": "Riga"
   },
   {
-    "id": 2437,
+    "id": "Asia/Beirut",
     "zoneName": "Asia/Beirut",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -14775,7 +14775,7 @@
     "exemplarCity": "Beirut"
   },
   {
-    "id": 2438,
+    "id": "Africa/Maseru",
     "zoneName": "Africa/Maseru",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -14850,7 +14850,7 @@
     "exemplarCity": "Maseru"
   },
   {
-    "id": 2439,
+    "id": "Africa/Monrovia",
     "zoneName": "Africa/Monrovia",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -14925,7 +14925,7 @@
     "exemplarCity": "Monrovia"
   },
   {
-    "id": 2440,
+    "id": "Africa/Tripoli",
     "zoneName": "Africa/Tripoli",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -15000,7 +15000,7 @@
     "exemplarCity": "Tripoli"
   },
   {
-    "id": 2441,
+    "id": "Europe/Vaduz",
     "zoneName": "Europe/Vaduz",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -15075,7 +15075,7 @@
     "exemplarCity": "Vaduz"
   },
   {
-    "id": 2442,
+    "id": "Europe/Vilnius",
     "zoneName": "Europe/Vilnius",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -15150,7 +15150,7 @@
     "exemplarCity": "Vilnius"
   },
   {
-    "id": 2443,
+    "id": "Europe/Luxembourg",
     "zoneName": "Europe/Luxembourg",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -15225,7 +15225,7 @@
     "exemplarCity": "Luxembourg"
   },
   {
-    "id": 2444,
+    "id": "Asia/Macau",
     "zoneName": "Asia/Macau",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -15300,7 +15300,7 @@
     "exemplarCity": "Macau"
   },
   {
-    "id": 2445,
+    "id": "Indian/Antananarivo",
     "zoneName": "Indian/Antananarivo",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -15375,7 +15375,7 @@
     "exemplarCity": "Antananarivo"
   },
   {
-    "id": 2446,
+    "id": "Africa/Blantyre",
     "zoneName": "Africa/Blantyre",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -15450,7 +15450,7 @@
     "exemplarCity": "Blantyre"
   },
   {
-    "id": 2447,
+    "id": "Asia/Kuala_Lumpur",
     "zoneName": "Asia/Kuala_Lumpur",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -15525,7 +15525,7 @@
     "exemplarCity": "Kuala Lumpur"
   },
   {
-    "id": 2448,
+    "id": "Asia/Kuching",
     "zoneName": "Asia/Kuching",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -15600,7 +15600,7 @@
     "exemplarCity": "Kuching"
   },
   {
-    "id": 2449,
+    "id": "Indian/Maldives",
     "zoneName": "Indian/Maldives",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -15675,7 +15675,7 @@
     "exemplarCity": "Maldives"
   },
   {
-    "id": 2450,
+    "id": "Africa/Bamako",
     "zoneName": "Africa/Bamako",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -15750,7 +15750,7 @@
     "exemplarCity": "Bamako"
   },
   {
-    "id": 2451,
+    "id": "Europe/Malta",
     "zoneName": "Europe/Malta",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -15825,7 +15825,7 @@
     "exemplarCity": "Malta"
   },
   {
-    "id": 2452,
+    "id": "Europe/Isle_of_Man",
     "zoneName": "Europe/Isle_of_Man",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -15900,7 +15900,7 @@
     "exemplarCity": "Isle of Man"
   },
   {
-    "id": 2453,
+    "id": "Pacific/Kwajalein",
     "zoneName": "Pacific/Kwajalein",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -15975,7 +15975,7 @@
     "exemplarCity": "Kwajalein"
   },
   {
-    "id": 2454,
+    "id": "Pacific/Majuro",
     "zoneName": "Pacific/Majuro",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -16050,7 +16050,7 @@
     "exemplarCity": "Majuro"
   },
   {
-    "id": 2455,
+    "id": "America/Martinique",
     "zoneName": "America/Martinique",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -16125,7 +16125,7 @@
     "exemplarCity": "Martinique"
   },
   {
-    "id": 2456,
+    "id": "Africa/Nouakchott",
     "zoneName": "Africa/Nouakchott",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -16200,7 +16200,7 @@
     "exemplarCity": "Nouakchott"
   },
   {
-    "id": 2457,
+    "id": "Indian/Mauritius",
     "zoneName": "Indian/Mauritius",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -16275,7 +16275,7 @@
     "exemplarCity": "Mauritius"
   },
   {
-    "id": 2458,
+    "id": "Indian/Mayotte",
     "zoneName": "Indian/Mayotte",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -16350,7 +16350,7 @@
     "exemplarCity": "Mayotte"
   },
   {
-    "id": 2459,
+    "id": "America/Bahia_Banderas",
     "zoneName": "America/Bahia_Banderas",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -16425,7 +16425,7 @@
     "exemplarCity": "Bahia Banderas"
   },
   {
-    "id": 2460,
+    "id": "America/Cancun",
     "zoneName": "America/Cancun",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -16500,7 +16500,7 @@
     "exemplarCity": "Cancun"
   },
   {
-    "id": 2461,
+    "id": "America/Chihuahua",
     "zoneName": "America/Chihuahua",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -16575,7 +16575,7 @@
     "exemplarCity": "Chihuahua"
   },
   {
-    "id": 2462,
+    "id": "America/Hermosillo",
     "zoneName": "America/Hermosillo",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -16650,7 +16650,7 @@
     "exemplarCity": "Hermosillo"
   },
   {
-    "id": 2463,
+    "id": "America/Matamoros",
     "zoneName": "America/Matamoros",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -16725,7 +16725,7 @@
     "exemplarCity": "Matamoros"
   },
   {
-    "id": 2464,
+    "id": "America/Mazatlan",
     "zoneName": "America/Mazatlan",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -16800,7 +16800,7 @@
     "exemplarCity": "Mazatlan"
   },
   {
-    "id": 2465,
+    "id": "America/Merida",
     "zoneName": "America/Merida",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -16875,7 +16875,7 @@
     "exemplarCity": "Merida"
   },
   {
-    "id": 2466,
+    "id": "America/Mexico_City",
     "zoneName": "America/Mexico_City",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -16950,7 +16950,7 @@
     "exemplarCity": "Mexico City"
   },
   {
-    "id": 2467,
+    "id": "America/Monterrey",
     "zoneName": "America/Monterrey",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -17025,7 +17025,7 @@
     "exemplarCity": "Monterrey"
   },
   {
-    "id": 2468,
+    "id": "America/Ojinaga",
     "zoneName": "America/Ojinaga",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -17100,7 +17100,7 @@
     "exemplarCity": "Ojinaga"
   },
   {
-    "id": 2469,
+    "id": "America/Tijuana",
     "zoneName": "America/Tijuana",
     "gmtOffset": -28800,
     "gmtOffsetName": "UTC-08:00",
@@ -17175,7 +17175,7 @@
     "exemplarCity": "Tijuana"
   },
   {
-    "id": 2470,
+    "id": "Pacific/Chuuk",
     "zoneName": "Pacific/Chuuk",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -17250,7 +17250,7 @@
     "exemplarCity": "Chuuk"
   },
   {
-    "id": 2471,
+    "id": "Pacific/Kosrae",
     "zoneName": "Pacific/Kosrae",
     "gmtOffset": 39600,
     "gmtOffsetName": "UTC+11:00",
@@ -17325,7 +17325,7 @@
     "exemplarCity": "Kosrae"
   },
   {
-    "id": 2472,
+    "id": "Pacific/Pohnpei",
     "zoneName": "Pacific/Pohnpei",
     "gmtOffset": 39600,
     "gmtOffsetName": "UTC+11:00",
@@ -17400,7 +17400,7 @@
     "exemplarCity": "Pohnpei"
   },
   {
-    "id": 2473,
+    "id": "Europe/Chisinau",
     "zoneName": "Europe/Chisinau",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -17475,7 +17475,7 @@
     "exemplarCity": "Chisinau"
   },
   {
-    "id": 2474,
+    "id": "Europe/Monaco",
     "zoneName": "Europe/Monaco",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -17550,7 +17550,7 @@
     "exemplarCity": "Monaco"
   },
   {
-    "id": 2476,
+    "id": "Asia/Hovd",
     "zoneName": "Asia/Hovd",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -17625,7 +17625,7 @@
     "exemplarCity": "Hovd"
   },
   {
-    "id": 2477,
+    "id": "Asia/Ulaanbaatar",
     "zoneName": "Asia/Ulaanbaatar",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -17700,7 +17700,7 @@
     "exemplarCity": "Ulaanbaatar"
   },
   {
-    "id": 2478,
+    "id": "Europe/Podgorica",
     "zoneName": "Europe/Podgorica",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -17775,7 +17775,7 @@
     "exemplarCity": "Podgorica"
   },
   {
-    "id": 2479,
+    "id": "America/Montserrat",
     "zoneName": "America/Montserrat",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -17850,7 +17850,7 @@
     "exemplarCity": "Montserrat"
   },
   {
-    "id": 2480,
+    "id": "Africa/Casablanca",
     "zoneName": "Africa/Casablanca",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -17925,7 +17925,7 @@
     "exemplarCity": "Casablanca"
   },
   {
-    "id": 2481,
+    "id": "Africa/Maputo",
     "zoneName": "Africa/Maputo",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -18000,7 +18000,7 @@
     "exemplarCity": "Maputo"
   },
   {
-    "id": 2482,
+    "id": "Asia/Yangon",
     "zoneName": "Asia/Yangon",
     "gmtOffset": 23400,
     "gmtOffsetName": "UTC+06:30",
@@ -18075,7 +18075,7 @@
     "exemplarCity": "Yangon"
   },
   {
-    "id": 2483,
+    "id": "Africa/Windhoek",
     "zoneName": "Africa/Windhoek",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -18150,7 +18150,7 @@
     "exemplarCity": "Windhoek"
   },
   {
-    "id": 2484,
+    "id": "Pacific/Nauru",
     "zoneName": "Pacific/Nauru",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -18225,7 +18225,7 @@
     "exemplarCity": "Nauru"
   },
   {
-    "id": 2485,
+    "id": "Asia/Kathmandu",
     "zoneName": "Asia/Kathmandu",
     "gmtOffset": 20700,
     "gmtOffsetName": "UTC+05:45",
@@ -18300,7 +18300,7 @@
     "exemplarCity": "Kathmandu"
   },
   {
-    "id": 2486,
+    "id": "Europe/Amsterdam",
     "zoneName": "Europe/Amsterdam",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -18375,7 +18375,7 @@
     "exemplarCity": "Amsterdam"
   },
   {
-    "id": 2487,
+    "id": "Pacific/Noumea",
     "zoneName": "Pacific/Noumea",
     "gmtOffset": 39600,
     "gmtOffsetName": "UTC+11:00",
@@ -18450,7 +18450,7 @@
     "exemplarCity": "Noumea"
   },
   {
-    "id": 2488,
+    "id": "Pacific/Auckland",
     "zoneName": "Pacific/Auckland",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -18525,7 +18525,7 @@
     "exemplarCity": "Auckland"
   },
   {
-    "id": 2489,
+    "id": "Pacific/Chatham",
     "zoneName": "Pacific/Chatham",
     "gmtOffset": 45900,
     "gmtOffsetName": "UTC+12:45",
@@ -18600,7 +18600,7 @@
     "exemplarCity": "Chatham"
   },
   {
-    "id": 2490,
+    "id": "America/Managua",
     "zoneName": "America/Managua",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -18675,7 +18675,7 @@
     "exemplarCity": "Managua"
   },
   {
-    "id": 2491,
+    "id": "Africa/Niamey",
     "zoneName": "Africa/Niamey",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -18750,7 +18750,7 @@
     "exemplarCity": "Niamey"
   },
   {
-    "id": 2492,
+    "id": "Africa/Lagos",
     "zoneName": "Africa/Lagos",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -18825,7 +18825,7 @@
     "exemplarCity": "Lagos"
   },
   {
-    "id": 2493,
+    "id": "Pacific/Niue",
     "zoneName": "Pacific/Niue",
     "gmtOffset": -39600,
     "gmtOffsetName": "UTC-11:00",
@@ -18900,7 +18900,7 @@
     "exemplarCity": "Niue"
   },
   {
-    "id": 2494,
+    "id": "Pacific/Norfolk",
     "zoneName": "Pacific/Norfolk",
     "gmtOffset": 39600,
     "gmtOffsetName": "UTC+11:00",
@@ -18975,7 +18975,7 @@
     "exemplarCity": "Norfolk"
   },
   {
-    "id": 2495,
+    "id": "Asia/Pyongyang",
     "zoneName": "Asia/Pyongyang",
     "gmtOffset": 32400,
     "gmtOffsetName": "UTC+09:00",
@@ -19050,7 +19050,7 @@
     "exemplarCity": "Pyongyang"
   },
   {
-    "id": 2496,
+    "id": "Europe/Skopje",
     "zoneName": "Europe/Skopje",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -19125,7 +19125,7 @@
     "exemplarCity": "Skopje"
   },
   {
-    "id": 2497,
+    "id": "Pacific/Saipan",
     "zoneName": "Pacific/Saipan",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -19200,7 +19200,7 @@
     "exemplarCity": "Saipan"
   },
   {
-    "id": 2498,
+    "id": "Europe/Oslo",
     "zoneName": "Europe/Oslo",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -19275,7 +19275,7 @@
     "exemplarCity": "Oslo"
   },
   {
-    "id": 2499,
+    "id": "Asia/Muscat",
     "zoneName": "Asia/Muscat",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -19350,7 +19350,7 @@
     "exemplarCity": "Muscat"
   },
   {
-    "id": 2500,
+    "id": "Asia/Karachi",
     "zoneName": "Asia/Karachi",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -19425,7 +19425,7 @@
     "exemplarCity": "Karachi"
   },
   {
-    "id": 2501,
+    "id": "Pacific/Palau",
     "zoneName": "Pacific/Palau",
     "gmtOffset": 32400,
     "gmtOffsetName": "UTC+09:00",
@@ -19500,7 +19500,7 @@
     "exemplarCity": "Palau"
   },
   {
-    "id": 2502,
+    "id": "Asia/Gaza",
     "zoneName": "Asia/Gaza",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -19575,7 +19575,7 @@
     "exemplarCity": "Gaza"
   },
   {
-    "id": 2503,
+    "id": "Asia/Hebron",
     "zoneName": "Asia/Hebron",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -19650,7 +19650,7 @@
     "exemplarCity": "Hebron"
   },
   {
-    "id": 2504,
+    "id": "America/Panama",
     "zoneName": "America/Panama",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -19725,7 +19725,7 @@
     "exemplarCity": "Panama"
   },
   {
-    "id": 2505,
+    "id": "Pacific/Bougainville",
     "zoneName": "Pacific/Bougainville",
     "gmtOffset": 39600,
     "gmtOffsetName": "UTC+11:00",
@@ -19800,7 +19800,7 @@
     "exemplarCity": "Bougainville"
   },
   {
-    "id": 2506,
+    "id": "Pacific/Port_Moresby",
     "zoneName": "Pacific/Port_Moresby",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -19875,7 +19875,7 @@
     "exemplarCity": "Port Moresby"
   },
   {
-    "id": 2507,
+    "id": "America/Asuncion",
     "zoneName": "America/Asuncion",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -19950,7 +19950,7 @@
     "exemplarCity": "Asuncion"
   },
   {
-    "id": 2508,
+    "id": "America/Lima",
     "zoneName": "America/Lima",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -20025,7 +20025,7 @@
     "exemplarCity": "Lima"
   },
   {
-    "id": 2509,
+    "id": "Asia/Manila",
     "zoneName": "Asia/Manila",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -20100,7 +20100,7 @@
     "exemplarCity": "Manila"
   },
   {
-    "id": 2510,
+    "id": "Pacific/Pitcairn",
     "zoneName": "Pacific/Pitcairn",
     "gmtOffset": -28800,
     "gmtOffsetName": "UTC-08:00",
@@ -20175,7 +20175,7 @@
     "exemplarCity": "Pitcairn"
   },
   {
-    "id": 2511,
+    "id": "Europe/Warsaw",
     "zoneName": "Europe/Warsaw",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -20250,7 +20250,7 @@
     "exemplarCity": "Warsaw"
   },
   {
-    "id": 2512,
+    "id": "Atlantic/Azores",
     "zoneName": "Atlantic/Azores",
     "gmtOffset": -3600,
     "gmtOffsetName": "UTC-01:00",
@@ -20325,7 +20325,7 @@
     "exemplarCity": "Azores"
   },
   {
-    "id": 2513,
+    "id": "Atlantic/Madeira",
     "zoneName": "Atlantic/Madeira",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -20400,7 +20400,7 @@
     "exemplarCity": "Madeira"
   },
   {
-    "id": 2514,
+    "id": "Europe/Lisbon",
     "zoneName": "Europe/Lisbon",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -20475,7 +20475,7 @@
     "exemplarCity": "Lisbon"
   },
   {
-    "id": 2515,
+    "id": "America/Puerto_Rico",
     "zoneName": "America/Puerto_Rico",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -20550,7 +20550,7 @@
     "exemplarCity": "Puerto Rico"
   },
   {
-    "id": 2516,
+    "id": "Asia/Qatar",
     "zoneName": "Asia/Qatar",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -20625,7 +20625,7 @@
     "exemplarCity": "Qatar"
   },
   {
-    "id": 2517,
+    "id": "Indian/Reunion",
     "zoneName": "Indian/Reunion",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -20700,7 +20700,7 @@
     "exemplarCity": "Reunion"
   },
   {
-    "id": 2518,
+    "id": "Europe/Bucharest",
     "zoneName": "Europe/Bucharest",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -20775,7 +20775,7 @@
     "exemplarCity": "Bucharest"
   },
   {
-    "id": 2519,
+    "id": "Asia/Anadyr",
     "zoneName": "Asia/Anadyr",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -20850,7 +20850,7 @@
     "exemplarCity": "Anadyr"
   },
   {
-    "id": 2520,
+    "id": "Asia/Barnaul",
     "zoneName": "Asia/Barnaul",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -20925,7 +20925,7 @@
     "exemplarCity": "Barnaul"
   },
   {
-    "id": 2521,
+    "id": "Asia/Chita",
     "zoneName": "Asia/Chita",
     "gmtOffset": 32400,
     "gmtOffsetName": "UTC+09:00",
@@ -21000,7 +21000,7 @@
     "exemplarCity": "Chita"
   },
   {
-    "id": 2522,
+    "id": "Asia/Irkutsk",
     "zoneName": "Asia/Irkutsk",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -21075,7 +21075,7 @@
     "exemplarCity": "Irkutsk"
   },
   {
-    "id": 2523,
+    "id": "Asia/Kamchatka",
     "zoneName": "Asia/Kamchatka",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -21150,7 +21150,7 @@
     "exemplarCity": "Kamchatka"
   },
   {
-    "id": 2524,
+    "id": "Asia/Khandyga",
     "zoneName": "Asia/Khandyga",
     "gmtOffset": 32400,
     "gmtOffsetName": "UTC+09:00",
@@ -21225,7 +21225,7 @@
     "exemplarCity": "Khandyga"
   },
   {
-    "id": 2525,
+    "id": "Asia/Krasnoyarsk",
     "zoneName": "Asia/Krasnoyarsk",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -21300,7 +21300,7 @@
     "exemplarCity": "Krasnoyarsk"
   },
   {
-    "id": 2526,
+    "id": "Asia/Magadan",
     "zoneName": "Asia/Magadan",
     "gmtOffset": 39600,
     "gmtOffsetName": "UTC+11:00",
@@ -21375,7 +21375,7 @@
     "exemplarCity": "Magadan"
   },
   {
-    "id": 2527,
+    "id": "Asia/Novokuznetsk",
     "zoneName": "Asia/Novokuznetsk",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -21450,7 +21450,7 @@
     "exemplarCity": "Novokuznetsk"
   },
   {
-    "id": 2528,
+    "id": "Asia/Novosibirsk",
     "zoneName": "Asia/Novosibirsk",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -21525,7 +21525,7 @@
     "exemplarCity": "Novosibirsk"
   },
   {
-    "id": 2529,
+    "id": "Asia/Omsk",
     "zoneName": "Asia/Omsk",
     "gmtOffset": 21600,
     "gmtOffsetName": "UTC+06:00",
@@ -21600,7 +21600,7 @@
     "exemplarCity": "Omsk"
   },
   {
-    "id": 2530,
+    "id": "Asia/Sakhalin",
     "zoneName": "Asia/Sakhalin",
     "gmtOffset": 39600,
     "gmtOffsetName": "UTC+11:00",
@@ -21675,7 +21675,7 @@
     "exemplarCity": "Sakhalin"
   },
   {
-    "id": 2531,
+    "id": "Asia/Srednekolymsk",
     "zoneName": "Asia/Srednekolymsk",
     "gmtOffset": 39600,
     "gmtOffsetName": "UTC+11:00",
@@ -21750,7 +21750,7 @@
     "exemplarCity": "Srednekolymsk"
   },
   {
-    "id": 2532,
+    "id": "Asia/Tomsk",
     "zoneName": "Asia/Tomsk",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -21825,7 +21825,7 @@
     "exemplarCity": "Tomsk"
   },
   {
-    "id": 2533,
+    "id": "Asia/Ust-Nera",
     "zoneName": "Asia/Ust-Nera",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -21900,7 +21900,7 @@
     "exemplarCity": "Ust-Nera"
   },
   {
-    "id": 2534,
+    "id": "Asia/Vladivostok",
     "zoneName": "Asia/Vladivostok",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -21975,7 +21975,7 @@
     "exemplarCity": "Vladivostok"
   },
   {
-    "id": 2535,
+    "id": "Asia/Yakutsk",
     "zoneName": "Asia/Yakutsk",
     "gmtOffset": 32400,
     "gmtOffsetName": "UTC+09:00",
@@ -22050,7 +22050,7 @@
     "exemplarCity": "Yakutsk"
   },
   {
-    "id": 2536,
+    "id": "Asia/Yekaterinburg",
     "zoneName": "Asia/Yekaterinburg",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -22125,7 +22125,7 @@
     "exemplarCity": "Yekaterinburg"
   },
   {
-    "id": 2537,
+    "id": "Europe/Astrakhan",
     "zoneName": "Europe/Astrakhan",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -22200,7 +22200,7 @@
     "exemplarCity": "Astrakhan"
   },
   {
-    "id": 2538,
+    "id": "Europe/Kaliningrad",
     "zoneName": "Europe/Kaliningrad",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -22275,7 +22275,7 @@
     "exemplarCity": "Kaliningrad"
   },
   {
-    "id": 2539,
+    "id": "Europe/Kirov",
     "zoneName": "Europe/Kirov",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -22350,7 +22350,7 @@
     "exemplarCity": "Kirov"
   },
   {
-    "id": 2540,
+    "id": "Europe/Moscow",
     "zoneName": "Europe/Moscow",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -22425,7 +22425,7 @@
     "exemplarCity": "Moscow"
   },
   {
-    "id": 2541,
+    "id": "Europe/Samara",
     "zoneName": "Europe/Samara",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -22500,7 +22500,7 @@
     "exemplarCity": "Samara"
   },
   {
-    "id": 2542,
+    "id": "Europe/Saratov",
     "zoneName": "Europe/Saratov",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -22575,7 +22575,7 @@
     "exemplarCity": "Saratov"
   },
   {
-    "id": 2543,
+    "id": "Europe/Ulyanovsk",
     "zoneName": "Europe/Ulyanovsk",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -22650,7 +22650,7 @@
     "exemplarCity": "Ulyanovsk"
   },
   {
-    "id": 2544,
+    "id": "Europe/Volgograd",
     "zoneName": "Europe/Volgograd",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -22725,7 +22725,7 @@
     "exemplarCity": "Volgograd"
   },
   {
-    "id": 2545,
+    "id": "Africa/Kigali",
     "zoneName": "Africa/Kigali",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -22800,7 +22800,7 @@
     "exemplarCity": "Kigali"
   },
   {
-    "id": 2546,
+    "id": "Atlantic/St_Helena",
     "zoneName": "Atlantic/St_Helena",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -22875,7 +22875,7 @@
     "exemplarCity": "St Helena"
   },
   {
-    "id": 2547,
+    "id": "America/St_Kitts",
     "zoneName": "America/St_Kitts",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -22950,7 +22950,7 @@
     "exemplarCity": "St Kitts"
   },
   {
-    "id": 2548,
+    "id": "America/St_Lucia",
     "zoneName": "America/St_Lucia",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -23025,7 +23025,7 @@
     "exemplarCity": "St Lucia"
   },
   {
-    "id": 2549,
+    "id": "America/Miquelon",
     "zoneName": "America/Miquelon",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -23100,7 +23100,7 @@
     "exemplarCity": "Miquelon"
   },
   {
-    "id": 2550,
+    "id": "America/St_Vincent",
     "zoneName": "America/St_Vincent",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -23175,7 +23175,7 @@
     "exemplarCity": "St Vincent"
   },
   {
-    "id": 2551,
+    "id": "America/St_Barthelemy",
     "zoneName": "America/St_Barthelemy",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -23250,7 +23250,7 @@
     "exemplarCity": "St Barthelemy"
   },
   {
-    "id": 2552,
+    "id": "America/Marigot",
     "zoneName": "America/Marigot",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -23325,7 +23325,7 @@
     "exemplarCity": "Marigot"
   },
   {
-    "id": 2553,
+    "id": "Pacific/Apia",
     "zoneName": "Pacific/Apia",
     "gmtOffset": 46800,
     "gmtOffsetName": "UTC+13:00",
@@ -23400,7 +23400,7 @@
     "exemplarCity": "Apia"
   },
   {
-    "id": 2554,
+    "id": "Europe/San_Marino",
     "zoneName": "Europe/San_Marino",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -23475,7 +23475,7 @@
     "exemplarCity": "San Marino"
   },
   {
-    "id": 2555,
+    "id": "Africa/Sao_Tome",
     "zoneName": "Africa/Sao_Tome",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -23550,7 +23550,7 @@
     "exemplarCity": "Sao Tome"
   },
   {
-    "id": 2556,
+    "id": "Asia/Riyadh",
     "zoneName": "Asia/Riyadh",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -23625,7 +23625,7 @@
     "exemplarCity": "Riyadh"
   },
   {
-    "id": 2557,
+    "id": "Africa/Dakar",
     "zoneName": "Africa/Dakar",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -23700,7 +23700,7 @@
     "exemplarCity": "Dakar"
   },
   {
-    "id": 2558,
+    "id": "Indian/Mahe",
     "zoneName": "Indian/Mahe",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -23775,7 +23775,7 @@
     "exemplarCity": "Mahe"
   },
   {
-    "id": 2559,
+    "id": "Africa/Freetown",
     "zoneName": "Africa/Freetown",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -23850,7 +23850,7 @@
     "exemplarCity": "Freetown"
   },
   {
-    "id": 2560,
+    "id": "Asia/Singapore",
     "zoneName": "Asia/Singapore",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -23925,7 +23925,7 @@
     "exemplarCity": "Singapore"
   },
   {
-    "id": 2561,
+    "id": "Europe/Bratislava",
     "zoneName": "Europe/Bratislava",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -24000,7 +24000,7 @@
     "exemplarCity": "Bratislava"
   },
   {
-    "id": 2562,
+    "id": "Europe/Ljubljana",
     "zoneName": "Europe/Ljubljana",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -24075,7 +24075,7 @@
     "exemplarCity": "Ljubljana"
   },
   {
-    "id": 2563,
+    "id": "Pacific/Guadalcanal",
     "zoneName": "Pacific/Guadalcanal",
     "gmtOffset": 39600,
     "gmtOffsetName": "UTC+11:00",
@@ -24150,7 +24150,7 @@
     "exemplarCity": "Guadalcanal"
   },
   {
-    "id": 2564,
+    "id": "Africa/Mogadishu",
     "zoneName": "Africa/Mogadishu",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -24225,7 +24225,7 @@
     "exemplarCity": "Mogadishu"
   },
   {
-    "id": 2565,
+    "id": "Africa/Johannesburg",
     "zoneName": "Africa/Johannesburg",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -24300,7 +24300,7 @@
     "exemplarCity": "Johannesburg"
   },
   {
-    "id": 2566,
+    "id": "Atlantic/South_Georgia",
     "zoneName": "Atlantic/South_Georgia",
     "gmtOffset": -7200,
     "gmtOffsetName": "UTC-02:00",
@@ -24375,7 +24375,7 @@
     "exemplarCity": "South Georgia"
   },
   {
-    "id": 2567,
+    "id": "Asia/Seoul",
     "zoneName": "Asia/Seoul",
     "gmtOffset": 32400,
     "gmtOffsetName": "UTC+09:00",
@@ -24450,7 +24450,7 @@
     "exemplarCity": "Seoul"
   },
   {
-    "id": 2568,
+    "id": "Africa/Juba",
     "zoneName": "Africa/Juba",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -24525,7 +24525,7 @@
     "exemplarCity": "Juba"
   },
   {
-    "id": 2569,
+    "id": "Africa/Ceuta",
     "zoneName": "Africa/Ceuta",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -24600,7 +24600,7 @@
     "exemplarCity": "Ceuta"
   },
   {
-    "id": 2570,
+    "id": "Atlantic/Canary",
     "zoneName": "Atlantic/Canary",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -24675,7 +24675,7 @@
     "exemplarCity": "Canary"
   },
   {
-    "id": 2571,
+    "id": "Europe/Madrid",
     "zoneName": "Europe/Madrid",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -24750,7 +24750,7 @@
     "exemplarCity": "Madrid"
   },
   {
-    "id": 2572,
+    "id": "Asia/Colombo",
     "zoneName": "Asia/Colombo",
     "gmtOffset": 19800,
     "gmtOffsetName": "UTC+05:30",
@@ -24825,7 +24825,7 @@
     "exemplarCity": "Colombo"
   },
   {
-    "id": 2573,
+    "id": "Africa/Khartoum",
     "zoneName": "Africa/Khartoum",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -24900,7 +24900,7 @@
     "exemplarCity": "Khartoum"
   },
   {
-    "id": 2574,
+    "id": "America/Paramaribo",
     "zoneName": "America/Paramaribo",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -24975,7 +24975,7 @@
     "exemplarCity": "Paramaribo"
   },
   {
-    "id": 2575,
+    "id": "Arctic/Longyearbyen",
     "zoneName": "Arctic/Longyearbyen",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -25050,7 +25050,7 @@
     "exemplarCity": "Longyearbyen"
   },
   {
-    "id": 2576,
+    "id": "Europe/Stockholm",
     "zoneName": "Europe/Stockholm",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -25125,7 +25125,7 @@
     "exemplarCity": "Stockholm"
   },
   {
-    "id": 2577,
+    "id": "Europe/Zurich",
     "zoneName": "Europe/Zurich",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -25200,7 +25200,7 @@
     "exemplarCity": "Zurich"
   },
   {
-    "id": 2578,
+    "id": "Asia/Damascus",
     "zoneName": "Asia/Damascus",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -25275,7 +25275,7 @@
     "exemplarCity": "Damascus"
   },
   {
-    "id": 2579,
+    "id": "Asia/Taipei",
     "zoneName": "Asia/Taipei",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -25350,7 +25350,7 @@
     "exemplarCity": "Taipei"
   },
   {
-    "id": 2580,
+    "id": "Asia/Dushanbe",
     "zoneName": "Asia/Dushanbe",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -25425,7 +25425,7 @@
     "exemplarCity": "Dushanbe"
   },
   {
-    "id": 2581,
+    "id": "Africa/Dar_es_Salaam",
     "zoneName": "Africa/Dar_es_Salaam",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -25500,7 +25500,7 @@
     "exemplarCity": "Dar es Salaam"
   },
   {
-    "id": 2582,
+    "id": "Asia/Bangkok",
     "zoneName": "Asia/Bangkok",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -25575,7 +25575,7 @@
     "exemplarCity": "Bangkok"
   },
   {
-    "id": 2583,
+    "id": "America/Nassau",
     "zoneName": "America/Nassau",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -25650,7 +25650,7 @@
     "exemplarCity": "Nassau"
   },
   {
-    "id": 2584,
+    "id": "Africa/Banjul",
     "zoneName": "Africa/Banjul",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -25725,7 +25725,7 @@
     "exemplarCity": "Banjul"
   },
   {
-    "id": 2585,
+    "id": "Asia/Dili",
     "zoneName": "Asia/Dili",
     "gmtOffset": 32400,
     "gmtOffsetName": "UTC+09:00",
@@ -25800,7 +25800,7 @@
     "exemplarCity": "Dili"
   },
   {
-    "id": 2586,
+    "id": "Africa/Lome",
     "zoneName": "Africa/Lome",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -25875,7 +25875,7 @@
     "exemplarCity": "Lome"
   },
   {
-    "id": 2587,
+    "id": "Pacific/Fakaofo",
     "zoneName": "Pacific/Fakaofo",
     "gmtOffset": 46800,
     "gmtOffsetName": "UTC+13:00",
@@ -25950,7 +25950,7 @@
     "exemplarCity": "Fakaofo"
   },
   {
-    "id": 2588,
+    "id": "Pacific/Tongatapu",
     "zoneName": "Pacific/Tongatapu",
     "gmtOffset": 46800,
     "gmtOffsetName": "UTC+13:00",
@@ -26025,7 +26025,7 @@
     "exemplarCity": "Tongatapu"
   },
   {
-    "id": 2589,
+    "id": "America/Port_of_Spain",
     "zoneName": "America/Port_of_Spain",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -26100,7 +26100,7 @@
     "exemplarCity": "Port of Spain"
   },
   {
-    "id": 2590,
+    "id": "Africa/Tunis",
     "zoneName": "Africa/Tunis",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -26175,7 +26175,7 @@
     "exemplarCity": "Tunis"
   },
   {
-    "id": 2591,
+    "id": "Europe/Istanbul",
     "zoneName": "Europe/Istanbul",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -26250,7 +26250,7 @@
     "exemplarCity": "Istanbul"
   },
   {
-    "id": 2592,
+    "id": "Asia/Ashgabat",
     "zoneName": "Asia/Ashgabat",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -26325,7 +26325,7 @@
     "exemplarCity": "Ashgabat"
   },
   {
-    "id": 2593,
+    "id": "America/Grand_Turk",
     "zoneName": "America/Grand_Turk",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -26400,7 +26400,7 @@
     "exemplarCity": "Grand Turk"
   },
   {
-    "id": 2594,
+    "id": "Pacific/Funafuti",
     "zoneName": "Pacific/Funafuti",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -26475,7 +26475,7 @@
     "exemplarCity": "Funafuti"
   },
   {
-    "id": 2595,
+    "id": "Africa/Kampala",
     "zoneName": "Africa/Kampala",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -26550,7 +26550,7 @@
     "exemplarCity": "Kampala"
   },
   {
-    "id": 2597,
+    "id": "Europe/Simferopol",
     "zoneName": "Europe/Simferopol",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -26625,7 +26625,7 @@
     "exemplarCity": "Simferopol"
   },
   {
-    "id": 2600,
+    "id": "Asia/Dubai",
     "zoneName": "Asia/Dubai",
     "gmtOffset": 14400,
     "gmtOffsetName": "UTC+04:00",
@@ -26700,7 +26700,7 @@
     "exemplarCity": "Dubai"
   },
   {
-    "id": 2601,
+    "id": "Europe/London",
     "zoneName": "Europe/London",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -26775,7 +26775,7 @@
     "exemplarCity": "London"
   },
   {
-    "id": 2602,
+    "id": "America/Adak",
     "zoneName": "America/Adak",
     "gmtOffset": -36000,
     "gmtOffsetName": "UTC-10:00",
@@ -26850,7 +26850,7 @@
     "exemplarCity": "Adak"
   },
   {
-    "id": 2603,
+    "id": "America/Anchorage",
     "zoneName": "America/Anchorage",
     "gmtOffset": -32400,
     "gmtOffsetName": "UTC-09:00",
@@ -26925,7 +26925,7 @@
     "exemplarCity": "Anchorage"
   },
   {
-    "id": 2604,
+    "id": "America/Boise",
     "zoneName": "America/Boise",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -27000,7 +27000,7 @@
     "exemplarCity": "Boise"
   },
   {
-    "id": 2605,
+    "id": "America/Chicago",
     "zoneName": "America/Chicago",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -27075,7 +27075,7 @@
     "exemplarCity": "Chicago"
   },
   {
-    "id": 2606,
+    "id": "America/Denver",
     "zoneName": "America/Denver",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -27150,7 +27150,7 @@
     "exemplarCity": "Denver"
   },
   {
-    "id": 2607,
+    "id": "America/Detroit",
     "zoneName": "America/Detroit",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -27225,7 +27225,7 @@
     "exemplarCity": "Detroit"
   },
   {
-    "id": 2608,
+    "id": "America/Indiana/Indianapolis",
     "zoneName": "America/Indiana/Indianapolis",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -27300,7 +27300,7 @@
     "exemplarCity": "Indianapolis"
   },
   {
-    "id": 2609,
+    "id": "America/Indiana/Knox",
     "zoneName": "America/Indiana/Knox",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -27375,7 +27375,7 @@
     "exemplarCity": "Knox"
   },
   {
-    "id": 2610,
+    "id": "America/Indiana/Marengo",
     "zoneName": "America/Indiana/Marengo",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -27450,7 +27450,7 @@
     "exemplarCity": "Marengo"
   },
   {
-    "id": 2611,
+    "id": "America/Indiana/Petersburg",
     "zoneName": "America/Indiana/Petersburg",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -27525,7 +27525,7 @@
     "exemplarCity": "Petersburg"
   },
   {
-    "id": 2612,
+    "id": "America/Indiana/Tell_City",
     "zoneName": "America/Indiana/Tell_City",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -27600,7 +27600,7 @@
     "exemplarCity": "Tell City"
   },
   {
-    "id": 2613,
+    "id": "America/Indiana/Vevay",
     "zoneName": "America/Indiana/Vevay",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -27675,7 +27675,7 @@
     "exemplarCity": "Vevay"
   },
   {
-    "id": 2614,
+    "id": "America/Indiana/Vincennes",
     "zoneName": "America/Indiana/Vincennes",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -27750,7 +27750,7 @@
     "exemplarCity": "Vincennes"
   },
   {
-    "id": 2615,
+    "id": "America/Indiana/Winamac",
     "zoneName": "America/Indiana/Winamac",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -27825,7 +27825,7 @@
     "exemplarCity": "Winamac"
   },
   {
-    "id": 2616,
+    "id": "America/Juneau",
     "zoneName": "America/Juneau",
     "gmtOffset": -32400,
     "gmtOffsetName": "UTC-09:00",
@@ -27900,7 +27900,7 @@
     "exemplarCity": "Juneau"
   },
   {
-    "id": 2617,
+    "id": "America/Kentucky/Louisville",
     "zoneName": "America/Kentucky/Louisville",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -27975,7 +27975,7 @@
     "exemplarCity": "Louisville"
   },
   {
-    "id": 2618,
+    "id": "America/Kentucky/Monticello",
     "zoneName": "America/Kentucky/Monticello",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -28050,7 +28050,7 @@
     "exemplarCity": "Monticello"
   },
   {
-    "id": 2619,
+    "id": "America/Los_Angeles",
     "zoneName": "America/Los_Angeles",
     "gmtOffset": -28800,
     "gmtOffsetName": "UTC-08:00",
@@ -28125,7 +28125,7 @@
     "exemplarCity": "Los Angeles"
   },
   {
-    "id": 2620,
+    "id": "America/Menominee",
     "zoneName": "America/Menominee",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -28200,7 +28200,7 @@
     "exemplarCity": "Menominee"
   },
   {
-    "id": 2621,
+    "id": "America/Metlakatla",
     "zoneName": "America/Metlakatla",
     "gmtOffset": -32400,
     "gmtOffsetName": "UTC-09:00",
@@ -28275,7 +28275,7 @@
     "exemplarCity": "Metlakatla"
   },
   {
-    "id": 2622,
+    "id": "America/New_York",
     "zoneName": "America/New_York",
     "gmtOffset": -18000,
     "gmtOffsetName": "UTC-05:00",
@@ -28350,7 +28350,7 @@
     "exemplarCity": "New York"
   },
   {
-    "id": 2623,
+    "id": "America/Nome",
     "zoneName": "America/Nome",
     "gmtOffset": -32400,
     "gmtOffsetName": "UTC-09:00",
@@ -28425,7 +28425,7 @@
     "exemplarCity": "Nome"
   },
   {
-    "id": 2624,
+    "id": "America/North_Dakota/Beulah",
     "zoneName": "America/North_Dakota/Beulah",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -28500,7 +28500,7 @@
     "exemplarCity": "Beulah"
   },
   {
-    "id": 2625,
+    "id": "America/North_Dakota/Center",
     "zoneName": "America/North_Dakota/Center",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -28575,7 +28575,7 @@
     "exemplarCity": "Center"
   },
   {
-    "id": 2626,
+    "id": "America/North_Dakota/New_Salem",
     "zoneName": "America/North_Dakota/New_Salem",
     "gmtOffset": -21600,
     "gmtOffsetName": "UTC-06:00",
@@ -28650,7 +28650,7 @@
     "exemplarCity": "New Salem"
   },
   {
-    "id": 2627,
+    "id": "America/Phoenix",
     "zoneName": "America/Phoenix",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -28725,7 +28725,7 @@
     "exemplarCity": "Phoenix"
   },
   {
-    "id": 2628,
+    "id": "America/Sitka",
     "zoneName": "America/Sitka",
     "gmtOffset": -32400,
     "gmtOffsetName": "UTC-09:00",
@@ -28800,7 +28800,7 @@
     "exemplarCity": "Sitka"
   },
   {
-    "id": 2629,
+    "id": "America/Yakutat",
     "zoneName": "America/Yakutat",
     "gmtOffset": -32400,
     "gmtOffsetName": "UTC-09:00",
@@ -28875,7 +28875,7 @@
     "exemplarCity": "Yakutat"
   },
   {
-    "id": 2630,
+    "id": "Pacific/Honolulu",
     "zoneName": "Pacific/Honolulu",
     "gmtOffset": -36000,
     "gmtOffsetName": "UTC-10:00",
@@ -28950,7 +28950,7 @@
     "exemplarCity": "Honolulu"
   },
   {
-    "id": 2631,
+    "id": "Pacific/Midway",
     "zoneName": "Pacific/Midway",
     "gmtOffset": -39600,
     "gmtOffsetName": "UTC-11:00",
@@ -29025,7 +29025,7 @@
     "exemplarCity": "Midway"
   },
   {
-    "id": 2632,
+    "id": "Pacific/Wake",
     "zoneName": "Pacific/Wake",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -29100,7 +29100,7 @@
     "exemplarCity": "Wake"
   },
   {
-    "id": 2633,
+    "id": "America/Montevideo",
     "zoneName": "America/Montevideo",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -29175,7 +29175,7 @@
     "exemplarCity": "Montevideo"
   },
   {
-    "id": 2634,
+    "id": "Asia/Samarkand",
     "zoneName": "Asia/Samarkand",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -29250,7 +29250,7 @@
     "exemplarCity": "Samarkand"
   },
   {
-    "id": 2635,
+    "id": "Asia/Tashkent",
     "zoneName": "Asia/Tashkent",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -29325,7 +29325,7 @@
     "exemplarCity": "Tashkent"
   },
   {
-    "id": 2636,
+    "id": "Pacific/Efate",
     "zoneName": "Pacific/Efate",
     "gmtOffset": 39600,
     "gmtOffsetName": "UTC+11:00",
@@ -29400,7 +29400,7 @@
     "exemplarCity": "Efate"
   },
   {
-    "id": 2637,
+    "id": "Europe/Vatican",
     "zoneName": "Europe/Vatican",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -29475,7 +29475,7 @@
     "exemplarCity": "Vatican"
   },
   {
-    "id": 2638,
+    "id": "America/Caracas",
     "zoneName": "America/Caracas",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -29550,7 +29550,7 @@
     "exemplarCity": "Caracas"
   },
   {
-    "id": 2639,
+    "id": "Asia/Ho_Chi_Minh",
     "zoneName": "Asia/Ho_Chi_Minh",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -29625,7 +29625,7 @@
     "exemplarCity": "Ho Chi Minh"
   },
   {
-    "id": 2640,
+    "id": "America/Tortola",
     "zoneName": "America/Tortola",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -29700,7 +29700,7 @@
     "exemplarCity": "Tortola"
   },
   {
-    "id": 2641,
+    "id": "America/St_Thomas",
     "zoneName": "America/St_Thomas",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -29775,7 +29775,7 @@
     "exemplarCity": "St Thomas"
   },
   {
-    "id": 2642,
+    "id": "Pacific/Wallis",
     "zoneName": "Pacific/Wallis",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -29850,7 +29850,7 @@
     "exemplarCity": "Wallis"
   },
   {
-    "id": 2643,
+    "id": "Africa/El_Aaiun",
     "zoneName": "Africa/El_Aaiun",
     "gmtOffset": 3600,
     "gmtOffsetName": "UTC+01:00",
@@ -29925,7 +29925,7 @@
     "exemplarCity": "El Aaiun"
   },
   {
-    "id": 2644,
+    "id": "Asia/Aden",
     "zoneName": "Asia/Aden",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -30000,7 +30000,7 @@
     "exemplarCity": "Aden"
   },
   {
-    "id": 2645,
+    "id": "Africa/Lusaka",
     "zoneName": "Africa/Lusaka",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -30075,7 +30075,7 @@
     "exemplarCity": "Lusaka"
   },
   {
-    "id": 2646,
+    "id": "Africa/Harare",
     "zoneName": "Africa/Harare",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -30150,7 +30150,7 @@
     "exemplarCity": "Harare"
   },
   {
-    "id": 2596,
+    "id": "Europe/Kyiv",
     "zoneName": "Europe/Kyiv",
     "gmtOffset": 7200,
     "gmtOffsetName": "UTC+02:00",
@@ -30225,7 +30225,7 @@
     "exemplarCity": "Kyiv"
   },
   {
-    "id": 2429,
+    "id": "Pacific/Kanton",
     "zoneName": "Pacific/Kanton",
     "gmtOffset": 46800,
     "gmtOffsetName": "UTC+13:00",
@@ -30300,7 +30300,7 @@
     "exemplarCity": "Kanton"
   },
   {
-    "id": 2647,
+    "id": "Antarctica/Casey",
     "zoneName": "Antarctica/Casey",
     "gmtOffset": 28800,
     "gmtOffsetName": "UTC+08:00",
@@ -30375,7 +30375,7 @@
     "exemplarCity": "Casey"
   },
   {
-    "id": 2648,
+    "id": "Antarctica/Davis",
     "zoneName": "Antarctica/Davis",
     "gmtOffset": 25200,
     "gmtOffsetName": "UTC+07:00",
@@ -30450,7 +30450,7 @@
     "exemplarCity": "Davis"
   },
   {
-    "id": 2649,
+    "id": "Antarctica/DumontDUrville",
     "zoneName": "Antarctica/DumontDUrville",
     "gmtOffset": 36000,
     "gmtOffsetName": "UTC+10:00",
@@ -30525,7 +30525,7 @@
     "exemplarCity": "Dumont d’Urville"
   },
   {
-    "id": 2650,
+    "id": "Antarctica/Mawson",
     "zoneName": "Antarctica/Mawson",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -30600,7 +30600,7 @@
     "exemplarCity": "Mawson"
   },
   {
-    "id": 2651,
+    "id": "Antarctica/McMurdo",
     "zoneName": "Antarctica/McMurdo",
     "gmtOffset": 43200,
     "gmtOffsetName": "UTC+12:00",
@@ -30675,7 +30675,7 @@
     "exemplarCity": "McMurdo"
   },
   {
-    "id": 2652,
+    "id": "Antarctica/Palmer",
     "zoneName": "Antarctica/Palmer",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -30750,7 +30750,7 @@
     "exemplarCity": "Palmer"
   },
   {
-    "id": 2653,
+    "id": "Antarctica/Rothera",
     "zoneName": "Antarctica/Rothera",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -30825,7 +30825,7 @@
     "exemplarCity": "Rothera"
   },
   {
-    "id": 2654,
+    "id": "Antarctica/Syowa",
     "zoneName": "Antarctica/Syowa",
     "gmtOffset": 10800,
     "gmtOffsetName": "UTC+03:00",
@@ -30900,7 +30900,7 @@
     "exemplarCity": "Syowa"
   },
   {
-    "id": 2655,
+    "id": "Antarctica/Troll",
     "zoneName": "Antarctica/Troll",
     "gmtOffset": 0,
     "gmtOffsetName": "UTC+00:00",
@@ -30975,7 +30975,7 @@
     "exemplarCity": "Troll"
   },
   {
-    "id": 2656,
+    "id": "Antarctica/Vostok",
     "zoneName": "Antarctica/Vostok",
     "gmtOffset": 18000,
     "gmtOffsetName": "UTC+05:00",
@@ -31050,7 +31050,7 @@
     "exemplarCity": "Vostok"
   },
   {
-    "id": 2657,
+    "id": "America/Ciudad_Juarez",
     "zoneName": "America/Ciudad_Juarez",
     "gmtOffset": -25200,
     "gmtOffsetName": "UTC-07:00",
@@ -31125,7 +31125,7 @@
     "exemplarCity": "Ciudad Juarez"
   },
   {
-    "id": 2658,
+    "id": "America/Coyhaique",
     "zoneName": "America/Coyhaique",
     "gmtOffset": -10800,
     "gmtOffsetName": "UTC-03:00",
@@ -31200,7 +31200,7 @@
     "exemplarCity": "Coyhaique"
   },
   {
-    "id": 2659,
+    "id": "America/Kralendijk",
     "zoneName": "America/Kralendijk",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",
@@ -31275,7 +31275,7 @@
     "exemplarCity": "Kralendijk"
   },
   {
-    "id": 2660,
+    "id": "America/Lower_Princes",
     "zoneName": "America/Lower_Princes",
     "gmtOffset": -14400,
     "gmtOffsetName": "UTC-04:00",

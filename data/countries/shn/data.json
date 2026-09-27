@@ -1,5 +1,5 @@
 {
-  "id": 184,
+  "id": "SH",
   "name": "Saint Helena",
   "nativeName": "Saint Helena",
   "iso2": "SH",
@@ -9,17 +9,17 @@
   "tld": ".sh",
   "latitude": -15.95,
   "longitude": -5.7,
-  "flagId": 52,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "sh",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    948
+    "SHP"
   ],
   "timezoneIds": [
-    2546
+    "Atlantic/St_Helena"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -88,5 +88,26 @@
       "name": "Święta Helena"
     }
   ],
-  "states": []
+  "states": [
+    {
+      "id": "SH-AC",
+      "name": "Ascension Island",
+      "stateCode": "AC",
+      "latitude": -7.9467166,
+      "longitude": -14.3559158,
+      "type": "unitary authority",
+      "translations": [],
+      "cities": []
+    },
+    {
+      "id": "SH-HL",
+      "name": "Saint Helena",
+      "stateCode": "HL",
+      "latitude": -15.9650104,
+      "longitude": -5.7089241,
+      "type": "unitary authority",
+      "translations": [],
+      "cities": []
+    }
+  ]
 }

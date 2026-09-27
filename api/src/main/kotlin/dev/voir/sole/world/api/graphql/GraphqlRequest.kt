@@ -94,35 +94,48 @@ object GraphqlRequest {
     }
 
     /**
-     * Parses a single GraphQL id.
+     * Reads an optional id filter.
      *
-     * Every identifier in this API is the same width, so there is one of these rather than one per
-     * resource; see "Identifiers" in the OpenAPI contract.
+     * Identifiers are strings matched regardless of case, which the stores take care of, so there
+     * is nothing to parse; see "Identifiers" in the OpenAPI contract.
+     *
+     * @param id Raw id value, or null when the caller supplied no filter.
+     * @return Identifier, or null when the caller supplied no meaningful filter.
+     */
+    fun optionalId(id: String?): String? = id?.trim()?.ifBlank { null }
+
+    /**
+     * Bounds a list of ids.
+     * @param ids Raw id values supplied by the caller.
+     * @param argumentName Argument name used in validation messages.
+     * @return The same identifiers.
+     * @throws IllegalArgumentException When there are more ids than one query may load.
+     */
+    fun ids(ids: List<String>, argumentName: String): List<String> = limitedIds(ids, argumentName)
+
+    /**
+     * Parses a city id.
+     *
+     * Cities are the one resource identified by a number: they have no public code, and their
+     * numbers are kept rather than replaced by names that change when a city is renamed.
      *
      * @param id Raw id value supplied by the caller.
      * @param argumentName Argument name used in validation messages.
      * @return Parsed identifier.
+     * @throws IllegalArgumentException When the value is not a number.
      */
-    fun longId(id: String, argumentName: String): Long =
-        id.toLongOrNull() ?: throw IllegalArgumentException("$argumentName must be a numeric ID")
+    fun cityId(id: String, argumentName: String): Long =
+        id.trim().toLongOrNull() ?: throw IllegalArgumentException("$argumentName must be a numeric city ID")
 
     /**
-     * Parses an optional GraphQL id filter.
-     * @param id Raw id value, or null when the caller supplied no filter.
-     * @param argumentName Argument name used in validation messages.
-     * @return Parsed identifier, or null when there was no filter.
-     */
-    fun optionalLongId(id: String?, argumentName: String): Long? =
-        id?.trim()?.ifBlank { null }?.let { longId(it, argumentName) }
-
-    /**
-     * Parses a bounded list of GraphQL ids.
+     * Parses a bounded list of city ids.
      * @param ids Raw id values supplied by the caller.
      * @param argumentName Argument name used in validation messages.
      * @return Parsed identifiers.
+     * @throws IllegalArgumentException When there are too many ids, or one is not a number.
      */
-    fun longIds(ids: List<String>, argumentName: String): List<Long> =
-        limitedIds(ids, argumentName).map { longId(it, argumentName) }
+    fun cityIds(ids: List<String>, argumentName: String): List<Long> =
+        limitedIds(ids, argumentName).map { cityId(it, argumentName) }
 
     private fun limitedIds(ids: List<String>, argumentName: String): List<String> {
         require(ids.size <= MAX_IDS_PER_QUERY) {

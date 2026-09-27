@@ -1,5 +1,5 @@
 {
-  "id": 235,
+  "id": "UY",
   "name": "Uruguay",
   "nativeName": "Uruguay",
   "iso2": "UY",
@@ -9,17 +9,17 @@
   "tld": ".uy",
   "latitude": -33,
   "longitude": -56,
-  "flagId": 17,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "uy",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    980
+    "UYU"
   ],
   "timezoneIds": [
-    2633
+    "America/Montevideo"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3203,
+      "id": "UY-FS",
       "name": "Flores",
       "stateCode": "FS",
       "latitude": -33.5733753,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 3204,
+      "id": "UY-SJ",
       "name": "San José",
       "stateCode": "SJ",
       "latitude": 37.3492968,
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": 3205,
+      "id": "UY-AR",
       "name": "Artigas",
       "stateCode": "AR",
       "latitude": -30.6175112,
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "id": 3206,
+      "id": "UY-MA",
       "name": "Maldonado",
       "stateCode": "MA",
       "latitude": -34.5597932,
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "id": 3207,
+      "id": "UY-RV",
       "name": "Rivera",
       "stateCode": "RV",
       "latitude": -31.4817421,
@@ -306,7 +306,7 @@
       ]
     },
     {
-      "id": 3208,
+      "id": "UY-CO",
       "name": "Colonia",
       "stateCode": "CO",
       "latitude": -34.1294678,
@@ -380,7 +380,7 @@
       ]
     },
     {
-      "id": 3209,
+      "id": "UY-DU",
       "name": "Durazno",
       "stateCode": "DU",
       "latitude": -33.0232454,
@@ -440,7 +440,7 @@
       ]
     },
     {
-      "id": 3210,
+      "id": "UY-RN",
       "name": "Río Negro",
       "stateCode": "RN",
       "latitude": -32.7676356,
@@ -479,7 +479,7 @@
       ]
     },
     {
-      "id": 3211,
+      "id": "UY-CL",
       "name": "Cerro Largo",
       "stateCode": "CL",
       "latitude": -32.4411032,
@@ -525,7 +525,7 @@
       ]
     },
     {
-      "id": 3212,
+      "id": "UY-PA",
       "name": "Paysandú",
       "stateCode": "PA",
       "latitude": -32.0667366,
@@ -578,7 +578,7 @@
       ]
     },
     {
-      "id": 3213,
+      "id": "UY-CA",
       "name": "Canelones",
       "stateCode": "CA",
       "latitude": -34.5408717,
@@ -792,7 +792,7 @@
       ]
     },
     {
-      "id": 3214,
+      "id": "UY-TT",
       "name": "Treinta y Tres",
       "stateCode": "TT",
       "latitude": -33.0685086,
@@ -831,7 +831,7 @@
       ]
     },
     {
-      "id": 3215,
+      "id": "UY-LA",
       "name": "Lavalleja",
       "stateCode": "LA",
       "latitude": -33.9226175,
@@ -877,7 +877,7 @@
       ]
     },
     {
-      "id": 3216,
+      "id": "UY-RO",
       "name": "Rocha",
       "stateCode": "RO",
       "latitude": -33.9690081,
@@ -944,7 +944,7 @@
       ]
     },
     {
-      "id": 3217,
+      "id": "UY-FD",
       "name": "Florida",
       "stateCode": "FD",
       "latitude": 28.0359495,
@@ -1004,7 +1004,7 @@
       ]
     },
     {
-      "id": 3218,
+      "id": "UY-MO",
       "name": "Montevideo",
       "stateCode": "MO",
       "latitude": -34.8181587,
@@ -1484,7 +1484,7 @@
       ]
     },
     {
-      "id": 3219,
+      "id": "UY-SO",
       "name": "Soriano",
       "stateCode": "SO",
       "latitude": -33.5102792,
@@ -1544,7 +1544,7 @@
       ]
     },
     {
-      "id": 3220,
+      "id": "UY-SA",
       "name": "Salto",
       "stateCode": "SA",
       "latitude": -31.388028,
@@ -1576,7 +1576,7 @@
       ]
     },
     {
-      "id": 3221,
+      "id": "UY-TA",
       "name": "Tacuarembó",
       "stateCode": "TA",
       "latitude": -31.7206837,

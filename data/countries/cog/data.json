@@ -1,5 +1,5 @@
 {
-  "id": 50,
+  "id": "CG",
   "name": "Congo",
   "nativeName": "République du Congo",
   "iso2": "CG",
@@ -9,17 +9,17 @@
   "tld": ".cg",
   "latitude": -1,
   "longitude": 15,
-  "flagId": 207,
-  "regionId": 1,
-  "subregionId": 2,
+  "flagId": "cg",
+  "regionId": "africa",
+  "subregionId": "middle-africa",
   "currencyIds": [
-    862
+    "XAF"
   ],
   "timezoneIds": [
-    2348
+    "Africa/Brazzaville"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2862,
+      "id": "CG-14",
       "name": "Plateaux",
       "stateCode": "14",
       "latitude": -2.0680088,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 2863,
+      "id": "CG-16",
       "name": "Pointe-Noire",
       "stateCode": "16",
       "latitude": -4.7691623,
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "id": 2864,
+      "id": "CG-8",
       "name": "Cuvette",
       "stateCode": "8",
       "latitude": -0.2877446,
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "id": 2865,
+      "id": "CG-7",
       "name": "Likouala",
       "stateCode": "7",
       "latitude": 2.043924,
@@ -183,7 +183,7 @@
       ]
     },
     {
-      "id": 2866,
+      "id": "CG-11",
       "name": "Bouenza",
       "stateCode": "11",
       "latitude": -4.1128079,
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "id": 2867,
+      "id": "CG-5",
       "name": "Kouilou",
       "stateCode": "5",
       "latitude": -4.1428413,
@@ -218,7 +218,7 @@
       "cities": []
     },
     {
-      "id": 2868,
+      "id": "CG-2",
       "name": "Lékoumou",
       "stateCode": "2",
       "latitude": -3.170382,
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "id": 2869,
+      "id": "CG-15",
       "name": "Cuvette-Ouest",
       "stateCode": "15",
       "latitude": 0.144755,
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "id": 2870,
+      "id": "CG-BZV",
       "name": "Brazzaville",
       "stateCode": "BZV",
       "latitude": -4.2633597,
@@ -272,7 +272,7 @@
       ]
     },
     {
-      "id": 2871,
+      "id": "CG-13",
       "name": "Sangha",
       "stateCode": "13",
       "latitude": 1.4662328,
@@ -297,7 +297,7 @@
       ]
     },
     {
-      "id": 2872,
+      "id": "CG-9",
       "name": "Niari",
       "stateCode": "9",
       "latitude": -3.18427,
@@ -322,7 +322,7 @@
       ]
     },
     {
-      "id": 2873,
+      "id": "CG-12",
       "name": "Pool",
       "stateCode": "12",
       "latitude": -3.7762628,

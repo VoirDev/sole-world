@@ -45,10 +45,10 @@ class CryptoRestController(
         )
     }
 
-    override fun getCrypto(idOrCode: String, lang: String?, include: String?): ResponseEntity<Crypto> {
+    override fun getCrypto(id: String, lang: String?, include: String?): ResponseEntity<Crypto> {
         val includes = IncludeSpec.parse(include, CryptoRestAssembler.ALLOWED_INCLUDES)
-        val crypto = cryptoStore.resolve(idOrCode)
-            ?: throw ResourceNotFoundException.of("Cryptocurrency", idOrCode)
+        val crypto = cryptoStore.resolve(id)
+            ?: throw ResourceNotFoundException.of("Cryptocurrency", id)
 
         return cache.ok(cryptos.assemble(crypto, includes), request)
     }

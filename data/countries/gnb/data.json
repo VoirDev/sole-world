@@ -1,5 +1,5 @@
 {
-  "id": 93,
+  "id": "GW",
   "name": "Guinea-Bissau",
   "nativeName": "Guiné-Bissau",
   "iso2": "GW",
@@ -9,17 +9,17 @@
   "tld": ".gw",
   "latitude": 12,
   "longitude": -15,
-  "flagId": 156,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "gw",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    851
+    "XOF"
   ],
   "timezoneIds": [
-    2400
+    "Africa/Bissau"
   ],
   "officialLanguageIds": [
-    45
+    "pt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2712,
+      "id": "GW-TO",
       "name": "Tombali",
       "stateCode": "TO",
       "latitude": 11.3632696,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 2713,
+      "id": "GW-CA",
       "name": "Cacheu",
       "stateCode": "CA",
       "latitude": 12.0551416,
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "id": 2714,
+      "id": "GW-BM",
       "name": "Biombo",
       "stateCode": "BM",
       "latitude": 11.8529061,
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "id": 2715,
+      "id": "GW-QU",
       "name": "Quinara",
       "stateCode": "QU",
       "latitude": 11.795562,
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "id": 2716,
+      "id": "GW-S",
       "name": "Sul",
       "stateCode": "S",
       "latitude": -10.2866578,
@@ -186,7 +186,7 @@
       "cities": []
     },
     {
-      "id": 2717,
+      "id": "GW-N",
       "name": "Norte",
       "stateCode": "N",
       "latitude": 7.8721811,
@@ -196,7 +196,7 @@
       "cities": []
     },
     {
-      "id": 2718,
+      "id": "GW-OI",
       "name": "Oio",
       "stateCode": "OI",
       "latitude": 12.2760709,
@@ -228,7 +228,7 @@
       ]
     },
     {
-      "id": 2719,
+      "id": "GW-GA",
       "name": "Gabú",
       "stateCode": "GA",
       "latitude": 11.8962488,
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "id": 2720,
+      "id": "GW-BA",
       "name": "Bafatá",
       "stateCode": "BA",
       "latitude": 12.1735243,
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "id": 2721,
+      "id": "GW-L",
       "name": "Leste",
       "stateCode": "L",
       "latitude": null,
@@ -281,7 +281,7 @@
       "cities": []
     },
     {
-      "id": 2722,
+      "id": "GW-BL",
       "name": "Bolama",
       "stateCode": "BL",
       "latitude": 11.1480591,

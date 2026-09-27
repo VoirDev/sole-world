@@ -1,5 +1,7 @@
 package dev.voir.sole.world.api.dataset
 
+import dev.voir.sole.world.api.dataset.index.IdKey
+
 /**
  * Checks that the bundled dataset refers only to records it actually contains.
  *
@@ -225,14 +227,27 @@ object DatasetIntegrity {
 
         /**
          * Records the ids of a collection, reporting any that appear more than once.
-         * @return Every id in the collection, whether or not duplicates were found.
+         *
+         * Identifiers are looked up regardless of case, so two that differ only in case are the
+         * same identifier: only one of them could ever be found. An identifier that is blank or
+         * padded with whitespace is reported too, because a lookup trims what it is given and
+         * would never match it.
+         *
+         * @return Every id in the collection as spelled, whether or not duplicates were found.
+         * References are checked against this spelling, which keeps the data using one.
          */
-        fun <T, ID> uniqueIds(collection: String, records: List<T>, id: (T) -> ID): Set<ID> {
+        fun <T, ID : Any> uniqueIds(collection: String, records: List<T>, id: (T) -> ID): Set<ID> {
             val seen = HashSet<ID>(records.size)
+            val keys = HashSet<Any>(records.size)
             for (record in records) {
-                if (!seen.add(id(record))) {
-                    add("duplicate $collection ids", "${id(record)}")
+                val value = id(record)
+                if (value is String && (value.isBlank() || value != value.trim())) {
+                    add("blank or padded $collection ids", "'$value'")
                 }
+                if (!keys.add(if (value is String) IdKey.of(value) else value)) {
+                    add("duplicate $collection ids, ignoring case", "$value")
+                }
+                seen += value
             }
 
             return seen
@@ -253,7 +268,7 @@ object DatasetIntegrity {
         }
 
         /** Records a reference to an image of the wrong aspect ratio. */
-        fun wrongShape(what: String, assetId: Long, actual: String, expected: String) {
+        fun wrongShape(what: String, assetId: String, actual: String, expected: String) {
             add("media assets of the wrong shape", "$what=$assetId is $actual, expected $expected")
         }
 
@@ -263,7 +278,7 @@ object DatasetIntegrity {
         }
 
         /** Records a flag whose picture belongs to a different territory than its emoji. */
-        fun wrongTerritory(flagId: Long, caption: String, expected: String, actual: String) {
+        fun wrongTerritory(flagId: String, caption: String, expected: String, actual: String) {
             add(
                 "flags showing another territory's picture",
                 "flag $flagId '$caption' expects '$expected' but shows '$actual'",
@@ -271,7 +286,7 @@ object DatasetIntegrity {
         }
 
         /** Records a flag whose two renditions are pictures of different things. */
-        fun differentPictures(flagId: Long, squareKey: String, wideKey: String) {
+        fun differentPictures(flagId: String, squareKey: String, wideKey: String) {
             add(
                 "flags whose square and wide images are different pictures",
                 "flag $flagId square='$squareKey' wide='$wideKey'",

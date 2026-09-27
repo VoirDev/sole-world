@@ -1,5 +1,5 @@
 {
-  "id": 47,
+  "id": "CC",
   "name": "Cocos (Keeling) Islands",
   "nativeName": "Cocos (Keeling) Islands",
   "iso2": "CC",
@@ -9,17 +9,17 @@
   "tld": ".cc",
   "latitude": -12.5,
   "longitude": 96.83333333,
-  "flagId": 210,
-  "regionId": 5,
-  "subregionId": 19,
+  "flagId": "cc",
+  "regionId": "oceania",
+  "subregionId": "australia-and-new-zealand",
   "currencyIds": [
-    844
+    "AUD"
   ],
   "timezoneIds": [
-    2345
+    "Indian/Cocos"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [

@@ -1,5 +1,5 @@
 {
-  "id": 177,
+  "id": "PT",
   "name": "Portugal",
   "nativeName": "Portugal",
   "iso2": "PT",
@@ -9,19 +9,19 @@
   "tld": ".pt",
   "latitude": 39.5,
   "longitude": -8,
-  "flagId": 67,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "pt",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2512,
-    2513,
-    2514
+    "Atlantic/Azores",
+    "Atlantic/Madeira",
+    "Europe/Lisbon"
   ],
   "officialLanguageIds": [
-    45
+    "pt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 2228,
+      "id": "PT-11",
       "name": "Lisbon",
       "stateCode": "11",
       "latitude": 38.7223263,
@@ -775,7 +775,7 @@
       ]
     },
     {
-      "id": 2229,
+      "id": "PT-04",
       "name": "Bragança",
       "stateCode": "04",
       "latitude": 41.8061652,
@@ -898,7 +898,7 @@
       ]
     },
     {
-      "id": 2230,
+      "id": "PT-02",
       "name": "Beja",
       "stateCode": "02",
       "latitude": 37.9687786,
@@ -1098,7 +1098,7 @@
       ]
     },
     {
-      "id": 2231,
+      "id": "PT-30",
       "name": "Madeira",
       "stateCode": "30",
       "latitude": 32.7607074,
@@ -1305,7 +1305,7 @@
       ]
     },
     {
-      "id": 2232,
+      "id": "PT-12",
       "name": "Portalegre",
       "stateCode": "12",
       "latitude": 39.2967086,
@@ -1449,7 +1449,7 @@
       ]
     },
     {
-      "id": 2233,
+      "id": "PT-20",
       "name": "Açores",
       "stateCode": "20",
       "latitude": 37.7412488,
@@ -1817,7 +1817,7 @@
       ]
     },
     {
-      "id": 2234,
+      "id": "PT-17",
       "name": "Vila Real",
       "stateCode": "17",
       "latitude": 41.3003527,
@@ -1961,7 +1961,7 @@
       ]
     },
     {
-      "id": 2235,
+      "id": "PT-01",
       "name": "Aveiro",
       "stateCode": "01",
       "latitude": 40.7209023,
@@ -2406,7 +2406,7 @@
       ]
     },
     {
-      "id": 2236,
+      "id": "PT-07",
       "name": "Évora",
       "stateCode": "07",
       "latitude": 38.5744468,
@@ -2515,7 +2515,7 @@
       ]
     },
     {
-      "id": 2237,
+      "id": "PT-18",
       "name": "Viseu",
       "stateCode": "18",
       "latitude": 40.6588424,
@@ -2757,7 +2757,7 @@
       ]
     },
     {
-      "id": 2238,
+      "id": "PT-14",
       "name": "Santarém",
       "stateCode": "14",
       "latitude": 39.2366687,
@@ -3118,7 +3118,7 @@
       ]
     },
     {
-      "id": 2239,
+      "id": "PT-08",
       "name": "Faro",
       "stateCode": "08",
       "latitude": 37.0193548,
@@ -3514,7 +3514,7 @@
       ]
     },
     {
-      "id": 2240,
+      "id": "PT-10",
       "name": "Leiria",
       "stateCode": "10",
       "latitude": 39.7709532,
@@ -3840,7 +3840,7 @@
       ]
     },
     {
-      "id": 2241,
+      "id": "PT-05",
       "name": "Castelo Branco",
       "stateCode": "05",
       "latitude": 39.8631323,
@@ -3942,7 +3942,7 @@
       ]
     },
     {
-      "id": 2242,
+      "id": "PT-15",
       "name": "Setúbal",
       "stateCode": "15",
       "latitude": 38.5240933,
@@ -4233,7 +4233,7 @@
       ]
     },
     {
-      "id": 2243,
+      "id": "PT-13",
       "name": "Porto",
       "stateCode": "13",
       "latitude": 41.1476629,
@@ -4993,7 +4993,7 @@
       ]
     },
     {
-      "id": 2244,
+      "id": "PT-03",
       "name": "Braga",
       "stateCode": "03",
       "latitude": 41.550388,
@@ -5501,7 +5501,7 @@
       ]
     },
     {
-      "id": 2245,
+      "id": "PT-16",
       "name": "Viana do Castelo",
       "stateCode": "16",
       "latitude": 41.6918046,
@@ -5575,7 +5575,7 @@
       ]
     },
     {
-      "id": 2246,
+      "id": "PT-06",
       "name": "Coimbra",
       "stateCode": "06",
       "latitude": 40.2057994,
@@ -5824,7 +5824,7 @@
       ]
     },
     {
-      "id": 4859,
+      "id": "PT-09",
       "name": "Guarda",
       "stateCode": "09",
       "latitude": 40.5385972,

@@ -2,7 +2,7 @@ package dev.voir.sole.world.api.model
 
 /**
  * API model returned for media asset records.
- * @property id Primary key for the record.
+ * @property id Media asset alias: owner kind, key and shape, such as `flag-us-square`.
  * @property type Top-level media asset category.
  * @property key Stable machine key for the asset. Callers that need to recognise an asset match on
  * this; [description] is prose for people.
@@ -11,7 +11,7 @@ package dev.voir.sole.world.api.model
  * @property description Human-readable media asset description.
  */
 data class MediaAssetData(
-    val id: Long,
+    val id: String,
     val type: MediaAssetTypeData,
     val key: String,
     val imageAspectRatio: MediaAssetImageAspectRatioData?,

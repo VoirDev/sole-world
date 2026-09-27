@@ -1,5 +1,5 @@
 {
-  "id": 68,
+  "id": "ER",
   "name": "Eritrea",
   "nativeName": "ኤርትራ",
   "iso2": "ER",
@@ -9,19 +9,19 @@
   "tld": ".er",
   "latitude": 15,
   "longitude": 39,
-  "flagId": 184,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "er",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    880
+    "ERN"
   ],
   "timezoneIds": [
-    2369
+    "Africa/Asmara"
   ],
   "officialLanguageIds": [
-    164,
-    7,
-    30
+    "ti",
+    "ar",
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 3424,
+      "id": "ER-SK",
       "name": "Northern Red Sea",
       "stateCode": "SK",
       "latitude": 16.2583997,
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": 3425,
+      "id": "ER-AN",
       "name": "Anseba",
       "stateCode": "AN",
       "latitude": 16.4745531,
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "id": 3426,
+      "id": "ER-MA",
       "name": "Maekel",
       "stateCode": "MA",
       "latitude": 15.3551409,
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "id": 3427,
+      "id": "ER-DU",
       "name": "Debub",
       "stateCode": "DU",
       "latitude": 14.9478692,
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "id": 3428,
+      "id": "ER-GB",
       "name": "Gash-Barka",
       "stateCode": "GB",
       "latitude": 15.4068825,
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "id": 3429,
+      "id": "ER-DK",
       "name": "Southern Red Sea",
       "stateCode": "DK",
       "latitude": 13.5137103,

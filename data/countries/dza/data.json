@@ -1,5 +1,5 @@
 {
-  "id": 4,
+  "id": "DZ",
   "name": "Algeria",
   "nativeName": "الجزائر",
   "iso2": "DZ",
@@ -9,17 +9,17 @@
   "tld": ".dz",
   "latitude": 28,
   "longitude": 3,
-  "flagId": 189,
-  "regionId": 1,
-  "subregionId": 1,
+  "flagId": "dz",
+  "regionId": "africa",
+  "subregionId": "northern-africa",
   "currencyIds": [
-    837
+    "DZD"
   ],
   "timezoneIds": [
-    2237
+    "Africa/Algiers"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1098,
+      "id": "DZ-17",
       "name": "Djelfa",
       "stateCode": "17",
       "latitude": 34.6703956,
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "id": 1099,
+      "id": "DZ-39",
       "name": "El Oued",
       "stateCode": "39",
       "latitude": 33.367811,
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "id": 1100,
+      "id": "DZ-36",
       "name": "El Tarf",
       "stateCode": "36",
       "latitude": 36.7576678,
@@ -235,7 +235,7 @@
       ]
     },
     {
-      "id": 1101,
+      "id": "DZ-31",
       "name": "Oran",
       "stateCode": "31",
       "latitude": 35.6082351,
@@ -302,7 +302,7 @@
       ]
     },
     {
-      "id": 1102,
+      "id": "DZ-45",
       "name": "Naama",
       "stateCode": "45",
       "latitude": 33.2667317,
@@ -327,7 +327,7 @@
       ]
     },
     {
-      "id": 1103,
+      "id": "DZ-23",
       "name": "Annaba",
       "stateCode": "23",
       "latitude": 36.8020508,
@@ -366,7 +366,7 @@
       ]
     },
     {
-      "id": 1104,
+      "id": "DZ-10",
       "name": "Bouïra",
       "stateCode": "10",
       "latitude": 36.3691846,
@@ -419,7 +419,7 @@
       ]
     },
     {
-      "id": 1105,
+      "id": "DZ-02",
       "name": "Chlef",
       "stateCode": "02",
       "latitude": 36.1693515,
@@ -479,7 +479,7 @@
       ]
     },
     {
-      "id": 1106,
+      "id": "DZ-14",
       "name": "Tiaret",
       "stateCode": "14",
       "latitude": 35.3708689,
@@ -539,7 +539,7 @@
       ]
     },
     {
-      "id": 1107,
+      "id": "DZ-13",
       "name": "Tlemcen",
       "stateCode": "13",
       "latitude": 34.6780284,
@@ -634,7 +634,7 @@
       ]
     },
     {
-      "id": 1108,
+      "id": "DZ-08",
       "name": "Béchar",
       "stateCode": "08",
       "latitude": 31.6238098,
@@ -652,7 +652,7 @@
       ]
     },
     {
-      "id": 1109,
+      "id": "DZ-26",
       "name": "Médéa",
       "stateCode": "26",
       "latitude": 36.2637078,
@@ -691,7 +691,7 @@
       ]
     },
     {
-      "id": 1110,
+      "id": "DZ-21",
       "name": "Skikda",
       "stateCode": "21",
       "latitude": 36.6721198,
@@ -730,7 +730,7 @@
       ]
     },
     {
-      "id": 1111,
+      "id": "DZ-09",
       "name": "Blida",
       "stateCode": "09",
       "latitude": 36.531123,
@@ -825,7 +825,7 @@
       ]
     },
     {
-      "id": 1112,
+      "id": "DZ-33",
       "name": "Illizi",
       "stateCode": "33",
       "latitude": 26.1690005,
@@ -843,7 +843,7 @@
       ]
     },
     {
-      "id": 1113,
+      "id": "DZ-18",
       "name": "Jijel",
       "stateCode": "18",
       "latitude": 36.7179681,
@@ -861,7 +861,7 @@
       ]
     },
     {
-      "id": 1114,
+      "id": "DZ-07",
       "name": "Biskra",
       "stateCode": "07",
       "latitude": 34.8449437,
@@ -914,7 +914,7 @@
       ]
     },
     {
-      "id": 1115,
+      "id": "DZ-42",
       "name": "Tipasa",
       "stateCode": "42",
       "latitude": 36.546265,
@@ -1016,7 +1016,7 @@
       ]
     },
     {
-      "id": 1116,
+      "id": "DZ-34",
       "name": "Bordj Bou Arréridj",
       "stateCode": "34",
       "latitude": 36.0739925,
@@ -1076,7 +1076,7 @@
       ]
     },
     {
-      "id": 1117,
+      "id": "DZ-12",
       "name": "Tébessa",
       "stateCode": "12",
       "latitude": 35.1290691,
@@ -1115,7 +1115,7 @@
       ]
     },
     {
-      "id": 1118,
+      "id": "DZ-01",
       "name": "Adrar",
       "stateCode": "01",
       "latitude": 26.418131,
@@ -1154,7 +1154,7 @@
       ]
     },
     {
-      "id": 1119,
+      "id": "DZ-44",
       "name": "Aïn Defla",
       "stateCode": "44",
       "latitude": 36.2509429,
@@ -1200,7 +1200,7 @@
       ]
     },
     {
-      "id": 1120,
+      "id": "DZ-37",
       "name": "Tindouf",
       "stateCode": "37",
       "latitude": 27.8063119,
@@ -1218,7 +1218,7 @@
       ]
     },
     {
-      "id": 1121,
+      "id": "DZ-25",
       "name": "Constantine",
       "stateCode": "25",
       "latitude": 36.3373911,
@@ -1271,7 +1271,7 @@
       ]
     },
     {
-      "id": 1122,
+      "id": "DZ-46",
       "name": "Aïn Témouchent",
       "stateCode": "46",
       "latitude": 35.2992698,
@@ -1317,7 +1317,7 @@
       ]
     },
     {
-      "id": 1123,
+      "id": "DZ-20",
       "name": "Saïda",
       "stateCode": "20",
       "latitude": 34.8415207,
@@ -1342,7 +1342,7 @@
       ]
     },
     {
-      "id": 1124,
+      "id": "DZ-29",
       "name": "Mascara",
       "stateCode": "29",
       "latitude": 35.3904125,
@@ -1381,7 +1381,7 @@
       ]
     },
     {
-      "id": 1125,
+      "id": "DZ-35",
       "name": "Boumerdès",
       "stateCode": "35",
       "latitude": 36.6839559,
@@ -1490,7 +1490,7 @@
       ]
     },
     {
-      "id": 1126,
+      "id": "DZ-40",
       "name": "Khenchela",
       "stateCode": "40",
       "latitude": 35.4269404,
@@ -1508,7 +1508,7 @@
       ]
     },
     {
-      "id": 1127,
+      "id": "DZ-47",
       "name": "Ghardaïa",
       "stateCode": "47",
       "latitude": 32.4943741,
@@ -1540,7 +1540,7 @@
       ]
     },
     {
-      "id": 1128,
+      "id": "DZ-06",
       "name": "Béjaïa",
       "stateCode": "06",
       "latitude": 36.7515258,
@@ -1607,7 +1607,7 @@
       ]
     },
     {
-      "id": 1129,
+      "id": "DZ-32",
       "name": "El Bayadh",
       "stateCode": "32",
       "latitude": 32.7148824,
@@ -1639,7 +1639,7 @@
       ]
     },
     {
-      "id": 1130,
+      "id": "DZ-48",
       "name": "Relizane",
       "stateCode": "48",
       "latitude": 35.7383405,
@@ -1706,7 +1706,7 @@
       ]
     },
     {
-      "id": 1131,
+      "id": "DZ-15",
       "name": "Tizi Ouzou",
       "stateCode": "15",
       "latitude": 36.706911,
@@ -1836,7 +1836,7 @@
       ]
     },
     {
-      "id": 1132,
+      "id": "DZ-43",
       "name": "Mila",
       "stateCode": "43",
       "latitude": 36.3647957,
@@ -1882,7 +1882,7 @@
       ]
     },
     {
-      "id": 1133,
+      "id": "DZ-38",
       "name": "Tissemsilt",
       "stateCode": "38",
       "latitude": 35.6053781,
@@ -1907,7 +1907,7 @@
       ]
     },
     {
-      "id": 1134,
+      "id": "DZ-28",
       "name": "M'Sila",
       "stateCode": "28",
       "latitude": 35.7186646,
@@ -1946,7 +1946,7 @@
       ]
     },
     {
-      "id": 1135,
+      "id": "DZ-11",
       "name": "Tamanghasset",
       "stateCode": "11",
       "latitude": 22.7902972,
@@ -1971,7 +1971,7 @@
       ]
     },
     {
-      "id": 1136,
+      "id": "DZ-04",
       "name": "Oum El Bouaghi",
       "stateCode": "04",
       "latitude": 35.8688789,
@@ -2024,7 +2024,7 @@
       ]
     },
     {
-      "id": 1137,
+      "id": "DZ-24",
       "name": "Guelma",
       "stateCode": "24",
       "latitude": 36.4627444,
@@ -2056,7 +2056,7 @@
       ]
     },
     {
-      "id": 1138,
+      "id": "DZ-03",
       "name": "Laghouat",
       "stateCode": "03",
       "latitude": 33.8078341,
@@ -2081,7 +2081,7 @@
       ]
     },
     {
-      "id": 1139,
+      "id": "DZ-30",
       "name": "Ouargla",
       "stateCode": "30",
       "latitude": 32.2264863,
@@ -2155,7 +2155,7 @@
       ]
     },
     {
-      "id": 1140,
+      "id": "DZ-27",
       "name": "Mostaganem",
       "stateCode": "27",
       "latitude": 35.9583054,
@@ -2173,7 +2173,7 @@
       ]
     },
     {
-      "id": 1141,
+      "id": "DZ-19",
       "name": "Sétif",
       "stateCode": "19",
       "latitude": 36.3073389,
@@ -2226,7 +2226,7 @@
       ]
     },
     {
-      "id": 1142,
+      "id": "DZ-05",
       "name": "Batna",
       "stateCode": "05",
       "latitude": 35.5965954,
@@ -2293,7 +2293,7 @@
       ]
     },
     {
-      "id": 1143,
+      "id": "DZ-41",
       "name": "Souk Ahras",
       "stateCode": "41",
       "latitude": 36.2801062,
@@ -2318,7 +2318,7 @@
       ]
     },
     {
-      "id": 1144,
+      "id": "DZ-16",
       "name": "Algiers",
       "stateCode": "16",
       "latitude": 36.6997294,
@@ -2378,7 +2378,7 @@
       ]
     },
     {
-      "id": 4902,
+      "id": "DZ-22",
       "name": "Sidi Bel Abbès",
       "stateCode": "22",
       "latitude": 34.6806024,
@@ -2669,7 +2669,7 @@
       ]
     },
     {
-      "id": 4905,
+      "id": "DZ-49",
       "name": "El M'ghair",
       "stateCode": "49",
       "latitude": 33.9540561,
@@ -2679,7 +2679,7 @@
       "cities": []
     },
     {
-      "id": 4906,
+      "id": "DZ-50",
       "name": "El Menia",
       "stateCode": "50",
       "latitude": 31.364225,
@@ -2689,7 +2689,7 @@
       "cities": []
     },
     {
-      "id": 4907,
+      "id": "DZ-51",
       "name": "Ouled Djellal",
       "stateCode": "51",
       "latitude": 34.4178221,
@@ -2699,7 +2699,7 @@
       "cities": []
     },
     {
-      "id": 4908,
+      "id": "DZ-52",
       "name": "Bordj Baji Mokhtar",
       "stateCode": "52",
       "latitude": 22.966335,
@@ -2709,7 +2709,7 @@
       "cities": []
     },
     {
-      "id": 4909,
+      "id": "DZ-53",
       "name": "Béni Abbès",
       "stateCode": "53",
       "latitude": 30.0831042,
@@ -2719,7 +2719,7 @@
       "cities": []
     },
     {
-      "id": 4910,
+      "id": "DZ-54",
       "name": "Timimoun",
       "stateCode": "54",
       "latitude": 29.678906,
@@ -2729,7 +2729,7 @@
       "cities": []
     },
     {
-      "id": 4911,
+      "id": "DZ-55",
       "name": "Touggourt",
       "stateCode": "55",
       "latitude": 33.1248476,
@@ -2739,7 +2739,7 @@
       "cities": []
     },
     {
-      "id": 4912,
+      "id": "DZ-56",
       "name": "Djanet",
       "stateCode": "56",
       "latitude": 23.8310872,
@@ -2749,7 +2749,7 @@
       "cities": []
     },
     {
-      "id": 4913,
+      "id": "DZ-57",
       "name": "In Salah",
       "stateCode": "57",
       "latitude": 27.2149229,
@@ -2759,7 +2759,7 @@
       "cities": []
     },
     {
-      "id": 4914,
+      "id": "DZ-58",
       "name": "In Guezzam",
       "stateCode": "58",
       "latitude": 20.3864323,

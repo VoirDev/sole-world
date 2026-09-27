@@ -1,5 +1,5 @@
 {
-  "id": 139,
+  "id": "MR",
   "name": "Mauritania",
   "nativeName": "موريتانيا",
   "iso2": "MR",
@@ -9,17 +9,17 @@
   "tld": ".mr",
   "latitude": 20,
   "longitude": -12,
-  "flagId": 100,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "mr",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    921
+    "MRU"
   ],
   "timezoneIds": [
-    2456
+    "Africa/Nouakchott"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3338,
+      "id": "MR-01",
       "name": "Hodh Ech Chargui",
       "stateCode": "01",
       "latitude": 18.6737026,
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": 3339,
+      "id": "MR-05",
       "name": "Brakna",
       "stateCode": "05",
       "latitude": 17.2317561,
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": 3340,
+      "id": "MR-11",
       "name": "Tiris Zemmour",
       "stateCode": "11",
       "latitude": 24.5773764,
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "id": 3341,
+      "id": "MR-04",
       "name": "Gorgol",
       "stateCode": "04",
       "latitude": 15.9717357,
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "id": 3342,
+      "id": "MR-12",
       "name": "Inchiri",
       "stateCode": "12",
       "latitude": 20.0280561,
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "id": 3343,
+      "id": "MR-14",
       "name": "Nouakchott-Nord",
       "stateCode": "14",
       "latitude": 18.1130205,
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "id": 3344,
+      "id": "MR-07",
       "name": "Adrar",
       "stateCode": "07",
       "latitude": 19.8652176,
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "id": 3345,
+      "id": "MR-09",
       "name": "Tagant",
       "stateCode": "09",
       "latitude": 18.5467527,
@@ -353,7 +353,7 @@
       ]
     },
     {
-      "id": 3346,
+      "id": "MR-08",
       "name": "Dakhlet Nouadhibou",
       "stateCode": "08",
       "latitude": 20.5985588,
@@ -385,7 +385,7 @@
       ]
     },
     {
-      "id": 3347,
+      "id": "MR-15",
       "name": "Nouakchott-Sud",
       "stateCode": "15",
       "latitude": 17.9709288,
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "id": 3348,
+      "id": "MR-06",
       "name": "Trarza",
       "stateCode": "06",
       "latitude": 17.8664964,
@@ -442,7 +442,7 @@
       ]
     },
     {
-      "id": 3349,
+      "id": "MR-03",
       "name": "Assaba",
       "stateCode": "03",
       "latitude": 16.7759558,
@@ -467,7 +467,7 @@
       ]
     },
     {
-      "id": 3350,
+      "id": "MR-10",
       "name": "Guidimaka",
       "stateCode": "10",
       "latitude": 15.2557331,
@@ -485,7 +485,7 @@
       ]
     },
     {
-      "id": 3351,
+      "id": "MR-02",
       "name": "Hodh El Gharbi",
       "stateCode": "02",
       "latitude": 16.6912149,
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "id": 3352,
+      "id": "MR-13",
       "name": "Nouakchott-Ouest",
       "stateCode": "13",
       "latitude": 18.1511357,

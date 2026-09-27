@@ -1,5 +1,5 @@
 {
-  "id": 224,
+  "id": "TN",
   "name": "Tunisia",
   "nativeName": "تونس",
   "iso2": "TN",
@@ -9,17 +9,17 @@
   "tld": ".tn",
   "latitude": 34,
   "longitude": 9,
-  "flagId": 28,
-  "regionId": 1,
-  "subregionId": 1,
+  "flagId": "tn",
+  "regionId": "africa",
+  "subregionId": "northern-africa",
   "currencyIds": [
-    974
+    "TND"
   ],
   "timezoneIds": [
-    2590
+    "Africa/Tunis"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2550,
+      "id": "TN-12",
       "name": "Ariana",
       "stateCode": "12",
       "latitude": 36.9922751,
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "id": 2551,
+      "id": "TN-23",
       "name": "Bizerte",
       "stateCode": "23",
       "latitude": 37.1609397,
@@ -252,7 +252,7 @@
       ]
     },
     {
-      "id": 2552,
+      "id": "TN-32",
       "name": "Jendouba",
       "stateCode": "32",
       "latitude": 36.7181862,
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "id": 2553,
+      "id": "TN-52",
       "name": "Monastir",
       "stateCode": "52",
       "latitude": 35.7642515,
@@ -414,7 +414,7 @@
       ]
     },
     {
-      "id": 2554,
+      "id": "TN-11",
       "name": "Tunis",
       "stateCode": "11",
       "latitude": 36.8374946,
@@ -467,7 +467,7 @@
       ]
     },
     {
-      "id": 2555,
+      "id": "TN-14",
       "name": "Manouba",
       "stateCode": "14",
       "latitude": 36.8446504,
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": 2556,
+      "id": "TN-71",
       "name": "Gafsa",
       "stateCode": "71",
       "latitude": 34.3788505,
@@ -552,7 +552,7 @@
       ]
     },
     {
-      "id": 2557,
+      "id": "TN-61",
       "name": "Sfax",
       "stateCode": "61",
       "latitude": 34.8606581,
@@ -605,7 +605,7 @@
       ]
     },
     {
-      "id": 2558,
+      "id": "TN-81",
       "name": "Gabès",
       "stateCode": "81",
       "latitude": 33.9459648,
@@ -644,7 +644,7 @@
       ]
     },
     {
-      "id": 2559,
+      "id": "TN-83",
       "name": "Tataouine",
       "stateCode": "83",
       "latitude": 32.1344122,
@@ -669,7 +669,7 @@
       ]
     },
     {
-      "id": 2560,
+      "id": "TN-82",
       "name": "Medenine",
       "stateCode": "82",
       "latitude": 33.2280565,
@@ -736,7 +736,7 @@
       ]
     },
     {
-      "id": 2561,
+      "id": "TN-33",
       "name": "Kef",
       "stateCode": "33",
       "latitude": 36.1230512,
@@ -796,7 +796,7 @@
       ]
     },
     {
-      "id": 2562,
+      "id": "TN-73",
       "name": "Kebili",
       "stateCode": "73",
       "latitude": 33.7071551,
@@ -835,7 +835,7 @@
       ]
     },
     {
-      "id": 2563,
+      "id": "TN-34",
       "name": "Siliana",
       "stateCode": "34",
       "latitude": 36.0887208,
@@ -888,7 +888,7 @@
       ]
     },
     {
-      "id": 2564,
+      "id": "TN-41",
       "name": "Kairouan",
       "stateCode": "41",
       "latitude": 35.6711663,
@@ -920,7 +920,7 @@
       ]
     },
     {
-      "id": 2565,
+      "id": "TN-22",
       "name": "Zaghouan",
       "stateCode": "22",
       "latitude": 36.4091188,
@@ -945,7 +945,7 @@
       ]
     },
     {
-      "id": 2566,
+      "id": "TN-13",
       "name": "Ben Arous",
       "stateCode": "13",
       "latitude": 36.6435606,
@@ -991,7 +991,7 @@
       ]
     },
     {
-      "id": 2567,
+      "id": "TN-43",
       "name": "Sidi Bouzid",
       "stateCode": "43",
       "latitude": 35.0354386,
@@ -1037,7 +1037,7 @@
       ]
     },
     {
-      "id": 2568,
+      "id": "TN-53",
       "name": "Mahdia",
       "stateCode": "53",
       "latitude": 35.3352558,
@@ -1111,7 +1111,7 @@
       ]
     },
     {
-      "id": 2569,
+      "id": "TN-72",
       "name": "Tozeur",
       "stateCode": "72",
       "latitude": 33.9789491,
@@ -1157,7 +1157,7 @@
       ]
     },
     {
-      "id": 2570,
+      "id": "TN-42",
       "name": "Kasserine",
       "stateCode": "42",
       "latitude": 35.0809148,
@@ -1196,7 +1196,7 @@
       ]
     },
     {
-      "id": 2571,
+      "id": "TN-51",
       "name": "Sousse",
       "stateCode": "51",
       "latitude": 35.9022267,
@@ -1263,7 +1263,7 @@
       ]
     },
     {
-      "id": 2572,
+      "id": "TN-31",
       "name": "Béja",
       "stateCode": "31",
       "latitude": 35.1722716,
@@ -1337,7 +1337,7 @@
       ]
     },
     {
-      "id": 5116,
+      "id": "TN-21",
       "name": "Nabeul",
       "stateCode": "21",
       "latitude": 36.4524591,

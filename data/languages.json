@@ -1,10 +1,10 @@
 [
   {
-    "id": 2,
+    "id": "aa",
     "code": "aa",
     "nativeName": "Qafár af",
     "name": "Afar",
-    "flagId": 182,
+    "flagId": "et",
     "translations": [
       {
         "languageCode": "ko",
@@ -73,11 +73,11 @@
     ]
   },
   {
-    "id": 1,
+    "id": "ab",
     "code": "ab",
     "nativeName": "Аԥсшәа",
     "name": "Abkhazian",
-    "flagId": 170,
+    "flagId": "ge",
     "translations": [
       {
         "languageCode": "ko",
@@ -146,7 +146,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": "ae",
     "code": "ae",
     "nativeName": "Upastawakaēna",
     "name": "Avestan",
@@ -219,11 +219,11 @@
     ]
   },
   {
-    "id": 3,
+    "id": "af",
     "code": "af",
     "nativeName": "Afrikaans",
     "name": "Afrikaans",
-    "flagId": 3,
+    "flagId": "za",
     "translations": [
       {
         "languageCode": "ko",
@@ -292,11 +292,11 @@
     ]
   },
   {
-    "id": 4,
+    "id": "ak",
     "code": "ak",
     "nativeName": "Akan",
     "name": "Akan",
-    "flagId": 167,
+    "flagId": "gh",
     "translations": [
       {
         "languageCode": "ko",
@@ -365,11 +365,11 @@
     ]
   },
   {
-    "id": 6,
+    "id": "am",
     "code": "am",
     "nativeName": "አማርኛ",
     "name": "Amharic",
-    "flagId": 182,
+    "flagId": "et",
     "translations": [
       {
         "languageCode": "ko",
@@ -438,11 +438,11 @@
     ]
   },
   {
-    "id": 8,
+    "id": "an",
     "code": "an",
     "nativeName": "Aragonés",
     "name": "Aragonese",
-    "flagId": 183,
+    "flagId": "es",
     "translations": [
       {
         "languageCode": "ko",
@@ -511,11 +511,11 @@
     ]
   },
   {
-    "id": 7,
+    "id": "ar",
     "code": "ar",
     "nativeName": "العربية",
     "name": "Arabic",
-    "flagId": 58,
+    "flagId": "sa",
     "translations": [
       {
         "languageCode": "ko",
@@ -584,11 +584,11 @@
     ]
   },
   {
-    "id": 10,
+    "id": "as",
     "code": "as",
     "nativeName": "অসমীয়া",
     "name": "Assamese",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -657,11 +657,11 @@
     ]
   },
   {
-    "id": 11,
+    "id": "av",
     "code": "av",
     "nativeName": "Магӏарул мацӏ",
     "name": "Avaric",
-    "flagId": 60,
+    "flagId": "ru",
     "translations": [
       {
         "languageCode": "ko",
@@ -730,11 +730,11 @@
     ]
   },
   {
-    "id": 13,
+    "id": "ay",
     "code": "ay",
     "nativeName": "Aymar aru",
     "name": "Aymara",
-    "flagId": 220,
+    "flagId": "bo",
     "translations": [
       {
         "languageCode": "ko",
@@ -803,11 +803,11 @@
     ]
   },
   {
-    "id": 14,
+    "id": "az",
     "code": "az",
     "nativeName": "Azərbaycan dili",
     "name": "Azerbaijani",
-    "flagId": 232,
+    "flagId": "az",
     "translations": [
       {
         "languageCode": "ko",
@@ -876,11 +876,11 @@
     ]
   },
   {
-    "id": 16,
+    "id": "ba",
     "code": "ba",
     "nativeName": "Башҡорт теле",
     "name": "Bashkir",
-    "flagId": 60,
+    "flagId": "ru",
     "translations": [
       {
         "languageCode": "ko",
@@ -949,11 +949,11 @@
     ]
   },
   {
-    "id": 18,
+    "id": "be",
     "code": "be",
     "nativeName": "Беларуская мова",
     "name": "Belarusian",
-    "flagId": 214,
+    "flagId": "by",
     "translations": [
       {
         "languageCode": "ko",
@@ -1022,11 +1022,11 @@
     ]
   },
   {
-    "id": 23,
+    "id": "bg",
     "code": "bg",
     "nativeName": "Български",
     "name": "Bulgarian",
-    "flagId": 227,
+    "flagId": "bg",
     "translations": [
       {
         "languageCode": "ko",
@@ -1095,11 +1095,11 @@
     ]
   },
   {
-    "id": 20,
+    "id": "bi",
     "code": "bi",
     "nativeName": "Bislama",
     "name": "Bislama",
-    "flagId": 9,
+    "flagId": "vu",
     "translations": [
       {
         "languageCode": "ko",
@@ -1168,11 +1168,11 @@
     ]
   },
   {
-    "id": 15,
+    "id": "bm",
     "code": "bm",
     "nativeName": "Bamanankan",
     "name": "Bambara",
-    "flagId": 106,
+    "flagId": "ml",
     "translations": [
       {
         "languageCode": "ko",
@@ -1241,11 +1241,11 @@
     ]
   },
   {
-    "id": 19,
+    "id": "bn",
     "code": "bn",
     "nativeName": "বাংলা",
     "name": "Bengali",
-    "flagId": 230,
+    "flagId": "bd",
     "translations": [
       {
         "languageCode": "ko",
@@ -1314,11 +1314,11 @@
     ]
   },
   {
-    "id": 66,
+    "id": "bo",
     "code": "bo",
     "nativeName": "བོད་སྐད་",
     "name": "Tibetan",
-    "flagId": 202,
+    "flagId": "cn",
     "translations": [
       {
         "languageCode": "ko",
@@ -1387,11 +1387,11 @@
     ]
   },
   {
-    "id": 22,
+    "id": "br",
     "code": "br",
     "nativeName": "Brezhoneg",
     "name": "Breton",
-    "flagId": 175,
+    "flagId": "fr",
     "translations": [
       {
         "languageCode": "ko",
@@ -1460,11 +1460,11 @@
     ]
   },
   {
-    "id": 21,
+    "id": "bs",
     "code": "bs",
     "nativeName": "Bosanski",
     "name": "Bosnian",
-    "flagId": 235,
+    "flagId": "ba",
     "translations": [
       {
         "languageCode": "ko",
@@ -1533,11 +1533,11 @@
     ]
   },
   {
-    "id": 24,
+    "id": "ca",
     "code": "ca",
     "nativeName": "Català",
     "name": "Catalan",
-    "flagId": 183,
+    "flagId": "es",
     "translations": [
       {
         "languageCode": "ko",
@@ -1606,11 +1606,11 @@
     ]
   },
   {
-    "id": 67,
+    "id": "ce",
     "code": "ce",
     "nativeName": "Нохчийн",
     "name": "Chechen",
-    "flagId": 60,
+    "flagId": "ru",
     "translations": [
       {
         "languageCode": "ko",
@@ -1679,11 +1679,11 @@
     ]
   },
   {
-    "id": 68,
+    "id": "ch",
     "code": "ch",
     "nativeName": "Chamoru",
     "name": "Chamorro",
-    "flagId": 157,
+    "flagId": "gu",
     "translations": [
       {
         "languageCode": "ko",
@@ -1752,11 +1752,11 @@
     ]
   },
   {
-    "id": 69,
+    "id": "co",
     "code": "co",
     "nativeName": "Corsu",
     "name": "Corsican",
-    "flagId": 175,
+    "flagId": "fr",
     "translations": [
       {
         "languageCode": "ko",
@@ -1825,11 +1825,11 @@
     ]
   },
   {
-    "id": 70,
+    "id": "cr",
     "code": "cr",
     "nativeName": "ᓀᐦᐃᔭᐍᐏᐣ",
     "name": "Cree",
-    "flagId": 211,
+    "flagId": "ca",
     "translations": [
       {
         "languageCode": "ko",
@@ -1898,11 +1898,11 @@
     ]
   },
   {
-    "id": 27,
+    "id": "cs",
     "code": "cs",
     "nativeName": "Čeština",
     "name": "Czech",
-    "flagId": 195,
+    "flagId": "cz",
     "translations": [
       {
         "languageCode": "ko",
@@ -1971,7 +1971,7 @@
     ]
   },
   {
-    "id": 71,
+    "id": "cu",
     "code": "cu",
     "nativeName": "Славе́нскїй ѧ̑зы́къ",
     "name": "Church Slavic",
@@ -2044,11 +2044,11 @@
     ]
   },
   {
-    "id": 72,
+    "id": "cv",
     "code": "cv",
     "nativeName": "Чӑваш чӗлхи",
     "name": "Chuvash",
-    "flagId": 60,
+    "flagId": "ru",
     "translations": [
       {
         "languageCode": "ko",
@@ -2117,11 +2117,11 @@
     ]
   },
   {
-    "id": 73,
+    "id": "cy",
     "code": "cy",
     "nativeName": "Cymraeg",
     "name": "Welsh",
-    "flagId": 172,
+    "flagId": "gb",
     "translations": [
       {
         "languageCode": "ko",
@@ -2190,11 +2190,11 @@
     ]
   },
   {
-    "id": 28,
+    "id": "da",
     "code": "da",
     "nativeName": "Dansk",
     "name": "Danish",
-    "flagId": 192,
+    "flagId": "dk",
     "translations": [
       {
         "languageCode": "ko",
@@ -2263,11 +2263,11 @@
     ]
   },
   {
-    "id": 34,
+    "id": "de",
     "code": "de",
     "nativeName": "Deutsch",
     "name": "German",
-    "flagId": 194,
+    "flagId": "de",
     "translations": [
       {
         "languageCode": "ko",
@@ -2336,11 +2336,11 @@
     ]
   },
   {
-    "id": 74,
+    "id": "dv",
     "code": "dv",
     "nativeName": "ދިވެހި",
     "name": "Divehi",
-    "flagId": 96,
+    "flagId": "mv",
     "translations": [
       {
         "languageCode": "ko",
@@ -2409,11 +2409,11 @@
     ]
   },
   {
-    "id": 75,
+    "id": "dz",
     "code": "dz",
     "nativeName": "རྫོང་ཁ",
     "name": "Dzongkha",
-    "flagId": 216,
+    "flagId": "bt",
     "translations": [
       {
         "languageCode": "ko",
@@ -2482,11 +2482,11 @@
     ]
   },
   {
-    "id": 76,
+    "id": "ee",
     "code": "ee",
     "nativeName": "Eʋegbe",
     "name": "Ewe",
-    "flagId": 167,
+    "flagId": "gh",
     "translations": [
       {
         "languageCode": "ko",
@@ -2555,11 +2555,11 @@
     ]
   },
   {
-    "id": 35,
+    "id": "el",
     "code": "el",
     "nativeName": "Ελληνικά",
     "name": "Greek",
-    "flagId": 160,
+    "flagId": "gr",
     "translations": [
       {
         "languageCode": "ko",
@@ -2628,11 +2628,11 @@
     ]
   },
   {
-    "id": 30,
+    "id": "en",
     "code": "en",
     "nativeName": "English",
     "name": "English",
-    "flagId": 18,
+    "flagId": "us",
     "translations": [
       {
         "languageCode": "ko",
@@ -2701,7 +2701,7 @@
     ]
   },
   {
-    "id": 77,
+    "id": "eo",
     "code": "eo",
     "nativeName": "Esperanto",
     "name": "Esperanto",
@@ -2774,11 +2774,11 @@
     ]
   },
   {
-    "id": 47,
+    "id": "es",
     "code": "es",
     "nativeName": "Español",
     "name": "Spanish",
-    "flagId": 183,
+    "flagId": "es",
     "translations": [
       {
         "languageCode": "ko",
@@ -2847,11 +2847,11 @@
     ]
   },
   {
-    "id": 31,
+    "id": "et",
     "code": "et",
     "nativeName": "Eesti keel",
     "name": "Estonian",
-    "flagId": 187,
+    "flagId": "ee",
     "translations": [
       {
         "languageCode": "ko",
@@ -2920,11 +2920,11 @@
     ]
   },
   {
-    "id": 17,
+    "id": "eu",
     "code": "eu",
     "nativeName": "Euskara",
     "name": "Basque",
-    "flagId": 183,
+    "flagId": "es",
     "translations": [
       {
         "languageCode": "ko",
@@ -2993,11 +2993,11 @@
     ]
   },
   {
-    "id": 54,
+    "id": "fa",
     "code": "fa",
     "nativeName": "فارسی",
     "name": "Persian",
-    "flagId": 143,
+    "flagId": "ir",
     "translations": [
       {
         "languageCode": "ko",
@@ -3066,11 +3066,11 @@
     ]
   },
   {
-    "id": 78,
+    "id": "ff",
     "code": "ff",
     "nativeName": "Pulaar",
     "name": "Fulah",
-    "flagId": 46,
+    "flagId": "sn",
     "translations": [
       {
         "languageCode": "ko",
@@ -3139,11 +3139,11 @@
     ]
   },
   {
-    "id": 32,
+    "id": "fi",
     "code": "fi",
     "nativeName": "Suomi",
     "name": "Finnish",
-    "flagId": 180,
+    "flagId": "fi",
     "translations": [
       {
         "languageCode": "ko",
@@ -3212,11 +3212,11 @@
     ]
   },
   {
-    "id": 79,
+    "id": "fj",
     "code": "fj",
     "nativeName": "Na Vosa Vakaviti",
     "name": "Fijian",
-    "flagId": 179,
+    "flagId": "fj",
     "translations": [
       {
         "languageCode": "ko",
@@ -3285,11 +3285,11 @@
     ]
   },
   {
-    "id": 80,
+    "id": "fo",
     "code": "fo",
     "nativeName": "Føroyskt",
     "name": "Faroese",
-    "flagId": 176,
+    "flagId": "fo",
     "translations": [
       {
         "languageCode": "ko",
@@ -3358,11 +3358,11 @@
     ]
   },
   {
-    "id": 33,
+    "id": "fr",
     "code": "fr",
     "nativeName": "Français",
     "name": "French",
-    "flagId": 175,
+    "flagId": "fr",
     "translations": [
       {
         "languageCode": "ko",
@@ -3431,11 +3431,11 @@
     ]
   },
   {
-    "id": 81,
+    "id": "fy",
     "code": "fy",
     "nativeName": "Frysk",
     "name": "Western Frisian",
-    "flagId": 85,
+    "flagId": "nl",
     "translations": [
       {
         "languageCode": "ko",
@@ -3504,11 +3504,11 @@
     ]
   },
   {
-    "id": 82,
+    "id": "ga",
     "code": "ga",
     "nativeName": "Gaeilge",
     "name": "Irish",
-    "flagId": 148,
+    "flagId": "ie",
     "translations": [
       {
         "languageCode": "ko",
@@ -3577,11 +3577,11 @@
     ]
   },
   {
-    "id": 83,
+    "id": "gd",
     "code": "gd",
     "nativeName": "Gàidhlig",
     "name": "Scottish Gaelic",
-    "flagId": 172,
+    "flagId": "gb",
     "translations": [
       {
         "languageCode": "ko",
@@ -3650,11 +3650,11 @@
     ]
   },
   {
-    "id": 84,
+    "id": "gl",
     "code": "gl",
     "nativeName": "Galego",
     "name": "Galician",
-    "flagId": 183,
+    "flagId": "es",
     "translations": [
       {
         "languageCode": "ko",
@@ -3723,11 +3723,11 @@
     ]
   },
   {
-    "id": 85,
+    "id": "gn",
     "code": "gn",
     "nativeName": "Avañe'ẽ",
     "name": "Guarani",
-    "flagId": 65,
+    "flagId": "py",
     "translations": [
       {
         "languageCode": "ko",
@@ -3796,11 +3796,11 @@
     ]
   },
   {
-    "id": 86,
+    "id": "gu",
     "code": "gu",
     "nativeName": "ગુજરાતી",
     "name": "Gujarati",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -3869,11 +3869,11 @@
     ]
   },
   {
-    "id": 87,
+    "id": "gv",
     "code": "gv",
     "nativeName": "Gaelg",
     "name": "Manx",
-    "flagId": 146,
+    "flagId": "im",
     "translations": [
       {
         "languageCode": "ko",
@@ -3942,11 +3942,11 @@
     ]
   },
   {
-    "id": 88,
+    "id": "ha",
     "code": "ha",
     "nativeName": "Hausa",
     "name": "Hausa",
-    "flagId": 87,
+    "flagId": "ng",
     "translations": [
       {
         "languageCode": "ko",
@@ -4015,11 +4015,11 @@
     ]
   },
   {
-    "id": 36,
+    "id": "he",
     "code": "he",
     "nativeName": "עִבְרִית",
     "name": "Hebrew",
-    "flagId": 147,
+    "flagId": "il",
     "translations": [
       {
         "languageCode": "ko",
@@ -4088,11 +4088,11 @@
     ]
   },
   {
-    "id": 37,
+    "id": "hi",
     "code": "hi",
     "nativeName": "हिन्दी",
     "name": "Hindi",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -4161,11 +4161,11 @@
     ]
   },
   {
-    "id": 89,
+    "id": "ho",
     "code": "ho",
     "nativeName": "Hiri Motu",
     "name": "Hiri Motu",
-    "flagId": 75,
+    "flagId": "pg",
     "translations": [
       {
         "languageCode": "ko",
@@ -4234,11 +4234,11 @@
     ]
   },
   {
-    "id": 26,
+    "id": "hr",
     "code": "hr",
     "nativeName": "Hrvatski",
     "name": "Croatian",
-    "flagId": 152,
+    "flagId": "hr",
     "translations": [
       {
         "languageCode": "ko",
@@ -4307,11 +4307,11 @@
     ]
   },
   {
-    "id": 90,
+    "id": "ht",
     "code": "ht",
     "nativeName": "Kreyòl ayisyen",
     "name": "Haitian Creole",
-    "flagId": 151,
+    "flagId": "ht",
     "translations": [
       {
         "languageCode": "ko",
@@ -4380,11 +4380,11 @@
     ]
   },
   {
-    "id": 38,
+    "id": "hu",
     "code": "hu",
     "nativeName": "Magyar",
     "name": "Hungarian",
-    "flagId": 150,
+    "flagId": "hu",
     "translations": [
       {
         "languageCode": "ko",
@@ -4453,11 +4453,11 @@
     ]
   },
   {
-    "id": 9,
+    "id": "hy",
     "code": "hy",
     "nativeName": "Հայերեն",
     "name": "Armenian",
-    "flagId": 241,
+    "flagId": "am",
     "translations": [
       {
         "languageCode": "ko",
@@ -4526,11 +4526,11 @@
     ]
   },
   {
-    "id": 91,
+    "id": "hz",
     "code": "hz",
     "nativeName": "Otjiherero",
     "name": "Herero",
-    "flagId": 91,
+    "flagId": "na",
     "translations": [
       {
         "languageCode": "ko",
@@ -4599,7 +4599,7 @@
     ]
   },
   {
-    "id": 92,
+    "id": "ia",
     "code": "ia",
     "nativeName": "Interlingua",
     "name": "Interlingua",
@@ -4672,11 +4672,11 @@
     ]
   },
   {
-    "id": 40,
+    "id": "id",
     "code": "id",
     "nativeName": "Bahasa Indonesia",
     "name": "Indonesian",
-    "flagId": 149,
+    "flagId": "id",
     "translations": [
       {
         "languageCode": "ko",
@@ -4745,7 +4745,7 @@
     ]
   },
   {
-    "id": 93,
+    "id": "ie",
     "code": "ie",
     "nativeName": "Interlingue",
     "name": "Interlingue",
@@ -4818,11 +4818,11 @@
     ]
   },
   {
-    "id": 94,
+    "id": "ig",
     "code": "ig",
     "nativeName": "Asụsụ Igbo",
     "name": "Igbo",
-    "flagId": 87,
+    "flagId": "ng",
     "translations": [
       {
         "languageCode": "ko",
@@ -4891,11 +4891,11 @@
     ]
   },
   {
-    "id": 95,
+    "id": "ii",
     "code": "ii",
     "nativeName": "ꆈꌠꉙ",
     "name": "Sichuan Yi",
-    "flagId": 202,
+    "flagId": "cn",
     "translations": [
       {
         "languageCode": "ko",
@@ -4964,11 +4964,11 @@
     ]
   },
   {
-    "id": 96,
+    "id": "ik",
     "code": "ik",
     "nativeName": "Iñupiaq",
     "name": "Inupiaq",
-    "flagId": 18,
+    "flagId": "us",
     "translations": [
       {
         "languageCode": "ko",
@@ -5037,7 +5037,7 @@
     ]
   },
   {
-    "id": 97,
+    "id": "io",
     "code": "io",
     "nativeName": "Ido",
     "name": "Ido",
@@ -5110,11 +5110,11 @@
     ]
   },
   {
-    "id": 39,
+    "id": "is",
     "code": "is",
     "nativeName": "Íslenska",
     "name": "Icelandic",
-    "flagId": 142,
+    "flagId": "is",
     "translations": [
       {
         "languageCode": "ko",
@@ -5183,11 +5183,11 @@
     ]
   },
   {
-    "id": 41,
+    "id": "it",
     "code": "it",
     "nativeName": "Italiano",
     "name": "Italian",
-    "flagId": 141,
+    "flagId": "it",
     "translations": [
       {
         "languageCode": "ko",
@@ -5256,11 +5256,11 @@
     ]
   },
   {
-    "id": 98,
+    "id": "iu",
     "code": "iu",
     "nativeName": "ᐃᓄᒃᑎᑐᑦ",
     "name": "Inuktitut",
-    "flagId": 211,
+    "flagId": "ca",
     "translations": [
       {
         "languageCode": "ko",
@@ -5329,11 +5329,11 @@
     ]
   },
   {
-    "id": 42,
+    "id": "ja",
     "code": "ja",
     "nativeName": "日本語",
     "name": "Japanese",
-    "flagId": 137,
+    "flagId": "jp",
     "translations": [
       {
         "languageCode": "ko",
@@ -5402,11 +5402,11 @@
     ]
   },
   {
-    "id": 99,
+    "id": "jv",
     "code": "jv",
     "nativeName": "Jawa",
     "name": "Javanese",
-    "flagId": 149,
+    "flagId": "id",
     "translations": [
       {
         "languageCode": "ko",
@@ -5475,11 +5475,11 @@
     ]
   },
   {
-    "id": 53,
+    "id": "ka",
     "code": "ka",
     "nativeName": "ქართული ენა",
     "name": "Georgian",
-    "flagId": 170,
+    "flagId": "ge",
     "translations": [
       {
         "languageCode": "ko",
@@ -5548,11 +5548,11 @@
     ]
   },
   {
-    "id": 100,
+    "id": "kg",
     "code": "kg",
     "nativeName": "Kikongo",
     "name": "Kongo",
-    "flagId": 209,
+    "flagId": "cd",
     "translations": [
       {
         "languageCode": "ko",
@@ -5621,11 +5621,11 @@
     ]
   },
   {
-    "id": 101,
+    "id": "ki",
     "code": "ki",
     "nativeName": "Gikuyu",
     "name": "Kikuyu",
-    "flagId": 136,
+    "flagId": "ke",
     "translations": [
       {
         "languageCode": "ko",
@@ -5694,11 +5694,11 @@
     ]
   },
   {
-    "id": 102,
+    "id": "kj",
     "code": "kj",
     "nativeName": "Oshikwanyama",
     "name": "Kuanyama",
-    "flagId": 91,
+    "flagId": "na",
     "translations": [
       {
         "languageCode": "ko",
@@ -5767,11 +5767,11 @@
     ]
   },
   {
-    "id": 55,
+    "id": "kk",
     "code": "kk",
     "nativeName": "Қазақ тілі",
     "name": "Kazakh",
-    "flagId": 126,
+    "flagId": "kz",
     "translations": [
       {
         "languageCode": "ko",
@@ -5840,11 +5840,11 @@
     ]
   },
   {
-    "id": 65,
+    "id": "kl",
     "code": "kl",
     "nativeName": "Kalaallisut",
     "name": "Kalaallisut",
-    "flagId": 165,
+    "flagId": "gl",
     "translations": [
       {
         "languageCode": "ko",
@@ -5913,11 +5913,11 @@
     ]
   },
   {
-    "id": 57,
+    "id": "km",
     "code": "km",
     "nativeName": "ភាសាខ្មែរ",
     "name": "Khmer",
-    "flagId": 134,
+    "flagId": "kh",
     "translations": [
       {
         "languageCode": "ko",
@@ -5986,11 +5986,11 @@
     ]
   },
   {
-    "id": 103,
+    "id": "kn",
     "code": "kn",
     "nativeName": "ಕನ್ನಡ",
     "name": "Kannada",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -6059,11 +6059,11 @@
     ]
   },
   {
-    "id": 43,
+    "id": "ko",
     "code": "ko",
     "nativeName": "한국어",
     "name": "Korean",
-    "flagId": 129,
+    "flagId": "kr",
     "translations": [
       {
         "languageCode": "ko",
@@ -6132,11 +6132,11 @@
     ]
   },
   {
-    "id": 104,
+    "id": "kr",
     "code": "kr",
     "nativeName": "Kanuri",
     "name": "Kanuri",
-    "flagId": 87,
+    "flagId": "ng",
     "translations": [
       {
         "languageCode": "ko",
@@ -6205,11 +6205,11 @@
     ]
   },
   {
-    "id": 105,
+    "id": "ks",
     "code": "ks",
     "nativeName": "کٲشُر",
     "name": "Kashmiri",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -6278,11 +6278,11 @@
     ]
   },
   {
-    "id": 106,
+    "id": "ku",
     "code": "ku",
     "nativeName": "Kurdî (kurmancî)",
     "name": "Kurdish",
-    "flagId": 144,
+    "flagId": "iq",
     "translations": [
       {
         "languageCode": "ko",
@@ -6351,11 +6351,11 @@
     ]
   },
   {
-    "id": 107,
+    "id": "kv",
     "code": "kv",
     "nativeName": "Коми кыв",
     "name": "Komi",
-    "flagId": 60,
+    "flagId": "ru",
     "translations": [
       {
         "languageCode": "ko",
@@ -6424,11 +6424,11 @@
     ]
   },
   {
-    "id": 108,
+    "id": "kw",
     "code": "kw",
     "nativeName": "Kernewek",
     "name": "Cornish",
-    "flagId": 172,
+    "flagId": "gb",
     "translations": [
       {
         "languageCode": "ko",
@@ -6497,11 +6497,11 @@
     ]
   },
   {
-    "id": 56,
+    "id": "ky",
     "code": "ky",
     "nativeName": "Кыргызча",
     "name": "Kyrgyz",
-    "flagId": 135,
+    "flagId": "kg",
     "translations": [
       {
         "languageCode": "ko",
@@ -6570,11 +6570,11 @@
     ]
   },
   {
-    "id": 109,
+    "id": "la",
     "code": "la",
     "nativeName": "Latina",
     "name": "Latin",
-    "flagId": 15,
+    "flagId": "va",
     "translations": [
       {
         "languageCode": "ko",
@@ -6643,11 +6643,11 @@
     ]
   },
   {
-    "id": 110,
+    "id": "lb",
     "code": "lb",
     "nativeName": "Lëtzebuergesch",
     "name": "Luxembourgish",
-    "flagId": 117,
+    "flagId": "lu",
     "translations": [
       {
         "languageCode": "ko",
@@ -6716,11 +6716,11 @@
     ]
   },
   {
-    "id": 111,
+    "id": "lg",
     "code": "lg",
     "nativeName": "Luganda",
     "name": "Ganda",
-    "flagId": 20,
+    "flagId": "ug",
     "translations": [
       {
         "languageCode": "ko",
@@ -6789,11 +6789,11 @@
     ]
   },
   {
-    "id": 112,
+    "id": "li",
     "code": "li",
     "nativeName": "Limburgs",
     "name": "Limburgish",
-    "flagId": 85,
+    "flagId": "nl",
     "translations": [
       {
         "languageCode": "ko",
@@ -6862,11 +6862,11 @@
     ]
   },
   {
-    "id": 113,
+    "id": "ln",
     "code": "ln",
     "nativeName": "Lingála",
     "name": "Lingala",
-    "flagId": 209,
+    "flagId": "cd",
     "translations": [
       {
         "languageCode": "ko",
@@ -6935,11 +6935,11 @@
     ]
   },
   {
-    "id": 114,
+    "id": "lo",
     "code": "lo",
     "nativeName": "ລາວ",
     "name": "Lao",
-    "flagId": 125,
+    "flagId": "la",
     "translations": [
       {
         "languageCode": "ko",
@@ -7008,11 +7008,11 @@
     ]
   },
   {
-    "id": 58,
+    "id": "lt",
     "code": "lt",
     "nativeName": "Lietuvių kalba",
     "name": "Lithuanian",
-    "flagId": 118,
+    "flagId": "lt",
     "translations": [
       {
         "languageCode": "ko",
@@ -7081,11 +7081,11 @@
     ]
   },
   {
-    "id": 115,
+    "id": "lu",
     "code": "lu",
     "nativeName": "Tshiluba",
     "name": "Luba-Katanga",
-    "flagId": 209,
+    "flagId": "cd",
     "translations": [
       {
         "languageCode": "ko",
@@ -7154,11 +7154,11 @@
     ]
   },
   {
-    "id": 59,
+    "id": "lv",
     "code": "lv",
     "nativeName": "Latviešu valoda",
     "name": "Latvian",
-    "flagId": 116,
+    "flagId": "lv",
     "translations": [
       {
         "languageCode": "ko",
@@ -7227,11 +7227,11 @@
     ]
   },
   {
-    "id": 116,
+    "id": "mg",
     "code": "mg",
     "nativeName": "Malagasy",
     "name": "Malagasy",
-    "flagId": 109,
+    "flagId": "mg",
     "translations": [
       {
         "languageCode": "ko",
@@ -7300,11 +7300,11 @@
     ]
   },
   {
-    "id": 117,
+    "id": "mh",
     "code": "mh",
     "nativeName": "Kajin M̧ajeļ",
     "name": "Marshallese",
-    "flagId": 108,
+    "flagId": "mh",
     "translations": [
       {
         "languageCode": "ko",
@@ -7373,11 +7373,11 @@
     ]
   },
   {
-    "id": 118,
+    "id": "mi",
     "code": "mi",
     "nativeName": "Te Reo Māori",
     "name": "Māori",
-    "flagId": 80,
+    "flagId": "nz",
     "translations": [
       {
         "languageCode": "ko",
@@ -7446,11 +7446,11 @@
     ]
   },
   {
-    "id": 119,
+    "id": "mk",
     "code": "mk",
     "nativeName": "Македонски",
     "name": "Macedonian",
-    "flagId": 107,
+    "flagId": "mk",
     "translations": [
       {
         "languageCode": "ko",
@@ -7519,11 +7519,11 @@
     ]
   },
   {
-    "id": 120,
+    "id": "ml",
     "code": "ml",
     "nativeName": "മലയാളം",
     "name": "Malayalam",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -7592,11 +7592,11 @@
     ]
   },
   {
-    "id": 60,
+    "id": "mn",
     "code": "mn",
     "nativeName": "Монгол хэл",
     "name": "Mongolian",
-    "flagId": 104,
+    "flagId": "mn",
     "translations": [
       {
         "languageCode": "ko",
@@ -7665,11 +7665,11 @@
     ]
   },
   {
-    "id": 121,
+    "id": "mr",
     "code": "mr",
     "nativeName": "मराठी",
     "name": "Marathi",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -7738,11 +7738,11 @@
     ]
   },
   {
-    "id": 122,
+    "id": "ms",
     "code": "ms",
     "nativeName": "Melayu",
     "name": "Malay",
-    "flagId": 93,
+    "flagId": "my",
     "translations": [
       {
         "languageCode": "ko",
@@ -7811,11 +7811,11 @@
     ]
   },
   {
-    "id": 123,
+    "id": "mt",
     "code": "mt",
     "nativeName": "Malti",
     "name": "Maltese",
-    "flagId": 98,
+    "flagId": "mt",
     "translations": [
       {
         "languageCode": "ko",
@@ -7884,11 +7884,11 @@
     ]
   },
   {
-    "id": 124,
+    "id": "my",
     "code": "my",
     "nativeName": "မြန်မာ",
     "name": "Burmese",
-    "flagId": 105,
+    "flagId": "mm",
     "translations": [
       {
         "languageCode": "ko",
@@ -7957,11 +7957,11 @@
     ]
   },
   {
-    "id": 125,
+    "id": "na",
     "code": "na",
     "nativeName": "Dorerin Naoero",
     "name": "Nauru",
-    "flagId": 82,
+    "flagId": "nr",
     "translations": [
       {
         "languageCode": "ko",
@@ -8030,11 +8030,11 @@
     ]
   },
   {
-    "id": 126,
+    "id": "nb",
     "code": "nb",
     "nativeName": "Norsk bokmål",
     "name": "Norwegian Bokmål",
-    "flagId": 84,
+    "flagId": "no",
     "translations": [
       {
         "languageCode": "ko",
@@ -8103,11 +8103,11 @@
     ]
   },
   {
-    "id": 127,
+    "id": "nd",
     "code": "nd",
     "nativeName": "isiNdebele",
     "name": "North Ndebele",
-    "flagId": 1,
+    "flagId": "zw",
     "translations": [
       {
         "languageCode": "ko",
@@ -8176,11 +8176,11 @@
     ]
   },
   {
-    "id": 128,
+    "id": "ne",
     "code": "ne",
     "nativeName": "नेपाली",
     "name": "Nepali",
-    "flagId": 83,
+    "flagId": "np",
     "translations": [
       {
         "languageCode": "ko",
@@ -8249,11 +8249,11 @@
     ]
   },
   {
-    "id": 129,
+    "id": "ng",
     "code": "ng",
     "nativeName": "Oshindonga",
     "name": "Ndonga",
-    "flagId": 91,
+    "flagId": "na",
     "translations": [
       {
         "languageCode": "ko",
@@ -8322,11 +8322,11 @@
     ]
   },
   {
-    "id": 29,
+    "id": "nl",
     "code": "nl",
     "nativeName": "Nederlands",
     "name": "Dutch",
-    "flagId": 85,
+    "flagId": "nl",
     "translations": [
       {
         "languageCode": "ko",
@@ -8395,11 +8395,11 @@
     ]
   },
   {
-    "id": 130,
+    "id": "nn",
     "code": "nn",
     "nativeName": "Norsk nynorsk",
     "name": "Norwegian Nynorsk",
-    "flagId": 84,
+    "flagId": "no",
     "translations": [
       {
         "languageCode": "ko",
@@ -8468,11 +8468,11 @@
     ]
   },
   {
-    "id": 61,
+    "id": "no",
     "code": "no",
     "nativeName": "Norsk",
     "name": "Norwegian",
-    "flagId": 84,
+    "flagId": "no",
     "translations": [
       {
         "languageCode": "ko",
@@ -8541,11 +8541,11 @@
     ]
   },
   {
-    "id": 131,
+    "id": "nr",
     "code": "nr",
     "nativeName": "isiNdebele",
     "name": "South Ndebele",
-    "flagId": 3,
+    "flagId": "za",
     "translations": [
       {
         "languageCode": "ko",
@@ -8614,11 +8614,11 @@
     ]
   },
   {
-    "id": 132,
+    "id": "nv",
     "code": "nv",
     "nativeName": "Diné bizaad",
     "name": "Navajo",
-    "flagId": 18,
+    "flagId": "us",
     "translations": [
       {
         "languageCode": "ko",
@@ -8687,11 +8687,11 @@
     ]
   },
   {
-    "id": 133,
+    "id": "ny",
     "code": "ny",
     "nativeName": "Chichewa",
     "name": "Chichewa",
-    "flagId": 95,
+    "flagId": "mw",
     "translations": [
       {
         "languageCode": "ko",
@@ -8760,11 +8760,11 @@
     ]
   },
   {
-    "id": 134,
+    "id": "oc",
     "code": "oc",
     "nativeName": "Occitan",
     "name": "Occitan",
-    "flagId": 175,
+    "flagId": "fr",
     "translations": [
       {
         "languageCode": "ko",
@@ -8833,11 +8833,11 @@
     ]
   },
   {
-    "id": 135,
+    "id": "oj",
     "code": "oj",
     "nativeName": "ᐊᓂᔑᓈᐯᒧᐎᓐ",
     "name": "Ojibwa",
-    "flagId": 211,
+    "flagId": "ca",
     "translations": [
       {
         "languageCode": "ko",
@@ -8906,11 +8906,11 @@
     ]
   },
   {
-    "id": 136,
+    "id": "om",
     "code": "om",
     "nativeName": "Oromoo",
     "name": "Oromo",
-    "flagId": 182,
+    "flagId": "et",
     "translations": [
       {
         "languageCode": "ko",
@@ -8979,11 +8979,11 @@
     ]
   },
   {
-    "id": 137,
+    "id": "or",
     "code": "or",
     "nativeName": "ଓଡ଼ିଆ",
     "name": "Odia",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -9052,11 +9052,11 @@
     ]
   },
   {
-    "id": 138,
+    "id": "os",
     "code": "os",
     "nativeName": "Ирон",
     "name": "Ossetian",
-    "flagId": 170,
+    "flagId": "ge",
     "translations": [
       {
         "languageCode": "ko",
@@ -9125,11 +9125,11 @@
     ]
   },
   {
-    "id": 139,
+    "id": "pa",
     "code": "pa",
     "nativeName": "ਪੰਜਾਬੀ",
     "name": "Punjabi",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -9198,7 +9198,7 @@
     ]
   },
   {
-    "id": 140,
+    "id": "pi",
     "code": "pi",
     "nativeName": "पालि",
     "name": "Pali",
@@ -9271,11 +9271,11 @@
     ]
   },
   {
-    "id": 44,
+    "id": "pl",
     "code": "pl",
     "nativeName": "Polski",
     "name": "Polish",
-    "flagId": 72,
+    "flagId": "pl",
     "translations": [
       {
         "languageCode": "ko",
@@ -9344,11 +9344,11 @@
     ]
   },
   {
-    "id": 141,
+    "id": "ps",
     "code": "ps",
     "nativeName": "پښتو",
     "name": "Pashto",
-    "flagId": 245,
+    "flagId": "af",
     "translations": [
       {
         "languageCode": "ko",
@@ -9417,11 +9417,11 @@
     ]
   },
   {
-    "id": 45,
+    "id": "pt",
     "code": "pt",
     "nativeName": "Português",
     "name": "Portuguese",
-    "flagId": 67,
+    "flagId": "pt",
     "translations": [
       {
         "languageCode": "ko",
@@ -9490,11 +9490,11 @@
     ]
   },
   {
-    "id": 142,
+    "id": "qu",
     "code": "qu",
     "nativeName": "Runasimi",
     "name": "Quechua",
-    "flagId": 77,
+    "flagId": "pe",
     "translations": [
       {
         "languageCode": "ko",
@@ -9563,11 +9563,11 @@
     ]
   },
   {
-    "id": 143,
+    "id": "rm",
     "code": "rm",
     "nativeName": "Rumantsch",
     "name": "Romansh",
-    "flagId": 206,
+    "flagId": "ch",
     "translations": [
       {
         "languageCode": "ko",
@@ -9636,11 +9636,11 @@
     ]
   },
   {
-    "id": 144,
+    "id": "rn",
     "code": "rn",
     "nativeName": "Ikirundi",
     "name": "Rundi",
-    "flagId": 225,
+    "flagId": "bi",
     "translations": [
       {
         "languageCode": "ko",
@@ -9709,11 +9709,11 @@
     ]
   },
   {
-    "id": 62,
+    "id": "ro",
     "code": "ro",
     "nativeName": "Română",
     "name": "Romanian",
-    "flagId": 62,
+    "flagId": "ro",
     "translations": [
       {
         "languageCode": "ko",
@@ -9782,11 +9782,11 @@
     ]
   },
   {
-    "id": 46,
+    "id": "ru",
     "code": "ru",
     "nativeName": "Русский",
     "name": "Russian",
-    "flagId": 60,
+    "flagId": "ru",
     "translations": [
       {
         "languageCode": "ko",
@@ -9855,11 +9855,11 @@
     ]
   },
   {
-    "id": 145,
+    "id": "rw",
     "code": "rw",
     "nativeName": "Ikinyarwanda",
     "name": "Kinyarwanda",
-    "flagId": 59,
+    "flagId": "rw",
     "translations": [
       {
         "languageCode": "ko",
@@ -9928,11 +9928,11 @@
     ]
   },
   {
-    "id": 146,
+    "id": "sa",
     "code": "sa",
     "nativeName": "संस्कृत भाषा",
     "name": "Sanskrit",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -10001,11 +10001,11 @@
     ]
   },
   {
-    "id": 147,
+    "id": "sc",
     "code": "sc",
     "nativeName": "Sardu",
     "name": "Sardinian",
-    "flagId": 141,
+    "flagId": "it",
     "translations": [
       {
         "languageCode": "ko",
@@ -10074,11 +10074,11 @@
     ]
   },
   {
-    "id": 148,
+    "id": "sd",
     "code": "sd",
     "nativeName": "سنڌي",
     "name": "Sindhi",
-    "flagId": 73,
+    "flagId": "pk",
     "translations": [
       {
         "languageCode": "ko",
@@ -10147,11 +10147,11 @@
     ]
   },
   {
-    "id": 149,
+    "id": "se",
     "code": "se",
     "nativeName": "Davvisámegiella",
     "name": "Northern Sami",
-    "flagId": 84,
+    "flagId": "no",
     "translations": [
       {
         "languageCode": "ko",
@@ -10220,11 +10220,11 @@
     ]
   },
   {
-    "id": 150,
+    "id": "sg",
     "code": "sg",
     "nativeName": "Sängö",
     "name": "Sango",
-    "flagId": 208,
+    "flagId": "cf",
     "translations": [
       {
         "languageCode": "ko",
@@ -10293,11 +10293,11 @@
     ]
   },
   {
-    "id": 151,
+    "id": "si",
     "code": "si",
     "nativeName": "සිංහල",
     "name": "Sinhala",
-    "flagId": 121,
+    "flagId": "lk",
     "translations": [
       {
         "languageCode": "ko",
@@ -10366,11 +10366,11 @@
     ]
   },
   {
-    "id": 64,
+    "id": "sk",
     "code": "sk",
     "nativeName": "Slovenčina",
     "name": "Slovak",
-    "flagId": 49,
+    "flagId": "sk",
     "translations": [
       {
         "languageCode": "ko",
@@ -10439,11 +10439,11 @@
     ]
   },
   {
-    "id": 152,
+    "id": "sl",
     "code": "sl",
     "nativeName": "Slovenščina",
     "name": "Slovenian",
-    "flagId": 51,
+    "flagId": "si",
     "translations": [
       {
         "languageCode": "ko",
@@ -10512,11 +10512,11 @@
     ]
   },
   {
-    "id": 153,
+    "id": "sm",
     "code": "sm",
     "nativeName": "Gagana Sāmoa",
     "name": "Samoan",
-    "flagId": 7,
+    "flagId": "ws",
     "translations": [
       {
         "languageCode": "ko",
@@ -10585,11 +10585,11 @@
     ]
   },
   {
-    "id": 154,
+    "id": "sn",
     "code": "sn",
     "nativeName": "chiShona",
     "name": "Shona",
-    "flagId": 1,
+    "flagId": "zw",
     "translations": [
       {
         "languageCode": "ko",
@@ -10658,11 +10658,11 @@
     ]
   },
   {
-    "id": 155,
+    "id": "so",
     "code": "so",
     "nativeName": "Soomaali",
     "name": "Somali",
-    "flagId": 45,
+    "flagId": "so",
     "translations": [
       {
         "languageCode": "ko",
@@ -10731,11 +10731,11 @@
     ]
   },
   {
-    "id": 5,
+    "id": "sq",
     "code": "sq",
     "nativeName": "Shqip",
     "name": "Albanian",
-    "flagId": 242,
+    "flagId": "al",
     "translations": [
       {
         "languageCode": "ko",
@@ -10804,11 +10804,11 @@
     ]
   },
   {
-    "id": 63,
+    "id": "sr",
     "code": "sr",
     "nativeName": "Српски",
     "name": "Serbian",
-    "flagId": 61,
+    "flagId": "rs",
     "translations": [
       {
         "languageCode": "ko",
@@ -10877,11 +10877,11 @@
     ]
   },
   {
-    "id": 156,
+    "id": "ss",
     "code": "ss",
     "nativeName": "siSwati",
     "name": "Swati",
-    "flagId": 38,
+    "flagId": "sz",
     "translations": [
       {
         "languageCode": "ko",
@@ -10950,11 +10950,11 @@
     ]
   },
   {
-    "id": 157,
+    "id": "st",
     "code": "st",
     "nativeName": "Sesotho",
     "name": "Southern Sotho",
-    "flagId": 119,
+    "flagId": "ls",
     "translations": [
       {
         "languageCode": "ko",
@@ -11023,11 +11023,11 @@
     ]
   },
   {
-    "id": 158,
+    "id": "su",
     "code": "su",
     "nativeName": "Basa Sunda",
     "name": "Sundanese",
-    "flagId": 149,
+    "flagId": "id",
     "translations": [
       {
         "languageCode": "ko",
@@ -11096,11 +11096,11 @@
     ]
   },
   {
-    "id": 48,
+    "id": "sv",
     "code": "sv",
     "nativeName": "Svenska",
     "name": "Swedish",
-    "flagId": 54,
+    "flagId": "se",
     "translations": [
       {
         "languageCode": "ko",
@@ -11169,11 +11169,11 @@
     ]
   },
   {
-    "id": 159,
+    "id": "sw",
     "code": "sw",
     "nativeName": "Kiswahili",
     "name": "Swahili",
-    "flagId": 22,
+    "flagId": "tz",
     "translations": [
       {
         "languageCode": "ko",
@@ -11242,11 +11242,11 @@
     ]
   },
   {
-    "id": 160,
+    "id": "ta",
     "code": "ta",
     "nativeName": "தமிழ்",
     "name": "Tamil",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -11315,11 +11315,11 @@
     ]
   },
   {
-    "id": 161,
+    "id": "te",
     "code": "te",
     "nativeName": "తెలుగు",
     "name": "Telugu",
-    "flagId": 173,
+    "flagId": "in",
     "translations": [
       {
         "languageCode": "ko",
@@ -11388,11 +11388,11 @@
     ]
   },
   {
-    "id": 162,
+    "id": "tg",
     "code": "tg",
     "nativeName": "Тоҷикӣ",
     "name": "Tajik",
-    "flagId": 32,
+    "flagId": "tj",
     "translations": [
       {
         "languageCode": "ko",
@@ -11461,11 +11461,11 @@
     ]
   },
   {
-    "id": 163,
+    "id": "th",
     "code": "th",
     "nativeName": "ไทย",
     "name": "Thai",
-    "flagId": 33,
+    "flagId": "th",
     "translations": [
       {
         "languageCode": "ko",
@@ -11534,11 +11534,11 @@
     ]
   },
   {
-    "id": 164,
+    "id": "ti",
     "code": "ti",
     "nativeName": "ትግርኛ",
     "name": "Tigrinya",
-    "flagId": 184,
+    "flagId": "er",
     "translations": [
       {
         "languageCode": "ko",
@@ -11607,11 +11607,11 @@
     ]
   },
   {
-    "id": 165,
+    "id": "tk",
     "code": "tk",
     "nativeName": "Türkmen dili",
     "name": "Turkmen",
-    "flagId": 29,
+    "flagId": "tm",
     "translations": [
       {
         "languageCode": "ko",
@@ -11680,11 +11680,11 @@
     ]
   },
   {
-    "id": 166,
+    "id": "tl",
     "code": "tl",
     "nativeName": "Tagalog",
     "name": "Tagalog",
-    "flagId": 74,
+    "flagId": "ph",
     "translations": [
       {
         "languageCode": "ko",
@@ -11753,11 +11753,11 @@
     ]
   },
   {
-    "id": 167,
+    "id": "tn",
     "code": "tn",
     "nativeName": "Setswana",
     "name": "Tswana",
-    "flagId": 215,
+    "flagId": "bw",
     "translations": [
       {
         "languageCode": "ko",
@@ -11826,11 +11826,11 @@
     ]
   },
   {
-    "id": 168,
+    "id": "to",
     "code": "to",
     "nativeName": "Lea fakatonga",
     "name": "Tongan",
-    "flagId": 27,
+    "flagId": "to",
     "translations": [
       {
         "languageCode": "ko",
@@ -11899,11 +11899,11 @@
     ]
   },
   {
-    "id": 49,
+    "id": "tr",
     "code": "tr",
     "nativeName": "Türkçe",
     "name": "Turkish",
-    "flagId": 26,
+    "flagId": "tr",
     "translations": [
       {
         "languageCode": "ko",
@@ -11972,11 +11972,11 @@
     ]
   },
   {
-    "id": 169,
+    "id": "ts",
     "code": "ts",
     "nativeName": "Xitsonga",
     "name": "Tsonga",
-    "flagId": 3,
+    "flagId": "za",
     "translations": [
       {
         "languageCode": "ko",
@@ -12045,11 +12045,11 @@
     ]
   },
   {
-    "id": 170,
+    "id": "tt",
     "code": "tt",
     "nativeName": "Татар",
     "name": "Tatar",
-    "flagId": 60,
+    "flagId": "ru",
     "translations": [
       {
         "languageCode": "ko",
@@ -12118,11 +12118,11 @@
     ]
   },
   {
-    "id": 171,
+    "id": "tw",
     "code": "tw",
     "nativeName": "Twi",
     "name": "Twi",
-    "flagId": 167,
+    "flagId": "gh",
     "translations": [
       {
         "languageCode": "ko",
@@ -12191,11 +12191,11 @@
     ]
   },
   {
-    "id": 172,
+    "id": "ty",
     "code": "ty",
     "nativeName": "Reo Tahiti",
     "name": "Tahitian",
-    "flagId": 76,
+    "flagId": "pf",
     "translations": [
       {
         "languageCode": "ko",
@@ -12264,11 +12264,11 @@
     ]
   },
   {
-    "id": 173,
+    "id": "ug",
     "code": "ug",
     "nativeName": "ئۇيغۇرچە",
     "name": "Uyghur",
-    "flagId": 202,
+    "flagId": "cn",
     "translations": [
       {
         "languageCode": "ko",
@@ -12337,11 +12337,11 @@
     ]
   },
   {
-    "id": 50,
+    "id": "uk",
     "code": "uk",
     "nativeName": "Українська",
     "name": "Ukrainian",
-    "flagId": 21,
+    "flagId": "ua",
     "translations": [
       {
         "languageCode": "ko",
@@ -12410,11 +12410,11 @@
     ]
   },
   {
-    "id": 174,
+    "id": "ur",
     "code": "ur",
     "nativeName": "اردو",
     "name": "Urdu",
-    "flagId": 73,
+    "flagId": "pk",
     "translations": [
       {
         "languageCode": "ko",
@@ -12483,11 +12483,11 @@
     ]
   },
   {
-    "id": 175,
+    "id": "uz",
     "code": "uz",
     "nativeName": "O‘zbek",
     "name": "Uzbek",
-    "flagId": 16,
+    "flagId": "uz",
     "translations": [
       {
         "languageCode": "ko",
@@ -12556,11 +12556,11 @@
     ]
   },
   {
-    "id": 176,
+    "id": "ve",
     "code": "ve",
     "nativeName": "Tshivenḓa",
     "name": "Venda",
-    "flagId": 3,
+    "flagId": "za",
     "translations": [
       {
         "languageCode": "ko",
@@ -12629,11 +12629,11 @@
     ]
   },
   {
-    "id": 51,
+    "id": "vi",
     "code": "vi",
     "nativeName": "Tiếng Việt",
     "name": "Vietnamese",
-    "flagId": 10,
+    "flagId": "vn",
     "translations": [
       {
         "languageCode": "ko",
@@ -12702,7 +12702,7 @@
     ]
   },
   {
-    "id": 177,
+    "id": "vo",
     "code": "vo",
     "nativeName": "Volapük",
     "name": "Volapük",
@@ -12775,11 +12775,11 @@
     ]
   },
   {
-    "id": 178,
+    "id": "wa",
     "code": "wa",
     "nativeName": "Walon",
     "name": "Walloon",
-    "flagId": 229,
+    "flagId": "be",
     "translations": [
       {
         "languageCode": "ko",
@@ -12848,11 +12848,11 @@
     ]
   },
   {
-    "id": 179,
+    "id": "wo",
     "code": "wo",
     "nativeName": "Wolof",
     "name": "Wolof",
-    "flagId": 46,
+    "flagId": "sn",
     "translations": [
       {
         "languageCode": "ko",
@@ -12921,11 +12921,11 @@
     ]
   },
   {
-    "id": 180,
+    "id": "xh",
     "code": "xh",
     "nativeName": "isiXhosa",
     "name": "Xhosa",
-    "flagId": 3,
+    "flagId": "za",
     "translations": [
       {
         "languageCode": "ko",
@@ -12994,11 +12994,11 @@
     ]
   },
   {
-    "id": 181,
+    "id": "yi",
     "code": "yi",
     "nativeName": "ייִדיש",
     "name": "Yiddish",
-    "flagId": 147,
+    "flagId": "il",
     "translations": [
       {
         "languageCode": "ko",
@@ -13067,11 +13067,11 @@
     ]
   },
   {
-    "id": 182,
+    "id": "yo",
     "code": "yo",
     "nativeName": "Èdè Yorùbá",
     "name": "Yoruba",
-    "flagId": 87,
+    "flagId": "ng",
     "translations": [
       {
         "languageCode": "ko",
@@ -13140,11 +13140,11 @@
     ]
   },
   {
-    "id": 183,
+    "id": "za",
     "code": "za",
     "nativeName": "Vahcuengh",
     "name": "Zhuang",
-    "flagId": 202,
+    "flagId": "cn",
     "translations": [
       {
         "languageCode": "ko",
@@ -13213,11 +13213,11 @@
     ]
   },
   {
-    "id": 25,
+    "id": "zh",
     "code": "zh",
     "nativeName": "中文",
     "name": "Chinese",
-    "flagId": 202,
+    "flagId": "cn",
     "translations": [
       {
         "languageCode": "ko",
@@ -13286,11 +13286,11 @@
     ]
   },
   {
-    "id": 52,
+    "id": "zu",
     "code": "zu",
     "nativeName": "isiZulu",
     "name": "Zulu",
-    "flagId": 3,
+    "flagId": "za",
     "translations": [
       {
         "languageCode": "ko",

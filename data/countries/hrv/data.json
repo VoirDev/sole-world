@@ -1,5 +1,5 @@
 {
-  "id": 55,
+  "id": "HR",
   "name": "Croatia",
   "nativeName": "Hrvatska",
   "iso2": "HR",
@@ -9,17 +9,17 @@
   "tld": ".hr",
   "latitude": 45.16666666,
   "longitude": 15.5,
-  "flagId": 152,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "hr",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2352
+    "Europe/Zagreb"
   ],
   "officialLanguageIds": [
-    26
+    "hr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 724,
+      "id": "HR-11",
       "name": "Požega-Slavonia",
       "stateCode": "11",
       "latitude": 45.3417868,
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "id": 725,
+      "id": "HR-17",
       "name": "Split-Dalmatia",
       "stateCode": "17",
       "latitude": 43.5240328,
@@ -763,7 +763,7 @@
       ]
     },
     {
-      "id": 726,
+      "id": "HR-20",
       "name": "Međimurje",
       "stateCode": "20",
       "latitude": 46.3766644,
@@ -956,7 +956,7 @@
       ]
     },
     {
-      "id": 727,
+      "id": "HR-13",
       "name": "Zadar",
       "stateCode": "13",
       "latitude": 44.146939,
@@ -1212,7 +1212,7 @@
       ]
     },
     {
-      "id": 728,
+      "id": "HR-19",
       "name": "Dubrovnik-Neretva",
       "stateCode": "19",
       "latitude": 43.0766588,
@@ -1405,7 +1405,7 @@
       ]
     },
     {
-      "id": 729,
+      "id": "HR-02",
       "name": "Krapina-Zagorje",
       "stateCode": "02",
       "latitude": 46.1013393,
@@ -1584,7 +1584,7 @@
       ]
     },
     {
-      "id": 730,
+      "id": "HR-15",
       "name": "Šibenik-Knin",
       "stateCode": "15",
       "latitude": 43.9281485,
@@ -1721,7 +1721,7 @@
       ]
     },
     {
-      "id": 731,
+      "id": "HR-09",
       "name": "Lika-Senj",
       "stateCode": "09",
       "latitude": 44.6192218,
@@ -1802,7 +1802,7 @@
       ]
     },
     {
-      "id": 732,
+      "id": "HR-10",
       "name": "Virovitica-Podravina",
       "stateCode": "10",
       "latitude": 45.6557985,
@@ -1946,7 +1946,7 @@
       ]
     },
     {
-      "id": 733,
+      "id": "HR-03",
       "name": "Sisak-Moslavina",
       "stateCode": "03",
       "latitude": 45.3837926,
@@ -2125,7 +2125,7 @@
       ]
     },
     {
-      "id": 734,
+      "id": "HR-07",
       "name": "Bjelovar-Bilogora",
       "stateCode": "07",
       "latitude": 45.8987972,
@@ -2325,7 +2325,7 @@
       ]
     },
     {
-      "id": 735,
+      "id": "HR-08",
       "name": "Primorje-Gorski Kotar",
       "stateCode": "08",
       "latitude": 45.3173996,
@@ -2714,7 +2714,7 @@
       ]
     },
     {
-      "id": 736,
+      "id": "HR-01",
       "name": "Zagreb",
       "stateCode": "01",
       "latitude": 45.8706612,
@@ -3103,7 +3103,7 @@
       ]
     },
     {
-      "id": 737,
+      "id": "HR-12",
       "name": "Brod-Posavina",
       "stateCode": "12",
       "latitude": 45.2637951,
@@ -3310,7 +3310,7 @@
       ]
     },
     {
-      "id": 738,
+      "id": "HR-21",
       "name": "Zagreb",
       "stateCode": "21",
       "latitude": 45.8150108,
@@ -3447,7 +3447,7 @@
       ]
     },
     {
-      "id": 739,
+      "id": "HR-05",
       "name": "Varaždin",
       "stateCode": "05",
       "latitude": 46.2317473,
@@ -3661,7 +3661,7 @@
       ]
     },
     {
-      "id": 740,
+      "id": "HR-14",
       "name": "Osijek-Baranja",
       "stateCode": "14",
       "latitude": 45.5576428,
@@ -4099,7 +4099,7 @@
       ]
     },
     {
-      "id": 741,
+      "id": "HR-16",
       "name": "Vukovar-Syrmia",
       "stateCode": "16",
       "latitude": 45.1773552,
@@ -4397,7 +4397,7 @@
       ]
     },
     {
-      "id": 742,
+      "id": "HR-06",
       "name": "Koprivnica-Križevci",
       "stateCode": "06",
       "latitude": 46.1568919,
@@ -4555,7 +4555,7 @@
       ]
     },
     {
-      "id": 743,
+      "id": "HR-18",
       "name": "Istria",
       "stateCode": "18",
       "latitude": 45.1286455,
@@ -4958,7 +4958,7 @@
       ]
     },
     {
-      "id": 5069,
+      "id": "HR-04",
       "name": "Karlovac",
       "stateCode": "04",
       "latitude": 45.2613352,

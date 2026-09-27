@@ -1,5 +1,5 @@
 {
-  "id": 113,
+  "id": "KE",
   "name": "Kenya",
   "nativeName": "Kenya",
   "iso2": "KE",
@@ -9,18 +9,18 @@
   "tld": ".ke",
   "latitude": 1,
   "longitude": 38,
-  "flagId": 136,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "ke",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    907
+    "KES"
   ],
   "timezoneIds": [
-    2428
+    "Africa/Nairobi"
   ],
   "officialLanguageIds": [
-    30,
-    159
+    "en",
+    "sw"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 158,
+      "id": "KE-11",
       "name": "Kakamega",
       "stateCode": "11",
       "latitude": 0.307894,
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": 159,
+      "id": "KE-16",
       "name": "Kisii",
       "stateCode": "16",
       "latitude": -0.677334,
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "id": 161,
+      "id": "KE-04",
       "name": "Busia",
       "stateCode": "04",
       "latitude": 0.4346506,
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "id": 163,
+      "id": "KE-06",
       "name": "Embu",
       "stateCode": "06",
       "latitude": -0.6560477,
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "id": 164,
+      "id": "KE-20",
       "name": "Laikipia",
       "stateCode": "20",
       "latitude": 0.3606063,
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "id": 165,
+      "id": "KE-32",
       "name": "Nandi",
       "stateCode": "32",
       "latitude": 0.1835867,
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "id": 166,
+      "id": "KE-21",
       "name": "Lamu",
       "stateCode": "21",
       "latitude": -2.2355058,
@@ -301,7 +301,7 @@
       ]
     },
     {
-      "id": 167,
+      "id": "KE-15",
       "name": "Kirinyaga",
       "stateCode": "15",
       "latitude": -0.6590565,
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": 168,
+      "id": "KE-03",
       "name": "Bungoma",
       "stateCode": "03",
       "latitude": 0.5695252,
@@ -358,7 +358,7 @@
       ]
     },
     {
-      "id": 169,
+      "id": "KE-44",
       "name": "Uasin Gishu",
       "stateCode": "44",
       "latitude": 0.5527638,
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "id": 170,
+      "id": "KE-09",
       "name": "Isiolo",
       "stateCode": "09",
       "latitude": 0.3524352,
@@ -394,7 +394,7 @@
       ]
     },
     {
-      "id": 171,
+      "id": "KE-17",
       "name": "Kisumu",
       "stateCode": "17",
       "latitude": -0.0917016,
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": 173,
+      "id": "KE-19",
       "name": "Kwale",
       "stateCode": "19",
       "latitude": -4.1816115,
@@ -472,7 +472,7 @@
       ]
     },
     {
-      "id": 174,
+      "id": "KE-14",
       "name": "Kilifi",
       "stateCode": "14",
       "latitude": -3.5106508,
@@ -525,7 +525,7 @@
       ]
     },
     {
-      "id": 175,
+      "id": "KE-33",
       "name": "Narok",
       "stateCode": "33",
       "latitude": -1.104111,
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "id": 176,
+      "id": "KE-39",
       "name": "Taita–Taveta",
       "stateCode": "39",
       "latitude": -3.3160687,
@@ -624,7 +624,7 @@
       ]
     },
     {
-      "id": 178,
+      "id": "KE-29",
       "name": "Murang'a",
       "stateCode": "29",
       "latitude": -0.7839281,
@@ -663,7 +663,7 @@
       ]
     },
     {
-      "id": 180,
+      "id": "KE-36",
       "name": "Nyeri",
       "stateCode": "36",
       "latitude": -0.4196915,
@@ -695,7 +695,7 @@
       ]
     },
     {
-      "id": 181,
+      "id": "KE-01",
       "name": "Baringo",
       "stateCode": "01",
       "latitude": 0.8554988,
@@ -727,7 +727,7 @@
       ]
     },
     {
-      "id": 182,
+      "id": "KE-46",
       "name": "Wajir",
       "stateCode": "46",
       "latitude": 1.6360475,
@@ -745,7 +745,7 @@
       ]
     },
     {
-      "id": 183,
+      "id": "KE-42",
       "name": "Trans Nzoia",
       "stateCode": "42",
       "latitude": 1.0566667,
@@ -763,7 +763,7 @@
       ]
     },
     {
-      "id": 184,
+      "id": "KE-22",
       "name": "Machakos",
       "stateCode": "22",
       "latitude": -1.5176837,
@@ -802,7 +802,7 @@
       ]
     },
     {
-      "id": 185,
+      "id": "KE-41",
       "name": "Tharaka-Nithi",
       "stateCode": "41",
       "latitude": -0.2964851,
@@ -820,7 +820,7 @@
       ]
     },
     {
-      "id": 186,
+      "id": "KE-38",
       "name": "Siaya",
       "stateCode": "38",
       "latitude": -0.0617328,
@@ -852,7 +852,7 @@
       ]
     },
     {
-      "id": 187,
+      "id": "KE-24",
       "name": "Mandera",
       "stateCode": "24",
       "latitude": 3.5737991,
@@ -870,7 +870,7 @@
       ]
     },
     {
-      "id": 188,
+      "id": "KE-23",
       "name": "Makueni",
       "stateCode": "23",
       "latitude": -2.2558734,
@@ -902,7 +902,7 @@
       ]
     },
     {
-      "id": 190,
+      "id": "KE-27",
       "name": "Migori",
       "stateCode": "27",
       "latitude": -0.9365702,
@@ -927,7 +927,7 @@
       ]
     },
     {
-      "id": 191,
+      "id": "KE-30",
       "name": "Nairobi City",
       "stateCode": "30",
       "latitude": -1.2920659,
@@ -952,7 +952,7 @@
       ]
     },
     {
-      "id": 192,
+      "id": "KE-35",
       "name": "Nyandarua",
       "stateCode": "35",
       "latitude": -0.1803855,
@@ -970,7 +970,7 @@
       ]
     },
     {
-      "id": 193,
+      "id": "KE-12",
       "name": "Kericho",
       "stateCode": "12",
       "latitude": -0.1827913,
@@ -1009,7 +1009,7 @@
       ]
     },
     {
-      "id": 194,
+      "id": "KE-25",
       "name": "Marsabit",
       "stateCode": "25",
       "latitude": 2.4426403,
@@ -1034,7 +1034,7 @@
       ]
     },
     {
-      "id": 195,
+      "id": "KE-08",
       "name": "Homa Bay",
       "stateCode": "08",
       "latitude": -0.6220655,
@@ -1066,7 +1066,7 @@
       ]
     },
     {
-      "id": 196,
+      "id": "KE-07",
       "name": "Garissa",
       "stateCode": "07",
       "latitude": -0.4532293,
@@ -1084,7 +1084,7 @@
       ]
     },
     {
-      "id": 197,
+      "id": "KE-10",
       "name": "Kajiado",
       "stateCode": "10",
       "latitude": -2.0980751,
@@ -1116,7 +1116,7 @@
       ]
     },
     {
-      "id": 198,
+      "id": "KE-26",
       "name": "Meru",
       "stateCode": "26",
       "latitude": 0.3557174,
@@ -1141,7 +1141,7 @@
       ]
     },
     {
-      "id": 199,
+      "id": "KE-13",
       "name": "Kiambu",
       "stateCode": "13",
       "latitude": -1.0313701,
@@ -1180,7 +1180,7 @@
       ]
     },
     {
-      "id": 200,
+      "id": "KE-28",
       "name": "Mombasa",
       "stateCode": "28",
       "latitude": -3.9768291,
@@ -1198,7 +1198,7 @@
       ]
     },
     {
-      "id": 201,
+      "id": "KE-05",
       "name": "Elgeyo-Marakwet",
       "stateCode": "05",
       "latitude": 1.0498237,
@@ -1314,7 +1314,7 @@
       ]
     },
     {
-      "id": 202,
+      "id": "KE-45",
       "name": "Vihiga",
       "stateCode": "45",
       "latitude": 0.0767553,
@@ -1395,7 +1395,7 @@
       ]
     },
     {
-      "id": 203,
+      "id": "KE-31",
       "name": "Nakuru",
       "stateCode": "31",
       "latitude": -0.3030988,
@@ -1441,7 +1441,7 @@
       ]
     },
     {
-      "id": 205,
+      "id": "KE-40",
       "name": "Tana River",
       "stateCode": "40",
       "latitude": -1.6518468,
@@ -1466,7 +1466,7 @@
       ]
     },
     {
-      "id": 206,
+      "id": "KE-43",
       "name": "Turkana",
       "stateCode": "43",
       "latitude": 3.3122477,
@@ -1484,7 +1484,7 @@
       ]
     },
     {
-      "id": 207,
+      "id": "KE-37",
       "name": "Samburu",
       "stateCode": "37",
       "latitude": 1.2154506,
@@ -1502,7 +1502,7 @@
       ]
     },
     {
-      "id": 208,
+      "id": "KE-47",
       "name": "West Pokot",
       "stateCode": "47",
       "latitude": 1.6210076,
@@ -1548,7 +1548,7 @@
       ]
     },
     {
-      "id": 209,
+      "id": "KE-34",
       "name": "Nyamira",
       "stateCode": "34",
       "latitude": -0.5669405,
@@ -1573,7 +1573,7 @@
       ]
     },
     {
-      "id": 210,
+      "id": "KE-02",
       "name": "Bomet",
       "stateCode": "02",
       "latitude": -0.8015009,
@@ -1598,7 +1598,7 @@
       ]
     },
     {
-      "id": 211,
+      "id": "KE-18",
       "name": "Kitui",
       "stateCode": "18",
       "latitude": -1.6832822,

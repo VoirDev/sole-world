@@ -1,5 +1,5 @@
 {
-  "id": 77,
+  "id": "PF",
   "name": "French Polynesia",
   "nativeName": "Polynésie française",
   "iso2": "PF",
@@ -9,19 +9,19 @@
   "tld": ".pf",
   "latitude": -15,
   "longitude": -140,
-  "flagId": 76,
-  "regionId": 5,
-  "subregionId": 22,
+  "flagId": "pf",
+  "regionId": "oceania",
+  "subregionId": "polynesia",
   "currencyIds": [
-    885
+    "XPF"
   ],
   "timezoneIds": [
-    2379,
-    2380,
-    2381
+    "Pacific/Gambier",
+    "Pacific/Marquesas",
+    "Pacific/Tahiti"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 5369,
+      "id": "PF-01",
       "name": "Austral Islands",
       "stateCode": "01",
       "latitude": -24.6210877,
@@ -138,7 +138,7 @@
       ]
     },
     {
-      "id": 5370,
+      "id": "PF-02",
       "name": "Leeward Islands",
       "stateCode": "02",
       "latitude": -16.3314442,
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "id": 5371,
+      "id": "PF-03",
       "name": "Marquesas Islands",
       "stateCode": "03",
       "latitude": -9.1785299,
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "id": 5372,
+      "id": "PF-04",
       "name": "Tuamotu-Gambier",
       "stateCode": "04",
       "latitude": -18.3207157,
@@ -381,7 +381,7 @@
       ]
     },
     {
-      "id": 5373,
+      "id": "PF-05",
       "name": "Windward Islands",
       "stateCode": "05",
       "latitude": -17.4253967,

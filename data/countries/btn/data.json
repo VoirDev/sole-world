@@ -1,5 +1,5 @@
 {
-  "id": 26,
+  "id": "BT",
   "name": "Bhutan",
   "nativeName": "ʼbrug-yul",
   "iso2": "BT",
@@ -9,17 +9,17 @@
   "tld": ".bt",
   "latitude": 27.5,
   "longitude": 90.5,
-  "flagId": 216,
-  "regionId": 3,
-  "subregionId": 14,
+  "flagId": "bt",
+  "regionId": "asia",
+  "subregionId": "southern-asia",
   "currencyIds": [
-    853
+    "BTN"
   ],
   "timezoneIds": [
-    2280
+    "Asia/Thimphu"
   ],
   "officialLanguageIds": [
-    75
+    "dz"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 229,
+      "id": "BT-GA",
       "name": "Gasa ",
       "stateCode": "GA",
       "latitude": 28.0185886,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 230,
+      "id": "BT-21",
       "name": "Tsirang ",
       "stateCode": "21",
       "latitude": 27.032207,
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "id": 231,
+      "id": "BT-24",
       "name": "Wangdue Phodrang ",
       "stateCode": "24",
       "latitude": 27.4526046,
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "id": 232,
+      "id": "BT-13",
       "name": "Haa ",
       "stateCode": "13",
       "latitude": 27.2651669,
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "id": 233,
+      "id": "BT-34",
       "name": "Zhemgang ",
       "stateCode": "34",
       "latitude": 27.076975,
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "id": 234,
+      "id": "BT-44",
       "name": "Lhuntse ",
       "stateCode": "44",
       "latitude": 27.8264989,
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "id": 235,
+      "id": "BT-23",
       "name": "Punakha ",
       "stateCode": "23",
       "latitude": 27.6903716,
@@ -279,7 +279,7 @@
       ]
     },
     {
-      "id": 236,
+      "id": "BT-41",
       "name": "Trashigang ",
       "stateCode": "41",
       "latitude": 27.2566795,
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "id": 237,
+      "id": "BT-11",
       "name": "Paro ",
       "stateCode": "11",
       "latitude": 27.4285949,
@@ -378,7 +378,7 @@
       ]
     },
     {
-      "id": 238,
+      "id": "BT-22",
       "name": "Dagana ",
       "stateCode": "22",
       "latitude": 27.0322861,
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "id": 239,
+      "id": "BT-12",
       "name": "Chukha ",
       "stateCode": "12",
       "latitude": 27.0784304,
@@ -463,7 +463,7 @@
       ]
     },
     {
-      "id": 240,
+      "id": "BT-33",
       "name": "Bumthang ",
       "stateCode": "33",
       "latitude": 27.641839,
@@ -488,7 +488,7 @@
       ]
     },
     {
-      "id": 241,
+      "id": "BT-15",
       "name": "Thimphu ",
       "stateCode": "15",
       "latitude": 27.4712216,
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "id": 242,
+      "id": "BT-42",
       "name": "Mongar ",
       "stateCode": "42",
       "latitude": 27.2617059,
@@ -538,7 +538,7 @@
       ]
     },
     {
-      "id": 243,
+      "id": "BT-45",
       "name": "Samdrup Jongkhar ",
       "stateCode": "45",
       "latitude": 26.8035682,
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "id": 244,
+      "id": "BT-43",
       "name": "Pemagatshel ",
       "stateCode": "43",
       "latitude": 27.002382,
@@ -581,7 +581,7 @@
       ]
     },
     {
-      "id": 245,
+      "id": "BT-32",
       "name": "Trongsa ",
       "stateCode": "32",
       "latitude": 27.5002269,
@@ -599,7 +599,7 @@
       ]
     },
     {
-      "id": 246,
+      "id": "BT-14",
       "name": "Samtse ",
       "stateCode": "14",
       "latitude": 27.0291832,
@@ -638,7 +638,7 @@
       ]
     },
     {
-      "id": 247,
+      "id": "BT-31",
       "name": "Sarpang ",
       "stateCode": "31",
       "latitude": 26.9373041,
@@ -677,7 +677,7 @@
       ]
     },
     {
-      "id": 5242,
+      "id": "BT-TY",
       "name": "Trashi Yangtse\t",
       "stateCode": "TY",
       "latitude": 27.717585,

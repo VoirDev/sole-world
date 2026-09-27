@@ -1,5 +1,5 @@
 {
-  "id": 94,
+  "id": "GY",
   "name": "Guyana",
   "nativeName": "Guyana",
   "iso2": "GY",
@@ -9,17 +9,17 @@
   "tld": ".gy",
   "latitude": 5,
   "longitude": -59,
-  "flagId": 155,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "gy",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    892
+    "GYD"
   ],
   "timezoneIds": [
-    2401
+    "America/Guyana"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2760,
+      "id": "GY-CU",
       "name": "Cuyuni-Mazaruni",
       "stateCode": "CU",
       "latitude": 6.4642141,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 2761,
+      "id": "GY-PT",
       "name": "Potaro-Siparuni",
       "stateCode": "PT",
       "latitude": 4.7855853,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 2762,
+      "id": "GY-MA",
       "name": "Mahaica-Berbice",
       "stateCode": "MA",
       "latitude": 6.238496,
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": 2763,
+      "id": "GY-UD",
       "name": "Upper Demerara-Berbice",
       "stateCode": "UD",
       "latitude": 5.3064879,
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "id": 2764,
+      "id": "GY-BA",
       "name": "Barima-Waini",
       "stateCode": "BA",
       "latitude": 7.4882419,
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "id": 2765,
+      "id": "GY-PM",
       "name": "Pomeroon-Supenaam",
       "stateCode": "PM",
       "latitude": 7.1294166,
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "id": 2766,
+      "id": "GY-EB",
       "name": "East Berbice-Corentyne",
       "stateCode": "EB",
       "latitude": 2.7477922,
@@ -230,7 +230,7 @@
       ]
     },
     {
-      "id": 2767,
+      "id": "GY-DE",
       "name": "Demerara-Mahaica",
       "stateCode": "DE",
       "latitude": 6.546426,
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "id": 2768,
+      "id": "GY-ES",
       "name": "Essequibo Islands-West Demerara",
       "stateCode": "ES",
       "latitude": 6.5720132,
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "id": 2769,
+      "id": "GY-UT",
       "name": "Upper Takutu-Upper Essequibo",
       "stateCode": "UT",
       "latitude": 2.9239595,

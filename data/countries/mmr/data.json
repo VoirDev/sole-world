@@ -1,5 +1,5 @@
 {
-  "id": 151,
+  "id": "MM",
   "name": "Myanmar",
   "nativeName": "မြန်မာ",
   "iso2": "MM",
@@ -9,17 +9,17 @@
   "tld": ".mm",
   "latitude": 22,
   "longitude": 98,
-  "flagId": 105,
-  "regionId": 3,
-  "subregionId": 13,
+  "flagId": "mm",
+  "regionId": "asia",
+  "subregionId": "south-eastern-asia",
   "currencyIds": [
-    928
+    "MMK"
   ],
   "timezoneIds": [
-    2482
+    "Asia/Yangon"
   ],
   "officialLanguageIds": [
-    124
+    "my"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2133,
+      "id": "MM-13",
       "name": "Kayin",
       "stateCode": "13",
       "latitude": 16.9459346,
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "id": 2134,
+      "id": "MM-04",
       "name": "Mandalay",
       "stateCode": "04",
       "latitude": 21.5619058,
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "id": 2135,
+      "id": "MM-06",
       "name": "Yangon",
       "stateCode": "06",
       "latitude": 16.9143488,
@@ -284,7 +284,7 @@
       ]
     },
     {
-      "id": 2136,
+      "id": "MM-03",
       "name": "Magway",
       "stateCode": "03",
       "latitude": 19.8871386,
@@ -351,7 +351,7 @@
       ]
     },
     {
-      "id": 2137,
+      "id": "MM-14",
       "name": "Chin",
       "stateCode": "14",
       "latitude": 22.0086978,
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "id": 2138,
+      "id": "MM-16",
       "name": "Rakhine",
       "stateCode": "16",
       "latitude": 20.1040818,
@@ -394,7 +394,7 @@
       ]
     },
     {
-      "id": 2139,
+      "id": "MM-17",
       "name": "Shan",
       "stateCode": "17",
       "latitude": 22.0361985,
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": 2140,
+      "id": "MM-05",
       "name": "Tanintharyi",
       "stateCode": "05",
       "latitude": 12.4706876,
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": 2141,
+      "id": "MM-02",
       "name": "Bago",
       "stateCode": "02",
       "latitude": 17.3220711,
@@ -532,7 +532,7 @@
       ]
     },
     {
-      "id": 2142,
+      "id": "MM-07",
       "name": "Ayeyarwady",
       "stateCode": "07",
       "latitude": 17.0342125,
@@ -613,7 +613,7 @@
       ]
     },
     {
-      "id": 2143,
+      "id": "MM-11",
       "name": "Kachin",
       "stateCode": "11",
       "latitude": 25.850904,
@@ -638,7 +638,7 @@
       ]
     },
     {
-      "id": 2144,
+      "id": "MM-12",
       "name": "Kayah",
       "stateCode": "12",
       "latitude": 19.2342061,
@@ -656,7 +656,7 @@
       ]
     },
     {
-      "id": 2145,
+      "id": "MM-01",
       "name": "Sagaing",
       "stateCode": "01",
       "latitude": 24.428381,
@@ -695,7 +695,7 @@
       ]
     },
     {
-      "id": 2146,
+      "id": "MM-18",
       "name": "Naypyidaw",
       "stateCode": "18",
       "latitude": 19.9386245,
@@ -720,7 +720,7 @@
       ]
     },
     {
-      "id": 2147,
+      "id": "MM-15",
       "name": "Mon State",
       "stateCode": "15",
       "latitude": 16.3003133,

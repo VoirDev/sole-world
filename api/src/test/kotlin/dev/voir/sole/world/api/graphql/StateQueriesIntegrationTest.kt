@@ -11,7 +11,7 @@ class StateQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              state(id: 501) {
+              state(id: "FD-NF") {
                 id
                 name
                 stateCode
@@ -25,11 +25,11 @@ class StateQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
         assertNoErrors(response)
         val state = response.at("/data/state")
-        assertEquals("501", state["id"].stringValue())
+        assertEquals("FD-NF", state["id"].stringValue())
         assertEquals("North Freedonia", state["name"].stringValue())
         assertEquals("NF", state["stateCode"].stringValue())
         assertEquals("province", state["type"].stringValue())
-        assertEquals("1", state["countryId"].stringValue())
+        assertEquals("FD", state["countryId"].stringValue())
         assertEquals(45.2, state.at("/coordinates/latitude").doubleValue(), 0.000001)
         assertEquals(19.3, state.at("/coordinates/longitude").doubleValue(), 0.000001)
     }
@@ -39,8 +39,8 @@ class StateQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: statesByIds(ids: [501, 502, 999]) { id name coordinates { latitude } }
-              stateWithoutCoordinates: state(id: 502) { id coordinates { latitude } }
+              requested: statesByIds(ids: ["FD-NF", "fd-sf", "FD-XX"]) { id name coordinates { latitude } }
+              stateWithoutCoordinates: state(id: "FD-SF") { id coordinates { latitude } }
             }
             """.trimIndent(),
         )
@@ -55,7 +55,7 @@ class StateQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              state(id: 999) { id }
+              state(id: "FD-XX") { id }
             }
             """.trimIndent(),
         )

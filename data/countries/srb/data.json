@@ -1,5 +1,5 @@
 {
-  "id": 196,
+  "id": "RS",
   "name": "Serbia",
   "nativeName": "Србија",
   "iso2": "RS",
@@ -9,17 +9,17 @@
   "tld": ".rs",
   "latitude": 44,
   "longitude": 21,
-  "flagId": 61,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "rs",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    952
+    "RSD"
   ],
   "timezoneIds": [
-    2432
+    "Europe/Belgrade"
   ],
   "officialLanguageIds": [
-    63
+    "sr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3711,
+      "id": "RS-06",
       "name": "South Bačka",
       "stateCode": "06",
       "latitude": 45.4890344,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 3712,
+      "id": "RS-22",
       "name": "Pirot",
       "stateCode": "22",
       "latitude": 43.0874036,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 3713,
+      "id": "RS-04",
       "name": "South Banat",
       "stateCode": "04",
       "latitude": 45.0027457,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 3714,
+      "id": "RS-01",
       "name": "North Bačka",
       "stateCode": "01",
       "latitude": 45.9803394,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 3715,
+      "id": "RS-23",
       "name": "Jablanica",
       "stateCode": "23",
       "latitude": 42.948156,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 3716,
+      "id": "RS-02",
       "name": "Central Banat",
       "stateCode": "02",
       "latitude": 45.4788485,
@@ -1152,7 +1152,7 @@
       ]
     },
     {
-      "id": 3717,
+      "id": "RS-14",
       "name": "Bor",
       "stateCode": "14",
       "latitude": 44.0698918,
@@ -1162,7 +1162,7 @@
       "cities": []
     },
     {
-      "id": 3718,
+      "id": "RS-21",
       "name": "Toplica",
       "stateCode": "21",
       "latitude": 43.1906592,
@@ -1172,7 +1172,7 @@
       "cities": []
     },
     {
-      "id": 3719,
+      "id": "RS-08",
       "name": "Mačva",
       "stateCode": "08",
       "latitude": 44.5925314,
@@ -1182,7 +1182,7 @@
       "cities": []
     },
     {
-      "id": 3720,
+      "id": "RS-19",
       "name": "Rasina",
       "stateCode": "19",
       "latitude": 43.5263525,
@@ -1192,7 +1192,7 @@
       "cities": []
     },
     {
-      "id": 3721,
+      "id": "RS-24",
       "name": "Pčinja",
       "stateCode": "24",
       "latitude": 42.5836362,
@@ -1202,7 +1202,7 @@
       "cities": []
     },
     {
-      "id": 3722,
+      "id": "RS-20",
       "name": "Nišava",
       "stateCode": "20",
       "latitude": 43.3738902,
@@ -1212,7 +1212,7 @@
       "cities": []
     },
     {
-      "id": 3724,
+      "id": "RS-09",
       "name": "Kolubara",
       "stateCode": "09",
       "latitude": 44.3509811,
@@ -1222,7 +1222,7 @@
       "cities": []
     },
     {
-      "id": 3725,
+      "id": "RS-18",
       "name": "Raška",
       "stateCode": "18",
       "latitude": 43.3373461,
@@ -1232,7 +1232,7 @@
       "cities": []
     },
     {
-      "id": 3726,
+      "id": "RS-05",
       "name": "West Bačka",
       "stateCode": "05",
       "latitude": 45.7355385,
@@ -1242,7 +1242,7 @@
       "cities": []
     },
     {
-      "id": 3727,
+      "id": "RS-17",
       "name": "Moravica",
       "stateCode": "17",
       "latitude": 43.84147,
@@ -1252,7 +1252,7 @@
       "cities": []
     },
     {
-      "id": 3728,
+      "id": "RS-00",
       "name": "Belgrade",
       "stateCode": "00",
       "latitude": 44.786568,
@@ -1262,7 +1262,7 @@
       "cities": []
     },
     {
-      "id": 3729,
+      "id": "RS-16",
       "name": "Zlatibor",
       "stateCode": "16",
       "latitude": 43.645417,
@@ -1272,7 +1272,7 @@
       "cities": []
     },
     {
-      "id": 3731,
+      "id": "RS-15",
       "name": "Zaječar",
       "stateCode": "15",
       "latitude": 43.9015048,
@@ -1282,7 +1282,7 @@
       "cities": []
     },
     {
-      "id": 3732,
+      "id": "RS-11",
       "name": "Braničevo",
       "stateCode": "11",
       "latitude": 44.6982246,
@@ -1292,7 +1292,7 @@
       "cities": []
     },
     {
-      "id": 3733,
+      "id": "RS-VO",
       "name": "Vojvodina",
       "stateCode": "VO",
       "latitude": 45.2608651,
@@ -2640,7 +2640,7 @@
       ]
     },
     {
-      "id": 3734,
+      "id": "RS-12",
       "name": "Šumadija",
       "stateCode": "12",
       "latitude": 44.2050678,
@@ -2650,7 +2650,7 @@
       "cities": []
     },
     {
-      "id": 3736,
+      "id": "RS-03",
       "name": "North Banat",
       "stateCode": "03",
       "latitude": 45.906839,
@@ -2660,7 +2660,7 @@
       "cities": []
     },
     {
-      "id": 3737,
+      "id": "RS-13",
       "name": "Pomoravlje",
       "stateCode": "13",
       "latitude": 43.9591379,
@@ -2670,7 +2670,7 @@
       "cities": []
     },
     {
-      "id": 3740,
+      "id": "RS-07",
       "name": "Srem",
       "stateCode": "07",
       "latitude": 45.0029171,
@@ -2680,7 +2680,7 @@
       "cities": []
     },
     {
-      "id": 3741,
+      "id": "RS-10",
       "name": "Podunavlje",
       "stateCode": "10",
       "latitude": 44.4729156,

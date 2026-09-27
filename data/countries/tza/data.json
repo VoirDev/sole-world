@@ -1,5 +1,5 @@
 {
-  "id": 218,
+  "id": "TZ",
   "name": "Tanzania",
   "nativeName": "Tanzania",
   "iso2": "TZ",
@@ -9,18 +9,18 @@
   "tld": ".tz",
   "latitude": -6,
   "longitude": 35,
-  "flagId": 22,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "tz",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    968
+    "TZS"
   ],
   "timezoneIds": [
-    2581
+    "Africa/Dar_es_Salaam"
   ],
   "officialLanguageIds": [
-    159,
-    30
+    "sw",
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 1463,
+      "id": "TZ-22",
       "name": "Shinyanga",
       "stateCode": "22",
       "latitude": -3.6809961,
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "id": 1464,
+      "id": "TZ-30",
       "name": "Simiyu",
       "stateCode": "30",
       "latitude": -2.8308738,
@@ -239,7 +239,7 @@
       ]
     },
     {
-      "id": 1465,
+      "id": "TZ-05",
       "name": "Kagera",
       "stateCode": "05",
       "latitude": -1.3001115,
@@ -348,7 +348,7 @@
       ]
     },
     {
-      "id": 1466,
+      "id": "TZ-03",
       "name": "Dodoma",
       "stateCode": "03",
       "latitude": -6.5738228,
@@ -408,7 +408,7 @@
       ]
     },
     {
-      "id": 1467,
+      "id": "TZ-09",
       "name": "Kilimanjaro",
       "stateCode": "09",
       "latitude": -4.1336927,
@@ -454,7 +454,7 @@
       ]
     },
     {
-      "id": 1468,
+      "id": "TZ-13",
       "name": "Mara",
       "stateCode": "13",
       "latitude": -1.7753538,
@@ -549,7 +549,7 @@
       ]
     },
     {
-      "id": 1469,
+      "id": "TZ-24",
       "name": "Tabora",
       "stateCode": "24",
       "latitude": -5.0342138,
@@ -616,7 +616,7 @@
       ]
     },
     {
-      "id": 1470,
+      "id": "TZ-16",
       "name": "Morogoro",
       "stateCode": "16",
       "latitude": -8.8137173,
@@ -753,7 +753,7 @@
       ]
     },
     {
-      "id": 1471,
+      "id": "TZ-11",
       "name": "Zanzibar South",
       "stateCode": "11",
       "latitude": -6.2642851,
@@ -799,7 +799,7 @@
       ]
     },
     {
-      "id": 1472,
+      "id": "TZ-10",
       "name": "Pemba South",
       "stateCode": "10",
       "latitude": -5.3146961,
@@ -831,7 +831,7 @@
       ]
     },
     {
-      "id": 1473,
+      "id": "TZ-07",
       "name": "Zanzibar North",
       "stateCode": "07",
       "latitude": -5.9395093,
@@ -877,7 +877,7 @@
       ]
     },
     {
-      "id": 1474,
+      "id": "TZ-23",
       "name": "Singida",
       "stateCode": "23",
       "latitude": -6.7453352,
@@ -993,7 +993,7 @@
       ]
     },
     {
-      "id": 1475,
+      "id": "TZ-15",
       "name": "Zanzibar West",
       "stateCode": "15",
       "latitude": -6.2298136,
@@ -1011,7 +1011,7 @@
       ]
     },
     {
-      "id": 1476,
+      "id": "TZ-17",
       "name": "Mtwara",
       "stateCode": "17",
       "latitude": -10.3398455,
@@ -1155,7 +1155,7 @@
       ]
     },
     {
-      "id": 1477,
+      "id": "TZ-20",
       "name": "Rukwa",
       "stateCode": "20",
       "latitude": -8.0109444,
@@ -1215,7 +1215,7 @@
       ]
     },
     {
-      "id": 1478,
+      "id": "TZ-08",
       "name": "Kigoma",
       "stateCode": "08",
       "latitude": -4.8824092,
@@ -1282,7 +1282,7 @@
       ]
     },
     {
-      "id": 1479,
+      "id": "TZ-18",
       "name": "Mwanza",
       "stateCode": "18",
       "latitude": -2.4671197,
@@ -1356,7 +1356,7 @@
       ]
     },
     {
-      "id": 1480,
+      "id": "TZ-29",
       "name": "Njombe",
       "stateCode": "29",
       "latitude": -9.2422632,
@@ -1416,7 +1416,7 @@
       ]
     },
     {
-      "id": 1481,
+      "id": "TZ-27",
       "name": "Geita",
       "stateCode": "27",
       "latitude": -2.8242257,
@@ -1483,7 +1483,7 @@
       ]
     },
     {
-      "id": 1482,
+      "id": "TZ-28",
       "name": "Katavi",
       "stateCode": "28",
       "latitude": -6.3677125,
@@ -1522,7 +1522,7 @@
       ]
     },
     {
-      "id": 1483,
+      "id": "TZ-12",
       "name": "Lindi",
       "stateCode": "12",
       "latitude": -9.2343394,
@@ -1582,7 +1582,7 @@
       ]
     },
     {
-      "id": 1484,
+      "id": "TZ-26",
       "name": "Manyara",
       "stateCode": "26",
       "latitude": -4.3150058,
@@ -1691,7 +1691,7 @@
       ]
     },
     {
-      "id": 1485,
+      "id": "TZ-19",
       "name": "Pwani",
       "stateCode": "19",
       "latitude": -7.3237714,
@@ -1814,7 +1814,7 @@
       ]
     },
     {
-      "id": 1486,
+      "id": "TZ-21",
       "name": "Ruvuma",
       "stateCode": "21",
       "latitude": -10.6878717,
@@ -1888,7 +1888,7 @@
       ]
     },
     {
-      "id": 1487,
+      "id": "TZ-25",
       "name": "Tanga",
       "stateCode": "25",
       "latitude": -5.3049789,
@@ -1997,7 +1997,7 @@
       ]
     },
     {
-      "id": 1488,
+      "id": "TZ-06",
       "name": "Pemba North",
       "stateCode": "06",
       "latitude": -5.0319352,
@@ -2029,7 +2029,7 @@
       ]
     },
     {
-      "id": 1489,
+      "id": "TZ-04",
       "name": "Iringa",
       "stateCode": "04",
       "latitude": -7.7887442,
@@ -2082,7 +2082,7 @@
       ]
     },
     {
-      "id": 1490,
+      "id": "TZ-02",
       "name": "Dar es Salaam",
       "stateCode": "02",
       "latitude": -6.792354,
@@ -2142,7 +2142,7 @@
       ]
     },
     {
-      "id": 1491,
+      "id": "TZ-01",
       "name": "Arusha",
       "stateCode": "01",
       "latitude": -3.3869254,
@@ -2251,7 +2251,7 @@
       ]
     },
     {
-      "id": 4955,
+      "id": "TZ-14",
       "name": "Mbeya",
       "stateCode": "14",
       "latitude": -8.2866112,
@@ -2514,7 +2514,7 @@
       ]
     },
     {
-      "id": 4956,
+      "id": "TZ-31",
       "name": "Songwe",
       "stateCode": "31",
       "latitude": -8.272612,

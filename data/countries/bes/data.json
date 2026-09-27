@@ -1,5 +1,5 @@
 {
-  "id": 155,
+  "id": "BQ",
   "name": "Bonaire, Sint Eustatius and Saba",
   "nativeName": "Caribisch Nederland",
   "iso2": "BQ",
@@ -9,20 +9,20 @@
   "tld": ".an",
   "latitude": 12.15,
   "longitude": -68.266667,
-  "flagId": 219,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "bq",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2659
+    "America/Kralendijk"
   ],
   "officialLanguageIds": [
-    29
+    "nl"
   ],
   "otherLanguageIds": [
-    30
+    "en"
   ],
   "translations": [
     {
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 5086,
+      "id": "BQ-BQ1",
       "name": "Bonaire",
       "stateCode": "BQ1",
       "latitude": 12.2018902,
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "id": 5087,
+      "id": "BQ-BQ2",
       "name": "Saba",
       "stateCode": "BQ2",
       "latitude": 17.6354642,
@@ -169,7 +169,7 @@
       "cities": []
     },
     {
-      "id": 5088,
+      "id": "BQ-BQ3",
       "name": "Sint Eustatius",
       "stateCode": "BQ3",
       "latitude": 17.4890306,

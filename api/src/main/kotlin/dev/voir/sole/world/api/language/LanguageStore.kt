@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.language
 
 import dev.voir.sole.world.api.dataset.RawDataset
+import dev.voir.sole.world.api.dataset.index.IdIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedName
 import dev.voir.sole.world.api.dataset.index.Page
@@ -31,9 +32,7 @@ class LanguageStore(dataset: RawDataset) {
         )
     }
 
-    private val byId: Map<Long, LanguageRecord> = records.associateBy { it.id }
-
-    private val byCode: Map<String, LanguageRecord> = records.associateBy { it.code.lowercase() }
+    private val byId: IdIndex<LanguageRecord> = IdIndex.of(records) { it.id }
 
     private val index = LocalizedIndex(
         records = records,
@@ -41,10 +40,12 @@ class LanguageStore(dataset: RawDataset) {
         tieBreaker = { it.id },
     )
 
-    private val idsByCountryId: Map<Long, List<Long>> = dataset.countries.associate { country ->
-        // Official and other languages are both "languages of the country" to a reader.
-        country.id to (country.officialLanguageIds + country.otherLanguageIds).distinct()
-    }
+    private val idsByCountryId: IdIndex<List<String>> = IdIndex.from(
+        dataset.countries.associate { country ->
+            // Official and other languages are both "languages of the country" to a reader.
+            country.id to (country.officialLanguageIds + country.otherLanguageIds).distinct()
+        },
+    )
 
     /** Total number of languages. */
     val size: Int get() = records.size
@@ -55,18 +56,7 @@ class LanguageStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching language, or null when none exists.
      */
-    fun byId(id: Long, languageCode: String?): LanguageData? = byId[id]?.localized(languageCode)
-
-    /**
-     * Loads one language by its identifier or its language code.
-     * @param identifier Numeric identifier or language code such as "fr".
-     * @param languageCode Internal language code, or null for base data.
-     * @return Matching language, or null when none exists.
-     */
-    fun byIdentifier(identifier: String, languageCode: String?): LanguageData? {
-        val record = identifier.toLongOrNull()?.let(byId::get) ?: byCode[identifier.lowercase()]
-        return record?.localized(languageCode)
-    }
+    fun byId(id: String, languageCode: String?): LanguageData? = byId[id]?.localized(languageCode)
 
     /**
      * Loads several languages, skipping identifiers that do not exist.
@@ -74,7 +64,7 @@ class LanguageStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching languages in request order.
      */
-    fun byIds(ids: List<Long>, languageCode: String?): List<LanguageData> =
+    fun byIds(ids: List<String>, languageCode: String?): List<LanguageData> =
         ids.mapNotNull { byId[it]?.localized(languageCode) }
 
     /**
@@ -108,7 +98,7 @@ class LanguageStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Languages ordered by localized name.
      */
-    fun byCountryId(countryId: Long, languageCode: String?): List<LanguageData> {
+    fun byCountryId(countryId: String, languageCode: String?): List<LanguageData> {
         val ids = idsByCountryId[countryId].orEmpty()
         if (ids.isEmpty()) {
             return emptyList()
@@ -130,13 +120,13 @@ class LanguageStore(dataset: RawDataset) {
  * @property flagId Shared flag identifier, when available.
  */
 private class LanguageRecord(
-    val id: Long,
+    val id: String,
     val code: String,
     val nativeName: String?,
     val name: LocalizedName,
     val description: String?,
     val descriptionTranslations: Map<String, String>,
-    val flagId: Long?,
+    val flagId: String?,
 ) {
     /** Scores this language against a search query. */
     fun score(query: SearchQuery): Int {

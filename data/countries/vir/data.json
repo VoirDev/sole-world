@@ -1,5 +1,5 @@
 {
-  "id": 242,
+  "id": "VI",
   "name": "United States Virgin Islands",
   "nativeName": "United States Virgin Islands",
   "iso2": "VI",
@@ -9,17 +9,17 @@
   "tld": ".vi",
   "latitude": 18.34,
   "longitude": -64.93,
-  "flagId": 11,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "vi",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2641
+    "America/St_Thomas"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 5072,
+      "id": "VI-ST",
       "name": "Saint Thomas",
       "stateCode": "ST",
       "latitude": 18.3428459,
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "id": 5073,
+      "id": "VI-SJ",
       "name": "Saint John",
       "stateCode": "SJ",
       "latitude": 18.3356169,
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": 5074,
+      "id": "VI-SC",
       "name": "Saint Croix",
       "stateCode": "SC",
       "latitude": 17.729352,

@@ -1,5 +1,5 @@
 {
-  "id": 189,
+  "id": "BL",
   "name": "Saint Barthélemy",
   "nativeName": "Saint-Barthélemy",
   "iso2": "BL",
@@ -9,17 +9,17 @@
   "tld": ".bl",
   "latitude": 18.5,
   "longitude": -63.41666666,
-  "flagId": 223,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "bl",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2551
+    "America/St_Barthelemy"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [

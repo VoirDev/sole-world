@@ -1,5 +1,5 @@
 {
-  "id": 165,
+  "id": "NO",
   "name": "Norway",
   "nativeName": "Norge",
   "iso2": "NO",
@@ -9,17 +9,17 @@
   "tld": ".no",
   "latitude": 62,
   "longitude": 10,
-  "flagId": 84,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "no",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    935
+    "NOK"
   ],
   "timezoneIds": [
-    2498
+    "Europe/Oslo"
   ],
   "officialLanguageIds": [
-    61
+    "no"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1006,
+      "id": "NO-50",
       "name": "Trøndelag",
       "stateCode": "50",
       "latitude": 63.5420125,
@@ -570,7 +570,7 @@
       ]
     },
     {
-      "id": 1007,
+      "id": "NO-03",
       "name": "Oslo",
       "stateCode": "03",
       "latitude": 59.9138688,
@@ -595,7 +595,7 @@
       ]
     },
     {
-      "id": 1009,
+      "id": "NO-34",
       "name": "Innlandet",
       "stateCode": "34",
       "latitude": 61.1935787,
@@ -1124,7 +1124,7 @@
       ]
     },
     {
-      "id": 1011,
+      "id": "NO-30",
       "name": "Viken",
       "stateCode": "30",
       "latitude": 59.9653005,
@@ -1898,7 +1898,7 @@
       ]
     },
     {
-      "id": 1013,
+      "id": "NO-21",
       "name": "Svalbard",
       "stateCode": "21",
       "latitude": 77.8749725,
@@ -1908,7 +1908,7 @@
       "cities": []
     },
     {
-      "id": 1014,
+      "id": "NO-42",
       "name": "Agder",
       "stateCode": "42",
       "latitude": 58.7406934,
@@ -2094,7 +2094,7 @@
       ]
     },
     {
-      "id": 1015,
+      "id": "NO-54",
       "name": "Troms og Finnmark",
       "stateCode": "54",
       "latitude": 69.7789067,
@@ -2560,7 +2560,7 @@
       ]
     },
     {
-      "id": 1018,
+      "id": "NO-46",
       "name": "Vestland",
       "stateCode": "46",
       "latitude": 60.9069442,
@@ -3264,7 +3264,7 @@
       ]
     },
     {
-      "id": 1020,
+      "id": "NO-15",
       "name": "Møre og Romsdal",
       "stateCode": "15",
       "latitude": 62.8406833,
@@ -3639,7 +3639,7 @@
       ]
     },
     {
-      "id": 1021,
+      "id": "NO-11",
       "name": "Rogaland",
       "stateCode": "11",
       "latitude": 59.1489544,
@@ -3993,7 +3993,7 @@
       ]
     },
     {
-      "id": 1024,
+      "id": "NO-38",
       "name": "Vestfold og Telemark",
       "stateCode": "38",
       "latitude": 59.4117482,
@@ -4326,7 +4326,7 @@
       ]
     },
     {
-      "id": 1025,
+      "id": "NO-18",
       "name": "Nordland",
       "stateCode": "18",
       "latitude": 67.693058,
@@ -4883,7 +4883,7 @@
       ]
     },
     {
-      "id": 1026,
+      "id": "NO-22",
       "name": "Jan Mayen",
       "stateCode": "22",
       "latitude": 71.031818,

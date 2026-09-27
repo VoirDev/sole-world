@@ -1,5 +1,5 @@
 {
-  "id": 69,
+  "id": "EE",
   "name": "Estonia",
   "nativeName": "Eesti",
   "iso2": "EE",
@@ -9,17 +9,17 @@
   "tld": ".ee",
   "latitude": 59,
   "longitude": 26,
-  "flagId": 187,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "ee",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2370
+    "Europe/Tallinn"
   ],
   "officialLanguageIds": [
-    31
+    "et"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3555,
+      "id": "EE-39",
       "name": "Hiiu",
       "stateCode": "39",
       "latitude": 58.9239553,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 3556,
+      "id": "EE-84",
       "name": "Viljandi",
       "stateCode": "84",
       "latitude": 58.2821746,
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "id": 3557,
+      "id": "EE-78",
       "name": "Tartu",
       "stateCode": "78",
       "latitude": 58.4057128,
@@ -298,7 +298,7 @@
       ]
     },
     {
-      "id": 3558,
+      "id": "EE-82",
       "name": "Valga",
       "stateCode": "82",
       "latitude": 57.9103441,
@@ -330,7 +330,7 @@
       ]
     },
     {
-      "id": 3559,
+      "id": "EE-70",
       "name": "Rapla",
       "stateCode": "70",
       "latitude": 58.8492625,
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "id": 3560,
+      "id": "EE-86",
       "name": "Võru",
       "stateCode": "86",
       "latitude": 57.7377372,
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "id": 3561,
+      "id": "EE-74",
       "name": "Saare",
       "stateCode": "74",
       "latitude": 58.4849721,
@@ -531,7 +531,7 @@
       ]
     },
     {
-      "id": 3562,
+      "id": "EE-67",
       "name": "Pärnu",
       "stateCode": "67",
       "latitude": 58.5261952,
@@ -654,7 +654,7 @@
       ]
     },
     {
-      "id": 3563,
+      "id": "EE-65",
       "name": "Põlva",
       "stateCode": "65",
       "latitude": 58.1160622,
@@ -707,7 +707,7 @@
       ]
     },
     {
-      "id": 3564,
+      "id": "EE-59",
       "name": "Lääne-Viru",
       "stateCode": "59",
       "latitude": 59.3018816,
@@ -858,7 +858,7 @@
       ]
     },
     {
-      "id": 3565,
+      "id": "EE-49",
       "name": "Jõgeva",
       "stateCode": "49",
       "latitude": 58.7506143,
@@ -904,7 +904,7 @@
       ]
     },
     {
-      "id": 3566,
+      "id": "EE-51",
       "name": "Järva",
       "stateCode": "51",
       "latitude": 58.8866713,
@@ -964,7 +964,7 @@
       ]
     },
     {
-      "id": 3567,
+      "id": "EE-37",
       "name": "Harju",
       "stateCode": "37",
       "latitude": 59.3334239,
@@ -1220,7 +1220,7 @@
       ]
     },
     {
-      "id": 3568,
+      "id": "EE-57",
       "name": "Lääne",
       "stateCode": "57",
       "latitude": 58.9722742,
@@ -1280,7 +1280,7 @@
       ]
     },
     {
-      "id": 3569,
+      "id": "EE-44",
       "name": "Ida-Viru",
       "stateCode": "44",
       "latitude": 59.2592663,

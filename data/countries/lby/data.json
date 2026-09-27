@@ -1,5 +1,5 @@
 {
-  "id": 124,
+  "id": "LY",
   "name": "Libya",
   "nativeName": "دولة ليبيا",
   "iso2": "LY",
@@ -9,17 +9,17 @@
   "tld": ".ly",
   "latitude": 25,
   "longitude": 17,
-  "flagId": 115,
-  "regionId": 1,
-  "subregionId": 1,
+  "flagId": "ly",
+  "regionId": "africa",
+  "subregionId": "northern-africa",
   "currencyIds": [
-    914
+    "LYD"
   ],
   "timezoneIds": [
-    2440
+    "Africa/Tripoli"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2961,
+      "id": "LY-MB",
       "name": "Murqub",
       "stateCode": "MB",
       "latitude": 32.4599677,
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "id": 2962,
+      "id": "LY-NQ",
       "name": "Nuqat al Khams",
       "stateCode": "NQ",
       "latitude": 32.6914909,
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": 2963,
+      "id": "LY-ZA",
       "name": "Zawiya",
       "stateCode": "ZA",
       "latitude": 32.7630282,
@@ -193,7 +193,7 @@
       ]
     },
     {
-      "id": 2964,
+      "id": "LY-WA",
       "name": "Al Wahat",
       "stateCode": "WA",
       "latitude": 29.0466808,
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "id": 2965,
+      "id": "LY-SB",
       "name": "Sabha",
       "stateCode": "SB",
       "latitude": 27.0365406,
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "id": 2966,
+      "id": "LY-DR",
       "name": "Derna",
       "stateCode": "DR",
       "latitude": 32.755613,
@@ -296,7 +296,7 @@
       ]
     },
     {
-      "id": 2967,
+      "id": "LY-MQ",
       "name": "Murzuq",
       "stateCode": "MQ",
       "latitude": 25.9182262,
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "id": 2968,
+      "id": "LY-MJ",
       "name": "Marj",
       "stateCode": "MJ",
       "latitude": 32.0550363,
@@ -353,7 +353,7 @@
       ]
     },
     {
-      "id": 2969,
+      "id": "LY-GT",
       "name": "Ghat",
       "stateCode": "GT",
       "latitude": 24.9640371,
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "id": 2970,
+      "id": "LY-JU",
       "name": "Jufra",
       "stateCode": "JU",
       "latitude": 27.9835135,
@@ -396,7 +396,7 @@
       ]
     },
     {
-      "id": 2971,
+      "id": "LY-TB",
       "name": "Tripoli",
       "stateCode": "TB",
       "latitude": 32.6408021,
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": 2972,
+      "id": "LY-KF",
       "name": "Kufra",
       "stateCode": "KF",
       "latitude": 23.3112389,
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": 2973,
+      "id": "LY-WD",
       "name": "Wadi al Hayaa",
       "stateCode": "WD",
       "latitude": 26.4225926,
@@ -464,7 +464,7 @@
       ]
     },
     {
-      "id": 2974,
+      "id": "LY-JG",
       "name": "Jabal al Gharbi",
       "stateCode": "JG",
       "latitude": 30.2638032,
@@ -510,7 +510,7 @@
       ]
     },
     {
-      "id": 2975,
+      "id": "LY-WS",
       "name": "Wadi al Shatii",
       "stateCode": "WS",
       "latitude": 27.7351468,
@@ -535,7 +535,7 @@
       ]
     },
     {
-      "id": 2976,
+      "id": "LY-NL",
       "name": "Nalut",
       "stateCode": "NL",
       "latitude": 31.8742348,
@@ -560,7 +560,7 @@
       ]
     },
     {
-      "id": 2977,
+      "id": "LY-SR",
       "name": "Sirte",
       "stateCode": "SR",
       "latitude": 31.189689,
@@ -585,7 +585,7 @@
       ]
     },
     {
-      "id": 2978,
+      "id": "LY-MI",
       "name": "Misrata",
       "stateCode": "MI",
       "latitude": 32.3255884,
@@ -617,7 +617,7 @@
       ]
     },
     {
-      "id": 2979,
+      "id": "LY-JI",
       "name": "Jafara",
       "stateCode": "JI",
       "latitude": 32.4525904,
@@ -635,7 +635,7 @@
       ]
     },
     {
-      "id": 2980,
+      "id": "LY-JA",
       "name": "Jabal al Akhdar",
       "stateCode": "JA",
       "latitude": 23.1856081,
@@ -653,7 +653,7 @@
       ]
     },
     {
-      "id": 2981,
+      "id": "LY-BA",
       "name": "Benghazi",
       "stateCode": "BA",
       "latitude": 32.1194242,

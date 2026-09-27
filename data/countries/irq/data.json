@@ -1,5 +1,5 @@
 {
-  "id": 104,
+  "id": "IQ",
   "name": "Iraq",
   "nativeName": "العراق",
   "iso2": "IQ",
@@ -9,18 +9,18 @@
   "tld": ".iq",
   "latitude": 33,
   "longitude": 44,
-  "flagId": 144,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "iq",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    901
+    "IQD"
   ],
   "timezoneIds": [
-    2413
+    "Asia/Baghdad"
   ],
   "officialLanguageIds": [
-    7,
-    106
+    "ar",
+    "ku"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 3954,
+      "id": "IQ-DQ",
       "name": "Dhi Qar",
       "stateCode": "DQ",
       "latitude": 31.1042292,
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": 3955,
+      "id": "IQ-BB",
       "name": "Babylon",
       "stateCode": "BB",
       "latitude": 32.468191,
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": 3956,
+      "id": "IQ-QA",
       "name": "Al-Qādisiyyah",
       "stateCode": "QA",
       "latitude": 32.043691,
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "id": 3957,
+      "id": "IQ-KA",
       "name": "Karbala",
       "stateCode": "KA",
       "latitude": 32.4045493,
@@ -233,7 +233,7 @@
       ]
     },
     {
-      "id": 3958,
+      "id": "IQ-MU",
       "name": "Al Muthanna",
       "stateCode": "MU",
       "latitude": 29.9133171,
@@ -258,7 +258,7 @@
       ]
     },
     {
-      "id": 3959,
+      "id": "IQ-BG",
       "name": "Baghdad",
       "stateCode": "BG",
       "latitude": 33.3152618,
@@ -668,7 +668,7 @@
       ]
     },
     {
-      "id": 3960,
+      "id": "IQ-BA",
       "name": "Basra",
       "stateCode": "BA",
       "latitude": 30.5114252,
@@ -721,7 +721,7 @@
       ]
     },
     {
-      "id": 3961,
+      "id": "IQ-SD",
       "name": "Saladin",
       "stateCode": "SD",
       "latitude": 34.5337527,
@@ -774,7 +774,7 @@
       ]
     },
     {
-      "id": 3962,
+      "id": "IQ-NA",
       "name": "Najaf",
       "stateCode": "NA",
       "latitude": 31.3517486,
@@ -806,7 +806,7 @@
       ]
     },
     {
-      "id": 3963,
+      "id": "IQ-NI",
       "name": "Nineveh",
       "stateCode": "NI",
       "latitude": 36.229574,
@@ -873,7 +873,7 @@
       ]
     },
     {
-      "id": 3964,
+      "id": "IQ-AN",
       "name": "Al Anbar",
       "stateCode": "AN",
       "latitude": 32.5597614,
@@ -947,7 +947,7 @@
       ]
     },
     {
-      "id": 3965,
+      "id": "IQ-DI",
       "name": "Diyala",
       "stateCode": "DI",
       "latitude": 33.7733487,
@@ -1007,7 +1007,7 @@
       ]
     },
     {
-      "id": 3966,
+      "id": "IQ-MA",
       "name": "Maysan",
       "stateCode": "MA",
       "latitude": 31.8734002,
@@ -1039,7 +1039,7 @@
       ]
     },
     {
-      "id": 3967,
+      "id": "IQ-DA",
       "name": "Dohuk",
       "stateCode": "DA",
       "latitude": 36.9077252,
@@ -1085,7 +1085,7 @@
       ]
     },
     {
-      "id": 3968,
+      "id": "IQ-AR",
       "name": "Erbil",
       "stateCode": "AR",
       "latitude": 36.5570628,
@@ -1138,7 +1138,7 @@
       ]
     },
     {
-      "id": 3969,
+      "id": "IQ-SU",
       "name": "Sulaymaniyah",
       "stateCode": "SU",
       "latitude": 35.5466348,
@@ -1177,7 +1177,7 @@
       ]
     },
     {
-      "id": 3970,
+      "id": "IQ-WA",
       "name": "Wasit",
       "stateCode": "WA",
       "latitude": 32.6024094,
@@ -1216,7 +1216,7 @@
       ]
     },
     {
-      "id": 3971,
+      "id": "IQ-KI",
       "name": "Kirkuk",
       "stateCode": "KI",
       "latitude": 35.3292014,

@@ -1,5 +1,5 @@
 {
-  "id": 138,
+  "id": "MQ",
   "name": "Martinique",
   "nativeName": "Martinique",
   "iso2": "MQ",
@@ -9,17 +9,17 @@
   "tld": ".mq",
   "latitude": 14.666667,
   "longitude": -61,
-  "flagId": 101,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "mq",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2455
+    "America/Martinique"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [

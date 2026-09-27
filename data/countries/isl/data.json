@@ -1,5 +1,5 @@
 {
-  "id": 100,
+  "id": "IS",
   "name": "Iceland",
   "nativeName": "Ísland",
   "iso2": "IS",
@@ -9,17 +9,17 @@
   "tld": ".is",
   "latitude": 65,
   "longitude": -18,
-  "flagId": 142,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "is",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    897
+    "ISK"
   ],
   "timezoneIds": [
-    2406
+    "Atlantic/Reykjavik"
   ],
   "officialLanguageIds": [
-    39
+    "is"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3430,
+      "id": "IS-2",
       "name": "Southern Peninsula",
       "stateCode": "2",
       "latitude": 63.9154803,
@@ -143,7 +143,7 @@
       ]
     },
     {
-      "id": 3431,
+      "id": "IS-1",
       "name": "Capital",
       "stateCode": "1",
       "latitude": 38.5656957,
@@ -217,7 +217,7 @@
       ]
     },
     {
-      "id": 3432,
+      "id": "IS-4",
       "name": "Westfjords",
       "stateCode": "4",
       "latitude": 65.919615,
@@ -263,7 +263,7 @@
       ]
     },
     {
-      "id": 3433,
+      "id": "IS-7",
       "name": "Eastern",
       "stateCode": "7",
       "latitude": null,
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "id": 3434,
+      "id": "IS-8",
       "name": "Southern",
       "stateCode": "8",
       "latitude": null,
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": 3435,
+      "id": "IS-5",
       "name": "Northwestern",
       "stateCode": "5",
       "latitude": 41.9133932,
@@ -492,7 +492,7 @@
       ]
     },
     {
-      "id": 3436,
+      "id": "IS-3",
       "name": "Western",
       "stateCode": "3",
       "latitude": null,
@@ -580,7 +580,7 @@
       ]
     },
     {
-      "id": 3437,
+      "id": "IS-6",
       "name": "Northeastern",
       "stateCode": "6",
       "latitude": 43.2994285,

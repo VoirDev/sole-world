@@ -2,7 +2,7 @@ openapi: 3.1.0
 
 info:
   title: Sole World REST API
-  version: "1.0.0"
+  version: "2.0.0"
   description: |
     Read-only world reference data: countries, currencies, languages, central banks, regions,
     subregions, states, cities, timezones, flags and media assets.
@@ -27,7 +27,7 @@ info:
     Included collections are capped at 50 records. When a collection is cut short, its name appears
     in `truncatedIncludes` and the dedicated sub-resource endpoint will page through the rest. A
     country's cities are deliberately not includable — some countries have tens of thousands — so
-    use `/v1/countries/{idOrCode}/cities`.
+    use `/v1/countries/{id}/cities`.
 
     ## Ordering
 
@@ -54,9 +54,30 @@ info:
 
     ## Identifiers
 
-    Every identifier in this API is an `int64`, on every resource. The dataset's own ids are far
-    smaller than that, but a client should not have to track which resource happens to fit in 32
-    bits and which does not.
+    A record's `id` is the public standard code for it wherever one exists, and a Sole World alias
+    where none does. Store it: it is what the next release will still answer to.
+
+    | Resource | `id` | Example |
+    | --- | --- | --- |
+    | Country | ISO 3166-1 alpha-2 code | `US` |
+    | Currency | ISO 4217 alpha code | `EUR` |
+    | Language | ISO 639-1 code | `fr` |
+    | Timezone | IANA timezone name | `Europe/Paris` |
+    | State | country alpha-2 code and state code, joined by a hyphen; an alias of that form without a code | `US-CA`, `AX-MARIEHAMN` |
+    | Cryptocurrency | alias | `btc` |
+    | Region, subregion | alias | `europe`, `western-europe` |
+    | Central bank | alias | `federal-reserve` |
+    | Flag | alias; a territory's flag is its lowercase alpha-2 code | `us`, `eu` |
+    | Media asset | alias: owner kind, key and shape | `flag-us-square` |
+    | City | number | `120784` |
+
+    Every `id` is a string except a city's, which is an `int64`: cities have no public code, and
+    their numbers are kept rather than replaced by names that change when a city is renamed.
+
+    Identifiers are matched regardless of case, so `/v1/countries/us` finds `US`; responses always
+    spell them the way the table does. Where a resource has other standard codes they resolve too —
+    a country's alpha-3 and numeric codes, a currency's numeric code, a coin's ticker — but only
+    `id` is used to refer to a record from another one.
 
     ## Assets
 
@@ -176,27 +197,27 @@ paths:
           in: query
           required: false
           description: Only countries in this region.
-          schema: { type: integer, format: int64 }
+          schema: { type: string }
         - name: subregionId
           in: query
           required: false
           description: Only countries in this subregion.
-          schema: { type: integer, format: int64 }
+          schema: { type: string }
         - name: currencyId
           in: query
           required: false
           description: Only countries that use this currency.
-          schema: { type: integer, format: int64 }
+          schema: { type: string }
         - name: languageId
           in: query
           required: false
           description: Only countries that use this language.
-          schema: { type: integer, format: int64 }
+          schema: { type: string }
         - name: timezoneId
           in: query
           required: false
           description: Only countries in this timezone.
-          schema: { type: integer, format: int64 }
+          schema: { type: string }
       responses:
         "200":
           $ref: "#/components/responses/CountryPageOk"
@@ -211,14 +232,14 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/countries/{idOrCode}:
+  /v1/countries/{id}:
     get:
       tags: [countries]
       operationId: getCountry
       summary: Load one country
-      description: Accepts a numeric identifier, an ISO 3166-1 alpha-2 code, or an alpha-3 code.
+      description: Accepts the alpha-2 code the country is identified by, its alpha-3 code, or its numeric code.
       parameters:
-        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/CountryId"
         - $ref: "#/components/parameters/Lang"
         - name: include
           in: query
@@ -244,7 +265,7 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/countries/{idOrCode}/states:
+  /v1/countries/{id}/states:
     get:
       tags: [countries]
       operationId: listCountryStates
@@ -254,7 +275,7 @@ paths:
         `query` narrows the list by name; unlike the collection endpoints it is a literal filter,
         so the reported total is the exact number of records whose name contains the text.
       parameters:
-        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/CountryId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/FilterQuery"
@@ -280,7 +301,7 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/countries/{idOrCode}/cities:
+  /v1/countries/{id}/cities:
     get:
       tags: [countries]
       operationId: listCountryCities
@@ -290,7 +311,7 @@ paths:
         `query` is a literal name filter. This endpoint exists because a country's cities cannot be
         included on the country resource.
       parameters:
-        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/CountryId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/FilterQuery"
@@ -316,14 +337,14 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/countries/{idOrCode}/currencies:
+  /v1/countries/{id}/currencies:
     get:
       tags: [countries]
       operationId: listCountryCurrencies
       summary: List the currencies a country uses
       description: Ordered by popularity, most widely used first.
       parameters:
-        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/CountryId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -344,14 +365,14 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/countries/{idOrCode}/languages:
+  /v1/countries/{id}/languages:
     get:
       tags: [countries]
       operationId: listCountryLanguages
       summary: List the languages a country uses
       description: Includes both official and other languages recorded for the country.
       parameters:
-        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/CountryId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -372,13 +393,13 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/countries/{idOrCode}/timezones:
+  /v1/countries/{id}/timezones:
     get:
       tags: [countries]
       operationId: listCountryTimezones
       summary: List a country's timezones
       parameters:
-        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/CountryId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -398,13 +419,13 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/countries/{idOrCode}/central-banks:
+  /v1/countries/{id}/central-banks:
     get:
       tags: [countries]
       operationId: listCountryCentralBanks
       summary: List the central banks serving a country
       parameters:
-        - $ref: "#/components/parameters/CountryIdOrCode"
+        - $ref: "#/components/parameters/CountryId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -462,21 +483,16 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/currencies/{idOrCode}:
+  /v1/currencies/{id}:
     get:
       tags: [currencies]
       operationId: getCurrency
       summary: Load one currency
       description: >
-        Accepts a numeric identifier, an ISO 4217 alpha code such as `EUR`, or an ISO 4217 numeric
-        code such as `978`. Obsolete currencies are only returned when `withObsolete` is true.
+        Accepts the ISO 4217 alpha code the currency is identified by, such as `EUR`, or its ISO 4217
+        numeric code, such as `978`. Obsolete currencies are only returned when `withObsolete` is true.
       parameters:
-        - name: idOrCode
-          in: path
-          required: true
-          description: Numeric identifier, ISO 4217 alpha code, or ISO 4217 numeric code.
-          schema: { type: string }
-          example: EUR
+        - $ref: "#/components/parameters/CurrencyId"
         - name: withObsolete
           in: query
           required: false
@@ -507,7 +523,7 @@ paths:
       summary: List or search cryptocurrencies
       description: >
         Returns cryptocurrencies ordered by name. `query` runs a relevance-ranked search over names,
-        ticker symbols and aliases. Coin names are the same in every language, so `lang` only selects
+        ticker symbols and ids. Coin names are the same in every language, so `lang` only selects
         the collation order.
       parameters:
         - $ref: "#/components/parameters/Page"
@@ -534,21 +550,16 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/cryptos/{idOrCode}:
+  /v1/cryptos/{id}:
     get:
       tags: [cryptos]
       operationId: getCrypto
       summary: Load one cryptocurrency
       description: >
-        Accepts a numeric identifier, a ticker symbol such as `BTC`, or the coin's alias. The alias
-        is the stable lowercase key a ticker can be renamed away from.
+        Accepts the coin's alias, such as `btc`, or its ticker symbol. The alias is the stable
+        lowercase key the coin is identified by; a ticker can be renamed away from it.
       parameters:
-        - name: idOrCode
-          in: path
-          required: true
-          description: Numeric identifier, ticker symbol, or alias.
-          schema: { type: string }
-          example: BTC
+        - $ref: "#/components/parameters/CryptoId"
         - $ref: "#/components/parameters/Lang"
         - $ref: "#/components/parameters/CryptoInclude"
       responses:
@@ -567,17 +578,13 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/currencies/{idOrCode}/countries:
+  /v1/currencies/{id}/countries:
     get:
       tags: [currencies]
       operationId: listCurrencyCountries
       summary: List the countries that use a currency
       parameters:
-        - name: idOrCode
-          in: path
-          required: true
-          description: Numeric identifier, ISO 4217 alpha code, or ISO 4217 numeric code.
-          schema: { type: string }
+        - $ref: "#/components/parameters/CurrencyId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -598,17 +605,13 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/currencies/{idOrCode}/central-banks:
+  /v1/currencies/{id}/central-banks:
     get:
       tags: [currencies]
       operationId: listCurrencyCentralBanks
       summary: List the central banks that issue a currency
       parameters:
-        - name: idOrCode
-          in: path
-          required: true
-          description: Numeric identifier, ISO 4217 alpha code, or ISO 4217 numeric code.
-          schema: { type: string }
+        - $ref: "#/components/parameters/CurrencyId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -654,19 +657,14 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/languages/{idOrCode}:
+  /v1/languages/{id}:
     get:
       tags: [languages]
       operationId: getLanguage
       summary: Load one language
-      description: Accepts a numeric identifier or a language code such as `fr`.
+      description: Accepts an ISO 639-1 language code such as `fr`.
       parameters:
-        - name: idOrCode
-          in: path
-          required: true
-          description: Numeric identifier or language code.
-          schema: { type: string }
-          example: fr
+        - $ref: "#/components/parameters/LanguageId"
         - $ref: "#/components/parameters/Lang"
         - $ref: "#/components/parameters/LanguageInclude"
       responses:
@@ -685,17 +683,13 @@ paths:
         "500":
           $ref: "#/components/responses/InternalServerError"
 
-  /v1/languages/{idOrCode}/countries:
+  /v1/languages/{id}/countries:
     get:
       tags: [languages]
       operationId: listLanguageCountries
       summary: List the countries that use a language
       parameters:
-        - name: idOrCode
-          in: path
-          required: true
-          description: Numeric identifier or language code.
-          schema: { type: string }
+        - $ref: "#/components/parameters/LanguageId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -747,7 +741,7 @@ paths:
       operationId: getRegion
       summary: Load one region
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/RegionId"
         - $ref: "#/components/parameters/Lang"
         - $ref: "#/components/parameters/RegionInclude"
       responses:
@@ -772,7 +766,7 @@ paths:
       operationId: listRegionSubregions
       summary: List the subregions inside a region
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/RegionId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -799,7 +793,7 @@ paths:
       operationId: listRegionCountries
       summary: List the countries inside a region
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/RegionId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -835,7 +829,7 @@ paths:
           in: query
           required: false
           description: Only subregions inside this region.
-          schema: { type: integer, format: int64 }
+          schema: { type: string }
       responses:
         "200":
           $ref: "#/components/responses/SubregionPageOk"
@@ -856,7 +850,7 @@ paths:
       operationId: getSubregion
       summary: Load one subregion
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/SubregionId"
         - $ref: "#/components/parameters/Lang"
         - $ref: "#/components/parameters/SubregionInclude"
       responses:
@@ -881,7 +875,7 @@ paths:
       operationId: listSubregionCountries
       summary: List the countries inside a subregion
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/SubregionId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -933,7 +927,7 @@ paths:
       operationId: getCentralBank
       summary: Load one central bank
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/CentralBankId"
         - $ref: "#/components/parameters/Lang"
         - $ref: "#/components/parameters/CentralBankInclude"
       responses:
@@ -958,7 +952,7 @@ paths:
       operationId: listCentralBankCountries
       summary: List the countries a central bank serves
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/CentralBankId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -986,7 +980,7 @@ paths:
       summary: List the currencies a central bank issues
       description: Ordered by popularity, most widely used first.
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/CentralBankId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/Lang"
@@ -1022,7 +1016,7 @@ paths:
           in: query
           required: false
           description: Only states in this country.
-          schema: { type: integer, format: int64 }
+          schema: { type: string }
       responses:
         "200":
           $ref: "#/components/responses/StatePageOk"
@@ -1043,7 +1037,7 @@ paths:
       operationId: getState
       summary: Load one state
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/StateId"
         - $ref: "#/components/parameters/Lang"
         - $ref: "#/components/parameters/StateInclude"
       responses:
@@ -1068,7 +1062,7 @@ paths:
       operationId: listStateCities
       summary: List the cities inside a state
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/StateId"
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/FilterQuery"
@@ -1105,12 +1099,12 @@ paths:
           in: query
           required: false
           description: Only cities in this country.
-          schema: { type: integer, format: int64 }
+          schema: { type: string }
         - name: stateId
           in: query
           required: false
           description: Only cities in this state.
-          schema: { type: integer, format: int64 }
+          schema: { type: string }
       responses:
         "200":
           $ref: "#/components/responses/CityPageOk"
@@ -1131,7 +1125,7 @@ paths:
       operationId: getCity
       summary: Load one city
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/CityId"
         - $ref: "#/components/parameters/Lang"
         - $ref: "#/components/parameters/CityInclude"
       responses:
@@ -1180,7 +1174,7 @@ paths:
       operationId: getTimezone
       summary: Load one timezone
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/TimezoneId"
         - $ref: "#/components/parameters/Lang"
       responses:
         "200":
@@ -1233,7 +1227,7 @@ paths:
       operationId: getFlag
       summary: Load one flag
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/FlagId"
         - $ref: "#/components/parameters/FlagInclude"
       responses:
         "200":
@@ -1279,7 +1273,7 @@ paths:
       operationId: getMediaAsset
       summary: Load one media asset
       parameters:
-        - $ref: "#/components/parameters/ResourceId"
+        - $ref: "#/components/parameters/MediaAssetId"
       responses:
         "200":
           $ref: "#/components/responses/MediaAssetOk"
@@ -1346,19 +1340,104 @@ components:
         English data. `GET /v1/meta` lists the supported languages.
       schema: { type: string }
       example: ru
-    ResourceId:
+    CountryId:
       name: id
       in: path
       required: true
-      description: Numeric identifier.
-      schema: { type: integer, format: int64 }
-    CountryIdOrCode:
-      name: idOrCode
-      in: path
-      required: true
-      description: Numeric identifier, ISO 3166-1 alpha-2 code, or alpha-3 code.
+      description: >
+        ISO 3166-1 alpha-2 code. The alpha-3 and numeric codes resolve too, in any case.
       schema: { type: string }
       example: US
+    CurrencyId:
+      name: id
+      in: path
+      required: true
+      description: >
+        ISO 4217 alpha code. The ISO 4217 numeric code resolves too, in any case.
+      schema: { type: string }
+      example: EUR
+    CryptoId:
+      name: id
+      in: path
+      required: true
+      description: >
+        The coin's alias, its stable lowercase key. Its ticker symbol resolves too, in any case.
+      schema: { type: string }
+      example: btc
+    LanguageId:
+      name: id
+      in: path
+      required: true
+      description: >
+        ISO 639-1 language code, in any case.
+      schema: { type: string }
+      example: fr
+    RegionId:
+      name: id
+      in: path
+      required: true
+      description: >
+        Region alias, in any case.
+      schema: { type: string }
+      example: europe
+    SubregionId:
+      name: id
+      in: path
+      required: true
+      description: >
+        Subregion alias, in any case.
+      schema: { type: string }
+      example: western-europe
+    CentralBankId:
+      name: id
+      in: path
+      required: true
+      description: >
+        Central bank alias, in any case.
+      schema: { type: string }
+      example: federal-reserve
+    StateId:
+      name: id
+      in: path
+      required: true
+      description: >
+        Country alpha-2 code and state code joined by a hyphen, or for a state with no code an alias
+        of the same form, such as `AX-MARIEHAMN`. In any case.
+      schema: { type: string }
+      example: US-CA
+    CityId:
+      name: id
+      in: path
+      required: true
+      description: >
+        Numeric city identifier.
+      schema: { type: integer, format: int64 }
+      example: 120784
+    TimezoneId:
+      name: id
+      in: path
+      required: true
+      description: >
+        IANA timezone name, in any case. Its slashes are sent as they are:
+        `/v1/timezones/America/Argentina/Buenos_Aires`.
+      schema: { type: string }
+      example: Europe/Paris
+    FlagId:
+      name: id
+      in: path
+      required: true
+      description: >
+        Flag alias: the lowercase territory code for a territory's flag, in any case.
+      schema: { type: string }
+      example: us
+    MediaAssetId:
+      name: id
+      in: path
+      required: true
+      description: >
+        Media asset alias: what the asset belongs to, its key and its shape, in any case.
+      schema: { type: string }
+      example: flag-us-square
     CountryInclude:
       name: include
       in: query
@@ -1810,7 +1889,7 @@ components:
       type: object
       required: [id, name, iso2, iso3, isoNumeric, phoneCode, coordinates, regionId, subregionId]
       properties:
-        id: { type: integer, format: int64 }
+        id: { type: string, description: "ISO 3166-1 alpha-2 code.", example: "US" }
         name: { type: string, description: Localized display name. }
         nativeName: { type: string }
         iso2: { type: string }
@@ -1819,9 +1898,9 @@ components:
         phoneCode: { type: string }
         tld: { type: string }
         coordinates: { $ref: "#/components/schemas/Coordinates" }
-        regionId: { type: integer, format: int64 }
-        subregionId: { type: integer, format: int64 }
-        flagId: { type: integer, format: int64 }
+        regionId: { type: string }
+        subregionId: { type: string }
+        flagId: { type: string }
         region: { $ref: "#/components/schemas/Region" }
         subregion: { $ref: "#/components/schemas/Subregion" }
         flag: { $ref: "#/components/schemas/Flag" }
@@ -1849,7 +1928,7 @@ components:
       type: object
       required: [id, iso3, isoNumeric, name, decimalDigits, popularity, obsolete]
       properties:
-        id: { type: integer, format: int64 }
+        id: { type: string, description: "ISO 4217 alpha code.", example: "EUR" }
         iso3: { type: string }
         isoNumeric: { type: string }
         name: { type: string, description: Localized display name. }
@@ -1871,8 +1950,8 @@ components:
         introducedDate: { type: string, format: date }
         obsolete: { type: boolean }
         obsoleteAt: { type: string, format: date }
-        replacedById: { type: integer, format: int64 }
-        flagId: { type: integer, format: int64 }
+        replacedById: { type: string }
+        flagId: { type: string }
         flag: { $ref: "#/components/schemas/Flag" }
         replacedBy: { $ref: "#/components/schemas/Currency" }
         countries:
@@ -1887,15 +1966,15 @@ components:
 
     Crypto:
       type: object
-      required: [id, code, alias, name, decimalDigits, obsolete]
+      required: [id, code, name, decimalDigits, obsolete]
       properties:
-        id: { type: integer, format: int64 }
-        code: { type: string, description: Ticker symbol the coin trades under. }
-        alias:
+        id:
           type: string
           description: >
-            Stable lowercase key for the coin. A ticker can be renamed; the alias is what stays the
-            same, and it is the name the coin's logo files are stored under.
+            The coin's alias: its stable lowercase key. A ticker can be renamed; the alias is what
+            stays the same, and it is the name the coin's logo files are stored under.
+          example: btc
+        code: { type: string, description: Ticker symbol the coin trades under. }
         name: { type: string }
         description: { type: string }
         websiteUrl: { type: string }
@@ -1903,7 +1982,7 @@ components:
         decimalDigits: { type: integer, format: int32 }
         obsolete: { type: boolean }
         obsoleteAt: { type: string, format: date }
-        logoId: { type: integer, format: int64 }
+        logoId: { type: string }
         logo: { $ref: "#/components/schemas/MediaAsset" }
         truncatedIncludes:
           type: array
@@ -1913,12 +1992,12 @@ components:
       type: object
       required: [id, code, name]
       properties:
-        id: { type: integer, format: int64 }
+        id: { type: string, description: "ISO 639-1 code.", example: "fr" }
         code: { type: string }
         name: { type: string, description: Localized display name. }
         nativeName: { type: string }
         description: { type: string }
-        flagId: { type: integer, format: int64 }
+        flagId: { type: string }
         flag: { $ref: "#/components/schemas/Flag" }
         countries:
           type: array
@@ -1931,7 +2010,7 @@ components:
       type: object
       required: [id, name]
       properties:
-        id: { type: integer, format: int64 }
+        id: { type: string, description: "Region alias.", example: "europe" }
         name: { type: string, description: Localized display name. }
         subregions:
           type: array
@@ -1947,9 +2026,9 @@ components:
       type: object
       required: [id, name, regionId]
       properties:
-        id: { type: integer, format: int64 }
+        id: { type: string, description: "Subregion alias.", example: "western-europe" }
         name: { type: string, description: Localized display name. }
-        regionId: { type: integer, format: int64 }
+        regionId: { type: string }
         region: { $ref: "#/components/schemas/Region" }
         countries:
           type: array
@@ -1962,7 +2041,7 @@ components:
       type: object
       required: [id, name]
       properties:
-        id: { type: integer, format: int64 }
+        id: { type: string, description: "Central bank alias.", example: "federal-reserve" }
         name: { type: string, description: Localized display name. }
         nativeName: { type: string }
         websiteUrl: { type: string }
@@ -1981,12 +2060,17 @@ components:
       type: object
       required: [id, name, countryId]
       properties:
-        id: { type: integer, format: int64 }
+        id:
+          type: string
+          description: >
+            Country alpha-2 code and state code, joined by a hyphen. A state with no code has an
+            alias of the same form made from its name, such as `AX-MARIEHAMN`.
+          example: US-CA
         name: { type: string, description: Localized display name. }
         stateCode: { type: string }
         type: { type: string, description: Administrative division type, such as "province". }
         coordinates: { $ref: "#/components/schemas/Coordinates" }
-        countryId: { type: integer, format: int64 }
+        countryId: { type: string }
         country: { $ref: "#/components/schemas/Country" }
         cities:
           type: array
@@ -2001,7 +2085,7 @@ components:
       properties:
         id: { type: integer, format: int64 }
         name: { type: string, description: Localized display name. }
-        stateId: { type: integer, format: int64 }
+        stateId: { type: string }
         coordinates: { $ref: "#/components/schemas/Coordinates" }
         state: { $ref: "#/components/schemas/State" }
         country: { $ref: "#/components/schemas/Country" }
@@ -2013,7 +2097,7 @@ components:
       type: object
       required: [id, zoneName, tzName, gmtOffset, gmtOffsetName, abbreviation]
       properties:
-        id: { type: integer, format: int64 }
+        id: { type: string, description: "IANA timezone name.", example: "Europe/Paris" }
         zoneName: { type: string, description: IANA timezone name. }
         tzName: { type: string, description: Localized display name. }
         gmtOffset: { type: integer, format: int32, description: Offset from GMT in seconds. }
@@ -2024,12 +2108,12 @@ components:
       type: object
       required: [id, caption, emoji, emojiU]
       properties:
-        id: { type: integer, format: int64 }
+        id: { type: string, description: "Flag alias; a territory's flag is its lowercase alpha-2 code.", example: "us" }
         caption: { type: string }
         emoji: { type: string }
         emojiU: { type: string, description: Unicode code points for the emoji. }
-        squareAssetId: { type: integer, format: int64 }
-        wideAssetId: { type: integer, format: int64 }
+        squareAssetId: { type: string }
+        wideAssetId: { type: string }
         squareAsset: { $ref: "#/components/schemas/MediaAsset" }
         wideAsset: { $ref: "#/components/schemas/MediaAsset" }
 
@@ -2037,7 +2121,7 @@ components:
       type: object
       required: [id, type, key, description]
       properties:
-        id: { type: integer, format: int64 }
+        id: { type: string, description: "Media asset alias: owner kind, key and shape.", example: "flag-us-square" }
         type:
           type: string
           enum: [image]

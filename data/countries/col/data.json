@@ -1,5 +1,5 @@
 {
-  "id": 48,
+  "id": "CO",
   "name": "Colombia",
   "nativeName": "Colombia",
   "iso2": "CO",
@@ -9,17 +9,17 @@
   "tld": ".co",
   "latitude": 4,
   "longitude": -72,
-  "flagId": 201,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "co",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    868
+    "COP"
   ],
   "timezoneIds": [
-    2346
+    "America/Bogota"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2874,
+      "id": "CO-QUI",
       "name": "Quindío",
       "stateCode": "QUI",
       "latitude": 4.4610191,
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "id": 2875,
+      "id": "CO-CUN",
       "name": "Cundinamarca",
       "stateCode": "CUN",
       "latitude": 5.026003,
@@ -1008,7 +1008,7 @@
       ]
     },
     {
-      "id": 2876,
+      "id": "CO-CHO",
       "name": "Chocó",
       "stateCode": "CHO",
       "latitude": 5.2528033,
@@ -1229,7 +1229,7 @@
       ]
     },
     {
-      "id": 2877,
+      "id": "CO-NSA",
       "name": "Norte de Santander",
       "stateCode": "NSA",
       "latitude": 7.9462831,
@@ -1520,7 +1520,7 @@
       ]
     },
     {
-      "id": 2878,
+      "id": "CO-MET",
       "name": "Meta",
       "stateCode": "MET",
       "latitude": 39.7673258,
@@ -1734,7 +1734,7 @@
       ]
     },
     {
-      "id": 2879,
+      "id": "CO-RIS",
       "name": "Risaralda",
       "stateCode": "RIS",
       "latitude": 5.3158475,
@@ -1843,7 +1843,7 @@
       ]
     },
     {
-      "id": 2880,
+      "id": "CO-ATL",
       "name": "Atlántico",
       "stateCode": "ATL",
       "latitude": 10.6966159,
@@ -2015,7 +2015,7 @@
       ]
     },
     {
-      "id": 2881,
+      "id": "CO-ARA",
       "name": "Arauca",
       "stateCode": "ARA",
       "latitude": 6.547306,
@@ -2075,7 +2075,7 @@
       ]
     },
     {
-      "id": 2882,
+      "id": "CO-GUA",
       "name": "Guainía",
       "stateCode": "GUA",
       "latitude": 2.585393,
@@ -2149,7 +2149,7 @@
       ]
     },
     {
-      "id": 2883,
+      "id": "CO-TOL",
       "name": "Tolima",
       "stateCode": "TOL",
       "latitude": 4.0925168,
@@ -2489,7 +2489,7 @@
       ]
     },
     {
-      "id": 2884,
+      "id": "CO-CAU",
       "name": "Cauca",
       "stateCode": "CAU",
       "latitude": 2.7049813,
@@ -2794,7 +2794,7 @@
       ]
     },
     {
-      "id": 2885,
+      "id": "CO-VAU",
       "name": "Vaupés",
       "stateCode": "VAU",
       "latitude": 0.8553561,
@@ -2847,7 +2847,7 @@
       ]
     },
     {
-      "id": 2886,
+      "id": "CO-MAG",
       "name": "Magdalena",
       "stateCode": "MAG",
       "latitude": 10.4113014,
@@ -3068,7 +3068,7 @@
       ]
     },
     {
-      "id": 2887,
+      "id": "CO-CAL",
       "name": "Caldas",
       "stateCode": "CAL",
       "latitude": 5.29826,
@@ -3268,7 +3268,7 @@
       ]
     },
     {
-      "id": 2888,
+      "id": "CO-GUV",
       "name": "Guaviare",
       "stateCode": "GUV",
       "latitude": 2.043924,
@@ -3307,7 +3307,7 @@
       ]
     },
     {
-      "id": 2889,
+      "id": "CO-LAG",
       "name": "La Guajira",
       "stateCode": "LAG",
       "latitude": 11.3547743,
@@ -3423,7 +3423,7 @@
       ]
     },
     {
-      "id": 2890,
+      "id": "CO-ANT",
       "name": "Antioquia",
       "stateCode": "ANT",
       "latitude": 7.1986064,
@@ -4309,7 +4309,7 @@
       ]
     },
     {
-      "id": 2891,
+      "id": "CO-CAQ",
       "name": "Caquetá",
       "stateCode": "CAQ",
       "latitude": 0.869892,
@@ -4432,7 +4432,7 @@
       ]
     },
     {
-      "id": 2892,
+      "id": "CO-CAS",
       "name": "Casanare",
       "stateCode": "CAS",
       "latitude": 5.7589269,
@@ -4576,7 +4576,7 @@
       ]
     },
     {
-      "id": 2893,
+      "id": "CO-BOL",
       "name": "Bolívar",
       "stateCode": "BOL",
       "latitude": 8.6704382,
@@ -4909,7 +4909,7 @@
       ]
     },
     {
-      "id": 2894,
+      "id": "CO-VID",
       "name": "Vichada",
       "stateCode": "VID",
       "latitude": 4.4234452,
@@ -4948,7 +4948,7 @@
       ]
     },
     {
-      "id": 2895,
+      "id": "CO-AMA",
       "name": "Amazonas",
       "stateCode": "AMA",
       "latitude": -1.4429123,
@@ -5036,7 +5036,7 @@
       ]
     },
     {
-      "id": 2896,
+      "id": "CO-PUT",
       "name": "Putumayo",
       "stateCode": "PUT",
       "latitude": 0.4359506,
@@ -5138,7 +5138,7 @@
       ]
     },
     {
-      "id": 2897,
+      "id": "CO-NAR",
       "name": "Nariño",
       "stateCode": "NAR",
       "latitude": 1.289151,
@@ -5597,7 +5597,7 @@
       ]
     },
     {
-      "id": 2898,
+      "id": "CO-COR",
       "name": "Córdoba",
       "stateCode": "COR",
       "latitude": 8.049293,
@@ -5818,7 +5818,7 @@
       ]
     },
     {
-      "id": 2899,
+      "id": "CO-CES",
       "name": "Cesar",
       "stateCode": "CES",
       "latitude": 9.3372948,
@@ -6004,7 +6004,7 @@
       ]
     },
     {
-      "id": 2900,
+      "id": "CO-SAP",
       "name": "San Andrés, Providencia y Santa Catalina",
       "stateCode": "SAP",
       "latitude": 12.5567324,
@@ -6029,7 +6029,7 @@
       ]
     },
     {
-      "id": 2901,
+      "id": "CO-SAN",
       "name": "Santander",
       "stateCode": "SAN",
       "latitude": 6.6437076,
@@ -6649,7 +6649,7 @@
       ]
     },
     {
-      "id": 2902,
+      "id": "CO-SUC",
       "name": "Sucre",
       "stateCode": "SUC",
       "latitude": 8.813977,
@@ -6842,7 +6842,7 @@
       ]
     },
     {
-      "id": 2903,
+      "id": "CO-BOY",
       "name": "Boyacá",
       "stateCode": "BOY",
       "latitude": 5.454511,
@@ -7714,7 +7714,7 @@
       ]
     },
     {
-      "id": 2904,
+      "id": "CO-VAC",
       "name": "Valle del Cauca",
       "stateCode": "VAC",
       "latitude": 3.8008893,
@@ -8019,7 +8019,7 @@
       ]
     },
     {
-      "id": 4871,
+      "id": "CO-HUI",
       "name": "Huila",
       "stateCode": "HUI",
       "latitude": 2.5359349,
@@ -8289,7 +8289,7 @@
       ]
     },
     {
-      "id": 4921,
+      "id": "CO-DC",
       "name": "Bogotá D.C.",
       "stateCode": "DC",
       "latitude": 4.2820415,

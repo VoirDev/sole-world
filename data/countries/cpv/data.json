@@ -1,5 +1,5 @@
 {
-  "id": 40,
+  "id": "CV",
   "name": "Cape Verde",
   "nativeName": "Cabo Verde",
   "iso2": "CV",
@@ -9,17 +9,17 @@
   "tld": ".cv",
   "latitude": 16,
   "longitude": -24,
-  "flagId": 197,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "cv",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    864
+    "CVE"
   ],
   "timezoneIds": [
-    2335
+    "Atlantic/Cape_Verde"
   ],
   "officialLanguageIds": [
-    45
+    "pt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2982,
+      "id": "CV-RB",
       "name": "Ribeira Brava",
       "stateCode": "RB",
       "latitude": 16.6070739,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 2983,
+      "id": "CV-TA",
       "name": "Tarrafal",
       "stateCode": "TA",
       "latitude": 15.2760578,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 2984,
+      "id": "CV-RS",
       "name": "Ribeira Grande de Santiago",
       "stateCode": "RS",
       "latitude": 14.9830298,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": 2985,
+      "id": "CV-CA",
       "name": "Santa Catarina",
       "stateCode": "CA",
       "latitude": -27.2423392,
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": 2986,
+      "id": "CV-SD",
       "name": "São Domingos",
       "stateCode": "SD",
       "latitude": 15.0286165,
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "id": 2987,
+      "id": "CV-MO",
       "name": "Mosteiros",
       "stateCode": "MO",
       "latitude": 37.8904348,
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "id": 2988,
+      "id": "CV-PR",
       "name": "Praia",
       "stateCode": "PR",
       "latitude": 14.93305,
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "id": 2989,
+      "id": "CV-PN",
       "name": "Porto Novo",
       "stateCode": "PN",
       "latitude": 6.4968574,
@@ -234,7 +234,7 @@
       ]
     },
     {
-      "id": 2990,
+      "id": "CV-SM",
       "name": "São Miguel",
       "stateCode": "SM",
       "latitude": 37.780411,
@@ -252,7 +252,7 @@
       ]
     },
     {
-      "id": 2991,
+      "id": "CV-MA",
       "name": "Maio",
       "stateCode": "MA",
       "latitude": 15.2003098,
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "id": 2992,
+      "id": "CV-S",
       "name": "Sotavento Islands",
       "stateCode": "S",
       "latitude": 15,
@@ -280,7 +280,7 @@
       "cities": []
     },
     {
-      "id": 2993,
+      "id": "CV-SO",
       "name": "São Lourenço dos Órgãos",
       "stateCode": "SO",
       "latitude": 15.0537841,
@@ -298,7 +298,7 @@
       ]
     },
     {
-      "id": 2994,
+      "id": "CV-B",
       "name": "Barlavento Islands",
       "stateCode": "B",
       "latitude": 16.8236845,
@@ -308,7 +308,7 @@
       "cities": []
     },
     {
-      "id": 2995,
+      "id": "CV-CF",
       "name": "Santa Catarina do Fogo",
       "stateCode": "CF",
       "latitude": 14.9309104,
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": 2996,
+      "id": "CV-BR",
       "name": "Brava",
       "stateCode": "BR",
       "latitude": 40.9897778,
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "id": 2997,
+      "id": "CV-PA",
       "name": "Paul",
       "stateCode": "PA",
       "latitude": 37.0625,
@@ -362,7 +362,7 @@
       ]
     },
     {
-      "id": 2998,
+      "id": "CV-SL",
       "name": "Sal",
       "stateCode": "SL",
       "latitude": 26.5958122,
@@ -387,7 +387,7 @@
       ]
     },
     {
-      "id": 2999,
+      "id": "CV-BV",
       "name": "Boa Vista",
       "stateCode": "BV",
       "latitude": 38.743466,
@@ -405,7 +405,7 @@
       ]
     },
     {
-      "id": 3000,
+      "id": "CV-SF",
       "name": "São Filipe",
       "stateCode": "SF",
       "latitude": 14.8951679,
@@ -423,7 +423,7 @@
       ]
     },
     {
-      "id": 3001,
+      "id": "CV-SV",
       "name": "São Vicente",
       "stateCode": "SV",
       "latitude": -23.9607157,
@@ -441,7 +441,7 @@
       ]
     },
     {
-      "id": 3002,
+      "id": "CV-RG",
       "name": "Ribeira Grande",
       "stateCode": "RG",
       "latitude": 37.8210369,
@@ -466,7 +466,7 @@
       ]
     },
     {
-      "id": 3003,
+      "id": "CV-TS",
       "name": "Tarrafal de São Nicolau",
       "stateCode": "TS",
       "latitude": 16.5636498,
@@ -484,7 +484,7 @@
       ]
     },
     {
-      "id": 3004,
+      "id": "CV-CR",
       "name": "Santa Cruz",
       "stateCode": "CR",
       "latitude": 36.9741171,

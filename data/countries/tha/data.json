@@ -1,5 +1,5 @@
 {
-  "id": 219,
+  "id": "TH",
   "name": "Thailand",
   "nativeName": "ประเทศไทย",
   "iso2": "TH",
@@ -9,17 +9,17 @@
   "tld": ".th",
   "latitude": 15,
   "longitude": 100,
-  "flagId": 33,
-  "regionId": 3,
-  "subregionId": 13,
+  "flagId": "th",
+  "regionId": "asia",
+  "subregionId": "south-eastern-asia",
   "currencyIds": [
-    969
+    "THB"
   ],
   "timezoneIds": [
-    2582
+    "Asia/Bangkok"
   ],
   "officialLanguageIds": [
-    163
+    "th"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3478,
+      "id": "TH-81",
       "name": "Krabi",
       "stateCode": "81",
       "latitude": 8.0862997,
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "id": 3479,
+      "id": "TH-85",
       "name": "Ranong",
       "stateCode": "85",
       "latitude": 9.9528702,
@@ -245,7 +245,7 @@
       ]
     },
     {
-      "id": 3480,
+      "id": "TH-39",
       "name": "Nong Bua Lam Phu",
       "stateCode": "39",
       "latitude": 17.2218247,
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": 3481,
+      "id": "TH-11",
       "name": "Samut Prakan",
       "stateCode": "11",
       "latitude": 13.5990961,
@@ -407,7 +407,7 @@
       ]
     },
     {
-      "id": 3482,
+      "id": "TH-84",
       "name": "Surat Thani",
       "stateCode": "84",
       "latitude": 9.1341949,
@@ -635,7 +635,7 @@
       ]
     },
     {
-      "id": 3483,
+      "id": "TH-51",
       "name": "Lamphun",
       "stateCode": "51",
       "latitude": 18.5744606,
@@ -723,7 +723,7 @@
       ]
     },
     {
-      "id": 3484,
+      "id": "TH-43",
       "name": "Nong Khai",
       "stateCode": "43",
       "latitude": 17.8782803,
@@ -832,7 +832,7 @@
       ]
     },
     {
-      "id": 3485,
+      "id": "TH-40",
       "name": "Khon Kaen",
       "stateCode": "40",
       "latitude": 16.4321938,
@@ -1067,7 +1067,7 @@
       ]
     },
     {
-      "id": 3486,
+      "id": "TH-22",
       "name": "Chanthaburi",
       "stateCode": "22",
       "latitude": 12.6112485,
@@ -1183,7 +1183,7 @@
       ]
     },
     {
-      "id": 3487,
+      "id": "TH-19",
       "name": "Saraburi",
       "stateCode": "19",
       "latitude": 14.5289154,
@@ -1320,7 +1320,7 @@
       ]
     },
     {
-      "id": 3488,
+      "id": "TH-93",
       "name": "Phatthalung",
       "stateCode": "93",
       "latitude": 7.6166823,
@@ -1415,7 +1415,7 @@
       ]
     },
     {
-      "id": 3489,
+      "id": "TH-53",
       "name": "Uttaradit",
       "stateCode": "53",
       "latitude": 17.6200886,
@@ -1496,7 +1496,7 @@
       ]
     },
     {
-      "id": 3490,
+      "id": "TH-17",
       "name": "Sing Buri",
       "stateCode": "17",
       "latitude": 14.8936253,
@@ -1570,7 +1570,7 @@
       ]
     },
     {
-      "id": 3491,
+      "id": "TH-50",
       "name": "Chiang Mai",
       "stateCode": "50",
       "latitude": 18.7883439,
@@ -1812,7 +1812,7 @@
       ]
     },
     {
-      "id": 3492,
+      "id": "TH-60",
       "name": "Nakhon Sawan",
       "stateCode": "60",
       "latitude": 15.6987382,
@@ -1977,7 +1977,7 @@
       ]
     },
     {
-      "id": 3493,
+      "id": "TH-95",
       "name": "Yala",
       "stateCode": "95",
       "latitude": 44.0579117,
@@ -2058,7 +2058,7 @@
       ]
     },
     {
-      "id": 3494,
+      "id": "TH-14",
       "name": "Phra Nakhon Si Ayutthaya",
       "stateCode": "14",
       "latitude": 14.3692325,
@@ -2230,7 +2230,7 @@
       ]
     },
     {
-      "id": 3495,
+      "id": "TH-12",
       "name": "Nonthaburi",
       "stateCode": "12",
       "latitude": 13.8591084,
@@ -2318,7 +2318,7 @@
       ]
     },
     {
-      "id": 3496,
+      "id": "TH-23",
       "name": "Trat",
       "stateCode": "23",
       "latitude": 12.2427563,
@@ -2406,7 +2406,7 @@
       ]
     },
     {
-      "id": 3497,
+      "id": "TH-30",
       "name": "Nakhon Ratchasima",
       "stateCode": "30",
       "latitude": 14.9738493,
@@ -2746,7 +2746,7 @@
       ]
     },
     {
-      "id": 3498,
+      "id": "TH-57",
       "name": "Chiang Rai",
       "stateCode": "57",
       "latitude": 19.9104798,
@@ -2925,7 +2925,7 @@
       ]
     },
     {
-      "id": 3499,
+      "id": "TH-70",
       "name": "Ratchaburi",
       "stateCode": "70",
       "latitude": 13.5282893,
@@ -3048,7 +3048,7 @@
       ]
     },
     {
-      "id": 3500,
+      "id": "TH-13",
       "name": "Pathum Thani",
       "stateCode": "13",
       "latitude": 14.0208391,
@@ -3122,7 +3122,7 @@
       ]
     },
     {
-      "id": 3501,
+      "id": "TH-47",
       "name": "Sakon Nakhon",
       "stateCode": "47",
       "latitude": 17.1664211,
@@ -3273,7 +3273,7 @@
       ]
     },
     {
-      "id": 3502,
+      "id": "TH-75",
       "name": "Samut Songkhram",
       "stateCode": "75",
       "latitude": 13.4098217,
@@ -3312,7 +3312,7 @@
       ]
     },
     {
-      "id": 3503,
+      "id": "TH-73",
       "name": "Nakhon Pathom",
       "stateCode": "73",
       "latitude": 13.8140293,
@@ -3393,7 +3393,7 @@
       ]
     },
     {
-      "id": 3504,
+      "id": "TH-74",
       "name": "Samut Sakhon",
       "stateCode": "74",
       "latitude": 13.5475216,
@@ -3446,7 +3446,7 @@
       ]
     },
     {
-      "id": 3505,
+      "id": "TH-58",
       "name": "Mae Hong Son",
       "stateCode": "58",
       "latitude": 19.3020296,
@@ -3513,7 +3513,7 @@
       ]
     },
     {
-      "id": 3506,
+      "id": "TH-65",
       "name": "Phitsanulok",
       "stateCode": "65",
       "latitude": 16.8211238,
@@ -3622,7 +3622,7 @@
       ]
     },
     {
-      "id": 3507,
+      "id": "TH-S",
       "name": "Pattaya",
       "stateCode": "S",
       "latitude": 12.9235557,
@@ -3632,7 +3632,7 @@
       "cities": []
     },
     {
-      "id": 3508,
+      "id": "TH-77",
       "name": "Prachuap Khiri Khan",
       "stateCode": "77",
       "latitude": 11.7938389,
@@ -3741,7 +3741,7 @@
       ]
     },
     {
-      "id": 3509,
+      "id": "TH-42",
       "name": "Loei",
       "stateCode": "42",
       "latitude": 17.4860232,
@@ -3871,7 +3871,7 @@
       ]
     },
     {
-      "id": 3510,
+      "id": "TH-45",
       "name": "Roi Et",
       "stateCode": "45",
       "latitude": 16.0538196,
@@ -4071,7 +4071,7 @@
       ]
     },
     {
-      "id": 3511,
+      "id": "TH-71",
       "name": "Kanchanaburi",
       "stateCode": "71",
       "latitude": 14.1011393,
@@ -4215,7 +4215,7 @@
       ]
     },
     {
-      "id": 3512,
+      "id": "TH-34",
       "name": "Ubon Ratchathani",
       "stateCode": "34",
       "latitude": 15.2448453,
@@ -4436,7 +4436,7 @@
       ]
     },
     {
-      "id": 3513,
+      "id": "TH-20",
       "name": "Chon Buri",
       "stateCode": "20",
       "latitude": 13.3611431,
@@ -4601,7 +4601,7 @@
       ]
     },
     {
-      "id": 3514,
+      "id": "TH-66",
       "name": "Phichit",
       "stateCode": "66",
       "latitude": 16.2740876,
@@ -4731,7 +4731,7 @@
       ]
     },
     {
-      "id": 3515,
+      "id": "TH-67",
       "name": "Phetchabun",
       "stateCode": "67",
       "latitude": 16.301669,
@@ -4854,7 +4854,7 @@
       ]
     },
     {
-      "id": 3516,
+      "id": "TH-62",
       "name": "Kamphaeng Phet",
       "stateCode": "62",
       "latitude": 16.4827798,
@@ -4963,7 +4963,7 @@
       ]
     },
     {
-      "id": 3517,
+      "id": "TH-44",
       "name": "Maha Sarakham",
       "stateCode": "44",
       "latitude": 16.0132015,
@@ -5093,7 +5093,7 @@
       ]
     },
     {
-      "id": 3518,
+      "id": "TH-21",
       "name": "Rayong",
       "stateCode": "21",
       "latitude": 12.6813957,
@@ -5188,7 +5188,7 @@
       ]
     },
     {
-      "id": 3519,
+      "id": "TH-15",
       "name": "Ang Thong",
       "stateCode": "15",
       "latitude": 14.5896054,
@@ -5276,7 +5276,7 @@
       ]
     },
     {
-      "id": 3520,
+      "id": "TH-80",
       "name": "Nakhon Si Thammarat",
       "stateCode": "80",
       "latitude": 8.4324831,
@@ -5490,7 +5490,7 @@
       ]
     },
     {
-      "id": 3521,
+      "id": "TH-35",
       "name": "Yasothon",
       "stateCode": "35",
       "latitude": 15.792641,
@@ -5571,7 +5571,7 @@
       ]
     },
     {
-      "id": 3522,
+      "id": "TH-18",
       "name": "Chai Nat",
       "stateCode": "18",
       "latitude": 15.1851971,
@@ -5645,7 +5645,7 @@
       ]
     },
     {
-      "id": 3523,
+      "id": "TH-37",
       "name": "Amnat Charoen",
       "stateCode": "37",
       "latitude": 15.8656783,
@@ -5712,7 +5712,7 @@
       ]
     },
     {
-      "id": 3524,
+      "id": "TH-72",
       "name": "Suphan Buri",
       "stateCode": "72",
       "latitude": 14.4744892,
@@ -5807,7 +5807,7 @@
       ]
     },
     {
-      "id": 3525,
+      "id": "TH-63",
       "name": "Tak",
       "stateCode": "63",
       "latitude": 45.0299646,
@@ -5902,7 +5902,7 @@
       ]
     },
     {
-      "id": 3526,
+      "id": "TH-86",
       "name": "Chumphon",
       "stateCode": "86",
       "latitude": 10.4930496,
@@ -5990,7 +5990,7 @@
       ]
     },
     {
-      "id": 3527,
+      "id": "TH-41",
       "name": "Udon Thani",
       "stateCode": "41",
       "latitude": 17.3646969,
@@ -6197,7 +6197,7 @@
       ]
     },
     {
-      "id": 3528,
+      "id": "TH-54",
       "name": "Phrae",
       "stateCode": "54",
       "latitude": 18.1445774,
@@ -6292,7 +6292,7 @@
       ]
     },
     {
-      "id": 3529,
+      "id": "TH-27",
       "name": "Sa Kaeo",
       "stateCode": "27",
       "latitude": 13.824038,
@@ -6387,7 +6387,7 @@
       ]
     },
     {
-      "id": 3530,
+      "id": "TH-55",
       "name": "Nan",
       "stateCode": "55",
       "latitude": 45.522208,
@@ -6517,7 +6517,7 @@
       ]
     },
     {
-      "id": 3531,
+      "id": "TH-32",
       "name": "Surin",
       "stateCode": "32",
       "latitude": 37.0358271,
@@ -6654,7 +6654,7 @@
       ]
     },
     {
-      "id": 3532,
+      "id": "TH-76",
       "name": "Phetchaburi",
       "stateCode": "76",
       "latitude": 12.9649215,
@@ -6749,7 +6749,7 @@
       ]
     },
     {
-      "id": 3533,
+      "id": "TH-38",
       "name": "Bueng Kan",
       "stateCode": "38",
       "latitude": 18.3609104,
@@ -6830,7 +6830,7 @@
       ]
     },
     {
-      "id": 3534,
+      "id": "TH-31",
       "name": "Buri Ram",
       "stateCode": "31",
       "latitude": 14.9951003,
@@ -7037,7 +7037,7 @@
       ]
     },
     {
-      "id": 3535,
+      "id": "TH-26",
       "name": "Nakhon Nayok",
       "stateCode": "26",
       "latitude": 14.2069466,
@@ -7083,7 +7083,7 @@
       ]
     },
     {
-      "id": 3536,
+      "id": "TH-83",
       "name": "Phuket",
       "stateCode": "83",
       "latitude": 7.8804479,
@@ -7213,7 +7213,7 @@
       ]
     },
     {
-      "id": 3537,
+      "id": "TH-91",
       "name": "Satun",
       "stateCode": "91",
       "latitude": 6.6238158,
@@ -7287,7 +7287,7 @@
       ]
     },
     {
-      "id": 3538,
+      "id": "TH-56",
       "name": "Phayao",
       "stateCode": "56",
       "latitude": 19.2154367,
@@ -7396,7 +7396,7 @@
       ]
     },
     {
-      "id": 3539,
+      "id": "TH-90",
       "name": "Songkhla",
       "stateCode": "90",
       "latitude": 7.1897659,
@@ -7561,7 +7561,7 @@
       ]
     },
     {
-      "id": 3540,
+      "id": "TH-94",
       "name": "Pattani",
       "stateCode": "94",
       "latitude": 6.7618308,
@@ -7684,7 +7684,7 @@
       ]
     },
     {
-      "id": 3541,
+      "id": "TH-92",
       "name": "Trang",
       "stateCode": "92",
       "latitude": 7.5644833,
@@ -7786,7 +7786,7 @@
       ]
     },
     {
-      "id": 3542,
+      "id": "TH-25",
       "name": "Prachin Buri",
       "stateCode": "25",
       "latitude": 14.0420699,
@@ -7860,7 +7860,7 @@
       ]
     },
     {
-      "id": 3543,
+      "id": "TH-16",
       "name": "Lop Buri",
       "stateCode": "16",
       "latitude": 14.7995081,
@@ -7962,7 +7962,7 @@
       ]
     },
     {
-      "id": 3544,
+      "id": "TH-52",
       "name": "Lampang",
       "stateCode": "52",
       "latitude": 18.2855395,
@@ -8085,7 +8085,7 @@
       ]
     },
     {
-      "id": 3545,
+      "id": "TH-64",
       "name": "Sukhothai",
       "stateCode": "64",
       "latitude": 43.6485556,
@@ -8201,7 +8201,7 @@
       ]
     },
     {
-      "id": 3546,
+      "id": "TH-49",
       "name": "Mukdahan",
       "stateCode": "49",
       "latitude": 16.5435914,
@@ -8268,7 +8268,7 @@
       ]
     },
     {
-      "id": 3547,
+      "id": "TH-33",
       "name": "Si Sa Ket",
       "stateCode": "33",
       "latitude": 15.1186009,
@@ -8454,7 +8454,7 @@
       ]
     },
     {
-      "id": 3548,
+      "id": "TH-48",
       "name": "Nakhon Phanom",
       "stateCode": "48",
       "latitude": 17.392039,
@@ -8570,7 +8570,7 @@
       ]
     },
     {
-      "id": 3549,
+      "id": "TH-82",
       "name": "Phangnga",
       "stateCode": "82",
       "latitude": 8.4501414,
@@ -8665,7 +8665,7 @@
       ]
     },
     {
-      "id": 3550,
+      "id": "TH-46",
       "name": "Kalasin",
       "stateCode": "46",
       "latitude": 16.438508,
@@ -8851,7 +8851,7 @@
       ]
     },
     {
-      "id": 3551,
+      "id": "TH-61",
       "name": "Uthai Thani",
       "stateCode": "61",
       "latitude": 15.3835001,
@@ -8946,7 +8946,7 @@
       ]
     },
     {
-      "id": 3552,
+      "id": "TH-24",
       "name": "Chachoengsao",
       "stateCode": "24",
       "latitude": 13.6904194,
@@ -9076,7 +9076,7 @@
       ]
     },
     {
-      "id": 3553,
+      "id": "TH-96",
       "name": "Narathiwat",
       "stateCode": "96",
       "latitude": 6.4254607,
@@ -9213,7 +9213,7 @@
       ]
     },
     {
-      "id": 3554,
+      "id": "TH-10",
       "name": "Bangkok",
       "stateCode": "10",
       "latitude": 13.7563309,
@@ -9581,7 +9581,7 @@
       ]
     },
     {
-      "id": 4954,
+      "id": "TH-36",
       "name": "Chaiyaphum",
       "stateCode": "36",
       "latitude": 16.0074974,

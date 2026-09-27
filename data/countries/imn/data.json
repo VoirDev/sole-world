@@ -1,5 +1,5 @@
 {
-  "id": 136,
+  "id": "IM",
   "name": "Isle of Man",
   "nativeName": "Isle of Man",
   "iso2": "IM",
@@ -9,17 +9,17 @@
   "tld": ".im",
   "latitude": 54.25,
   "longitude": -4.5,
-  "flagId": 146,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "im",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    890
+    "GBP"
   ],
   "timezoneIds": [
-    2452
+    "Europe/Isle_of_Man"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 5303,
+      "id": "IM-01",
       "name": "Ayre",
       "stateCode": "01",
       "latitude": 54.3297577,
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "id": 5304,
+      "id": "IM-02",
       "name": "Garff",
       "stateCode": "02",
       "latitude": 54.256872,
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": 5305,
+      "id": "IM-03",
       "name": "Glenfaba",
       "stateCode": "03",
       "latitude": 54.1985534,
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "id": 5306,
+      "id": "IM-04",
       "name": "Michael",
       "stateCode": "04",
       "latitude": 54.2742778,
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "id": 5307,
+      "id": "IM-05",
       "name": "Middle",
       "stateCode": "05",
       "latitude": 54.1777052,
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "id": 5308,
+      "id": "IM-06",
       "name": "Rushen",
       "stateCode": "06",
       "latitude": 54.0957406,

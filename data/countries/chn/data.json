@@ -1,5 +1,5 @@
 {
-  "id": 45,
+  "id": "CN",
   "name": "China",
   "nativeName": "中国",
   "iso2": "CN",
@@ -9,18 +9,18 @@
   "tld": ".cn",
   "latitude": 35,
   "longitude": 105,
-  "flagId": 202,
-  "regionId": 3,
-  "subregionId": 12,
+  "flagId": "cn",
+  "regionId": "asia",
+  "subregionId": "eastern-asia",
   "currencyIds": [
-    867
+    "CNY"
   ],
   "timezoneIds": [
-    2342,
-    2343
+    "Asia/Shanghai",
+    "Asia/Urumqi"
   ],
   "officialLanguageIds": [
-    25
+    "zh"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 2247,
+      "id": "CN-ZJ",
       "name": "Zhejiang",
       "stateCode": "ZJ",
       "latitude": 29.1416432,
@@ -389,7 +389,7 @@
       ]
     },
     {
-      "id": 2248,
+      "id": "CN-FJ",
       "name": "Fujian",
       "stateCode": "FJ",
       "latitude": 26.4836842,
@@ -1177,7 +1177,7 @@
       ]
     },
     {
-      "id": 2249,
+      "id": "CN-SH",
       "name": "Shanghai",
       "stateCode": "SH",
       "latitude": 31.230416,
@@ -1216,7 +1216,7 @@
       ]
     },
     {
-      "id": 2250,
+      "id": "CN-JS",
       "name": "Jiangsu",
       "stateCode": "JS",
       "latitude": 33.1401715,
@@ -1332,7 +1332,7 @@
       ]
     },
     {
-      "id": 2251,
+      "id": "CN-AH",
       "name": "Anhui",
       "stateCode": "AH",
       "latitude": 30.6006773,
@@ -1602,7 +1602,7 @@
       ]
     },
     {
-      "id": 2252,
+      "id": "CN-SD",
       "name": "Shandong",
       "stateCode": "SD",
       "latitude": 37.8006064,
@@ -2243,7 +2243,7 @@
       ]
     },
     {
-      "id": 2253,
+      "id": "CN-JL",
       "name": "Jilin",
       "stateCode": "JL",
       "latitude": 43.837883,
@@ -2618,7 +2618,7 @@
       ]
     },
     {
-      "id": 2254,
+      "id": "CN-SX",
       "name": "Shanxi",
       "stateCode": "SX",
       "latitude": 37.2425649,
@@ -2755,7 +2755,7 @@
       ]
     },
     {
-      "id": 2255,
+      "id": "CN-TW",
       "name": "Taiwan",
       "stateCode": "TW",
       "latitude": 23.69781,
@@ -3116,7 +3116,7 @@
       ]
     },
     {
-      "id": 2256,
+      "id": "CN-JX",
       "name": "Jiangxi",
       "stateCode": "JX",
       "latitude": 27.0874564,
@@ -3239,7 +3239,7 @@
       ]
     },
     {
-      "id": 2257,
+      "id": "CN-BJ",
       "name": "Beijing",
       "stateCode": "BJ",
       "latitude": 39.9041999,
@@ -3306,7 +3306,7 @@
       ]
     },
     {
-      "id": 2258,
+      "id": "CN-HN",
       "name": "Hunan",
       "stateCode": "HN",
       "latitude": 27.3683009,
@@ -4143,7 +4143,7 @@
       ]
     },
     {
-      "id": 2259,
+      "id": "CN-HA",
       "name": "Henan",
       "stateCode": "HA",
       "latitude": 34.2904302,
@@ -4539,7 +4539,7 @@
       ]
     },
     {
-      "id": 2260,
+      "id": "CN-YN",
       "name": "Yunnan",
       "stateCode": "YN",
       "latitude": 24.4752847,
@@ -4753,7 +4753,7 @@
       ]
     },
     {
-      "id": 2261,
+      "id": "CN-GZ",
       "name": "Guizhou",
       "stateCode": "GZ",
       "latitude": 26.8429645,
@@ -5135,7 +5135,7 @@
       ]
     },
     {
-      "id": 2262,
+      "id": "CN-NX",
       "name": "Ningxia Huizu",
       "stateCode": "NX",
       "latitude": 37.198731,
@@ -5195,7 +5195,7 @@
       ]
     },
     {
-      "id": 2263,
+      "id": "CN-XJ",
       "name": "Xinjiang",
       "stateCode": "XJ",
       "latitude": 42.5246357,
@@ -5465,7 +5465,7 @@
       ]
     },
     {
-      "id": 2264,
+      "id": "CN-XZ",
       "name": "Xizang",
       "stateCode": "XZ",
       "latitude": 30.1533605,
@@ -5567,7 +5567,7 @@
       ]
     },
     {
-      "id": 2265,
+      "id": "CN-HL",
       "name": "Heilongjiang",
       "stateCode": "HL",
       "latitude": 47.1216472,
@@ -6075,7 +6075,7 @@
       ]
     },
     {
-      "id": 2266,
+      "id": "CN-MO",
       "name": "Macau SAR",
       "stateCode": "MO",
       "latitude": 22.198745,
@@ -6085,7 +6085,7 @@
       "cities": []
     },
     {
-      "id": 2267,
+      "id": "CN-HK",
       "name": "Hong Kong SAR",
       "stateCode": "HK",
       "latitude": 22.3193039,
@@ -6095,7 +6095,7 @@
       "cities": []
     },
     {
-      "id": 2268,
+      "id": "CN-LN",
       "name": "Liaoning",
       "stateCode": "LN",
       "latitude": 41.9436543,
@@ -6463,7 +6463,7 @@
       ]
     },
     {
-      "id": 2269,
+      "id": "CN-NM",
       "name": "Inner Mongolia",
       "stateCode": "NM",
       "latitude": 43.37822,
@@ -6705,7 +6705,7 @@
       ]
     },
     {
-      "id": 2270,
+      "id": "CN-QH",
       "name": "Qinghai",
       "stateCode": "QH",
       "latitude": 35.744798,
@@ -6772,7 +6772,7 @@
       ]
     },
     {
-      "id": 2271,
+      "id": "CN-CQ",
       "name": "Chongqing",
       "stateCode": "CQ",
       "latitude": 29.4315861,
@@ -6909,7 +6909,7 @@
       ]
     },
     {
-      "id": 2272,
+      "id": "CN-SN",
       "name": "Shaanxi",
       "stateCode": "SN",
       "latitude": 35.3939908,
@@ -7018,7 +7018,7 @@
       ]
     },
     {
-      "id": 2273,
+      "id": "CN-HI",
       "name": "Hainan",
       "stateCode": "HI",
       "latitude": 19.5663947,
@@ -7127,7 +7127,7 @@
       ]
     },
     {
-      "id": 2274,
+      "id": "CN-HB",
       "name": "Hubei",
       "stateCode": "HB",
       "latitude": 30.7378118,
@@ -7523,7 +7523,7 @@
       ]
     },
     {
-      "id": 2275,
+      "id": "CN-GS",
       "name": "Gansu",
       "stateCode": "GS",
       "latitude": 35.7518326,
@@ -7674,7 +7674,7 @@
       ]
     },
     {
-      "id": 2276,
+      "id": "CN-TJ",
       "name": "Tianjin",
       "stateCode": "TJ",
       "latitude": 39.1252291,
@@ -8168,7 +8168,7 @@
       ]
     },
     {
-      "id": 2277,
+      "id": "CN-SC",
       "name": "Sichuan",
       "stateCode": "SC",
       "latitude": 30.2638032,
@@ -8522,7 +8522,7 @@
       ]
     },
     {
-      "id": 2278,
+      "id": "CN-GX",
       "name": "Guangxi Zhuang",
       "stateCode": "GX",
       "latitude": 23.7247599,
@@ -8729,7 +8729,7 @@
       ]
     },
     {
-      "id": 2279,
+      "id": "CN-GD",
       "name": "Guangdong",
       "stateCode": "GD",
       "latitude": 23.3790333,
@@ -9230,7 +9230,7 @@
       ]
     },
     {
-      "id": 2280,
+      "id": "CN-HE",
       "name": "Hebei",
       "stateCode": "HE",
       "latitude": 37.8956594,

@@ -1,5 +1,5 @@
 {
-  "id": 172,
+  "id": "PY",
   "name": "Paraguay",
   "nativeName": "Paraguay",
   "iso2": "PY",
@@ -9,18 +9,18 @@
   "tld": ".py",
   "latitude": -23,
   "longitude": -58,
-  "flagId": 65,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "py",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    940
+    "PYG"
   ],
   "timezoneIds": [
-    2507
+    "America/Asuncion"
   ],
   "officialLanguageIds": [
-    47,
-    85
+    "es",
+    "gn"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 2770,
+      "id": "PY-15",
       "name": "Presidente Hayes",
       "stateCode": "15",
       "latitude": -23.3512605,
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": 2771,
+      "id": "PY-14",
       "name": "Canindeyú",
       "stateCode": "14",
       "latitude": -24.1378735,
@@ -183,7 +183,7 @@
       ]
     },
     {
-      "id": 2772,
+      "id": "PY-4",
       "name": "Guairá",
       "stateCode": "4",
       "latitude": -25.8810932,
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "id": 2773,
+      "id": "PY-5",
       "name": "Caaguazú",
       "stateCode": "5",
       "latitude": -25.4645818,
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "id": 2774,
+      "id": "PY-9",
       "name": "Paraguarí",
       "stateCode": "9",
       "latitude": -25.6262174,
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": 2775,
+      "id": "PY-6",
       "name": "Caazapá",
       "stateCode": "6",
       "latitude": -26.1827713,
@@ -486,7 +486,7 @@
       ]
     },
     {
-      "id": 2776,
+      "id": "PY-2",
       "name": "San Pedro",
       "stateCode": "2",
       "latitude": -24.1948668,
@@ -581,7 +581,7 @@
       ]
     },
     {
-      "id": 2777,
+      "id": "PY-11",
       "name": "Central",
       "stateCode": "11",
       "latitude": 36.1559229,
@@ -697,7 +697,7 @@
       ]
     },
     {
-      "id": 2778,
+      "id": "PY-7",
       "name": "Itapúa",
       "stateCode": "7",
       "latitude": -26.7923623,
@@ -855,7 +855,7 @@
       ]
     },
     {
-      "id": 2779,
+      "id": "PY-1",
       "name": "Concepción",
       "stateCode": "1",
       "latitude": -23.4214264,
@@ -887,7 +887,7 @@
       ]
     },
     {
-      "id": 2780,
+      "id": "PY-19",
       "name": "Boquerón",
       "stateCode": "19",
       "latitude": -21.7449254,
@@ -919,7 +919,7 @@
       ]
     },
     {
-      "id": 2781,
+      "id": "PY-12",
       "name": "Ñeembucú",
       "stateCode": "12",
       "latitude": -27.0299114,
@@ -951,7 +951,7 @@
       ]
     },
     {
-      "id": 2782,
+      "id": "PY-13",
       "name": "Amambay",
       "stateCode": "13",
       "latitude": -22.5590272,
@@ -983,7 +983,7 @@
       ]
     },
     {
-      "id": 2783,
+      "id": "PY-3",
       "name": "Cordillera",
       "stateCode": "3",
       "latitude": -25.2289491,
@@ -1085,7 +1085,7 @@
       ]
     },
     {
-      "id": 2784,
+      "id": "PY-10",
       "name": "Alto Paraná",
       "stateCode": "10",
       "latitude": -25.6075546,
@@ -1166,7 +1166,7 @@
       ]
     },
     {
-      "id": 2785,
+      "id": "PY-16",
       "name": "Alto Paraguay",
       "stateCode": "16",
       "latitude": -20.0852508,
@@ -1191,7 +1191,7 @@
       ]
     },
     {
-      "id": 2786,
+      "id": "PY-8",
       "name": "Misiones",
       "stateCode": "8",
       "latitude": -26.8433512,
@@ -1258,7 +1258,7 @@
       ]
     },
     {
-      "id": 5221,
+      "id": "PY-ASU",
       "name": "Asuncion",
       "stateCode": "ASU",
       "latitude": -25.2968297,

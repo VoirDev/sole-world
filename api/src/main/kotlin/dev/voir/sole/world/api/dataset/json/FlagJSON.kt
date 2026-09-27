@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 /**
  * Shared flag record read from bundled seed data.
- * @property id Flag primary key used during import.
+ * @property id Flag alias. A territory's flag is its lowercase ISO 3166-1 alpha-2 code, such as `us`.
  * @property caption Human-readable flag caption.
  * @property emoji Flag emoji.
  * @property emojiU Unicode codepoint form of the flag emoji.
@@ -13,10 +13,10 @@ import kotlinx.serialization.Serializable
  */
 @Serializable
 data class FlagJSON(
-    val id: Long,
+    val id: String,
     val caption: String,
     val emoji: String,
     val emojiU: String,
-    val square: Long?,
-    val wide: Long?,
+    val square: String?,
+    val wide: String?,
 )

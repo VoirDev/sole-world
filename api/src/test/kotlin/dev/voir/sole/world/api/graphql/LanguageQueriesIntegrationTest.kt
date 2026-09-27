@@ -11,7 +11,7 @@ class LanguageQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              language(idOrCode: 201) {
+              language(id: "fd") {
                 id
                 code
                 nativeName
@@ -26,7 +26,7 @@ class LanguageQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
         assertNoErrors(response)
         val language = response.at("/data/language")
-        assertEquals("201", language["id"].stringValue())
+        assertEquals("fd", language["id"].stringValue())
         assertEquals("fd", language["code"].stringValue())
         assertEquals("Freedonian", language["name"].stringValue())
         assertEquals("Freedonia flag", language.at("/flag/caption").stringValue())
@@ -38,7 +38,7 @@ class LanguageQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: languagesByIds(ids: [201, 999]) { id code name }
+              requested: languagesByIds(ids: ["fd", "xx"]) { id code name }
             }
             """.trimIndent(),
         )
@@ -52,7 +52,7 @@ class LanguageQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              language(idOrCode: 999) { id }
+              language(id: "xx") { id }
             }
             """.trimIndent(),
         )

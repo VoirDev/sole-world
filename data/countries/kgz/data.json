@@ -1,5 +1,5 @@
 {
-  "id": 118,
+  "id": "KG",
   "name": "Kyrgyzstan",
   "nativeName": "Кыргызстан",
   "iso2": "KG",
@@ -9,18 +9,18 @@
   "tld": ".kg",
   "latitude": 41,
   "longitude": 75,
-  "flagId": 135,
-  "regionId": 3,
-  "subregionId": 10,
+  "flagId": "kg",
+  "regionId": "asia",
+  "subregionId": "central-asia",
   "currencyIds": [
-    909
+    "KGS"
   ],
   "timezoneIds": [
-    2434
+    "Asia/Bishkek"
   ],
   "officialLanguageIds": [
-    56,
-    46
+    "ky",
+    "ru"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 997,
+      "id": "KG-T",
       "name": "Talas",
       "stateCode": "T",
       "latitude": 42.2867339,
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": 998,
+      "id": "KG-B",
       "name": "Batken",
       "stateCode": "B",
       "latitude": 39.9721425,
@@ -183,7 +183,7 @@
       ]
     },
     {
-      "id": 999,
+      "id": "KG-N",
       "name": "Naryn",
       "stateCode": "N",
       "latitude": 41.2943227,
@@ -215,7 +215,7 @@
       ]
     },
     {
-      "id": 1000,
+      "id": "KG-J",
       "name": "Jalal-Abad",
       "stateCode": "J",
       "latitude": 41.106808,
@@ -296,7 +296,7 @@
       ]
     },
     {
-      "id": 1001,
+      "id": "KG-GB",
       "name": "Bishkek",
       "stateCode": "GB",
       "latitude": 42.8746212,
@@ -314,7 +314,7 @@
       ]
     },
     {
-      "id": 1002,
+      "id": "KG-Y",
       "name": "Issyk-Kul",
       "stateCode": "Y",
       "latitude": 42.1859428,
@@ -374,7 +374,7 @@
       ]
     },
     {
-      "id": 1003,
+      "id": "KG-GO",
       "name": "Osh",
       "stateCode": "GO",
       "latitude": 36.0631399,
@@ -384,7 +384,7 @@
       "cities": []
     },
     {
-      "id": 1004,
+      "id": "KG-C",
       "name": "Chuy",
       "stateCode": "C",
       "latitude": 42.5655,
@@ -486,7 +486,7 @@
       ]
     },
     {
-      "id": 1005,
+      "id": "KG-O",
       "name": "Osh",
       "stateCode": "O",
       "latitude": 39.8407366,

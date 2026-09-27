@@ -1,5 +1,5 @@
 {
-  "id": 75,
+  "id": "FR",
   "name": "France",
   "nativeName": "France",
   "iso2": "FR",
@@ -9,17 +9,17 @@
   "tld": ".fr",
   "latitude": 46,
   "longitude": 2,
-  "flagId": 175,
-  "regionId": 4,
-  "subregionId": 17,
+  "flagId": "fr",
+  "regionId": "europe",
+  "subregionId": "western-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2377
+    "Europe/Paris"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4794,
+      "id": "FR-BL",
       "name": "Saint-Barthélemy",
       "stateCode": "BL",
       "latitude": 17.9005134,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 4795,
+      "id": "FR-NAQ",
       "name": "Nouvelle-Aquitaine",
       "stateCode": "NAQ",
       "latitude": 45.7087182,
@@ -6887,7 +6887,7 @@
       ]
     },
     {
-      "id": 4796,
+      "id": "FR-IDF",
       "name": "Île-de-France",
       "stateCode": "IDF",
       "latitude": 48.8499198,
@@ -11756,7 +11756,7 @@
       ]
     },
     {
-      "id": 4797,
+      "id": "FR-976",
       "name": "Mayotte",
       "stateCode": "976",
       "latitude": -12.8275,
@@ -11766,7 +11766,7 @@
       "cities": []
     },
     {
-      "id": 4798,
+      "id": "FR-ARA",
       "name": "Auvergne-Rhône-Alpes",
       "stateCode": "ARA",
       "latitude": 45.4471431,
@@ -20394,7 +20394,7 @@
       ]
     },
     {
-      "id": 4799,
+      "id": "FR-OCC",
       "name": "Occitanie",
       "stateCode": "OCC",
       "latitude": 43.8927232,
@@ -26201,7 +26201,7 @@
       ]
     },
     {
-      "id": 4802,
+      "id": "FR-PDL",
       "name": "Pays-de-la-Loire",
       "stateCode": "PDL",
       "latitude": 47.7632836,
@@ -30832,7 +30832,7 @@
       ]
     },
     {
-      "id": 4804,
+      "id": "FR-NOR",
       "name": "Normandie",
       "stateCode": "NOR",
       "latitude": 48.8798704,
@@ -34525,7 +34525,7 @@
       ]
     },
     {
-      "id": 4806,
+      "id": "FR-20R",
       "name": "Corse",
       "stateCode": "20R",
       "latitude": 42.0396042,
@@ -34893,7 +34893,7 @@
       ]
     },
     {
-      "id": 4807,
+      "id": "FR-BRE",
       "name": "Bretagne",
       "stateCode": "BRE",
       "latitude": 48.2020471,
@@ -39566,7 +39566,7 @@
       ]
     },
     {
-      "id": 4809,
+      "id": "FR-MF",
       "name": "Saint-Martin",
       "stateCode": "MF",
       "latitude": 18.0708298,
@@ -39576,7 +39576,7 @@
       "cities": []
     },
     {
-      "id": 4810,
+      "id": "FR-WF",
       "name": "Wallis and Futuna",
       "stateCode": "WF",
       "latitude": -14.2938,
@@ -39586,7 +39586,7 @@
       "cities": []
     },
     {
-      "id": 4811,
+      "id": "FR-6AE",
       "name": "Alsace",
       "stateCode": "6AE",
       "latitude": 48.3181795,
@@ -39596,7 +39596,7 @@
       "cities": []
     },
     {
-      "id": 4812,
+      "id": "FR-PAC",
       "name": "Provence-Alpes-Côte-d’Azur",
       "stateCode": "PAC",
       "latitude": 43.9351691,
@@ -43352,7 +43352,7 @@
       ]
     },
     {
-      "id": 4816,
+      "id": "FR-75C",
       "name": "Paris",
       "stateCode": "75C",
       "latitude": 48.856614,
@@ -43362,7 +43362,7 @@
       "cities": []
     },
     {
-      "id": 4818,
+      "id": "FR-CVL",
       "name": "Centre-Val de Loire",
       "stateCode": "CVL",
       "latitude": 47.7515686,
@@ -46705,7 +46705,7 @@
       ]
     },
     {
-      "id": 4820,
+      "id": "FR-GES",
       "name": "Grand-Est",
       "stateCode": "GES",
       "latitude": 48.699803,
@@ -52925,7 +52925,7 @@
       ]
     },
     {
-      "id": 4821,
+      "id": "FR-PM",
       "name": "Saint Pierre and Miquelon",
       "stateCode": "PM",
       "latitude": 46.8852,
@@ -52935,7 +52935,7 @@
       "cities": []
     },
     {
-      "id": 4822,
+      "id": "FR-973",
       "name": "French Guiana",
       "stateCode": "973",
       "latitude": 3.933889,
@@ -52945,7 +52945,7 @@
       "cities": []
     },
     {
-      "id": 4823,
+      "id": "FR-974",
       "name": "La Réunion",
       "stateCode": "974",
       "latitude": -21.115141,
@@ -52955,7 +52955,7 @@
       "cities": []
     },
     {
-      "id": 4824,
+      "id": "FR-PF",
       "name": "French Polynesia",
       "stateCode": "PF",
       "latitude": -17.679742,
@@ -52965,7 +52965,7 @@
       "cities": []
     },
     {
-      "id": 4825,
+      "id": "FR-BFC",
       "name": "Bourgogne-Franche-Comté",
       "stateCode": "BFC",
       "latitude": 47.2805127,
@@ -56133,7 +56133,7 @@
       ]
     },
     {
-      "id": 4827,
+      "id": "FR-972",
       "name": "Martinique",
       "stateCode": "972",
       "latitude": 14.641528,
@@ -56143,7 +56143,7 @@
       "cities": []
     },
     {
-      "id": 4828,
+      "id": "FR-HDF",
       "name": "Hauts-de-France",
       "stateCode": "HDF",
       "latitude": 50.4801153,
@@ -62601,7 +62601,7 @@
       ]
     },
     {
-      "id": 4829,
+      "id": "FR-971",
       "name": "Guadeloupe",
       "stateCode": "971",
       "latitude": 16.265,
@@ -62611,7 +62611,7 @@
       "cities": []
     },
     {
-      "id": 4967,
+      "id": "FR-01",
       "name": "Ain",
       "stateCode": "01",
       "latitude": 46.065086,
@@ -62621,7 +62621,7 @@
       "cities": []
     },
     {
-      "id": 4968,
+      "id": "FR-02",
       "name": "Aisne",
       "stateCode": "02",
       "latitude": 49.4528921,
@@ -62631,7 +62631,7 @@
       "cities": []
     },
     {
-      "id": 4969,
+      "id": "FR-03",
       "name": "Allier",
       "stateCode": "03",
       "latitude": 46.3670863,
@@ -62641,7 +62641,7 @@
       "cities": []
     },
     {
-      "id": 4970,
+      "id": "FR-04",
       "name": "Alpes-de-Haute-Provence",
       "stateCode": "04",
       "latitude": 44.1637752,
@@ -62651,7 +62651,7 @@
       "cities": []
     },
     {
-      "id": 4971,
+      "id": "FR-05",
       "name": "Hautes-Alpes",
       "stateCode": "05",
       "latitude": 44.6562682,
@@ -62661,7 +62661,7 @@
       "cities": []
     },
     {
-      "id": 4972,
+      "id": "FR-06",
       "name": "Alpes-Maritimes",
       "stateCode": "06",
       "latitude": 43.920417,
@@ -62671,7 +62671,7 @@
       "cities": []
     },
     {
-      "id": 4973,
+      "id": "FR-07",
       "name": "Ardèche",
       "stateCode": "07",
       "latitude": 44.8148695,
@@ -62681,7 +62681,7 @@
       "cities": []
     },
     {
-      "id": 4974,
+      "id": "FR-08",
       "name": "Ardennes",
       "stateCode": "08",
       "latitude": 49.6975951,
@@ -62691,7 +62691,7 @@
       "cities": []
     },
     {
-      "id": 4975,
+      "id": "FR-09",
       "name": "Ariège",
       "stateCode": "09",
       "latitude": 42.9434783,
@@ -62701,7 +62701,7 @@
       "cities": []
     },
     {
-      "id": 4976,
+      "id": "FR-10",
       "name": "Aube",
       "stateCode": "10",
       "latitude": 48.3197547,
@@ -62711,7 +62711,7 @@
       "cities": []
     },
     {
-      "id": 4977,
+      "id": "FR-11",
       "name": "Aude",
       "stateCode": "11",
       "latitude": 43.054114,
@@ -62721,7 +62721,7 @@
       "cities": []
     },
     {
-      "id": 4978,
+      "id": "FR-12",
       "name": "Aveyron",
       "stateCode": "12",
       "latitude": 44.3156362,
@@ -62731,7 +62731,7 @@
       "cities": []
     },
     {
-      "id": 4979,
+      "id": "FR-13",
       "name": "Bouches-du-Rhône",
       "stateCode": "13",
       "latitude": 43.5403865,
@@ -62741,7 +62741,7 @@
       "cities": []
     },
     {
-      "id": 4981,
+      "id": "FR-14",
       "name": "Calvados",
       "stateCode": "14",
       "latitude": 49.0903514,
@@ -62751,7 +62751,7 @@
       "cities": []
     },
     {
-      "id": 4982,
+      "id": "FR-15",
       "name": "Cantal",
       "stateCode": "15",
       "latitude": 45.0492177,
@@ -62761,7 +62761,7 @@
       "cities": []
     },
     {
-      "id": 4983,
+      "id": "FR-16",
       "name": "Charente",
       "stateCode": "16",
       "latitude": 45.6658479,
@@ -62771,7 +62771,7 @@
       "cities": []
     },
     {
-      "id": 4984,
+      "id": "FR-17",
       "name": "Charente-Maritime",
       "stateCode": "17",
       "latitude": 45.7296828,
@@ -62781,7 +62781,7 @@
       "cities": []
     },
     {
-      "id": 4985,
+      "id": "FR-18",
       "name": "Cher",
       "stateCode": "18",
       "latitude": 47.0243628,
@@ -62791,7 +62791,7 @@
       "cities": []
     },
     {
-      "id": 4986,
+      "id": "FR-19",
       "name": "Corrèze",
       "stateCode": "19",
       "latitude": 45.3423707,
@@ -62801,7 +62801,7 @@
       "cities": []
     },
     {
-      "id": 4987,
+      "id": "FR-21",
       "name": "Côte-d'Or",
       "stateCode": "21",
       "latitude": 47.4651302,
@@ -62811,7 +62811,7 @@
       "cities": []
     },
     {
-      "id": 4988,
+      "id": "FR-22",
       "name": "Côtes-d'Armor",
       "stateCode": "22",
       "latitude": 48.4663336,
@@ -62821,7 +62821,7 @@
       "cities": []
     },
     {
-      "id": 4989,
+      "id": "FR-23",
       "name": "Creuse",
       "stateCode": "23",
       "latitude": 46.0590394,
@@ -62831,7 +62831,7 @@
       "cities": []
     },
     {
-      "id": 4990,
+      "id": "FR-24",
       "name": "Dordogne",
       "stateCode": "24",
       "latitude": 45.1423416,
@@ -62841,7 +62841,7 @@
       "cities": []
     },
     {
-      "id": 4991,
+      "id": "FR-25",
       "name": "Doubs",
       "stateCode": "25",
       "latitude": 46.9321774,
@@ -62851,7 +62851,7 @@
       "cities": []
     },
     {
-      "id": 4992,
+      "id": "FR-26",
       "name": "Drôme",
       "stateCode": "26",
       "latitude": 44.7293357,
@@ -62861,7 +62861,7 @@
       "cities": []
     },
     {
-      "id": 4993,
+      "id": "FR-27",
       "name": "Eure",
       "stateCode": "27",
       "latitude": 49.0754035,
@@ -62871,7 +62871,7 @@
       "cities": []
     },
     {
-      "id": 4994,
+      "id": "FR-28",
       "name": "Eure-et-Loir",
       "stateCode": "28",
       "latitude": 48.4469784,
@@ -62881,7 +62881,7 @@
       "cities": []
     },
     {
-      "id": 4995,
+      "id": "FR-29",
       "name": "Finistère",
       "stateCode": "29",
       "latitude": 48.226961,
@@ -62891,7 +62891,7 @@
       "cities": []
     },
     {
-      "id": 4996,
+      "id": "FR-2A",
       "name": "Corse-du-Sud",
       "stateCode": "2A",
       "latitude": 41.8572055,
@@ -62901,7 +62901,7 @@
       "cities": []
     },
     {
-      "id": 4997,
+      "id": "FR-2B",
       "name": "Haute-Corse",
       "stateCode": "2B",
       "latitude": 42.4295866,
@@ -62911,7 +62911,7 @@
       "cities": []
     },
     {
-      "id": 4998,
+      "id": "FR-30",
       "name": "Gard",
       "stateCode": "30",
       "latitude": 43.9595276,
@@ -62921,7 +62921,7 @@
       "cities": []
     },
     {
-      "id": 4999,
+      "id": "FR-31",
       "name": "Haute-Garonne",
       "stateCode": "31",
       "latitude": 43.3050555,
@@ -62931,7 +62931,7 @@
       "cities": []
     },
     {
-      "id": 5000,
+      "id": "FR-32",
       "name": "Gers",
       "stateCode": "32",
       "latitude": 43.6950534,
@@ -62941,7 +62941,7 @@
       "cities": []
     },
     {
-      "id": 5001,
+      "id": "FR-33",
       "name": "Gironde",
       "stateCode": "33",
       "latitude": 44.8958469,
@@ -62951,7 +62951,7 @@
       "cities": []
     },
     {
-      "id": 5002,
+      "id": "FR-34",
       "name": "Hérault",
       "stateCode": "34",
       "latitude": 43.591112,
@@ -62961,7 +62961,7 @@
       "cities": []
     },
     {
-      "id": 5003,
+      "id": "FR-35",
       "name": "Ille-et-Vilaine",
       "stateCode": "35",
       "latitude": 48.1762484,
@@ -62971,7 +62971,7 @@
       "cities": []
     },
     {
-      "id": 5004,
+      "id": "FR-36",
       "name": "Indre",
       "stateCode": "36",
       "latitude": 46.811755,
@@ -62981,7 +62981,7 @@
       "cities": []
     },
     {
-      "id": 5005,
+      "id": "FR-37",
       "name": "Indre-et-Loire",
       "stateCode": "37",
       "latitude": 47.2228582,
@@ -62991,7 +62991,7 @@
       "cities": []
     },
     {
-      "id": 5006,
+      "id": "FR-38",
       "name": "Isère",
       "stateCode": "38",
       "latitude": 45.2892271,
@@ -63001,7 +63001,7 @@
       "cities": []
     },
     {
-      "id": 5007,
+      "id": "FR-39",
       "name": "Jura",
       "stateCode": "39",
       "latitude": 46.7828741,
@@ -63011,7 +63011,7 @@
       "cities": []
     },
     {
-      "id": 5008,
+      "id": "FR-40",
       "name": "Landes",
       "stateCode": "40",
       "latitude": 44.009508,
@@ -63021,7 +63021,7 @@
       "cities": []
     },
     {
-      "id": 5009,
+      "id": "FR-41",
       "name": "Loir-et-Cher",
       "stateCode": "41",
       "latitude": 47.659376,
@@ -63031,7 +63031,7 @@
       "cities": []
     },
     {
-      "id": 5010,
+      "id": "FR-42",
       "name": "Loire",
       "stateCode": "42",
       "latitude": 46.3522812,
@@ -63041,7 +63041,7 @@
       "cities": []
     },
     {
-      "id": 5011,
+      "id": "FR-43",
       "name": "Haute-Loire",
       "stateCode": "43",
       "latitude": 45.0853806,
@@ -63051,7 +63051,7 @@
       "cities": []
     },
     {
-      "id": 5012,
+      "id": "FR-44",
       "name": "Loire-Atlantique",
       "stateCode": "44",
       "latitude": 47.3475721,
@@ -63061,7 +63061,7 @@
       "cities": []
     },
     {
-      "id": 5013,
+      "id": "FR-45",
       "name": "Loiret",
       "stateCode": "45",
       "latitude": 47.9135431,
@@ -63071,7 +63071,7 @@
       "cities": []
     },
     {
-      "id": 5014,
+      "id": "FR-46",
       "name": "Lot",
       "stateCode": "46",
       "latitude": 44.624607,
@@ -63081,7 +63081,7 @@
       "cities": []
     },
     {
-      "id": 5015,
+      "id": "FR-47",
       "name": "Lot-et-Garonne",
       "stateCode": "47",
       "latitude": 44.3687314,
@@ -63091,7 +63091,7 @@
       "cities": []
     },
     {
-      "id": 5016,
+      "id": "FR-48",
       "name": "Lozère",
       "stateCode": "48",
       "latitude": 44.5422779,
@@ -63101,7 +63101,7 @@
       "cities": []
     },
     {
-      "id": 5017,
+      "id": "FR-49",
       "name": "Maine-et-Loire",
       "stateCode": "49",
       "latitude": 47.3890034,
@@ -63111,7 +63111,7 @@
       "cities": []
     },
     {
-      "id": 5018,
+      "id": "FR-50",
       "name": "Manche",
       "stateCode": "50",
       "latitude": 49.0881734,
@@ -63121,7 +63121,7 @@
       "cities": []
     },
     {
-      "id": 5019,
+      "id": "FR-51",
       "name": "Marne",
       "stateCode": "51",
       "latitude": 48.9610745,
@@ -63131,7 +63131,7 @@
       "cities": []
     },
     {
-      "id": 5020,
+      "id": "FR-52",
       "name": "Haute-Marne",
       "stateCode": "52",
       "latitude": 48.1324821,
@@ -63141,7 +63141,7 @@
       "cities": []
     },
     {
-      "id": 5021,
+      "id": "FR-53",
       "name": "Mayenne",
       "stateCode": "53",
       "latitude": 48.3066842,
@@ -63151,7 +63151,7 @@
       "cities": []
     },
     {
-      "id": 5022,
+      "id": "FR-54",
       "name": "Meurthe-et-Moselle",
       "stateCode": "54",
       "latitude": 48.9556615,
@@ -63161,7 +63161,7 @@
       "cities": []
     },
     {
-      "id": 5023,
+      "id": "FR-55",
       "name": "Meuse",
       "stateCode": "55",
       "latitude": 49.012462,
@@ -63171,7 +63171,7 @@
       "cities": []
     },
     {
-      "id": 5024,
+      "id": "FR-56",
       "name": "Morbihan",
       "stateCode": "56",
       "latitude": 47.7439518,
@@ -63181,7 +63181,7 @@
       "cities": []
     },
     {
-      "id": 5025,
+      "id": "FR-57",
       "name": "Moselle",
       "stateCode": "57",
       "latitude": 49.0204566,
@@ -63191,7 +63191,7 @@
       "cities": []
     },
     {
-      "id": 5026,
+      "id": "FR-58",
       "name": "Nièvre",
       "stateCode": "58",
       "latitude": 47.1192164,
@@ -63201,7 +63201,7 @@
       "cities": []
     },
     {
-      "id": 5027,
+      "id": "FR-59",
       "name": "Nord",
       "stateCode": "59",
       "latitude": 50.5285477,
@@ -63211,7 +63211,7 @@
       "cities": []
     },
     {
-      "id": 5028,
+      "id": "FR-60",
       "name": "Oise",
       "stateCode": "60",
       "latitude": 49.4117335,
@@ -63221,7 +63221,7 @@
       "cities": []
     },
     {
-      "id": 5029,
+      "id": "FR-61",
       "name": "Orne",
       "stateCode": "61",
       "latitude": 48.5757644,
@@ -63231,7 +63231,7 @@
       "cities": []
     },
     {
-      "id": 5030,
+      "id": "FR-62",
       "name": "Pas-de-Calais",
       "stateCode": "62",
       "latitude": 50.5144699,
@@ -63241,7 +63241,7 @@
       "cities": []
     },
     {
-      "id": 5031,
+      "id": "FR-63",
       "name": "Puy-de-Dôme",
       "stateCode": "63",
       "latitude": 45.7714185,
@@ -63251,7 +63251,7 @@
       "cities": []
     },
     {
-      "id": 5032,
+      "id": "FR-64",
       "name": "Pyrénées-Atlantiques",
       "stateCode": "64",
       "latitude": 43.186817,
@@ -63261,7 +63261,7 @@
       "cities": []
     },
     {
-      "id": 5033,
+      "id": "FR-65",
       "name": "Hautes-Pyrénées",
       "stateCode": "65",
       "latitude": 43.1429462,
@@ -63271,7 +63271,7 @@
       "cities": []
     },
     {
-      "id": 5034,
+      "id": "FR-66",
       "name": "Pyrénées-Orientales",
       "stateCode": "66",
       "latitude": 42.6254179,
@@ -63281,7 +63281,7 @@
       "cities": []
     },
     {
-      "id": 5035,
+      "id": "FR-67",
       "name": "Bas-Rhin",
       "stateCode": "67",
       "latitude": 48.5986444,
@@ -63291,7 +63291,7 @@
       "cities": []
     },
     {
-      "id": 5036,
+      "id": "FR-68",
       "name": "Haut-Rhin",
       "stateCode": "68",
       "latitude": 47.8653774,
@@ -63301,7 +63301,7 @@
       "cities": []
     },
     {
-      "id": 5037,
+      "id": "FR-69",
       "name": "Rhône",
       "stateCode": "69",
       "latitude": 44.93433,
@@ -63311,7 +63311,7 @@
       "cities": []
     },
     {
-      "id": 5038,
+      "id": "FR-69M",
       "name": "Métropole de Lyon",
       "stateCode": "69M",
       "latitude": 45.7482629,
@@ -63321,7 +63321,7 @@
       "cities": []
     },
     {
-      "id": 5039,
+      "id": "FR-70",
       "name": "Haute-Saône",
       "stateCode": "70",
       "latitude": 47.6378996,
@@ -63331,7 +63331,7 @@
       "cities": []
     },
     {
-      "id": 5040,
+      "id": "FR-71",
       "name": "Saône-et-Loire",
       "stateCode": "71",
       "latitude": 46.6554883,
@@ -63341,7 +63341,7 @@
       "cities": []
     },
     {
-      "id": 5041,
+      "id": "FR-72",
       "name": "Sarthe",
       "stateCode": "72",
       "latitude": 48.0262733,
@@ -63351,7 +63351,7 @@
       "cities": []
     },
     {
-      "id": 5042,
+      "id": "FR-73",
       "name": "Savoie",
       "stateCode": "73",
       "latitude": 45.494699,
@@ -63361,7 +63361,7 @@
       "cities": []
     },
     {
-      "id": 5043,
+      "id": "FR-74",
       "name": "Haute-Savoie",
       "stateCode": "74",
       "latitude": 46.0445277,
@@ -63371,7 +63371,7 @@
       "cities": []
     },
     {
-      "id": 5044,
+      "id": "FR-76",
       "name": "Seine-Maritime",
       "stateCode": "76",
       "latitude": 49.6609681,
@@ -63381,7 +63381,7 @@
       "cities": []
     },
     {
-      "id": 5045,
+      "id": "FR-77",
       "name": "Seine-et-Marne",
       "stateCode": "77",
       "latitude": 48.6185394,
@@ -63391,7 +63391,7 @@
       "cities": []
     },
     {
-      "id": 5046,
+      "id": "FR-78",
       "name": "Yvelines",
       "stateCode": "78",
       "latitude": 48.7615301,
@@ -63401,7 +63401,7 @@
       "cities": []
     },
     {
-      "id": 5047,
+      "id": "FR-79",
       "name": "Deux-Sèvres",
       "stateCode": "79",
       "latitude": 46.5386817,
@@ -63411,7 +63411,7 @@
       "cities": []
     },
     {
-      "id": 5048,
+      "id": "FR-80",
       "name": "Somme",
       "stateCode": "80",
       "latitude": 49.9685922,
@@ -63421,7 +63421,7 @@
       "cities": []
     },
     {
-      "id": 5049,
+      "id": "FR-81",
       "name": "Tarn",
       "stateCode": "81",
       "latitude": 43.7914977,
@@ -63431,7 +63431,7 @@
       "cities": []
     },
     {
-      "id": 5050,
+      "id": "FR-82",
       "name": "Tarn-et-Garonne",
       "stateCode": "82",
       "latitude": 44.080895,
@@ -63441,7 +63441,7 @@
       "cities": []
     },
     {
-      "id": 5051,
+      "id": "FR-83",
       "name": "Var",
       "stateCode": "83",
       "latitude": 43.395073,
@@ -63451,7 +63451,7 @@
       "cities": []
     },
     {
-      "id": 5052,
+      "id": "FR-84",
       "name": "Vaucluse",
       "stateCode": "84",
       "latitude": 44.04475,
@@ -63461,7 +63461,7 @@
       "cities": []
     },
     {
-      "id": 5053,
+      "id": "FR-85",
       "name": "Vendée",
       "stateCode": "85",
       "latitude": 46.6754103,
@@ -63471,7 +63471,7 @@
       "cities": []
     },
     {
-      "id": 5054,
+      "id": "FR-86",
       "name": "Vienne",
       "stateCode": "86",
       "latitude": 45.5221314,
@@ -63481,7 +63481,7 @@
       "cities": []
     },
     {
-      "id": 5055,
+      "id": "FR-87",
       "name": "Haute-Vienne",
       "stateCode": "87",
       "latitude": 45.9186878,
@@ -63491,7 +63491,7 @@
       "cities": []
     },
     {
-      "id": 5056,
+      "id": "FR-88",
       "name": "Vosges",
       "stateCode": "88",
       "latitude": 48.1630173,
@@ -63501,7 +63501,7 @@
       "cities": []
     },
     {
-      "id": 5057,
+      "id": "FR-89",
       "name": "Yonne",
       "stateCode": "89",
       "latitude": 47.8547614,
@@ -63511,7 +63511,7 @@
       "cities": []
     },
     {
-      "id": 5058,
+      "id": "FR-90",
       "name": "Territoire de Belfort",
       "stateCode": "90",
       "latitude": 47.6293072,
@@ -63521,7 +63521,7 @@
       "cities": []
     },
     {
-      "id": 5059,
+      "id": "FR-91",
       "name": "Essonne",
       "stateCode": "91",
       "latitude": 48.5304615,
@@ -63531,7 +63531,7 @@
       "cities": []
     },
     {
-      "id": 5060,
+      "id": "FR-92",
       "name": "Hauts-de-Seine",
       "stateCode": "92",
       "latitude": 48.8403008,
@@ -63541,7 +63541,7 @@
       "cities": []
     },
     {
-      "id": 5061,
+      "id": "FR-93",
       "name": "Seine-Saint-Denis",
       "stateCode": "93",
       "latitude": 48.9099318,
@@ -63551,7 +63551,7 @@
       "cities": []
     },
     {
-      "id": 5062,
+      "id": "FR-94",
       "name": "Val-de-Marne",
       "stateCode": "94",
       "latitude": 48.7747004,
@@ -63561,7 +63561,7 @@
       "cities": []
     },
     {
-      "id": 5063,
+      "id": "FR-95",
       "name": "Val-d'Oise",
       "stateCode": "95",
       "latitude": 49.0751818,
@@ -63571,7 +63571,7 @@
       "cities": []
     },
     {
-      "id": 5064,
+      "id": "FR-CP",
       "name": "Clipperton",
       "stateCode": "CP",
       "latitude": 10.2833541,
@@ -63581,7 +63581,7 @@
       "cities": []
     },
     {
-      "id": 5065,
+      "id": "FR-TF",
       "name": "French Southern and Antarctic Lands",
       "stateCode": "TF",
       "latitude": -47.5446604,

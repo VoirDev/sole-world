@@ -1,5 +1,5 @@
 {
-  "id": 232,
+  "id": "GB",
   "name": "United Kingdom",
   "nativeName": "United Kingdom",
   "iso2": "GB",
@@ -9,17 +9,17 @@
   "tld": ".uk",
   "latitude": 54,
   "longitude": -2,
-  "flagId": 172,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "gb",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    890
+    "GBP"
   ],
   "timezoneIds": [
-    2601
+    "Europe/London"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2289,
+      "id": "GB-IOW",
       "name": "Isle of Wight",
       "stateCode": "IOW",
       "latitude": 50.6938479,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 2290,
+      "id": "GB-SHN",
       "name": "St Helens",
       "stateCode": "SHN",
       "latitude": 45.858961,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 2291,
+      "id": "GB-BEN",
       "name": "Brent",
       "stateCode": "BEN",
       "latitude": 51.5672808,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 2292,
+      "id": "GB-WLL",
       "name": "Walsall",
       "stateCode": "WLL",
       "latitude": 52.586214,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 2293,
+      "id": "GB-TRF",
       "name": "Trafford",
       "stateCode": "TRF",
       "latitude": 40.3856246,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 2294,
+      "id": "GB-STH",
       "name": "City of Southampton",
       "stateCode": "STH",
       "latitude": 50.9097004,
@@ -150,7 +150,7 @@
       "cities": []
     },
     {
-      "id": 2295,
+      "id": "GB-SHF",
       "name": "Sheffield",
       "stateCode": "SHF",
       "latitude": 36.0950743,
@@ -160,7 +160,7 @@
       "cities": []
     },
     {
-      "id": 2296,
+      "id": "GB-WSX",
       "name": "West Sussex",
       "stateCode": "WSX",
       "latitude": 50.9280143,
@@ -170,7 +170,7 @@
       "cities": []
     },
     {
-      "id": 2297,
+      "id": "GB-PTE",
       "name": "Peterborough",
       "stateCode": "PTE",
       "latitude": 44.3093636,
@@ -180,7 +180,7 @@
       "cities": []
     },
     {
-      "id": 2298,
+      "id": "GB-CAY",
       "name": "Caerphilly",
       "stateCode": "CAY",
       "latitude": 51.6604465,
@@ -190,7 +190,7 @@
       "cities": []
     },
     {
-      "id": 2299,
+      "id": "GB-VGL",
       "name": "Vale of Glamorgan",
       "stateCode": "VGL",
       "latitude": 51.4095958,
@@ -200,7 +200,7 @@
       "cities": []
     },
     {
-      "id": 2300,
+      "id": "GB-ZET",
       "name": "Shetland Islands",
       "stateCode": "ZET",
       "latitude": 60.5296507,
@@ -210,7 +210,7 @@
       "cities": []
     },
     {
-      "id": 2301,
+      "id": "GB-RCT",
       "name": "Rhondda Cynon Taf",
       "stateCode": "RCT",
       "latitude": 51.6490207,
@@ -220,7 +220,7 @@
       "cities": []
     },
     {
-      "id": 2302,
+      "id": "GB-POL",
       "name": "Poole",
       "stateCode": "POL",
       "latitude": 50.71505,
@@ -230,7 +230,7 @@
       "cities": []
     },
     {
-      "id": 2303,
+      "id": "GB-CBF",
       "name": "Central Bedfordshire",
       "stateCode": "CBF",
       "latitude": 52.0029744,
@@ -240,7 +240,7 @@
       "cities": []
     },
     {
-      "id": 2304,
+      "id": "GB-DOW",
       "name": "Down District Council",
       "stateCode": "DOW",
       "latitude": 54.2434287,
@@ -250,7 +250,7 @@
       "cities": []
     },
     {
-      "id": 2305,
+      "id": "GB-POR",
       "name": "Portsmouth",
       "stateCode": "POR",
       "latitude": 36.832915,
@@ -260,7 +260,7 @@
       "cities": []
     },
     {
-      "id": 2306,
+      "id": "GB-HRY",
       "name": "Haringey",
       "stateCode": "HRY",
       "latitude": 51.5906113,
@@ -270,7 +270,7 @@
       "cities": []
     },
     {
-      "id": 2307,
+      "id": "GB-BEX",
       "name": "Bexley",
       "stateCode": "BEX",
       "latitude": 51.4519021,
@@ -280,7 +280,7 @@
       "cities": []
     },
     {
-      "id": 2308,
+      "id": "GB-ROT",
       "name": "Rotherham",
       "stateCode": "ROT",
       "latitude": 53.4326035,
@@ -290,7 +290,7 @@
       "cities": []
     },
     {
-      "id": 2309,
+      "id": "GB-HPL",
       "name": "Hartlepool",
       "stateCode": "HPL",
       "latitude": 54.691745,
@@ -300,7 +300,7 @@
       "cities": []
     },
     {
-      "id": 2310,
+      "id": "GB-TFW",
       "name": "Telford and Wrekin",
       "stateCode": "TFW",
       "latitude": 52.7409916,
@@ -310,7 +310,7 @@
       "cities": []
     },
     {
-      "id": 2311,
+      "id": "GB-BFS",
       "name": "Belfast",
       "stateCode": "BFS",
       "latitude": 54.6170366,
@@ -320,7 +320,7 @@
       "cities": []
     },
     {
-      "id": 2312,
+      "id": "GB-CON",
       "name": "Cornwall",
       "stateCode": "CON",
       "latitude": 50.2660471,
@@ -330,7 +330,7 @@
       "cities": []
     },
     {
-      "id": 2313,
+      "id": "GB-STN",
       "name": "Sutton",
       "stateCode": "STN",
       "latitude": 51.3573762,
@@ -340,7 +340,7 @@
       "cities": []
     },
     {
-      "id": 2314,
+      "id": "GB-OMH",
       "name": "Omagh",
       "stateCode": "OMH",
       "latitude": 54.4513524,
@@ -350,7 +350,7 @@
       "cities": []
     },
     {
-      "id": 2315,
+      "id": "GB-BNB",
       "name": "Banbridge",
       "stateCode": "BNB",
       "latitude": 54.348729,
@@ -360,7 +360,7 @@
       "cities": []
     },
     {
-      "id": 2316,
+      "id": "GB-CCG",
       "name": "Causeway Coast and Glens",
       "stateCode": "CCG",
       "latitude": 55.043183,
@@ -370,7 +370,7 @@
       "cities": []
     },
     {
-      "id": 2317,
+      "id": "GB-NTA",
       "name": "Newtownabbey",
       "stateCode": "NTA",
       "latitude": 54.6792422,
@@ -380,7 +380,7 @@
       "cities": []
     },
     {
-      "id": 2318,
+      "id": "GB-LCE",
       "name": "Leicester",
       "stateCode": "LCE",
       "latitude": 52.6368778,
@@ -390,7 +390,7 @@
       "cities": []
     },
     {
-      "id": 2319,
+      "id": "GB-ISL",
       "name": "Islington",
       "stateCode": "ISL",
       "latitude": 51.5465063,
@@ -400,7 +400,7 @@
       "cities": []
     },
     {
-      "id": 2320,
+      "id": "GB-WGN",
       "name": "Wigan",
       "stateCode": "WGN",
       "latitude": 53.5134812,
@@ -410,7 +410,7 @@
       "cities": []
     },
     {
-      "id": 2321,
+      "id": "GB-OXF",
       "name": "Oxfordshire",
       "stateCode": "OXF",
       "latitude": 51.7612056,
@@ -420,7 +420,7 @@
       "cities": []
     },
     {
-      "id": 2322,
+      "id": "GB-MFT",
       "name": "Magherafelt",
       "stateCode": "MFT",
       "latitude": 54.7553279,
@@ -430,7 +430,7 @@
       "cities": []
     },
     {
-      "id": 2323,
+      "id": "GB-SOS",
       "name": "Southend-on-Sea",
       "stateCode": "SOS",
       "latitude": 51.5459269,
@@ -440,7 +440,7 @@
       "cities": []
     },
     {
-      "id": 2324,
+      "id": "GB-ABC",
       "name": "Armagh, Banbridge and Craigavon",
       "stateCode": "ABC",
       "latitude": 54.3932592,
@@ -450,7 +450,7 @@
       "cities": []
     },
     {
-      "id": 2325,
+      "id": "GB-PKN",
       "name": "Perth and Kinross",
       "stateCode": "PKN",
       "latitude": 56.3953817,
@@ -460,7 +460,7 @@
       "cities": []
     },
     {
-      "id": 2326,
+      "id": "GB-WFT",
       "name": "Waltham Forest",
       "stateCode": "WFT",
       "latitude": 51.5886383,
@@ -470,7 +470,7 @@
       "cities": []
     },
     {
-      "id": 2327,
+      "id": "GB-RCH",
       "name": "Rochdale",
       "stateCode": "RCH",
       "latitude": 53.6097136,
@@ -480,7 +480,7 @@
       "cities": []
     },
     {
-      "id": 2328,
+      "id": "GB-MTY",
       "name": "Merthyr Tydfil",
       "stateCode": "MTY",
       "latitude": 51.7467474,
@@ -490,7 +490,7 @@
       "cities": []
     },
     {
-      "id": 2329,
+      "id": "GB-BBD",
       "name": "Blackburn with Darwen",
       "stateCode": "BBD",
       "latitude": 53.6957522,
@@ -500,7 +500,7 @@
       "cities": []
     },
     {
-      "id": 2330,
+      "id": "GB-KWL",
       "name": "Knowsley",
       "stateCode": "KWL",
       "latitude": 53.454594,
@@ -510,7 +510,7 @@
       "cities": []
     },
     {
-      "id": 2331,
+      "id": "GB-ARM",
       "name": "Armagh",
       "stateCode": "ARM",
       "latitude": 54.3932592,
@@ -520,7 +520,7 @@
       "cities": []
     },
     {
-      "id": 2332,
+      "id": "GB-MDB",
       "name": "Middlesbrough",
       "stateCode": "MDB",
       "latitude": 54.574227,
@@ -530,7 +530,7 @@
       "cities": []
     },
     {
-      "id": 2333,
+      "id": "GB-ERW",
       "name": "East Renfrewshire",
       "stateCode": "ERW",
       "latitude": 55.7704735,
@@ -540,7 +540,7 @@
       "cities": []
     },
     {
-      "id": 2334,
+      "id": "GB-CMA",
       "name": "Cumbria",
       "stateCode": "CMA",
       "latitude": 54.5772323,
@@ -550,7 +550,7 @@
       "cities": []
     },
     {
-      "id": 2335,
+      "id": "GB-SCT",
       "name": "Scotland",
       "stateCode": "SCT",
       "latitude": 56.4906712,
@@ -4271,7 +4271,7 @@
       ]
     },
     {
-      "id": 2336,
+      "id": "GB-ENG",
       "name": "England",
       "stateCode": "ENG",
       "latitude": 52.3555177,
@@ -24715,7 +24715,7 @@
       ]
     },
     {
-      "id": 2337,
+      "id": "GB-NIR",
       "name": "Northern Ireland",
       "stateCode": "NIR",
       "latitude": 54.7877149,
@@ -25566,7 +25566,7 @@
       ]
     },
     {
-      "id": 2338,
+      "id": "GB-WLS",
       "name": "Wales",
       "stateCode": "WLS",
       "latitude": 52.1306607,
@@ -27691,7 +27691,7 @@
       ]
     },
     {
-      "id": 2339,
+      "id": "GB-BAS",
       "name": "Bath and North East Somerset",
       "stateCode": "BAS",
       "latitude": 51.3250102,
@@ -27701,7 +27701,7 @@
       "cities": []
     },
     {
-      "id": 2340,
+      "id": "GB-LIV",
       "name": "Liverpool",
       "stateCode": "LIV",
       "latitude": 32.6564981,
@@ -27711,7 +27711,7 @@
       "cities": []
     },
     {
-      "id": 2341,
+      "id": "GB-SAW",
       "name": "Sandwell",
       "stateCode": "SAW",
       "latitude": 52.5361674,
@@ -27721,7 +27721,7 @@
       "cities": []
     },
     {
-      "id": 2342,
+      "id": "GB-BMH",
       "name": "Bournemouth",
       "stateCode": "BMH",
       "latitude": 50.719164,
@@ -27731,7 +27731,7 @@
       "cities": []
     },
     {
-      "id": 2343,
+      "id": "GB-IOS",
       "name": "Isles of Scilly",
       "stateCode": "IOS",
       "latitude": 49.9277261,
@@ -27741,7 +27741,7 @@
       "cities": []
     },
     {
-      "id": 2344,
+      "id": "GB-FAL",
       "name": "Falkirk",
       "stateCode": "FAL",
       "latitude": 56.0018775,
@@ -27751,7 +27751,7 @@
       "cities": []
     },
     {
-      "id": 2345,
+      "id": "GB-DOR",
       "name": "Dorset",
       "stateCode": "DOR",
       "latitude": 50.7487635,
@@ -27761,7 +27761,7 @@
       "cities": []
     },
     {
-      "id": 2346,
+      "id": "GB-SCB",
       "name": "Scottish Borders",
       "stateCode": "SCB",
       "latitude": 55.5485697,
@@ -27771,7 +27771,7 @@
       "cities": []
     },
     {
-      "id": 2347,
+      "id": "GB-HAV",
       "name": "Havering",
       "stateCode": "HAV",
       "latitude": 51.577924,
@@ -27781,7 +27781,7 @@
       "cities": []
     },
     {
-      "id": 2348,
+      "id": "GB-MYL",
       "name": "Moyle",
       "stateCode": "MYL",
       "latitude": 55.2047327,
@@ -27791,7 +27791,7 @@
       "cities": []
     },
     {
-      "id": 2349,
+      "id": "GB-CMD",
       "name": "Camden",
       "stateCode": "CMD",
       "latitude": 51.5454736,
@@ -27801,7 +27801,7 @@
       "cities": []
     },
     {
-      "id": 2350,
+      "id": "GB-NYM",
       "name": "Newry and Mourne",
       "stateCode": "NYM",
       "latitude": 54.1742505,
@@ -27811,7 +27811,7 @@
       "cities": []
     },
     {
-      "id": 2351,
+      "id": "GB-NTL",
       "name": "Neath Port Talbot",
       "stateCode": "NTL",
       "latitude": 51.5978519,
@@ -27821,7 +27821,7 @@
       "cities": []
     },
     {
-      "id": 2352,
+      "id": "GB-CWY",
       "name": "Conwy",
       "stateCode": "CWY",
       "latitude": 53.2935013,
@@ -27831,7 +27831,7 @@
       "cities": []
     },
     {
-      "id": 2353,
+      "id": "GB-ELS",
       "name": "Outer Hebrides",
       "stateCode": "ELS",
       "latitude": 57.7598918,
@@ -27841,7 +27841,7 @@
       "cities": []
     },
     {
-      "id": 2354,
+      "id": "GB-WLN",
       "name": "West Lothian",
       "stateCode": "WLN",
       "latitude": 55.9070198,
@@ -27851,7 +27851,7 @@
       "cities": []
     },
     {
-      "id": 2355,
+      "id": "GB-LIN",
       "name": "Lincolnshire",
       "stateCode": "LIN",
       "latitude": 52.9451889,
@@ -27861,7 +27861,7 @@
       "cities": []
     },
     {
-      "id": 2356,
+      "id": "GB-BDG",
       "name": "Barking and Dagenham",
       "stateCode": "BDG",
       "latitude": 51.5540666,
@@ -27871,7 +27871,7 @@
       "cities": []
     },
     {
-      "id": 2357,
+      "id": "GB-WSM",
       "name": "Westminster",
       "stateCode": "WSM",
       "latitude": 39.5765977,
@@ -27881,7 +27881,7 @@
       "cities": []
     },
     {
-      "id": 2358,
+      "id": "GB-LEW",
       "name": "Lewisham",
       "stateCode": "LEW",
       "latitude": 51.4414579,
@@ -27891,7 +27891,7 @@
       "cities": []
     },
     {
-      "id": 2359,
+      "id": "GB-NGM",
       "name": "Nottingham",
       "stateCode": "NGM",
       "latitude": 52.9547832,
@@ -27901,7 +27901,7 @@
       "cities": []
     },
     {
-      "id": 2360,
+      "id": "GB-MRY",
       "name": "Moray",
       "stateCode": "MRY",
       "latitude": 57.6498476,
@@ -27911,7 +27911,7 @@
       "cities": []
     },
     {
-      "id": 2361,
+      "id": "GB-BLY",
       "name": "Ballymoney",
       "stateCode": "BLY",
       "latitude": 55.0704888,
@@ -27921,7 +27921,7 @@
       "cities": []
     },
     {
-      "id": 2362,
+      "id": "GB-SLK",
       "name": "South Lanarkshire",
       "stateCode": "SLK",
       "latitude": 55.6735909,
@@ -27931,7 +27931,7 @@
       "cities": []
     },
     {
-      "id": 2363,
+      "id": "GB-BLA",
       "name": "Ballymena",
       "stateCode": "BLA",
       "latitude": 54.86426,
@@ -27941,7 +27941,7 @@
       "cities": []
     },
     {
-      "id": 2364,
+      "id": "GB-DNC",
       "name": "Doncaster",
       "stateCode": "DNC",
       "latitude": 53.52282,
@@ -27951,7 +27951,7 @@
       "cities": []
     },
     {
-      "id": 2365,
+      "id": "GB-NBL",
       "name": "Northumberland",
       "stateCode": "NBL",
       "latitude": 55.2082542,
@@ -27961,7 +27961,7 @@
       "cities": []
     },
     {
-      "id": 2366,
+      "id": "GB-FMO",
       "name": "Fermanagh and Omagh",
       "stateCode": "FMO",
       "latitude": 54.4513524,
@@ -27971,7 +27971,7 @@
       "cities": []
     },
     {
-      "id": 2367,
+      "id": "GB-TAM",
       "name": "Tameside",
       "stateCode": "TAM",
       "latitude": 53.4805828,
@@ -27981,7 +27981,7 @@
       "cities": []
     },
     {
-      "id": 2368,
+      "id": "GB-KEC",
       "name": "Kensington and Chelsea",
       "stateCode": "KEC",
       "latitude": 51.4990805,
@@ -27991,7 +27991,7 @@
       "cities": []
     },
     {
-      "id": 2369,
+      "id": "GB-HRT",
       "name": "Hertfordshire",
       "stateCode": "HRT",
       "latitude": 51.8097823,
@@ -28001,7 +28001,7 @@
       "cities": []
     },
     {
-      "id": 2370,
+      "id": "GB-ERY",
       "name": "East Riding of Yorkshire",
       "stateCode": "ERY",
       "latitude": 53.8416168,
@@ -28011,7 +28011,7 @@
       "cities": []
     },
     {
-      "id": 2371,
+      "id": "GB-KIR",
       "name": "Kirklees",
       "stateCode": "KIR",
       "latitude": 53.5933432,
@@ -28021,7 +28021,7 @@
       "cities": []
     },
     {
-      "id": 2372,
+      "id": "GB-SND",
       "name": "Sunderland",
       "stateCode": "SND",
       "latitude": 54.8861489,
@@ -28031,7 +28031,7 @@
       "cities": []
     },
     {
-      "id": 2373,
+      "id": "GB-GLS",
       "name": "Gloucestershire",
       "stateCode": "GLS",
       "latitude": 51.8642112,
@@ -28041,7 +28041,7 @@
       "cities": []
     },
     {
-      "id": 2374,
+      "id": "GB-EAY",
       "name": "East Ayrshire",
       "stateCode": "EAY",
       "latitude": 55.4518496,
@@ -28051,7 +28051,7 @@
       "cities": []
     },
     {
-      "id": 2375,
+      "id": "GB-UKM",
       "name": "United Kingdom",
       "stateCode": "UKM",
       "latitude": 55.378051,
@@ -28061,7 +28061,7 @@
       "cities": []
     },
     {
-      "id": 2376,
+      "id": "GB-HIL",
       "name": "Hillingdon",
       "stateCode": "HIL",
       "latitude": 51.5351832,
@@ -28071,7 +28071,7 @@
       "cities": []
     },
     {
-      "id": 2377,
+      "id": "GB-SAY",
       "name": "South Ayrshire",
       "stateCode": "SAY",
       "latitude": 55.4588988,
@@ -28081,17 +28081,7 @@
       "cities": []
     },
     {
-      "id": 2378,
-      "name": "Ascension Island",
-      "stateCode": "SH-AC",
-      "latitude": -7.9467166,
-      "longitude": -14.3559158,
-      "type": "unitary authority",
-      "translations": [],
-      "cities": []
-    },
-    {
-      "id": 2379,
+      "id": "GB-GWN",
       "name": "Gwynedd",
       "stateCode": "GWN",
       "latitude": 52.9277266,
@@ -28101,7 +28091,7 @@
       "cities": []
     },
     {
-      "id": 2380,
+      "id": "GB-HNS",
       "name": "Hounslow",
       "stateCode": "HNS",
       "latitude": 51.4828358,
@@ -28111,7 +28101,7 @@
       "cities": []
     },
     {
-      "id": 2381,
+      "id": "GB-MDW",
       "name": "Medway",
       "stateCode": "MDW",
       "latitude": 42.1417641,
@@ -28121,7 +28111,7 @@
       "cities": []
     },
     {
-      "id": 2382,
+      "id": "GB-LMV",
       "name": "Limavady",
       "stateCode": "LMV",
       "latitude": 55.051682,
@@ -28131,7 +28121,7 @@
       "cities": []
     },
     {
-      "id": 2383,
+      "id": "GB-HLD",
       "name": "Highland",
       "stateCode": "HLD",
       "latitude": 36.2967508,
@@ -28141,7 +28131,7 @@
       "cities": []
     },
     {
-      "id": 2384,
+      "id": "GB-NEL",
       "name": "North East Lincolnshire",
       "stateCode": "NEL",
       "latitude": 53.5668201,
@@ -28151,7 +28141,7 @@
       "cities": []
     },
     {
-      "id": 2385,
+      "id": "GB-HRW",
       "name": "Harrow",
       "stateCode": "HRW",
       "latitude": 51.5881627,
@@ -28161,7 +28151,7 @@
       "cities": []
     },
     {
-      "id": 2386,
+      "id": "GB-SOM",
       "name": "Somerset",
       "stateCode": "SOM",
       "latitude": 51.105097,
@@ -28171,7 +28161,7 @@
       "cities": []
     },
     {
-      "id": 2387,
+      "id": "GB-ANS",
       "name": "Angus",
       "stateCode": "ANS",
       "latitude": 37.2757886,
@@ -28181,7 +28171,7 @@
       "cities": []
     },
     {
-      "id": 2388,
+      "id": "GB-IVC",
       "name": "Inverclyde",
       "stateCode": "IVC",
       "latitude": 55.9316569,
@@ -28191,7 +28181,7 @@
       "cities": []
     },
     {
-      "id": 2389,
+      "id": "GB-DAL",
       "name": "Darlington",
       "stateCode": "DAL",
       "latitude": 34.2998762,
@@ -28201,7 +28191,7 @@
       "cities": []
     },
     {
-      "id": 2390,
+      "id": "GB-TWH",
       "name": "Tower Hamlets",
       "stateCode": "TWH",
       "latitude": 51.5202607,
@@ -28211,7 +28201,7 @@
       "cities": []
     },
     {
-      "id": 2391,
+      "id": "GB-WIL",
       "name": "Wiltshire",
       "stateCode": "WIL",
       "latitude": 51.3491996,
@@ -28221,7 +28211,7 @@
       "cities": []
     },
     {
-      "id": 2392,
+      "id": "GB-AGB",
       "name": "Argyll and Bute",
       "stateCode": "AGB",
       "latitude": 56.4006214,
@@ -28231,7 +28221,7 @@
       "cities": []
     },
     {
-      "id": 2393,
+      "id": "GB-STB",
       "name": "Strabane",
       "stateCode": "STB",
       "latitude": 54.8273865,
@@ -28241,7 +28231,7 @@
       "cities": []
     },
     {
-      "id": 2394,
+      "id": "GB-SKP",
       "name": "Stockport",
       "stateCode": "SKP",
       "latitude": 53.4106316,
@@ -28251,7 +28241,7 @@
       "cities": []
     },
     {
-      "id": 2395,
+      "id": "GB-BNH",
       "name": "Brighton and Hove",
       "stateCode": "BNH",
       "latitude": 50.8226288,
@@ -28261,7 +28251,7 @@
       "cities": []
     },
     {
-      "id": 2396,
+      "id": "GB-LBH",
       "name": "Lambeth",
       "stateCode": "LBH",
       "latitude": 51.4571477,
@@ -28271,7 +28261,7 @@
       "cities": []
     },
     {
-      "id": 2397,
+      "id": "GB-RDB",
       "name": "Redbridge",
       "stateCode": "RDB",
       "latitude": 51.5886121,
@@ -28281,7 +28271,7 @@
       "cities": []
     },
     {
-      "id": 2398,
+      "id": "GB-MAN",
       "name": "Manchester",
       "stateCode": "MAN",
       "latitude": 53.4807593,
@@ -28291,7 +28281,7 @@
       "cities": []
     },
     {
-      "id": 2399,
+      "id": "GB-MUL",
       "name": "Mid Ulster",
       "stateCode": "MUL",
       "latitude": 54.6411301,
@@ -28301,7 +28291,7 @@
       "cities": []
     },
     {
-      "id": 2400,
+      "id": "GB-SGC",
       "name": "South Gloucestershire",
       "stateCode": "SGC",
       "latitude": 51.5264361,
@@ -28311,7 +28301,7 @@
       "cities": []
     },
     {
-      "id": 2401,
+      "id": "GB-ABD",
       "name": "Aberdeenshire",
       "stateCode": "ABD",
       "latitude": 57.2868723,
@@ -28321,7 +28311,7 @@
       "cities": []
     },
     {
-      "id": 2402,
+      "id": "GB-MON",
       "name": "Monmouthshire",
       "stateCode": "MON",
       "latitude": 51.81161,
@@ -28331,7 +28321,7 @@
       "cities": []
     },
     {
-      "id": 2403,
+      "id": "GB-DBY",
       "name": "Derbyshire",
       "stateCode": "DBY",
       "latitude": 53.1046782,
@@ -28341,7 +28331,7 @@
       "cities": []
     },
     {
-      "id": 2404,
+      "id": "GB-GLG",
       "name": "Glasgow",
       "stateCode": "GLG",
       "latitude": 55.864237,
@@ -28351,7 +28341,7 @@
       "cities": []
     },
     {
-      "id": 2405,
+      "id": "GB-BKM",
       "name": "Buckinghamshire",
       "stateCode": "BKM",
       "latitude": 51.8072204,
@@ -28361,7 +28351,7 @@
       "cities": []
     },
     {
-      "id": 2406,
+      "id": "GB-DUR",
       "name": "Durham",
       "stateCode": "DUR",
       "latitude": 54.7294099,
@@ -28371,7 +28361,7 @@
       "cities": []
     },
     {
-      "id": 2407,
+      "id": "GB-SHR",
       "name": "Shropshire",
       "stateCode": "SHR",
       "latitude": 52.7063657,
@@ -28381,7 +28371,7 @@
       "cities": []
     },
     {
-      "id": 2408,
+      "id": "GB-WRL",
       "name": "Wirral",
       "stateCode": "WRL",
       "latitude": 53.3727181,
@@ -28391,7 +28381,7 @@
       "cities": []
     },
     {
-      "id": 2409,
+      "id": "GB-STY",
       "name": "South Tyneside",
       "stateCode": "STY",
       "latitude": 54.9636693,
@@ -28401,7 +28391,7 @@
       "cities": []
     },
     {
-      "id": 2410,
+      "id": "GB-ESS",
       "name": "Essex",
       "stateCode": "ESS",
       "latitude": 51.5742447,
@@ -28411,7 +28401,7 @@
       "cities": []
     },
     {
-      "id": 2411,
+      "id": "GB-HCK",
       "name": "Hackney",
       "stateCode": "HCK",
       "latitude": 51.573445,
@@ -28421,7 +28411,7 @@
       "cities": []
     },
     {
-      "id": 2412,
+      "id": "GB-ANN",
       "name": "Antrim and Newtownabbey",
       "stateCode": "ANN",
       "latitude": 54.6956887,
@@ -28431,7 +28421,7 @@
       "cities": []
     },
     {
-      "id": 2413,
+      "id": "GB-BST",
       "name": "Bristol",
       "stateCode": "BST",
       "latitude": 41.673522,
@@ -28441,7 +28431,7 @@
       "cities": []
     },
     {
-      "id": 2414,
+      "id": "GB-ESX",
       "name": "East Sussex",
       "stateCode": "ESX",
       "latitude": 50.9085955,
@@ -28451,7 +28441,7 @@
       "cities": []
     },
     {
-      "id": 2415,
+      "id": "GB-DGY",
       "name": "Dumfries and Galloway",
       "stateCode": "DGY",
       "latitude": 55.0701073,
@@ -28461,7 +28451,7 @@
       "cities": []
     },
     {
-      "id": 2416,
+      "id": "GB-MIK",
       "name": "Milton Keynes",
       "stateCode": "MIK",
       "latitude": 52.0852038,
@@ -28471,7 +28461,7 @@
       "cities": []
     },
     {
-      "id": 2417,
+      "id": "GB-DRY",
       "name": "Derry",
       "stateCode": "DRY",
       "latitude": 54.9690778,
@@ -28481,7 +28471,7 @@
       "cities": []
     },
     {
-      "id": 2418,
+      "id": "GB-NWM",
       "name": "Newham",
       "stateCode": "NWM",
       "latitude": 51.5255162,
@@ -28491,7 +28481,7 @@
       "cities": []
     },
     {
-      "id": 2419,
+      "id": "GB-WOK",
       "name": "Wokingham",
       "stateCode": "WOK",
       "latitude": 51.410457,
@@ -28501,7 +28491,7 @@
       "cities": []
     },
     {
-      "id": 2420,
+      "id": "GB-WRT",
       "name": "Warrington",
       "stateCode": "WRT",
       "latitude": 40.2492741,
@@ -28511,7 +28501,7 @@
       "cities": []
     },
     {
-      "id": 2421,
+      "id": "GB-STT",
       "name": "Stockton-on-Tees",
       "stateCode": "STT",
       "latitude": 54.5704551,
@@ -28521,7 +28511,7 @@
       "cities": []
     },
     {
-      "id": 2422,
+      "id": "GB-SWD",
       "name": "Swindon",
       "stateCode": "SWD",
       "latitude": 51.5557739,
@@ -28531,7 +28521,7 @@
       "cities": []
     },
     {
-      "id": 2423,
+      "id": "GB-CAM",
       "name": "Cambridgeshire",
       "stateCode": "CAM",
       "latitude": 52.2052973,
@@ -28541,7 +28531,7 @@
       "cities": []
     },
     {
-      "id": 2424,
+      "id": "GB-LND",
       "name": "London",
       "stateCode": "LND",
       "latitude": 51.5123443,
@@ -28551,7 +28541,7 @@
       "cities": []
     },
     {
-      "id": 2425,
+      "id": "GB-BIR",
       "name": "Birmingham",
       "stateCode": "BIR",
       "latitude": 33.5185892,
@@ -28561,7 +28551,7 @@
       "cities": []
     },
     {
-      "id": 2426,
+      "id": "GB-YOR",
       "name": "York",
       "stateCode": "YOR",
       "latitude": 53.9599651,
@@ -28571,7 +28561,7 @@
       "cities": []
     },
     {
-      "id": 2427,
+      "id": "GB-SLG",
       "name": "Slough",
       "stateCode": "SLG",
       "latitude": 51.5105384,
@@ -28581,7 +28571,7 @@
       "cities": []
     },
     {
-      "id": 2428,
+      "id": "GB-EDH",
       "name": "Edinburgh",
       "stateCode": "EDH",
       "latitude": 55.953252,
@@ -28591,7 +28581,7 @@
       "cities": []
     },
     {
-      "id": 2429,
+      "id": "GB-MEA",
       "name": "Mid and East Antrim",
       "stateCode": "MEA",
       "latitude": 54.9399341,
@@ -28601,7 +28591,7 @@
       "cities": []
     },
     {
-      "id": 2430,
+      "id": "GB-NSM",
       "name": "North Somerset",
       "stateCode": "NSM",
       "latitude": 51.3879028,
@@ -28611,7 +28601,7 @@
       "cities": []
     },
     {
-      "id": 2431,
+      "id": "GB-GAT",
       "name": "Gateshead",
       "stateCode": "GAT",
       "latitude": 54.95268,
@@ -28621,7 +28611,7 @@
       "cities": []
     },
     {
-      "id": 2432,
+      "id": "GB-SWK",
       "name": "Southwark",
       "stateCode": "SWK",
       "latitude": 51.4880572,
@@ -28631,7 +28621,7 @@
       "cities": []
     },
     {
-      "id": 2433,
+      "id": "GB-SWA",
       "name": "Swansea",
       "stateCode": "SWA",
       "latitude": 51.62144,
@@ -28641,7 +28631,7 @@
       "cities": []
     },
     {
-      "id": 2434,
+      "id": "GB-WND",
       "name": "Wandsworth",
       "stateCode": "WND",
       "latitude": 51.4568274,
@@ -28651,7 +28641,7 @@
       "cities": []
     },
     {
-      "id": 2435,
+      "id": "GB-HAM",
       "name": "Hampshire",
       "stateCode": "HAM",
       "latitude": 51.0576948,
@@ -28753,7 +28743,7 @@
       ]
     },
     {
-      "id": 2436,
+      "id": "GB-WRX",
       "name": "Wrexham",
       "stateCode": "WRX",
       "latitude": 53.0301378,
@@ -28763,7 +28753,7 @@
       "cities": []
     },
     {
-      "id": 2437,
+      "id": "GB-FLN",
       "name": "Flintshire",
       "stateCode": "FLN",
       "latitude": 53.1668658,
@@ -28773,7 +28763,7 @@
       "cities": []
     },
     {
-      "id": 2438,
+      "id": "GB-COV",
       "name": "Coventry",
       "stateCode": "COV",
       "latitude": 52.406822,
@@ -28783,7 +28773,7 @@
       "cities": []
     },
     {
-      "id": 2439,
+      "id": "GB-CKF",
       "name": "Carrickfergus",
       "stateCode": "CKF",
       "latitude": 54.7256843,
@@ -28793,7 +28783,7 @@
       "cities": []
     },
     {
-      "id": 2440,
+      "id": "GB-WDU",
       "name": "West Dunbartonshire",
       "stateCode": "WDU",
       "latitude": 55.9450925,
@@ -28803,7 +28793,7 @@
       "cities": []
     },
     {
-      "id": 2441,
+      "id": "GB-POW",
       "name": "Powys",
       "stateCode": "POW",
       "latitude": 52.6464249,
@@ -28813,7 +28803,7 @@
       "cities": []
     },
     {
-      "id": 2442,
+      "id": "GB-CHW",
       "name": "Cheshire West and Chester",
       "stateCode": "CHW",
       "latitude": 53.2302974,
@@ -28823,7 +28813,7 @@
       "cities": []
     },
     {
-      "id": 2443,
+      "id": "GB-RFW",
       "name": "Renfrewshire",
       "stateCode": "RFW",
       "latitude": 55.846654,
@@ -28833,7 +28823,7 @@
       "cities": []
     },
     {
-      "id": 2444,
+      "id": "GB-CHE",
       "name": "Cheshire East",
       "stateCode": "CHE",
       "latitude": 53.1610446,
@@ -28843,7 +28833,7 @@
       "cities": []
     },
     {
-      "id": 2445,
+      "id": "GB-CKT",
       "name": "Cookstown",
       "stateCode": "CKT",
       "latitude": 54.6418158,
@@ -28853,7 +28843,7 @@
       "cities": []
     },
     {
-      "id": 2446,
+      "id": "GB-DRS",
       "name": "Derry City and Strabane",
       "stateCode": "DRS",
       "latitude": 55.0047443,
@@ -28863,7 +28853,7 @@
       "cities": []
     },
     {
-      "id": 2447,
+      "id": "GB-STS",
       "name": "Staffordshire",
       "stateCode": "STS",
       "latitude": 52.8792745,
@@ -28873,7 +28863,7 @@
       "cities": []
     },
     {
-      "id": 2448,
+      "id": "GB-HMF",
       "name": "Hammersmith and Fulham",
       "stateCode": "HMF",
       "latitude": 51.4990156,
@@ -28883,7 +28873,7 @@
       "cities": []
     },
     {
-      "id": 2449,
+      "id": "GB-CGV",
       "name": "Craigavon",
       "stateCode": "CGV",
       "latitude": 54.3932592,
@@ -28893,7 +28883,7 @@
       "cities": []
     },
     {
-      "id": 2450,
+      "id": "GB-CLK",
       "name": "Clackmannanshire",
       "stateCode": "CLK",
       "latitude": 56.1075351,
@@ -28903,7 +28893,7 @@
       "cities": []
     },
     {
-      "id": 2451,
+      "id": "GB-BPL",
       "name": "Blackpool",
       "stateCode": "BPL",
       "latitude": 53.8175053,
@@ -28913,7 +28903,7 @@
       "cities": []
     },
     {
-      "id": 2452,
+      "id": "GB-BGE",
       "name": "Bridgend",
       "stateCode": "BGE",
       "latitude": 51.5083199,
@@ -28923,7 +28913,7 @@
       "cities": []
     },
     {
-      "id": 2453,
+      "id": "GB-NLN",
       "name": "North Lincolnshire",
       "stateCode": "NLN",
       "latitude": 53.6055592,
@@ -28933,7 +28923,7 @@
       "cities": []
     },
     {
-      "id": 2454,
+      "id": "GB-EDU",
       "name": "East Dunbartonshire",
       "stateCode": "EDU",
       "latitude": 55.9743162,
@@ -28943,7 +28933,7 @@
       "cities": []
     },
     {
-      "id": 2455,
+      "id": "GB-RDG",
       "name": "Reading",
       "stateCode": "RDG",
       "latitude": 36.1486659,
@@ -28953,7 +28943,7 @@
       "cities": []
     },
     {
-      "id": 2456,
+      "id": "GB-NTT",
       "name": "Nottinghamshire",
       "stateCode": "NTT",
       "latitude": 53.100319,
@@ -28963,7 +28953,7 @@
       "cities": []
     },
     {
-      "id": 2457,
+      "id": "GB-DUD",
       "name": "Dudley",
       "stateCode": "DUD",
       "latitude": 42.0433661,
@@ -28973,7 +28963,7 @@
       "cities": []
     },
     {
-      "id": 2458,
+      "id": "GB-NET",
       "name": "Newcastle upon Tyne",
       "stateCode": "NET",
       "latitude": 54.978252,
@@ -28983,7 +28973,7 @@
       "cities": []
     },
     {
-      "id": 2459,
+      "id": "GB-BUR",
       "name": "Bury",
       "stateCode": "BUR",
       "latitude": 53.5933498,
@@ -28993,7 +28983,7 @@
       "cities": []
     },
     {
-      "id": 2460,
+      "id": "GB-LBC",
       "name": "Lisburn and Castlereagh",
       "stateCode": "LBC",
       "latitude": 54.4981584,
@@ -29003,7 +28993,7 @@
       "cities": []
     },
     {
-      "id": 2461,
+      "id": "GB-CLR",
       "name": "Coleraine",
       "stateCode": "CLR",
       "latitude": 55.145157,
@@ -29013,7 +29003,7 @@
       "cities": []
     },
     {
-      "id": 2462,
+      "id": "GB-ELN",
       "name": "East Lothian",
       "stateCode": "ELN",
       "latitude": 55.9493383,
@@ -29023,7 +29013,7 @@
       "cities": []
     },
     {
-      "id": 2463,
+      "id": "GB-ABE",
       "name": "Aberdeen",
       "stateCode": "ABE",
       "latitude": 57.149717,
@@ -29033,7 +29023,7 @@
       "cities": []
     },
     {
-      "id": 2464,
+      "id": "GB-KEN",
       "name": "Kent",
       "stateCode": "KEN",
       "latitude": 41.1536674,
@@ -29043,7 +29033,7 @@
       "cities": []
     },
     {
-      "id": 2465,
+      "id": "GB-WKF",
       "name": "Wakefield",
       "stateCode": "WKF",
       "latitude": 42.5039395,
@@ -29053,7 +29043,7 @@
       "cities": []
     },
     {
-      "id": 2466,
+      "id": "GB-HAL",
       "name": "Halton",
       "stateCode": "HAL",
       "latitude": 43.5325372,
@@ -29063,7 +29053,7 @@
       "cities": []
     },
     {
-      "id": 2467,
+      "id": "GB-SFK",
       "name": "Suffolk",
       "stateCode": "SFK",
       "latitude": 52.1872472,
@@ -29073,7 +29063,7 @@
       "cities": []
     },
     {
-      "id": 2468,
+      "id": "GB-THR",
       "name": "Thurrock",
       "stateCode": "THR",
       "latitude": 51.4934557,
@@ -29083,7 +29073,7 @@
       "cities": []
     },
     {
-      "id": 2469,
+      "id": "GB-SOL",
       "name": "Solihull",
       "stateCode": "SOL",
       "latitude": 52.411811,
@@ -29093,7 +29083,7 @@
       "cities": []
     },
     {
-      "id": 2470,
+      "id": "GB-BRC",
       "name": "Bracknell Forest",
       "stateCode": "BRC",
       "latitude": 51.4153828,
@@ -29103,7 +29093,7 @@
       "cities": []
     },
     {
-      "id": 2471,
+      "id": "GB-WBK",
       "name": "West Berkshire",
       "stateCode": "WBK",
       "latitude": 51.4308255,
@@ -29113,7 +29103,7 @@
       "cities": []
     },
     {
-      "id": 2472,
+      "id": "GB-RUT",
       "name": "Rutland",
       "stateCode": "RUT",
       "latitude": 43.6106237,
@@ -29123,7 +29113,7 @@
       "cities": []
     },
     {
-      "id": 2473,
+      "id": "GB-NFK",
       "name": "Norfolk",
       "stateCode": "NFK",
       "latitude": 36.8507689,
@@ -29133,7 +29123,7 @@
       "cities": []
     },
     {
-      "id": 2474,
+      "id": "GB-ORK",
       "name": "Orkney Islands",
       "stateCode": "ORK",
       "latitude": 58.9809401,
@@ -29143,7 +29133,7 @@
       "cities": []
     },
     {
-      "id": 2475,
+      "id": "GB-KHL",
       "name": "City of Kingston upon Hull",
       "stateCode": "KHL",
       "latitude": 53.7676236,
@@ -29153,7 +29143,7 @@
       "cities": []
     },
     {
-      "id": 2476,
+      "id": "GB-ENF",
       "name": "Enfield",
       "stateCode": "ENF",
       "latitude": 51.6622909,
@@ -29163,7 +29153,7 @@
       "cities": []
     },
     {
-      "id": 2477,
+      "id": "GB-OLD",
       "name": "Oldham",
       "stateCode": "OLD",
       "latitude": 42.2040598,
@@ -29173,7 +29163,7 @@
       "cities": []
     },
     {
-      "id": 2478,
+      "id": "GB-TOB",
       "name": "Torbay",
       "stateCode": "TOB",
       "latitude": 50.4392329,
@@ -29183,7 +29173,7 @@
       "cities": []
     },
     {
-      "id": 2479,
+      "id": "GB-FIF",
       "name": "Fife",
       "stateCode": "FIF",
       "latitude": 56.2082078,
@@ -29193,7 +29183,7 @@
       "cities": []
     },
     {
-      "id": 2480,
+      "id": "GB-NTH",
       "name": "Northamptonshire",
       "stateCode": "NTH",
       "latitude": 52.2729944,
@@ -29203,7 +29193,7 @@
       "cities": []
     },
     {
-      "id": 2481,
+      "id": "GB-KTT",
       "name": "Kingston upon Thames",
       "stateCode": "KTT",
       "latitude": 51.378117,
@@ -29213,7 +29203,7 @@
       "cities": []
     },
     {
-      "id": 2482,
+      "id": "GB-WNM",
       "name": "Windsor and Maidenhead",
       "stateCode": "WNM",
       "latitude": 51.4799712,
@@ -29223,7 +29213,7 @@
       "cities": []
     },
     {
-      "id": 2483,
+      "id": "GB-MRT",
       "name": "Merton",
       "stateCode": "MRT",
       "latitude": 51.4097742,
@@ -29233,7 +29223,7 @@
       "cities": []
     },
     {
-      "id": 2484,
+      "id": "GB-CMN",
       "name": "Carmarthenshire",
       "stateCode": "CMN",
       "latitude": 51.8572309,
@@ -29243,7 +29233,7 @@
       "cities": []
     },
     {
-      "id": 2485,
+      "id": "GB-DER",
       "name": "Derby",
       "stateCode": "DER",
       "latitude": 37.5483755,
@@ -29253,7 +29243,7 @@
       "cities": []
     },
     {
-      "id": 2486,
+      "id": "GB-PEM",
       "name": "Pembrokeshire",
       "stateCode": "PEM",
       "latitude": 51.674078,
@@ -29263,7 +29253,7 @@
       "cities": []
     },
     {
-      "id": 2487,
+      "id": "GB-NLK",
       "name": "North Lanarkshire",
       "stateCode": "NLK",
       "latitude": 55.8662432,
@@ -29273,7 +29263,7 @@
       "cities": []
     },
     {
-      "id": 2488,
+      "id": "GB-STG",
       "name": "Stirling",
       "stateCode": "STG",
       "latitude": 56.1165227,
@@ -29283,7 +29273,7 @@
       "cities": []
     },
     {
-      "id": 2489,
+      "id": "GB-WLV",
       "name": "Wolverhampton",
       "stateCode": "WLV",
       "latitude": 52.588912,
@@ -29293,7 +29283,7 @@
       "cities": []
     },
     {
-      "id": 2490,
+      "id": "GB-BRY",
       "name": "Bromley",
       "stateCode": "BRY",
       "latitude": 51.3679705,
@@ -29303,7 +29293,7 @@
       "cities": []
     },
     {
-      "id": 2491,
+      "id": "GB-DEV",
       "name": "Devon",
       "stateCode": "DEV",
       "latitude": 50.7155591,
@@ -29313,7 +29303,7 @@
       "cities": []
     },
     {
-      "id": 2492,
+      "id": "GB-GRE",
       "name": "Greenwich",
       "stateCode": "GRE",
       "latitude": 51.4834627,
@@ -29323,7 +29313,7 @@
       "cities": []
     },
     {
-      "id": 2493,
+      "id": "GB-SLF",
       "name": "Salford",
       "stateCode": "SLF",
       "latitude": 53.4875235,
@@ -29333,7 +29323,7 @@
       "cities": []
     },
     {
-      "id": 2494,
+      "id": "GB-LSB",
       "name": "Lisburn",
       "stateCode": "LSB",
       "latitude": 54.4981584,
@@ -29343,7 +29333,7 @@
       "cities": []
     },
     {
-      "id": 2495,
+      "id": "GB-LAN",
       "name": "Lancashire",
       "stateCode": "LAN",
       "latitude": 53.7632254,
@@ -29353,7 +29343,7 @@
       "cities": []
     },
     {
-      "id": 2496,
+      "id": "GB-TOF",
       "name": "Torfaen",
       "stateCode": "TOF",
       "latitude": 51.7002253,
@@ -29363,7 +29353,7 @@
       "cities": []
     },
     {
-      "id": 2497,
+      "id": "GB-DEN",
       "name": "Denbighshire",
       "stateCode": "DEN",
       "latitude": 53.1842288,
@@ -29373,7 +29363,7 @@
       "cities": []
     },
     {
-      "id": 2498,
+      "id": "GB-ARD",
       "name": "Ards",
       "stateCode": "ARD",
       "latitude": 42.1391851,
@@ -29383,7 +29373,7 @@
       "cities": []
     },
     {
-      "id": 2499,
+      "id": "GB-BNS",
       "name": "Barnsley",
       "stateCode": "BNS",
       "latitude": 34.2994956,
@@ -29393,7 +29383,7 @@
       "cities": []
     },
     {
-      "id": 2500,
+      "id": "GB-HEF",
       "name": "Herefordshire",
       "stateCode": "HEF",
       "latitude": 52.0765164,
@@ -29403,7 +29393,7 @@
       "cities": []
     },
     {
-      "id": 2501,
+      "id": "GB-RIC",
       "name": "Richmond upon Thames",
       "stateCode": "RIC",
       "latitude": 51.4613054,
@@ -29413,17 +29403,7 @@
       "cities": []
     },
     {
-      "id": 2502,
-      "name": "Saint Helena",
-      "stateCode": "SH-HL",
-      "latitude": -15.9650104,
-      "longitude": -5.7089241,
-      "type": "unitary authority",
-      "translations": [],
-      "cities": []
-    },
-    {
-      "id": 2503,
+      "id": "GB-LDS",
       "name": "Leeds",
       "stateCode": "LDS",
       "latitude": 53.8007554,
@@ -29433,7 +29413,7 @@
       "cities": []
     },
     {
-      "id": 2504,
+      "id": "GB-BOL",
       "name": "Bolton",
       "stateCode": "BOL",
       "latitude": 44.3726476,
@@ -29443,7 +29423,7 @@
       "cities": []
     },
     {
-      "id": 2505,
+      "id": "GB-WAR",
       "name": "Warwickshire",
       "stateCode": "WAR",
       "latitude": 52.2671353,
@@ -29453,7 +29433,7 @@
       "cities": []
     },
     {
-      "id": 2506,
+      "id": "GB-STE",
       "name": "Stoke-on-Trent",
       "stateCode": "STE",
       "latitude": 53.002668,
@@ -29463,7 +29443,7 @@
       "cities": []
     },
     {
-      "id": 2507,
+      "id": "GB-BDF",
       "name": "Bedford",
       "stateCode": "BDF",
       "latitude": 32.844017,
@@ -29473,7 +29453,7 @@
       "cities": []
     },
     {
-      "id": 2508,
+      "id": "GB-DGN",
       "name": "Dungannon and South Tyrone",
       "stateCode": "DGN",
       "latitude": 54.5082684,
@@ -29483,7 +29463,7 @@
       "cities": []
     },
     {
-      "id": 2509,
+      "id": "GB-CGN",
       "name": "Ceredigion",
       "stateCode": "CGN",
       "latitude": 52.2191429,
@@ -29493,7 +29473,7 @@
       "cities": []
     },
     {
-      "id": 2510,
+      "id": "GB-WOR",
       "name": "Worcestershire",
       "stateCode": "WOR",
       "latitude": 52.2545225,
@@ -29503,7 +29483,7 @@
       "cities": []
     },
     {
-      "id": 2511,
+      "id": "GB-DND",
       "name": "Dundee",
       "stateCode": "DND",
       "latitude": 56.462018,
@@ -29513,7 +29493,7 @@
       "cities": []
     },
     {
-      "id": 2512,
+      "id": "GB-CRY",
       "name": "Croydon",
       "stateCode": "CRY",
       "latitude": 51.3827446,
@@ -29523,7 +29503,7 @@
       "cities": []
     },
     {
-      "id": 2513,
+      "id": "GB-NDN",
       "name": "North Down",
       "stateCode": "NDN",
       "latitude": 54.6536297,
@@ -29533,7 +29513,7 @@
       "cities": []
     },
     {
-      "id": 2514,
+      "id": "GB-PLY",
       "name": "Plymouth",
       "stateCode": "PLY",
       "latitude": 42.3708941,
@@ -29543,7 +29523,7 @@
       "cities": []
     },
     {
-      "id": 2515,
+      "id": "GB-LRN",
       "name": "Larne",
       "stateCode": "LRN",
       "latitude": 54.8578003,
@@ -29553,7 +29533,7 @@
       "cities": []
     },
     {
-      "id": 2516,
+      "id": "GB-LEC",
       "name": "Leicestershire",
       "stateCode": "LEC",
       "latitude": 52.772571,
@@ -29563,7 +29543,7 @@
       "cities": []
     },
     {
-      "id": 2517,
+      "id": "GB-CLD",
       "name": "Calderdale",
       "stateCode": "CLD",
       "latitude": 53.7247845,
@@ -29573,7 +29553,7 @@
       "cities": []
     },
     {
-      "id": 2518,
+      "id": "GB-SFT",
       "name": "Sefton",
       "stateCode": "SFT",
       "latitude": 53.5034449,
@@ -29583,7 +29563,7 @@
       "cities": []
     },
     {
-      "id": 2519,
+      "id": "GB-MLN",
       "name": "Midlothian",
       "stateCode": "MLN",
       "latitude": 32.475335,
@@ -29593,7 +29573,7 @@
       "cities": []
     },
     {
-      "id": 2520,
+      "id": "GB-BNE",
       "name": "Barnet",
       "stateCode": "BNE",
       "latitude": 51.6049673,
@@ -29603,7 +29583,7 @@
       "cities": []
     },
     {
-      "id": 2521,
+      "id": "GB-NTY",
       "name": "North Tyneside",
       "stateCode": "NTY",
       "latitude": 55.0182399,
@@ -29613,7 +29593,7 @@
       "cities": []
     },
     {
-      "id": 2522,
+      "id": "GB-NYK",
       "name": "North Yorkshire",
       "stateCode": "NYK",
       "latitude": 53.9915028,
@@ -29623,7 +29603,7 @@
       "cities": []
     },
     {
-      "id": 2523,
+      "id": "GB-AND",
       "name": "Ards and North Down",
       "stateCode": "AND",
       "latitude": 54.5899645,
@@ -29633,7 +29613,7 @@
       "cities": []
     },
     {
-      "id": 2524,
+      "id": "GB-NWP",
       "name": "Newport",
       "stateCode": "NWP",
       "latitude": 37.5278234,
@@ -29643,7 +29623,7 @@
       "cities": []
     },
     {
-      "id": 2525,
+      "id": "GB-CSR",
       "name": "Castlereagh",
       "stateCode": "CSR",
       "latitude": 54.575679,
@@ -29653,7 +29633,7 @@
       "cities": []
     },
     {
-      "id": 2526,
+      "id": "GB-SRY",
       "name": "Surrey",
       "stateCode": "SRY",
       "latitude": 51.3147593,
@@ -29663,7 +29643,7 @@
       "cities": []
     },
     {
-      "id": 2527,
+      "id": "GB-RCC",
       "name": "Redcar and Cleveland",
       "stateCode": "RCC",
       "latitude": 54.5971344,
@@ -29673,7 +29653,7 @@
       "cities": []
     },
     {
-      "id": 2528,
+      "id": "GB-CRF",
       "name": "Cardiff",
       "stateCode": "CRF",
       "latitude": 51.481581,
@@ -29683,7 +29663,7 @@
       "cities": []
     },
     {
-      "id": 2529,
+      "id": "GB-BRD",
       "name": "Bradford",
       "stateCode": "BRD",
       "latitude": 53.795984,
@@ -29693,7 +29673,7 @@
       "cities": []
     },
     {
-      "id": 2530,
+      "id": "GB-BGW",
       "name": "Blaenau Gwent",
       "stateCode": "BGW",
       "latitude": 51.7875779,
@@ -29703,7 +29683,7 @@
       "cities": []
     },
     {
-      "id": 2531,
+      "id": "GB-FER",
       "name": "Fermanagh",
       "stateCode": "FER",
       "latitude": 54.3447978,
@@ -29713,7 +29693,7 @@
       "cities": []
     },
     {
-      "id": 2532,
+      "id": "GB-EAL",
       "name": "Ealing",
       "stateCode": "EAL",
       "latitude": 51.5250366,
@@ -29723,7 +29703,7 @@
       "cities": []
     },
     {
-      "id": 2533,
+      "id": "GB-ANT",
       "name": "Antrim",
       "stateCode": "ANT",
       "latitude": 54.7195338,
@@ -29733,7 +29713,7 @@
       "cities": []
     },
     {
-      "id": 2534,
+      "id": "GB-NMD",
       "name": "Newry, Mourne and Down",
       "stateCode": "NMD",
       "latitude": 54.2434287,
@@ -29743,7 +29723,7 @@
       "cities": []
     },
     {
-      "id": 2535,
+      "id": "GB-NAY",
       "name": "North Ayrshire",
       "stateCode": "NAY",
       "latitude": 55.6416731,

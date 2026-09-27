@@ -1,5 +1,5 @@
 {
-  "id": 154,
+  "id": "NP",
   "name": "Nepal",
   "nativeName": "नपल",
   "iso2": "NP",
@@ -9,17 +9,17 @@
   "tld": ".np",
   "latitude": 28,
   "longitude": 84,
-  "flagId": 83,
-  "regionId": 3,
-  "subregionId": 14,
+  "flagId": "np",
+  "regionId": "asia",
+  "subregionId": "southern-asia",
   "currencyIds": [
-    930
+    "NPR"
   ],
   "timezoneIds": [
-    2485
+    "Asia/Kathmandu"
   ],
   "officialLanguageIds": [
-    128
+    "ne"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2066,
+      "id": "NP-P1",
       "name": "Koshi",
       "stateCode": "P1",
       "latitude": 27.1547935,
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "id": 2067,
+      "id": "NP-P5",
       "name": "Lumbini",
       "stateCode": "P5",
       "latitude": 28.022406,
@@ -294,7 +294,7 @@
       ]
     },
     {
-      "id": 2068,
+      "id": "NP-P6",
       "name": "Karnali",
       "stateCode": "P6",
       "latitude": 29.3039343,
@@ -375,7 +375,7 @@
       ]
     },
     {
-      "id": 2069,
+      "id": "NP-P4",
       "name": "Gandaki",
       "stateCode": "P4",
       "latitude": 28.3797812,
@@ -463,7 +463,7 @@
       ]
     },
     {
-      "id": 2073,
+      "id": "NP-P3",
       "name": "Bagmati",
       "stateCode": "P3",
       "latitude": 27.6489253,
@@ -565,7 +565,7 @@
       ]
     },
     {
-      "id": 5240,
+      "id": "NP-P2",
       "name": "Madhesh",
       "stateCode": "P2",
       "latitude": 26.9391873,
@@ -632,7 +632,7 @@
       ]
     },
     {
-      "id": 5241,
+      "id": "NP-P7",
       "name": "Sudurpashchim",
       "stateCode": "P7",
       "latitude": 29.3062371,

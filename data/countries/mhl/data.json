@@ -1,5 +1,5 @@
 {
-  "id": 137,
+  "id": "MH",
   "name": "Marshall Islands",
   "nativeName": "M̧ajeļ",
   "iso2": "MH",
@@ -9,19 +9,19 @@
   "tld": ".mh",
   "latitude": 9,
   "longitude": 168,
-  "flagId": 108,
-  "regionId": 5,
-  "subregionId": 21,
+  "flagId": "mh",
+  "regionId": "oceania",
+  "subregionId": "micronesia",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2453,
-    2454
+    "Pacific/Kwajalein",
+    "Pacific/Majuro"
   ],
   "officialLanguageIds": [
-    30,
-    117
+    "en",
+    "mh"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 2573,
+      "id": "MH-T",
       "name": "Ratak",
       "stateCode": "T",
       "latitude": 10.2763276,
@@ -102,7 +102,7 @@
       "cities": []
     },
     {
-      "id": 2574,
+      "id": "MH-L",
       "name": "Ralik",
       "stateCode": "L",
       "latitude": 8.136146,

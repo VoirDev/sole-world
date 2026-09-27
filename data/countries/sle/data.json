@@ -1,5 +1,5 @@
 {
-  "id": 198,
+  "id": "SL",
   "name": "Sierra Leone",
   "nativeName": "Sierra Leone",
   "iso2": "SL",
@@ -9,17 +9,17 @@
   "tld": ".sl",
   "latitude": 8.5,
   "longitude": -11.5,
-  "flagId": 48,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "sl",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    954
+    "SLE"
   ],
   "timezoneIds": [
-    2559
+    "Africa/Freetown"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 911,
+      "id": "SL-N",
       "name": "Northern",
       "stateCode": "N",
       "latitude": null,
@@ -311,7 +311,7 @@
       ]
     },
     {
-      "id": 912,
+      "id": "SL-S",
       "name": "Southern",
       "stateCode": "S",
       "latitude": null,
@@ -504,7 +504,7 @@
       ]
     },
     {
-      "id": 913,
+      "id": "SL-W",
       "name": "Western",
       "stateCode": "W",
       "latitude": 40.2545969,
@@ -543,7 +543,7 @@
       ]
     },
     {
-      "id": 914,
+      "id": "SL-E",
       "name": "Eastern",
       "stateCode": "E",
       "latitude": null,

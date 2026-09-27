@@ -1,5 +1,5 @@
 {
-  "id": 221,
+  "id": "TK",
   "name": "Tokelau",
   "nativeName": "Tokelau",
   "iso2": "TK",
@@ -9,17 +9,17 @@
   "tld": ".tk",
   "latitude": -9,
   "longitude": -172,
-  "flagId": 31,
-  "regionId": 5,
-  "subregionId": 22,
+  "flagId": "tk",
+  "regionId": "oceania",
+  "subregionId": "polynesia",
   "currencyIds": [
-    870
+    "NZD"
   ],
   "timezoneIds": [
-    2587
+    "Pacific/Fakaofo"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [

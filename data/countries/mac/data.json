@@ -1,5 +1,5 @@
 {
-  "id": 128,
+  "id": "MO",
   "name": "Macao",
   "nativeName": "澳門",
   "iso2": "MO",
@@ -9,18 +9,18 @@
   "tld": ".mo",
   "latitude": 22.16666666,
   "longitude": 113.55,
-  "flagId": 103,
-  "regionId": 3,
-  "subregionId": 12,
+  "flagId": "mo",
+  "regionId": "asia",
+  "subregionId": "eastern-asia",
   "currencyIds": [
-    916
+    "MOP"
   ],
   "timezoneIds": [
-    2444
+    "Asia/Macau"
   ],
   "officialLanguageIds": [
-    25,
-    45
+    "zh",
+    "pt"
   ],
   "otherLanguageIds": [],
   "translations": [

@@ -1,5 +1,5 @@
 {
-  "id": 24,
+  "id": "BJ",
   "name": "Benin",
   "nativeName": "Bénin",
   "iso2": "BJ",
@@ -9,17 +9,17 @@
   "tld": ".bj",
   "latitude": 9.5,
   "longitude": 2.25,
-  "flagId": 224,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "bj",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    851
+    "XOF"
   ],
   "timezoneIds": [
-    2278
+    "Africa/Porto-Novo"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3070,
+      "id": "BJ-CO",
       "name": "Collines",
       "stateCode": "CO",
       "latitude": 8.3022297,
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": 3071,
+      "id": "BJ-KO",
       "name": "Kouffo",
       "stateCode": "KO",
       "latitude": 7.0035894,
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": 3072,
+      "id": "BJ-DO",
       "name": "Donga",
       "stateCode": "DO",
       "latitude": 9.7191867,
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "id": 3073,
+      "id": "BJ-ZO",
       "name": "Zou",
       "stateCode": "ZO",
       "latitude": 7.3469268,
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "id": 3074,
+      "id": "BJ-PL",
       "name": "Plateau",
       "stateCode": "PL",
       "latitude": 7.3445141,
@@ -257,7 +257,7 @@
       ]
     },
     {
-      "id": 3075,
+      "id": "BJ-MO",
       "name": "Mono",
       "stateCode": "MO",
       "latitude": 37.9218608,
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "id": 3076,
+      "id": "BJ-AK",
       "name": "Atakora",
       "stateCode": "AK",
       "latitude": 10.7954931,
@@ -314,7 +314,7 @@
       ]
     },
     {
-      "id": 3077,
+      "id": "BJ-AL",
       "name": "Alibori",
       "stateCode": "AL",
       "latitude": 10.9681093,
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "id": 3078,
+      "id": "BJ-BO",
       "name": "Borgou",
       "stateCode": "BO",
       "latitude": 9.5340864,
@@ -392,7 +392,7 @@
       ]
     },
     {
-      "id": 3079,
+      "id": "BJ-AQ",
       "name": "Atlantique",
       "stateCode": "AQ",
       "latitude": 6.6588391,
@@ -438,7 +438,7 @@
       ]
     },
     {
-      "id": 3080,
+      "id": "BJ-OU",
       "name": "Ouémé",
       "stateCode": "OU",
       "latitude": 6.6148152,
@@ -456,7 +456,7 @@
       ]
     },
     {
-      "id": 3081,
+      "id": "BJ-LI",
       "name": "Littoral",
       "stateCode": "LI",
       "latitude": 6.3806973,

@@ -1,5 +1,5 @@
 {
-  "id": 103,
+  "id": "IR",
   "name": "Iran",
   "nativeName": "ایران",
   "iso2": "IR",
@@ -9,17 +9,17 @@
   "tld": ".ir",
   "latitude": 32,
   "longitude": 53,
-  "flagId": 143,
-  "regionId": 3,
-  "subregionId": 14,
+  "flagId": "ir",
+  "regionId": "asia",
+  "subregionId": "southern-asia",
   "currencyIds": [
-    900
+    "IRR"
   ],
   "timezoneIds": [
-    2412
+    "Asia/Tehran"
   ],
   "officialLanguageIds": [
-    54
+    "fa"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3916,
+      "id": "IR-00",
       "name": "Markazi",
       "stateCode": "00",
       "latitude": 34.612305,
@@ -367,7 +367,7 @@
       ]
     },
     {
-      "id": 3917,
+      "id": "IR-06",
       "name": "Khuzestan",
       "stateCode": "06",
       "latitude": 31.4360149,
@@ -959,7 +959,7 @@
       ]
     },
     {
-      "id": 3918,
+      "id": "IR-16",
       "name": "Ilam",
       "stateCode": "16",
       "latitude": 33.2957618,
@@ -1173,7 +1173,7 @@
       ]
     },
     {
-      "id": 3919,
+      "id": "IR-05",
       "name": "Kermanshah",
       "stateCode": "05",
       "latitude": 34.4576233,
@@ -1429,7 +1429,7 @@
       ]
     },
     {
-      "id": 3920,
+      "id": "IR-01",
       "name": "Gilan",
       "stateCode": "01",
       "latitude": 37.2809455,
@@ -1818,7 +1818,7 @@
       ]
     },
     {
-      "id": 3921,
+      "id": "IR-14",
       "name": "Chaharmahal and Bakhtiari",
       "stateCode": "14",
       "latitude": 31.9970419,
@@ -2144,7 +2144,7 @@
       ]
     },
     {
-      "id": 3922,
+      "id": "IR-25",
       "name": "Qom",
       "stateCode": "25",
       "latitude": 34.6415764,
@@ -2197,7 +2197,7 @@
       ]
     },
     {
-      "id": 3923,
+      "id": "IR-10",
       "name": "Isfahan",
       "stateCode": "10",
       "latitude": 33.2771073,
@@ -3055,7 +3055,7 @@
       ]
     },
     {
-      "id": 3924,
+      "id": "IR-04",
       "name": "West Azarbaijan",
       "stateCode": "04",
       "latitude": 37.4550062,
@@ -3388,7 +3388,7 @@
       ]
     },
     {
-      "id": 3925,
+      "id": "IR-19",
       "name": "Zanjan",
       "stateCode": "19",
       "latitude": 36.5018185,
@@ -3574,7 +3574,7 @@
       ]
     },
     {
-      "id": 3926,
+      "id": "IR-17",
       "name": "Kohgiluyeh and Boyer-Ahmad",
       "stateCode": "17",
       "latitude": 30.724586,
@@ -3739,7 +3739,7 @@
       ]
     },
     {
-      "id": 3927,
+      "id": "IR-09",
       "name": "Razavi Khorasan",
       "stateCode": "09",
       "latitude": 35.1020253,
@@ -4331,7 +4331,7 @@
       ]
     },
     {
-      "id": 3928,
+      "id": "IR-15",
       "name": "Lorestan",
       "stateCode": "15",
       "latitude": 33.5818394,
@@ -4552,7 +4552,7 @@
       ]
     },
     {
-      "id": 3929,
+      "id": "IR-30",
       "name": "Alborz",
       "stateCode": "30",
       "latitude": 35.9960467,
@@ -4682,7 +4682,7 @@
       ]
     },
     {
-      "id": 3930,
+      "id": "IR-29",
       "name": "South Khorasan",
       "stateCode": "29",
       "latitude": 32.5175643,
@@ -4924,7 +4924,7 @@
       ]
     },
     {
-      "id": 3931,
+      "id": "IR-11",
       "name": "Sistan and Baluchestan",
       "stateCode": "11",
       "latitude": 27.5299906,
@@ -5250,7 +5250,7 @@
       ]
     },
     {
-      "id": 3932,
+      "id": "IR-18",
       "name": "Bushehr",
       "stateCode": "18",
       "latitude": 28.7620739,
@@ -5576,7 +5576,7 @@
       ]
     },
     {
-      "id": 3933,
+      "id": "IR-27",
       "name": "Golestan",
       "stateCode": "27",
       "latitude": 37.2898123,
@@ -5825,7 +5825,7 @@
       ]
     },
     {
-      "id": 3934,
+      "id": "IR-24",
       "name": "Ardabil",
       "stateCode": "24",
       "latitude": 38.4853276,
@@ -6032,7 +6032,7 @@
       ]
     },
     {
-      "id": 3935,
+      "id": "IR-12",
       "name": "Kurdistan",
       "stateCode": "12",
       "latitude": 35.9553579,
@@ -6246,7 +6246,7 @@
       ]
     },
     {
-      "id": 3936,
+      "id": "IR-21",
       "name": "Yazd",
       "stateCode": "21",
       "latitude": 32.1006387,
@@ -6453,7 +6453,7 @@
       ]
     },
     {
-      "id": 3937,
+      "id": "IR-22",
       "name": "Hormozgan",
       "stateCode": "22",
       "latitude": 27.138723,
@@ -6772,7 +6772,7 @@
       ]
     },
     {
-      "id": 3938,
+      "id": "IR-02",
       "name": "Mazandaran",
       "stateCode": "02",
       "latitude": 36.2262393,
@@ -7217,7 +7217,7 @@
       ]
     },
     {
-      "id": 3939,
+      "id": "IR-07",
       "name": "Fars",
       "stateCode": "07",
       "latitude": 29.1043813,
@@ -8026,7 +8026,7 @@
       ]
     },
     {
-      "id": 3940,
+      "id": "IR-20",
       "name": "Semnan",
       "stateCode": "20",
       "latitude": 35.2255585,
@@ -8191,7 +8191,7 @@
       ]
     },
     {
-      "id": 3941,
+      "id": "IR-26",
       "name": "Qazvin",
       "stateCode": "26",
       "latitude": 36.0881317,
@@ -8384,7 +8384,7 @@
       ]
     },
     {
-      "id": 3942,
+      "id": "IR-28",
       "name": "North Khorasan",
       "stateCode": "28",
       "latitude": 37.4710353,
@@ -8563,7 +8563,7 @@
       ]
     },
     {
-      "id": 3943,
+      "id": "IR-08",
       "name": "Kerman",
       "stateCode": "08",
       "latitude": 29.4850089,
@@ -9113,7 +9113,7 @@
       ]
     },
     {
-      "id": 3944,
+      "id": "IR-03",
       "name": "East Azerbaijan",
       "stateCode": "03",
       "latitude": 37.9035733,
@@ -9593,7 +9593,7 @@
       ]
     },
     {
-      "id": 3945,
+      "id": "IR-23",
       "name": "Tehran",
       "stateCode": "23",
       "latitude": 35.7248416,
@@ -9961,7 +9961,7 @@
       ]
     },
     {
-      "id": 4920,
+      "id": "IR-13",
       "name": "Hamadan",
       "stateCode": "13",
       "latitude": 34.9193607,

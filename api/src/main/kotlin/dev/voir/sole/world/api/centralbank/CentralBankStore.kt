@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.centralbank
 
 import dev.voir.sole.world.api.dataset.RawDataset
+import dev.voir.sole.world.api.dataset.index.IdIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedName
 import dev.voir.sole.world.api.dataset.index.Page
@@ -27,7 +28,7 @@ class CentralBankStore(dataset: RawDataset) {
         )
     }
 
-    private val byId: Map<Long, CentralBankRecord> = records.associateBy { it.id }
+    private val byId: IdIndex<CentralBankRecord> = IdIndex.of(records) { it.id }
 
     private val index = LocalizedIndex(
         records = records,
@@ -35,9 +36,9 @@ class CentralBankStore(dataset: RawDataset) {
         tieBreaker = { it.id },
     )
 
-    private val idsByCountryId: Map<Long, List<Long>> = reverseIndex(dataset) { it.countryIds }
+    private val idsByCountryId: IdIndex<List<String>> = reverseIndex(dataset) { it.countryIds }
 
-    private val idsByCurrencyId: Map<Long, List<Long>> = reverseIndex(dataset) { it.currencyIds }
+    private val idsByCurrencyId: IdIndex<List<String>> = reverseIndex(dataset) { it.currencyIds }
 
     /** Total number of central banks. */
     val size: Int get() = records.size
@@ -48,7 +49,7 @@ class CentralBankStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching central bank, or null when none exists.
      */
-    fun byId(id: Long, languageCode: String?): CentralBankData? = byId[id]?.localized(languageCode)
+    fun byId(id: String, languageCode: String?): CentralBankData? = byId[id]?.localized(languageCode)
 
     /**
      * Loads several central banks, skipping identifiers that do not exist.
@@ -56,7 +57,7 @@ class CentralBankStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching central banks in request order.
      */
-    fun byIds(ids: List<Long>, languageCode: String?): List<CentralBankData> =
+    fun byIds(ids: List<String>, languageCode: String?): List<CentralBankData> =
         ids.mapNotNull { byId[it]?.localized(languageCode) }
 
     /**
@@ -90,7 +91,7 @@ class CentralBankStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Central banks ordered by localized name.
      */
-    fun byCountryId(countryId: Long, languageCode: String?): List<CentralBankData> =
+    fun byCountryId(countryId: String, languageCode: String?): List<CentralBankData> =
         localizedSubset(idsByCountryId[countryId], languageCode)
 
     /**
@@ -99,10 +100,10 @@ class CentralBankStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Central banks ordered by localized name.
      */
-    fun byCurrencyId(currencyId: Long, languageCode: String?): List<CentralBankData> =
+    fun byCurrencyId(currencyId: String, languageCode: String?): List<CentralBankData> =
         localizedSubset(idsByCurrencyId[currencyId], languageCode)
 
-    private fun localizedSubset(ids: List<Long>?, languageCode: String?): List<CentralBankData> {
+    private fun localizedSubset(ids: List<String>?, languageCode: String?): List<CentralBankData> {
         if (ids.isNullOrEmpty()) {
             return emptyList()
         }
@@ -115,16 +116,16 @@ class CentralBankStore(dataset: RawDataset) {
         /** Inverts a bank's outgoing relationship list into a lookup from the related entity. */
         inline fun reverseIndex(
             dataset: RawDataset,
-            relatedIds: (dev.voir.sole.world.api.dataset.json.CentralBankJSON) -> List<Long>,
-        ): Map<Long, List<Long>> {
-            val index = mutableMapOf<Long, MutableList<Long>>()
+            relatedIds: (dev.voir.sole.world.api.dataset.json.CentralBankJSON) -> List<String>,
+        ): IdIndex<List<String>> {
+            val index = mutableMapOf<String, MutableList<String>>()
             for (bank in dataset.centralBanks) {
                 for (relatedId in relatedIds(bank)) {
                     index.getOrPut(relatedId) { mutableListOf() }.add(bank.id)
                 }
             }
 
-            return index
+            return IdIndex.from(index)
         }
     }
 }
@@ -138,7 +139,7 @@ class CentralBankStore(dataset: RawDataset) {
  * @property establishmentYear Year the bank was established, when known.
  */
 private class CentralBankRecord(
-    val id: Long,
+    val id: String,
     val name: LocalizedName,
     val nativeName: String?,
     val websiteURL: String?,

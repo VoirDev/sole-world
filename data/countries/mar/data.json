@@ -1,5 +1,5 @@
 {
-  "id": 149,
+  "id": "MA",
   "name": "Morocco",
   "nativeName": "المغرب",
   "iso2": "MA",
@@ -9,22 +9,22 @@
   "tld": ".ma",
   "latitude": 32,
   "longitude": -5,
-  "flagId": 114,
-  "regionId": 1,
-  "subregionId": 1,
+  "flagId": "ma",
+  "regionId": "africa",
+  "subregionId": "northern-africa",
   "currencyIds": [
-    926
+    "MAD"
   ],
   "timezoneIds": [
-    2480
+    "Africa/Casablanca"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [
-    30,
-    33,
-    47
+    "en",
+    "fr",
+    "es"
   ],
   "translations": [
     {
@@ -94,7 +94,7 @@
   ],
   "states": [
     {
-      "id": 3265,
+      "id": "MA-GUE",
       "name": "Guelmim",
       "stateCode": "GUE",
       "latitude": 28.9883659,
@@ -104,7 +104,7 @@
       "cities": []
     },
     {
-      "id": 3266,
+      "id": "MA-AOU",
       "name": "Aousserd (EH)",
       "stateCode": "AOU",
       "latitude": 22.5521538,
@@ -114,7 +114,7 @@
       "cities": []
     },
     {
-      "id": 3267,
+      "id": "MA-HOC",
       "name": "Al Hoceïma",
       "stateCode": "HOC",
       "latitude": 35.2445589,
@@ -124,7 +124,7 @@
       "cities": []
     },
     {
-      "id": 3268,
+      "id": "MA-LAR",
       "name": "Larache",
       "stateCode": "LAR",
       "latitude": 35.1744271,
@@ -134,7 +134,7 @@
       "cities": []
     },
     {
-      "id": 3269,
+      "id": "MA-OUA",
       "name": "Ouarzazate",
       "stateCode": "OUA",
       "latitude": 30.9335436,
@@ -144,7 +144,7 @@
       "cities": []
     },
     {
-      "id": 3270,
+      "id": "MA-BOM",
       "name": "Boulemane",
       "stateCode": "BOM",
       "latitude": 33.3625159,
@@ -154,7 +154,7 @@
       "cities": []
     },
     {
-      "id": 3271,
+      "id": "MA-02",
       "name": "L'Oriental",
       "stateCode": "02",
       "latitude": 37.069683,
@@ -305,7 +305,7 @@
       ]
     },
     {
-      "id": 3272,
+      "id": "MA-BEM",
       "name": "Béni Mellal",
       "stateCode": "BEM",
       "latitude": 32.342443,
@@ -315,7 +315,7 @@
       "cities": []
     },
     {
-      "id": 3274,
+      "id": "MA-CHI",
       "name": "Chichaoua",
       "stateCode": "CHI",
       "latitude": 31.5383581,
@@ -325,7 +325,7 @@
       "cities": []
     },
     {
-      "id": 3275,
+      "id": "MA-BOD",
       "name": "Boujdour (EH)",
       "stateCode": "BOD",
       "latitude": 26.1252493,
@@ -335,7 +335,7 @@
       "cities": []
     },
     {
-      "id": 3276,
+      "id": "MA-KHE",
       "name": "Khémisset",
       "stateCode": "KHE",
       "latitude": 33.8153704,
@@ -345,7 +345,7 @@
       "cities": []
     },
     {
-      "id": 3277,
+      "id": "MA-TIZ",
       "name": "Tiznit",
       "stateCode": "TIZ",
       "latitude": 29.693392,
@@ -355,7 +355,7 @@
       "cities": []
     },
     {
-      "id": 3278,
+      "id": "MA-05",
       "name": "Béni Mellal-Khénifra",
       "stateCode": "05",
       "latitude": 32.5719184,
@@ -365,7 +365,7 @@
       "cities": []
     },
     {
-      "id": 3279,
+      "id": "MA-SIK",
       "name": "Sidi Kacem",
       "stateCode": "SIK",
       "latitude": 34.2260172,
@@ -375,7 +375,7 @@
       "cities": []
     },
     {
-      "id": 3280,
+      "id": "MA-JDI",
       "name": "El Jadida",
       "stateCode": "JDI",
       "latitude": 33.2316326,
@@ -385,7 +385,7 @@
       "cities": []
     },
     {
-      "id": 3281,
+      "id": "MA-NAD",
       "name": "Nador",
       "stateCode": "NAD",
       "latitude": 34.9171926,
@@ -395,7 +395,7 @@
       "cities": []
     },
     {
-      "id": 3282,
+      "id": "MA-SET",
       "name": "Settat",
       "stateCode": "SET",
       "latitude": 32.9924242,
@@ -405,7 +405,7 @@
       "cities": []
     },
     {
-      "id": 3283,
+      "id": "MA-ZAG",
       "name": "Zagora",
       "stateCode": "ZAG",
       "latitude": 30.5786093,
@@ -415,7 +415,7 @@
       "cities": []
     },
     {
-      "id": 3284,
+      "id": "MA-MED",
       "name": "Médiouna",
       "stateCode": "MED",
       "latitude": 33.4540939,
@@ -425,7 +425,7 @@
       "cities": []
     },
     {
-      "id": 3285,
+      "id": "MA-BER",
       "name": "Berkane",
       "stateCode": "BER",
       "latitude": 34.8840876,
@@ -435,7 +435,7 @@
       "cities": []
     },
     {
-      "id": 3286,
+      "id": "MA-TNT",
       "name": "Tan-Tan (EH-partial)",
       "stateCode": "TNT",
       "latitude": 28.03012,
@@ -445,7 +445,7 @@
       "cities": []
     },
     {
-      "id": 3287,
+      "id": "MA-NOU",
       "name": "Nouaceur",
       "stateCode": "NOU",
       "latitude": 33.3670393,
@@ -455,7 +455,7 @@
       "cities": []
     },
     {
-      "id": 3288,
+      "id": "MA-07",
       "name": "Marrakesh-Safi",
       "stateCode": "07",
       "latitude": 31.7330833,
@@ -465,7 +465,7 @@
       "cities": []
     },
     {
-      "id": 3289,
+      "id": "MA-SEF",
       "name": "Sefrou",
       "stateCode": "SEF",
       "latitude": 33.8305244,
@@ -475,7 +475,7 @@
       "cities": []
     },
     {
-      "id": 3290,
+      "id": "MA-08",
       "name": "Drâa-Tafilalet",
       "stateCode": "08",
       "latitude": 31.1499538,
@@ -619,7 +619,7 @@
       ]
     },
     {
-      "id": 3291,
+      "id": "MA-HAJ",
       "name": "El Hajeb",
       "stateCode": "HAJ",
       "latitude": 33.685735,
@@ -629,7 +629,7 @@
       "cities": []
     },
     {
-      "id": 3292,
+      "id": "MA-ESM",
       "name": "Es-Semara (EH-partial)",
       "stateCode": "ESM",
       "latitude": 26.741856,
@@ -639,7 +639,7 @@
       "cities": []
     },
     {
-      "id": 3293,
+      "id": "MA-LAA",
       "name": "Laâyoune (EH)",
       "stateCode": "LAA",
       "latitude": 27.1500384,
@@ -649,7 +649,7 @@
       "cities": []
     },
     {
-      "id": 3294,
+      "id": "MA-INE",
       "name": "Inezgane-Ait Melloul",
       "stateCode": "INE",
       "latitude": 30.3509098,
@@ -659,7 +659,7 @@
       "cities": []
     },
     {
-      "id": 3295,
+      "id": "MA-09",
       "name": "Souss-Massa",
       "stateCode": "09",
       "latitude": 30.2750611,
@@ -669,7 +669,7 @@
       "cities": []
     },
     {
-      "id": 3296,
+      "id": "MA-TAZ",
       "name": "Taza",
       "stateCode": "TAZ",
       "latitude": 34.2788953,
@@ -679,7 +679,7 @@
       "cities": []
     },
     {
-      "id": 3297,
+      "id": "MA-ASZ",
       "name": "Assa-Zag (EH-partial)",
       "stateCode": "ASZ",
       "latitude": 28.1402395,
@@ -872,7 +872,7 @@
       ]
     },
     {
-      "id": 3298,
+      "id": "MA-11",
       "name": "Laâyoune-Sakia El Hamra (EH-partial)",
       "stateCode": "11",
       "latitude": 27.8683194,
@@ -932,7 +932,7 @@
       ]
     },
     {
-      "id": 3299,
+      "id": "MA-ERR",
       "name": "Errachidia",
       "stateCode": "ERR",
       "latitude": 31.9051275,
@@ -942,7 +942,7 @@
       "cities": []
     },
     {
-      "id": 3300,
+      "id": "MA-FAH",
       "name": "Fahs-Anjra",
       "stateCode": "FAH",
       "latitude": 35.7601992,
@@ -952,7 +952,7 @@
       "cities": []
     },
     {
-      "id": 3301,
+      "id": "MA-FIG",
       "name": "Figuig",
       "stateCode": "FIG",
       "latitude": 32.1092613,
@@ -962,7 +962,7 @@
       "cities": []
     },
     {
-      "id": 3302,
+      "id": "MA-CHT",
       "name": "Chtouka-Ait Baha",
       "stateCode": "CHT",
       "latitude": 30.1072422,
@@ -972,7 +972,7 @@
       "cities": []
     },
     {
-      "id": 3303,
+      "id": "MA-06",
       "name": "Casablanca-Settat",
       "stateCode": "06",
       "latitude": 33.2160872,
@@ -1130,7 +1130,7 @@
       ]
     },
     {
-      "id": 3304,
+      "id": "MA-BES",
       "name": "Benslimane",
       "stateCode": "BES",
       "latitude": 33.6189698,
@@ -1140,7 +1140,7 @@
       "cities": []
     },
     {
-      "id": 3305,
+      "id": "MA-10",
       "name": "Guelmim-Oued Noun (EH-partial)",
       "stateCode": "10",
       "latitude": 28.4844281,
@@ -1179,7 +1179,7 @@
       ]
     },
     {
-      "id": 3306,
+      "id": "MA-12",
       "name": "Dakhla-Oued Ed-Dahab (EH)",
       "stateCode": "12",
       "latitude": 22.7337892,
@@ -1189,7 +1189,7 @@
       "cities": []
     },
     {
-      "id": 3307,
+      "id": "MA-JRA",
       "name": "Jerada",
       "stateCode": "JRA",
       "latitude": 34.3061791,
@@ -1199,7 +1199,7 @@
       "cities": []
     },
     {
-      "id": 3308,
+      "id": "MA-KEN",
       "name": "Kénitra",
       "stateCode": "KEN",
       "latitude": 34.2540503,
@@ -1357,7 +1357,7 @@
       ]
     },
     {
-      "id": 3309,
+      "id": "MA-KES",
       "name": "El Kelâa des Sraghna",
       "stateCode": "KES",
       "latitude": 32.0522767,
@@ -1367,7 +1367,7 @@
       "cities": []
     },
     {
-      "id": 3310,
+      "id": "MA-CHE",
       "name": "Chefchaouen",
       "stateCode": "CHE",
       "latitude": 35.018172,
@@ -1377,7 +1377,7 @@
       "cities": []
     },
     {
-      "id": 3311,
+      "id": "MA-SAF",
       "name": "Safi",
       "stateCode": "SAF",
       "latitude": 32.2989872,
@@ -1535,7 +1535,7 @@
       ]
     },
     {
-      "id": 3312,
+      "id": "MA-TAT",
       "name": "Tata",
       "stateCode": "TAT",
       "latitude": 29.750877,
@@ -1545,7 +1545,7 @@
       "cities": []
     },
     {
-      "id": 3313,
+      "id": "MA-03",
       "name": "Fès-Meknès",
       "stateCode": "03",
       "latitude": 34.062529,
@@ -1752,7 +1752,7 @@
       ]
     },
     {
-      "id": 3314,
+      "id": "MA-TAR",
       "name": "Taroudannt",
       "stateCode": "TAR",
       "latitude": 30.4727126,
@@ -1762,7 +1762,7 @@
       "cities": []
     },
     {
-      "id": 3315,
+      "id": "MA-MOU",
       "name": "Moulay Yacoub",
       "stateCode": "MOU",
       "latitude": 34.0874479,
@@ -1772,7 +1772,7 @@
       "cities": []
     },
     {
-      "id": 3316,
+      "id": "MA-ESI",
       "name": "Essaouira",
       "stateCode": "ESI",
       "latitude": 31.5084926,
@@ -1782,7 +1782,7 @@
       "cities": []
     },
     {
-      "id": 3317,
+      "id": "MA-KHN",
       "name": "Khénifra",
       "stateCode": "KHN",
       "latitude": 32.9340471,
@@ -1975,7 +1975,7 @@
       ]
     },
     {
-      "id": 3318,
+      "id": "MA-TET",
       "name": "Tétouan",
       "stateCode": "TET",
       "latitude": 35.5888995,
@@ -1985,7 +1985,7 @@
       "cities": []
     },
     {
-      "id": 3319,
+      "id": "MA-OUD",
       "name": "Oued Ed-Dahab (EH)",
       "stateCode": "OUD",
       "latitude": 22.7337892,
@@ -2017,7 +2017,7 @@
       ]
     },
     {
-      "id": 3320,
+      "id": "MA-HAO",
       "name": "Al Haouz",
       "stateCode": "HAO",
       "latitude": 31.2956729,
@@ -2027,7 +2027,7 @@
       "cities": []
     },
     {
-      "id": 3321,
+      "id": "MA-AZI",
       "name": "Azilal",
       "stateCode": "AZI",
       "latitude": 32.004262,
@@ -2037,7 +2037,7 @@
       "cities": []
     },
     {
-      "id": 3322,
+      "id": "MA-TAI",
       "name": "Taourirt",
       "stateCode": "TAI",
       "latitude": 34.212598,
@@ -2047,7 +2047,7 @@
       "cities": []
     },
     {
-      "id": 3323,
+      "id": "MA-TAO",
       "name": "Taounate",
       "stateCode": "TAO",
       "latitude": 34.536917,
@@ -2057,7 +2057,7 @@
       "cities": []
     },
     {
-      "id": 3324,
+      "id": "MA-01",
       "name": "Tanger-Tétouan-Al Hoceïma",
       "stateCode": "01",
       "latitude": 35.2629558,
@@ -2264,7 +2264,7 @@
       ]
     },
     {
-      "id": 3325,
+      "id": "MA-IFR",
       "name": "Ifrane",
       "stateCode": "IFR",
       "latitude": 33.5228062,
@@ -2274,7 +2274,7 @@
       "cities": []
     },
     {
-      "id": 3326,
+      "id": "MA-KHO",
       "name": "Khouribga",
       "stateCode": "KHO",
       "latitude": 32.886023,
@@ -2284,7 +2284,7 @@
       "cities": []
     },
     {
-      "id": 4927,
+      "id": "MA-04",
       "name": "Rabat-Salé-Kénitra",
       "stateCode": "04",
       "latitude": 34.076864,
@@ -2294,7 +2294,7 @@
       "cities": []
     },
     {
-      "id": 4928,
+      "id": "MA-AGD",
       "name": "Agadir-Ida-Ou-Tanane",
       "stateCode": "AGD",
       "latitude": 30.6462091,
@@ -2304,7 +2304,7 @@
       "cities": []
     },
     {
-      "id": 4929,
+      "id": "MA-BRR",
       "name": "Berrechid",
       "stateCode": "BRR",
       "latitude": 33.2602523,
@@ -2314,7 +2314,7 @@
       "cities": []
     },
     {
-      "id": 4930,
+      "id": "MA-CAS",
       "name": "Casablanca",
       "stateCode": "CAS",
       "latitude": 33.5722678,
@@ -2324,7 +2324,7 @@
       "cities": []
     },
     {
-      "id": 4931,
+      "id": "MA-DRI",
       "name": "Driouch",
       "stateCode": "DRI",
       "latitude": 34.976032,
@@ -2334,7 +2334,7 @@
       "cities": []
     },
     {
-      "id": 4932,
+      "id": "MA-FES",
       "name": "Fès",
       "stateCode": "FES",
       "latitude": 34.0239579,
@@ -2344,7 +2344,7 @@
       "cities": []
     },
     {
-      "id": 4933,
+      "id": "MA-FQH",
       "name": "Fquih Ben Salah",
       "stateCode": "FQH",
       "latitude": 32.500168,
@@ -2354,7 +2354,7 @@
       "cities": []
     },
     {
-      "id": 4934,
+      "id": "MA-GUF",
       "name": "Guercif",
       "stateCode": "GUF",
       "latitude": 34.2345036,
@@ -2364,7 +2364,7 @@
       "cities": []
     },
     {
-      "id": 4935,
+      "id": "MA-MAR",
       "name": "Marrakech",
       "stateCode": "MAR",
       "latitude": 31.6346023,
@@ -2374,7 +2374,7 @@
       "cities": []
     },
     {
-      "id": 4936,
+      "id": "MA-MDF",
       "name": "M’diq-Fnideq",
       "stateCode": "MDF",
       "latitude": 35.7733019,
@@ -2384,7 +2384,7 @@
       "cities": []
     },
     {
-      "id": 4937,
+      "id": "MA-MEK",
       "name": "Meknès",
       "stateCode": "MEK",
       "latitude": 33.881,
@@ -2394,7 +2394,7 @@
       "cities": []
     },
     {
-      "id": 4938,
+      "id": "MA-MID",
       "name": "Midelt",
       "stateCode": "MID",
       "latitude": 32.6855079,
@@ -2404,7 +2404,7 @@
       "cities": []
     },
     {
-      "id": 4939,
+      "id": "MA-MOH",
       "name": "Mohammadia",
       "stateCode": "MOH",
       "latitude": 33.6873749,
@@ -2414,7 +2414,7 @@
       "cities": []
     },
     {
-      "id": 4940,
+      "id": "MA-OUJ",
       "name": "Oujda-Angad",
       "stateCode": "OUJ",
       "latitude": 34.6837504,
@@ -2424,7 +2424,7 @@
       "cities": []
     },
     {
-      "id": 4941,
+      "id": "MA-OUZ",
       "name": "Ouezzane",
       "stateCode": "OUZ",
       "latitude": 34.806345,
@@ -2434,7 +2434,7 @@
       "cities": []
     },
     {
-      "id": 4942,
+      "id": "MA-RAB",
       "name": "Rabat",
       "stateCode": "RAB",
       "latitude": 33.969199,
@@ -2444,7 +2444,7 @@
       "cities": []
     },
     {
-      "id": 4943,
+      "id": "MA-REH",
       "name": "Rehamna",
       "stateCode": "REH",
       "latitude": 32.2032905,
@@ -2454,7 +2454,7 @@
       "cities": []
     },
     {
-      "id": 4944,
+      "id": "MA-SAL",
       "name": "Salé",
       "stateCode": "SAL",
       "latitude": 34.037757,
@@ -2464,7 +2464,7 @@
       "cities": []
     },
     {
-      "id": 4945,
+      "id": "MA-SIB",
       "name": "Sidi Bennour",
       "stateCode": "SIB",
       "latitude": 32.6492602,
@@ -2474,7 +2474,7 @@
       "cities": []
     },
     {
-      "id": 4946,
+      "id": "MA-SIF",
       "name": "Sidi Ifni",
       "stateCode": "SIF",
       "latitude": 29.3665797,
@@ -2484,7 +2484,7 @@
       "cities": []
     },
     {
-      "id": 4947,
+      "id": "MA-SKH",
       "name": "Skhirate-Témara",
       "stateCode": "SKH",
       "latitude": 33.7622425,
@@ -2494,7 +2494,7 @@
       "cities": []
     },
     {
-      "id": 4948,
+      "id": "MA-TAF",
       "name": "Tarfaya (EH-partial)",
       "stateCode": "TAF",
       "latitude": 27.9377701,
@@ -2504,7 +2504,7 @@
       "cities": []
     },
     {
-      "id": 4949,
+      "id": "MA-TIN",
       "name": "Tinghir",
       "stateCode": "TIN",
       "latitude": 31.4850794,
@@ -2514,7 +2514,7 @@
       "cities": []
     },
     {
-      "id": 4950,
+      "id": "MA-TNG",
       "name": "Tanger-Assilah",
       "stateCode": "TNG",
       "latitude": 35.7632539,
@@ -2524,7 +2524,7 @@
       "cities": []
     },
     {
-      "id": 4951,
+      "id": "MA-YUS",
       "name": "Youssoufia",
       "stateCode": "YUS",
       "latitude": 32.0200679,
@@ -2534,7 +2534,7 @@
       "cities": []
     },
     {
-      "id": 4952,
+      "id": "MA-SIL",
       "name": "Sidi Slimane",
       "stateCode": "SIL",
       "latitude": 34.2737828,

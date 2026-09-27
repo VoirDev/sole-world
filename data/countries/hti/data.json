@@ -1,5 +1,5 @@
 {
-  "id": 95,
+  "id": "HT",
   "name": "Haiti",
   "nativeName": "Haïti",
   "iso2": "HT",
@@ -9,18 +9,18 @@
   "tld": ".ht",
   "latitude": 19,
   "longitude": -72.41666666,
-  "flagId": 151,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "ht",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    893
+    "HTG"
   ],
   "timezoneIds": [
-    2402
+    "America/Port-au-Prince"
   ],
   "officialLanguageIds": [
-    33,
-    90
+    "fr",
+    "ht"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 4117,
+      "id": "HT-ND",
       "name": "Nord",
       "stateCode": "ND",
       "latitude": 43.190526,
@@ -242,7 +242,7 @@
       ]
     },
     {
-      "id": 4118,
+      "id": "HT-NI",
       "name": "Nippes",
       "stateCode": "NI",
       "latitude": 18.3990735,
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "id": 4119,
+      "id": "HT-GA",
       "name": "Grand'Anse",
       "stateCode": "GA",
       "latitude": 12.0166667,
@@ -362,7 +362,7 @@
       ]
     },
     {
-      "id": 4120,
+      "id": "HT-OU",
       "name": "Ouest",
       "stateCode": "OU",
       "latitude": 45.4547249,
@@ -520,7 +520,7 @@
       ]
     },
     {
-      "id": 4121,
+      "id": "HT-NE",
       "name": "Nord-Est",
       "stateCode": "NE",
       "latitude": 19.4889723,
@@ -622,7 +622,7 @@
       ]
     },
     {
-      "id": 4122,
+      "id": "HT-SD",
       "name": "Sud",
       "stateCode": "SD",
       "latitude": 29.9213248,
@@ -738,7 +738,7 @@
       ]
     },
     {
-      "id": 4123,
+      "id": "HT-AR",
       "name": "Artibonite",
       "stateCode": "AR",
       "latitude": 19.362902,
@@ -826,7 +826,7 @@
       ]
     },
     {
-      "id": 4124,
+      "id": "HT-SE",
       "name": "Sud-Est",
       "stateCode": "SE",
       "latitude": 18.2783598,
@@ -900,7 +900,7 @@
       ]
     },
     {
-      "id": 4125,
+      "id": "HT-CE",
       "name": "Centre",
       "stateCode": "CE",
       "latitude": 32.8370251,
@@ -967,7 +967,7 @@
       ]
     },
     {
-      "id": 4126,
+      "id": "HT-NO",
       "name": "Nord-Ouest",
       "stateCode": "NO",
       "latitude": 19.8374009,

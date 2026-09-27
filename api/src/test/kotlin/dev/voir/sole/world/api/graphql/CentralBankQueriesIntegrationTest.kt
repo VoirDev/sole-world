@@ -11,7 +11,7 @@ class CentralBankQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              centralBank(id: 401) {
+              centralBank(id: "freedonian-reserve") {
                 id
                 name
                 nativeName
@@ -24,7 +24,7 @@ class CentralBankQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
         assertNoErrors(response)
         val centralBank = response.at("/data/centralBank")
-        assertEquals("401", centralBank["id"].stringValue())
+        assertEquals("freedonian-reserve", centralBank["id"].stringValue())
         assertEquals("Freedonian Reserve", centralBank["name"].stringValue())
         assertEquals("Reserve Native", centralBank["nativeName"].stringValue())
         assertEquals("https://bank.example.test", centralBank["websiteUrl"].stringValue())
@@ -36,7 +36,7 @@ class CentralBankQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: centralBanksByIds(ids: [401, 999]) { id name }
+              requested: centralBanksByIds(ids: ["freedonian-reserve", "none"]) { id name }
             }
             """.trimIndent(),
         )
@@ -50,7 +50,7 @@ class CentralBankQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              centralBank(id: 999) { id }
+              centralBank(id: "none") { id }
             }
             """.trimIndent(),
         )

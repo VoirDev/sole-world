@@ -52,15 +52,15 @@ class CryptoGraphqlFetcher(
      */
     @DgsQuery
     fun cryptosByIds(@InputArgument ids: List<String>): List<Crypto> =
-        cryptoStore.byIds(GraphqlRequest.longIds(ids, "ids")).map { it.toGql() }
+        cryptoStore.byIds(GraphqlRequest.ids(ids, "ids")).map { it.toGql() }
 
     /**
-     * Loads one cryptocurrency by numeric identifier, ticker symbol, or alias.
-     * @param idOrCode Caller-supplied identifier.
+     * Loads one cryptocurrency by its alias or its ticker symbol.
+     * @param id Alias or ticker, in any case.
      * @return Matching coin, or null when nothing matches.
      */
     @DgsQuery
-    fun crypto(@InputArgument idOrCode: String): Crypto? = cryptoStore.resolve(idOrCode)?.toGql()
+    fun crypto(@InputArgument id: String): Crypto? = cryptoStore.resolve(id)?.toGql()
 
     /** Resolves the logo of a cryptocurrency. */
     @DgsData(parentType = "Crypto", field = "logo")
@@ -68,6 +68,6 @@ class CryptoGraphqlFetcher(
         val crypto: Crypto = dfe.getSource() ?: return null
         val logoId = crypto.logoId ?: return null
 
-        return mediaAssetStore.byId(GraphqlRequest.longId(logoId, "logoId"))?.toGql()
+        return mediaAssetStore.byId(logoId)?.toGql()
     }
 }

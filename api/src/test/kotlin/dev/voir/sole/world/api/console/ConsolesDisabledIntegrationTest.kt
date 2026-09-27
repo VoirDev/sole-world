@@ -62,14 +62,14 @@ class ConsolesDisabledIntegrationTest {
 
     @Test
     fun `the apis themselves still work`() {
-        assertEquals(200, get("/v1/countries/1", withKey = true).statusCode())
+        assertEquals(200, get("/v1/countries/FD", withKey = true).statusCode())
         assertEquals(200, get("/healthz", withKey = false).statusCode())
 
         val graphql = HttpRequest.newBuilder()
             .uri(URI.create("http://localhost:$port/graphql"))
             .header("Content-Type", "application/json")
             .header("X-API-KEY", ApiAccessKey.RAW)
-            .POST(HttpRequest.BodyPublishers.ofString("""{"query":"{ country(idOrCode: 1) { name } }"}"""))
+            .POST(HttpRequest.BodyPublishers.ofString("""{"query":"{ country(id: \"FD\") { name } }"}"""))
             .build()
 
         val response = httpClient.send(graphql, HttpResponse.BodyHandlers.ofString())

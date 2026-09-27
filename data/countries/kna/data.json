@@ -1,5 +1,5 @@
 {
-  "id": 185,
+  "id": "KN",
   "name": "Saint Kitts and Nevis",
   "nativeName": "Saint Kitts and Nevis",
   "iso2": "KN",
@@ -9,17 +9,17 @@
   "tld": ".kn",
   "latitude": 17.33333333,
   "longitude": -62.75,
-  "flagId": 131,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "kn",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    840
+    "XCD"
   ],
   "timezoneIds": [
-    2547
+    "America/St_Kitts"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3831,
+      "id": "KN-11",
       "name": "Saint Peter Basseterre",
       "stateCode": "11",
       "latitude": 17.3102911,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 3832,
+      "id": "KN-N",
       "name": "Nevis",
       "stateCode": "N",
       "latitude": 17.1553558,
@@ -118,7 +118,7 @@
       "cities": []
     },
     {
-      "id": 3833,
+      "id": "KN-01",
       "name": "Christ Church Nichola Town",
       "stateCode": "01",
       "latitude": 17.3604812,
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": 3834,
+      "id": "KN-09",
       "name": "Saint Paul Capisterre",
       "stateCode": "09",
       "latitude": 17.4016683,
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": 3835,
+      "id": "KN-05",
       "name": "Saint James Windward",
       "stateCode": "05",
       "latitude": 17.1769633,
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "id": 3836,
+      "id": "KN-02",
       "name": "Saint Anne Sandy Point",
       "stateCode": "02",
       "latitude": 17.3725333,
@@ -190,7 +190,7 @@
       ]
     },
     {
-      "id": 3837,
+      "id": "KN-04",
       "name": "Saint George Gingerland",
       "stateCode": "04",
       "latitude": 17.1257759,
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "id": 3838,
+      "id": "KN-10",
       "name": "Saint Paul Charlestown",
       "stateCode": "10",
       "latitude": 17.1346297,
@@ -226,7 +226,7 @@
       ]
     },
     {
-      "id": 3839,
+      "id": "KN-12",
       "name": "Saint Thomas Lowland",
       "stateCode": "12",
       "latitude": 17.1650513,
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "id": 3840,
+      "id": "KN-07",
       "name": "Saint John Figtree",
       "stateCode": "07",
       "latitude": 17.1155748,
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "id": 3841,
+      "id": "KN-K",
       "name": "Saint Kitts",
       "stateCode": "K",
       "latitude": 17.3433796,
@@ -272,7 +272,7 @@
       "cities": []
     },
     {
-      "id": 3842,
+      "id": "KN-13",
       "name": "Saint Thomas Middle Island",
       "stateCode": "13",
       "latitude": 17.3348813,
@@ -290,7 +290,7 @@
       ]
     },
     {
-      "id": 3843,
+      "id": "KN-15",
       "name": "Trinity Palmetto Point",
       "stateCode": "15",
       "latitude": 17.3063519,
@@ -308,7 +308,7 @@
       ]
     },
     {
-      "id": 3844,
+      "id": "KN-08",
       "name": "Saint Mary Cayon",
       "stateCode": "08",
       "latitude": 17.3462071,
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": 3845,
+      "id": "KN-06",
       "name": "Saint John Capisterre",
       "stateCode": "06",
       "latitude": 17.3810341,
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "id": 5348,
+      "id": "KN-03",
       "name": "Saint George Basseterre",
       "stateCode": "03",
       "latitude": 17.2671011,

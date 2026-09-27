@@ -1,5 +1,5 @@
 {
-  "id": 59,
+  "id": "DK",
   "name": "Denmark",
   "nativeName": "Danmark",
   "iso2": "DK",
@@ -9,20 +9,20 @@
   "tld": ".dk",
   "latitude": 56,
   "longitude": 10,
-  "flagId": 192,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "dk",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    876
+    "DKK"
   ],
   "timezoneIds": [
-    2360
+    "Europe/Copenhagen"
   ],
   "officialLanguageIds": [
-    28
+    "da"
   ],
   "otherLanguageIds": [
-    34
+    "de"
   ],
   "translations": [
     {
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 1528,
+      "id": "DK-85",
       "name": "Zealand",
       "stateCode": "85",
       "latitude": 55.4632518,
@@ -684,7 +684,7 @@
       ]
     },
     {
-      "id": 1529,
+      "id": "DK-83",
       "name": "Southern Denmark",
       "stateCode": "83",
       "latitude": 55.3307714,
@@ -1458,7 +1458,7 @@
       ]
     },
     {
-      "id": 1530,
+      "id": "DK-84",
       "name": "Denmark",
       "stateCode": "84",
       "latitude": 55.6751812,
@@ -2078,7 +2078,7 @@
       ]
     },
     {
-      "id": 1531,
+      "id": "DK-82",
       "name": "Central Denmark",
       "stateCode": "82",
       "latitude": 56.302139,
@@ -2754,7 +2754,7 @@
       ]
     },
     {
-      "id": 1532,
+      "id": "DK-81",
       "name": "North Denmark",
       "stateCode": "81",
       "latitude": 56.8307416,

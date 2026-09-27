@@ -35,7 +35,7 @@ class MediaAssetGraphqlFetcher(
      */
     @DgsQuery
     fun mediaAssetsByIds(@InputArgument ids: List<String>): List<MediaAsset> =
-        mediaAssetStore.byIds(GraphqlRequest.longIds(ids, "ids")).map { it.toGql() }
+        mediaAssetStore.byIds(GraphqlRequest.ids(ids, "ids")).map { it.toGql() }
 
     /**
      * Loads one media asset by id.
@@ -44,5 +44,5 @@ class MediaAssetGraphqlFetcher(
      */
     @DgsQuery
     fun mediaAsset(@InputArgument id: String): MediaAsset? =
-        mediaAssetStore.byId(GraphqlRequest.longId(id, "id"))?.toGql()
+        mediaAssetStore.byId(id)?.toGql()
 }

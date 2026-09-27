@@ -1,5 +1,5 @@
 {
-  "id": 101,
+  "id": "IN",
   "name": "India",
   "nativeName": "भारत",
   "iso2": "IN",
@@ -9,33 +9,33 @@
   "tld": ".in",
   "latitude": 20,
   "longitude": 77,
-  "flagId": 173,
-  "regionId": 3,
-  "subregionId": 14,
+  "flagId": "in",
+  "regionId": "asia",
+  "subregionId": "southern-asia",
   "currencyIds": [
-    898
+    "INR"
   ],
   "timezoneIds": [
-    2407
+    "Asia/Kolkata"
   ],
   "officialLanguageIds": [
-    37,
-    30,
-    19,
-    161,
-    121,
-    160,
-    174,
-    86,
-    103,
-    120,
-    137,
-    139,
-    10,
-    146,
-    148,
-    128,
-    105
+    "hi",
+    "en",
+    "bn",
+    "te",
+    "mr",
+    "ta",
+    "ur",
+    "gu",
+    "kn",
+    "ml",
+    "or",
+    "pa",
+    "as",
+    "sa",
+    "sd",
+    "ne",
+    "ks"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -106,7 +106,7 @@
   ],
   "states": [
     {
-      "id": 4006,
+      "id": "IN-ML",
       "name": "Meghalaya",
       "stateCode": "ML",
       "latitude": 25.4670308,
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "id": 4007,
+      "id": "IN-HR",
       "name": "Haryana",
       "stateCode": "HR",
       "latitude": 29.0587757,
@@ -814,7 +814,7 @@
       ]
     },
     {
-      "id": 4008,
+      "id": "IN-MH",
       "name": "Maharashtra",
       "stateCode": "MH",
       "latitude": 19.7514798,
@@ -4731,7 +4731,7 @@
       ]
     },
     {
-      "id": 4009,
+      "id": "IN-GA",
       "name": "Goa",
       "stateCode": "GA",
       "latitude": 15.2993265,
@@ -5092,7 +5092,7 @@
       ]
     },
     {
-      "id": 4010,
+      "id": "IN-MN",
       "name": "Manipur",
       "stateCode": "MN",
       "latitude": 24.6637173,
@@ -5215,7 +5215,7 @@
       ]
     },
     {
-      "id": 4011,
+      "id": "IN-PY",
       "name": "Puducherry",
       "stateCode": "PY",
       "latitude": 11.9415915,
@@ -5254,7 +5254,7 @@
       ]
     },
     {
-      "id": 4012,
+      "id": "IN-TG",
       "name": "Telangana",
       "stateCode": "TG",
       "latitude": 18.1124372,
@@ -5881,7 +5881,7 @@
       ]
     },
     {
-      "id": 4013,
+      "id": "IN-OR",
       "name": "Odisha",
       "stateCode": "OR",
       "latitude": 20.9516658,
@@ -6662,7 +6662,7 @@
       ]
     },
     {
-      "id": 4014,
+      "id": "IN-RJ",
       "name": "Rajasthan",
       "stateCode": "RJ",
       "latitude": 27.0238036,
@@ -7982,7 +7982,7 @@
       ]
     },
     {
-      "id": 4015,
+      "id": "IN-PB",
       "name": "Punjab",
       "stateCode": "PB",
       "latitude": 31.1471305,
@@ -8798,7 +8798,7 @@
       ]
     },
     {
-      "id": 4016,
+      "id": "IN-UK",
       "name": "Uttarakhand",
       "stateCode": "UK",
       "latitude": 30.066753,
@@ -9194,7 +9194,7 @@
       ]
     },
     {
-      "id": 4017,
+      "id": "IN-AP",
       "name": "Andhra Pradesh",
       "stateCode": "AP",
       "latitude": 15.9128998,
@@ -10381,7 +10381,7 @@
       ]
     },
     {
-      "id": 4018,
+      "id": "IN-NL",
       "name": "Nagaland",
       "stateCode": "NL",
       "latitude": 26.1584354,
@@ -10462,7 +10462,7 @@
       ]
     },
     {
-      "id": 4019,
+      "id": "IN-LD",
       "name": "Lakshadweep",
       "stateCode": "LD",
       "latitude": 10.3280265,
@@ -10487,7 +10487,7 @@
       ]
     },
     {
-      "id": 4020,
+      "id": "IN-HP",
       "name": "Himachal Pradesh",
       "stateCode": "HP",
       "latitude": 31.1048294,
@@ -10897,7 +10897,7 @@
       ]
     },
     {
-      "id": 4021,
+      "id": "IN-DL",
       "name": "Delhi",
       "stateCode": "DL",
       "latitude": 28.7040592,
@@ -11041,7 +11041,7 @@
       ]
     },
     {
-      "id": 4022,
+      "id": "IN-UP",
       "name": "Uttar Pradesh",
       "stateCode": "UP",
       "latitude": 26.8467088,
@@ -15399,7 +15399,7 @@
       ]
     },
     {
-      "id": 4023,
+      "id": "IN-AN",
       "name": "Andaman and Nicobar Islands",
       "stateCode": "AN",
       "latitude": 11.7400867,
@@ -15438,7 +15438,7 @@
       ]
     },
     {
-      "id": 4024,
+      "id": "IN-AR",
       "name": "Arunachal Pradesh",
       "stateCode": "AR",
       "latitude": 28.2179994,
@@ -15631,7 +15631,7 @@
       ]
     },
     {
-      "id": 4025,
+      "id": "IN-JH",
       "name": "Jharkhand",
       "stateCode": "JH",
       "latitude": 23.6101808,
@@ -16181,7 +16181,7 @@
       ]
     },
     {
-      "id": 4026,
+      "id": "IN-KA",
       "name": "Karnataka",
       "stateCode": "KA",
       "latitude": 15.3172775,
@@ -17879,7 +17879,7 @@
       ]
     },
     {
-      "id": 4027,
+      "id": "IN-AS",
       "name": "Assam",
       "stateCode": "AS",
       "latitude": 26.2006043,
@@ -18499,7 +18499,7 @@
       ]
     },
     {
-      "id": 4028,
+      "id": "IN-KL",
       "name": "Kerala",
       "stateCode": "KL",
       "latitude": 10.8505159,
@@ -19252,7 +19252,7 @@
       ]
     },
     {
-      "id": 4029,
+      "id": "IN-JK",
       "name": "Jammu and Kashmir",
       "stateCode": "JK",
       "latitude": 33.277839,
@@ -19641,7 +19641,7 @@
       ]
     },
     {
-      "id": 4030,
+      "id": "IN-GJ",
       "name": "Gujarat",
       "stateCode": "GJ",
       "latitude": 22.258652,
@@ -21801,7 +21801,7 @@
       ]
     },
     {
-      "id": 4031,
+      "id": "IN-CH",
       "name": "Chandigarh",
       "stateCode": "CH",
       "latitude": 30.7333148,
@@ -21819,7 +21819,7 @@
       ]
     },
     {
-      "id": 4033,
+      "id": "IN-DH",
       "name": "Dadra and Nagar Haveli and Daman and Diu",
       "stateCode": "DH",
       "latitude": 20.3973736,
@@ -21872,7 +21872,7 @@
       ]
     },
     {
-      "id": 4034,
+      "id": "IN-SK",
       "name": "Sikkim",
       "stateCode": "SK",
       "latitude": 27.5329718,
@@ -21967,7 +21967,7 @@
       ]
     },
     {
-      "id": 4035,
+      "id": "IN-TN",
       "name": "Tamil Nadu",
       "stateCode": "TN",
       "latitude": 11.1271225,
@@ -24428,7 +24428,7 @@
       ]
     },
     {
-      "id": 4036,
+      "id": "IN-MZ",
       "name": "Mizoram",
       "stateCode": "MZ",
       "latitude": 23.164543,
@@ -24537,7 +24537,7 @@
       ]
     },
     {
-      "id": 4037,
+      "id": "IN-BR",
       "name": "Bihar",
       "stateCode": "BR",
       "latitude": 25.0960742,
@@ -25465,7 +25465,7 @@
       ]
     },
     {
-      "id": 4038,
+      "id": "IN-TR",
       "name": "Tripura",
       "stateCode": "TR",
       "latitude": 23.9408482,
@@ -25609,7 +25609,7 @@
       ]
     },
     {
-      "id": 4039,
+      "id": "IN-MP",
       "name": "Madhya Pradesh",
       "stateCode": "MP",
       "latitude": 22.9734229,
@@ -27531,7 +27531,7 @@
       ]
     },
     {
-      "id": 4040,
+      "id": "IN-CT",
       "name": "Chhattisgarh",
       "stateCode": "CT",
       "latitude": 21.2786567,
@@ -28088,7 +28088,7 @@
       ]
     },
     {
-      "id": 4852,
+      "id": "IN-LA",
       "name": "Ladakh",
       "stateCode": "LA",
       "latitude": 34.2268475,
@@ -28113,7 +28113,7 @@
       ]
     },
     {
-      "id": 4853,
+      "id": "IN-WB",
       "name": "West Bengal",
       "stateCode": "WB",
       "latitude": 22.9867569,

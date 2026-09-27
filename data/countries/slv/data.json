@@ -1,5 +1,5 @@
 {
-  "id": 66,
+  "id": "SV",
   "name": "El Salvador",
   "nativeName": "El Salvador",
   "iso2": "SV",
@@ -9,17 +9,17 @@
   "tld": ".sv",
   "latitude": 13.83333333,
   "longitude": -88.91666666,
-  "flagId": 41,
-  "regionId": 2,
-  "subregionId": 9,
+  "flagId": "sv",
+  "regionId": "americas",
+  "subregionId": "central-america",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2367
+    "America/El_Salvador"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4127,
+      "id": "SV-SV",
       "name": "San Vicente",
       "stateCode": "SV",
       "latitude": 13.5868561,
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "id": 4128,
+      "id": "SV-SA",
       "name": "Santa Ana",
       "stateCode": "SA",
       "latitude": 14.1461121,
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "id": 4129,
+      "id": "SV-US",
       "name": "Usulután",
       "stateCode": "US",
       "latitude": 13.4470634,
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "id": 4130,
+      "id": "SV-MO",
       "name": "Morazán",
       "stateCode": "MO",
       "latitude": 13.7682,
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "id": 4131,
+      "id": "SV-CH",
       "name": "Chalatenango",
       "stateCode": "CH",
       "latitude": 14.1916648,
@@ -348,7 +348,7 @@
       ]
     },
     {
-      "id": 4132,
+      "id": "SV-CA",
       "name": "Cabañas",
       "stateCode": "CA",
       "latitude": 13.8648288,
@@ -373,7 +373,7 @@
       ]
     },
     {
-      "id": 4133,
+      "id": "SV-SS",
       "name": "San Salvador",
       "stateCode": "SS",
       "latitude": 13.7739997,
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": 4134,
+      "id": "SV-LI",
       "name": "La Libertad",
       "stateCode": "LI",
       "latitude": 13.6817661,
@@ -570,7 +570,7 @@
       ]
     },
     {
-      "id": 4135,
+      "id": "SV-SM",
       "name": "San Miguel",
       "stateCode": "SM",
       "latitude": 13.4451041,
@@ -658,7 +658,7 @@
       ]
     },
     {
-      "id": 4136,
+      "id": "SV-PA",
       "name": "La Paz",
       "stateCode": "PA",
       "latitude": null,
@@ -704,7 +704,7 @@
       ]
     },
     {
-      "id": 4137,
+      "id": "SV-CU",
       "name": "Cuscatlán",
       "stateCode": "CU",
       "latitude": 13.8661957,
@@ -750,7 +750,7 @@
       ]
     },
     {
-      "id": 4138,
+      "id": "SV-UN",
       "name": "La Unión ",
       "stateCode": "UN",
       "latitude": 13.4886443,
@@ -817,7 +817,7 @@
       ]
     },
     {
-      "id": 4139,
+      "id": "SV-AH",
       "name": "Ahuachapán",
       "stateCode": "AH",
       "latitude": 13.8216148,
@@ -877,7 +877,7 @@
       ]
     },
     {
-      "id": 4140,
+      "id": "SV-SO",
       "name": "Sonsonate",
       "stateCode": "SO",
       "latitude": 13.682358,

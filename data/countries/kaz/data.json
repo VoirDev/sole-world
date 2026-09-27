@@ -1,5 +1,5 @@
 {
-  "id": 112,
+  "id": "KZ",
   "name": "Kazakhstan",
   "nativeName": "Қазақстан",
   "iso2": "KZ",
@@ -9,24 +9,24 @@
   "tld": ".kz",
   "latitude": 48,
   "longitude": 68,
-  "flagId": 126,
-  "regionId": 3,
-  "subregionId": 10,
+  "flagId": "kz",
+  "regionId": "asia",
+  "subregionId": "central-asia",
   "currencyIds": [
-    906
+    "KZT"
   ],
   "timezoneIds": [
-    2421,
-    2422,
-    2423,
-    2424,
-    2425,
-    2426,
-    2427
+    "Asia/Almaty",
+    "Asia/Aqtau",
+    "Asia/Aqtobe",
+    "Asia/Atyrau",
+    "Asia/Oral",
+    "Asia/Qostanay",
+    "Asia/Qyzylorda"
   ],
   "officialLanguageIds": [
-    55,
-    46
+    "kk",
+    "ru"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -97,7 +97,7 @@
   ],
   "states": [
     {
-      "id": 141,
+      "id": "KZ-MAN",
       "name": "Mangystau",
       "stateCode": "MAN",
       "latitude": 44.590802,
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "id": 142,
+      "id": "KZ-KZY",
       "name": "Kyzylorda",
       "stateCode": "KZY",
       "latitude": 44.6922613,
@@ -294,7 +294,7 @@
       ]
     },
     {
-      "id": 143,
+      "id": "KZ-ALM",
       "name": "Almaty",
       "stateCode": "ALM",
       "latitude": 45.0119227,
@@ -452,7 +452,7 @@
       ]
     },
     {
-      "id": 144,
+      "id": "KZ-SEV",
       "name": "North Kazakhstan",
       "stateCode": "SEV",
       "latitude": 54.1622066,
@@ -561,7 +561,7 @@
       ]
     },
     {
-      "id": 145,
+      "id": "KZ-AKM",
       "name": "Akmola",
       "stateCode": "AKM",
       "latitude": 51.916532,
@@ -726,7 +726,7 @@
       ]
     },
     {
-      "id": 146,
+      "id": "KZ-PAV",
       "name": "Pavlodar",
       "stateCode": "PAV",
       "latitude": 52.2878444,
@@ -814,7 +814,7 @@
       ]
     },
     {
-      "id": 147,
+      "id": "KZ-ZHA",
       "name": "Jambyl",
       "stateCode": "ZHA",
       "latitude": 44.2220308,
@@ -937,7 +937,7 @@
       ]
     },
     {
-      "id": 148,
+      "id": "KZ-ZAP",
       "name": "West Kazakhstan",
       "stateCode": "ZAP",
       "latitude": 49.5679727,
@@ -1039,7 +1039,7 @@
       ]
     },
     {
-      "id": 149,
+      "id": "KZ-YUZ",
       "name": "Turkestan",
       "stateCode": "YUZ",
       "latitude": 43.3666958,
@@ -1232,7 +1232,7 @@
       ]
     },
     {
-      "id": 150,
+      "id": "KZ-KAR",
       "name": "Karaganda",
       "stateCode": "KAR",
       "latitude": 47.9022182,
@@ -1509,7 +1509,7 @@
       ]
     },
     {
-      "id": 151,
+      "id": "KZ-AKT",
       "name": "Aktobe",
       "stateCode": "AKT",
       "latitude": 48.7797078,
@@ -1604,7 +1604,7 @@
       ]
     },
     {
-      "id": 152,
+      "id": "KZ-ALA",
       "name": "Almaty",
       "stateCode": "ALA",
       "latitude": 43.2220146,
@@ -1622,7 +1622,7 @@
       ]
     },
     {
-      "id": 153,
+      "id": "KZ-ATY",
       "name": "Atyrau",
       "stateCode": "ATY",
       "latitude": 47.1076188,
@@ -1724,7 +1724,7 @@
       ]
     },
     {
-      "id": 154,
+      "id": "KZ-VOS",
       "name": "East Kazakhstan",
       "stateCode": "VOS",
       "latitude": 48.7062687,
@@ -1945,7 +1945,7 @@
       ]
     },
     {
-      "id": 155,
+      "id": "KZ-BAY",
       "name": "Baikonur",
       "stateCode": "BAY",
       "latitude": 45.9645851,
@@ -1963,7 +1963,7 @@
       ]
     },
     {
-      "id": 156,
+      "id": "KZ-AST",
       "name": "Astana",
       "stateCode": "AST",
       "latitude": 51.1605227,
@@ -1981,7 +1981,7 @@
       ]
     },
     {
-      "id": 157,
+      "id": "KZ-KUS",
       "name": "Kostanay",
       "stateCode": "KUS",
       "latitude": 51.5077096,

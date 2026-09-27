@@ -1,5 +1,5 @@
 {
-  "id": 209,
+  "id": "SD",
   "name": "Sudan",
   "nativeName": "السودان",
   "iso2": "SD",
@@ -9,18 +9,18 @@
   "tld": ".sd",
   "latitude": 15,
   "longitude": 30,
-  "flagId": 55,
-  "regionId": 1,
-  "subregionId": 1,
+  "flagId": "sd",
+  "regionId": "africa",
+  "subregionId": "northern-africa",
   "currencyIds": [
-    962
+    "SDG"
   ],
   "timezoneIds": [
-    2573
+    "Africa/Khartoum"
   ],
   "officialLanguageIds": [
-    7,
-    30
+    "ar",
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 879,
+      "id": "SD-NW",
       "name": "White Nile",
       "stateCode": "NW",
       "latitude": 9.3321516,
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "id": 880,
+      "id": "SD-RS",
       "name": "Red Sea",
       "stateCode": "RS",
       "latitude": 20.280232,
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "id": 881,
+      "id": "SD-KH",
       "name": "Khartoum",
       "stateCode": "KH",
       "latitude": 15.5006544,
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "id": 882,
+      "id": "SD-SI",
       "name": "Sennar",
       "stateCode": "SI",
       "latitude": 13.567469,
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "id": 883,
+      "id": "SD-KS",
       "name": "South Kordofan",
       "stateCode": "KS",
       "latitude": 11.1990192,
@@ -335,7 +335,7 @@
       ]
     },
     {
-      "id": 884,
+      "id": "SD-KA",
       "name": "Kassala",
       "stateCode": "KA",
       "latitude": 15.4581332,
@@ -367,7 +367,7 @@
       ]
     },
     {
-      "id": 885,
+      "id": "SD-GZ",
       "name": "Al Jazirah",
       "stateCode": "GZ",
       "latitude": 14.8859611,
@@ -427,7 +427,7 @@
       ]
     },
     {
-      "id": 886,
+      "id": "SD-GD",
       "name": "Al Qadarif",
       "stateCode": "GD",
       "latitude": 14.024307,
@@ -459,7 +459,7 @@
       ]
     },
     {
-      "id": 887,
+      "id": "SD-NB",
       "name": "Blue Nile",
       "stateCode": "NB",
       "latitude": 47.598673,
@@ -491,7 +491,7 @@
       ]
     },
     {
-      "id": 888,
+      "id": "SD-DW",
       "name": "West Darfur",
       "stateCode": "DW",
       "latitude": 12.8463561,
@@ -509,7 +509,7 @@
       ]
     },
     {
-      "id": 889,
+      "id": "SD-GK",
       "name": "West Kordofan",
       "stateCode": "GK",
       "latitude": 11.1990192,
@@ -548,7 +548,7 @@
       ]
     },
     {
-      "id": 890,
+      "id": "SD-DN",
       "name": "North Darfur",
       "stateCode": "DN",
       "latitude": 15.7661969,
@@ -580,7 +580,7 @@
       ]
     },
     {
-      "id": 891,
+      "id": "SD-NR",
       "name": "River Nile",
       "stateCode": "NR",
       "latitude": 23.9727595,
@@ -633,7 +633,7 @@
       ]
     },
     {
-      "id": 892,
+      "id": "SD-DE",
       "name": "East Darfur",
       "stateCode": "DE",
       "latitude": 14.3782747,
@@ -651,7 +651,7 @@
       ]
     },
     {
-      "id": 893,
+      "id": "SD-KN",
       "name": "North Kordofan",
       "stateCode": "KN",
       "latitude": 13.8306441,
@@ -690,7 +690,7 @@
       ]
     },
     {
-      "id": 894,
+      "id": "SD-DS",
       "name": "South Darfur",
       "stateCode": "DS",
       "latitude": 11.6488639,
@@ -715,7 +715,7 @@
       ]
     },
     {
-      "id": 895,
+      "id": "SD-NO",
       "name": "Northern",
       "stateCode": "NO",
       "latitude": 38.063817,
@@ -768,7 +768,7 @@
       ]
     },
     {
-      "id": 896,
+      "id": "SD-DC",
       "name": "Central Darfur",
       "stateCode": "DC",
       "latitude": 14.3782747,

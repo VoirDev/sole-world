@@ -12,5 +12,5 @@ fun CityData.toGql() = City(
     id = id.toString(),
     name = name,
     coordinates = Coordinates(latitude = latitude, longitude = longitude),
-    stateId = stateId.toString(),
+    stateId = stateId,
 )

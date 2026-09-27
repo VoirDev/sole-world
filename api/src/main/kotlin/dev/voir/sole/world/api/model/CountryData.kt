@@ -2,7 +2,7 @@ package dev.voir.sole.world.api.model
 
 /**
  * API model returned for country records.
- * @property id Primary key for the record.
+ * @property id ISO 3166-1 alpha-2 code, such as `US`.
  * @property name Display name, localized by mapper functions when a language is requested.
  * @property nativeName Name in the native language or script, when available.
  * @property iso3 ISO alpha code for the record.
@@ -17,7 +17,7 @@ package dev.voir.sole.world.api.model
  * @property subregionId Parent subregion id.
  */
 data class CountryData(
-    val id: Long,
+    val id: String,
     val name: String,
     val nativeName: String?,
     val iso3: String,
@@ -27,7 +27,7 @@ data class CountryData(
     val tld: String?,
     val latitude: Double,
     val longitude: Double,
-    val flagId: Long?,
-    val regionId: Long,
-    val subregionId: Long,
+    val flagId: String?,
+    val regionId: String,
+    val subregionId: String,
 )

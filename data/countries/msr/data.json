@@ -1,5 +1,5 @@
 {
-  "id": 148,
+  "id": "MS",
   "name": "Montserrat",
   "nativeName": "Montserrat",
   "iso2": "MS",
@@ -9,17 +9,17 @@
   "tld": ".ms",
   "latitude": 16.75,
   "longitude": -62.2,
-  "flagId": 99,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "ms",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    840
+    "XCD"
   ],
   "timezoneIds": [
-    2479
+    "America/Montserrat"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [

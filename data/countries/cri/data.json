@@ -1,5 +1,5 @@
 {
-  "id": 53,
+  "id": "CR",
   "name": "Costa Rica",
   "nativeName": "Costa Rica",
   "iso2": "CR",
@@ -9,17 +9,17 @@
   "tld": ".cr",
   "latitude": 10,
   "longitude": -84,
-  "flagId": 200,
-  "regionId": 2,
-  "subregionId": 9,
+  "flagId": "cr",
+  "regionId": "americas",
+  "subregionId": "central-america",
   "currencyIds": [
-    871
+    "CRC"
   ],
   "timezoneIds": [
-    2350
+    "America/Costa_Rica"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1209,
+      "id": "CR-G",
       "name": "Guanacaste",
       "stateCode": "G",
       "latitude": 10.6267399,
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "id": 1210,
+      "id": "CR-P",
       "name": "Puntarenas",
       "stateCode": "P",
       "latitude": 9.2169531,
@@ -357,7 +357,7 @@
       ]
     },
     {
-      "id": 1211,
+      "id": "CR-C",
       "name": "Cartago",
       "stateCode": "C",
       "latitude": 9.8622311,
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": 1212,
+      "id": "CR-H",
       "name": "Heredia",
       "stateCode": "H",
       "latitude": 10.473523,
@@ -624,7 +624,7 @@
       ]
     },
     {
-      "id": 1213,
+      "id": "CR-L",
       "name": "Limón",
       "stateCode": "L",
       "latitude": 9.9896398,
@@ -712,7 +712,7 @@
       ]
     },
     {
-      "id": 1214,
+      "id": "CR-SJ",
       "name": "San José",
       "stateCode": "SJ",
       "latitude": 9.9129727,
@@ -1066,7 +1066,7 @@
       ]
     },
     {
-      "id": 1215,
+      "id": "CR-A",
       "name": "Alajuela",
       "stateCode": "A",
       "latitude": 10.391583,

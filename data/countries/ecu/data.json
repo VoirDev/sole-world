@@ -1,5 +1,5 @@
 {
-  "id": 64,
+  "id": "EC",
   "name": "Ecuador",
   "nativeName": "Ecuador",
   "iso2": "EC",
@@ -9,18 +9,18 @@
   "tld": ".ec",
   "latitude": -2,
   "longitude": -77.5,
-  "flagId": 188,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "ec",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2364,
-    2365
+    "America/Guayaquil",
+    "Pacific/Galapagos"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 2905,
+      "id": "EC-W",
       "name": "Galápagos",
       "stateCode": "W",
       "latitude": -0.9537691,
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": 2906,
+      "id": "EC-U",
       "name": "Sucumbíos",
       "stateCode": "U",
       "latitude": 0.0889231,
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "id": 2907,
+      "id": "EC-Y",
       "name": "Pastaza",
       "stateCode": "Y",
       "latitude": -1.4882265,
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "id": 2908,
+      "id": "EC-T",
       "name": "Tungurahua",
       "stateCode": "T",
       "latitude": -1.2635284,
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "id": 2909,
+      "id": "EC-Z",
       "name": "Zamora Chinchipe",
       "stateCode": "Z",
       "latitude": -4.0655892,
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "id": 2910,
+      "id": "EC-R",
       "name": "Los Ríos",
       "stateCode": "R",
       "latitude": -1.0230607,
@@ -283,7 +283,7 @@
       ]
     },
     {
-      "id": 2911,
+      "id": "EC-I",
       "name": "Imbabura",
       "stateCode": "I",
       "latitude": 0.3499768,
@@ -329,7 +329,7 @@
       ]
     },
     {
-      "id": 2912,
+      "id": "EC-SE",
       "name": "Santa Elena",
       "stateCode": "SE",
       "latitude": -2.2267105,
@@ -361,7 +361,7 @@
       ]
     },
     {
-      "id": 2913,
+      "id": "EC-M",
       "name": "Manabí",
       "stateCode": "M",
       "latitude": -1.0543434,
@@ -484,7 +484,7 @@
       ]
     },
     {
-      "id": 2914,
+      "id": "EC-G",
       "name": "Guayas",
       "stateCode": "G",
       "latitude": -1.9574839,
@@ -628,7 +628,7 @@
       ]
     },
     {
-      "id": 2915,
+      "id": "EC-C",
       "name": "Carchi",
       "stateCode": "C",
       "latitude": 0.5026912,
@@ -660,7 +660,7 @@
       ]
     },
     {
-      "id": 2916,
+      "id": "EC-N",
       "name": "Napo",
       "stateCode": "N",
       "latitude": -0.9955964,
@@ -685,7 +685,7 @@
       ]
     },
     {
-      "id": 2917,
+      "id": "EC-F",
       "name": "Cañar",
       "stateCode": "F",
       "latitude": -2.5589315,
@@ -717,7 +717,7 @@
       ]
     },
     {
-      "id": 2918,
+      "id": "EC-S",
       "name": "Morona-Santiago",
       "stateCode": "S",
       "latitude": -2.3051062,
@@ -756,7 +756,7 @@
       ]
     },
     {
-      "id": 2919,
+      "id": "EC-SD",
       "name": "Santo Domingo de los Tsáchilas",
       "stateCode": "SD",
       "latitude": -0.2521882,
@@ -774,7 +774,7 @@
       ]
     },
     {
-      "id": 2920,
+      "id": "EC-B",
       "name": "Bolívar",
       "stateCode": "B",
       "latitude": -1.7095828,
@@ -799,7 +799,7 @@
       ]
     },
     {
-      "id": 2921,
+      "id": "EC-X",
       "name": "Cotopaxi",
       "stateCode": "X",
       "latitude": -0.8384206,
@@ -845,7 +845,7 @@
       ]
     },
     {
-      "id": 2922,
+      "id": "EC-E",
       "name": "Esmeraldas",
       "stateCode": "E",
       "latitude": 0.9681789,
@@ -905,7 +905,7 @@
       ]
     },
     {
-      "id": 2923,
+      "id": "EC-A",
       "name": "Azuay",
       "stateCode": "A",
       "latitude": -2.8943068,
@@ -958,7 +958,7 @@
       ]
     },
     {
-      "id": 2924,
+      "id": "EC-O",
       "name": "El Oro",
       "stateCode": "O",
       "latitude": -3.2592413,
@@ -1025,7 +1025,7 @@
       ]
     },
     {
-      "id": 2925,
+      "id": "EC-H",
       "name": "Chimborazo",
       "stateCode": "H",
       "latitude": -1.6647995,
@@ -1057,7 +1057,7 @@
       ]
     },
     {
-      "id": 2926,
+      "id": "EC-D",
       "name": "Orellana",
       "stateCode": "D",
       "latitude": -0.4545163,
@@ -1096,7 +1096,7 @@
       ]
     },
     {
-      "id": 2927,
+      "id": "EC-P",
       "name": "Pichincha",
       "stateCode": "P",
       "latitude": -0.1464847,
@@ -1135,7 +1135,7 @@
       ]
     },
     {
-      "id": 5068,
+      "id": "EC-L",
       "name": "Loja",
       "stateCode": "L",
       "latitude": -3.99313,

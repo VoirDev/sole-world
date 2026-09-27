@@ -1,5 +1,5 @@
 {
-  "id": 22,
+  "id": "BE",
   "name": "Belgium",
   "nativeName": "België",
   "iso2": "BE",
@@ -9,19 +9,19 @@
   "tld": ".be",
   "latitude": 50.83333333,
   "longitude": 4,
-  "flagId": 229,
-  "regionId": 4,
-  "subregionId": 17,
+  "flagId": "be",
+  "regionId": "europe",
+  "subregionId": "western-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2276
+    "Europe/Brussels"
   ],
   "officialLanguageIds": [
-    29,
-    33,
-    34
+    "nl",
+    "fr",
+    "de"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 1372,
+      "id": "BE-VLI",
       "name": "Limburg",
       "stateCode": "VLI",
       "latitude": null,
@@ -102,7 +102,7 @@
       "cities": []
     },
     {
-      "id": 1373,
+      "id": "BE-VLG",
       "name": "Flanders",
       "stateCode": "VLG",
       "latitude": 51.0108706,
@@ -2213,7 +2213,7 @@
       ]
     },
     {
-      "id": 1374,
+      "id": "BE-VBR",
       "name": "Flemish Brabant",
       "stateCode": "VBR",
       "latitude": 50.8815434,
@@ -2223,7 +2223,7 @@
       "cities": []
     },
     {
-      "id": 1375,
+      "id": "BE-WHT",
       "name": "Hainaut",
       "stateCode": "WHT",
       "latitude": 50.5257076,
@@ -2233,7 +2233,7 @@
       "cities": []
     },
     {
-      "id": 1376,
+      "id": "BE-BRU",
       "name": "Brussels-Capital ",
       "stateCode": "BRU",
       "latitude": 50.8503463,
@@ -2251,7 +2251,7 @@
       ]
     },
     {
-      "id": 1377,
+      "id": "BE-VOV",
       "name": "East Flanders",
       "stateCode": "VOV",
       "latitude": 51.0362101,
@@ -2261,7 +2261,7 @@
       "cities": []
     },
     {
-      "id": 1378,
+      "id": "BE-WNA",
       "name": "Namur",
       "stateCode": "WNA",
       "latitude": 50.4673883,
@@ -2271,7 +2271,7 @@
       "cities": []
     },
     {
-      "id": 1379,
+      "id": "BE-WLX",
       "name": "Luxembourg",
       "stateCode": "WLX",
       "latitude": 49.965,
@@ -2281,7 +2281,7 @@
       "cities": []
     },
     {
-      "id": 1380,
+      "id": "BE-WAL",
       "name": "Wallonia",
       "stateCode": "WAL",
       "latitude": 50.4175637,
@@ -4028,7 +4028,7 @@
       ]
     },
     {
-      "id": 1381,
+      "id": "BE-VAN",
       "name": "Antwerp",
       "stateCode": "VAN",
       "latitude": 51.2194475,
@@ -4038,7 +4038,7 @@
       "cities": []
     },
     {
-      "id": 1382,
+      "id": "BE-WBR",
       "name": "Walloon Brabant",
       "stateCode": "WBR",
       "latitude": 50.633241,
@@ -4048,7 +4048,7 @@
       "cities": []
     },
     {
-      "id": 1383,
+      "id": "BE-VWV",
       "name": "West Flanders",
       "stateCode": "VWV",
       "latitude": 51.0404747,
@@ -4058,7 +4058,7 @@
       "cities": []
     },
     {
-      "id": 1384,
+      "id": "BE-WLG",
       "name": "Liège",
       "stateCode": "WLG",
       "latitude": 50.6325574,

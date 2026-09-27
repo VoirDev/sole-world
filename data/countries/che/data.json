@@ -1,5 +1,5 @@
 {
-  "id": 214,
+  "id": "CH",
   "name": "Switzerland",
   "nativeName": "Schweiz",
   "iso2": "CH",
@@ -9,20 +9,20 @@
   "tld": ".ch",
   "latitude": 47,
   "longitude": 8,
-  "flagId": 206,
-  "regionId": 4,
-  "subregionId": 17,
+  "flagId": "ch",
+  "regionId": "europe",
+  "subregionId": "western-europe",
   "currencyIds": [
-    915
+    "CHF"
   ],
   "timezoneIds": [
-    2577
+    "Europe/Zurich"
   ],
   "officialLanguageIds": [
-    34,
-    33,
-    41,
-    143
+    "de",
+    "fr",
+    "it",
+    "rm"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -93,7 +93,7 @@
   ],
   "states": [
     {
-      "id": 1639,
+      "id": "CH-AG",
       "name": "Aargau",
       "stateCode": "AG",
       "latitude": 47.3876664,
@@ -930,7 +930,7 @@
       ]
     },
     {
-      "id": 1640,
+      "id": "CH-FR",
       "name": "Fribourg",
       "stateCode": "FR",
       "latitude": 46.6816748,
@@ -1326,7 +1326,7 @@
       ]
     },
     {
-      "id": 1641,
+      "id": "CH-BL",
       "name": "Basel-Land",
       "stateCode": "BL",
       "latitude": 47.4418122,
@@ -1659,7 +1659,7 @@
       ]
     },
     {
-      "id": 1642,
+      "id": "CH-UR",
       "name": "Uri",
       "stateCode": "UR",
       "latitude": 41.4860647,
@@ -1740,7 +1740,7 @@
       ]
     },
     {
-      "id": 1643,
+      "id": "CH-TI",
       "name": "Ticino",
       "stateCode": "TI",
       "latitude": 46.331734,
@@ -2192,7 +2192,7 @@
       ]
     },
     {
-      "id": 1644,
+      "id": "CH-SG",
       "name": "St. Gallen",
       "stateCode": "SG",
       "latitude": 47.1456254,
@@ -2749,7 +2749,7 @@
       ]
     },
     {
-      "id": 1645,
+      "id": "CH-BE",
       "name": "Bern",
       "stateCode": "BE",
       "latitude": 46.7988621,
@@ -3929,7 +3929,7 @@
       ]
     },
     {
-      "id": 1646,
+      "id": "CH-ZG",
       "name": "Zug",
       "stateCode": "ZG",
       "latitude": 47.1661505,
@@ -4003,7 +4003,7 @@
       ]
     },
     {
-      "id": 1647,
+      "id": "CH-GE",
       "name": "Geneva",
       "stateCode": "GE",
       "latitude": 46.2180073,
@@ -4210,7 +4210,7 @@
       ]
     },
     {
-      "id": 1648,
+      "id": "CH-VS",
       "name": "Valais",
       "stateCode": "VS",
       "latitude": 46.1904614,
@@ -4746,7 +4746,7 @@
       ]
     },
     {
-      "id": 1649,
+      "id": "CH-AI",
       "name": "Appenzell Innerrhoden",
       "stateCode": "AI",
       "latitude": 47.3161925,
@@ -4785,7 +4785,7 @@
       ]
     },
     {
-      "id": 1650,
+      "id": "CH-OW",
       "name": "Obwalden",
       "stateCode": "OW",
       "latitude": 46.877858,
@@ -4845,7 +4845,7 @@
       ]
     },
     {
-      "id": 1651,
+      "id": "CH-VD",
       "name": "Vaud",
       "stateCode": "VD",
       "latitude": 46.5613135,
@@ -5591,7 +5591,7 @@
       ]
     },
     {
-      "id": 1652,
+      "id": "CH-NW",
       "name": "Nidwalden",
       "stateCode": "NW",
       "latitude": 46.9267016,
@@ -5665,7 +5665,7 @@
       ]
     },
     {
-      "id": 1653,
+      "id": "CH-SZ",
       "name": "Schwyz",
       "stateCode": "SZ",
       "latitude": 47.0207138,
@@ -5900,7 +5900,7 @@
       ]
     },
     {
-      "id": 1654,
+      "id": "CH-SH",
       "name": "Schaffhausen",
       "stateCode": "SH",
       "latitude": 47.7009364,
@@ -6037,7 +6037,7 @@
       ]
     },
     {
-      "id": 1655,
+      "id": "CH-AR",
       "name": "Appenzell Ausserrhoden",
       "stateCode": "AR",
       "latitude": 47.366481,
@@ -6153,7 +6153,7 @@
       ]
     },
     {
-      "id": 1656,
+      "id": "CH-ZH",
       "name": "Zürich",
       "stateCode": "ZH",
       "latitude": 47.359536,
@@ -8782,7 +8782,7 @@
       ]
     },
     {
-      "id": 1657,
+      "id": "CH-TG",
       "name": "Thurgau",
       "stateCode": "TG",
       "latitude": 47.6037856,
@@ -9136,7 +9136,7 @@
       ]
     },
     {
-      "id": 1658,
+      "id": "CH-JU",
       "name": "Jura",
       "stateCode": "JU",
       "latitude": 47.3444474,
@@ -9287,7 +9287,7 @@
       ]
     },
     {
-      "id": 1659,
+      "id": "CH-NE",
       "name": "Neuchâtel",
       "stateCode": "NE",
       "latitude": 46.9899874,
@@ -9515,7 +9515,7 @@
       ]
     },
     {
-      "id": 1660,
+      "id": "CH-GR",
       "name": "Graubünden",
       "stateCode": "GR",
       "latitude": 46.6569871,
@@ -9946,7 +9946,7 @@
       ]
     },
     {
-      "id": 1661,
+      "id": "CH-GL",
       "name": "Glarus",
       "stateCode": "GL",
       "latitude": 47.0411232,
@@ -10034,7 +10034,7 @@
       ]
     },
     {
-      "id": 1662,
+      "id": "CH-SO",
       "name": "Solothurn",
       "stateCode": "SO",
       "latitude": 47.3320717,
@@ -10416,7 +10416,7 @@
       ]
     },
     {
-      "id": 1663,
+      "id": "CH-LU",
       "name": "Lucerne",
       "stateCode": "LU",
       "latitude": 47.0795671,
@@ -10896,7 +10896,7 @@
       ]
     },
     {
-      "id": 4957,
+      "id": "CH-BS",
       "name": "Basel-Stadt",
       "stateCode": "BS",
       "latitude": 47.566667,

@@ -109,7 +109,7 @@ class PaginationQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(idOrCode: 1) {
+              country(id: "FD") {
                 firstStates: states(page: { page: 0, size: 1 }) {
                   items { id name }
                   pageInfo { page size totalItems totalPages hasNextPage hasPreviousPage }

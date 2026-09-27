@@ -1,5 +1,5 @@
 {
-  "id": 211,
+  "id": "SJ",
   "name": "Svalbard and Jan Mayen",
   "nativeName": "Svalbard og Jan Mayen",
   "iso2": "SJ",
@@ -9,17 +9,17 @@
   "tld": ".sj",
   "latitude": 78,
   "longitude": 20,
-  "flagId": 50,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "sj",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    935
+    "NOK"
   ],
   "timezoneIds": [
-    2575
+    "Arctic/Longyearbyen"
   ],
   "officialLanguageIds": [
-    61
+    "no"
   ],
   "otherLanguageIds": [],
   "translations": [

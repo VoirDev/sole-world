@@ -42,7 +42,7 @@ class StateGraphqlFetcher(
             request = GraphqlRequest.pageRequest(page),
             languageCode = language,
             query = GraphqlRequest.optionalSearchQuery(query),
-            countryId = GraphqlRequest.optionalLongId(countryId, "countryId"),
+            countryId = GraphqlRequest.optionalId(countryId),
         )
 
         return GraphqlRequest.localized(
@@ -62,7 +62,7 @@ class StateGraphqlFetcher(
     @DgsQuery
     fun statesByIds(@InputArgument ids: List<String>): DataFetcherResult<List<State>> {
         val language = GraphqlRequest.language()
-        val states = stateStore.byIds(GraphqlRequest.longIds(ids, "ids"), language)
+        val states = stateStore.byIds(GraphqlRequest.ids(ids, "ids"), language)
 
         return GraphqlRequest.localized(states.map { it.toGql() }, language)
     }
@@ -75,7 +75,7 @@ class StateGraphqlFetcher(
     @DgsQuery
     fun state(@InputArgument id: String): DataFetcherResult<State> {
         val language = GraphqlRequest.language()
-        val state = stateStore.byId(GraphqlRequest.longId(id, "id"), language)
+        val state = stateStore.byId(id, language)
 
         return GraphqlRequest.localized(state?.toGql(), language)
     }
@@ -86,7 +86,7 @@ class StateGraphqlFetcher(
         val state: State = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        return countryStore.byId(GraphqlRequest.longId(state.countryId, "countryId"), language)?.toGql()
+        return countryStore.byId(state.countryId, language)?.toGql()
     }
 
     /**
@@ -104,7 +104,7 @@ class StateGraphqlFetcher(
         val language = GraphqlRequest.language(dfe)
 
         val result = cityStore.pageByStateId(
-            stateId = GraphqlRequest.longId(state.id, "id"),
+            stateId = state.id,
             request = GraphqlRequest.pageRequest(page),
             query = GraphqlRequest.optionalSearchQuery(query),
             languageCode = language,

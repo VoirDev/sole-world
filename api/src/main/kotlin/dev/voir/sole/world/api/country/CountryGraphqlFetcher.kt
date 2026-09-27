@@ -83,11 +83,11 @@ class CountryGraphqlFetcher(
             request = GraphqlRequest.pageRequest(page),
             languageCode = language,
             query = GraphqlRequest.optionalSearchQuery(query),
-            regionId = GraphqlRequest.optionalLongId(regionId, "regionId"),
-            subregionId = GraphqlRequest.optionalLongId(subregionId, "subregionId"),
-            currencyId = GraphqlRequest.optionalLongId(currencyId, "currencyId"),
-            languageId = GraphqlRequest.optionalLongId(languageId, "languageId"),
-            timezoneId = GraphqlRequest.optionalLongId(timezoneId, "timezoneId"),
+            regionId = GraphqlRequest.optionalId(regionId),
+            subregionId = GraphqlRequest.optionalId(subregionId),
+            currencyId = GraphqlRequest.optionalId(currencyId),
+            languageId = GraphqlRequest.optionalId(languageId),
+            timezoneId = GraphqlRequest.optionalId(timezoneId),
         )
 
         return GraphqlRequest.localized(
@@ -107,21 +107,21 @@ class CountryGraphqlFetcher(
     @DgsQuery
     fun countriesByIds(@InputArgument ids: List<String>): DataFetcherResult<List<Country>> {
         val language = GraphqlRequest.language()
-        val countries = countryStore.byIds(GraphqlRequest.longIds(ids, "ids"), language)
+        val countries = countryStore.byIds(GraphqlRequest.ids(ids, "ids"), language)
 
         return GraphqlRequest.localized(countries.map { it.toGql() }, language)
     }
 
     /**
-     * Loads one country by numeric identifier or ISO code.
-     * @param idOrCode Numeric identifier, ISO 3166-1 alpha-2 code, or alpha-3 code.
+     * Loads one country by its identifier or one of its other ISO 3166-1 codes.
+     * @param id Alpha-2 identifier, alpha-3 code, or numeric code, in any case.
      * @return Matching country, or null when none exists.
      */
     @DgsQuery
-    fun country(@InputArgument idOrCode: String): DataFetcherResult<Country> {
+    fun country(@InputArgument id: String): DataFetcherResult<Country> {
         val language = GraphqlRequest.language()
 
-        return GraphqlRequest.localized(countryStore.byIdentifier(idOrCode, language)?.toGql(), language)
+        return GraphqlRequest.localized(countryStore.byIdentifier(id, language)?.toGql(), language)
     }
 
     /** Resolves the parent region of a country. */
@@ -130,7 +130,7 @@ class CountryGraphqlFetcher(
         val country: Country = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        return regionStore.byId(GraphqlRequest.longId(country.regionId, "regionId"), language)?.toGql()
+        return regionStore.byId(country.regionId, language)?.toGql()
     }
 
     /** Resolves the parent subregion of a country. */
@@ -139,9 +139,7 @@ class CountryGraphqlFetcher(
         val country: Country = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        val subregionId = GraphqlRequest.longId(country.subregionId, "subregionId")
-
-        return subregionStore.byId(subregionId, language)?.toGql()
+        return subregionStore.byId(country.subregionId, language)?.toGql()
     }
 
     /** Resolves the currencies used by a country. */
@@ -150,7 +148,7 @@ class CountryGraphqlFetcher(
         val country: Country = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        return currencyStore.byCountryId(countryId(country), language).map { it.toGql() }
+        return currencyStore.byCountryId(country.id, language).map { it.toGql() }
     }
 
     /** Resolves the timezones associated with a country. */
@@ -159,7 +157,7 @@ class CountryGraphqlFetcher(
         val country: Country = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        return timezoneStore.byCountryId(countryId(country), language).map { it.toGql() }
+        return timezoneStore.byCountryId(country.id, language).map { it.toGql() }
     }
 
     /** Resolves the languages associated with a country. */
@@ -168,7 +166,7 @@ class CountryGraphqlFetcher(
         val country: Country = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        return languageStore.byCountryId(countryId(country), language).map { it.toGql() }
+        return languageStore.byCountryId(country.id, language).map { it.toGql() }
     }
 
     /** Resolves the central banks serving a country. */
@@ -177,7 +175,7 @@ class CountryGraphqlFetcher(
         val country: Country = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        return centralBankStore.byCountryId(countryId(country), language).map { it.toGql() }
+        return centralBankStore.byCountryId(country.id, language).map { it.toGql() }
     }
 
     /** Resolves the flag of a country. */
@@ -186,7 +184,7 @@ class CountryGraphqlFetcher(
         val country: Country = dfe.getSource() ?: return null
         val flagId = country.flagId ?: return null
 
-        return flagStore.byId(GraphqlRequest.longId(flagId, "flagId"))?.toGql()
+        return flagStore.byId(flagId)?.toGql()
     }
 
     /**
@@ -204,7 +202,7 @@ class CountryGraphqlFetcher(
         val language = GraphqlRequest.language(dfe)
 
         val result = stateStore.pageByCountryId(
-            countryId = countryId(country),
+            countryId = country.id,
             request = GraphqlRequest.pageRequest(page),
             query = GraphqlRequest.optionalSearchQuery(query),
             languageCode = language,
@@ -231,7 +229,7 @@ class CountryGraphqlFetcher(
         val language = GraphqlRequest.language(dfe)
 
         val result = cityStore.pageByCountryId(
-            countryId = countryId(country),
+            countryId = country.id,
             request = GraphqlRequest.pageRequest(page),
             query = GraphqlRequest.optionalSearchQuery(query),
             languageCode = language,
@@ -242,6 +240,4 @@ class CountryGraphqlFetcher(
             pageInfo = GraphqlRequest.pageInfo(result.metadata),
         )
     }
-
-    private fun countryId(country: Country): Long = GraphqlRequest.longId(country.id, "id")
 }

@@ -1,5 +1,5 @@
 {
-  "id": 78,
+  "id": "TF",
   "name": "French Southern Territories",
   "nativeName": "Territoire des Terres australes et antarctiques fr",
   "iso2": "TF",
@@ -9,17 +9,17 @@
   "tld": ".tf",
   "latitude": -49.25,
   "longitude": 69.167,
-  "flagId": 35,
-  "regionId": 1,
-  "subregionId": 5,
+  "flagId": "tf",
+  "regionId": "africa",
+  "subregionId": "southern-africa",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2382
+    "Indian/Kerguelen"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [

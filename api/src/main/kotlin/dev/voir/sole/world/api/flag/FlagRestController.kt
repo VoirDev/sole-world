@@ -42,7 +42,7 @@ class FlagRestController(
         )
     }
 
-    override fun getFlag(id: Long, include: String?): ResponseEntity<Flag> {
+    override fun getFlag(id: String, include: String?): ResponseEntity<Flag> {
         val includes = IncludeSpec.parse(include, FlagRestAssembler.ALLOWED_INCLUDES)
         val flag = flagStore.byId(id) ?: throw ResourceNotFoundException.of("Flag", id)
 

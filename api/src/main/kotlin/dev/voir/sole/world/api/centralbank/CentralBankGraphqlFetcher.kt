@@ -59,7 +59,7 @@ class CentralBankGraphqlFetcher(
     @DgsQuery
     fun centralBanksByIds(@InputArgument ids: List<String>): DataFetcherResult<List<CentralBank>> {
         val language = GraphqlRequest.language()
-        val banks = centralBankStore.byIds(GraphqlRequest.longIds(ids, "ids"), language)
+        val banks = centralBankStore.byIds(GraphqlRequest.ids(ids, "ids"), language)
 
         return GraphqlRequest.localized(banks.map { it.toGql() }, language)
     }
@@ -72,7 +72,7 @@ class CentralBankGraphqlFetcher(
     @DgsQuery
     fun centralBank(@InputArgument id: String): DataFetcherResult<CentralBank> {
         val language = GraphqlRequest.language()
-        val bank = centralBankStore.byId(GraphqlRequest.longId(id, "id"), language)
+        val bank = centralBankStore.byId(id, language)
 
         return GraphqlRequest.localized(bank?.toGql(), language)
     }
@@ -83,7 +83,7 @@ class CentralBankGraphqlFetcher(
         val bank: CentralBank = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        return countryStore.byCentralBankId(bankId(bank), language).map { it.toGql() }
+        return countryStore.byCentralBankId(bank.id, language).map { it.toGql() }
     }
 
     /** Resolves the currencies a central bank issues. */
@@ -92,8 +92,6 @@ class CentralBankGraphqlFetcher(
         val bank: CentralBank = dfe.getSource() ?: return null
         val language = GraphqlRequest.language(dfe)
 
-        return currencyStore.byCentralBankId(bankId(bank), language).map { it.toGql() }
+        return currencyStore.byCentralBankId(bank.id, language).map { it.toGql() }
     }
-
-    private fun bankId(bank: CentralBank): Long = GraphqlRequest.longId(bank.id, "id")
 }

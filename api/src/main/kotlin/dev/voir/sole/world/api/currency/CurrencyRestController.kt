@@ -64,20 +64,20 @@ class CurrencyRestController(
     }
 
     override fun getCurrency(
-        idOrCode: String,
+        id: String,
         withObsolete: Boolean?,
         lang: String?,
         include: String?,
     ): ResponseEntity<Currency> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, CurrencyRestAssembler.ALLOWED_INCLUDES)
-        val currency = requireCurrency(idOrCode, withObsolete, language)
+        val currency = requireCurrency(id, withObsolete, language)
 
         return cache.ok(currencies.assemble(currency, includes, language), request)
     }
 
     override fun listCurrencyCountries(
-        idOrCode: String,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,
@@ -86,7 +86,7 @@ class CurrencyRestController(
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, CountryRestAssembler.ALLOWED_INCLUDES)
         // Obsolete currencies still have countries worth listing, so they resolve here.
-        val currency = requireCurrency(idOrCode, withObsolete = true, languageCode = language)
+        val currency = requireCurrency(id, withObsolete = true, languageCode = language)
 
         val result = countryStore
             .byCurrencyId(currency.id, language)
@@ -102,7 +102,7 @@ class CurrencyRestController(
     }
 
     override fun listCurrencyCentralBanks(
-        idOrCode: String,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,
@@ -110,7 +110,7 @@ class CurrencyRestController(
     ): ResponseEntity<CentralBankPage> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, CentralBankRestAssembler.ALLOWED_INCLUDES)
-        val currency = requireCurrency(idOrCode, withObsolete = true, languageCode = language)
+        val currency = requireCurrency(id, withObsolete = true, languageCode = language)
 
         val result = centralBankStore
             .byCurrencyId(currency.id, language)
@@ -126,9 +126,9 @@ class CurrencyRestController(
     }
 
     private fun requireCurrency(
-        idOrCode: String,
+        id: String,
         withObsolete: Boolean?,
         languageCode: String?,
-    ): CurrencyData = currencyStore.resolve(idOrCode, withObsolete, languageCode)
-        ?: throw ResourceNotFoundException.of("Currency", idOrCode)
+    ): CurrencyData = currencyStore.resolve(id, withObsolete, languageCode)
+        ?: throw ResourceNotFoundException.of("Currency", id)
 }
