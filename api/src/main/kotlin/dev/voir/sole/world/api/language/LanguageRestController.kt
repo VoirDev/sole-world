@@ -33,7 +33,7 @@ class LanguageRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<LanguagePage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, LanguageRestAssembler.ALLOWED_INCLUDES)
 
         val result = languageStore.page(
@@ -52,7 +52,7 @@ class LanguageRestController(
     }
 
     override fun getLanguage(id: String, lang: String?, include: String?): ResponseEntity<Language> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, LanguageRestAssembler.ALLOWED_INCLUDES)
         val record = requireLanguage(id, language)
 
@@ -66,7 +66,7 @@ class LanguageRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<CountryPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CountryRestAssembler.ALLOWED_INCLUDES)
         val record = requireLanguage(id, language)
 

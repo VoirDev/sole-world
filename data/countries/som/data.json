@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "소말리아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Somália"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Somália"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Somalië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Somalija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سومالی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Somalia"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Somalia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Somalie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ソマリア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Somalia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "索马里"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Somali"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сомали"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сомалі"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Somalia"
     }
   ],

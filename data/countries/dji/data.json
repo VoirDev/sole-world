@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "지부티"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Djibuti"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Djibuti"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Djibouti"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Džibuti"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جیبوتی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Dschibuti"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Yibuti"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Djibouti"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ジブチ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Gibuti"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "吉布提"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Cibuti"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Джибути"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Джибуті"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Dżibuti"
     }
   ],

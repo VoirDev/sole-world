@@ -47,67 +47,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "캐나다"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Canadá"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Canadá"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Canada"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kanada"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کانادا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kanada"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Canadá"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Canada"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "カナダ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Canada"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "加拿大"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kanada"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Канада"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Канада"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kanada"
     }
   ],

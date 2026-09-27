@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "코트디부아르"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Costa do Marfim"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Costa do Marfim"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Ivoorkust"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Obala Bjelokosti"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ساحل عاج"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Elfenbeinküste"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Costa de Marfil"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Côte d'Ivoire"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "コートジボワール"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Costa d'Avorio"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "科特迪瓦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Fildişi Sahili"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Кот-д'Ивуар"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Кот-д'Івуар"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wybrzeże Kości Słoniowej"
     }
   ],

@@ -36,7 +36,7 @@ class ConditionalRequestInterceptor(private val cache: ResponseCache) : HandlerI
 
         response.status = HttpStatus.NOT_MODIFIED.value()
         response.setHeader(HttpHeaders.ETAG, etag)
-        cache.applyHeaders(response)
+        cache.applyHeaders(request, response)
 
         return false
     }

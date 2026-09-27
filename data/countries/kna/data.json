@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "세인트키츠 네비스"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "São Cristóvão e Névis"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "São Cristóvão e Neves"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Saint Kitts en Nevis"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sveti Kristof i Nevis"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سنت کیتس و نویس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "St. Kitts und Nevis"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "San Cristóbal y Nieves"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Saint-Christophe-et-Niévès"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "セントクリストファー・ネーヴィス"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Saint Kitts e Nevis"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "圣基茨和尼维斯"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Saint Kitts ve Nevis"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сент-Китс и Невис"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сент-Кітс і Невіс"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Saint Kitts i Nevis"
     }
   ],

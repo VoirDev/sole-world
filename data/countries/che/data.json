@@ -27,67 +27,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "스위스"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Suíça"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Suíça"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Zwitserland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Švicarska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سوئیس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Schweiz"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Suiza"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Suisse"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "スイス"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Svizzera"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "瑞士"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "İsviçre"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Швейцария"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Швейцарія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Szwajcaria"
     }
   ],

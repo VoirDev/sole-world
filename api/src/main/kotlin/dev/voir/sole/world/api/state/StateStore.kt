@@ -22,7 +22,7 @@ class StateStore(dataset: RawDataset) {
                 countryId = country.id,
                 name = LocalizedName.of(
                     base = json.name,
-                    translations = json.translations.map { it.languageCode to it.name },
+                    translations = json.translations.map { it.locale to it.name },
                 ),
                 stateCode = json.stateCode,
                 latitude = json.latitude,

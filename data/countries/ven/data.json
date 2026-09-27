@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "베네수엘라"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Venezuela"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Venezuela"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Venezuela"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Venezuela"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ونزوئلا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Venezuela"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Venezuela"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Venezuela"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ベネズエラ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Venezuela"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "委内瑞拉"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Venezuela"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Венесуэла"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Венесуела"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wenezuela"
     }
   ],

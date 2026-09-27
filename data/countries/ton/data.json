@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "통가"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Tonga"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Tonga"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Tonga"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Tonga"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "تونگا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Tonga"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Tonga"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Tonga"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "トンガ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Tonga"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "汤加"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Tonga"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Тонга"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Тонга"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Tonga"
     }
   ],

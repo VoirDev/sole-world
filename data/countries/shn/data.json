@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "세인트헬레나"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Santa Helena"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Santa Helena"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Sint-Helena"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sveta Helena"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سنت هلن"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Sankt Helena"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Santa Elena"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Sainte-Hélène"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "セントヘレナ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Sant'Elena"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "圣赫勒拿"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Saint Helena"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Остров Святой Елены"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Острів Святої Єлени"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Święta Helena"
     }
   ],

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "생피에르 미클롱"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Saint-Pierre e Miquelon"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "São Pedro e Miquelon"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Saint-Pierre en Miquelon"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sveti Petar i Mikelon"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سن پیر و میکلن"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Saint-Pierre und Miquelon"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "San Pedro y Miquelón"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Saint-Pierre-et-Miquelon"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "サンピエール島・ミクロン島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Saint-Pierre e Miquelon"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "圣皮埃尔和密克隆"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Saint Pierre ve Miquelon"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сен-Пьер и Микелон"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сен-П'єр і Мікелон"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Saint-Pierre i Miquelon"
     }
   ],

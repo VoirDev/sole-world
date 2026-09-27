@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "예멘"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Iêmen"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Iémen"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Jemen"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Jemen"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "یمن"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Jemen"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Yemen"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Yémen"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "イエメン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Yemen"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "也门"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Yemen"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Йемен"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ємен"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Jemen"
     }
   ],

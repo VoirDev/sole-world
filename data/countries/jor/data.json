@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "요르단"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Jordânia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Jordânia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Jordanië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Jordan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اردن"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Jordanien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Jordania"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Jordanie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ヨルダン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Giordania"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "约旦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Ürdün"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Иордания"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Йорданія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Jordania"
     }
   ],

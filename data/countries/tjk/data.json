@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "타지키스탄"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Tajiquistão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Tajiquistão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Tadzjikistan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Tadžikistan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "تاجیکستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Tadschikistan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Tayikistán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Tadjikistan"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "タジキスタン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Tagikistan"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "塔吉克斯坦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Tacikistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Таджикистан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Таджикистан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Tadżykistan"
     }
   ],

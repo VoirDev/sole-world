@@ -4,11 +4,11 @@ import kotlinx.serialization.Serializable
 
 /**
  * Localized region name read from seed data.
- * @property languageCode Locale code for the translation.
+ * @property locale Locale the translation is written in, an id from `locales.json`.
  * @property name Localized region name.
  */
 @Serializable
 data class RegionTranslationJSON(
-    val languageCode: String,
+    val locale: String,
     val name: String,
 )

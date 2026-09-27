@@ -6,6 +6,7 @@ import dev.voir.sole.world.api.dataset.json.CryptoJSON
 import dev.voir.sole.world.api.dataset.json.CurrencyJSON
 import dev.voir.sole.world.api.dataset.json.FlagJSON
 import dev.voir.sole.world.api.dataset.json.LanguageJSON
+import dev.voir.sole.world.api.dataset.json.LocaleJSON
 import dev.voir.sole.world.api.dataset.json.MediaAssetJSON
 import dev.voir.sole.world.api.dataset.json.RegionJSON
 import dev.voir.sole.world.api.dataset.json.TimezoneJSON
@@ -25,6 +26,7 @@ import dev.voir.sole.world.api.dataset.json.TimezoneJSON
  * @property currencies Currency records.
  * @property cryptos Cryptocurrency records.
  * @property languages Language records.
+ * @property locales Translation locales every translated name is written in.
  * @property countries Country documents, each carrying its states and their cities.
  * @property centralBanks Central bank records with the countries and currencies they relate to.
  */
@@ -37,6 +39,7 @@ class RawDataset(
     val currencies: List<CurrencyJSON>,
     val cryptos: List<CryptoJSON>,
     val languages: List<LanguageJSON>,
+    val locales: List<LocaleJSON>,
     val countries: List<CountryJSON>,
     val centralBanks: List<CentralBankJSON>,
 )

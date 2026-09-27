@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "시리아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Síria"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Síria"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Syrië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sirija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سوریه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Syrien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Siria"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Syrie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "シリア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Siria"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "叙利亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Suriye"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сирия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сирія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Syria"
     }
   ],

@@ -7,7 +7,7 @@
     "establishmentYear": 1950,
     "translations": [
       {
-        "languageCode": "ru",
+        "locale": "ru",
         "name": "Фридонский резерв"
       }
     ],

@@ -26,67 +26,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "덴마크"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Dinamarca"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Dinamarca"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Denemarken"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Danska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "دانمارک"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Dänemark"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Dinamarca"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Danemark"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "デンマーク"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Danimarca"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "丹麦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Danimarka"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Дания"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Данія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Dania"
     }
   ],

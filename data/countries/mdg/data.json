@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "마다가스카르"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Madagascar"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Madagáscar"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Madagaskar"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Madagaskar"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ماداگاسکار"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Madagaskar"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Madagascar"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Madagascar"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "マダガスカル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Madagascar"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "马达加斯加"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Madagaskar"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Мадагаскар"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Мадагаскар"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Madagaskar"
     }
   ],

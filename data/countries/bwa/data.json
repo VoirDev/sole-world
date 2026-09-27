@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "보츠와나"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Botsuana"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Botsuana"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Botswana"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Bocvana"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بوتسوانا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Botswana"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Botsuana"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Botswana"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ボツワナ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Botswana"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "博茨瓦纳"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Botsvana"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Ботсвана"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ботсвана"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Botswana"
     }
   ],

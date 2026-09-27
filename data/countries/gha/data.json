@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "가나"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Gana"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Gana"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Ghana"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Gana"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "غنا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Ghana"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Ghana"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Ghana"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ガーナ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Ghana"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "加纳"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Gana"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гана"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гана"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Ghana"
     }
   ],

@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "바티칸 시국"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Vaticano"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Vaticano"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Vaticaanstad"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Vatikan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "واتیکان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Vatikanstadt"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Ciudad del Vaticano"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Vatican"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "バチカン市国"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Città del Vaticano"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "梵蒂冈"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Vatikan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Ватикан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ватикан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Watykan"
     }
   ],

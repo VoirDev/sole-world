@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "기니비사우"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Guiné-Bissau"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Guiné-Bissau"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Guinee-Bissau"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Gvineja Bisau"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گینهٔ بیسائو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Guinea-Bissau"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Guinea-Bisáu"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Guinée-Bissau"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ギニアビサウ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Guinea-Bissau"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "几内亚比绍"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Gine-Bissau"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гвинея-Бисау"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гвінея-Бісау"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Gwinea Bissau"
     }
   ],

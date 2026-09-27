@@ -29,67 +29,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "인도네시아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Indonésia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Indonésia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Indonesië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Indonezija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اندونزی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Indonesien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Indonesia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Indonésie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "インドネシア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Indonesia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "印度尼西亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Endonezya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Индонезия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Індонезія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Indonezja"
     }
   ],

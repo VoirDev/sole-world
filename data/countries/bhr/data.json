@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "바레인"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Bahrein"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Barém"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Bahrein"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Bahrein"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بحرین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Bahrain"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Baréin"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Bahreïn"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "バーレーン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Bahrein"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "巴林"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Bahreyn"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Бахрейн"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Бахрейн"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Bahrajn"
     }
   ],

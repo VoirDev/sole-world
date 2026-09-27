@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "태국"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Tailândia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Tailândia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Thailand"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Tajland"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "تایلند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Thailand"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Tailandia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Thaïlande"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "タイ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Thailandia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "泰国"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Tayland"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Таиланд"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Таїланд"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Tajlandia"
     }
   ],

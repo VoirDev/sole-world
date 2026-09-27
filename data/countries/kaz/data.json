@@ -31,67 +31,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "카자흐스탄"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Cazaquistão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Cazaquistão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Kazachstan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kazahstan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "قزاقستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kasachstan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Kazajistán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Kazakhstan"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "カザフスタン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Kazakistan"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "哈萨克斯坦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kazakistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Казахстан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Казахстан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kazachstan"
     }
   ],

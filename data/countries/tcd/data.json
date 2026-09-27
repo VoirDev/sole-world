@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "차드"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Chade"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Chade"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Tsjaad"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Čad"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "چاد"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Tschad"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Chad"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Tchad"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "チャド"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Ciad"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "乍得"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Çad"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Чад"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Чад"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Czad"
     }
   ],

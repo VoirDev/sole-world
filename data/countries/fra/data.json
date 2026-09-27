@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "프랑스"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "França"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "França"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Frankrijk"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Francuska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "فرانسه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Frankreich"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Francia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "France"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "フランス"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Francia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "法国"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Fransa"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Франция"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Франція"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Francja"
     }
   ],

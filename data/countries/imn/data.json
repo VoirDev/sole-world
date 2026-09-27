@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "맨 섬"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilha de Man"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilha de Man"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Isle of Man"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Otok Man"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزیرهٔ من"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Insel Man"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Isla de Man"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Île de Man"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "マン島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isola di Man"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "马恩岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Man Adası"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Остров Мэн"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Острів Мен"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspa Man"
     }
   ],

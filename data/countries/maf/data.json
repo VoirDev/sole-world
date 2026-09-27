@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "생마르탱"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "São Martinho"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "São Martinho"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Saint-Martin"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sveti Martin"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سنت مارتین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Saint Martin"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "San Martín"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Saint-Martin"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "サン・マルタン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Saint Martin"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "法属圣马丁"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Saint Martin"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сен-Мартен"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сен-Мартен"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Saint-Martin"
     }
   ],

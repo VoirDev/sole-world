@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "신트마르턴"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Sint Maarten"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Sint Maarten"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Sint Maarten"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سنت مارتن"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Sint Maarten"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Sint Maarten"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Sint Maarten"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "荷属圣马丁"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Sint Maarten"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Синт-Мартен"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сінт-Мартен"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Sint Maarten"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sint Maarten"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Sint Maarten"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "シント・マールテン"
     }
   ],

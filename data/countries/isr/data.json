@@ -26,67 +26,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "이스라엘"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Israel"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Israel"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Israël"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Izrael"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اسرائیل"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Israel"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Israel"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Israël"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "イスラエル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Israele"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "以色列"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "İsrail"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Израиль"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ізраїль"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Izrael"
     }
   ],

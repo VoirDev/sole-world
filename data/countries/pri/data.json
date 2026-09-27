@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "푸에르토리코"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Porto Rico"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Porto Rico"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Puerto Rico"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Portoriko"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "پورتوریکو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Puerto Rico"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Puerto Rico"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Porto Rico"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "プエルトリコ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Portorico"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "波多黎各"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Porto Riko"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Пуэрто-Рико"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Пуерто-Рико"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Portoryko"
     }
   ],

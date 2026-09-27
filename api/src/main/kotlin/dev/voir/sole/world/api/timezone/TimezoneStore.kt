@@ -21,7 +21,7 @@ class TimezoneStore(dataset: RawDataset) {
             zoneName = json.zoneName,
             tzName = LocalizedName.of(
                 base = json.tzName,
-                translations = json.translations.map { it.languageCode to it.tzName },
+                translations = json.translations.map { it.locale to it.tzName },
             ),
             abbreviation = json.abbreviation,
             gmtOffset = json.gmtOffset,

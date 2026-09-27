@@ -20,7 +20,7 @@ class RegionStore(dataset: RawDataset) {
             id = json.id,
             name = LocalizedName.of(
                 base = json.name,
-                translations = json.translations.map { it.languageCode to it.name },
+                translations = json.translations.map { it.locale to it.name },
             ),
         )
     }

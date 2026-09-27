@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "베냉"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Benin"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Benim"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Benin"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Benin"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بنین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Benin"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Benín"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Bénin"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ベナン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Benin"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "贝宁"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Benin"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Бенин"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Бенін"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Benin"
     }
   ],

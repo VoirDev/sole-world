@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "모잠비크"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Moçambique"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Moçambique"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Mozambique"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Mozambik"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "موزامبیک"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Mosambik"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Mozambique"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Mozambique"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "モザンビーク"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Mozambico"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "莫桑比克"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Mozambik"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Мозамбик"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Мозамбік"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Mozambik"
     }
   ],

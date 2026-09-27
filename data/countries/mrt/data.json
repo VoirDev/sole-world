@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "모리타니"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Mauritânia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Mauritânia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Mauritanië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Mauritanija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "موریتانی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Mauretanien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Mauritania"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Mauritanie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "モーリタニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Mauritania"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "毛里塔尼亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Moritanya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Мавритания"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Мавританія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Mauretania"
     }
   ],

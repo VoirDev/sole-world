@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "에리트리아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Eritreia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Eritreia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Eritrea"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Eritreja"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اریتره"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Eritrea"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Eritrea"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Érythrée"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "エリトリア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Eritrea"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "厄立特里亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Eritre"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Эритрея"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Еритрея"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Erytrea"
     }
   ],

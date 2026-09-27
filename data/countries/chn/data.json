@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "중국"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "China"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "China"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "China"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kina"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "چین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "China"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "China"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Chine"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "中国"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Cina"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "中国"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Çin"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Китай"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Китай"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Chiny"
     }
   ],

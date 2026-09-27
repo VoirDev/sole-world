@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "동티모르"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Timor-Leste"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Timor-Leste"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Oost-Timor"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Istočni Timor"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "تیمور-لسته"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Timor-Leste"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Timor Oriental"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Timor oriental"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "東ティモール"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Timor Est"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "东帝汶"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Doğu Timor"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Тимор-Лешти"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Тимор-Лешті"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Timor Wschodni"
     }
   ],

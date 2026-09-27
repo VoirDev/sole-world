@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "튀르키예"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Turquia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Turquia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Turkije"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Turska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ترکیه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Türkei"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Turquía"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Turquie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "トルコ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Turchia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "土耳其"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Türkiye"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Турция"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Туреччина"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Turcja"
     }
   ],

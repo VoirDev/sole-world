@@ -17,4 +17,7 @@ object FilterOrder {
 
     /** Spends one request from the authenticated caller's allowance. */
     const val RATE_LIMIT = 200
+
+    /** Negotiates the translation locale, once a request is known to be served. */
+    const val LOCALE = 300
 }

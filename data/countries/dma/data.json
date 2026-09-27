@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Dominica"
     },
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "도미니카 연방"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Dominica"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Dominica"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Dominica"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Dominika"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "دومینیکا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Dominica"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Dominica"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Dominique"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ドミニカ国"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "多米尼克"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Dominika"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Доминика"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Домініка"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Dominika"
     }
   ],

@@ -41,8 +41,15 @@ info:
 
     Translated fields follow the `Accept-Language` request header. The `lang` query parameter
     overrides it, which makes a localized response cacheable under its own URL. English, unsupported
-    languages and a missing header all return the base English data. `GET /v1/meta` lists the
-    supported languages.
+    languages and a missing header all return the base English data.
+
+    Translations are held per locale, a BCP 47 tag such as `de` or `pt-BR`. A tag that names no
+    locale falls back to one of the same language — `de-AT` is served `de`, `zh-TW` is served
+    `zh-CN` — preferring the locale spelled as the bare language, so `pt-PT` is served `pt`.
+    `GET /v1/locales` lists the locales with their names, ready for a language picker.
+
+    Every successful response names the locale it is written in with `Content-Language`, or `en` for
+    the base data. That is how a caller tells a translation from a fallback.
 
     ## Response headers
 
@@ -62,6 +69,7 @@ info:
     | Country | ISO 3166-1 alpha-2 code | `US` |
     | Currency | ISO 4217 alpha code | `EUR` |
     | Language | ISO 639-1 code | `fr` |
+    | Locale | BCP 47 language tag | `pt-BR` |
     | Timezone | IANA timezone name | `Europe/Paris` |
     | State | country alpha-2 code and state code, joined by a hyphen; an alias of that form without a code | `US-CA`, `AX-MARIEHAMN` |
     | Cryptocurrency | alias | `btc` |
@@ -131,6 +139,8 @@ tags:
     description: Cryptocurrencies.
   - name: languages
     description: Languages and the countries that use them.
+  - name: locales
+    description: Translation locales a response can be rendered in.
   - name: regions
     description: Top-level geographic regions.
   - name: subregions
@@ -697,6 +707,61 @@ paths:
       responses:
         "200":
           $ref: "#/components/responses/CountryPageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/locales:
+    get:
+      tags: [locales]
+      operationId: listLocales
+      summary: List or search translation locales
+      description: >
+        Returns the locales `Accept-Language` and `lang` can select, ordered by localized name. Each
+        carries its name in the requested language and in its own, which is what a language picker
+        shows.
+      parameters:
+        - $ref: "#/components/parameters/Page"
+        - $ref: "#/components/parameters/Size"
+        - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/LocaleInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/LocalePageOk"
+        "304":
+          $ref: "#/components/responses/NotModified"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/TooManyRequests"
+        "500":
+          $ref: "#/components/responses/InternalServerError"
+
+  /v1/locales/{id}:
+    get:
+      tags: [locales]
+      operationId: getLocale
+      summary: Load one translation locale
+      description: Accepts a locale's BCP 47 tag such as `pt-BR`, in any case.
+      parameters:
+        - $ref: "#/components/parameters/LocaleId"
+        - $ref: "#/components/parameters/Lang"
+        - $ref: "#/components/parameters/LocaleInclude"
+      responses:
+        "200":
+          $ref: "#/components/responses/LocaleOk"
         "304":
           $ref: "#/components/responses/NotModified"
         "400":
@@ -1336,8 +1401,8 @@ components:
       in: query
       required: false
       description: >
-        Translation language, overriding `Accept-Language`. An unsupported value returns base
-        English data. `GET /v1/meta` lists the supported languages.
+        Translation locale, overriding `Accept-Language`. An unsupported value returns base
+        English data. `GET /v1/locales` lists the supported locales.
       schema: { type: string }
       example: ru
     CountryId:
@@ -1372,6 +1437,14 @@ components:
         ISO 639-1 language code, in any case.
       schema: { type: string }
       example: fr
+    LocaleId:
+      name: id
+      in: path
+      required: true
+      description: >
+        BCP 47 language tag of a translation locale, in any case.
+      schema: { type: string }
+      example: pt-BR
     RegionId:
       name: id
       in: path
@@ -1482,6 +1555,12 @@ components:
       required: false
       description: "Relationships to embed. Allowed: `flag`, `countries`."
       schema: { type: string }
+    LocaleInclude:
+      name: include
+      in: query
+      required: false
+      description: "Relationships to embed. Allowed: `language`."
+      schema: { type: string }
     RegionInclude:
       name: include
       in: query
@@ -1535,6 +1614,11 @@ components:
     Vary:
       description: Request headers this response varies by.
       schema: { type: string }
+    ContentLanguage:
+      description: >
+        Locale this response is written in, or `en` when it is the base data — including when the
+        requested language is not supported.
+      schema: { type: string }
 
   responses:
     BadRequest:
@@ -1559,6 +1643,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
     InternalServerError:
       description: >
@@ -1582,6 +1667,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
       content:
         application/json:
           schema: { $ref: "#/components/schemas/Meta" }
@@ -1591,6 +1677,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1600,6 +1687,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1610,6 +1698,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1619,6 +1708,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1629,6 +1719,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1638,6 +1729,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1648,6 +1740,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1657,16 +1750,39 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
           schema: { $ref: "#/components/schemas/LanguagePage" }
+
+    LocaleOk:
+      description: The requested locale.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/Locale" }
+    LocalePageOk:
+      description: One page of locales.
+      headers:
+        ETag: { $ref: "#/components/headers/ETag" }
+        Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
+        Vary: { $ref: "#/components/headers/Vary" }
+      content:
+        application/json:
+          schema: { $ref: "#/components/schemas/LocalePage" }
 
     RegionOk:
       description: The requested region.
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1676,6 +1792,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1686,6 +1803,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1695,6 +1813,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1705,6 +1824,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1714,6 +1834,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1724,6 +1845,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1733,6 +1855,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1743,6 +1866,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1752,6 +1876,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1762,6 +1887,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1771,6 +1897,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
         Vary: { $ref: "#/components/headers/Vary" }
       content:
         application/json:
@@ -1781,6 +1908,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
       content:
         application/json:
           schema: { $ref: "#/components/schemas/Flag" }
@@ -1789,6 +1917,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
       content:
         application/json:
           schema: { $ref: "#/components/schemas/FlagPage" }
@@ -1798,6 +1927,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
       content:
         application/json:
           schema: { $ref: "#/components/schemas/MediaAsset" }
@@ -1806,6 +1936,7 @@ components:
       headers:
         ETag: { $ref: "#/components/headers/ETag" }
         Cache-Control: { $ref: "#/components/headers/CacheControl" }
+        Content-Language: { $ref: "#/components/headers/ContentLanguage" }
       content:
         application/json:
           schema: { $ref: "#/components/schemas/MediaAssetPage" }
@@ -1849,13 +1980,15 @@ components:
     Meta:
       type: object
       description: What this deployment serves and the limits it applies.
-      required: [datasetVersion, datasetDate, supportedLanguages, maxPageSize, maxIncludedItems]
+      required: [datasetVersion, datasetDate, supportedLocales, maxPageSize, maxIncludedItems]
       properties:
         datasetVersion: { type: integer, format: int32 }
         datasetDate: { type: string }
-        supportedLanguages:
+        supportedLocales:
           type: array
-          description: Translation languages accepted by `Accept-Language` and `lang`.
+          description: >
+            Ids of the translation locales `Accept-Language` and `lang` select. `GET /v1/locales`
+            describes them.
           items: { type: string }
         maxPageSize: { type: integer, format: int32 }
         maxIncludedItems:
@@ -2002,6 +2135,19 @@ components:
         countries:
           type: array
           items: { $ref: "#/components/schemas/Country" }
+        truncatedIncludes:
+          type: array
+          items: { type: string }
+
+    Locale:
+      type: object
+      required: [id, languageId, name, nativeName]
+      properties:
+        id: { type: string, description: "BCP 47 language tag.", example: "pt-BR" }
+        languageId: { type: string, description: "Language this locale is a form of.", example: "pt" }
+        name: { type: string, description: Localized display name. }
+        nativeName: { type: string, description: Name written in the locale itself. }
+        language: { $ref: "#/components/schemas/Language" }
         truncatedIncludes:
           type: array
           items: { type: string }
@@ -2201,6 +2347,15 @@ components:
         items:
           type: array
           items: { $ref: "#/components/schemas/Language" }
+        page: { $ref: "#/components/schemas/PageInfo" }
+
+    LocalePage:
+      type: object
+      required: [items, page]
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/Locale" }
         page: { $ref: "#/components/schemas/PageInfo" }
 
     RegionPage:

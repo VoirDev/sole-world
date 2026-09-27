@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "미국령 군소 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Menores Distantes dos Estados Unidos"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Menores Distantes dos Estados Unidos"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Kleine afgelegen eilanden van de Verenigde Staten"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Mali udaljeni otoci SAD-a"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر دورافتادهٔ ایالات متحده"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kleinere Inselbesitzungen der Vereinigten Staaten"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Ultramarinas Menores de Estados Unidos"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles mineures éloignées des États-Unis"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "合衆国領有小離島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole minori esterne degli Stati Uniti d'America"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "美国本土外小岛屿"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "ABD Küçük Harici Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Малые отдаленные острова Соединенных Штатов"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Малі віддалені острови Сполучених Штатів"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Mniejsze Wyspy Zewnętrzne Stanów Zjednoczonych"
     }
   ],

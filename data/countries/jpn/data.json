@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "일본"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Japão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Japão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Japan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Japan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ژاپن"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Japan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Japón"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Japon"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "日本"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Giappone"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "日本"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Japonya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Япония"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Японія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Japonia"
     }
   ],

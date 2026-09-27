@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "코소보"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "科索沃"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kosova"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Косово"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Косово"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kosowo"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Kosovo"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Kosovo"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Kosovo"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kosovo"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کوزوو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kosovo"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Kosovo"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Kosovo"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "コソボ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Kosovo"
     }
   ],

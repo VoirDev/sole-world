@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "캄보디아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Camboja"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Camboja"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Cambodja"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kambodža"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کامبوج"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kambodscha"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Camboya"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Cambodge"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "カンボジア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Cambogia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "柬埔寨"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kamboçya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Камбоджа"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Камбоджа"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kambodża"
     }
   ],

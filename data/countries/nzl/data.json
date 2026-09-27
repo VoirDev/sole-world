@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "뉴질랜드"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Nova Zelândia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Nova Zelândia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Nieuw-Zeeland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Novi Zeland"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "نیوزیلند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Neuseeland"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Nueva Zelanda"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Nouvelle-Zélande"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ニュージーランド"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Nuova Zelanda"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "新西兰"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Yeni Zelanda"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Новая Зеландия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Нова Зеландія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Nowa Zelandia"
     }
   ],

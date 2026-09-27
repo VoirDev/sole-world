@@ -42,7 +42,7 @@ class CurrencyRestController(
         include: String?,
         obsolete: Boolean?,
     ): ResponseEntity<CurrencyPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CurrencyRestAssembler.ALLOWED_INCLUDES)
 
         val result = currencyStore.page(
@@ -69,7 +69,7 @@ class CurrencyRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<Currency> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CurrencyRestAssembler.ALLOWED_INCLUDES)
         val currency = requireCurrency(id, withObsolete, language)
 
@@ -83,7 +83,7 @@ class CurrencyRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<CountryPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CountryRestAssembler.ALLOWED_INCLUDES)
         // Obsolete currencies still have countries worth listing, so they resolve here.
         val currency = requireCurrency(id, withObsolete = true, languageCode = language)
@@ -108,7 +108,7 @@ class CurrencyRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<CentralBankPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CentralBankRestAssembler.ALLOWED_INCLUDES)
         val currency = requireCurrency(id, withObsolete = true, languageCode = language)
 

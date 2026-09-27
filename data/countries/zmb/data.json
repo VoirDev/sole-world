@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "잠비아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Zâmbia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Zâmbia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Zambia"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Zambija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "زامبیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Sambia"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Zambia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Zambie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ザンビア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Zambia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "赞比亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Zambiya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Замбия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Замбія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Zambia"
     }
   ],

@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "포르투갈"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Portugal"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Portugal"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Portugal"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Portugal"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "پرتغال"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Portugal"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Portugal"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Portugal"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ポルトガル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Portogallo"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "葡萄牙"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Portekiz"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Португалия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Португалія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Portugalia"
     }
   ],

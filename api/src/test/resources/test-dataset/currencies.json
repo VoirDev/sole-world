@@ -17,7 +17,7 @@
     "popularity": 60,
     "translations": [
       {
-        "languageCode": "ru",
+        "locale": "ru",
         "name": "Фридонский кредит",
         "description": "Активная тестовая валюта"
       }

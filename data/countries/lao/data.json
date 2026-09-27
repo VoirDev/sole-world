@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "라오스"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Laos"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Laos"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Laos"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Laos"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "لائوس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Laos"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Laos"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Laos"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ラオス"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Laos"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "老挝"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Laos"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Лаос"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Лаос"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Laos"
     }
   ],

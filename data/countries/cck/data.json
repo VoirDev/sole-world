@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "코코스 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Cocos"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas dos Cocos"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Cocoseilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kokosovi Otoci"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر کوکوس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kokosinseln"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Cocos"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Cocos"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ココス（キーリング）諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Cocos e Keeling"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "科科斯（基林）群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Cocos Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Кокосовые острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Кокосові (Кілінг) острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspy Kokosowe (Keelinga)"
     }
   ],

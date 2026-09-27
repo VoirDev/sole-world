@@ -29,7 +29,7 @@ class FlagRestController(
         val includes = IncludeSpec.parse(include, FlagRestAssembler.ALLOWED_INCLUDES)
         val result = flagStore.page(
             request = RestRequest.pageRequest(page, size),
-            languageCode = RestRequest.language(lang, request),
+            languageCode = RestRequest.language(request),
             query = RestRequest.searchQuery(query),
         )
 

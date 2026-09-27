@@ -28,67 +28,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "그린란드"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Groenlândia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Gronelândia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Groenland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Grenland"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گرینلند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Grönland"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Groenlandia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Groenland"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "グリーンランド"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Groenlandia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "格陵兰岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Grönland"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гренландия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гренландія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Grenlandia"
     }
   ],

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Словаччина"
     },
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "슬로바키아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Eslováquia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Eslováquia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Slowakije"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Slovačka"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اسلواکی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Slowakei"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Eslovaquia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Slovaquie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "スロバキア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Slovacchia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "斯洛伐克"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Slovakya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Словакия"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Słowacja"
     }
   ],

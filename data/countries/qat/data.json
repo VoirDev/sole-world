@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "카타르"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Catar"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Catar"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Qatar"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Katar"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "قطر"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Katar"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Catar"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Qatar"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "カタール"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Qatar"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "卡塔尔"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Katar"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Катар"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Катар"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Katar"
     }
   ],

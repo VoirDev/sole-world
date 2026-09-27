@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "케이맨 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Cayman"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Caimão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Kaaimaneilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kajmanski otoci"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر کِیمن"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kaimaninseln"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Caimán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Caïmans"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ケイマン諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Cayman"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "开曼群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Cayman Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Каймановы острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Кайманові острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kajmany"
     }
   ],

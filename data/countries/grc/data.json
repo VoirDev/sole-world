@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "그리스"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Grécia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Grécia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Griekenland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Grčka"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "یونان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Griechenland"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Grecia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Grèce"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ギリシャ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Grecia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "希腊"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Yunanistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Греция"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Греція"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Grecja"
     }
   ],

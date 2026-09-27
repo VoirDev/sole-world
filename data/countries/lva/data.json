@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "라트비아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Letônia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Letónia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Letland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Latvija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "لتونی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Lettland"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Letonia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Lettonie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ラトビア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Lettonia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "拉脱维亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Letonya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Латвия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Латвія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Łotwa"
     }
   ],

@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "케냐"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Quênia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Quénia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Kenia"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kenija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کنیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kenia"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Kenia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Kenya"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ケニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Kenya"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "肯尼亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kenya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Кения"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Кенія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kenia"
     }
   ],

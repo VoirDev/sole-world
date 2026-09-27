@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "쿡 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Cook"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Cook"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Cookeilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Cookovo Otočje"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر کوک"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Cookinseln"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Cook"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Cook"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "クック諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Cook"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "库克群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Cook Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Острова Кука"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Острови Кука"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspy Cooka"
     }
   ],

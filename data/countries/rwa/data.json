@@ -27,67 +27,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "르완다"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ruanda"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ruanda"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Rwanda"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Ruanda"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "رواندا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Ruanda"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Ruanda"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Rwanda"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ルワンダ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Ruanda"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "卢旺达"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Ruanda"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Руанда"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Руанда"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Rwanda"
     }
   ],

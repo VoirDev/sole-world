@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "리투아니아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Lituânia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Lituânia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Litouwen"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Litva"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "لیتوانی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Litauen"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Lituania"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Lituanie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "リトアニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Lituania"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "立陶宛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Litvanya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Литва"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Литва"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Litwa"
     }
   ],

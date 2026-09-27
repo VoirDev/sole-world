@@ -40,67 +40,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "인도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Índia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Índia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "India"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Indija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "هند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Indien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "India"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Inde"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "インド"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "India"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "印度"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Hindistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Индия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Індія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Indie"
     }
   ],

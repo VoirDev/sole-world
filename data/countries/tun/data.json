@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "튀니지"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Tunísia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Tunísia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Tunesië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Tunis"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "تونس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Tunesien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Túnez"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Tunisie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "チュニジア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Tunisia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "突尼斯"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Tunus"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Тунис"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Туніс"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Tunezja"
     }
   ],

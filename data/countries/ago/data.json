@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "앙골라"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Angola"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Angola"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Angola"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Angola"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "آنگولا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Angola"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Angola"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Angola"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アンゴラ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Angola"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "安哥拉"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Angola"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Ангола"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ангола"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Angola"
     }
   ],

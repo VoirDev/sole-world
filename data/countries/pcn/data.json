@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "핏케언 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Pitcairn"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Picárnia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Pitcairneilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Pitcairnovo otočje"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر پیت‌کرن"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Pitcairninseln"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Pitcairn"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Pitcairn"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ピトケアン諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Pitcairn"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "皮特凯恩群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Pitcairn Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Острова Питкэрн"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Острови Піткерн"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspa Pitcairn"
     }
   ],

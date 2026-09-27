@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "키프로스"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Chipre"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Chipre"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Cyprus"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Cipar"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "قبرس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Zypern"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Chipre"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Chypre"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "キプロス"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Cipro"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "塞浦路斯"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kıbrıs"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Кипр"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Кіпр"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Cypr"
     }
   ],

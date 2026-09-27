@@ -1,11 +1,11 @@
 package dev.voir.sole.world.api.graphql
 
 import com.netflix.graphql.dgs.DgsDataFetchingEnvironment
-import dev.voir.sole.world.api.dataset.index.LanguageNegotiation
 import dev.voir.sole.world.api.dataset.index.PageMetadata
 import dev.voir.sole.world.api.dataset.index.PageRequest
 import dev.voir.sole.world.api.dataset.index.Pagination
 import dev.voir.sole.world.api.dataset.index.SearchQuery
+import dev.voir.sole.world.api.locale.RequestLocale
 import dev.voir.sole.world.graphql.dto.types.PageInfo
 import dev.voir.sole.world.graphql.dto.types.PageInput
 import graphql.execution.DataFetcherResult
@@ -21,15 +21,14 @@ import org.springframework.web.context.request.ServletRequestAttributes
 object GraphqlRequest {
     private const val MAX_IDS_PER_QUERY = 50
     private const val MAX_SEARCH_QUERY_LENGTH = 100
-    private const val ACCEPT_LANGUAGE_HEADER = "Accept-Language"
 
     /**
-     * Resolves the translation language for a root fetcher from the current HTTP request.
-     * @return Supported internal language code, or null to serve base data.
+     * Reads the translation language negotiated for the current HTTP request.
+     * @return Supported locale id, or null to serve base data.
      */
     fun language(): String? {
         val attributes = RequestContextHolder.getRequestAttributes() as? ServletRequestAttributes
-        return LanguageNegotiation.resolveHeader(attributes?.request?.getHeader(ACCEPT_LANGUAGE_HEADER))
+        return attributes?.request?.let(RequestLocale::of)
     }
 
     /**

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "오만"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Omã"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Omã"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Oman"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Oman"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "عمان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Oman"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Omán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Oman"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "オマーン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Oman"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "阿曼"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Umman"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Оман"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Оман"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Oman"
     }
   ],

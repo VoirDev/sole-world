@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "버뮤다"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Bermudas"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Bermudas"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Bermuda"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Bermudi"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "برمودا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Bermuda"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Bermudas"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Bermudes"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "バミューダ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Bermuda"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "百慕大"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Bermuda"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Бермуды"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Бермудські острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Bermudy"
     }
   ],

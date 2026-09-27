@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "몽골"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Mongólia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Mongólia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Mongolië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Mongolija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مغولستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Mongolei"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Mongolia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Mongolie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "モンゴル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Mongolia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "蒙古"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Moğolistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Монголия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Монголія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Mongolia"
     }
   ],

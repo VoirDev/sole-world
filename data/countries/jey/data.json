@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "저지 섬"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Jersey"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Jersey"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Jersey"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Jersey"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جرزی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Jersey"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Jersey"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Jersey"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ジャージー"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isola di Jersey"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "泽西岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Jersey"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Джерси"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Джерсі"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Jersey"
     }
   ],

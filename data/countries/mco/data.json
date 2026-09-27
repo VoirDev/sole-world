@@ -26,67 +26,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "모나코"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Mônaco"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Mónaco"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Monaco"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Monako"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "موناکو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Monaco"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Mónaco"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Monaco"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "モナコ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Principato di Monaco"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "摩纳哥"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Monako"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Монако"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Монако"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Monako"
     }
   ],

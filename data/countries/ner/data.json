@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "니제르"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Níger"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Níger"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Niger"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Niger"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "نیجر"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Niger"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Níger"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Niger"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ニジェール"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Niger"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "尼日尔"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Nijer"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Нигер"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Нігер"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Niger"
     }
   ],

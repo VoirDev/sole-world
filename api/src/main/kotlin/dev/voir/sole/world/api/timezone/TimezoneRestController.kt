@@ -24,7 +24,7 @@ class TimezoneRestController(
         query: String?,
         lang: String?,
     ): ResponseEntity<TimezonePage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
 
         val result = timezoneStore.page(
             request = RestRequest.pageRequest(page, size),
@@ -59,7 +59,7 @@ class TimezoneRestController(
     )
     override fun getTimezone(id: String, lang: String?): ResponseEntity<Timezone> {
         val zoneName = id.removePrefix("/")
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val timezone = timezoneStore.byId(zoneName, language)
             ?: throw ResourceNotFoundException.of("Timezone", zoneName)
 

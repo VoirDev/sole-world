@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "알제리"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Argélia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Argélia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Algerije"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Alžir"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "الجزایر"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Algerien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Argelia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Algérie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アルジェリア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Algeria"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "阿尔及利亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Cezayir"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Алжир"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Алжир"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Algieria"
     }
   ],

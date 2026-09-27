@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "나우루"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Nauru"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Nauru"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Nauru"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Nauru"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "نائورو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Nauru"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Nauru"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Nauru"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ナウル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Nauru"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "瑙鲁"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Nauru"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Науру"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Науру"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Nauru"
     }
   ],

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "노퍽 섬"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilha Norfolk"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilha Norfolk"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Norfolkeiland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Otok Norfolk"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزیرهٔ نورفولک"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Norfolkinsel"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Isla Norfolk"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Île Norfolk"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ノーフォーク島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isola Norfolk"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "诺福克岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Norfolk Adası"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Остров Норфолк"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Острів Норфолк"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspa Norfolk"
     }
   ],

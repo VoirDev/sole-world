@@ -26,67 +26,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "레바논"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Líbano"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Líbano"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Libanon"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Libanon"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "لبنان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Libanon"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Líbano"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Liban"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "レバノン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Libano"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "黎巴嫩"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Lübnan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Ливан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ліван"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Liban"
     }
   ],

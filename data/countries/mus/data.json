@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "모리셔스"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Maurício"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Maurícia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Mauritius"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Mauricijus"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "موریس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Mauritius"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Mauricio"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Île Maurice"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "モーリシャス"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Mauritius"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "毛里求斯"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Morityus"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Маврикий"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Маврикій"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Mauritius"
     }
   ],

@@ -27,67 +27,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "나미비아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Namíbia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Namíbia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Namibië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Namibija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "نامیبیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Namibia"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Namibia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Namibie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ナミビア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Namibia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "纳米比亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Namibya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Намибия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Намібія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Namibia"
     }
   ],

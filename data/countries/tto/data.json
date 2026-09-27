@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "트리니다드 토바고"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Trinidad e Tobago"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Trindade e Tobago"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Trinidad en Tobago"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Trinidad i Tobago"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ترینیداد و توباگو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Trinidad und Tobago"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Trinidad y Tobago"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Trinité-et-Tobago"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "トリニダード・トバゴ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Trinidad e Tobago"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "特立尼达和多巴哥"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Trinidad ve Tobago"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Тринидад и Тобаго"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Тринідад і Тобаго"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Trynidad i Tobago"
     }
   ],

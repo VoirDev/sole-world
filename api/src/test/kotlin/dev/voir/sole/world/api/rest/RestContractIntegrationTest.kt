@@ -112,13 +112,46 @@ class RestContractIntegrationTest : BaseRestIntegrationTest() {
         assertEquals(2, meta.at("/counts/countries").intValue())
         assertEquals(2, meta.at("/counts/cities").intValue())
 
-        val languages = mutableListOf<String>()
-        for (value in meta["supportedLanguages"]) {
-            languages += value.stringValue()
+        assertEquals(1, meta.at("/counts/locales").intValue())
+
+        val locales = mutableListOf<String>()
+        for (value in meta["supportedLocales"]) {
+            locales += value.stringValue()
         }
 
-        assertTrue(languages.contains("ru"))
-        assertFalse(languages.contains("en"), "English is the base data, not a translation")
+        assertEquals(listOf("ru"), locales)
+        assertFalse(locales.contains("en"), "English is the base data, not a translation")
+    }
+
+    @Test
+    fun `content language names the locale a response is written in`() {
+        fun contentLanguage(path: String, acceptLanguage: String? = null) =
+            rest(path, acceptLanguage = acceptLanguage).headers().firstValue("Content-Language").orElse(null)
+
+        assertEquals("en", contentLanguage("/v1/countries/FD"))
+        assertEquals("ru", contentLanguage("/v1/countries/FD", acceptLanguage = "ru-RU"))
+        assertEquals("ru", contentLanguage("/v1/countries/FD?lang=ru", acceptLanguage = "de"))
+
+        // An unsupported language is served base data rather than refused; the header says so.
+        assertEquals("en", contentLanguage("/v1/countries/FD", acceptLanguage = "sv"))
+    }
+
+    @Test
+    fun `a revalidated response keeps its content language`() {
+        val etag = rest("/v1/countries/FD?lang=ru").headers().firstValue("ETag").orElseThrow()
+        val revalidated = rest("/v1/countries/FD?lang=ru", ifNoneMatch = etag)
+
+        assertEquals(304, revalidated.statusCode())
+        assertEquals("ru", revalidated.headers().firstValue("Content-Language").orElse(null))
+    }
+
+    @Test
+    fun `a problem document does not claim the requested language`() {
+        // Problem details are always written in English, whatever the caller asked for.
+        val response = rest("/v1/countries/XX?lang=ru")
+
+        assertProblem(response, status = 404)
+        assertFalse(response.headers().firstValue("Content-Language").isPresent)
     }
 
     @Test
@@ -169,6 +202,7 @@ class RestContractIntegrationTest : BaseRestIntegrationTest() {
             path.startsWith("/v1/currencies/") -> "FDC"
             path.startsWith("/v1/cryptos/") -> "freecoin"
             path.startsWith("/v1/languages/") -> "fd"
+            path.startsWith("/v1/locales/") -> "ru"
             path.startsWith("/v1/regions/") -> "test-europe"
             path.startsWith("/v1/subregions/") -> "test-north"
             path.startsWith("/v1/central-banks/") -> "freedonian-reserve"

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "엘살바도르"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "El Salvador"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "El Salvador"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "El Salvador"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Salvador"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "السالوادور"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "El Salvador"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "El Salvador"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Salvador"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "エルサルバドル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "El Salvador"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "萨尔瓦多"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "El Salvador"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сальвадор"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сальвадор"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Salwador"
     }
   ],

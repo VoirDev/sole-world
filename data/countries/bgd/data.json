@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "방글라데시"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Bangladesh"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Bangladeche"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Bangladesh"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Bangladeš"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بنگلادش"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Bangladesch"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Bangladés"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Bangladesh"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "バングラデシュ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Bangladesh"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "孟加拉国"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Bangladeş"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Бангладеш"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Бангладеш"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Bangladesz"
     }
   ],

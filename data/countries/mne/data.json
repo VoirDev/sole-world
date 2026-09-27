@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "몬테네그로"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Montenegro"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Montenegro"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Montenegro"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Crna Gora"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مونته‌نگرو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Montenegro"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Montenegro"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Monténégro"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "モンテネグロ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Montenegro"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "黑山"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Karadağ"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Черногория"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Чорногорія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Czarnogóra"
     }
   ],

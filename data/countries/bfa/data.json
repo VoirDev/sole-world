@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "부르키나파소"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Burkina Faso"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Burquina Faso"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Burkina Faso"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Burkina Faso"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بورکینافاسو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Burkina Faso"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Burkina Faso"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Burkina Faso"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ブルキナファソ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Burkina Faso"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "布基纳法索"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Burkina Faso"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Буркина-Фасо"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Буркіна-Фасо"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Burkina Faso"
     }
   ],

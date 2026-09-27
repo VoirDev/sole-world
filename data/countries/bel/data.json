@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "벨기에"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Bélgica"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Bélgica"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "België"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Belgija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بلژیک"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Belgien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Bélgica"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Belgique"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ベルギー"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Belgio"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "比利时"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Belçika"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Бельгия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Бельгія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Belgia"
     }
   ],

@@ -32,7 +32,7 @@ class StateRestController(
         include: String?,
         countryId: String?,
     ): ResponseEntity<StatePage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, StateRestAssembler.ALLOWED_INCLUDES)
 
         val result = stateStore.page(
@@ -52,7 +52,7 @@ class StateRestController(
     }
 
     override fun getState(id: String, lang: String?, include: String?): ResponseEntity<State> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, StateRestAssembler.ALLOWED_INCLUDES)
         val state = stateStore.byId(id, language) ?: throw ResourceNotFoundException.of("State", id)
 
@@ -67,7 +67,7 @@ class StateRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<CityPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CityRestAssembler.ALLOWED_INCLUDES)
         stateStore.byId(id, language) ?: throw ResourceNotFoundException.of("State", id)
 

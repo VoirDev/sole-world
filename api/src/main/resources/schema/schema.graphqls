@@ -684,6 +684,36 @@ type Language {
 }
 
 """
+A translation locale: a language a response can be rendered in, selected with `Accept-Language`.
+"""
+type Locale {
+    """
+    BCP 47 language tag, such as `pt-BR`.
+    """
+    id: ID!
+
+    """
+    Identifier of the language this locale is a form of.
+    """
+    languageId: ID!
+
+    """
+    Language this locale is a form of.
+    """
+    language: Language
+
+    """
+    Display name in the requested language when a translation is available.
+    """
+    name: String!
+
+    """
+    Name written in the locale itself, as a language picker shows it.
+    """
+    nativeName: String!
+}
+
+"""
 A high-level geographic region.
 """
 type Region {
@@ -882,6 +912,21 @@ type LanguagePage {
     Languages on the requested page.
     """
     items: [Language!]!
+
+    """
+    Pagination metadata.
+    """
+    pageInfo: PageInfo!
+}
+
+"""
+Paginated locales result.
+"""
+type LocalePage {
+    """
+    Locales on the requested page.
+    """
+    items: [Locale!]!
 
     """
     Pagination metadata.
@@ -1235,6 +1280,41 @@ type Query {
         """
         ids: [ID!]!
     ): [Language!]!
+
+    """
+    Lists or searches the translation locales `Accept-Language` can select.
+    """
+    locales(
+        """
+        Optional pagination request. Defaults to page 0 and size 50.
+        """
+        page: PageInput
+
+        """
+        Optional relevance search. Ranks the same way the REST endpoint does.
+        """
+        query: String
+    ): LocalePage!
+
+    """
+    Loads one translation locale by identifier, the same identifiers the REST path accepts.
+    """
+    locale(
+        """
+        BCP 47 language tag, in any case.
+        """
+        id: ID!
+    ): Locale
+
+    """
+    Loads translation locales by id. Accepts at most 50 ids.
+    """
+    localesByIds(
+        """
+        Locale ids to load.
+        """
+        ids: [ID!]!
+    ): [Locale!]!
 
     """
     Lists or searches regions.

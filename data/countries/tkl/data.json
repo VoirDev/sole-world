@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "토켈라우"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Tokelau"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Toquelau"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Tokelau"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Tokelau"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "توکلائو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Tokelau"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Tokelau"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Tokelau"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "トケラウ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Tokelau"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "托克劳"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Tokelau"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Токелау"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Токелау"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Tokelau"
     }
   ],

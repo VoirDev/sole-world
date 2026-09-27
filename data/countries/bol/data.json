@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "볼리비아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Bolívia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Bolívia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Bolivia"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Bolivija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بولیوی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Bolivien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Bolivia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Bolivie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ボリビア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Bolivia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "玻利维亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Bolivya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Боливия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Болівія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Boliwia"
     }
   ],

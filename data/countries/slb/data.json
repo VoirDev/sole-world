@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "솔로몬 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Salomão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Salomão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Salomonseilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Solomonski Otoci"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر سلیمان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Salomonen"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Salomón"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Salomon"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ソロモン諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Salomone"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "所罗门群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Solomon Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Соломоновы острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Соломонові острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspy Salomona"
     }
   ],

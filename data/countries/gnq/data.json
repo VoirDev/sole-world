@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "적도 기니"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Guiné Equatorial"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Guiné Equatorial"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Equatoriaal-Guinea"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Ekvatorijalna Gvineja"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گینهٔ استوایی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Äquatorialguinea"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Guinea Ecuatorial"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Guinée équatoriale"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "赤道ギニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Guinea Equatoriale"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "赤道几内亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Ekvator Ginesi"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Экваториальная Гвинея"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Екваторіальна Гвінея"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Gwinea Równikowa"
     }
   ],

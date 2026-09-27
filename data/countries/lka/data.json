@@ -27,67 +27,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "스리랑카"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Sri Lanka"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Sri Lanka"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Sri Lanka"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Šri Lanka"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سری‌لانکا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Sri Lanka"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Sri Lanka"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Sri Lanka"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "スリランカ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Sri Lanka"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "斯里兰卡"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Sri Lanka"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Шри-Ланка"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Шрі-Ланка"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Sri Lanka"
     }
   ],

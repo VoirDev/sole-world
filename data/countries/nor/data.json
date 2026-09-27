@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "노르웨이"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Noruega"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Noruega"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Noorwegen"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Norveška"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "نروژ"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Norwegen"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Noruega"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Norvège"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ノルウェー"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Norvegia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "挪威"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Norveç"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Норвегия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Норвегія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Norwegia"
     }
   ],

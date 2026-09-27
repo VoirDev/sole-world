@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "토고"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Togo"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Togo"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Togo"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Togo"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "توگو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Togo"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Togo"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Togo"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "トーゴ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Togo"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "多哥"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Togo"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Того"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Того"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Togo"
     }
   ],

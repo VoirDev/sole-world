@@ -35,67 +35,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "멕시코"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "México"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "México"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Mexico"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Meksiko"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مکزیک"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Mexiko"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "México"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Mexique"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "メキシコ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Messico"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "墨西哥"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Meksika"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Мексика"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Мексика"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Meksyk"
     }
   ],

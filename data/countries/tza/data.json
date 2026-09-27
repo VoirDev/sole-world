@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "탄자니아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Tanzânia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Tanzânia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Tanzania"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Tanzanija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "تانزانیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Tansania"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Tanzania"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Tanzanie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "タンザニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Tanzania"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "坦桑尼亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Tanzanya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Танзания"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Танзанія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Tanzania"
     }
   ],

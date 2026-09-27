@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "미국령 버진아일랜드"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Virgens Americanas"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Virgens Americanas"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Amerikaanse Maagdeneilanden"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر ویرجین ایالات متحده"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Amerikanische Jungferninseln"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Vírgenes de los Estados Unidos"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Vierges des États-Unis"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アメリカ領ヴァージン諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Vergini Americane"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "美属维尔京群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "ABD Virjin Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Виргинские острова (США)"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Віргінські острови (США)"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspy Dziewicze Stanów Zjednoczonych"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Američki Djevičanski otoci"
     }
   ],

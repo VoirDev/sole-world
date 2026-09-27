@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "자메이카"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Jamaica"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Jamaica"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Jamaica"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Jamajka"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جامائیکا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Jamaika"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Jamaica"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Jamaïque"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ジャマイカ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Giamaica"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "牙买加"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Jamaika"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Ямайка"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ямайка"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Jamajka"
     }
   ],

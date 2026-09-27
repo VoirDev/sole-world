@@ -31,7 +31,7 @@ class CryptoRestController(
 
         val result = cryptoStore.page(
             request = RestRequest.pageRequest(page, size),
-            languageCode = RestRequest.language(lang, request),
+            languageCode = RestRequest.language(request),
             query = RestRequest.searchQuery(query),
             obsolete = obsolete,
         )

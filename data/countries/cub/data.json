@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "쿠바"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Cuba"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Cuba"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Cuba"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kuba"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کوبا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kuba"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Cuba"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Cuba"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "キューバ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Cuba"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "古巴"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Küba"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Куба"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Куба"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kuba"
     }
   ],

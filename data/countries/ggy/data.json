@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "건지"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Guernsey"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Guernsey"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Guernsey"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Guernsey"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گرنزی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Guernsey"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Guernesey"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Guernesey"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ガーンジー"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Guernsey"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "根西岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Guernsey"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гернси"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гернсі"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Guernsey"
     }
   ],

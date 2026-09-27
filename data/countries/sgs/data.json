@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "사우스조지아 사우스샌드위치 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Geórgias do Sul e Sandwich do Sul"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Geórgia do Sul e Sanduíche do Sul"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Zuid-Georgia en Zuidelijke Sandwicheilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Južna Georgija i otočje Južni Sandwich"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جورجیای جنوبی و جزایر ساندویچ جنوبی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Südgeorgien und die Südlichen Sandwichinseln"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Georgia del Sur y Sandwich del Sur"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Géorgie du Sud-et-les Îles Sandwich du Sud"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "サウスジョージア・サウスサンドウィッチ諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Georgia del Sud e Isole Sandwich Meridionali"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "南乔治亚和南桑威奇群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Güney Georgia ve Güney Sandwich Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Южная Георгия и Южные Сандвичевы острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Південна Джорджія та Південні Сандвічеві острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Georgia Południowa i Sandwich Południowy"
     }
   ],

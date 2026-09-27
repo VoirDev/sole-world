@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "불가리아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Bulgária"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Bulgária"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Bulgarije"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Bugarska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بلغارستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Bulgarien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Bulgaria"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Bulgarie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ブルガリア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Bulgaria"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "保加利亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Bulgaristan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Болгария"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Болгарія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Bułgaria"
     }
   ],

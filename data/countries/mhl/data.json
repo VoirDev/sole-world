@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "마셜 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Marshall"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Marshall"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Marshalleilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Maršalovi Otoci"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر مارشال"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Marshallinseln"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Marshall"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Marshall"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "マーシャル諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Marshall"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "马绍尔群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Marshall Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Маршалловы острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Маршаллові острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspy Marshalla"
     }
   ],

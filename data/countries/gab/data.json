@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "가봉"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Gabão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Gabão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Gabon"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Gabon"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گابن"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Gabun"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Gabón"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Gabon"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ガボン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Gabon"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "加蓬"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Gabon"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Габон"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Габон"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Gabon"
     }
   ],

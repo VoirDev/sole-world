@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "영국령 인도양 지역"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Território Britânico do Oceano Índico"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Território Britânico do Oceano Índico"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Britse Gebieden in de Indische Oceaan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Britanski Indijskooceanski teritorij"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "قلمرو بریتانیا در اقیانوس هند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Britisches Territorium im Indischen Ozean"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Territorio Británico del Océano Índico"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Territoire britannique de l'océan Indien"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "イギリス領インド洋地域"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Territorio britannico dell'oceano indiano"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "英属印度洋领地"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Britanya Hint Okyanusu Toprakları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Британская территория в Индийском океане"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Британська територія в Індійському океані"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Brytyjskie Terytorium Oceanu Indyjskiego"
     }
   ],

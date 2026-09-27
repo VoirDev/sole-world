@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "홍콩"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Hong Kong"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Hong Kong"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Hongkong"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Hong Kong"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "هنگ‌کنگ"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Hong Kong"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Hong Kong"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Hong Kong"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "香港"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Hong Kong"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "中国香港"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Hong Kong"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гонконг"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гонконг"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Hongkong"
     }
   ],

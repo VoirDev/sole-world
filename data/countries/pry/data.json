@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "파라과이"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Paraguai"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Paraguai"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Paraguay"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Paragvaj"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "پاراگوئه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Paraguay"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Paraguay"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Paraguay"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "パラグアイ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Paraguay"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "巴拉圭"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Paraguay"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Парагвай"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Парагвай"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Paragwaj"
     }
   ],

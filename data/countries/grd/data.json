@@ -26,67 +26,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "그레나다"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Granada"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Granada"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Grenada"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Grenada"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گرنادا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Grenada"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Granada"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Grenade"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "グレナダ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Grenada"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "格林纳达"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Grenada"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гренада"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гренада"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Grenada"
     }
   ],

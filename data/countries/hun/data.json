@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "헝가리"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Hungria"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Hungria"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Hongarije"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Mađarska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مجارستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Ungarn"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Hungría"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Hongrie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ハンガリー"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Ungheria"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "匈牙利"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Macaristan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Венгрия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Угорщина"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Węgry"
     }
   ],

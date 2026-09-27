@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "조지아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Geórgia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Geórgia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Georgië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Gruzija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گرجستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Georgien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Georgia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Géorgie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ジョージア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Georgia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "格鲁吉亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Gürcistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Грузия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Грузія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Gruzja"
     }
   ],

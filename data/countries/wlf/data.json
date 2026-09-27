@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "왈리스 푸투나"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Wallis e Futuna"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Wallis e Futuna"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Wallis en Futuna"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Wallis i Futuna"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "والیس و فوتونا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Wallis und Futuna"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Wallis y Futuna"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Wallis-et-Futuna"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ウォリス・フツナ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Wallis e Futuna"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "瓦利斯和富图纳"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Wallis ve Futuna"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Острова Уоллис и Футуна"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Уолліс і Футуна"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspy Wallis i Futuna"
     }
   ],

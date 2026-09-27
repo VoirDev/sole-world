@@ -37,7 +37,7 @@ class RegionRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<RegionPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, RegionRestAssembler.ALLOWED_INCLUDES)
 
         val result = regionStore.page(
@@ -56,7 +56,7 @@ class RegionRestController(
     }
 
     override fun getRegion(id: String, lang: String?, include: String?): ResponseEntity<Region> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, RegionRestAssembler.ALLOWED_INCLUDES)
         val region = regionStore.byId(id, language) ?: throw ResourceNotFoundException.of("Region", id)
 
@@ -70,7 +70,7 @@ class RegionRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<SubregionPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, SubregionRestAssembler.ALLOWED_INCLUDES)
         requireRegion(id, language)
 
@@ -94,7 +94,7 @@ class RegionRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<CountryPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CountryRestAssembler.ALLOWED_INCLUDES)
         requireRegion(id, language)
 

@@ -26,67 +26,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "페루"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Peru"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Peru"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Peru"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Peru"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "پرو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Peru"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Perú"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Pérou"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ペルー"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Perù"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "秘鲁"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Peru"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Перу"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Перу"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Peru"
     }
   ],

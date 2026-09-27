@@ -30,67 +30,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "스페인"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Espanha"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Espanha"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Spanje"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Španjolska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اسپانیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Spanien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "España"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Espagne"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "スペイン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Spagna"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "西班牙"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "İspanya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Испания"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Іспанія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Hiszpania"
     }
   ],

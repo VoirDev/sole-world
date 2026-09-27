@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "벨라루스"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Bielorrússia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Bielorrússia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Belarus"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Bjelorusija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بلاروس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Belarus"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Bielorrusia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Biélorussie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ベラルーシ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Bielorussia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "白俄罗斯"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Belarus"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Беларусь"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Білорусь"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Białoruś"
     }
   ],

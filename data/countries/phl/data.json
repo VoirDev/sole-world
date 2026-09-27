@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "필리핀"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Filipinas"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Filipinas"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Filipijnen"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Filipini"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "فیلیپین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Philippinen"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Filipinas"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Philippines"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "フィリピン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Filippine"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "菲律宾"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Filipinler"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Филиппины"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Філіппіни"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Filipiny"
     }
   ],

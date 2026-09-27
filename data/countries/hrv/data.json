@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "크로아티아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Croácia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Croácia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Kroatië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Hrvatska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کرواسی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kroatien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Croacia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Croatie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "クロアチア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Croazia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "克罗地亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Hırvatistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Хорватия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Хорватія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Chorwacja"
     }
   ],

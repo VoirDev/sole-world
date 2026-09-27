@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "과테말라"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Guatemala"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Guatemala"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Guatemala"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Gvatemala"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گواتمالا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Guatemala"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Guatemala"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Guatemala"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "グアテマラ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Guatemala"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "危地马拉"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Guatemala"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гватемала"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гватемала"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Gwatemala"
     }
   ],

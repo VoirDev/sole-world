@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "중앙아프리카 공화국"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "República Centro-Africana"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "República Centro-Africana"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Centraal-Afrikaanse Republiek"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Srednjoafrička Republika"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جمهوری افریقای مرکزی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Zentralafrikanische Republik"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "República Centroafricana"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "République centrafricaine"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "中央アフリカ共和国"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Repubblica Centrafricana"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "中非共和国"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Orta Afrika Cumhuriyeti"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Центральноафриканская Республика"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Центральноафриканська Республіка"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Republika Środkowoafrykańska"
     }
   ],

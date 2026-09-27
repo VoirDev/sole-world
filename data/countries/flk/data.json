@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "포클랜드 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Malvinas"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Falkland"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Falklandeilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Falklandski Otoci"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر فالکلند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Falklandinseln"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Malvinas"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Malouines"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "フォークランド諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Falkland"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "福克兰群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Falkland Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Фолклендские острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Фолклендські острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Falklandy"
     }
   ],

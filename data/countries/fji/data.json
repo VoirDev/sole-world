@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "피지"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Fiji"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Fiji"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Fiji"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Fidži"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "فیجی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Fidschi"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Fiyi"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Fidji"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "フィジー"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Figi"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "斐济"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Fiji"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Фиджи"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Фіджі"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Fidżi"
     }
   ],

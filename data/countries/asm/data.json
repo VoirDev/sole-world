@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "아메리칸사모아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Samoa Americana"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Samoa Americana"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Amerikaans-Samoa"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Američka Samoa"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ساموآی امریکا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Amerikanisch-Samoa"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Samoa Americana"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Samoa américaines"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アメリカ領サモア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Samoa Americane"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "美属萨摩亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Amerikan Samoası"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Американское Самоа"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Американське Самоа"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Samoa Amerykańskie"
     }
   ],

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "괌"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Guam"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Guame"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Guam"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Guam"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گوام"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Guam"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Guam"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Guam"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "グアム"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Guam"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "关岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Guam"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гуам"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гуам"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Guam"
     }
   ],

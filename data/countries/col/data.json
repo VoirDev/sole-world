@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "콜롬비아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Colômbia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Colômbia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Colombia"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kolumbija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کلمبیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kolumbien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Colombia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Colombie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "コロンビア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Colombia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "哥伦比亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kolombiya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Колумбия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Колумбія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kolumbia"
     }
   ],

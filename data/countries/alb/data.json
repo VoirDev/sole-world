@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "알바니아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Albânia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Albânia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Albanië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Albanija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "آلبانی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Albanien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Albania"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Albanie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アルバニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Albania"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "阿尔巴尼亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Arnavutluk"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Албания"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Албанія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Albania"
     }
   ],

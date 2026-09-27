@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "스발바르 얀마옌 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Svalbard e Jan Mayen"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Svalbard e Jan Mayen"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Svalbard en Jan Mayen"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Svalbard i Jan Mayen"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سوالبارد و یان ماین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Svalbard und Jan Mayen"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Svalbard y Jan Mayen"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Svalbard et Jan Mayen"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "スヴァールバル諸島およびヤンマイエン島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Svalbard e Jan Mayen"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "斯瓦尔巴和扬马延群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Svalbard ve Jan Mayen"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Шпицберген и Ян-Майен"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Шпіцберген та Ян-Маєн"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspy Svalbard i Jan Mayen"
     }
   ],

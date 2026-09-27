@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.rest
 
 import dev.voir.sole.world.api.dataset.RawDataset
+import dev.voir.sole.world.api.locale.RequestLocale
 import dev.voir.sole.world.api.security.ApiKeyVerifier
 import jakarta.servlet.http.HttpServletRequest
 import jakarta.servlet.http.HttpServletResponse
@@ -50,7 +51,7 @@ class ResponseCache(dataset: RawDataset, verifier: ApiKeyVerifier) {
     fun <T : Any> ok(body: T, request: HttpServletRequest): ResponseEntity<T> {
         return ResponseEntity
             .ok()
-            .headers(::applyHeaders)
+            .headers { applyHeaders(it, RestRequest.language(request)) }
             .eTag(etagFor(request))
             .body(body)
     }
@@ -58,14 +59,14 @@ class ResponseCache(dataset: RawDataset, verifier: ApiKeyVerifier) {
     /**
      * Builds the validator for a request.
      *
-     * The language is resolved here rather than taken from the handler, so that the validator is a
-     * pure function of the request and can be computed on either side of it.
+     * The language is read from the request rather than taken from the handler, so that the
+     * validator is a pure function of the request and can be computed on either side of it.
      *
      * @param request Current HTTP request.
      * @return Strong entity tag.
      */
     fun etagFor(request: HttpServletRequest): String {
-        val language = RestRequest.language(request.getParameter(LANG_PARAMETER), request)
+        val language = RestRequest.language(request)
 
         val identity = buildString {
             append(datasetVersion)
@@ -94,21 +95,25 @@ class ResponseCache(dataset: RawDataset, verifier: ApiKeyVerifier) {
     }
 
     /**
-     * Applies the caching headers every REST response carries.
+     * Applies the caching and language headers every REST response carries.
+     * @param request Current HTTP request.
      * @param response Response being written directly, outside the handler chain.
      */
-    fun applyHeaders(response: HttpServletResponse) {
+    fun applyHeaders(request: HttpServletRequest, response: HttpServletResponse) {
         response.setHeader(HttpHeaders.CACHE_CONTROL, cacheControl)
         response.addHeader(HttpHeaders.VARY, HttpHeaders.ACCEPT_LANGUAGE)
+        response.setHeader(
+            HttpHeaders.CONTENT_LANGUAGE,
+            RequestLocale.contentLanguage(RestRequest.language(request)),
+        )
     }
 
-    private fun applyHeaders(headers: HttpHeaders) {
+    private fun applyHeaders(headers: HttpHeaders, language: String?) {
         headers.cacheControl = cacheControl
         // The same URL renders differently per language, so shared caches must key on it.
         headers.add(HttpHeaders.VARY, HttpHeaders.ACCEPT_LANGUAGE)
-    }
-
-    private companion object {
-        const val LANG_PARAMETER = "lang"
+        // An unsupported language is served base data rather than refused, so this is how a caller
+        // tells a translation from a fallback.
+        headers.set(HttpHeaders.CONTENT_LANGUAGE, RequestLocale.contentLanguage(language))
     }
 }

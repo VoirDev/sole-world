@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "아일랜드"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Irlanda"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Irlanda"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Ierland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Irska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ایرلند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Irland"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Irlanda"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Irlande"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アイルランド"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Irlanda"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "爱尔兰"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "İrlanda"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Ирландия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ірландія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Irlandia"
     }
   ],

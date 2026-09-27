@@ -35,67 +35,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "아르헨티나"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Argentina"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Argentina"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Argentinië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Argentina"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "آرژانتین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Argentinien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Argentina"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Argentine"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アルゼンチン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Argentina"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "阿根廷"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Arjantin"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Аргентина"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Аргентина"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Argentyna"
     }
   ],

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "이집트"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Egito"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Egipto"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Egypte"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Egipat"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مصر"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Ägypten"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Egipto"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Égypte"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "エジプト"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Egitto"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "埃及"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Mısır"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Египет"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Єгипет"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Egipt"
     }
   ],

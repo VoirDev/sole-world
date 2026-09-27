@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "페로 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Faroé"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Faroé"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Faeröer"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Farski Otoci"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر فارو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Färöer-Inseln"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Feroe"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Féroé"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "フェロー諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Fær Øer"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "法罗群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Faroe Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Фарерские острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Фарерські острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspy Owcze"
     }
   ],

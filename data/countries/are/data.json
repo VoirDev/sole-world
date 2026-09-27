@@ -26,67 +26,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "아랍에미리트"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Emirados Árabes Unidos"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Emirados Árabes Unidos"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Verenigde Arabische Emiraten"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Ujedinjeni Arapski Emirati"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "امارات متحده عربی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Vereinigte Arabische Emirate"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Emiratos Árabes Unidos"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Émirats arabes unis"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アラブ首長国連邦"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Emirati Arabi Uniti"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "阿拉伯联合酋长国"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Birleşik Arap Emirlikleri"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Объединенные Арабские Эмираты"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Об'єднані Арабські Емірати"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Zjednoczone Emiraty Arabskie"
     }
   ],

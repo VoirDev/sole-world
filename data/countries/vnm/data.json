@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "베트남"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Vietnã"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Vietname"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Vietnam"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Vijetnam"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ویتنام"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Vietnam"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Vietnam"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Viêt Nam"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ベトナム"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Vietnam"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "越南"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Vietnam"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Вьетнам"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "В'єтнам"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wietnam"
     }
   ],

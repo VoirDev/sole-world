@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "라이베리아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Libéria"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Libéria"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Liberia"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Liberija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "لیبریا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Liberia"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Liberia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Liberia"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "リベリア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Liberia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "利比里亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Liberya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Либерия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ліберія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Liberia"
     }
   ],

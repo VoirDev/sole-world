@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "레위니옹"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Reunião"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Reunião"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Réunion"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Réunion"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "رئونیون"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Réunion"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Reunión"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Réunion"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "レユニオン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Riunione"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "留尼汪岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Réunion"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Реюньон"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Реюньйон"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Reunion"
     }
   ],

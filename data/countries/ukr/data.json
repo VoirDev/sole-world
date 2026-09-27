@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "우크라이나"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ucrânia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ucrânia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Oekraïne"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Ukrajina"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اوکراین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Ukraine"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Ucrania"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Ukraine"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ウクライナ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Ucraina"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "乌克兰"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Ukrayna"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Украина"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Україна"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Ukraina"
     }
   ],

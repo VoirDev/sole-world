@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "슬로베니아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Eslovênia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Eslovénia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Slovenië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Slovenija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اسلوونی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Slowenien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Eslovenia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Slovénie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "スロベニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Slovenia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "斯洛文尼亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Slovenya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Словения"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Словенія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Słowenia"
     }
   ],
