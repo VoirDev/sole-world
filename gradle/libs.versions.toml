@@ -11,7 +11,7 @@ spring-boot = "4.1.1" # https://spring.io/projects/spring-boot
 tomcat = "11.0.26" # https://tomcat.apache.org/security-11.html
 
 # DGS
-dgs = "12.0.1" # https://github.com/netflix/dgs-framework
+dgs = "12.1.0" # https://github.com/netflix/dgs-framework
 dgs-codegen = "8.6.0" # https://github.com/Netflix/dgs-codegen
 openapi-generator = "7.25.0" # https://github.com/OpenAPITools/openapi-generator
 ktlint-plugin = "14.2.0" # https://github.com/JLLeitschuh/ktlint-gradle
