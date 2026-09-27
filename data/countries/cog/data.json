@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "콩고"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Congo"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Congo"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Republiek Congo"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kongo"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جمهوری کنگو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kongo"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Congo"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Congo"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "コンゴ共和国"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Congo"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "刚果（布）"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kongo"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Конго"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Конго"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kongo"
     }
   ],

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "리히텐슈타인"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Liechtenstein"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Listenstaine"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Liechtenstein"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Lihtenštajn"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "لیختن‌اشتاین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Liechtenstein"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Liechtenstein"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Liechtenstein"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "リヒテンシュタイン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Liechtenstein"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "列支敦士登"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Lihtenştayn"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Лихтенштейн"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ліхтенштейн"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Liechtenstein"
     }
   ],

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "쿠웨이트"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Kuwait"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Kuwait"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Koeweit"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kuvajt"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کویت"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kuwait"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Kuwait"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Koweït"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "クウェート"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Kuwait"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "科威特"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kuveyt"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Кувейт"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Кувейт"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kuwejt"
     }
   ],

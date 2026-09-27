@@ -32,67 +32,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "짐바브웨"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Zimbabwe"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Zimbabué"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Zimbabwe"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Zimbabve"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "زیمبابوه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Simbabwe"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Zimbabue"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Zimbabwe"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ジンバブエ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Zimbabwe"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "津巴布韦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Zimbabve"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Зимбабве"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Зімбабве"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Zimbabwe"
     }
   ],

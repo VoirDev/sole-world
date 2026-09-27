@@ -24,13 +24,13 @@ class CurrencyStore(dataset: RawDataset) {
             isoNumeric = json.isoNumeric,
             name = LocalizedName.of(
                 base = json.name,
-                translations = json.translations.map { it.languageCode to it.name },
+                translations = json.translations.map { it.locale to it.name },
             ),
             decimalDigits = json.decimalDigits,
             popularity = json.popularity,
             description = json.description,
             descriptionTranslations = json.translations
-                .mapNotNull { translation -> translation.description?.let { translation.languageCode to it } }
+                .mapNotNull { translation -> translation.description?.let { translation.locale to it } }
                 .toMap(),
             nativeName = json.nativeName,
             symbol = json.symbol,

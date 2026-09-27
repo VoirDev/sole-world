@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "스웨덴"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Suécia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Suécia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Zweden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Švedska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سوئد"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Schweden"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Suecia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Suède"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "スウェーデン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Svezia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "瑞典"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "İsveç"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Швеция"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Швеція"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Szwecja"
     }
   ],

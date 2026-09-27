@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "우루과이"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Uruguai"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Uruguai"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Uruguay"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Urugvaj"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اروگوئه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Uruguay"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Uruguay"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Uruguay"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ウルグアイ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Uruguay"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "乌拉圭"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Uruguay"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Уругвай"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Уругвай"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Urugwaj"
     }
   ],

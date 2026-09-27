@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "미크로네시아 연방"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Micronésia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Micronésia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Micronesië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Mikronezija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "میکرونزی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Mikronesien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Micronesia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Micronésie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ミクロネシア連邦"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Micronesia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "密克罗尼西亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Mikronezya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Микронезия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Мікронезія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Mikronezja"
     }
   ],

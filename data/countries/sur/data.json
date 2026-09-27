@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "수리남"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Suriname"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Suriname"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Suriname"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Surinam"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سورینام"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Suriname"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Surinam"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Suriname"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "スリナム"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Suriname"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "苏里南"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Surinam"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Суринам"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Суринам"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Surinam"
     }
   ],

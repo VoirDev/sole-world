@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "세인트루시아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Santa Lúcia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Santa Lúcia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Saint Lucia"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sveta Lucija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سنت لوسیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Saint Lucia"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Santa Lucía"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Sainte-Lucie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "セントルシア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Santa Lucia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "圣卢西亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Saint Lucia"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сент-Люсия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сент-Люсія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Saint Lucia"
     }
   ],

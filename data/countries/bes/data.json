@@ -26,67 +26,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "네덜란드령 카리브"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Bonaire, Santo Eustáquio e Saba"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Bonaire, Santo Eustáquio e Saba"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر کارائیب هلند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Bonaire, Sint Eustatius und Saba"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Bonaire, Saint-Eustache et Saba"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Bonaire, Saint-Eustache e Saba"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "荷属加勒比区"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Karayip Hollandası"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Бонайре, Синт-Эстатиус и Саба"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Бонайре, Сент-Естатіус і Саба"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Bonaire, Sint Eustatius i Saba"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Bonaire, Sint Eustatius en Saba"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Bonaire, Sveti Eustahije i Saba"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Bonaire, San Eustaquio y Saba"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ボネール、シント・ユースタティウスおよびサバ"
     }
   ],

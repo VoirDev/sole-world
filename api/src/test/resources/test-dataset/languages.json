@@ -8,7 +8,7 @@
     "flagId": "fd",
     "translations": [
       {
-        "languageCode": "ru",
+        "locale": "ru",
         "name": "Фридонский",
         "description": "Тестовый официальный язык"
       }

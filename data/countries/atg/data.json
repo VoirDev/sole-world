@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "앤티가 바부다"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Antígua e Barbuda"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Antígua e Barbuda"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Antigua en Barbuda"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Antigva i Barbuda"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "آنتیگوا و باربودا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Antigua und Barbuda"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Antigua y Barbuda"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Antigua-et-Barbuda"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アンティグア・バーブーダ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Antigua e Barbuda"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "安提瓜和巴布达"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Antigua ve Barbuda"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Антигуа и Барбуда"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Антигуа і Барбуда"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Antigua i Barbuda"
     }
   ],

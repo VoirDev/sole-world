@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "온두라스"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Honduras"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Honduras"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Honduras"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Honduras"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "هندوراس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Honduras"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Honduras"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Honduras"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ホンジュラス"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Honduras"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "洪都拉斯"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Honduras"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гондурас"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гондурас"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Honduras"
     }
   ],

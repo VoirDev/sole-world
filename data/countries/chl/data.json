@@ -27,67 +27,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "칠레"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Chile"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Chile"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Chili"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Čile"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "شیلی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Chile"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Chile"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Chili"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "チリ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Cile"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "智利"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Şili"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Чили"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Чилі"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Chile"
     }
   ],

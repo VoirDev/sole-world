@@ -62,7 +62,7 @@ class CountryRestController(
         languageId: String?,
         timezoneId: String?,
     ): ResponseEntity<CountryPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CountryRestAssembler.ALLOWED_INCLUDES)
 
         val result = countryStore.page(
@@ -86,7 +86,7 @@ class CountryRestController(
     }
 
     override fun getCountry(id: String, lang: String?, include: String?): ResponseEntity<Country> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CountryRestAssembler.ALLOWED_INCLUDES)
         val country = requireCountry(id, language)
 
@@ -101,7 +101,7 @@ class CountryRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<StatePage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, StateRestAssembler.ALLOWED_INCLUDES)
         val country = requireCountry(id, language)
 
@@ -129,7 +129,7 @@ class CountryRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<CityPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CityRestAssembler.ALLOWED_INCLUDES)
         val country = requireCountry(id, language)
 
@@ -156,7 +156,7 @@ class CountryRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<CurrencyPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CurrencyRestAssembler.ALLOWED_INCLUDES)
         val country = requireCountry(id, language)
 
@@ -180,7 +180,7 @@ class CountryRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<LanguagePage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, LanguageRestAssembler.ALLOWED_INCLUDES)
         val country = requireCountry(id, language)
 
@@ -203,7 +203,7 @@ class CountryRestController(
         size: Int,
         lang: String?,
     ): ResponseEntity<TimezonePage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val country = requireCountry(id, language)
 
         val result = timezoneStore
@@ -226,7 +226,7 @@ class CountryRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<CentralBankPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CentralBankRestAssembler.ALLOWED_INCLUDES)
         val country = requireCountry(id, language)
 

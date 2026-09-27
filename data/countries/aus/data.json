@@ -35,67 +35,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "호주"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Austrália"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Austrália"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Australië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Australija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "استرالیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Australien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Australia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Australie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "オーストラリア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Australia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "澳大利亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Avustralya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Австралия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Австралія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Australia"
     }
   ],

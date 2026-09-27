@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "바누아투"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Vanuatu"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Vanuatu"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Vanuatu"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Vanuatu"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "وانواتو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Vanuatu"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Vanuatu"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Vanuatu"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "バヌアツ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Vanuatu"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "瓦努阿图"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Vanuatu"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Вануату"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Вануату"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Vanuatu"
     }
   ],

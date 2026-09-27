@@ -8,6 +8,8 @@ import dev.voir.sole.world.api.dataset.json.FlagJSON
 import dev.voir.sole.world.api.dataset.json.ImageFormatsJSON
 import dev.voir.sole.world.api.dataset.json.LanguageJSON
 import dev.voir.sole.world.api.dataset.json.LanguageTranslationJSON
+import dev.voir.sole.world.api.dataset.json.LocaleJSON
+import dev.voir.sole.world.api.dataset.json.LocaleTranslationJSON
 import dev.voir.sole.world.api.dataset.json.MediaAssetJSON
 import dev.voir.sole.world.api.dataset.json.RegionJSON
 import dev.voir.sole.world.api.dataset.json.StateJSON
@@ -136,9 +138,9 @@ class DatasetIntegrityTest {
     }
 
     @Test
-    fun `a translation in a language the dataset does not carry fails startup`() {
-        // The locale never matches, so the caller is served base data for a name that was in fact
-        // translated -- which reads as a gap in the translations rather than a broken row.
+    fun `a translation in a locale the dataset does not declare fails startup`() {
+        // Negotiation never selects the locale, so the caller is served base data for a name that
+        // was in fact translated -- which reads as a gap in the translations rather than a broken row.
         val failure = assertThrows<IllegalStateException> {
             DatasetIntegrity.check(
                 dataset(languages = listOf(language("aa", translations = listOf("xx")))),
@@ -146,20 +148,78 @@ class DatasetIntegrityTest {
         }
 
         assertTrue(
-            failure.message!!.contains("translations in a language the dataset does not carry"),
+            failure.message!!.contains("translations in a locale the dataset does not declare"),
             failure.message,
         )
-        assertTrue(failure.message!!.contains("language aa languageCode='xx'"), failure.message)
+        assertTrue(failure.message!!.contains("language aa locale='xx'"), failure.message)
     }
 
     @Test
-    fun `a region qualified translation resolves through its primary subtag`() {
-        // pt-BR is a legitimate tag for the Portuguese the dataset carries as pt.
-        assertDoesNotThrow {
+    fun `a translation must name its locale exactly`() {
+        // pt-BR is declared, and pt is not: the Portuguese translation is not the Brazilian one.
+        val failure = assertThrows<IllegalStateException> {
             DatasetIntegrity.check(
-                dataset(languages = listOf(language("aa"), language("pt", translations = listOf("pt-BR")))),
+                dataset(
+                    languages = listOf(language("aa"), language("pt", translations = listOf("pt-BR", "pt"))),
+                    locales = listOf(locale("pt-BR", "pt")),
+                ),
             )
         }
+
+        assertTrue(failure.message!!.contains("language pt locale='pt'"), failure.message)
+    }
+
+    @Test
+    fun `a translation in a declared regional locale passes`() {
+        assertDoesNotThrow {
+            DatasetIntegrity.check(
+                dataset(
+                    languages = listOf(language("aa"), language("pt", translations = listOf("pt-BR"))),
+                    locales = listOf(locale("pt-BR", "pt", translations = listOf("pt-BR"))),
+                ),
+            )
+        }
+    }
+
+    @Test
+    fun `a locale of a language the dataset does not carry fails startup`() {
+        val failure = assertThrows<IllegalStateException> {
+            DatasetIntegrity.check(dataset(locales = listOf(locale("pt-BR", "pt"))))
+        }
+
+        assertTrue(failure.message!!.contains("locale pt-BR languageId=pt"), failure.message)
+    }
+
+    @Test
+    fun `a locale id must be the canonical tag of its language`() {
+        // Clients send the id back in Accept-Language, so it has to be a tag they would send.
+        for (locale in listOf(locale("pt_BR", "pt"), locale("pt-br", "pt"), locale("pt-BR", "aa"))) {
+            val failure = assertThrows<IllegalStateException>("${locale.id} should be rejected") {
+                DatasetIntegrity.check(
+                    dataset(languages = listOf(language("aa"), language("pt")), locales = listOf(locale)),
+                )
+            }
+
+            assertTrue(
+                failure.message!!.contains("locales that are not a canonical BCP 47 tag for their language"),
+                failure.message,
+            )
+        }
+    }
+
+    @Test
+    fun `an english locale fails startup`() {
+        // English is the base data, which negotiation serves before it considers any locale.
+        val failure = assertThrows<IllegalStateException> {
+            DatasetIntegrity.check(
+                dataset(
+                    languages = listOf(language("aa"), language("en")),
+                    locales = listOf(locale("en-GB", "en")),
+                ),
+            )
+        }
+
+        assertTrue(failure.message!!.contains("English locales"), failure.message)
     }
 
     @Test
@@ -208,6 +268,7 @@ class DatasetIntegrityTest {
         countries: List<CountryJSON> = listOf(country()),
         centralBanks: List<CentralBankJSON> = emptyList(),
         flags: List<FlagJSON> = listOf(flag()),
+        locales: List<LocaleJSON> = emptyList(),
     ) = RawDataset(
         meta = DatasetMeta(version = 1, date = "2026-01-01"),
         mediaAssets = listOf(
@@ -264,6 +325,7 @@ class DatasetIntegrityTest {
         ),
         cryptos = cryptos,
         languages = languages,
+        locales = locales,
         countries = countries,
         centralBanks = centralBanks,
     )
@@ -291,7 +353,15 @@ class DatasetIntegrityTest {
         nativeName = null,
         name = "Language $id",
         flagId = flagId,
-        translations = translations.map { LanguageTranslationJSON(languageCode = it, name = "Name") },
+        translations = translations.map { LanguageTranslationJSON(locale = it, name = "Name") },
+    )
+
+    private fun locale(id: String, languageId: String, translations: List<String> = emptyList()) = LocaleJSON(
+        id = id,
+        languageId = languageId,
+        name = "Locale $id",
+        nativeName = "Locale $id",
+        translations = translations.map { LocaleTranslationJSON(locale = it, name = "Name") },
     )
 
     private fun crypto(id: String, logoId: String? = "one-square") = CryptoJSON(

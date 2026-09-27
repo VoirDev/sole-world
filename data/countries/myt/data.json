@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "마요트"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Mayotte"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Mayotte"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Mayotte"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Mayotte"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مایوت"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Mayotte"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Mayotte"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Mayotte"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "マヨット"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Mayotte"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "马约特"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Mayotte"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Майотта"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Майотта"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Majotta"
     }
   ],

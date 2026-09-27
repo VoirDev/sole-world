@@ -10,8 +10,8 @@ build time, so a correction here is a release, not a migration.
 
 1. **Find the file.** Countries, with their states and cities nested inside them, are under
    `data/countries/<name>/data.json`. Everything else is a flat file named after the resource:
-   `currencies.json`, `cryptos.json`, `languages.json`, `regions.json`, `timezones.json`,
-   `central_banks.json`, `flags.json`, `media_assets.json`.
+   `currencies.json`, `cryptos.json`, `languages.json`, `locales.json`, `regions.json`,
+   `timezones.json`, `central_banks.json`, `flags.json`, `media_assets.json`.
 2. **Keep the shape.** Field names are camelCase; ids are stable and must stay unique; a reference
    to another record must name one that exists, spelled exactly as that record spells its id.
    An id is the record's public standard code where one exists — ISO 3166-1 alpha-2 for a
@@ -20,7 +20,9 @@ build time, so a correction here is a release, not a migration.
    as `federal-reserve`. An alias is the name people actually use: a central bank's is its common
    English name with the country's short name (`central-bank-of-iran`, not
    `central-bank-of-islamic-republic-of-iran`), or its native name where it is known by that
-   (`deutsche-bundesbank`, `banco-de-la-republica`). Cities keep their numbers. Never change an id that has been released:
+   (`deutsche-bundesbank`, `banco-de-la-republica`). Cities keep their numbers. A translation's
+   `locale` is the id of a locale in `locales.json`, spelled exactly; the API serves exactly the
+   locales listed there. Never change an id that has been released:
    clients store them. All of this is checked at startup by
    [`DatasetIntegrity`](api/src/main/kotlin/dev/voir/sole/world/api/dataset/DatasetIntegrity.kt), so
    `./gradlew :api:test` will tell you if something does not line up.

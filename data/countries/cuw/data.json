@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "퀴라소"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Curaçao"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Curaçao"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Curaçao"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کوراسائو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Curaçao"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Curaçao"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Curaçao"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "库拉索"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Curaçao"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Кюрасао"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Кюрасао"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Curaçao"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Curaçao"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Curazao"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "キュラソー"
     }
   ],

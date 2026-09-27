@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "니우에"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Niue"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Niue"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Niue"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Niue"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "نیوئه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Niue"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Niue"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Niue"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ニウエ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Niue"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "纽埃"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Niue"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Ниуэ"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ніуе"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Niue"
     }
   ],

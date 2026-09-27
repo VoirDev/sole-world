@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "터크스 케이커스 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Turcas e Caicos"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Turcas e Caicos"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Turks- en Caicoseilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Otoci Turks i Caicos"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر تورکس و کایکوس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Turks- und Caicosinseln"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Turcas y Caicos"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Turques-et-Caïques"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "タークス・カイコス諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Turks e Caicos"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "特克斯和凯科斯群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Turks ve Caicos Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Острова Теркс и Кайкос"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Острови Теркс і Кайкос"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspy Turks i Caicos"
     }
   ],

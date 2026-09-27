@@ -28,67 +28,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "팔레스타인 영토"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Palestina"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Palestina"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Palestijnse gebieden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Palestina"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "فلسطین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Palästina"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Palestina"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Palestine"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "パレスチナ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Palestina"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "巴勒斯坦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Filistin"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Палестина"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Палестина"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Palestyna"
     }
   ],

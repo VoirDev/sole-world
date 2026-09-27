@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "앵귈라"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Anguila"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Anguila"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Anguilla"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Angvila"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "آنگویلا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Anguilla"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Anguilla"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Anguilla"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アンギラ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Anguilla"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "安圭拉"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Anguilla"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Ангилья"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ангілья"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Anguilla"
     }
   ],

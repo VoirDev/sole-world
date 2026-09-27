@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "바하마"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Bahamas"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Baamas"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Bahama’s"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Bahami"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "باهاما"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Bahamas"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Bahamas"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Bahamas"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "バハマ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Bahamas"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "巴哈马"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Bahamalar"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Багамы"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Багамські острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Bahamy"
     }
   ],

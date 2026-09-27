@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "보스니아 헤르체고비나"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Bósnia e Herzegovina"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Bósnia e Herzegovina"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Bosnië en Herzegovina"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Bosna i Hercegovina"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بوسنی و هرزگوین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Bosnien und Herzegowina"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Bosnia y Herzegovina"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Bosnie-Herzégovine"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ボスニア・ヘルツェゴビナ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Bosnia ed Erzegovina"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "波斯尼亚和黑塞哥维那"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Bosna-Hersek"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Босния и Герцеговина"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Боснія і Герцеговина"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Bośnia i Hercegowina"
     }
   ],

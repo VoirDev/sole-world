@@ -27,67 +27,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "아루바"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Aruba"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Aruba"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Aruba"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Aruba"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "آروبا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Aruba"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Aruba"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Aruba"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アルバ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Aruba"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "阿鲁巴"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Aruba"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Аруба"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Аруба"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Aruba"
     }
   ],

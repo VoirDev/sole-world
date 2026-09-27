@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "도미니카 공화국"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "República Dominicana"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "República Dominicana"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Dominicaanse Republiek"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Dominikanska Republika"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جمهوری دومینیکن"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Dominikanische Republik"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "República Dominicana"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "République dominicaine"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ドミニカ共和国"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Repubblica Dominicana"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "多米尼加共和国"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Dominik Cumhuriyeti"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Доминиканская Республика"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Домініканська Республіка"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Republika Dominikańska"
     }
   ],

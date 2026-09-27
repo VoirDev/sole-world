@@ -29,67 +29,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "콩고 민주 공화국"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "República Democrática do Congo"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "República Democrática do Congo"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Democratische Republiek Congo"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Demokratska Republika Kongo"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جمهوری دموکراتیک کنگو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Demokratische Republik Kongo"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "República Democrática del Congo"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "République démocratique du Congo"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "コンゴ民主共和国"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Repubblica Democratica del Congo"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "刚果（金）"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kongo Demokratik Cumhuriyeti"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Демократическая Республика Конго"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Демократична Республіка Конго"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Demokratyczna Republika Konga"
     }
   ],

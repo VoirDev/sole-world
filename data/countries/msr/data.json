@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "몬트세라트"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Montserrat"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Monserrate"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Montserrat"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Montserrat"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مونت‌سرات"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Montserrat"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Montserrat"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Montserrat"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "モントセラト"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Montserrat"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "蒙特塞拉特"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Montserrat"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Монтсеррат"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Монтсеррат"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Montserrat"
     }
   ],

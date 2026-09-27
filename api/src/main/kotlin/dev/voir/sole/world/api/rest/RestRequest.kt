@@ -1,36 +1,27 @@
 package dev.voir.sole.world.api.rest
 
-import dev.voir.sole.world.api.dataset.index.LanguageNegotiation
 import dev.voir.sole.world.api.dataset.index.PageMetadata
 import dev.voir.sole.world.api.dataset.index.PageRequest
 import dev.voir.sole.world.api.dataset.index.Pagination
 import dev.voir.sole.world.api.dataset.index.SearchQuery
+import dev.voir.sole.world.api.locale.RequestLocale
 import dev.voir.sole.world.openapi.model.PageInfo
 import jakarta.servlet.http.HttpServletRequest
 
 /** Turns REST request parameters into the normalized values the stores expect. */
 object RestRequest {
     private const val MAX_SEARCH_QUERY_LENGTH = 100
-    private const val ACCEPT_LANGUAGE_HEADER = "Accept-Language"
 
     /**
-     * Resolves the translation language for a request.
+     * Reads the translation language negotiated for a request.
      *
-     * An explicit `lang` parameter wins over `Accept-Language`, which lets a caller pin a language
-     * into the URL itself. That matters for caching: two languages then have two cache keys instead
-     * of relying on every intermediary to honour `Vary`.
+     * The `lang` parameter and `Accept-Language` are negotiated by `RequestLocaleFilter` before the
+     * handler runs, so a controller's own `lang` argument needs no further attention.
      *
-     * @param lang Value of the `lang` query parameter, when supplied.
      * @param request Current HTTP request.
-     * @return Supported internal language code, or null to serve base data.
+     * @return Supported locale id, or null to serve base data.
      */
-    fun language(lang: String?, request: HttpServletRequest): String? {
-        if (!lang.isNullOrBlank()) {
-            return LanguageNegotiation.resolveTag(lang)
-        }
-
-        return LanguageNegotiation.resolveHeader(request.getHeader(ACCEPT_LANGUAGE_HEADER))
-    }
+    fun language(request: HttpServletRequest): String? = RequestLocale.of(request)
 
     /**
      * Validates pagination parameters.

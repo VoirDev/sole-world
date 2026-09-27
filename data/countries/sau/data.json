@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "사우디아라비아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Arábia Saudita"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Arábia Saudita"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Saoedi-Arabië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Saudijska Arabija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "عربستان سعودی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Saudi-Arabien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Arabia Saudí"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Arabie saoudite"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "サウジアラビア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Arabia Saudita"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "沙特阿拉伯"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Suudi Arabistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Саудовская Аравия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Саудівська Аравія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Arabia Saudyjska"
     }
   ],

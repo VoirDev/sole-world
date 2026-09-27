@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "폴란드"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Polônia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Polónia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Polen"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Poljska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "لهستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Polen"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Polonia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Pologne"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ポーランド"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Polonia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "波兰"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Polonya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Польша"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Польща"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Polska"
     }
   ],

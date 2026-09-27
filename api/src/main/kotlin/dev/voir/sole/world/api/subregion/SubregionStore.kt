@@ -22,7 +22,7 @@ class SubregionStore(dataset: RawDataset) {
                 regionId = region.id,
                 name = LocalizedName.of(
                     base = json.name,
-                    translations = json.translations.map { it.languageCode to it.name },
+                    translations = json.translations.map { it.locale to it.name },
                 ),
             )
         }

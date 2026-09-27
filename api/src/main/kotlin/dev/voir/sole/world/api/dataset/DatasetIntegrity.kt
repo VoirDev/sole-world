@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.dataset
 
 import dev.voir.sole.world.api.dataset.index.IdKey
+import java.util.Locale
 
 /**
  * Checks that the bundled dataset refers only to records it actually contains.
@@ -147,55 +148,74 @@ object DatasetIntegrity {
             )
         }
 
-        checkTranslationLanguages(dataset, problems)
+        checkTranslationLocales(dataset, languages, problems)
 
         problems.failIfAny()
     }
 
     /**
-     * Verifies that every translation is tagged with a language the dataset knows.
+     * Verifies the translation locales, and that every translation is written in one of them.
      *
-     * A translation's `languageCode` is a language tag rather than a foreign key, so nothing above
-     * could catch one that names a language the dataset does not carry. It reads as a missing
-     * translation instead of a broken row: the locale simply never matches, and the caller is
-     * served base data for a name that was in fact translated. Region-qualified tags such as
-     * `pt-BR` are legitimate, and are checked through their primary subtag.
+     * A translation's `locale` is a tag rather than a record reference, so the checks above could
+     * not catch one that names a locale the dataset does not declare. It reads as a missing
+     * translation instead of a broken row: negotiation never selects it, and the caller is served
+     * base data for a name that was in fact translated.
+     *
+     * Each locale's id must also be the canonical spelling of a BCP 47 tag for the language it
+     * claims, since clients send that tag back in `Accept-Language` and `lang`. English is the base
+     * data, which negotiation serves before it considers any locale, so an English locale could
+     * never be selected.
      */
-    private fun checkTranslationLanguages(dataset: RawDataset, problems: Problems) {
-        val known = dataset.languages.mapTo(HashSet()) { it.code.lowercase() }
+    private fun checkTranslationLocales(dataset: RawDataset, languages: Set<String>, problems: Problems) {
+        val locales = problems.uniqueIds("locales", dataset.locales) { it.id }
 
-        fun check(what: String, codes: List<String>) {
-            for (code in codes) {
-                if (code.substringBefore('-').lowercase() !in known) {
-                    problems.unknownLanguage(what, code)
+        for (locale in dataset.locales) {
+            problems.resolves("locale ${locale.id} languageId", locale.languageId, languages, "language")
+
+            val tag = Locale.forLanguageTag(locale.id)
+            if (tag.toLanguageTag() != locale.id || tag.language != locale.languageId) {
+                problems.malformedLocale(locale.id, locale.languageId)
+            }
+            if (tag.language == Locale.ENGLISH.language) {
+                problems.englishLocale(locale.id)
+            }
+        }
+
+        fun check(what: String, tags: List<String>) {
+            for (tag in tags) {
+                if (tag !in locales) {
+                    problems.unknownLocale(what, tag)
                 }
             }
         }
 
+        for (locale in dataset.locales) {
+            check("locale ${locale.id}", locale.translations.map { it.locale })
+        }
         for (region in dataset.regions) {
-            check("region ${region.id}", region.translations.map { it.languageCode })
+            check("region ${region.id}", region.translations.map { it.locale })
             for (subregion in region.subregions) {
-                check("subregion ${subregion.id}", subregion.translations.map { it.languageCode })
+                check("subregion ${subregion.id}", subregion.translations.map { it.locale })
             }
         }
         for (timezone in dataset.timezones) {
-            check("timezone ${timezone.id}", timezone.translations.map { it.languageCode })
+            check("timezone ${timezone.id}", timezone.translations.map { it.locale })
         }
         for (currency in dataset.currencies) {
-            check("currency ${currency.id}", currency.translations.map { it.languageCode })
+            check("currency ${currency.id}", currency.translations.map { it.locale })
         }
         for (language in dataset.languages) {
-            check("language ${language.id}", language.translations.map { it.languageCode })
+            check("language ${language.id}", language.translations.map { it.locale })
         }
         for (bank in dataset.centralBanks) {
-            check("central bank ${bank.id}", bank.translations.map { it.languageCode })
+            check("central bank ${bank.id}", bank.translations.map { it.locale })
         }
         for (country in dataset.countries) {
-            check("country ${country.id}", country.translations.map { it.languageCode })
+            check("country ${country.id}", country.translations.map { it.locale })
             for (state in country.states) {
-                check("state ${state.id}", state.translations.map { it.languageCode })
+                check("state ${state.id}", state.translations.map { it.locale })
                 for (city in state.cities) {
-                    check("city ${city.id}", city.translations.map { it.languageCode })
+                    check("city ${city.id}", city.translations.map { it.locale })
                 }
             }
         }
@@ -272,9 +292,22 @@ object DatasetIntegrity {
             add("media assets of the wrong shape", "$what=$assetId is $actual, expected $expected")
         }
 
-        /** Records a translation tagged with a language the dataset does not carry. */
-        fun unknownLanguage(what: String, code: String) {
-            add("translations in a language the dataset does not carry", "$what languageCode='$code'")
+        /** Records a translation written in a locale the dataset does not declare. */
+        fun unknownLocale(what: String, tag: String) {
+            add("translations in a locale the dataset does not declare", "$what locale='$tag'")
+        }
+
+        /** Records a locale id that is not the canonical tag of the language it names. */
+        fun malformedLocale(id: String, languageId: String) {
+            add(
+                "locales that are not a canonical BCP 47 tag for their language",
+                "locale '$id' languageId='$languageId'",
+            )
+        }
+
+        /** Records an English locale, which the base data always wins over. */
+        fun englishLocale(id: String) {
+            add("English locales, which negotiation can never select", "locale '$id'")
         }
 
         /** Records a flag whose picture belongs to a different territory than its emoji. */

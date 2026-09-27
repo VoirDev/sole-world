@@ -37,7 +37,7 @@ class CentralBankRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<CentralBankPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CentralBankRestAssembler.ALLOWED_INCLUDES)
 
         val result = centralBankStore.page(
@@ -56,7 +56,7 @@ class CentralBankRestController(
     }
 
     override fun getCentralBank(id: String, lang: String?, include: String?): ResponseEntity<CentralBank> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CentralBankRestAssembler.ALLOWED_INCLUDES)
         val bank = requireCentralBank(id, language)
 
@@ -70,7 +70,7 @@ class CentralBankRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<CountryPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CountryRestAssembler.ALLOWED_INCLUDES)
         requireCentralBank(id, language)
 
@@ -94,7 +94,7 @@ class CentralBankRestController(
         lang: String?,
         include: String?,
     ): ResponseEntity<CurrencyPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CurrencyRestAssembler.ALLOWED_INCLUDES)
         requireCentralBank(id, language)
 

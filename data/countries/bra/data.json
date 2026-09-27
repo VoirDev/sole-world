@@ -39,67 +39,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "브라질"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Brasil"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Brasil"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Brazilië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Brazil"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "برزیل"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Brasilien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Brasil"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Brésil"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ブラジル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Brasile"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "巴西"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Brezilya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Бразилия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Бразилія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Brazylia"
     }
   ],

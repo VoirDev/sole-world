@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "프랑스령 남방 및 남극"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Terras Austrais e Antárticas Francesas"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Terras Austrais e Antárticas Francesas"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Franse Gebieden in de zuidelijke Indische Oceaan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Francuski južni i antarktički teritoriji"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سرزمین‌های جنوبی فرانسه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Französische Süd- und Antarktisgebiete"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Tierras Australes y Antárticas Francesas"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Terres australes et antarctiques françaises"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "フランス領南方・南極地域"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Terre Australi Francesi"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "法属南部领地"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Fransız Güney Toprakları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Французские Южные территории"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Французькі південні території"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Francuskie terytoria południowe"
     }
   ],

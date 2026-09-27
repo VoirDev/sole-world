@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "프랑스령 폴리네시아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Polinésia Francesa"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Polinésia Francesa"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Frans-Polynesië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Francuska Polinezija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "پلی‌نزی فرانسه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Französisch-Polynesien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Polinesia Francesa"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Polynésie française"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "フランス領ポリネシア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Polinesia Francese"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "法属波利尼西亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Fransız Polinezyası"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Французская Полинезия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Французька Полінезія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Polinezja Francuska"
     }
   ],

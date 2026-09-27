@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "미얀마"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Myanmar"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Myanmar"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Myanmar"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Mijanmar"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "میانمار"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Myanmar"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Myanmar"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Myanmar"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ミャンマー"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Myanmar"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "缅甸"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Myanmar"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Мьянма"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "М'янма"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Mjanma"
     }
   ],

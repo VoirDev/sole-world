@@ -33,67 +33,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "남아프리카 공화국"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "África do Sul"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "África do Sul"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Zuid-Afrika"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Južnoafrička Republika"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "افریقای جنوبی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Südafrika"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Sudáfrica"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Afrique du Sud"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "南アフリカ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Sudafrica"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "南非"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Güney Afrika"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Южно-Африканская Республика"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Південно-Африканська Республіка"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Republika Południowej Afryki"
     }
   ],

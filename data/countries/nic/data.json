@@ -26,67 +26,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "니카라과"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Nicarágua"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Nicarágua"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Nicaragua"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Nikaragva"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "نیکاراگوئه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Nicaragua"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Nicaragua"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Nicaragua"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ニカラグア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Nicaragua"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "尼加拉瓜"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Nikaragua"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Никарагуа"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Нікарагуа"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Nikaragua"
     }
   ],

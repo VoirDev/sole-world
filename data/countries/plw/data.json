@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "팔라우"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Palau"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Palau"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Palau"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Palau"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "پالائو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Palau"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Palaos"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Palaos"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "パラオ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Palau"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "帕劳"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Palau"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Палау"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Палау"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Palau"
     }
   ],

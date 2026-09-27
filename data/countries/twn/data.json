@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "대만"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Taiwan"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Taiwan"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Taiwan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Tajvan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "تایوان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Taiwan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Taiwán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Taïwan"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "台湾"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Taiwan"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "中国台湾"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Tayvan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Тайвань"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Тайвань"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Tajwan"
     }
   ],

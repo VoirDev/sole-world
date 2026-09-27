@@ -6,6 +6,7 @@ import dev.voir.sole.world.api.dataset.json.CryptoJSON
 import dev.voir.sole.world.api.dataset.json.CurrencyJSON
 import dev.voir.sole.world.api.dataset.json.FlagJSON
 import dev.voir.sole.world.api.dataset.json.LanguageJSON
+import dev.voir.sole.world.api.dataset.json.LocaleJSON
 import dev.voir.sole.world.api.dataset.json.MediaAssetJSON
 import dev.voir.sole.world.api.dataset.json.MetaJSON
 import dev.voir.sole.world.api.dataset.json.RegionJSON
@@ -65,6 +66,7 @@ class DatasetLoader(
             currencies = readList<CurrencyJSON>("currencies.json"),
             cryptos = readList<CryptoJSON>("cryptos.json"),
             languages = readList<LanguageJSON>("languages.json"),
+            locales = readList<LocaleJSON>("locales.json"),
             countries = countries,
             centralBanks = readList<CentralBankJSON>("central_banks.json"),
         )

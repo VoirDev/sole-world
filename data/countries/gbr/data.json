@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "영국"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Reino Unido"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Reino Unido"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Verenigd Koninkrijk"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Ujedinjeno Kraljevstvo"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بریتانیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Vereinigtes Königreich"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Reino Unido"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Royaume-Uni"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "イギリス"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Regno Unito"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "英国"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Birleşik Krallık"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Великобритания"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сполучене Королівство"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wielka Brytania"
     }
   ],

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "마르티니크"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Martinica"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Martinica"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Martinique"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Martinik"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مارتینیک"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Martinique"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Martinica"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Martinique"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "マルティニーク"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Martinica"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "马提尼克岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Martinik"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Мартиника"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Мартиніка"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Martynika"
     }
   ],

@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "룩셈부르크"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Luxemburgo"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Luxemburgo"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Luxemburg"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Luksemburg"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "لوکزامبورگ"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Luxemburg"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Luxemburgo"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Luxembourg"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ルクセンブルク"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Lussemburgo"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "卢森堡"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Lüksemburg"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Люксембург"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Люксембург"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Luksemburg"
     }
   ],

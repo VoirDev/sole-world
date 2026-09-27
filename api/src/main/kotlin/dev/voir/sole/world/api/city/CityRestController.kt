@@ -28,7 +28,7 @@ class CityRestController(
         countryId: String?,
         stateId: String?,
     ): ResponseEntity<CityPage> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CityRestAssembler.ALLOWED_INCLUDES)
 
         val result = cityStore.page(
@@ -49,7 +49,7 @@ class CityRestController(
     }
 
     override fun getCity(id: Long, lang: String?, include: String?): ResponseEntity<City> {
-        val language = RestRequest.language(lang, request)
+        val language = RestRequest.language(request)
         val includes = IncludeSpec.parse(include, CityRestAssembler.ALLOWED_INCLUDES)
         val city = cityStore.byId(id, language) ?: throw ResourceNotFoundException.of("City", id)
 

@@ -27,67 +27,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "말레이시아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Malásia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Malásia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Maleisië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Malezija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مالزی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Malaysia"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Malasia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Malaisie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "マレーシア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Malesia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "马来西亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Malezya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Малайзия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Малайзія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Malezja"
     }
   ],

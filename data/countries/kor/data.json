@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "대한민국"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Coreia do Sul"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Coreia do Sul"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Zuid-Korea"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Južna Koreja"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کرهٔ جنوبی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Südkorea"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Corea del Sur"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Corée du Sud"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "韓国"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Corea del Sud"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "韩国"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Güney Kore"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Южная Корея"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Південна Корея"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Korea Południowa"
     }
   ],

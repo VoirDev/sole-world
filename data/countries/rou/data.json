@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "루마니아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Romênia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Roménia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Roemenië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Rumunjska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "رومانی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Rumänien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Rumanía"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Roumanie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ルーマニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Romania"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "罗马尼亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Romanya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Румыния"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Румунія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Rumunia"
     }
   ],

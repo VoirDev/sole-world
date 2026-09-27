@@ -28,67 +28,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "나이지리아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Nigéria"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Nigéria"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Nigeria"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Nigerija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "نیجریه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Nigeria"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Nigeria"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Nigeria"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ナイジェリア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Nigeria"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "尼日利亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Nijerya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Нигерия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Нігерія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Nigeria"
     }
   ],

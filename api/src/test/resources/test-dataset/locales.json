@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ru",
+    "languageId": "ru",
+    "name": "Russian",
+    "nativeName": "Русский",
+    "translations": [
+      {
+        "locale": "ru",
+        "name": "Русский"
+      }
+    ]
+  }
+]

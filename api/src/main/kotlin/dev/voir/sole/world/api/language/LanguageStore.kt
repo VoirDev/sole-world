@@ -22,11 +22,11 @@ class LanguageStore(dataset: RawDataset) {
             nativeName = json.nativeName,
             name = LocalizedName.of(
                 base = json.name,
-                translations = json.translations.map { it.languageCode to it.name },
+                translations = json.translations.map { it.locale to it.name },
             ),
             description = json.description,
             descriptionTranslations = json.translations
-                .mapNotNull { translation -> translation.description?.let { translation.languageCode to it } }
+                .mapNotNull { translation -> translation.description?.let { translation.locale to it } }
                 .toMap(),
             flagId = json.flagId,
         )

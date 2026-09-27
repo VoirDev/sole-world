@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "말리"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Mali"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Mali"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Mali"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Mali"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مالی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Mali"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Mali"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Mali"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "マリ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Mali"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "马里"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Mali"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Мали"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Малі"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Mali"
     }
   ],

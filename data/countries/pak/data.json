@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "파키스탄"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Paquistão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Paquistão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Pakistan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Pakistan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "پاکستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Pakistan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Pakistán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Pakistan"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "パキスタン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Pakistan"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "巴基斯坦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Pakistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Пакистан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Пакистан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Pakistan"
     }
   ],

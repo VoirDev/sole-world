@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "세르비아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Sérvia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Sérvia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Servië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Srbija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "صربستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Serbien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Serbia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Serbie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "セルビア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Serbia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "塞尔维亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Sırbistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сербия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сербія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Serbia"
     }
   ],

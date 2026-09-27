@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "이란"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Irã"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Irão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Iran"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Iran"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ایران"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Iran"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Irán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Iran"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "イラン"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "伊朗"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "İran"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Иран"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Іран"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Iran"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Iran"
     }
   ],

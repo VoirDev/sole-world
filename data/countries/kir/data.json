@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "키리바시"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Kiribati"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Quiribáti"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Kiribati"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kiribati"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کیریباتی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kiribati"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Kiribati"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Kiribati"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "キリバス"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Kiribati"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "基里巴斯"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kiribati"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Кирибати"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Кірибаті"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kiribati"
     }
   ],

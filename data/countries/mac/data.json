@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "마카오"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Macau"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Macau"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Macao"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Makao"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مکائو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Macau"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Macao"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Macao"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "マカオ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Macao"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "中国澳门"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Makao"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Макао"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Макао"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Makau"
     }
   ],

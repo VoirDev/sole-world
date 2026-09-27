@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "시에라리온"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Serra Leoa"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Serra Leoa"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Sierra Leone"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sijera Leone"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سیرالئون"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Sierra Leone"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Sierra Leona"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Sierra Leone"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "シエラレオネ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Sierra Leone"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "塞拉利昂"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Sierra Leone"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сьерра-Леоне"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сьєрра-Леоне"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Sierra Leone"
     }
   ],

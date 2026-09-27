@@ -28,67 +28,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "에티오피아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Etiópia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Etiópia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Ethiopië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Etiopija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اتیوپی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Äthiopien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Etiopía"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Éthiopie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "エチオピア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Etiopia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "埃塞俄比亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Etiyopya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Эфиопия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ефіопія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Etiopia"
     }
   ],

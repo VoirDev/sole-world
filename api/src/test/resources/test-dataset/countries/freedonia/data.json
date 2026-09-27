@@ -25,7 +25,7 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Фридония"
     }
   ],
@@ -39,7 +39,7 @@
       "type": "province",
       "translations": [
         {
-          "languageCode": "ru",
+          "locale": "ru",
           "name": "Северная Фридония"
         }
       ],
@@ -51,7 +51,7 @@
           "longitude": 19.31,
           "translations": [
             {
-              "languageCode": "ru",
+              "locale": "ru",
               "name": "Северный город"
             }
           ]
@@ -67,7 +67,7 @@
       "type": "province",
       "translations": [
         {
-          "languageCode": "ru",
+          "locale": "ru",
           "name": "Южная Фридония"
         }
       ],
@@ -79,7 +79,7 @@
           "longitude": 19.01,
           "translations": [
             {
-              "languageCode": "ru",
+              "locale": "ru",
               "name": "Южный город"
             }
           ]

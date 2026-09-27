@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "카메룬"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Camarões"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Camarões"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Kameroen"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kamerun"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کامرون"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kamerun"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Camerún"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Cameroun"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "カメルーン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Camerun"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "喀麦隆"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kamerun"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Камерун"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Камерун"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kamerun"
     }
   ],

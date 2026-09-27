@@ -27,67 +27,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "아제르바이잔"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Azerbaijão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Azerbaijão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Azerbeidzjan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Azerbajdžan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جمهوری آذربایجان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Aserbaidschan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Azerbaiyán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Azerbaïdjan"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アゼルバイジャン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Azerbaigian"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "阿塞拜疆"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Azerbaycan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Азербайджан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Азербайджан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Azerbejdżan"
     }
   ],

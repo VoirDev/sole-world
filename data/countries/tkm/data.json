@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "투르크메니스탄"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Turcomenistão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Turquemenistão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Turkmenistan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Turkmenistan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ترکمنستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Turkmenistan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Turkmenistán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Turkménistan"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "トルクメニスタン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Turkmenistan"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "土库曼斯坦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Türkmenistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Туркменистан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Туркменістан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Turkmenistan"
     }
   ],

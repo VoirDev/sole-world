@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "핀란드"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Finlândia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Finlândia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Finland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Finska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "فنلاند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Finnland"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Finlandia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Finlande"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "フィンランド"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Finlandia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "芬兰"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Finlandiya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Финляндия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Фінляндія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Finlandia"
     }
   ],

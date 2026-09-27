@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "아이티"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Haiti"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Haiti"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Haïti"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Haiti"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "هائیتی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Haiti"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Haití"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Haïti"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ハイチ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Haiti"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "海地"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Haiti"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гаити"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гаїті"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Haiti"
     }
   ],

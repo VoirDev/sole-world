@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "파푸아뉴기니"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Papua-Nova Guiné"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Papua-Nova Guiné"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Papoea-Nieuw-Guinea"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Papua Nova Gvineja"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "پاپوا گینهٔ نو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Papua-Neuguinea"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Papúa Nueva Guinea"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Papouasie-Nouvelle-Guinée"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "パプアニューギニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Papua Nuova Guinea"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "巴布亚新几内亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Papua Yeni Gine"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Папуа — Новая Гвинея"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Папуа-Нова Гвінея"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Papua-Nowa Gwinea"
     }
   ],

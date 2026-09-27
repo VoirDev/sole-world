@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "아이슬란드"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Islândia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Islândia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "IJsland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Island"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ایسلند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Island"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islandia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Islande"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アイスランド"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Islanda"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "冰岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "İzlanda"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Исландия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ісландія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Islandia"
     }
   ],

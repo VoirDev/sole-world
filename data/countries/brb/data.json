@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "바베이도스"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Barbados"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Barbados"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Barbados"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Barbados"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "باربادوس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Barbados"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Barbados"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Barbade"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "バルバドス"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Barbados"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "巴巴多斯"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Barbados"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Барбадос"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Барбадос"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Barbados"
     }
   ],

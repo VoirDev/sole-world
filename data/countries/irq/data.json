@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "이라크"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Iraque"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Iraque"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Irak"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Irak"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "عراق"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Irak"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Irak"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Irak"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "イラク"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Iraq"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "伊拉克"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Irak"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Ирак"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Ірак"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Irak"
     }
   ],

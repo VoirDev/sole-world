@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "가이아나"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Guiana"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Guiana"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Guyana"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Gvajana"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گویان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Guyana"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Guyana"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Guyana"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ガイアナ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Guyana"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "圭亚那"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Guyana"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гайана"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гаяна"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Gujana"
     }
   ],

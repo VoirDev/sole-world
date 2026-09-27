@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "독일"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Alemanha"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Alemanha"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Duitsland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Njemačka"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "آلمان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Deutschland"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Alemania"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Allemagne"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ドイツ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Germania"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "德国"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Almanya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Германия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Німеччина"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Niemcy"
     }
   ],

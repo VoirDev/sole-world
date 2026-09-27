@@ -26,67 +26,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "몰디브"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Maldivas"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Maldivas"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Maldiven"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Maldivi"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مالدیو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Malediven"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Maldivas"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Maldives"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "モルディブ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Maldive"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "马尔代夫"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Maldivler"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Мальдивы"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Мальдіви"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Malediwy"
     }
   ],

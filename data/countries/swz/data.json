@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "에스와티니"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Essuatíni"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Essuatíni"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Eswatini"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Esvatini"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اسواتینی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Eswatini"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Esuatini"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Eswatini"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "エスワティニ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Eswatini"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "斯威士兰"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Esvatini"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Эсватини"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Есватіні"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Eswatini"
     }
   ],

@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "수단"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Sudão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Sudão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Soedan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sudan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سودان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Sudan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Sudán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Soudan"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "スーダン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Sudan"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "苏丹"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Sudan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Судан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Судан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Sudan"
     }
   ],

@@ -22,67 +22,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "부베섬"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilha Bouvet"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilha Bouvet"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Bouveteiland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Otok Bouvet"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزیرهٔ بووه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Bouvetinsel"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Isla Bouvet"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Île Bouvet"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ブーベ島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isola Bouvet"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "布韦岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Bouvet Adası"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "о-в Буве"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Острів Буве"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspa Bouveta"
     }
   ],

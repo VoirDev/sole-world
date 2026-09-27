@@ -1,54 +1,52 @@
-package dev.voir.sole.world.api.dataset.index
+package dev.voir.sole.world.api.locale
+
+import dev.voir.sole.world.api.dataset.json.LocaleJSON
 
 /**
- * Maps an HTTP `Accept-Language` header to one of the dataset's translation languages.
+ * Maps a caller's language preference to one of the dataset's translation locales.
  *
  * English and unsupported languages both resolve to null, which selects the base dataset values.
  * Resolution is transport-neutral so the GraphQL and REST layers negotiate identically.
+ *
+ * A tag that names no locale exactly falls back to its language: `de-AT` is served `de`, and `zh-TW`
+ * is served `zh-CN`. When a language has several locales, the one spelled as the bare language wins,
+ * so `pt-PT` is served `pt` rather than `pt-BR`; failing that, the first one `locales.json` lists.
+ *
+ * @param locales Translation locales the dataset declares.
  */
-object LanguageNegotiation {
-    /** Internal translation codes available in the dataset, keyed by their lowercased tag. */
-    private val supportedLanguageCodes = mapOf(
-        "ko" to "ko",
-        "pt-br" to "pt-BR",
-        "pt" to "pt",
-        "nl" to "nl",
-        "hr" to "hr",
-        "fa" to "fa",
-        "de" to "de",
-        "es" to "es",
-        "fr" to "fr",
-        "ja" to "ja",
-        "it" to "it",
-        "zh-cn" to "zh-CN",
-        "tr" to "tr",
-        "ru" to "ru",
-        "uk" to "uk",
-        "pl" to "pl",
-    )
+class LocaleNegotiation(locales: List<LocaleJSON>) {
+    /** Locale ids keyed by their lowercased tag. */
+    private val byTag: Map<String, String> = locales.associate { it.id.lowercase() to it.id }
 
-    /** Translation codes this API can serve, in their canonical form. */
-    val supportedCodes: List<String> = supportedLanguageCodes.values.distinct().sorted()
+    /** The locale each language falls back to, keyed by its lowercased language id. */
+    private val byLanguage: Map<String, String> = locales
+        .groupBy { it.languageId.lowercase() }
+        .mapValues { (language, forms) ->
+            (forms.firstOrNull { it.id.lowercase() == language } ?: forms.first()).id
+        }
+
+    /** Locale ids this API can serve, in their canonical spelling. */
+    val supportedIds: List<String> = byTag.values.sorted()
 
     /**
-     * Resolves an explicit language selection, such as a REST `lang` query parameter.
+     * Resolves an explicit locale selection, such as a REST `lang` query parameter.
      * @param tag Raw language tag supplied by the caller.
-     * @return Supported internal language code, or null to serve base data.
+     * @return Supported locale id, or null to serve base data.
      */
     fun resolveTag(tag: String?): String? {
         val cleanTag = tag?.trim()?.ifBlank { null } ?: return null
-        return resolveSupportedLanguage(cleanTag)
+        return resolveSupportedLocale(cleanTag)
     }
 
     /**
-     * Maps an `Accept-Language` header value to a supported internal translation code.
+     * Maps an `Accept-Language` header value to a supported locale.
      *
      * Ranges are considered in quality order, and the first one that resolves wins. A range that
      * asks for English or the wildcard stops the search and selects base data, so a client asking
      * for `en, ru;q=0.5` is not silently served Russian.
      *
      * @param header Raw header value, or null when the request carries none.
-     * @return Supported internal language code, or null to serve base data.
+     * @return Supported locale id, or null to serve base data.
      */
     fun resolveHeader(header: String?): String? {
         val cleanHeader = header?.trim()?.ifBlank { null } ?: return null
@@ -63,7 +61,7 @@ object LanguageNegotiation {
                 return null
             }
 
-            val supported = resolveSupportedLanguage(range.tag)
+            val supported = resolveSupportedLocale(range.tag)
             if (supported != null) {
                 return supported
             }
@@ -98,15 +96,14 @@ object LanguageNegotiation {
     }
 
     /**
-     * Resolves a language tag to a supported internal language code.
+     * Resolves a language tag to a supported locale.
      * @param tag Language tag such as "pt-BR" or "de-DE".
-     * @return Supported internal code, falling back to the primary subtag, or null when unsupported.
+     * @return Locale named exactly, else the locale of the tag's language, or null when unsupported.
      */
-    private fun resolveSupportedLanguage(tag: String): String? {
+    private fun resolveSupportedLocale(tag: String): String? {
         val normalized = tag.lowercase()
 
-        return supportedLanguageCodes[normalized]
-            ?: supportedLanguageCodes[normalized.substringBefore('-')]
+        return byTag[normalized] ?: byLanguage[normalized.substringBefore('-')]
     }
 
     /**

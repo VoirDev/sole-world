@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "북마리아나 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Marianas do Norte"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Marianas do Norte"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Noordelijke Marianeneilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sjevernomarijanski otoci"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر ماریانای شمالی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Nördliche Marianen"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Marianas del Norte"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Mariannes du Nord"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "北マリアナ諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Marianne Settentrionali"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "北马里亚纳群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kuzey Mariana Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Северные Марианские острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Північні Маріанські острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Mariany Północne"
     }
   ],

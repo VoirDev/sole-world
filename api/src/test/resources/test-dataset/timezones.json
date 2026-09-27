@@ -8,7 +8,7 @@
     "tzName": "Freedonia Time",
     "translations": [
       {
-        "languageCode": "ru",
+        "locale": "ru",
         "tzName": "Фридонское время"
       }
     ]

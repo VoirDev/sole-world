@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "체코"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Tchéquia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Chéquia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Tsjechië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Češka"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "چک"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Tschechien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Chequia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Tchéquie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "チェコ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Cechia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "捷克"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Çekya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Чехия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Чехія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Czechy"
     }
   ],

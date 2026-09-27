@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "코스타리카"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Costa Rica"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Costa Rica"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Costa Rica"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kostarika"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کاستاریکا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Costa Rica"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Costa Rica"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Costa Rica"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "コスタリカ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Costa Rica"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "哥斯达黎加"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kosta Rika"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Коста-Рика"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Коста-Рика"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kostaryka"
     }
   ],

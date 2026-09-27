@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "de",
+    "languageId": "de",
+    "name": "German",
+    "nativeName": "Deutsch",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "독일어"
+      },
+      {
+        "locale": "pt",
+        "name": "Alemão"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Alemão"
+      },
+      {
+        "locale": "nl",
+        "name": "Duits"
+      },
+      {
+        "locale": "hr",
+        "name": "Njemački"
+      },
+      {
+        "locale": "fa",
+        "name": "آلمانی"
+      },
+      {
+        "locale": "de",
+        "name": "Deutsch"
+      },
+      {
+        "locale": "es",
+        "name": "Alemán"
+      },
+      {
+        "locale": "fr",
+        "name": "Allemand"
+      },
+      {
+        "locale": "ja",
+        "name": "ドイツ語"
+      },
+      {
+        "locale": "it",
+        "name": "Tedesco"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "德语"
+      },
+      {
+        "locale": "tr",
+        "name": "Almanca"
+      },
+      {
+        "locale": "ru",
+        "name": "Немецкий"
+      },
+      {
+        "locale": "uk",
+        "name": "Німецька"
+      },
+      {
+        "locale": "pl",
+        "name": "Niemiecki"
+      }
+    ]
+  },
+  {
+    "id": "es",
+    "languageId": "es",
+    "name": "Spanish",
+    "nativeName": "Español",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "스페인어"
+      },
+      {
+        "locale": "pt",
+        "name": "Espanhol"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Espanhol"
+      },
+      {
+        "locale": "nl",
+        "name": "Spaans"
+      },
+      {
+        "locale": "hr",
+        "name": "Španjolski"
+      },
+      {
+        "locale": "fa",
+        "name": "اسپانیایی"
+      },
+      {
+        "locale": "de",
+        "name": "Spanisch"
+      },
+      {
+        "locale": "es",
+        "name": "Español"
+      },
+      {
+        "locale": "fr",
+        "name": "Espagnol"
+      },
+      {
+        "locale": "ja",
+        "name": "スペイン語"
+      },
+      {
+        "locale": "it",
+        "name": "Spagnolo"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "西班牙语"
+      },
+      {
+        "locale": "tr",
+        "name": "İspanyolca"
+      },
+      {
+        "locale": "ru",
+        "name": "Испанский"
+      },
+      {
+        "locale": "uk",
+        "name": "Іспанська"
+      },
+      {
+        "locale": "pl",
+        "name": "Hiszpański"
+      }
+    ]
+  },
+  {
+    "id": "fa",
+    "languageId": "fa",
+    "name": "Persian",
+    "nativeName": "فارسی",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "페르시아어"
+      },
+      {
+        "locale": "pt",
+        "name": "Persa"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Persa"
+      },
+      {
+        "locale": "nl",
+        "name": "Perzisch"
+      },
+      {
+        "locale": "hr",
+        "name": "Perzijski"
+      },
+      {
+        "locale": "fa",
+        "name": "فارسی"
+      },
+      {
+        "locale": "de",
+        "name": "Persisch"
+      },
+      {
+        "locale": "es",
+        "name": "Persa"
+      },
+      {
+        "locale": "fr",
+        "name": "Persan"
+      },
+      {
+        "locale": "ja",
+        "name": "ペルシア語"
+      },
+      {
+        "locale": "it",
+        "name": "Persiano"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "波斯语"
+      },
+      {
+        "locale": "tr",
+        "name": "Farsça"
+      },
+      {
+        "locale": "ru",
+        "name": "Персидский"
+      },
+      {
+        "locale": "uk",
+        "name": "Перська"
+      },
+      {
+        "locale": "pl",
+        "name": "Perski"
+      }
+    ]
+  },
+  {
+    "id": "fr",
+    "languageId": "fr",
+    "name": "French",
+    "nativeName": "Français",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "프랑스어"
+      },
+      {
+        "locale": "pt",
+        "name": "Francês"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Francês"
+      },
+      {
+        "locale": "nl",
+        "name": "Frans"
+      },
+      {
+        "locale": "hr",
+        "name": "Francuski"
+      },
+      {
+        "locale": "fa",
+        "name": "فرانسوی"
+      },
+      {
+        "locale": "de",
+        "name": "Französisch"
+      },
+      {
+        "locale": "es",
+        "name": "Francés"
+      },
+      {
+        "locale": "fr",
+        "name": "Français"
+      },
+      {
+        "locale": "ja",
+        "name": "フランス語"
+      },
+      {
+        "locale": "it",
+        "name": "Francese"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "法语"
+      },
+      {
+        "locale": "tr",
+        "name": "Fransızca"
+      },
+      {
+        "locale": "ru",
+        "name": "Французский"
+      },
+      {
+        "locale": "uk",
+        "name": "Французька"
+      },
+      {
+        "locale": "pl",
+        "name": "Francuski"
+      }
+    ]
+  },
+  {
+    "id": "hr",
+    "languageId": "hr",
+    "name": "Croatian",
+    "nativeName": "Hrvatski",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "크로아티아어"
+      },
+      {
+        "locale": "pt",
+        "name": "Croata"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Croata"
+      },
+      {
+        "locale": "nl",
+        "name": "Kroatisch"
+      },
+      {
+        "locale": "hr",
+        "name": "Hrvatski"
+      },
+      {
+        "locale": "fa",
+        "name": "کروات"
+      },
+      {
+        "locale": "de",
+        "name": "Kroatisch"
+      },
+      {
+        "locale": "es",
+        "name": "Croata"
+      },
+      {
+        "locale": "fr",
+        "name": "Croate"
+      },
+      {
+        "locale": "ja",
+        "name": "クロアチア語"
+      },
+      {
+        "locale": "it",
+        "name": "Croato"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "克罗地亚语"
+      },
+      {
+        "locale": "tr",
+        "name": "Hırvatça"
+      },
+      {
+        "locale": "ru",
+        "name": "Хорватский"
+      },
+      {
+        "locale": "uk",
+        "name": "Хорватська"
+      },
+      {
+        "locale": "pl",
+        "name": "Chorwacki"
+      }
+    ]
+  },
+  {
+    "id": "it",
+    "languageId": "it",
+    "name": "Italian",
+    "nativeName": "Italiano",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "이탈리아어"
+      },
+      {
+        "locale": "pt",
+        "name": "Italiano"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Italiano"
+      },
+      {
+        "locale": "nl",
+        "name": "Italiaans"
+      },
+      {
+        "locale": "hr",
+        "name": "Talijanski"
+      },
+      {
+        "locale": "fa",
+        "name": "ایتالیایی"
+      },
+      {
+        "locale": "de",
+        "name": "Italienisch"
+      },
+      {
+        "locale": "es",
+        "name": "Italiano"
+      },
+      {
+        "locale": "fr",
+        "name": "Italien"
+      },
+      {
+        "locale": "ja",
+        "name": "イタリア語"
+      },
+      {
+        "locale": "it",
+        "name": "Italiano"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "意大利语"
+      },
+      {
+        "locale": "tr",
+        "name": "İtalyanca"
+      },
+      {
+        "locale": "ru",
+        "name": "Итальянский"
+      },
+      {
+        "locale": "uk",
+        "name": "Італійська"
+      },
+      {
+        "locale": "pl",
+        "name": "Włoski"
+      }
+    ]
+  },
+  {
+    "id": "ja",
+    "languageId": "ja",
+    "name": "Japanese",
+    "nativeName": "日本語",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "일본어"
+      },
+      {
+        "locale": "pt",
+        "name": "Japonês"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Japonês"
+      },
+      {
+        "locale": "nl",
+        "name": "Japans"
+      },
+      {
+        "locale": "hr",
+        "name": "Japanski"
+      },
+      {
+        "locale": "fa",
+        "name": "ژاپنی"
+      },
+      {
+        "locale": "de",
+        "name": "Japanisch"
+      },
+      {
+        "locale": "es",
+        "name": "Japonés"
+      },
+      {
+        "locale": "fr",
+        "name": "Japonais"
+      },
+      {
+        "locale": "ja",
+        "name": "日本語"
+      },
+      {
+        "locale": "it",
+        "name": "Giapponese"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "日语"
+      },
+      {
+        "locale": "tr",
+        "name": "Japonca"
+      },
+      {
+        "locale": "ru",
+        "name": "Японский"
+      },
+      {
+        "locale": "uk",
+        "name": "Японська"
+      },
+      {
+        "locale": "pl",
+        "name": "Japoński"
+      }
+    ]
+  },
+  {
+    "id": "ko",
+    "languageId": "ko",
+    "name": "Korean",
+    "nativeName": "한국어",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "한국어"
+      },
+      {
+        "locale": "pt",
+        "name": "Coreano"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Coreano"
+      },
+      {
+        "locale": "nl",
+        "name": "Koreaans"
+      },
+      {
+        "locale": "hr",
+        "name": "Korejski"
+      },
+      {
+        "locale": "fa",
+        "name": "کره‌ای"
+      },
+      {
+        "locale": "de",
+        "name": "Koreanisch"
+      },
+      {
+        "locale": "es",
+        "name": "Coreano"
+      },
+      {
+        "locale": "fr",
+        "name": "Coréen"
+      },
+      {
+        "locale": "ja",
+        "name": "韓国語"
+      },
+      {
+        "locale": "it",
+        "name": "Coreano"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "韩语"
+      },
+      {
+        "locale": "tr",
+        "name": "Korece"
+      },
+      {
+        "locale": "ru",
+        "name": "Корейский"
+      },
+      {
+        "locale": "uk",
+        "name": "Корейська"
+      },
+      {
+        "locale": "pl",
+        "name": "Koreański"
+      }
+    ]
+  },
+  {
+    "id": "nl",
+    "languageId": "nl",
+    "name": "Dutch",
+    "nativeName": "Nederlands",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "네덜란드어"
+      },
+      {
+        "locale": "pt",
+        "name": "Holandês"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Holandês"
+      },
+      {
+        "locale": "nl",
+        "name": "Nederlands"
+      },
+      {
+        "locale": "hr",
+        "name": "Nizozemski"
+      },
+      {
+        "locale": "fa",
+        "name": "هلندی"
+      },
+      {
+        "locale": "de",
+        "name": "Niederländisch"
+      },
+      {
+        "locale": "es",
+        "name": "Neerlandés"
+      },
+      {
+        "locale": "fr",
+        "name": "Néerlandais"
+      },
+      {
+        "locale": "ja",
+        "name": "オランダ語"
+      },
+      {
+        "locale": "it",
+        "name": "Olandese"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "荷兰语"
+      },
+      {
+        "locale": "tr",
+        "name": "Felemenkçe"
+      },
+      {
+        "locale": "ru",
+        "name": "Нидерландский"
+      },
+      {
+        "locale": "uk",
+        "name": "Нідерландська"
+      },
+      {
+        "locale": "pl",
+        "name": "Niderlandzki"
+      }
+    ]
+  },
+  {
+    "id": "pl",
+    "languageId": "pl",
+    "name": "Polish",
+    "nativeName": "Polski",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "폴란드어"
+      },
+      {
+        "locale": "pt",
+        "name": "Polonês"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Polonês"
+      },
+      {
+        "locale": "nl",
+        "name": "Pools"
+      },
+      {
+        "locale": "hr",
+        "name": "Poljski"
+      },
+      {
+        "locale": "fa",
+        "name": "لهستانی"
+      },
+      {
+        "locale": "de",
+        "name": "Polnisch"
+      },
+      {
+        "locale": "es",
+        "name": "Polaco"
+      },
+      {
+        "locale": "fr",
+        "name": "Polonais"
+      },
+      {
+        "locale": "ja",
+        "name": "ポーランド語"
+      },
+      {
+        "locale": "it",
+        "name": "Polacco"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "波兰语"
+      },
+      {
+        "locale": "tr",
+        "name": "Lehçe"
+      },
+      {
+        "locale": "ru",
+        "name": "Польский"
+      },
+      {
+        "locale": "uk",
+        "name": "Польська"
+      },
+      {
+        "locale": "pl",
+        "name": "Polski"
+      }
+    ]
+  },
+  {
+    "id": "pt",
+    "languageId": "pt",
+    "name": "Portuguese",
+    "nativeName": "Português",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "포르투갈어"
+      },
+      {
+        "locale": "pt",
+        "name": "Português"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Português"
+      },
+      {
+        "locale": "nl",
+        "name": "Portugees"
+      },
+      {
+        "locale": "hr",
+        "name": "Portugalski"
+      },
+      {
+        "locale": "fa",
+        "name": "پرتغالی"
+      },
+      {
+        "locale": "de",
+        "name": "Portugiesisch"
+      },
+      {
+        "locale": "es",
+        "name": "Portugués"
+      },
+      {
+        "locale": "fr",
+        "name": "Portugais"
+      },
+      {
+        "locale": "ja",
+        "name": "ポルトガル語"
+      },
+      {
+        "locale": "it",
+        "name": "Portoghese"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "葡萄牙语"
+      },
+      {
+        "locale": "tr",
+        "name": "Portekizce"
+      },
+      {
+        "locale": "ru",
+        "name": "Португальский"
+      },
+      {
+        "locale": "uk",
+        "name": "Португальська"
+      },
+      {
+        "locale": "pl",
+        "name": "Portugalski"
+      }
+    ]
+  },
+  {
+    "id": "pt-BR",
+    "languageId": "pt",
+    "name": "Portuguese (Brazil)",
+    "nativeName": "Português (Brasil)",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "포르투갈어(브라질)"
+      },
+      {
+        "locale": "pt",
+        "name": "Português (Brasil)"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Português (Brasil)"
+      },
+      {
+        "locale": "nl",
+        "name": "Portugees (Brazilië)"
+      },
+      {
+        "locale": "hr",
+        "name": "Portugalski (Brazil)"
+      },
+      {
+        "locale": "fa",
+        "name": "پرتغالی (برزیل)"
+      },
+      {
+        "locale": "de",
+        "name": "Portugiesisch (Brasilien)"
+      },
+      {
+        "locale": "es",
+        "name": "Portugués (Brasil)"
+      },
+      {
+        "locale": "fr",
+        "name": "Portugais (Brésil)"
+      },
+      {
+        "locale": "ja",
+        "name": "ポルトガル語 (ブラジル)"
+      },
+      {
+        "locale": "it",
+        "name": "Portoghese (Brasile)"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "葡萄牙语（巴西）"
+      },
+      {
+        "locale": "tr",
+        "name": "Portekizce (Brezilya)"
+      },
+      {
+        "locale": "ru",
+        "name": "Португальский (Бразилия)"
+      },
+      {
+        "locale": "uk",
+        "name": "Португальська (Бразилія)"
+      },
+      {
+        "locale": "pl",
+        "name": "Portugalski (Brazylia)"
+      }
+    ]
+  },
+  {
+    "id": "ru",
+    "languageId": "ru",
+    "name": "Russian",
+    "nativeName": "Русский",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "러시아어"
+      },
+      {
+        "locale": "pt",
+        "name": "Russo"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Russo"
+      },
+      {
+        "locale": "nl",
+        "name": "Russisch"
+      },
+      {
+        "locale": "hr",
+        "name": "Ruski"
+      },
+      {
+        "locale": "fa",
+        "name": "روسی"
+      },
+      {
+        "locale": "de",
+        "name": "Russisch"
+      },
+      {
+        "locale": "es",
+        "name": "Ruso"
+      },
+      {
+        "locale": "fr",
+        "name": "Russe"
+      },
+      {
+        "locale": "ja",
+        "name": "ロシア語"
+      },
+      {
+        "locale": "it",
+        "name": "Russo"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "俄语"
+      },
+      {
+        "locale": "tr",
+        "name": "Rusça"
+      },
+      {
+        "locale": "ru",
+        "name": "Русский"
+      },
+      {
+        "locale": "uk",
+        "name": "Російська"
+      },
+      {
+        "locale": "pl",
+        "name": "Rosyjski"
+      }
+    ]
+  },
+  {
+    "id": "tr",
+    "languageId": "tr",
+    "name": "Turkish",
+    "nativeName": "Türkçe",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "튀르키예어"
+      },
+      {
+        "locale": "pt",
+        "name": "Turco"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Turco"
+      },
+      {
+        "locale": "nl",
+        "name": "Turks"
+      },
+      {
+        "locale": "hr",
+        "name": "Turski"
+      },
+      {
+        "locale": "fa",
+        "name": "ترکی استانبولی"
+      },
+      {
+        "locale": "de",
+        "name": "Türkisch"
+      },
+      {
+        "locale": "es",
+        "name": "Turco"
+      },
+      {
+        "locale": "fr",
+        "name": "Turc"
+      },
+      {
+        "locale": "ja",
+        "name": "トルコ語"
+      },
+      {
+        "locale": "it",
+        "name": "Turco"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "土耳其语"
+      },
+      {
+        "locale": "tr",
+        "name": "Türkçe"
+      },
+      {
+        "locale": "ru",
+        "name": "Турецкий"
+      },
+      {
+        "locale": "uk",
+        "name": "Турецька"
+      },
+      {
+        "locale": "pl",
+        "name": "Turecki"
+      }
+    ]
+  },
+  {
+    "id": "uk",
+    "languageId": "uk",
+    "name": "Ukrainian",
+    "nativeName": "Українська",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "우크라이나어"
+      },
+      {
+        "locale": "pt",
+        "name": "Ucraniano"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Ucraniano"
+      },
+      {
+        "locale": "nl",
+        "name": "Oekraïens"
+      },
+      {
+        "locale": "hr",
+        "name": "Ukrajinski"
+      },
+      {
+        "locale": "fa",
+        "name": "اوکراینی"
+      },
+      {
+        "locale": "de",
+        "name": "Ukrainisch"
+      },
+      {
+        "locale": "es",
+        "name": "Ucraniano"
+      },
+      {
+        "locale": "fr",
+        "name": "Ukrainien"
+      },
+      {
+        "locale": "ja",
+        "name": "ウクライナ語"
+      },
+      {
+        "locale": "it",
+        "name": "Ucraino"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "乌克兰语"
+      },
+      {
+        "locale": "tr",
+        "name": "Ukraynaca"
+      },
+      {
+        "locale": "ru",
+        "name": "Украинский"
+      },
+      {
+        "locale": "uk",
+        "name": "Українська"
+      },
+      {
+        "locale": "pl",
+        "name": "Ukraiński"
+      }
+    ]
+  },
+  {
+    "id": "zh-CN",
+    "languageId": "zh",
+    "name": "Chinese (Simplified)",
+    "nativeName": "中文（简体）",
+    "translations": [
+      {
+        "locale": "ko",
+        "name": "중국어(간체)"
+      },
+      {
+        "locale": "pt",
+        "name": "Chinês (simplificado)"
+      },
+      {
+        "locale": "pt-BR",
+        "name": "Chinês (simplificado)"
+      },
+      {
+        "locale": "nl",
+        "name": "Chinees (vereenvoudigd)"
+      },
+      {
+        "locale": "hr",
+        "name": "Kineski (pojednostavljeno pismo)"
+      },
+      {
+        "locale": "fa",
+        "name": "چینی (ساده‌شده)"
+      },
+      {
+        "locale": "de",
+        "name": "Chinesisch (Vereinfacht)"
+      },
+      {
+        "locale": "es",
+        "name": "Chino (simplificado)"
+      },
+      {
+        "locale": "fr",
+        "name": "Chinois (simplifié)"
+      },
+      {
+        "locale": "ja",
+        "name": "中国語 (簡体字)"
+      },
+      {
+        "locale": "it",
+        "name": "Cinese (semplificato)"
+      },
+      {
+        "locale": "zh-CN",
+        "name": "中文（简体）"
+      },
+      {
+        "locale": "tr",
+        "name": "Çince (Basitleştirilmiş)"
+      },
+      {
+        "locale": "ru",
+        "name": "Китайский (упрощенная)"
+      },
+      {
+        "locale": "uk",
+        "name": "Китайська (спрощена)"
+      },
+      {
+        "locale": "pl",
+        "name": "Chiński (uproszczone)"
+      }
+    ]
+  }
+]

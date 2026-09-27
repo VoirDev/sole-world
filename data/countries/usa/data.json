@@ -52,67 +52,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "미국"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Estados Unidos"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Estados Unidos"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Verenigde Staten"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sjedinjene Američke Države"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ایالات متحده آمریکا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Vereinigte Staaten von Amerika"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Estados Unidos"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "États-Unis"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アメリカ合衆国"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Stati Uniti d'America"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "美国"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Amerika Birleşik Devletleri"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Соединенные Штаты"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сполучені Штати"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Stany Zjednoczone"
     }
   ],

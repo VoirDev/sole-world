@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "세네갈"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Senegal"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Senegal"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Senegal"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Senegal"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سنگال"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Senegal"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Senegal"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Sénégal"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "セネガル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Senegal"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "塞内加尔"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Senegal"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сенегал"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сенегал"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Senegal"
     }
   ],

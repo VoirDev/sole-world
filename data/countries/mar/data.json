@@ -28,67 +28,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "모로코"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Marrocos"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Marrocos"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Marokko"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Maroko"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مراکش"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Marokko"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Marruecos"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Maroc"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "モロッコ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Marocco"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "摩洛哥"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Fas"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Марокко"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Марокко"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Maroko"
     }
   ],

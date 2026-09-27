@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "세인트빈센트 그레나딘"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "São Vicente e Granadinas"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "São Vicente e Granadinas"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Saint Vincent en de Grenadines"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sveti Vincent i Grenadini"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سنت وینسنت و گرنادین"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Saint Vincent und die Grenadinen"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "San Vicente y las Granadinas"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Saint-Vincent-et-les Grenadines"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "セントビンセントおよびグレナディーン諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Saint Vincent e Grenadine"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "圣文森特和格林纳丁斯"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Saint Vincent ve Grenadinler"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сент-Винсент и Гренадины"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сент-Вінсент і Гренадіни"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Saint Vincent i Grenadyny"
     }
   ],

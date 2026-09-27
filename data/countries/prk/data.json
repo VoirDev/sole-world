@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "북한"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Coreia do Norte"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Coreia do Norte"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Noord-Korea"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sjeverna Koreja"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کرهٔ شمالی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Nordkorea"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Corea del Norte"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Corée du Nord"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "北朝鮮"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Corea del Nord"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "朝鲜"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kuzey Kore"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Северная Корея"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Північна Корея"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Korea Północna"
     }
   ],

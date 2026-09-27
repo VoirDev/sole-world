@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "상투메 프린시페"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "São Tomé e Príncipe"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "São Tomé e Príncipe"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Sao Tomé en Principe"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sveti Toma i Princip"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سائوتومه و پرینسیپ"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "São Tomé und Príncipe"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Santo Tomé y Príncipe"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Sao Tomé-et-Principe"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "サントメ・プリンシペ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "São Tomé e Príncipe"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "圣多美和普林西比"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Sao Tome ve Principe"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сан-Томе и Принсипи"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сан-Томе і Принсіпі"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspy Świętego Tomasza i Książęca"
     }
   ],

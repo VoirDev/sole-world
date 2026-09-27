@@ -31,7 +31,7 @@ class CityStore(dataset: RawDataset) {
                     countryId = country.id,
                     name = LocalizedName.of(
                         base = json.name,
-                        translations = json.translations.map { it.languageCode to it.name },
+                        translations = json.translations.map { it.locale to it.name },
                     ),
                     latitude = json.latitude,
                     longitude = json.longitude,

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "투발루"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Tuvalu"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Tuvalu"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Tuvalu"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Tuvalu"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "تووالو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Tuvalu"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Tuvalu"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Tuvalu"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ツバル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Tuvalu"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "图瓦卢"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Tuvalu"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Тувалу"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Тувалу"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Tuvalu"
     }
   ],

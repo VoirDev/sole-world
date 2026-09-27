@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "코모로"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Comores"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Comores"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Comoren"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Komori"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کومور"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Komoren"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Comoras"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Comores"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "コモロ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Comore"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "科摩罗"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Komorlar"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Коморские острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Коморські острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Komory"
     }
   ],

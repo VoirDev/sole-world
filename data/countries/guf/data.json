@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "프랑스령 기아나"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Guiana Francesa"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Guiana Francesa"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Frans-Guyana"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Francuska Gvajana"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گویان فرانسه"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Französisch-Guayana"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Guayana Francesa"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Guyane française"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "フランス領ギアナ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Guyana Francese"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "法属圭亚那"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Fransız Guyanası"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Французская Гвиана"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Французька Гвіана"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Gujana Francuska"
     }
   ],

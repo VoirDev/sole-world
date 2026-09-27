@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "네팔"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Nepal"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Nepal"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Nepal"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Nepal"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "نپال"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Nepal"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Nepal"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Népal"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ネパール"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Nepal"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "尼泊尔"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Nepal"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Непал"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Непал"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Nepal"
     }
   ],

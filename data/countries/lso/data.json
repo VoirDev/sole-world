@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "레소토"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Lesoto"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Lesoto"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Lesotho"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Lesoto"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "لسوتو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Lesotho"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Lesoto"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Lesotho"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "レソト"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Lesotho"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "莱索托"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Lesotho"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Лесото"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Лесото"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Lesotho"
     }
   ],

@@ -4,11 +4,11 @@ import kotlinx.serialization.Serializable
 
 /**
  * Localized timezone labels read from seed data.
- * @property languageCode Locale code for the translation.
+ * @property locale Locale the translation is written in, an id from `locales.json`.
  * @property tzName Localized timezone display name.
  */
 @Serializable
 data class TimezoneTranslationJSON(
-    val languageCode: String,
+    val locale: String,
     val tzName: String,
 )

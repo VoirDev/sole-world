@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "아르메니아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Armênia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Arménia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Armenië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Armenija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ارمنستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Armenien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Armenia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Arménie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アルメニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Armenia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "亚美尼亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Ermenistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Армения"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Вірменія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Armenia"
     }
   ],

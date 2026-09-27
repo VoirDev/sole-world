@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "말라위"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Malawi"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Malávi"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Malawi"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Malavi"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مالاوی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Malawi"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Malaui"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Malawi"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "マラウイ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Malawi"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "马拉维"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Malavi"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Малави"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Малаві"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Malawi"
     }
   ],

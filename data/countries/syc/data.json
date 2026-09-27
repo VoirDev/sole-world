@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "세이셸"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Seicheles"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Seicheles"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Seychellen"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sejšeli"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سیشل"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Seychellen"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Seychelles"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Seychelles"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "セーシェル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Seychelles"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "塞舌尔"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Seyşeller"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сейшельские острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сейшельські острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Seszele"
     }
   ],

@@ -26,67 +26,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "지브롤터"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Gibraltar"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Gibraltar"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Gibraltar"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Gibraltar"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جبل‌الطارق"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Gibraltar"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Gibraltar"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Gibraltar"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ジブラルタル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Gibilterra"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "直布罗陀"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Cebelitarık"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гибралтар"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гібралтар"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Gibraltar"
     }
   ],

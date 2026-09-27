@@ -4,11 +4,11 @@ import kotlinx.serialization.Serializable
 
 /**
  * Localized central bank name read from seed data.
- * @property languageCode Locale code for the translation.
+ * @property locale Locale the translation is written in, an id from `locales.json`.
  * @property name Localized central bank name.
  */
 @Serializable
 data class CentralBankTranslationJSON(
-    val languageCode: String,
+    val locale: String,
     val name: String,
 )

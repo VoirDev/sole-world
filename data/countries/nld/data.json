@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "네덜란드"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Países Baixos"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Países Baixos"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Nederland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Nizozemska"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "هلند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Niederlande"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Países Bajos"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Pays-Bas"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "オランダ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Paesi Bassi"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "荷兰"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Hollanda"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Нидерланды"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Нідерланди"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Holandia"
     }
   ],

@@ -26,67 +26,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "부룬디"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Burundi"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Burúndi"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Burundi"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Burundi"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بوروندی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Burundi"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Burundi"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Burundi"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ブルンジ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Burundi"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "布隆迪"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Burundi"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Бурунди"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Бурунді"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Burundi"
     }
   ],

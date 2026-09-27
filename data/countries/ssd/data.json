@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "남수단"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Sudão do Sul"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Sudão do Sul"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Zuid-Soedan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Južni Sudan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سودان جنوبی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Südsudan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Sudán del Sur"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Soudan du Sud"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "南スーダン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Sud Sudan"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "南苏丹"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Güney Sudan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Южный Судан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Південний Судан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Sudan Południowy"
     }
   ],

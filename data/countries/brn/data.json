@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "브루나이"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Brunei"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Brunei"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Brunei"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Brunej"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "برونئی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Brunei"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Brunéi"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Brunei"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ブルネイ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Brunei"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "文莱"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Brunei"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Бруней"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Бруней"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Brunei"
     }
   ],

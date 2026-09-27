@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "크리스마스 섬"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilha Christmas"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilha do Natal"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Christmaseiland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Božićni otok"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزیرهٔ کریسمس"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Weihnachtsinsel"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Isla de Navidad"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Île Christmas"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "クリスマス島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isola di Natale"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "圣诞岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Christmas Adası"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Остров Рождества"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Острів Різдва"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspa Bożego Narodzenia"
     }
   ],

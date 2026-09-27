@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "에스토니아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Estônia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Estónia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Estland"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Estonija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "استونی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Estland"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Estonia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Estonie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "エストニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Estonia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "爱沙尼亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Estonya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Эстония"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Естонія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Estonia"
     }
   ],

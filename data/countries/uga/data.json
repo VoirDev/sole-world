@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "우간다"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Uganda"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Uganda"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Oeganda"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Uganda"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اوگاندا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Uganda"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Uganda"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Ouganda"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ウガンダ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Uganda"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "乌干达"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Uganda"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Уганда"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Уганда"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Uganda"
     }
   ],

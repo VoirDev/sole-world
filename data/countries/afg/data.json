@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "아프가니스탄"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Afeganistão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Afeganistão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Afghanistan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Afganistan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "افغانستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Afghanistan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Afganistán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Afghanistan"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アフガニスタン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Afghanistan"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "阿富汗"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Afganistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Афганистан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Афганістан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Afganistan"
     }
   ],

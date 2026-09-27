@@ -5,7 +5,7 @@
     "wikiDataId": "Q10",
     "translations": [
       {
-        "languageCode": "ru",
+        "locale": "ru",
         "name": "Тестовая Европа"
       }
     ],
@@ -16,7 +16,7 @@
         "wikiDataId": "Q20",
         "translations": [
           {
-            "languageCode": "ru",
+            "locale": "ru",
             "name": "Тестовый Север"
           }
         ]

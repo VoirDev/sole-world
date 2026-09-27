@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "오스트리아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Áustria"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Áustria"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Oostenrijk"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Austrija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اتریش"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Österreich"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Austria"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Autriche"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "オーストリア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Austria"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "奥地利"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Avusturya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Австрия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Австрія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Austria"
     }
   ],

@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "부탄"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Butão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Butão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Bhutan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Butan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بوتان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Bhutan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Bután"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Bhoutan"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ブータン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Bhutan"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "不丹"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Butan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Бутан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Бутан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Bhutan"
     }
   ],

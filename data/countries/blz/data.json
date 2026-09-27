@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "벨리즈"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Belize"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Belize"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Belize"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Belize"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "بلیز"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Belize"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Belice"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Belize"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ベリーズ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Belize"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "伯利兹"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Belize"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Белиз"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Беліз"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Belize"
     }
   ],

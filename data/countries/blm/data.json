@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "생바르텔레미"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "São Bartolomeu"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "São Bartolomeu"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Saint-Barthélemy"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Saint Barthélemy"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سن بارتلمی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Saint-Barthélemy"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "San Bartolomé"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Saint-Barthélemy"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "サン・バルテルミー"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Saint-Barthélemy"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "圣巴泰勒米"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Saint Barthélemy"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сен-Бартелеми"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сен-Бартелемі"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Saint-Barthélemy"
     }
   ],

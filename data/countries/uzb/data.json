@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "우즈베키스탄"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Uzbequistão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Usbequistão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Oezbekistan"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Uzbekistan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ازبکستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Usbekistan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Uzbekistán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Ouzbékistan"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ウズベキスタン"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Uzbekistan"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "乌兹别克斯坦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Özbekistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Узбекистан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Узбекистан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Uzbekistan"
     }
   ],

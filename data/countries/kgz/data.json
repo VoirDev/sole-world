@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "키르기스스탄"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Quirguistão"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Quirguizistão"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Kirgizië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Kirgistan"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "قرقیزستان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kirgisistan"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Kirguistán"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Kirghizstan"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "キルギス"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Kirghizistan"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "吉尔吉斯斯坦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kırgızistan"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Кыргызстан"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Киргизстан"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Kirgistan"
     }
   ],

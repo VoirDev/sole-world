@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "에콰도르"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Equador"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Equador"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Ecuador"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Ekvador"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "اکوادور"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Ecuador"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Ecuador"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Équateur"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "エクアドル"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Ecuador"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "厄瓜多尔"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Ekvador"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Эквадор"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Еквадор"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Ekwador"
     }
   ],

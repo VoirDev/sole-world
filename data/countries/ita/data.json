@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "이탈리아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Itália"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Itália"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Italië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Italija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "ایتالیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Italien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Italia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Italie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "イタリア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Italia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "意大利"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "İtalya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Италия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Італія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Włochy"
     }
   ],

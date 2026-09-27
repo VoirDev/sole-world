@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "리비아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Líbia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Líbia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Libië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Libija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "لیبی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Libyen"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Libia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Libye"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "リビア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Libia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "利比亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Libya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Ливия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Лівія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Libia"
     }
   ],

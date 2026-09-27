@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "북마케도니아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Macedônia do Norte"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Macedónia do Norte"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Noord-Macedonië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Sjeverna Makedonija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مقدونیهٔ شمالی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Nordmazedonien"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Macedonia del Norte"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Macédoine du Nord"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "北マケドニア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Macedonia del Nord"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "北马其顿"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Kuzey Makedonya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Северная Македония"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Північна Македонія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Macedonia Północna"
     }
   ],

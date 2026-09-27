@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "파나마"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Panamá"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Panamá"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Panama"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Panama"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "پاناما"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Panama"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Panamá"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Panama"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "パナマ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Panama"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "巴拿马"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Panama"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Панама"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Панама"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Panama"
     }
   ],

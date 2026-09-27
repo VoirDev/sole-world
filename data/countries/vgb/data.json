@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "영국령 버진아일랜드"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas Virgens Britânicas"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas Virgens Britânicas"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Britse Maagdeneilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Britanski Djevičanski Otoci"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر ویرجین بریتانیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Britische Jungferninseln"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Vírgenes Británicas"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Vierges britanniques"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "イギリス領ヴァージン諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Vergini Britanniche"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "英属维尔京群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Britanya Virjin Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Британские Виргинские острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Британські Віргінські острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Brytyjskie Wyspy Dziewicze"
     }
   ],

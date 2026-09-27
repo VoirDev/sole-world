@@ -6,10 +6,10 @@ import dev.voir.sole.world.api.country.CountryStore
 import dev.voir.sole.world.api.crypto.CryptoStore
 import dev.voir.sole.world.api.currency.CurrencyStore
 import dev.voir.sole.world.api.dataset.RawDataset
-import dev.voir.sole.world.api.dataset.index.LanguageNegotiation
 import dev.voir.sole.world.api.dataset.index.Pagination
 import dev.voir.sole.world.api.flag.FlagStore
 import dev.voir.sole.world.api.language.LanguageStore
+import dev.voir.sole.world.api.locale.LocaleStore
 import dev.voir.sole.world.api.mediaasset.MediaAssetStore
 import dev.voir.sole.world.api.region.RegionStore
 import dev.voir.sole.world.api.rest.IncludeSpec
@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController
 /**
  * Reports what this deployment serves.
  *
- * Clients use this to discover which dataset version they are talking to, which languages they may
+ * Clients use this to discover which dataset version they are talking to, which locales they may
  * ask for, and the limits every other endpoint applies — so those limits do not have to be
  * rediscovered by triggering `400`s.
  */
@@ -39,6 +39,7 @@ class MetaRestController(
     private val currencyStore: CurrencyStore,
     private val cryptoStore: CryptoStore,
     private val languageStore: LanguageStore,
+    private val localeStore: LocaleStore,
     private val regionStore: RegionStore,
     private val subregionStore: SubregionStore,
     private val centralBankStore: CentralBankStore,
@@ -55,7 +56,7 @@ class MetaRestController(
         val meta = Meta(
             datasetVersion = dataset.meta.version,
             datasetDate = dataset.meta.date,
-            supportedLanguages = LanguageNegotiation.supportedCodes,
+            supportedLocales = localeStore.negotiation.supportedIds,
             maxPageSize = Pagination.MAX_PAGE_SIZE,
             maxIncludedItems = IncludeSpec.MAX_INCLUDED_ITEMS,
             counts = mapOf(
@@ -63,6 +64,7 @@ class MetaRestController(
                 "currencies" to currencyStore.size,
                 "cryptos" to cryptoStore.size,
                 "languages" to languageStore.size,
+                "locales" to localeStore.size,
                 "regions" to regionStore.size,
                 "subregions" to subregionStore.size,
                 "centralBanks" to centralBankStore.size,

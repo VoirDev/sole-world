@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "올란드 제도"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Ilhas de Aland"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Ilhas de Aland"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Ålandeilanden"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Ålandski otoci"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جزایر آلاند"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Åland"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Islas Åland"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Îles Åland"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "オーランド諸島"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Isole Åland"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "奥兰群岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Åland Adaları"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Аландские острова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Аландські острови"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Wyspy Alandzkie"
     }
   ],

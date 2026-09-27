@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "몰타"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Malta"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Malta"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Malta"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Malta"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مالت"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Malta"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Malta"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Malte"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "マルタ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Malta"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "马耳他"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Malta"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Мальта"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Мальта"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Malta"
     }
   ],

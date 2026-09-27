@@ -119,6 +119,7 @@ Every resource follows the same shape, so learning one endpoint teaches the rest
 | `/v1/currencies` | `/{id}` | `/countries` `/central-banks` |
 | `/v1/cryptos` | `/{id}` | |
 | `/v1/languages` | `/{id}` | `/countries` |
+| `/v1/locales` | `/{id}` | |
 | `/v1/regions` | `/{id}` | `/subregions` `/countries` |
 | `/v1/subregions` | `/{id}` | `/countries` |
 | `/v1/central-banks` | `/{id}` | `/countries` `/currencies` |
@@ -127,7 +128,7 @@ Every resource follows the same shape, so learning one endpoint teaches the rest
 | `/v1/timezones` | `/{id}` | |
 | `/v1/flags` | `/{id}` | |
 | `/v1/media-assets` | `/{id}` | |
-| `/v1/meta` | | dataset version, supported languages, limits |
+| `/v1/meta` | | dataset version, supported locales, limits |
 
 `{id}` is the record's identifier, described [below](#identifiers). A few resources also resolve
 other standard codes: a country its alpha-3 and numeric codes, a currency its ISO 4217 numeric
@@ -216,6 +217,7 @@ this service.
 | Country | ISO 3166-1 alpha-2 code | `US` |
 | Currency | ISO 4217 alpha code | `EUR` |
 | Language | ISO 639-1 code | `fr` |
+| Locale | BCP 47 language tag | `pt-BR` |
 | Timezone | IANA timezone name | `Europe/Paris` |
 | State | country alpha-2 code and state code, joined by a hyphen | `US-CA` |
 | Cryptocurrency | alias | `btc` |
@@ -250,6 +252,7 @@ curl -H "X-API-KEY: $API_KEY" \
 | Country | `region` `subregion` `flag` `currencies` `languages` `timezones` `centralBanks` `states` |
 | Currency | `flag` `countries` `centralBanks` `replacedBy` |
 | Language | `flag` `countries` |
+| Locale | `language` |
 | Region | `subregions` `countries` |
 | Subregion | `region` `countries` |
 | CentralBank | `countries` `currencies` |
@@ -356,12 +359,14 @@ city listings do not.
 ## Localization
 
 Translated fields are selected from the standard `Accept-Language` request header. If the header is
-missing, asks for English, or cannot be resolved to a supported translation language, the API returns
+missing, asks for English, or cannot be resolved to a supported translation locale, the API returns
 the base English data.
 
-Supported translation languages:
+Translations are held per locale, a BCP 47 tag declared in `data/locales.json`. `GET /v1/locales`
+(or the `locales` GraphQL query) lists them with their names in the requested language and in their
+own, which is what a language picker needs. The bundled locales:
 
-| Code    | Language              |
+| Locale  | Language              |
 |---------|-----------------------|
 | `ko`    | Korean                |
 | `pt-BR` | Portuguese (Brazil)   |
@@ -390,9 +395,13 @@ curl http://localhost:18080/graphql \
   -d '{"query":"{ countriesByIds(ids: [\"US\", \"DE\"]) { id name region { name } currencies { iso3 name } } }"}'
 ```
 
-Region variants fall back to the base supported language when available. For example,
-`Accept-Language: de-DE` resolves to `de`, and `Accept-Language: pt-BR,pt;q=0.8` resolves to
-`pt-BR`. English headers such as `en` or `en-US` use the base English data.
+A tag that names no locale falls back to a locale of the same language, preferring the one spelled
+as the bare language: `Accept-Language: de-DE` resolves to `de`, `pt-PT` to `pt`, and `zh-TW` to
+`zh-CN`, while `pt-BR,pt;q=0.8` resolves to `pt-BR`. English headers such as `en` or `en-US` use the
+base English data.
+
+Every successful response names the locale it was written in with `Content-Language`, or `en` for the
+base data, so a client can tell a translation from a fallback.
 
 ## Quick Start With Docker Compose
 
@@ -783,8 +792,8 @@ first, then the code.
 
 Every cross-reference in the bundled data is verified when it is loaded — a flag's media assets, a
 currency's flag and successor, a coin's logo, a country's region, subregion, flag, currencies,
-timezones and languages, a central bank's countries and currencies — along with the uniqueness of
-every id. Anything that does not resolve fails startup with a message naming the rule and the rows,
+timezones and languages, a central bank's countries and currencies, every translation's locale and
+each locale's language — along with the uniqueness of every id. Anything that does not resolve fails startup with a message naming the rule and the rows,
 reporting everything it found at once so correcting the data is one pass.
 
 The dataset is immutable and read once, so this costs nothing per request and turns what used to be

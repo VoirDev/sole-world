@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "몰도바"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Moldávia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Moldávia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Moldavië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Moldavija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "مولداوی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Moldau"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Moldavia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Moldavie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "モルドバ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Moldavia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "摩尔多瓦"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Moldova"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Молдова"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Молдова"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Mołdawia"
     }
   ],

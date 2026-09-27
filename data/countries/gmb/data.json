@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "감비아"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Gâmbia"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Gâmbia"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Gambia"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Gambija"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گامبیا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Gambia"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Gambia"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Gambie"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "ガンビア"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Gambia"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "冈比亚"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Gambiya"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гамбия"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гамбія"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Gambia"
     }
   ],

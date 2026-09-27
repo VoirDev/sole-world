@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "과들루프"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Guadalupe"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Guadalupe"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Guadeloupe"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Gvadalupa"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "گوادلوپ"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Guadeloupe"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Guadalupe"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Guadeloupe"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "グアドループ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Guadalupa"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "瓜德罗普岛"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Guadeloupe"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Гваделупа"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Гваделупа"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Gwadelupa"
     }
   ],

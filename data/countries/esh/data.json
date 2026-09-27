@@ -25,67 +25,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "서사하라"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Saara Ocidental"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Saara Ocidental"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Westelijke Sahara"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Zapadna Sahara"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "صحرای غربی"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Westsahara"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Sáhara Occidental"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Sahara occidental"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "西サハラ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Sahara Occidentale"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "西撒哈拉"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Batı Sahra"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Западная Сахара"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Західна Сахара"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Sahara Zachodnia"
     }
   ],

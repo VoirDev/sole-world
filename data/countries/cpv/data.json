@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "카보베르데"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Cabo Verde"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Cabo Verde"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Kaapverdië"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Zelenortska Republika"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "کیپ‌ورد"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Kap Verde"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Cabo Verde"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Cap-Vert"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "カーボベルデ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Capo Verde"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "佛得角"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Cabo Verde"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Кабо-Верде"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Кабо-Верде"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Republika Zielonego Przylądka"
     }
   ],

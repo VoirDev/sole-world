@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "산마리노"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "San Marino"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "São Marinho"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "San Marino"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "San Marino"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سان‌مارینو"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "San Marino"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "San Marino"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Saint-Marin"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "サンマリノ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "San Marino"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "圣马力诺"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "San Marino"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сан-Марино"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сан-Марино"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "San Marino"
     }
   ],

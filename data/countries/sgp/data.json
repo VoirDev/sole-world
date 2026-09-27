@@ -27,67 +27,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "싱가포르"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Singapura"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Singapura"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Singapore"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Singapur"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "سنگاپور"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Singapur"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Singapur"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Singapour"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "シンガポール"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Singapore"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "新加坡"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Singapur"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Сингапур"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Сінгапур"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Singapur"
     }
   ],

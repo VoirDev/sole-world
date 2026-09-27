@@ -24,67 +24,67 @@
   "otherLanguageIds": [],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "안도라"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Andorra"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Andorra"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Andorra"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Andora"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "آندورا"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Andorra"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Andorra"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Andorre"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "アンドラ"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Andorra"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "安道尔"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Andorra"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Андорра"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Андорра"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Andora"
     }
   ],

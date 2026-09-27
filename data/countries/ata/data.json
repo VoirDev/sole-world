@@ -34,67 +34,67 @@
   ],
   "translations": [
     {
-      "languageCode": "ko",
+      "locale": "ko",
       "name": "남극 대륙"
     },
     {
-      "languageCode": "pt",
+      "locale": "pt",
       "name": "Antártida"
     },
     {
-      "languageCode": "pt-BR",
+      "locale": "pt-BR",
       "name": "Antártida"
     },
     {
-      "languageCode": "nl",
+      "locale": "nl",
       "name": "Antarctica"
     },
     {
-      "languageCode": "hr",
+      "locale": "hr",
       "name": "Antarktika"
     },
     {
-      "languageCode": "fa",
+      "locale": "fa",
       "name": "جنوبگان"
     },
     {
-      "languageCode": "de",
+      "locale": "de",
       "name": "Antarktis"
     },
     {
-      "languageCode": "es",
+      "locale": "es",
       "name": "Antártida"
     },
     {
-      "languageCode": "fr",
+      "locale": "fr",
       "name": "Antarctique"
     },
     {
-      "languageCode": "ja",
+      "locale": "ja",
       "name": "南極"
     },
     {
-      "languageCode": "it",
+      "locale": "it",
       "name": "Antartide"
     },
     {
-      "languageCode": "zh-CN",
+      "locale": "zh-CN",
       "name": "南极洲"
     },
     {
-      "languageCode": "tr",
+      "locale": "tr",
       "name": "Antarktika"
     },
     {
-      "languageCode": "ru",
+      "locale": "ru",
       "name": "Антарктида"
     },
     {
-      "languageCode": "uk",
+      "locale": "uk",
       "name": "Антарктика"
     },
     {
-      "languageCode": "pl",
+      "locale": "pl",
       "name": "Antarktyda"
     }
   ],
