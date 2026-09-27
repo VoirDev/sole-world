@@ -1,5 +1,5 @@
 {
-  "id": 76,
+  "id": "GF",
   "name": "French Guiana",
   "nativeName": "Guyane française",
   "iso2": "GF",
@@ -9,17 +9,17 @@
   "tld": ".gf",
   "latitude": 4,
   "longitude": -53,
-  "flagId": 169,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "gf",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2378
+    "America/Cayenne"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -49,7 +49,7 @@
     },
     {
       "languageCode": "de",
-      "name": "Französisch Guyana"
+      "name": "Französisch-Guayana"
     },
     {
       "languageCode": "es",
@@ -57,7 +57,7 @@
     },
     {
       "languageCode": "fr",
-      "name": "Guayane"
+      "name": "Guyane française"
     },
     {
       "languageCode": "ja",
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Guyana francese"
+      "name": "Guyana Francese"
     },
     {
       "languageCode": "zh-CN",
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Fransiz Guyanasi"
+      "name": "Fransız Guyanası"
     },
     {
       "languageCode": "ru",

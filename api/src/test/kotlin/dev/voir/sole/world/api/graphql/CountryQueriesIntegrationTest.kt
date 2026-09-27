@@ -13,7 +13,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(idOrCode: 1) {
+              country(id: "FD") {
                 id
                 name
                 nativeName
@@ -86,7 +86,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
             ),
             country.propertyNames().toSet(),
         )
-        assertEquals("1", country.at("/id").stringValue())
+        assertEquals("FD", country.at("/id").stringValue())
         assertEquals("Freedonia", country.at("/name").stringValue())
         assertEquals("Test Europe", country.at("/region/name").stringValue())
         assertEquals("Test Europe", country.at("/subregion/region/name").stringValue())
@@ -112,7 +112,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: countriesByIds(ids: [2, 1, 999]) {
+              requested: countriesByIds(ids: ["SY", "fd", "XX"]) {
                 id
                 name
                 region { id name }
@@ -123,7 +123,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         )
 
         assertNoErrors(response)
-        assertArrayValues(response.at("/data/requested"), "id", "1", "2")
+        assertArrayValues(response.at("/data/requested"), "id", "FD", "SY")
         assertArrayValues(response.at("/data/requested"), "name", "Freedonia", "Sylvania")
     }
 
@@ -164,17 +164,17 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
             """
             query {
               search: countries(query: "Freedonia") { items { id name } }
-              byRegion: countries(regionId: "10") { items { name } }
-              byCurrency: countries(currencyId: "101") { items { name } }
-              byLanguage: countries(languageId: "201") { items { name } }
-              byTimezone: countries(timezoneId: "301") { items { name } }
-              noMatch: countries(regionId: "999") { pageInfo { totalItems } }
+              byRegion: countries(regionId: "test-europe") { items { name } }
+              byCurrency: countries(currencyId: "FDC") { items { name } }
+              byLanguage: countries(languageId: "FD") { items { name } }
+              byTimezone: countries(timezoneId: "europe/freedonia") { items { name } }
+              noMatch: countries(regionId: "atlantis") { pageInfo { totalItems } }
             }
             """.trimIndent(),
         )
 
         assertNoErrors(response)
-        assertArrayValues(response.at("/data/search/items"), "id", "1")
+        assertArrayValues(response.at("/data/search/items"), "id", "FD")
         assertArrayValues(response.at("/data/search/items"), "name", "Freedonia")
         assertArrayValues(response.at("/data/byRegion/items"), "name", "Freedonia", "Sylvania")
         assertArrayValues(response.at("/data/byCurrency/items"), "name", "Freedonia")
@@ -206,7 +206,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(idOrCode: 1) {
+              country(id: "FD") {
                 currencies { iso3 }
                 languages { code }
                 states {
@@ -237,7 +237,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(idOrCode: 1) {
+              country(id: "FD") {
                 filteredStates: states(query: "South", page: { page: 0, size: 1 }) {
                   items { name }
                   pageInfo { page size totalItems totalPages hasNextPage hasPreviousPage }
@@ -262,29 +262,31 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     }
 
     @Test
-    fun `a country resolves by id and by either ISO code`() {
+    fun `a country resolves by its alpha-2 id and by its alpha-3 and numeric codes`() {
         val response = graphQL(
             """
             query {
-              byId: country(idOrCode: "1") { name }
-              byIso2: country(idOrCode: "FD") { name }
-              byIso3: country(idOrCode: "FRE") { name }
-              missing: country(idOrCode: "999") { id }
+              byId: country(id: "FD") { id }
+              byLowercaseId: country(id: "fd") { id }
+              byIso3: country(id: "FRE") { id }
+              byNumeric: country(id: "901") { id }
+              missing: country(id: "XX") { id }
             }
             """.trimIndent(),
         )
 
         assertNoErrors(response)
         val data = response["data"]
-        assertEquals("Freedonia", data.at("/byId/name").stringValue())
-        assertEquals("Freedonia", data.at("/byIso2/name").stringValue())
-        assertEquals("Freedonia", data.at("/byIso3/name").stringValue())
+        assertEquals("FD", data.at("/byId/id").stringValue())
+        assertEquals("FD", data.at("/byLowercaseId/id").stringValue())
+        assertEquals("FD", data.at("/byIso3/id").stringValue())
+        assertEquals("FD", data.at("/byNumeric/id").stringValue())
         assertTrue(isNullOrMissing(data["missing"]))
     }
 
     @Test
     fun `country query requires api access key`() {
-        val query = "{ countriesByIds(ids: [1]) { id } }"
+        val query = "{ countriesByIds(ids: [\"FD\"]) { id } }"
 
         val missingKey = graphQLResponse(query, apiKey = null)
         val invalidKey = graphQLResponse(query, apiKey = "wrong-key")
@@ -302,7 +304,7 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     @Test
     fun `country query accepts the api key as a bearer token`() {
         val response = graphQLResponse(
-            "{ countriesByIds(ids: [1]) { id } }",
+            "{ countriesByIds(ids: [\"FD\"]) { id } }",
             apiKey = null,
             bearerToken = ApiAccessKey.RAW,
         )

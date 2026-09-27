@@ -1,5 +1,5 @@
 {
-  "id": 109,
+  "id": "JP",
   "name": "Japan",
   "nativeName": "日本",
   "iso2": "JP",
@@ -9,17 +9,17 @@
   "tld": ".jp",
   "latitude": 36,
   "longitude": 138,
-  "flagId": 137,
-  "regionId": 3,
-  "subregionId": 12,
+  "flagId": "jp",
+  "regionId": "asia",
+  "subregionId": "eastern-asia",
   "currencyIds": [
-    904
+    "JPY"
   ],
   "timezoneIds": [
-    2418
+    "Asia/Tokyo"
   ],
   "officialLanguageIds": [
-    42
+    "ja"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 820,
+      "id": "JP-33",
       "name": "Okayama",
       "stateCode": "33",
       "latitude": 34.8963407,
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "id": 821,
+      "id": "JP-12",
       "name": "Chiba",
       "stateCode": "12",
       "latitude": 35.3354155,
@@ -742,7 +742,7 @@
       ]
     },
     {
-      "id": 822,
+      "id": "JP-44",
       "name": "Ōita",
       "stateCode": "44",
       "latitude": 33.1589299,
@@ -935,7 +935,7 @@
       ]
     },
     {
-      "id": 823,
+      "id": "JP-13",
       "name": "Tokyo",
       "stateCode": "13",
       "latitude": 35.6761919,
@@ -1387,7 +1387,7 @@
       ]
     },
     {
-      "id": 824,
+      "id": "JP-29",
       "name": "Nara",
       "stateCode": "29",
       "latitude": 34.2975528,
@@ -1545,7 +1545,7 @@
       ]
     },
     {
-      "id": 825,
+      "id": "JP-22",
       "name": "Shizuoka",
       "stateCode": "22",
       "latitude": 35.0929397,
@@ -1864,7 +1864,7 @@
       ]
     },
     {
-      "id": 826,
+      "id": "JP-32",
       "name": "Shimane",
       "stateCode": "32",
       "latitude": 35.1244094,
@@ -1987,7 +1987,7 @@
       ]
     },
     {
-      "id": 827,
+      "id": "JP-23",
       "name": "Aichi",
       "stateCode": "23",
       "latitude": 35.0182505,
@@ -2488,7 +2488,7 @@
       ]
     },
     {
-      "id": 828,
+      "id": "JP-34",
       "name": "Hiroshima",
       "stateCode": "34",
       "latitude": 34.8823408,
@@ -2709,7 +2709,7 @@
       ]
     },
     {
-      "id": 829,
+      "id": "JP-05",
       "name": "Akita",
       "stateCode": "05",
       "latitude": 40.1376293,
@@ -2909,7 +2909,7 @@
       ]
     },
     {
-      "id": 830,
+      "id": "JP-17",
       "name": "Ishikawa",
       "stateCode": "17",
       "latitude": 36.3260317,
@@ -3046,7 +3046,7 @@
       ]
     },
     {
-      "id": 831,
+      "id": "JP-28",
       "name": "Hyōgo",
       "stateCode": "28",
       "latitude": 34.8579518,
@@ -3428,7 +3428,7 @@
       ]
     },
     {
-      "id": 832,
+      "id": "JP-01",
       "name": "Hokkaidō",
       "stateCode": "01",
       "latitude": 43.2203266,
@@ -4006,7 +4006,7 @@
       ]
     },
     {
-      "id": 833,
+      "id": "JP-24",
       "name": "Mie",
       "stateCode": "24",
       "latitude": 33.8143901,
@@ -4213,7 +4213,7 @@
       ]
     },
     {
-      "id": 834,
+      "id": "JP-26",
       "name": "Kyōto",
       "stateCode": "26",
       "latitude": 35.1566609,
@@ -4392,7 +4392,7 @@
       ]
     },
     {
-      "id": 835,
+      "id": "JP-35",
       "name": "Yamaguchi",
       "stateCode": "35",
       "latitude": 34.2796769,
@@ -4550,7 +4550,7 @@
       ]
     },
     {
-      "id": 836,
+      "id": "JP-36",
       "name": "Tokushima",
       "stateCode": "36",
       "latitude": 33.9419655,
@@ -4680,7 +4680,7 @@
       ]
     },
     {
-      "id": 837,
+      "id": "JP-06",
       "name": "Yamagata",
       "stateCode": "06",
       "latitude": 38.5370564,
@@ -4880,7 +4880,7 @@
       ]
     },
     {
-      "id": 838,
+      "id": "JP-16",
       "name": "Toyama",
       "stateCode": "16",
       "latitude": 36.6958266,
@@ -5038,7 +5038,7 @@
       ]
     },
     {
-      "id": 839,
+      "id": "JP-02",
       "name": "Aomori",
       "stateCode": "02",
       "latitude": 40.7657077,
@@ -5196,7 +5196,7 @@
       ]
     },
     {
-      "id": 840,
+      "id": "JP-46",
       "name": "Kagoshima",
       "stateCode": "46",
       "latitude": 31.3911958,
@@ -5529,7 +5529,7 @@
       ]
     },
     {
-      "id": 841,
+      "id": "JP-15",
       "name": "Niigata",
       "stateCode": "15",
       "latitude": 37.5178386,
@@ -5862,7 +5862,7 @@
       ]
     },
     {
-      "id": 842,
+      "id": "JP-14",
       "name": "Kanagawa",
       "stateCode": "14",
       "latitude": 35.4913535,
@@ -6153,7 +6153,7 @@
       ]
     },
     {
-      "id": 843,
+      "id": "JP-20",
       "name": "Nagano",
       "stateCode": "20",
       "latitude": 36.1543941,
@@ -6444,7 +6444,7 @@
       ]
     },
     {
-      "id": 844,
+      "id": "JP-30",
       "name": "Wakayama",
       "stateCode": "30",
       "latitude": 33.9480914,
@@ -6567,7 +6567,7 @@
       ]
     },
     {
-      "id": 845,
+      "id": "JP-25",
       "name": "Shiga",
       "stateCode": "25",
       "latitude": 35.3292014,
@@ -6746,7 +6746,7 @@
       ]
     },
     {
-      "id": 846,
+      "id": "JP-43",
       "name": "Kumamoto",
       "stateCode": "43",
       "latitude": 32.8594427,
@@ -6946,7 +6946,7 @@
       ]
     },
     {
-      "id": 847,
+      "id": "JP-07",
       "name": "Fukushima",
       "stateCode": "07",
       "latitude": 37.3834373,
@@ -7167,7 +7167,7 @@
       ]
     },
     {
-      "id": 848,
+      "id": "JP-18",
       "name": "Fukui",
       "stateCode": "18",
       "latitude": 35.896227,
@@ -7311,7 +7311,7 @@
       ]
     },
     {
-      "id": 849,
+      "id": "JP-42",
       "name": "Nagasaki",
       "stateCode": "42",
       "latitude": 33.2488525,
@@ -7476,7 +7476,7 @@
       ]
     },
     {
-      "id": 850,
+      "id": "JP-31",
       "name": "Tottori",
       "stateCode": "31",
       "latitude": 35.3573161,
@@ -7522,7 +7522,7 @@
       ]
     },
     {
-      "id": 851,
+      "id": "JP-08",
       "name": "Ibaraki",
       "stateCode": "08",
       "latitude": 36.2193571,
@@ -8037,7 +8037,7 @@
       ]
     },
     {
-      "id": 852,
+      "id": "JP-19",
       "name": "Yamanashi",
       "stateCode": "19",
       "latitude": 35.6635113,
@@ -8209,7 +8209,7 @@
       ]
     },
     {
-      "id": 853,
+      "id": "JP-47",
       "name": "Okinawa",
       "stateCode": "47",
       "latitude": 26.1201911,
@@ -8395,7 +8395,7 @@
       ]
     },
     {
-      "id": 854,
+      "id": "JP-09",
       "name": "Tochigi",
       "stateCode": "09",
       "latitude": 36.6714739,
@@ -8637,7 +8637,7 @@
       ]
     },
     {
-      "id": 855,
+      "id": "JP-45",
       "name": "Miyazaki",
       "stateCode": "45",
       "latitude": 32.6036022,
@@ -8767,7 +8767,7 @@
       ]
     },
     {
-      "id": 856,
+      "id": "JP-03",
       "name": "Iwate",
       "stateCode": "03",
       "latitude": 39.5832989,
@@ -9002,7 +9002,7 @@
       ]
     },
     {
-      "id": 857,
+      "id": "JP-04",
       "name": "Miyagi",
       "stateCode": "04",
       "latitude": 38.630612,
@@ -9244,7 +9244,7 @@
       ]
     },
     {
-      "id": 858,
+      "id": "JP-21",
       "name": "Gifu",
       "stateCode": "21",
       "latitude": 35.7437491,
@@ -9500,7 +9500,7 @@
       ]
     },
     {
-      "id": 859,
+      "id": "JP-27",
       "name": "Ōsaka",
       "stateCode": "27",
       "latitude": 34.6413315,
@@ -9910,7 +9910,7 @@
       ]
     },
     {
-      "id": 860,
+      "id": "JP-11",
       "name": "Saitama",
       "stateCode": "11",
       "latitude": 35.9962513,
@@ -10502,7 +10502,7 @@
       ]
     },
     {
-      "id": 861,
+      "id": "JP-40",
       "name": "Fukuoka",
       "stateCode": "40",
       "latitude": 33.5662559,
@@ -10905,7 +10905,7 @@
       ]
     },
     {
-      "id": 862,
+      "id": "JP-10",
       "name": "Gunma",
       "stateCode": "10",
       "latitude": 36.5605388,
@@ -11133,7 +11133,7 @@
       ]
     },
     {
-      "id": 863,
+      "id": "JP-41",
       "name": "Saga",
       "stateCode": "41",
       "latitude": 33.3078371,
@@ -11256,7 +11256,7 @@
       ]
     },
     {
-      "id": 864,
+      "id": "JP-37",
       "name": "Kagawa",
       "stateCode": "37",
       "latitude": 34.2225915,
@@ -11372,7 +11372,7 @@
       ]
     },
     {
-      "id": 865,
+      "id": "JP-38",
       "name": "Ehime",
       "stateCode": "38",
       "latitude": 33.6025306,
@@ -11523,7 +11523,7 @@
       ]
     },
     {
-      "id": 4924,
+      "id": "JP-39",
       "name": "Kōchi",
       "stateCode": "39",
       "latitude": 33.2879161,

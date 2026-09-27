@@ -1,5 +1,5 @@
 {
-  "id": 14,
+  "id": "AU",
   "name": "Australia",
   "nativeName": "Australia",
   "iso2": "AU",
@@ -9,28 +9,28 @@
   "tld": ".au",
   "latitude": -27,
   "longitude": 133,
-  "flagId": 236,
-  "regionId": 5,
-  "subregionId": 19,
+  "flagId": "au",
+  "regionId": "oceania",
+  "subregionId": "australia-and-new-zealand",
   "currencyIds": [
-    844
+    "AUD"
   ],
   "timezoneIds": [
-    2257,
-    2258,
-    2259,
-    2260,
-    2262,
-    2263,
-    2264,
-    2265,
-    2266,
-    2267,
-    2268,
-    2269
+    "Antarctica/Macquarie",
+    "Australia/Adelaide",
+    "Australia/Brisbane",
+    "Australia/Broken_Hill",
+    "Australia/Darwin",
+    "Australia/Eucla",
+    "Australia/Hobart",
+    "Australia/Lindeman",
+    "Australia/Lord_Howe",
+    "Australia/Melbourne",
+    "Australia/Perth",
+    "Australia/Sydney"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -101,7 +101,7 @@
   ],
   "states": [
     {
-      "id": 3903,
+      "id": "AU-VIC",
       "name": "Victoria",
       "stateCode": "VIC",
       "latitude": -36.4856423,
@@ -5180,7 +5180,7 @@
       ]
     },
     {
-      "id": 3904,
+      "id": "AU-SA",
       "name": "South Australia",
       "stateCode": "SA",
       "latitude": -30.0002315,
@@ -8334,7 +8334,7 @@
       ]
     },
     {
-      "id": 3905,
+      "id": "AU-QLD",
       "name": "Queensland",
       "stateCode": "QLD",
       "latitude": -20.9175738,
@@ -14372,7 +14372,7 @@
       ]
     },
     {
-      "id": 3906,
+      "id": "AU-WA",
       "name": "Western Australia",
       "stateCode": "WA",
       "latitude": -27.6728168,
@@ -18156,7 +18156,7 @@
       ]
     },
     {
-      "id": 3907,
+      "id": "AU-ACT",
       "name": "Australian Capital Territory",
       "stateCode": "ACT",
       "latitude": -35.4734679,
@@ -18839,7 +18839,7 @@
       ]
     },
     {
-      "id": 3908,
+      "id": "AU-TAS",
       "name": "Tasmania",
       "stateCode": "TAS",
       "latitude": -41.4545196,
@@ -19844,7 +19844,7 @@
       ]
     },
     {
-      "id": 3909,
+      "id": "AU-NSW",
       "name": "New South Wales",
       "stateCode": "NSW",
       "latitude": -31.2532183,
@@ -28654,7 +28654,7 @@
       ]
     },
     {
-      "id": 3910,
+      "id": "AU-NT",
       "name": "Northern Territory",
       "stateCode": "NT",
       "latitude": -19.4914108,

@@ -1,6 +1,6 @@
 {
-  "id": 189,
-  "name": "Saint-Barthelemy",
+  "id": "BL",
+  "name": "Saint Barthélemy",
   "nativeName": "Saint-Barthélemy",
   "iso2": "BL",
   "iso3": "BLM",
@@ -9,17 +9,17 @@
   "tld": ".bl",
   "latitude": 18.5,
   "longitude": -63.41666666,
-  "flagId": 223,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "bl",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2551
+    "America/St_Barthelemy"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -37,7 +37,7 @@
     },
     {
       "languageCode": "nl",
-      "name": "Saint Barthélemy"
+      "name": "Saint-Barthélemy"
     },
     {
       "languageCode": "hr",
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "سن-بارتلمی"
+      "name": "سن بارتلمی"
     },
     {
       "languageCode": "de",
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Antille Francesi"
+      "name": "Saint-Barthélemy"
     },
     {
       "languageCode": "zh-CN",
@@ -85,7 +85,7 @@
     },
     {
       "languageCode": "pl",
-      "name": "Saint-Barthelemy"
+      "name": "Saint-Barthélemy"
     }
   ],
   "states": []

@@ -1,6 +1,6 @@
 [
   {
-    "id": 9001,
+    "id": "flag-fd-square",
     "type": "image",
     "key": "fd",
     "description": "Freedonia square flag",
@@ -31,7 +31,7 @@
     }
   },
   {
-    "id": 9002,
+    "id": "flag-fd-wide",
     "type": "image",
     "key": "fd",
     "description": "Freedonia wide flag",

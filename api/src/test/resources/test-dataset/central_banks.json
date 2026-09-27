@@ -1,16 +1,25 @@
 [
   {
-    "id": 401,
+    "id": "freedonian-reserve",
     "name": "Freedonian Reserve",
     "nativeName": "Reserve Native",
     "websiteURL": "https://bank.example.test",
     "establishmentYear": 1950,
-    "translations": [{"languageCode": "ru", "name": "Фридонский резерв"}],
-    "currencyIds": [101],
-    "countryIds": [1]
+    "translations": [
+      {
+        "languageCode": "ru",
+        "name": "Фридонский резерв"
+      }
+    ],
+    "currencyIds": [
+      "FDC"
+    ],
+    "countryIds": [
+      "FD"
+    ]
   },
   {
-    "id": 402,
+    "id": "sylvania-reserve",
     "name": "Sylvania Reserve",
     "nativeName": "Sylvania Reserve Native",
     "websiteURL": "https://syl-bank.example.test",

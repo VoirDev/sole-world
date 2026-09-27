@@ -1,5 +1,5 @@
 {
-  "id": 163,
+  "id": "NF",
   "name": "Norfolk Island",
   "nativeName": "Norfolk Island",
   "iso2": "NF",
@@ -9,17 +9,17 @@
   "tld": ".nf",
   "latitude": -29.03333333,
   "longitude": 167.95,
-  "flagId": 88,
-  "regionId": 5,
-  "subregionId": 19,
+  "flagId": "nf",
+  "regionId": "oceania",
+  "subregionId": "australia-and-new-zealand",
   "currencyIds": [
-    844
+    "AUD"
   ],
   "timezoneIds": [
-    2494
+    "Pacific/Norfolk"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "جزیره نورفک"
+      "name": "جزیرهٔ نورفولک"
     },
     {
       "languageCode": "de",
@@ -53,11 +53,11 @@
     },
     {
       "languageCode": "es",
-      "name": "Isla de Norfolk"
+      "name": "Isla Norfolk"
     },
     {
       "languageCode": "fr",
-      "name": "Île de Norfolk"
+      "name": "Île Norfolk"
     },
     {
       "languageCode": "ja",
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Norfolk Adasi"
+      "name": "Norfolk Adası"
     },
     {
       "languageCode": "ru",

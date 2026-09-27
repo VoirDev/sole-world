@@ -1,5 +1,5 @@
 {
-  "id": 157,
+  "id": "NC",
   "name": "New Caledonia",
   "nativeName": "Nouvelle-Calédonie",
   "iso2": "NC",
@@ -9,17 +9,17 @@
   "tld": ".nc",
   "latitude": -21.5,
   "longitude": 165.5,
-  "flagId": 90,
-  "regionId": 5,
-  "subregionId": 20,
+  "flagId": "nc",
+  "regionId": "oceania",
+  "subregionId": "melanesia",
   "currencyIds": [
-    885
+    "XPF"
   ],
   "timezoneIds": [
-    2487
+    "Pacific/Noumea"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 5225,
+      "id": "NC-01",
       "name": "South Province",
       "stateCode": "01",
       "latitude": -22.2758,
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": 5226,
+      "id": "NC-02",
       "name": "North Province",
       "stateCode": "02",
       "latitude": -22.2758,
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": 5227,
+      "id": "NC-03",
       "name": "Loyalty Islands Province",
       "stateCode": "03",
       "latitude": -20.9667,

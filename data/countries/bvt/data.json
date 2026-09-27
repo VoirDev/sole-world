@@ -1,5 +1,5 @@
 {
-  "id": 30,
+  "id": "BV",
   "name": "Bouvet Island",
   "nativeName": "Bouvetøya",
   "iso2": "BV",
@@ -9,15 +9,15 @@
   "tld": ".bv",
   "latitude": -54.43,
   "longitude": 3.41,
-  "flagId": 251,
-  "regionId": 6,
-  "subregionId": 23,
+  "flagId": "bv",
+  "regionId": "antarctica",
+  "subregionId": "antarctica",
   "currencyIds": [
-    935
+    "NOK"
   ],
   "timezoneIds": [],
   "officialLanguageIds": [
-    61
+    "no"
   ],
   "otherLanguageIds": [],
   "translations": [

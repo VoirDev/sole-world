@@ -1,5 +1,5 @@
 {
-  "id": 1,
+  "id": "FD",
   "name": "Freedonia",
   "nativeName": "Freedonia Native",
   "iso2": "FD",
@@ -9,48 +9,80 @@
   "tld": ".fd",
   "latitude": 45.1,
   "longitude": 19.2,
-  "flagId": 1001,
-  "regionId": 10,
-  "subregionId": 20,
-  "currencyIds": [101, 103],
-  "timezoneIds": [301],
-  "officialLanguageIds": [201],
+  "flagId": "fd",
+  "regionId": "test-europe",
+  "subregionId": "test-north",
+  "currencyIds": [
+    "FDC",
+    "ALT"
+  ],
+  "timezoneIds": [
+    "Europe/Freedonia"
+  ],
+  "officialLanguageIds": [
+    "fd"
+  ],
   "otherLanguageIds": [],
-  "translations": [{"languageCode": "ru", "name": "Фридония"}],
+  "translations": [
+    {
+      "languageCode": "ru",
+      "name": "Фридония"
+    }
+  ],
   "states": [
     {
-      "id": 501,
+      "id": "FD-NF",
       "name": "North Freedonia",
       "stateCode": "NF",
       "latitude": 45.2,
       "longitude": 19.3,
       "type": "province",
-      "translations": [{"languageCode": "ru", "name": "Северная Фридония"}],
+      "translations": [
+        {
+          "languageCode": "ru",
+          "name": "Северная Фридония"
+        }
+      ],
       "cities": [
         {
           "id": 601,
           "name": "North City",
           "latitude": 45.21,
           "longitude": 19.31,
-          "translations": [{"languageCode": "ru", "name": "Северный город"}]
+          "translations": [
+            {
+              "languageCode": "ru",
+              "name": "Северный город"
+            }
+          ]
         }
       ]
     },
     {
-      "id": 502,
+      "id": "FD-SF",
       "name": "South Freedonia",
       "stateCode": "SF",
       "latitude": null,
       "longitude": null,
       "type": "province",
-      "translations": [{"languageCode": "ru", "name": "Южная Фридония"}],
+      "translations": [
+        {
+          "languageCode": "ru",
+          "name": "Южная Фридония"
+        }
+      ],
       "cities": [
         {
           "id": 602,
           "name": "South City",
           "latitude": 44.98,
           "longitude": 19.01,
-          "translations": [{"languageCode": "ru", "name": "Южный город"}]
+          "translations": [
+            {
+              "languageCode": "ru",
+              "name": "Южный город"
+            }
+          ]
         }
       ]
     }

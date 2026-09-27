@@ -2,6 +2,7 @@ package dev.voir.sole.world.api.crypto
 
 import dev.voir.sole.world.api.dataset.RawDataset
 import dev.voir.sole.world.api.dataset.index.FoldedText
+import dev.voir.sole.world.api.dataset.index.IdIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedIndex
 import dev.voir.sole.world.api.dataset.index.Page
 import dev.voir.sole.world.api.dataset.index.PageRequest
@@ -26,23 +27,20 @@ class CryptoStore(dataset: RawDataset) {
         CryptoRecord(
             id = json.id,
             code = json.code,
-            alias = json.alias,
             name = json.name,
             description = json.description,
             websiteUrl = json.websiteUrl,
             introducedYear = json.introducedYear,
             decimalDigits = json.decimalDigits,
             obsolete = json.obsolete,
-            obsoleteAt = parseDate(json.obsoleteAt, json.alias),
+            obsoleteAt = parseDate(json.obsoleteAt, json.id),
             logoId = json.logoId,
         )
     }
 
-    private val byId: Map<Long, CryptoRecord> = records.associateBy { it.id }
+    private val byId: IdIndex<CryptoRecord> = IdIndex.of(records) { it.id }
 
-    private val byCode: Map<String, CryptoRecord> = records.associateBy { it.code.lowercase() }
-
-    private val byAlias: Map<String, CryptoRecord> = records.associateBy { it.alias.lowercase() }
+    private val byCode: IdIndex<CryptoRecord> = IdIndex.of(records) { it.code }
 
     private val index = LocalizedIndex(
         records = records,
@@ -58,25 +56,25 @@ class CryptoStore(dataset: RawDataset) {
      * @param id Cryptocurrency identifier.
      * @return Matching coin, or null when none exists.
      */
-    fun byId(id: Long): CryptoData? = byId[id]?.toData()
+    fun byId(id: String): CryptoData? = byId[id]?.toData()
 
     /**
      * Loads several cryptocurrencies, skipping identifiers that do not exist.
      * @param ids Cryptocurrency identifiers.
      * @return Matching coins in request order.
      */
-    fun byIds(ids: List<Long>): List<CryptoData> = ids.mapNotNull { byId[it]?.toData() }
+    fun byIds(ids: List<String>): List<CryptoData> = ids.mapNotNull { byId[it]?.toData() }
 
     /**
-     * Resolves a cryptocurrency from its ticker, its alias, or its numeric identifier.
-     * @param identifier Caller-supplied identifier.
+     * Resolves a cryptocurrency from its identifier or its ticker.
+     *
+     * The identifier wins: a ticker can be reassigned, and one coin's ticker may spell another
+     * coin's alias.
+     *
+     * @param identifier Alias or ticker, in any case.
      * @return Matching coin, or null when nothing matches.
      */
-    fun resolve(identifier: String): CryptoData? {
-        val key = identifier.trim().lowercase()
-
-        return (byCode[key] ?: byAlias[key] ?: key.toLongOrNull()?.let(byId::get))?.toData()
-    }
+    fun resolve(identifier: String): CryptoData? = (byId[identifier] ?: byCode[identifier])?.toData()
 
     /**
      * Returns one page of cryptocurrencies ordered by name.
@@ -129,9 +127,8 @@ class CryptoStore(dataset: RawDataset) {
 
 /**
  * A cryptocurrency as held in memory, with its searchable text folded once.
- * @property id Stable cryptocurrency identifier.
+ * @property id The coin's alias: its stable lowercase key.
  * @property code Ticker symbol the coin trades under.
- * @property alias Stable lowercase key for the coin.
  * @property name Display name.
  * @property description Description text, when available.
  * @property websiteUrl Official project website, when known.
@@ -142,9 +139,8 @@ class CryptoStore(dataset: RawDataset) {
  * @property logoId Media asset id of the coin's logo, when one is bundled.
  */
 private class CryptoRecord(
-    val id: Long,
+    val id: String,
     val code: String,
-    val alias: String,
     val name: String,
     val description: String?,
     val websiteUrl: String?,
@@ -152,30 +148,29 @@ private class CryptoRecord(
     val decimalDigits: Int,
     val obsolete: Boolean,
     val obsoleteAt: LocalDate?,
-    val logoId: Long?,
+    val logoId: String?,
 ) {
     private val foldedName = FoldedText.of(name)
 
     private val foldedCode = FoldedText.of(code)
 
-    private val foldedAlias = FoldedText.of(alias)
+    private val foldedId = FoldedText.of(id)
 
     /**
      * Scores this coin against a search query.
      *
-     * The ticker and the alias rank just below the name: they are what a caller is most likely to
-     * type exactly, but a coin is identified by its name when both could match.
+     * The ticker and the alias the coin is identified by rank just below the name: they are what a
+     * caller is most likely to type exactly, but a coin is identified by its name when both match.
      */
     fun score(query: SearchQuery): Int = maxOf(
         query.score(foldedName, NAME_WEIGHT),
         query.score(foldedCode, CODE_WEIGHT),
-        query.score(foldedAlias, ALIAS_WEIGHT),
+        query.score(foldedId, ID_WEIGHT),
     )
 
     fun toData() = CryptoData(
         id = id,
         code = code,
-        alias = alias,
         name = name,
         description = description,
         websiteUrl = websiteUrl,
@@ -189,6 +184,6 @@ private class CryptoRecord(
     private companion object {
         const val NAME_WEIGHT = 100
         const val CODE_WEIGHT = 95
-        const val ALIAS_WEIGHT = 90
+        const val ID_WEIGHT = 90
     }
 }

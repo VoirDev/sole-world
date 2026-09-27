@@ -1,5 +1,5 @@
 {
-  "id": 97,
+  "id": "HN",
   "name": "Honduras",
   "nativeName": "Honduras",
   "iso2": "HN",
@@ -9,17 +9,17 @@
   "tld": ".hn",
   "latitude": 15,
   "longitude": -86.5,
-  "flagId": 153,
-  "regionId": 2,
-  "subregionId": 9,
+  "flagId": "hn",
+  "regionId": "americas",
+  "subregionId": "central-america",
   "currencyIds": [
-    894
+    "HNL"
   ],
   "timezoneIds": [
-    2403
+    "America/Tegucigalpa"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4041,
+      "id": "HN-CH",
       "name": "Choluteca",
       "stateCode": "CH",
       "latitude": 13.2504325,
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "id": 4042,
+      "id": "HN-CM",
       "name": "Comayagua",
       "stateCode": "CM",
       "latitude": 14.5534828,
@@ -539,7 +539,7 @@
       ]
     },
     {
-      "id": 4043,
+      "id": "HN-EP",
       "name": "El Paraíso",
       "stateCode": "EP",
       "latitude": 13.9821294,
@@ -774,7 +774,7 @@
       ]
     },
     {
-      "id": 4044,
+      "id": "HN-IN",
       "name": "Intibucá",
       "stateCode": "IN",
       "latitude": 14.372734,
@@ -911,7 +911,7 @@
       ]
     },
     {
-      "id": 4045,
+      "id": "HN-IB",
       "name": "Bay Islands",
       "stateCode": "IB",
       "latitude": 16.4826614,
@@ -978,7 +978,7 @@
       ]
     },
     {
-      "id": 4046,
+      "id": "HN-CR",
       "name": "Cortés",
       "stateCode": "CR",
       "latitude": 15.4923508,
@@ -1381,7 +1381,7 @@
       ]
     },
     {
-      "id": 4047,
+      "id": "HN-AT",
       "name": "Atlántida",
       "stateCode": "AT",
       "latitude": 15.6696283,
@@ -1532,7 +1532,7 @@
       ]
     },
     {
-      "id": 4048,
+      "id": "HN-GD",
       "name": "Gracias a Dios",
       "stateCode": "GD",
       "latitude": 15.341806,
@@ -1627,7 +1627,7 @@
       ]
     },
     {
-      "id": 4049,
+      "id": "HN-CP",
       "name": "Copán",
       "stateCode": "CP",
       "latitude": 14.9360838,
@@ -1925,7 +1925,7 @@
       ]
     },
     {
-      "id": 4050,
+      "id": "HN-OL",
       "name": "Olancho",
       "stateCode": "OL",
       "latitude": 14.8067406,
@@ -2188,7 +2188,7 @@
       ]
     },
     {
-      "id": 4051,
+      "id": "HN-CL",
       "name": "Colón",
       "stateCode": "CL",
       "latitude": 15.6425965,
@@ -2381,7 +2381,7 @@
       ]
     },
     {
-      "id": 4052,
+      "id": "HN-FM",
       "name": "Francisco Morazán",
       "stateCode": "FM",
       "latitude": 14.45411,
@@ -2756,7 +2756,7 @@
       ]
     },
     {
-      "id": 4053,
+      "id": "HN-SB",
       "name": "Santa Bárbara",
       "stateCode": "SB",
       "latitude": 15.1202795,
@@ -3124,7 +3124,7 @@
       ]
     },
     {
-      "id": 4054,
+      "id": "HN-LE",
       "name": "Lempira",
       "stateCode": "LE",
       "latitude": 14.1887698,
@@ -3359,7 +3359,7 @@
       ]
     },
     {
-      "id": 4055,
+      "id": "HN-VA",
       "name": "Valle",
       "stateCode": "VA",
       "latitude": 13.5782936,
@@ -3475,7 +3475,7 @@
       ]
     },
     {
-      "id": 4056,
+      "id": "HN-OC",
       "name": "Ocotepeque",
       "stateCode": "OC",
       "latitude": 14.5170347,
@@ -3633,7 +3633,7 @@
       ]
     },
     {
-      "id": 4057,
+      "id": "HN-YO",
       "name": "Yoro",
       "stateCode": "YO",
       "latitude": 15.2949679,
@@ -3938,7 +3938,7 @@
       ]
     },
     {
-      "id": 4058,
+      "id": "HN-LP",
       "name": "La Paz",
       "stateCode": "LP",
       "latitude": -15.0892416,

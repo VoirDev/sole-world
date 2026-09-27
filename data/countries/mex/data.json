@@ -1,5 +1,5 @@
 {
-  "id": 142,
+  "id": "MX",
   "name": "Mexico",
   "nativeName": "México",
   "iso2": "MX",
@@ -9,28 +9,28 @@
   "tld": ".mx",
   "latitude": 23,
   "longitude": -102,
-  "flagId": 94,
-  "regionId": 2,
-  "subregionId": 9,
+  "flagId": "mx",
+  "regionId": "americas",
+  "subregionId": "central-america",
   "currencyIds": [
-    923
+    "MXN"
   ],
   "timezoneIds": [
-    2459,
-    2460,
-    2461,
-    2462,
-    2463,
-    2464,
-    2465,
-    2466,
-    2467,
-    2468,
-    2469,
-    2657
+    "America/Bahia_Banderas",
+    "America/Cancun",
+    "America/Chihuahua",
+    "America/Hermosillo",
+    "America/Matamoros",
+    "America/Mazatlan",
+    "America/Merida",
+    "America/Mexico_City",
+    "America/Monterrey",
+    "America/Ojinaga",
+    "America/Tijuana",
+    "America/Ciudad_Juarez"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -101,7 +101,7 @@
   ],
   "states": [
     {
-      "id": 3447,
+      "id": "MX-CHH",
       "name": "Chihuahua",
       "stateCode": "CHH",
       "latitude": 28.6329957,
@@ -1148,7 +1148,7 @@
       ]
     },
     {
-      "id": 3448,
+      "id": "MX-OAX",
       "name": "Oaxaca",
       "stateCode": "OAX",
       "latitude": 17.0731842,
@@ -6017,7 +6017,7 @@
       ]
     },
     {
-      "id": 3449,
+      "id": "MX-SIN",
       "name": "Sinaloa",
       "stateCode": "SIN",
       "latitude": 25.1721091,
@@ -7575,7 +7575,7 @@
       ]
     },
     {
-      "id": 3450,
+      "id": "MX-MEX",
       "name": "Estado de México",
       "stateCode": "MEX",
       "latitude": 23.634501,
@@ -14166,7 +14166,7 @@
       ]
     },
     {
-      "id": 3451,
+      "id": "MX-CHP",
       "name": "Chiapas",
       "stateCode": "CHP",
       "latitude": 16.7569318,
@@ -17915,7 +17915,7 @@
       ]
     },
     {
-      "id": 3452,
+      "id": "MX-NLE",
       "name": "Nuevo León",
       "stateCode": "NLE",
       "latitude": 25.592172,
@@ -19662,7 +19662,7 @@
       ]
     },
     {
-      "id": 3453,
+      "id": "MX-DUR",
       "name": "Durango",
       "stateCode": "DUR",
       "latitude": 37.27528,
@@ -20597,7 +20597,7 @@
       ]
     },
     {
-      "id": 3454,
+      "id": "MX-TAB",
       "name": "Tabasco",
       "stateCode": "TAB",
       "latitude": 17.8409173,
@@ -22106,7 +22106,7 @@
       ]
     },
     {
-      "id": 3455,
+      "id": "MX-QUE",
       "name": "Querétaro",
       "stateCode": "QUE",
       "latitude": 20.5887932,
@@ -23531,7 +23531,7 @@
       ]
     },
     {
-      "id": 3456,
+      "id": "MX-AGU",
       "name": "Aguascalientes",
       "stateCode": "AGU",
       "latitude": 21.8852562,
@@ -24179,7 +24179,7 @@
       ]
     },
     {
-      "id": 3457,
+      "id": "MX-BCN",
       "name": "Baja California",
       "stateCode": "BCN",
       "latitude": 30.8406338,
@@ -24855,7 +24855,7 @@
       ]
     },
     {
-      "id": 3458,
+      "id": "MX-TLA",
       "name": "Tlaxcala",
       "stateCode": "TLA",
       "latitude": 19.318154,
@@ -25944,7 +25944,7 @@
       ]
     },
     {
-      "id": 3459,
+      "id": "MX-GRO",
       "name": "Guerrero",
       "stateCode": "GRO",
       "latitude": 17.4391926,
@@ -28986,7 +28986,7 @@
       ]
     },
     {
-      "id": 3460,
+      "id": "MX-BCS",
       "name": "Baja California Sur",
       "stateCode": "BCS",
       "latitude": 26.0444446,
@@ -29214,7 +29214,7 @@
       ]
     },
     {
-      "id": 3461,
+      "id": "MX-SLP",
       "name": "San Luis Potosí",
       "stateCode": "SLP",
       "latitude": 22.1564699,
@@ -30464,7 +30464,7 @@
       ]
     },
     {
-      "id": 3462,
+      "id": "MX-ZAC",
       "name": "Zacatecas",
       "stateCode": "ZAC",
       "latitude": 22.7708555,
@@ -31700,7 +31700,7 @@
       ]
     },
     {
-      "id": 3463,
+      "id": "MX-TAM",
       "name": "Tamaulipas",
       "stateCode": "TAM",
       "latitude": 24.26694,
@@ -32481,7 +32481,7 @@
       ]
     },
     {
-      "id": 3464,
+      "id": "MX-VER",
       "name": "Veracruz de Ignacio de la Llave",
       "stateCode": "VER",
       "latitude": 19.173773,
@@ -37840,7 +37840,7 @@
       ]
     },
     {
-      "id": 3465,
+      "id": "MX-MOR",
       "name": "Morelos",
       "stateCode": "MOR",
       "latitude": 18.6813049,
@@ -39622,7 +39622,7 @@
       ]
     },
     {
-      "id": 3466,
+      "id": "MX-YUC",
       "name": "Yucatán",
       "stateCode": "YUC",
       "latitude": 20.7098786,
@@ -41033,7 +41033,7 @@
       ]
     },
     {
-      "id": 3467,
+      "id": "MX-ROO",
       "name": "Quintana Roo",
       "stateCode": "ROO",
       "latitude": 19.1817393,
@@ -41492,7 +41492,7 @@
       ]
     },
     {
-      "id": 3468,
+      "id": "MX-SON",
       "name": "Sonora",
       "stateCode": "SON",
       "latitude": 37.9829496,
@@ -42623,7 +42623,7 @@
       ]
     },
     {
-      "id": 3469,
+      "id": "MX-GUA",
       "name": "Guanajuato",
       "stateCode": "GUA",
       "latitude": 21.0190145,
@@ -45966,7 +45966,7 @@
       ]
     },
     {
-      "id": 3470,
+      "id": "MX-HID",
       "name": "Hidalgo",
       "stateCode": "HID",
       "latitude": 26.1003547,
@@ -48896,7 +48896,7 @@
       ]
     },
     {
-      "id": 3471,
+      "id": "MX-COA",
       "name": "Coahuila de Zaragoza",
       "stateCode": "COA",
       "latitude": 27.058676,
@@ -49684,7 +49684,7 @@
       ]
     },
     {
-      "id": 3472,
+      "id": "MX-COL",
       "name": "Colima",
       "stateCode": "COL",
       "latitude": 19.2452342,
@@ -49933,7 +49933,7 @@
       ]
     },
     {
-      "id": 3473,
+      "id": "MX-CMX",
       "name": "Ciudad de México",
       "stateCode": "CMX",
       "latitude": 19.4326077,
@@ -50210,7 +50210,7 @@
       ]
     },
     {
-      "id": 3474,
+      "id": "MX-MIC",
       "name": "Michoacán de Ocampo",
       "stateCode": "MIC",
       "latitude": 19.5665192,
@@ -53315,7 +53315,7 @@
       ]
     },
     {
-      "id": 3475,
+      "id": "MX-CAM",
       "name": "Campeche",
       "stateCode": "CAM",
       "latitude": 19.8301251,
@@ -53837,7 +53837,7 @@
       ]
     },
     {
-      "id": 3476,
+      "id": "MX-PUE",
       "name": "Puebla",
       "stateCode": "PUE",
       "latitude": 19.0414398,
@@ -59175,7 +59175,7 @@
       ]
     },
     {
-      "id": 3477,
+      "id": "MX-NAY",
       "name": "Nayarit",
       "stateCode": "NAY",
       "latitude": 21.7513844,
@@ -60012,7 +60012,7 @@
       ]
     },
     {
-      "id": 4857,
+      "id": "MX-JAL",
       "name": "Jalisco",
       "stateCode": "JAL",
       "latitude": 20.6595382,

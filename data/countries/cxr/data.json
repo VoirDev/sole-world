@@ -1,5 +1,5 @@
 {
-  "id": 46,
+  "id": "CX",
   "name": "Christmas Island",
   "nativeName": "Christmas Island",
   "iso2": "CX",
@@ -9,17 +9,17 @@
   "tld": ".cx",
   "latitude": -10.5,
   "longitude": 105.66666666,
-  "flagId": 196,
-  "regionId": 5,
-  "subregionId": 19,
+  "flagId": "cx",
+  "regionId": "oceania",
+  "subregionId": "australia-and-new-zealand",
   "currencyIds": [
-    844
+    "AUD"
   ],
   "timezoneIds": [
-    2344
+    "Indian/Christmas"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "جزیره کریسمس"
+      "name": "جزیرهٔ کریسمس"
     },
     {
       "languageCode": "de",
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Christmas Adasi"
+      "name": "Christmas Adası"
     },
     {
       "languageCode": "ru",

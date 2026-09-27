@@ -1,5 +1,5 @@
 {
-  "id": 90,
+  "id": "GT",
   "name": "Guatemala",
   "nativeName": "Guatemala",
   "iso2": "GT",
@@ -9,17 +9,17 @@
   "tld": ".gt",
   "latitude": 15.5,
   "longitude": -90.25,
-  "flagId": 158,
-  "regionId": 2,
-  "subregionId": 9,
+  "flagId": "gt",
+  "regionId": "americas",
+  "subregionId": "central-america",
   "currencyIds": [
-    889
+    "GTQ"
   ],
   "timezoneIds": [
-    2397
+    "America/Guatemala"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3657,
+      "id": "GT-14",
       "name": "Quiché ",
       "stateCode": "14",
       "latitude": 15.4983808,
@@ -374,7 +374,7 @@
       ]
     },
     {
-      "id": 3658,
+      "id": "GT-21",
       "name": "Jalapa ",
       "stateCode": "21",
       "latitude": 14.6121446,
@@ -441,7 +441,7 @@
       ]
     },
     {
-      "id": 3659,
+      "id": "GT-18",
       "name": "Izabal ",
       "stateCode": "18",
       "latitude": 15.4976517,
@@ -501,7 +501,7 @@
       ]
     },
     {
-      "id": 3660,
+      "id": "GT-10",
       "name": "Suchitepéquez ",
       "stateCode": "10",
       "latitude": 14.4215982,
@@ -666,7 +666,7 @@
       ]
     },
     {
-      "id": 3661,
+      "id": "GT-07",
       "name": "Sololá ",
       "stateCode": "07",
       "latitude": 14.748523,
@@ -838,7 +838,7 @@
       ]
     },
     {
-      "id": 3662,
+      "id": "GT-02",
       "name": "El Progreso ",
       "stateCode": "02",
       "latitude": 14.9388732,
@@ -905,7 +905,7 @@
       ]
     },
     {
-      "id": 3663,
+      "id": "GT-08",
       "name": "Totonicapán ",
       "stateCode": "08",
       "latitude": 14.9173402,
@@ -993,7 +993,7 @@
       ]
     },
     {
-      "id": 3664,
+      "id": "GT-11",
       "name": "Retalhuleu ",
       "stateCode": "11",
       "latitude": 14.5245485,
@@ -1074,7 +1074,7 @@
       ]
     },
     {
-      "id": 3665,
+      "id": "GT-06",
       "name": "Santa Rosa ",
       "stateCode": "06",
       "latitude": 38.4405759,
@@ -1204,7 +1204,7 @@
       ]
     },
     {
-      "id": 3666,
+      "id": "GT-20",
       "name": "Chiquimula ",
       "stateCode": "20",
       "latitude": 14.7514999,
@@ -1292,7 +1292,7 @@
       ]
     },
     {
-      "id": 3667,
+      "id": "GT-12",
       "name": "San Marcos ",
       "stateCode": "12",
       "latitude": 14.9309569,
@@ -1541,7 +1541,7 @@
       ]
     },
     {
-      "id": 3668,
+      "id": "GT-09",
       "name": "Quetzaltenango ",
       "stateCode": "09",
       "latitude": 14.792433,
@@ -1783,7 +1783,7 @@
       ]
     },
     {
-      "id": 3669,
+      "id": "GT-17",
       "name": "Petén ",
       "stateCode": "17",
       "latitude": 16.912033,
@@ -1927,7 +1927,7 @@
       ]
     },
     {
-      "id": 3670,
+      "id": "GT-13",
       "name": "Huehuetenango ",
       "stateCode": "13",
       "latitude": 15.5879914,
@@ -2148,7 +2148,7 @@
       ]
     },
     {
-      "id": 3671,
+      "id": "GT-16",
       "name": "Alta Verapaz ",
       "stateCode": "16",
       "latitude": 15.5942883,
@@ -2264,7 +2264,7 @@
       ]
     },
     {
-      "id": 3672,
+      "id": "GT-01",
       "name": "Guatemala ",
       "stateCode": "01",
       "latitude": 14.5649401,
@@ -2394,7 +2394,7 @@
       ]
     },
     {
-      "id": 3673,
+      "id": "GT-22",
       "name": "Jutiapa ",
       "stateCode": "22",
       "latitude": 14.1930802,
@@ -2531,7 +2531,7 @@
       ]
     },
     {
-      "id": 3674,
+      "id": "GT-15",
       "name": "Baja Verapaz ",
       "stateCode": "15",
       "latitude": 15.1255867,
@@ -2598,7 +2598,7 @@
       ]
     },
     {
-      "id": 3675,
+      "id": "GT-04",
       "name": "Chimaltenango ",
       "stateCode": "04",
       "latitude": 14.5634787,
@@ -2721,7 +2721,7 @@
       ]
     },
     {
-      "id": 3676,
+      "id": "GT-03",
       "name": "Sacatepéquez ",
       "stateCode": "03",
       "latitude": 14.5178379,
@@ -2893,7 +2893,7 @@
       ]
     },
     {
-      "id": 3677,
+      "id": "GT-05",
       "name": "Escuintla ",
       "stateCode": "05",
       "latitude": 14.1910912,
@@ -2995,7 +2995,7 @@
       ]
     },
     {
-      "id": 5239,
+      "id": "GT-19",
       "name": "Zacapa",
       "stateCode": "19",
       "latitude": 15.0092828,

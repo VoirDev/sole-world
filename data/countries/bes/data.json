@@ -1,5 +1,5 @@
 {
-  "id": 155,
+  "id": "BQ",
   "name": "Bonaire, Sint Eustatius and Saba",
   "nativeName": "Caribisch Nederland",
   "iso2": "BQ",
@@ -9,37 +9,37 @@
   "tld": ".an",
   "latitude": 12.15,
   "longitude": -68.266667,
-  "flagId": 219,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "bq",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2659
+    "America/Kralendijk"
   ],
   "officialLanguageIds": [
-    29
+    "nl"
   ],
   "otherLanguageIds": [
-    30
+    "en"
   ],
   "translations": [
     {
       "languageCode": "ko",
-      "name": "보네르 섬"
+      "name": "네덜란드령 카리브"
     },
     {
       "languageCode": "pt-BR",
-      "name": "Bonaire"
+      "name": "Bonaire, Santo Eustáquio e Saba"
     },
     {
       "languageCode": "pt",
-      "name": "Bonaire"
+      "name": "Bonaire, Santo Eustáquio e Saba"
     },
     {
       "languageCode": "fa",
-      "name": "بونیر"
+      "name": "جزایر کارائیب هلند"
     },
     {
       "languageCode": "de",
@@ -55,11 +55,11 @@
     },
     {
       "languageCode": "zh-CN",
-      "name": "博内尔岛、圣尤斯特歇斯和萨巴岛"
+      "name": "荷属加勒比区"
     },
     {
       "languageCode": "tr",
-      "name": "Karayip Hollandasi"
+      "name": "Karayip Hollandası"
     },
     {
       "languageCode": "ru",
@@ -72,11 +72,27 @@
     {
       "languageCode": "pl",
       "name": "Bonaire, Sint Eustatius i Saba"
+    },
+    {
+      "languageCode": "nl",
+      "name": "Bonaire, Sint Eustatius en Saba"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Bonaire, Sveti Eustahije i Saba"
+    },
+    {
+      "languageCode": "es",
+      "name": "Bonaire, San Eustaquio y Saba"
+    },
+    {
+      "languageCode": "ja",
+      "name": "ボネール、シント・ユースタティウスおよびサバ"
     }
   ],
   "states": [
     {
-      "id": 5086,
+      "id": "BQ-BQ1",
       "name": "Bonaire",
       "stateCode": "BQ1",
       "latitude": 12.2018902,
@@ -143,7 +159,7 @@
       ]
     },
     {
-      "id": 5087,
+      "id": "BQ-BQ2",
       "name": "Saba",
       "stateCode": "BQ2",
       "latitude": 17.6354642,
@@ -153,7 +169,7 @@
       "cities": []
     },
     {
-      "id": 5088,
+      "id": "BQ-BQ3",
       "name": "Sint Eustatius",
       "stateCode": "BQ3",
       "latitude": 17.4890306,

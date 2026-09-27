@@ -1,5 +1,5 @@
 {
-  "id": 107,
+  "id": "IT",
   "name": "Italy",
   "nativeName": "Italia",
   "iso2": "IT",
@@ -9,17 +9,17 @@
   "tld": ".it",
   "latitude": 42.83333333,
   "longitude": 12.83333333,
-  "flagId": 141,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "it",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2416
+    "Europe/Rome"
   ],
   "officialLanguageIds": [
-    41
+    "it"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1664,
+      "id": "IT-52",
       "name": "Tuscany",
       "stateCode": "52",
       "latitude": 43.7710513,
@@ -3391,7 +3391,7 @@
       ]
     },
     {
-      "id": 1665,
+      "id": "IT-PD",
       "name": "Padua",
       "stateCode": "PD",
       "latitude": 45.3661864,
@@ -3401,7 +3401,7 @@
       "cities": []
     },
     {
-      "id": 1666,
+      "id": "IT-PR",
       "name": "Parma",
       "stateCode": "PR",
       "latitude": 44.8015322,
@@ -3411,7 +3411,7 @@
       "cities": []
     },
     {
-      "id": 1667,
+      "id": "IT-SR",
       "name": "Siracusa",
       "stateCode": "SR",
       "latitude": 37.0656924,
@@ -3421,7 +3421,7 @@
       "cities": []
     },
     {
-      "id": 1668,
+      "id": "IT-PA",
       "name": "Palermo",
       "stateCode": "PA",
       "latitude": 38.11569,
@@ -3431,7 +3431,7 @@
       "cities": []
     },
     {
-      "id": 1669,
+      "id": "IT-72",
       "name": "Campania",
       "stateCode": "72",
       "latitude": 40.6670887,
@@ -8286,7 +8286,7 @@
       ]
     },
     {
-      "id": 1670,
+      "id": "IT-57",
       "name": "Marche",
       "stateCode": "57",
       "latitude": 43.304562,
@@ -10502,7 +10502,7 @@
       ]
     },
     {
-      "id": 1672,
+      "id": "IT-AN",
       "name": "Ancona",
       "stateCode": "AN",
       "latitude": 43.5493245,
@@ -10512,7 +10512,7 @@
       "cities": []
     },
     {
-      "id": 1674,
+      "id": "IT-LT",
       "name": "Latina",
       "stateCode": "LT",
       "latitude": 41.4087476,
@@ -10522,7 +10522,7 @@
       "cities": []
     },
     {
-      "id": 1675,
+      "id": "IT-LE",
       "name": "Lecce",
       "stateCode": "LE",
       "latitude": 40.2347393,
@@ -10532,7 +10532,7 @@
       "cities": []
     },
     {
-      "id": 1676,
+      "id": "IT-PV",
       "name": "Pavia",
       "stateCode": "PV",
       "latitude": 45.3218166,
@@ -10542,7 +10542,7 @@
       "cities": []
     },
     {
-      "id": 1677,
+      "id": "IT-LC",
       "name": "Lecco",
       "stateCode": "LC",
       "latitude": 45.9382941,
@@ -10552,7 +10552,7 @@
       "cities": []
     },
     {
-      "id": 1678,
+      "id": "IT-62",
       "name": "Lazio",
       "stateCode": "62",
       "latitude": 41.812241,
@@ -14098,7 +14098,7 @@
       ]
     },
     {
-      "id": 1679,
+      "id": "IT-65",
       "name": "Abruzzo",
       "stateCode": "65",
       "latitude": 42.1920119,
@@ -16566,7 +16566,7 @@
       ]
     },
     {
-      "id": 1681,
+      "id": "IT-AP",
       "name": "Ascoli Piceno",
       "stateCode": "AP",
       "latitude": 42.8638933,
@@ -16576,7 +16576,7 @@
       "cities": []
     },
     {
-      "id": 1683,
+      "id": "IT-55",
       "name": "Umbria",
       "stateCode": "55",
       "latitude": 42.938004,
@@ -17595,7 +17595,7 @@
       ]
     },
     {
-      "id": 1685,
+      "id": "IT-PI",
       "name": "Pisa",
       "stateCode": "PI",
       "latitude": 43.7228315,
@@ -17605,7 +17605,7 @@
       "cities": []
     },
     {
-      "id": 1686,
+      "id": "IT-BT",
       "name": "Barletta-Andria-Trani",
       "stateCode": "BT",
       "latitude": 41.2004543,
@@ -17686,7 +17686,7 @@
       ]
     },
     {
-      "id": 1687,
+      "id": "IT-PT",
       "name": "Pistoia",
       "stateCode": "PT",
       "latitude": 43.9543733,
@@ -17696,7 +17696,7 @@
       "cities": []
     },
     {
-      "id": 1688,
+      "id": "IT-75",
       "name": "Apulia",
       "stateCode": "75",
       "latitude": 40.7928393,
@@ -19793,7 +19793,7 @@
       ]
     },
     {
-      "id": 1689,
+      "id": "IT-BL",
       "name": "Belluno",
       "stateCode": "BL",
       "latitude": 46.2497659,
@@ -19803,7 +19803,7 @@
       "cities": []
     },
     {
-      "id": 1690,
+      "id": "IT-PN",
       "name": "Pordenone",
       "stateCode": "PN",
       "latitude": 46.0378862,
@@ -19813,7 +19813,7 @@
       "cities": []
     },
     {
-      "id": 1691,
+      "id": "IT-PG",
       "name": "Perugia",
       "stateCode": "PG",
       "latitude": 42.938004,
@@ -19823,7 +19823,7 @@
       "cities": []
     },
     {
-      "id": 1692,
+      "id": "IT-AV",
       "name": "Avellino",
       "stateCode": "AV",
       "latitude": 40.996451,
@@ -19833,7 +19833,7 @@
       "cities": []
     },
     {
-      "id": 1693,
+      "id": "IT-PU",
       "name": "Pesaro and Urbino",
       "stateCode": "PU",
       "latitude": 43.6130118,
@@ -19843,7 +19843,7 @@
       "cities": []
     },
     {
-      "id": 1694,
+      "id": "IT-PE",
       "name": "Pescara",
       "stateCode": "PE",
       "latitude": 42.3570655,
@@ -19853,7 +19853,7 @@
       "cities": []
     },
     {
-      "id": 1695,
+      "id": "IT-67",
       "name": "Molise",
       "stateCode": "67",
       "latitude": 41.6738865,
@@ -20851,7 +20851,7 @@
       ]
     },
     {
-      "id": 1696,
+      "id": "IT-PC",
       "name": "Piacenza",
       "stateCode": "PC",
       "latitude": 44.8263112,
@@ -20861,7 +20861,7 @@
       "cities": []
     },
     {
-      "id": 1697,
+      "id": "IT-PZ",
       "name": "Potenza",
       "stateCode": "PZ",
       "latitude": 40.4182194,
@@ -20871,7 +20871,7 @@
       "cities": []
     },
     {
-      "id": 1700,
+      "id": "IT-PO",
       "name": "Prato",
       "stateCode": "PO",
       "latitude": 44.04539,
@@ -20881,7 +20881,7 @@
       "cities": []
     },
     {
-      "id": 1701,
+      "id": "IT-BN",
       "name": "Benevento",
       "stateCode": "BN",
       "latitude": 41.2035093,
@@ -20891,7 +20891,7 @@
       "cities": []
     },
     {
-      "id": 1702,
+      "id": "IT-21",
       "name": "Piedmont",
       "stateCode": "21",
       "latitude": 45.0522366,
@@ -29925,7 +29925,7 @@
       ]
     },
     {
-      "id": 1703,
+      "id": "IT-78",
       "name": "Calabria",
       "stateCode": "78",
       "latitude": 39.3087714,
@@ -33485,7 +33485,7 @@
       ]
     },
     {
-      "id": 1704,
+      "id": "IT-BG",
       "name": "Bergamo",
       "stateCode": "BG",
       "latitude": 45.6982642,
@@ -33495,7 +33495,7 @@
       "cities": []
     },
     {
-      "id": 1705,
+      "id": "IT-25",
       "name": "Lombardy",
       "stateCode": "25",
       "latitude": 45.4790671,
@@ -46015,7 +46015,7 @@
       ]
     },
     {
-      "id": 1706,
+      "id": "IT-77",
       "name": "Basilicata",
       "stateCode": "77",
       "latitude": 40.6430766,
@@ -47013,7 +47013,7 @@
       ]
     },
     {
-      "id": 1707,
+      "id": "IT-RA",
       "name": "Ravenna",
       "stateCode": "RA",
       "latitude": 44.4184443,
@@ -47150,7 +47150,7 @@
       ]
     },
     {
-      "id": 1708,
+      "id": "IT-RE",
       "name": "Reggio Emilia",
       "stateCode": "RE",
       "latitude": 44.585658,
@@ -47160,7 +47160,7 @@
       "cities": []
     },
     {
-      "id": 1709,
+      "id": "IT-82",
       "name": "Sicily",
       "stateCode": "82",
       "latitude": 37.5999938,
@@ -50489,7 +50489,7 @@
       ]
     },
     {
-      "id": 1712,
+      "id": "IT-RI",
       "name": "Rieti",
       "stateCode": "RI",
       "latitude": 42.3674405,
@@ -50499,7 +50499,7 @@
       "cities": []
     },
     {
-      "id": 1713,
+      "id": "IT-RN",
       "name": "Rimini",
       "stateCode": "RN",
       "latitude": 44.0678288,
@@ -50509,7 +50509,7 @@
       "cities": []
     },
     {
-      "id": 1714,
+      "id": "IT-BR",
       "name": "Brindisi",
       "stateCode": "BR",
       "latitude": 40.6112663,
@@ -50519,7 +50519,7 @@
       "cities": []
     },
     {
-      "id": 1715,
+      "id": "IT-88",
       "name": "Sardinia",
       "stateCode": "88",
       "latitude": 40.1208752,
@@ -53344,7 +53344,7 @@
       ]
     },
     {
-      "id": 1716,
+      "id": "IT-23",
       "name": "Aosta Valley",
       "stateCode": "23",
       "latitude": 45.7388878,
@@ -53992,7 +53992,7 @@
       ]
     },
     {
-      "id": 1717,
+      "id": "IT-BS",
       "name": "Brescia",
       "stateCode": "BS",
       "latitude": 45.5415526,
@@ -54002,7 +54002,7 @@
       "cities": []
     },
     {
-      "id": 1718,
+      "id": "IT-CL",
       "name": "Caltanissetta",
       "stateCode": "CL",
       "latitude": 37.486013,
@@ -54012,7 +54012,7 @@
       "cities": []
     },
     {
-      "id": 1719,
+      "id": "IT-RO",
       "name": "Rovigo",
       "stateCode": "RO",
       "latitude": 45.0241818,
@@ -54022,7 +54022,7 @@
       "cities": []
     },
     {
-      "id": 1720,
+      "id": "IT-SA",
       "name": "Salerno",
       "stateCode": "SA",
       "latitude": 40.4287832,
@@ -54032,7 +54032,7 @@
       "cities": []
     },
     {
-      "id": 1721,
+      "id": "IT-CB",
       "name": "Campobasso",
       "stateCode": "CB",
       "latitude": 41.6738865,
@@ -54042,7 +54042,7 @@
       "cities": []
     },
     {
-      "id": 1722,
+      "id": "IT-SS",
       "name": "Sassari",
       "stateCode": "SS",
       "latitude": 40.7967907,
@@ -54052,7 +54052,7 @@
       "cities": []
     },
     {
-      "id": 1723,
+      "id": "IT-EN",
       "name": "Enna",
       "stateCode": "EN",
       "latitude": 37.5676216,
@@ -54062,7 +54062,7 @@
       "cities": []
     },
     {
-      "id": 1725,
+      "id": "IT-32",
       "name": "Trentino-South Tyrol",
       "stateCode": "32",
       "latitude": 46.4336662,
@@ -56803,7 +56803,7 @@
       ]
     },
     {
-      "id": 1726,
+      "id": "IT-VB",
       "name": "Verbano-Cusio-Ossola",
       "stateCode": "VB",
       "latitude": 46.1399688,
@@ -56813,7 +56813,7 @@
       "cities": []
     },
     {
-      "id": 1727,
+      "id": "IT-AG",
       "name": "Agrigento",
       "stateCode": "AG",
       "latitude": 37.3105202,
@@ -56823,7 +56823,7 @@
       "cities": []
     },
     {
-      "id": 1728,
+      "id": "IT-CZ",
       "name": "Catanzaro",
       "stateCode": "CZ",
       "latitude": 38.8896348,
@@ -56833,7 +56833,7 @@
       "cities": []
     },
     {
-      "id": 1729,
+      "id": "IT-RG",
       "name": "Ragusa",
       "stateCode": "RG",
       "latitude": 36.9269273,
@@ -56843,7 +56843,7 @@
       "cities": []
     },
     {
-      "id": 1730,
+      "id": "IT-SU",
       "name": "South Sardinia",
       "stateCode": "SU",
       "latitude": 39.3893535,
@@ -56853,7 +56853,7 @@
       "cities": []
     },
     {
-      "id": 1731,
+      "id": "IT-CE",
       "name": "Caserta",
       "stateCode": "CE",
       "latitude": 41.2078354,
@@ -56863,7 +56863,7 @@
       "cities": []
     },
     {
-      "id": 1732,
+      "id": "IT-SV",
       "name": "Savona",
       "stateCode": "SV",
       "latitude": 44.2887995,
@@ -56873,7 +56873,7 @@
       "cities": []
     },
     {
-      "id": 1733,
+      "id": "IT-TP",
       "name": "Trapani",
       "stateCode": "TP",
       "latitude": 38.0183116,
@@ -56883,7 +56883,7 @@
       "cities": []
     },
     {
-      "id": 1734,
+      "id": "IT-SI",
       "name": "Siena",
       "stateCode": "SI",
       "latitude": 43.2937732,
@@ -56893,7 +56893,7 @@
       "cities": []
     },
     {
-      "id": 1735,
+      "id": "IT-VT",
       "name": "Viterbo",
       "stateCode": "VT",
       "latitude": 42.400242,
@@ -56903,7 +56903,7 @@
       "cities": []
     },
     {
-      "id": 1736,
+      "id": "IT-VR",
       "name": "Verona",
       "stateCode": "VR",
       "latitude": 45.4418498,
@@ -56913,7 +56913,7 @@
       "cities": []
     },
     {
-      "id": 1737,
+      "id": "IT-VV",
       "name": "Vibo Valentia",
       "stateCode": "VV",
       "latitude": 38.6378565,
@@ -56923,7 +56923,7 @@
       "cities": []
     },
     {
-      "id": 1738,
+      "id": "IT-VI",
       "name": "Vicenza",
       "stateCode": "VI",
       "latitude": 45.6983995,
@@ -56933,7 +56933,7 @@
       "cities": []
     },
     {
-      "id": 1739,
+      "id": "IT-CH",
       "name": "Chieti",
       "stateCode": "CH",
       "latitude": 42.0334428,
@@ -56943,7 +56943,7 @@
       "cities": []
     },
     {
-      "id": 1740,
+      "id": "IT-CO",
       "name": "Como",
       "stateCode": "CO",
       "latitude": 45.8080416,
@@ -56953,7 +56953,7 @@
       "cities": []
     },
     {
-      "id": 1741,
+      "id": "IT-SO",
       "name": "Sondrio",
       "stateCode": "SO",
       "latitude": 46.1727636,
@@ -56963,7 +56963,7 @@
       "cities": []
     },
     {
-      "id": 1742,
+      "id": "IT-CS",
       "name": "Cosenza",
       "stateCode": "CS",
       "latitude": 39.5644105,
@@ -56973,7 +56973,7 @@
       "cities": []
     },
     {
-      "id": 1743,
+      "id": "IT-TA",
       "name": "Taranto",
       "stateCode": "TA",
       "latitude": 40.5740901,
@@ -56983,7 +56983,7 @@
       "cities": []
     },
     {
-      "id": 1744,
+      "id": "IT-FM",
       "name": "Fermo",
       "stateCode": "FM",
       "latitude": 43.0931367,
@@ -56993,7 +56993,7 @@
       "cities": []
     },
     {
-      "id": 1745,
+      "id": "IT-LI",
       "name": "Livorno",
       "stateCode": "LI",
       "latitude": 43.0239848,
@@ -57003,7 +57003,7 @@
       "cities": []
     },
     {
-      "id": 1746,
+      "id": "IT-FE",
       "name": "Ferrara",
       "stateCode": "FE",
       "latitude": 44.766368,
@@ -57013,7 +57013,7 @@
       "cities": []
     },
     {
-      "id": 1747,
+      "id": "IT-LO",
       "name": "Lodi",
       "stateCode": "LO",
       "latitude": 45.2405036,
@@ -57023,7 +57023,7 @@
       "cities": []
     },
     {
-      "id": 1749,
+      "id": "IT-LU",
       "name": "Lucca",
       "stateCode": "LU",
       "latitude": 43.8376736,
@@ -57033,7 +57033,7 @@
       "cities": []
     },
     {
-      "id": 1750,
+      "id": "IT-MC",
       "name": "Macerata",
       "stateCode": "MC",
       "latitude": 43.2459322,
@@ -57043,7 +57043,7 @@
       "cities": []
     },
     {
-      "id": 1751,
+      "id": "IT-CR",
       "name": "Cremona",
       "stateCode": "CR",
       "latitude": 45.2014375,
@@ -57053,7 +57053,7 @@
       "cities": []
     },
     {
-      "id": 1752,
+      "id": "IT-TE",
       "name": "Teramo",
       "stateCode": "TE",
       "latitude": 42.5895608,
@@ -57063,7 +57063,7 @@
       "cities": []
     },
     {
-      "id": 1753,
+      "id": "IT-34",
       "name": "Veneto",
       "stateCode": "34",
       "latitude": 45.4414662,
@@ -62933,7 +62933,7 @@
       ]
     },
     {
-      "id": 1754,
+      "id": "IT-KR",
       "name": "Crotone",
       "stateCode": "KR",
       "latitude": 39.1309856,
@@ -62943,7 +62943,7 @@
       "cities": []
     },
     {
-      "id": 1755,
+      "id": "IT-TR",
       "name": "Terni",
       "stateCode": "TR",
       "latitude": 42.5634534,
@@ -62953,7 +62953,7 @@
       "cities": []
     },
     {
-      "id": 1756,
+      "id": "IT-36",
       "name": "Friuli–Venezia Giulia",
       "stateCode": "36",
       "latitude": 46.2259177,
@@ -64861,7 +64861,7 @@
       ]
     },
     {
-      "id": 1757,
+      "id": "IT-MO",
       "name": "Modena",
       "stateCode": "MO",
       "latitude": 44.5513799,
@@ -64871,7 +64871,7 @@
       "cities": []
     },
     {
-      "id": 1758,
+      "id": "IT-MN",
       "name": "Mantua",
       "stateCode": "MN",
       "latitude": 45.1667728,
@@ -64881,7 +64881,7 @@
       "cities": []
     },
     {
-      "id": 1759,
+      "id": "IT-MS",
       "name": "Massa and Carrara",
       "stateCode": "MS",
       "latitude": 44.2213998,
@@ -64891,7 +64891,7 @@
       "cities": []
     },
     {
-      "id": 1760,
+      "id": "IT-MT",
       "name": "Matera",
       "stateCode": "MT",
       "latitude": 40.6663496,
@@ -64901,7 +64901,7 @@
       "cities": []
     },
     {
-      "id": 1761,
+      "id": "IT-AR",
       "name": "Arezzo",
       "stateCode": "AR",
       "latitude": 43.5162533,
@@ -64911,7 +64911,7 @@
       "cities": []
     },
     {
-      "id": 1762,
+      "id": "IT-TV",
       "name": "Treviso",
       "stateCode": "TV",
       "latitude": 45.6668517,
@@ -64921,7 +64921,7 @@
       "cities": []
     },
     {
-      "id": 1763,
+      "id": "IT-TS",
       "name": "Trieste",
       "stateCode": "TS",
       "latitude": 45.6894823,
@@ -64931,7 +64931,7 @@
       "cities": []
     },
     {
-      "id": 1764,
+      "id": "IT-UD",
       "name": "Udine",
       "stateCode": "UD",
       "latitude": 46.1407972,
@@ -64941,7 +64941,7 @@
       "cities": []
     },
     {
-      "id": 1765,
+      "id": "IT-VA",
       "name": "Varese",
       "stateCode": "VA",
       "latitude": 45.799026,
@@ -64951,7 +64951,7 @@
       "cities": []
     },
     {
-      "id": 1768,
+      "id": "IT-42",
       "name": "Liguria",
       "stateCode": "42",
       "latitude": 44.3167917,
@@ -66901,7 +66901,7 @@
       ]
     },
     {
-      "id": 1769,
+      "id": "IT-MB",
       "name": "Monza and Brianza",
       "stateCode": "MB",
       "latitude": 45.623599,
@@ -66911,7 +66911,7 @@
       "cities": []
     },
     {
-      "id": 1771,
+      "id": "IT-FG",
       "name": "Foggia",
       "stateCode": "FG",
       "latitude": 41.638448,
@@ -66921,7 +66921,7 @@
       "cities": []
     },
     {
-      "id": 1773,
+      "id": "IT-45",
       "name": "Emilia-Romagna",
       "stateCode": "45",
       "latitude": 44.5967607,
@@ -70698,7 +70698,7 @@
       ]
     },
     {
-      "id": 1774,
+      "id": "IT-NO",
       "name": "Novara",
       "stateCode": "NO",
       "latitude": 45.5485133,
@@ -70708,7 +70708,7 @@
       "cities": []
     },
     {
-      "id": 1775,
+      "id": "IT-CN",
       "name": "Cuneo",
       "stateCode": "CN",
       "latitude": 44.5970314,
@@ -70718,7 +70718,7 @@
       "cities": []
     },
     {
-      "id": 1776,
+      "id": "IT-FR",
       "name": "Frosinone",
       "stateCode": "FR",
       "latitude": 41.6576528,
@@ -70728,7 +70728,7 @@
       "cities": []
     },
     {
-      "id": 1777,
+      "id": "IT-GO",
       "name": "Gorizia",
       "stateCode": "GO",
       "latitude": 45.9053899,
@@ -70738,7 +70738,7 @@
       "cities": []
     },
     {
-      "id": 1778,
+      "id": "IT-BI",
       "name": "Biella",
       "stateCode": "BI",
       "latitude": 45.5628176,
@@ -70748,7 +70748,7 @@
       "cities": []
     },
     {
-      "id": 1779,
+      "id": "IT-FC",
       "name": "Forlì-Cesena",
       "stateCode": "FC",
       "latitude": 43.9947681,
@@ -70758,7 +70758,7 @@
       "cities": []
     },
     {
-      "id": 1780,
+      "id": "IT-AT",
       "name": "Asti",
       "stateCode": "AT",
       "latitude": 44.9007652,
@@ -70768,7 +70768,7 @@
       "cities": []
     },
     {
-      "id": 1781,
+      "id": "IT-AQ",
       "name": "L'Aquila",
       "stateCode": "AQ",
       "latitude": 42.1256317,
@@ -70778,7 +70778,7 @@
       "cities": []
     },
     {
-      "id": 1783,
+      "id": "IT-AL",
       "name": "Alessandria",
       "stateCode": "AL",
       "latitude": 44.8175587,
@@ -70788,7 +70788,7 @@
       "cities": []
     },
     {
-      "id": 1785,
+      "id": "IT-VC",
       "name": "Vercelli",
       "stateCode": "VC",
       "latitude": 45.3202204,
@@ -70798,7 +70798,7 @@
       "cities": []
     },
     {
-      "id": 1786,
+      "id": "IT-OR",
       "name": "Oristano",
       "stateCode": "OR",
       "latitude": 40.0599068,
@@ -70808,7 +70808,7 @@
       "cities": []
     },
     {
-      "id": 1787,
+      "id": "IT-GR",
       "name": "Grosseto",
       "stateCode": "GR",
       "latitude": 42.8518007,
@@ -70818,7 +70818,7 @@
       "cities": []
     },
     {
-      "id": 1788,
+      "id": "IT-IM",
       "name": "Imperia",
       "stateCode": "IM",
       "latitude": 43.941866,
@@ -70828,7 +70828,7 @@
       "cities": []
     },
     {
-      "id": 1789,
+      "id": "IT-IS",
       "name": "Isernia",
       "stateCode": "IS",
       "latitude": 41.5891555,
@@ -70838,7 +70838,7 @@
       "cities": []
     },
     {
-      "id": 1790,
+      "id": "IT-NU",
       "name": "Nuoro",
       "stateCode": "NU",
       "latitude": 40.3286904,
@@ -70848,7 +70848,7 @@
       "cities": []
     },
     {
-      "id": 1791,
+      "id": "IT-SP",
       "name": "La Spezia",
       "stateCode": "SP",
       "latitude": 44.2447913,

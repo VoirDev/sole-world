@@ -1,5 +1,5 @@
 {
-  "id": 247,
+  "id": "ZW",
   "name": "Zimbabwe",
   "nativeName": "Zimbabwe",
   "iso2": "ZW",
@@ -9,25 +9,25 @@
   "tld": ".zw",
   "latitude": -20,
   "longitude": 30,
-  "flagId": 1,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "zw",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    988
+    "ZWG"
   ],
   "timezoneIds": [
-    2646
+    "Africa/Harare"
   ],
   "officialLanguageIds": [
-    30,
-    154,
-    127,
-    133,
-    157,
-    167,
-    169,
-    176,
-    180
+    "en",
+    "sn",
+    "nd",
+    "ny",
+    "st",
+    "tn",
+    "ts",
+    "ve",
+    "xh"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -53,7 +53,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "زیمباوه"
+      "name": "زیمبابوه"
     },
     {
       "languageCode": "de",
@@ -98,7 +98,7 @@
   ],
   "states": [
     {
-      "id": 1951,
+      "id": "ZW-ME",
       "name": "Mashonaland East",
       "stateCode": "ME",
       "latitude": -18.5871642,
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "id": 1952,
+      "id": "ZW-MS",
       "name": "Matabeleland South",
       "stateCode": "MS",
       "latitude": -21.052337,
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "id": 1953,
+      "id": "ZW-MW",
       "name": "Mashonaland West",
       "stateCode": "MW",
       "latitude": -17.4851029,
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "id": 1954,
+      "id": "ZW-MN",
       "name": "Matabeleland North",
       "stateCode": "MN",
       "latitude": -18.5331566,
@@ -499,7 +499,7 @@
       ]
     },
     {
-      "id": 1955,
+      "id": "ZW-MC",
       "name": "Mashonaland Central",
       "stateCode": "MC",
       "latitude": -16.7644295,
@@ -608,7 +608,7 @@
       ]
     },
     {
-      "id": 1956,
+      "id": "ZW-BU",
       "name": "Bulawayo",
       "stateCode": "BU",
       "latitude": -20.1489505,
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "id": 1957,
+      "id": "ZW-MI",
       "name": "Midlands",
       "stateCode": "MI",
       "latitude": -19.0552009,
@@ -728,7 +728,7 @@
       ]
     },
     {
-      "id": 1958,
+      "id": "ZW-HA",
       "name": "Harare",
       "stateCode": "HA",
       "latitude": -17.8216288,
@@ -760,7 +760,7 @@
       ]
     },
     {
-      "id": 1959,
+      "id": "ZW-MA",
       "name": "Manicaland",
       "stateCode": "MA",
       "latitude": -18.9216386,
@@ -890,7 +890,7 @@
       ]
     },
     {
-      "id": 1960,
+      "id": "ZW-MV",
       "name": "Masvingo",
       "stateCode": "MV",
       "latitude": -20.6241509,

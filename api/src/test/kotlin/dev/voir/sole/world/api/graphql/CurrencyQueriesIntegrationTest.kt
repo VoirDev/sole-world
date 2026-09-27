@@ -13,7 +13,7 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              currency(idOrCode: 101) {
+              currency(id: "FDC") {
                 id
                 iso3
                 isoNumeric
@@ -32,7 +32,7 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
         assertNoErrors(response)
         val currency = response.at("/data/currency")
-        assertEquals("101", currency["id"].stringValue())
+        assertEquals("FDC", currency["id"].stringValue())
         assertEquals("FDC", currency["iso3"].stringValue())
         assertEquals("901", currency["isoNumeric"].stringValue())
         assertEquals("Freedonian Credit", currency["name"].stringValue())
@@ -51,8 +51,8 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              active: currency(idOrCode: 101) { introducedDate obsolete obsoleteAt }
-              retired: currency(idOrCode: 102, withObsolete: true) {
+              active: currency(id: "FDC") { introducedDate obsolete obsoleteAt }
+              retired: currency(id: "OLD", withObsolete: true) {
                 introducedDate obsolete obsoleteAt replacedById
                 replacedBy { id iso3 }
               }
@@ -71,7 +71,7 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         assertEquals("1901-01-01", retired["introducedDate"].stringValue())
         assertTrue(retired["obsolete"].booleanValue())
         assertEquals("1990-12-31", retired["obsoleteAt"].stringValue())
-        assertEquals("101", retired["replacedById"].stringValue())
+        assertEquals("FDC", retired["replacedById"].stringValue())
         assertEquals("FDC", retired.at("/replacedBy/iso3").stringValue())
     }
 
@@ -80,7 +80,7 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: currenciesByIds(ids: [101, 102, 999]) { id iso3 }
+              requested: currenciesByIds(ids: ["FDC", "old", "XXX"]) { id iso3 }
             }
             """.trimIndent(),
         )
@@ -90,22 +90,22 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     }
 
     @Test
-    fun `a currency resolves by id, alpha code and numeric code`() {
+    fun `a currency resolves by its alpha code id and by its numeric code`() {
         val response = graphQL(
             """
             query {
-              alpha: currency(idOrCode: "FDC") { id iso3 obsolete }
-              numeric: currency(idOrCode: "901") { id iso3 obsolete }
-              obsoleteHidden: currency(idOrCode: "OLD") { id }
-              obsoleteVisible: currency(idOrCode: "OLD", withObsolete: true) { id iso3 obsolete }
+              alpha: currency(id: "fdc") { id iso3 obsolete }
+              numeric: currency(id: "901") { id iso3 obsolete }
+              obsoleteHidden: currency(id: "OLD") { id }
+              obsoleteVisible: currency(id: "OLD", withObsolete: true) { id iso3 obsolete }
             }
             """.trimIndent(),
         )
 
         assertNoErrors(response)
         val data = response["data"]
-        assertEquals("FDC", data.at("/alpha/iso3").stringValue())
-        assertEquals("FDC", data.at("/numeric/iso3").stringValue())
+        assertEquals("FDC", data.at("/alpha/id").stringValue())
+        assertEquals("FDC", data.at("/numeric/id").stringValue())
         assertTrue(isNullOrMissing(data["obsoleteHidden"]))
         assertEquals("OLD", data.at("/obsoleteVisible/iso3").stringValue())
         assertTrue(data.at("/obsoleteVisible/obsolete").booleanValue())
@@ -148,7 +148,7 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              country(idOrCode: "FD") { currencies { name popularity } }
+              country(id: "FD") { currencies { name popularity } }
             }
             """.trimIndent(),
         )
@@ -166,7 +166,7 @@ class CurrencyQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              currency(idOrCode: 999) { id }
+              currency(id: "XXX") { id }
             }
             """.trimIndent(),
         )

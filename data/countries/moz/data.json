@@ -1,5 +1,5 @@
 {
-  "id": 150,
+  "id": "MZ",
   "name": "Mozambique",
   "nativeName": "Moçambique",
   "iso2": "MZ",
@@ -9,17 +9,17 @@
   "tld": ".mz",
   "latitude": -18.25,
   "longitude": 35,
-  "flagId": 92,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "mz",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    927
+    "MZN"
   ],
   "timezoneIds": [
-    2481
+    "Africa/Maputo"
   ],
   "officialLanguageIds": [
-    45
+    "pt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3327,
+      "id": "MZ-P",
       "name": "Cabo Delgado",
       "stateCode": "P",
       "latitude": -12.3335474,
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": 3328,
+      "id": "MZ-Q",
       "name": "Zambezia",
       "stateCode": "Q",
       "latitude": -16.5638987,
@@ -161,7 +161,7 @@
       ]
     },
     {
-      "id": 3329,
+      "id": "MZ-G",
       "name": "Gaza",
       "stateCode": "G",
       "latitude": -23.0221928,
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "id": 3330,
+      "id": "MZ-I",
       "name": "Inhambane",
       "stateCode": "I",
       "latitude": -22.8527997,
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "id": 3331,
+      "id": "MZ-S",
       "name": "Sofala",
       "stateCode": "S",
       "latitude": -19.2039073,
@@ -257,7 +257,7 @@
       ]
     },
     {
-      "id": 3332,
+      "id": "MZ-L",
       "name": "Maputo",
       "stateCode": "L",
       "latitude": -25.2569876,
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "id": 3333,
+      "id": "MZ-A",
       "name": "Niassa",
       "stateCode": "A",
       "latitude": -12.7826202,
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "id": 3334,
+      "id": "MZ-T",
       "name": "Tete",
       "stateCode": "T",
       "latitude": -15.6596056,
@@ -388,7 +388,7 @@
       ]
     },
     {
-      "id": 3335,
+      "id": "MZ-MPM",
       "name": "Maputo",
       "stateCode": "MPM",
       "latitude": -25.969248,
@@ -413,7 +413,7 @@
       ]
     },
     {
-      "id": 3336,
+      "id": "MZ-N",
       "name": "Nampula",
       "stateCode": "N",
       "latitude": -14.7604931,
@@ -459,7 +459,7 @@
       ]
     },
     {
-      "id": 3337,
+      "id": "MZ-B",
       "name": "Manica",
       "stateCode": "B",
       "latitude": -19.5059787,

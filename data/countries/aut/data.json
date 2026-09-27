@@ -1,5 +1,5 @@
 {
-  "id": 15,
+  "id": "AT",
   "name": "Austria",
   "nativeName": "Österreich",
   "iso2": "AT",
@@ -9,17 +9,17 @@
   "tld": ".at",
   "latitude": 47.33333333,
   "longitude": 13.33333333,
-  "flagId": 237,
-  "regionId": 4,
-  "subregionId": 17,
+  "flagId": "at",
+  "regionId": "europe",
+  "subregionId": "western-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2270
+    "Europe/Vienna"
   ],
   "officialLanguageIds": [
-    34
+    "de"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -29,11 +29,11 @@
     },
     {
       "languageCode": "pt-BR",
-      "name": "áustria"
+      "name": "Áustria"
     },
     {
       "languageCode": "pt",
-      "name": "áustria"
+      "name": "Áustria"
     },
     {
       "languageCode": "nl",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2057,
+      "id": "AT-2",
       "name": "Carinthia",
       "stateCode": "2",
       "latitude": 46.722203,
@@ -1676,7 +1676,7 @@
       ]
     },
     {
-      "id": 2058,
+      "id": "AT-4",
       "name": "Upper Austria",
       "stateCode": "4",
       "latitude": 48.025854,
@@ -4228,7 +4228,7 @@
       ]
     },
     {
-      "id": 2059,
+      "id": "AT-6",
       "name": "Styria",
       "stateCode": "6",
       "latitude": 47.3593442,
@@ -7648,7 +7648,7 @@
       ]
     },
     {
-      "id": 2060,
+      "id": "AT-9",
       "name": "Vienna",
       "stateCode": "9",
       "latitude": 48.2081743,
@@ -7729,7 +7729,7 @@
       ]
     },
     {
-      "id": 2061,
+      "id": "AT-5",
       "name": "Salzburg",
       "stateCode": "5",
       "latitude": 47.80949,
@@ -8769,7 +8769,7 @@
       ]
     },
     {
-      "id": 2062,
+      "id": "AT-1",
       "name": "Burgenland",
       "stateCode": "1",
       "latitude": 47.1537165,
@@ -9949,7 +9949,7 @@
       ]
     },
     {
-      "id": 2063,
+      "id": "AT-8",
       "name": "Vorarlberg",
       "stateCode": "8",
       "latitude": 47.2497427,
@@ -10653,7 +10653,7 @@
       ]
     },
     {
-      "id": 2064,
+      "id": "AT-7",
       "name": "Tyrol",
       "stateCode": "7",
       "latitude": 47.2537414,
@@ -12680,7 +12680,7 @@
       ]
     },
     {
-      "id": 2065,
+      "id": "AT-3",
       "name": "Lower Austria",
       "stateCode": "3",
       "latitude": 48.108077,

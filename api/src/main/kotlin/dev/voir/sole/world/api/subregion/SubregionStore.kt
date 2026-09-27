@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.subregion
 
 import dev.voir.sole.world.api.dataset.RawDataset
+import dev.voir.sole.world.api.dataset.index.IdIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedName
 import dev.voir.sole.world.api.dataset.index.Page
@@ -27,9 +28,9 @@ class SubregionStore(dataset: RawDataset) {
         }
     }
 
-    private val byId: Map<Long, SubregionRecord> = records.associateBy { it.id }
+    private val byId: IdIndex<SubregionRecord> = IdIndex.of(records) { it.id }
 
-    private val byRegionId: Map<Long, List<SubregionRecord>> = records.groupBy { it.regionId }
+    private val byRegionId: IdIndex<List<SubregionRecord>> = IdIndex.grouped(records) { it.regionId }
 
     private val index = LocalizedIndex(
         records = records,
@@ -46,7 +47,7 @@ class SubregionStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching subregion, or null when none exists.
      */
-    fun byId(id: Long, languageCode: String?): SubregionData? = byId[id]?.localized(languageCode)
+    fun byId(id: String, languageCode: String?): SubregionData? = byId[id]?.localized(languageCode)
 
     /**
      * Loads several subregions, skipping identifiers that do not exist.
@@ -54,7 +55,7 @@ class SubregionStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching subregions in request order.
      */
-    fun byIds(ids: List<Long>, languageCode: String?): List<SubregionData> =
+    fun byIds(ids: List<String>, languageCode: String?): List<SubregionData> =
         ids.mapNotNull { byId[it]?.localized(languageCode) }
 
     /**
@@ -69,7 +70,7 @@ class SubregionStore(dataset: RawDataset) {
         request: PageRequest,
         languageCode: String?,
         query: SearchQuery? = null,
-        regionId: Long? = null,
+        regionId: String? = null,
     ): Page<SubregionData> {
         val candidates = if (regionId == null) records else byRegionId[regionId].orEmpty()
 
@@ -92,7 +93,7 @@ class SubregionStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Subregions ordered by localized name.
      */
-    fun byRegionId(regionId: Long, languageCode: String?): List<SubregionData> {
+    fun byRegionId(regionId: String, languageCode: String?): List<SubregionData> {
         val matching = byRegionId[regionId].orEmpty()
         if (matching.isEmpty()) {
             return emptyList()
@@ -109,8 +110,8 @@ class SubregionStore(dataset: RawDataset) {
  * @property name Display name in every available language.
  */
 private class SubregionRecord(
-    val id: Long,
-    val regionId: Long,
+    val id: String,
+    val regionId: String,
     val name: LocalizedName,
 ) {
     /** Scores this subregion against a search query. */

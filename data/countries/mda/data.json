@@ -1,5 +1,5 @@
 {
-  "id": 144,
+  "id": "MD",
   "name": "Moldova",
   "nativeName": "Moldova",
   "iso2": "MD",
@@ -9,17 +9,17 @@
   "tld": ".md",
   "latitude": 47,
   "longitude": 29,
-  "flagId": 112,
-  "regionId": 4,
-  "subregionId": 15,
+  "flagId": "md",
+  "regionId": "europe",
+  "subregionId": "eastern-europe",
   "currencyIds": [
-    924
+    "MDL"
   ],
   "timezoneIds": [
-    2473
+    "Europe/Chisinau"
   ],
   "officialLanguageIds": [
-    62
+    "ro"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -41,7 +41,7 @@
     },
     {
       "languageCode": "hr",
-      "name": "Moldova"
+      "name": "Moldavija"
     },
     {
       "languageCode": "fa",
@@ -49,7 +49,7 @@
     },
     {
       "languageCode": "de",
-      "name": "Moldawie"
+      "name": "Moldau"
     },
     {
       "languageCode": "es",
@@ -61,7 +61,7 @@
     },
     {
       "languageCode": "ja",
-      "name": "モルドバ共和国"
+      "name": "モルドバ"
     },
     {
       "languageCode": "it",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4360,
+      "id": "MD-CM",
       "name": "Cimișlia",
       "stateCode": "CM",
       "latitude": 46.5250851,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 4361,
+      "id": "MD-OR",
       "name": "Orhei",
       "stateCode": "OR",
       "latitude": 47.38604,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 4362,
+      "id": "MD-BD",
       "name": "Bender",
       "stateCode": "BD",
       "latitude": 46.8227551,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": 4363,
+      "id": "MD-NI",
       "name": "Nisporeni",
       "stateCode": "NI",
       "latitude": 47.0751349,
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": 4364,
+      "id": "MD-SI",
       "name": "Sîngerei",
       "stateCode": "SI",
       "latitude": 47.6389134,
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "id": 4365,
+      "id": "MD-CS",
       "name": "Căușeni",
       "stateCode": "CS",
       "latitude": 46.6554715,
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "id": 4366,
+      "id": "MD-CL",
       "name": "Călărași",
       "stateCode": "CL",
       "latitude": 47.286946,
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "id": 4367,
+      "id": "MD-GL",
       "name": "Glodeni",
       "stateCode": "GL",
       "latitude": 47.7790156,
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "id": 4368,
+      "id": "MD-AN",
       "name": "Anenii Noi",
       "stateCode": "AN",
       "latitude": 46.8795663,
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "id": 4369,
+      "id": "MD-IA",
       "name": "Ialoveni",
       "stateCode": "IA",
       "latitude": 46.863086,
@@ -298,7 +298,7 @@
       ]
     },
     {
-      "id": 4370,
+      "id": "MD-FL",
       "name": "Florești",
       "stateCode": "FL",
       "latitude": 47.8667849,
@@ -330,7 +330,7 @@
       ]
     },
     {
-      "id": 4371,
+      "id": "MD-TE",
       "name": "Telenești",
       "stateCode": "TE",
       "latitude": 47.4983962,
@@ -355,7 +355,7 @@
       ]
     },
     {
-      "id": 4372,
+      "id": "MD-TA",
       "name": "Taraclia",
       "stateCode": "TA",
       "latitude": 45.898651,
@@ -380,7 +380,7 @@
       ]
     },
     {
-      "id": 4373,
+      "id": "MD-CU",
       "name": "Chișinău",
       "stateCode": "CU",
       "latitude": 47.0104529,
@@ -440,7 +440,7 @@
       ]
     },
     {
-      "id": 4374,
+      "id": "MD-SO",
       "name": "Soroca",
       "stateCode": "SO",
       "latitude": 48.1549743,
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "id": 4375,
+      "id": "MD-BR",
       "name": "Briceni",
       "stateCode": "BR",
       "latitude": 48.3632022,
@@ -476,7 +476,7 @@
       ]
     },
     {
-      "id": 4376,
+      "id": "MD-RI",
       "name": "Rîșcani",
       "stateCode": "RI",
       "latitude": 47.9070153,
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": 4377,
+      "id": "MD-ST",
       "name": "Strășeni",
       "stateCode": "ST",
       "latitude": 47.1450267,
@@ -519,7 +519,7 @@
       ]
     },
     {
-      "id": 4378,
+      "id": "MD-SV",
       "name": "Ștefan Vodă",
       "stateCode": "SV",
       "latitude": 46.5540488,
@@ -537,7 +537,7 @@
       ]
     },
     {
-      "id": 4379,
+      "id": "MD-BS",
       "name": "Basarabeasca",
       "stateCode": "BS",
       "latitude": 46.423706,
@@ -555,7 +555,7 @@
       ]
     },
     {
-      "id": 4380,
+      "id": "MD-CT",
       "name": "Cantemir",
       "stateCode": "CT",
       "latitude": 46.2771742,
@@ -587,7 +587,7 @@
       ]
     },
     {
-      "id": 4381,
+      "id": "MD-FA",
       "name": "Fălești",
       "stateCode": "FA",
       "latitude": 47.5647725,
@@ -605,7 +605,7 @@
       ]
     },
     {
-      "id": 4382,
+      "id": "MD-HI",
       "name": "Hîncești",
       "stateCode": "HI",
       "latitude": 46.8281147,
@@ -630,7 +630,7 @@
       ]
     },
     {
-      "id": 4383,
+      "id": "MD-DU",
       "name": "Dubăsari",
       "stateCode": "DU",
       "latitude": 47.2643942,
@@ -655,7 +655,7 @@
       ]
     },
     {
-      "id": 4384,
+      "id": "MD-DO",
       "name": "Dondușeni",
       "stateCode": "DO",
       "latitude": 48.2338305,
@@ -680,7 +680,7 @@
       ]
     },
     {
-      "id": 4385,
+      "id": "MD-GA",
       "name": "Gagauzia",
       "stateCode": "GA",
       "latitude": 46.0979435,
@@ -719,7 +719,7 @@
       ]
     },
     {
-      "id": 4386,
+      "id": "MD-UN",
       "name": "Ungheni",
       "stateCode": "UN",
       "latitude": 47.2305767,
@@ -737,7 +737,7 @@
       ]
     },
     {
-      "id": 4387,
+      "id": "MD-ED",
       "name": "Edineț",
       "stateCode": "ED",
       "latitude": 48.1678991,
@@ -755,7 +755,7 @@
       ]
     },
     {
-      "id": 4388,
+      "id": "MD-SD",
       "name": "Șoldănești",
       "stateCode": "SD",
       "latitude": 47.8147389,
@@ -773,7 +773,7 @@
       ]
     },
     {
-      "id": 4389,
+      "id": "MD-OC",
       "name": "Ocnița",
       "stateCode": "OC",
       "latitude": 48.4110435,
@@ -798,7 +798,7 @@
       ]
     },
     {
-      "id": 4390,
+      "id": "MD-CR",
       "name": "Criuleni",
       "stateCode": "CR",
       "latitude": 47.2136114,
@@ -816,7 +816,7 @@
       ]
     },
     {
-      "id": 4391,
+      "id": "MD-CA",
       "name": "Cahul",
       "stateCode": "CA",
       "latitude": 45.8939404,
@@ -841,7 +841,7 @@
       ]
     },
     {
-      "id": 4392,
+      "id": "MD-DR",
       "name": "Drochia",
       "stateCode": "DR",
       "latitude": 48.0797788,
@@ -859,7 +859,7 @@
       ]
     },
     {
-      "id": 4393,
+      "id": "MD-BA",
       "name": "Bălți",
       "stateCode": "BA",
       "latitude": 47.7539947,
@@ -877,7 +877,7 @@
       ]
     },
     {
-      "id": 4394,
+      "id": "MD-RE",
       "name": "Rezina",
       "stateCode": "RE",
       "latitude": 47.7180447,
@@ -902,7 +902,7 @@
       ]
     },
     {
-      "id": 4395,
+      "id": "MD-SN",
       "name": "Transnistria",
       "stateCode": "SN",
       "latitude": 47.2152972,

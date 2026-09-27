@@ -1,5 +1,5 @@
 {
-  "id": 161,
+  "id": "NG",
   "name": "Nigeria",
   "nativeName": "Nigeria",
   "iso2": "NG",
@@ -9,22 +9,22 @@
   "tld": ".ng",
   "latitude": 10,
   "longitude": 8,
-  "flagId": 87,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "ng",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    932
+    "NGN"
   ],
   "timezoneIds": [
-    2492
+    "Africa/Lagos"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [
-    88,
-    94,
-    182
+    "ha",
+    "ig",
+    "yo"
   ],
   "translations": [
     {
@@ -61,7 +61,7 @@
     },
     {
       "languageCode": "fr",
-      "name": "Nigéria"
+      "name": "Nigeria"
     },
     {
       "languageCode": "ja",
@@ -94,7 +94,7 @@
   ],
   "states": [
     {
-      "id": 288,
+      "id": "NG-JI",
       "name": "Jigawa",
       "stateCode": "JI",
       "latitude": 12.228012,
@@ -203,7 +203,7 @@
       ]
     },
     {
-      "id": 289,
+      "id": "NG-EN",
       "name": "Enugu",
       "stateCode": "EN",
       "latitude": 6.536353,
@@ -319,7 +319,7 @@
       ]
     },
     {
-      "id": 290,
+      "id": "NG-KE",
       "name": "Kebbi",
       "stateCode": "KE",
       "latitude": 11.4942003,
@@ -456,7 +456,7 @@
       ]
     },
     {
-      "id": 291,
+      "id": "NG-BE",
       "name": "Benue",
       "stateCode": "BE",
       "latitude": 7.3369024,
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "id": 292,
+      "id": "NG-SO",
       "name": "Sokoto",
       "stateCode": "SO",
       "latitude": 13.0533143,
@@ -625,7 +625,7 @@
       ]
     },
     {
-      "id": 293,
+      "id": "NG-FC",
       "name": "Abuja Federal Capital Territory",
       "stateCode": "FC",
       "latitude": 8.8940691,
@@ -748,7 +748,7 @@
       ]
     },
     {
-      "id": 294,
+      "id": "NG-KD",
       "name": "Kaduna",
       "stateCode": "KD",
       "latitude": 10.3764006,
@@ -871,7 +871,7 @@
       ]
     },
     {
-      "id": 295,
+      "id": "NG-KW",
       "name": "Kwara",
       "stateCode": "KW",
       "latitude": 8.9668961,
@@ -973,7 +973,7 @@
       ]
     },
     {
-      "id": 296,
+      "id": "NG-OY",
       "name": "Oyo",
       "stateCode": "OY",
       "latitude": 8.1573809,
@@ -1082,7 +1082,7 @@
       ]
     },
     {
-      "id": 297,
+      "id": "NG-YO",
       "name": "Yobe",
       "stateCode": "YO",
       "latitude": 12.293876,
@@ -1205,7 +1205,7 @@
       ]
     },
     {
-      "id": 298,
+      "id": "NG-KO",
       "name": "Kogi",
       "stateCode": "KO",
       "latitude": 7.7337325,
@@ -1321,7 +1321,7 @@
       ]
     },
     {
-      "id": 299,
+      "id": "NG-ZA",
       "name": "Zamfara",
       "stateCode": "ZA",
       "latitude": 12.1221805,
@@ -1402,7 +1402,7 @@
       ]
     },
     {
-      "id": 300,
+      "id": "NG-KN",
       "name": "Kano",
       "stateCode": "KN",
       "latitude": 11.7470698,
@@ -1434,7 +1434,7 @@
       ]
     },
     {
-      "id": 301,
+      "id": "NG-NA",
       "name": "Nasarawa",
       "stateCode": "NA",
       "latitude": 8.4997908,
@@ -1487,7 +1487,7 @@
       ]
     },
     {
-      "id": 302,
+      "id": "NG-PL",
       "name": "Plateau",
       "stateCode": "PL",
       "latitude": 9.2182093,
@@ -1568,7 +1568,7 @@
       ]
     },
     {
-      "id": 303,
+      "id": "NG-AB",
       "name": "Abia",
       "stateCode": "AB",
       "latitude": 5.4527354,
@@ -1621,7 +1621,7 @@
       ]
     },
     {
-      "id": 304,
+      "id": "NG-AK",
       "name": "Akwa Ibom",
       "stateCode": "AK",
       "latitude": 4.9057371,
@@ -1667,7 +1667,7 @@
       ]
     },
     {
-      "id": 305,
+      "id": "NG-BY",
       "name": "Bayelsa",
       "stateCode": "BY",
       "latitude": 4.7719071,
@@ -1699,7 +1699,7 @@
       ]
     },
     {
-      "id": 306,
+      "id": "NG-LA",
       "name": "Lagos",
       "stateCode": "LA",
       "latitude": 6.5243793,
@@ -1962,7 +1962,7 @@
       ]
     },
     {
-      "id": 307,
+      "id": "NG-BO",
       "name": "Borno",
       "stateCode": "BO",
       "latitude": 11.8846356,
@@ -2127,7 +2127,7 @@
       ]
     },
     {
-      "id": 308,
+      "id": "NG-IM",
       "name": "Imo",
       "stateCode": "IM",
       "latitude": 5.5720122,
@@ -2180,7 +2180,7 @@
       ]
     },
     {
-      "id": 309,
+      "id": "NG-EK",
       "name": "Ekiti",
       "stateCode": "EK",
       "latitude": 7.7189862,
@@ -2282,7 +2282,7 @@
       ]
     },
     {
-      "id": 310,
+      "id": "NG-GO",
       "name": "Gombe",
       "stateCode": "GO",
       "latitude": 10.3637795,
@@ -2391,7 +2391,7 @@
       ]
     },
     {
-      "id": 311,
+      "id": "NG-EB",
       "name": "Ebonyi",
       "stateCode": "EB",
       "latitude": 6.2649232,
@@ -2437,7 +2437,7 @@
       ]
     },
     {
-      "id": 312,
+      "id": "NG-BA",
       "name": "Bauchi",
       "stateCode": "BA",
       "latitude": 10.7760624,
@@ -2595,7 +2595,7 @@
       ]
     },
     {
-      "id": 313,
+      "id": "NG-KT",
       "name": "Katsina",
       "stateCode": "KT",
       "latitude": 12.3796707,
@@ -2704,7 +2704,7 @@
       ]
     },
     {
-      "id": 314,
+      "id": "NG-CR",
       "name": "Cross River",
       "stateCode": "CR",
       "latitude": 5.8701724,
@@ -2750,7 +2750,7 @@
       ]
     },
     {
-      "id": 315,
+      "id": "NG-AN",
       "name": "Anambra",
       "stateCode": "AN",
       "latitude": 6.2208997,
@@ -2845,7 +2845,7 @@
       ]
     },
     {
-      "id": 316,
+      "id": "NG-DE",
       "name": "Delta",
       "stateCode": "DE",
       "latitude": 33.7453784,
@@ -2954,7 +2954,7 @@
       ]
     },
     {
-      "id": 317,
+      "id": "NG-NI",
       "name": "Niger",
       "stateCode": "NI",
       "latitude": 9.9309224,
@@ -3098,7 +3098,7 @@
       ]
     },
     {
-      "id": 318,
+      "id": "NG-ED",
       "name": "Edo",
       "stateCode": "ED",
       "latitude": 6.6341831,
@@ -3172,7 +3172,7 @@
       ]
     },
     {
-      "id": 319,
+      "id": "NG-TA",
       "name": "Taraba",
       "stateCode": "TA",
       "latitude": 7.9993616,
@@ -3253,7 +3253,7 @@
       ]
     },
     {
-      "id": 320,
+      "id": "NG-AD",
       "name": "Adamawa",
       "stateCode": "AD",
       "latitude": 9.3264751,
@@ -3341,7 +3341,7 @@
       ]
     },
     {
-      "id": 321,
+      "id": "NG-ON",
       "name": "Ondo",
       "stateCode": "ON",
       "latitude": 6.9148682,
@@ -3415,7 +3415,7 @@
       ]
     },
     {
-      "id": 322,
+      "id": "NG-OS",
       "name": "Osun",
       "stateCode": "OS",
       "latitude": 7.5628964,
@@ -3552,7 +3552,7 @@
       ]
     },
     {
-      "id": 323,
+      "id": "NG-OG",
       "name": "Ogun",
       "stateCode": "OG",
       "latitude": 6.9979747,
@@ -3647,7 +3647,7 @@
       ]
     },
     {
-      "id": 4926,
+      "id": "NG-RI",
       "name": "Rivers",
       "stateCode": "RI",
       "latitude": 5.021342,

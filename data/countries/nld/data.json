@@ -1,5 +1,5 @@
 {
-  "id": 156,
+  "id": "NL",
   "name": "Netherlands",
   "nativeName": "Nederland",
   "iso2": "NL",
@@ -9,27 +9,27 @@
   "tld": ".nl",
   "latitude": 52.5,
   "longitude": 5.75,
-  "flagId": 85,
-  "regionId": 4,
-  "subregionId": 17,
+  "flagId": "nl",
+  "regionId": "europe",
+  "subregionId": "western-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2486
+    "Europe/Amsterdam"
   ],
   "officialLanguageIds": [
-    29
+    "nl"
   ],
   "otherLanguageIds": [],
   "translations": [
     {
       "languageCode": "ko",
-      "name": "네덜란드 "
+      "name": "네덜란드"
     },
     {
       "languageCode": "pt-BR",
-      "name": "Holanda"
+      "name": "Países Baixos"
     },
     {
       "languageCode": "pt",
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "پادشاهی هلند"
+      "name": "هلند"
     },
     {
       "languageCode": "de",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2610,
+      "id": "NL-UT",
       "name": "Utrecht",
       "stateCode": "UT",
       "latitude": 52.0907374,
@@ -535,7 +535,7 @@
       ]
     },
     {
-      "id": 2611,
+      "id": "NL-GE",
       "name": "Gelderland",
       "stateCode": "GE",
       "latitude": 52.045155,
@@ -2114,7 +2114,7 @@
       ]
     },
     {
-      "id": 2612,
+      "id": "NL-NH",
       "name": "North Holland",
       "stateCode": "NH",
       "latitude": 52.5205869,
@@ -4561,7 +4561,7 @@
       ]
     },
     {
-      "id": 2613,
+      "id": "NL-DR",
       "name": "Drenthe",
       "stateCode": "DR",
       "latitude": 52.9476012,
@@ -5020,7 +5020,7 @@
       ]
     },
     {
-      "id": 2614,
+      "id": "NL-ZH",
       "name": "South Holland",
       "stateCode": "ZH",
       "latitude": 51.9966792,
@@ -6270,7 +6270,7 @@
       ]
     },
     {
-      "id": 2615,
+      "id": "NL-LI",
       "name": "Limburg",
       "stateCode": "LI",
       "latitude": 51.4427238,
@@ -7534,7 +7534,7 @@
       ]
     },
     {
-      "id": 2616,
+      "id": "NL-BQ3",
       "name": "Sint Eustatius",
       "stateCode": "BQ3",
       "latitude": 17.4890306,
@@ -7544,7 +7544,7 @@
       "cities": []
     },
     {
-      "id": 2617,
+      "id": "NL-GR",
       "name": "Groningen",
       "stateCode": "GR",
       "latitude": 53.2193835,
@@ -8108,7 +8108,7 @@
       ]
     },
     {
-      "id": 2618,
+      "id": "NL-OV",
       "name": "Overijssel",
       "stateCode": "OV",
       "latitude": 52.4387814,
@@ -8574,7 +8574,7 @@
       ]
     },
     {
-      "id": 2619,
+      "id": "NL-FL",
       "name": "Flevoland",
       "stateCode": "FL",
       "latitude": 52.5279781,
@@ -8641,7 +8641,7 @@
       ]
     },
     {
-      "id": 2620,
+      "id": "NL-ZE",
       "name": "Zeeland",
       "stateCode": "ZE",
       "latitude": 51.4940309,
@@ -9086,7 +9086,7 @@
       ]
     },
     {
-      "id": 2621,
+      "id": "NL-BQ2",
       "name": "Saba",
       "stateCode": "BQ2",
       "latitude": 17.6354642,
@@ -9096,7 +9096,7 @@
       "cities": []
     },
     {
-      "id": 2622,
+      "id": "NL-FR",
       "name": "Friesland",
       "stateCode": "FR",
       "latitude": 53.1641642,
@@ -9933,7 +9933,7 @@
       ]
     },
     {
-      "id": 2623,
+      "id": "NL-NB",
       "name": "North Brabant",
       "stateCode": "NB",
       "latitude": 51.4826537,
@@ -11757,7 +11757,7 @@
       ]
     },
     {
-      "id": 2624,
+      "id": "NL-BQ1",
       "name": "Bonaire",
       "stateCode": "BQ1",
       "latitude": 12.2018902,

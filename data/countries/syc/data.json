@@ -1,5 +1,5 @@
 {
-  "id": 197,
+  "id": "SC",
   "name": "Seychelles",
   "nativeName": "Seychelles",
   "iso2": "SC",
@@ -9,18 +9,18 @@
   "tld": ".sc",
   "latitude": -4.58333333,
   "longitude": 55.66666666,
-  "flagId": 56,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "sc",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    953
+    "SCR"
   ],
   "timezoneIds": [
-    2558
+    "Indian/Mahe"
   ],
   "officialLanguageIds": [
-    30,
-    33
+    "en",
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 494,
+      "id": "SC-17",
       "name": "Mont Buxton",
       "stateCode": "17",
       "latitude": -4.6166667,
@@ -101,7 +101,7 @@
       "cities": []
     },
     {
-      "id": 495,
+      "id": "SC-15",
       "name": "La Digue",
       "stateCode": "15",
       "latitude": 49.7666922,
@@ -111,7 +111,7 @@
       "cities": []
     },
     {
-      "id": 496,
+      "id": "SC-22",
       "name": "Saint Louis",
       "stateCode": "22",
       "latitude": 38.6270025,
@@ -121,7 +121,7 @@
       "cities": []
     },
     {
-      "id": 497,
+      "id": "SC-06",
       "name": "Baie Lazare",
       "stateCode": "06",
       "latitude": -4.7482525,
@@ -131,7 +131,7 @@
       "cities": []
     },
     {
-      "id": 498,
+      "id": "SC-18",
       "name": "Mont Fleuri",
       "stateCode": "18",
       "latitude": -4.6356543,
@@ -141,7 +141,7 @@
       "cities": []
     },
     {
-      "id": 499,
+      "id": "SC-24",
       "name": "Les Mamelles",
       "stateCode": "24",
       "latitude": 38.8250505,
@@ -151,7 +151,7 @@
       "cities": []
     },
     {
-      "id": 500,
+      "id": "SC-13",
       "name": "Grand'Anse Mahé",
       "stateCode": "13",
       "latitude": -4.677392,
@@ -161,7 +161,7 @@
       "cities": []
     },
     {
-      "id": 501,
+      "id": "SC-25",
       "name": "Roche Caiman",
       "stateCode": "25",
       "latitude": -4.6396028,
@@ -171,7 +171,7 @@
       "cities": []
     },
     {
-      "id": 502,
+      "id": "SC-05",
       "name": "Anse Royale",
       "stateCode": "05",
       "latitude": -4.7407988,
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": 503,
+      "id": "SC-12",
       "name": "Glacis",
       "stateCode": "12",
       "latitude": 47.1157303,
@@ -199,7 +199,7 @@
       "cities": []
     },
     {
-      "id": 504,
+      "id": "SC-14",
       "name": "Grand'Anse Praslin",
       "stateCode": "14",
       "latitude": -4.3176219,
@@ -209,7 +209,7 @@
       "cities": []
     },
     {
-      "id": 505,
+      "id": "SC-10",
       "name": "Bel Ombre",
       "stateCode": "10",
       "latitude": -20.5010095,
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "id": 506,
+      "id": "SC-01",
       "name": "Anse-aux-Pins",
       "stateCode": "01",
       "latitude": -4.6900443,
@@ -237,7 +237,7 @@
       "cities": []
     },
     {
-      "id": 507,
+      "id": "SC-21",
       "name": "Port Glaud",
       "stateCode": "21",
       "latitude": -4.6488523,
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "id": 508,
+      "id": "SC-04",
       "name": "Au Cap",
       "stateCode": "04",
       "latitude": -4.7059723,
@@ -265,7 +265,7 @@
       "cities": []
     },
     {
-      "id": 509,
+      "id": "SC-23",
       "name": "Takamaka",
       "stateCode": "23",
       "latitude": 37.9645917,
@@ -283,7 +283,7 @@
       ]
     },
     {
-      "id": 510,
+      "id": "SC-20",
       "name": "Pointe La Rue",
       "stateCode": "20",
       "latitude": -4.680489,
@@ -293,7 +293,7 @@
       "cities": []
     },
     {
-      "id": 511,
+      "id": "SC-19",
       "name": "Plaisance",
       "stateCode": "19",
       "latitude": 45.607095,
@@ -303,7 +303,7 @@
       "cities": []
     },
     {
-      "id": 512,
+      "id": "SC-08",
       "name": "Beau Vallon",
       "stateCode": "08",
       "latitude": -4.6210967,
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "id": 513,
+      "id": "SC-02",
       "name": "Anse Boileau",
       "stateCode": "02",
       "latitude": -4.7047268,
@@ -339,7 +339,7 @@
       ]
     },
     {
-      "id": 514,
+      "id": "SC-07",
       "name": "Baie Sainte Anne",
       "stateCode": "07",
       "latitude": 47.05259,
@@ -349,7 +349,7 @@
       "cities": []
     },
     {
-      "id": 515,
+      "id": "SC-09",
       "name": "Bel Air",
       "stateCode": "09",
       "latitude": 34.1002455,
@@ -359,7 +359,7 @@
       "cities": []
     },
     {
-      "id": 516,
+      "id": "SC-16",
       "name": "La Rivière Anglaise",
       "stateCode": "16",
       "latitude": -4.610615,
@@ -377,7 +377,7 @@
       ]
     },
     {
-      "id": 517,
+      "id": "SC-11",
       "name": "Cascade",
       "stateCode": "11",
       "latitude": 44.5162821,

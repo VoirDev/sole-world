@@ -20,10 +20,10 @@ class TransportParityIntegrationTest : BaseGraphqlIntegrationTest() {
             """
             query {
               search: cities(query: "North City") { items { name } }
-              byCountry: cities(countryId: "1") { pageInfo { totalItems } }
-              byState: cities(stateId: "501") { items { name } }
-              both: cities(countryId: "1", stateId: "501") { items { name } }
-              mismatched: cities(countryId: "2", stateId: "501") { pageInfo { totalItems } }
+              byCountry: cities(countryId: "FD") { pageInfo { totalItems } }
+              byState: cities(stateId: "FD-NF") { items { name } }
+              both: cities(countryId: "fd", stateId: "fd-nf") { items { name } }
+              mismatched: cities(countryId: "SY", stateId: "FD-NF") { pageInfo { totalItems } }
             }
             """.trimIndent(),
         )
@@ -42,8 +42,8 @@ class TransportParityIntegrationTest : BaseGraphqlIntegrationTest() {
             """
             query {
               search: states(query: "North Freedonia") { items { name } }
-              byCountry: states(countryId: "1") { items { name } }
-              noMatch: states(countryId: "999") { pageInfo { totalItems } }
+              byCountry: states(countryId: "FD") { items { name } }
+              noMatch: states(countryId: "XX") { pageInfo { totalItems } }
             }
             """.trimIndent(),
         )
@@ -59,7 +59,7 @@ class TransportParityIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              state(id: "501") {
+              state(id: "FD-NF") {
                 name
                 country { id name }
                 cities(page: { size: 50 }) { items { name } pageInfo { totalItems } }
@@ -84,8 +84,8 @@ class TransportParityIntegrationTest : BaseGraphqlIntegrationTest() {
         )
 
         assertNoErrors(response)
-        assertEquals("501", response.at("/data/city/stateId").stringValue())
-        assertEquals("501", response.at("/data/city/state/id").stringValue())
+        assertEquals("FD-NF", response.at("/data/city/stateId").stringValue())
+        assertEquals("FD-NF", response.at("/data/city/state/id").stringValue())
         assertEquals("Freedonia", response.at("/data/city/country/name").stringValue())
     }
 
@@ -94,7 +94,7 @@ class TransportParityIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              centralBank(id: "401") {
+              centralBank(id: "freedonian-reserve") {
                 name
                 countries { name }
                 currencies { iso3 }

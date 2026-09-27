@@ -1,5 +1,5 @@
 {
-  "id": 60,
+  "id": "DJ",
   "name": "Djibouti",
   "nativeName": "Djibouti",
   "iso2": "DJ",
@@ -9,18 +9,18 @@
   "tld": ".dj",
   "latitude": 11.5,
   "longitude": 43,
-  "flagId": 193,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "dj",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    877
+    "DJF"
   ],
   "timezoneIds": [
-    2361
+    "Africa/Djibouti"
   ],
   "officialLanguageIds": [
-    33,
-    7
+    "fr",
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 2928,
+      "id": "DJ-OB",
       "name": "Obock",
       "stateCode": "OB",
       "latitude": 12.3895691,
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "id": 2929,
+      "id": "DJ-DJ",
       "name": "Djibouti",
       "stateCode": "DJ",
       "latitude": 11.825138,
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "id": 2930,
+      "id": "DJ-DI",
       "name": "Dikhil",
       "stateCode": "DI",
       "latitude": 11.1054336,
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "id": 2931,
+      "id": "DJ-TA",
       "name": "Tadjourah",
       "stateCode": "TA",
       "latitude": 11.9338885,
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "id": 2932,
+      "id": "DJ-AR",
       "name": "Arta",
       "stateCode": "AR",
       "latitude": 11.5255528,
@@ -209,7 +209,7 @@
       ]
     },
     {
-      "id": 2933,
+      "id": "DJ-AS",
       "name": "Ali Sabieh",
       "stateCode": "AS",
       "latitude": 11.1928973,

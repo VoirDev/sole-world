@@ -4,7 +4,8 @@ import kotlinx.serialization.Serializable
 
 /**
  * State or province record nested under a country seed file.
- * @property id State or province primary key used during import.
+ * @property id Country alpha-2 code and state code joined by a hyphen, such as `US-CA`, or an alias of that
+ * form for a state with no code.
  * @property name Default state or province name.
  * @property stateCode State or province code, when available.
  * @property latitude Latitude coordinate in decimal degrees, when available.
@@ -15,7 +16,7 @@ import kotlinx.serialization.Serializable
  */
 @Serializable
 data class StateJSON(
-    val id: Long,
+    val id: String,
     val name: String,
     val stateCode: String?,
     val latitude: Double?,

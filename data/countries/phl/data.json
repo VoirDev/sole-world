@@ -1,5 +1,5 @@
 {
-  "id": 174,
+  "id": "PH",
   "name": "Philippines",
   "nativeName": "Pilipinas",
   "iso2": "PH",
@@ -9,18 +9,18 @@
   "tld": ".ph",
   "latitude": 13,
   "longitude": 122,
-  "flagId": 74,
-  "regionId": 3,
-  "subregionId": 13,
+  "flagId": "ph",
+  "regionId": "asia",
+  "subregionId": "south-eastern-asia",
   "currencyIds": [
-    942
+    "PHP"
   ],
   "timezoneIds": [
-    2509
+    "Asia/Manila"
   ],
   "officialLanguageIds": [
-    30,
-    166
+    "en",
+    "tl"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -46,7 +46,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "جزایر الندفیلیپین"
+      "name": "فیلیپین"
     },
     {
       "languageCode": "de",
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 1269,
+      "id": "PH-ROM",
       "name": "Romblon",
       "stateCode": "ROM",
       "latitude": 12.5778016,
@@ -221,7 +221,7 @@
       ]
     },
     {
-      "id": 1270,
+      "id": "PH-BUK",
       "name": "Bukidnon",
       "stateCode": "BUK",
       "latitude": 8.0515054,
@@ -1359,7 +1359,7 @@
       ]
     },
     {
-      "id": 1271,
+      "id": "PH-RIZ",
       "name": "Rizal",
       "stateCode": "RIZ",
       "latitude": 14.6037446,
@@ -1468,7 +1468,7 @@
       ]
     },
     {
-      "id": 1272,
+      "id": "PH-BOH",
       "name": "Bohol",
       "stateCode": "BOH",
       "latitude": 9.8499911,
@@ -2683,7 +2683,7 @@
       ]
     },
     {
-      "id": 1273,
+      "id": "PH-QUI",
       "name": "Quirino",
       "stateCode": "QUI",
       "latitude": 16.2700424,
@@ -2736,7 +2736,7 @@
       ]
     },
     {
-      "id": 1274,
+      "id": "PH-BIL",
       "name": "Biliran",
       "stateCode": "BIL",
       "latitude": 11.5833152,
@@ -2803,7 +2803,7 @@
       ]
     },
     {
-      "id": 1275,
+      "id": "PH-QUE",
       "name": "Quezon",
       "stateCode": "QUE",
       "latitude": 14.0313906,
@@ -3101,7 +3101,7 @@
       ]
     },
     {
-      "id": 1276,
+      "id": "PH-SIG",
       "name": "Siquijor",
       "stateCode": "SIG",
       "latitude": 9.1998779,
@@ -3154,7 +3154,7 @@
       ]
     },
     {
-      "id": 1277,
+      "id": "PH-SAR",
       "name": "Sarangani",
       "stateCode": "SAR",
       "latitude": 5.9267175,
@@ -3214,7 +3214,7 @@
       ]
     },
     {
-      "id": 1278,
+      "id": "PH-BUL",
       "name": "Bulacan",
       "stateCode": "BUL",
       "latitude": 14.7942735,
@@ -3792,7 +3792,7 @@
       ]
     },
     {
-      "id": 1279,
+      "id": "PH-CAG",
       "name": "Cagayan",
       "stateCode": "CAG",
       "latitude": 18.2489629,
@@ -4790,7 +4790,7 @@
       ]
     },
     {
-      "id": 1280,
+      "id": "PH-SCO",
       "name": "South Cotabato",
       "stateCode": "SCO",
       "latitude": 6.3357565,
@@ -4885,7 +4885,7 @@
       ]
     },
     {
-      "id": 1281,
+      "id": "PH-SOR",
       "name": "Sorsogon",
       "stateCode": "SOR",
       "latitude": 12.9927095,
@@ -5001,7 +5001,7 @@
       ]
     },
     {
-      "id": 1282,
+      "id": "PH-SUK",
       "name": "Sultan Kudarat",
       "stateCode": "SUK",
       "latitude": 6.5069401,
@@ -5089,7 +5089,7 @@
       ]
     },
     {
-      "id": 1283,
+      "id": "PH-CAN",
       "name": "Camarines Norte",
       "stateCode": "CAN",
       "latitude": 14.1390265,
@@ -5604,7 +5604,7 @@
       ]
     },
     {
-      "id": 1284,
+      "id": "PH-SLE",
       "name": "Southern Leyte",
       "stateCode": "SLE",
       "latitude": 10.3346206,
@@ -5748,7 +5748,7 @@
       ]
     },
     {
-      "id": 1285,
+      "id": "PH-CAM",
       "name": "Camiguin",
       "stateCode": "CAM",
       "latitude": 9.1732164,
@@ -5794,7 +5794,7 @@
       ]
     },
     {
-      "id": 1286,
+      "id": "PH-SUN",
       "name": "Surigao del Norte",
       "stateCode": "SUN",
       "latitude": 9.514828,
@@ -5952,7 +5952,7 @@
       ]
     },
     {
-      "id": 1287,
+      "id": "PH-CAS",
       "name": "Camarines Sur",
       "stateCode": "CAS",
       "latitude": 13.5250197,
@@ -6222,7 +6222,7 @@
       ]
     },
     {
-      "id": 1288,
+      "id": "PH-SLU",
       "name": "Sulu",
       "stateCode": "SLU",
       "latitude": 5.9749011,
@@ -6366,7 +6366,7 @@
       ]
     },
     {
-      "id": 1289,
+      "id": "PH-DAO",
       "name": "Davao Oriental",
       "stateCode": "DAO",
       "latitude": 7.3171585,
@@ -6454,7 +6454,7 @@
       ]
     },
     {
-      "id": 1290,
+      "id": "PH-EAS",
       "name": "Eastern Samar",
       "stateCode": "EAS",
       "latitude": 11.5000731,
@@ -6626,7 +6626,7 @@
       ]
     },
     {
-      "id": 1291,
+      "id": "PH-DIN",
       "name": "Dinagat Islands",
       "stateCode": "DIN",
       "latitude": 10.1281816,
@@ -6686,7 +6686,7 @@
       ]
     },
     {
-      "id": 1292,
+      "id": "PH-CAP",
       "name": "Capiz",
       "stateCode": "CAP",
       "latitude": 11.5528816,
@@ -6816,7 +6816,7 @@
       ]
     },
     {
-      "id": 1293,
+      "id": "PH-TAW",
       "name": "Tawi-Tawi",
       "stateCode": "TAW",
       "latitude": 5.133811,
@@ -6904,7 +6904,7 @@
       ]
     },
     {
-      "id": 1294,
+      "id": "PH-40",
       "name": "Calabarzon",
       "stateCode": "40",
       "latitude": 14.1007803,
@@ -6914,7 +6914,7 @@
       "cities": []
     },
     {
-      "id": 1295,
+      "id": "PH-TAR",
       "name": "Tarlac",
       "stateCode": "TAR",
       "latitude": 15.4754786,
@@ -7051,7 +7051,7 @@
       ]
     },
     {
-      "id": 1296,
+      "id": "PH-SUR",
       "name": "Surigao del Sur",
       "stateCode": "SUR",
       "latitude": 8.5404906,
@@ -7195,7 +7195,7 @@
       ]
     },
     {
-      "id": 1297,
+      "id": "PH-ZMB",
       "name": "Zambales",
       "stateCode": "ZMB",
       "latitude": 15.5081766,
@@ -7304,7 +7304,7 @@
       ]
     },
     {
-      "id": 1298,
+      "id": "PH-ILN",
       "name": "Ilocos Norte",
       "stateCode": "ILN",
       "latitude": 18.1647281,
@@ -7476,7 +7476,7 @@
       ]
     },
     {
-      "id": 1299,
+      "id": "PH-41",
       "name": "Mimaropa",
       "stateCode": "41",
       "latitude": 9.8432065,
@@ -7486,7 +7486,7 @@
       "cities": []
     },
     {
-      "id": 1300,
+      "id": "PH-IFU",
       "name": "Ifugao",
       "stateCode": "IFU",
       "latitude": 16.8330792,
@@ -7574,7 +7574,7 @@
       ]
     },
     {
-      "id": 1301,
+      "id": "PH-CAT",
       "name": "Catanduanes",
       "stateCode": "CAT",
       "latitude": 13.7088684,
@@ -7662,7 +7662,7 @@
       ]
     },
     {
-      "id": 1302,
+      "id": "PH-ZAN",
       "name": "Zamboanga del Norte",
       "stateCode": "ZAN",
       "latitude": 8.3886282,
@@ -7862,7 +7862,7 @@
       ]
     },
     {
-      "id": 1303,
+      "id": "PH-GUI",
       "name": "Guimaras",
       "stateCode": "GUI",
       "latitude": 10.5928661,
@@ -7908,7 +7908,7 @@
       ]
     },
     {
-      "id": 1304,
+      "id": "PH-05",
       "name": "Bicol",
       "stateCode": "05",
       "latitude": 13.4209885,
@@ -7918,7 +7918,7 @@
       "cities": []
     },
     {
-      "id": 1305,
+      "id": "PH-06",
       "name": "Western Visayas",
       "stateCode": "06",
       "latitude": 11.0049836,
@@ -7928,7 +7928,7 @@
       "cities": []
     },
     {
-      "id": 1306,
+      "id": "PH-CEB",
       "name": "Cebu",
       "stateCode": "CEB",
       "latitude": 10.3156992,
@@ -8310,7 +8310,7 @@
       ]
     },
     {
-      "id": 1307,
+      "id": "PH-CAV",
       "name": "Cavite",
       "stateCode": "CAV",
       "latitude": 14.4791297,
@@ -8482,7 +8482,7 @@
       ]
     },
     {
-      "id": 1308,
+      "id": "PH-07",
       "name": "Central Visayas",
       "stateCode": "07",
       "latitude": 9.816875,
@@ -8492,7 +8492,7 @@
       "cities": []
     },
     {
-      "id": 1309,
+      "id": "PH-DVO",
       "name": "Davao Occidental",
       "stateCode": "DVO",
       "latitude": 6.0941396,
@@ -9630,7 +9630,7 @@
       ]
     },
     {
-      "id": 1310,
+      "id": "PH-12",
       "name": "Soccsksargen",
       "stateCode": "12",
       "latitude": 6.2706918,
@@ -10831,7 +10831,7 @@
       ]
     },
     {
-      "id": 1311,
+      "id": "PH-COM",
       "name": "Compostela Valley",
       "stateCode": "COM",
       "latitude": 7.512515,
@@ -10919,7 +10919,7 @@
       ]
     },
     {
-      "id": 1312,
+      "id": "PH-KAL",
       "name": "Kalinga",
       "stateCode": "KAL",
       "latitude": 17.4740422,
@@ -10986,7 +10986,7 @@
       ]
     },
     {
-      "id": 1313,
+      "id": "PH-ISA",
       "name": "Isabela",
       "stateCode": "ISA",
       "latitude": 18.5007759,
@@ -11249,7 +11249,7 @@
       ]
     },
     {
-      "id": 1314,
+      "id": "PH-13",
       "name": "Caraga",
       "stateCode": "13",
       "latitude": 8.8014562,
@@ -11771,7 +11771,7 @@
       ]
     },
     {
-      "id": 1315,
+      "id": "PH-ILI",
       "name": "Iloilo",
       "stateCode": "ILI",
       "latitude": 10.7201501,
@@ -12090,7 +12090,7 @@
       ]
     },
     {
-      "id": 1316,
+      "id": "PH-14",
       "name": "Autonomous Region in Muslim Mindanao",
       "stateCode": "14",
       "latitude": 6.9568313,
@@ -13102,7 +13102,7 @@
       ]
     },
     {
-      "id": 1317,
+      "id": "PH-LUN",
       "name": "La Union",
       "stateCode": "LUN",
       "latitude": 38.8766878,
@@ -13253,7 +13253,7 @@
       ]
     },
     {
-      "id": 1318,
+      "id": "PH-DAS",
       "name": "Davao del Sur",
       "stateCode": "DAS",
       "latitude": 6.7662687,
@@ -13341,7 +13341,7 @@
       ]
     },
     {
-      "id": 1319,
+      "id": "PH-DAV",
       "name": "Davao del Norte",
       "stateCode": "DAV",
       "latitude": 7.5617699,
@@ -13429,7 +13429,7 @@
       ]
     },
     {
-      "id": 1320,
+      "id": "PH-NCO",
       "name": "Cotabato",
       "stateCode": "NCO",
       "latitude": 7.2046668,
@@ -13622,7 +13622,7 @@
       ]
     },
     {
-      "id": 1321,
+      "id": "PH-ILS",
       "name": "Ilocos Sur",
       "stateCode": "ILS",
       "latitude": 17.2278664,
@@ -13871,7 +13871,7 @@
       ]
     },
     {
-      "id": 1322,
+      "id": "PH-08",
       "name": "Eastern Visayas",
       "stateCode": "08",
       "latitude": 12.2445533,
@@ -14575,7 +14575,7 @@
       ]
     },
     {
-      "id": 1323,
+      "id": "PH-AGN",
       "name": "Agusan del Norte",
       "stateCode": "AGN",
       "latitude": 8.9456259,
@@ -15734,7 +15734,7 @@
       ]
     },
     {
-      "id": 1324,
+      "id": "PH-ABR",
       "name": "Abra",
       "stateCode": "ABR",
       "latitude": 42.497083,
@@ -17229,7 +17229,7 @@
       ]
     },
     {
-      "id": 1325,
+      "id": "PH-09",
       "name": "Zamboanga Peninsula",
       "stateCode": "09",
       "latitude": 8.154077,
@@ -17239,7 +17239,7 @@
       "cities": []
     },
     {
-      "id": 1326,
+      "id": "PH-AGS",
       "name": "Agusan del Sur",
       "stateCode": "AGS",
       "latitude": 8.0463888,
@@ -19175,7 +19175,7 @@
       ]
     },
     {
-      "id": 1327,
+      "id": "PH-LAN",
       "name": "Lanao del Norte",
       "stateCode": "LAN",
       "latitude": 7.8721811,
@@ -19347,7 +19347,7 @@
       ]
     },
     {
-      "id": 1328,
+      "id": "PH-LAG",
       "name": "Laguna",
       "stateCode": "LAG",
       "latitude": 33.5427189,
@@ -19561,7 +19561,7 @@
       ]
     },
     {
-      "id": 1329,
+      "id": "PH-MAD",
       "name": "Marinduque",
       "stateCode": "MAD",
       "latitude": 13.4767171,
@@ -19614,7 +19614,7 @@
       ]
     },
     {
-      "id": 1330,
+      "id": "PH-MAG",
       "name": "Maguindanao",
       "stateCode": "MAG",
       "latitude": 6.9422581,
@@ -19716,7 +19716,7 @@
       ]
     },
     {
-      "id": 1331,
+      "id": "PH-AKL",
       "name": "Aklan",
       "stateCode": "AKL",
       "latitude": 11.8166109,
@@ -19846,7 +19846,7 @@
       ]
     },
     {
-      "id": 1332,
+      "id": "PH-LEY",
       "name": "Leyte",
       "stateCode": "LEY",
       "latitude": 10.8624536,
@@ -20158,7 +20158,7 @@
       ]
     },
     {
-      "id": 1333,
+      "id": "PH-LAS",
       "name": "Lanao del Sur",
       "stateCode": "LAS",
       "latitude": 7.823176,
@@ -20449,7 +20449,7 @@
       ]
     },
     {
-      "id": 1334,
+      "id": "PH-APA",
       "name": "Apayao",
       "stateCode": "APA",
       "latitude": 18.0120304,
@@ -20509,7 +20509,7 @@
       ]
     },
     {
-      "id": 1335,
+      "id": "PH-15",
       "name": "Cordillera Administrative",
       "stateCode": "15",
       "latitude": 17.3512542,
@@ -20975,7 +20975,7 @@
       ]
     },
     {
-      "id": 1336,
+      "id": "PH-ANT",
       "name": "Antique",
       "stateCode": "ANT",
       "latitude": 37.0358695,
@@ -23373,7 +23373,7 @@
       ]
     },
     {
-      "id": 1337,
+      "id": "PH-ALB",
       "name": "Albay",
       "stateCode": "ALB",
       "latitude": 13.1774827,
@@ -25225,7 +25225,7 @@
       ]
     },
     {
-      "id": 1338,
+      "id": "PH-MAS",
       "name": "Masbate",
       "stateCode": "MAS",
       "latitude": 12.3574346,
@@ -25383,7 +25383,7 @@
       ]
     },
     {
-      "id": 1339,
+      "id": "PH-10",
       "name": "Northern Mindanao",
       "stateCode": "10",
       "latitude": 8.0201635,
@@ -25393,7 +25393,7 @@
       "cities": []
     },
     {
-      "id": 1340,
+      "id": "PH-11",
       "name": "Davao",
       "stateCode": "11",
       "latitude": 7.3041622,
@@ -26475,7 +26475,7 @@
       ]
     },
     {
-      "id": 1341,
+      "id": "PH-AUR",
       "name": "Aurora",
       "stateCode": "AUR",
       "latitude": 36.970891,
@@ -26542,7 +26542,7 @@
       ]
     },
     {
-      "id": 1342,
+      "id": "PH-02",
       "name": "Cagayan Valley",
       "stateCode": "02",
       "latitude": 16.9753758,
@@ -27617,7 +27617,7 @@
       ]
     },
     {
-      "id": 1343,
+      "id": "PH-MSC",
       "name": "Misamis Occidental",
       "stateCode": "MSC",
       "latitude": 8.3374903,
@@ -27747,7 +27747,7 @@
       ]
     },
     {
-      "id": 1344,
+      "id": "PH-BAN",
       "name": "Bataan",
       "stateCode": "BAN",
       "latitude": 14.6416842,
@@ -29718,7 +29718,7 @@
       ]
     },
     {
-      "id": 1345,
+      "id": "PH-03",
       "name": "Central Luzon",
       "stateCode": "03",
       "latitude": 15.4827722,
@@ -31619,7 +31619,7 @@
       ]
     },
     {
-      "id": 1346,
+      "id": "PH-BAS",
       "name": "Basilan",
       "stateCode": "BAS",
       "latitude": 6.4296349,
@@ -31721,7 +31721,7 @@
       ]
     },
     {
-      "id": 1347,
+      "id": "PH-NCR",
       "name": "Metro Manila",
       "stateCode": "NCR",
       "latitude": 14.6090537,
@@ -31900,7 +31900,7 @@
       ]
     },
     {
-      "id": 1348,
+      "id": "PH-MSR",
       "name": "Misamis Oriental",
       "stateCode": "MSR",
       "latitude": 8.5045558,
@@ -32093,7 +32093,7 @@
       ]
     },
     {
-      "id": 1349,
+      "id": "PH-NSA",
       "name": "Northern Samar",
       "stateCode": "NSA",
       "latitude": 12.3613199,
@@ -32272,7 +32272,7 @@
       ]
     },
     {
-      "id": 1350,
+      "id": "PH-NER",
       "name": "Negros Oriental",
       "stateCode": "NER",
       "latitude": 9.6282083,
@@ -32451,7 +32451,7 @@
       ]
     },
     {
-      "id": 1351,
+      "id": "PH-NEC",
       "name": "Negros Occidental",
       "stateCode": "NEC",
       "latitude": 10.2925609,
@@ -32686,7 +32686,7 @@
       ]
     },
     {
-      "id": 1352,
+      "id": "PH-BTN",
       "name": "Batanes",
       "stateCode": "BTN",
       "latitude": 20.4485074,
@@ -33488,7 +33488,7 @@
       ]
     },
     {
-      "id": 1353,
+      "id": "PH-MOU",
       "name": "Mountain Province",
       "stateCode": "MOU",
       "latitude": 40.7075437,
@@ -33569,7 +33569,7 @@
       ]
     },
     {
-      "id": 1354,
+      "id": "PH-MDR",
       "name": "Oriental Mindoro",
       "stateCode": "MDR",
       "latitude": 13.0564598,
@@ -34826,7 +34826,7 @@
       ]
     },
     {
-      "id": 1355,
+      "id": "PH-01",
       "name": "Ilocos",
       "stateCode": "01",
       "latitude": 16.0832144,
@@ -36314,7 +36314,7 @@
       ]
     },
     {
-      "id": 1356,
+      "id": "PH-MDC",
       "name": "Occidental Mindoro",
       "stateCode": "MDC",
       "latitude": 13.1024111,
@@ -38019,7 +38019,7 @@
       ]
     },
     {
-      "id": 1357,
+      "id": "PH-ZAS",
       "name": "Zamboanga del Sur",
       "stateCode": "ZAS",
       "latitude": 7.8383054,
@@ -38226,7 +38226,7 @@
       ]
     },
     {
-      "id": 1358,
+      "id": "PH-NUV",
       "name": "Nueva Vizcaya",
       "stateCode": "NUV",
       "latitude": 16.3301107,
@@ -38342,7 +38342,7 @@
       ]
     },
     {
-      "id": 1359,
+      "id": "PH-BTG",
       "name": "Batangas",
       "stateCode": "BTG",
       "latitude": 13.7564651,
@@ -38584,7 +38584,7 @@
       ]
     },
     {
-      "id": 1360,
+      "id": "PH-NUE",
       "name": "Nueva Ecija",
       "stateCode": "NUE",
       "latitude": 15.578375,
@@ -38819,7 +38819,7 @@
       ]
     },
     {
-      "id": 1361,
+      "id": "PH-PLW",
       "name": "Palawan",
       "stateCode": "PLW",
       "latitude": 9.8349493,
@@ -38998,7 +38998,7 @@
       ]
     },
     {
-      "id": 1362,
+      "id": "PH-ZSI",
       "name": "Zamboanga Sibugay",
       "stateCode": "ZSI",
       "latitude": 7.5225247,
@@ -39723,7 +39723,7 @@
       ]
     },
     {
-      "id": 1363,
+      "id": "PH-BEN",
       "name": "Benguet",
       "stateCode": "BEN",
       "latitude": 16.5577257,
@@ -40903,7 +40903,7 @@
       ]
     },
     {
-      "id": 1364,
+      "id": "PH-PAN",
       "name": "Pangasinan",
       "stateCode": "PAN",
       "latitude": 15.8949055,
@@ -41250,7 +41250,7 @@
       ]
     },
     {
-      "id": 1365,
+      "id": "PH-PAM",
       "name": "Pampanga",
       "stateCode": "PAM",
       "latitude": 15.079409,
@@ -41415,7 +41415,7 @@
       ]
     },
     {
-      "id": 5115,
+      "id": "PH-WSA",
       "name": "Western Samar",
       "stateCode": "WSA",
       "latitude": 12.0000206,
@@ -41608,7 +41608,7 @@
       ]
     },
     {
-      "id": 5324,
+      "id": "PH-00",
       "name": "Metro Manila(National Capital Region)",
       "stateCode": "00",
       "latitude": 14.5680707,

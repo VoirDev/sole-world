@@ -1,5 +1,5 @@
 {
-  "id": 33,
+  "id": "BN",
   "name": "Brunei",
   "nativeName": "Negara Brunei Darussalam",
   "iso2": "BN",
@@ -9,17 +9,17 @@
   "tld": ".bn",
   "latitude": 4.5,
   "longitude": 114.66666666,
-  "flagId": 221,
-  "regionId": 3,
-  "subregionId": 13,
+  "flagId": "bn",
+  "regionId": "asia",
+  "subregionId": "south-eastern-asia",
   "currencyIds": [
-    858
+    "BND"
   ],
   "timezoneIds": [
-    2301
+    "Asia/Brunei"
   ],
   "officialLanguageIds": [
-    122
+    "ms"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -53,7 +53,7 @@
     },
     {
       "languageCode": "es",
-      "name": "Brunei"
+      "name": "Brunéi"
     },
     {
       "languageCode": "fr",
@@ -61,7 +61,7 @@
     },
     {
       "languageCode": "ja",
-      "name": "ブルネイ・ダルサラーム"
+      "name": "ブルネイ"
     },
     {
       "languageCode": "it",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1216,
+      "id": "BN-BM",
       "name": "Brunei-Muara",
       "stateCode": "BM",
       "latitude": 4.9311206,
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": 1217,
+      "id": "BN-BE",
       "name": "Belait",
       "stateCode": "BE",
       "latitude": 4.3750749,
@@ -161,7 +161,7 @@
       ]
     },
     {
-      "id": 1218,
+      "id": "BN-TE",
       "name": "Temburong",
       "stateCode": "TE",
       "latitude": 4.6204128,
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "id": 1219,
+      "id": "BN-TU",
       "name": "Tutong",
       "stateCode": "TU",
       "latitude": 4.7140373,

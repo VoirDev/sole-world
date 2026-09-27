@@ -1,5 +1,5 @@
 {
-  "id": 29,
+  "id": "BW",
   "name": "Botswana",
   "nativeName": "Botswana",
   "iso2": "BW",
@@ -9,18 +9,18 @@
   "tld": ".bw",
   "latitude": -22,
   "longitude": 24,
-  "flagId": 215,
-  "regionId": 1,
-  "subregionId": 5,
+  "flagId": "bw",
+  "regionId": "africa",
+  "subregionId": "southern-africa",
   "currencyIds": [
-    856
+    "BWP"
   ],
   "timezoneIds": [
-    2283
+    "Africa/Gaborone"
   ],
   "officialLanguageIds": [
-    30,
-    167
+    "en",
+    "tn"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -54,7 +54,7 @@
     },
     {
       "languageCode": "es",
-      "name": "Botswana"
+      "name": "Botsuana"
     },
     {
       "languageCode": "fr",
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 3060,
+      "id": "BW-NG",
       "name": "Ngamiland",
       "stateCode": "NG",
       "latitude": -19.1905321,
@@ -101,7 +101,7 @@
       "cities": []
     },
     {
-      "id": 3061,
+      "id": "BW-GH",
       "name": "Ghanzi",
       "stateCode": "GH",
       "latitude": -21.8652314,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 3062,
+      "id": "BW-KL",
       "name": "Kgatleng",
       "stateCode": "KL",
       "latitude": -24.1970445,
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "id": 3063,
+      "id": "BW-SO",
       "name": "Southern",
       "stateCode": "SO",
       "latitude": null,
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "id": 3064,
+      "id": "BW-SE",
       "name": "South-East",
       "stateCode": "SE",
       "latitude": 31.2163798,
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "id": 3065,
+      "id": "BW-NW",
       "name": "North-West",
       "stateCode": "NW",
       "latitude": 39.3446307,
@@ -296,7 +296,7 @@
       ]
     },
     {
-      "id": 3066,
+      "id": "BW-KG",
       "name": "Kgalagadi",
       "stateCode": "KG",
       "latitude": -24.7550285,
@@ -349,7 +349,7 @@
       ]
     },
     {
-      "id": 3067,
+      "id": "BW-CE",
       "name": "Central",
       "stateCode": "CE",
       "latitude": null,
@@ -584,7 +584,7 @@
       ]
     },
     {
-      "id": 3068,
+      "id": "BW-NE",
       "name": "North-East",
       "stateCode": "NE",
       "latitude": 37.5884461,
@@ -623,7 +623,7 @@
       ]
     },
     {
-      "id": 3069,
+      "id": "BW-KW",
       "name": "Kweneng",
       "stateCode": "KW",
       "latitude": -23.8367249,

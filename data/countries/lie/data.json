@@ -1,5 +1,5 @@
 {
-  "id": 125,
+  "id": "LI",
   "name": "Liechtenstein",
   "nativeName": "Liechtenstein",
   "iso2": "LI",
@@ -9,17 +9,17 @@
   "tld": ".li",
   "latitude": 47.26666666,
   "longitude": 9.53333333,
-  "flagId": 122,
-  "regionId": 4,
-  "subregionId": 17,
+  "flagId": "li",
+  "regionId": "europe",
+  "subregionId": "western-europe",
   "currencyIds": [
-    915
+    "CHF"
   ],
   "timezoneIds": [
-    2441
+    "Europe/Vaduz"
   ],
   "officialLanguageIds": [
-    34
+    "de"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 449,
+      "id": "LI-08",
       "name": "Schellenberg",
       "stateCode": "08",
       "latitude": 47.230966,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 450,
+      "id": "LI-07",
       "name": "Schaan",
       "stateCode": "07",
       "latitude": 47.120434,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 451,
+      "id": "LI-02",
       "name": "Eschen",
       "stateCode": "02",
       "latitude": 40.7669574,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": 452,
+      "id": "LI-11",
       "name": "Vaduz",
       "stateCode": "11",
       "latitude": 47.1410303,
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": 453,
+      "id": "LI-06",
       "name": "Ruggell",
       "stateCode": "06",
       "latitude": 47.2529222,
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "id": 454,
+      "id": "LI-05",
       "name": "Planken",
       "stateCode": "05",
       "latitude": 40.6650576,
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "id": 455,
+      "id": "LI-04",
       "name": "Mauren",
       "stateCode": "04",
       "latitude": 47.2189285,
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "id": 456,
+      "id": "LI-10",
       "name": "Triesenberg",
       "stateCode": "10",
       "latitude": 47.1224511,
@@ -234,7 +234,7 @@
       ]
     },
     {
-      "id": 457,
+      "id": "LI-03",
       "name": "Gamprin",
       "stateCode": "03",
       "latitude": 47.213249,
@@ -252,7 +252,7 @@
       ]
     },
     {
-      "id": 458,
+      "id": "LI-01",
       "name": "Balzers",
       "stateCode": "01",
       "latitude": 42.0528357,
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "id": 459,
+      "id": "LI-09",
       "name": "Triesen",
       "stateCode": "09",
       "latitude": 47.1097988,

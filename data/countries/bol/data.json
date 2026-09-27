@@ -1,5 +1,5 @@
 {
-  "id": 27,
+  "id": "BO",
   "name": "Bolivia",
   "nativeName": "Bolivia",
   "iso2": "BO",
@@ -9,19 +9,19 @@
   "tld": ".bo",
   "latitude": -17,
   "longitude": -65,
-  "flagId": 220,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "bo",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    854
+    "BOB"
   ],
   "timezoneIds": [
-    2281
+    "America/La_Paz"
   ],
   "officialLanguageIds": [
-    47,
-    142,
-    13
+    "es",
+    "qu",
+    "ay"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -63,7 +63,7 @@
     },
     {
       "languageCode": "ja",
-      "name": "ボリビア多民族国"
+      "name": "ボリビア"
     },
     {
       "languageCode": "it",
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 3375,
+      "id": "BO-B",
       "name": "Beni",
       "stateCode": "B",
       "latitude": -14.3782747,
@@ -222,7 +222,7 @@
       ]
     },
     {
-      "id": 3376,
+      "id": "BO-O",
       "name": "Oruro",
       "stateCode": "O",
       "latitude": -18.5711579,
@@ -387,7 +387,7 @@
       ]
     },
     {
-      "id": 3377,
+      "id": "BO-S",
       "name": "Santa Cruz",
       "stateCode": "S",
       "latitude": -16.7476037,
@@ -776,7 +776,7 @@
       ]
     },
     {
-      "id": 3378,
+      "id": "BO-T",
       "name": "Tarija",
       "stateCode": "T",
       "latitude": -21.5831595,
@@ -864,7 +864,7 @@
       ]
     },
     {
-      "id": 3379,
+      "id": "BO-N",
       "name": "Pando",
       "stateCode": "N",
       "latitude": -10.7988901,
@@ -917,7 +917,7 @@
       ]
     },
     {
-      "id": 3380,
+      "id": "BO-L",
       "name": "La Paz",
       "stateCode": "L",
       "latitude": null,
@@ -1229,7 +1229,7 @@
       ]
     },
     {
-      "id": 3381,
+      "id": "BO-C",
       "name": "Cochabamba",
       "stateCode": "C",
       "latitude": -17.5681675,
@@ -1478,7 +1478,7 @@
       ]
     },
     {
-      "id": 3382,
+      "id": "BO-H",
       "name": "Chuquisaca",
       "stateCode": "H",
       "latitude": -20.0249144,
@@ -1594,7 +1594,7 @@
       ]
     },
     {
-      "id": 3383,
+      "id": "BO-P",
       "name": "Potosí",
       "stateCode": "P",
       "latitude": -20.624713,

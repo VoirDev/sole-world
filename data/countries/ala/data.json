@@ -1,6 +1,6 @@
 {
-  "id": 2,
-  "name": "Aland Islands",
+  "id": "AX",
+  "name": "Åland Islands",
   "nativeName": "Åland",
   "iso2": "AX",
   "iso3": "ALA",
@@ -9,17 +9,17 @@
   "tld": ".ax",
   "latitude": 60.116667,
   "longitude": 19.9,
-  "flagId": 233,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "ax",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2235
+    "Europe/Mariehamn"
   ],
   "officialLanguageIds": [
-    48
+    "sv"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "جزایر الند"
+      "name": "جزایر آلاند"
     },
     {
       "languageCode": "de",
@@ -53,11 +53,11 @@
     },
     {
       "languageCode": "es",
-      "name": "Alandia"
+      "name": "Islas Åland"
     },
     {
       "languageCode": "fr",
-      "name": "Åland"
+      "name": "Îles Åland"
     },
     {
       "languageCode": "ja",
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Isole Aland"
+      "name": "Isole Åland"
     },
     {
       "languageCode": "zh-CN",
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Åland Adalari"
+      "name": "Åland Adaları"
     },
     {
       "languageCode": "ru",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 5287,
+      "id": "AX-MARIEHAMN",
       "name": "Mariehamn",
       "stateCode": null,
       "latitude": 60.0945578,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 5288,
+      "id": "AX-JOMALA",
       "name": "Jomala",
       "stateCode": null,
       "latitude": 60.1522391,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 5289,
+      "id": "AX-FINSTROM",
       "name": "Finström",
       "stateCode": null,
       "latitude": 60.2299321,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 5290,
+      "id": "AX-LEMLAND",
       "name": "Lemland",
       "stateCode": null,
       "latitude": 60.0688705,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 5291,
+      "id": "AX-SALTVIK",
       "name": "Saltvik",
       "stateCode": null,
       "latitude": 60.2755446,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 5292,
+      "id": "AX-HAMMARLAND",
       "name": "Hammarland",
       "stateCode": null,
       "latitude": 60.2164183,
@@ -150,7 +150,7 @@
       "cities": []
     },
     {
-      "id": 5293,
+      "id": "AX-SUND",
       "name": "Sund",
       "stateCode": null,
       "latitude": 60.2308476,
@@ -160,7 +160,7 @@
       "cities": []
     },
     {
-      "id": 5294,
+      "id": "AX-ECKERO",
       "name": "Eckerö",
       "stateCode": null,
       "latitude": 60.2231814,
@@ -170,7 +170,7 @@
       "cities": []
     },
     {
-      "id": 5295,
+      "id": "AX-FOGLO",
       "name": "Föglö",
       "stateCode": null,
       "latitude": 60.0146277,
@@ -180,7 +180,7 @@
       "cities": []
     },
     {
-      "id": 5296,
+      "id": "AX-GETA",
       "name": "Geta",
       "stateCode": null,
       "latitude": 60.3749727,
@@ -190,7 +190,7 @@
       "cities": []
     },
     {
-      "id": 5297,
+      "id": "AX-VARDO",
       "name": "Vårdö",
       "stateCode": null,
       "latitude": 60.2423396,
@@ -200,7 +200,7 @@
       "cities": []
     },
     {
-      "id": 5298,
+      "id": "AX-BRANDO",
       "name": "Brändö",
       "stateCode": null,
       "latitude": 60.4125908,
@@ -210,7 +210,7 @@
       "cities": []
     },
     {
-      "id": 5299,
+      "id": "AX-LUMPARLAND",
       "name": "Lumparland",
       "stateCode": null,
       "latitude": 60.1152357,
@@ -220,7 +220,7 @@
       "cities": []
     },
     {
-      "id": 5300,
+      "id": "AX-KUMLINGE",
       "name": "Kumlinge",
       "stateCode": null,
       "latitude": 60.2599272,
@@ -230,7 +230,7 @@
       "cities": []
     },
     {
-      "id": 5301,
+      "id": "AX-KOKAR",
       "name": "Kökar",
       "stateCode": null,
       "latitude": 59.920817,
@@ -240,7 +240,7 @@
       "cities": []
     },
     {
-      "id": 5302,
+      "id": "AX-SOTTUNGA",
       "name": "Sottunga",
       "stateCode": null,
       "latitude": 60.1307977,

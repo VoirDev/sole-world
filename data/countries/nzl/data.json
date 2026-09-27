@@ -1,5 +1,5 @@
 {
-  "id": 158,
+  "id": "NZ",
   "name": "New Zealand",
   "nativeName": "New Zealand",
   "iso2": "NZ",
@@ -9,19 +9,19 @@
   "tld": ".nz",
   "latitude": -41,
   "longitude": 174,
-  "flagId": 80,
-  "regionId": 5,
-  "subregionId": 19,
+  "flagId": "nz",
+  "regionId": "oceania",
+  "subregionId": "australia-and-new-zealand",
   "currencyIds": [
-    870
+    "NZD"
   ],
   "timezoneIds": [
-    2488,
-    2489
+    "Pacific/Auckland",
+    "Pacific/Chatham"
   ],
   "officialLanguageIds": [
-    30,
-    118
+    "en",
+    "mi"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 4059,
+      "id": "NZ-NTL",
       "name": "Northland",
       "stateCode": "NTL",
       "latitude": -35.4136172,
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "id": 4060,
+      "id": "NZ-MWT",
       "name": "Manawatu-Wanganui",
       "stateCode": "MWT",
       "latitude": -39.7273356,
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "id": 4061,
+      "id": "NZ-WKO",
       "name": "Waikato",
       "stateCode": "WKO",
       "latitude": -37.6190862,
@@ -419,7 +419,7 @@
       ]
     },
     {
-      "id": 4062,
+      "id": "NZ-OTA",
       "name": "Otago",
       "stateCode": "OTA",
       "latitude": -45.4790671,
@@ -514,7 +514,7 @@
       ]
     },
     {
-      "id": 4063,
+      "id": "NZ-MBH",
       "name": "Marlborough",
       "stateCode": "MBH",
       "latitude": -41.5916883,
@@ -539,7 +539,7 @@
       ]
     },
     {
-      "id": 4064,
+      "id": "NZ-WTC",
       "name": "West Coast",
       "stateCode": "WTC",
       "latitude": 62.4113634,
@@ -571,7 +571,7 @@
       ]
     },
     {
-      "id": 4065,
+      "id": "NZ-WGN",
       "name": "Wellington",
       "stateCode": "WGN",
       "latitude": -41.0299323,
@@ -694,7 +694,7 @@
       ]
     },
     {
-      "id": 4066,
+      "id": "NZ-CAN",
       "name": "Canterbury",
       "stateCode": "CAN",
       "latitude": -43.7542275,
@@ -873,7 +873,7 @@
       ]
     },
     {
-      "id": 4067,
+      "id": "NZ-CIT",
       "name": "Chatham Islands",
       "stateCode": "CIT",
       "latitude": -44.0057523,
@@ -891,7 +891,7 @@
       ]
     },
     {
-      "id": 4068,
+      "id": "NZ-GIS",
       "name": "Gisborne",
       "stateCode": "GIS",
       "latitude": -38.1358174,
@@ -909,7 +909,7 @@
       ]
     },
     {
-      "id": 4069,
+      "id": "NZ-TKI",
       "name": "Taranaki",
       "stateCode": "TKI",
       "latitude": -39.3538149,
@@ -983,7 +983,7 @@
       ]
     },
     {
-      "id": 4070,
+      "id": "NZ-NSN",
       "name": "Nelson",
       "stateCode": "NSN",
       "latitude": -41.2985397,
@@ -1001,7 +1001,7 @@
       ]
     },
     {
-      "id": 4071,
+      "id": "NZ-STL",
       "name": "Southland",
       "stateCode": "STL",
       "latitude": -45.8489159,
@@ -1061,7 +1061,7 @@
       ]
     },
     {
-      "id": 4072,
+      "id": "NZ-AUK",
       "name": "Auckland",
       "stateCode": "AUK",
       "latitude": -36.6675328,
@@ -1219,7 +1219,7 @@
       ]
     },
     {
-      "id": 4073,
+      "id": "NZ-TAS",
       "name": "Tasman",
       "stateCode": "TAS",
       "latitude": -41.4571184,
@@ -1272,7 +1272,7 @@
       ]
     },
     {
-      "id": 4074,
+      "id": "NZ-BOP",
       "name": "Bay of Plenty",
       "stateCode": "BOP",
       "latitude": -37.4233917,
@@ -1353,7 +1353,7 @@
       ]
     },
     {
-      "id": 4075,
+      "id": "NZ-HKB",
       "name": "Hawke's Bay",
       "stateCode": "HKB",
       "latitude": -39.6016597,

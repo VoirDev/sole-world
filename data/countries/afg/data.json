@@ -1,5 +1,5 @@
 {
-  "id": 1,
+  "id": "AF",
   "name": "Afghanistan",
   "nativeName": "افغانستان",
   "iso2": "AF",
@@ -9,18 +9,18 @@
   "tld": ".af",
   "latitude": 33,
   "longitude": 65,
-  "flagId": 245,
-  "regionId": 3,
-  "subregionId": 14,
+  "flagId": "af",
+  "regionId": "asia",
+  "subregionId": "southern-asia",
   "currencyIds": [
-    834
+    "AFN"
   ],
   "timezoneIds": [
-    2234
+    "Asia/Kabul"
   ],
   "officialLanguageIds": [
-    141,
-    54
+    "ps",
+    "fa"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 3870,
+      "id": "AF-GHA",
       "name": "Ghazni",
       "stateCode": "GHA",
       "latitude": 33.5450587,
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "id": 3871,
+      "id": "AF-BDG",
       "name": "Badghis",
       "stateCode": "BDG",
       "latitude": 35.1671339,
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "id": 3872,
+      "id": "AF-BAM",
       "name": "Bamyan",
       "stateCode": "BAM",
       "latitude": 34.8100067,
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "id": 3873,
+      "id": "AF-HEL",
       "name": "Helmand",
       "stateCode": "HEL",
       "latitude": 39.2989361,
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "id": 3874,
+      "id": "AF-ZAB",
       "name": "Zabul",
       "stateCode": "ZAB",
       "latitude": 32.1918782,
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "id": 3875,
+      "id": "AF-BGL",
       "name": "Baghlan",
       "stateCode": "BGL",
       "latitude": 36.1789026,
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "id": 3876,
+      "id": "AF-KNR",
       "name": "Kunar",
       "stateCode": "KNR",
       "latitude": 34.8465893,
@@ -287,7 +287,7 @@
       ]
     },
     {
-      "id": 3877,
+      "id": "AF-PKA",
       "name": "Paktika",
       "stateCode": "PKA",
       "latitude": 32.2645386,
@@ -319,7 +319,7 @@
       ]
     },
     {
-      "id": 3878,
+      "id": "AF-KHO",
       "name": "Khost",
       "stateCode": "KHO",
       "latitude": 33.3338472,
@@ -337,7 +337,7 @@
       ]
     },
     {
-      "id": 3879,
+      "id": "AF-KAP",
       "name": "Kapisa",
       "stateCode": "KAP",
       "latitude": 34.9810572,
@@ -355,7 +355,7 @@
       ]
     },
     {
-      "id": 3880,
+      "id": "AF-NUR",
       "name": "Nuristan",
       "stateCode": "NUR",
       "latitude": 35.3250223,
@@ -373,7 +373,7 @@
       ]
     },
     {
-      "id": 3881,
+      "id": "AF-PAN",
       "name": "Panjshir",
       "stateCode": "PAN",
       "latitude": 38.8802391,
@@ -391,7 +391,7 @@
       ]
     },
     {
-      "id": 3882,
+      "id": "AF-NAN",
       "name": "Nangarhar",
       "stateCode": "NAN",
       "latitude": 34.1718313,
@@ -423,7 +423,7 @@
       ]
     },
     {
-      "id": 3883,
+      "id": "AF-SAM",
       "name": "Samangan",
       "stateCode": "SAM",
       "latitude": 36.3155506,
@@ -441,7 +441,7 @@
       ]
     },
     {
-      "id": 3884,
+      "id": "AF-BAL",
       "name": "Balkh",
       "stateCode": "BAL",
       "latitude": 36.7550603,
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "id": 3885,
+      "id": "AF-SAR",
       "name": "Sar-e Pol",
       "stateCode": "SAR",
       "latitude": 36.216628,
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "id": 3886,
+      "id": "AF-JOW",
       "name": "Jowzjan",
       "stateCode": "JOW",
       "latitude": 36.8969692,
@@ -593,7 +593,7 @@
       ]
     },
     {
-      "id": 3887,
+      "id": "AF-HER",
       "name": "Herat",
       "stateCode": "HER",
       "latitude": 34.352865,
@@ -681,7 +681,7 @@
       ]
     },
     {
-      "id": 3888,
+      "id": "AF-GHO",
       "name": "Ghōr",
       "stateCode": "GHO",
       "latitude": 34.0995776,
@@ -706,7 +706,7 @@
       ]
     },
     {
-      "id": 3889,
+      "id": "AF-FYB",
       "name": "Faryab",
       "stateCode": "FYB",
       "latitude": 36.0795613,
@@ -731,7 +731,7 @@
       ]
     },
     {
-      "id": 3890,
+      "id": "AF-KAN",
       "name": "Kandahar",
       "stateCode": "KAN",
       "latitude": 31.628871,
@@ -749,7 +749,7 @@
       ]
     },
     {
-      "id": 3891,
+      "id": "AF-LAG",
       "name": "Laghman",
       "stateCode": "LAG",
       "latitude": 34.6897687,
@@ -767,7 +767,7 @@
       ]
     },
     {
-      "id": 3892,
+      "id": "AF-DAY",
       "name": "Daykundi",
       "stateCode": "DAY",
       "latitude": 33.669495,
@@ -785,7 +785,7 @@
       ]
     },
     {
-      "id": 3893,
+      "id": "AF-TAK",
       "name": "Takhar",
       "stateCode": "TAK",
       "latitude": 36.6698013,
@@ -810,7 +810,7 @@
       ]
     },
     {
-      "id": 3894,
+      "id": "AF-PIA",
       "name": "Paktia",
       "stateCode": "PIA",
       "latitude": 33.706199,
@@ -828,7 +828,7 @@
       ]
     },
     {
-      "id": 3895,
+      "id": "AF-PAR",
       "name": "Parwan",
       "stateCode": "PAR",
       "latitude": 34.9630977,
@@ -853,7 +853,7 @@
       ]
     },
     {
-      "id": 3896,
+      "id": "AF-NIM",
       "name": "Nimruz",
       "stateCode": "NIM",
       "latitude": 31.0261488,
@@ -892,7 +892,7 @@
       ]
     },
     {
-      "id": 3897,
+      "id": "AF-LOG",
       "name": "Logar",
       "stateCode": "LOG",
       "latitude": 34.0145518,
@@ -924,7 +924,7 @@
       ]
     },
     {
-      "id": 3898,
+      "id": "AF-URU",
       "name": "Urozgan",
       "stateCode": "URU",
       "latitude": 32.9271287,
@@ -949,7 +949,7 @@
       ]
     },
     {
-      "id": 3899,
+      "id": "AF-FRA",
       "name": "Farah",
       "stateCode": "FRA",
       "latitude": 32.495328,
@@ -967,7 +967,7 @@
       ]
     },
     {
-      "id": 3900,
+      "id": "AF-KDZ",
       "name": "Kunduz Province",
       "stateCode": "KDZ",
       "latitude": 36.7285511,
@@ -1013,7 +1013,7 @@
       ]
     },
     {
-      "id": 3901,
+      "id": "AF-BDS",
       "name": "Badakhshan",
       "stateCode": "BDS",
       "latitude": 36.7347725,
@@ -1066,7 +1066,7 @@
       ]
     },
     {
-      "id": 3902,
+      "id": "AF-KAB",
       "name": "Kabul",
       "stateCode": "KAB",
       "latitude": 34.5553494,

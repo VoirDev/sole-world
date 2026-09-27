@@ -1,6 +1,6 @@
 {
-  "id": 128,
-  "name": "Macau S.A.R.",
+  "id": "MO",
+  "name": "Macao",
   "nativeName": "澳門",
   "iso2": "MO",
   "iso3": "MAC",
@@ -9,18 +9,18 @@
   "tld": ".mo",
   "latitude": 22.16666666,
   "longitude": 113.55,
-  "flagId": 103,
-  "regionId": 3,
-  "subregionId": 12,
+  "flagId": "mo",
+  "regionId": "asia",
+  "subregionId": "eastern-asia",
   "currencyIds": [
-    916
+    "MOP"
   ],
   "timezoneIds": [
-    2444
+    "Asia/Macau"
   ],
   "officialLanguageIds": [
-    25,
-    45
+    "zh",
+    "pt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -50,7 +50,7 @@
     },
     {
       "languageCode": "de",
-      "name": "Macao"
+      "name": "Macau"
     },
     {
       "languageCode": "es",
@@ -78,15 +78,15 @@
     },
     {
       "languageCode": "ru",
-      "name": "Макао С.А.Р."
+      "name": "Макао"
     },
     {
       "languageCode": "uk",
-      "name": "САР Макао."
+      "name": "Макао"
     },
     {
       "languageCode": "pl",
-      "name": "Macau S.A.R."
+      "name": "Makau"
     }
   ],
   "states": []

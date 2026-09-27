@@ -1,5 +1,5 @@
 {
-  "id": 99,
+  "id": "HU",
   "name": "Hungary",
   "nativeName": "Magyarország",
   "iso2": "HU",
@@ -9,17 +9,17 @@
   "tld": ".hu",
   "latitude": 47,
   "longitude": 20,
-  "flagId": 150,
-  "regionId": 4,
-  "subregionId": 15,
+  "flagId": "hu",
+  "regionId": "europe",
+  "subregionId": "eastern-europe",
   "currencyIds": [
-    896
+    "HUF"
   ],
   "timezoneIds": [
-    2405
+    "Europe/Budapest"
   ],
   "officialLanguageIds": [
-    38
+    "hu"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1027,
+      "id": "HU-HV",
       "name": "Hódmezővásárhely",
       "stateCode": "HV",
       "latitude": 46.4181262,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 1028,
+      "id": "HU-ER",
       "name": "Érd",
       "stateCode": "ER",
       "latitude": 47.3919718,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 1029,
+      "id": "HU-SD",
       "name": "Szeged",
       "stateCode": "SD",
       "latitude": 46.2530102,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 1030,
+      "id": "HU-NK",
       "name": "Nagykanizsa",
       "stateCode": "NK",
       "latitude": 46.4590218,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 1031,
+      "id": "HU-CS",
       "name": "Csongrád County",
       "stateCode": "CS",
       "latitude": 46.416705,
@@ -442,7 +442,7 @@
       ]
     },
     {
-      "id": 1032,
+      "id": "HU-DE",
       "name": "Debrecen",
       "stateCode": "DE",
       "latitude": 47.5316049,
@@ -452,7 +452,7 @@
       "cities": []
     },
     {
-      "id": 1033,
+      "id": "HU-SF",
       "name": "Székesfehérvár",
       "stateCode": "SF",
       "latitude": 47.1860262,
@@ -462,7 +462,7 @@
       "cities": []
     },
     {
-      "id": 1034,
+      "id": "HU-NY",
       "name": "Nyíregyháza",
       "stateCode": "NY",
       "latitude": 47.9495324,
@@ -472,7 +472,7 @@
       "cities": []
     },
     {
-      "id": 1035,
+      "id": "HU-SO",
       "name": "Somogy County",
       "stateCode": "SO",
       "latitude": 46.554859,
@@ -749,7 +749,7 @@
       ]
     },
     {
-      "id": 1036,
+      "id": "HU-BC",
       "name": "Békéscsaba",
       "stateCode": "BC",
       "latitude": 46.6735939,
@@ -759,7 +759,7 @@
       "cities": []
     },
     {
-      "id": 1037,
+      "id": "HU-EG",
       "name": "Eger",
       "stateCode": "EG",
       "latitude": 47.9025348,
@@ -769,7 +769,7 @@
       "cities": []
     },
     {
-      "id": 1038,
+      "id": "HU-TO",
       "name": "Tolna County",
       "stateCode": "TO",
       "latitude": 46.4762754,
@@ -1032,7 +1032,7 @@
       ]
     },
     {
-      "id": 1039,
+      "id": "HU-VA",
       "name": "Vas County",
       "stateCode": "VA",
       "latitude": 47.0929111,
@@ -1197,7 +1197,7 @@
       ]
     },
     {
-      "id": 1040,
+      "id": "HU-HE",
       "name": "Heves County",
       "stateCode": "HE",
       "latitude": 47.8057617,
@@ -1607,7 +1607,7 @@
       ]
     },
     {
-      "id": 1041,
+      "id": "HU-GY",
       "name": "Győr",
       "stateCode": "GY",
       "latitude": 47.6874569,
@@ -1617,7 +1617,7 @@
       "cities": []
     },
     {
-      "id": 1042,
+      "id": "HU-GS",
       "name": "Győr-Moson-Sopron County",
       "stateCode": "GS",
       "latitude": 47.6509285,
@@ -1922,7 +1922,7 @@
       ]
     },
     {
-      "id": 1043,
+      "id": "HU-JN",
       "name": "Jász-Nagykun-Szolnok County",
       "stateCode": "JN",
       "latitude": 47.2555579,
@@ -2304,7 +2304,7 @@
       ]
     },
     {
-      "id": 1044,
+      "id": "HU-FE",
       "name": "Fejér County",
       "stateCode": "FE",
       "latitude": 47.1217932,
@@ -2728,7 +2728,7 @@
       ]
     },
     {
-      "id": 1045,
+      "id": "HU-SZ",
       "name": "Szabolcs-Szatmár-Bereg County",
       "stateCode": "SZ",
       "latitude": 48.0394954,
@@ -3397,7 +3397,7 @@
       ]
     },
     {
-      "id": 1046,
+      "id": "HU-ZA",
       "name": "Zala County",
       "stateCode": "ZA",
       "latitude": 46.7384404,
@@ -3569,7 +3569,7 @@
       ]
     },
     {
-      "id": 1047,
+      "id": "HU-SK",
       "name": "Szolnok",
       "stateCode": "SK",
       "latitude": 47.1621355,
@@ -3579,7 +3579,7 @@
       "cities": []
     },
     {
-      "id": 1048,
+      "id": "HU-BK",
       "name": "Bács-Kiskun",
       "stateCode": "BK",
       "latitude": 46.5661437,
@@ -4115,7 +4115,7 @@
       ]
     },
     {
-      "id": 1049,
+      "id": "HU-DU",
       "name": "Dunaújváros",
       "stateCode": "DU",
       "latitude": 46.9619059,
@@ -4125,7 +4125,7 @@
       "cities": []
     },
     {
-      "id": 1050,
+      "id": "HU-ZE",
       "name": "Zalaegerszeg",
       "stateCode": "ZE",
       "latitude": 46.8416936,
@@ -4135,7 +4135,7 @@
       "cities": []
     },
     {
-      "id": 1051,
+      "id": "HU-NO",
       "name": "Nógrád County",
       "stateCode": "NO",
       "latitude": 47.9041031,
@@ -4363,7 +4363,7 @@
       ]
     },
     {
-      "id": 1052,
+      "id": "HU-SH",
       "name": "Szombathely",
       "stateCode": "SH",
       "latitude": 47.2306851,
@@ -4373,7 +4373,7 @@
       "cities": []
     },
     {
-      "id": 1053,
+      "id": "HU-PS",
       "name": "Pécs",
       "stateCode": "PS",
       "latitude": 46.0727345,
@@ -4383,7 +4383,7 @@
       "cities": []
     },
     {
-      "id": 1054,
+      "id": "HU-VE",
       "name": "Veszprém County",
       "stateCode": "VE",
       "latitude": 47.0930974,
@@ -4653,7 +4653,7 @@
       ]
     },
     {
-      "id": 1055,
+      "id": "HU-BA",
       "name": "Baranya",
       "stateCode": "BA",
       "latitude": 46.0484585,
@@ -4902,7 +4902,7 @@
       ]
     },
     {
-      "id": 1056,
+      "id": "HU-KM",
       "name": "Kecskemét",
       "stateCode": "KM",
       "latitude": 46.8963711,
@@ -4912,7 +4912,7 @@
       "cities": []
     },
     {
-      "id": 1057,
+      "id": "HU-SN",
       "name": "Sopron",
       "stateCode": "SN",
       "latitude": 47.6816619,
@@ -4922,7 +4922,7 @@
       "cities": []
     },
     {
-      "id": 1058,
+      "id": "HU-BZ",
       "name": "Borsod-Abaúj-Zemplén",
       "stateCode": "BZ",
       "latitude": 48.2939401,
@@ -5535,7 +5535,7 @@
       ]
     },
     {
-      "id": 1059,
+      "id": "HU-PE",
       "name": "Pest County",
       "stateCode": "PE",
       "latitude": 47.4480001,
@@ -6589,7 +6589,7 @@
       ]
     },
     {
-      "id": 1060,
+      "id": "HU-BE",
       "name": "Békés",
       "stateCode": "BE",
       "latitude": 46.6704899,
@@ -6950,7 +6950,7 @@
       ]
     },
     {
-      "id": 1061,
+      "id": "HU-SS",
       "name": "Szekszárd",
       "stateCode": "SS",
       "latitude": 46.3474326,
@@ -6960,7 +6960,7 @@
       "cities": []
     },
     {
-      "id": 1062,
+      "id": "HU-VM",
       "name": "Veszprém",
       "stateCode": "VM",
       "latitude": 47.1028087,
@@ -6970,7 +6970,7 @@
       "cities": []
     },
     {
-      "id": 1063,
+      "id": "HU-HB",
       "name": "Hajdú-Bihar County",
       "stateCode": "HB",
       "latitude": 47.4688355,
@@ -7352,7 +7352,7 @@
       ]
     },
     {
-      "id": 1064,
+      "id": "HU-BU",
       "name": "Budapest",
       "stateCode": "BU",
       "latitude": 47.497912,
@@ -7524,7 +7524,7 @@
       ]
     },
     {
-      "id": 1065,
+      "id": "HU-MI",
       "name": "Miskolc",
       "stateCode": "MI",
       "latitude": 48.1034775,
@@ -7534,7 +7534,7 @@
       "cities": []
     },
     {
-      "id": 1066,
+      "id": "HU-TB",
       "name": "Tatabánya",
       "stateCode": "TB",
       "latitude": 47.569246,
@@ -7544,7 +7544,7 @@
       "cities": []
     },
     {
-      "id": 1067,
+      "id": "HU-KV",
       "name": "Kaposvár",
       "stateCode": "KV",
       "latitude": 46.3593606,
@@ -7554,7 +7554,7 @@
       "cities": []
     },
     {
-      "id": 1068,
+      "id": "HU-ST",
       "name": "Salgótarján",
       "stateCode": "ST",
       "latitude": 48.0935237,
@@ -7564,7 +7564,7 @@
       "cities": []
     },
     {
-      "id": 5085,
+      "id": "HU-KE",
       "name": "Komárom-Esztergom",
       "stateCode": "KE",
       "latitude": 47.5779786,

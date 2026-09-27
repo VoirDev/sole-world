@@ -1,5 +1,5 @@
 {
-  "id": 131,
+  "id": "MW",
   "name": "Malawi",
   "nativeName": "Malawi",
   "iso2": "MW",
@@ -9,18 +9,18 @@
   "tld": ".mw",
   "latitude": -13.5,
   "longitude": 34,
-  "flagId": 95,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "mw",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    918
+    "MWK"
   ],
   "timezoneIds": [
-    2446
+    "Africa/Blantyre"
   ],
   "officialLanguageIds": [
-    30,
-    133
+    "en",
+    "ny"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -54,7 +54,7 @@
     },
     {
       "languageCode": "es",
-      "name": "Malawi"
+      "name": "Malaui"
     },
     {
       "languageCode": "fr",
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 3082,
+      "id": "MW-MH",
       "name": "Machinga",
       "stateCode": "MH",
       "latitude": -14.9407263,
@@ -101,7 +101,7 @@
       "cities": []
     },
     {
-      "id": 3083,
+      "id": "MW-ZO",
       "name": "Zomba",
       "stateCode": "ZO",
       "latitude": -15.3765857,
@@ -111,7 +111,7 @@
       "cities": []
     },
     {
-      "id": 3084,
+      "id": "MW-MW",
       "name": "Mwanza",
       "stateCode": "MW",
       "latitude": -2.4671197,
@@ -121,7 +121,7 @@
       "cities": []
     },
     {
-      "id": 3085,
+      "id": "MW-NS",
       "name": "Nsanje",
       "stateCode": "NS",
       "latitude": -16.7288202,
@@ -131,7 +131,7 @@
       "cities": []
     },
     {
-      "id": 3086,
+      "id": "MW-SA",
       "name": "Salima",
       "stateCode": "SA",
       "latitude": -13.6809586,
@@ -141,7 +141,7 @@
       "cities": []
     },
     {
-      "id": 3087,
+      "id": "MW-CT",
       "name": "Chitipa",
       "stateCode": "CT",
       "latitude": -9.7037655,
@@ -151,7 +151,7 @@
       "cities": []
     },
     {
-      "id": 3088,
+      "id": "MW-NU",
       "name": "Ntcheu",
       "stateCode": "NU",
       "latitude": -14.9037538,
@@ -161,7 +161,7 @@
       "cities": []
     },
     {
-      "id": 3089,
+      "id": "MW-RU",
       "name": "Rumphi",
       "stateCode": "RU",
       "latitude": -10.7851537,
@@ -171,7 +171,7 @@
       "cities": []
     },
     {
-      "id": 3090,
+      "id": "MW-DO",
       "name": "Dowa",
       "stateCode": "DO",
       "latitude": -13.6041256,
@@ -181,7 +181,7 @@
       "cities": []
     },
     {
-      "id": 3091,
+      "id": "MW-KR",
       "name": "Karonga",
       "stateCode": "KR",
       "latitude": -9.9036365,
@@ -191,7 +191,7 @@
       "cities": []
     },
     {
-      "id": 3092,
+      "id": "MW-C",
       "name": "Central",
       "stateCode": "C",
       "latitude": null,
@@ -342,7 +342,7 @@
       ]
     },
     {
-      "id": 3093,
+      "id": "MW-LK",
       "name": "Likoma",
       "stateCode": "LK",
       "latitude": -12.0584005,
@@ -352,7 +352,7 @@
       "cities": []
     },
     {
-      "id": 3094,
+      "id": "MW-KS",
       "name": "Kasungu",
       "stateCode": "KS",
       "latitude": -13.1367065,
@@ -362,7 +362,7 @@
       "cities": []
     },
     {
-      "id": 3095,
+      "id": "MW-NB",
       "name": "Nkhata Bay",
       "stateCode": "NB",
       "latitude": -11.7185042,
@@ -372,7 +372,7 @@
       "cities": []
     },
     {
-      "id": 3096,
+      "id": "MW-BA",
       "name": "Balaka",
       "stateCode": "BA",
       "latitude": -15.0506595,
@@ -382,7 +382,7 @@
       "cities": []
     },
     {
-      "id": 3097,
+      "id": "MW-DE",
       "name": "Dedza",
       "stateCode": "DE",
       "latitude": -14.1894585,
@@ -392,7 +392,7 @@
       "cities": []
     },
     {
-      "id": 3098,
+      "id": "MW-TH",
       "name": "Thyolo",
       "stateCode": "TH",
       "latitude": -16.1299177,
@@ -402,7 +402,7 @@
       "cities": []
     },
     {
-      "id": 3099,
+      "id": "MW-MC",
       "name": "Mchinji",
       "stateCode": "MC",
       "latitude": -13.7401525,
@@ -412,7 +412,7 @@
       "cities": []
     },
     {
-      "id": 3100,
+      "id": "MW-NK",
       "name": "Nkhotakota",
       "stateCode": "NK",
       "latitude": -12.7541961,
@@ -422,7 +422,7 @@
       "cities": []
     },
     {
-      "id": 3101,
+      "id": "MW-LI",
       "name": "Lilongwe",
       "stateCode": "LI",
       "latitude": -14.0475228,
@@ -432,7 +432,7 @@
       "cities": []
     },
     {
-      "id": 3102,
+      "id": "MW-BL",
       "name": "Blantyre",
       "stateCode": "BL",
       "latitude": -15.6778541,
@@ -442,7 +442,7 @@
       "cities": []
     },
     {
-      "id": 3103,
+      "id": "MW-MU",
       "name": "Mulanje",
       "stateCode": "MU",
       "latitude": -15.9346434,
@@ -452,7 +452,7 @@
       "cities": []
     },
     {
-      "id": 3104,
+      "id": "MW-MZ",
       "name": "Mzimba",
       "stateCode": "MZ",
       "latitude": -11.7475452,
@@ -462,7 +462,7 @@
       "cities": []
     },
     {
-      "id": 3105,
+      "id": "MW-N",
       "name": "Northern",
       "stateCode": "N",
       "latitude": null,
@@ -564,7 +564,7 @@
       ]
     },
     {
-      "id": 3106,
+      "id": "MW-S",
       "name": "Southern",
       "stateCode": "S",
       "latitude": 32.7504957,
@@ -771,7 +771,7 @@
       ]
     },
     {
-      "id": 3107,
+      "id": "MW-CK",
       "name": "Chikwawa",
       "stateCode": "CK",
       "latitude": -16.1958446,
@@ -781,7 +781,7 @@
       "cities": []
     },
     {
-      "id": 3108,
+      "id": "MW-PH",
       "name": "Phalombe",
       "stateCode": "PH",
       "latitude": -15.7092038,
@@ -791,7 +791,7 @@
       "cities": []
     },
     {
-      "id": 3109,
+      "id": "MW-CR",
       "name": "Chiradzulu",
       "stateCode": "CR",
       "latitude": -15.7423151,
@@ -801,7 +801,7 @@
       "cities": []
     },
     {
-      "id": 3110,
+      "id": "MW-MG",
       "name": "Mangochi",
       "stateCode": "MG",
       "latitude": -14.1388248,
@@ -811,7 +811,7 @@
       "cities": []
     },
     {
-      "id": 3111,
+      "id": "MW-NI",
       "name": "Ntchisi",
       "stateCode": "NI",
       "latitude": -13.2841992,
@@ -821,7 +821,7 @@
       "cities": []
     },
     {
-      "id": 5347,
+      "id": "MW-NE",
       "name": "Neno",
       "stateCode": "NE",
       "latitude": -15.6904254,

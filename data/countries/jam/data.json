@@ -1,5 +1,5 @@
 {
-  "id": 108,
+  "id": "JM",
   "name": "Jamaica",
   "nativeName": "Jamaica",
   "iso2": "JM",
@@ -9,17 +9,17 @@
   "tld": ".jm",
   "latitude": 18.25,
   "longitude": -77.5,
-  "flagId": 139,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "jm",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    903
+    "JMD"
   ],
   "timezoneIds": [
-    2417
+    "America/Jamaica"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3742,
+      "id": "JM-10",
       "name": "Westmoreland",
       "stateCode": "10",
       "latitude": 18.2944378,
@@ -675,7 +675,7 @@
       ]
     },
     {
-      "id": 3743,
+      "id": "JM-11",
       "name": "Saint Elizabeth",
       "stateCode": "11",
       "latitude": 38.9925308,
@@ -1127,7 +1127,7 @@
       ]
     },
     {
-      "id": 3744,
+      "id": "JM-06",
       "name": "Saint Ann",
       "stateCode": "06",
       "latitude": 37.2871452,
@@ -1516,7 +1516,7 @@
       ]
     },
     {
-      "id": 3745,
+      "id": "JM-08",
       "name": "Saint James",
       "stateCode": "08",
       "latitude": 30.0179292,
@@ -2045,7 +2045,7 @@
       ]
     },
     {
-      "id": 3746,
+      "id": "JM-14",
       "name": "Saint Catherine",
       "stateCode": "14",
       "latitude": 18.0364134,
@@ -2434,7 +2434,7 @@
       ]
     },
     {
-      "id": 3747,
+      "id": "JM-05",
       "name": "Saint Mary",
       "stateCode": "05",
       "latitude": 36.092522,
@@ -2760,7 +2760,7 @@
       ]
     },
     {
-      "id": 3748,
+      "id": "JM-01",
       "name": "Kingston",
       "stateCode": "01",
       "latitude": 17.9683271,
@@ -2946,7 +2946,7 @@
       ]
     },
     {
-      "id": 3749,
+      "id": "JM-09",
       "name": "Hanover",
       "stateCode": "09",
       "latitude": 18.4097707,
@@ -3209,7 +3209,7 @@
       ]
     },
     {
-      "id": 3750,
+      "id": "JM-03",
       "name": "Saint Thomas",
       "stateCode": "03",
       "latitude": 41.4425389,
@@ -3619,7 +3619,7 @@
       ]
     },
     {
-      "id": 3751,
+      "id": "JM-02",
       "name": "Saint Andrew",
       "stateCode": "02",
       "latitude": 37.2245103,
@@ -4379,7 +4379,7 @@
       ]
     },
     {
-      "id": 3752,
+      "id": "JM-04",
       "name": "Portland",
       "stateCode": "04",
       "latitude": 18.0844274,
@@ -4698,7 +4698,7 @@
       ]
     },
     {
-      "id": 3753,
+      "id": "JM-13",
       "name": "Clarendon",
       "stateCode": "13",
       "latitude": 17.9557183,
@@ -5311,7 +5311,7 @@
       ]
     },
     {
-      "id": 3754,
+      "id": "JM-12",
       "name": "Manchester",
       "stateCode": "12",
       "latitude": 18.0669654,
@@ -5847,7 +5847,7 @@
       ]
     },
     {
-      "id": 3755,
+      "id": "JM-07",
       "name": "Trelawny",
       "stateCode": "07",
       "latitude": 18.3526143,

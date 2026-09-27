@@ -1,5 +1,5 @@
 {
-  "id": 116,
+  "id": "KR",
   "name": "South Korea",
   "nativeName": "대한민국",
   "iso2": "KR",
@@ -9,17 +9,17 @@
   "tld": ".kr",
   "latitude": 37,
   "longitude": 127.5,
-  "flagId": 129,
-  "regionId": 3,
-  "subregionId": 12,
+  "flagId": "kr",
+  "regionId": "asia",
+  "subregionId": "eastern-asia",
   "currencyIds": [
-    959
+    "KRW"
   ],
   "timezoneIds": [
-    2567
+    "Asia/Seoul"
   ],
   "officialLanguageIds": [
-    43
+    "ko"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "کره شمالی"
+      "name": "کرهٔ جنوبی"
     },
     {
       "languageCode": "de",
@@ -61,7 +61,7 @@
     },
     {
       "languageCode": "ja",
-      "name": "大韓民国"
+      "name": "韓国"
     },
     {
       "languageCode": "it",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3846,
+      "id": "KR-27",
       "name": "Daegu",
       "stateCode": "27",
       "latitude": 35.8714354,
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "id": 3847,
+      "id": "KR-41",
       "name": "Gyeonggi",
       "stateCode": "41",
       "latitude": 37.4138,
@@ -469,7 +469,7 @@
       ]
     },
     {
-      "id": 3848,
+      "id": "KR-28",
       "name": "Incheon",
       "stateCode": "28",
       "latitude": 37.4562557,
@@ -508,7 +508,7 @@
       ]
     },
     {
-      "id": 3849,
+      "id": "KR-11",
       "name": "Seoul",
       "stateCode": "11",
       "latitude": 37.566535,
@@ -708,7 +708,7 @@
       ]
     },
     {
-      "id": 3850,
+      "id": "KR-30",
       "name": "Daejeon",
       "stateCode": "30",
       "latitude": 36.3504119,
@@ -754,7 +754,7 @@
       ]
     },
     {
-      "id": 3851,
+      "id": "KR-45",
       "name": "North Jeolla",
       "stateCode": "45",
       "latitude": 35.7175,
@@ -933,7 +933,7 @@
       ]
     },
     {
-      "id": 3852,
+      "id": "KR-31",
       "name": "Ulsan",
       "stateCode": "31",
       "latitude": 35.5383773,
@@ -986,7 +986,7 @@
       ]
     },
     {
-      "id": 3853,
+      "id": "KR-49",
       "name": "Jeju",
       "stateCode": "49",
       "latitude": 33.9568278,
@@ -1025,7 +1025,7 @@
       ]
     },
     {
-      "id": 3854,
+      "id": "KR-43",
       "name": "North Chungcheong",
       "stateCode": "43",
       "latitude": 36.8,
@@ -1141,7 +1141,7 @@
       ]
     },
     {
-      "id": 3855,
+      "id": "KR-47",
       "name": "North Gyeongsang",
       "stateCode": "47",
       "latitude": 36.4919,
@@ -1397,7 +1397,7 @@
       ]
     },
     {
-      "id": 3856,
+      "id": "KR-46",
       "name": "South Jeolla",
       "stateCode": "46",
       "latitude": 34.8679,
@@ -1653,7 +1653,7 @@
       ]
     },
     {
-      "id": 3857,
+      "id": "KR-48",
       "name": "South Gyeongsang",
       "stateCode": "48",
       "latitude": 35.4606,
@@ -1846,7 +1846,7 @@
       ]
     },
     {
-      "id": 3858,
+      "id": "KR-29",
       "name": "Gwangju",
       "stateCode": "29",
       "latitude": 35.1595454,
@@ -1878,7 +1878,7 @@
       ]
     },
     {
-      "id": 3859,
+      "id": "KR-44",
       "name": "South Chungcheong",
       "stateCode": "44",
       "latitude": 36.5184,
@@ -2085,7 +2085,7 @@
       ]
     },
     {
-      "id": 3860,
+      "id": "KR-26",
       "name": "Busan",
       "stateCode": "26",
       "latitude": 35.1795543,
@@ -2201,7 +2201,7 @@
       ]
     },
     {
-      "id": 3861,
+      "id": "KR-50",
       "name": "Sejong City",
       "stateCode": "50",
       "latitude": 34.0523323,
@@ -2219,7 +2219,7 @@
       ]
     },
     {
-      "id": 3862,
+      "id": "KR-42",
       "name": "Gangwon",
       "stateCode": "42",
       "latitude": 37.8228,

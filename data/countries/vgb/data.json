@@ -1,6 +1,6 @@
 {
-  "id": 241,
-  "name": "Virgin Islands (British)",
+  "id": "VG",
+  "name": "British Virgin Islands",
   "nativeName": "British Virgin Islands",
   "iso2": "VG",
   "iso3": "VGB",
@@ -9,17 +9,17 @@
   "tld": ".vg",
   "latitude": 18.431383,
   "longitude": -64.62305,
-  "flagId": 12,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "vg",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2640
+    "America/Tortola"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -53,7 +53,7 @@
     },
     {
       "languageCode": "es",
-      "name": "Islas Vírgenes del Reino Unido"
+      "name": "Islas Vírgenes Británicas"
     },
     {
       "languageCode": "fr",
@@ -69,23 +69,23 @@
     },
     {
       "languageCode": "zh-CN",
-      "name": "圣文森特和格林纳丁斯"
+      "name": "英属维尔京群岛"
     },
     {
       "languageCode": "tr",
-      "name": "Britanya Virjin Adalari"
+      "name": "Britanya Virjin Adaları"
     },
     {
       "languageCode": "ru",
-      "name": "Виргинские острова (Британские)"
+      "name": "Британские Виргинские острова"
     },
     {
       "languageCode": "uk",
-      "name": "Віргінські острови (Британські)"
+      "name": "Британські Віргінські острови"
     },
     {
       "languageCode": "pl",
-      "name": "Wyspy Dziewicze (Brytyjskie)"
+      "name": "Brytyjskie Wyspy Dziewicze"
     }
   ],
   "states": []

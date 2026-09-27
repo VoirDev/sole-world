@@ -1,6 +1,6 @@
 {
-  "id": 98,
-  "name": "Hong Kong S.A.R.",
+  "id": "HK",
+  "name": "Hong Kong",
   "nativeName": "香港",
   "iso2": "HK",
   "iso3": "HKG",
@@ -9,18 +9,18 @@
   "tld": ".hk",
   "latitude": 22.25,
   "longitude": 114.16666666,
-  "flagId": 154,
-  "regionId": 3,
-  "subregionId": 12,
+  "flagId": "hk",
+  "regionId": "asia",
+  "subregionId": "eastern-asia",
   "currencyIds": [
-    895
+    "HKD"
   ],
   "timezoneIds": [
-    2404
+    "Asia/Hong_Kong"
   ],
   "officialLanguageIds": [
-    30,
-    25
+    "en",
+    "zh"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -78,20 +78,20 @@
     },
     {
       "languageCode": "ru",
-      "name": "Гонконг С.А.Р."
+      "name": "Гонконг"
     },
     {
       "languageCode": "uk",
-      "name": "Гонконг САР."
+      "name": "Гонконг"
     },
     {
       "languageCode": "pl",
-      "name": "Hongkong S.A.R."
+      "name": "Hongkong"
     }
   ],
   "states": [
     {
-      "id": 4883,
+      "id": "HK-NYL",
       "name": "Yuen Long",
       "stateCode": "NYL",
       "latitude": 22.44559,
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "id": 4884,
+      "id": "HK-NTW",
       "name": "Tsuen Wan",
       "stateCode": "NTW",
       "latitude": 22.36281,
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "id": 4885,
+      "id": "HK-NTP",
       "name": "Tai Po",
       "stateCode": "NTP",
       "latitude": 22.45085,
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "id": 4887,
+      "id": "HK-NSK",
       "name": "Sai Kung",
       "stateCode": "NSK",
       "latitude": 22.38143,
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "id": 4888,
+      "id": "HK-NIS",
       "name": "Islands",
       "stateCode": "NIS",
       "latitude": 22.26114,
@@ -202,7 +202,7 @@
       ]
     },
     {
-      "id": 4889,
+      "id": "HK-HCW",
       "name": "Central and Western",
       "stateCode": "HCW",
       "latitude": 22.28666,
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "id": 4890,
+      "id": "HK-HWC",
       "name": "Wan Chai",
       "stateCode": "HWC",
       "latitude": 22.27968,
@@ -252,7 +252,7 @@
       ]
     },
     {
-      "id": 4891,
+      "id": "HK-HEA",
       "name": "Eastern",
       "stateCode": "HEA",
       "latitude": 22.28411,
@@ -262,7 +262,7 @@
       "cities": []
     },
     {
-      "id": 4892,
+      "id": "HK-HSO",
       "name": "Southern",
       "stateCode": "HSO",
       "latitude": 22.24725,
@@ -294,7 +294,7 @@
       ]
     },
     {
-      "id": 4893,
+      "id": "HK-KYT",
       "name": "Yau Tsim Mong",
       "stateCode": "KYT",
       "latitude": 22.32138,
@@ -319,7 +319,7 @@
       ]
     },
     {
-      "id": 4894,
+      "id": "HK-KSS",
       "name": "Sham Shui Po",
       "stateCode": "KSS",
       "latitude": 22.33074,
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "id": 4895,
+      "id": "HK-KKC",
       "name": "Kowloon City",
       "stateCode": "KKC",
       "latitude": 22.3282,
@@ -362,7 +362,7 @@
       ]
     },
     {
-      "id": 4896,
+      "id": "HK-KWT",
       "name": "Wong Tai Sin",
       "stateCode": "KWT",
       "latitude": 22.33353,
@@ -380,7 +380,7 @@
       ]
     },
     {
-      "id": 4897,
+      "id": "HK-KKT",
       "name": "Kwun Tong",
       "stateCode": "KKT",
       "latitude": 22.31326,
@@ -405,7 +405,7 @@
       ]
     },
     {
-      "id": 4898,
+      "id": "HK-NKT",
       "name": "Kwai Tsing",
       "stateCode": "NKT",
       "latitude": 22.35488,
@@ -415,7 +415,7 @@
       "cities": []
     },
     {
-      "id": 4899,
+      "id": "HK-NTM",
       "name": "Tuen Mun",
       "stateCode": "NTM",
       "latitude": 22.39163,
@@ -425,7 +425,7 @@
       "cities": []
     },
     {
-      "id": 4900,
+      "id": "HK-NNO",
       "name": "North",
       "stateCode": "NNO",
       "latitude": 22.49471,
@@ -443,7 +443,7 @@
       ]
     },
     {
-      "id": 4901,
+      "id": "HK-NST",
       "name": "Sha Tin",
       "stateCode": "NST",
       "latitude": 22.38715,

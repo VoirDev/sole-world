@@ -1,6 +1,6 @@
 {
-  "id": 205,
-  "name": "South Georgia",
+  "id": "GS",
+  "name": "South Georgia and the South Sandwich Islands",
   "nativeName": "South Georgia",
   "iso2": "GS",
   "iso3": "SGS",
@@ -9,23 +9,23 @@
   "tld": ".gs",
   "latitude": -54.5,
   "longitude": -37,
-  "flagId": 159,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "gs",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    890
+    "GBP"
   ],
   "timezoneIds": [
-    2566
+    "Atlantic/South_Georgia"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
     {
       "languageCode": "ko",
-      "name": "사우스조지아"
+      "name": "사우스조지아 사우스샌드위치 제도"
     },
     {
       "languageCode": "pt-BR",
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "جزایر جورجیای جنوبی و ساندویچ جنوبی"
+      "name": "جورجیای جنوبی و جزایر ساندویچ جنوبی"
     },
     {
       "languageCode": "de",
@@ -53,7 +53,7 @@
     },
     {
       "languageCode": "es",
-      "name": "Islas Georgias del Sur y Sandwich del Sur"
+      "name": "Islas Georgia del Sur y Sandwich del Sur"
     },
     {
       "languageCode": "fr",
@@ -69,23 +69,23 @@
     },
     {
       "languageCode": "zh-CN",
-      "name": "南乔治亚"
+      "name": "南乔治亚和南桑威奇群岛"
     },
     {
       "languageCode": "tr",
-      "name": "Güney Georgia"
+      "name": "Güney Georgia ve Güney Sandwich Adaları"
     },
     {
       "languageCode": "ru",
-      "name": "Южная Джорджия"
+      "name": "Южная Георгия и Южные Сандвичевы острова"
     },
     {
       "languageCode": "uk",
-      "name": "Південна Джорджія"
+      "name": "Південна Джорджія та Південні Сандвічеві острови"
     },
     {
       "languageCode": "pl",
-      "name": "Południowa Georgia"
+      "name": "Georgia Południowa i Sandwich Południowy"
     }
   ],
   "states": []

@@ -1,5 +1,5 @@
 {
-  "id": 51,
+  "id": "CD",
   "name": "Democratic Republic of the Congo",
   "nativeName": "République démocratique du Congo",
   "iso2": "CD",
@@ -9,22 +9,22 @@
   "tld": ".cd",
   "latitude": 0,
   "longitude": 25,
-  "flagId": 209,
-  "regionId": 1,
-  "subregionId": 2,
+  "flagId": "cd",
+  "regionId": "africa",
+  "subregionId": "middle-africa",
   "currencyIds": [
-    875
+    "CDF"
   ],
   "timezoneIds": [
-    2358,
-    2359
+    "Africa/Kinshasa",
+    "Africa/Lubumbashi"
   ],
   "officialLanguageIds": [
-    33,
-    113,
-    100,
-    159,
-    115
+    "fr",
+    "ln",
+    "kg",
+    "sw",
+    "lu"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -34,35 +34,35 @@
     },
     {
       "languageCode": "pt-BR",
-      "name": "RD Congo"
+      "name": "República Democrática do Congo"
     },
     {
       "languageCode": "pt",
-      "name": "RD Congo"
+      "name": "República Democrática do Congo"
     },
     {
       "languageCode": "nl",
-      "name": "Congo [DRC]"
+      "name": "Democratische Republiek Congo"
     },
     {
       "languageCode": "hr",
-      "name": "Kongo, Demokratska Republika"
+      "name": "Demokratska Republika Kongo"
     },
     {
       "languageCode": "fa",
-      "name": "جمهوری کنگو"
+      "name": "جمهوری دموکراتیک کنگو"
     },
     {
       "languageCode": "de",
-      "name": "Kongo (Dem. Rep.)"
+      "name": "Demokratische Republik Kongo"
     },
     {
       "languageCode": "es",
-      "name": "Congo (Rep. Dem.)"
+      "name": "República Democrática del Congo"
     },
     {
       "languageCode": "fr",
-      "name": "Congo (Rép. dém.)"
+      "name": "République démocratique du Congo"
     },
     {
       "languageCode": "ja",
@@ -70,7 +70,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Congo (Rep. Dem.)"
+      "name": "Repubblica Democratica del Congo"
     },
     {
       "languageCode": "zh-CN",
@@ -95,7 +95,7 @@
   ],
   "states": [
     {
-      "id": 2732,
+      "id": "CD-TU",
       "name": "Tshuapa",
       "stateCode": "TU",
       "latitude": -0.9903023,
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "id": 2733,
+      "id": "CD-TA",
       "name": "Tanganyika",
       "stateCode": "TA",
       "latitude": -6.2740118,
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": 2734,
+      "id": "CD-HU",
       "name": "Haut-Uélé",
       "stateCode": "HU",
       "latitude": 3.5845154,
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "id": 2735,
+      "id": "CD-KE",
       "name": "Kasaï Oriental",
       "stateCode": "KE",
       "latitude": -6.033623,
@@ -209,7 +209,7 @@
       ]
     },
     {
-      "id": 2738,
+      "id": "CD-SK",
       "name": "Sud-Kivu",
       "stateCode": "SK",
       "latitude": -3.011658,
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "id": 2739,
+      "id": "CD-NU",
       "name": "Nord-Ubangi",
       "stateCode": "NU",
       "latitude": 3.7878726,
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "id": 2740,
+      "id": "CD-KG",
       "name": "Kwango",
       "stateCode": "KG",
       "latitude": -6.4337409,
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "id": 2741,
+      "id": "CD-KN",
       "name": "Kinshasa",
       "stateCode": "KN",
       "latitude": -4.4419311,
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "id": 2742,
+      "id": "CD-KC",
       "name": "Kasaï Central",
       "stateCode": "KC",
       "latitude": -8.4404591,
@@ -319,7 +319,7 @@
       "cities": []
     },
     {
-      "id": 2743,
+      "id": "CD-SA",
       "name": "Sankuru",
       "stateCode": "SA",
       "latitude": -2.8437453,
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "id": 2744,
+      "id": "CD-EQ",
       "name": "Équateur",
       "stateCode": "EQ",
       "latitude": -1.831239,
@@ -383,7 +383,7 @@
       ]
     },
     {
-      "id": 2745,
+      "id": "CD-MA",
       "name": "Maniema",
       "stateCode": "MA",
       "latitude": -3.0730929,
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "id": 2746,
+      "id": "CD-BC",
       "name": "Kongo Central",
       "stateCode": "BC",
       "latitude": -5.2365685,
@@ -468,7 +468,7 @@
       ]
     },
     {
-      "id": 2747,
+      "id": "CD-LO",
       "name": "Lomami",
       "stateCode": "LO",
       "latitude": -6.1453931,
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": 2748,
+      "id": "CD-SU",
       "name": "Sud-Ubangi",
       "stateCode": "SU",
       "latitude": 3.2299942,
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "id": 2749,
+      "id": "CD-NK",
       "name": "Nord-Kivu",
       "stateCode": "NK",
       "latitude": -0.7917729,
@@ -557,7 +557,7 @@
       ]
     },
     {
-      "id": 2750,
+      "id": "CD-HK",
       "name": "Haut-Katanga",
       "stateCode": "HK",
       "latitude": -10.4102075,
@@ -582,7 +582,7 @@
       ]
     },
     {
-      "id": 2751,
+      "id": "CD-IT",
       "name": "Ituri",
       "stateCode": "IT",
       "latitude": 1.5957682,
@@ -600,7 +600,7 @@
       ]
     },
     {
-      "id": 2752,
+      "id": "CD-MO",
       "name": "Mongala",
       "stateCode": "MO",
       "latitude": 1.9962324,
@@ -618,7 +618,7 @@
       ]
     },
     {
-      "id": 2753,
+      "id": "CD-BU",
       "name": "Bas-Uélé",
       "stateCode": "BU",
       "latitude": 3.9901009,
@@ -650,7 +650,7 @@
       ]
     },
     {
-      "id": 2755,
+      "id": "CD-MN",
       "name": "Mai-Ndombe",
       "stateCode": "MN",
       "latitude": -2.6357434,
@@ -689,7 +689,7 @@
       ]
     },
     {
-      "id": 2756,
+      "id": "CD-TO",
       "name": "Tshopo",
       "stateCode": "TO",
       "latitude": 0.5455462,
@@ -721,7 +721,7 @@
       ]
     },
     {
-      "id": 2757,
+      "id": "CD-KS",
       "name": "Kasaï",
       "stateCode": "KS",
       "latitude": -5.0471979,
@@ -760,7 +760,7 @@
       ]
     },
     {
-      "id": 2758,
+      "id": "CD-HL",
       "name": "Haut-Lomami",
       "stateCode": "HL",
       "latitude": -7.7052752,
@@ -785,7 +785,7 @@
       ]
     },
     {
-      "id": 2759,
+      "id": "CD-KL",
       "name": "Kwilu",
       "stateCode": "KL",
       "latitude": -5.1188825,
@@ -824,7 +824,7 @@
       ]
     },
     {
-      "id": 4953,
+      "id": "CD-LU",
       "name": "Lualaba",
       "stateCode": "LU",
       "latitude": -10.4808698,

@@ -1,5 +1,5 @@
 {
-  "id": 194,
+  "id": "SA",
   "name": "Saudi Arabia",
   "nativeName": "المملكة العربية السعودية",
   "iso2": "SA",
@@ -9,17 +9,17 @@
   "tld": ".sa",
   "latitude": 25,
   "longitude": 45,
-  "flagId": 58,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "sa",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    951
+    "SAR"
   ],
   "timezoneIds": [
-    2556
+    "Asia/Riyadh"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -57,7 +57,7 @@
     },
     {
       "languageCode": "fr",
-      "name": "Arabie Saoudite"
+      "name": "Arabie saoudite"
     },
     {
       "languageCode": "ja",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2849,
+      "id": "SA-01",
       "name": "Riyadh",
       "stateCode": "01",
       "latitude": 22.7554385,
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "id": 2850,
+      "id": "SA-02",
       "name": "Makkah",
       "stateCode": "02",
       "latitude": 21.5235584,
@@ -1330,7 +1330,7 @@
       ]
     },
     {
-      "id": 2851,
+      "id": "SA-03",
       "name": "Al Madinah",
       "stateCode": "03",
       "latitude": 24.8403977,
@@ -1761,7 +1761,7 @@
       ]
     },
     {
-      "id": 2852,
+      "id": "SA-07",
       "name": "Tabuk",
       "stateCode": "07",
       "latitude": 28.2453335,
@@ -1800,7 +1800,7 @@
       ]
     },
     {
-      "id": 2853,
+      "id": "SA-14",
       "name": "'Asir",
       "stateCode": "14",
       "latitude": 19.0969062,
@@ -1867,7 +1867,7 @@
       ]
     },
     {
-      "id": 2854,
+      "id": "SA-08",
       "name": "Northern Borders",
       "stateCode": "08",
       "latitude": 30.0799162,
@@ -1906,7 +1906,7 @@
       ]
     },
     {
-      "id": 2855,
+      "id": "SA-06",
       "name": "Ha'il",
       "stateCode": "06",
       "latitude": 27.7076143,
@@ -1945,7 +1945,7 @@
       ]
     },
     {
-      "id": 2856,
+      "id": "SA-04",
       "name": "Eastern Province",
       "stateCode": "04",
       "latitude": 24.0439932,
@@ -2222,7 +2222,7 @@
       ]
     },
     {
-      "id": 2857,
+      "id": "SA-12",
       "name": "Al Jawf",
       "stateCode": "12",
       "latitude": 29.887356,
@@ -2289,7 +2289,7 @@
       ]
     },
     {
-      "id": 2858,
+      "id": "SA-09",
       "name": "Jizan",
       "stateCode": "09",
       "latitude": 17.1738176,
@@ -2762,7 +2762,7 @@
       ]
     },
     {
-      "id": 2859,
+      "id": "SA-11",
       "name": "Al Bahah",
       "stateCode": "11",
       "latitude": 20.2722739,
@@ -2794,7 +2794,7 @@
       ]
     },
     {
-      "id": 2860,
+      "id": "SA-10",
       "name": "Najran",
       "stateCode": "10",
       "latitude": 18.3514664,
@@ -2812,7 +2812,7 @@
       ]
     },
     {
-      "id": 2861,
+      "id": "SA-05",
       "name": "Al-Qassim",
       "stateCode": "05",
       "latitude": 26.207826,

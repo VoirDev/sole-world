@@ -1,5 +1,5 @@
 {
-  "id": 159,
+  "id": "NI",
   "name": "Nicaragua",
   "nativeName": "Nicaragua",
   "iso2": "NI",
@@ -9,20 +9,20 @@
   "tld": ".ni",
   "latitude": 13,
   "longitude": -85,
-  "flagId": 86,
-  "regionId": 2,
-  "subregionId": 9,
+  "flagId": "ni",
+  "regionId": "americas",
+  "subregionId": "central-america",
   "currencyIds": [
-    931
+    "NIO"
   ],
   "timezoneIds": [
-    2490
+    "America/Managua"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [
-    30
+    "en"
   ],
   "translations": [
     {
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 940,
+      "id": "NI-CO",
       "name": "Chontales",
       "stateCode": "CO",
       "latitude": 11.9394717,
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "id": 941,
+      "id": "NI-MN",
       "name": "Managua",
       "stateCode": "MN",
       "latitude": 12.1391699,
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "id": 942,
+      "id": "NI-RI",
       "name": "Rivas",
       "stateCode": "RI",
       "latitude": 11.402349,
@@ -391,7 +391,7 @@
       ]
     },
     {
-      "id": 943,
+      "id": "NI-GR",
       "name": "Granada",
       "stateCode": "GR",
       "latitude": 11.9344073,
@@ -430,7 +430,7 @@
       ]
     },
     {
-      "id": 944,
+      "id": "NI-LE",
       "name": "León",
       "stateCode": "LE",
       "latitude": 12.5092037,
@@ -511,7 +511,7 @@
       ]
     },
     {
-      "id": 945,
+      "id": "NI-ES",
       "name": "Estelí",
       "stateCode": "ES",
       "latitude": 13.0851139,
@@ -557,7 +557,7 @@
       ]
     },
     {
-      "id": 946,
+      "id": "NI-BO",
       "name": "Boaco",
       "stateCode": "BO",
       "latitude": 12.469284,
@@ -610,7 +610,7 @@
       ]
     },
     {
-      "id": 947,
+      "id": "NI-MT",
       "name": "Matagalpa",
       "stateCode": "MT",
       "latitude": 12.9498436,
@@ -677,7 +677,7 @@
       ]
     },
     {
-      "id": 948,
+      "id": "NI-MD",
       "name": "Madriz",
       "stateCode": "MD",
       "latitude": 13.4726005,
@@ -751,7 +751,7 @@
       ]
     },
     {
-      "id": 949,
+      "id": "NI-SJ",
       "name": "Río San Juan",
       "stateCode": "SJ",
       "latitude": 11.478161,
@@ -797,7 +797,7 @@
       ]
     },
     {
-      "id": 950,
+      "id": "NI-CA",
       "name": "Carazo",
       "stateCode": "CA",
       "latitude": 11.7274729,
@@ -871,7 +871,7 @@
       ]
     },
     {
-      "id": 951,
+      "id": "NI-AN",
       "name": "North Caribbean Coast",
       "stateCode": "AN",
       "latitude": 13.8394456,
@@ -924,7 +924,7 @@
       ]
     },
     {
-      "id": 952,
+      "id": "NI-AS",
       "name": "South Caribbean Coast",
       "stateCode": "AS",
       "latitude": 12.1918502,
@@ -1005,7 +1005,7 @@
       ]
     },
     {
-      "id": 953,
+      "id": "NI-MS",
       "name": "Masaya",
       "stateCode": "MS",
       "latitude": 11.9759328,
@@ -1107,7 +1107,7 @@
       ]
     },
     {
-      "id": 954,
+      "id": "NI-CI",
       "name": "Chinandega",
       "stateCode": "CI",
       "latitude": 12.8820062,
@@ -1202,7 +1202,7 @@
       ]
     },
     {
-      "id": 955,
+      "id": "NI-JI",
       "name": "Jinotega",
       "stateCode": "JI",
       "latitude": 13.0883907,
@@ -1269,7 +1269,7 @@
       ]
     },
     {
-      "id": 4964,
+      "id": "NI-NS",
       "name": "Nueva Segovia",
       "stateCode": "NS",
       "latitude": 13.7657061,

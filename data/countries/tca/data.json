@@ -1,5 +1,5 @@
 {
-  "id": 227,
+  "id": "TC",
   "name": "Turks and Caicos Islands",
   "nativeName": "Turks and Caicos Islands",
   "iso2": "TC",
@@ -9,17 +9,17 @@
   "tld": ".tc",
   "latitude": 21.75,
   "longitude": -71.58333333,
-  "flagId": 37,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "tc",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2593
+    "America/Grand_Turk"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -53,7 +53,7 @@
     },
     {
       "languageCode": "es",
-      "name": "Islas Turks y Caicos"
+      "name": "Islas Turcas y Caicos"
     },
     {
       "languageCode": "fr",
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Turks Ve Caicos Adalari"
+      "name": "Turks ve Caicos Adaları"
     },
     {
       "languageCode": "ru",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 5363,
+      "id": "TC-01",
       "name": "Providenciales",
       "stateCode": "01",
       "latitude": 21.8015618,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 5364,
+      "id": "TC-02",
       "name": "North Caicos",
       "stateCode": "02",
       "latitude": 21.8759162,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 5365,
+      "id": "TC-03",
       "name": "Middle Caicos",
       "stateCode": "03",
       "latitude": 21.7785056,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 5366,
+      "id": "TC-04",
       "name": "South Caicos",
       "stateCode": "04",
       "latitude": 21.5302487,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 5367,
+      "id": "TC-05",
       "name": "Grand Turk",
       "stateCode": "05",
       "latitude": 21.4680866,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 5368,
+      "id": "TC-06",
       "name": "Salt Cay",
       "stateCode": "06",
       "latitude": 21.3242536,

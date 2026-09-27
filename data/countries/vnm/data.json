@@ -1,5 +1,5 @@
 {
-  "id": 240,
+  "id": "VN",
   "name": "Vietnam",
   "nativeName": "Việt Nam",
   "iso2": "VN",
@@ -9,17 +9,17 @@
   "tld": ".vn",
   "latitude": 16.16666666,
   "longitude": 107.83333333,
-  "flagId": 10,
-  "regionId": 3,
-  "subregionId": 13,
+  "flagId": "vn",
+  "regionId": "asia",
+  "subregionId": "south-eastern-asia",
   "currencyIds": [
-    984
+    "VND"
   ],
   "timezoneIds": [
-    2639
+    "Asia/Ho_Chi_Minh"
   ],
   "officialLanguageIds": [
-    51
+    "vi"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3768,
+      "id": "VN-66",
       "name": "Hưng Yên",
       "stateCode": "66",
       "latitude": 20.8525711,
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "id": 3769,
+      "id": "VN-45",
       "name": "Đồng Tháp",
       "stateCode": "45",
       "latitude": 10.4937989,
@@ -238,7 +238,7 @@
       ]
     },
     {
-      "id": 3770,
+      "id": "VN-43",
       "name": "Bà Rịa-Vũng Tàu",
       "stateCode": "43",
       "latitude": 10.5417397,
@@ -305,7 +305,7 @@
       ]
     },
     {
-      "id": 3771,
+      "id": "VN-21",
       "name": "Thanh Hóa",
       "stateCode": "21",
       "latitude": 19.806692,
@@ -477,7 +477,7 @@
       ]
     },
     {
-      "id": 3772,
+      "id": "VN-28",
       "name": "Kon Tum",
       "stateCode": "28",
       "latitude": 14.3497403,
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "id": 3773,
+      "id": "VN-71",
       "name": "Điện Biên",
       "stateCode": "71",
       "latitude": 21.8042309,
@@ -597,7 +597,7 @@
       ]
     },
     {
-      "id": 3774,
+      "id": "VN-70",
       "name": "Vĩnh Phúc",
       "stateCode": "70",
       "latitude": 21.3608805,
@@ -643,7 +643,7 @@
       ]
     },
     {
-      "id": 3775,
+      "id": "VN-20",
       "name": "Thái Bình",
       "stateCode": "20",
       "latitude": 20.4463471,
@@ -710,7 +710,7 @@
       ]
     },
     {
-      "id": 3776,
+      "id": "VN-27",
       "name": "Quảng Nam",
       "stateCode": "27",
       "latitude": 15.5393538,
@@ -798,7 +798,7 @@
       ]
     },
     {
-      "id": 3777,
+      "id": "VN-73",
       "name": "Hậu Giang",
       "stateCode": "73",
       "latitude": 9.757898,
@@ -823,7 +823,7 @@
       ]
     },
     {
-      "id": 3778,
+      "id": "VN-59",
       "name": "Cà Mau",
       "stateCode": "59",
       "latitude": 9.1526728,
@@ -869,7 +869,7 @@
       ]
     },
     {
-      "id": 3779,
+      "id": "VN-03",
       "name": "Hà Giang",
       "stateCode": "03",
       "latitude": 22.8025588,
@@ -936,7 +936,7 @@
       ]
     },
     {
-      "id": 3780,
+      "id": "VN-22",
       "name": "Nghệ An",
       "stateCode": "22",
       "latitude": 19.2342489,
@@ -1073,7 +1073,7 @@
       ]
     },
     {
-      "id": 3781,
+      "id": "VN-46",
       "name": "Tiền Giang",
       "stateCode": "46",
       "latitude": 10.4493324,
@@ -1154,7 +1154,7 @@
       ]
     },
     {
-      "id": 3782,
+      "id": "VN-04",
       "name": "Cao Bằng",
       "stateCode": "04",
       "latitude": 22.635689,
@@ -1242,7 +1242,7 @@
       ]
     },
     {
-      "id": 3783,
+      "id": "VN-HP",
       "name": "Hải Phòng",
       "stateCode": "HP",
       "latitude": 20.8449115,
@@ -1267,7 +1267,7 @@
       ]
     },
     {
-      "id": 3784,
+      "id": "VN-06",
       "name": "Yên Bái",
       "stateCode": "06",
       "latitude": 21.7167689,
@@ -1327,7 +1327,7 @@
       ]
     },
     {
-      "id": 3785,
+      "id": "VN-57",
       "name": "Bình Dương",
       "stateCode": "57",
       "latitude": 11.3254024,
@@ -1352,7 +1352,7 @@
       ]
     },
     {
-      "id": 3786,
+      "id": "VN-18",
       "name": "Ninh Bình",
       "stateCode": "18",
       "latitude": 20.2506149,
@@ -1405,7 +1405,7 @@
       ]
     },
     {
-      "id": 3787,
+      "id": "VN-40",
       "name": "Bình Thuận",
       "stateCode": "40",
       "latitude": 11.0903703,
@@ -1479,7 +1479,7 @@
       ]
     },
     {
-      "id": 3788,
+      "id": "VN-36",
       "name": "Ninh Thuận",
       "stateCode": "36",
       "latitude": 11.6738767,
@@ -1497,7 +1497,7 @@
       ]
     },
     {
-      "id": 3789,
+      "id": "VN-67",
       "name": "Nam Định",
       "stateCode": "67",
       "latitude": 20.4388225,
@@ -1571,7 +1571,7 @@
       ]
     },
     {
-      "id": 3790,
+      "id": "VN-49",
       "name": "Vĩnh Long",
       "stateCode": "49",
       "latitude": 10.239574,
@@ -1624,7 +1624,7 @@
       ]
     },
     {
-      "id": 3791,
+      "id": "VN-56",
       "name": "Bắc Ninh",
       "stateCode": "56",
       "latitude": 21.121444,
@@ -1677,7 +1677,7 @@
       ]
     },
     {
-      "id": 3792,
+      "id": "VN-09",
       "name": "Lạng Sơn",
       "stateCode": "09",
       "latitude": 21.853708,
@@ -1744,7 +1744,7 @@
       ]
     },
     {
-      "id": 3793,
+      "id": "VN-34",
       "name": "Khánh Hòa",
       "stateCode": "34",
       "latitude": 12.2585098,
@@ -1818,7 +1818,7 @@
       ]
     },
     {
-      "id": 3794,
+      "id": "VN-44",
       "name": "An Giang",
       "stateCode": "44",
       "latitude": 10.5215836,
@@ -1885,7 +1885,7 @@
       ]
     },
     {
-      "id": 3795,
+      "id": "VN-07",
       "name": "Tuyên Quang",
       "stateCode": "07",
       "latitude": 21.7767246,
@@ -1945,7 +1945,7 @@
       ]
     },
     {
-      "id": 3796,
+      "id": "VN-50",
       "name": "Bến Tre",
       "stateCode": "50",
       "latitude": 10.2433556,
@@ -2012,7 +2012,7 @@
       ]
     },
     {
-      "id": 3797,
+      "id": "VN-58",
       "name": "Bình Phước",
       "stateCode": "58",
       "latitude": 11.7511894,
@@ -2072,7 +2072,7 @@
       ]
     },
     {
-      "id": 3798,
+      "id": "VN-26",
       "name": "Thừa Thiên-Huế",
       "stateCode": "26",
       "latitude": 16.467397,
@@ -2132,7 +2132,7 @@
       ]
     },
     {
-      "id": 3799,
+      "id": "VN-14",
       "name": "Hòa Bình",
       "stateCode": "14",
       "latitude": 20.6861265,
@@ -2185,7 +2185,7 @@
       ]
     },
     {
-      "id": 3800,
+      "id": "VN-47",
       "name": "Kiên Giang",
       "stateCode": "47",
       "latitude": 9.8249587,
@@ -2294,7 +2294,7 @@
       ]
     },
     {
-      "id": 3801,
+      "id": "VN-68",
       "name": "Phú Thọ",
       "stateCode": "68",
       "latitude": 21.268443,
@@ -2368,7 +2368,7 @@
       ]
     },
     {
-      "id": 3802,
+      "id": "VN-63",
       "name": "Hà Nam",
       "stateCode": "63",
       "latitude": 20.5835196,
@@ -2421,7 +2421,7 @@
       ]
     },
     {
-      "id": 3803,
+      "id": "VN-25",
       "name": "Quảng Trị",
       "stateCode": "25",
       "latitude": 16.7403074,
@@ -2488,7 +2488,7 @@
       ]
     },
     {
-      "id": 3804,
+      "id": "VN-55",
       "name": "Bạc Liêu",
       "stateCode": "55",
       "latitude": 9.2940027,
@@ -2520,7 +2520,7 @@
       ]
     },
     {
-      "id": 3805,
+      "id": "VN-51",
       "name": "Trà Vinh",
       "stateCode": "51",
       "latitude": 9.812741,
@@ -2573,7 +2573,7 @@
       ]
     },
     {
-      "id": 3806,
+      "id": "VN-DN",
       "name": "Đà Nẵng",
       "stateCode": "DN",
       "latitude": 16.0544068,
@@ -2591,7 +2591,7 @@
       ]
     },
     {
-      "id": 3807,
+      "id": "VN-69",
       "name": "Thái Nguyên",
       "stateCode": "69",
       "latitude": 21.5671559,
@@ -2609,7 +2609,7 @@
       ]
     },
     {
-      "id": 3808,
+      "id": "VN-41",
       "name": "Long An",
       "stateCode": "41",
       "latitude": 10.5607168,
@@ -2725,7 +2725,7 @@
       ]
     },
     {
-      "id": 3809,
+      "id": "VN-24",
       "name": "Quảng Bình",
       "stateCode": "24",
       "latitude": 17.6102715,
@@ -2771,7 +2771,7 @@
       ]
     },
     {
-      "id": 3810,
+      "id": "VN-HN",
       "name": "Hà Nội",
       "stateCode": "HN",
       "latitude": 21.0277644,
@@ -2992,7 +2992,7 @@
       ]
     },
     {
-      "id": 3811,
+      "id": "VN-SG",
       "name": "Hồ Chí Minh",
       "stateCode": "SG",
       "latitude": 10.8230989,
@@ -3024,7 +3024,7 @@
       ]
     },
     {
-      "id": 3812,
+      "id": "VN-05",
       "name": "Sơn La",
       "stateCode": "05",
       "latitude": 21.1022284,
@@ -3105,7 +3105,7 @@
       ]
     },
     {
-      "id": 3813,
+      "id": "VN-30",
       "name": "Gia Lai",
       "stateCode": "30",
       "latitude": 13.8078943,
@@ -3186,7 +3186,7 @@
       ]
     },
     {
-      "id": 3814,
+      "id": "VN-13",
       "name": "Quảng Ninh",
       "stateCode": "13",
       "latitude": 21.006382,
@@ -3295,7 +3295,7 @@
       ]
     },
     {
-      "id": 3815,
+      "id": "VN-54",
       "name": "Bắc Giang",
       "stateCode": "54",
       "latitude": 21.2819921,
@@ -3334,7 +3334,7 @@
       ]
     },
     {
-      "id": 3816,
+      "id": "VN-23",
       "name": "Hà Tĩnh",
       "stateCode": "23",
       "latitude": 18.3559537,
@@ -3394,7 +3394,7 @@
       ]
     },
     {
-      "id": 3817,
+      "id": "VN-02",
       "name": "Lào Cai",
       "stateCode": "02",
       "latitude": 22.4809431,
@@ -3475,7 +3475,7 @@
       ]
     },
     {
-      "id": 3818,
+      "id": "VN-35",
       "name": "Lâm Đồng",
       "stateCode": "35",
       "latitude": 11.5752791,
@@ -3563,7 +3563,7 @@
       ]
     },
     {
-      "id": 3819,
+      "id": "VN-52",
       "name": "Sóc Trăng",
       "stateCode": "52",
       "latitude": 9.602521,
@@ -3623,7 +3623,7 @@
       ]
     },
     {
-      "id": 3821,
+      "id": "VN-39",
       "name": "Đồng Nai",
       "stateCode": "39",
       "latitude": 11.0686305,
@@ -3683,7 +3683,7 @@
       ]
     },
     {
-      "id": 3822,
+      "id": "VN-53",
       "name": "Bắc Kạn",
       "stateCode": "53",
       "latitude": 22.3032923,
@@ -3743,7 +3743,7 @@
       ]
     },
     {
-      "id": 3823,
+      "id": "VN-72",
       "name": "Đắk Nông",
       "stateCode": "72",
       "latitude": 12.2646476,
@@ -3775,7 +3775,7 @@
       ]
     },
     {
-      "id": 3824,
+      "id": "VN-32",
       "name": "Phú Yên",
       "stateCode": "32",
       "latitude": 13.0881861,
@@ -3814,7 +3814,7 @@
       ]
     },
     {
-      "id": 3825,
+      "id": "VN-01",
       "name": "Lai Châu",
       "stateCode": "01",
       "latitude": 22.3862227,
@@ -3846,7 +3846,7 @@
       ]
     },
     {
-      "id": 3826,
+      "id": "VN-37",
       "name": "Tây Ninh",
       "stateCode": "37",
       "latitude": 11.3351554,
@@ -3913,7 +3913,7 @@
       ]
     },
     {
-      "id": 3827,
+      "id": "VN-61",
       "name": "Hải Dương",
       "stateCode": "61",
       "latitude": 20.9373413,
@@ -3980,7 +3980,7 @@
       ]
     },
     {
-      "id": 3828,
+      "id": "VN-29",
       "name": "Quảng Ngãi",
       "stateCode": "29",
       "latitude": 15.1213873,
@@ -4082,7 +4082,7 @@
       ]
     },
     {
-      "id": 3829,
+      "id": "VN-33",
       "name": "Đắk Lắk",
       "stateCode": "33",
       "latitude": 12.7100116,
@@ -4121,7 +4121,7 @@
       ]
     },
     {
-      "id": 3830,
+      "id": "VN-31",
       "name": "Bình Định",
       "stateCode": "31",
       "latitude": 14.1665324,
@@ -4181,7 +4181,7 @@
       ]
     },
     {
-      "id": 4925,
+      "id": "VN-CT",
       "name": "Cần Thơ",
       "stateCode": "CT",
       "latitude": 10.0341851,

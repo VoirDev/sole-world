@@ -115,10 +115,10 @@ Every resource follows the same shape, so learning one endpoint teaches the rest
 
 | Resource | Item | Sub-resources |
 | --- | --- | --- |
-| `/v1/countries` | `/{idOrCode}` | `/states` `/cities` `/currencies` `/languages` `/timezones` `/central-banks` |
-| `/v1/currencies` | `/{idOrCode}` | `/countries` `/central-banks` |
-| `/v1/cryptos` | `/{idOrCode}` | |
-| `/v1/languages` | `/{idOrCode}` | `/countries` |
+| `/v1/countries` | `/{id}` | `/states` `/cities` `/currencies` `/languages` `/timezones` `/central-banks` |
+| `/v1/currencies` | `/{id}` | `/countries` `/central-banks` |
+| `/v1/cryptos` | `/{id}` | |
+| `/v1/languages` | `/{id}` | `/countries` |
 | `/v1/regions` | `/{id}` | `/subregions` `/countries` |
 | `/v1/subregions` | `/{id}` | `/countries` |
 | `/v1/central-banks` | `/{id}` | `/countries` `/currencies` |
@@ -129,13 +129,16 @@ Every resource follows the same shape, so learning one endpoint teaches the rest
 | `/v1/media-assets` | `/{id}` | |
 | `/v1/meta` | | dataset version, supported languages, limits |
 
-Countries accept a numeric id, an ISO alpha-2 code or an alpha-3 code. Currencies accept a numeric
-id, an ISO 4217 alpha code or its numeric code. Languages accept a numeric id or a language code.
+`{id}` is the record's identifier, described [below](#identifiers). A few resources also resolve
+other standard codes: a country its alpha-3 and numeric codes, a currency its ISO 4217 numeric
+code, a coin its ticker.
 
 ```bash
 curl -H "X-API-KEY: $API_KEY" http://localhost:18080/v1/countries/US
 curl -H "X-API-KEY: $API_KEY" http://localhost:18080/v1/currencies/EUR
 curl -H "X-API-KEY: $API_KEY" http://localhost:18080/v1/languages/fr
+curl -H "X-API-KEY: $API_KEY" http://localhost:18080/v1/states/US-CA
+curl -H "X-API-KEY: $API_KEY" http://localhost:18080/v1/timezones/Europe/Paris
 ```
 
 ### Assets
@@ -194,7 +197,7 @@ On GraphQL the same two arguments are enums: `currencies(sort: NAME, order: DESC
 `/v1/cryptos` covers 150 coins with their tickers, launch years, minor-unit precision and, for 100 of
 them, a bundled logo under `/assets/cryptos/`.
 
-A coin resolves by numeric id, by ticker (`/v1/cryptos/BTC`) or by alias (`/v1/cryptos/btc`). The two
+A coin is identified by its alias (`/v1/cryptos/btc`) and also resolves by its ticker. The two
 differ on purpose: a ticker is what a coin trades under and can be reassigned, while the alias is the
 stable lowercase key, and it is also the name the coin's logo files are stored under. `include=logo`
 embeds that logo the same way `include=flag` embeds a country's.
@@ -204,9 +207,32 @@ resource only selects the collation order.
 
 ### Identifiers
 
-Every identifier is an `int64`, on every resource. The dataset's own ids are far smaller than that,
-but a client should not have to track which resource happens to fit in 32 bits and which does not.
-GraphQL renders them as `ID`, which is a string, so the width only shows up in REST.
+A record's `id` is the public standard code for it wherever one exists, and a Sole World alias where
+none does. It is what a client should store: `US` rather than a number that only means something to
+this service.
+
+| Resource | `id` | Example |
+| --- | --- | --- |
+| Country | ISO 3166-1 alpha-2 code | `US` |
+| Currency | ISO 4217 alpha code | `EUR` |
+| Language | ISO 639-1 code | `fr` |
+| Timezone | IANA timezone name | `Europe/Paris` |
+| State | country alpha-2 code and state code, joined by a hyphen | `US-CA` |
+| Cryptocurrency | alias | `btc` |
+| Region, subregion | alias | `europe`, `western-europe` |
+| Central bank | alias | `federal-reserve`, `bank-of-england` |
+| Flag | alias; a territory's flag is its lowercase alpha-2 code | `us`, `eu` |
+| Media asset | alias: owner kind, key and shape | `flag-us-square` |
+| City | number | `120784` |
+
+- **Every `id` is a string except a city's.** Cities have no public code, so they keep their numbers
+  rather than names that would change when a city is renamed.
+- **Identifiers match regardless of case.** `/v1/countries/us` finds `US`, and a response always
+  spells an id the way the table does.
+- **A state with no code** gets an alias of the same form, made from its name: `AX-MARIEHAMN`.
+- **A timezone id keeps its slashes in the path**: `/v1/timezones/America/Argentina/Buenos_Aires`.
+- **Only `id` is used to refer to another record** — `regionId`, `currencyIds`, `stateId` and every
+  other reference hold ids, never alternative codes.
 
 ### Includes
 
@@ -237,7 +263,7 @@ Rules:
 - Included collections are capped at 50 records. When one is cut, its name appears in
   `truncatedIncludes` and its own endpoint pages through the rest.
 - A country's cities are **not** includable — some countries have more than 19,000. Use
-  `/v1/countries/{idOrCode}/cities`.
+  `/v1/countries/{id}/cities`.
 - An unrecognized value returns `400` listing the values that endpoint does accept.
 
 ### Paging, filtering and search
@@ -260,7 +286,7 @@ curl -H "X-API-KEY: $API_KEY" 'http://localhost:18080/v1/countries?query=Germny'
 curl -H "X-API-KEY: $API_KEY" 'http://localhost:18080/v1/countries?query=Германия'
 
 # filters combine
-curl -H "X-API-KEY: $API_KEY" 'http://localhost:18080/v1/countries?regionId=2&currencyId=838'
+curl -H "X-API-KEY: $API_KEY" 'http://localhost:18080/v1/countries?regionId=europe&currencyId=EUR'
 
 # which flag is this?
 curl -H "X-API-KEY: $API_KEY" --get --data-urlencode 'query=🇿🇼' \
@@ -288,7 +314,7 @@ at the edge. A deployment running with authentication off marks them `public`. S
 ## GraphQL API
 
 Each resource has three root fields, named for what they do: `countries(page:, query:, ...)` lists
-or searches, `country(idOrCode:)` loads one, and `countriesByIds(ids:)` loads a batch of at most 50.
+or searches, `country(id:)` loads one, and `countriesByIds(ids:)` loads a batch of at most 50.
 Paginated fields use optional `PageInput` with zero-based pages and a maximum size of 50. Heavy nested
 relationships, such as `Country.states`, `Country.cities` and `State.cities`, also use `PageInput`,
 accept an optional name `query`, and return paginated page objects.
@@ -300,7 +326,7 @@ accept an optional name `query`, and return paginated page objects.
 - each resource has a list field carrying the same filters and search as its REST collection —
   `cities(query:, countryId:, stateId:)` matches `/v1/cities?query=&countryId=&stateId=`;
 - each single-item field takes the same identifier the REST path segment takes, so
-  `country(idOrCode: "US")` and `GET /v1/countries/US` resolve identically;
+  `country(id: "US")` and `GET /v1/countries/US` resolve identically;
 - every relationship REST offers as an `include` or a sub-resource is a field on the GraphQL type.
 
 Two things are deliberately one-sided, because each is that transport's answer to the same problem —
@@ -312,7 +338,7 @@ avoiding a round trip per related record — and neither has anything to say on 
 | Fetch many records by id at once | one request each, or the collection | `countriesByIds(ids: [...])` |
 
 There is no `isValidX` field. A nullable lookup answers the same question for every resource —
-`country(idOrCode: "XX") { id }` is null when it does not exist — and it worked for eleven resources
+`country(id: "XX") { id }` is null when it does not exist — and it worked for eleven resources
 where `isValidX` only ever covered six.
 
 ### Query limits
@@ -361,7 +387,7 @@ curl http://localhost:18080/graphql \
   -H 'Content-Type: application/json' \
   -H "X-API-KEY: $API_KEY" \
   -H 'Accept-Language: ru' \
-  -d '{"query":"{ countriesByIds(ids: [1, 2]) { id name region { name } currencies { iso3 name } } }"}'
+  -d '{"query":"{ countriesByIds(ids: [\"US\", \"DE\"]) { id name region { name } currencies { iso3 name } } }"}'
 ```
 
 Region variants fall back to the base supported language when available. For example,
@@ -711,7 +737,7 @@ Call GraphQL with the `X-API-KEY` header:
 curl http://localhost:18080/graphql \
   -H 'Content-Type: application/json' \
   -H "X-API-KEY: $API_KEY" \
-  -d '{"query":"{ countriesByIds(ids: [1, 2]) { id name iso2 iso3 currencies { iso3 name } languages { code name } } }"}'
+  -d '{"query":"{ countriesByIds(ids: [\"US\", \"DE\"]) { id name iso2 iso3 currencies { iso3 name } languages { code name } } }"}'
 ```
 
 Add `Accept-Language` to receive translated display fields:
@@ -721,7 +747,7 @@ curl http://localhost:18080/graphql \
   -H 'Content-Type: application/json' \
   -H "X-API-KEY: $API_KEY" \
   -H 'Accept-Language: fr' \
-  -d '{"query":"{ countriesByIds(ids: [1, 2]) { id name iso2 iso3 currencies { iso3 name } languages { code name } } }"}'
+  -d '{"query":"{ countriesByIds(ids: [\"US\", \"DE\"]) { id name iso2 iso3 currencies { iso3 name } languages { code name } } }"}'
 ```
 
 ## Development

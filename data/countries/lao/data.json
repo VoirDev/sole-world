@@ -1,5 +1,5 @@
 {
-  "id": 119,
+  "id": "LA",
   "name": "Laos",
   "nativeName": "ສປປລາວ",
   "iso2": "LA",
@@ -9,17 +9,17 @@
   "tld": ".la",
   "latitude": 18,
   "longitude": 105,
-  "flagId": 125,
-  "regionId": 3,
-  "subregionId": 13,
+  "flagId": "la",
+  "regionId": "asia",
+  "subregionId": "south-eastern-asia",
   "currencyIds": [
-    910
+    "LAK"
   ],
   "timezoneIds": [
-    2435
+    "Asia/Vientiane"
   ],
   "officialLanguageIds": [
-    114
+    "lo"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -61,7 +61,7 @@
     },
     {
       "languageCode": "ja",
-      "name": "ラオス人民民主共和国"
+      "name": "ラオス"
     },
     {
       "languageCode": "it",
@@ -69,7 +69,7 @@
     },
     {
       "languageCode": "zh-CN",
-      "name": "寮人民民主共和国"
+      "name": "老挝"
     },
     {
       "languageCode": "tr",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 978,
+      "id": "LA-LP",
       "name": "Luang Prabang",
       "stateCode": "LP",
       "latitude": 20.0656229,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 979,
+      "id": "LA-VT",
       "name": "Vientiane",
       "stateCode": "VT",
       "latitude": 18.110541,
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": 980,
+      "id": "LA-VI",
       "name": "Vientiane",
       "stateCode": "VI",
       "latitude": 18.5705063,
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": 981,
+      "id": "LA-SL",
       "name": "Salavan",
       "stateCode": "SL",
       "latitude": 15.8171073,
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "id": 982,
+      "id": "LA-AT",
       "name": "Attapeu",
       "stateCode": "AT",
       "latitude": 14.93634,
@@ -278,7 +278,7 @@
       ]
     },
     {
-      "id": 983,
+      "id": "LA-XS",
       "name": "Xaisomboun",
       "stateCode": "XS",
       "latitude": 18.4362924,
@@ -317,7 +317,7 @@
       ]
     },
     {
-      "id": 984,
+      "id": "LA-XE",
       "name": "Sekong",
       "stateCode": "XE",
       "latitude": 15.5767446,
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "id": 985,
+      "id": "LA-BL",
       "name": "Bolikhamsai",
       "stateCode": "BL",
       "latitude": 18.4362924,
@@ -395,7 +395,7 @@
       ]
     },
     {
-      "id": 986,
+      "id": "LA-KH",
       "name": "Khammouane",
       "stateCode": "KH",
       "latitude": 17.6384066,
@@ -420,7 +420,7 @@
       ]
     },
     {
-      "id": 987,
+      "id": "LA-PH",
       "name": "Phongsaly",
       "stateCode": "PH",
       "latitude": 21.5919377,
@@ -438,7 +438,7 @@
       ]
     },
     {
-      "id": 988,
+      "id": "LA-OU",
       "name": "Oudomxay",
       "stateCode": "OU",
       "latitude": 20.4921929,
@@ -456,7 +456,7 @@
       ]
     },
     {
-      "id": 989,
+      "id": "LA-HO",
       "name": "Houaphanh",
       "stateCode": "HO",
       "latitude": 20.3254175,
@@ -481,7 +481,7 @@
       ]
     },
     {
-      "id": 990,
+      "id": "LA-SV",
       "name": "Savannakhet",
       "stateCode": "SV",
       "latitude": 16.5065381,
@@ -597,7 +597,7 @@
       ]
     },
     {
-      "id": 991,
+      "id": "LA-BK",
       "name": "Bokeo",
       "stateCode": "BK",
       "latitude": 20.2872662,
@@ -657,7 +657,7 @@
       ]
     },
     {
-      "id": 992,
+      "id": "LA-LM",
       "name": "Luang Namtha",
       "stateCode": "LM",
       "latitude": 20.9170187,
@@ -682,7 +682,7 @@
       ]
     },
     {
-      "id": 993,
+      "id": "LA-XA",
       "name": "Sainyabuli",
       "stateCode": "XA",
       "latitude": 19.3907886,
@@ -700,7 +700,7 @@
       ]
     },
     {
-      "id": 995,
+      "id": "LA-XI",
       "name": "Xiangkhouang",
       "stateCode": "XI",
       "latitude": 19.6093003,
@@ -718,7 +718,7 @@
       ]
     },
     {
-      "id": 996,
+      "id": "LA-CH",
       "name": "Champasak",
       "stateCode": "CH",
       "latitude": 14.6578664,

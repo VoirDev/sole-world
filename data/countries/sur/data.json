@@ -1,5 +1,5 @@
 {
-  "id": 210,
+  "id": "SR",
   "name": "Suriname",
   "nativeName": "Suriname",
   "iso2": "SR",
@@ -9,17 +9,17 @@
   "tld": ".sr",
   "latitude": 4,
   "longitude": -56,
-  "flagId": 44,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "sr",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    963
+    "SRD"
   ],
   "timezoneIds": [
-    2574
+    "America/Paramaribo"
   ],
   "officialLanguageIds": [
-    29
+    "nl"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -57,7 +57,7 @@
     },
     {
       "languageCode": "fr",
-      "name": "Surinam"
+      "name": "Suriname"
     },
     {
       "languageCode": "ja",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2839,
+      "id": "SR-CM",
       "name": "Commewijne",
       "stateCode": "CM",
       "latitude": 5.740211,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 2840,
+      "id": "SR-NI",
       "name": "Nickerie",
       "stateCode": "NI",
       "latitude": 5.5855469,
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "id": 2841,
+      "id": "SR-PR",
       "name": "Para",
       "stateCode": "PR",
       "latitude": 5.4817318,
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "id": 2842,
+      "id": "SR-CR",
       "name": "Coronie",
       "stateCode": "CR",
       "latitude": 5.6943271,
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "id": 2843,
+      "id": "SR-PM",
       "name": "Paramaribo",
       "stateCode": "PM",
       "latitude": 5.8520355,
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "id": 2844,
+      "id": "SR-WA",
       "name": "Wanica",
       "stateCode": "WA",
       "latitude": 5.7323762,
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "id": 2845,
+      "id": "SR-MA",
       "name": "Marowijne",
       "stateCode": "MA",
       "latitude": 5.6268128,
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "id": 2846,
+      "id": "SR-BR",
       "name": "Brokopondo",
       "stateCode": "BR",
       "latitude": 4.7710247,
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "id": 2847,
+      "id": "SR-SI",
       "name": "Sipaliwini",
       "stateCode": "SI",
       "latitude": 3.6567382,
@@ -272,7 +272,7 @@
       "cities": []
     },
     {
-      "id": 2848,
+      "id": "SR-SA",
       "name": "Saramacca",
       "stateCode": "SA",
       "latitude": 5.7240813,

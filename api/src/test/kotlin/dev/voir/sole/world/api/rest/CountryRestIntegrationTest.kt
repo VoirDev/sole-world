@@ -9,24 +9,21 @@ import tools.jackson.databind.JsonNode
 
 class CountryRestIntegrationTest : BaseRestIntegrationTest() {
     @Test
-    fun `country resolves by id, alpha-2 and alpha-3`() {
-        val byId = get("/v1/countries/1")
-        val byAlpha2 = get("/v1/countries/FD")
-        val byAlpha3 = get("/v1/countries/FRE")
-
-        assertEquals("Freedonia", byId["name"].stringValue())
-        assertEquals(byId["id"].intValue(), byAlpha2["id"].intValue())
-        assertEquals(byId["id"].intValue(), byAlpha3["id"].intValue())
+    fun `country resolves by its alpha-2 id and by its alpha-3 and numeric codes`() {
+        assertEquals("FD", get("/v1/countries/FD")["id"].stringValue())
+        assertEquals("FD", get("/v1/countries/FRE")["id"].stringValue())
+        assertEquals("FD", get("/v1/countries/901")["id"].stringValue())
     }
 
     @Test
     fun `country identifier matching ignores case`() {
-        assertEquals("Freedonia", get("/v1/countries/fd")["name"].stringValue())
+        // The response spells the id the one way it is published, whatever the caller sent.
+        assertEquals("FD", get("/v1/countries/fd")["id"].stringValue())
     }
 
     @Test
     fun `country returns its own fields without includes`() {
-        val country = get("/v1/countries/1")
+        val country = get("/v1/countries/FD")
 
         assertEquals("FRE", country["iso3"].stringValue())
         assertEquals("901", country["isoNumeric"].stringValue())
@@ -42,7 +39,7 @@ class CountryRestIntegrationTest : BaseRestIntegrationTest() {
     @Test
     fun `include embeds each allowed relationship`() {
         val country = get(
-            "/v1/countries/1?include=region,subregion,flag,currencies,languages,timezones,centralBanks,states",
+            "/v1/countries/FD?include=region,subregion,flag,currencies,languages,timezones,centralBanks,states",
         )
 
         assertEquals("Test Europe", country.at("/region/name").stringValue())
@@ -64,7 +61,7 @@ class CountryRestIntegrationTest : BaseRestIntegrationTest() {
 
     @Test
     fun `included records do not carry their own includes`() {
-        val country = get("/v1/countries/1?include=subregion")
+        val country = get("/v1/countries/FD?include=subregion")
 
         // Depth is capped at one: the subregion arrives without its own region or countries.
         assertTrue(country.at("/subregion/region").isMissingNode)
@@ -73,7 +70,7 @@ class CountryRestIntegrationTest : BaseRestIntegrationTest() {
 
     @Test
     fun `unknown include is rejected with the accepted values`() {
-        val problem = assertProblem(rest("/v1/countries/1?include=citiez"), status = 400)
+        val problem = assertProblem(rest("/v1/countries/FD?include=citiez"), status = 400)
 
         assertTrue(problem["detail"].stringValue().contains("citiez"))
 
@@ -88,7 +85,7 @@ class CountryRestIntegrationTest : BaseRestIntegrationTest() {
 
     @Test
     fun `cities are not includable on a country`() {
-        assertProblem(rest("/v1/countries/1?include=cities"), status = 400)
+        assertProblem(rest("/v1/countries/FD?include=cities"), status = 400)
     }
 
     @Test
@@ -145,27 +142,27 @@ class CountryRestIntegrationTest : BaseRestIntegrationTest() {
 
     @Test
     fun `filters narrow the listing and combine`() {
-        assertEquals(2, get("/v1/countries?regionId=10").at("/page/totalItems").intValue())
-        assertEquals(0, get("/v1/countries?regionId=11").at("/page/totalItems").intValue())
-        assertEquals(listOf("Freedonia"), itemNames(get("/v1/countries?currencyId=101")))
-        assertEquals(listOf("Freedonia"), itemNames(get("/v1/countries?languageId=201")))
-        assertEquals(listOf("Freedonia"), itemNames(get("/v1/countries?timezoneId=301")))
+        assertEquals(2, get("/v1/countries?regionId=test-europe").at("/page/totalItems").intValue())
+        assertEquals(0, get("/v1/countries?regionId=test-oceania").at("/page/totalItems").intValue())
+        assertEquals(listOf("Freedonia"), itemNames(get("/v1/countries?currencyId=FDC")))
+        assertEquals(listOf("Freedonia"), itemNames(get("/v1/countries?languageId=fd")))
+        assertEquals(listOf("Freedonia"), itemNames(get("/v1/countries?timezoneId=Europe/Freedonia")))
         assertEquals(
             listOf("Freedonia"),
-            itemNames(get("/v1/countries?regionId=10&subregionId=20")),
+            itemNames(get("/v1/countries?regionId=test-europe&subregionId=TEST-NORTH")),
         )
     }
 
     @Test
     fun `sub-resources are paginated and filtered`() {
-        assertEquals(2, get("/v1/countries/1/states").at("/page/totalItems").intValue())
-        assertEquals(2, get("/v1/countries/1/cities").at("/page/totalItems").intValue())
-        assertEquals(2, get("/v1/countries/1/currencies").at("/page/totalItems").intValue())
-        assertEquals(1, get("/v1/countries/1/languages").at("/page/totalItems").intValue())
-        assertEquals(1, get("/v1/countries/1/timezones").at("/page/totalItems").intValue())
-        assertEquals(1, get("/v1/countries/1/central-banks").at("/page/totalItems").intValue())
+        assertEquals(2, get("/v1/countries/FD/states").at("/page/totalItems").intValue())
+        assertEquals(2, get("/v1/countries/FD/cities").at("/page/totalItems").intValue())
+        assertEquals(2, get("/v1/countries/FD/currencies").at("/page/totalItems").intValue())
+        assertEquals(1, get("/v1/countries/FD/languages").at("/page/totalItems").intValue())
+        assertEquals(1, get("/v1/countries/FD/timezones").at("/page/totalItems").intValue())
+        assertEquals(1, get("/v1/countries/FD/central-banks").at("/page/totalItems").intValue())
 
-        val filtered = get("/v1/countries/1/cities?query=South")
+        val filtered = get("/v1/countries/FD/cities?query=South")
         assertEquals(1, filtered.at("/page/totalItems").intValue())
         assertEquals(listOf("South City"), itemNames(filtered))
     }
@@ -177,8 +174,8 @@ class CountryRestIntegrationTest : BaseRestIntegrationTest() {
 
     @Test
     fun `country with no relationships returns empty pages`() {
-        assertEquals(0, get("/v1/countries/2/states").at("/page/totalItems").intValue())
-        assertEquals(0, get("/v1/countries/2/currencies").at("/page/totalItems").intValue())
+        assertEquals(0, get("/v1/countries/SY/states").at("/page/totalItems").intValue())
+        assertEquals(0, get("/v1/countries/SY/currencies").at("/page/totalItems").intValue())
     }
 
     private fun itemsField(node: JsonNode, field: String, property: String): List<String> {

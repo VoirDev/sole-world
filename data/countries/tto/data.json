@@ -1,5 +1,5 @@
 {
-  "id": 223,
+  "id": "TT",
   "name": "Trinidad and Tobago",
   "nativeName": "Trinidad and Tobago",
   "iso2": "TT",
@@ -9,17 +9,17 @@
   "tld": ".tt",
   "latitude": 11,
   "longitude": -61,
-  "flagId": 25,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "tt",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    973
+    "TTD"
   ],
   "timezoneIds": [
-    2589
+    "America/Port_of_Spain"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -57,7 +57,7 @@
     },
     {
       "languageCode": "fr",
-      "name": "Trinité et Tobago"
+      "name": "Trinité-et-Tobago"
     },
     {
       "languageCode": "ja",
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Trinidad Ve Tobago"
+      "name": "Trinidad ve Tobago"
     },
     {
       "languageCode": "ru",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3353,
+      "id": "TT-WTO",
       "name": "Western Tobago",
       "stateCode": "WTO",
       "latitude": 11.1897072,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 3354,
+      "id": "TT-CTT",
       "name": "Couva-Tabaquite-Talparo",
       "stateCode": "CTT",
       "latitude": 10.4297145,
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": 3355,
+      "id": "TT-ETO",
       "name": "Eastern Tobago",
       "stateCode": "ETO",
       "latitude": 11.2979348,
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": 3356,
+      "id": "TT-MRC",
       "name": "Rio Claro-Mayaro",
       "stateCode": "MRC",
       "latitude": 10.2412832,
@@ -161,7 +161,7 @@
       "cities": []
     },
     {
-      "id": 3357,
+      "id": "TT-SJL",
       "name": "San Juan-Laventille",
       "stateCode": "SJL",
       "latitude": 10.6908578,
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "id": 3358,
+      "id": "TT-TUP",
       "name": "Tunapuna-Piarco",
       "stateCode": "TUP",
       "latitude": 10.6859096,
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "id": 3359,
+      "id": "TT-SFO",
       "name": "San Fernando",
       "stateCode": "SFO",
       "latitude": 34.2819461,
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "id": 3360,
+      "id": "TT-PTF",
       "name": "Point Fortin",
       "stateCode": "PTF",
       "latitude": 10.1702737,
@@ -261,7 +261,7 @@
       ]
     },
     {
-      "id": 3361,
+      "id": "TT-SGE",
       "name": "Sangre Grande",
       "stateCode": "SGE",
       "latitude": 10.5852939,
@@ -279,7 +279,7 @@
       ]
     },
     {
-      "id": 3362,
+      "id": "TT-ARI",
       "name": "Arima",
       "stateCode": "ARI",
       "latitude": 46.7931604,
@@ -297,7 +297,7 @@
       ]
     },
     {
-      "id": 3363,
+      "id": "TT-POS",
       "name": "Port of Spain",
       "stateCode": "POS",
       "latitude": 10.6603196,
@@ -322,7 +322,7 @@
       ]
     },
     {
-      "id": 3364,
+      "id": "TT-SIP",
       "name": "Siparia",
       "stateCode": "SIP",
       "latitude": 10.1245626,
@@ -347,7 +347,7 @@
       ]
     },
     {
-      "id": 3365,
+      "id": "TT-PED",
       "name": "Penal-Debe",
       "stateCode": "PED",
       "latitude": 10.1337402,
@@ -372,7 +372,7 @@
       ]
     },
     {
-      "id": 3366,
+      "id": "TT-CHA",
       "name": "Chaguanas",
       "stateCode": "CHA",
       "latitude": 10.5168387,
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "id": 3367,
+      "id": "TT-DMN",
       "name": "Diego Martin",
       "stateCode": "DMN",
       "latitude": 10.7362286,
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "id": 3368,
+      "id": "TT-PRT",
       "name": "Princes Town",
       "stateCode": "PRT",
       "latitude": 10.1786746,

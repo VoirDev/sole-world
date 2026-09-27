@@ -1,5 +1,5 @@
 {
-  "id": 135,
+  "id": "MT",
   "name": "Malta",
   "nativeName": "Malta",
   "iso2": "MT",
@@ -9,18 +9,18 @@
   "tld": ".mt",
   "latitude": 35.83333333,
   "longitude": 14.58333333,
-  "flagId": 98,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "mt",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2451
+    "Europe/Malta"
   ],
   "officialLanguageIds": [
-    30,
-    123
+    "en",
+    "mt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 74,
+      "id": "MT-33",
       "name": "Mqabba",
       "stateCode": "33",
       "latitude": 35.8444143,
@@ -101,7 +101,7 @@
       "cities": []
     },
     {
-      "id": 75,
+      "id": "MT-49",
       "name": "San Ġwann",
       "stateCode": "49",
       "latitude": 35.9077365,
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "id": 76,
+      "id": "MT-68",
       "name": "Żurrieq",
       "stateCode": "68",
       "latitude": 35.8216306,
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "id": 77,
+      "id": "MT-25",
       "name": "Luqa",
       "stateCode": "25",
       "latitude": 35.8582865,
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "id": 78,
+      "id": "MT-28",
       "name": "Marsaxlokk",
       "stateCode": "28",
       "latitude": 35.8411699,
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "id": 79,
+      "id": "MT-42",
       "name": "Qala",
       "stateCode": "42",
       "latitude": 36.0388628,
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "id": 80,
+      "id": "MT-66",
       "name": "Żebbuġ Malta",
       "stateCode": "66",
       "latitude": 35.8764648,
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "id": 81,
+      "id": "MT-63",
       "name": "Xgħajra",
       "stateCode": "63",
       "latitude": 35.8868282,
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "id": 82,
+      "id": "MT-23",
       "name": "Kirkop",
       "stateCode": "23",
       "latitude": 35.8437862,
@@ -266,7 +266,7 @@
       ]
     },
     {
-      "id": 83,
+      "id": "MT-46",
       "name": "Rabat",
       "stateCode": "46",
       "latitude": 33.9715904,
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "id": 84,
+      "id": "MT-09",
       "name": "Floriana",
       "stateCode": "09",
       "latitude": 45.4952185,
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "id": 85,
+      "id": "MT-65",
       "name": "Żebbuġ Gozo",
       "stateCode": "65",
       "latitude": 36.0716403,
@@ -327,7 +327,7 @@
       ]
     },
     {
-      "id": 86,
+      "id": "MT-57",
       "name": "Swieqi",
       "stateCode": "57",
       "latitude": 35.9191182,
@@ -352,7 +352,7 @@
       ]
     },
     {
-      "id": 87,
+      "id": "MT-50",
       "name": "San Lawrenz",
       "stateCode": "50",
       "latitude": 38.9578056,
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "id": 88,
+      "id": "MT-05",
       "name": "Birżebbuġa",
       "stateCode": "05",
       "latitude": 35.8135989,
@@ -395,7 +395,7 @@
       ]
     },
     {
-      "id": 89,
+      "id": "MT-29",
       "name": "Mdina",
       "stateCode": "29",
       "latitude": 35.888093,
@@ -405,7 +405,7 @@
       "cities": []
     },
     {
-      "id": 90,
+      "id": "MT-54",
       "name": "Santa Venera",
       "stateCode": "54",
       "latitude": 35.8902201,
@@ -415,7 +415,7 @@
       "cities": []
     },
     {
-      "id": 91,
+      "id": "MT-22",
       "name": "Kerċem",
       "stateCode": "22",
       "latitude": 36.0447939,
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": 92,
+      "id": "MT-14",
       "name": "Għarb",
       "stateCode": "14",
       "latitude": 36.068909,
@@ -443,7 +443,7 @@
       "cities": []
     },
     {
-      "id": 93,
+      "id": "MT-19",
       "name": "Iklin",
       "stateCode": "19",
       "latitude": 35.9098774,
@@ -461,7 +461,7 @@
       ]
     },
     {
-      "id": 94,
+      "id": "MT-53",
       "name": "Santa Luċija",
       "stateCode": "53",
       "latitude": 35.856142,
@@ -479,7 +479,7 @@
       ]
     },
     {
-      "id": 95,
+      "id": "MT-60",
       "name": "Valletta",
       "stateCode": "60",
       "latitude": 35.8989085,
@@ -497,7 +497,7 @@
       ]
     },
     {
-      "id": 96,
+      "id": "MT-34",
       "name": "Msida",
       "stateCode": "34",
       "latitude": 35.8956388,
@@ -515,7 +515,7 @@
       ]
     },
     {
-      "id": 97,
+      "id": "MT-04",
       "name": "Birkirkara",
       "stateCode": "04",
       "latitude": 35.8954706,
@@ -547,7 +547,7 @@
       ]
     },
     {
-      "id": 98,
+      "id": "MT-55",
       "name": "Siġġiewi",
       "stateCode": "55",
       "latitude": 35.8463742,
@@ -565,7 +565,7 @@
       ]
     },
     {
-      "id": 99,
+      "id": "MT-21",
       "name": "Kalkara",
       "stateCode": "21",
       "latitude": 35.8914242,
@@ -590,7 +590,7 @@
       ]
     },
     {
-      "id": 100,
+      "id": "MT-48",
       "name": "St. Julian's",
       "stateCode": "48",
       "latitude": 42.2122513,
@@ -615,7 +615,7 @@
       ]
     },
     {
-      "id": 101,
+      "id": "MT-45",
       "name": "Victoria",
       "stateCode": "45",
       "latitude": 28.8052674,
@@ -640,7 +640,7 @@
       ]
     },
     {
-      "id": 102,
+      "id": "MT-30",
       "name": "Mellieħa",
       "stateCode": "30",
       "latitude": 35.9523529,
@@ -658,7 +658,7 @@
       ]
     },
     {
-      "id": 103,
+      "id": "MT-59",
       "name": "Tarxien",
       "stateCode": "59",
       "latitude": 35.8672552,
@@ -676,7 +676,7 @@
       ]
     },
     {
-      "id": 104,
+      "id": "MT-56",
       "name": "Sliema",
       "stateCode": "56",
       "latitude": 35.9110081,
@@ -694,7 +694,7 @@
       ]
     },
     {
-      "id": 105,
+      "id": "MT-18",
       "name": "Ħamrun",
       "stateCode": "18",
       "latitude": 35.8861237,
@@ -719,7 +719,7 @@
       ]
     },
     {
-      "id": 106,
+      "id": "MT-16",
       "name": "Għasri",
       "stateCode": "16",
       "latitude": 36.0668075,
@@ -737,7 +737,7 @@
       ]
     },
     {
-      "id": 107,
+      "id": "MT-03",
       "name": "Birgu",
       "stateCode": "03",
       "latitude": 35.8879214,
@@ -755,7 +755,7 @@
       ]
     },
     {
-      "id": 108,
+      "id": "MT-02",
       "name": "Balzan",
       "stateCode": "02",
       "latitude": 35.8957414,
@@ -773,7 +773,7 @@
       ]
     },
     {
-      "id": 109,
+      "id": "MT-31",
       "name": "Mġarr",
       "stateCode": "31",
       "latitude": 35.9189327,
@@ -791,7 +791,7 @@
       ]
     },
     {
-      "id": 110,
+      "id": "MT-01",
       "name": "Attard",
       "stateCode": "01",
       "latitude": 35.8904967,
@@ -809,7 +809,7 @@
       ]
     },
     {
-      "id": 111,
+      "id": "MT-44",
       "name": "Qrendi",
       "stateCode": "44",
       "latitude": 35.8328488,
@@ -827,7 +827,7 @@
       ]
     },
     {
-      "id": 112,
+      "id": "MT-38",
       "name": "Naxxar",
       "stateCode": "38",
       "latitude": 35.9317518,
@@ -866,7 +866,7 @@
       ]
     },
     {
-      "id": 113,
+      "id": "MT-12",
       "name": "Gżira",
       "stateCode": "12",
       "latitude": 35.905897,
@@ -884,7 +884,7 @@
       ]
     },
     {
-      "id": 114,
+      "id": "MT-61",
       "name": "Xagħra",
       "stateCode": "61",
       "latitude": 36.050845,
@@ -902,7 +902,7 @@
       ]
     },
     {
-      "id": 115,
+      "id": "MT-39",
       "name": "Paola",
       "stateCode": "39",
       "latitude": 38.5722353,
@@ -920,7 +920,7 @@
       ]
     },
     {
-      "id": 116,
+      "id": "MT-52",
       "name": "Sannat",
       "stateCode": "52",
       "latitude": 36.0192643,
@@ -945,7 +945,7 @@
       ]
     },
     {
-      "id": 117,
+      "id": "MT-07",
       "name": "Dingli",
       "stateCode": "07",
       "latitude": 35.8627309,
@@ -963,7 +963,7 @@
       ]
     },
     {
-      "id": 118,
+      "id": "MT-11",
       "name": "Gudja",
       "stateCode": "11",
       "latitude": 35.8469803,
@@ -973,7 +973,7 @@
       "cities": []
     },
     {
-      "id": 119,
+      "id": "MT-43",
       "name": "Qormi",
       "stateCode": "43",
       "latitude": 35.8764388,
@@ -991,7 +991,7 @@
       ]
     },
     {
-      "id": 120,
+      "id": "MT-15",
       "name": "Għargħur",
       "stateCode": "15",
       "latitude": 35.9220569,
@@ -1009,7 +1009,7 @@
       ]
     },
     {
-      "id": 121,
+      "id": "MT-62",
       "name": "Xewkija",
       "stateCode": "62",
       "latitude": 36.0299236,
@@ -1027,7 +1027,7 @@
       ]
     },
     {
-      "id": 122,
+      "id": "MT-58",
       "name": "Ta' Xbiex",
       "stateCode": "58",
       "latitude": 35.8991448,
@@ -1045,7 +1045,7 @@
       ]
     },
     {
-      "id": 123,
+      "id": "MT-64",
       "name": "Żabbar",
       "stateCode": "64",
       "latitude": 35.8724715,
@@ -1063,7 +1063,7 @@
       ]
     },
     {
-      "id": 124,
+      "id": "MT-17",
       "name": "Għaxaq",
       "stateCode": "17",
       "latitude": 35.8440359,
@@ -1081,7 +1081,7 @@
       ]
     },
     {
-      "id": 125,
+      "id": "MT-40",
       "name": "Pembroke",
       "stateCode": "40",
       "latitude": 34.6801626,
@@ -1099,7 +1099,7 @@
       ]
     },
     {
-      "id": 126,
+      "id": "MT-24",
       "name": "Lija",
       "stateCode": "24",
       "latitude": 49.180076,
@@ -1124,7 +1124,7 @@
       ]
     },
     {
-      "id": 127,
+      "id": "MT-41",
       "name": "Pietà",
       "stateCode": "41",
       "latitude": 42.21862,
@@ -1142,7 +1142,7 @@
       ]
     },
     {
-      "id": 128,
+      "id": "MT-26",
       "name": "Marsa",
       "stateCode": "26",
       "latitude": 34.0319587,
@@ -1160,7 +1160,7 @@
       ]
     },
     {
-      "id": 129,
+      "id": "MT-08",
       "name": "Fgura",
       "stateCode": "08",
       "latitude": 35.8738269,
@@ -1178,7 +1178,7 @@
       ]
     },
     {
-      "id": 130,
+      "id": "MT-13",
       "name": "Għajnsielem",
       "stateCode": "13",
       "latitude": 36.0247966,
@@ -1203,7 +1203,7 @@
       ]
     },
     {
-      "id": 131,
+      "id": "MT-35",
       "name": "Mtarfa",
       "stateCode": "35",
       "latitude": 35.8895125,
@@ -1213,7 +1213,7 @@
       "cities": []
     },
     {
-      "id": 132,
+      "id": "MT-36",
       "name": "Munxar",
       "stateCode": "36",
       "latitude": 36.0288058,
@@ -1231,7 +1231,7 @@
       ]
     },
     {
-      "id": 133,
+      "id": "MT-37",
       "name": "Nadur",
       "stateCode": "37",
       "latitude": 36.0447019,
@@ -1249,7 +1249,7 @@
       ]
     },
     {
-      "id": 134,
+      "id": "MT-10",
       "name": "Fontana",
       "stateCode": "10",
       "latitude": 34.0922335,
@@ -1267,7 +1267,7 @@
       ]
     },
     {
-      "id": 135,
+      "id": "MT-67",
       "name": "Żejtun",
       "stateCode": "67",
       "latitude": 35.8548714,
@@ -1285,7 +1285,7 @@
       ]
     },
     {
-      "id": 136,
+      "id": "MT-20",
       "name": "Senglea",
       "stateCode": "20",
       "latitude": 35.8873041,
@@ -1303,7 +1303,7 @@
       ]
     },
     {
-      "id": 137,
+      "id": "MT-27",
       "name": "Marsaskala",
       "stateCode": "27",
       "latitude": 35.860364,
@@ -1328,7 +1328,7 @@
       ]
     },
     {
-      "id": 138,
+      "id": "MT-06",
       "name": "Cospicua",
       "stateCode": "06",
       "latitude": 35.8806753,
@@ -1346,7 +1346,7 @@
       ]
     },
     {
-      "id": 139,
+      "id": "MT-51",
       "name": "St. Paul's Bay",
       "stateCode": "51",
       "latitude": 35.936017,
@@ -1413,7 +1413,7 @@
       ]
     },
     {
-      "id": 140,
+      "id": "MT-32",
       "name": "Mosta",
       "stateCode": "32",
       "latitude": 35.9141504,

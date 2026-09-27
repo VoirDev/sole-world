@@ -11,7 +11,7 @@ class SubregionQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              subregion(id: 20) {
+              subregion(id: "test-north") {
                 id
                 name
                 regionId
@@ -24,7 +24,7 @@ class SubregionQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
         assertNoErrors(response)
         val subregion = response.at("/data/subregion")
-        assertEquals("20", subregion["id"].stringValue())
+        assertEquals("test-north", subregion["id"].stringValue())
         assertEquals("Test North", subregion["name"].stringValue())
         assertEquals("Test Europe", subregion.at("/region/name").stringValue())
         assertArrayValues(subregion["countries"], "name", "Freedonia")
@@ -35,7 +35,7 @@ class SubregionQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              requested: subregionsByIds(ids: [20, 999]) { id name regionId }
+              requested: subregionsByIds(ids: ["test-north", "atlantis"]) { id name regionId }
             }
             """.trimIndent(),
         )
@@ -49,7 +49,7 @@ class SubregionQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              subregion(id: 999) { id }
+              subregion(id: "atlantis") { id }
             }
             """.trimIndent(),
         )

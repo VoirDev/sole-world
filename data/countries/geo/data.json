@@ -1,5 +1,5 @@
 {
-  "id": 81,
+  "id": "GE",
   "name": "Georgia",
   "nativeName": "საქართველო",
   "iso2": "GE",
@@ -9,18 +9,18 @@
   "tld": ".ge",
   "latitude": 42,
   "longitude": 43.5,
-  "flagId": 170,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "ge",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    886
+    "GEL"
   ],
   "timezoneIds": [
-    2384
+    "Asia/Tbilisi"
   ],
   "officialLanguageIds": [
-    53,
-    1
+    "ka",
+    "ab"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -62,7 +62,7 @@
     },
     {
       "languageCode": "ja",
-      "name": "グルジア"
+      "name": "ジョージア"
     },
     {
       "languageCode": "it",
@@ -78,7 +78,7 @@
     },
     {
       "languageCode": "ru",
-      "name": "Джорджия"
+      "name": "Грузия"
     },
     {
       "languageCode": "uk",
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 899,
+      "id": "GE-TB",
       "name": "Tbilisi",
       "stateCode": "TB",
       "latitude": 41.7151377,
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "id": 900,
+      "id": "GE-AJ",
       "name": "Adjara",
       "stateCode": "AJ",
       "latitude": 41.6005626,
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "id": 901,
+      "id": "GE-AB",
       "name": "Abkhazia",
       "stateCode": "AB",
       "latitude": 43.0015544,
@@ -292,7 +292,7 @@
       ]
     },
     {
-      "id": 902,
+      "id": "GE-MM",
       "name": "Mtskheta-Mtianeti",
       "stateCode": "MM",
       "latitude": 42.1682185,
@@ -359,7 +359,7 @@
       ]
     },
     {
-      "id": 903,
+      "id": "GE-SK",
       "name": "Shida Kartli",
       "stateCode": "SK",
       "latitude": 42.0756944,
@@ -419,7 +419,7 @@
       ]
     },
     {
-      "id": 904,
+      "id": "GE-KK",
       "name": "Kvemo Kartli",
       "stateCode": "KK",
       "latitude": 41.4791833,
@@ -535,7 +535,7 @@
       ]
     },
     {
-      "id": 905,
+      "id": "GE-IM",
       "name": "Imereti",
       "stateCode": "IM",
       "latitude": 42.230108,
@@ -644,7 +644,7 @@
       ]
     },
     {
-      "id": 906,
+      "id": "GE-SJ",
       "name": "Samtskhe-Javakheti",
       "stateCode": "SJ",
       "latitude": 41.5479296,
@@ -746,7 +746,7 @@
       ]
     },
     {
-      "id": 907,
+      "id": "GE-GU",
       "name": "Guria",
       "stateCode": "GU",
       "latitude": 41.9442736,
@@ -785,7 +785,7 @@
       ]
     },
     {
-      "id": 908,
+      "id": "GE-SZ",
       "name": "Samegrelo-Zemo Svaneti",
       "stateCode": "SZ",
       "latitude": 42.7352247,
@@ -880,7 +880,7 @@
       ]
     },
     {
-      "id": 909,
+      "id": "GE-RL",
       "name": "Racha-Lechkhumi and Kvemo Svaneti",
       "stateCode": "RL",
       "latitude": 42.6718873,
@@ -919,7 +919,7 @@
       ]
     },
     {
-      "id": 910,
+      "id": "GE-KA",
       "name": "Kakheti",
       "stateCode": "KA",
       "latitude": 41.6481602,

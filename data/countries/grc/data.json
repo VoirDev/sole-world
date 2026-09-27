@@ -1,5 +1,5 @@
 {
-  "id": 85,
+  "id": "GR",
   "name": "Greece",
   "nativeName": "Ελλάδα",
   "iso2": "GR",
@@ -9,17 +9,17 @@
   "tld": ".gr",
   "latitude": 39,
   "longitude": 22,
-  "flagId": 160,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "gr",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2389
+    "Europe/Athens"
   ],
   "officialLanguageIds": [
-    35
+    "el"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2095,
+      "id": "GR-41",
       "name": "Karditsa",
       "stateCode": "41",
       "latitude": 39.3640258,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 2096,
+      "id": "GR-G",
       "name": "West Greece",
       "stateCode": "G",
       "latitude": 38.5115496,
@@ -741,7 +741,7 @@
       ]
     },
     {
-      "id": 2097,
+      "id": "GR-54",
       "name": "Thessaloniki",
       "stateCode": "54",
       "latitude": 40.6400629,
@@ -751,7 +751,7 @@
       "cities": []
     },
     {
-      "id": 2098,
+      "id": "GR-12",
       "name": "Arcadia",
       "stateCode": "12",
       "latitude": 37.5557825,
@@ -761,7 +761,7 @@
       "cities": []
     },
     {
-      "id": 2099,
+      "id": "GR-53",
       "name": "Imathia ",
       "stateCode": "53",
       "latitude": 40.6060067,
@@ -771,7 +771,7 @@
       "cities": []
     },
     {
-      "id": 2100,
+      "id": "GR-56",
       "name": "Kastoria",
       "stateCode": "56",
       "latitude": 40.5192691,
@@ -781,7 +781,7 @@
       "cities": []
     },
     {
-      "id": 2101,
+      "id": "GR-04",
       "name": "Euboea",
       "stateCode": "04",
       "latitude": 38.5236036,
@@ -791,7 +791,7 @@
       "cities": []
     },
     {
-      "id": 2102,
+      "id": "GR-51",
       "name": "Grevena",
       "stateCode": "51",
       "latitude": 40.0837626,
@@ -801,7 +801,7 @@
       "cities": []
     },
     {
-      "id": 2103,
+      "id": "GR-34",
       "name": "Preveza",
       "stateCode": "34",
       "latitude": 38.9592649,
@@ -811,7 +811,7 @@
       "cities": []
     },
     {
-      "id": 2104,
+      "id": "GR-24",
       "name": "Lefkada",
       "stateCode": "24",
       "latitude": 38.8333663,
@@ -983,7 +983,7 @@
       ]
     },
     {
-      "id": 2105,
+      "id": "GR-11",
       "name": "Argolis",
       "stateCode": "11",
       "latitude": null,
@@ -993,7 +993,7 @@
       "cities": []
     },
     {
-      "id": 2106,
+      "id": "GR-16",
       "name": "Laconia",
       "stateCode": "16",
       "latitude": 43.5278546,
@@ -1003,7 +1003,7 @@
       "cities": []
     },
     {
-      "id": 2107,
+      "id": "GR-59",
       "name": "Pella",
       "stateCode": "59",
       "latitude": 40.9148039,
@@ -1013,7 +1013,7 @@
       "cities": []
     },
     {
-      "id": 2108,
+      "id": "GR-C",
       "name": "West Macedonia",
       "stateCode": "C",
       "latitude": 40.3004058,
@@ -1290,7 +1290,7 @@
       ]
     },
     {
-      "id": 2109,
+      "id": "GR-M",
       "name": "Crete",
       "stateCode": "M",
       "latitude": 35.240117,
@@ -1798,7 +1798,7 @@
       ]
     },
     {
-      "id": 2110,
+      "id": "GR-D",
       "name": "Epirus",
       "stateCode": "D",
       "latitude": 39.5706413,
@@ -2145,7 +2145,7 @@
       ]
     },
     {
-      "id": 2111,
+      "id": "GR-57",
       "name": "Kilkis",
       "stateCode": "57",
       "latitude": 40.9937071,
@@ -2155,7 +2155,7 @@
       "cities": []
     },
     {
-      "id": 2112,
+      "id": "GR-58",
       "name": "Kozani",
       "stateCode": "58",
       "latitude": 40.3005586,
@@ -2165,7 +2165,7 @@
       "cities": []
     },
     {
-      "id": 2113,
+      "id": "GR-33",
       "name": "Ioannina",
       "stateCode": "33",
       "latitude": 39.6650288,
@@ -2175,7 +2175,7 @@
       "cities": []
     },
     {
-      "id": 2114,
+      "id": "GR-06",
       "name": "Phthiotis",
       "stateCode": "06",
       "latitude": 38.999785,
@@ -2185,7 +2185,7 @@
       "cities": []
     },
     {
-      "id": 2115,
+      "id": "GR-94",
       "name": "Chania",
       "stateCode": "94",
       "latitude": 35.5138298,
@@ -2195,7 +2195,7 @@
       "cities": []
     },
     {
-      "id": 2116,
+      "id": "GR-13",
       "name": "Achaea",
       "stateCode": "13",
       "latitude": 38.1158729,
@@ -2205,7 +2205,7 @@
       "cities": []
     },
     {
-      "id": 2117,
+      "id": "GR-A",
       "name": "East Macedonia and Thrace",
       "stateCode": "A",
       "latitude": 41.1295126,
@@ -2363,7 +2363,7 @@
       ]
     },
     {
-      "id": 2118,
+      "id": "GR-L",
       "name": "South Aegean",
       "stateCode": "L",
       "latitude": 37.0855302,
@@ -2759,7 +2759,7 @@
       ]
     },
     {
-      "id": 2119,
+      "id": "GR-J",
       "name": "Peloponnese",
       "stateCode": "J",
       "latitude": 37.5079472,
@@ -3379,7 +3379,7 @@
       ]
     },
     {
-      "id": 2120,
+      "id": "GR-A2",
       "name": "East Attica",
       "stateCode": "A2",
       "latitude": 38.2054093,
@@ -4027,7 +4027,7 @@
       ]
     },
     {
-      "id": 2121,
+      "id": "GR-62",
       "name": "Serres",
       "stateCode": "62",
       "latitude": 41.0863854,
@@ -4037,7 +4037,7 @@
       "cities": []
     },
     {
-      "id": 2122,
+      "id": "GR-I",
       "name": "Attica",
       "stateCode": "I",
       "latitude": 38.0457568,
@@ -5035,7 +5035,7 @@
       ]
     },
     {
-      "id": 2123,
+      "id": "GR-01",
       "name": "Aetolia-Acarnania",
       "stateCode": "01",
       "latitude": 38.7084386,
@@ -5045,7 +5045,7 @@
       "cities": []
     },
     {
-      "id": 2124,
+      "id": "GR-22",
       "name": "Corfu",
       "stateCode": "22",
       "latitude": 39.6249838,
@@ -5189,7 +5189,7 @@
       ]
     },
     {
-      "id": 2125,
+      "id": "GR-B",
       "name": "Central Macedonia",
       "stateCode": "B",
       "latitude": 40.621173,
@@ -6817,7 +6817,7 @@
       ]
     },
     {
-      "id": 2126,
+      "id": "GR-03",
       "name": "Boeotia",
       "stateCode": "03",
       "latitude": 38.3663664,
@@ -6827,7 +6827,7 @@
       "cities": []
     },
     {
-      "id": 2127,
+      "id": "GR-23",
       "name": "Kefalonia",
       "stateCode": "23",
       "latitude": 38.1753675,
@@ -6978,7 +6978,7 @@
       ]
     },
     {
-      "id": 2128,
+      "id": "GR-H",
       "name": "Central Greece",
       "stateCode": "H",
       "latitude": 38.6043984,
@@ -7640,7 +7640,7 @@
       ]
     },
     {
-      "id": 2129,
+      "id": "GR-15",
       "name": "Corinthia",
       "stateCode": "15",
       "latitude": null,
@@ -7650,7 +7650,7 @@
       "cities": []
     },
     {
-      "id": 2130,
+      "id": "GR-52",
       "name": "Drama",
       "stateCode": "52",
       "latitude": 41.2340023,
@@ -7660,7 +7660,7 @@
       "cities": []
     },
     {
-      "id": 2131,
+      "id": "GR-F",
       "name": "Ionian Islands",
       "stateCode": "F",
       "latitude": 37.9694898,
@@ -7881,7 +7881,7 @@
       ]
     },
     {
-      "id": 2132,
+      "id": "GR-42",
       "name": "Larissa",
       "stateCode": "42",
       "latitude": 39.6390224,

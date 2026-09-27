@@ -1,5 +1,5 @@
 {
-  "id": 35,
+  "id": "BF",
   "name": "Burkina Faso",
   "nativeName": "Burkina Faso",
   "iso2": "BF",
@@ -9,23 +9,23 @@
   "tld": ".bf",
   "latitude": 13,
   "longitude": -2,
-  "flagId": 228,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "bf",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    851
+    "XOF"
   ],
   "timezoneIds": [
-    2303
+    "Africa/Ouagadougou"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
     {
       "languageCode": "ko",
-      "name": "부르키나 파소"
+      "name": "부르키나파소"
     },
     {
       "languageCode": "pt-BR",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3112,
+      "id": "BF-KEN",
       "name": "Kénédougou",
       "stateCode": "KEN",
       "latitude": 11.3919395,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 3113,
+      "id": "BF-NAM",
       "name": "Namentenga",
       "stateCode": "NAM",
       "latitude": 13.0812584,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 3114,
+      "id": "BF-12",
       "name": "Sahel",
       "stateCode": "12",
       "latitude": 14.1000865,
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "id": 3115,
+      "id": "BF-06",
       "name": "Centre-Ouest",
       "stateCode": "06",
       "latitude": 11.8798466,
@@ -258,7 +258,7 @@
       ]
     },
     {
-      "id": 3116,
+      "id": "BF-NAO",
       "name": "Nahouri",
       "stateCode": "NAO",
       "latitude": 11.2502267,
@@ -268,7 +268,7 @@
       "cities": []
     },
     {
-      "id": 3117,
+      "id": "BF-PAS",
       "name": "Passoré",
       "stateCode": "PAS",
       "latitude": 12.8881221,
@@ -278,7 +278,7 @@
       "cities": []
     },
     {
-      "id": 3118,
+      "id": "BF-ZOU",
       "name": "Zoundwéogo",
       "stateCode": "ZOU",
       "latitude": 11.6141174,
@@ -288,7 +288,7 @@
       "cities": []
     },
     {
-      "id": 3119,
+      "id": "BF-SIS",
       "name": "Sissili",
       "stateCode": "SIS",
       "latitude": 11.2441219,
@@ -298,7 +298,7 @@
       "cities": []
     },
     {
-      "id": 3120,
+      "id": "BF-BAN",
       "name": "Banwa",
       "stateCode": "BAN",
       "latitude": 12.1323053,
@@ -308,7 +308,7 @@
       "cities": []
     },
     {
-      "id": 3121,
+      "id": "BF-BGR",
       "name": "Bougouriba",
       "stateCode": "BGR",
       "latitude": 10.8722646,
@@ -318,7 +318,7 @@
       "cities": []
     },
     {
-      "id": 3122,
+      "id": "BF-GNA",
       "name": "Gnagna",
       "stateCode": "GNA",
       "latitude": 12.8974992,
@@ -328,7 +328,7 @@
       "cities": []
     },
     {
-      "id": 3123,
+      "id": "BF-MOU",
       "name": "Mouhoun",
       "stateCode": "MOU",
       "latitude": 12.1432381,
@@ -338,7 +338,7 @@
       "cities": []
     },
     {
-      "id": 3124,
+      "id": "BF-YAG",
       "name": "Yagha",
       "stateCode": "YAG",
       "latitude": 13.3576157,
@@ -348,7 +348,7 @@
       "cities": []
     },
     {
-      "id": 3125,
+      "id": "BF-11",
       "name": "Plateau-Central",
       "stateCode": "11",
       "latitude": 12.2537648,
@@ -401,7 +401,7 @@
       ]
     },
     {
-      "id": 3126,
+      "id": "BF-SMT",
       "name": "Sanmatenga",
       "stateCode": "SMT",
       "latitude": 13.3565304,
@@ -411,7 +411,7 @@
       "cities": []
     },
     {
-      "id": 3127,
+      "id": "BF-05",
       "name": "Centre-Nord",
       "stateCode": "05",
       "latitude": 13.1724464,
@@ -464,7 +464,7 @@
       ]
     },
     {
-      "id": 3128,
+      "id": "BF-TAP",
       "name": "Tapoa",
       "stateCode": "TAP",
       "latitude": 12.2497072,
@@ -474,7 +474,7 @@
       "cities": []
     },
     {
-      "id": 3129,
+      "id": "BF-HOU",
       "name": "Houet",
       "stateCode": "HOU",
       "latitude": 11.1320447,
@@ -484,7 +484,7 @@
       "cities": []
     },
     {
-      "id": 3130,
+      "id": "BF-ZON",
       "name": "Zondoma",
       "stateCode": "ZON",
       "latitude": 13.1165926,
@@ -494,7 +494,7 @@
       "cities": []
     },
     {
-      "id": 3131,
+      "id": "BF-BLG",
       "name": "Boulgou",
       "stateCode": "BLG",
       "latitude": 11.4336766,
@@ -504,7 +504,7 @@
       "cities": []
     },
     {
-      "id": 3132,
+      "id": "BF-KMD",
       "name": "Komondjari",
       "stateCode": "KMD",
       "latitude": 12.7126527,
@@ -514,7 +514,7 @@
       "cities": []
     },
     {
-      "id": 3133,
+      "id": "BF-KOP",
       "name": "Koulpélogo",
       "stateCode": "KOP",
       "latitude": 11.5247674,
@@ -524,7 +524,7 @@
       "cities": []
     },
     {
-      "id": 3134,
+      "id": "BF-TUI",
       "name": "Tuy",
       "stateCode": "TUI",
       "latitude": 38.888684,
@@ -534,7 +534,7 @@
       "cities": []
     },
     {
-      "id": 3135,
+      "id": "BF-IOB",
       "name": "Ioba",
       "stateCode": "IOB",
       "latitude": 11.0562034,
@@ -544,7 +544,7 @@
       "cities": []
     },
     {
-      "id": 3136,
+      "id": "BF-03",
       "name": "Centre",
       "stateCode": "03",
       "latitude": null,
@@ -569,7 +569,7 @@
       ]
     },
     {
-      "id": 3137,
+      "id": "BF-SOR",
       "name": "Sourou",
       "stateCode": "SOR",
       "latitude": 13.341803,
@@ -579,7 +579,7 @@
       "cities": []
     },
     {
-      "id": 3138,
+      "id": "BF-01",
       "name": "Boucle du Mouhoun",
       "stateCode": "01",
       "latitude": 12.4166,
@@ -681,7 +681,7 @@
       ]
     },
     {
-      "id": 3139,
+      "id": "BF-SEN",
       "name": "Séno",
       "stateCode": "SEN",
       "latitude": 14.0072234,
@@ -691,7 +691,7 @@
       "cities": []
     },
     {
-      "id": 3140,
+      "id": "BF-13",
       "name": "Sud-Ouest",
       "stateCode": "13",
       "latitude": 10.4231493,
@@ -751,7 +751,7 @@
       ]
     },
     {
-      "id": 3141,
+      "id": "BF-OUB",
       "name": "Oubritenga",
       "stateCode": "OUB",
       "latitude": 12.7096087,
@@ -761,7 +761,7 @@
       "cities": []
     },
     {
-      "id": 3142,
+      "id": "BF-NAY",
       "name": "Nayala",
       "stateCode": "NAY",
       "latitude": 12.6964558,
@@ -771,7 +771,7 @@
       "cities": []
     },
     {
-      "id": 3143,
+      "id": "BF-GOU",
       "name": "Gourma",
       "stateCode": "GOU",
       "latitude": 12.1624473,
@@ -781,7 +781,7 @@
       "cities": []
     },
     {
-      "id": 3144,
+      "id": "BF-OUD",
       "name": "Oudalan",
       "stateCode": "OUD",
       "latitude": 14.471902,
@@ -791,7 +791,7 @@
       "cities": []
     },
     {
-      "id": 3145,
+      "id": "BF-ZIR",
       "name": "Ziro",
       "stateCode": "ZIR",
       "latitude": 11.6094995,
@@ -801,7 +801,7 @@
       "cities": []
     },
     {
-      "id": 3146,
+      "id": "BF-KOS",
       "name": "Kossi",
       "stateCode": "KOS",
       "latitude": 12.960458,
@@ -811,7 +811,7 @@
       "cities": []
     },
     {
-      "id": 3147,
+      "id": "BF-KOW",
       "name": "Kourwéogo",
       "stateCode": "KOW",
       "latitude": 12.7077495,
@@ -821,7 +821,7 @@
       "cities": []
     },
     {
-      "id": 3148,
+      "id": "BF-GAN",
       "name": "Ganzourgou",
       "stateCode": "GAN",
       "latitude": 12.2537648,
@@ -831,7 +831,7 @@
       "cities": []
     },
     {
-      "id": 3149,
+      "id": "BF-07",
       "name": "Centre-Sud",
       "stateCode": "07",
       "latitude": 11.5228911,
@@ -884,7 +884,7 @@
       ]
     },
     {
-      "id": 3150,
+      "id": "BF-YAT",
       "name": "Yatenga",
       "stateCode": "YAT",
       "latitude": 13.6249344,
@@ -894,7 +894,7 @@
       "cities": []
     },
     {
-      "id": 3151,
+      "id": "BF-LOR",
       "name": "Loroum",
       "stateCode": "LOR",
       "latitude": 13.8129814,
@@ -904,7 +904,7 @@
       "cities": []
     },
     {
-      "id": 3152,
+      "id": "BF-BAZ",
       "name": "Bazèga",
       "stateCode": "BAZ",
       "latitude": 11.9767692,
@@ -914,7 +914,7 @@
       "cities": []
     },
     {
-      "id": 3153,
+      "id": "BF-02",
       "name": "Cascades",
       "stateCode": "02",
       "latitude": 10.4072992,
@@ -953,7 +953,7 @@
       ]
     },
     {
-      "id": 3154,
+      "id": "BF-SNG",
       "name": "Sanguié",
       "stateCode": "SNG",
       "latitude": 12.1501861,
@@ -963,7 +963,7 @@
       "cities": []
     },
     {
-      "id": 3155,
+      "id": "BF-BAM",
       "name": "Bam",
       "stateCode": "BAM",
       "latitude": 13.446133,
@@ -973,7 +973,7 @@
       "cities": []
     },
     {
-      "id": 3156,
+      "id": "BF-NOU",
       "name": "Noumbiel",
       "stateCode": "NOU",
       "latitude": 9.8440946,
@@ -983,7 +983,7 @@
       "cities": []
     },
     {
-      "id": 3157,
+      "id": "BF-KMP",
       "name": "Kompienga",
       "stateCode": "KMP",
       "latitude": 11.5238362,
@@ -993,7 +993,7 @@
       "cities": []
     },
     {
-      "id": 3158,
+      "id": "BF-08",
       "name": "Est",
       "stateCode": "08",
       "latitude": 12.4365526,
@@ -1074,7 +1074,7 @@
       ]
     },
     {
-      "id": 3159,
+      "id": "BF-LER",
       "name": "Léraba",
       "stateCode": "LER",
       "latitude": 10.6648785,
@@ -1084,7 +1084,7 @@
       "cities": []
     },
     {
-      "id": 3160,
+      "id": "BF-BAL",
       "name": "Balé",
       "stateCode": "BAL",
       "latitude": 11.7820602,
@@ -1094,7 +1094,7 @@
       "cities": []
     },
     {
-      "id": 3161,
+      "id": "BF-KOT",
       "name": "Kouritenga",
       "stateCode": "KOT",
       "latitude": 12.1631813,
@@ -1104,7 +1104,7 @@
       "cities": []
     },
     {
-      "id": 3162,
+      "id": "BF-04",
       "name": "Centre-Est",
       "stateCode": "04",
       "latitude": 11.5247674,
@@ -1164,7 +1164,7 @@
       ]
     },
     {
-      "id": 3163,
+      "id": "BF-PON",
       "name": "Poni",
       "stateCode": "PON",
       "latitude": 10.3325996,
@@ -1174,7 +1174,7 @@
       "cities": []
     },
     {
-      "id": 3164,
+      "id": "BF-10",
       "name": "Nord",
       "stateCode": "10",
       "latitude": 13.718252,
@@ -1241,7 +1241,7 @@
       ]
     },
     {
-      "id": 3165,
+      "id": "BF-09",
       "name": "Hauts-Bassins",
       "stateCode": "09",
       "latitude": 11.4942003,
@@ -1287,7 +1287,7 @@
       ]
     },
     {
-      "id": 3166,
+      "id": "BF-SOM",
       "name": "Soum",
       "stateCode": "SOM",
       "latitude": 14.0962841,
@@ -1297,7 +1297,7 @@
       "cities": []
     },
     {
-      "id": 3167,
+      "id": "BF-COM",
       "name": "Comoé",
       "stateCode": "COM",
       "latitude": 10.4072992,
@@ -1307,7 +1307,7 @@
       "cities": []
     },
     {
-      "id": 3168,
+      "id": "BF-KAD",
       "name": "Kadiogo",
       "stateCode": "KAD",
       "latitude": 12.3425897,
@@ -1317,7 +1317,7 @@
       "cities": []
     },
     {
-      "id": 5343,
+      "id": "BF-BLK",
       "name": "Boulkiemde",
       "stateCode": "BLK",
       "latitude": 12.3224419,

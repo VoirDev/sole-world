@@ -1,5 +1,5 @@
 {
-  "id": 43,
+  "id": "TD",
   "name": "Chad",
   "nativeName": "Tchad",
   "iso2": "TD",
@@ -9,18 +9,18 @@
   "tld": ".td",
   "latitude": 15,
   "longitude": 19,
-  "flagId": 36,
-  "regionId": 1,
-  "subregionId": 2,
+  "flagId": "td",
+  "regionId": "africa",
+  "subregionId": "middle-africa",
   "currencyIds": [
-    862
+    "XAF"
   ],
   "timezoneIds": [
-    2338
+    "Africa/Ndjamena"
   ],
   "officialLanguageIds": [
-    7,
-    33
+    "ar",
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -82,7 +82,7 @@
     },
     {
       "languageCode": "uk",
-      "name": "Чад."
+      "name": "Чад"
     },
     {
       "languageCode": "pl",
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 3570,
+      "id": "TD-MC",
       "name": "Moyen-Chari",
       "stateCode": "MC",
       "latitude": 9.0639998,
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "id": 3571,
+      "id": "TD-MO",
       "name": "Mayo-Kebbi Ouest",
       "stateCode": "MO",
       "latitude": 10.4113014,
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "id": 3572,
+      "id": "TD-SI",
       "name": "Sila",
       "stateCode": "SI",
       "latitude": 12.13074,
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "id": 3573,
+      "id": "TD-HL",
       "name": "Hadjer-Lamis",
       "stateCode": "HL",
       "latitude": 12.4577273,
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "id": 3574,
+      "id": "TD-BO",
       "name": "Borkou",
       "stateCode": "BO",
       "latitude": 17.8688845,
@@ -209,7 +209,7 @@
       ]
     },
     {
-      "id": 3575,
+      "id": "TD-EE",
       "name": "Ennedi-Est",
       "stateCode": "EE",
       "latitude": 16.3420496,
@@ -219,7 +219,7 @@
       "cities": []
     },
     {
-      "id": 3576,
+      "id": "TD-GR",
       "name": "Guéra",
       "stateCode": "GR",
       "latitude": 11.1219015,
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "id": 3577,
+      "id": "TD-LC",
       "name": "Lac",
       "stateCode": "LC",
       "latitude": 13.6915377,
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "id": 3579,
+      "id": "TD-TA",
       "name": "Tandjilé",
       "stateCode": "TA",
       "latitude": 9.6625729,
@@ -301,7 +301,7 @@
       ]
     },
     {
-      "id": 3580,
+      "id": "TD-ME",
       "name": "Mayo-Kebbi Est",
       "stateCode": "ME",
       "latitude": 9.4046039,
@@ -333,7 +333,7 @@
       ]
     },
     {
-      "id": 3581,
+      "id": "TD-WF",
       "name": "Wadi Fira",
       "stateCode": "WF",
       "latitude": 15.0892416,
@@ -358,7 +358,7 @@
       ]
     },
     {
-      "id": 3582,
+      "id": "TD-OD",
       "name": "Ouaddaï",
       "stateCode": "OD",
       "latitude": 13.748476,
@@ -390,7 +390,7 @@
       ]
     },
     {
-      "id": 3583,
+      "id": "TD-BG",
       "name": "Bahr el Gazel",
       "stateCode": "BG",
       "latitude": 14.7702266,
@@ -408,7 +408,7 @@
       ]
     },
     {
-      "id": 3584,
+      "id": "TD-EO",
       "name": "Ennedi-Ouest",
       "stateCode": "EO",
       "latitude": 18.977563,
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": 3585,
+      "id": "TD-LO",
       "name": "Logone Occidental",
       "stateCode": "LO",
       "latitude": 8.759676,
@@ -465,7 +465,7 @@
       ]
     },
     {
-      "id": 3586,
+      "id": "TD-ND",
       "name": "N'Djamena",
       "stateCode": "ND",
       "latitude": 12.1348457,
@@ -483,7 +483,7 @@
       ]
     },
     {
-      "id": 3587,
+      "id": "TD-TI",
       "name": "Tibesti",
       "stateCode": "TI",
       "latitude": 21.3650031,
@@ -501,7 +501,7 @@
       ]
     },
     {
-      "id": 3588,
+      "id": "TD-KA",
       "name": "Kanem",
       "stateCode": "KA",
       "latitude": 14.8781262,
@@ -519,7 +519,7 @@
       ]
     },
     {
-      "id": 3589,
+      "id": "TD-MA",
       "name": "Mandoul",
       "stateCode": "MA",
       "latitude": 8.603091,
@@ -551,7 +551,7 @@
       ]
     },
     {
-      "id": 3590,
+      "id": "TD-BA",
       "name": "Batha",
       "stateCode": "BA",
       "latitude": 13.9371775,
@@ -576,7 +576,7 @@
       ]
     },
     {
-      "id": 3591,
+      "id": "TD-LR",
       "name": "Logone Oriental",
       "stateCode": "LR",
       "latitude": 8.3149949,
@@ -608,7 +608,7 @@
       ]
     },
     {
-      "id": 3592,
+      "id": "TD-SA",
       "name": "Salamat",
       "stateCode": "SA",
       "latitude": 10.9691601,
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "id": 5114,
+      "id": "TD-CB",
       "name": "Chari-Baguirmi",
       "stateCode": "CB",
       "latitude": 11.4618626,

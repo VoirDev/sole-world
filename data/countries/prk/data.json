@@ -1,5 +1,5 @@
 {
-  "id": 115,
+  "id": "KP",
   "name": "North Korea",
   "nativeName": "북한",
   "iso2": "KP",
@@ -9,23 +9,23 @@
   "tld": ".kp",
   "latitude": 40,
   "longitude": 127,
-  "flagId": 130,
-  "regionId": 3,
-  "subregionId": 12,
+  "flagId": "kp",
+  "regionId": "asia",
+  "subregionId": "eastern-asia",
   "currencyIds": [
-    933
+    "KPW"
   ],
   "timezoneIds": [
-    2495
+    "Asia/Pyongyang"
   ],
   "officialLanguageIds": [
-    43
+    "ko"
   ],
   "otherLanguageIds": [],
   "translations": [
     {
       "languageCode": "ko",
-      "name": "조선민주주의인민공화국"
+      "name": "북한"
     },
     {
       "languageCode": "pt-BR",
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "کره جنوبی"
+      "name": "کرهٔ شمالی"
     },
     {
       "languageCode": "de",
@@ -61,7 +61,7 @@
     },
     {
       "languageCode": "ja",
-      "name": "朝鮮民主主義人民共和国"
+      "name": "北朝鮮"
     },
     {
       "languageCode": "it",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3995,
+      "id": "KP-09",
       "name": "North Hamgyong",
       "stateCode": "09",
       "latitude": 41.8148758,
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "id": 3996,
+      "id": "KP-10",
       "name": "Ryanggang",
       "stateCode": "10",
       "latitude": 41.2318921,
@@ -252,7 +252,7 @@
       ]
     },
     {
-      "id": 3997,
+      "id": "KP-02",
       "name": "South Pyongan",
       "stateCode": "02",
       "latitude": 39.3539178,
@@ -319,7 +319,7 @@
       ]
     },
     {
-      "id": 3998,
+      "id": "KP-04",
       "name": "Chagang",
       "stateCode": "04",
       "latitude": 40.7202809,
@@ -358,7 +358,7 @@
       ]
     },
     {
-      "id": 3999,
+      "id": "KP-07",
       "name": "Kangwon",
       "stateCode": "07",
       "latitude": 38.8432393,
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "id": 4000,
+      "id": "KP-08",
       "name": "South Hamgyong",
       "stateCode": "08",
       "latitude": 40.3725339,
@@ -478,7 +478,7 @@
       ]
     },
     {
-      "id": 4001,
+      "id": "KP-13",
       "name": "Rason",
       "stateCode": "13",
       "latitude": 42.2569063,
@@ -503,7 +503,7 @@
       ]
     },
     {
-      "id": 4002,
+      "id": "KP-03",
       "name": "North Pyongan",
       "stateCode": "03",
       "latitude": 39.9255618,
@@ -598,7 +598,7 @@
       ]
     },
     {
-      "id": 4003,
+      "id": "KP-05",
       "name": "South Hwanghae",
       "stateCode": "05",
       "latitude": 38.2007215,
@@ -665,7 +665,7 @@
       ]
     },
     {
-      "id": 4004,
+      "id": "KP-06",
       "name": "North Hwanghae",
       "stateCode": "06",
       "latitude": 38.3786085,
@@ -725,7 +725,7 @@
       ]
     },
     {
-      "id": 4005,
+      "id": "KP-01",
       "name": "Pyongyang",
       "stateCode": "01",
       "latitude": 39.0392193,

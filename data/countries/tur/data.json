@@ -1,6 +1,6 @@
 {
-  "id": 225,
-  "name": "Turkey",
+  "id": "TR",
+  "name": "Türkiye",
   "nativeName": "Türkiye",
   "iso2": "TR",
   "iso3": "TUR",
@@ -9,23 +9,23 @@
   "tld": ".tr",
   "latitude": 39,
   "longitude": 35,
-  "flagId": 26,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "tr",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    975
+    "TRY"
   ],
   "timezoneIds": [
-    2591
+    "Europe/Istanbul"
   ],
   "officialLanguageIds": [
-    49
+    "tr"
   ],
   "otherLanguageIds": [],
   "translations": [
     {
       "languageCode": "ko",
-      "name": "터키"
+      "name": "튀르키예"
     },
     {
       "languageCode": "pt-BR",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2148,
+      "id": "TR-74",
       "name": "Bartın",
       "stateCode": "74",
       "latitude": 41.5810509,
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": 2149,
+      "id": "TR-43",
       "name": "Kütahya",
       "stateCode": "43",
       "latitude": 39.358137,
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "id": 2150,
+      "id": "TR-54",
       "name": "Sakarya",
       "stateCode": "54",
       "latitude": 40.788855,
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "id": 2151,
+      "id": "TR-22",
       "name": "Edirne",
       "stateCode": "22",
       "latitude": 41.1517222,
@@ -428,7 +428,7 @@
       ]
     },
     {
-      "id": 2152,
+      "id": "TR-65",
       "name": "Van",
       "stateCode": "65",
       "latitude": 38.3679417,
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "id": 2153,
+      "id": "TR-12",
       "name": "Bingöl",
       "stateCode": "12",
       "latitude": 39.0626354,
@@ -597,7 +597,7 @@
       ]
     },
     {
-      "id": 2154,
+      "id": "TR-79",
       "name": "Kilis",
       "stateCode": "79",
       "latitude": 36.8204775,
@@ -636,7 +636,7 @@
       ]
     },
     {
-      "id": 2155,
+      "id": "TR-02",
       "name": "Adıyaman",
       "stateCode": "02",
       "latitude": 37.9078291,
@@ -710,7 +710,7 @@
       ]
     },
     {
-      "id": 2156,
+      "id": "TR-33",
       "name": "Mersin",
       "stateCode": "33",
       "latitude": 36.8120858,
@@ -819,7 +819,7 @@
       ]
     },
     {
-      "id": 2157,
+      "id": "TR-20",
       "name": "Denizli",
       "stateCode": "20",
       "latitude": 37.6128395,
@@ -963,7 +963,7 @@
       ]
     },
     {
-      "id": 2158,
+      "id": "TR-44",
       "name": "Malatya",
       "stateCode": "44",
       "latitude": 38.4015057,
@@ -1065,7 +1065,7 @@
       ]
     },
     {
-      "id": 2159,
+      "id": "TR-23",
       "name": "Elazığ",
       "stateCode": "23",
       "latitude": 38.4964804,
@@ -1153,7 +1153,7 @@
       ]
     },
     {
-      "id": 2160,
+      "id": "TR-24",
       "name": "Erzincan",
       "stateCode": "24",
       "latitude": 39.7681914,
@@ -1227,7 +1227,7 @@
       ]
     },
     {
-      "id": 2161,
+      "id": "TR-05",
       "name": "Amasya",
       "stateCode": "05",
       "latitude": 40.6516608,
@@ -1287,7 +1287,7 @@
       ]
     },
     {
-      "id": 2162,
+      "id": "TR-49",
       "name": "Muş",
       "stateCode": "49",
       "latitude": 38.9461888,
@@ -1340,7 +1340,7 @@
       ]
     },
     {
-      "id": 2163,
+      "id": "TR-16",
       "name": "Bursa",
       "stateCode": "16",
       "latitude": 40.0655459,
@@ -1470,7 +1470,7 @@
       ]
     },
     {
-      "id": 2164,
+      "id": "TR-26",
       "name": "Eskişehir",
       "stateCode": "26",
       "latitude": 39.6329657,
@@ -1579,7 +1579,7 @@
       ]
     },
     {
-      "id": 2165,
+      "id": "TR-25",
       "name": "Erzurum",
       "stateCode": "25",
       "latitude": 40.0746799,
@@ -1730,7 +1730,7 @@
       ]
     },
     {
-      "id": 2166,
+      "id": "TR-76",
       "name": "Iğdır",
       "stateCode": "76",
       "latitude": 39.8879841,
@@ -1769,7 +1769,7 @@
       ]
     },
     {
-      "id": 2167,
+      "id": "TR-59",
       "name": "Tekirdağ",
       "stateCode": "59",
       "latitude": 41.1121227,
@@ -1857,7 +1857,7 @@
       ]
     },
     {
-      "id": 2168,
+      "id": "TR-18",
       "name": "Çankırı",
       "stateCode": "18",
       "latitude": 40.5369073,
@@ -1952,7 +1952,7 @@
       ]
     },
     {
-      "id": 2169,
+      "id": "TR-07",
       "name": "Antalya",
       "stateCode": "07",
       "latitude": 37.0951672,
@@ -2103,7 +2103,7 @@
       ]
     },
     {
-      "id": 2170,
+      "id": "TR-34",
       "name": "İstanbul",
       "stateCode": "34",
       "latitude": 41.1634302,
@@ -2394,7 +2394,7 @@
       ]
     },
     {
-      "id": 2171,
+      "id": "TR-42",
       "name": "Konya",
       "stateCode": "42",
       "latitude": 37.9838134,
@@ -2622,7 +2622,7 @@
       ]
     },
     {
-      "id": 2172,
+      "id": "TR-14",
       "name": "Bolu",
       "stateCode": "14",
       "latitude": 40.5759766,
@@ -2696,7 +2696,7 @@
       ]
     },
     {
-      "id": 2173,
+      "id": "TR-19",
       "name": "Çorum",
       "stateCode": "19",
       "latitude": 40.4998211,
@@ -2805,7 +2805,7 @@
       ]
     },
     {
-      "id": 2174,
+      "id": "TR-52",
       "name": "Ordu",
       "stateCode": "52",
       "latitude": 40.799058,
@@ -2949,7 +2949,7 @@
       ]
     },
     {
-      "id": 2175,
+      "id": "TR-10",
       "name": "Balıkesir",
       "stateCode": "10",
       "latitude": 39.7616782,
@@ -3100,7 +3100,7 @@
       ]
     },
     {
-      "id": 2176,
+      "id": "TR-39",
       "name": "Kırklareli",
       "stateCode": "39",
       "latitude": 41.7259795,
@@ -3167,7 +3167,7 @@
       ]
     },
     {
-      "id": 2177,
+      "id": "TR-69",
       "name": "Bayburt",
       "stateCode": "69",
       "latitude": 40.26032,
@@ -3199,7 +3199,7 @@
       ]
     },
     {
-      "id": 2178,
+      "id": "TR-71",
       "name": "Kırıkkale",
       "stateCode": "71",
       "latitude": 39.8876878,
@@ -3273,7 +3273,7 @@
       ]
     },
     {
-      "id": 2179,
+      "id": "TR-03",
       "name": "Afyonkarahisar",
       "stateCode": "03",
       "latitude": 38.7391099,
@@ -3410,7 +3410,7 @@
       ]
     },
     {
-      "id": 2180,
+      "id": "TR-40",
       "name": "Kırşehir",
       "stateCode": "40",
       "latitude": 39.2268905,
@@ -3470,7 +3470,7 @@
       ]
     },
     {
-      "id": 2181,
+      "id": "TR-58",
       "name": "Sivas",
       "stateCode": "58",
       "latitude": 39.4488039,
@@ -3600,7 +3600,7 @@
       ]
     },
     {
-      "id": 2182,
+      "id": "TR-48",
       "name": "Muğla",
       "stateCode": "48",
       "latitude": 37.1835819,
@@ -3702,7 +3702,7 @@
       ]
     },
     {
-      "id": 2183,
+      "id": "TR-63",
       "name": "Şanlıurfa",
       "stateCode": "63",
       "latitude": 37.3569102,
@@ -3804,7 +3804,7 @@
       ]
     },
     {
-      "id": 2184,
+      "id": "TR-70",
       "name": "Karaman",
       "stateCode": "70",
       "latitude": 37.2436336,
@@ -3857,7 +3857,7 @@
       ]
     },
     {
-      "id": 2185,
+      "id": "TR-75",
       "name": "Ardahan",
       "stateCode": "75",
       "latitude": 41.1112964,
@@ -3910,7 +3910,7 @@
       ]
     },
     {
-      "id": 2186,
+      "id": "TR-28",
       "name": "Giresun",
       "stateCode": "28",
       "latitude": 40.6461672,
@@ -4033,7 +4033,7 @@
       ]
     },
     {
-      "id": 2187,
+      "id": "TR-09",
       "name": "Aydın",
       "stateCode": "09",
       "latitude": 37.8117033,
@@ -4163,7 +4163,7 @@
       ]
     },
     {
-      "id": 2188,
+      "id": "TR-66",
       "name": "Yozgat",
       "stateCode": "66",
       "latitude": 39.7271979,
@@ -4272,7 +4272,7 @@
       ]
     },
     {
-      "id": 2189,
+      "id": "TR-51",
       "name": "Niğde",
       "stateCode": "51",
       "latitude": 38.0993086,
@@ -4325,7 +4325,7 @@
       ]
     },
     {
-      "id": 2190,
+      "id": "TR-30",
       "name": "Hakkâri",
       "stateCode": "30",
       "latitude": 37.4459319,
@@ -4371,7 +4371,7 @@
       ]
     },
     {
-      "id": 2191,
+      "id": "TR-08",
       "name": "Artvin",
       "stateCode": "08",
       "latitude": 41.078664,
@@ -4445,7 +4445,7 @@
       ]
     },
     {
-      "id": 2192,
+      "id": "TR-62",
       "name": "Tunceli",
       "stateCode": "62",
       "latitude": 39.3073554,
@@ -4512,7 +4512,7 @@
       ]
     },
     {
-      "id": 2193,
+      "id": "TR-04",
       "name": "Ağrı",
       "stateCode": "04",
       "latitude": 39.6269218,
@@ -4579,7 +4579,7 @@
       ]
     },
     {
-      "id": 2194,
+      "id": "TR-72",
       "name": "Batman",
       "stateCode": "72",
       "latitude": 37.8362496,
@@ -4632,7 +4632,7 @@
       ]
     },
     {
-      "id": 2195,
+      "id": "TR-41",
       "name": "Kocaeli",
       "stateCode": "41",
       "latitude": 40.8532704,
@@ -4727,7 +4727,7 @@
       ]
     },
     {
-      "id": 2196,
+      "id": "TR-50",
       "name": "Nevşehir",
       "stateCode": "50",
       "latitude": 38.6939399,
@@ -4794,7 +4794,7 @@
       ]
     },
     {
-      "id": 2197,
+      "id": "TR-37",
       "name": "Kastamonu",
       "stateCode": "37",
       "latitude": 41.4103863,
@@ -4945,7 +4945,7 @@
       ]
     },
     {
-      "id": 2198,
+      "id": "TR-45",
       "name": "Manisa",
       "stateCode": "45",
       "latitude": 38.8419373,
@@ -5075,7 +5075,7 @@
       ]
     },
     {
-      "id": 2199,
+      "id": "TR-60",
       "name": "Tokat",
       "stateCode": "60",
       "latitude": 40.3902713,
@@ -5170,7 +5170,7 @@
       ]
     },
     {
-      "id": 2200,
+      "id": "TR-38",
       "name": "Kayseri",
       "stateCode": "38",
       "latitude": 38.6256854,
@@ -5300,7 +5300,7 @@
       ]
     },
     {
-      "id": 2201,
+      "id": "TR-64",
       "name": "Uşak",
       "stateCode": "64",
       "latitude": 38.5431319,
@@ -5353,7 +5353,7 @@
       ]
     },
     {
-      "id": 2202,
+      "id": "TR-81",
       "name": "Düzce",
       "stateCode": "81",
       "latitude": 40.8770531,
@@ -5420,7 +5420,7 @@
       ]
     },
     {
-      "id": 2203,
+      "id": "TR-27",
       "name": "Gaziantep",
       "stateCode": "27",
       "latitude": 37.0763882,
@@ -5494,7 +5494,7 @@
       ]
     },
     {
-      "id": 2204,
+      "id": "TR-29",
       "name": "Gümüşhane",
       "stateCode": "29",
       "latitude": 40.2803673,
@@ -5547,7 +5547,7 @@
       ]
     },
     {
-      "id": 2205,
+      "id": "TR-35",
       "name": "İzmir",
       "stateCode": "35",
       "latitude": 38.3591693,
@@ -5775,7 +5775,7 @@
       ]
     },
     {
-      "id": 2206,
+      "id": "TR-61",
       "name": "Trabzon",
       "stateCode": "61",
       "latitude": 40.799241,
@@ -5912,7 +5912,7 @@
       ]
     },
     {
-      "id": 2207,
+      "id": "TR-56",
       "name": "Siirt",
       "stateCode": "56",
       "latitude": 37.8658862,
@@ -5972,7 +5972,7 @@
       ]
     },
     {
-      "id": 2208,
+      "id": "TR-36",
       "name": "Kars",
       "stateCode": "36",
       "latitude": 40.2807636,
@@ -6039,7 +6039,7 @@
       ]
     },
     {
-      "id": 2209,
+      "id": "TR-15",
       "name": "Burdur",
       "stateCode": "15",
       "latitude": 37.4612669,
@@ -6127,7 +6127,7 @@
       ]
     },
     {
-      "id": 2210,
+      "id": "TR-68",
       "name": "Aksaray",
       "stateCode": "68",
       "latitude": 38.3352043,
@@ -6194,7 +6194,7 @@
       ]
     },
     {
-      "id": 2211,
+      "id": "TR-31",
       "name": "Hatay",
       "stateCode": "31",
       "latitude": 36.4018488,
@@ -6310,7 +6310,7 @@
       ]
     },
     {
-      "id": 2212,
+      "id": "TR-01",
       "name": "Adana",
       "stateCode": "01",
       "latitude": 37.2612315,
@@ -6433,7 +6433,7 @@
       ]
     },
     {
-      "id": 2213,
+      "id": "TR-67",
       "name": "Zonguldak",
       "stateCode": "67",
       "latitude": 41.3124917,
@@ -6500,7 +6500,7 @@
       ]
     },
     {
-      "id": 2214,
+      "id": "TR-80",
       "name": "Osmaniye",
       "stateCode": "80",
       "latitude": 37.2130258,
@@ -6560,7 +6560,7 @@
       ]
     },
     {
-      "id": 2215,
+      "id": "TR-13",
       "name": "Bitlis",
       "stateCode": "13",
       "latitude": 38.6523133,
@@ -6620,7 +6620,7 @@
       ]
     },
     {
-      "id": 2216,
+      "id": "TR-17",
       "name": "Çanakkale",
       "stateCode": "17",
       "latitude": 40.0510104,
@@ -6715,7 +6715,7 @@
       ]
     },
     {
-      "id": 2217,
+      "id": "TR-06",
       "name": "Ankara",
       "stateCode": "06",
       "latitude": 39.7805245,
@@ -6908,7 +6908,7 @@
       ]
     },
     {
-      "id": 2218,
+      "id": "TR-77",
       "name": "Yalova",
       "stateCode": "77",
       "latitude": 40.5775986,
@@ -6961,7 +6961,7 @@
       ]
     },
     {
-      "id": 2219,
+      "id": "TR-53",
       "name": "Rize",
       "stateCode": "53",
       "latitude": 40.9581497,
@@ -7056,7 +7056,7 @@
       ]
     },
     {
-      "id": 2220,
+      "id": "TR-55",
       "name": "Samsun",
       "stateCode": "55",
       "latitude": 41.1864859,
@@ -7186,7 +7186,7 @@
       ]
     },
     {
-      "id": 2221,
+      "id": "TR-11",
       "name": "Bilecik",
       "stateCode": "11",
       "latitude": 40.0566555,
@@ -7253,7 +7253,7 @@
       ]
     },
     {
-      "id": 2222,
+      "id": "TR-32",
       "name": "Isparta",
       "stateCode": "32",
       "latitude": 38.0211464,
@@ -7355,7 +7355,7 @@
       ]
     },
     {
-      "id": 2223,
+      "id": "TR-78",
       "name": "Karabük",
       "stateCode": "78",
       "latitude": 41.187489,
@@ -7408,7 +7408,7 @@
       ]
     },
     {
-      "id": 2224,
+      "id": "TR-47",
       "name": "Mardin",
       "stateCode": "47",
       "latitude": 37.3442929,
@@ -7489,7 +7489,7 @@
       ]
     },
     {
-      "id": 2225,
+      "id": "TR-73",
       "name": "Şırnak",
       "stateCode": "73",
       "latitude": 37.4187481,
@@ -7549,7 +7549,7 @@
       ]
     },
     {
-      "id": 2226,
+      "id": "TR-21",
       "name": "Diyarbakır",
       "stateCode": "21",
       "latitude": 38.1066372,
@@ -7679,7 +7679,7 @@
       ]
     },
     {
-      "id": 2227,
+      "id": "TR-46",
       "name": "Kahramanmaraş",
       "stateCode": "46",
       "latitude": 37.7503036,
@@ -7767,7 +7767,7 @@
       ]
     },
     {
-      "id": 4854,
+      "id": "TR-57",
       "name": "Sinop",
       "stateCode": "57",
       "latitude": 41.5594749,

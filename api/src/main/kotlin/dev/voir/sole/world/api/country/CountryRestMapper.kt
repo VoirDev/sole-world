@@ -139,7 +139,7 @@ class CountryRestAssembler(
      * The page carries the true total, so truncation is detected without materializing every state
      * of a large country just to throw most of them away.
      */
-    private fun statesOf(countryId: Long, languageCode: String?): Page<StateData> = stateStore
+    private fun statesOf(countryId: String, languageCode: String?): Page<StateData> = stateStore
         .pageByCountryId(
             countryId = countryId,
             request = PageRequest(page = 0, size = IncludeSpec.MAX_INCLUDED_ITEMS),

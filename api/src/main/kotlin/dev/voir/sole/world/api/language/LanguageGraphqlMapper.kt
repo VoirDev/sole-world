@@ -8,10 +8,10 @@ import dev.voir.sole.world.graphql.dto.types.Language
  * @return GraphQL language type.
  */
 fun LanguageData.toGql() = Language(
-    id = id.toString(),
+    id = id,
     code = code,
     nativeName = nativeName,
     name = name,
     description = description,
-    flagId = flagId?.toString(),
+    flagId = flagId,
 )

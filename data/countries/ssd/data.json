@@ -1,5 +1,5 @@
 {
-  "id": 206,
+  "id": "SS",
   "name": "South Sudan",
   "nativeName": "South Sudan",
   "iso2": "SS",
@@ -9,17 +9,17 @@
   "tld": ".ss",
   "latitude": 7,
   "longitude": 30,
-  "flagId": 43,
-  "regionId": 1,
-  "subregionId": 2,
+  "flagId": "ss",
+  "regionId": "africa",
+  "subregionId": "middle-africa",
   "currencyIds": [
-    960
+    "SSP"
   ],
   "timezoneIds": [
-    2568
+    "Africa/Juba"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Sudan del sud"
+      "name": "Sud Sudan"
     },
     {
       "languageCode": "zh-CN",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2085,
+      "id": "SS-UY",
       "name": "Unity",
       "stateCode": "UY",
       "latitude": 37.7871276,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 2086,
+      "id": "SS-NU",
       "name": "Upper Nile",
       "stateCode": "NU",
       "latitude": 9.8894202,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 2087,
+      "id": "SS-WR",
       "name": "Warrap",
       "stateCode": "WR",
       "latitude": 8.0886238,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 2088,
+      "id": "SS-BN",
       "name": "Northern Bahr el Ghazal",
       "stateCode": "BN",
       "latitude": 8.5360449,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 2089,
+      "id": "SS-EW",
       "name": "Western Equatoria",
       "stateCode": "EW",
       "latitude": 5.3471799,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 2090,
+      "id": "SS-LK",
       "name": "Lakes",
       "stateCode": "LK",
       "latitude": 37.1628255,
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "id": 2091,
+      "id": "SS-BW",
       "name": "Western Bahr el Ghazal",
       "stateCode": "BW",
       "latitude": 8.6452399,
@@ -168,7 +168,7 @@
       "cities": []
     },
     {
-      "id": 2092,
+      "id": "SS-EC",
       "name": "Central Equatoria",
       "stateCode": "EC",
       "latitude": 4.6144063,
@@ -178,7 +178,7 @@
       "cities": []
     },
     {
-      "id": 2093,
+      "id": "SS-EE",
       "name": "Eastern Equatoria",
       "stateCode": "EE",
       "latitude": 5.0692995,
@@ -188,7 +188,7 @@
       "cities": []
     },
     {
-      "id": 2094,
+      "id": "SS-JG",
       "name": "Jonglei State",
       "stateCode": "JG",
       "latitude": 7.1819619,

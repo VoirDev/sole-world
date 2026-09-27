@@ -8,7 +8,7 @@ import dev.voir.sole.world.graphql.dto.types.Subregion
  * @return GraphQL subregion type.
  */
 fun SubregionData.toGql() = Subregion(
-    id = id.toString(),
+    id = id,
     name = name,
-    regionId = regionId.toString(),
+    regionId = regionId,
 )

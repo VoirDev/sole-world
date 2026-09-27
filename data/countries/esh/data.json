@@ -1,5 +1,5 @@
 {
-  "id": 244,
+  "id": "EH",
   "name": "Western Sahara",
   "nativeName": "الصحراء الغربية",
   "iso2": "EH",
@@ -9,18 +9,18 @@
   "tld": ".eh",
   "latitude": 24.5,
   "longitude": -13,
-  "flagId": 185,
-  "regionId": 1,
-  "subregionId": 1,
+  "flagId": "eh",
+  "regionId": "africa",
+  "subregionId": "northern-africa",
   "currencyIds": [
-    926
+    "MAD"
   ],
   "timezoneIds": [
-    2643
+    "Africa/El_Aaiun"
   ],
   "officialLanguageIds": [
-    7,
-    47
+    "ar",
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -46,7 +46,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "جمهوری دموکراتیک عربی صحرا"
+      "name": "صحرای غربی"
     },
     {
       "languageCode": "de",
@@ -54,11 +54,11 @@
     },
     {
       "languageCode": "es",
-      "name": "Sahara Occidental"
+      "name": "Sáhara Occidental"
     },
     {
       "languageCode": "fr",
-      "name": "Sahara Occidental"
+      "name": "Sahara occidental"
     },
     {
       "languageCode": "ja",
@@ -74,7 +74,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Bati Sahra"
+      "name": "Batı Sahra"
     },
     {
       "languageCode": "ru",

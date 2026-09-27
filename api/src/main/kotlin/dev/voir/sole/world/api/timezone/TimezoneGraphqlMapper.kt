@@ -8,7 +8,7 @@ import dev.voir.sole.world.graphql.dto.types.Timezone
  * @return GraphQL timezone type.
  */
 fun TimezoneData.toGql() = Timezone(
-    id = id.toString(),
+    id = id,
     zoneName = zoneName,
     tzName = tzName,
     gmtOffset = gmtOffset,

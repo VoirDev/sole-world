@@ -8,6 +8,6 @@ import dev.voir.sole.world.graphql.dto.types.Region
  * @return GraphQL region type.
  */
 fun RegionData.toGql() = Region(
-    id = id.toString(),
+    id = id,
     name = name,
 )

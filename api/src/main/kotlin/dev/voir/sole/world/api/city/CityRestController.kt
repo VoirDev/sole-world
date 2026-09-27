@@ -25,8 +25,8 @@ class CityRestController(
         query: String?,
         lang: String?,
         include: String?,
-        countryId: Long?,
-        stateId: Long?,
+        countryId: String?,
+        stateId: String?,
     ): ResponseEntity<CityPage> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, CityRestAssembler.ALLOWED_INCLUDES)

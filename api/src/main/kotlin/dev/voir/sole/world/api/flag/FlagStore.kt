@@ -2,6 +2,7 @@ package dev.voir.sole.world.api.flag
 
 import dev.voir.sole.world.api.dataset.RawDataset
 import dev.voir.sole.world.api.dataset.index.FoldedText
+import dev.voir.sole.world.api.dataset.index.IdIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedIndex
 import dev.voir.sole.world.api.dataset.index.Page
 import dev.voir.sole.world.api.dataset.index.PageRequest
@@ -33,7 +34,7 @@ class FlagStore(dataset: RawDataset) {
         )
     }
 
-    private val byId: Map<Long, FlagRecord> = records.associateBy { it.data.id }
+    private val byId: IdIndex<FlagRecord> = IdIndex.of(records) { it.data.id }
 
     private val index = LocalizedIndex(
         records = records,
@@ -49,14 +50,14 @@ class FlagStore(dataset: RawDataset) {
      * @param id Flag identifier.
      * @return Matching flag, or null when none exists.
      */
-    fun byId(id: Long): FlagData? = byId[id]?.data
+    fun byId(id: String): FlagData? = byId[id]?.data
 
     /**
      * Loads several flags, skipping identifiers that do not exist.
      * @param ids Flag identifiers.
      * @return Matching flags in request order.
      */
-    fun byIds(ids: List<Long>): List<FlagData> = ids.mapNotNull { byId[it]?.data }
+    fun byIds(ids: List<String>): List<FlagData> = ids.mapNotNull { byId[it]?.data }
 
     /**
      * Returns one page of flags ordered by caption.

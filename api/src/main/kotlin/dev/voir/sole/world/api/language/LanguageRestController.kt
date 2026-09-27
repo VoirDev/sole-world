@@ -51,16 +51,16 @@ class LanguageRestController(
         )
     }
 
-    override fun getLanguage(idOrCode: String, lang: String?, include: String?): ResponseEntity<Language> {
+    override fun getLanguage(id: String, lang: String?, include: String?): ResponseEntity<Language> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, LanguageRestAssembler.ALLOWED_INCLUDES)
-        val record = requireLanguage(idOrCode, language)
+        val record = requireLanguage(id, language)
 
         return cache.ok(languages.assemble(record, includes, language), request)
     }
 
     override fun listLanguageCountries(
-        idOrCode: String,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,
@@ -68,7 +68,7 @@ class LanguageRestController(
     ): ResponseEntity<CountryPage> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, CountryRestAssembler.ALLOWED_INCLUDES)
-        val record = requireLanguage(idOrCode, language)
+        val record = requireLanguage(id, language)
 
         val result = countryStore
             .byLanguageId(record.id, language)
@@ -83,7 +83,7 @@ class LanguageRestController(
         )
     }
 
-    private fun requireLanguage(idOrCode: String, languageCode: String?): LanguageData =
-        languageStore.byIdentifier(idOrCode, languageCode)
-            ?: throw ResourceNotFoundException.of("Language", idOrCode)
+    private fun requireLanguage(id: String, languageCode: String?): LanguageData =
+        languageStore.byId(id, languageCode)
+            ?: throw ResourceNotFoundException.of("Language", id)
 }

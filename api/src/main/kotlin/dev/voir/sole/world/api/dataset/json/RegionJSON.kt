@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 /**
  * Region record read from bundled region seed data.
- * @property id Region primary key used during import.
+ * @property id Region alias, such as `europe`.
  * @property name Default region name.
  * @property wikiDataId Wikidata identifier for the region.
  * @property translations Localized region names.
@@ -12,7 +12,7 @@ import kotlinx.serialization.Serializable
  */
 @Serializable
 data class RegionJSON(
-    val id: Long,
+    val id: String,
     val name: String,
     val wikiDataId: String,
     val translations: List<RegionTranslationJSON>,

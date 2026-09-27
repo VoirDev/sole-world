@@ -1,5 +1,5 @@
 {
-  "id": 123,
+  "id": "LR",
   "name": "Liberia",
   "nativeName": "Liberia",
   "iso2": "LR",
@@ -9,17 +9,17 @@
   "tld": ".lr",
   "latitude": 6.5,
   "longitude": -9.5,
-  "flagId": 120,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "lr",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    913
+    "LRD"
   ],
   "timezoneIds": [
-    2439
+    "Africa/Monrovia"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3032,
+      "id": "LR-MO",
       "name": "Montserrado",
       "stateCode": "MO",
       "latitude": 6.5525815,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 3033,
+      "id": "LR-RI",
       "name": "River Cess",
       "stateCode": "RI",
       "latitude": 5.9025328,
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": 3034,
+      "id": "LR-BG",
       "name": "Bong",
       "stateCode": "BG",
       "latitude": 6.8295019,
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": 3035,
+      "id": "LR-SI",
       "name": "Sinoe",
       "stateCode": "SI",
       "latitude": 5.49871,
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "id": 3036,
+      "id": "LR-CM",
       "name": "Grand Cape Mount",
       "stateCode": "CM",
       "latitude": 7.0467758,
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "id": 3037,
+      "id": "LR-LO",
       "name": "Lofa",
       "stateCode": "LO",
       "latitude": 8.1911184,
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "id": 3038,
+      "id": "LR-RG",
       "name": "River Gee",
       "stateCode": "RG",
       "latitude": 5.2604894,
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "id": 3039,
+      "id": "LR-GG",
       "name": "Grand Gedeh",
       "stateCode": "GG",
       "latitude": 5.9222078,
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "id": 3040,
+      "id": "LR-GB",
       "name": "Grand Bassa",
       "stateCode": "GB",
       "latitude": 6.2308452,
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "id": 3041,
+      "id": "LR-BM",
       "name": "Bomi",
       "stateCode": "BM",
       "latitude": 6.7562926,
@@ -277,7 +277,7 @@
       ]
     },
     {
-      "id": 3042,
+      "id": "LR-MY",
       "name": "Maryland",
       "stateCode": "MY",
       "latitude": 39.0457549,
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "id": 3043,
+      "id": "LR-MG",
       "name": "Margibi",
       "stateCode": "MG",
       "latitude": 6.5151875,
@@ -313,7 +313,7 @@
       ]
     },
     {
-      "id": 3044,
+      "id": "LR-GP",
       "name": "Gbarpolu",
       "stateCode": "GP",
       "latitude": 7.4952637,
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "id": 3045,
+      "id": "LR-GK",
       "name": "Grand Kru",
       "stateCode": "GK",
       "latitude": 4.7613862,
@@ -349,7 +349,7 @@
       ]
     },
     {
-      "id": 3046,
+      "id": "LR-NI",
       "name": "Nimba",
       "stateCode": "NI",
       "latitude": 7.6166667,

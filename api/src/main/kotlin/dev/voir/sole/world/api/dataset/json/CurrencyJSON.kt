@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 /**
  * Currency record read from the bundled seed data.
- * @property id Currency primary key used during import.
+ * @property id ISO 4217 alpha code, such as `EUR`.
  * @property iso3 ISO 4217 alpha code.
  * @property isoNumeric ISO 4217 numeric code.
  * @property name Default currency name.
@@ -23,7 +23,7 @@ import kotlinx.serialization.Serializable
  */
 @Serializable
 data class CurrencyJSON(
-    val id: Long,
+    val id: String,
     val iso3: String,
     val isoNumeric: String,
     val name: String,
@@ -33,9 +33,9 @@ data class CurrencyJSON(
     val introducedDate: String?, // YYYY-MM-DD
     val obsolete: Boolean,
     val obsoleteAt: String?,
-    val replacedBy: Long?,
+    val replacedBy: String?,
     val symbol: String?,
-    val flagId: Long?,
+    val flagId: String?,
     val translations: List<CurrencyTranslationJSON>,
     val decimalDigits: Int,
     val popularity: Int = 0,

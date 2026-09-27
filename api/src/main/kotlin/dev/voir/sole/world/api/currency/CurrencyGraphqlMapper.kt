@@ -8,7 +8,7 @@ import dev.voir.sole.world.graphql.dto.types.Currency
  * @return GraphQL currency type.
  */
 fun CurrencyData.toGql() = Currency(
-    id = id.toString(),
+    id = id,
     iso3 = iso3,
     isoNumeric = isoNumeric,
     name = name,
@@ -21,6 +21,6 @@ fun CurrencyData.toGql() = Currency(
     introducedDate = introducedDate,
     obsolete = obsolete,
     obsoleteAt = obsoleteAt,
-    replacedById = replacedById?.toString(),
-    flagId = flagId?.toString(),
+    replacedById = replacedById,
+    flagId = flagId,
 )

@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.currency
 
 import dev.voir.sole.world.api.dataset.RawDataset
+import dev.voir.sole.world.api.dataset.index.IdIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedName
 import dev.voir.sole.world.api.dataset.index.Page
@@ -42,11 +43,9 @@ class CurrencyStore(dataset: RawDataset) {
         )
     }
 
-    private val byId: Map<Long, CurrencyRecord> = records.associateBy { it.id }
+    private val byId: IdIndex<CurrencyRecord> = IdIndex.of(records) { it.id }
 
-    private val byIso3: Map<String, CurrencyRecord> = records.associateBy { it.iso3.lowercase() }
-
-    private val byIsoNumeric: Map<String, CurrencyRecord> = records.associateBy { it.isoNumeric.lowercase() }
+    private val byIsoNumeric: IdIndex<CurrencyRecord> = IdIndex.of(records) { it.isoNumeric }
 
     private val index = LocalizedIndex(
         records = records,
@@ -54,11 +53,11 @@ class CurrencyStore(dataset: RawDataset) {
         tieBreaker = { it.id },
     )
 
-    private val idsByCountryId: Map<Long, List<Long>> = dataset.countries
-        .associate { country -> country.id to country.currencyIds }
+    private val idsByCountryId: IdIndex<List<String>> =
+        IdIndex.from(dataset.countries.associate { country -> country.id to country.currencyIds })
 
-    private val idsByCentralBankId: Map<Long, List<Long>> = dataset.centralBanks
-        .associate { bank -> bank.id to bank.currencyIds }
+    private val idsByCentralBankId: IdIndex<List<String>> =
+        IdIndex.from(dataset.centralBanks.associate { bank -> bank.id to bank.currencyIds })
 
     /** Total number of currencies. */
     val size: Int get() = records.size
@@ -69,7 +68,7 @@ class CurrencyStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching currency, or null when none exists.
      */
-    fun byId(id: Long, languageCode: String?): CurrencyData? = byId[id]?.localized(languageCode)
+    fun byId(id: String, languageCode: String?): CurrencyData? = byId[id]?.localized(languageCode)
 
     /**
      * Loads several currencies, skipping identifiers that do not exist.
@@ -77,22 +76,18 @@ class CurrencyStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching currencies in request order.
      */
-    fun byIds(ids: List<Long>, languageCode: String?): List<CurrencyData> =
+    fun byIds(ids: List<String>, languageCode: String?): List<CurrencyData> =
         ids.mapNotNull { byId[it]?.localized(languageCode) }
 
     /**
-     * Resolves a currency from an ISO alpha code, ISO numeric code, or numeric identifier.
-     * @param identifier Caller-supplied identifier.
+     * Resolves a currency from its identifier or its ISO 4217 numeric code.
+     * @param identifier ISO 4217 alpha identifier or numeric code, in any case.
      * @param withObsolete Whether an obsolete currency may be returned; defaults to false.
      * @param languageCode Internal language code, or null for base data.
      * @return Matching currency, or null when nothing matches the obsolescence constraint.
      */
     fun resolve(identifier: String, withObsolete: Boolean?, languageCode: String?): CurrencyData? {
-        val key = identifier.trim().lowercase()
-        val record = byIso3[key]
-            ?: byIsoNumeric[key]
-            ?: key.toLongOrNull()?.let(byId::get)
-            ?: return null
+        val record = byId[identifier] ?: byIsoNumeric[identifier] ?: return null
 
         if (record.obsolete && withObsolete != true) {
             return null
@@ -155,7 +150,7 @@ class CurrencyStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Currencies ordered by popularity, most widely used first.
      */
-    fun byCountryId(countryId: Long, languageCode: String?): List<CurrencyData> =
+    fun byCountryId(countryId: String, languageCode: String?): List<CurrencyData> =
         localizedSubset(idsByCountryId[countryId], languageCode)
 
     /**
@@ -164,10 +159,10 @@ class CurrencyStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Currencies ordered by popularity, most widely used first.
      */
-    fun byCentralBankId(centralBankId: Long, languageCode: String?): List<CurrencyData> =
+    fun byCentralBankId(centralBankId: String, languageCode: String?): List<CurrencyData> =
         localizedSubset(idsByCentralBankId[centralBankId], languageCode)
 
-    private fun localizedSubset(ids: List<Long>?, languageCode: String?): List<CurrencyData> {
+    private fun localizedSubset(ids: List<String>?, languageCode: String?): List<CurrencyData> {
         if (ids.isNullOrEmpty()) {
             return emptyList()
         }
@@ -255,7 +250,7 @@ class CurrencyStore(dataset: RawDataset) {
  * @property flagId Shared flag identifier, when available.
  */
 private class CurrencyRecord(
-    val id: Long,
+    val id: String,
     val iso3: String,
     val isoNumeric: String,
     val name: LocalizedName,
@@ -269,8 +264,8 @@ private class CurrencyRecord(
     val introducedDate: LocalDate?,
     val obsolete: Boolean,
     val obsoleteAt: LocalDate?,
-    val replacedById: Long?,
-    val flagId: Long?,
+    val replacedById: String?,
+    val flagId: String?,
 ) {
     /** Scores this currency against a search query, strongest field first. */
     fun scoreOf(query: SearchQuery): Int {

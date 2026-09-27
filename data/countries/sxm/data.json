@@ -1,6 +1,6 @@
 {
-  "id": 250,
-  "name": "Sint Maarten (Dutch part)",
+  "id": "SX",
+  "name": "Sint Maarten",
   "nativeName": "Sint Maarten",
   "iso2": "SX",
   "iso3": "SXM",
@@ -9,18 +9,18 @@
   "tld": ".sx",
   "latitude": 18.033333,
   "longitude": -63.05,
-  "flagId": 40,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "sx",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    873
+    "XCG"
   ],
   "timezoneIds": [
-    2660
+    "America/Lower_Princes"
   ],
   "officialLanguageIds": [
-    30,
-    29
+    "en",
+    "nl"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -34,7 +34,7 @@
     },
     {
       "languageCode": "pt",
-      "name": "São Martinho"
+      "name": "Sint Maarten"
     },
     {
       "languageCode": "nl",
@@ -42,23 +42,23 @@
     },
     {
       "languageCode": "fa",
-      "name": "سینت مارتن"
+      "name": "سنت مارتن"
     },
     {
       "languageCode": "de",
-      "name": "Sint Maarten (niederl. Teil)"
+      "name": "Sint Maarten"
     },
     {
       "languageCode": "fr",
-      "name": "Saint Martin (partie néerlandaise)"
+      "name": "Sint Maarten"
     },
     {
       "languageCode": "it",
-      "name": "Saint Martin (parte olandese)"
+      "name": "Sint Maarten"
     },
     {
       "languageCode": "zh-CN",
-      "name": "圣马丁岛（荷兰部分）"
+      "name": "荷属圣马丁"
     },
     {
       "languageCode": "tr",
@@ -66,15 +66,27 @@
     },
     {
       "languageCode": "ru",
-      "name": "Синт-Мартен (голландская часть)"
+      "name": "Синт-Мартен"
     },
     {
       "languageCode": "uk",
-      "name": "Сінт-Мартен (голландська частина)"
+      "name": "Сінт-Мартен"
     },
     {
       "languageCode": "pl",
-      "name": "Sint Maarten (część niderlandzka)"
+      "name": "Sint Maarten"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Sint Maarten"
+    },
+    {
+      "languageCode": "es",
+      "name": "Sint Maarten"
+    },
+    {
+      "languageCode": "ja",
+      "name": "シント・マールテン"
     }
   ],
   "states": []

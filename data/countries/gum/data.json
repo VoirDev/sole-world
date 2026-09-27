@@ -1,5 +1,5 @@
 {
-  "id": 89,
+  "id": "GU",
   "name": "Guam",
   "nativeName": "Guam",
   "iso2": "GU",
@@ -9,17 +9,17 @@
   "tld": ".gu",
   "latitude": 13.46666666,
   "longitude": 144.78333333,
-  "flagId": 157,
-  "regionId": 5,
-  "subregionId": 21,
+  "flagId": "gu",
+  "regionId": "oceania",
+  "subregionId": "micronesia",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2396
+    "Pacific/Guam"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 5254,
+      "id": "GU-AGANA-HEIGHTS",
       "name": "Agana Heights",
       "stateCode": null,
       "latitude": 13.4657592,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 5255,
+      "id": "GU-ASAN-MAINA",
       "name": "Asan-Maina",
       "stateCode": null,
       "latitude": 13.4729124,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 5256,
+      "id": "GU-BARRIGADA",
       "name": "Barrigada",
       "stateCode": null,
       "latitude": 13.4641827,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 5257,
+      "id": "GU-CHALAN-PAGO-ORDOT",
       "name": "Chalan Pago-Ordot",
       "stateCode": null,
       "latitude": 13.436998,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 5258,
+      "id": "GU-DEDEDO",
       "name": "Dededo",
       "stateCode": null,
       "latitude": 13.522899,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 5259,
+      "id": "GU-HAGAT",
       "name": "Hågat",
       "stateCode": null,
       "latitude": 13.3852224,
@@ -150,7 +150,7 @@
       "cities": []
     },
     {
-      "id": 5260,
+      "id": "GU-UMATAC",
       "name": "Umatac (Humåtak)",
       "stateCode": null,
       "latitude": 13.2945777,
@@ -160,7 +160,7 @@
       "cities": []
     },
     {
-      "id": 5261,
+      "id": "GU-INARAJAN",
       "name": "Inarajan (Inalåhan)",
       "stateCode": null,
       "latitude": 13.2762049,
@@ -170,7 +170,7 @@
       "cities": []
     },
     {
-      "id": 5262,
+      "id": "GU-MERIZO",
       "name": "Merizo (Malesso)",
       "stateCode": null,
       "latitude": 13.2686085,
@@ -180,7 +180,7 @@
       "cities": []
     },
     {
-      "id": 5263,
+      "id": "GU-MANGILAO",
       "name": "Mangilao",
       "stateCode": null,
       "latitude": 13.4498509,
@@ -190,7 +190,7 @@
       "cities": []
     },
     {
-      "id": 5264,
+      "id": "GU-MONGMONG-TOTO-MAITE",
       "name": "Mongmong-Toto-Maite",
       "stateCode": null,
       "latitude": 13.4692201,
@@ -200,7 +200,7 @@
       "cities": []
     },
     {
-      "id": 5265,
+      "id": "GU-HAGATNA",
       "name": "Hagåtña",
       "stateCode": null,
       "latitude": 13.4729829,
@@ -210,7 +210,7 @@
       "cities": []
     },
     {
-      "id": 5266,
+      "id": "GU-PITI",
       "name": "Piti",
       "stateCode": null,
       "latitude": 13.4647446,
@@ -220,7 +220,7 @@
       "cities": []
     },
     {
-      "id": 5267,
+      "id": "GU-SANTA-RITA",
       "name": "Santa Rita (Sånta Rita-Sumai)",
       "stateCode": null,
       "latitude": 13.3867874,
@@ -230,7 +230,7 @@
       "cities": []
     },
     {
-      "id": 5268,
+      "id": "GU-SINAJANA",
       "name": "Sinajana",
       "stateCode": null,
       "latitude": 13.4609486,
@@ -240,7 +240,7 @@
       "cities": []
     },
     {
-      "id": 5269,
+      "id": "GU-TALOFOFO",
       "name": "Talofofo (Talo'fo'fo)",
       "stateCode": null,
       "latitude": 13.3547144,
@@ -250,7 +250,7 @@
       "cities": []
     },
     {
-      "id": 5270,
+      "id": "GU-TAMUNING",
       "name": "Tamuning",
       "stateCode": null,
       "latitude": 13.4944762,
@@ -260,7 +260,7 @@
       "cities": []
     },
     {
-      "id": 5271,
+      "id": "GU-YIGO",
       "name": "Yigo",
       "stateCode": null,
       "latitude": 13.5729377,
@@ -270,7 +270,7 @@
       "cities": []
     },
     {
-      "id": 5272,
+      "id": "GU-YONA",
       "name": "Yona",
       "stateCode": null,
       "latitude": 13.410206,

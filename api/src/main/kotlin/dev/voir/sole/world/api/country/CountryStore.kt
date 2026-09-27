@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.country
 
 import dev.voir.sole.world.api.dataset.RawDataset
+import dev.voir.sole.world.api.dataset.index.IdIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedName
 import dev.voir.sole.world.api.dataset.index.Page
@@ -35,11 +36,11 @@ class CountryStore(dataset: RawDataset) {
         )
     }
 
-    private val byId: Map<Long, CountryRecord> = records.associateBy { it.id }
+    private val byId: IdIndex<CountryRecord> = IdIndex.of(records) { it.id }
 
-    private val byIso2: Map<String, CountryRecord> = records.associateBy { it.iso2.lowercase() }
+    private val byIso3: IdIndex<CountryRecord> = IdIndex.of(records) { it.iso3 }
 
-    private val byIso3: Map<String, CountryRecord> = records.associateBy { it.iso3.lowercase() }
+    private val byIsoNumeric: IdIndex<CountryRecord> = IdIndex.of(records) { it.isoNumeric }
 
     private val index = LocalizedIndex(
         records = records,
@@ -47,28 +48,19 @@ class CountryStore(dataset: RawDataset) {
         tieBreaker = { it.id },
     )
 
-    private val byRegionId: Map<Long, List<CountryRecord>> = records.groupBy { it.regionId }
+    private val byRegionId: IdIndex<List<CountryRecord>> = IdIndex.grouped(records) { it.regionId }
 
-    private val bySubregionId: Map<Long, List<CountryRecord>> = records.groupBy { it.subregionId }
+    private val bySubregionId: IdIndex<List<CountryRecord>> = IdIndex.grouped(records) { it.subregionId }
 
-    private val idsByCurrencyId: Map<Long, List<Long>> = invert(dataset) { it.currencyIds }
+    private val idsByCurrencyId: IdIndex<List<String>> = invert(dataset) { it.currencyIds }
 
-    private val idsByLanguageId: Map<Long, List<Long>> =
+    private val idsByLanguageId: IdIndex<List<String>> =
         invert(dataset) { (it.officialLanguageIds + it.otherLanguageIds).distinct() }
 
-    private val idsByTimezoneId: Map<Long, List<Long>> = buildMap<Long, MutableList<Long>> {
-        for (country in dataset.countries) {
-            for (timezoneId in country.timezoneIds) {
-                getOrPut(timezoneId) { mutableListOf() }.add(country.id)
-            }
-        }
-    }
+    private val idsByTimezoneId: IdIndex<List<String>> = invert(dataset) { it.timezoneIds }
 
-    private val idsByCentralBankId: Map<Long, List<Long>> = buildMap<Long, MutableList<Long>> {
-        for (bank in dataset.centralBanks) {
-            getOrPut(bank.id) { mutableListOf() }.addAll(bank.countryIds)
-        }
-    }
+    private val idsByCentralBankId: IdIndex<List<String>> =
+        IdIndex.from(dataset.centralBanks.associate { bank -> bank.id to bank.countryIds })
 
     /** Total number of countries. */
     val size: Int get() = records.size
@@ -79,19 +71,18 @@ class CountryStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching country, or null when none exists.
      */
-    fun byId(id: Long, languageCode: String?): CountryData? = byId[id]?.localized(languageCode)
+    fun byId(id: String, languageCode: String?): CountryData? = byId[id]?.localized(languageCode)
 
     /**
-     * Loads one country by its identifier, ISO-2 code, or ISO-3 code.
-     * @param identifier Numeric identifier, alpha-2 code, or alpha-3 code.
+     * Loads one country by its identifier or by one of its other ISO 3166-1 codes.
+     * @param identifier Alpha-2 identifier, alpha-3 code, or numeric code, in any case.
      * @param languageCode Internal language code, or null for base data.
      * @return Matching country, or null when none exists.
      */
     fun byIdentifier(identifier: String, languageCode: String?): CountryData? {
-        val key = identifier.trim().lowercase()
-        val record = key.toLongOrNull()?.let(byId::get)
-            ?: byIso2[key]
-            ?: byIso3[key]
+        val record = byId[identifier]
+            ?: byIso3[identifier]
+            ?: byIsoNumeric[identifier]
             ?: return null
 
         return record.localized(languageCode)
@@ -103,7 +94,7 @@ class CountryStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Matching countries in request order.
      */
-    fun byIds(ids: List<Long>, languageCode: String?): List<CountryData> =
+    fun byIds(ids: List<String>, languageCode: String?): List<CountryData> =
         ids.mapNotNull { byId[it]?.localized(languageCode) }
 
     /**
@@ -127,11 +118,11 @@ class CountryStore(dataset: RawDataset) {
         request: PageRequest,
         languageCode: String?,
         query: SearchQuery? = null,
-        regionId: Long? = null,
-        subregionId: Long? = null,
-        currencyId: Long? = null,
-        languageId: Long? = null,
-        timezoneId: Long? = null,
+        regionId: String? = null,
+        subregionId: String? = null,
+        currencyId: String? = null,
+        languageId: String? = null,
+        timezoneId: String? = null,
     ): Page<CountryData> {
         val filters = listOfNotNull(
             regionId?.let { byRegionId[it].orEmpty().mapTo(mutableSetOf()) { country -> country.id } },
@@ -166,7 +157,7 @@ class CountryStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Countries ordered by localized name.
      */
-    fun byRegionId(regionId: Long, languageCode: String?): List<CountryData> =
+    fun byRegionId(regionId: String, languageCode: String?): List<CountryData> =
         localizedSubset(byRegionId[regionId], languageCode)
 
     /**
@@ -175,7 +166,7 @@ class CountryStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Countries ordered by localized name.
      */
-    fun bySubregionId(subregionId: Long, languageCode: String?): List<CountryData> =
+    fun bySubregionId(subregionId: String, languageCode: String?): List<CountryData> =
         localizedSubset(bySubregionId[subregionId], languageCode)
 
     /**
@@ -184,7 +175,7 @@ class CountryStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Countries ordered by localized name.
      */
-    fun byCurrencyId(currencyId: Long, languageCode: String?): List<CountryData> =
+    fun byCurrencyId(currencyId: String, languageCode: String?): List<CountryData> =
         localizedSubset(idsByCurrencyId[currencyId]?.mapNotNull(byId::get), languageCode)
 
     /**
@@ -193,7 +184,7 @@ class CountryStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Countries ordered by localized name.
      */
-    fun byLanguageId(languageId: Long, languageCode: String?): List<CountryData> =
+    fun byLanguageId(languageId: String, languageCode: String?): List<CountryData> =
         localizedSubset(idsByLanguageId[languageId]?.mapNotNull(byId::get), languageCode)
 
     /**
@@ -202,7 +193,7 @@ class CountryStore(dataset: RawDataset) {
      * @param languageCode Internal language code, or null for base data.
      * @return Countries ordered by localized name.
      */
-    fun byCentralBankId(centralBankId: Long, languageCode: String?): List<CountryData> =
+    fun byCentralBankId(centralBankId: String, languageCode: String?): List<CountryData> =
         localizedSubset(idsByCentralBankId[centralBankId]?.mapNotNull(byId::get), languageCode)
 
     private fun localizedSubset(matching: List<CountryRecord>?, languageCode: String?): List<CountryData> {
@@ -217,16 +208,16 @@ class CountryStore(dataset: RawDataset) {
         /** Inverts a country's outgoing relationship list into a lookup from the related entity. */
         inline fun invert(
             dataset: RawDataset,
-            relatedIds: (dev.voir.sole.world.api.dataset.json.CountryJSON) -> List<Long>,
-        ): Map<Long, List<Long>> {
-            val index = mutableMapOf<Long, MutableList<Long>>()
+            relatedIds: (dev.voir.sole.world.api.dataset.json.CountryJSON) -> List<String>,
+        ): IdIndex<List<String>> {
+            val index = mutableMapOf<String, MutableList<String>>()
             for (country in dataset.countries) {
                 for (relatedId in relatedIds(country)) {
                     index.getOrPut(relatedId) { mutableListOf() }.add(country.id)
                 }
             }
 
-            return index
+            return IdIndex.from(index)
         }
     }
 }
@@ -248,7 +239,7 @@ class CountryStore(dataset: RawDataset) {
  * @property subregionId Parent subregion identifier.
  */
 private class CountryRecord(
-    val id: Long,
+    val id: String,
     val name: LocalizedName,
     val nativeName: String?,
     val iso3: String,
@@ -258,9 +249,9 @@ private class CountryRecord(
     val tld: String?,
     val latitude: Double,
     val longitude: Double,
-    val flagId: Long?,
-    val regionId: Long,
-    val subregionId: Long,
+    val flagId: String?,
+    val regionId: String,
+    val subregionId: String,
 ) {
     /**
      * Scores this country against a search query.

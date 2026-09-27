@@ -29,7 +29,7 @@ class MediaAssetRestController(
         )
     }
 
-    override fun getMediaAsset(id: Long): ResponseEntity<MediaAsset> {
+    override fun getMediaAsset(id: String): ResponseEntity<MediaAsset> {
         val asset = mediaAssetStore.byId(id) ?: throw ResourceNotFoundException.of("Media asset", id)
 
         return cache.ok(asset.toRest(), request)

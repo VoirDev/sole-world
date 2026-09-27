@@ -1,5 +1,5 @@
 {
-  "id": 164,
+  "id": "MP",
   "name": "Northern Mariana Islands",
   "nativeName": "Northern Mariana Islands",
   "iso2": "MP",
@@ -9,17 +9,17 @@
   "tld": ".mp",
   "latitude": 15.2,
   "longitude": 145.75,
-  "flagId": 102,
-  "regionId": 5,
-  "subregionId": 21,
+  "flagId": "mp",
+  "regionId": "oceania",
+  "subregionId": "micronesia",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2497
+    "Pacific/Saipan"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -29,11 +29,11 @@
     },
     {
       "languageCode": "pt-BR",
-      "name": "Ilhas Marianas"
+      "name": "Ilhas Marianas do Norte"
     },
     {
       "languageCode": "pt",
-      "name": "Ilhas Marianas"
+      "name": "Ilhas Marianas do Norte"
     },
     {
       "languageCode": "nl",
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Kuzey Mariana Adalari"
+      "name": "Kuzey Mariana Adaları"
     },
     {
       "languageCode": "ru",

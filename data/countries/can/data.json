@@ -1,5 +1,5 @@
 {
-  "id": 39,
+  "id": "CA",
   "name": "Canada",
   "nativeName": "Canada",
   "iso2": "CA",
@@ -9,40 +9,40 @@
   "tld": ".ca",
   "latitude": 60,
   "longitude": -95,
-  "flagId": 211,
-  "regionId": 2,
-  "subregionId": 6,
+  "flagId": "ca",
+  "regionId": "americas",
+  "subregionId": "northern-america",
   "currencyIds": [
-    863
+    "CAD"
   ],
   "timezoneIds": [
-    2307,
-    2308,
-    2309,
-    2310,
-    2311,
-    2312,
-    2313,
-    2314,
-    2315,
-    2316,
-    2317,
-    2318,
-    2319,
-    2320,
-    2324,
-    2325,
-    2326,
-    2327,
-    2328,
-    2330,
-    2331,
-    2332,
-    2333
+    "America/Atikokan",
+    "America/Blanc-Sablon",
+    "America/Cambridge_Bay",
+    "America/Creston",
+    "America/Dawson",
+    "America/Dawson_Creek",
+    "America/Edmonton",
+    "America/Fort_Nelson",
+    "America/Glace_Bay",
+    "America/Goose_Bay",
+    "America/Halifax",
+    "America/Inuvik",
+    "America/Iqaluit",
+    "America/Moncton",
+    "America/Rankin_Inlet",
+    "America/Regina",
+    "America/Resolute",
+    "America/St_Johns",
+    "America/Swift_Current",
+    "America/Toronto",
+    "America/Vancouver",
+    "America/Whitehorse",
+    "America/Winnipeg"
   ],
   "officialLanguageIds": [
-    30,
-    33
+    "en",
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -113,7 +113,7 @@
   ],
   "states": [
     {
-      "id": 866,
+      "id": "CA-ON",
       "name": "Ontario",
       "stateCode": "ON",
       "latitude": 51.253775,
@@ -1811,7 +1811,7 @@
       ]
     },
     {
-      "id": 867,
+      "id": "CA-MB",
       "name": "Manitoba",
       "stateCode": "MB",
       "latitude": 53.7608608,
@@ -2123,7 +2123,7 @@
       ]
     },
     {
-      "id": 868,
+      "id": "CA-NB",
       "name": "New Brunswick",
       "stateCode": "NB",
       "latitude": 46.5653163,
@@ -2393,7 +2393,7 @@
       ]
     },
     {
-      "id": 869,
+      "id": "CA-YT",
       "name": "Yukon",
       "stateCode": "YT",
       "latitude": 35.5067215,
@@ -2432,7 +2432,7 @@
       ]
     },
     {
-      "id": 870,
+      "id": "CA-SK",
       "name": "Saskatchewan",
       "stateCode": "SK",
       "latitude": 52.9399159,
@@ -2821,7 +2821,7 @@
       ]
     },
     {
-      "id": 871,
+      "id": "CA-PE",
       "name": "Prince Edward Island",
       "stateCode": "PE",
       "latitude": 46.510712,
@@ -2895,7 +2895,7 @@
       ]
     },
     {
-      "id": 872,
+      "id": "CA-AB",
       "name": "Alberta",
       "stateCode": "AB",
       "latitude": 53.9332706,
@@ -3711,7 +3711,7 @@
       ]
     },
     {
-      "id": 873,
+      "id": "CA-QC",
       "name": "Quebec",
       "stateCode": "QC",
       "latitude": 52.9399159,
@@ -6179,7 +6179,7 @@
       ]
     },
     {
-      "id": 874,
+      "id": "CA-NS",
       "name": "Nova Scotia",
       "stateCode": "NS",
       "latitude": 44.6819866,
@@ -6491,7 +6491,7 @@
       ]
     },
     {
-      "id": 875,
+      "id": "CA-BC",
       "name": "British Columbia",
       "stateCode": "BC",
       "latitude": 53.7266683,
@@ -7475,7 +7475,7 @@
       ]
     },
     {
-      "id": 876,
+      "id": "CA-NU",
       "name": "Nunavut",
       "stateCode": "NU",
       "latitude": 70.2997711,
@@ -7528,7 +7528,7 @@
       ]
     },
     {
-      "id": 877,
+      "id": "CA-NL",
       "name": "Newfoundland and Labrador",
       "stateCode": "NL",
       "latitude": 53.1355091,
@@ -7763,7 +7763,7 @@
       ]
     },
     {
-      "id": 878,
+      "id": "CA-NT",
       "name": "Northwest Territories",
       "stateCode": "NT",
       "latitude": 64.8255441,

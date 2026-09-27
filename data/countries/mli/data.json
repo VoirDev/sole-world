@@ -1,5 +1,5 @@
 {
-  "id": 134,
+  "id": "ML",
   "name": "Mali",
   "nativeName": "Mali",
   "iso2": "ML",
@@ -9,18 +9,18 @@
   "tld": ".ml",
   "latitude": 17,
   "longitude": -4,
-  "flagId": 106,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "ml",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    851
+    "XOF"
   ],
   "timezoneIds": [
-    2450
+    "Africa/Bamako"
   ],
   "officialLanguageIds": [
-    33,
-    15
+    "fr",
+    "bm"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 248,
+      "id": "ML-6",
       "name": "Tombouctou",
       "stateCode": "6",
       "latitude": 21.0526706,
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": 249,
+      "id": "ML-4",
       "name": "Ségou",
       "stateCode": "4",
       "latitude": 13.8394456,
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "id": 250,
+      "id": "ML-2",
       "name": "Koulikoro",
       "stateCode": "2",
       "latitude": 13.8018074,
@@ -264,7 +264,7 @@
       ]
     },
     {
-      "id": 251,
+      "id": "ML-9",
       "name": "Ménaka",
       "stateCode": "9",
       "latitude": 15.9156421,
@@ -274,7 +274,7 @@
       "cities": []
     },
     {
-      "id": 252,
+      "id": "ML-1",
       "name": "Kayes",
       "stateCode": "1",
       "latitude": 14.0818308,
@@ -320,7 +320,7 @@
       ]
     },
     {
-      "id": 253,
+      "id": "ML-BKO",
       "name": "Bamako",
       "stateCode": "BKO",
       "latitude": 12.6392316,
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "id": 254,
+      "id": "ML-3",
       "name": "Sikasso",
       "stateCode": "3",
       "latitude": 10.8905186,
@@ -398,7 +398,7 @@
       ]
     },
     {
-      "id": 255,
+      "id": "ML-5",
       "name": "Mopti",
       "stateCode": "5",
       "latitude": 14.6338039,
@@ -451,7 +451,7 @@
       ]
     },
     {
-      "id": 256,
+      "id": "ML-10",
       "name": "Taoudénit",
       "stateCode": "10",
       "latitude": 22.6764132,
@@ -461,7 +461,7 @@
       "cities": []
     },
     {
-      "id": 257,
+      "id": "ML-8",
       "name": "Kidal",
       "stateCode": "8",
       "latitude": 18.7986832,
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": 258,
+      "id": "ML-7",
       "name": "Gao",
       "stateCode": "7",
       "latitude": 16.9066332,

@@ -1,5 +1,5 @@
 {
-  "id": 246,
+  "id": "ZM",
   "name": "Zambia",
   "nativeName": "Zambia",
   "iso2": "ZM",
@@ -9,17 +9,17 @@
   "tld": ".zm",
   "latitude": -15,
   "longitude": 30,
-  "flagId": 2,
-  "regionId": 1,
-  "subregionId": 5,
+  "flagId": "zm",
+  "regionId": "africa",
+  "subregionId": "southern-africa",
   "currencyIds": [
-    986
+    "ZMW"
   ],
   "timezoneIds": [
-    2645
+    "Africa/Lusaka"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1982,
+      "id": "ZM-05",
       "name": "Northern",
       "stateCode": "05",
       "latitude": 8.8855027,
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "id": 1983,
+      "id": "ZM-01",
       "name": "Western",
       "stateCode": "01",
       "latitude": 6.9016086,
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "id": 1984,
+      "id": "ZM-08",
       "name": "Copperbelt",
       "stateCode": "08",
       "latitude": -13.0570073,
@@ -298,7 +298,7 @@
       ]
     },
     {
-      "id": 1985,
+      "id": "ZM-06",
       "name": "Northwestern",
       "stateCode": "06",
       "latitude": -13.0050258,
@@ -365,7 +365,7 @@
       ]
     },
     {
-      "id": 1986,
+      "id": "ZM-02",
       "name": "Central",
       "stateCode": "02",
       "latitude": 7.2564996,
@@ -425,7 +425,7 @@
       ]
     },
     {
-      "id": 1987,
+      "id": "ZM-04",
       "name": "Luapula",
       "stateCode": "04",
       "latitude": -11.564831,
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "id": 1988,
+      "id": "ZM-09",
       "name": "Lusaka",
       "stateCode": "09",
       "latitude": -15.3657129,
@@ -510,7 +510,7 @@
       ]
     },
     {
-      "id": 1989,
+      "id": "ZM-10",
       "name": "Muchinga",
       "stateCode": "10",
       "latitude": -15.382193,
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "id": 1990,
+      "id": "ZM-07",
       "name": "Southern",
       "stateCode": "07",
       "latitude": 6.237375,
@@ -651,7 +651,7 @@
       ]
     },
     {
-      "id": 1991,
+      "id": "ZM-03",
       "name": "Eastern",
       "stateCode": "03",
       "latitude": 23.1669688,

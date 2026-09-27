@@ -45,8 +45,8 @@ class CityGraphqlFetcher(
             request = GraphqlRequest.pageRequest(page),
             languageCode = language,
             query = GraphqlRequest.optionalSearchQuery(query),
-            countryId = GraphqlRequest.optionalLongId(countryId, "countryId"),
-            stateId = GraphqlRequest.optionalLongId(stateId, "stateId"),
+            countryId = GraphqlRequest.optionalId(countryId),
+            stateId = GraphqlRequest.optionalId(stateId),
         )
 
         return GraphqlRequest.localized(
@@ -66,7 +66,7 @@ class CityGraphqlFetcher(
     @DgsQuery
     fun citiesByIds(@InputArgument ids: List<String>): DataFetcherResult<List<City>> {
         val language = GraphqlRequest.language()
-        val cities = cityStore.byIds(GraphqlRequest.longIds(ids, "ids"), language)
+        val cities = cityStore.byIds(GraphqlRequest.cityIds(ids, "ids"), language)
 
         return GraphqlRequest.localized(cities.map { it.toGql() }, language)
     }
@@ -79,7 +79,7 @@ class CityGraphqlFetcher(
     @DgsQuery
     fun city(@InputArgument id: String): DataFetcherResult<City> {
         val language = GraphqlRequest.language()
-        val city = cityStore.byId(GraphqlRequest.longId(id, "id"), language)
+        val city = cityStore.byId(GraphqlRequest.cityId(id, "id"), language)
 
         return GraphqlRequest.localized(city?.toGql(), language)
     }
@@ -100,6 +100,6 @@ class CityGraphqlFetcher(
     private fun parentState(dfe: DgsDataFetchingEnvironment): StateData? {
         val city: City = dfe.getSource() ?: return null
 
-        return stateStore.byId(GraphqlRequest.longId(city.stateId, "stateId"), GraphqlRequest.language(dfe))
+        return stateStore.byId(city.stateId, GraphqlRequest.language(dfe))
     }
 }

@@ -1,5 +1,5 @@
 {
-  "id": 57,
+  "id": "CY",
   "name": "Cyprus",
   "nativeName": "Κύπρος",
   "iso2": "CY",
@@ -9,19 +9,19 @@
   "tld": ".cy",
   "latitude": 35,
   "longitude": 33,
-  "flagId": 248,
-  "regionId": 4,
-  "subregionId": 16,
+  "flagId": "cy",
+  "regionId": "europe",
+  "subregionId": "southern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2355,
-    2356
+    "Asia/Famagusta",
+    "Asia/Nicosia"
   ],
   "officialLanguageIds": [
-    35,
-    49
+    "el",
+    "tr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -75,7 +75,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Kuzey Kıbrıs Türk Cumhuriyeti"
+      "name": "Kıbrıs"
     },
     {
       "languageCode": "ru",
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 744,
+      "id": "CY-06",
       "name": "Kyrenia (Keryneia)",
       "stateCode": "06",
       "latitude": 35.299194,
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "id": 745,
+      "id": "CY-01",
       "name": "Nicosia (Lefkoşa)",
       "stateCode": "01",
       "latitude": 35.1855659,
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "id": 746,
+      "id": "CY-05",
       "name": "Paphos (Pafos)",
       "stateCode": "05",
       "latitude": 34.9164594,
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": 747,
+      "id": "CY-03",
       "name": "Larnaca (Larnaka)",
       "stateCode": "03",
       "latitude": 34.8507206,
@@ -577,7 +577,7 @@
       ]
     },
     {
-      "id": 748,
+      "id": "CY-02",
       "name": "Limassol (Leymasun)",
       "stateCode": "02",
       "latitude": 34.7071301,
@@ -707,7 +707,7 @@
       ]
     },
     {
-      "id": 749,
+      "id": "CY-04",
       "name": "Famagusta (Mağusa)",
       "stateCode": "04",
       "latitude": 35.2857023,

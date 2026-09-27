@@ -1,5 +1,5 @@
 {
-  "id": 8,
+  "id": "AI",
   "name": "Anguilla",
   "nativeName": "Anguilla",
   "iso2": "AI",
@@ -9,17 +9,17 @@
   "tld": ".ai",
   "latitude": 18.25,
   "longitude": -63.16666666,
-  "flagId": 243,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "ai",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    840
+    "XCD"
   ],
   "timezoneIds": [
-    2241
+    "America/Anguilla"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 5273,
+      "id": "AI-BLOWING-POINT",
       "name": "Blowing Point",
       "stateCode": null,
       "latitude": 18.1765553,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 5274,
+      "id": "AI-EAST-END",
       "name": "East End",
       "stateCode": null,
       "latitude": 18.2356173,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 5275,
+      "id": "AI-GEORGE-HILL",
       "name": "George Hill",
       "stateCode": null,
       "latitude": 18.1997811,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 5276,
+      "id": "AI-ISLAND-HARBOUR",
       "name": "Island Harbour",
       "stateCode": null,
       "latitude": 18.2552125,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 5277,
+      "id": "AI-NORTH-HILL",
       "name": "North Hill",
       "stateCode": null,
       "latitude": 18.2050863,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 5278,
+      "id": "AI-NORTH-SIDE",
       "name": "North Side",
       "stateCode": null,
       "latitude": 18.2300544,
@@ -150,7 +150,7 @@
       "cities": []
     },
     {
-      "id": 5279,
+      "id": "AI-SANDY-GROUND",
       "name": "Sandy Ground",
       "stateCode": null,
       "latitude": 18.2018551,
@@ -160,7 +160,7 @@
       "cities": []
     },
     {
-      "id": 5280,
+      "id": "AI-SANDY-HILL",
       "name": "Sandy Hill",
       "stateCode": null,
       "latitude": 18.218921,
@@ -170,7 +170,7 @@
       "cities": []
     },
     {
-      "id": 5281,
+      "id": "AI-SOUTH-HILL",
       "name": "South Hill",
       "stateCode": null,
       "latitude": 18.1892475,
@@ -180,7 +180,7 @@
       "cities": []
     },
     {
-      "id": 5282,
+      "id": "AI-STONEY-GROUND",
       "name": "Stoney Ground",
       "stateCode": null,
       "latitude": 18.2179101,
@@ -190,7 +190,7 @@
       "cities": []
     },
     {
-      "id": 5283,
+      "id": "AI-FARRINGTON",
       "name": "The Farrington",
       "stateCode": null,
       "latitude": 18.2134701,
@@ -200,7 +200,7 @@
       "cities": []
     },
     {
-      "id": 5284,
+      "id": "AI-QUARTER",
       "name": "The Quarter",
       "stateCode": null,
       "latitude": 18.2145334,
@@ -210,7 +210,7 @@
       "cities": []
     },
     {
-      "id": 5285,
+      "id": "AI-VALLEY",
       "name": "The Valley",
       "stateCode": null,
       "latitude": 18.2152166,
@@ -220,7 +220,7 @@
       "cities": []
     },
     {
-      "id": 5286,
+      "id": "AI-WEST-END",
       "name": "West End",
       "stateCode": null,
       "latitude": 18.1715394,

@@ -55,7 +55,7 @@ class CentralBankRestController(
         )
     }
 
-    override fun getCentralBank(id: Long, lang: String?, include: String?): ResponseEntity<CentralBank> {
+    override fun getCentralBank(id: String, lang: String?, include: String?): ResponseEntity<CentralBank> {
         val language = RestRequest.language(lang, request)
         val includes = IncludeSpec.parse(include, CentralBankRestAssembler.ALLOWED_INCLUDES)
         val bank = requireCentralBank(id, language)
@@ -64,7 +64,7 @@ class CentralBankRestController(
     }
 
     override fun listCentralBankCountries(
-        id: Long,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,
@@ -88,7 +88,7 @@ class CentralBankRestController(
     }
 
     override fun listCentralBankCurrencies(
-        id: Long,
+        id: String,
         page: Int,
         size: Int,
         lang: String?,
@@ -111,6 +111,6 @@ class CentralBankRestController(
         )
     }
 
-    private fun requireCentralBank(id: Long, languageCode: String?) =
+    private fun requireCentralBank(id: String, languageCode: String?) =
         centralBankStore.byId(id, languageCode) ?: throw ResourceNotFoundException.of("Central bank", id)
 }

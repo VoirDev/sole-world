@@ -1,5 +1,5 @@
 {
-  "id": 146,
+  "id": "MN",
   "name": "Mongolia",
   "nativeName": "Монгол улс",
   "iso2": "MN",
@@ -9,18 +9,18 @@
   "tld": ".mn",
   "latitude": 46,
   "longitude": 105,
-  "flagId": 104,
-  "regionId": 3,
-  "subregionId": 12,
+  "flagId": "mn",
+  "regionId": "asia",
+  "subregionId": "eastern-asia",
   "currencyIds": [
-    925
+    "MNT"
   ],
   "timezoneIds": [
-    2476,
-    2477
+    "Asia/Hovd",
+    "Asia/Ulaanbaatar"
   ],
   "officialLanguageIds": [
-    60
+    "mn"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 1961,
+      "id": "MN-067",
       "name": "Bulgan",
       "stateCode": "067",
       "latitude": 48.9690913,
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "id": 1962,
+      "id": "MN-037",
       "name": "Darkhan-Uul",
       "stateCode": "037",
       "latitude": 49.4648434,
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "id": 1963,
+      "id": "MN-061",
       "name": "Dornod",
       "stateCode": "061",
       "latitude": 47.4658154,
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "id": 1964,
+      "id": "MN-043",
       "name": "Khovd",
       "stateCode": "043",
       "latitude": 47.1129654,
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "id": 1965,
+      "id": "MN-055",
       "name": "Övörkhangai",
       "stateCode": "055",
       "latitude": 45.7624392,
@@ -230,7 +230,7 @@
       ]
     },
     {
-      "id": 1966,
+      "id": "MN-035",
       "name": "Orkhon",
       "stateCode": "035",
       "latitude": 49.004705,
@@ -248,7 +248,7 @@
       ]
     },
     {
-      "id": 1967,
+      "id": "MN-053",
       "name": "Ömnögovi",
       "stateCode": "053",
       "latitude": 43.500024,
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "id": 1968,
+      "id": "MN-047",
       "name": "Töv",
       "stateCode": "047",
       "latitude": 47.2124056,
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": 1969,
+      "id": "MN-071",
       "name": "Bayan-Ölgii",
       "stateCode": "071",
       "latitude": 48.3983254,
@@ -358,7 +358,7 @@
       ]
     },
     {
-      "id": 1970,
+      "id": "MN-059",
       "name": "Dundgovi",
       "stateCode": "059",
       "latitude": 45.5822786,
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "id": 1971,
+      "id": "MN-046",
       "name": "Uvs",
       "stateCode": "046",
       "latitude": 49.6449707,
@@ -394,7 +394,7 @@
       ]
     },
     {
-      "id": 1972,
+      "id": "MN-065",
       "name": "Govi-Altai",
       "stateCode": "065",
       "latitude": 45.4511227,
@@ -412,7 +412,7 @@
       ]
     },
     {
-      "id": 1973,
+      "id": "MN-073",
       "name": "Arkhangai",
       "stateCode": "073",
       "latitude": 47.8971101,
@@ -430,7 +430,7 @@
       ]
     },
     {
-      "id": 1974,
+      "id": "MN-039",
       "name": "Khentii",
       "stateCode": "039",
       "latitude": 47.6081209,
@@ -448,7 +448,7 @@
       ]
     },
     {
-      "id": 1975,
+      "id": "MN-041",
       "name": "Khövsgöl",
       "stateCode": "041",
       "latitude": 50.2204484,
@@ -487,7 +487,7 @@
       ]
     },
     {
-      "id": 1976,
+      "id": "MN-069",
       "name": "Bayankhongor",
       "stateCode": "069",
       "latitude": 45.1526707,
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": 1977,
+      "id": "MN-051",
       "name": "Sükhbaatar",
       "stateCode": "051",
       "latitude": 46.5653163,
@@ -523,7 +523,7 @@
       ]
     },
     {
-      "id": 1978,
+      "id": "MN-064",
       "name": "Govisümber",
       "stateCode": "064",
       "latitude": 46.4762754,
@@ -541,7 +541,7 @@
       ]
     },
     {
-      "id": 1979,
+      "id": "MN-057",
       "name": "Zavkhan",
       "stateCode": "057",
       "latitude": 48.2388147,
@@ -559,7 +559,7 @@
       ]
     },
     {
-      "id": 1980,
+      "id": "MN-049",
       "name": "Selenge",
       "stateCode": "049",
       "latitude": 50.0059273,
@@ -584,7 +584,7 @@
       ]
     },
     {
-      "id": 1981,
+      "id": "MN-063",
       "name": "Dornogovi",
       "stateCode": "063",
       "latitude": 43.9653889,

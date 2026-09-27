@@ -1,5 +1,5 @@
 {
-  "id": 166,
+  "id": "OM",
   "name": "Oman",
   "nativeName": "عمان",
   "iso2": "OM",
@@ -9,17 +9,17 @@
   "tld": ".om",
   "latitude": 21,
   "longitude": 57,
-  "flagId": 79,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "om",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    936
+    "OMR"
   ],
   "timezoneIds": [
-    2499
+    "Asia/Muscat"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "oman"
+      "name": "Oman"
     },
     {
       "languageCode": "zh-CN",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3047,
+      "id": "OM-ZA",
       "name": "Ad Dhahirah",
       "stateCode": "ZA",
       "latitude": 23.2161674,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 3048,
+      "id": "OM-BS",
       "name": "Al Batinah North",
       "stateCode": "BS",
       "latitude": 24.3419846,
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": 3049,
+      "id": "OM-BJ",
       "name": "Al Batinah South",
       "stateCode": "BJ",
       "latitude": 23.4314903,
@@ -178,7 +178,7 @@
       "cities": []
     },
     {
-      "id": 3050,
+      "id": "OM-BA",
       "name": "Al Batinah Region",
       "stateCode": "BA",
       "latitude": 24.3419846,
@@ -217,7 +217,7 @@
       ]
     },
     {
-      "id": 3051,
+      "id": "OM-SH",
       "name": "Ash Sharqiyah Region",
       "stateCode": "SH",
       "latitude": 22.7141196,
@@ -235,7 +235,7 @@
       ]
     },
     {
-      "id": 3052,
+      "id": "OM-MU",
       "name": "Musandam",
       "stateCode": "MU",
       "latitude": 26.1986144,
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "id": 3053,
+      "id": "OM-SS",
       "name": "Ash Sharqiyah North",
       "stateCode": "SS",
       "latitude": 22.7141196,
@@ -277,7 +277,7 @@
       "cities": []
     },
     {
-      "id": 3054,
+      "id": "OM-SJ",
       "name": "Ash Sharqiyah South",
       "stateCode": "SJ",
       "latitude": 22.0158249,
@@ -287,7 +287,7 @@
       "cities": []
     },
     {
-      "id": 3055,
+      "id": "OM-MA",
       "name": "Muscat",
       "stateCode": "MA",
       "latitude": 23.5880307,
@@ -319,7 +319,7 @@
       ]
     },
     {
-      "id": 3056,
+      "id": "OM-WU",
       "name": "Al Wusta",
       "stateCode": "WU",
       "latitude": 19.9571078,
@@ -337,7 +337,7 @@
       ]
     },
     {
-      "id": 3057,
+      "id": "OM-ZU",
       "name": "Dhofar",
       "stateCode": "ZU",
       "latitude": 17.0322121,
@@ -355,7 +355,7 @@
       ]
     },
     {
-      "id": 3058,
+      "id": "OM-DA",
       "name": "Ad Dakhiliyah",
       "stateCode": "DA",
       "latitude": 22.8588758,
@@ -408,7 +408,7 @@
       ]
     },
     {
-      "id": 3059,
+      "id": "OM-BU",
       "name": "Al Buraimi",
       "stateCode": "BU",
       "latitude": 24.1671413,

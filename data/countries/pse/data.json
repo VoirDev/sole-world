@@ -1,6 +1,6 @@
 {
-  "id": 169,
-  "name": "Palestinian Territory Occupied",
+  "id": "PS",
+  "name": "Palestine",
   "nativeName": "فلسطين",
   "iso2": "PS",
   "iso3": "PSE",
@@ -9,22 +9,22 @@
   "tld": ".ps",
   "latitude": 31.9,
   "longitude": 35.2,
-  "flagId": 68,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "ps",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    902
+    "ILS"
   ],
   "timezoneIds": [
-    2502,
-    2503
+    "Asia/Gaza",
+    "Asia/Hebron"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [
-    36,
-    30
+    "he",
+    "en"
   ],
   "translations": [
     {
@@ -81,20 +81,20 @@
     },
     {
       "languageCode": "ru",
-      "name": "Оккупированная палестинская территория"
+      "name": "Палестина"
     },
     {
       "languageCode": "uk",
-      "name": "Окупована палестинська територія"
+      "name": "Палестина"
     },
     {
       "languageCode": "pl",
-      "name": "Okupowane terytorium palestyńskie"
+      "name": "Palestyna"
     }
   ],
   "states": [
     {
-      "id": 5118,
+      "id": "PS-BTH",
       "name": "Bethlehem",
       "stateCode": "BTH",
       "latitude": 31.7053996,
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": 5119,
+      "id": "PS-DEB",
       "name": "Deir El Balah",
       "stateCode": "DEB",
       "latitude": 31.4202897,
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "id": 5120,
+      "id": "PS-GZA",
       "name": "Gaza",
       "stateCode": "GZA",
       "latitude": 31.4872397,
@@ -239,7 +239,7 @@
       ]
     },
     {
-      "id": 5121,
+      "id": "PS-HBN",
       "name": "Hebron",
       "stateCode": "HBN",
       "latitude": 31.5326001,
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "id": 5122,
+      "id": "PS-JEN",
       "name": "Jenin",
       "stateCode": "JEN",
       "latitude": 32.4263761,
@@ -492,7 +492,7 @@
       ]
     },
     {
-      "id": 5123,
+      "id": "PS-JRH",
       "name": "Jericho ",
       "stateCode": "JRH",
       "latitude": 31.9676425,
@@ -524,7 +524,7 @@
       ]
     },
     {
-      "id": 5124,
+      "id": "PS-JEM",
       "name": "Jerusalem (Quds)",
       "stateCode": "JEM",
       "latitude": 31.8020328,
@@ -605,7 +605,7 @@
       ]
     },
     {
-      "id": 5125,
+      "id": "PS-KYS",
       "name": "Khan Yunis",
       "stateCode": "KYS",
       "latitude": 31.3298766,
@@ -658,7 +658,7 @@
       ]
     },
     {
-      "id": 5126,
+      "id": "PS-NBS",
       "name": "Nablus",
       "stateCode": "NBS",
       "latitude": 32.2243755,
@@ -732,7 +732,7 @@
       ]
     },
     {
-      "id": 5127,
+      "id": "PS-NGZ",
       "name": "North Gaza",
       "stateCode": "NGZ",
       "latitude": 31.547506,
@@ -771,7 +771,7 @@
       ]
     },
     {
-      "id": 5128,
+      "id": "PS-QQA",
       "name": "Qalqilya",
       "stateCode": "QQA",
       "latitude": 32.1810323,
@@ -810,7 +810,7 @@
       ]
     },
     {
-      "id": 5129,
+      "id": "PS-RFH",
       "name": "Rafah",
       "stateCode": "RFH",
       "latitude": 31.2968899,
@@ -856,7 +856,7 @@
       ]
     },
     {
-      "id": 5130,
+      "id": "PS-RBH",
       "name": "Ramallah",
       "stateCode": "RBH",
       "latitude": 31.9430145,
@@ -972,7 +972,7 @@
       ]
     },
     {
-      "id": 5131,
+      "id": "PS-SLT",
       "name": "Salfit",
       "stateCode": "SLT",
       "latitude": 32.1112272,
@@ -1102,7 +1102,7 @@
       ]
     },
     {
-      "id": 5132,
+      "id": "PS-TBS",
       "name": "Tubas",
       "stateCode": "TBS",
       "latitude": 32.2938043,
@@ -1134,7 +1134,7 @@
       ]
     },
     {
-      "id": 5133,
+      "id": "PS-TKM",
       "name": "Tulkarm",
       "stateCode": "TKM",
       "latitude": 32.3276672,

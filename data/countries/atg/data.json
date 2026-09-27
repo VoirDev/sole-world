@@ -1,5 +1,5 @@
 {
-  "id": 10,
+  "id": "AG",
   "name": "Antigua and Barbuda",
   "nativeName": "Antigua and Barbuda",
   "iso2": "AG",
@@ -9,17 +9,17 @@
   "tld": ".ag",
   "latitude": 17.05,
   "longitude": -61.8,
-  "flagId": 244,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "ag",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    840
+    "XCD"
   ],
   "timezoneIds": [
-    2242
+    "America/Antigua"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Antigua Ve Barbuda"
+      "name": "Antigua ve Barbuda"
     },
     {
       "languageCode": "ru",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3703,
+      "id": "AG-11",
       "name": "Redonda",
       "stateCode": "11",
       "latitude": 16.938416,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 3704,
+      "id": "AG-07",
       "name": "Saint Peter",
       "stateCode": "07",
       "latitude": null,
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "id": 3705,
+      "id": "AG-06",
       "name": "Saint Paul",
       "stateCode": "06",
       "latitude": null,
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "id": 3706,
+      "id": "AG-04",
       "name": "Saint John",
       "stateCode": "04",
       "latitude": null,
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "id": 3707,
+      "id": "AG-05",
       "name": "Saint Mary",
       "stateCode": "05",
       "latitude": null,
@@ -193,7 +193,7 @@
       ]
     },
     {
-      "id": 3708,
+      "id": "AG-10",
       "name": "Barbuda",
       "stateCode": "10",
       "latitude": 17.6266242,
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "id": 3709,
+      "id": "AG-03",
       "name": "Saint George",
       "stateCode": "03",
       "latitude": null,
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "id": 3710,
+      "id": "AG-08",
       "name": "Saint Philip",
       "stateCode": "08",
       "latitude": 40.4368258,

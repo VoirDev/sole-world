@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.mediaasset
 
 import dev.voir.sole.world.api.dataset.RawDataset
+import dev.voir.sole.world.api.dataset.index.IdIndex
 import dev.voir.sole.world.api.dataset.index.Page
 import dev.voir.sole.world.api.dataset.index.PageRequest
 import dev.voir.sole.world.api.dataset.index.Pagination.toPage
@@ -31,7 +32,7 @@ class MediaAssetStore(dataset: RawDataset, assetUrls: AssetUrlProperties) {
         .map(::toMediaAsset)
         .sortedBy { it.id }
 
-    private val byId: Map<Long, MediaAssetData> = ordered.associateBy { it.id }
+    private val byId: IdIndex<MediaAssetData> = IdIndex.of(ordered) { it.id }
 
     /** Total number of media assets. */
     val size: Int get() = ordered.size
@@ -41,14 +42,14 @@ class MediaAssetStore(dataset: RawDataset, assetUrls: AssetUrlProperties) {
      * @param id Media asset identifier.
      * @return Matching media asset, or null when none exists.
      */
-    fun byId(id: Long): MediaAssetData? = byId[id]
+    fun byId(id: String): MediaAssetData? = byId[id]
 
     /**
      * Loads several media assets, skipping identifiers that do not exist.
      * @param ids Media asset identifiers.
      * @return Matching media assets in request order.
      */
-    fun byIds(ids: List<Long>): List<MediaAssetData> = ids.mapNotNull(byId::get)
+    fun byIds(ids: List<String>): List<MediaAssetData> = ids.mapNotNull(byId::get)
 
     /**
      * Returns one page of media assets ordered by identifier.

@@ -1,5 +1,5 @@
 {
-  "id": 132,
+  "id": "MY",
   "name": "Malaysia",
   "nativeName": "Malaysia",
   "iso2": "MY",
@@ -9,21 +9,21 @@
   "tld": ".my",
   "latitude": 2.5,
   "longitude": 112.5,
-  "flagId": 93,
-  "regionId": 3,
-  "subregionId": 13,
+  "flagId": "my",
+  "regionId": "asia",
+  "subregionId": "south-eastern-asia",
   "currencyIds": [
-    919
+    "MYR"
   ],
   "timezoneIds": [
-    2447,
-    2448
+    "Asia/Kuala_Lumpur",
+    "Asia/Kuching"
   ],
   "officialLanguageIds": [
-    122
+    "ms"
   ],
   "otherLanguageIds": [
-    30
+    "en"
   ],
   "translations": [
     {
@@ -93,7 +93,7 @@
   ],
   "states": [
     {
-      "id": 1935,
+      "id": "MY-15",
       "name": "Labuan",
       "stateCode": "15",
       "latitude": 5.2831456,
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "id": 1936,
+      "id": "MY-12",
       "name": "Sabah",
       "stateCode": "12",
       "latitude": 5.9788398,
@@ -234,7 +234,7 @@
       ]
     },
     {
-      "id": 1937,
+      "id": "MY-13",
       "name": "Sarawak",
       "stateCode": "13",
       "latitude": 1.5532783,
@@ -343,7 +343,7 @@
       ]
     },
     {
-      "id": 1938,
+      "id": "MY-09",
       "name": "Perlis",
       "stateCode": "09",
       "latitude": 29.9227094,
@@ -375,7 +375,7 @@
       ]
     },
     {
-      "id": 1939,
+      "id": "MY-07",
       "name": "Penang",
       "stateCode": "07",
       "latitude": 5.4163935,
@@ -491,7 +491,7 @@
       ]
     },
     {
-      "id": 1940,
+      "id": "MY-06",
       "name": "Pahang",
       "stateCode": "06",
       "latitude": 3.8126318,
@@ -579,7 +579,7 @@
       ]
     },
     {
-      "id": 1941,
+      "id": "MY-04",
       "name": "Malacca",
       "stateCode": "04",
       "latitude": 2.189594,
@@ -681,7 +681,7 @@
       ]
     },
     {
-      "id": 1942,
+      "id": "MY-11",
       "name": "Terengganu",
       "stateCode": "11",
       "latitude": 5.3116916,
@@ -748,7 +748,7 @@
       ]
     },
     {
-      "id": 1943,
+      "id": "MY-08",
       "name": "Perak",
       "stateCode": "08",
       "latitude": 4.5921126,
@@ -857,7 +857,7 @@
       ]
     },
     {
-      "id": 1944,
+      "id": "MY-10",
       "name": "Selangor",
       "stateCode": "10",
       "latitude": 3.0738379,
@@ -1043,7 +1043,7 @@
       ]
     },
     {
-      "id": 1945,
+      "id": "MY-16",
       "name": "Putrajaya",
       "stateCode": "16",
       "latitude": 2.926361,
@@ -1061,7 +1061,7 @@
       ]
     },
     {
-      "id": 1946,
+      "id": "MY-03",
       "name": "Kelantan",
       "stateCode": "03",
       "latitude": 6.1253969,
@@ -1121,7 +1121,7 @@
       ]
     },
     {
-      "id": 1947,
+      "id": "MY-02",
       "name": "Kedah",
       "stateCode": "02",
       "latitude": 6.1183964,
@@ -1230,7 +1230,7 @@
       ]
     },
     {
-      "id": 1948,
+      "id": "MY-05",
       "name": "Negeri Sembilan",
       "stateCode": "05",
       "latitude": 2.7258058,
@@ -1283,7 +1283,7 @@
       ]
     },
     {
-      "id": 1949,
+      "id": "MY-14",
       "name": "Kuala Lumpur",
       "stateCode": "14",
       "latitude": 3.139003,
@@ -1301,7 +1301,7 @@
       ]
     },
     {
-      "id": 1950,
+      "id": "MY-01",
       "name": "Johor",
       "stateCode": "01",
       "latitude": 1.4853682,

@@ -1,5 +1,5 @@
 {
-  "id": 186,
+  "id": "LC",
   "name": "Saint Lucia",
   "nativeName": "Saint Lucia",
   "iso2": "LC",
@@ -9,17 +9,17 @@
   "tld": ".lc",
   "latitude": 13.88333333,
   "longitude": -60.96666666,
-  "flagId": 123,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "lc",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    840
+    "XCD"
   ],
   "timezoneIds": [
-    2548
+    "America/St_Lucia"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -57,7 +57,7 @@
     },
     {
       "languageCode": "fr",
-      "name": "Saint-Lucie"
+      "name": "Sainte-Lucie"
     },
     {
       "languageCode": "ja",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3756,
+      "id": "LC-05",
       "name": "Dennery",
       "stateCode": "05",
       "latitude": 13.9267393,
@@ -381,7 +381,7 @@
       ]
     },
     {
-      "id": 3757,
+      "id": "LC-01",
       "name": "Anse la Raye",
       "stateCode": "01",
       "latitude": 13.9459424,
@@ -567,7 +567,7 @@
       ]
     },
     {
-      "id": 3758,
+      "id": "LC-02",
       "name": "Castries",
       "stateCode": "02",
       "latitude": 14.0101094,
@@ -1411,7 +1411,7 @@
       ]
     },
     {
-      "id": 3759,
+      "id": "LC-07",
       "name": "Laborie",
       "stateCode": "07",
       "latitude": 13.7522783,
@@ -1632,7 +1632,7 @@
       ]
     },
     {
-      "id": 3760,
+      "id": "LC-03",
       "name": "Choiseul",
       "stateCode": "03",
       "latitude": 13.7750154,
@@ -1895,7 +1895,7 @@
       ]
     },
     {
-      "id": 3761,
+      "id": "LC-12",
       "name": "Canaries",
       "stateCode": "12",
       "latitude": 28.2915637,
@@ -1962,7 +1962,7 @@
       ]
     },
     {
-      "id": 3762,
+      "id": "LC-08",
       "name": "Micoud",
       "stateCode": "08",
       "latitude": 13.8211871,
@@ -2309,7 +2309,7 @@
       ]
     },
     {
-      "id": 3763,
+      "id": "LC-11",
       "name": "Vieux Fort",
       "stateCode": "11",
       "latitude": 13.720608,
@@ -2628,7 +2628,7 @@
       ]
     },
     {
-      "id": 3764,
+      "id": "LC-10",
       "name": "Soufrière",
       "stateCode": "10",
       "latitude": 13.8570986,
@@ -2982,7 +2982,7 @@
       ]
     },
     {
-      "id": 3765,
+      "id": "LC-09",
       "name": "Praslin",
       "stateCode": "09",
       "latitude": 13.8752392,
@@ -2992,7 +2992,7 @@
       "cities": []
     },
     {
-      "id": 3766,
+      "id": "LC-06",
       "name": "Gros Islet",
       "stateCode": "06",
       "latitude": 14.0843578,
@@ -3577,7 +3577,7 @@
       ]
     },
     {
-      "id": 3767,
+      "id": "LC-04",
       "name": "Dauphin",
       "stateCode": "04",
       "latitude": 14.0103396,

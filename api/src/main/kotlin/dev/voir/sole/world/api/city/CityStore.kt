@@ -1,6 +1,8 @@
 package dev.voir.sole.world.api.city
 
 import dev.voir.sole.world.api.dataset.RawDataset
+import dev.voir.sole.world.api.dataset.index.IdIndex
+import dev.voir.sole.world.api.dataset.index.IdKey
 import dev.voir.sole.world.api.dataset.index.LocalizedIndex
 import dev.voir.sole.world.api.dataset.index.LocalizedName
 import dev.voir.sole.world.api.dataset.index.Page
@@ -40,9 +42,9 @@ class CityStore(dataset: RawDataset) {
 
     private val byId: Map<Long, CityRecord> = records.associateBy { it.id }
 
-    private val byStateId: Map<Long, List<CityRecord>> = records.groupBy { it.stateId }
+    private val byStateId: IdIndex<List<CityRecord>> = IdIndex.grouped(records) { it.stateId }
 
-    private val byCountryId: Map<Long, List<CityRecord>> = records.groupBy { it.countryId }
+    private val byCountryId: IdIndex<List<CityRecord>> = IdIndex.grouped(records) { it.countryId }
 
     private val index = LocalizedIndex(
         records = records,
@@ -83,8 +85,8 @@ class CityStore(dataset: RawDataset) {
         request: PageRequest,
         languageCode: String?,
         query: SearchQuery? = null,
-        countryId: Long? = null,
-        stateId: Long? = null,
+        countryId: String? = null,
+        stateId: String? = null,
     ): Page<CityData> {
         // Narrow by the most selective relationship first so a search scans as little as possible.
         var candidates = when {
@@ -94,7 +96,8 @@ class CityStore(dataset: RawDataset) {
         }
 
         if (stateId != null && countryId != null) {
-            candidates = candidates.filter { it.countryId == countryId }
+            val country = IdKey.of(countryId)
+            candidates = candidates.filter { IdKey.of(it.countryId) == country }
         }
 
         val ordered = if (query == null) {
@@ -115,7 +118,7 @@ class CityStore(dataset: RawDataset) {
      * @return Requested page.
      */
     fun pageByCountryId(
-        countryId: Long,
+        countryId: String,
         request: PageRequest,
         query: SearchQuery?,
         languageCode: String?,
@@ -130,7 +133,7 @@ class CityStore(dataset: RawDataset) {
      * @return Requested page.
      */
     fun pageByStateId(
-        stateId: Long,
+        stateId: String,
         request: PageRequest,
         query: SearchQuery?,
         languageCode: String?,
@@ -170,8 +173,8 @@ class CityStore(dataset: RawDataset) {
  */
 private class CityRecord(
     val id: Long,
-    val stateId: Long,
-    val countryId: Long,
+    val stateId: String,
+    val countryId: String,
     val name: LocalizedName,
     val latitude: Double,
     val longitude: Double,

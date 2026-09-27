@@ -1,5 +1,5 @@
 {
-  "id": 71,
+  "id": "FK",
   "name": "Falkland Islands",
   "nativeName": "Falkland Islands",
   "iso2": "FK",
@@ -9,17 +9,17 @@
   "tld": ".fk",
   "latitude": -51.75,
   "longitude": -59,
-  "flagId": 178,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "fk",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    883
+    "FKP"
   ],
   "timezoneIds": [
-    2373
+    "Atlantic/Stanley"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -37,7 +37,7 @@
     },
     {
       "languageCode": "nl",
-      "name": "Falklandeilanden [Islas Malvinas]"
+      "name": "Falklandeilanden"
     },
     {
       "languageCode": "hr",
@@ -61,11 +61,11 @@
     },
     {
       "languageCode": "ja",
-      "name": "フォークランド（マルビナス）諸島"
+      "name": "フォークランド諸島"
     },
     {
       "languageCode": "it",
-      "name": "Isole Falkland o Isole Malvine"
+      "name": "Isole Falkland"
     },
     {
       "languageCode": "zh-CN",
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Falkland Adalari"
+      "name": "Falkland Adaları"
     },
     {
       "languageCode": "ru",

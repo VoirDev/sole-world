@@ -2,7 +2,7 @@ package dev.voir.sole.world.api.model
 
 /**
  * API model returned for city records.
- * @property id Primary key for the record.
+ * @property id Numeric city identifier. Cities have no public code, so they keep their numbers.
  * @property stateId Parent state or province id.
  * @property name Display name, localized by mapper functions when a language is requested.
  * @property latitude Latitude coordinate in decimal degrees.
@@ -10,7 +10,7 @@ package dev.voir.sole.world.api.model
  */
 data class CityData(
     val id: Long,
-    val stateId: Long,
+    val stateId: String,
     val name: String,
     val latitude: Double,
     val longitude: Double,

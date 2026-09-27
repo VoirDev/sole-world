@@ -1,6 +1,6 @@
 {
-  "id": 58,
-  "name": "Czech Republic",
+  "id": "CZ",
+  "name": "Czechia",
   "nativeName": "Česká republika",
   "iso2": "CZ",
   "iso3": "CZE",
@@ -9,17 +9,17 @@
   "tld": ".cz",
   "latitude": 49.75,
   "longitude": 15.5,
-  "flagId": 195,
-  "regionId": 4,
-  "subregionId": 15,
+  "flagId": "cz",
+  "regionId": "europe",
+  "subregionId": "eastern-europe",
   "currencyIds": [
-    874
+    "CZK"
   ],
   "timezoneIds": [
-    2357
+    "Europe/Prague"
   ],
   "officialLanguageIds": [
-    27
+    "cs"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -29,11 +29,11 @@
     },
     {
       "languageCode": "pt-BR",
-      "name": "República Tcheca"
+      "name": "Tchéquia"
     },
     {
       "languageCode": "pt",
-      "name": "República Checa"
+      "name": "Chéquia"
     },
     {
       "languageCode": "nl",
@@ -45,19 +45,19 @@
     },
     {
       "languageCode": "fa",
-      "name": "جمهوری چک"
+      "name": "چک"
     },
     {
       "languageCode": "de",
-      "name": "Tschechische Republik"
+      "name": "Tschechien"
     },
     {
       "languageCode": "es",
-      "name": "República Checa"
+      "name": "Chequia"
     },
     {
       "languageCode": "fr",
-      "name": "République tchèque"
+      "name": "Tchéquie"
     },
     {
       "languageCode": "ja",
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Repubblica Ceca"
+      "name": "Cechia"
     },
     {
       "languageCode": "zh-CN",
@@ -77,20 +77,20 @@
     },
     {
       "languageCode": "ru",
-      "name": "Чешская Республика"
+      "name": "Чехия"
     },
     {
       "languageCode": "uk",
-      "name": "Чеська Республіка"
+      "name": "Чехія"
     },
     {
       "languageCode": "pl",
-      "name": "Republika Czeska"
+      "name": "Czechy"
     }
   ],
   "states": [
     {
-      "id": 4542,
+      "id": "CZ-644",
       "name": "Břeclav",
       "stateCode": "644",
       "latitude": 48.75314,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 4543,
+      "id": "CZ-312",
       "name": "Český Krumlov",
       "stateCode": "312",
       "latitude": 48.8127354,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 4544,
+      "id": "CZ-323",
       "name": "Plzeň-město",
       "stateCode": "323",
       "latitude": 49.7384314,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 4545,
+      "id": "CZ-643",
       "name": "Brno-venkov",
       "stateCode": "643",
       "latitude": 49.1250138,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 4546,
+      "id": "CZ-20B",
       "name": "Příbram",
       "stateCode": "20B",
       "latitude": 49.6947959,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 4547,
+      "id": "CZ-532",
       "name": "Pardubice",
       "stateCode": "532",
       "latitude": 49.9444479,
@@ -150,7 +150,7 @@
       "cities": []
     },
     {
-      "id": 4548,
+      "id": "CZ-804",
       "name": "Nový Jičín",
       "stateCode": "804",
       "latitude": 49.5943251,
@@ -160,7 +160,7 @@
       "cities": []
     },
     {
-      "id": 4550,
+      "id": "CZ-523",
       "name": "Náchod",
       "stateCode": "523",
       "latitude": 50.4145722,
@@ -170,7 +170,7 @@
       "cities": []
     },
     {
-      "id": 4551,
+      "id": "CZ-713",
       "name": "Prostějov",
       "stateCode": "713",
       "latitude": 49.4418401,
@@ -180,7 +180,7 @@
       "cities": []
     },
     {
-      "id": 4552,
+      "id": "CZ-72",
       "name": "Zlínský kraj",
       "stateCode": "72",
       "latitude": 49.2162296,
@@ -190,7 +190,7 @@
       "cities": []
     },
     {
-      "id": 4553,
+      "id": "CZ-422",
       "name": "Chomutov",
       "stateCode": "422",
       "latitude": 50.4583872,
@@ -200,7 +200,7 @@
       "cities": []
     },
     {
-      "id": 4554,
+      "id": "CZ-20",
       "name": "Středočeský kraj",
       "stateCode": "20",
       "latitude": 49.8782223,
@@ -1548,7 +1548,7 @@
       ]
     },
     {
-      "id": 4556,
+      "id": "CZ-311",
       "name": "České Budějovice",
       "stateCode": "311",
       "latitude": 48.9775553,
@@ -1558,7 +1558,7 @@
       "cities": []
     },
     {
-      "id": 4558,
+      "id": "CZ-20C",
       "name": "Rakovník",
       "stateCode": "20C",
       "latitude": 50.106123,
@@ -1568,7 +1568,7 @@
       "cities": []
     },
     {
-      "id": 4559,
+      "id": "CZ-802",
       "name": "Frýdek-Místek",
       "stateCode": "802",
       "latitude": 49.6819305,
@@ -1578,7 +1578,7 @@
       "cities": []
     },
     {
-      "id": 4560,
+      "id": "CZ-314",
       "name": "Písek",
       "stateCode": "314",
       "latitude": 49.3419938,
@@ -1588,7 +1588,7 @@
       "cities": []
     },
     {
-      "id": 4561,
+      "id": "CZ-645",
       "name": "Hodonín",
       "stateCode": "645",
       "latitude": 48.8529391,
@@ -1598,7 +1598,7 @@
       "cities": []
     },
     {
-      "id": 4563,
+      "id": "CZ-724",
       "name": "Zlín",
       "stateCode": "724",
       "latitude": 49.1696052,
@@ -2302,7 +2302,7 @@
       ]
     },
     {
-      "id": 4564,
+      "id": "CZ-325",
       "name": "Plzeň-sever",
       "stateCode": "325",
       "latitude": 49.8774893,
@@ -2312,7 +2312,7 @@
       "cities": []
     },
     {
-      "id": 4565,
+      "id": "CZ-317",
       "name": "Tábor",
       "stateCode": "317",
       "latitude": 49.3646293,
@@ -2322,7 +2322,7 @@
       "cities": []
     },
     {
-      "id": 4568,
+      "id": "CZ-642",
       "name": "Brno-město",
       "stateCode": "642",
       "latitude": 49.1950602,
@@ -2332,7 +2332,7 @@
       "cities": []
     },
     {
-      "id": 4571,
+      "id": "CZ-533",
       "name": "Svitavy",
       "stateCode": "533",
       "latitude": 49.7551629,
@@ -2342,7 +2342,7 @@
       "cities": []
     },
     {
-      "id": 4572,
+      "id": "CZ-723",
       "name": "Vsetín",
       "stateCode": "723",
       "latitude": 49.379325,
@@ -2352,7 +2352,7 @@
       "cities": []
     },
     {
-      "id": 4573,
+      "id": "CZ-411",
       "name": "Cheb",
       "stateCode": "411",
       "latitude": 50.0795334,
@@ -2362,7 +2362,7 @@
       "cities": []
     },
     {
-      "id": 4574,
+      "id": "CZ-712",
       "name": "Olomouc",
       "stateCode": "712",
       "latitude": 49.593778,
@@ -2372,7 +2372,7 @@
       "cities": []
     },
     {
-      "id": 4575,
+      "id": "CZ-63",
       "name": "Kraj Vysočina",
       "stateCode": "63",
       "latitude": 49.4490052,
@@ -2852,7 +2852,7 @@
       ]
     },
     {
-      "id": 4576,
+      "id": "CZ-42",
       "name": "Ústecký kraj",
       "stateCode": "42",
       "latitude": 50.6119037,
@@ -3514,7 +3514,7 @@
       ]
     },
     {
-      "id": 4578,
+      "id": "CZ-315",
       "name": "Prachatice",
       "stateCode": "315",
       "latitude": 49.01091,
@@ -3524,7 +3524,7 @@
       "cities": []
     },
     {
-      "id": 4579,
+      "id": "CZ-525",
       "name": "Trutnov",
       "stateCode": "525",
       "latitude": 50.5653838,
@@ -3534,7 +3534,7 @@
       "cities": []
     },
     {
-      "id": 4580,
+      "id": "CZ-521",
       "name": "Hradec Králové",
       "stateCode": "521",
       "latitude": 50.2414805,
@@ -3544,7 +3544,7 @@
       "cities": []
     },
     {
-      "id": 4581,
+      "id": "CZ-41",
       "name": "Karlovarský kraj",
       "stateCode": "41",
       "latitude": 50.1435,
@@ -3877,7 +3877,7 @@
       ]
     },
     {
-      "id": 4582,
+      "id": "CZ-208",
       "name": "Nymburk",
       "stateCode": "208",
       "latitude": 50.1855816,
@@ -3887,7 +3887,7 @@
       "cities": []
     },
     {
-      "id": 4583,
+      "id": "CZ-326",
       "name": "Rokycany",
       "stateCode": "326",
       "latitude": 49.8262827,
@@ -3897,7 +3897,7 @@
       "cities": []
     },
     {
-      "id": 4584,
+      "id": "CZ-806",
       "name": "Ostrava-město",
       "stateCode": "806",
       "latitude": 49.8209226,
@@ -3907,7 +3907,7 @@
       "cities": []
     },
     {
-      "id": 4586,
+      "id": "CZ-803",
       "name": "Karviná",
       "stateCode": "803",
       "latitude": 49.8566524,
@@ -3917,7 +3917,7 @@
       "cities": []
     },
     {
-      "id": 4588,
+      "id": "CZ-53",
       "name": "Pardubický kraj",
       "stateCode": "53",
       "latitude": 49.9444479,
@@ -4453,7 +4453,7 @@
       ]
     },
     {
-      "id": 4589,
+      "id": "CZ-71",
       "name": "Olomoucký kraj",
       "stateCode": "71",
       "latitude": 49.6586549,
@@ -5262,7 +5262,7 @@
       ]
     },
     {
-      "id": 4590,
+      "id": "CZ-513",
       "name": "Liberec",
       "stateCode": "513",
       "latitude": 50.7564101,
@@ -5272,7 +5272,7 @@
       "cities": []
     },
     {
-      "id": 4591,
+      "id": "CZ-322",
       "name": "Klatovy",
       "stateCode": "322",
       "latitude": 49.3955549,
@@ -5282,7 +5282,7 @@
       "cities": []
     },
     {
-      "id": 4592,
+      "id": "CZ-722",
       "name": "Uherské Hradiště",
       "stateCode": "722",
       "latitude": 49.0597969,
@@ -5292,7 +5292,7 @@
       "cities": []
     },
     {
-      "id": 4593,
+      "id": "CZ-721",
       "name": "Kroměříž",
       "stateCode": "721",
       "latitude": 49.2916582,
@@ -5302,7 +5302,7 @@
       "cities": []
     },
     {
-      "id": 4595,
+      "id": "CZ-413",
       "name": "Sokolov",
       "stateCode": "413",
       "latitude": 50.2013434,
@@ -5312,7 +5312,7 @@
       "cities": []
     },
     {
-      "id": 4596,
+      "id": "CZ-514",
       "name": "Semily",
       "stateCode": "514",
       "latitude": 50.6051576,
@@ -5322,7 +5322,7 @@
       "cities": []
     },
     {
-      "id": 4597,
+      "id": "CZ-634",
       "name": "Třebíč",
       "stateCode": "634",
       "latitude": 49.2147869,
@@ -5332,7 +5332,7 @@
       "cities": []
     },
     {
-      "id": 4598,
+      "id": "CZ-10",
       "name": "Praha, Hlavní město",
       "stateCode": "10",
       "latitude": 50.0755381,
@@ -5504,7 +5504,7 @@
       ]
     },
     {
-      "id": 4599,
+      "id": "CZ-427",
       "name": "Ústí nad Labem",
       "stateCode": "427",
       "latitude": 50.6119037,
@@ -5514,7 +5514,7 @@
       "cities": []
     },
     {
-      "id": 4600,
+      "id": "CZ-80",
       "name": "Moravskoslezský kraj",
       "stateCode": "80",
       "latitude": 49.7305327,
@@ -6568,7 +6568,7 @@
       ]
     },
     {
-      "id": 4601,
+      "id": "CZ-51",
       "name": "Liberecký kraj",
       "stateCode": "51",
       "latitude": 50.659424,
@@ -6992,7 +6992,7 @@
       ]
     },
     {
-      "id": 4602,
+      "id": "CZ-64",
       "name": "Jihomoravský kraj",
       "stateCode": "64",
       "latitude": 48.9544528,
@@ -8200,7 +8200,7 @@
       ]
     },
     {
-      "id": 4604,
+      "id": "CZ-412",
       "name": "Karlovy Vary",
       "stateCode": "412",
       "latitude": 50.1435,
@@ -8210,7 +8210,7 @@
       "cities": []
     },
     {
-      "id": 4605,
+      "id": "CZ-423",
       "name": "Litoměřice",
       "stateCode": "423",
       "latitude": 50.5384197,
@@ -8220,7 +8220,7 @@
       "cities": []
     },
     {
-      "id": 4606,
+      "id": "CZ-209",
       "name": "Praha-východ",
       "stateCode": "209",
       "latitude": 49.9389307,
@@ -8230,7 +8230,7 @@
       "cities": []
     },
     {
-      "id": 4607,
+      "id": "CZ-32",
       "name": "Plzeňský kraj",
       "stateCode": "32",
       "latitude": 49.4134812,
@@ -8240,7 +8240,7 @@
       "cities": []
     },
     {
-      "id": 4608,
+      "id": "CZ-324",
       "name": "Plzeň-jih",
       "stateCode": "324",
       "latitude": 49.5904885,
@@ -8874,7 +8874,7 @@
       ]
     },
     {
-      "id": 4609,
+      "id": "CZ-421",
       "name": "Děčín",
       "stateCode": "421",
       "latitude": 50.7725563,
@@ -8884,7 +8884,7 @@
       "cities": []
     },
     {
-      "id": 4611,
+      "id": "CZ-631",
       "name": "Havlíčkův Brod",
       "stateCode": "631",
       "latitude": 49.6043364,
@@ -8894,7 +8894,7 @@
       "cities": []
     },
     {
-      "id": 4612,
+      "id": "CZ-512",
       "name": "Jablonec nad Nisou",
       "stateCode": "512",
       "latitude": 50.7220528,
@@ -8904,7 +8904,7 @@
       "cities": []
     },
     {
-      "id": 4613,
+      "id": "CZ-632",
       "name": "Jihlava",
       "stateCode": "632",
       "latitude": 49.3983782,
@@ -8914,7 +8914,7 @@
       "cities": []
     },
     {
-      "id": 4614,
+      "id": "CZ-52",
       "name": "Královéhradecký kraj",
       "stateCode": "52",
       "latitude": 50.3512484,
@@ -9464,7 +9464,7 @@
       ]
     },
     {
-      "id": 4615,
+      "id": "CZ-641",
       "name": "Blansko",
       "stateCode": "641",
       "latitude": 49.3648502,
@@ -9474,7 +9474,7 @@
       "cities": []
     },
     {
-      "id": 4617,
+      "id": "CZ-424",
       "name": "Louny",
       "stateCode": "424",
       "latitude": 50.3539812,
@@ -9484,7 +9484,7 @@
       "cities": []
     },
     {
-      "id": 4618,
+      "id": "CZ-204",
       "name": "Kolín",
       "stateCode": "204",
       "latitude": 49.9883293,
@@ -9494,7 +9494,7 @@
       "cities": []
     },
     {
-      "id": 4619,
+      "id": "CZ-20A",
       "name": "Praha-západ",
       "stateCode": "20A",
       "latitude": 49.8935235,
@@ -9504,7 +9504,7 @@
       "cities": []
     },
     {
-      "id": 4620,
+      "id": "CZ-202",
       "name": "Beroun",
       "stateCode": "202",
       "latitude": 49.9573428,
@@ -9514,7 +9514,7 @@
       "cities": []
     },
     {
-      "id": 4621,
+      "id": "CZ-426",
       "name": "Teplice",
       "stateCode": "426",
       "latitude": 50.6584605,
@@ -9524,7 +9524,7 @@
       "cities": []
     },
     {
-      "id": 4622,
+      "id": "CZ-646",
       "name": "Vyškov",
       "stateCode": "646",
       "latitude": 49.2127445,
@@ -9534,7 +9534,7 @@
       "cities": []
     },
     {
-      "id": 4623,
+      "id": "CZ-805",
       "name": "Opava",
       "stateCode": "805",
       "latitude": 49.9083757,
@@ -9544,7 +9544,7 @@
       "cities": []
     },
     {
-      "id": 4624,
+      "id": "CZ-313",
       "name": "Jindřichův Hradec",
       "stateCode": "313",
       "latitude": 49.1444823,
@@ -9554,7 +9554,7 @@
       "cities": []
     },
     {
-      "id": 4625,
+      "id": "CZ-711",
       "name": "Jeseník",
       "stateCode": "711",
       "latitude": 50.2246249,
@@ -9564,7 +9564,7 @@
       "cities": []
     },
     {
-      "id": 4626,
+      "id": "CZ-714",
       "name": "Přerov",
       "stateCode": "714",
       "latitude": 49.4671356,
@@ -9574,7 +9574,7 @@
       "cities": []
     },
     {
-      "id": 4627,
+      "id": "CZ-201",
       "name": "Benešov",
       "stateCode": "201",
       "latitude": 49.6900828,
@@ -9584,7 +9584,7 @@
       "cities": []
     },
     {
-      "id": 4628,
+      "id": "CZ-316",
       "name": "Strakonice",
       "stateCode": "316",
       "latitude": 49.2604043,
@@ -9594,7 +9594,7 @@
       "cities": []
     },
     {
-      "id": 4629,
+      "id": "CZ-425",
       "name": "Most",
       "stateCode": "425",
       "latitude": 37.1554083,
@@ -9604,7 +9604,7 @@
       "cities": []
     },
     {
-      "id": 4630,
+      "id": "CZ-647",
       "name": "Znojmo",
       "stateCode": "647",
       "latitude": 48.9272327,
@@ -9614,7 +9614,7 @@
       "cities": []
     },
     {
-      "id": 4631,
+      "id": "CZ-203",
       "name": "Kladno",
       "stateCode": "203",
       "latitude": 50.1940258,
@@ -9624,7 +9624,7 @@
       "cities": []
     },
     {
-      "id": 4633,
+      "id": "CZ-511",
       "name": "Česká Lípa",
       "stateCode": "511",
       "latitude": 50.6785201,
@@ -9634,7 +9634,7 @@
       "cities": []
     },
     {
-      "id": 4634,
+      "id": "CZ-531",
       "name": "Chrudim",
       "stateCode": "531",
       "latitude": 49.8830216,
@@ -9644,7 +9644,7 @@
       "cities": []
     },
     {
-      "id": 4636,
+      "id": "CZ-524",
       "name": "Rychnov nad Kněžnou",
       "stateCode": "524",
       "latitude": 50.1659651,
@@ -9654,7 +9654,7 @@
       "cities": []
     },
     {
-      "id": 4638,
+      "id": "CZ-206",
       "name": "Mělník",
       "stateCode": "206",
       "latitude": 50.3104415,
@@ -9664,7 +9664,7 @@
       "cities": []
     },
     {
-      "id": 4639,
+      "id": "CZ-31",
       "name": "Jihočeský kraj",
       "stateCode": "31",
       "latitude": 48.9457789,
@@ -10389,7 +10389,7 @@
       ]
     },
     {
-      "id": 4640,
+      "id": "CZ-522",
       "name": "Jičín",
       "stateCode": "522",
       "latitude": 50.4353325,
@@ -10399,7 +10399,7 @@
       "cities": []
     },
     {
-      "id": 4641,
+      "id": "CZ-321",
       "name": "Domažlice",
       "stateCode": "321",
       "latitude": 49.4397027,
@@ -10409,7 +10409,7 @@
       "cities": []
     },
     {
-      "id": 4642,
+      "id": "CZ-715",
       "name": "Šumperk",
       "stateCode": "715",
       "latitude": 49.9778407,
@@ -10419,7 +10419,7 @@
       "cities": []
     },
     {
-      "id": 4643,
+      "id": "CZ-207",
       "name": "Mladá Boleslav",
       "stateCode": "207",
       "latitude": 50.4252317,
@@ -10429,7 +10429,7 @@
       "cities": []
     },
     {
-      "id": 4644,
+      "id": "CZ-801",
       "name": "Bruntál",
       "stateCode": "801",
       "latitude": 49.9881767,
@@ -10439,7 +10439,7 @@
       "cities": []
     },
     {
-      "id": 4645,
+      "id": "CZ-633",
       "name": "Pelhřimov",
       "stateCode": "633",
       "latitude": 49.4306207,
@@ -10449,7 +10449,7 @@
       "cities": []
     },
     {
-      "id": 4646,
+      "id": "CZ-327",
       "name": "Tachov",
       "stateCode": "327",
       "latitude": 49.7987803,
@@ -10459,7 +10459,7 @@
       "cities": []
     },
     {
-      "id": 4647,
+      "id": "CZ-534",
       "name": "Ústí nad Orlicí",
       "stateCode": "534",
       "latitude": 49.9721801,
@@ -10469,7 +10469,7 @@
       "cities": []
     },
     {
-      "id": 4648,
+      "id": "CZ-635",
       "name": "Žďár nad Sázavou",
       "stateCode": "635",
       "latitude": 49.5643012,
@@ -10479,7 +10479,7 @@
       "cities": []
     },
     {
-      "id": 4923,
+      "id": "CZ-205",
       "name": "Kutná Hora",
       "stateCode": "205",
       "latitude": 49.9492089,

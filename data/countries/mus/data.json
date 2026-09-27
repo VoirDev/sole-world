@@ -1,5 +1,5 @@
 {
-  "id": 140,
+  "id": "MU",
   "name": "Mauritius",
   "nativeName": "Maurice",
   "iso2": "MU",
@@ -9,18 +9,18 @@
   "tld": ".mu",
   "latitude": -20.28333333,
   "longitude": 57.55,
-  "flagId": 97,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "mu",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    922
+    "MUR"
   ],
   "timezoneIds": [
-    2457
+    "Indian/Mauritius"
   ],
   "officialLanguageIds": [
-    30,
-    33
+    "en",
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 3248,
+      "id": "MU-AG",
       "name": "Agalega Islands",
       "stateCode": "AG",
       "latitude": -10.4,
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "id": 3249,
+      "id": "MU-RO",
       "name": "Rodrigues Island",
       "stateCode": "RO",
       "latitude": -19.7245385,
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "id": 3250,
+      "id": "MU-PA",
       "name": "Pamplemousses",
       "stateCode": "PA",
       "latitude": -20.1136008,
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "id": 3251,
+      "id": "MU-CC",
       "name": "Saint Brandon Islands",
       "stateCode": "CC",
       "latitude": -16.583333,
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "id": 3253,
+      "id": "MU-MO",
       "name": "Moka",
       "stateCode": "MO",
       "latitude": -20.2399782,
@@ -419,7 +419,7 @@
       ]
     },
     {
-      "id": 3254,
+      "id": "MU-FL",
       "name": "Flacq",
       "stateCode": "FL",
       "latitude": -20.2257836,
@@ -605,7 +605,7 @@
       ]
     },
     {
-      "id": 3257,
+      "id": "MU-SA",
       "name": "Savanne",
       "stateCode": "SA",
       "latitude": -20.473953,
@@ -735,7 +735,7 @@
       ]
     },
     {
-      "id": 3259,
+      "id": "MU-BL",
       "name": "Black River",
       "stateCode": "BL",
       "latitude": -20.3708492,
@@ -851,7 +851,7 @@
       ]
     },
     {
-      "id": 3260,
+      "id": "MU-PL",
       "name": "Port Louis",
       "stateCode": "PL",
       "latitude": -20.1608912,
@@ -953,7 +953,7 @@
       ]
     },
     {
-      "id": 3261,
+      "id": "MU-RR",
       "name": "Rivière du Rempart",
       "stateCode": "RR",
       "latitude": -20.0560983,
@@ -1090,7 +1090,7 @@
       ]
     },
     {
-      "id": 3263,
+      "id": "MU-PW",
       "name": "Plaines Wilhems",
       "stateCode": "PW",
       "latitude": -20.3054872,
@@ -1241,7 +1241,7 @@
       ]
     },
     {
-      "id": 3264,
+      "id": "MU-GP",
       "name": "Grand Port",
       "stateCode": "GP",
       "latitude": -20.3851546,

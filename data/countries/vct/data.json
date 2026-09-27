@@ -1,5 +1,5 @@
 {
-  "id": 188,
+  "id": "VC",
   "name": "Saint Vincent and the Grenadines",
   "nativeName": "Saint Vincent and the Grenadines",
   "iso2": "VC",
@@ -9,17 +9,17 @@
   "tld": ".vc",
   "latitude": 13.25,
   "longitude": -61.2,
-  "flagId": 14,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "vc",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    840
+    "XCD"
   ],
   "timezoneIds": [
-    2550
+    "America/St_Vincent"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "سنت وینسنت و گرنادین‌ها"
+      "name": "سنت وینسنت و گرنادین"
     },
     {
       "languageCode": "de",
@@ -53,11 +53,11 @@
     },
     {
       "languageCode": "es",
-      "name": "San Vicente y Granadinas"
+      "name": "San Vicente y las Granadinas"
     },
     {
       "languageCode": "fr",
-      "name": "Saint-Vincent-et-les-Grenadines"
+      "name": "Saint-Vincent-et-les Grenadines"
     },
     {
       "languageCode": "ja",
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Saint Vincent Ve Grenadinler"
+      "name": "Saint Vincent ve Grenadinler"
     },
     {
       "languageCode": "ru",
@@ -81,7 +81,7 @@
     },
     {
       "languageCode": "uk",
-      "name": "Сент-Вінсент і Гренадини"
+      "name": "Сент-Вінсент і Гренадіни"
     },
     {
       "languageCode": "pl",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3384,
+      "id": "VC-04",
       "name": "Saint George",
       "stateCode": "04",
       "latitude": 42.957609,
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": 3385,
+      "id": "VC-05",
       "name": "Saint Patrick",
       "stateCode": "05",
       "latitude": 39.7509186,
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": 3386,
+      "id": "VC-02",
       "name": "Saint Andrew",
       "stateCode": "02",
       "latitude": 43.0242999,
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": 3387,
+      "id": "VC-03",
       "name": "Saint David",
       "stateCode": "03",
       "latitude": 43.8523095,
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "id": 3388,
+      "id": "VC-06",
       "name": "Grenadines",
       "stateCode": "06",
       "latitude": 13.0122965,
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "id": 3389,
+      "id": "VC-01",
       "name": "Charlotte",
       "stateCode": "01",
       "latitude": 13.2175451,

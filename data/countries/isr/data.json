@@ -1,7 +1,7 @@
 {
-  "id": 106,
+  "id": "IL",
   "name": "Israel",
-  "nativeName": "יִשְׂרָאֵל",
+  "nativeName": "ישראל",
   "iso2": "IL",
   "iso3": "ISR",
   "numericCode": "376",
@@ -9,20 +9,20 @@
   "tld": ".il",
   "latitude": 31.5,
   "longitude": 34.75,
-  "flagId": 147,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "il",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    902
+    "ILS"
   ],
   "timezoneIds": [
-    2415
+    "Asia/Jerusalem"
   ],
   "officialLanguageIds": [
-    36
+    "he"
   ],
   "otherLanguageIds": [
-    7
+    "ar"
   ],
   "translations": [
     {
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 1366,
+      "id": "IL-Z",
       "name": "Northern",
       "stateCode": "Z",
       "latitude": 36.1511864,
@@ -495,7 +495,7 @@
       ]
     },
     {
-      "id": 1367,
+      "id": "IL-M",
       "name": "Central",
       "stateCode": "M",
       "latitude": 47.6087583,
@@ -786,7 +786,7 @@
       ]
     },
     {
-      "id": 1368,
+      "id": "IL-D",
       "name": "Southern",
       "stateCode": "D",
       "latitude": 40.7137586,
@@ -909,7 +909,7 @@
       ]
     },
     {
-      "id": 1369,
+      "id": "IL-HA",
       "name": "Haifa",
       "stateCode": "HA",
       "latitude": 32.4814111,
@@ -1025,7 +1025,7 @@
       ]
     },
     {
-      "id": 1370,
+      "id": "IL-JM",
       "name": "Jerusalem",
       "stateCode": "JM",
       "latitude": 31.7648243,
@@ -1092,7 +1092,7 @@
       ]
     },
     {
-      "id": 1371,
+      "id": "IL-TA",
       "name": "Tel Aviv",
       "stateCode": "TA",
       "latitude": 32.0929075,

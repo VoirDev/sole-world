@@ -1,5 +1,5 @@
 {
-  "id": 202,
+  "id": "SB",
   "name": "Solomon Islands",
   "nativeName": "Solomon Islands",
   "iso2": "SB",
@@ -9,17 +9,17 @@
   "tld": ".sb",
   "latitude": -8,
   "longitude": 159,
-  "flagId": 57,
-  "regionId": 5,
-  "subregionId": 20,
+  "flagId": "sb",
+  "regionId": "oceania",
+  "subregionId": "melanesia",
   "currencyIds": [
-    956
+    "SBD"
   ],
   "timezoneIds": [
-    2563
+    "Pacific/Guadalcanal"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Solomon Adalari"
+      "name": "Solomon Adaları"
     },
     {
       "languageCode": "ru",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4778,
+      "id": "SB-CT",
       "name": "Honiara",
       "stateCode": "CT",
       "latitude": -9.4456381,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 4779,
+      "id": "SB-TE",
       "name": "Temotu",
       "stateCode": "TE",
       "latitude": -10.686929,
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "id": 4780,
+      "id": "SB-IS",
       "name": "Isabel",
       "stateCode": "IS",
       "latitude": -8.0592353,
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": 4781,
+      "id": "SB-CH",
       "name": "Choiseul",
       "stateCode": "CH",
       "latitude": -7.0501494,
@@ -146,7 +146,7 @@
       "cities": []
     },
     {
-      "id": 4782,
+      "id": "SB-MK",
       "name": "Makira-Ulawa",
       "stateCode": "MK",
       "latitude": -10.5737447,
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "id": 4783,
+      "id": "SB-ML",
       "name": "Malaita",
       "stateCode": "ML",
       "latitude": -8.9446168,
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "id": 4784,
+      "id": "SB-CE",
       "name": "Central",
       "stateCode": "CE",
       "latitude": null,
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "id": 4785,
+      "id": "SB-GU",
       "name": "Guadalcanal",
       "stateCode": "GU",
       "latitude": -9.5773284,
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "id": 4786,
+      "id": "SB-WE",
       "name": "Western",
       "stateCode": "WE",
       "latitude": null,
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "id": 4787,
+      "id": "SB-RB",
       "name": "Rennell and Bellona",
       "stateCode": "RB",
       "latitude": -11.6131435,

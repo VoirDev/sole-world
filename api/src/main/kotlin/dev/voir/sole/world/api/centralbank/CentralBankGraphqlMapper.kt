@@ -8,7 +8,7 @@ import dev.voir.sole.world.graphql.dto.types.CentralBank
  * @return GraphQL central bank type.
  */
 fun CentralBankData.toGql() = CentralBank(
-    id = id.toString(),
+    id = id,
     name = name,
     nativeName = nativeName,
     websiteUrl = websiteURL,

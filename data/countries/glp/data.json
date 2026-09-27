@@ -1,5 +1,5 @@
 {
-  "id": 88,
+  "id": "GP",
   "name": "Guadeloupe",
   "nativeName": "Guadeloupe",
   "iso2": "GP",
@@ -9,17 +9,17 @@
   "tld": ".gp",
   "latitude": 16.25,
   "longitude": -61.583333,
-  "flagId": 162,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "gp",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2395
+    "America/Guadeloupe"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "جزیره گوادلوپ"
+      "name": "گوادلوپ"
     },
     {
       "languageCode": "de",
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Guadeloupa"
+      "name": "Guadalupa"
     },
     {
       "languageCode": "zh-CN",

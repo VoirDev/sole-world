@@ -1,5 +1,5 @@
 {
-  "id": 34,
+  "id": "BG",
   "name": "Bulgaria",
   "nativeName": "България",
   "iso2": "BG",
@@ -9,17 +9,17 @@
   "tld": ".bg",
   "latitude": 43,
   "longitude": 25,
-  "flagId": 227,
-  "regionId": 4,
-  "subregionId": 15,
+  "flagId": "bg",
+  "regionId": "europe",
+  "subregionId": "eastern-europe",
   "currencyIds": [
-    859
+    "BGN"
   ],
   "timezoneIds": [
-    2302
+    "Europe/Sofia"
   ],
   "officialLanguageIds": [
-    23
+    "bg"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 4693,
+      "id": "BG-07",
       "name": "Gabrovo",
       "stateCode": "07",
       "latitude": 42.86847,
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "id": 4694,
+      "id": "BG-21",
       "name": "Smolyan",
       "stateCode": "21",
       "latitude": 41.5774148,
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "id": 4695,
+      "id": "BG-14",
       "name": "Pernik",
       "stateCode": "14",
       "latitude": 42.605199,
@@ -396,7 +396,7 @@
       ]
     },
     {
-      "id": 4696,
+      "id": "BG-12",
       "name": "Montana",
       "stateCode": "12",
       "latitude": 43.4085148,
@@ -533,7 +533,7 @@
       ]
     },
     {
-      "id": 4697,
+      "id": "BG-05",
       "name": "Vidin",
       "stateCode": "05",
       "latitude": 43.9961739,
@@ -684,7 +684,7 @@
       ]
     },
     {
-      "id": 4698,
+      "id": "BG-17",
       "name": "Razgrad",
       "stateCode": "17",
       "latitude": 43.5271705,
@@ -800,7 +800,7 @@
       ]
     },
     {
-      "id": 4699,
+      "id": "BG-01",
       "name": "Blagoevgrad",
       "stateCode": "01",
       "latitude": 42.0208614,
@@ -1014,7 +1014,7 @@
       ]
     },
     {
-      "id": 4700,
+      "id": "BG-20",
       "name": "Sliven",
       "stateCode": "20",
       "latitude": 42.6816702,
@@ -1088,7 +1088,7 @@
       ]
     },
     {
-      "id": 4701,
+      "id": "BG-16",
       "name": "Plovdiv",
       "stateCode": "16",
       "latitude": 42.1354079,
@@ -1337,7 +1337,7 @@
       ]
     },
     {
-      "id": 4702,
+      "id": "BG-09",
       "name": "Kardzhali",
       "stateCode": "09",
       "latitude": 41.6338416,
@@ -1425,7 +1425,7 @@
       ]
     },
     {
-      "id": 4703,
+      "id": "BG-10",
       "name": "Kyustendil",
       "stateCode": "10",
       "latitude": 42.2868799,
@@ -1555,7 +1555,7 @@
       ]
     },
     {
-      "id": 4704,
+      "id": "BG-26",
       "name": "Haskovo",
       "stateCode": "26",
       "latitude": 41.9344178,
@@ -1699,7 +1699,7 @@
       ]
     },
     {
-      "id": 4705,
+      "id": "BG-22",
       "name": "Sofia City",
       "stateCode": "22",
       "latitude": 42.7570109,
@@ -1731,7 +1731,7 @@
       ]
     },
     {
-      "id": 4706,
+      "id": "BG-15",
       "name": "Pleven",
       "stateCode": "15",
       "latitude": 43.4170169,
@@ -1910,7 +1910,7 @@
       ]
     },
     {
-      "id": 4707,
+      "id": "BG-24",
       "name": "Stara Zagora",
       "stateCode": "24",
       "latitude": 42.4257709,
@@ -2075,7 +2075,7 @@
       ]
     },
     {
-      "id": 4708,
+      "id": "BG-19",
       "name": "Silistra",
       "stateCode": "19",
       "latitude": 44.1147101,
@@ -2184,7 +2184,7 @@
       ]
     },
     {
-      "id": 4709,
+      "id": "BG-04",
       "name": "Veliko Tarnovo",
       "stateCode": "04",
       "latitude": 43.0756539,
@@ -2363,7 +2363,7 @@
       ]
     },
     {
-      "id": 4710,
+      "id": "BG-11",
       "name": "Lovech",
       "stateCode": "11",
       "latitude": 43.1367798,
@@ -2451,7 +2451,7 @@
       ]
     },
     {
-      "id": 4711,
+      "id": "BG-06",
       "name": "Vratsa",
       "stateCode": "06",
       "latitude": 43.2101806,
@@ -2595,7 +2595,7 @@
       ]
     },
     {
-      "id": 4712,
+      "id": "BG-13",
       "name": "Pazardzhik",
       "stateCode": "13",
       "latitude": 42.1927567,
@@ -2774,7 +2774,7 @@
       ]
     },
     {
-      "id": 4713,
+      "id": "BG-18",
       "name": "Ruse",
       "stateCode": "18",
       "latitude": 43.8355964,
@@ -2897,7 +2897,7 @@
       ]
     },
     {
-      "id": 4714,
+      "id": "BG-25",
       "name": "Targovishte",
       "stateCode": "25",
       "latitude": 43.2462349,
@@ -2978,7 +2978,7 @@
       ]
     },
     {
-      "id": 4715,
+      "id": "BG-02",
       "name": "Burgas",
       "stateCode": "02",
       "latitude": 42.5048,
@@ -3213,7 +3213,7 @@
       ]
     },
     {
-      "id": 4716,
+      "id": "BG-28",
       "name": "Yambol",
       "stateCode": "28",
       "latitude": 42.4841494,
@@ -3287,7 +3287,7 @@
       ]
     },
     {
-      "id": 4717,
+      "id": "BG-03",
       "name": "Varna",
       "stateCode": "03",
       "latitude": 43.2046477,
@@ -3487,7 +3487,7 @@
       ]
     },
     {
-      "id": 4718,
+      "id": "BG-08",
       "name": "Dobrich",
       "stateCode": "08",
       "latitude": 43.572786,
@@ -3603,7 +3603,7 @@
       ]
     },
     {
-      "id": 4719,
+      "id": "BG-23",
       "name": "Sofia",
       "stateCode": "23",
       "latitude": 42.67344,
@@ -3908,7 +3908,7 @@
       ]
     },
     {
-      "id": 4882,
+      "id": "BG-27",
       "name": "Shumen",
       "stateCode": "27",
       "latitude": 43.2712398,

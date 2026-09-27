@@ -1,5 +1,5 @@
 {
-  "id": 80,
+  "id": "GM",
   "name": "The Gambia",
   "nativeName": "Gambia",
   "iso2": "GM",
@@ -9,17 +9,17 @@
   "tld": ".gm",
   "latitude": 13.46666666,
   "longitude": -16.56666666,
-  "flagId": 164,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "gm",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    971
+    "GMD"
   ],
   "timezoneIds": [
-    2584
+    "Africa/Banjul"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -81,16 +81,16 @@
     },
     {
       "languageCode": "uk",
-      "name": "Гамбія The"
+      "name": "Гамбія"
     },
     {
       "languageCode": "pl",
-      "name": "Gambia The"
+      "name": "Gambia"
     }
   ],
   "states": [
     {
-      "id": 2666,
+      "id": "GM-B",
       "name": "Banjul",
       "stateCode": "B",
       "latitude": 13.4548761,
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": 2667,
+      "id": "GM-W",
       "name": "West Coast",
       "stateCode": "W",
       "latitude": 5.9772798,
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "id": 2668,
+      "id": "GM-U",
       "name": "Upper River",
       "stateCode": "U",
       "latitude": 13.4257366,
@@ -382,7 +382,7 @@
       ]
     },
     {
-      "id": 2669,
+      "id": "GM-M",
       "name": "Central River",
       "stateCode": "M",
       "latitude": 13.5994469,
@@ -575,7 +575,7 @@
       ]
     },
     {
-      "id": 2670,
+      "id": "GM-L",
       "name": "Lower River",
       "stateCode": "L",
       "latitude": 13.3553306,
@@ -740,7 +740,7 @@
       ]
     },
     {
-      "id": 2671,
+      "id": "GM-N",
       "name": "North Bank",
       "stateCode": "N",
       "latitude": 13.5285436,

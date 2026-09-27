@@ -1,5 +1,5 @@
 {
-  "id": 236,
+  "id": "UZ",
   "name": "Uzbekistan",
   "nativeName": "O‘zbekiston",
   "iso2": "UZ",
@@ -9,18 +9,18 @@
   "tld": ".uz",
   "latitude": 41,
   "longitude": 64,
-  "flagId": 16,
-  "regionId": 3,
-  "subregionId": 10,
+  "flagId": "uz",
+  "regionId": "asia",
+  "subregionId": "central-asia",
   "currencyIds": [
-    981
+    "UZS"
   ],
   "timezoneIds": [
-    2634,
-    2635
+    "Asia/Samarkand",
+    "Asia/Tashkent"
   ],
   "officialLanguageIds": [
-    175
+    "uz"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 2536,
+      "id": "UZ-TK",
       "name": "Tashkent",
       "stateCode": "TK",
       "latitude": 41.2994958,
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "id": 2537,
+      "id": "UZ-NG",
       "name": "Namangan",
       "stateCode": "NG",
       "latitude": 41.0510037,
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "id": 2538,
+      "id": "UZ-FA",
       "name": "Fergana",
       "stateCode": "FA",
       "latitude": 40.4568081,
@@ -320,7 +320,7 @@
       ]
     },
     {
-      "id": 2539,
+      "id": "UZ-XO",
       "name": "Xorazm",
       "stateCode": "XO",
       "latitude": 41.3565336,
@@ -380,7 +380,7 @@
       ]
     },
     {
-      "id": 2540,
+      "id": "UZ-AN",
       "name": "Andijan",
       "stateCode": "AN",
       "latitude": 40.7685941,
@@ -538,7 +538,7 @@
       ]
     },
     {
-      "id": 2541,
+      "id": "UZ-BU",
       "name": "Bukhara",
       "stateCode": "BU",
       "latitude": 40.2504162,
@@ -647,7 +647,7 @@
       ]
     },
     {
-      "id": 2542,
+      "id": "UZ-NW",
       "name": "Navoiy",
       "stateCode": "NW",
       "latitude": 42.6988575,
@@ -686,7 +686,7 @@
       ]
     },
     {
-      "id": 2543,
+      "id": "UZ-QA",
       "name": "Qashqadaryo",
       "stateCode": "QA",
       "latitude": 38.8986231,
@@ -760,7 +760,7 @@
       ]
     },
     {
-      "id": 2544,
+      "id": "UZ-SA",
       "name": "Samarqand",
       "stateCode": "SA",
       "latitude": 39.627012,
@@ -855,7 +855,7 @@
       ]
     },
     {
-      "id": 2545,
+      "id": "UZ-JI",
       "name": "Jizzakh",
       "stateCode": "JI",
       "latitude": 40.4706415,
@@ -908,7 +908,7 @@
       ]
     },
     {
-      "id": 2546,
+      "id": "UZ-SU",
       "name": "Surxondaryo",
       "stateCode": "SU",
       "latitude": 37.9409005,
@@ -947,7 +947,7 @@
       ]
     },
     {
-      "id": 2547,
+      "id": "UZ-SI",
       "name": "Sirdaryo",
       "stateCode": "SI",
       "latitude": 40.3863808,
@@ -979,7 +979,7 @@
       ]
     },
     {
-      "id": 2548,
+      "id": "UZ-QR",
       "name": "Karakalpakstan",
       "stateCode": "QR",
       "latitude": 43.8041334,
@@ -1046,7 +1046,7 @@
       ]
     },
     {
-      "id": 2549,
+      "id": "UZ-TO",
       "name": "Tashkent",
       "stateCode": "TO",
       "latitude": 41.2213234,

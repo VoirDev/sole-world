@@ -1,5 +1,5 @@
 {
-  "id": 222,
+  "id": "TO",
   "name": "Tonga",
   "nativeName": "Tonga",
   "iso2": "TO",
@@ -9,18 +9,18 @@
   "tld": ".to",
   "latitude": -20,
   "longitude": -175,
-  "flagId": 27,
-  "regionId": 5,
-  "subregionId": 22,
+  "flagId": "to",
+  "regionId": "oceania",
+  "subregionId": "polynesia",
   "currencyIds": [
-    972
+    "TOP"
   ],
   "timezoneIds": [
-    2588
+    "Pacific/Tongatapu"
   ],
   "officialLanguageIds": [
-    168,
-    30
+    "to",
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 3911,
+      "id": "TO-05",
       "name": "Vavaʻu",
       "stateCode": "05",
       "latitude": -18.622756,
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "id": 3912,
+      "id": "TO-04",
       "name": "Tongatapu",
       "stateCode": "04",
       "latitude": -21.1465968,
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "id": 3913,
+      "id": "TO-02",
       "name": "Haʻapai",
       "stateCode": "02",
       "latitude": -19.75,
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "id": 3914,
+      "id": "TO-03",
       "name": "Niuas",
       "stateCode": "03",
       "latitude": -15.9594,
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "id": 3915,
+      "id": "TO-01",
       "name": "ʻEua",
       "stateCode": "01",
       "latitude": 37.09024,

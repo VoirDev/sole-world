@@ -8,10 +8,10 @@ import dev.voir.sole.world.graphql.dto.types.Flag
  * @return GraphQL flag type.
  */
 fun FlagData.toGql() = Flag(
-    id = id.toString(),
+    id = id,
     caption = caption,
     emoji = emoji,
     emojiU = emojiU,
-    squareAssetId = squareAssetId?.toString(),
-    wideAssetId = wideAssetId?.toString(),
+    squareAssetId = squareAssetId,
+    wideAssetId = wideAssetId,
 )

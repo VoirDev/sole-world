@@ -1,7 +1,7 @@
 {
-  "id": 21,
+  "id": "BY",
   "name": "Belarus",
-  "nativeName": "Белару́сь",
+  "nativeName": "Беларусь",
   "iso2": "BY",
   "iso3": "BLR",
   "numericCode": "112",
@@ -9,18 +9,18 @@
   "tld": ".by",
   "latitude": 53,
   "longitude": 28,
-  "flagId": 214,
-  "regionId": 4,
-  "subregionId": 15,
+  "flagId": "by",
+  "regionId": "europe",
+  "subregionId": "eastern-europe",
   "currencyIds": [
-    849
+    "BYN"
   ],
   "timezoneIds": [
-    2275
+    "Europe/Minsk"
   ],
   "officialLanguageIds": [
-    18,
-    46
+    "be",
+    "ru"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -38,7 +38,7 @@
     },
     {
       "languageCode": "nl",
-      "name": "Wit-Rusland"
+      "name": "Belarus"
     },
     {
       "languageCode": "hr",
@@ -50,7 +50,7 @@
     },
     {
       "languageCode": "de",
-      "name": "Weißrussland"
+      "name": "Belarus"
     },
     {
       "languageCode": "es",
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 2954,
+      "id": "BY-MA",
       "name": "Mogilev",
       "stateCode": "MA",
       "latitude": 53.5101791,
@@ -431,7 +431,7 @@
       ]
     },
     {
-      "id": 2955,
+      "id": "BY-HO",
       "name": "Gomel",
       "stateCode": "HO",
       "latitude": 52.1648754,
@@ -715,7 +715,7 @@
       ]
     },
     {
-      "id": 2956,
+      "id": "BY-HR",
       "name": "Grodno",
       "stateCode": "HR",
       "latitude": 53.6599945,
@@ -1006,7 +1006,7 @@
       ]
     },
     {
-      "id": 2957,
+      "id": "BY-MI",
       "name": "Minsk",
       "stateCode": "MI",
       "latitude": 54.1067889,
@@ -1724,7 +1724,7 @@
       ]
     },
     {
-      "id": 2958,
+      "id": "BY-HM",
       "name": "Minsk",
       "stateCode": "HM",
       "latitude": 53.9006011,
@@ -1798,7 +1798,7 @@
       ]
     },
     {
-      "id": 2959,
+      "id": "BY-BR",
       "name": "Brest",
       "stateCode": "BR",
       "latitude": 52.5296641,
@@ -2124,7 +2124,7 @@
       ]
     },
     {
-      "id": 2960,
+      "id": "BY-VI",
       "name": "Vitebsk",
       "stateCode": "VI",
       "latitude": 55.2959833,

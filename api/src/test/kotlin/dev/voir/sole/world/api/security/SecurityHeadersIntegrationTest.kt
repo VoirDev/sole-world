@@ -17,10 +17,10 @@ class SecurityHeadersIntegrationTest : BaseRestIntegrationTest() {
     @Test
     fun `every route carries them, whatever it answers`() {
         for (response in listOf(
-            rest("/v1/countries/1"),
-            rest("/v1/countries/999"),
+            rest("/v1/countries/FD"),
+            rest("/v1/countries/XX"),
             rest("/v1/countries?include=bogus"),
-            rest("/v1/countries/1", apiKey = null),
+            rest("/v1/countries/FD", apiKey = null),
             rest("/healthz", apiKey = null),
             rest("/docs", apiKey = null),
             rest("/assets/flags/fd_1x1.svg", apiKey = null),

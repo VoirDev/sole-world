@@ -91,7 +91,7 @@ A central bank that serves one or more countries and can issue one or more curre
 """
 type CentralBank {
     """
-    Stable central bank identifier.
+    Central bank alias, such as `federal-reserve`.
     """
     id: ID!
 
@@ -131,7 +131,7 @@ A populated place inside a state or province.
 """
 type City {
     """
-    Stable city identifier.
+    Numeric city identifier. Cities have no public code, so they keep their numbers.
     """
     id: ID!
 
@@ -166,7 +166,7 @@ A static media asset served by this API.
 """
 type MediaAsset {
     """
-    Stable media asset identifier.
+    Media asset alias: owner kind, key and shape, such as `flag-us-square`.
     """
     id: ID!
 
@@ -272,7 +272,7 @@ A reusable flag record with optional square and wide media assets.
 """
 type Flag {
     """
-    Stable flag identifier.
+    Flag alias. A territory's flag is its lowercase ISO 3166-1 alpha-2 code, such as `us`.
     """
     id: ID!
 
@@ -317,7 +317,7 @@ A country or country-like territory in the dataset.
 """
 type Country {
     """
-    Stable country identifier, usually the ISO numeric code as an integer string.
+    ISO 3166-1 alpha-2 code, such as `US`.
     """
     id: ID!
 
@@ -480,7 +480,7 @@ A currency, including active and obsolete records.
 """
 type Currency {
     """
-    Stable currency identifier.
+    ISO 4217 alpha code, such as `EUR`.
     """
     id: ID!
 
@@ -582,7 +582,8 @@ A cryptocurrency.
 """
 type Crypto {
     """
-    Stable cryptocurrency identifier.
+    The coin's alias: its stable lowercase key, such as `btc`. A ticker can be renamed; the
+    alias is what stays the same, and it is the name the coin's logo files are stored under.
     """
     id: ID!
 
@@ -590,12 +591,6 @@ type Crypto {
     Ticker symbol the coin trades under.
     """
     code: String!
-
-    """
-    Stable lowercase key for the coin. A ticker can be renamed; the alias is what stays the same,
-    and it is the name the coin's logo files are stored under.
-    """
-    alias: String!
 
     """
     Display name.
@@ -648,7 +643,7 @@ A human language associated with one or more countries.
 """
 type Language {
     """
-    Stable language identifier.
+    ISO 639-1 code, such as `fr`.
     """
     id: ID!
 
@@ -693,7 +688,7 @@ A high-level geographic region.
 """
 type Region {
     """
-    Stable region identifier.
+    Region alias, such as `europe`.
     """
     id: ID!
 
@@ -718,7 +713,7 @@ A geographic subregion inside a region.
 """
 type Subregion {
     """
-    Stable subregion identifier.
+    Subregion alias, such as `western-europe`.
     """
     id: ID!
 
@@ -748,7 +743,8 @@ A first-level administrative division such as a state, province, or territory.
 """
 type State {
     """
-    Stable state or province identifier.
+    Country alpha-2 code and state code joined by a hyphen, such as `US-CA`. A state with no
+    code has an alias of the same form made from its name, such as `AX-MARIEHAMN`.
     """
     id: ID!
 
@@ -803,7 +799,7 @@ A timezone record associated with one or more countries.
 """
 type Timezone {
     """
-    Stable timezone identifier.
+    IANA timezone name, such as `Europe/Paris`.
     """
     id: ID!
 
@@ -1093,9 +1089,9 @@ type Query {
     """
     country(
         """
-        Numeric identifier, ISO 3166-1 alpha-2 code, or alpha-3 code.
+        ISO 3166-1 alpha-2 code. The alpha-3 and numeric codes resolve too, in any case.
         """
-        idOrCode: ID!
+        id: ID!
     ): Country
 
     """
@@ -1145,9 +1141,9 @@ type Query {
     """
     currency(
         """
-        Numeric identifier, ISO 4217 alpha code, or ISO 4217 numeric code.
+        ISO 4217 alpha code. The ISO 4217 numeric code resolves too, in any case.
         """
-        idOrCode: ID!
+        id: ID!
 
         """
         Allow an obsolete currency to be returned. Defaults to false.
@@ -1190,9 +1186,9 @@ type Query {
     """
     crypto(
         """
-        Numeric identifier, ticker symbol, or alias.
+        The coin's alias. Its ticker symbol resolves too, in any case.
         """
-        idOrCode: ID!
+        id: ID!
     ): Crypto
 
     """
@@ -1225,9 +1221,9 @@ type Query {
     """
     language(
         """
-        Numeric identifier or language code.
+        ISO 639-1 language code, in any case.
         """
-        idOrCode: ID!
+        id: ID!
     ): Language
 
     """

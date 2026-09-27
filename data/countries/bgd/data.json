@@ -1,5 +1,5 @@
 {
-  "id": 19,
+  "id": "BD",
   "name": "Bangladesh",
   "nativeName": "Bangladesh",
   "iso2": "BD",
@@ -9,17 +9,17 @@
   "tld": ".bd",
   "latitude": 24,
   "longitude": 90,
-  "flagId": 230,
-  "regionId": 3,
-  "subregionId": 14,
+  "flagId": "bd",
+  "regionId": "asia",
+  "subregionId": "southern-asia",
   "currencyIds": [
-    847
+    "BDT"
   ],
   "timezoneIds": [
-    2273
+    "Asia/Dhaka"
   ],
   "officialLanguageIds": [
-    19
+    "bn"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -53,7 +53,7 @@
     },
     {
       "languageCode": "es",
-      "name": "Bangladesh"
+      "name": "Bangladés"
     },
     {
       "languageCode": "fr",
@@ -69,7 +69,7 @@
     },
     {
       "languageCode": "zh-CN",
-      "name": "孟加拉"
+      "name": "孟加拉国"
     },
     {
       "languageCode": "tr",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 750,
+      "id": "BD-F",
       "name": "Rangpur ",
       "stateCode": "F",
       "latitude": 25.8483388,
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "id": 753,
+      "id": "BD-E",
       "name": "Rajshahi ",
       "stateCode": "E",
       "latitude": 24.7105776,
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "id": 758,
+      "id": "BD-H",
       "name": "Mymensingh ",
       "stateCode": "H",
       "latitude": 24.71362,
@@ -263,7 +263,7 @@
       ]
     },
     {
-      "id": 760,
+      "id": "BD-C",
       "name": "Dhaka ",
       "stateCode": "C",
       "latitude": 23.9535742,
@@ -365,7 +365,7 @@
       ]
     },
     {
-      "id": 765,
+      "id": "BD-G",
       "name": "Sylhet ",
       "stateCode": "G",
       "latitude": 24.7049811,
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "id": 775,
+      "id": "BD-D",
       "name": "Khulna ",
       "stateCode": "D",
       "latitude": 22.8087816,
@@ -485,7 +485,7 @@
       ]
     },
     {
-      "id": 803,
+      "id": "BD-B",
       "name": "Chittagong ",
       "stateCode": "B",
       "latitude": 23.1793157,
@@ -573,7 +573,7 @@
       ]
     },
     {
-      "id": 807,
+      "id": "BD-A",
       "name": "Barisal ",
       "stateCode": "A",
       "latitude": 22.3811131,

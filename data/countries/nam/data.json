@@ -1,5 +1,5 @@
 {
-  "id": 152,
+  "id": "NA",
   "name": "Namibia",
   "nativeName": "Namibia",
   "iso2": "NA",
@@ -9,21 +9,21 @@
   "tld": ".na",
   "latitude": -22,
   "longitude": 17,
-  "flagId": 91,
-  "regionId": 1,
-  "subregionId": 5,
+  "flagId": "na",
+  "regionId": "africa",
+  "subregionId": "southern-africa",
   "currencyIds": [
-    929
+    "NAD"
   ],
   "timezoneIds": [
-    2483
+    "Africa/Windhoek"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [
-    3,
-    34
+    "af",
+    "de"
   ],
   "translations": [
     {
@@ -93,7 +93,7 @@
   ],
   "states": [
     {
-      "id": 34,
+      "id": "NA-KU",
       "name": "Kunene",
       "stateCode": "KU",
       "latitude": -19.4086317,
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": "NA-KW",
       "name": "Kavango West",
       "stateCode": "KW",
       "latitude": -18.271048,
@@ -163,7 +163,7 @@
       "cities": []
     },
     {
-      "id": 36,
+      "id": "NA-KE",
       "name": "Kavango East",
       "stateCode": "KE",
       "latitude": -18.271048,
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": "NA-ON",
       "name": "Oshana",
       "stateCode": "ON",
       "latitude": -18.4305064,
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "id": 38,
+      "id": "NA-HA",
       "name": "Hardap",
       "stateCode": "HA",
       "latitude": -24.2310134,
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "id": 39,
+      "id": "NA-OS",
       "name": "Omusati",
       "stateCode": "OS",
       "latitude": -18.4070294,
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "id": 40,
+      "id": "NA-OW",
       "name": "Ohangwena",
       "stateCode": "OW",
       "latitude": -17.5979291,
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": "NA-OH",
       "name": "Omaheke",
       "stateCode": "OH",
       "latitude": -21.8466651,
@@ -327,7 +327,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": "NA-OT",
       "name": "Oshikoto",
       "stateCode": "OT",
       "latitude": -18.4152575,
@@ -352,7 +352,7 @@
       ]
     },
     {
-      "id": 43,
+      "id": "NA-ER",
       "name": "Erongo",
       "stateCode": "ER",
       "latitude": -22.2565682,
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": 44,
+      "id": "NA-KH",
       "name": "Khomas",
       "stateCode": "KH",
       "latitude": -22.6377854,
@@ -451,7 +451,7 @@
       ]
     },
     {
-      "id": 45,
+      "id": "NA-KA",
       "name": "Karas",
       "stateCode": "KA",
       "latitude": -26.8429645,
@@ -511,7 +511,7 @@
       ]
     },
     {
-      "id": 46,
+      "id": "NA-OD",
       "name": "Otjozondjupa",
       "stateCode": "OD",
       "latitude": -20.5486916,
@@ -557,7 +557,7 @@
       ]
     },
     {
-      "id": 47,
+      "id": "NA-CA",
       "name": "Zambezi",
       "stateCode": "CA",
       "latitude": -17.8193419,

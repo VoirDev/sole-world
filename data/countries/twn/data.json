@@ -1,5 +1,5 @@
 {
-  "id": 216,
+  "id": "TW",
   "name": "Taiwan",
   "nativeName": "臺灣",
   "iso2": "TW",
@@ -9,17 +9,17 @@
   "tld": ".tw",
   "latitude": 23.5,
   "longitude": 121,
-  "flagId": 23,
-  "regionId": 3,
-  "subregionId": 12,
+  "flagId": "tw",
+  "regionId": "asia",
+  "subregionId": "eastern-asia",
   "currencyIds": [
-    966
+    "TWD"
   ],
   "timezoneIds": [
-    2579
+    "Asia/Taipei"
   ],
   "officialLanguageIds": [
-    25
+    "zh"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -61,7 +61,7 @@
     },
     {
       "languageCode": "ja",
-      "name": "台湾（中華民国）"
+      "name": "台湾"
     },
     {
       "languageCode": "it",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3402,
+      "id": "TW-ILA",
       "name": "Yilan",
       "stateCode": "ILA",
       "latitude": 24.7021073,
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 3403,
+      "id": "TW-PEN",
       "name": "Penghu",
       "stateCode": "PEN",
       "latitude": 23.5711899,
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": 3404,
+      "id": "TW-CHA",
       "name": "Changhua",
       "stateCode": "CHA",
       "latitude": 24.0517963,
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "id": 3405,
+      "id": "TW-PIF",
       "name": "Pingtung",
       "stateCode": "PIF",
       "latitude": 22.5519759,
@@ -190,7 +190,7 @@
       ]
     },
     {
-      "id": 3406,
+      "id": "TW-TXG",
       "name": "Taichung",
       "stateCode": "TXG",
       "latitude": 24.1477358,
@@ -215,7 +215,7 @@
       ]
     },
     {
-      "id": 3407,
+      "id": "TW-NAN",
       "name": "Nantou",
       "stateCode": "NAN",
       "latitude": 23.9609981,
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "id": 3408,
+      "id": "TW-CYI",
       "name": "Chiayi",
       "stateCode": "CYI",
       "latitude": 23.4518428,
@@ -279,7 +279,7 @@
       ]
     },
     {
-      "id": 3410,
+      "id": "TW-TTT",
       "name": "Taitung",
       "stateCode": "TTT",
       "latitude": 22.7972447,
@@ -304,7 +304,7 @@
       ]
     },
     {
-      "id": 3411,
+      "id": "TW-HUA",
       "name": "Hualien",
       "stateCode": "HUA",
       "latitude": 23.9871589,
@@ -329,7 +329,7 @@
       ]
     },
     {
-      "id": 3412,
+      "id": "TW-KHH",
       "name": "Kaohsiung",
       "stateCode": "KHH",
       "latitude": 22.6272784,
@@ -347,7 +347,7 @@
       ]
     },
     {
-      "id": 3413,
+      "id": "TW-MIA",
       "name": "Miaoli",
       "stateCode": "MIA",
       "latitude": 24.560159,
@@ -365,7 +365,7 @@
       ]
     },
     {
-      "id": 3415,
+      "id": "TW-KIN",
       "name": "Kinmen",
       "stateCode": "KIN",
       "latitude": 24.3487792,
@@ -390,7 +390,7 @@
       ]
     },
     {
-      "id": 3416,
+      "id": "TW-YUN",
       "name": "Yunlin",
       "stateCode": "YUN",
       "latitude": 23.7092033,
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "id": 3417,
+      "id": "TW-HSZ",
       "name": "Hsinchu",
       "stateCode": "HSZ",
       "latitude": 24.8138287,
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "id": 3418,
+      "id": "TW-CYQ",
       "name": "Chiayi",
       "stateCode": "CYQ",
       "latitude": 23.4800751,
@@ -451,7 +451,7 @@
       ]
     },
     {
-      "id": 3419,
+      "id": "TW-TAO",
       "name": "Taoyuan",
       "stateCode": "TAO",
       "latitude": 24.9936281,
@@ -483,7 +483,7 @@
       ]
     },
     {
-      "id": 3420,
+      "id": "TW-LIE",
       "name": "Lienchiang",
       "stateCode": "LIE",
       "latitude": 26.1505556,
@@ -508,7 +508,7 @@
       ]
     },
     {
-      "id": 3421,
+      "id": "TW-TNN",
       "name": "Tainan",
       "stateCode": "TNN",
       "latitude": 22.9997281,
@@ -533,7 +533,7 @@
       ]
     },
     {
-      "id": 3422,
+      "id": "TW-TPE",
       "name": "Taipei",
       "stateCode": "TPE",
       "latitude": 25.0329694,
@@ -572,7 +572,7 @@
       ]
     },
     {
-      "id": 3423,
+      "id": "TW-HSQ",
       "name": "Hsinchu",
       "stateCode": "HSQ",
       "latitude": 24.8387226,
@@ -590,7 +590,7 @@
       ]
     },
     {
-      "id": 4965,
+      "id": "TW-KEE",
       "name": "Keelung",
       "stateCode": "KEE",
       "latitude": 25.1241862,
@@ -600,7 +600,7 @@
       "cities": []
     },
     {
-      "id": 4966,
+      "id": "TW-NWT",
       "name": "New Taipei",
       "stateCode": "NWT",
       "latitude": 24.9875278,

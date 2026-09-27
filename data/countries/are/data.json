@@ -1,5 +1,5 @@
 {
-  "id": 231,
+  "id": "AE",
   "name": "United Arab Emirates",
   "nativeName": "دولة الإمارات العربية المتحدة",
   "iso2": "AE",
@@ -9,20 +9,20 @@
   "tld": ".ae",
   "latitude": 24,
   "longitude": 54,
-  "flagId": 246,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "ae",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    979
+    "AED"
   ],
   "timezoneIds": [
-    2600
+    "Asia/Dubai"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [
-    30
+    "en"
   ],
   "translations": [
     {
@@ -31,11 +31,11 @@
     },
     {
       "languageCode": "pt-BR",
-      "name": "Emirados árabes Unidos"
+      "name": "Emirados Árabes Unidos"
     },
     {
       "languageCode": "pt",
-      "name": "Emirados árabes Unidos"
+      "name": "Emirados Árabes Unidos"
     },
     {
       "languageCode": "nl",
@@ -92,7 +92,7 @@
   ],
   "states": [
     {
-      "id": 3390,
+      "id": "AE-SH",
       "name": "Sharjah",
       "stateCode": "SH",
       "latitude": 25.0753974,
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "id": 3391,
+      "id": "AE-DU",
       "name": "Dubai",
       "stateCode": "DU",
       "latitude": 25.2048493,
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "id": 3392,
+      "id": "AE-UQ",
       "name": "Umm Al Quwain",
       "stateCode": "UQ",
       "latitude": 25.5426324,
@@ -230,7 +230,7 @@
       ]
     },
     {
-      "id": 3393,
+      "id": "AE-FU",
       "name": "Fujairah",
       "stateCode": "FU",
       "latitude": 25.1288099,
@@ -283,7 +283,7 @@
       ]
     },
     {
-      "id": 3394,
+      "id": "AE-RK",
       "name": "Ras Al Khaimah",
       "stateCode": "RK",
       "latitude": 25.6741343,
@@ -308,7 +308,7 @@
       ]
     },
     {
-      "id": 3395,
+      "id": "AE-AJ",
       "name": "Ajman",
       "stateCode": "AJ",
       "latitude": 25.4052165,
@@ -347,7 +347,7 @@
       ]
     },
     {
-      "id": 3396,
+      "id": "AE-AZ",
       "name": "Abu Dhabi",
       "stateCode": "AZ",
       "latitude": 24.453884,

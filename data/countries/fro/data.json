@@ -1,5 +1,5 @@
 {
-  "id": 72,
+  "id": "FO",
   "name": "Faroe Islands",
   "nativeName": "Føroyar",
   "iso2": "FO",
@@ -9,18 +9,18 @@
   "tld": ".fo",
   "latitude": 62,
   "longitude": -7,
-  "flagId": 176,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "fo",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    876
+    "DKK"
   ],
   "timezoneIds": [
-    2374
+    "Atlantic/Faroe"
   ],
   "officialLanguageIds": [
-    28,
-    80
+    "da",
+    "fo"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -54,7 +54,7 @@
     },
     {
       "languageCode": "es",
-      "name": "Islas Faroe"
+      "name": "Islas Feroe"
     },
     {
       "languageCode": "fr",
@@ -66,7 +66,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Isole Far Oer"
+      "name": "Isole Fær Øer"
     },
     {
       "languageCode": "zh-CN",
@@ -74,7 +74,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Faroe Adalari"
+      "name": "Faroe Adaları"
     },
     {
       "languageCode": "ru",
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 5229,
+      "id": "FO-EY",
       "name": "Eysturoy",
       "stateCode": "EY",
       "latitude": 62.1978737,
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": 5230,
+      "id": "FO-NO",
       "name": "Northern Isles",
       "stateCode": "NO",
       "latitude": 62.2805689,
@@ -190,7 +190,7 @@
       ]
     },
     {
-      "id": 5231,
+      "id": "FO-SA",
       "name": "Sandoy",
       "stateCode": "SA",
       "latitude": 61.8365169,
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "id": 5232,
+      "id": "FO-ST",
       "name": "Streymoy",
       "stateCode": "ST",
       "latitude": 62.123382,
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "id": 5233,
+      "id": "FO-SU",
       "name": "Suðuroy",
       "stateCode": "SU",
       "latitude": 61.5211816,
@@ -335,7 +335,7 @@
       ]
     },
     {
-      "id": 5234,
+      "id": "FO-VA",
       "name": "Vágar",
       "stateCode": "VA",
       "latitude": 62.0899835,

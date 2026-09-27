@@ -1,5 +1,5 @@
 {
-  "id": 126,
+  "id": "LT",
   "name": "Lithuania",
   "nativeName": "Lietuva",
   "iso2": "LT",
@@ -9,17 +9,17 @@
   "tld": ".lt",
   "latitude": 56,
   "longitude": 24,
-  "flagId": 118,
-  "regionId": 4,
-  "subregionId": 18,
+  "flagId": "lt",
+  "regionId": "europe",
+  "subregionId": "northern-europe",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2442
+    "Europe/Vilnius"
   ],
   "officialLanguageIds": [
-    58
+    "lt"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 1553,
+      "id": "LT-35",
       "name": "Plungė",
       "stateCode": "35",
       "latitude": 55.910784,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 1554,
+      "id": "LT-44",
       "name": "Šiauliai",
       "stateCode": "44",
       "latitude": 55.9721456,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 1555,
+      "id": "LT-12",
       "name": "Jurbarkas",
       "stateCode": "12",
       "latitude": 55.077407,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 1556,
+      "id": "LT-KU",
       "name": "Kaunas",
       "stateCode": "KU",
       "latitude": 54.9872863,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 1557,
+      "id": "LT-26",
       "name": "Mažeikiai",
       "stateCode": "26",
       "latitude": 56.3092439,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 1558,
+      "id": "LT-PN",
       "name": "Panevėžys",
       "stateCode": "PN",
       "latitude": 55.9748049,
@@ -150,7 +150,7 @@
       "cities": []
     },
     {
-      "id": 1559,
+      "id": "LT-08",
       "name": "Elektrėnai",
       "stateCode": "08",
       "latitude": 54.7653934,
@@ -160,7 +160,7 @@
       "cities": []
     },
     {
-      "id": 1560,
+      "id": "LT-49",
       "name": "Švenčionys",
       "stateCode": "49",
       "latitude": 55.1028098,
@@ -170,7 +170,7 @@
       "cities": []
     },
     {
-      "id": 1561,
+      "id": "LT-01",
       "name": "Akmenė",
       "stateCode": "01",
       "latitude": 56.2455029,
@@ -180,7 +180,7 @@
       "cities": []
     },
     {
-      "id": 1562,
+      "id": "LT-09",
       "name": "Ignalina",
       "stateCode": "09",
       "latitude": 55.4090342,
@@ -190,7 +190,7 @@
       "cities": []
     },
     {
-      "id": 1563,
+      "id": "LT-28",
       "name": "Neringa",
       "stateCode": "28",
       "latitude": 55.4572403,
@@ -200,7 +200,7 @@
       "cities": []
     },
     {
-      "id": 1564,
+      "id": "LT-59",
       "name": "Visaginas",
       "stateCode": "59",
       "latitude": 55.594118,
@@ -210,7 +210,7 @@
       "cities": []
     },
     {
-      "id": 1565,
+      "id": "LT-16",
       "name": "Kaunas",
       "stateCode": "16",
       "latitude": 54.9936236,
@@ -220,7 +220,7 @@
       "cities": []
     },
     {
-      "id": 1566,
+      "id": "LT-06",
       "name": "Biržai",
       "stateCode": "06",
       "latitude": 56.2017719,
@@ -230,7 +230,7 @@
       "cities": []
     },
     {
-      "id": 1567,
+      "id": "LT-10",
       "name": "Jonava",
       "stateCode": "10",
       "latitude": 55.0727242,
@@ -240,7 +240,7 @@
       "cities": []
     },
     {
-      "id": 1568,
+      "id": "LT-37",
       "name": "Radviliškis",
       "stateCode": "37",
       "latitude": 55.8108399,
@@ -250,7 +250,7 @@
       "cities": []
     },
     {
-      "id": 1569,
+      "id": "LT-TE",
       "name": "Telšiai",
       "stateCode": "TE",
       "latitude": 56.1026616,
@@ -260,7 +260,7 @@
       "cities": []
     },
     {
-      "id": 1570,
+      "id": "LT-MR",
       "name": "Marijampolė",
       "stateCode": "MR",
       "latitude": 54.7819971,
@@ -270,7 +270,7 @@
       "cities": []
     },
     {
-      "id": 1571,
+      "id": "LT-22",
       "name": "Kretinga",
       "stateCode": "22",
       "latitude": 55.883842,
@@ -280,7 +280,7 @@
       "cities": []
     },
     {
-      "id": 1572,
+      "id": "LT-50",
       "name": "Tauragė",
       "stateCode": "50",
       "latitude": 55.250366,
@@ -290,7 +290,7 @@
       "cities": []
     },
     {
-      "id": 1573,
+      "id": "LT-TA",
       "name": "Tauragė",
       "stateCode": "TA",
       "latitude": 55.3072586,
@@ -336,7 +336,7 @@
       ]
     },
     {
-      "id": 1574,
+      "id": "LT-AL",
       "name": "Alytus",
       "stateCode": "AL",
       "latitude": 54.2000214,
@@ -346,7 +346,7 @@
       "cities": []
     },
     {
-      "id": 1575,
+      "id": "LT-17",
       "name": "Kazlų Rūda",
       "stateCode": "17",
       "latitude": 54.7807526,
@@ -356,7 +356,7 @@
       "cities": []
     },
     {
-      "id": 1576,
+      "id": "LT-41",
       "name": "Šakiai",
       "stateCode": "41",
       "latitude": 54.952671,
@@ -366,7 +366,7 @@
       "cities": []
     },
     {
-      "id": 1577,
+      "id": "LT-42",
       "name": "Šalčininkai",
       "stateCode": "42",
       "latitude": 54.309767,
@@ -376,7 +376,7 @@
       "cities": []
     },
     {
-      "id": 1578,
+      "id": "LT-36",
       "name": "Prienai",
       "stateCode": "36",
       "latitude": 54.638358,
@@ -386,7 +386,7 @@
       "cities": []
     },
     {
-      "id": 1579,
+      "id": "LT-07",
       "name": "Druskininkai",
       "stateCode": "07",
       "latitude": 53.9933685,
@@ -396,7 +396,7 @@
       "cities": []
     },
     {
-      "id": 1580,
+      "id": "LT-15",
       "name": "Kaunas",
       "stateCode": "15",
       "latitude": 54.9145326,
@@ -568,7 +568,7 @@
       ]
     },
     {
-      "id": 1581,
+      "id": "LT-11",
       "name": "Joniškis",
       "stateCode": "11",
       "latitude": 56.236073,
@@ -578,7 +578,7 @@
       "cities": []
     },
     {
-      "id": 1582,
+      "id": "LT-27",
       "name": "Molėtai",
       "stateCode": "27",
       "latitude": 55.2265309,
@@ -588,7 +588,7 @@
       "cities": []
     },
     {
-      "id": 1583,
+      "id": "LT-13",
       "name": "Kaišiadorys",
       "stateCode": "13",
       "latitude": 54.8588669,
@@ -598,7 +598,7 @@
       "cities": []
     },
     {
-      "id": 1584,
+      "id": "LT-18",
       "name": "Kėdainiai",
       "stateCode": "18",
       "latitude": 55.3560947,
@@ -608,7 +608,7 @@
       "cities": []
     },
     {
-      "id": 1585,
+      "id": "LT-23",
       "name": "Kupiškis",
       "stateCode": "23",
       "latitude": 55.8428741,
@@ -618,7 +618,7 @@
       "cities": []
     },
     {
-      "id": 1586,
+      "id": "LT-SA",
       "name": "Šiauliai",
       "stateCode": "SA",
       "latitude": 55.9985751,
@@ -628,7 +628,7 @@
       "cities": []
     },
     {
-      "id": 1587,
+      "id": "LT-38",
       "name": "Raseiniai",
       "stateCode": "38",
       "latitude": 55.3819499,
@@ -638,7 +638,7 @@
       "cities": []
     },
     {
-      "id": 1588,
+      "id": "LT-31",
       "name": "Palanga",
       "stateCode": "31",
       "latitude": 55.920198,
@@ -648,7 +648,7 @@
       "cities": []
     },
     {
-      "id": 1589,
+      "id": "LT-32",
       "name": "Panevėžys",
       "stateCode": "32",
       "latitude": 55.7347915,
@@ -658,7 +658,7 @@
       "cities": []
     },
     {
-      "id": 1590,
+      "id": "LT-39",
       "name": "Rietavas",
       "stateCode": "39",
       "latitude": 55.7021719,
@@ -668,7 +668,7 @@
       "cities": []
     },
     {
-      "id": 1591,
+      "id": "LT-14",
       "name": "Kalvarija",
       "stateCode": "14",
       "latitude": 54.3761674,
@@ -678,7 +678,7 @@
       "cities": []
     },
     {
-      "id": 1592,
+      "id": "LT-58",
       "name": "Vilnius",
       "stateCode": "58",
       "latitude": 54.7732578,
@@ -688,7 +688,7 @@
       "cities": []
     },
     {
-      "id": 1593,
+      "id": "LT-52",
       "name": "Trakai",
       "stateCode": "52",
       "latitude": 54.6379113,
@@ -698,7 +698,7 @@
       "cities": []
     },
     {
-      "id": 1594,
+      "id": "LT-47",
       "name": "Širvintos",
       "stateCode": "47",
       "latitude": 55.043102,
@@ -708,7 +708,7 @@
       "cities": []
     },
     {
-      "id": 1595,
+      "id": "LT-30",
       "name": "Pakruojis",
       "stateCode": "30",
       "latitude": 56.0732605,
@@ -718,7 +718,7 @@
       "cities": []
     },
     {
-      "id": 1596,
+      "id": "LT-53",
       "name": "Ukmergė",
       "stateCode": "53",
       "latitude": 55.245265,
@@ -728,7 +728,7 @@
       "cities": []
     },
     {
-      "id": 1597,
+      "id": "LT-20",
       "name": "Klaipeda",
       "stateCode": "20",
       "latitude": 55.7032948,
@@ -738,7 +738,7 @@
       "cities": []
     },
     {
-      "id": 1598,
+      "id": "LT-54",
       "name": "Utena",
       "stateCode": "54",
       "latitude": 55.5084614,
@@ -748,7 +748,7 @@
       "cities": []
     },
     {
-      "id": 1599,
+      "id": "LT-03",
       "name": "Alytus",
       "stateCode": "03",
       "latitude": 54.3297496,
@@ -758,7 +758,7 @@
       "cities": []
     },
     {
-      "id": 1600,
+      "id": "LT-KL",
       "name": "Klaipėda",
       "stateCode": "KL",
       "latitude": 55.6519744,
@@ -768,7 +768,7 @@
       "cities": []
     },
     {
-      "id": 1601,
+      "id": "LT-VL",
       "name": "Vilnius",
       "stateCode": "VL",
       "latitude": 54.8086502,
@@ -778,7 +778,7 @@
       "cities": []
     },
     {
-      "id": 1602,
+      "id": "LT-55",
       "name": "Varėna",
       "stateCode": "55",
       "latitude": 54.220333,
@@ -788,7 +788,7 @@
       "cities": []
     },
     {
-      "id": 1603,
+      "id": "LT-05",
       "name": "Birštonas",
       "stateCode": "05",
       "latitude": 54.5669664,
@@ -798,7 +798,7 @@
       "cities": []
     },
     {
-      "id": 1604,
+      "id": "LT-21",
       "name": "Klaipėda",
       "stateCode": "21",
       "latitude": 55.6841615,
@@ -900,7 +900,7 @@
       ]
     },
     {
-      "id": 1605,
+      "id": "LT-02",
       "name": "Alytus",
       "stateCode": "02",
       "latitude": 54.3962938,
@@ -960,7 +960,7 @@
       ]
     },
     {
-      "id": 1606,
+      "id": "LT-57",
       "name": "Vilnius",
       "stateCode": "57",
       "latitude": 54.6710761,
@@ -1174,7 +1174,7 @@
       ]
     },
     {
-      "id": 1607,
+      "id": "LT-46",
       "name": "Šilutė",
       "stateCode": "46",
       "latitude": 55.350414,
@@ -1184,7 +1184,7 @@
       "cities": []
     },
     {
-      "id": 1608,
+      "id": "LT-51",
       "name": "Telšiai",
       "stateCode": "51",
       "latitude": 55.9175215,
@@ -1251,7 +1251,7 @@
       ]
     },
     {
-      "id": 1609,
+      "id": "LT-43",
       "name": "Šiauliai",
       "stateCode": "43",
       "latitude": 55.9349085,
@@ -1353,7 +1353,7 @@
       ]
     },
     {
-      "id": 1610,
+      "id": "LT-25",
       "name": "Marijampolė",
       "stateCode": "25",
       "latitude": 54.5711094,
@@ -1455,7 +1455,7 @@
       ]
     },
     {
-      "id": 1611,
+      "id": "LT-24",
       "name": "Lazdijai",
       "stateCode": "24",
       "latitude": 54.2343267,
@@ -1465,7 +1465,7 @@
       "cities": []
     },
     {
-      "id": 1612,
+      "id": "LT-29",
       "name": "Pagėgiai",
       "stateCode": "29",
       "latitude": 55.172132,
@@ -1475,7 +1475,7 @@
       "cities": []
     },
     {
-      "id": 1613,
+      "id": "LT-45",
       "name": "Šilalė ",
       "stateCode": "45",
       "latitude": 55.49268,
@@ -1485,7 +1485,7 @@
       "cities": []
     },
     {
-      "id": 1614,
+      "id": "LT-33",
       "name": "Panevėžys",
       "stateCode": "33",
       "latitude": 55.6166728,
@@ -1573,7 +1573,7 @@
       ]
     },
     {
-      "id": 1615,
+      "id": "LT-40",
       "name": "Rokiškis",
       "stateCode": "40",
       "latitude": 55.9555039,
@@ -1583,7 +1583,7 @@
       "cities": []
     },
     {
-      "id": 1616,
+      "id": "LT-34",
       "name": "Pasvalys",
       "stateCode": "34",
       "latitude": 56.0604619,
@@ -1593,7 +1593,7 @@
       "cities": []
     },
     {
-      "id": 1617,
+      "id": "LT-48",
       "name": "Skuodas",
       "stateCode": "48",
       "latitude": 56.2702169,
@@ -1603,7 +1603,7 @@
       "cities": []
     },
     {
-      "id": 1618,
+      "id": "LT-19",
       "name": "Kelmė",
       "stateCode": "19",
       "latitude": 55.6266352,
@@ -1613,7 +1613,7 @@
       "cities": []
     },
     {
-      "id": 1619,
+      "id": "LT-60",
       "name": "Zarasai",
       "stateCode": "60",
       "latitude": 55.7309609,
@@ -1623,7 +1623,7 @@
       "cities": []
     },
     {
-      "id": 1620,
+      "id": "LT-56",
       "name": "Vilkaviškis",
       "stateCode": "56",
       "latitude": 54.651945,
@@ -1633,7 +1633,7 @@
       "cities": []
     },
     {
-      "id": 1621,
+      "id": "LT-UT",
       "name": "Utena",
       "stateCode": "UT",
       "latitude": 55.5318969,
@@ -1693,7 +1693,7 @@
       ]
     },
     {
-      "id": 5346,
+      "id": "LT-04",
       "name": "Anykščiai",
       "stateCode": "04",
       "latitude": 55.5475551,

@@ -1,5 +1,5 @@
 {
-  "id": 83,
+  "id": "GH",
   "name": "Ghana",
   "nativeName": "Ghana",
   "iso2": "GH",
@@ -9,17 +9,17 @@
   "tld": ".gh",
   "latitude": 8,
   "longitude": -2,
-  "flagId": 167,
-  "regionId": 1,
-  "subregionId": 3,
+  "flagId": "gh",
+  "regionId": "africa",
+  "subregionId": "western-africa",
   "currencyIds": [
-    887
+    "GHS"
   ],
   "timezoneIds": [
-    2387
+    "Africa/Accra"
   ],
   "officialLanguageIds": [
-    30
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 48,
+      "id": "GH-AH",
       "name": "Ashanti",
       "stateCode": "AH",
       "latitude": 6.7470436,
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": "GH-WP",
       "name": "Western",
       "stateCode": "WP",
       "latitude": 5.5,
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "id": 50,
+      "id": "GH-EP",
       "name": "Eastern",
       "stateCode": "EP",
       "latitude": 6.5,
@@ -319,7 +319,7 @@
       ]
     },
     {
-      "id": 51,
+      "id": "GH-NP",
       "name": "Northern",
       "stateCode": "NP",
       "latitude": 9.5,
@@ -365,7 +365,7 @@
       ]
     },
     {
-      "id": 52,
+      "id": "GH-CP",
       "name": "Central",
       "stateCode": "CP",
       "latitude": 5.5,
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": 53,
+      "id": "GH-AF",
       "name": "Ahafo",
       "stateCode": "AF",
       "latitude": 7.5821372,
@@ -499,7 +499,7 @@
       ]
     },
     {
-      "id": 54,
+      "id": "GH-AA",
       "name": "Greater Accra",
       "stateCode": "AA",
       "latitude": 5.8142836,
@@ -566,7 +566,7 @@
       ]
     },
     {
-      "id": 55,
+      "id": "GH-UE",
       "name": "Upper East",
       "stateCode": "UE",
       "latitude": 10.7082499,
@@ -598,7 +598,7 @@
       ]
     },
     {
-      "id": 56,
+      "id": "GH-TV",
       "name": "Volta",
       "stateCode": "TV",
       "latitude": 6.5781373,
@@ -658,7 +658,7 @@
       ]
     },
     {
-      "id": 57,
+      "id": "GH-UW",
       "name": "Upper West",
       "stateCode": "UW",
       "latitude": 10.2529757,
@@ -676,7 +676,7 @@
       ]
     },
     {
-      "id": 4958,
+      "id": "GH-BE",
       "name": "Bono East",
       "stateCode": "BE",
       "latitude": 7.75,
@@ -764,7 +764,7 @@
       ]
     },
     {
-      "id": 4959,
+      "id": "GH-BO",
       "name": "Bono",
       "stateCode": "BO",
       "latitude": 7.65,
@@ -859,7 +859,7 @@
       ]
     },
     {
-      "id": 4960,
+      "id": "GH-NE",
       "name": "North East",
       "stateCode": "NE",
       "latitude": 10.516667,
@@ -912,7 +912,7 @@
       ]
     },
     {
-      "id": 4961,
+      "id": "GH-OT",
       "name": "Oti",
       "stateCode": "OT",
       "latitude": 7.9,
@@ -979,7 +979,7 @@
       ]
     },
     {
-      "id": 4962,
+      "id": "GH-SV",
       "name": "Savannah",
       "stateCode": "SV",
       "latitude": 9.083333,
@@ -1039,7 +1039,7 @@
       ]
     },
     {
-      "id": 4963,
+      "id": "GH-WN",
       "name": "Western North",
       "stateCode": "WN",
       "latitude": 6.3,

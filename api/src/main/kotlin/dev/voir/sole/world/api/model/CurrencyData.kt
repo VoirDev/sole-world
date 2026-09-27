@@ -4,7 +4,7 @@ import kotlinx.datetime.LocalDate
 
 /**
  * API model returned for currency records.
- * @property id Primary key for the record.
+ * @property id ISO 4217 alpha code, such as `EUR`.
  * @property iso3 ISO alpha code for the record.
  * @property isoNumeric Numeric ISO code represented as text to preserve leading zeros.
  * @property name Display name, localized by mapper functions when a language is requested.
@@ -21,7 +21,7 @@ import kotlinx.datetime.LocalDate
  * @property flagId Shared flag id, when available.
  */
 data class CurrencyData(
-    val id: Long,
+    val id: String,
     val iso3: String,
     val isoNumeric: String,
     val name: String,
@@ -34,6 +34,6 @@ data class CurrencyData(
     val introducedDate: LocalDate?,
     val obsolete: Boolean,
     val obsoleteAt: LocalDate?,
-    val replacedById: Long?,
-    val flagId: Long?,
+    val replacedById: String?,
+    val flagId: String?,
 )

@@ -1,5 +1,5 @@
 {
-  "id": 212,
+  "id": "SZ",
   "name": "Eswatini",
   "nativeName": "Swaziland",
   "iso2": "SZ",
@@ -9,18 +9,18 @@
   "tld": ".sz",
   "latitude": -26.5,
   "longitude": 31.5,
-  "flagId": 38,
-  "regionId": 1,
-  "subregionId": 5,
+  "flagId": "sz",
+  "regionId": "africa",
+  "subregionId": "southern-africa",
   "currencyIds": [
-    881
+    "SZL"
   ],
   "timezoneIds": [
-    2371
+    "Africa/Mbabane"
   ],
   "officialLanguageIds": [
-    30,
-    156
+    "en",
+    "ss"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -30,43 +30,43 @@
     },
     {
       "languageCode": "pt-BR",
-      "name": "Suazilândia"
+      "name": "Essuatíni"
     },
     {
       "languageCode": "pt",
-      "name": "Suazilândia"
+      "name": "Essuatíni"
     },
     {
       "languageCode": "nl",
-      "name": "Swaziland"
+      "name": "Eswatini"
     },
     {
       "languageCode": "hr",
-      "name": "Svazi"
+      "name": "Esvatini"
     },
     {
       "languageCode": "fa",
-      "name": "سوازیلند"
+      "name": "اسواتینی"
     },
     {
       "languageCode": "de",
-      "name": "Swasiland"
+      "name": "Eswatini"
     },
     {
       "languageCode": "es",
-      "name": "Suazilandia"
+      "name": "Esuatini"
     },
     {
       "languageCode": "fr",
-      "name": "Swaziland"
+      "name": "Eswatini"
     },
     {
       "languageCode": "ja",
-      "name": "スワジランド"
+      "name": "エスワティニ"
     },
     {
       "languageCode": "it",
-      "name": "Swaziland"
+      "name": "Eswatini"
     },
     {
       "languageCode": "zh-CN",
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 968,
+      "id": "SZ-MA",
       "name": "Manzini",
       "stateCode": "MA",
       "latitude": -26.5081999,
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "id": 969,
+      "id": "SZ-HH",
       "name": "Hhohho",
       "stateCode": "HH",
       "latitude": -26.1365662,
@@ -225,7 +225,7 @@
       ]
     },
     {
-      "id": 970,
+      "id": "SZ-LU",
       "name": "Lubombo",
       "stateCode": "LU",
       "latitude": -26.7851773,
@@ -292,7 +292,7 @@
       ]
     },
     {
-      "id": 971,
+      "id": "SZ-SH",
       "name": "Shiselweni",
       "stateCode": "SH",
       "latitude": -26.9827577,

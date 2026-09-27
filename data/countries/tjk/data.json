@@ -1,5 +1,5 @@
 {
-  "id": 217,
+  "id": "TJ",
   "name": "Tajikistan",
   "nativeName": "Тоҷикистон",
   "iso2": "TJ",
@@ -9,17 +9,17 @@
   "tld": ".tj",
   "latitude": 39,
   "longitude": 71,
-  "flagId": 32,
-  "regionId": 3,
-  "subregionId": 10,
+  "flagId": "tj",
+  "regionId": "asia",
+  "subregionId": "central-asia",
   "currencyIds": [
-    967
+    "TJS"
   ],
   "timezoneIds": [
-    2580
+    "Asia/Dushanbe"
   ],
   "officialLanguageIds": [
-    162
+    "tg"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -41,7 +41,7 @@
     },
     {
       "languageCode": "hr",
-      "name": "Tađikistan"
+      "name": "Tadžikistan"
     },
     {
       "languageCode": "fa",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 3397,
+      "id": "TJ-RA",
       "name": "Nohiyahoi Tobei Jumhurí ",
       "stateCode": "RA",
       "latitude": 39.0857902,
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "id": 3398,
+      "id": "TJ-KT",
       "name": "Khatlon",
       "stateCode": "KT",
       "latitude": 37.9113562,
@@ -406,7 +406,7 @@
       ]
     },
     {
-      "id": 3399,
+      "id": "TJ-GB",
       "name": "Gorno-Badakhshan",
       "stateCode": "GB",
       "latitude": 38.412732,
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": 3400,
+      "id": "TJ-SU",
       "name": "Sughd ",
       "stateCode": "SU",
       "latitude": 39.5155326,

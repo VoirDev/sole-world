@@ -1,5 +1,5 @@
 {
-  "id": 215,
+  "id": "SY",
   "name": "Syria",
   "nativeName": "سوريا",
   "iso2": "SY",
@@ -9,17 +9,17 @@
   "tld": ".sy",
   "latitude": 35,
   "longitude": 38,
-  "flagId": 39,
-  "regionId": 3,
-  "subregionId": 11,
+  "flagId": "sy",
+  "regionId": "asia",
+  "subregionId": "western-asia",
   "currencyIds": [
-    965
+    "SYP"
   ],
   "timezoneIds": [
-    2578
+    "Asia/Damascus"
   ],
   "officialLanguageIds": [
-    7
+    "ar"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -61,7 +61,7 @@
     },
     {
       "languageCode": "ja",
-      "name": "シリア・アラブ共和国"
+      "name": "シリア"
     },
     {
       "languageCode": "it",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 2934,
+      "id": "SY-HM",
       "name": "Hama",
       "stateCode": "HM",
       "latitude": 35.1887865,
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "id": 2935,
+      "id": "SY-RD",
       "name": "Rif Dimashq",
       "stateCode": "RD",
       "latitude": 33.5167289,
@@ -343,7 +343,7 @@
       ]
     },
     {
-      "id": 2936,
+      "id": "SY-SU",
       "name": "As-Suwayda",
       "stateCode": "SU",
       "latitude": 32.7989156,
@@ -403,7 +403,7 @@
       ]
     },
     {
-      "id": 2937,
+      "id": "SY-DY",
       "name": "Deir ez-Zor",
       "stateCode": "DY",
       "latitude": 35.2879798,
@@ -449,7 +449,7 @@
       ]
     },
     {
-      "id": 2938,
+      "id": "SY-LA",
       "name": "Latakia",
       "stateCode": "LA",
       "latitude": 35.6129791,
@@ -516,7 +516,7 @@
       ]
     },
     {
-      "id": 2939,
+      "id": "SY-DI",
       "name": "Damascus",
       "stateCode": "DI",
       "latitude": 33.5151444,
@@ -534,7 +534,7 @@
       ]
     },
     {
-      "id": 2940,
+      "id": "SY-ID",
       "name": "Idlib",
       "stateCode": "ID",
       "latitude": 35.8268798,
@@ -678,7 +678,7 @@
       ]
     },
     {
-      "id": 2941,
+      "id": "SY-HA",
       "name": "Al-Hasakah",
       "stateCode": "HA",
       "latitude": 36.405515,
@@ -731,7 +731,7 @@
       ]
     },
     {
-      "id": 2942,
+      "id": "SY-HI",
       "name": "Homs",
       "stateCode": "HI",
       "latitude": 34.2567123,
@@ -840,7 +840,7 @@
       ]
     },
     {
-      "id": 2943,
+      "id": "SY-QU",
       "name": "Quneitra",
       "stateCode": "QU",
       "latitude": 33.0776318,
@@ -858,7 +858,7 @@
       ]
     },
     {
-      "id": 2944,
+      "id": "SY-RA",
       "name": "Al-Raqqah",
       "stateCode": "RA",
       "latitude": 35.9594106,
@@ -911,7 +911,7 @@
       ]
     },
     {
-      "id": 2945,
+      "id": "SY-DR",
       "name": "Daraa",
       "stateCode": "DR",
       "latitude": 32.9248813,
@@ -1027,7 +1027,7 @@
       ]
     },
     {
-      "id": 2946,
+      "id": "SY-HL",
       "name": "Aleppo",
       "stateCode": "HL",
       "latitude": 36.2262393,
@@ -1185,7 +1185,7 @@
       ]
     },
     {
-      "id": 2947,
+      "id": "SY-TA",
       "name": "Tartus",
       "stateCode": "TA",
       "latitude": 35.0006652,

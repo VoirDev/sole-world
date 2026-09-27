@@ -1,5 +1,5 @@
 {
-  "id": 178,
+  "id": "PR",
   "name": "Puerto Rico",
   "nativeName": "Puerto Rico",
   "iso2": "PR",
@@ -9,17 +9,17 @@
   "tld": ".pr",
   "latitude": 18.25,
   "longitude": -66.5,
-  "flagId": 69,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "pr",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    838
+    "USD"
   ],
   "timezoneIds": [
-    2515
+    "America/Puerto_Rico"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "پورتو ریکو"
+      "name": "پورتوریکو"
     },
     {
       "languageCode": "de",
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Porto Rico"
+      "name": "Portorico"
     },
     {
       "languageCode": "zh-CN",
@@ -81,7 +81,7 @@
     },
     {
       "languageCode": "uk",
-      "name": "Пуерто-Ріко"
+      "name": "Пуерто-Рико"
     },
     {
       "languageCode": "pl",
@@ -90,7 +90,7 @@
   ],
   "states": [
     {
-      "id": 5075,
+      "id": "PR-SJ",
       "name": "San Juan",
       "stateCode": "SJ",
       "latitude": 18.45,
@@ -100,7 +100,7 @@
       "cities": []
     },
     {
-      "id": 5076,
+      "id": "PR-BY",
       "name": "Bayamon",
       "stateCode": "BY",
       "latitude": 18.17777778,
@@ -110,7 +110,7 @@
       "cities": []
     },
     {
-      "id": 5077,
+      "id": "PR-CL",
       "name": "Carolina",
       "stateCode": "CL",
       "latitude": 18.38888889,
@@ -120,7 +120,7 @@
       "cities": []
     },
     {
-      "id": 5078,
+      "id": "PR-PO",
       "name": "Ponce",
       "stateCode": "PO",
       "latitude": 18,
@@ -130,7 +130,7 @@
       "cities": []
     },
     {
-      "id": 5079,
+      "id": "PR-CG",
       "name": "Caguas",
       "stateCode": "CG",
       "latitude": 18.23333333,
@@ -140,7 +140,7 @@
       "cities": []
     },
     {
-      "id": 5080,
+      "id": "PR-GN",
       "name": "Guaynabo",
       "stateCode": "GN",
       "latitude": 18.36666667,
@@ -150,7 +150,7 @@
       "cities": []
     },
     {
-      "id": 5081,
+      "id": "PR-AR",
       "name": "Arecibo",
       "stateCode": "AR",
       "latitude": 18.47055556,
@@ -160,7 +160,7 @@
       "cities": []
     },
     {
-      "id": 5082,
+      "id": "PR-TB",
       "name": "Toa Baja",
       "stateCode": "TB",
       "latitude": 18.443889,
@@ -170,7 +170,7 @@
       "cities": []
     },
     {
-      "id": 5083,
+      "id": "PR-MG",
       "name": "Mayagüez",
       "stateCode": "MG",
       "latitude": 18.20111111,
@@ -180,7 +180,7 @@
       "cities": []
     },
     {
-      "id": 5084,
+      "id": "PR-TA",
       "name": "Trujillo Alto",
       "stateCode": "TA",
       "latitude": 18.362778,
@@ -190,7 +190,7 @@
       "cities": []
     },
     {
-      "id": 5134,
+      "id": "PR-001",
       "name": "Adjuntas",
       "stateCode": "001",
       "latitude": 18.1634848,
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "id": 5135,
+      "id": "PR-003",
       "name": "Aguada",
       "stateCode": "003",
       "latitude": 18.3801579,
@@ -226,7 +226,7 @@
       ]
     },
     {
-      "id": 5136,
+      "id": "PR-005",
       "name": "Aguadilla",
       "stateCode": "005",
       "latitude": 18.4274454,
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "id": 5137,
+      "id": "PR-007",
       "name": "Aguas Buenas",
       "stateCode": "007",
       "latitude": 18.2568989,
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "id": 5138,
+      "id": "PR-009",
       "name": "Aibonito",
       "stateCode": "009",
       "latitude": 18.1399594,
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "id": 5139,
+      "id": "PR-011",
       "name": "Añasco",
       "stateCode": "011",
       "latitude": 18.2854476,
@@ -298,7 +298,7 @@
       ]
     },
     {
-      "id": 5140,
+      "id": "PR-013",
       "name": "Arecibo",
       "stateCode": "013",
       "latitude": 18.4705137,
@@ -316,7 +316,7 @@
       ]
     },
     {
-      "id": 5141,
+      "id": "PR-015",
       "name": "Arroyo",
       "stateCode": "015",
       "latitude": 17.996422,
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "id": 5142,
+      "id": "PR-017",
       "name": "Barceloneta",
       "stateCode": "017",
       "latitude": 41.3801061,
@@ -352,7 +352,7 @@
       ]
     },
     {
-      "id": 5143,
+      "id": "PR-019",
       "name": "Barranquitas",
       "stateCode": "019",
       "latitude": 18.1866242,
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "id": 5144,
+      "id": "PR-021",
       "name": "Bayamón",
       "stateCode": "021",
       "latitude": 18.389396,
@@ -388,7 +388,7 @@
       ]
     },
     {
-      "id": 5145,
+      "id": "PR-023",
       "name": "Cabo Rojo",
       "stateCode": "023",
       "latitude": 18.0866265,
@@ -406,7 +406,7 @@
       ]
     },
     {
-      "id": 5146,
+      "id": "PR-025",
       "name": "Caguas",
       "stateCode": "025",
       "latitude": 18.2387995,
@@ -424,7 +424,7 @@
       ]
     },
     {
-      "id": 5147,
+      "id": "PR-027",
       "name": "Camuy",
       "stateCode": "027",
       "latitude": 18.483833,
@@ -442,7 +442,7 @@
       ]
     },
     {
-      "id": 5148,
+      "id": "PR-029",
       "name": "Canóvanas",
       "stateCode": "029",
       "latitude": 18.3748748,
@@ -460,7 +460,7 @@
       ]
     },
     {
-      "id": 5149,
+      "id": "PR-031",
       "name": "Carolina",
       "stateCode": "031",
       "latitude": 18.3680877,
@@ -478,7 +478,7 @@
       ]
     },
     {
-      "id": 5150,
+      "id": "PR-033",
       "name": "Cataño",
       "stateCode": "033",
       "latitude": 18.4465355,
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": 5151,
+      "id": "PR-035",
       "name": "Cayey",
       "stateCode": "035",
       "latitude": 18.1119051,
@@ -514,7 +514,7 @@
       ]
     },
     {
-      "id": 5152,
+      "id": "PR-037",
       "name": "Ceiba",
       "stateCode": "037",
       "latitude": 18.2475177,
@@ -532,7 +532,7 @@
       ]
     },
     {
-      "id": 5153,
+      "id": "PR-039",
       "name": "Ciales",
       "stateCode": "039",
       "latitude": 18.3360622,
@@ -550,7 +550,7 @@
       ]
     },
     {
-      "id": 5154,
+      "id": "PR-041",
       "name": "Cidra",
       "stateCode": "041",
       "latitude": 18.1757914,
@@ -568,7 +568,7 @@
       ]
     },
     {
-      "id": 5155,
+      "id": "PR-043",
       "name": "Coamo",
       "stateCode": "043",
       "latitude": 18.0799616,
@@ -586,7 +586,7 @@
       ]
     },
     {
-      "id": 5156,
+      "id": "PR-045",
       "name": "Comerío",
       "stateCode": "045",
       "latitude": 18.2192001,
@@ -604,7 +604,7 @@
       ]
     },
     {
-      "id": 5157,
+      "id": "PR-047",
       "name": "Corozal",
       "stateCode": "047",
       "latitude": 18.4030802,
@@ -622,7 +622,7 @@
       ]
     },
     {
-      "id": 5158,
+      "id": "PR-049",
       "name": "Culebra",
       "stateCode": "049",
       "latitude": 18.310394,
@@ -640,7 +640,7 @@
       ]
     },
     {
-      "id": 5159,
+      "id": "PR-051",
       "name": "Dorado",
       "stateCode": "051",
       "latitude": 43.1480556,
@@ -658,7 +658,7 @@
       ]
     },
     {
-      "id": 5160,
+      "id": "PR-053",
       "name": "Fajardo",
       "stateCode": "053",
       "latitude": 18.3252148,
@@ -676,7 +676,7 @@
       ]
     },
     {
-      "id": 5161,
+      "id": "PR-054",
       "name": "Florida",
       "stateCode": "054",
       "latitude": 27.6648274,
@@ -694,7 +694,7 @@
       ]
     },
     {
-      "id": 5162,
+      "id": "PR-055",
       "name": "Guánica",
       "stateCode": "055",
       "latitude": 17.9725145,
@@ -712,7 +712,7 @@
       ]
     },
     {
-      "id": 5163,
+      "id": "PR-057",
       "name": "Guayama",
       "stateCode": "057",
       "latitude": 17.9841328,
@@ -730,7 +730,7 @@
       ]
     },
     {
-      "id": 5164,
+      "id": "PR-059",
       "name": "Guayanilla",
       "stateCode": "059",
       "latitude": 18.0191314,
@@ -748,7 +748,7 @@
       ]
     },
     {
-      "id": 5165,
+      "id": "PR-061",
       "name": "Guaynabo",
       "stateCode": "061",
       "latitude": 18.3612954,
@@ -766,7 +766,7 @@
       ]
     },
     {
-      "id": 5166,
+      "id": "PR-063",
       "name": "Gurabo",
       "stateCode": "063",
       "latitude": 18.2543987,
@@ -784,7 +784,7 @@
       ]
     },
     {
-      "id": 5167,
+      "id": "PR-065",
       "name": "Hatillo",
       "stateCode": "065",
       "latitude": 18.4284642,
@@ -802,7 +802,7 @@
       ]
     },
     {
-      "id": 5168,
+      "id": "PR-067",
       "name": "Hormigueros",
       "stateCode": "067",
       "latitude": 18.1334638,
@@ -820,7 +820,7 @@
       ]
     },
     {
-      "id": 5169,
+      "id": "PR-069",
       "name": "Humacao",
       "stateCode": "069",
       "latitude": 18.1515736,
@@ -838,7 +838,7 @@
       ]
     },
     {
-      "id": 5170,
+      "id": "PR-071",
       "name": "Isabela",
       "stateCode": "071",
       "latitude": 16.9753758,
@@ -856,7 +856,7 @@
       ]
     },
     {
-      "id": 5171,
+      "id": "PR-073",
       "name": "Jayuya",
       "stateCode": "073",
       "latitude": 18.2185674,
@@ -874,7 +874,7 @@
       ]
     },
     {
-      "id": 5172,
+      "id": "PR-075",
       "name": "Juana Díaz",
       "stateCode": "075",
       "latitude": 18.0534372,
@@ -892,7 +892,7 @@
       ]
     },
     {
-      "id": 5173,
+      "id": "PR-077",
       "name": "Juncos",
       "stateCode": "077",
       "latitude": 18.2274558,
@@ -910,7 +910,7 @@
       ]
     },
     {
-      "id": 5174,
+      "id": "PR-079",
       "name": "Lajas",
       "stateCode": "079",
       "latitude": 18.049962,
@@ -928,7 +928,7 @@
       ]
     },
     {
-      "id": 5175,
+      "id": "PR-081",
       "name": "Lares",
       "stateCode": "081",
       "latitude": 34.0250802,
@@ -946,7 +946,7 @@
       ]
     },
     {
-      "id": 5176,
+      "id": "PR-083",
       "name": "Las Marías",
       "stateCode": "083",
       "latitude": 35.8382238,
@@ -964,7 +964,7 @@
       ]
     },
     {
-      "id": 5177,
+      "id": "PR-085",
       "name": "Las Piedras",
       "stateCode": "085",
       "latitude": 18.1855753,
@@ -982,7 +982,7 @@
       ]
     },
     {
-      "id": 5178,
+      "id": "PR-087",
       "name": "Loíza",
       "stateCode": "087",
       "latitude": 18.4329904,
@@ -1000,7 +1000,7 @@
       ]
     },
     {
-      "id": 5179,
+      "id": "PR-089",
       "name": "Luquillo",
       "stateCode": "089",
       "latitude": 18.3724507,
@@ -1018,7 +1018,7 @@
       ]
     },
     {
-      "id": 5180,
+      "id": "PR-091",
       "name": "Manatí",
       "stateCode": "091",
       "latitude": 18.4181215,
@@ -1036,7 +1036,7 @@
       ]
     },
     {
-      "id": 5181,
+      "id": "PR-093",
       "name": "Maricao",
       "stateCode": "093",
       "latitude": 18.1807902,
@@ -1054,7 +1054,7 @@
       ]
     },
     {
-      "id": 5182,
+      "id": "PR-095",
       "name": "Maunabo",
       "stateCode": "095",
       "latitude": 18.0071885,
@@ -1072,7 +1072,7 @@
       ]
     },
     {
-      "id": 5183,
+      "id": "PR-097",
       "name": "Mayagüez",
       "stateCode": "097",
       "latitude": 18.2013452,
@@ -1090,7 +1090,7 @@
       ]
     },
     {
-      "id": 5184,
+      "id": "PR-099",
       "name": "Moca",
       "stateCode": "099",
       "latitude": 18.3967929,
@@ -1108,7 +1108,7 @@
       ]
     },
     {
-      "id": 5185,
+      "id": "PR-101",
       "name": "Morovis",
       "stateCode": "101",
       "latitude": 18.325785,
@@ -1126,7 +1126,7 @@
       ]
     },
     {
-      "id": 5186,
+      "id": "PR-103",
       "name": "Naguabo",
       "stateCode": "103",
       "latitude": 18.2116247,
@@ -1144,7 +1144,7 @@
       ]
     },
     {
-      "id": 5187,
+      "id": "PR-105",
       "name": "Naranjito",
       "stateCode": "105",
       "latitude": 18.3007861,
@@ -1162,7 +1162,7 @@
       ]
     },
     {
-      "id": 5188,
+      "id": "PR-107",
       "name": "Orocovis",
       "stateCode": "107",
       "latitude": 18.2269224,
@@ -1180,7 +1180,7 @@
       ]
     },
     {
-      "id": 5189,
+      "id": "PR-109",
       "name": "Patillas",
       "stateCode": "109",
       "latitude": 18.0037381,
@@ -1198,7 +1198,7 @@
       ]
     },
     {
-      "id": 5190,
+      "id": "PR-111",
       "name": "Peñuelas",
       "stateCode": "111",
       "latitude": 18.0633577,
@@ -1216,7 +1216,7 @@
       ]
     },
     {
-      "id": 5191,
+      "id": "PR-113",
       "name": "Ponce",
       "stateCode": "113",
       "latitude": 18.0110768,
@@ -1234,7 +1234,7 @@
       ]
     },
     {
-      "id": 5192,
+      "id": "PR-115",
       "name": "Quebradillas",
       "stateCode": "115",
       "latitude": 18.473833,
@@ -1252,7 +1252,7 @@
       ]
     },
     {
-      "id": 5193,
+      "id": "PR-117",
       "name": "Rincón",
       "stateCode": "117",
       "latitude": 18.3401514,
@@ -1270,7 +1270,7 @@
       ]
     },
     {
-      "id": 5194,
+      "id": "PR-119",
       "name": "Río Grande",
       "stateCode": "119",
       "latitude": 28.81063826,
@@ -1288,7 +1288,7 @@
       ]
     },
     {
-      "id": 5195,
+      "id": "PR-121",
       "name": "Sabana Grande",
       "stateCode": "121",
       "latitude": 18.0777392,
@@ -1306,7 +1306,7 @@
       ]
     },
     {
-      "id": 5196,
+      "id": "PR-123",
       "name": "Salinas",
       "stateCode": "123",
       "latitude": 36.6777372,
@@ -1324,7 +1324,7 @@
       ]
     },
     {
-      "id": 5197,
+      "id": "PR-125",
       "name": "San Germán",
       "stateCode": "125",
       "latitude": 18.0807082,
@@ -1342,7 +1342,7 @@
       ]
     },
     {
-      "id": 5198,
+      "id": "PR-127",
       "name": "San Juan",
       "stateCode": "127",
       "latitude": 18.463203,
@@ -1360,7 +1360,7 @@
       ]
     },
     {
-      "id": 5199,
+      "id": "PR-129",
       "name": "San Lorenzo",
       "stateCode": "129",
       "latitude": 18.1886912,
@@ -1378,7 +1378,7 @@
       ]
     },
     {
-      "id": 5200,
+      "id": "PR-131",
       "name": "San Sebastián",
       "stateCode": "131",
       "latitude": 43.318334,
@@ -1396,7 +1396,7 @@
       ]
     },
     {
-      "id": 5201,
+      "id": "PR-133",
       "name": "Santa Isabel",
       "stateCode": "133",
       "latitude": 17.9660775,
@@ -1414,7 +1414,7 @@
       ]
     },
     {
-      "id": 5202,
+      "id": "PR-135",
       "name": "Toa Alta",
       "stateCode": "135",
       "latitude": 18.3882823,
@@ -1432,7 +1432,7 @@
       ]
     },
     {
-      "id": 5203,
+      "id": "PR-137",
       "name": "Toa Baja",
       "stateCode": "137",
       "latitude": 18.4444709,
@@ -1450,7 +1450,7 @@
       ]
     },
     {
-      "id": 5204,
+      "id": "PR-139",
       "name": "Trujillo Alto",
       "stateCode": "139",
       "latitude": 18.3546719,
@@ -1468,7 +1468,7 @@
       ]
     },
     {
-      "id": 5205,
+      "id": "PR-141",
       "name": "Utuado",
       "stateCode": "141",
       "latitude": 18.2655095,
@@ -1486,7 +1486,7 @@
       ]
     },
     {
-      "id": 5206,
+      "id": "PR-143",
       "name": "Vega Alta",
       "stateCode": "143",
       "latitude": 18.4121703,
@@ -1504,7 +1504,7 @@
       ]
     },
     {
-      "id": 5207,
+      "id": "PR-145",
       "name": "Vega Baja",
       "stateCode": "145",
       "latitude": 18.4461459,
@@ -1522,7 +1522,7 @@
       ]
     },
     {
-      "id": 5208,
+      "id": "PR-147",
       "name": "Vieques",
       "stateCode": "147",
       "latitude": 18.1262854,
@@ -1540,7 +1540,7 @@
       ]
     },
     {
-      "id": 5209,
+      "id": "PR-149",
       "name": "Villalba",
       "stateCode": "149",
       "latitude": 18.1217554,
@@ -1558,7 +1558,7 @@
       ]
     },
     {
-      "id": 5210,
+      "id": "PR-151",
       "name": "Yabucoa",
       "stateCode": "151",
       "latitude": 18.0505201,
@@ -1576,7 +1576,7 @@
       ]
     },
     {
-      "id": 5211,
+      "id": "PR-153",
       "name": "Yauco",
       "stateCode": "153",
       "latitude": 18.034964,

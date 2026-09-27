@@ -13,7 +13,15 @@ build time, so a correction here is a release, not a migration.
    `currencies.json`, `cryptos.json`, `languages.json`, `regions.json`, `timezones.json`,
    `central_banks.json`, `flags.json`, `media_assets.json`.
 2. **Keep the shape.** Field names are camelCase; ids are stable and must stay unique; a reference
-   to another record must name one that exists. All of this is checked at startup by
+   to another record must name one that exists, spelled exactly as that record spells its id.
+   An id is the record's public standard code where one exists — ISO 3166-1 alpha-2 for a
+   country, ISO 4217 for a currency, ISO 639-1 for a language, the IANA name for a timezone, the
+   country and state codes joined by a hyphen for a state — and a lowercase alias otherwise, such
+   as `federal-reserve`. An alias is the name people actually use: a central bank's is its common
+   English name with the country's short name (`central-bank-of-iran`, not
+   `central-bank-of-islamic-republic-of-iran`), or its native name where it is known by that
+   (`deutsche-bundesbank`, `banco-de-la-republica`). Cities keep their numbers. Never change an id that has been released:
+   clients store them. All of this is checked at startup by
    [`DatasetIntegrity`](api/src/main/kotlin/dev/voir/sole/world/api/dataset/DatasetIntegrity.kt), so
    `./gradlew :api:test` will tell you if something does not line up.
 3. **Say where it came from.** A correction is much easier to accept with a source: an official
@@ -40,7 +48,9 @@ Image files live in [`assets/`](assets) and their metadata is **generated**, not
    ```
 
 3. Point the owning record at the new asset ids — a `flags.json` entry's `square` and `wide`, or a
-   coin's `logoId` — and re-run the generator so the description picks up the owner's name.
+   coin's `logoId` — and re-run the generator so the description picks up the owner's name. An
+   asset's id is derived from its file, so it is known before the generator runs: `flag-<key>-square`
+   and `flag-<key>-wide` for a flag, `crypto-<key>-square` for a coin's logo.
 
 ## Changing the API
 

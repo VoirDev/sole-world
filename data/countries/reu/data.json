@@ -1,6 +1,6 @@
 {
-  "id": 180,
-  "name": "Reunion",
+  "id": "RE",
+  "name": "Réunion",
   "nativeName": "La Réunion",
   "iso2": "RE",
   "iso3": "REU",
@@ -9,17 +9,17 @@
   "tld": ".re",
   "latitude": -21.15,
   "longitude": 55.5,
-  "flagId": 63,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "re",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    835
+    "EUR"
   ],
   "timezoneIds": [
-    2517
+    "Indian/Reunion"
   ],
   "officialLanguageIds": [
-    33
+    "fr"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -77,11 +77,11 @@
     },
     {
       "languageCode": "ru",
-      "name": "Воссоединение"
+      "name": "Реюньон"
     },
     {
       "languageCode": "uk",
-      "name": "Возз'єднання"
+      "name": "Реюньйон"
     },
     {
       "languageCode": "pl",

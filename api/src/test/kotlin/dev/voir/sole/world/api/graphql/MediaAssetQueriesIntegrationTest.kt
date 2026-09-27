@@ -11,7 +11,7 @@ class MediaAssetQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              mediaAsset(id: 9001) {
+              mediaAsset(id: "flag-fd-square") {
                 id
                 type
                 image {
@@ -30,7 +30,7 @@ class MediaAssetQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
         assertNoErrors(response)
         val asset = response.at("/data/mediaAsset")
-        assertEquals("9001", asset["id"].stringValue())
+        assertEquals("flag-fd-square", asset["id"].stringValue())
         assertEquals("Image", asset["type"].stringValue())
         assertEquals("Square", asset.at("/image/aspectRatio").stringValue())
         assertEquals("/assets/flags/fd_1x1.svg", asset.at("/image/formats/svg").stringValue())
@@ -45,7 +45,7 @@ class MediaAssetQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              mediaAssetsByIds(ids: [9001, 9002, 9999]) {
+              mediaAssetsByIds(ids: ["flag-fd-square", "flag-fd-wide", "flag-xx-square"]) {
                 id
                 type
                 image { aspectRatio }
@@ -56,7 +56,7 @@ class MediaAssetQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
         assertNoErrors(response)
         val assets = response.at("/data/mediaAssetsByIds")
-        assertArrayValues(assets, "id", "9001", "9002")
+        assertArrayValues(assets, "id", "flag-fd-square", "flag-fd-wide")
         assertArrayValues(assets, "type", "Image", "Image")
     }
 
@@ -65,7 +65,7 @@ class MediaAssetQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         val response = graphQL(
             """
             query {
-              mediaAsset(id: 9999) { id }
+              mediaAsset(id: "flag-xx-square") { id }
             }
             """.trimIndent(),
         )

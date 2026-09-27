@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "africa",
     "name": "Africa",
     "wikiDataId": "Q15",
     "translations": [
@@ -71,7 +71,7 @@
     ],
     "subregions": [
       {
-        "id": 4,
+        "id": "eastern-africa",
         "name": "Eastern Africa",
         "wikiDataId": "Q27407",
         "translations": [
@@ -142,7 +142,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": "middle-africa",
         "name": "Middle Africa",
         "wikiDataId": "Q27433",
         "translations": [
@@ -213,7 +213,7 @@
         ]
       },
       {
-        "id": 1,
+        "id": "northern-africa",
         "name": "Northern Africa",
         "wikiDataId": "Q27381",
         "translations": [
@@ -284,7 +284,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": "southern-africa",
         "name": "Southern Africa",
         "wikiDataId": "Q27394",
         "translations": [
@@ -355,7 +355,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": "western-africa",
         "name": "Western Africa",
         "wikiDataId": "Q4412",
         "translations": [
@@ -428,7 +428,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": "americas",
     "name": "Americas",
     "wikiDataId": "Q828",
     "translations": [
@@ -499,7 +499,7 @@
     ],
     "subregions": [
       {
-        "id": 7,
+        "id": "caribbean",
         "name": "Caribbean",
         "wikiDataId": "Q664609",
         "translations": [
@@ -570,7 +570,7 @@
         ]
       },
       {
-        "id": 9,
+        "id": "central-america",
         "name": "Central America",
         "wikiDataId": "Q27611",
         "translations": [
@@ -641,7 +641,7 @@
         ]
       },
       {
-        "id": 6,
+        "id": "northern-america",
         "name": "Northern America",
         "wikiDataId": "Q2017699",
         "translations": [
@@ -712,7 +712,7 @@
         ]
       },
       {
-        "id": 8,
+        "id": "south-america",
         "name": "South America",
         "wikiDataId": "Q18",
         "translations": [
@@ -785,7 +785,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": "asia",
     "name": "Asia",
     "wikiDataId": "Q48",
     "translations": [
@@ -856,7 +856,7 @@
     ],
     "subregions": [
       {
-        "id": 10,
+        "id": "central-asia",
         "name": "Central Asia",
         "wikiDataId": "Q27275",
         "translations": [
@@ -927,7 +927,7 @@
         ]
       },
       {
-        "id": 12,
+        "id": "eastern-asia",
         "name": "Eastern Asia",
         "wikiDataId": "Q27231",
         "translations": [
@@ -998,7 +998,7 @@
         ]
       },
       {
-        "id": 13,
+        "id": "south-eastern-asia",
         "name": "South-eastern Asia",
         "wikiDataId": "Q11708",
         "translations": [
@@ -1069,7 +1069,7 @@
         ]
       },
       {
-        "id": 14,
+        "id": "southern-asia",
         "name": "Southern Asia",
         "wikiDataId": "Q771405",
         "translations": [
@@ -1140,7 +1140,7 @@
         ]
       },
       {
-        "id": 11,
+        "id": "western-asia",
         "name": "Western Asia",
         "wikiDataId": "Q27293",
         "translations": [
@@ -1213,7 +1213,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": "europe",
     "name": "Europe",
     "wikiDataId": "Q46",
     "translations": [
@@ -1284,7 +1284,7 @@
     ],
     "subregions": [
       {
-        "id": 15,
+        "id": "eastern-europe",
         "name": "Eastern Europe",
         "wikiDataId": "Q27468",
         "translations": [
@@ -1355,7 +1355,7 @@
         ]
       },
       {
-        "id": 18,
+        "id": "northern-europe",
         "name": "Northern Europe",
         "wikiDataId": "Q27479",
         "translations": [
@@ -1426,7 +1426,7 @@
         ]
       },
       {
-        "id": 16,
+        "id": "southern-europe",
         "name": "Southern Europe",
         "wikiDataId": "Q27449",
         "translations": [
@@ -1497,7 +1497,7 @@
         ]
       },
       {
-        "id": 17,
+        "id": "western-europe",
         "name": "Western Europe",
         "wikiDataId": "Q27496",
         "translations": [
@@ -1570,7 +1570,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": "oceania",
     "name": "Oceania",
     "wikiDataId": "Q55643",
     "translations": [
@@ -1641,7 +1641,7 @@
     ],
     "subregions": [
       {
-        "id": 19,
+        "id": "australia-and-new-zealand",
         "name": "Australia and New Zealand",
         "wikiDataId": "Q45256",
         "translations": [
@@ -1712,7 +1712,7 @@
         ]
       },
       {
-        "id": 20,
+        "id": "melanesia",
         "name": "Melanesia",
         "wikiDataId": "Q37394",
         "translations": [
@@ -1783,7 +1783,7 @@
         ]
       },
       {
-        "id": 21,
+        "id": "micronesia",
         "name": "Micronesia",
         "wikiDataId": "Q3359409",
         "translations": [
@@ -1854,7 +1854,7 @@
         ]
       },
       {
-        "id": 22,
+        "id": "polynesia",
         "name": "Polynesia",
         "wikiDataId": "Q35942",
         "translations": [
@@ -1927,7 +1927,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": "antarctica",
     "name": "Antarctica",
     "wikiDataId": "Q51",
     "translations": [
@@ -1998,7 +1998,7 @@
     ],
     "subregions": [
       {
-        "id": 23,
+        "id": "antarctica",
         "name": "Antarctica",
         "wikiDataId": "Q51",
         "translations": [

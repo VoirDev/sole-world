@@ -1,5 +1,5 @@
 {
-  "id": 249,
+  "id": "CW",
   "name": "Curaçao",
   "nativeName": "Curaçao",
   "iso2": "CW",
@@ -9,18 +9,18 @@
   "tld": ".cw",
   "latitude": 12.116667,
   "longitude": -68.933333,
-  "flagId": 198,
-  "regionId": 2,
-  "subregionId": 7,
+  "flagId": "cw",
+  "regionId": "americas",
+  "subregionId": "caribbean",
   "currencyIds": [
-    873
+    "XCG"
   ],
   "timezoneIds": [
-    2354
+    "America/Curacao"
   ],
   "officialLanguageIds": [
-    29,
-    30
+    "nl",
+    "en"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -75,6 +75,18 @@
     {
       "languageCode": "pl",
       "name": "Curaçao"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Curaçao"
+    },
+    {
+      "languageCode": "es",
+      "name": "Curazao"
+    },
+    {
+      "languageCode": "ja",
+      "name": "キュラソー"
     }
   ],
   "states": []

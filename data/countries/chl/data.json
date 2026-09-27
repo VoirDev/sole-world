@@ -1,5 +1,5 @@
 {
-  "id": 44,
+  "id": "CL",
   "name": "Chile",
   "nativeName": "Chile",
   "iso2": "CL",
@@ -9,26 +9,26 @@
   "tld": ".cl",
   "latitude": -30,
   "longitude": -71,
-  "flagId": 212,
-  "regionId": 2,
-  "subregionId": 8,
+  "flagId": "cl",
+  "regionId": "americas",
+  "subregionId": "south-america",
   "currencyIds": [
-    866
+    "CLP"
   ],
   "timezoneIds": [
-    2339,
-    2340,
-    2341,
-    2658
+    "America/Punta_Arenas",
+    "America/Santiago",
+    "Pacific/Easter",
+    "America/Coyhaique"
   ],
   "officialLanguageIds": [
-    47
+    "es"
   ],
   "otherLanguageIds": [],
   "translations": [
     {
       "languageCode": "ko",
-      "name": "칠리"
+      "name": "칠레"
     },
     {
       "languageCode": "pt-BR",
@@ -93,7 +93,7 @@
   ],
   "states": [
     {
-      "id": 2823,
+      "id": "CL-AT",
       "name": "Atacama",
       "stateCode": "AT",
       "latitude": -27.5660558,
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "id": 2824,
+      "id": "CL-RM",
       "name": "Región Metropolitana de Santiago",
       "stateCode": "RM",
       "latitude": -33.4375545,
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "id": 2825,
+      "id": "CL-CO",
       "name": "Coquimbo",
       "stateCode": "CO",
       "latitude": -30.540181,
@@ -658,7 +658,7 @@
       ]
     },
     {
-      "id": 2826,
+      "id": "CL-AR",
       "name": "La Araucanía",
       "stateCode": "AR",
       "latitude": -38.948921,
@@ -893,7 +893,7 @@
       ]
     },
     {
-      "id": 2827,
+      "id": "CL-BI",
       "name": "Biobío",
       "stateCode": "BI",
       "latitude": -37.4464428,
@@ -1135,7 +1135,7 @@
       ]
     },
     {
-      "id": 2828,
+      "id": "CL-AI",
       "name": "Aisén del General Carlos Ibañez del Campo",
       "stateCode": "AI",
       "latitude": -46.378345,
@@ -1216,7 +1216,7 @@
       ]
     },
     {
-      "id": 2829,
+      "id": "CL-AP",
       "name": "Arica y Parinacota",
       "stateCode": "AP",
       "latitude": -18.5940485,
@@ -1255,7 +1255,7 @@
       ]
     },
     {
-      "id": 2830,
+      "id": "CL-VS",
       "name": "Valparaíso",
       "stateCode": "VS",
       "latitude": -33.047238,
@@ -1532,7 +1532,7 @@
       ]
     },
     {
-      "id": 2831,
+      "id": "CL-NB",
       "name": "Ñuble",
       "stateCode": "NB",
       "latitude": -36.7225743,
@@ -1690,7 +1690,7 @@
       ]
     },
     {
-      "id": 2832,
+      "id": "CL-AN",
       "name": "Antofagasta",
       "stateCode": "AN",
       "latitude": -23.8369104,
@@ -1764,7 +1764,7 @@
       ]
     },
     {
-      "id": 2833,
+      "id": "CL-ML",
       "name": "Maule",
       "stateCode": "ML",
       "latitude": -35.5163603,
@@ -1985,7 +1985,7 @@
       ]
     },
     {
-      "id": 2834,
+      "id": "CL-LR",
       "name": "Los Ríos",
       "stateCode": "LR",
       "latitude": -40.2310217,
@@ -2080,7 +2080,7 @@
       ]
     },
     {
-      "id": 2835,
+      "id": "CL-LL",
       "name": "Los Lagos",
       "stateCode": "LL",
       "latitude": -41.9197779,
@@ -2301,7 +2301,7 @@
       ]
     },
     {
-      "id": 2836,
+      "id": "CL-MA",
       "name": "Magallanes y de la Antártica Chilena",
       "stateCode": "MA",
       "latitude": -52.2064316,
@@ -2389,7 +2389,7 @@
       ]
     },
     {
-      "id": 2837,
+      "id": "CL-TA",
       "name": "Tarapacá",
       "stateCode": "TA",
       "latitude": -20.2028799,
@@ -2449,7 +2449,7 @@
       ]
     },
     {
-      "id": 2838,
+      "id": "CL-LI",
       "name": "Libertador General Bernardo O'Higgins",
       "stateCode": "LI",
       "latitude": -34.5755374,

@@ -49,7 +49,7 @@ class FlagGraphqlFetcher(
      */
     @DgsQuery
     fun flagsByIds(@InputArgument ids: List<String>): List<Flag> =
-        flagStore.byIds(GraphqlRequest.longIds(ids, "ids")).map { it.toGql() }
+        flagStore.byIds(GraphqlRequest.ids(ids, "ids")).map { it.toGql() }
 
     /**
      * Loads one flag by id.
@@ -58,7 +58,7 @@ class FlagGraphqlFetcher(
      */
     @DgsQuery
     fun flag(@InputArgument id: String): Flag? =
-        flagStore.byId(GraphqlRequest.longId(id, "id"))?.toGql()
+        flagStore.byId(id)?.toGql()
 
     /** Resolves the square media asset of a flag. */
     @DgsData(parentType = "Flag", field = "squareAsset")
@@ -72,6 +72,6 @@ class FlagGraphqlFetcher(
         val flag: Flag = dfe.getSource() ?: return null
         val id = assetId(flag) ?: return null
 
-        return mediaAssetStore.byId(GraphqlRequest.longId(id, "assetId"))?.toGql()
+        return mediaAssetStore.byId(id)?.toGql()
     }
 }

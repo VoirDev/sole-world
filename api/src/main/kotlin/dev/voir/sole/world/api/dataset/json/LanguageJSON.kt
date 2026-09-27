@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 /**
  * Language record read from the bundled seed data.
- * @property id Language primary key used during import.
+ * @property id ISO 639-1 code, such as `fr`.
  * @property code Language code.
  * @property nativeName Native-language name, when available.
  * @property name Default language name.
@@ -13,11 +13,11 @@ import kotlinx.serialization.Serializable
  */
 @Serializable
 data class LanguageJSON(
-    val id: Long,
+    val id: String,
     val code: String,
     val nativeName: String?,
     val name: String,
     val description: String? = null,
-    val flagId: Long?,
+    val flagId: String?,
     val translations: List<LanguageTranslationJSON>,
 )

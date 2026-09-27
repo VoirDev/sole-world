@@ -1,5 +1,5 @@
 {
-  "id": 130,
+  "id": "MG",
   "name": "Madagascar",
   "nativeName": "Madagasikara",
   "iso2": "MG",
@@ -9,18 +9,18 @@
   "tld": ".mg",
   "latitude": -20,
   "longitude": 47,
-  "flagId": 109,
-  "regionId": 1,
-  "subregionId": 4,
+  "flagId": "mg",
+  "regionId": "africa",
+  "subregionId": "eastern-africa",
   "currencyIds": [
-    917
+    "MGA"
   ],
   "timezoneIds": [
-    2445
+    "Indian/Antananarivo"
   ],
   "officialLanguageIds": [
-    33,
-    116
+    "fr",
+    "mg"
   ],
   "otherLanguageIds": [],
   "translations": [
@@ -91,7 +91,7 @@
   ],
   "states": [
     {
-      "id": 2948,
+      "id": "MG-F",
       "name": "Fianarantsoa",
       "stateCode": "F",
       "latitude": -22.353624,
@@ -101,7 +101,7 @@
       "cities": []
     },
     {
-      "id": 2949,
+      "id": "MG-U",
       "name": "Toliara",
       "stateCode": "U",
       "latitude": -23.3516191,
@@ -111,7 +111,7 @@
       "cities": []
     },
     {
-      "id": 2950,
+      "id": "MG-D",
       "name": "Antsiranana",
       "stateCode": "D",
       "latitude": -13.771539,
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "id": 2951,
+      "id": "MG-T",
       "name": "Antananarivo",
       "stateCode": "T",
       "latitude": -18.7051474,
@@ -195,7 +195,7 @@
       "cities": []
     },
     {
-      "id": 2952,
+      "id": "MG-A",
       "name": "Toamasina",
       "stateCode": "A",
       "latitude": -18.1442811,
@@ -205,7 +205,7 @@
       "cities": []
     },
     {
-      "id": 2953,
+      "id": "MG-M",
       "name": "Mahajanga",
       "stateCode": "M",
       "latitude": -16.523883,
