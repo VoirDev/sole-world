@@ -1,6 +1,6 @@
 {
   "id": 211,
-  "name": "Svalbard and Jan Mayen Islands",
+  "name": "Svalbard and Jan Mayen",
   "nativeName": "Svalbard og Jan Mayen",
   "iso2": "SJ",
   "iso3": "SJM",
@@ -29,11 +29,11 @@
     },
     {
       "languageCode": "pt-BR",
-      "name": "Svalbard"
+      "name": "Svalbard e Jan Mayen"
     },
     {
       "languageCode": "pt",
-      "name": "Svalbard"
+      "name": "Svalbard e Jan Mayen"
     },
     {
       "languageCode": "nl",
@@ -53,7 +53,7 @@
     },
     {
       "languageCode": "es",
-      "name": "Islas Svalbard y Jan Mayen"
+      "name": "Svalbard y Jan Mayen"
     },
     {
       "languageCode": "fr",
@@ -73,15 +73,15 @@
     },
     {
       "languageCode": "tr",
-      "name": "Svalbard Ve Jan Mayen"
+      "name": "Svalbard ve Jan Mayen"
     },
     {
       "languageCode": "ru",
-      "name": "Шпицберген и острова Ян-Майен"
+      "name": "Шпицберген и Ян-Майен"
     },
     {
       "languageCode": "uk",
-      "name": "Шпіцберген та острови Ян-Майєн"
+      "name": "Шпіцберген та Ян-Маєн"
     },
     {
       "languageCode": "pl",

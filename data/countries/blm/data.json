@@ -1,6 +1,6 @@
 {
   "id": 189,
-  "name": "Saint-Barthelemy",
+  "name": "Saint Barthélemy",
   "nativeName": "Saint-Barthélemy",
   "iso2": "BL",
   "iso3": "BLM",
@@ -37,7 +37,7 @@
     },
     {
       "languageCode": "nl",
-      "name": "Saint Barthélemy"
+      "name": "Saint-Barthélemy"
     },
     {
       "languageCode": "hr",
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "سن-بارتلمی"
+      "name": "سن بارتلمی"
     },
     {
       "languageCode": "de",
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Antille Francesi"
+      "name": "Saint-Barthélemy"
     },
     {
       "languageCode": "zh-CN",
@@ -85,7 +85,7 @@
     },
     {
       "languageCode": "pl",
-      "name": "Saint-Barthelemy"
+      "name": "Saint-Barthélemy"
     }
   ],
   "states": []

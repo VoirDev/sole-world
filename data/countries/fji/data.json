@@ -1,6 +1,6 @@
 {
   "id": 73,
-  "name": "Fiji Islands",
+  "name": "Fiji",
   "nativeName": "Fiji",
   "iso2": "FJ",
   "iso3": "FJI",
@@ -43,7 +43,7 @@
     },
     {
       "languageCode": "hr",
-      "name": "Fiđi"
+      "name": "Fidži"
     },
     {
       "languageCode": "fa",
@@ -79,15 +79,15 @@
     },
     {
       "languageCode": "ru",
-      "name": "Острова Фиджи"
+      "name": "Фиджи"
     },
     {
       "languageCode": "uk",
-      "name": "Острови Фіджі"
+      "name": "Фіджі"
     },
     {
       "languageCode": "pl",
-      "name": "Wyspy Fidżi"
+      "name": "Fidżi"
     }
   ],
   "states": [

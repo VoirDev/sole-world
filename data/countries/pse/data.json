@@ -1,6 +1,6 @@
 {
   "id": 169,
-  "name": "Palestinian Territory Occupied",
+  "name": "Palestine",
   "nativeName": "فلسطين",
   "iso2": "PS",
   "iso3": "PSE",
@@ -81,15 +81,15 @@
     },
     {
       "languageCode": "ru",
-      "name": "Оккупированная палестинская территория"
+      "name": "Палестина"
     },
     {
       "languageCode": "uk",
-      "name": "Окупована палестинська територія"
+      "name": "Палестина"
     },
     {
       "languageCode": "pl",
-      "name": "Okupowane terytorium palestyńskie"
+      "name": "Palestyna"
     }
   ],
   "states": [

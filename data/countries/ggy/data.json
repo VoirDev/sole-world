@@ -1,6 +1,6 @@
 {
   "id": 91,
-  "name": "Guernsey and Alderney",
+  "name": "Guernsey",
   "nativeName": "Guernsey",
   "iso2": "GG",
   "iso3": "GGY",
@@ -26,7 +26,7 @@
   "translations": [
     {
       "languageCode": "ko",
-      "name": "건지, 올더니"
+      "name": "건지"
     },
     {
       "languageCode": "pt-BR",
@@ -54,7 +54,7 @@
     },
     {
       "languageCode": "es",
-      "name": "Guernsey"
+      "name": "Guernesey"
     },
     {
       "languageCode": "fr",
@@ -74,19 +74,19 @@
     },
     {
       "languageCode": "tr",
-      "name": "Alderney"
+      "name": "Guernsey"
     },
     {
       "languageCode": "ru",
-      "name": "Гернси и Олдерни"
+      "name": "Гернси"
     },
     {
       "languageCode": "uk",
-      "name": "Гернсі та Олдерні"
+      "name": "Гернсі"
     },
     {
       "languageCode": "pl",
-      "name": "Guernsey i Alderney"
+      "name": "Guernsey"
     }
   ],
   "states": []

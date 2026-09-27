@@ -1,6 +1,6 @@
 {
   "id": 58,
-  "name": "Czech Republic",
+  "name": "Czechia",
   "nativeName": "Česká republika",
   "iso2": "CZ",
   "iso3": "CZE",
@@ -29,11 +29,11 @@
     },
     {
       "languageCode": "pt-BR",
-      "name": "República Tcheca"
+      "name": "Tchéquia"
     },
     {
       "languageCode": "pt",
-      "name": "República Checa"
+      "name": "Chéquia"
     },
     {
       "languageCode": "nl",
@@ -45,19 +45,19 @@
     },
     {
       "languageCode": "fa",
-      "name": "جمهوری چک"
+      "name": "چک"
     },
     {
       "languageCode": "de",
-      "name": "Tschechische Republik"
+      "name": "Tschechien"
     },
     {
       "languageCode": "es",
-      "name": "República Checa"
+      "name": "Chequia"
     },
     {
       "languageCode": "fr",
-      "name": "République tchèque"
+      "name": "Tchéquie"
     },
     {
       "languageCode": "ja",
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Repubblica Ceca"
+      "name": "Cechia"
     },
     {
       "languageCode": "zh-CN",
@@ -77,15 +77,15 @@
     },
     {
       "languageCode": "ru",
-      "name": "Чешская Республика"
+      "name": "Чехия"
     },
     {
       "languageCode": "uk",
-      "name": "Чеська Республіка"
+      "name": "Чехія"
     },
     {
       "languageCode": "pl",
-      "name": "Republika Czeska"
+      "name": "Czechy"
     }
   ],
   "states": [

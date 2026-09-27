@@ -1,6 +1,6 @@
 {
   "id": 243,
-  "name": "Wallis and Futuna Islands",
+  "name": "Wallis and Futuna",
   "nativeName": "Wallis et Futuna",
   "iso2": "WF",
   "iso3": "WLF",
@@ -41,7 +41,7 @@
     },
     {
       "languageCode": "hr",
-      "name": "Wallis i Fortuna"
+      "name": "Wallis i Futuna"
     },
     {
       "languageCode": "fa",
@@ -69,11 +69,11 @@
     },
     {
       "languageCode": "zh-CN",
-      "name": "瓦利斯群岛和富图纳群岛"
+      "name": "瓦利斯和富图纳"
     },
     {
       "languageCode": "tr",
-      "name": "Wallis Ve Futuna"
+      "name": "Wallis ve Futuna"
     },
     {
       "languageCode": "ru",
@@ -81,7 +81,7 @@
     },
     {
       "languageCode": "uk",
-      "name": "Острови Уолліс і Футуна"
+      "name": "Уолліс і Футуна"
     },
     {
       "languageCode": "pl",

@@ -1,6 +1,6 @@
 {
   "id": 175,
-  "name": "Pitcairn Island",
+  "name": "Pitcairn Islands",
   "nativeName": "Pitcairn Islands",
   "iso2": "PN",
   "iso3": "PCN",
@@ -45,11 +45,11 @@
     },
     {
       "languageCode": "fa",
-      "name": "پیتکرن"
+      "name": "جزایر پیت‌کرن"
     },
     {
       "languageCode": "de",
-      "name": "Pitcairn"
+      "name": "Pitcairninseln"
     },
     {
       "languageCode": "es",
@@ -61,7 +61,7 @@
     },
     {
       "languageCode": "ja",
-      "name": "ピトケアン"
+      "name": "ピトケアン諸島"
     },
     {
       "languageCode": "it",
@@ -73,15 +73,15 @@
     },
     {
       "languageCode": "tr",
-      "name": "Pitcairn Adalari"
+      "name": "Pitcairn Adaları"
     },
     {
       "languageCode": "ru",
-      "name": "Остров Питкэрн"
+      "name": "Острова Питкэрн"
     },
     {
       "languageCode": "uk",
-      "name": "Острів Піткерн"
+      "name": "Острови Піткерн"
     },
     {
       "languageCode": "pl",

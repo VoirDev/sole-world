@@ -1,6 +1,6 @@
 {
   "id": 242,
-  "name": "Virgin Islands (US)",
+  "name": "United States Virgin Islands",
   "nativeName": "United States Virgin Islands",
   "iso2": "VI",
   "iso3": "VIR",
@@ -37,11 +37,11 @@
     },
     {
       "languageCode": "nl",
-      "name": "Verenigde Staten Maagdeneilanden"
+      "name": "Amerikaanse Maagdeneilanden"
     },
     {
       "languageCode": "fa",
-      "name": "جزایر ویرجین آمریکا"
+      "name": "جزایر ویرجین ایالات متحده"
     },
     {
       "languageCode": "de",
@@ -61,15 +61,15 @@
     },
     {
       "languageCode": "it",
-      "name": "Isole Vergini americane"
+      "name": "Isole Vergini Americane"
     },
     {
       "languageCode": "zh-CN",
-      "name": "维尔京群岛（美国）"
+      "name": "美属维尔京群岛"
     },
     {
       "languageCode": "tr",
-      "name": "Abd Virjin Adalari"
+      "name": "ABD Virjin Adaları"
     },
     {
       "languageCode": "ru",
@@ -81,7 +81,11 @@
     },
     {
       "languageCode": "pl",
-      "name": "Wyspy Dziewicze (USA)"
+      "name": "Wyspy Dziewicze Stanów Zjednoczonych"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Američki Djevičanski otoci"
     }
   ],
   "states": [

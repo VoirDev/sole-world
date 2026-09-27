@@ -53,7 +53,7 @@
     },
     {
       "languageCode": "es",
-      "name": "Iran"
+      "name": "Irán"
     },
     {
       "languageCode": "fr",
@@ -61,7 +61,7 @@
     },
     {
       "languageCode": "ja",
-      "name": "イラン・イスラム共和国"
+      "name": "イラン"
     },
     {
       "languageCode": "zh-CN",
@@ -81,6 +81,10 @@
     },
     {
       "languageCode": "pl",
+      "name": "Iran"
+    },
+    {
+      "languageCode": "it",
       "name": "Iran"
     }
   ],

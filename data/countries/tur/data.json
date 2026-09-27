@@ -1,6 +1,6 @@
 {
   "id": 225,
-  "name": "Turkey",
+  "name": "Türkiye",
   "nativeName": "Türkiye",
   "iso2": "TR",
   "iso3": "TUR",
@@ -25,7 +25,7 @@
   "translations": [
     {
       "languageCode": "ko",
-      "name": "터키"
+      "name": "튀르키예"
     },
     {
       "languageCode": "pt-BR",

@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "جزیره من"
+      "name": "جزیرهٔ من"
     },
     {
       "languageCode": "de",
@@ -73,19 +73,19 @@
     },
     {
       "languageCode": "tr",
-      "name": "Man Adasi"
+      "name": "Man Adası"
     },
     {
       "languageCode": "ru",
-      "name": "Мэн (остров)"
+      "name": "Остров Мэн"
     },
     {
       "languageCode": "uk",
-      "name": "Мен (острів Мен)"
+      "name": "Острів Мен"
     },
     {
       "languageCode": "pl",
-      "name": "Man (Wyspa)"
+      "name": "Wyspa Man"
     }
   ],
   "states": [

@@ -1,6 +1,6 @@
 {
   "id": 128,
-  "name": "Macau S.A.R.",
+  "name": "Macao",
   "nativeName": "澳門",
   "iso2": "MO",
   "iso3": "MAC",
@@ -50,7 +50,7 @@
     },
     {
       "languageCode": "de",
-      "name": "Macao"
+      "name": "Macau"
     },
     {
       "languageCode": "es",
@@ -78,15 +78,15 @@
     },
     {
       "languageCode": "ru",
-      "name": "Макао С.А.Р."
+      "name": "Макао"
     },
     {
       "languageCode": "uk",
-      "name": "САР Макао."
+      "name": "Макао"
     },
     {
       "languageCode": "pl",
-      "name": "Macau S.A.R."
+      "name": "Makau"
     }
   ],
   "states": []
