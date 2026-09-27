@@ -1,6 +1,6 @@
 {
   "id": 238,
-  "name": "Vatican City State (Holy See)",
+  "name": "Vatican City",
   "nativeName": "Vaticano",
   "iso2": "VA",
   "iso3": "VAT",
@@ -38,35 +38,35 @@
     },
     {
       "languageCode": "nl",
-      "name": "Heilige Stoel"
+      "name": "Vaticaanstad"
     },
     {
       "languageCode": "hr",
-      "name": "Sveta Stolica"
+      "name": "Vatikan"
     },
     {
       "languageCode": "fa",
-      "name": "سریر مقدس"
+      "name": "واتیکان"
     },
     {
       "languageCode": "de",
-      "name": "Heiliger Stuhl"
+      "name": "Vatikanstadt"
     },
     {
       "languageCode": "es",
-      "name": "Santa Sede"
+      "name": "Ciudad del Vaticano"
     },
     {
       "languageCode": "fr",
-      "name": "voir Saint"
+      "name": "Vatican"
     },
     {
       "languageCode": "ja",
-      "name": "聖座"
+      "name": "バチカン市国"
     },
     {
       "languageCode": "it",
-      "name": "Santa Sede"
+      "name": "Città del Vaticano"
     },
     {
       "languageCode": "zh-CN",
@@ -78,15 +78,15 @@
     },
     {
       "languageCode": "ru",
-      "name": "Город-государство Ватикан (Святой Престол)"
+      "name": "Ватикан"
     },
     {
       "languageCode": "uk",
-      "name": "Держава-місто Ватикан (Святий Престол)"
+      "name": "Ватикан"
     },
     {
       "languageCode": "pl",
-      "name": "Państwo Watykańskie (Stolica Apostolska)"
+      "name": "Watykan"
     }
   ],
   "states": []

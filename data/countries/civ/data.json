@@ -1,7 +1,7 @@
 {
   "id": 54,
-  "name": "Cote D'Ivoire (Ivory Coast)",
-  "nativeName": null,
+  "name": "Côte d'Ivoire",
+  "nativeName": "Côte d'Ivoire",
   "iso2": "CI",
   "iso3": "CIV",
   "numericCode": "384",
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Costa D'Avorio"
+      "name": "Costa d'Avorio"
     },
     {
       "languageCode": "zh-CN",
@@ -73,19 +73,19 @@
     },
     {
       "languageCode": "tr",
-      "name": "Kotdivuar"
+      "name": "Fildişi Sahili"
     },
     {
       "languageCode": "ru",
-      "name": "Кот-д'Ивуар (Берег Слоновой Кости)"
+      "name": "Кот-д'Ивуар"
     },
     {
       "languageCode": "uk",
-      "name": "Кот-д'Івуар (Берег Слонової Кістки)"
+      "name": "Кот-д'Івуар"
     },
     {
       "languageCode": "pl",
-      "name": "Cote D'Ivoire (Wybrzeże Kości Słoniowej)"
+      "name": "Wybrzeże Kości Słoniowej"
     }
   ],
   "states": [

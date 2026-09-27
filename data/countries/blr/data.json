@@ -1,7 +1,7 @@
 {
   "id": 21,
   "name": "Belarus",
-  "nativeName": "Белару́сь",
+  "nativeName": "Беларусь",
   "iso2": "BY",
   "iso3": "BLR",
   "numericCode": "112",
@@ -38,7 +38,7 @@
     },
     {
       "languageCode": "nl",
-      "name": "Wit-Rusland"
+      "name": "Belarus"
     },
     {
       "languageCode": "hr",
@@ -50,7 +50,7 @@
     },
     {
       "languageCode": "de",
-      "name": "Weißrussland"
+      "name": "Belarus"
     },
     {
       "languageCode": "es",

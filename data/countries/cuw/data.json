@@ -75,6 +75,18 @@
     {
       "languageCode": "pl",
       "name": "Curaçao"
+    },
+    {
+      "languageCode": "hr",
+      "name": "Curaçao"
+    },
+    {
+      "languageCode": "es",
+      "name": "Curazao"
+    },
+    {
+      "languageCode": "ja",
+      "name": "キュラソー"
     }
   ],
   "states": []

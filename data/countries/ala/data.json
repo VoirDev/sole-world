@@ -1,6 +1,6 @@
 {
   "id": 2,
-  "name": "Aland Islands",
+  "name": "Åland Islands",
   "nativeName": "Åland",
   "iso2": "AX",
   "iso3": "ALA",
@@ -45,7 +45,7 @@
     },
     {
       "languageCode": "fa",
-      "name": "جزایر الند"
+      "name": "جزایر آلاند"
     },
     {
       "languageCode": "de",
@@ -53,11 +53,11 @@
     },
     {
       "languageCode": "es",
-      "name": "Alandia"
+      "name": "Islas Åland"
     },
     {
       "languageCode": "fr",
-      "name": "Åland"
+      "name": "Îles Åland"
     },
     {
       "languageCode": "ja",
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Isole Aland"
+      "name": "Isole Åland"
     },
     {
       "languageCode": "zh-CN",
@@ -73,7 +73,7 @@
     },
     {
       "languageCode": "tr",
-      "name": "Åland Adalari"
+      "name": "Åland Adaları"
     },
     {
       "languageCode": "ru",

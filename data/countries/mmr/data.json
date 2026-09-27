@@ -1,7 +1,7 @@
 {
   "id": 151,
   "name": "Myanmar",
-  "nativeName": "မပြည်ထောင်စုသမ္မတမြန်မာနိုင်ငံတော်",
+  "nativeName": "မြန်မာ",
   "iso2": "MM",
   "iso3": "MMR",
   "numericCode": "104",
@@ -65,7 +65,7 @@
     },
     {
       "languageCode": "it",
-      "name": "Birmania"
+      "name": "Myanmar"
     },
     {
       "languageCode": "zh-CN",
@@ -85,7 +85,7 @@
     },
     {
       "languageCode": "pl",
-      "name": "Birma"
+      "name": "Mjanma"
     }
   ],
   "states": [

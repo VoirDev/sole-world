@@ -1,6 +1,6 @@
 {
   "id": 98,
-  "name": "Hong Kong S.A.R.",
+  "name": "Hong Kong",
   "nativeName": "香港",
   "iso2": "HK",
   "iso3": "HKG",
@@ -78,15 +78,15 @@
     },
     {
       "languageCode": "ru",
-      "name": "Гонконг С.А.Р."
+      "name": "Гонконг"
     },
     {
       "languageCode": "uk",
-      "name": "Гонконг САР."
+      "name": "Гонконг"
     },
     {
       "languageCode": "pl",
-      "name": "Hongkong S.A.R."
+      "name": "Hongkong"
     }
   ],
   "states": [
