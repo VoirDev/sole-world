@@ -6,27 +6,27 @@
     "description": "Freedonia square flag",
     "imageAspectRatio": "square",
     "imageFormats": {
-      "svg": "/assets/flags/fd_1x1.svg",
+      "svg": "flags/fd_1x1.svg",
       "png": {
-        "xs": "/fd_64.png",
-        "sm": "/fd_128.png",
-        "md": "/fd_256.png",
-        "lg": "/fd_512.png",
-        "xl": "/fd_1024.png"
+        "xs": "flags/fd_64x64.png",
+        "sm": "flags/fd_128x128.png",
+        "md": "flags/fd_256x256.png",
+        "lg": "flags/fd_512x512.png",
+        "xl": "flags/fd_1024x1024.png"
       },
       "webp": {
-        "xs": "/fd_64.webp",
-        "sm": "/fd_128.webp",
-        "md": "/fd_256.webp",
-        "lg": "/fd_512.webp",
-        "xl": "/fd_1024.webp"
+        "xs": "flags/fd_64x64.webp",
+        "sm": "flags/fd_128x128.webp",
+        "md": "flags/fd_256x256.webp",
+        "lg": "flags/fd_512x512.webp",
+        "xl": "flags/fd_1024x1024.webp"
       },
       "jpg": {
-        "xs": "/fd_64.jpg",
-        "sm": "/fd_128.jpg",
-        "md": "/fd_256.jpg",
-        "lg": "/fd_512.jpg",
-        "xl": "/fd_1024.jpg"
+        "xs": "flags/fd_64x64.jpg",
+        "sm": "flags/fd_128x128.jpg",
+        "md": "flags/fd_256x256.jpg",
+        "lg": "flags/fd_512x512.jpg",
+        "xl": "flags/fd_1024x1024.jpg"
       }
     }
   },
@@ -37,13 +37,13 @@
     "description": "Freedonia wide flag",
     "imageAspectRatio": "wide",
     "imageFormats": {
-      "svg": "/assets/flags/fd_4x3.svg",
+      "svg": "flags/fd_4x3.svg",
       "png": {
-        "xs": "/fd_wide_64.png",
-        "sm": "/fd_wide_128.png",
-        "md": "/fd_wide_256.png",
-        "lg": "/fd_wide_512.png",
-        "xl": "/fd_wide_1024.png"
+        "xs": "flags/fd_64x48.png",
+        "sm": "flags/fd_128x96.png",
+        "md": "flags/fd_256x192.png",
+        "lg": "flags/fd_512x384.png",
+        "xl": "flags/fd_1024x768.png"
       },
       "webp": null,
       "jpg": null

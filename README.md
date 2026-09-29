@@ -154,13 +154,15 @@ use them as-is against the API's own origin, with nothing to concatenate. `/asse
 key and is cached for a year, because the files are immutable for the life of the image.
 
 The files sit beside the jar rather than inside it, in their own Docker layer, and are read from
-`ASSET_DIRECTORY` (`assets` by default, relative to the working directory). A deployment that serves
-them from a CDN can leave them out of the image entirely; `/assets/` then answers `404` and the
-application logs a warning at startup, which is why `ASSET_BASE_URL` exists.
+`assets/` in the working directory. That folder only matters while `ASSET_BASE_URL` is empty; with it
+set, no published URL points at `/assets/`, so a deployment can leave the files out of the image
+entirely.
 
 Set `ASSET_BASE_URL` to front them with a CDN, and every path becomes an absolute URL against that
 origin instead — in the media asset endpoints, in a flag's renditions, in a coin's logo, on both
-transports.
+transports. The CDN holds `flags/` and `cryptos/` at its root, as the
+[R2 bucket](assets/README.md#the-bucket) does, so the `/assets/` route is not part of those URLs:
+`https://cdn.example.com/flags/us_1x1.svg`.
 
 ### Currencies
 
@@ -712,7 +714,6 @@ All of these are listed with comments in [`.env.example`](.env.example).
 | `API_PIDS_LIMIT`               | Maximum processes in the container                      | `256`                                   |
 | `CORS_ALLOWED_ORIGINS`         | Allowed CORS origins                                    | `*`                                     |
 | `ASSET_BASE_URL`               | Origin asset paths are published under                  | this deployment                         |
-| `ASSET_DIRECTORY`              | Directory the image files are served from               | `assets`                                |
 | `GRAPHQL_MAX_QUERY_DEPTH`      | Maximum GraphQL query depth                             | `30`                                    |
 | `GRAPHQL_MAX_QUERY_COMPLEXITY` | Maximum GraphQL query cost                              | `1000`                                  |
 | `API_RATE_LIMIT_ENABLED`       | Rate limit `/v1/**` and `/graphql` per key              | `true`                                  |

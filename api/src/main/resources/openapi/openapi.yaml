@@ -94,7 +94,8 @@ info:
     for a year; the files are immutable for the life of the image.
 
     A deployment that fronts its assets with a CDN sets `ASSET_BASE_URL`, and every path becomes an
-    absolute URL against that origin instead. Either way a client concatenates nothing.
+    absolute URL against that origin instead, without the `/assets/` route —
+    `https://cdn.example.com/flags/us_1x1.svg`. Either way a client concatenates nothing.
 
     ## Caching
 

@@ -212,8 +212,8 @@ type ImageAsset {
 Available file formats for an image asset.
 
 Every path is published rooted at this deployment — `/assets/flags/us_1x1.svg` — or, when the
-deployment fronts its assets with a CDN, as an absolute URL against that origin. Either way it can
-be used as-is.
+deployment fronts its assets with a CDN, as an absolute URL against that origin —
+`https://cdn.example.com/flags/us_1x1.svg`. Either way it can be used as-is.
 """
 type ImageAssetFormats {
     """
