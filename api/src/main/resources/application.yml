@@ -72,10 +72,13 @@ api:
 
   assets:
     # Origin media asset paths are published under. Empty publishes them rooted at this deployment
-    # (/assets/flags/...). Set it to a CDN origin to publish absolute URLs pointing there instead.
+    # (/assets/flags/...). Set it to a CDN origin that holds flags/ and cryptos/ at its root to
+    # publish absolute URLs pointing there instead (https://cdn.example.com/flags/...).
     base-url: ${ASSET_BASE_URL:}
-    # Directory the image files are served from, beside the jar rather than inside it.
-    directory: ${ASSET_DIRECTORY:assets}
+    # Directory /assets/** is served from, beside the jar rather than inside it. Only read while
+    # base-url is empty. Not an operator setting: the image puts the files here, and the tests point
+    # it at a small fixture instead.
+    directory: assets
 
   graphiql:
     # Serves the GraphiQL console at /graphiql.

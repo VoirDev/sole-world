@@ -6,11 +6,15 @@ import sharp from 'sharp';
 const TOOL_DIR = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(TOOL_DIR, '..');
 
+// Paths are recorded relative to this folder — `flags/us_1x1.svg` — the same keys the files have in
+// the R2 bucket. The API adds `/assets/` itself when it serves them, and nothing when a CDN does.
+const ASSETS_DIR = path.join(ROOT_DIR, 'assets');
+
 // An asset's id names what it belongs to, its key and its shape — `flag-us-square` — so it is
 // derived from the file rather than assigned, and regenerating can never renumber it.
 const ASSET_GROUPS = [
-  {type: 'flags', owner: 'flag', dir: 'assets/flags', includeJpg: true},
-  {type: 'cryptos', owner: 'crypto', dir: 'assets/cryptos', includeJpg: false},
+  {type: 'flags', owner: 'flag', dir: 'flags', includeJpg: true},
+  {type: 'cryptos', owner: 'crypto', dir: 'cryptos', includeJpg: false},
 ];
 
 const DATA_OUTPUT_FILE = 'data/media_assets.json';
@@ -139,7 +143,7 @@ const renderRasterAssets = async (
 };
 
 const collectSvgFiles = async (dir) => {
-  const fileNames = await fs.readdir(path.join(ROOT_DIR, dir));
+  const fileNames = await fs.readdir(path.join(ASSETS_DIR, dir));
 
   return fileNames
     .filter((fileName) => fileName.endsWith('.svg'))
@@ -160,8 +164,8 @@ const main = async () => {
 
     for (const {asset} of svgFiles) {
       const svgPath = `${group.dir}/${asset.svgFileName}`;
-      const outputDir = path.join(ROOT_DIR, group.dir);
-      const svgBuffer = await fs.readFile(path.join(ROOT_DIR, svgPath));
+      const outputDir = path.join(ASSETS_DIR, group.dir);
+      const svgBuffer = await fs.readFile(path.join(ASSETS_DIR, svgPath));
       const rasterFormats = await renderRasterAssets(
         svgBuffer,
         outputDir,

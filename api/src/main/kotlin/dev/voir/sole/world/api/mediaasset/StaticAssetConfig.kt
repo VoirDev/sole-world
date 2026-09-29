@@ -27,17 +27,18 @@ class StaticAssetConfig(private val properties: AssetUrlProperties) : WebMvcConf
     override fun addResourceHandlers(registry: ResourceHandlerRegistry) {
         val directory = Path.of(properties.directory).toAbsolutePath().normalize()
 
-        if (!Files.isDirectory(directory)) {
-            // Not fatal: a deployment fronting its assets with a CDN has no reason to carry them.
+        // A deployment fronting its assets with a CDN publishes no URL under /assets/, so it has no
+        // reason to carry the files, and their absence is only worth a warning when it does not.
+        if (properties.baseUrl.isBlank() && !Files.isDirectory(directory)) {
             log.warn(
-                "No asset directory at {}. /assets/** will answer 404. " +
-                    "Set api.assets.directory (ASSET_DIRECTORY) if they live elsewhere.",
+                "No asset directory at {}, and ASSET_BASE_URL is empty. " +
+                    "Every published image path will answer 404.",
                 directory,
             )
         }
 
         registry
-            .addResourceHandler("/assets/**")
+            .addResourceHandler("${AssetUrl.ROUTE}/**")
             // Spring treats a location as a directory only when it ends in a separator.
             .addResourceLocations(directory.toUri().toString().trimEnd('/') + "/")
             .setCacheControl(CacheControl.maxAge(Duration.ofDays(365)).cachePublic().immutable())

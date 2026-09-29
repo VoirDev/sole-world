@@ -275,8 +275,8 @@ class ResourceRestIntegrationTest : BaseRestIntegrationTest() {
         val asset = get("/v1/media-assets/flag-fd-square")
 
         assertEquals("Freedonia square flag", asset["description"].stringValue())
-        assertEquals("/fd_64.png", asset.at("/image/formats/png/xs").stringValue())
-        assertEquals("/fd_1024.webp", asset.at("/image/formats/webp/xl").stringValue())
+        assertEquals("/assets/flags/fd_64x64.png", asset.at("/image/formats/png/xs").stringValue())
+        assertEquals("/assets/flags/fd_1024x1024.webp", asset.at("/image/formats/webp/xl").stringValue())
 
         // The wide asset has no webp or jpg renditions, and they are absent rather than null.
         val wide = get("/v1/media-assets/flag-fd-wide")
