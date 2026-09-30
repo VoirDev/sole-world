@@ -1,6 +1,9 @@
 {
   "id": "ME",
   "name": "Montenegro",
+  "aliases": [
+    "Republic of Montenegro"
+  ],
   "nativeName": "Црна Гора",
   "iso2": "ME",
   "iso3": "MNE",
@@ -45,11 +48,17 @@
     },
     {
       "locale": "fa",
-      "name": "مونته‌نگرو"
+      "name": "مونته‌نگرو",
+      "aliases": [
+        "مونتینگرو"
+      ]
     },
     {
       "locale": "de",
-      "name": "Montenegro"
+      "name": "Montenegro",
+      "aliases": [
+        "Republik Montenegro"
+      ]
     },
     {
       "locale": "es",

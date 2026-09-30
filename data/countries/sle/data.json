@@ -1,6 +1,9 @@
 {
   "id": "SL",
   "name": "Sierra Leone",
+  "aliases": [
+    "Republic of Sierra Leone"
+  ],
   "nativeName": "Sierra Leone",
   "iso2": "SL",
   "iso3": "SLE",
@@ -37,7 +40,10 @@
     },
     {
       "locale": "nl",
-      "name": "Sierra Leone"
+      "name": "Sierra Leone",
+      "aliases": [
+        "Republiek Sierra Leone"
+      ]
     },
     {
       "locale": "hr",
@@ -45,27 +51,45 @@
     },
     {
       "locale": "fa",
-      "name": "سیرالئون"
+      "name": "سیرالئون",
+      "aliases": [
+        "جمهوری سیرالئون"
+      ]
     },
     {
       "locale": "de",
-      "name": "Sierra Leone"
+      "name": "Sierra Leone",
+      "aliases": [
+        "Republik Sierra Leone"
+      ]
     },
     {
       "locale": "es",
-      "name": "Sierra Leona"
+      "name": "Sierra Leona",
+      "aliases": [
+        "República de Sierra Leona"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Sierra Leone"
+      "name": "Sierra Leone",
+      "aliases": [
+        "République de Sierra Leone"
+      ]
     },
     {
       "locale": "ja",
-      "name": "シエラレオネ"
+      "name": "シエラレオネ",
+      "aliases": [
+        "シエラレオネ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Sierra Leone"
+      "name": "Sierra Leone",
+      "aliases": [
+        "Repubblica della Sierra Leone"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -81,7 +105,10 @@
     },
     {
       "locale": "uk",
-      "name": "Сьєрра-Леоне"
+      "name": "Сьєрра-Леоне",
+      "aliases": [
+        "Республіка Сьєрра-Леоне"
+      ]
     },
     {
       "locale": "pl",

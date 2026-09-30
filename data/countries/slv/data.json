@@ -1,6 +1,9 @@
 {
   "id": "SV",
   "name": "El Salvador",
+  "aliases": [
+    "Republic of El Salvador"
+  ],
   "nativeName": "El Salvador",
   "iso2": "SV",
   "iso3": "SLV",
@@ -33,11 +36,18 @@
     },
     {
       "locale": "pt",
-      "name": "El Salvador"
+      "name": "El Salvador",
+      "aliases": [
+        "Salvador",
+        "República de El Salvador"
+      ]
     },
     {
       "locale": "nl",
-      "name": "El Salvador"
+      "name": "El Salvador",
+      "aliases": [
+        "Republiek El Salvador"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +59,31 @@
     },
     {
       "locale": "de",
-      "name": "El Salvador"
+      "name": "El Salvador",
+      "aliases": [
+        "Republik El Salvador"
+      ]
     },
     {
       "locale": "es",
-      "name": "El Salvador"
+      "name": "El Salvador",
+      "aliases": [
+        "República de El Salvador"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Salvador"
+      "name": "Salvador",
+      "aliases": [
+        "El Salvador"
+      ]
     },
     {
       "locale": "ja",
-      "name": "エルサルバドル"
+      "name": "エルサルバドル",
+      "aliases": [
+        "エルサルバドル共和国"
+      ]
     },
     {
       "locale": "it",
@@ -77,7 +99,11 @@
     },
     {
       "locale": "ru",
-      "name": "Сальвадор"
+      "name": "Сальвадор",
+      "aliases": [
+        "Эль-Сальвадор",
+        "Республика Эль-Сальвадор"
+      ]
     },
     {
       "locale": "uk",

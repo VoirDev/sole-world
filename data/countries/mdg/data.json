@@ -1,6 +1,9 @@
 {
   "id": "MG",
   "name": "Madagascar",
+  "aliases": [
+    "Republic of Madagascar"
+  ],
   "nativeName": "Madagasikara",
   "iso2": "MG",
   "iso3": "MDG",
@@ -34,11 +37,17 @@
     },
     {
       "locale": "pt",
-      "name": "Madagáscar"
+      "name": "Madagáscar",
+      "aliases": [
+        "República de Madagáscar"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Madagaskar"
+      "name": "Madagaskar",
+      "aliases": [
+        "Republiek Madagaskar"
+      ]
     },
     {
       "locale": "hr",
@@ -50,11 +59,17 @@
     },
     {
       "locale": "de",
-      "name": "Madagaskar"
+      "name": "Madagaskar",
+      "aliases": [
+        "Republik Madagaskar"
+      ]
     },
     {
       "locale": "es",
-      "name": "Madagascar"
+      "name": "Madagascar",
+      "aliases": [
+        "República de Madagascar"
+      ]
     },
     {
       "locale": "fr",
@@ -62,7 +77,10 @@
     },
     {
       "locale": "ja",
-      "name": "マダガスカル"
+      "name": "マダガスカル",
+      "aliases": [
+        "マダガスカル共和国"
+      ]
     },
     {
       "locale": "it",
@@ -78,11 +96,17 @@
     },
     {
       "locale": "ru",
-      "name": "Мадагаскар"
+      "name": "Мадагаскар",
+      "aliases": [
+        "Республика Мадагаскар"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Мадагаскар"
+      "name": "Мадагаскар",
+      "aliases": [
+        "Республіка Мадагаскар"
+      ]
     },
     {
       "locale": "pl",

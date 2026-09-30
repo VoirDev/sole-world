@@ -24,6 +24,9 @@ info:
     Includes are **one level deep**. An included record never carries its own includes, so
     `include=region` on a country gives you the region, not the region's countries.
 
+    A few names add a field rather than a related record, for data too bulky to send by default:
+    `include=aliases` on a country adds the other names it is known by.
+
     Included collections are capped at 50 records. When a collection is cut short, its name appears
     in `truncatedIncludes` and the dedicated sub-resource endpoint will page through the rest. A
     country's cities are deliberately not includable — some countries have tens of thousands — so
@@ -1518,7 +1521,7 @@ components:
       required: false
       description: >
         Relationships to embed. Allowed: `region`, `subregion`, `flag`, `currencies`, `languages`,
-        `timezones`, `centralBanks`, `states`.
+        `timezones`, `centralBanks`, `states`, and `aliases` for the country's other names.
       schema: { type: string }
     CurrencyInclude:
       name: include
@@ -2025,6 +2028,14 @@ components:
       properties:
         id: { type: string, description: "ISO 3166-1 alpha-2 code.", example: "US" }
         name: { type: string, description: Localized display name. }
+        aliases:
+          type: array
+          description: >
+            Other names the country is known by, in the same language as `name`: abbreviations,
+            official long forms and recent former names, such as `USA` or `Czech Republic`. Present
+            only with `include=aliases`. Search matches every alias in every language regardless.
+          items: { type: string }
+          example: ["USA", "United States of America", "America"]
         nativeName: { type: string }
         iso2: { type: string }
         iso3: { type: string }

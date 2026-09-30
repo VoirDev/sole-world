@@ -1,6 +1,10 @@
 {
   "id": "SR",
   "name": "Suriname",
+  "aliases": [
+    "Surinam",
+    "Republic of Suriname"
+  ],
   "nativeName": "Suriname",
   "iso2": "SR",
   "iso3": "SUR",
@@ -37,7 +41,10 @@
     },
     {
       "locale": "nl",
-      "name": "Suriname"
+      "name": "Suriname",
+      "aliases": [
+        "Republiek Suriname"
+      ]
     },
     {
       "locale": "hr",
@@ -49,27 +56,48 @@
     },
     {
       "locale": "de",
-      "name": "Suriname"
+      "name": "Suriname",
+      "aliases": [
+        "Surinam",
+        "Republik Suriname"
+      ]
     },
     {
       "locale": "es",
-      "name": "Surinam"
+      "name": "Surinam",
+      "aliases": [
+        "República de Surinam"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Suriname"
+      "name": "Suriname",
+      "aliases": [
+        "Surinam",
+        "République du Surinam",
+        "République du Suriname"
+      ]
     },
     {
       "locale": "ja",
-      "name": "スリナム"
+      "name": "スリナム",
+      "aliases": [
+        "スリナム共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Suriname"
+      "name": "Suriname",
+      "aliases": [
+        "Repubblica del Suriname"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "苏里南"
+      "name": "苏里南",
+      "aliases": [
+        "苏里南共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +105,17 @@
     },
     {
       "locale": "ru",
-      "name": "Суринам"
+      "name": "Суринам",
+      "aliases": [
+        "Республика Суринам"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Суринам"
+      "name": "Суринам",
+      "aliases": [
+        "Республіка Суринам"
+      ]
     },
     {
       "locale": "pl",

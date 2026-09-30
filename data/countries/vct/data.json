@@ -1,6 +1,11 @@
 {
   "id": "VC",
   "name": "Saint Vincent and the Grenadines",
+  "aliases": [
+    "St. Vincent & Grenadines",
+    "St. Vincent",
+    "Saint Vincent"
+  ],
   "nativeName": "Saint Vincent and the Grenadines",
   "iso2": "VC",
   "iso3": "VCT",
@@ -25,7 +30,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "세인트빈센트 그레나딘"
+      "name": "세인트빈센트 그레나딘",
+      "aliases": [
+        "세인트빈센트그레나딘"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -49,7 +57,10 @@
     },
     {
       "locale": "de",
-      "name": "Saint Vincent und die Grenadinen"
+      "name": "Saint Vincent und die Grenadinen",
+      "aliases": [
+        "St. Vincent und die Grenadinen"
+      ]
     },
     {
       "locale": "es",
@@ -57,11 +68,20 @@
     },
     {
       "locale": "fr",
-      "name": "Saint-Vincent-et-les Grenadines"
+      "name": "Saint-Vincent-et-les Grenadines",
+      "aliases": [
+        "Saint-Vincent-et-Grenadines"
+      ]
     },
     {
       "locale": "ja",
-      "name": "セントビンセントおよびグレナディーン諸島"
+      "name": "セントビンセントおよびグレナディーン諸島",
+      "aliases": [
+        "セントビンセント及びグレナディーン諸島",
+        "セントビンセント・グレナディーン",
+        "セントヴィンセントおよびグレナディーン諸島",
+        "セントビンセント"
+      ]
     },
     {
       "locale": "it",
@@ -81,7 +101,10 @@
     },
     {
       "locale": "uk",
-      "name": "Сент-Вінсент і Гренадіни"
+      "name": "Сент-Вінсент і Гренадіни",
+      "aliases": [
+        "Сент-Вінсент і Гренадини"
+      ]
     },
     {
       "locale": "pl",

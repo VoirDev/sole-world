@@ -1,6 +1,7 @@
 {
   "id": "CK",
   "name": "Cook Islands",
+  "aliases": [],
   "nativeName": "Cook Islands",
   "iso2": "CK",
   "iso3": "COK",
@@ -25,7 +26,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "쿡 제도"
+      "name": "쿡 제도",
+      "aliases": [
+        "쿡제도",
+        "쿡아일랜드"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -41,7 +46,10 @@
     },
     {
       "locale": "hr",
-      "name": "Cookovo Otočje"
+      "name": "Cookovo Otočje",
+      "aliases": [
+        "Cookovi Otoci"
+      ]
     },
     {
       "locale": "fa",
@@ -57,7 +65,11 @@
     },
     {
       "locale": "fr",
-      "name": "Îles Cook"
+      "name": "Îles Cook",
+      "aliases": [
+        "Cook",
+        "Archipel Cook"
+      ]
     },
     {
       "locale": "ja",
@@ -77,7 +89,10 @@
     },
     {
       "locale": "ru",
-      "name": "Острова Кука"
+      "name": "Острова Кука",
+      "aliases": [
+        "о-ва Кука"
+      ]
     },
     {
       "locale": "uk",

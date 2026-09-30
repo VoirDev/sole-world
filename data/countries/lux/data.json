@@ -1,6 +1,9 @@
 {
   "id": "LU",
   "name": "Luxembourg",
+  "aliases": [
+    "Grand Duchy of Luxembourg"
+  ],
   "nativeName": "Luxembourg",
   "iso2": "LU",
   "iso3": "LUX",
@@ -27,63 +30,108 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "룩셈부르크"
+      "name": "룩셈부르크",
+      "aliases": [
+        "룩셈부르크 대공국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Luxemburgo"
+      "name": "Luxemburgo",
+      "aliases": [
+        "Grão-Ducado de Luxemburgo"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Luxemburgo"
+      "name": "Luxemburgo",
+      "aliases": [
+        "Grão-Ducado de Luxemburgo"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Luxemburg"
+      "name": "Luxemburg",
+      "aliases": [
+        "Groothertogdom Luxemburg"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Luksemburg"
+      "name": "Luksemburg",
+      "aliases": [
+        "Veliko Vojvodstvo Luksemburg"
+      ]
     },
     {
       "locale": "fa",
-      "name": "لوکزامبورگ"
+      "name": "لوکزامبورگ",
+      "aliases": [
+        "لوکسامبورگ"
+      ]
     },
     {
       "locale": "de",
-      "name": "Luxemburg"
+      "name": "Luxemburg",
+      "aliases": [
+        "Großherzogtum Luxemburg"
+      ]
     },
     {
       "locale": "es",
-      "name": "Luxemburgo"
+      "name": "Luxemburgo",
+      "aliases": [
+        "Gran Ducado de Luxemburgo"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Luxembourg"
+      "name": "Luxembourg",
+      "aliases": [
+        "Grand-Duché de Luxembourg"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ルクセンブルク"
+      "name": "ルクセンブルク",
+      "aliases": [
+        "ルクセンブルク大公国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Lussemburgo"
+      "name": "Lussemburgo",
+      "aliases": [
+        "Granducato di Lussemburgo"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "卢森堡"
+      "name": "卢森堡",
+      "aliases": [
+        "卢森堡大公国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Lüksemburg"
+      "name": "Lüksemburg",
+      "aliases": [
+        "Lüksemburg Büyük Dükalığı"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Люксембург"
+      "name": "Люксембург",
+      "aliases": [
+        "Великое Герцогство Люксембург"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Люксембург"
+      "name": "Люксембург",
+      "aliases": [
+        "Велике герцогство Люксембург"
+      ]
     },
     {
       "locale": "pl",

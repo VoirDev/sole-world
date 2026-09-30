@@ -1,6 +1,10 @@
 {
   "id": "BO",
   "name": "Bolivia",
+  "aliases": [
+    "Plurinational State of Bolivia",
+    "Republic of Bolivia"
+  ],
   "nativeName": "Bolivia",
   "iso2": "BO",
   "iso3": "BOL",
@@ -39,7 +43,12 @@
     },
     {
       "locale": "nl",
-      "name": "Bolivia"
+      "name": "Bolivia",
+      "aliases": [
+        "Bolivië",
+        "Plurinationale Staat Bolivia",
+        "Plurinationale Staat Bolivië"
+      ]
     },
     {
       "locale": "hr",
@@ -55,7 +64,11 @@
     },
     {
       "locale": "es",
-      "name": "Bolivia"
+      "name": "Bolivia",
+      "aliases": [
+        "República de Bolivia",
+        "Estado Plurinacional de Bolivia"
+      ]
     },
     {
       "locale": "fr",
@@ -63,7 +76,10 @@
     },
     {
       "locale": "ja",
-      "name": "ボリビア"
+      "name": "ボリビア",
+      "aliases": [
+        "ボリビア多民族国"
+      ]
     },
     {
       "locale": "it",
@@ -71,7 +87,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "玻利维亚"
+      "name": "玻利维亚",
+      "aliases": [
+        "多民族玻利维亚国"
+      ]
     },
     {
       "locale": "tr",
@@ -79,7 +98,10 @@
     },
     {
       "locale": "ru",
-      "name": "Боливия"
+      "name": "Боливия",
+      "aliases": [
+        "Многонациональное Государство Боливия"
+      ]
     },
     {
       "locale": "uk",

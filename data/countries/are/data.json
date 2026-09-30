@@ -1,6 +1,10 @@
 {
   "id": "AE",
   "name": "United Arab Emirates",
+  "aliases": [
+    "UAE",
+    "Emirates"
+  ],
   "nativeName": "دولة الإمارات العربية المتحدة",
   "iso2": "AE",
   "iso3": "ARE",
@@ -27,7 +31,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "아랍에미리트"
+      "name": "아랍에미리트",
+      "aliases": [
+        "아랍에미리트 연합국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -35,11 +42,19 @@
     },
     {
       "locale": "pt",
-      "name": "Emirados Árabes Unidos"
+      "name": "Emirados Árabes Unidos",
+      "aliases": [
+        "Emirados",
+        "Emirados Árabes",
+        "Emiratos Árabes Unidos"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Verenigde Arabische Emiraten"
+      "name": "Verenigde Arabische Emiraten",
+      "aliases": [
+        "VAE"
+      ]
     },
     {
       "locale": "hr",
@@ -47,19 +62,32 @@
     },
     {
       "locale": "fa",
-      "name": "امارات متحده عربی"
+      "name": "امارات متحده عربی",
+      "aliases": [
+        "امارات"
+      ]
     },
     {
       "locale": "de",
-      "name": "Vereinigte Arabische Emirate"
+      "name": "Vereinigte Arabische Emirate",
+      "aliases": [
+        "VAE"
+      ]
     },
     {
       "locale": "es",
-      "name": "Emiratos Árabes Unidos"
+      "name": "Emiratos Árabes Unidos",
+      "aliases": [
+        "EAU"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Émirats arabes unis"
+      "name": "Émirats arabes unis",
+      "aliases": [
+        "É.A.U.",
+        "Émirats"
+      ]
     },
     {
       "locale": "ja",
@@ -67,27 +95,48 @@
     },
     {
       "locale": "it",
-      "name": "Emirati Arabi Uniti"
+      "name": "Emirati Arabi Uniti",
+      "aliases": [
+        "E.A.U."
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "阿拉伯联合酋长国"
+      "name": "阿拉伯联合酋长国",
+      "aliases": [
+        "阿联酋"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Birleşik Arap Emirlikleri"
+      "name": "Birleşik Arap Emirlikleri",
+      "aliases": [
+        "BAE"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Объединенные Арабские Эмираты"
+      "name": "Объединенные Арабские Эмираты",
+      "aliases": [
+        "ОАЭ",
+        "Арабские Эмираты",
+        "Эмираты"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Об'єднані Арабські Емірати"
+      "name": "Об'єднані Арабські Емірати",
+      "aliases": [
+        "Емірати",
+        "ОАЕ"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Zjednoczone Emiraty Arabskie"
+      "name": "Zjednoczone Emiraty Arabskie",
+      "aliases": [
+        "ZEA"
+      ]
     }
   ],
   "states": [

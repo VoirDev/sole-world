@@ -1,6 +1,7 @@
 {
   "id": "TV",
   "name": "Tuvalu",
+  "aliases": [],
   "nativeName": "Tuvalu",
   "iso2": "TV",
   "iso3": "TUV",
@@ -57,7 +58,10 @@
     },
     {
       "locale": "fr",
-      "name": "Tuvalu"
+      "name": "Tuvalu",
+      "aliases": [
+        "État des Tuvalu"
+      ]
     },
     {
       "locale": "ja",

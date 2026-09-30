@@ -1,6 +1,7 @@
 {
   "id": "MS",
   "name": "Montserrat",
+  "aliases": [],
   "nativeName": "Montserrat",
   "iso2": "MS",
   "iso3": "MSR",
@@ -25,7 +26,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "몬트세라트"
+      "name": "몬트세라트",
+      "aliases": [
+        "몬트세랫"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -33,7 +37,10 @@
     },
     {
       "locale": "pt",
-      "name": "Monserrate"
+      "name": "Monserrate",
+      "aliases": [
+        "Montserrat"
+      ]
     },
     {
       "locale": "nl",

@@ -1,6 +1,9 @@
 {
   "id": "GQ",
   "name": "Equatorial Guinea",
+  "aliases": [
+    "Republic of Equatorial Guinea"
+  ],
   "nativeName": "Guinea Ecuatorial",
   "iso2": "GQ",
   "iso3": "GNQ",
@@ -35,15 +38,24 @@
     },
     {
       "locale": "pt",
-      "name": "Guiné Equatorial"
+      "name": "Guiné Equatorial",
+      "aliases": [
+        "República da Guiné Equatorial"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Equatoriaal-Guinea"
+      "name": "Equatoriaal-Guinea",
+      "aliases": [
+        "Republiek Equatoriaal-Guinea"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Ekvatorijalna Gvineja"
+      "name": "Ekvatorijalna Gvineja",
+      "aliases": [
+        "Ekvatorska Gvineja"
+      ]
     },
     {
       "locale": "fa",
@@ -55,35 +67,59 @@
     },
     {
       "locale": "es",
-      "name": "Guinea Ecuatorial"
+      "name": "Guinea Ecuatorial",
+      "aliases": [
+        "República de Guinea Ecuatorial"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Guinée équatoriale"
+      "name": "Guinée équatoriale",
+      "aliases": [
+        "République de Guinée équatoriale"
+      ]
     },
     {
       "locale": "ja",
-      "name": "赤道ギニア"
+      "name": "赤道ギニア",
+      "aliases": [
+        "赤道ギニア共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Guinea Equatoriale"
+      "name": "Guinea Equatoriale",
+      "aliases": [
+        "Repubblica della Guinea Equatoriale"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "赤道几内亚"
+      "name": "赤道几内亚",
+      "aliases": [
+        "赤几"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Ekvator Ginesi"
+      "name": "Ekvator Ginesi",
+      "aliases": [
+        "Ekvatoral Gine"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Экваториальная Гвинея"
+      "name": "Экваториальная Гвинея",
+      "aliases": [
+        "Республика Экваториальная Гвинея"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Екваторіальна Гвінея"
+      "name": "Екваторіальна Гвінея",
+      "aliases": [
+        "Республіка Екваторіальна Гвінея"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,9 @@
 {
   "id": "CU",
   "name": "Cuba",
+  "aliases": [
+    "Republic of Cuba"
+  ],
   "nativeName": "Cuba",
   "iso2": "CU",
   "iso3": "CUB",
@@ -29,15 +32,24 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Cuba"
+      "name": "Cuba",
+      "aliases": [
+        "República de Cuba"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Cuba"
+      "name": "Cuba",
+      "aliases": [
+        "República de Cuba"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Cuba"
+      "name": "Cuba",
+      "aliases": [
+        "Republiek Cuba"
+      ]
     },
     {
       "locale": "hr",
@@ -53,23 +65,38 @@
     },
     {
       "locale": "es",
-      "name": "Cuba"
+      "name": "Cuba",
+      "aliases": [
+        "República de Cuba"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Cuba"
+      "name": "Cuba",
+      "aliases": [
+        "République de Cuba"
+      ]
     },
     {
       "locale": "ja",
-      "name": "キューバ"
+      "name": "キューバ",
+      "aliases": [
+        "キューバ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Cuba"
+      "name": "Cuba",
+      "aliases": [
+        "Repubblica di Cuba"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "古巴"
+      "name": "古巴",
+      "aliases": [
+        "古巴共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +104,17 @@
     },
     {
       "locale": "ru",
-      "name": "Куба"
+      "name": "Куба",
+      "aliases": [
+        "Республика Куба"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Куба"
+      "name": "Куба",
+      "aliases": [
+        "Республіка Куба"
+      ]
     },
     {
       "locale": "pl",

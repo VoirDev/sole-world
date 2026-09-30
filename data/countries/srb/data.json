@@ -1,6 +1,9 @@
 {
   "id": "RS",
   "name": "Serbia",
+  "aliases": [
+    "Republic of Serbia"
+  ],
   "nativeName": "Србија",
   "iso2": "RS",
   "iso3": "SRB",
@@ -25,11 +28,17 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "세르비아"
+      "name": "세르비아",
+      "aliases": [
+        "세르비아 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Sérvia"
+      "name": "Sérvia",
+      "aliases": [
+        "República da Sérvia"
+      ]
     },
     {
       "locale": "pt",
@@ -37,31 +46,52 @@
     },
     {
       "locale": "nl",
-      "name": "Servië"
+      "name": "Servië",
+      "aliases": [
+        "Republiek Servië"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Srbija"
+      "name": "Srbija",
+      "aliases": [
+        "Republika Srbija"
+      ]
     },
     {
       "locale": "fa",
-      "name": "صربستان"
+      "name": "صربستان",
+      "aliases": [
+        "جمهوری صربستان"
+      ]
     },
     {
       "locale": "de",
-      "name": "Serbien"
+      "name": "Serbien",
+      "aliases": [
+        "Republik Serbien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Serbia"
+      "name": "Serbia",
+      "aliases": [
+        "República de Serbia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Serbie"
+      "name": "Serbie",
+      "aliases": [
+        "République de Serbie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "セルビア"
+      "name": "セルビア",
+      "aliases": [
+        "セルビア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -77,7 +107,10 @@
     },
     {
       "locale": "ru",
-      "name": "Сербия"
+      "name": "Сербия",
+      "aliases": [
+        "Республика Сербия"
+      ]
     },
     {
       "locale": "uk",

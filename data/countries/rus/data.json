@@ -1,6 +1,9 @@
 {
   "id": "RU",
   "name": "Russia",
+  "aliases": [
+    "Russian Federation"
+  ],
   "nativeName": "Россия",
   "iso2": "RU",
   "iso3": "RUS",
@@ -50,23 +53,39 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "러시아"
+      "name": "러시아",
+      "aliases": [
+        "러시아 연방"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Rússia"
+      "name": "Rússia",
+      "aliases": [
+        "Federação da Rússia",
+        "Federação Russa"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Rússia"
+      "name": "Rússia",
+      "aliases": [
+        "Federação Russa"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Rusland"
+      "name": "Rusland",
+      "aliases": [
+        "Russische Federatie"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Rusija"
+      "name": "Rusija",
+      "aliases": [
+        "Ruska Federacija"
+      ]
     },
     {
       "locale": "fa",
@@ -74,43 +93,79 @@
     },
     {
       "locale": "de",
-      "name": "Russland"
+      "name": "Russland",
+      "aliases": [
+        "Russische Föderation",
+        "Russländische Föderation"
+      ]
     },
     {
       "locale": "es",
-      "name": "Rusia"
+      "name": "Rusia",
+      "aliases": [
+        "Federación de Rusia",
+        "Federación Rusa"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Russie"
+      "name": "Russie",
+      "aliases": [
+        "Fédération de Russie",
+        "Fédération russe"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ロシア"
+      "name": "ロシア",
+      "aliases": [
+        "ロシア連邦"
+      ]
     },
     {
       "locale": "it",
-      "name": "Russia"
+      "name": "Russia",
+      "aliases": [
+        "Federazione Russa"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "俄罗斯"
+      "name": "俄罗斯",
+      "aliases": [
+        "俄罗斯联邦",
+        "俄国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Rusya"
+      "name": "Rusya",
+      "aliases": [
+        "Rusya Federasyonu"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Россия"
+      "name": "Россия",
+      "aliases": [
+        "РФ",
+        "Российская Федерация"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Росія"
+      "name": "Росія",
+      "aliases": [
+        "РФ",
+        "Російська Федерація"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Rosja"
+      "name": "Rosja",
+      "aliases": [
+        "Federacja Rosyjska"
+      ]
     }
   ],
   "states": [

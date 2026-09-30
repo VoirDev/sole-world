@@ -1,6 +1,13 @@
 {
   "id": "BL",
   "name": "Saint Barthélemy",
+  "aliases": [
+    "St. Barthélemy",
+    "St. Barts",
+    "Collectivity of Saint Barthelemy",
+    "Saint Barth",
+    "St. Barth"
+  ],
   "nativeName": "Saint-Barthélemy",
   "iso2": "BL",
   "iso3": "BLM",
@@ -25,7 +32,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "생바르텔레미"
+      "name": "생바르텔레미",
+      "aliases": [
+        "생 바르텔레미",
+        "생바르텔레미 섬"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -37,39 +48,72 @@
     },
     {
       "locale": "nl",
-      "name": "Saint-Barthélemy"
+      "name": "Saint-Barthélemy",
+      "aliases": [
+        "Gemeenschap Saint-Barthélemy"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Saint Barthélemy"
+      "name": "Saint Barthélemy",
+      "aliases": [
+        "Sveti Bartolomej"
+      ]
     },
     {
       "locale": "fa",
-      "name": "سن بارتلمی"
+      "name": "سن بارتلمی",
+      "aliases": [
+        "سنت بارتلمی"
+      ]
     },
     {
       "locale": "de",
-      "name": "Saint-Barthélemy"
+      "name": "Saint-Barthélemy",
+      "aliases": [
+        "St. Barthélemy",
+        "St. Barth",
+        "St. Barts"
+      ]
     },
     {
       "locale": "es",
-      "name": "San Bartolomé"
+      "name": "San Bartolomé",
+      "aliases": [
+        "Saint-Barthélemy",
+        "Saint Barth"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Saint-Barthélemy"
+      "name": "Saint-Barthélemy",
+      "aliases": [
+        "Saint-Barth"
+      ]
     },
     {
       "locale": "ja",
-      "name": "サン・バルテルミー"
+      "name": "サン・バルテルミー",
+      "aliases": [
+        "サン・バルテルミー島",
+        "サン・バルテレミー",
+        "セントバーツ島"
+      ]
     },
     {
       "locale": "it",
-      "name": "Saint-Barthélemy"
+      "name": "Saint-Barthélemy",
+      "aliases": [
+        "Collettività di Saint-Barthélemy",
+        "Saint Barths"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "圣巴泰勒米"
+      "name": "圣巴泰勒米",
+      "aliases": [
+        "圣巴托洛缪岛"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +121,17 @@
     },
     {
       "locale": "ru",
-      "name": "Сен-Бартелеми"
+      "name": "Сен-Бартелеми",
+      "aliases": [
+        "Сен-Бартельми"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Сен-Бартелемі"
+      "name": "Сен-Бартелемі",
+      "aliases": [
+        "Сен-Бартельмі"
+      ]
     },
     {
       "locale": "pl",

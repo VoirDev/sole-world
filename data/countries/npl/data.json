@@ -1,6 +1,9 @@
 {
   "id": "NP",
   "name": "Nepal",
+  "aliases": [
+    "Federal Democratic Republic of Nepal"
+  ],
   "nativeName": "नपल",
   "iso2": "NP",
   "iso3": "NPL",
@@ -33,11 +36,17 @@
     },
     {
       "locale": "pt",
-      "name": "Nepal"
+      "name": "Nepal",
+      "aliases": [
+        "República Democrática Federal do Nepal"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Nepal"
+      "name": "Nepal",
+      "aliases": [
+        "Federale Democratische Republiek Nepal"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +58,31 @@
     },
     {
       "locale": "de",
-      "name": "Nepal"
+      "name": "Nepal",
+      "aliases": [
+        "Demokratische Bundesrepublik Nepal"
+      ]
     },
     {
       "locale": "es",
-      "name": "Nepal"
+      "name": "Nepal",
+      "aliases": [
+        "República Federal Democrática de Nepal"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Népal"
+      "name": "Népal",
+      "aliases": [
+        "République démocratique fédérale du Népal"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ネパール"
+      "name": "ネパール",
+      "aliases": [
+        "ネパール連邦民主共和国"
+      ]
     },
     {
       "locale": "it",
@@ -77,7 +98,10 @@
     },
     {
       "locale": "ru",
-      "name": "Непал"
+      "name": "Непал",
+      "aliases": [
+        "Федеративная Демократическая Республика Непал"
+      ]
     },
     {
       "locale": "uk",

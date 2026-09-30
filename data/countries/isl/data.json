@@ -1,6 +1,9 @@
 {
   "id": "IS",
   "name": "Iceland",
+  "aliases": [
+    "Republic of Iceland"
+  ],
   "nativeName": "Ísland",
   "iso2": "IS",
   "iso3": "ISL",
@@ -25,7 +28,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "아이슬란드"
+      "name": "아이슬란드",
+      "aliases": [
+        "아이슬란드 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -53,15 +59,24 @@
     },
     {
       "locale": "es",
-      "name": "Islandia"
+      "name": "Islandia",
+      "aliases": [
+        "República de Islandia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Islande"
+      "name": "Islande",
+      "aliases": [
+        "République d'Islande"
+      ]
     },
     {
       "locale": "ja",
-      "name": "アイスランド"
+      "name": "アイスランド",
+      "aliases": [
+        "アイスランド共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +84,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "冰岛"
+      "name": "冰岛",
+      "aliases": [
+        "冰岛共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +95,10 @@
     },
     {
       "locale": "ru",
-      "name": "Исландия"
+      "name": "Исландия",
+      "aliases": [
+        "Республика Исландия"
+      ]
     },
     {
       "locale": "uk",

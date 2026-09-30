@@ -1,6 +1,9 @@
 {
   "id": "YT",
   "name": "Mayotte",
+  "aliases": [
+    "Department of Mayotte"
+  ],
   "nativeName": "Mayotte",
   "iso2": "YT",
   "iso3": "MYT",
@@ -33,7 +36,10 @@
     },
     {
       "locale": "pt",
-      "name": "Mayotte"
+      "name": "Mayotte",
+      "aliases": [
+        "Maiote"
+      ]
     },
     {
       "locale": "nl",
@@ -57,7 +63,11 @@
     },
     {
       "locale": "fr",
-      "name": "Mayotte"
+      "name": "Mayotte",
+      "aliases": [
+        "Département de Mayotte",
+        "Département-Région de Mayotte"
+      ]
     },
     {
       "locale": "ja",

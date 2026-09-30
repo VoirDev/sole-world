@@ -1,6 +1,7 @@
 package dev.voir.sole.world.api.dataset
 
 import dev.voir.sole.world.api.dataset.index.IdKey
+import dev.voir.sole.world.api.dataset.index.TextIndex
 import java.util.Locale
 
 /**
@@ -149,8 +150,57 @@ object DatasetIntegrity {
         }
 
         checkTranslationLocales(dataset, languages, problems)
+        checkCountryAliases(dataset, problems)
 
         problems.failIfAny()
+    }
+
+    /**
+     * Verifies that every country alias is a usable, unambiguous name.
+     *
+     * Aliases are compared the way search compares them, folded. One that folds to a name or alias
+     * of a different country is ambiguous: an exact query for it would rank a country the caller did
+     * not mean alongside, or above, the one they did — "Congo" is the classic case. One that folds to
+     * the country's own name in the same locale, or repeats another alias there, adds nothing.
+     */
+    private fun checkCountryAliases(dataset: RawDataset, problems: Problems) {
+        val owners = HashMap<String, MutableSet<String>>()
+        for (country in dataset.countries) {
+            val names = listOf(country.name) + country.aliases +
+                country.translations.flatMap { listOf(it.name) + it.aliases }
+            for (name in names) {
+                owners.getOrPut(TextIndex.normalize(name)) { mutableSetOf() } += country.id
+            }
+        }
+
+        for (country in dataset.countries) {
+            val lists = listOf(Triple("en", country.name, country.aliases)) +
+                country.translations.map { Triple(it.locale, it.name, it.aliases) }
+
+            for ((locale, name, aliases) in lists) {
+                val seen = mutableSetOf(TextIndex.normalize(name))
+                for (alias in aliases) {
+                    val what = "country ${country.id} $locale '$alias'"
+                    if (alias.isBlank() || alias != alias.trim()) {
+                        problems.badAlias("blank or padded aliases", what)
+                        continue
+                    }
+
+                    val folded = TextIndex.normalize(alias)
+                    if (!seen.add(folded)) {
+                        problems.badAlias("aliases repeating a name or alias in their own locale", what)
+                    }
+
+                    val others = owners[folded].orEmpty() - country.id
+                    if (others.isNotEmpty()) {
+                        problems.badAlias(
+                            "aliases also naming another country",
+                            "$what also names ${others.sorted().joinToString("/")}",
+                        )
+                    }
+                }
+            }
+        }
     }
 
     /**
@@ -308,6 +358,11 @@ object DatasetIntegrity {
         /** Records an English locale, which the base data always wins over. */
         fun englishLocale(id: String) {
             add("English locales, which negotiation can never select", "locale '$id'")
+        }
+
+        /** Records a country alias that breaks one of the alias rules. */
+        fun badAlias(rule: String, detail: String) {
+            add(rule, detail)
         }
 
         /** Records a flag whose picture belongs to a different territory than its emoji. */

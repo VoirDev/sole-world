@@ -1,6 +1,9 @@
 {
   "id": "VG",
   "name": "British Virgin Islands",
+  "aliases": [
+    "B.V.I."
+  ],
   "nativeName": "British Virgin Islands",
   "iso2": "VG",
   "iso3": "VGB",
@@ -25,7 +28,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "영국령 버진아일랜드"
+      "name": "영국령 버진아일랜드",
+      "aliases": [
+        "영국령 버진 제도"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -33,7 +39,10 @@
     },
     {
       "locale": "pt",
-      "name": "Ilhas Virgens Britânicas"
+      "name": "Ilhas Virgens Britânicas",
+      "aliases": [
+        "BVI"
+      ]
     },
     {
       "locale": "nl",
@@ -45,7 +54,10 @@
     },
     {
       "locale": "fa",
-      "name": "جزایر ویرجین بریتانیا"
+      "name": "جزایر ویرجین بریتانیا",
+      "aliases": [
+        "جزایر ویرجین انگلستان"
+      ]
     },
     {
       "locale": "de",
@@ -57,11 +69,18 @@
     },
     {
       "locale": "fr",
-      "name": "Îles Vierges britanniques"
+      "name": "Îles Vierges britanniques",
+      "aliases": [
+        "BVI"
+      ]
     },
     {
       "locale": "ja",
-      "name": "イギリス領ヴァージン諸島"
+      "name": "イギリス領ヴァージン諸島",
+      "aliases": [
+        "英領ヴァージン諸島",
+        "イギリス領バージン諸島"
+      ]
     },
     {
       "locale": "it",
@@ -73,15 +92,25 @@
     },
     {
       "locale": "tr",
-      "name": "Britanya Virjin Adaları"
+      "name": "Britanya Virjin Adaları",
+      "aliases": [
+        "Britanya Virgin Adaları",
+        "İngiliz Virgin Adaları"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Британские Виргинские острова"
+      "name": "Британские Виргинские острова",
+      "aliases": [
+        "Виргинские о-ва (Великобритания)"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Британські Віргінські острови"
+      "name": "Британські Віргінські острови",
+      "aliases": [
+        "Британські Вірджинські острови"
+      ]
     },
     {
       "locale": "pl",

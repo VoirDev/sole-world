@@ -1,6 +1,9 @@
 {
   "id": "BJ",
   "name": "Benin",
+  "aliases": [
+    "Republic of Benin"
+  ],
   "nativeName": "Bénin",
   "iso2": "BJ",
   "iso3": "BEN",
@@ -25,11 +28,19 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "베냉"
+      "name": "베냉",
+      "aliases": [
+        "베냉 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Benin"
+      "name": "Benin",
+      "aliases": [
+        "Benim",
+        "República do Benim",
+        "República do Benin"
+      ]
     },
     {
       "locale": "pt",
@@ -37,7 +48,10 @@
     },
     {
       "locale": "nl",
-      "name": "Benin"
+      "name": "Benin",
+      "aliases": [
+        "Republiek Benin"
+      ]
     },
     {
       "locale": "hr",
@@ -53,23 +67,39 @@
     },
     {
       "locale": "es",
-      "name": "Benín"
+      "name": "Benín",
+      "aliases": [
+        "República de Benín"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Bénin"
+      "name": "Bénin",
+      "aliases": [
+        "République du Bénin"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ベナン"
+      "name": "ベナン",
+      "aliases": [
+        "ベニン",
+        "ベナン共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Benin"
+      "name": "Benin",
+      "aliases": [
+        "Repubblica del Benin"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "贝宁"
+      "name": "贝宁",
+      "aliases": [
+        "贝宁共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +107,17 @@
     },
     {
       "locale": "ru",
-      "name": "Бенин"
+      "name": "Бенин",
+      "aliases": [
+        "Республика Бенин"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Бенін"
+      "name": "Бенін",
+      "aliases": [
+        "Республіка Бенін"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,9 @@
 {
   "id": "PW",
   "name": "Palau",
+  "aliases": [
+    "Republic of Palau"
+  ],
   "nativeName": "Palau",
   "iso2": "PW",
   "iso3": "PLW",
@@ -37,7 +40,10 @@
     },
     {
       "locale": "nl",
-      "name": "Palau"
+      "name": "Palau",
+      "aliases": [
+        "Republiek Palau"
+      ]
     },
     {
       "locale": "hr",
@@ -53,15 +59,25 @@
     },
     {
       "locale": "es",
-      "name": "Palaos"
+      "name": "Palaos",
+      "aliases": [
+        "Palau",
+        "República de Palaos"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Palaos"
+      "name": "Palaos",
+      "aliases": [
+        "Palau"
+      ]
     },
     {
       "locale": "ja",
-      "name": "パラオ"
+      "name": "パラオ",
+      "aliases": [
+        "パラオ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -77,7 +93,10 @@
     },
     {
       "locale": "ru",
-      "name": "Палау"
+      "name": "Палау",
+      "aliases": [
+        "Республика Палау"
+      ]
     },
     {
       "locale": "uk",

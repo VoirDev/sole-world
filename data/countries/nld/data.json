@@ -1,6 +1,10 @@
 {
   "id": "NL",
   "name": "Netherlands",
+  "aliases": [
+    "Holland",
+    "Kingdom of the Netherlands"
+  ],
   "nativeName": "Nederland",
   "iso2": "NL",
   "iso3": "NLD",
@@ -25,67 +29,126 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "네덜란드"
+      "name": "네덜란드",
+      "aliases": [
+        "네덜란드 왕국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Países Baixos"
+      "name": "Países Baixos",
+      "aliases": [
+        "Holanda",
+        "Reino dos Países Baixos"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Países Baixos"
+      "name": "Países Baixos",
+      "aliases": [
+        "Holanda",
+        "Reino dos Países Baixos"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Nederland"
+      "name": "Nederland",
+      "aliases": [
+        "Koninkrijk der Nederlanden"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Nizozemska"
+      "name": "Nizozemska",
+      "aliases": [
+        "Holandija",
+        "Kraljevina Nizozemska"
+      ]
     },
     {
       "locale": "fa",
-      "name": "هلند"
+      "name": "هلند",
+      "aliases": [
+        "پادشاهی هلند"
+      ]
     },
     {
       "locale": "de",
-      "name": "Niederlande"
+      "name": "Niederlande",
+      "aliases": [
+        "Holland",
+        "Königreich der Niederlande"
+      ]
     },
     {
       "locale": "es",
-      "name": "Países Bajos"
+      "name": "Países Bajos",
+      "aliases": [
+        "Holanda",
+        "Reino de los Países Bajos"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Pays-Bas"
+      "name": "Pays-Bas",
+      "aliases": [
+        "Hollande",
+        "Royaume des Pays-Bas"
+      ]
     },
     {
       "locale": "ja",
-      "name": "オランダ"
+      "name": "オランダ",
+      "aliases": [
+        "オランダ王国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Paesi Bassi"
+      "name": "Paesi Bassi",
+      "aliases": [
+        "Olanda",
+        "Regno dei Paesi Bassi"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "荷兰"
+      "name": "荷兰",
+      "aliases": [
+        "荷兰王国",
+        "尼德兰王国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Hollanda"
+      "name": "Hollanda",
+      "aliases": [
+        "Hollanda Krallığı"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Нидерланды"
+      "name": "Нидерланды",
+      "aliases": [
+        "Голландия",
+        "Королевство Нидерландов"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Нідерланди"
+      "name": "Нідерланди",
+      "aliases": [
+        "Голландія",
+        "Королівство Нідерланди"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Holandia"
+      "name": "Holandia",
+      "aliases": [
+        "Niderlandy",
+        "Królestwo Niderlandów"
+      ]
     }
   ],
   "states": [

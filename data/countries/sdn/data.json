@@ -1,6 +1,10 @@
 {
   "id": "SD",
   "name": "Sudan",
+  "aliases": [
+    "Republic of Sudan",
+    "Republic of the Sudan"
+  ],
   "nativeName": "السودان",
   "iso2": "SD",
   "iso3": "SDN",
@@ -38,7 +42,11 @@
     },
     {
       "locale": "nl",
-      "name": "Soedan"
+      "name": "Soedan",
+      "aliases": [
+        "Republiek Soedan",
+        "Republiek Sudan"
+      ]
     },
     {
       "locale": "hr",
@@ -46,15 +54,24 @@
     },
     {
       "locale": "fa",
-      "name": "سودان"
+      "name": "سودان",
+      "aliases": [
+        "سودان شمالی"
+      ]
     },
     {
       "locale": "de",
-      "name": "Sudan"
+      "name": "Sudan",
+      "aliases": [
+        "Republik Sudan"
+      ]
     },
     {
       "locale": "es",
-      "name": "Sudán"
+      "name": "Sudán",
+      "aliases": [
+        "República de Sudán"
+      ]
     },
     {
       "locale": "fr",
@@ -62,15 +79,24 @@
     },
     {
       "locale": "ja",
-      "name": "スーダン"
+      "name": "スーダン",
+      "aliases": [
+        "スーダン共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Sudan"
+      "name": "Sudan",
+      "aliases": [
+        "Repubblica del Sudan"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "苏丹"
+      "name": "苏丹",
+      "aliases": [
+        "苏丹共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,11 +104,17 @@
     },
     {
       "locale": "ru",
-      "name": "Судан"
+      "name": "Судан",
+      "aliases": [
+        "Республика Судан"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Судан"
+      "name": "Судан",
+      "aliases": [
+        "Республіка Судан"
+      ]
     },
     {
       "locale": "pl",

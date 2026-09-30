@@ -1,6 +1,9 @@
 {
   "id": "DM",
   "name": "Dominica",
+  "aliases": [
+    "Commonwealth of Dominica"
+  ],
   "nativeName": "Dominica",
   "iso2": "DM",
   "iso3": "DMA",
@@ -37,11 +40,17 @@
     },
     {
       "locale": "pt",
-      "name": "Dominica"
+      "name": "Dominica",
+      "aliases": [
+        "Comunidade da Dominica"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Dominica"
+      "name": "Dominica",
+      "aliases": [
+        "Gemenebest Dominica"
+      ]
     },
     {
       "locale": "hr",
@@ -57,11 +66,17 @@
     },
     {
       "locale": "es",
-      "name": "Dominica"
+      "name": "Dominica",
+      "aliases": [
+        "Mancomunidad de Dominica"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Dominique"
+      "name": "Dominique",
+      "aliases": [
+        "Dominica"
+      ]
     },
     {
       "locale": "ja",
@@ -77,7 +92,10 @@
     },
     {
       "locale": "ru",
-      "name": "Доминика"
+      "name": "Доминика",
+      "aliases": [
+        "Содружество Доминики"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +103,10 @@
     },
     {
       "locale": "pl",
-      "name": "Dominika"
+      "name": "Dominika",
+      "aliases": [
+        "Wspólnota Dominiki"
+      ]
     }
   ],
   "states": [

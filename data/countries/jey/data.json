@@ -1,6 +1,9 @@
 {
   "id": "JE",
   "name": "Jersey",
+  "aliases": [
+    "Isle of Jersey"
+  ],
   "nativeName": "Jersey",
   "iso2": "JE",
   "iso3": "JEY",
@@ -25,7 +28,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "저지 섬"
+      "name": "저지 섬",
+      "aliases": [
+        "저지",
+        "저지섬"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -37,7 +44,10 @@
     },
     {
       "locale": "nl",
-      "name": "Jersey"
+      "name": "Jersey",
+      "aliases": [
+        "Baljuwschap Jersey"
+      ]
     },
     {
       "locale": "hr",
@@ -49,11 +59,17 @@
     },
     {
       "locale": "de",
-      "name": "Jersey"
+      "name": "Jersey",
+      "aliases": [
+        "Vogtei Jersey"
+      ]
     },
     {
       "locale": "es",
-      "name": "Jersey"
+      "name": "Jersey",
+      "aliases": [
+        "Bailiazgo de Jersey"
+      ]
     },
     {
       "locale": "fr",
@@ -65,11 +81,17 @@
     },
     {
       "locale": "it",
-      "name": "Isola di Jersey"
+      "name": "Isola di Jersey",
+      "aliases": [
+        "Jersey"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "泽西岛"
+      "name": "泽西岛",
+      "aliases": [
+        "泽西"
+      ]
     },
     {
       "locale": "tr",

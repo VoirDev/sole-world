@@ -1,6 +1,7 @@
 {
   "id": "CF",
   "name": "Central African Republic",
+  "aliases": [],
   "nativeName": "Ködörösêse tî Bêafrîka",
   "iso2": "CF",
   "iso3": "CAF",
@@ -25,7 +26,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "중앙아프리카 공화국"
+      "name": "중앙아프리카 공화국",
+      "aliases": [
+        "중앙 아프리카 공화국",
+        "중앙아프리카"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -37,7 +42,10 @@
     },
     {
       "locale": "nl",
-      "name": "Centraal-Afrikaanse Republiek"
+      "name": "Centraal-Afrikaanse Republiek",
+      "aliases": [
+        "Centrafrika"
+      ]
     },
     {
       "locale": "hr",
@@ -57,7 +65,10 @@
     },
     {
       "locale": "fr",
-      "name": "République centrafricaine"
+      "name": "République centrafricaine",
+      "aliases": [
+        "Centrafrique"
+      ]
     },
     {
       "locale": "ja",
@@ -65,11 +76,17 @@
     },
     {
       "locale": "it",
-      "name": "Repubblica Centrafricana"
+      "name": "Repubblica Centrafricana",
+      "aliases": [
+        "Centrafrica"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "中非共和国"
+      "name": "中非共和国",
+      "aliases": [
+        "中非"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +94,11 @@
     },
     {
       "locale": "ru",
-      "name": "Центральноафриканская Республика"
+      "name": "Центральноафриканская Республика",
+      "aliases": [
+        "Центрально-Африканская Республика",
+        "ЦАР"
+      ]
     },
     {
       "locale": "uk",

@@ -12,6 +12,7 @@ import dev.voir.sole.world.graphql.dto.types.Country
 fun CountryData.toGql() = Country(
     id = id,
     name = name,
+    aliases = aliases,
     nativeName = nativeName,
     iso3 = iso3,
     iso2 = iso2,

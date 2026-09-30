@@ -1,6 +1,11 @@
 {
   "id": "FO",
   "name": "Faroe Islands",
+  "aliases": [
+    "Faeroe Islands",
+    "Faeroes",
+    "Faroes"
+  ],
   "nativeName": "Føroyar",
   "iso2": "FO",
   "iso3": "FRO",
@@ -26,7 +31,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "페로 제도"
+      "name": "페로 제도",
+      "aliases": [
+        "페로제도"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -34,39 +42,80 @@
     },
     {
       "locale": "pt",
-      "name": "Ilhas Faroé"
+      "name": "Ilhas Faroé",
+      "aliases": [
+        "Ilhas Feroe",
+        "Faroe",
+        "Feroé",
+        "Féroes",
+        "Ilhas Feroés"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Faeröer"
+      "name": "Faeröer",
+      "aliases": [
+        "Faeroereilanden"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Farski Otoci"
+      "name": "Farski Otoci",
+      "aliases": [
+        "Farsko otočje",
+        "Ferojski otoci",
+        "Ovčji Otoci"
+      ]
     },
     {
       "locale": "fa",
-      "name": "جزایر فارو"
+      "name": "جزایر فارو",
+      "aliases": [
+        "جزایر فاروئه",
+        "فارو"
+      ]
     },
     {
       "locale": "de",
-      "name": "Färöer-Inseln"
+      "name": "Färöer-Inseln",
+      "aliases": [
+        "Färöer",
+        "Färöerinseln",
+        "Färöische Inseln"
+      ]
     },
     {
       "locale": "es",
-      "name": "Islas Feroe"
+      "name": "Islas Feroe",
+      "aliases": [
+        "Feroe",
+        "Islas Faroe",
+        "Islas Feroes"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Îles Féroé"
+      "name": "Îles Féroé",
+      "aliases": [
+        "Féroé"
+      ]
     },
     {
       "locale": "ja",
-      "name": "フェロー諸島"
+      "name": "フェロー諸島",
+      "aliases": [
+        "フェーロー諸島"
+      ]
     },
     {
       "locale": "it",
-      "name": "Isole Fær Øer"
+      "name": "Isole Fær Øer",
+      "aliases": [
+        "Fær Øer",
+        "Faer Oer",
+        "Isole Faer Oer",
+        "Isole Faroe"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -78,11 +127,18 @@
     },
     {
       "locale": "ru",
-      "name": "Фарерские острова"
+      "name": "Фарерские острова",
+      "aliases": [
+        "Фарерские о-ва",
+        "Фареры"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Фарерські острови"
+      "name": "Фарерські острови",
+      "aliases": [
+        "Фарери"
+      ]
     },
     {
       "locale": "pl",

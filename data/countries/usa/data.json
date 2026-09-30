@@ -1,6 +1,11 @@
 {
   "id": "US",
   "name": "United States",
+  "aliases": [
+    "USA",
+    "America",
+    "United States of America"
+  ],
   "nativeName": "United States",
   "iso2": "US",
   "iso3": "USA",
@@ -53,67 +58,140 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "미국"
+      "name": "미국",
+      "aliases": [
+        "미합중국",
+        "아메리카 합중국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Estados Unidos"
+      "name": "Estados Unidos",
+      "aliases": [
+        "EUA",
+        "Estados Unidos da América"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Estados Unidos"
+      "name": "Estados Unidos",
+      "aliases": [
+        "EUA",
+        "Estados Unidos da América"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Verenigde Staten"
+      "name": "Verenigde Staten",
+      "aliases": [
+        "VS",
+        "USA",
+        "Amerika",
+        "Verenigde Staten van Amerika"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Sjedinjene Američke Države"
+      "name": "Sjedinjene Američke Države",
+      "aliases": [
+        "SAD",
+        "Sjedinjene Države"
+      ]
     },
     {
       "locale": "fa",
-      "name": "ایالات متحده آمریکا"
+      "name": "ایالات متحده آمریکا",
+      "aliases": [
+        "آمریکا"
+      ]
     },
     {
       "locale": "de",
-      "name": "Vereinigte Staaten von Amerika"
+      "name": "Vereinigte Staaten von Amerika",
+      "aliases": [
+        "USA",
+        "Vereinigte Staaten",
+        "Amerika"
+      ]
     },
     {
       "locale": "es",
-      "name": "Estados Unidos"
+      "name": "Estados Unidos",
+      "aliases": [
+        "EE. UU.",
+        "EE.UU.",
+        "Estados Unidos de América"
+      ]
     },
     {
       "locale": "fr",
-      "name": "États-Unis"
+      "name": "États-Unis",
+      "aliases": [
+        "É.-U.",
+        "USA",
+        "États-Unis d'Amérique"
+      ]
     },
     {
       "locale": "ja",
-      "name": "アメリカ合衆国"
+      "name": "アメリカ合衆国",
+      "aliases": [
+        "アメリカ",
+        "合衆国",
+        "米国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Stati Uniti d'America"
+      "name": "Stati Uniti d'America",
+      "aliases": [
+        "USA",
+        "Stati Uniti"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "美国"
+      "name": "美国",
+      "aliases": [
+        "美利坚合众国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Amerika Birleşik Devletleri"
+      "name": "Amerika Birleşik Devletleri",
+      "aliases": [
+        "ABD",
+        "Birleşik Devletler"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Соединенные Штаты"
+      "name": "США",
+      "aliases": [
+        "Америка",
+        "Соединенные Штаты",
+        "Соединённые Штаты Америки",
+        "Штаты"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Сполучені Штати"
+      "name": "Сполучені Штати",
+      "aliases": [
+        "США",
+        "Америка",
+        "Сполучені Штати Америки",
+        "Штати"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Stany Zjednoczone"
+      "name": "Stany Zjednoczone",
+      "aliases": [
+        "USA",
+        "Ameryka",
+        "Stany Zjednoczone Ameryki"
+      ]
     }
   ],
   "states": [

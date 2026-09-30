@@ -1,6 +1,9 @@
 {
   "id": "PE",
   "name": "Peru",
+  "aliases": [
+    "Republic of Peru"
+  ],
   "nativeName": "Perú",
   "iso2": "PE",
   "iso3": "PER",
@@ -39,7 +42,10 @@
     },
     {
       "locale": "nl",
-      "name": "Peru"
+      "name": "Peru",
+      "aliases": [
+        "Republiek Peru"
+      ]
     },
     {
       "locale": "hr",
@@ -55,31 +61,52 @@
     },
     {
       "locale": "es",
-      "name": "Perú"
+      "name": "Perú",
+      "aliases": [
+        "República del Perú"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Pérou"
+      "name": "Pérou",
+      "aliases": [
+        "République du Pérou"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ペルー"
+      "name": "ペルー",
+      "aliases": [
+        "ペルー共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Perù"
+      "name": "Perù",
+      "aliases": [
+        "Repubblica del Perù"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "秘鲁"
+      "name": "秘鲁",
+      "aliases": [
+        "秘鲁共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Peru"
+      "name": "Peru",
+      "aliases": [
+        "Peru Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Перу"
+      "name": "Перу",
+      "aliases": [
+        "Республика Перу"
+      ]
     },
     {
       "locale": "uk",

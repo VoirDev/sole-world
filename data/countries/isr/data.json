@@ -1,6 +1,9 @@
 {
   "id": "IL",
   "name": "Israel",
+  "aliases": [
+    "State of Israel"
+  ],
   "nativeName": "ישראל",
   "iso2": "IL",
   "iso3": "ISR",
@@ -31,15 +34,24 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Israel"
+      "name": "Israel",
+      "aliases": [
+        "Estado de Israel"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Israel"
+      "name": "Israel",
+      "aliases": [
+        "Estado de Israel"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Israël"
+      "name": "Israël",
+      "aliases": [
+        "Staat Israël"
+      ]
     },
     {
       "locale": "hr",
@@ -51,23 +63,38 @@
     },
     {
       "locale": "de",
-      "name": "Israel"
+      "name": "Israel",
+      "aliases": [
+        "Staat Israel"
+      ]
     },
     {
       "locale": "es",
-      "name": "Israel"
+      "name": "Israel",
+      "aliases": [
+        "Estado de Israel"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Israël"
+      "name": "Israël",
+      "aliases": [
+        "État d'Israël"
+      ]
     },
     {
       "locale": "ja",
-      "name": "イスラエル"
+      "name": "イスラエル",
+      "aliases": [
+        "イスラエル国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Israele"
+      "name": "Israele",
+      "aliases": [
+        "Stato d'Israele"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -75,19 +102,31 @@
     },
     {
       "locale": "tr",
-      "name": "İsrail"
+      "name": "İsrail",
+      "aliases": [
+        "İsrail Devleti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Израиль"
+      "name": "Израиль",
+      "aliases": [
+        "Государство Израиль"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Ізраїль"
+      "name": "Ізраїль",
+      "aliases": [
+        "Держава Ізраїль"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Izrael"
+      "name": "Izrael",
+      "aliases": [
+        "Państwo Izrael"
+      ]
     }
   ],
   "states": [

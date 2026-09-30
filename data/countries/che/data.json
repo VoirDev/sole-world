@@ -1,6 +1,9 @@
 {
   "id": "CH",
   "name": "Switzerland",
+  "aliases": [
+    "Swiss Confederation"
+  ],
   "nativeName": "Schweiz",
   "iso2": "CH",
   "iso3": "CHE",
@@ -36,59 +39,111 @@
     },
     {
       "locale": "pt",
-      "name": "Suíça"
+      "name": "Suíça",
+      "aliases": [
+        "Confederação Helvética",
+        "Confederação Suíça"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Zwitserland"
+      "name": "Zwitserland",
+      "aliases": [
+        "Zwitsers Eedgenootschap",
+        "Zwitserse Bondsstaat",
+        "Zwitserse Confederatie"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Švicarska"
+      "name": "Švicarska",
+      "aliases": [
+        "Švicarska Konfederacija"
+      ]
     },
     {
       "locale": "fa",
-      "name": "سوئیس"
+      "name": "سوئیس",
+      "aliases": [
+        "سوییس"
+      ]
     },
     {
       "locale": "de",
-      "name": "Schweiz"
+      "name": "Schweiz",
+      "aliases": [
+        "Schweizerische Eidgenossenschaft",
+        "Eidgenossenschaft",
+        "Confoederatio Helvetica"
+      ]
     },
     {
       "locale": "es",
-      "name": "Suiza"
+      "name": "Suiza",
+      "aliases": [
+        "Confederación Suiza",
+        "Confederación Helvética"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Suisse"
+      "name": "Suisse",
+      "aliases": [
+        "Confédération helvétique",
+        "Confédération suisse"
+      ]
     },
     {
       "locale": "ja",
-      "name": "スイス"
+      "name": "スイス",
+      "aliases": [
+        "スイス連邦"
+      ]
     },
     {
       "locale": "it",
-      "name": "Svizzera"
+      "name": "Svizzera",
+      "aliases": [
+        "Elvezia",
+        "Confederazione Elvetica",
+        "Confederazione Svizzera",
+        "Confoederatio Helvetica"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "瑞士"
+      "name": "瑞士",
+      "aliases": [
+        "瑞士联邦"
+      ]
     },
     {
       "locale": "tr",
-      "name": "İsviçre"
+      "name": "İsviçre",
+      "aliases": [
+        "İsviçre Konfederasyonu"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Швейцария"
+      "name": "Швейцария",
+      "aliases": [
+        "Швейцарская Конфедерация"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Швейцарія"
+      "name": "Швейцарія",
+      "aliases": [
+        "Швейцарська Конфедерація"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Szwajcaria"
+      "name": "Szwajcaria",
+      "aliases": [
+        "Konfederacja Szwajcarska"
+      ]
     }
   ],
   "states": [

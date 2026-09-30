@@ -1,6 +1,11 @@
 {
   "id": "SH",
   "name": "Saint Helena",
+  "aliases": [
+    "St. Helena",
+    "Saint Helena, Ascension and Tristan da Cunha",
+    "Saint Helena and Dependencies"
+  ],
   "nativeName": "Saint Helena",
   "iso2": "SH",
   "iso3": "SHN",
@@ -25,67 +30,122 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "세인트헬레나"
+      "name": "세인트헬레나",
+      "aliases": [
+        "세인트헬레나 어센션 트리스탄다쿠냐",
+        "세인트헬레나 및 속령"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Santa Helena"
+      "name": "Santa Helena",
+      "aliases": [
+        "Santa Helena, Ascensão e Tristão da Cunha"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Santa Helena"
+      "name": "Santa Helena",
+      "aliases": [
+        "Santa Helena, Ascensão e Tristão da Cunha",
+        "Santa Helena e Dependências"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Sint-Helena"
+      "name": "Sint-Helena",
+      "aliases": [
+        "Sint-Helena, Ascension en Tristan da Cunha"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Sveta Helena"
+      "name": "Sveta Helena",
+      "aliases": [
+        "Sveta Helena, Ascension i Tristan da Cunha"
+      ]
     },
     {
       "locale": "fa",
-      "name": "سنت هلن"
+      "name": "سنت هلن",
+      "aliases": [
+        "سنت هلنا، اسنشن و تریستان دا کونا"
+      ]
     },
     {
       "locale": "de",
-      "name": "Sankt Helena"
+      "name": "Sankt Helena",
+      "aliases": [
+        "St. Helena",
+        "St. Helena, Ascension und Tristan da Cunha"
+      ]
     },
     {
       "locale": "es",
-      "name": "Santa Elena"
+      "name": "Santa Elena",
+      "aliases": [
+        "Santa Elena, Ascensión y Tristán de Acuña"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Sainte-Hélène"
+      "name": "Sainte-Hélène",
+      "aliases": [
+        "Sainte-Hélène, Ascension et Tristan da Cunha",
+        "Sainte-Hélène et ses dépendances"
+      ]
     },
     {
       "locale": "ja",
-      "name": "セントヘレナ"
+      "name": "セントヘレナ",
+      "aliases": [
+        "セントヘレナ・アセンションおよびトリスタンダクーニャ"
+      ]
     },
     {
       "locale": "it",
-      "name": "Sant'Elena"
+      "name": "Sant'Elena",
+      "aliases": [
+        "Sant'Elena, Ascensione e Tristan da Cunha",
+        "Sant'Elena e dipendenze"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "圣赫勒拿"
+      "name": "圣赫勒拿",
+      "aliases": [
+        "圣赫勒拿、阿森松和特里斯坦-达库尼亚"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Saint Helena"
+      "name": "Saint Helena",
+      "aliases": [
+        "Saint Helena, Ascension ve Tristan da Cunha"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Остров Святой Елены"
+      "name": "Остров Святой Елены",
+      "aliases": [
+        "о-в Св. Елены",
+        "Острова Святой Елены, Вознесения и Тристан-да-Кунья"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Острів Святої Єлени"
+      "name": "Острів Святої Єлени",
+      "aliases": [
+        "Острови Святої Єлени, Вознесіння і Тристан-да-Кунья"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Święta Helena"
+      "name": "Święta Helena",
+      "aliases": [
+        "Wyspa Świętej Heleny",
+        "Święta Helena i Dependencje"
+      ]
     }
   ],
   "states": [

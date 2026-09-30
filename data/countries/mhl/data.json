@@ -1,6 +1,9 @@
 {
   "id": "MH",
   "name": "Marshall Islands",
+  "aliases": [
+    "Republic of the Marshall Islands"
+  ],
   "nativeName": "M̧ajeļ",
   "iso2": "MH",
   "iso3": "MHL",
@@ -39,7 +42,10 @@
     },
     {
       "locale": "nl",
-      "name": "Marshalleilanden"
+      "name": "Marshalleilanden",
+      "aliases": [
+        "Republiek der Marshalleilanden"
+      ]
     },
     {
       "locale": "hr",
@@ -51,19 +57,31 @@
     },
     {
       "locale": "de",
-      "name": "Marshallinseln"
+      "name": "Marshallinseln",
+      "aliases": [
+        "Marshall-Inseln"
+      ]
     },
     {
       "locale": "es",
-      "name": "Islas Marshall"
+      "name": "Islas Marshall",
+      "aliases": [
+        "República de las Islas Marshall"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Îles Marshall"
+      "name": "Îles Marshall",
+      "aliases": [
+        "Marshall"
+      ]
     },
     {
       "locale": "ja",
-      "name": "マーシャル諸島"
+      "name": "マーシャル諸島",
+      "aliases": [
+        "マーシャル諸島共和国"
+      ]
     },
     {
       "locale": "it",
@@ -75,11 +93,18 @@
     },
     {
       "locale": "tr",
-      "name": "Marshall Adaları"
+      "name": "Marshall Adaları",
+      "aliases": [
+        "Marşal Adaları"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Маршалловы острова"
+      "name": "Маршалловы острова",
+      "aliases": [
+        "Маршалловы о-ва",
+        "Республика Маршалловы Острова"
+      ]
     },
     {
       "locale": "uk",
@@ -87,7 +112,10 @@
     },
     {
       "locale": "pl",
-      "name": "Wyspy Marshalla"
+      "name": "Wyspy Marshalla",
+      "aliases": [
+        "Republika Wysp Marshalla"
+      ]
     }
   ],
   "states": [

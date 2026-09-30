@@ -327,6 +327,13 @@ type Country {
     name: String!
 
     """
+    Other names the country is known by, in the same language as `name`: abbreviations, official
+    long forms and recent former names, such as `USA` or `Czech Republic`. Search matches every alias
+    in every language regardless of which are returned here.
+    """
+    aliases: [String!]!
+
+    """
     Native-language country name when available.
     """
     nativeName: String

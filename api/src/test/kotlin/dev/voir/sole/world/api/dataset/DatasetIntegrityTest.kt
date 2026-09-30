@@ -2,6 +2,7 @@ package dev.voir.sole.world.api.dataset
 
 import dev.voir.sole.world.api.dataset.json.CentralBankJSON
 import dev.voir.sole.world.api.dataset.json.CountryJSON
+import dev.voir.sole.world.api.dataset.json.CountryTranslationJSON
 import dev.voir.sole.world.api.dataset.json.CryptoJSON
 import dev.voir.sole.world.api.dataset.json.CurrencyJSON
 import dev.voir.sole.world.api.dataset.json.FlagJSON
@@ -262,6 +263,65 @@ class DatasetIntegrityTest {
         }
     }
 
+    @Test
+    fun `country aliases that are distinct names pass`() {
+        assertDoesNotThrow {
+            DatasetIntegrity.check(
+                dataset(
+                    countries = listOf(
+                        country(
+                            aliases = listOf("C.T.Y."),
+                            translations = listOf(translation("aa", "Страна", "СТ")),
+                        ),
+                        country(id = "OT", name = "Other"),
+                    ),
+                    locales = listOf(locale("aa", "aa")),
+                ),
+            )
+        }
+    }
+
+    @Test
+    fun `a blank country alias fails startup`() {
+        val failure = assertThrows<IllegalStateException> {
+            DatasetIntegrity.check(dataset(countries = listOf(country(aliases = listOf(" ")))))
+        }
+
+        assertTrue(failure.message!!.contains("blank or padded aliases"), failure.message)
+    }
+
+    @Test
+    fun `a country alias repeating its own name fails startup`() {
+        // Folded the way search folds, "COUNTRY" is the name it sits next to.
+        val failure = assertThrows<IllegalStateException> {
+            DatasetIntegrity.check(dataset(countries = listOf(country(aliases = listOf("COUNTRY")))))
+        }
+
+        assertTrue(
+            failure.message!!.contains("aliases repeating a name or alias in their own locale"),
+            failure.message,
+        )
+    }
+
+    @Test
+    fun `a country alias naming another country fails startup`() {
+        // An exact search for it would rank the wrong country alongside the right one.
+        val failure = assertThrows<IllegalStateException> {
+            DatasetIntegrity.check(
+                dataset(
+                    countries = listOf(
+                        country(translations = listOf(translation("aa", "Страна", "Other"))),
+                        country(id = "OT", name = "Other"),
+                    ),
+                    locales = listOf(locale("aa", "aa")),
+                ),
+            )
+        }
+
+        assertTrue(failure.message!!.contains("aliases also naming another country"), failure.message)
+        assertTrue(failure.message!!.contains("country CO aa 'Other' also names OT"), failure.message)
+    }
+
     private fun dataset(
         languages: List<LanguageJSON> = listOf(language("aa")),
         cryptos: List<CryptoJSON> = listOf(crypto("coin")),
@@ -377,7 +437,14 @@ class DatasetIntegrityTest {
         logoId = logoId,
     )
 
+    private fun translation(locale: String, name: String, vararg aliases: String) =
+        CountryTranslationJSON(locale = locale, name = name, aliases = aliases.toList())
+
     private fun country(
+        id: String = "CO",
+        name: String = "Country",
+        aliases: List<String> = emptyList(),
+        translations: List<CountryTranslationJSON> = emptyList(),
         regionId: String = "region",
         subregionId: String = "subregion",
         flagId: String? = "one",
@@ -386,10 +453,11 @@ class DatasetIntegrityTest {
         officialLanguageIds: List<String> = listOf("aa"),
         otherLanguageIds: List<String> = emptyList(),
     ) = CountryJSON(
-        id = "CO",
-        name = "Country",
+        id = id,
+        name = name,
+        aliases = aliases,
         nativeName = null,
-        iso2 = "CO",
+        iso2 = id,
         iso3 = "CTY",
         numericCode = "001",
         phoneCode = "1",
@@ -403,10 +471,10 @@ class DatasetIntegrityTest {
         timezoneIds = timezoneIds,
         officialLanguageIds = officialLanguageIds,
         otherLanguageIds = otherLanguageIds,
-        translations = emptyList(),
+        translations = translations,
         states = listOf(
             StateJSON(
-                id = "CO-ST",
+                id = "$id-ST",
                 name = "State",
                 stateCode = null,
                 latitude = null,

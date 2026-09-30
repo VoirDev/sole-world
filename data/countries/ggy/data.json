@@ -1,6 +1,9 @@
 {
   "id": "GG",
   "name": "Guernsey",
+  "aliases": [
+    "Bailiwick of Guernsey"
+  ],
   "nativeName": "Guernsey",
   "iso2": "GG",
   "iso3": "GGY",
@@ -26,7 +29,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "건지"
+      "name": "건지",
+      "aliases": [
+        "건지 행정관 관할구"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -34,11 +40,21 @@
     },
     {
       "locale": "pt",
-      "name": "Guernsey"
+      "name": "Guernsey",
+      "aliases": [
+        "Guernesey",
+        "Bailiado de Guernsey",
+        "Guernesei",
+        "Guérnsei"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Guernsey"
+      "name": "Guernsey",
+      "aliases": [
+        "Baljuwschap Guernsey",
+        "Baljuwschap van Guernsey"
+      ]
     },
     {
       "locale": "hr",
@@ -46,15 +62,26 @@
     },
     {
       "locale": "fa",
-      "name": "گرنزی"
+      "name": "گرنزی",
+      "aliases": [
+        "گرنسی"
+      ]
     },
     {
       "locale": "de",
-      "name": "Guernsey"
+      "name": "Guernsey",
+      "aliases": [
+        "Vogtei Guernsey"
+      ]
     },
     {
       "locale": "es",
-      "name": "Guernesey"
+      "name": "Guernesey",
+      "aliases": [
+        "Guernsey",
+        "Bailía de Guernsey",
+        "Bailiazgo de Guernsey"
+      ]
     },
     {
       "locale": "fr",
@@ -62,23 +89,41 @@
     },
     {
       "locale": "ja",
-      "name": "ガーンジー"
+      "name": "ガーンジー",
+      "aliases": [
+        "ガーンジー島",
+        "ガンジー島"
+      ]
     },
     {
       "locale": "it",
-      "name": "Guernsey"
+      "name": "Guernsey",
+      "aliases": [
+        "Baliato di Guernsey"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "根西岛"
+      "name": "根西岛",
+      "aliases": [
+        "根西",
+        "格恩西岛"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Guernsey"
+      "name": "Guernsey",
+      "aliases": [
+        "Guernsey Kraliyet Muhafızlığı"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Гернси"
+      "name": "Гернси",
+      "aliases": [
+        "Гернсей",
+        "Бейлвик Гернси"
+      ]
     },
     {
       "locale": "uk",
@@ -86,7 +131,11 @@
     },
     {
       "locale": "pl",
-      "name": "Guernsey"
+      "name": "Guernsey",
+      "aliases": [
+        "Baliwat Guernsey",
+        "Wyspa Guernsey"
+      ]
     }
   ],
   "states": []

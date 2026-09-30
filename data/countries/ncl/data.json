@@ -1,6 +1,9 @@
 {
   "id": "NC",
   "name": "New Caledonia",
+  "aliases": [
+    "Territory of New Caledonia and Dependencies"
+  ],
   "nativeName": "Nouvelle-Calédonie",
   "iso2": "NC",
   "iso3": "NCL",
@@ -25,15 +28,25 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "누벨칼레도니"
+      "name": "누벨칼레도니",
+      "aliases": [
+        "뉴칼레도니아",
+        "누벨 칼레도니"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Nova Caledônia"
+      "name": "Nova Caledônia",
+      "aliases": [
+        "Território da Nova Caledônia e Possessões"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Nova Caledónia"
+      "name": "Nova Caledónia",
+      "aliases": [
+        "Território da Nova Caledónia e Possessões"
+      ]
     },
     {
       "locale": "nl",
@@ -45,11 +58,17 @@
     },
     {
       "locale": "fa",
-      "name": "کالدونیای جدید"
+      "name": "کالدونیای جدید",
+      "aliases": [
+        "کالدونیای نو"
+      ]
     },
     {
       "locale": "de",
-      "name": "Neukaledonien"
+      "name": "Neukaledonien",
+      "aliases": [
+        "Neu-Kaledonien"
+      ]
     },
     {
       "locale": "es",
@@ -57,7 +76,11 @@
     },
     {
       "locale": "fr",
-      "name": "Nouvelle-Calédonie"
+      "name": "Nouvelle-Calédonie",
+      "aliases": [
+        "Calédonie",
+        "Territoire de la Nouvelle-Calédonie et dépendances"
+      ]
     },
     {
       "locale": "ja",

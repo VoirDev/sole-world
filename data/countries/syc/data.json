@@ -1,6 +1,9 @@
 {
   "id": "SC",
   "name": "Seychelles",
+  "aliases": [
+    "Republic of Seychelles"
+  ],
   "nativeName": "Seychelles",
   "iso2": "SC",
   "iso3": "SYC",
@@ -34,11 +37,18 @@
     },
     {
       "locale": "pt",
-      "name": "Seicheles"
+      "name": "Seicheles",
+      "aliases": [
+        "Seychelles",
+        "República das Seychelles"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Seychellen"
+      "name": "Seychellen",
+      "aliases": [
+        "Republiek der Seychellen"
+      ]
     },
     {
       "locale": "hr",
@@ -50,23 +60,40 @@
     },
     {
       "locale": "de",
-      "name": "Seychellen"
+      "name": "Seychellen",
+      "aliases": [
+        "Republik der Seychellen",
+        "Republik Seychellen"
+      ]
     },
     {
       "locale": "es",
-      "name": "Seychelles"
+      "name": "Seychelles",
+      "aliases": [
+        "República de las Seychelles"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Seychelles"
+      "name": "Seychelles",
+      "aliases": [
+        "République des Seychelles"
+      ]
     },
     {
       "locale": "ja",
-      "name": "セーシェル"
+      "name": "セーシェル",
+      "aliases": [
+        "セーシェル共和国",
+        "セイシェル"
+      ]
     },
     {
       "locale": "it",
-      "name": "Seychelles"
+      "name": "Seychelles",
+      "aliases": [
+        "Seicelle"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -74,19 +101,33 @@
     },
     {
       "locale": "tr",
-      "name": "Seyşeller"
+      "name": "Seyşeller",
+      "aliases": [
+        "Seyşeller Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Сейшельские острова"
+      "name": "Сейшельские острова",
+      "aliases": [
+        "Сейшельские о-ва",
+        "Республика Сейшельские Острова",
+        "Сейшелы"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Сейшельські острови"
+      "name": "Сейшельські острови",
+      "aliases": [
+        "Республіка Сейшельські Острови"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Seszele"
+      "name": "Seszele",
+      "aliases": [
+        "Republika Seszeli"
+      ]
     }
   ],
   "states": [

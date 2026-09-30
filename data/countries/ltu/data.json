@@ -1,6 +1,9 @@
 {
   "id": "LT",
   "name": "Lithuania",
+  "aliases": [
+    "Republic of Lithuania"
+  ],
   "nativeName": "Lietuva",
   "iso2": "LT",
   "iso3": "LTU",
@@ -29,39 +32,66 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Lituânia"
+      "name": "Lituânia",
+      "aliases": [
+        "República da Lituânia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Lituânia"
+      "name": "Lituânia",
+      "aliases": [
+        "República da Lituânia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Litouwen"
+      "name": "Litouwen",
+      "aliases": [
+        "Republiek Litouwen"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Litva"
+      "name": "Litva",
+      "aliases": [
+        "Republika Litva"
+      ]
     },
     {
       "locale": "fa",
-      "name": "لیتوانی"
+      "name": "لیتوانی",
+      "aliases": [
+        "جمهوری لیتوانی"
+      ]
     },
     {
       "locale": "de",
-      "name": "Litauen"
+      "name": "Litauen",
+      "aliases": [
+        "Republik Litauen"
+      ]
     },
     {
       "locale": "es",
-      "name": "Lituania"
+      "name": "Lituania",
+      "aliases": [
+        "República de Lituania"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Lituanie"
+      "name": "Lituanie",
+      "aliases": [
+        "République de Lituanie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "リトアニア"
+      "name": "リトアニア",
+      "aliases": [
+        "リトアニア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,15 +99,24 @@
     },
     {
       "locale": "zh-CN",
-      "name": "立陶宛"
+      "name": "立陶宛",
+      "aliases": [
+        "立陶宛共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Litvanya"
+      "name": "Litvanya",
+      "aliases": [
+        "Litvanya Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Литва"
+      "name": "Литва",
+      "aliases": [
+        "Литовская Республика"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +124,10 @@
     },
     {
       "locale": "pl",
-      "name": "Litwa"
+      "name": "Litwa",
+      "aliases": [
+        "Republika Litewska"
+      ]
     }
   ],
   "states": [

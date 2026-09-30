@@ -1,6 +1,9 @@
 {
   "id": "GA",
   "name": "Gabon",
+  "aliases": [
+    "Gabonese Republic"
+  ],
   "nativeName": "Gabon",
   "iso2": "GA",
   "iso3": "GAB",
@@ -25,7 +28,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "가봉"
+      "name": "가봉",
+      "aliases": [
+        "가봉 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -37,7 +43,10 @@
     },
     {
       "locale": "nl",
-      "name": "Gabon"
+      "name": "Gabon",
+      "aliases": [
+        "Republiek Gabon"
+      ]
     },
     {
       "locale": "hr",
@@ -53,23 +62,39 @@
     },
     {
       "locale": "es",
-      "name": "Gabón"
+      "name": "Gabón",
+      "aliases": [
+        "República Gabonesa"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Gabon"
+      "name": "Gabon",
+      "aliases": [
+        "République du Gabon",
+        "République gabonaise"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ガボン"
+      "name": "ガボン",
+      "aliases": [
+        "ガボン共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Gabon"
+      "name": "Gabon",
+      "aliases": [
+        "Repubblica Gabonese"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "加蓬"
+      "name": "加蓬",
+      "aliases": [
+        "加蓬共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,15 +102,26 @@
     },
     {
       "locale": "ru",
-      "name": "Габон"
+      "name": "Габон",
+      "aliases": [
+        "Габонская Республика",
+        "Республика Габон"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Габон"
+      "name": "Габон",
+      "aliases": [
+        "Габонська Республіка",
+        "Республіка Габон"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Gabon"
+      "name": "Gabon",
+      "aliases": [
+        "Republika Gabońska"
+      ]
     }
   ],
   "states": [

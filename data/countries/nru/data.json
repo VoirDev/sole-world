@@ -1,6 +1,9 @@
 {
   "id": "NR",
   "name": "Nauru",
+  "aliases": [
+    "Republic of Nauru"
+  ],
   "nativeName": "Nauru",
   "iso2": "NR",
   "iso3": "NRU",
@@ -34,11 +37,17 @@
     },
     {
       "locale": "pt",
-      "name": "Nauru"
+      "name": "Nauru",
+      "aliases": [
+        "República de Nauru"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Nauru"
+      "name": "Nauru",
+      "aliases": [
+        "Republiek Nauru"
+      ]
     },
     {
       "locale": "hr",
@@ -54,7 +63,10 @@
     },
     {
       "locale": "es",
-      "name": "Nauru"
+      "name": "Nauru",
+      "aliases": [
+        "República de Nauru"
+      ]
     },
     {
       "locale": "fr",
@@ -62,7 +74,10 @@
     },
     {
       "locale": "ja",
-      "name": "ナウル"
+      "name": "ナウル",
+      "aliases": [
+        "ナウル共和国"
+      ]
     },
     {
       "locale": "it",
@@ -78,7 +93,10 @@
     },
     {
       "locale": "ru",
-      "name": "Науру"
+      "name": "Науру",
+      "aliases": [
+        "Республика Науру"
+      ]
     },
     {
       "locale": "uk",
@@ -86,7 +104,10 @@
     },
     {
       "locale": "pl",
-      "name": "Nauru"
+      "name": "Nauru",
+      "aliases": [
+        "Republika Nauru"
+      ]
     }
   ],
   "states": [

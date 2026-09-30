@@ -1,6 +1,9 @@
 {
   "id": "SX",
   "name": "Sint Maarten",
+  "aliases": [
+    "St. Maarten"
+  ],
   "nativeName": "Sint Maarten",
   "iso2": "SX",
   "iso3": "SXM",
@@ -26,7 +29,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "신트마르턴"
+      "name": "신트마르턴",
+      "aliases": [
+        "신트마르텐"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -34,7 +40,11 @@
     },
     {
       "locale": "pt",
-      "name": "Sint Maarten"
+      "name": "Sint Maarten",
+      "aliases": [
+        "São Martinho (Sint Maarten)",
+        "St. Maarten"
+      ]
     },
     {
       "locale": "nl",
@@ -42,19 +52,34 @@
     },
     {
       "locale": "fa",
-      "name": "سنت مارتن"
+      "name": "سنت مارتن",
+      "aliases": [
+        "سینت مارتن",
+        "سنت مارتین هلند"
+      ]
     },
     {
       "locale": "de",
-      "name": "Sint Maarten"
+      "name": "Sint Maarten",
+      "aliases": [
+        "St. Maarten"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Sint Maarten"
+      "name": "Sint Maarten",
+      "aliases": [
+        "Saint-Martin (partie néerlandaise)",
+        "État de Sint Maarten",
+        "St Maarten"
+      ]
     },
     {
       "locale": "it",
-      "name": "Sint Maarten"
+      "name": "Sint Maarten",
+      "aliases": [
+        "St. Maarten"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -66,7 +91,10 @@
     },
     {
       "locale": "ru",
-      "name": "Синт-Мартен"
+      "name": "Синт-Мартен",
+      "aliases": [
+        "Синт-Маартен"
+      ]
     },
     {
       "locale": "uk",
@@ -82,11 +110,17 @@
     },
     {
       "locale": "es",
-      "name": "Sint Maarten"
+      "name": "Sint Maarten",
+      "aliases": [
+        "St. Maarten"
+      ]
     },
     {
       "locale": "ja",
-      "name": "シント・マールテン"
+      "name": "シント・マールテン",
+      "aliases": [
+        "オランダ領シント・マールテン"
+      ]
     }
   ],
   "states": []

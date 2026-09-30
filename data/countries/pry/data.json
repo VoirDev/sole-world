@@ -1,6 +1,9 @@
 {
   "id": "PY",
   "name": "Paraguay",
+  "aliases": [
+    "Republic of Paraguay"
+  ],
   "nativeName": "Paraguay",
   "iso2": "PY",
   "iso3": "PRY",
@@ -38,7 +41,10 @@
     },
     {
       "locale": "nl",
-      "name": "Paraguay"
+      "name": "Paraguay",
+      "aliases": [
+        "Republiek Paraguay"
+      ]
     },
     {
       "locale": "hr",
@@ -46,7 +52,10 @@
     },
     {
       "locale": "fa",
-      "name": "پاراگوئه"
+      "name": "پاراگوئه",
+      "aliases": [
+        "پاراگوای"
+      ]
     },
     {
       "locale": "de",
@@ -54,15 +63,24 @@
     },
     {
       "locale": "es",
-      "name": "Paraguay"
+      "name": "Paraguay",
+      "aliases": [
+        "República del Paraguay"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Paraguay"
+      "name": "Paraguay",
+      "aliases": [
+        "République du Paraguay"
+      ]
     },
     {
       "locale": "ja",
-      "name": "パラグアイ"
+      "name": "パラグアイ",
+      "aliases": [
+        "パラグアイ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -78,7 +96,10 @@
     },
     {
       "locale": "ru",
-      "name": "Парагвай"
+      "name": "Парагвай",
+      "aliases": [
+        "Республика Парагвай"
+      ]
     },
     {
       "locale": "uk",

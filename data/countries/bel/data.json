@@ -1,6 +1,9 @@
 {
   "id": "BE",
   "name": "Belgium",
+  "aliases": [
+    "Kingdom of Belgium"
+  ],
   "nativeName": "België",
   "iso2": "BE",
   "iso3": "BEL",
@@ -27,11 +30,17 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "벨기에"
+      "name": "벨기에",
+      "aliases": [
+        "벨기에 왕국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Bélgica"
+      "name": "Bélgica",
+      "aliases": [
+        "Reino da Bélgica"
+      ]
     },
     {
       "locale": "pt",
@@ -39,11 +48,17 @@
     },
     {
       "locale": "nl",
-      "name": "België"
+      "name": "België",
+      "aliases": [
+        "Koninkrijk België"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Belgija"
+      "name": "Belgija",
+      "aliases": [
+        "Kraljevina Belgija"
+      ]
     },
     {
       "locale": "fa",
@@ -51,43 +66,73 @@
     },
     {
       "locale": "de",
-      "name": "Belgien"
+      "name": "Belgien",
+      "aliases": [
+        "Königreich Belgien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Bélgica"
+      "name": "Bélgica",
+      "aliases": [
+        "Reino de Bélgica"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Belgique"
+      "name": "Belgique",
+      "aliases": [
+        "Royaume de Belgique"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ベルギー"
+      "name": "ベルギー",
+      "aliases": [
+        "ベルギー王国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Belgio"
+      "name": "Belgio",
+      "aliases": [
+        "Regno del Belgio"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "比利时"
+      "name": "比利时",
+      "aliases": [
+        "比利时王国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Belçika"
+      "name": "Belçika",
+      "aliases": [
+        "Belçika Krallığı"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Бельгия"
+      "name": "Бельгия",
+      "aliases": [
+        "Королевство Бельгия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Бельгія"
+      "name": "Бельгія",
+      "aliases": [
+        "Королівство Бельгія"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Belgia"
+      "name": "Belgia",
+      "aliases": [
+        "Królestwo Belgii"
+      ]
     }
   ],
   "states": [

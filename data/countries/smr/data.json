@@ -1,6 +1,9 @@
 {
   "id": "SM",
   "name": "San Marino",
+  "aliases": [
+    "Most Serene Republic of San Marino"
+  ],
   "nativeName": "San Marino",
   "iso2": "SM",
   "iso3": "SMR",
@@ -29,15 +32,26 @@
     },
     {
       "locale": "pt-BR",
-      "name": "San Marino"
+      "name": "San Marino",
+      "aliases": [
+        "Sereníssima República de San Marino",
+        "São Marinho"
+      ]
     },
     {
       "locale": "pt",
-      "name": "São Marinho"
+      "name": "São Marinho",
+      "aliases": [
+        "San Marino",
+        "Sereníssima República de San Marino"
+      ]
     },
     {
       "locale": "nl",
-      "name": "San Marino"
+      "name": "San Marino",
+      "aliases": [
+        "Republiek San Marino"
+      ]
     },
     {
       "locale": "hr",
@@ -45,31 +59,55 @@
     },
     {
       "locale": "fa",
-      "name": "سان‌مارینو"
+      "name": "سان‌مارینو",
+      "aliases": [
+        "سان مارینو"
+      ]
     },
     {
       "locale": "de",
-      "name": "San Marino"
+      "name": "San Marino",
+      "aliases": [
+        "Republik San Marino"
+      ]
     },
     {
       "locale": "es",
-      "name": "San Marino"
+      "name": "San Marino",
+      "aliases": [
+        "República de San Marino",
+        "Serenísima República de San Marino"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Saint-Marin"
+      "name": "Saint-Marin",
+      "aliases": [
+        "République de Saint-Marin",
+        "Sérénissime république de Saint-Marin"
+      ]
     },
     {
       "locale": "ja",
-      "name": "サンマリノ"
+      "name": "サンマリノ",
+      "aliases": [
+        "サンマリノ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "San Marino"
+      "name": "San Marino",
+      "aliases": [
+        "Repubblica di San Marino",
+        "Serenissima Repubblica di San Marino"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "圣马力诺"
+      "name": "圣马力诺",
+      "aliases": [
+        "圣马力诺共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,15 +115,26 @@
     },
     {
       "locale": "ru",
-      "name": "Сан-Марино"
+      "name": "Сан-Марино",
+      "aliases": [
+        "Республика Сан-Марино",
+        "Светлейшая Республика Сан-Марино"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Сан-Марино"
+      "name": "Сан-Марино",
+      "aliases": [
+        "Найсвітліша республіка Сан-Марино"
+      ]
     },
     {
       "locale": "pl",
-      "name": "San Marino"
+      "name": "San Marino",
+      "aliases": [
+        "Najjaśniejsza Republika San Marino",
+        "Republika San Marino"
+      ]
     }
   ],
   "states": [

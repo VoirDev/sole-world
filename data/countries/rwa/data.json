@@ -1,6 +1,9 @@
 {
   "id": "RW",
   "name": "Rwanda",
+  "aliases": [
+    "Republic of Rwanda"
+  ],
   "nativeName": "Rwanda",
   "iso2": "RW",
   "iso3": "RWA",
@@ -28,7 +31,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "르완다"
+      "name": "르완다",
+      "aliases": [
+        "르완다 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -40,7 +46,10 @@
     },
     {
       "locale": "nl",
-      "name": "Rwanda"
+      "name": "Rwanda",
+      "aliases": [
+        "Republiek Rwanda"
+      ]
     },
     {
       "locale": "hr",
@@ -52,19 +61,32 @@
     },
     {
       "locale": "de",
-      "name": "Ruanda"
+      "name": "Ruanda",
+      "aliases": [
+        "Rwanda"
+      ]
     },
     {
       "locale": "es",
-      "name": "Ruanda"
+      "name": "Ruanda",
+      "aliases": [
+        "República Ruandesa",
+        "Rwanda"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Rwanda"
+      "name": "Rwanda",
+      "aliases": [
+        "République Rwandaise"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ルワンダ"
+      "name": "ルワンダ",
+      "aliases": [
+        "ルワンダ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -80,11 +102,17 @@
     },
     {
       "locale": "ru",
-      "name": "Руанда"
+      "name": "Руанда",
+      "aliases": [
+        "Республика Руанда"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Руанда"
+      "name": "Руанда",
+      "aliases": [
+        "Республіка Руанда"
+      ]
     },
     {
       "locale": "pl",

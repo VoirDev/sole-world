@@ -1,6 +1,9 @@
 {
   "id": "BF",
   "name": "Burkina Faso",
+  "aliases": [
+    "Republic of Burkina Faso"
+  ],
   "nativeName": "Burkina Faso",
   "iso2": "BF",
   "iso3": "BFA",
@@ -29,11 +32,19 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Burkina Faso"
+      "name": "Burkina Faso",
+      "aliases": [
+        "Burquina Faso",
+        "Burquina Fasso"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Burquina Faso"
+      "name": "Burquina Faso",
+      "aliases": [
+        "Burquina Fasso",
+        "Burkina Faso"
+      ]
     },
     {
       "locale": "nl",
@@ -57,7 +68,10 @@
     },
     {
       "locale": "fr",
-      "name": "Burkina Faso"
+      "name": "Burkina Faso",
+      "aliases": [
+        "Burkina"
+      ]
     },
     {
       "locale": "ja",

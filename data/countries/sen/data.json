@@ -1,6 +1,9 @@
 {
   "id": "SN",
   "name": "Senegal",
+  "aliases": [
+    "Republic of Senegal"
+  ],
   "nativeName": "Sénégal",
   "iso2": "SN",
   "iso3": "SEN",
@@ -33,11 +36,17 @@
     },
     {
       "locale": "pt",
-      "name": "Senegal"
+      "name": "Senegal",
+      "aliases": [
+        "República do Senegal"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Senegal"
+      "name": "Senegal",
+      "aliases": [
+        "Republiek Senegal"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +58,31 @@
     },
     {
       "locale": "de",
-      "name": "Senegal"
+      "name": "Senegal",
+      "aliases": [
+        "Republik Senegal"
+      ]
     },
     {
       "locale": "es",
-      "name": "Senegal"
+      "name": "Senegal",
+      "aliases": [
+        "República de Senegal"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Sénégal"
+      "name": "Sénégal",
+      "aliases": [
+        "République du Sénégal"
+      ]
     },
     {
       "locale": "ja",
-      "name": "セネガル"
+      "name": "セネガル",
+      "aliases": [
+        "セネガル共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +90,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "塞内加尔"
+      "name": "塞内加尔",
+      "aliases": [
+        "塞内加尔共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +101,10 @@
     },
     {
       "locale": "ru",
-      "name": "Сенегал"
+      "name": "Сенегал",
+      "aliases": [
+        "Республика Сенегал"
+      ]
     },
     {
       "locale": "uk",

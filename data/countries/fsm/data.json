@@ -1,6 +1,9 @@
 {
   "id": "FM",
   "name": "Micronesia",
+  "aliases": [
+    "Federated States of Micronesia"
+  ],
   "nativeName": "Micronesia",
   "iso2": "FM",
   "iso3": "FSM",
@@ -27,7 +30,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "미크로네시아 연방"
+      "name": "미크로네시아 연방",
+      "aliases": [
+        "미크로네시아"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -39,7 +45,11 @@
     },
     {
       "locale": "nl",
-      "name": "Micronesië"
+      "name": "Micronesië",
+      "aliases": [
+        "Micronesia",
+        "Federale Staten van Micronesië"
+      ]
     },
     {
       "locale": "hr",
@@ -51,15 +61,24 @@
     },
     {
       "locale": "de",
-      "name": "Mikronesien"
+      "name": "Mikronesien",
+      "aliases": [
+        "Föderierte Staaten von Mikronesien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Micronesia"
+      "name": "Micronesia",
+      "aliases": [
+        "Estados Federados de Micronesia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Micronésie"
+      "name": "Micronésie",
+      "aliases": [
+        "États fédérés de Micronésie"
+      ]
     },
     {
       "locale": "ja",
@@ -67,11 +86,17 @@
     },
     {
       "locale": "it",
-      "name": "Micronesia"
+      "name": "Micronesia",
+      "aliases": [
+        "Stati Federati di Micronesia"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "密克罗尼西亚"
+      "name": "密克罗尼西亚",
+      "aliases": [
+        "密克罗尼西亚联邦"
+      ]
     },
     {
       "locale": "tr",
@@ -79,11 +104,17 @@
     },
     {
       "locale": "ru",
-      "name": "Микронезия"
+      "name": "Микронезия",
+      "aliases": [
+        "Федеративные Штаты Микронезии"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Мікронезія"
+      "name": "Мікронезія",
+      "aliases": [
+        "Федеративні Штати Мікронезії"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,9 @@
 {
   "id": "TH",
   "name": "Thailand",
+  "aliases": [
+    "Kingdom of Thailand"
+  ],
   "nativeName": "ประเทศไทย",
   "iso2": "TH",
   "iso3": "THA",
@@ -25,7 +28,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "태국"
+      "name": "태국",
+      "aliases": [
+        "타이",
+        "타이 왕국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -37,7 +44,10 @@
     },
     {
       "locale": "nl",
-      "name": "Thailand"
+      "name": "Thailand",
+      "aliases": [
+        "Koninkrijk Thailand"
+      ]
     },
     {
       "locale": "hr",
@@ -49,11 +59,17 @@
     },
     {
       "locale": "de",
-      "name": "Thailand"
+      "name": "Thailand",
+      "aliases": [
+        "Königreich Thailand"
+      ]
     },
     {
       "locale": "es",
-      "name": "Tailandia"
+      "name": "Tailandia",
+      "aliases": [
+        "Reino de Tailandia"
+      ]
     },
     {
       "locale": "fr",
@@ -61,11 +77,18 @@
     },
     {
       "locale": "ja",
-      "name": "タイ"
+      "name": "タイ",
+      "aliases": [
+        "タイ王国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Thailandia"
+      "name": "Thailandia",
+      "aliases": [
+        "Tailandia",
+        "Regno di Thailandia"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,15 +100,24 @@
     },
     {
       "locale": "ru",
-      "name": "Таиланд"
+      "name": "Таиланд",
+      "aliases": [
+        "Королевство Таиланд"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Таїланд"
+      "name": "Таїланд",
+      "aliases": [
+        "Королівство Таїланд"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Tajlandia"
+      "name": "Tajlandia",
+      "aliases": [
+        "Królestwo Tajlandii"
+      ]
     }
   ],
   "states": [

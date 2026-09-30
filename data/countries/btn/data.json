@@ -1,6 +1,9 @@
 {
   "id": "BT",
   "name": "Bhutan",
+  "aliases": [
+    "Kingdom of Bhutan"
+  ],
   "nativeName": "ʼbrug-yul",
   "iso2": "BT",
   "iso3": "BTN",
@@ -33,15 +36,25 @@
     },
     {
       "locale": "pt",
-      "name": "Butão"
+      "name": "Butão",
+      "aliases": [
+        "Reino do Butão"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Bhutan"
+      "name": "Bhutan",
+      "aliases": [
+        "Bhoetan",
+        "Koninkrijk Bhutan"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Butan"
+      "name": "Butan",
+      "aliases": [
+        "Kraljevina Butan"
+      ]
     },
     {
       "locale": "fa",
@@ -49,11 +62,18 @@
     },
     {
       "locale": "de",
-      "name": "Bhutan"
+      "name": "Bhutan",
+      "aliases": [
+        "Königreich Bhutan"
+      ]
     },
     {
       "locale": "es",
-      "name": "Bután"
+      "name": "Bután",
+      "aliases": [
+        "Bhután",
+        "Reino de Bután"
+      ]
     },
     {
       "locale": "fr",
@@ -61,7 +81,10 @@
     },
     {
       "locale": "ja",
-      "name": "ブータン"
+      "name": "ブータン",
+      "aliases": [
+        "ブータン王国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +92,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "不丹"
+      "name": "不丹",
+      "aliases": [
+        "不丹王国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +103,17 @@
     },
     {
       "locale": "ru",
-      "name": "Бутан"
+      "name": "Бутан",
+      "aliases": [
+        "Королевство Бутан"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Бутан"
+      "name": "Бутан",
+      "aliases": [
+        "Королівство Бутан"
+      ]
     },
     {
       "locale": "pl",

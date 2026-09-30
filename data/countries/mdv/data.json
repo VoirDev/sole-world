@@ -1,6 +1,9 @@
 {
   "id": "MV",
   "name": "Maldives",
+  "aliases": [
+    "Republic of Maldives"
+  ],
   "nativeName": "Maldives",
   "iso2": "MV",
   "iso3": "MDV",
@@ -39,7 +42,12 @@
     },
     {
       "locale": "nl",
-      "name": "Maldiven"
+      "name": "Maldiven",
+      "aliases": [
+        "Malediven",
+        "Republiek der Maldiven",
+        "Republiek der Malediven"
+      ]
     },
     {
       "locale": "hr",
@@ -55,7 +63,10 @@
     },
     {
       "locale": "es",
-      "name": "Maldivas"
+      "name": "Maldivas",
+      "aliases": [
+        "República de Maldivas"
+      ]
     },
     {
       "locale": "fr",
@@ -63,11 +74,19 @@
     },
     {
       "locale": "ja",
-      "name": "モルディブ"
+      "name": "モルディブ",
+      "aliases": [
+        "モルジブ",
+        "モルディヴ",
+        "モルディブ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Maldive"
+      "name": "Maldive",
+      "aliases": [
+        "Repubblica delle Maldive"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -79,7 +98,10 @@
     },
     {
       "locale": "ru",
-      "name": "Мальдивы"
+      "name": "Мальдивы",
+      "aliases": [
+        "Мальдивская Республика"
+      ]
     },
     {
       "locale": "uk",

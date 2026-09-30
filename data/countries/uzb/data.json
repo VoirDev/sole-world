@@ -1,6 +1,9 @@
 {
   "id": "UZ",
   "name": "Uzbekistan",
+  "aliases": [
+    "Republic of Uzbekistan"
+  ],
   "nativeName": "O‘zbekiston",
   "iso2": "UZ",
   "iso3": "UZB",
@@ -26,19 +29,33 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "우즈베키스탄"
+      "name": "우즈베키스탄",
+      "aliases": [
+        "우즈벡"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Uzbequistão"
+      "name": "Uzbequistão",
+      "aliases": [
+        "República do Uzbequistão"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Usbequistão"
+      "name": "Usbequistão",
+      "aliases": [
+        "República do Usbequistão",
+        "República do Uzbequistão",
+        "Uzbequistão"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Oezbekistan"
+      "name": "Oezbekistan",
+      "aliases": [
+        "Republiek Oezbekistan"
+      ]
     },
     {
       "locale": "hr",
@@ -54,7 +71,10 @@
     },
     {
       "locale": "es",
-      "name": "Uzbekistán"
+      "name": "Uzbekistán",
+      "aliases": [
+        "República de Uzbekistán"
+      ]
     },
     {
       "locale": "fr",
@@ -62,11 +82,17 @@
     },
     {
       "locale": "ja",
-      "name": "ウズベキスタン"
+      "name": "ウズベキスタン",
+      "aliases": [
+        "ウズベキスタン共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Uzbekistan"
+      "name": "Uzbekistan",
+      "aliases": [
+        "Repubblica dell'Uzbekistan"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -78,7 +104,10 @@
     },
     {
       "locale": "ru",
-      "name": "Узбекистан"
+      "name": "Узбекистан",
+      "aliases": [
+        "Республика Узбекистан"
+      ]
     },
     {
       "locale": "uk",

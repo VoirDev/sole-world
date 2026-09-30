@@ -1,6 +1,12 @@
 {
   "id": "CV",
   "name": "Cape Verde",
+  "aliases": [
+    "Cabo Verde",
+    "Cape Verde Islands",
+    "Republic of Cabo Verde",
+    "Republic of Cape Verde"
+  ],
   "nativeName": "Cabo Verde",
   "iso2": "CV",
   "iso3": "CPV",
@@ -29,15 +35,25 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Cabo Verde"
+      "name": "Cabo Verde",
+      "aliases": [
+        "República de Cabo Verde"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Cabo Verde"
+      "name": "Cabo Verde",
+      "aliases": [
+        "República de Cabo Verde"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Kaapverdië"
+      "name": "Kaapverdië",
+      "aliases": [
+        "Kaapverdische eilanden",
+        "Republiek Kaapverdië"
+      ]
     },
     {
       "locale": "hr",
@@ -45,15 +61,27 @@
     },
     {
       "locale": "fa",
-      "name": "کیپ‌ورد"
+      "name": "کیپ‌ورد",
+      "aliases": [
+        "کیپ ورد"
+      ]
     },
     {
       "locale": "de",
-      "name": "Kap Verde"
+      "name": "Kap Verde",
+      "aliases": [
+        "Kapverden",
+        "Cabo Verde",
+        "Republik Cabo Verde",
+        "Republik Kap Verde"
+      ]
     },
     {
       "locale": "es",
-      "name": "Cabo Verde"
+      "name": "Cabo Verde",
+      "aliases": [
+        "República de Cabo Verde"
+      ]
     },
     {
       "locale": "fr",
@@ -61,7 +89,11 @@
     },
     {
       "locale": "ja",
-      "name": "カーボベルデ"
+      "name": "カーボベルデ",
+      "aliases": [
+        "カーボ・ヴェルデ",
+        "カーボヴェルデ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +101,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "佛得角"
+      "name": "佛得角",
+      "aliases": [
+        "佛得角共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +112,17 @@
     },
     {
       "locale": "ru",
-      "name": "Кабо-Верде"
+      "name": "Кабо-Верде",
+      "aliases": [
+        "Республика Кабо-Верде"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Кабо-Верде"
+      "name": "Кабо-Верде",
+      "aliases": [
+        "Республіка Кабо-Верде"
+      ]
     },
     {
       "locale": "pl",

@@ -251,7 +251,7 @@ curl -H "X-API-KEY: $API_KEY" \
 
 | Resource | Accepted `include` values |
 | --- | --- |
-| Country | `region` `subregion` `flag` `currencies` `languages` `timezones` `centralBanks` `states` |
+| Country | `region` `subregion` `flag` `currencies` `languages` `timezones` `centralBanks` `states` `aliases` |
 | Currency | `flag` `countries` `centralBanks` `replacedBy` |
 | Language | `flag` `countries` |
 | Locale | `language` |
@@ -267,6 +267,8 @@ Rules:
 - Includes are **one level deep**. An embedded record never carries its own includes.
 - Included collections are capped at 50 records. When one is cut, its name appears in
   `truncatedIncludes` and its own endpoint pages through the rest.
+- `aliases` on a country adds a field rather than a record: the other names it is known by, in the
+  response language — `USA` and `United States of America`, or `США` with `?lang=ru`.
 - A country's cities are **not** includable — some countries have more than 19,000. Use
   `/v1/countries/{id}/cities`.
 - An unrecognized value returns `400` listing the values that endpoint does accept.
@@ -276,7 +278,8 @@ Rules:
 Collections take `page` (zero-based) and `size` (max 50), and return `{ "items": [...], "page": {...} }`.
 
 `query` on a collection runs a relevance-ranked search that tolerates typos, missing accents and a
-different script from the stored name. On a sub-resource it is a literal name filter, so the
+different script from the stored name, and that matches a country by any of its names in any
+language — `USA`, `Czech Republic` and `Бирма` find what you would expect. On a sub-resource it is a literal name filter, so the
 reported total stays exact.
 
 **Every collection accepts it**, including flags — where it ranks over captions and emoji, so

@@ -1,6 +1,9 @@
 {
   "id": "LY",
   "name": "Libya",
+  "aliases": [
+    "State of Libya"
+  ],
   "nativeName": "دولة ليبيا",
   "iso2": "LY",
   "iso3": "LBY",
@@ -29,7 +32,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Líbia"
+      "name": "Líbia",
+      "aliases": [
+        "República da Líbia"
+      ]
     },
     {
       "locale": "pt",
@@ -49,11 +55,17 @@
     },
     {
       "locale": "de",
-      "name": "Libyen"
+      "name": "Libyen",
+      "aliases": [
+        "Staat Libyen"
+      ]
     },
     {
       "locale": "es",
-      "name": "Libia"
+      "name": "Libia",
+      "aliases": [
+        "Estado de Libia"
+      ]
     },
     {
       "locale": "fr",
@@ -61,15 +73,24 @@
     },
     {
       "locale": "ja",
-      "name": "リビア"
+      "name": "リビア",
+      "aliases": [
+        "リビア国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Libia"
+      "name": "Libia",
+      "aliases": [
+        "Repubblica libica"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "利比亚"
+      "name": "利比亚",
+      "aliases": [
+        "利比亚国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +98,17 @@
     },
     {
       "locale": "ru",
-      "name": "Ливия"
+      "name": "Ливия",
+      "aliases": [
+        "Государство Ливия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Лівія"
+      "name": "Лівія",
+      "aliases": [
+        "Держава Лівія"
+      ]
     },
     {
       "locale": "pl",

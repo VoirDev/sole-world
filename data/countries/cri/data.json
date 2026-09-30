@@ -1,6 +1,9 @@
 {
   "id": "CR",
   "name": "Costa Rica",
+  "aliases": [
+    "Republic of Costa Rica"
+  ],
   "nativeName": "Costa Rica",
   "iso2": "CR",
   "iso3": "CRI",
@@ -25,7 +28,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "코스타리카"
+      "name": "코스타리카",
+      "aliases": [
+        "코스타리카 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -33,11 +39,17 @@
     },
     {
       "locale": "pt",
-      "name": "Costa Rica"
+      "name": "Costa Rica",
+      "aliases": [
+        "República da Costa Rica"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Costa Rica"
+      "name": "Costa Rica",
+      "aliases": [
+        "Republiek Costa Rica"
+      ]
     },
     {
       "locale": "hr",
@@ -49,11 +61,17 @@
     },
     {
       "locale": "de",
-      "name": "Costa Rica"
+      "name": "Costa Rica",
+      "aliases": [
+        "Republik Costa Rica"
+      ]
     },
     {
       "locale": "es",
-      "name": "Costa Rica"
+      "name": "Costa Rica",
+      "aliases": [
+        "República de Costa Rica"
+      ]
     },
     {
       "locale": "fr",
@@ -61,7 +79,10 @@
     },
     {
       "locale": "ja",
-      "name": "コスタリカ"
+      "name": "コスタリカ",
+      "aliases": [
+        "コスタリカ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +90,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "哥斯达黎加"
+      "name": "哥斯达黎加",
+      "aliases": [
+        "哥斯达黎加共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +101,10 @@
     },
     {
       "locale": "ru",
-      "name": "Коста-Рика"
+      "name": "Коста-Рика",
+      "aliases": [
+        "Республика Коста-Рика"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +112,10 @@
     },
     {
       "locale": "pl",
-      "name": "Kostaryka"
+      "name": "Kostaryka",
+      "aliases": [
+        "Republika Kostaryki"
+      ]
     }
   ],
   "states": [

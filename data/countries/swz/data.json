@@ -1,6 +1,11 @@
 {
   "id": "SZ",
   "name": "Eswatini",
+  "aliases": [
+    "Swaziland",
+    "Kingdom of Eswatini",
+    "Kingdom of Swaziland"
+  ],
   "nativeName": "Swaziland",
   "iso2": "SZ",
   "iso3": "SWZ",
@@ -26,67 +31,131 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "에스와티니"
+      "name": "에스와티니",
+      "aliases": [
+        "스와질란드",
+        "에스와티니 왕국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Essuatíni"
+      "name": "Essuatíni",
+      "aliases": [
+        "Suazilândia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Essuatíni"
+      "name": "Essuatíni",
+      "aliases": [
+        "Suazilândia",
+        "Reino da Suazilândia",
+        "Reino de Essuatíni"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Eswatini"
+      "name": "Eswatini",
+      "aliases": [
+        "Swaziland",
+        "Koninkrijk Swaziland",
+        "Koninkrijk Eswatini"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Esvatini"
+      "name": "Esvatini",
+      "aliases": [
+        "Svazi"
+      ]
     },
     {
       "locale": "fa",
-      "name": "اسواتینی"
+      "name": "اسواتینی",
+      "aliases": [
+        "سوازیلند"
+      ]
     },
     {
       "locale": "de",
-      "name": "Eswatini"
+      "name": "Eswatini",
+      "aliases": [
+        "Swasiland"
+      ]
     },
     {
       "locale": "es",
-      "name": "Esuatini"
+      "name": "Esuatini",
+      "aliases": [
+        "Suazilandia",
+        "Reino de Esuatini",
+        "Reino de Suazilandia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Eswatini"
+      "name": "Eswatini",
+      "aliases": [
+        "Swaziland",
+        "Royaume d'Eswatini",
+        "Royaume du Swaziland"
+      ]
     },
     {
       "locale": "ja",
-      "name": "エスワティニ"
+      "name": "エスワティニ",
+      "aliases": [
+        "スワジランド",
+        "エスワティニ王国",
+        "スワジランド王国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Eswatini"
+      "name": "Eswatini",
+      "aliases": [
+        "Regno di Eswatini",
+        "Regno dello Swaziland",
+        "Swaziland"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "斯威士兰"
+      "name": "斯威士兰",
+      "aliases": [
+        "埃斯瓦蒂尼"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Esvatini"
+      "name": "Esvatini",
+      "aliases": [
+        "Svaziland"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Эсватини"
+      "name": "Эсватини",
+      "aliases": [
+        "Свазиленд",
+        "Королевство Свазиленд",
+        "Королевство Эсватини"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Есватіні"
+      "name": "Есватіні",
+      "aliases": [
+        "Свазіленд",
+        "Королівство Есватіні"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Eswatini"
+      "name": "Eswatini",
+      "aliases": [
+        "Suazi"
+      ]
     }
   ],
   "states": [

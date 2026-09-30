@@ -1,6 +1,10 @@
 {
   "id": "AD",
   "name": "Andorra",
+  "aliases": [
+    "Principality of Andorra",
+    "Principality of the Valleys of Andorra"
+  ],
   "nativeName": "Andorra",
   "iso2": "AD",
   "iso3": "AND",
@@ -29,15 +33,24 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Andorra"
+      "name": "Andorra",
+      "aliases": [
+        "Principado de Andorra"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Andorra"
+      "name": "Andorra",
+      "aliases": [
+        "Principado de Andorra"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Andorra"
+      "name": "Andorra",
+      "aliases": [
+        "Vorstendom Andorra"
+      ]
     },
     {
       "locale": "hr",
@@ -53,15 +66,24 @@
     },
     {
       "locale": "es",
-      "name": "Andorra"
+      "name": "Andorra",
+      "aliases": [
+        "Principado de Andorra"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Andorre"
+      "name": "Andorre",
+      "aliases": [
+        "Principauté d'Andorre"
+      ]
     },
     {
       "locale": "ja",
-      "name": "アンドラ"
+      "name": "アンドラ",
+      "aliases": [
+        "アンドラ公国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +91,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "安道尔"
+      "name": "安道尔",
+      "aliases": [
+        "安道尔公国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +102,10 @@
     },
     {
       "locale": "ru",
-      "name": "Андорра"
+      "name": "Андорра",
+      "aliases": [
+        "Княжество Андорра"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +113,10 @@
     },
     {
       "locale": "pl",
-      "name": "Andora"
+      "name": "Andora",
+      "aliases": [
+        "Księstwo Andory"
+      ]
     }
   ],
   "states": [

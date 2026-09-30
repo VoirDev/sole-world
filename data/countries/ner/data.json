@@ -1,6 +1,10 @@
 {
   "id": "NE",
   "name": "Niger",
+  "aliases": [
+    "Republic of Niger",
+    "Republic of the Niger"
+  ],
   "nativeName": "Niger",
   "iso2": "NE",
   "iso3": "NER",
@@ -26,11 +30,17 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "니제르"
+      "name": "니제르",
+      "aliases": [
+        "니제르 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Níger"
+      "name": "Níger",
+      "aliases": [
+        "República do Níger"
+      ]
     },
     {
       "locale": "pt",
@@ -38,7 +48,10 @@
     },
     {
       "locale": "nl",
-      "name": "Niger"
+      "name": "Niger",
+      "aliases": [
+        "Republiek Niger"
+      ]
     },
     {
       "locale": "hr",
@@ -50,19 +63,31 @@
     },
     {
       "locale": "de",
-      "name": "Niger"
+      "name": "Niger",
+      "aliases": [
+        "Republik Niger"
+      ]
     },
     {
       "locale": "es",
-      "name": "Níger"
+      "name": "Níger",
+      "aliases": [
+        "República del Níger"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Niger"
+      "name": "Niger",
+      "aliases": [
+        "République du Niger"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ニジェール"
+      "name": "ニジェール",
+      "aliases": [
+        "ニジェール共和国"
+      ]
     },
     {
       "locale": "it",
@@ -78,11 +103,17 @@
     },
     {
       "locale": "ru",
-      "name": "Нигер"
+      "name": "Нигер",
+      "aliases": [
+        "Республика Нигер"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Нігер"
+      "name": "Нігер",
+      "aliases": [
+        "Республіка Нігер"
+      ]
     },
     {
       "locale": "pl",

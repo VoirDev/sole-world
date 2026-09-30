@@ -1,6 +1,10 @@
 {
   "id": "CW",
   "name": "Curaçao",
+  "aliases": [
+    "Country of Curaçao",
+    "Island Territory of Curaçao"
+  ],
   "nativeName": "Curaçao",
   "iso2": "CW",
   "iso3": "CUW",
@@ -26,7 +30,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "퀴라소"
+      "name": "퀴라소",
+      "aliases": [
+        "쿠라사오",
+        "퀴라소 섬"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -34,11 +42,17 @@
     },
     {
       "locale": "pt",
-      "name": "Curaçao"
+      "name": "Curaçao",
+      "aliases": [
+        "Curaçau"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Curaçao"
+      "name": "Curaçao",
+      "aliases": [
+        "Land Curaçao"
+      ]
     },
     {
       "locale": "fa",
@@ -58,11 +72,17 @@
     },
     {
       "locale": "zh-CN",
-      "name": "库拉索"
+      "name": "库拉索",
+      "aliases": [
+        "库拉索岛"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Curaçao"
+      "name": "Curaçao",
+      "aliases": [
+        "Kurasao"
+      ]
     },
     {
       "locale": "ru",
@@ -70,7 +90,10 @@
     },
     {
       "locale": "uk",
-      "name": "Кюрасао"
+      "name": "Кюрасао",
+      "aliases": [
+        "Курасао"
+      ]
     },
     {
       "locale": "pl",
@@ -82,11 +105,18 @@
     },
     {
       "locale": "es",
-      "name": "Curazao"
+      "name": "Curazao",
+      "aliases": [
+        "Isla de Curazao"
+      ]
     },
     {
       "locale": "ja",
-      "name": "キュラソー"
+      "name": "キュラソー",
+      "aliases": [
+        "オランダ領キュラソー",
+        "キュラソー島"
+      ]
     }
   ],
   "states": []

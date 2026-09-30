@@ -1,6 +1,9 @@
 {
   "id": "IR",
   "name": "Iran",
+  "aliases": [
+    "Islamic Republic of Iran"
+  ],
   "nativeName": "ایران",
   "iso2": "IR",
   "iso3": "IRN",
@@ -25,19 +28,31 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "이란"
+      "name": "이란",
+      "aliases": [
+        "이란 이슬람 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Irã"
+      "name": "Irã",
+      "aliases": [
+        "República Islâmica do Irã"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Irão"
+      "name": "Irão",
+      "aliases": [
+        "República Islâmica do Irão"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Iran"
+      "name": "Iran",
+      "aliases": [
+        "Islamitische Republiek Iran"
+      ]
     },
     {
       "locale": "hr",
@@ -45,23 +60,40 @@
     },
     {
       "locale": "fa",
-      "name": "ایران"
+      "name": "ایران",
+      "aliases": [
+        "جمهوری اسلامی ایران"
+      ]
     },
     {
       "locale": "de",
-      "name": "Iran"
+      "name": "Iran",
+      "aliases": [
+        "Islamische Republik Iran"
+      ]
     },
     {
       "locale": "es",
-      "name": "Irán"
+      "name": "Irán",
+      "aliases": [
+        "República Islámica de Irán",
+        "República Islámica del Irán"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Iran"
+      "name": "Iran",
+      "aliases": [
+        "République islamique d'Iran",
+        "République islamique iranienne"
+      ]
     },
     {
       "locale": "ja",
-      "name": "イラン"
+      "name": "イラン",
+      "aliases": [
+        "イラン・イスラム共和国"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -73,11 +105,18 @@
     },
     {
       "locale": "ru",
-      "name": "Иран"
+      "name": "Иран",
+      "aliases": [
+        "ИРИ",
+        "Исламская Республика Иран"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Іран"
+      "name": "Іран",
+      "aliases": [
+        "Ісламська Республіка Іран"
+      ]
     },
     {
       "locale": "pl",
@@ -85,7 +124,10 @@
     },
     {
       "locale": "it",
-      "name": "Iran"
+      "name": "Iran",
+      "aliases": [
+        "Repubblica Islamica dell'Iran"
+      ]
     }
   ],
   "states": [

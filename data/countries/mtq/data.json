@@ -1,6 +1,9 @@
 {
   "id": "MQ",
   "name": "Martinique",
+  "aliases": [
+    "Territorial Collectivity of Martinique"
+  ],
   "nativeName": "Martinique",
   "iso2": "MQ",
   "iso3": "MTQ",
@@ -33,7 +36,11 @@
     },
     {
       "locale": "pt",
-      "name": "Martinica"
+      "name": "Martinica",
+      "aliases": [
+        "Coletividade Territorial da Martinica",
+        "Martinique"
+      ]
     },
     {
       "locale": "nl",
@@ -69,11 +76,17 @@
     },
     {
       "locale": "zh-CN",
-      "name": "马提尼克岛"
+      "name": "马提尼克岛",
+      "aliases": [
+        "马提尼克"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Martinik"
+      "name": "Martinik",
+      "aliases": [
+        "Martinique"
+      ]
     },
     {
       "locale": "ru",

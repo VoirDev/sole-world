@@ -1,6 +1,9 @@
 {
   "id": "FI",
   "name": "Finland",
+  "aliases": [
+    "Republic of Finland"
+  ],
   "nativeName": "Suomi",
   "iso2": "FI",
   "iso3": "FIN",
@@ -30,19 +33,31 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Finlândia"
+      "name": "Finlândia",
+      "aliases": [
+        "República da Finlândia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Finlândia"
+      "name": "Finlândia",
+      "aliases": [
+        "República da Finlândia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Finland"
+      "name": "Finland",
+      "aliases": [
+        "Republiek Finland"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Finska"
+      "name": "Finska",
+      "aliases": [
+        "Republika Finska"
+      ]
     },
     {
       "locale": "fa",
@@ -50,11 +65,17 @@
     },
     {
       "locale": "de",
-      "name": "Finnland"
+      "name": "Finnland",
+      "aliases": [
+        "Republik Finnland"
+      ]
     },
     {
       "locale": "es",
-      "name": "Finlandia"
+      "name": "Finlandia",
+      "aliases": [
+        "República de Finlandia"
+      ]
     },
     {
       "locale": "fr",
@@ -62,7 +83,10 @@
     },
     {
       "locale": "ja",
-      "name": "フィンランド"
+      "name": "フィンランド",
+      "aliases": [
+        "フィンランド共和国"
+      ]
     },
     {
       "locale": "it",
@@ -70,15 +94,25 @@
     },
     {
       "locale": "zh-CN",
-      "name": "芬兰"
+      "name": "芬兰",
+      "aliases": [
+        "芬兰共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Finlandiya"
+      "name": "Finlandiya",
+      "aliases": [
+        "Finlandiya Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Финляндия"
+      "name": "Финляндия",
+      "aliases": [
+        "Финляндская Республика",
+        "Суоми"
+      ]
     },
     {
       "locale": "uk",

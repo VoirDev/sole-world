@@ -1,6 +1,9 @@
 {
   "id": "IO",
   "name": "British Indian Ocean Territory",
+  "aliases": [
+    "BIOT"
+  ],
   "nativeName": "British Indian Ocean Territory",
   "iso2": "IO",
   "iso3": "IOT",
@@ -37,15 +40,26 @@
     },
     {
       "locale": "nl",
-      "name": "Britse Gebieden in de Indische Oceaan"
+      "name": "Britse Gebieden in de Indische Oceaan",
+      "aliases": [
+        "Brits Indische Oceaanterritorium",
+        "Brits Territorium in de Indische Oceaan"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Britanski Indijskooceanski teritorij"
+      "name": "Britanski Indijskooceanski teritorij",
+      "aliases": [
+        "BIOT",
+        "Britanski teritorij Indijskog oceana"
+      ]
     },
     {
       "locale": "fa",
-      "name": "قلمرو بریتانیا در اقیانوس هند"
+      "name": "قلمرو بریتانیا در اقیانوس هند",
+      "aliases": [
+        "قلمرو اقیانوس هند بریتانیا"
+      ]
     },
     {
       "locale": "de",
@@ -53,7 +67,12 @@
     },
     {
       "locale": "es",
-      "name": "Territorio Británico del Océano Índico"
+      "name": "Territorio Británico del Océano Índico",
+      "aliases": [
+        "Islas Chagos",
+        "Territorio Británico en el Océano Índico",
+        "Territorios Británicos Del Océano Índico"
+      ]
     },
     {
       "locale": "fr",
@@ -61,11 +80,17 @@
     },
     {
       "locale": "ja",
-      "name": "イギリス領インド洋地域"
+      "name": "イギリス領インド洋地域",
+      "aliases": [
+        "英領インド洋地域"
+      ]
     },
     {
       "locale": "it",
-      "name": "Territorio britannico dell'oceano indiano"
+      "name": "Territorio britannico dell'oceano indiano",
+      "aliases": [
+        "Territori Britannici dell'Oceano Indiano"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -73,7 +98,11 @@
     },
     {
       "locale": "tr",
-      "name": "Britanya Hint Okyanusu Toprakları"
+      "name": "Britanya Hint Okyanusu Toprakları",
+      "aliases": [
+        "Britanya Hint Okyanusu Bölgesi",
+        "İngiliz Hint Okyanusu Bölgesi"
+      ]
     },
     {
       "locale": "ru",

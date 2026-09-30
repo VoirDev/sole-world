@@ -1,6 +1,9 @@
 {
   "id": "SI",
   "name": "Slovenia",
+  "aliases": [
+    "Republic of Slovenia"
+  ],
   "nativeName": "Slovenija",
   "iso2": "SI",
   "iso3": "SVN",
@@ -25,11 +28,17 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "슬로베니아"
+      "name": "슬로베니아",
+      "aliases": [
+        "슬로베니아 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Eslovênia"
+      "name": "Eslovênia",
+      "aliases": [
+        "República da Eslovênia"
+      ]
     },
     {
       "locale": "pt",
@@ -37,7 +46,10 @@
     },
     {
       "locale": "nl",
-      "name": "Slovenië"
+      "name": "Slovenië",
+      "aliases": [
+        "Republiek Slovenië"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +61,32 @@
     },
     {
       "locale": "de",
-      "name": "Slowenien"
+      "name": "Slowenien",
+      "aliases": [
+        "Republik Slowenien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Eslovenia"
+      "name": "Eslovenia",
+      "aliases": [
+        "República de Eslovenia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Slovénie"
+      "name": "Slovénie",
+      "aliases": [
+        "République de Slovénie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "スロベニア"
+      "name": "スロベニア",
+      "aliases": [
+        "スロヴェニア",
+        "スロベニア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -77,7 +102,10 @@
     },
     {
       "locale": "ru",
-      "name": "Словения"
+      "name": "Словения",
+      "aliases": [
+        "Республика Словения"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +113,10 @@
     },
     {
       "locale": "pl",
-      "name": "Słowenia"
+      "name": "Słowenia",
+      "aliases": [
+        "Republika Słowenii"
+      ]
     }
   ],
   "states": [

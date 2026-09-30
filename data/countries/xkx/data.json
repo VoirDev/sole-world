@@ -1,6 +1,9 @@
 {
   "id": "XK",
   "name": "Kosovo",
+  "aliases": [
+    "Republic of Kosovo"
+  ],
   "nativeName": "Republika e Kosovës",
   "iso2": "XK",
   "iso3": "XKX",
@@ -26,7 +29,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "코소보"
+      "name": "코소보",
+      "aliases": [
+        "코소보 공화국"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -38,27 +44,45 @@
     },
     {
       "locale": "ru",
-      "name": "Косово"
+      "name": "Косово",
+      "aliases": [
+        "Республика Косово"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Косово"
+      "name": "Косово",
+      "aliases": [
+        "Республіка Косово"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Kosowo"
+      "name": "Kosowo",
+      "aliases": [
+        "Republika Kosowa"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Kosovo"
+      "name": "Kosovo",
+      "aliases": [
+        "República do Kosovo"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Kosovo"
+      "name": "Kosovo",
+      "aliases": [
+        "República do Kosovo"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Kosovo"
+      "name": "Kosovo",
+      "aliases": [
+        "Republiek Kosovo"
+      ]
     },
     {
       "locale": "hr",
@@ -70,7 +94,10 @@
     },
     {
       "locale": "de",
-      "name": "Kosovo"
+      "name": "Kosovo",
+      "aliases": [
+        "Republik Kosovo"
+      ]
     },
     {
       "locale": "es",
@@ -78,11 +105,18 @@
     },
     {
       "locale": "fr",
-      "name": "Kosovo"
+      "name": "Kosovo",
+      "aliases": [
+        "Kossovo"
+      ]
     },
     {
       "locale": "ja",
-      "name": "コソボ"
+      "name": "コソボ",
+      "aliases": [
+        "コソボ共和国",
+        "コソヴォ共和国"
+      ]
     },
     {
       "locale": "it",

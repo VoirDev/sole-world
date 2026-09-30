@@ -1,6 +1,9 @@
 {
   "id": "MZ",
   "name": "Mozambique",
+  "aliases": [
+    "Republic of Mozambique"
+  ],
   "nativeName": "Moçambique",
   "iso2": "MZ",
   "iso3": "MOZ",
@@ -37,7 +40,10 @@
     },
     {
       "locale": "nl",
-      "name": "Mozambique"
+      "name": "Mozambique",
+      "aliases": [
+        "Republiek Mozambique"
+      ]
     },
     {
       "locale": "hr",
@@ -49,11 +55,17 @@
     },
     {
       "locale": "de",
-      "name": "Mosambik"
+      "name": "Mosambik",
+      "aliases": [
+        "Republik Mosambik"
+      ]
     },
     {
       "locale": "es",
-      "name": "Mozambique"
+      "name": "Mozambique",
+      "aliases": [
+        "República de Mozambique"
+      ]
     },
     {
       "locale": "fr",
@@ -61,11 +73,18 @@
     },
     {
       "locale": "ja",
-      "name": "モザンビーク"
+      "name": "モザンビーク",
+      "aliases": [
+        "モザンビーク共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Mozambico"
+      "name": "Mozambico",
+      "aliases": [
+        "Repubblica del Mozambico",
+        "Repubblica di Mozambico"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,11 +96,17 @@
     },
     {
       "locale": "ru",
-      "name": "Мозамбик"
+      "name": "Мозамбик",
+      "aliases": [
+        "Республика Мозамбик"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Мозамбік"
+      "name": "Мозамбік",
+      "aliases": [
+        "Республіка Мозамбік"
+      ]
     },
     {
       "locale": "pl",

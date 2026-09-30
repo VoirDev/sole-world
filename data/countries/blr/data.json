@@ -1,6 +1,9 @@
 {
   "id": "BY",
   "name": "Belarus",
+  "aliases": [
+    "Republic of Belarus"
+  ],
   "nativeName": "Беларусь",
   "iso2": "BY",
   "iso3": "BLR",
@@ -26,19 +29,34 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "벨라루스"
+      "name": "벨라루스",
+      "aliases": [
+        "벨라루스 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Bielorrússia"
+      "name": "Bielorrússia",
+      "aliases": [
+        "Belarus",
+        "República da Belarus",
+        "República da Bielorrússia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Bielorrússia"
+      "name": "Bielorrússia",
+      "aliases": [
+        "República da Bielorrússia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Belarus"
+      "name": "Belarus",
+      "aliases": [
+        "Wit-Rusland",
+        "Republiek Belarus"
+      ]
     },
     {
       "locale": "hr",
@@ -50,19 +68,34 @@
     },
     {
       "locale": "de",
-      "name": "Belarus"
+      "name": "Belarus",
+      "aliases": [
+        "Weißrussland",
+        "Republik Belarus"
+      ]
     },
     {
       "locale": "es",
-      "name": "Bielorrusia"
+      "name": "Bielorrusia",
+      "aliases": [
+        "Belarús",
+        "República de Belarús"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Biélorussie"
+      "name": "Biélorussie",
+      "aliases": [
+        "Bélarus"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ベラルーシ"
+      "name": "ベラルーシ",
+      "aliases": [
+        "ベラルーシ共和国",
+        "ベロルシア"
+      ]
     },
     {
       "locale": "it",
@@ -70,23 +103,42 @@
     },
     {
       "locale": "zh-CN",
-      "name": "白俄罗斯"
+      "name": "白俄罗斯",
+      "aliases": [
+        "白俄罗斯共和国",
+        "白罗斯"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Belarus"
+      "name": "Belarus",
+      "aliases": [
+        "Beyaz Rusya"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Беларусь"
+      "name": "Беларусь",
+      "aliases": [
+        "Белоруссия",
+        "РБ",
+        "Республика Беларусь"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Білорусь"
+      "name": "Білорусь",
+      "aliases": [
+        "Республіка Білорусь",
+        "РБ"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Białoruś"
+      "name": "Białoruś",
+      "aliases": [
+        "Republika Białorusi"
+      ]
     }
   ],
   "states": [

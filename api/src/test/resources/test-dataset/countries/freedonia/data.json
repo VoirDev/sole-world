@@ -1,6 +1,10 @@
 {
   "id": "FD",
   "name": "Freedonia",
+  "aliases": [
+    "Free Republic",
+    "F.R.D."
+  ],
   "nativeName": "Freedonia Native",
   "iso2": "FD",
   "iso3": "FRE",
@@ -26,7 +30,10 @@
   "translations": [
     {
       "locale": "ru",
-      "name": "Фридония"
+      "name": "Фридония",
+      "aliases": [
+        "Фридонская Республика"
+      ]
     }
   ],
   "states": [

@@ -19,18 +19,57 @@ object TextIndex {
 
     private val COMBINING_MARKS = "\\p{Mn}+".toRegex()
 
+    /** Dots and apostrophes, which sit inside a word: "U.S.A.", "d'Ivoire", "Мʼянма". */
+    private val WORD_INTERNAL_PUNCTUATION = "[.'‘’ʼ`]".toRegex()
+
+    /** Every other run of punctuation or whitespace, which separates words: "Guinea-Bissau". */
+    private val WORD_SEPARATORS = "[\\p{P}\\s]+".toRegex()
+
     /**
      * Folds text into the form used for every comparison.
      *
      * Compatibility decomposition splits accented characters into a base letter plus a combining
-     * mark, the marks are dropped, and the result is lowercased.
+     * mark, the marks are dropped, and the result is lowercased. Punctuation is then reduced to word
+     * boundaries, so the ways people write the same name compare equal: dots and apostrophes vanish,
+     * any other punctuation becomes a single space, and a run of single letters closes up. "U.S.A.",
+     * "U. S. A." and "USA" all fold to `usa`, and "Guinea-Bissau" to `guinea bissau`.
+     *
+     * Text that is nothing but punctuation keeps it, so that a query such as `-` still means what
+     * it says rather than folding away into no query at all.
      *
      * @param value Raw text from the dataset or from a caller.
      * @return Folded text safe to compare against other folded text.
      */
     fun normalize(value: String): String {
         val decomposed = Normalizer.normalize(value, Normalizer.Form.NFKD)
-        return COMBINING_MARKS.replace(decomposed, "").lowercase().trim()
+        val folded = COMBINING_MARKS.replace(decomposed, "").lowercase().trim()
+
+        val words = WORD_SEPARATORS.replace(WORD_INTERNAL_PUNCTUATION.replace(folded, ""), " ").trim()
+        if (words.isEmpty()) {
+            return folded
+        }
+
+        return closeUpInitials(words)
+    }
+
+    /** Joins consecutive single-letter words, which is how initials were spelled out: `u s a`. */
+    private fun closeUpInitials(words: String): String {
+        if (' ' !in words) {
+            return words
+        }
+
+        val result = StringBuilder(words.length)
+        var previousWasInitial = false
+        for (word in words.split(' ')) {
+            val initial = word.length == 1 && word[0].isLetter()
+            if (result.isNotEmpty() && !(initial && previousWasInitial)) {
+                result.append(' ')
+            }
+            result.append(word)
+            previousWasInitial = initial
+        }
+
+        return result.toString()
     }
 
     /**

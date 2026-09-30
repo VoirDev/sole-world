@@ -1,6 +1,9 @@
 {
   "id": "LS",
   "name": "Lesotho",
+  "aliases": [
+    "Kingdom of Lesotho"
+  ],
   "nativeName": "Lesotho",
   "iso2": "LS",
   "iso3": "LSO",
@@ -38,7 +41,10 @@
     },
     {
       "locale": "nl",
-      "name": "Lesotho"
+      "name": "Lesotho",
+      "aliases": [
+        "Koninkrijk Lesotho"
+      ]
     },
     {
       "locale": "hr",
@@ -54,7 +60,12 @@
     },
     {
       "locale": "es",
-      "name": "Lesoto"
+      "name": "Lesoto",
+      "aliases": [
+        "Lesotho",
+        "Reino de Lesotho",
+        "Reino de Lesoto"
+      ]
     },
     {
       "locale": "fr",
@@ -62,27 +73,45 @@
     },
     {
       "locale": "ja",
-      "name": "レソト"
+      "name": "レソト",
+      "aliases": [
+        "レソト王国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Lesotho"
+      "name": "Lesotho",
+      "aliases": [
+        "Regno del Lesotho"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "莱索托"
+      "name": "莱索托",
+      "aliases": [
+        "莱索托王国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Lesotho"
+      "name": "Lesotho",
+      "aliases": [
+        "Lesotho Krallığı"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Лесото"
+      "name": "Лесото",
+      "aliases": [
+        "Королевство Лесото"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Лесото"
+      "name": "Лесото",
+      "aliases": [
+        "Королівство Лесото"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,10 @@
 {
   "id": "RE",
   "name": "Réunion",
+  "aliases": [
+    "La Réunion",
+    "Reunion Island"
+  ],
   "nativeName": "La Réunion",
   "iso2": "RE",
   "iso3": "REU",
@@ -57,7 +61,12 @@
     },
     {
       "locale": "fr",
-      "name": "Réunion"
+      "name": "Réunion",
+      "aliases": [
+        "Île de la Réunion",
+        "La Réunion",
+        "Région Réunion"
+      ]
     },
     {
       "locale": "ja",
@@ -65,11 +74,19 @@
     },
     {
       "locale": "it",
-      "name": "Riunione"
+      "name": "Riunione",
+      "aliases": [
+        "Isola della Réunion",
+        "Isola della Riunione",
+        "La Réunion"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "留尼汪岛"
+      "name": "留尼汪岛",
+      "aliases": [
+        "留尼汪"
+      ]
     },
     {
       "locale": "tr",

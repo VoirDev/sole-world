@@ -1,6 +1,10 @@
 {
   "id": "WF",
   "name": "Wallis and Futuna",
+  "aliases": [
+    "Wallis & Futuna",
+    "Wallis and Futuna Islands"
+  ],
   "nativeName": "Wallis et Futuna",
   "iso2": "WF",
   "iso3": "WLF",
@@ -25,7 +29,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "왈리스 푸투나"
+      "name": "왈리스 푸투나",
+      "aliases": [
+        "왈리스-푸투나 제도"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -33,11 +40,17 @@
     },
     {
       "locale": "pt",
-      "name": "Wallis e Futuna"
+      "name": "Wallis e Futuna",
+      "aliases": [
+        "Território das Ilhas Wallis e Futuna"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Wallis en Futuna"
+      "name": "Wallis en Futuna",
+      "aliases": [
+        "Territorium Wallis en Futuna"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +62,35 @@
     },
     {
       "locale": "de",
-      "name": "Wallis und Futuna"
+      "name": "Wallis und Futuna",
+      "aliases": [
+        "Wallis & Futuna"
+      ]
     },
     {
       "locale": "es",
-      "name": "Wallis y Futuna"
+      "name": "Wallis y Futuna",
+      "aliases": [
+        "Colectividad de Wallis y Futuna",
+        "Islas Wallis y Futuna",
+        "Territorio de las Islas Wallis y Futuna"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Wallis-et-Futuna"
+      "name": "Wallis-et-Futuna",
+      "aliases": [
+        "Collectivité des Îles Wallis et Futuna",
+        "Îles Wallis et Futuna"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ウォリス・フツナ"
+      "name": "ウォリス・フツナ",
+      "aliases": [
+        "ウォリス・フツナ諸島",
+        "ワリス・フツナ諸島"
+      ]
     },
     {
       "locale": "it",
@@ -73,19 +102,32 @@
     },
     {
       "locale": "tr",
-      "name": "Wallis ve Futuna"
+      "name": "Wallis ve Futuna",
+      "aliases": [
+        "Wallis ve Futuna Adaları"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Острова Уоллис и Футуна"
+      "name": "Острова Уоллис и Футуна",
+      "aliases": [
+        "Уоллис и Футуна",
+        "Валлис и Футуна"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Уолліс і Футуна"
+      "name": "Уолліс і Футуна",
+      "aliases": [
+        "Волліс і Футуна"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Wyspy Wallis i Futuna"
+      "name": "Wyspy Wallis i Futuna",
+      "aliases": [
+        "Wallis i Futuna"
+      ]
     }
   ],
   "states": []

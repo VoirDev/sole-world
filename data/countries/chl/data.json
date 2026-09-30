@@ -1,6 +1,9 @@
 {
   "id": "CL",
   "name": "Chile",
+  "aliases": [
+    "Republic of Chile"
+  ],
   "nativeName": "Chile",
   "iso2": "CL",
   "iso3": "CHL",
@@ -52,7 +55,10 @@
     },
     {
       "locale": "de",
-      "name": "Chile"
+      "name": "Chile",
+      "aliases": [
+        "Republik Chile"
+      ]
     },
     {
       "locale": "es",
@@ -60,27 +66,45 @@
     },
     {
       "locale": "fr",
-      "name": "Chili"
+      "name": "Chili",
+      "aliases": [
+        "République du Chili"
+      ]
     },
     {
       "locale": "ja",
-      "name": "チリ"
+      "name": "チリ",
+      "aliases": [
+        "チリ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Cile"
+      "name": "Cile",
+      "aliases": [
+        "Repubblica del Cile"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "智利"
+      "name": "智利",
+      "aliases": [
+        "智利共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Şili"
+      "name": "Şili",
+      "aliases": [
+        "Şili Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Чили"
+      "name": "Чили",
+      "aliases": [
+        "Республика Чили"
+      ]
     },
     {
       "locale": "uk",
@@ -88,7 +112,10 @@
     },
     {
       "locale": "pl",
-      "name": "Chile"
+      "name": "Chile",
+      "aliases": [
+        "Republika Chile"
+      ]
     }
   ],
   "states": [

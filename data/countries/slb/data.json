@@ -1,6 +1,7 @@
 {
   "id": "SB",
   "name": "Solomon Islands",
+  "aliases": [],
   "nativeName": "Solomon Islands",
   "iso2": "SB",
   "iso3": "SLB",
@@ -41,7 +42,11 @@
     },
     {
       "locale": "hr",
-      "name": "Solomonski Otoci"
+      "name": "Solomonski Otoci",
+      "aliases": [
+        "Salomonovi Otoci",
+        "Salomonski Otoci"
+      ]
     },
     {
       "locale": "fa",
@@ -57,7 +62,10 @@
     },
     {
       "locale": "fr",
-      "name": "Îles Salomon"
+      "name": "Îles Salomon",
+      "aliases": [
+        "Salomon"
+      ]
     },
     {
       "locale": "ja",
@@ -77,7 +85,11 @@
     },
     {
       "locale": "ru",
-      "name": "Соломоновы острова"
+      "name": "Соломоновы острова",
+      "aliases": [
+        "Соломоновы о-ва",
+        "Соломоны"
+      ]
     },
     {
       "locale": "uk",

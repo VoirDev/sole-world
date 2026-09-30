@@ -1,6 +1,10 @@
 {
   "id": "LA",
   "name": "Laos",
+  "aliases": [
+    "Lao PDR",
+    "Lao People's Democratic Republic"
+  ],
   "nativeName": "ສປປລາວ",
   "iso2": "LA",
   "iso3": "LAO",
@@ -37,7 +41,10 @@
     },
     {
       "locale": "nl",
-      "name": "Laos"
+      "name": "Laos",
+      "aliases": [
+        "Democratische Volksrepubliek Laos"
+      ]
     },
     {
       "locale": "hr",
@@ -53,23 +60,38 @@
     },
     {
       "locale": "es",
-      "name": "Laos"
+      "name": "Laos",
+      "aliases": [
+        "República Democrática Popular Lao"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Laos"
+      "name": "Laos",
+      "aliases": [
+        "République démocratique populaire lao"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ラオス"
+      "name": "ラオス",
+      "aliases": [
+        "ラオス人民民主共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Laos"
+      "name": "Laos",
+      "aliases": [
+        "Repubblica Popolare Democratica del Laos"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "老挝"
+      "name": "老挝",
+      "aliases": [
+        "老挝人民民主共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +99,11 @@
     },
     {
       "locale": "ru",
-      "name": "Лаос"
+      "name": "Лаос",
+      "aliases": [
+        "Лаосская Народно-Демократическая Республика",
+        "ЛНДР"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +111,10 @@
     },
     {
       "locale": "pl",
-      "name": "Laos"
+      "name": "Laos",
+      "aliases": [
+        "Laotańska Republika Ludowo-Demokratyczna"
+      ]
     }
   ],
   "states": [

@@ -1,6 +1,9 @@
 {
   "id": "PH",
   "name": "Philippines",
+  "aliases": [
+    "Republic of the Philippines"
+  ],
   "nativeName": "Pilipinas",
   "iso2": "PH",
   "iso3": "PHL",
@@ -26,7 +29,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "필리핀"
+      "name": "필리핀",
+      "aliases": [
+        "필리핀 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -34,11 +40,17 @@
     },
     {
       "locale": "pt",
-      "name": "Filipinas"
+      "name": "Filipinas",
+      "aliases": [
+        "República das Filipinas"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Filipijnen"
+      "name": "Filipijnen",
+      "aliases": [
+        "Republiek der Filipijnen"
+      ]
     },
     {
       "locale": "hr",
@@ -50,19 +62,32 @@
     },
     {
       "locale": "de",
-      "name": "Philippinen"
+      "name": "Philippinen",
+      "aliases": [
+        "Republik der Philippinen"
+      ]
     },
     {
       "locale": "es",
-      "name": "Filipinas"
+      "name": "Filipinas",
+      "aliases": [
+        "República de Filipinas"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Philippines"
+      "name": "Philippines",
+      "aliases": [
+        "Îles Philippines",
+        "République des Philippines"
+      ]
     },
     {
       "locale": "ja",
-      "name": "フィリピン"
+      "name": "フィリピン",
+      "aliases": [
+        "フィリピン共和国"
+      ]
     },
     {
       "locale": "it",
@@ -70,7 +95,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "菲律宾"
+      "name": "菲律宾",
+      "aliases": [
+        "菲律宾共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,11 +106,17 @@
     },
     {
       "locale": "ru",
-      "name": "Филиппины"
+      "name": "Филиппины",
+      "aliases": [
+        "Республика Филиппины"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Філіппіни"
+      "name": "Філіппіни",
+      "aliases": [
+        "Республіка Філіппіни"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,9 @@
 {
   "id": "KE",
   "name": "Kenya",
+  "aliases": [
+    "Republic of Kenya"
+  ],
   "nativeName": "Kenya",
   "iso2": "KE",
   "iso3": "KEN",
@@ -30,7 +33,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Quênia"
+      "name": "Quênia",
+      "aliases": [
+        "República do Quênia"
+      ]
     },
     {
       "locale": "pt",
@@ -38,7 +44,10 @@
     },
     {
       "locale": "nl",
-      "name": "Kenia"
+      "name": "Kenia",
+      "aliases": [
+        "Republiek Kenia"
+      ]
     },
     {
       "locale": "hr",
@@ -50,11 +59,18 @@
     },
     {
       "locale": "de",
-      "name": "Kenia"
+      "name": "Kenia",
+      "aliases": [
+        "Republik Kenia"
+      ]
     },
     {
       "locale": "es",
-      "name": "Kenia"
+      "name": "Kenia",
+      "aliases": [
+        "Kenya",
+        "República de Kenia"
+      ]
     },
     {
       "locale": "fr",
@@ -62,15 +78,25 @@
     },
     {
       "locale": "ja",
-      "name": "ケニア"
+      "name": "ケニア",
+      "aliases": [
+        "ケニア共和国",
+        "ケニヤ"
+      ]
     },
     {
       "locale": "it",
-      "name": "Kenya"
+      "name": "Kenya",
+      "aliases": [
+        "Kenia"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "肯尼亚"
+      "name": "肯尼亚",
+      "aliases": [
+        "肯尼亚共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,11 +104,17 @@
     },
     {
       "locale": "ru",
-      "name": "Кения"
+      "name": "Кения",
+      "aliases": [
+        "Республика Кения"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Кенія"
+      "name": "Кенія",
+      "aliases": [
+        "Республіка Кенія"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,9 @@
 {
   "id": "QA",
   "name": "Qatar",
+  "aliases": [
+    "State of Qatar"
+  ],
   "nativeName": "قطر",
   "iso2": "QA",
   "iso3": "QAT",
@@ -29,15 +32,26 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Catar"
+      "name": "Catar",
+      "aliases": [
+        "Estado do Catar",
+        "Qatar"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Catar"
+      "name": "Catar",
+      "aliases": [
+        "Estado do Catar",
+        "Qatar"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Qatar"
+      "name": "Qatar",
+      "aliases": [
+        "Staat Qatar"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +63,32 @@
     },
     {
       "locale": "de",
-      "name": "Katar"
+      "name": "Katar",
+      "aliases": [
+        "Qatar",
+        "Staat Katar"
+      ]
     },
     {
       "locale": "es",
-      "name": "Catar"
+      "name": "Catar",
+      "aliases": [
+        "Estado de Catar"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Qatar"
+      "name": "Qatar",
+      "aliases": [
+        "Katar"
+      ]
     },
     {
       "locale": "ja",
-      "name": "カタール"
+      "name": "カタール",
+      "aliases": [
+        "カタール国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +96,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "卡塔尔"
+      "name": "卡塔尔",
+      "aliases": [
+        "卡塔尔国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +107,10 @@
     },
     {
       "locale": "ru",
-      "name": "Катар"
+      "name": "Катар",
+      "aliases": [
+        "Государство Катар"
+      ]
     },
     {
       "locale": "uk",

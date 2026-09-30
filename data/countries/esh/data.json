@@ -1,6 +1,7 @@
 {
   "id": "EH",
   "name": "Western Sahara",
+  "aliases": [],
   "nativeName": "الصحراء الغربية",
   "iso2": "EH",
   "iso3": "ESH",
@@ -34,7 +35,10 @@
     },
     {
       "locale": "pt",
-      "name": "Saara Ocidental"
+      "name": "Saara Ocidental",
+      "aliases": [
+        "Sara Ocidental"
+      ]
     },
     {
       "locale": "nl",
@@ -58,7 +62,10 @@
     },
     {
       "locale": "fr",
-      "name": "Sahara occidental"
+      "name": "Sahara occidental",
+      "aliases": [
+        "Sahara de l'Ouest"
+      ]
     },
     {
       "locale": "ja",

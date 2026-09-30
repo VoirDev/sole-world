@@ -1,6 +1,10 @@
 {
   "id": "GY",
   "name": "Guyana",
+  "aliases": [
+    "Co-operative Republic of Guyana",
+    "Republic of Guyana"
+  ],
   "nativeName": "Guyana",
   "iso2": "GY",
   "iso3": "GUY",
@@ -29,15 +33,25 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Guiana"
+      "name": "Guiana",
+      "aliases": [
+        "República Cooperativa da Guiana"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Guiana"
+      "name": "Guiana",
+      "aliases": [
+        "República Cooperativa da Guiana",
+        "República da Guiana"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Guyana"
+      "name": "Guyana",
+      "aliases": [
+        "Coöperatieve Republiek Guyana"
+      ]
     },
     {
       "locale": "hr",
@@ -49,27 +63,46 @@
     },
     {
       "locale": "de",
-      "name": "Guyana"
+      "name": "Guyana",
+      "aliases": [
+        "Kooperative Republik Guyana"
+      ]
     },
     {
       "locale": "es",
-      "name": "Guyana"
+      "name": "Guyana",
+      "aliases": [
+        "República Cooperativa de Guyana"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Guyana"
+      "name": "Guyana",
+      "aliases": [
+        "République coopérative du Guyana"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ガイアナ"
+      "name": "ガイアナ",
+      "aliases": [
+        "ガイアナ共和国",
+        "ガイアナ協同共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Guyana"
+      "name": "Guyana",
+      "aliases": [
+        "Repubblica Cooperativa di Guyana"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "圭亚那"
+      "name": "圭亚那",
+      "aliases": [
+        "圭亚那合作共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +110,18 @@
     },
     {
       "locale": "ru",
-      "name": "Гайана"
+      "name": "Гайана",
+      "aliases": [
+        "Кооперативная Республика Гайана"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Гаяна"
+      "name": "Гаяна",
+      "aliases": [
+        "Гайана",
+        "Кооперативна Республіка Гайана"
+      ]
     },
     {
       "locale": "pl",

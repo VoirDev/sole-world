@@ -1,6 +1,9 @@
 {
   "id": "GT",
   "name": "Guatemala",
+  "aliases": [
+    "Republic of Guatemala"
+  ],
   "nativeName": "Guatemala",
   "iso2": "GT",
   "iso3": "GTM",
@@ -33,11 +36,17 @@
     },
     {
       "locale": "pt",
-      "name": "Guatemala"
+      "name": "Guatemala",
+      "aliases": [
+        "República da Guatemala"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Guatemala"
+      "name": "Guatemala",
+      "aliases": [
+        "Republiek Guatemala"
+      ]
     },
     {
       "locale": "hr",
@@ -49,7 +58,10 @@
     },
     {
       "locale": "de",
-      "name": "Guatemala"
+      "name": "Guatemala",
+      "aliases": [
+        "Republik Guatemala"
+      ]
     },
     {
       "locale": "es",
@@ -57,19 +69,31 @@
     },
     {
       "locale": "fr",
-      "name": "Guatemala"
+      "name": "Guatemala",
+      "aliases": [
+        "République du Guatémala"
+      ]
     },
     {
       "locale": "ja",
-      "name": "グアテマラ"
+      "name": "グアテマラ",
+      "aliases": [
+        "グアテマラ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Guatemala"
+      "name": "Guatemala",
+      "aliases": [
+        "Repubblica del Guatemala"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "危地马拉"
+      "name": "危地马拉",
+      "aliases": [
+        "危地马拉共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +101,10 @@
     },
     {
       "locale": "ru",
-      "name": "Гватемала"
+      "name": "Гватемала",
+      "aliases": [
+        "Республика Гватемала"
+      ]
     },
     {
       "locale": "uk",

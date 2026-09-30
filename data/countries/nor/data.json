@@ -1,6 +1,9 @@
 {
   "id": "NO",
   "name": "Norway",
+  "aliases": [
+    "Kingdom of Norway"
+  ],
   "nativeName": "Norge",
   "iso2": "NO",
   "iso3": "NOR",
@@ -29,19 +32,31 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Noruega"
+      "name": "Noruega",
+      "aliases": [
+        "Reino da Noruega"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Noruega"
+      "name": "Noruega",
+      "aliases": [
+        "Reino da Noruega"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Noorwegen"
+      "name": "Noorwegen",
+      "aliases": [
+        "Koninkrijk Noorwegen"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Norveška"
+      "name": "Norveška",
+      "aliases": [
+        "Norveško kraljevstvo"
+      ]
     },
     {
       "locale": "fa",
@@ -49,43 +64,74 @@
     },
     {
       "locale": "de",
-      "name": "Norwegen"
+      "name": "Norwegen",
+      "aliases": [
+        "Königreich Norwegen"
+      ]
     },
     {
       "locale": "es",
-      "name": "Noruega"
+      "name": "Noruega",
+      "aliases": [
+        "Reino de Noruega"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Norvège"
+      "name": "Norvège",
+      "aliases": [
+        "Royaume de Norvège"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ノルウェー"
+      "name": "ノルウェー",
+      "aliases": [
+        "ノルウェー王国",
+        "ノルウェイ"
+      ]
     },
     {
       "locale": "it",
-      "name": "Norvegia"
+      "name": "Norvegia",
+      "aliases": [
+        "Regno di Norvegia"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "挪威"
+      "name": "挪威",
+      "aliases": [
+        "挪威王国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Norveç"
+      "name": "Norveç",
+      "aliases": [
+        "Norveç Krallığı"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Норвегия"
+      "name": "Норвегия",
+      "aliases": [
+        "Королевство Норвегия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Норвегія"
+      "name": "Норвегія",
+      "aliases": [
+        "Королівство Норвегія"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Norwegia"
+      "name": "Norwegia",
+      "aliases": [
+        "Królestwo Norwegii"
+      ]
     }
   ],
   "states": [

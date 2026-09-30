@@ -1,6 +1,9 @@
 {
   "id": "KG",
   "name": "Kyrgyzstan",
+  "aliases": [
+    "Kyrgyz Republic"
+  ],
   "nativeName": "Кыргызстан",
   "iso2": "KG",
   "iso3": "KGZ",
@@ -26,19 +29,37 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "키르기스스탄"
+      "name": "키르기스스탄",
+      "aliases": [
+        "키르기즈",
+        "키르기즈 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Quirguistão"
+      "name": "Quirguistão",
+      "aliases": [
+        "Quirguízia",
+        "Quirguizistão",
+        "República Quirguiz"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Quirguizistão"
+      "name": "Quirguizistão",
+      "aliases": [
+        "Quirguistão",
+        "Quirguízia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Kirgizië"
+      "name": "Kirgizië",
+      "aliases": [
+        "Kirgizische Republiek",
+        "Kirgizistan",
+        "Kirgizstan"
+      ]
     },
     {
       "locale": "hr",
@@ -50,27 +71,50 @@
     },
     {
       "locale": "de",
-      "name": "Kirgisistan"
+      "name": "Kirgisistan",
+      "aliases": [
+        "Kirgisien",
+        "Kirgistan"
+      ]
     },
     {
       "locale": "es",
-      "name": "Kirguistán"
+      "name": "Kirguistán",
+      "aliases": [
+        "Kirguisia",
+        "Kirguizistán",
+        "República Kirguisa"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Kirghizstan"
+      "name": "Kirghizstan",
+      "aliases": [
+        "Kirghizistan",
+        "Kirghizie",
+        "République kirghize"
+      ]
     },
     {
       "locale": "ja",
-      "name": "キルギス"
+      "name": "キルギス",
+      "aliases": [
+        "キルギス共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Kirghizistan"
+      "name": "Kirghizistan",
+      "aliases": [
+        "Repubblica Kirghisa"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "吉尔吉斯斯坦"
+      "name": "吉尔吉斯斯坦",
+      "aliases": [
+        "吉尔吉斯共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,7 +122,14 @@
     },
     {
       "locale": "ru",
-      "name": "Кыргызстан"
+      "name": "Кыргызстан",
+      "aliases": [
+        "Киргизия",
+        "Киргизстан",
+        "Киргизская Республика",
+        "Кыргызская Республика",
+        "Республика Кыргызстан"
+      ]
     },
     {
       "locale": "uk",

@@ -1,6 +1,9 @@
 {
   "id": "EC",
   "name": "Ecuador",
+  "aliases": [
+    "Republic of Ecuador"
+  ],
   "nativeName": "Ecuador",
   "iso2": "EC",
   "iso3": "ECU",
@@ -26,7 +29,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "에콰도르"
+      "name": "에콰도르",
+      "aliases": [
+        "에콰도르 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -34,15 +40,24 @@
     },
     {
       "locale": "pt",
-      "name": "Equador"
+      "name": "Equador",
+      "aliases": [
+        "República do Equador"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Ecuador"
+      "name": "Ecuador",
+      "aliases": [
+        "Republiek Ecuador"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Ekvador"
+      "name": "Ekvador",
+      "aliases": [
+        "Republika Ekvador"
+      ]
     },
     {
       "locale": "fa",
@@ -50,7 +65,10 @@
     },
     {
       "locale": "de",
-      "name": "Ecuador"
+      "name": "Ecuador",
+      "aliases": [
+        "Republik Ecuador"
+      ]
     },
     {
       "locale": "es",
@@ -58,15 +76,25 @@
     },
     {
       "locale": "fr",
-      "name": "Équateur"
+      "name": "Équateur",
+      "aliases": [
+        "République d'Équateur",
+        "République de l'Équateur"
+      ]
     },
     {
       "locale": "ja",
-      "name": "エクアドル"
+      "name": "エクアドル",
+      "aliases": [
+        "エクアドル共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Ecuador"
+      "name": "Ecuador",
+      "aliases": [
+        "Repubblica dell'Ecuador"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -74,19 +102,31 @@
     },
     {
       "locale": "tr",
-      "name": "Ekvador"
+      "name": "Ekvador",
+      "aliases": [
+        "Ekvador Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Эквадор"
+      "name": "Эквадор",
+      "aliases": [
+        "Республика Эквадор"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Еквадор"
+      "name": "Еквадор",
+      "aliases": [
+        "Республіка Еквадор"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Ekwador"
+      "name": "Ekwador",
+      "aliases": [
+        "Republika Ekwadoru"
+      ]
     }
   ],
   "states": [

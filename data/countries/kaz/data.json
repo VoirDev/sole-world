@@ -1,6 +1,9 @@
 {
   "id": "KZ",
   "name": "Kazakhstan",
+  "aliases": [
+    "Republic of Kazakhstan"
+  ],
   "nativeName": "Қазақстан",
   "iso2": "KZ",
   "iso3": "KAZ",
@@ -32,11 +35,17 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "카자흐스탄"
+      "name": "카자흐스탄",
+      "aliases": [
+        "카자흐스탄 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Cazaquistão"
+      "name": "Cazaquistão",
+      "aliases": [
+        "República do Cazaquistão"
+      ]
     },
     {
       "locale": "pt",
@@ -44,7 +53,10 @@
     },
     {
       "locale": "nl",
-      "name": "Kazachstan"
+      "name": "Kazachstan",
+      "aliases": [
+        "Republiek Kazachstan"
+      ]
     },
     {
       "locale": "hr",
@@ -60,23 +72,39 @@
     },
     {
       "locale": "es",
-      "name": "Kazajistán"
+      "name": "Kazajistán",
+      "aliases": [
+        "Kazakstán",
+        "República de Kazajistán"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Kazakhstan"
+      "name": "Kazakhstan",
+      "aliases": [
+        "Kazakstan"
+      ]
     },
     {
       "locale": "ja",
-      "name": "カザフスタン"
+      "name": "カザフスタン",
+      "aliases": [
+        "カザフスタン共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Kazakistan"
+      "name": "Kazakistan",
+      "aliases": [
+        "Kazakhstan"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "哈萨克斯坦"
+      "name": "哈萨克斯坦",
+      "aliases": [
+        "哈萨克斯坦共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -84,7 +112,10 @@
     },
     {
       "locale": "ru",
-      "name": "Казахстан"
+      "name": "Казахстан",
+      "aliases": [
+        "Республика Казахстан"
+      ]
     },
     {
       "locale": "uk",

@@ -1,6 +1,10 @@
 {
   "id": "GN",
   "name": "Guinea",
+  "aliases": [
+    "Guinea-Conakry",
+    "Republic of Guinea"
+  ],
   "nativeName": "Guinée",
   "iso2": "GN",
   "iso3": "GIN",
@@ -33,11 +37,18 @@
     },
     {
       "locale": "pt",
-      "name": "Guiné"
+      "name": "Guiné",
+      "aliases": [
+        "Guiné-Conacri",
+        "República da Guiné"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Guinee"
+      "name": "Guinee",
+      "aliases": [
+        "Republiek Guinee"
+      ]
     },
     {
       "locale": "hr",
@@ -53,23 +64,42 @@
     },
     {
       "locale": "es",
-      "name": "Guinea"
+      "name": "Guinea",
+      "aliases": [
+        "Guinea-Conakri",
+        "República de Guinea"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Guinée"
+      "name": "Guinée",
+      "aliases": [
+        "Guinée-Conakry",
+        "République de Guinée"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ギニア"
+      "name": "ギニア",
+      "aliases": [
+        "ギニア・コナクリ",
+        "ギニア共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Guinea"
+      "name": "Guinea",
+      "aliases": [
+        "Guinea Conakry",
+        "Repubblica di Guinea"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "几内亚"
+      "name": "几内亚",
+      "aliases": [
+        "几内亚共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +107,19 @@
     },
     {
       "locale": "ru",
-      "name": "Гвинея"
+      "name": "Гвинея",
+      "aliases": [
+        "Гвинейская Республика",
+        "Гвинея-Конакри",
+        "Республика Гвинея"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Гвінея"
+      "name": "Гвінея",
+      "aliases": [
+        "Республіка Гвінея"
+      ]
     },
     {
       "locale": "pl",

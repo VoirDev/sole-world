@@ -1,6 +1,7 @@
 {
   "id": "UA",
   "name": "Ukraine",
+  "aliases": [],
   "nativeName": "Україна",
   "iso2": "UA",
   "iso3": "UKR",
@@ -26,7 +27,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "우크라이나"
+      "name": "우크라이나",
+      "aliases": [
+        "우크라이나 공화국"
+      ]
     },
     {
       "locale": "pt-BR",

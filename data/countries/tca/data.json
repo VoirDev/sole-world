@@ -1,6 +1,12 @@
 {
   "id": "TC",
   "name": "Turks and Caicos Islands",
+  "aliases": [
+    "Turks & Caicos Islands",
+    "TCI",
+    "Turks & Caicos",
+    "Turks and Caicos"
+  ],
   "nativeName": "Turks and Caicos Islands",
   "iso2": "TC",
   "iso3": "TCA",
@@ -29,11 +35,19 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Ilhas Turcas e Caicos"
+      "name": "Ilhas Turcas e Caicos",
+      "aliases": [
+        "Turks e Caicos"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Ilhas Turcas e Caicos"
+      "name": "Ilhas Turcas e Caicos",
+      "aliases": [
+        "Ilhas Turks e Caicos",
+        "Turcas e Caicos",
+        "Turks e Caicos"
+      ]
     },
     {
       "locale": "nl",
@@ -57,7 +71,10 @@
     },
     {
       "locale": "fr",
-      "name": "Îles Turques-et-Caïques"
+      "name": "Îles Turques-et-Caïques",
+      "aliases": [
+        "Îles Turks-et-Caïcos"
+      ]
     },
     {
       "locale": "ja",
@@ -65,7 +82,10 @@
     },
     {
       "locale": "it",
-      "name": "Isole Turks e Caicos"
+      "name": "Isole Turks e Caicos",
+      "aliases": [
+        "Turks e Caicos"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,7 +97,10 @@
     },
     {
       "locale": "ru",
-      "name": "Острова Теркс и Кайкос"
+      "name": "Острова Теркс и Кайкос",
+      "aliases": [
+        "Тёркс и Кайкос"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +108,10 @@
     },
     {
       "locale": "pl",
-      "name": "Wyspy Turks i Caicos"
+      "name": "Wyspy Turks i Caicos",
+      "aliases": [
+        "Turks i Caicos"
+      ]
     }
   ],
   "states": [

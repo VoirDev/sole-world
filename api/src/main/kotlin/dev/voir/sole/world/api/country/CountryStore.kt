@@ -21,6 +21,8 @@ class CountryStore(dataset: RawDataset) {
             name = LocalizedName.of(
                 base = json.name,
                 translations = json.translations.map { it.locale to it.name },
+                baseAliases = json.aliases,
+                translatedAliases = json.translations.map { it.locale to it.aliases },
             ),
             nativeName = json.nativeName,
             iso3 = json.iso3,
@@ -225,7 +227,7 @@ class CountryStore(dataset: RawDataset) {
 /**
  * A country as held in memory, keeping every translation so names resolve per request.
  * @property id Stable country identifier.
- * @property name Display name in every available language.
+ * @property name Display name and aliases in every available language.
  * @property nativeName Name in the country's own language, when available.
  * @property iso3 ISO 3166-1 alpha-3 code.
  * @property iso2 ISO 3166-1 alpha-2 code.
@@ -258,12 +260,15 @@ private class CountryRecord(
      *
      * The weights reproduce the relevance ladder the SQL implementation used: an exact name beats a
      * prefix, a prefix beats a substring, and identifier fields rank below names throughout.
+     * Aliases sit just below names, so an exact alias ("США") still beats a name that merely starts
+     * with the query, while a display name wins any tie.
      */
     fun score(query: SearchQuery): Int {
         val nameScore = name.score(query, NAME_WEIGHT)
 
         return maxOf(
             nameScore,
+            name.scoreAliases(query, ALIAS_WEIGHT),
             query.score(nativeName, NATIVE_NAME_WEIGHT),
             query.score(iso2, ISO2_WEIGHT),
             query.score(iso3, ISO3_WEIGHT),
@@ -276,6 +281,7 @@ private class CountryRecord(
     fun localized(languageCode: String?) = CountryData(
         id = id,
         name = name.resolve(languageCode),
+        aliases = name.aliases(languageCode),
         nativeName = nativeName,
         iso3 = iso3,
         iso2 = iso2,
@@ -291,6 +297,7 @@ private class CountryRecord(
 
     private companion object {
         const val NAME_WEIGHT = 100
+        const val ALIAS_WEIGHT = 98
         const val ISO2_WEIGHT = 75
         const val ISO3_WEIGHT = 70
         const val ISO_NUMERIC_WEIGHT = 65

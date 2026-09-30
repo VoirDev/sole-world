@@ -1,6 +1,9 @@
 {
   "id": "SE",
   "name": "Sweden",
+  "aliases": [
+    "Kingdom of Sweden"
+  ],
   "nativeName": "Sverige",
   "iso2": "SE",
   "iso3": "SWE",
@@ -29,19 +32,31 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Suécia"
+      "name": "Suécia",
+      "aliases": [
+        "Reino da Suécia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Suécia"
+      "name": "Suécia",
+      "aliases": [
+        "Reino da Suécia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Zweden"
+      "name": "Zweden",
+      "aliases": [
+        "Koninkrijk Zweden"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Švedska"
+      "name": "Švedska",
+      "aliases": [
+        "Kraljevina Švedska"
+      ]
     },
     {
       "locale": "fa",
@@ -49,19 +64,31 @@
     },
     {
       "locale": "de",
-      "name": "Schweden"
+      "name": "Schweden",
+      "aliases": [
+        "Königreich Schweden"
+      ]
     },
     {
       "locale": "es",
-      "name": "Suecia"
+      "name": "Suecia",
+      "aliases": [
+        "Reino de Suecia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Suède"
+      "name": "Suède",
+      "aliases": [
+        "Royaume de Suède"
+      ]
     },
     {
       "locale": "ja",
-      "name": "スウェーデン"
+      "name": "スウェーデン",
+      "aliases": [
+        "スウェーデン王国"
+      ]
     },
     {
       "locale": "it",
@@ -69,23 +96,38 @@
     },
     {
       "locale": "zh-CN",
-      "name": "瑞典"
+      "name": "瑞典",
+      "aliases": [
+        "瑞典王国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "İsveç"
+      "name": "İsveç",
+      "aliases": [
+        "İsveç Krallığı"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Швеция"
+      "name": "Швеция",
+      "aliases": [
+        "Королевство Швеция"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Швеція"
+      "name": "Швеція",
+      "aliases": [
+        "Королівство Швеція"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Szwecja"
+      "name": "Szwecja",
+      "aliases": [
+        "Królestwo Szwecji"
+      ]
     }
   ],
   "states": [

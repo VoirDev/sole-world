@@ -1,6 +1,7 @@
 {
   "id": "AF",
   "name": "Afghanistan",
+  "aliases": [],
   "nativeName": "افغانستان",
   "iso2": "AF",
   "iso3": "AFG",
@@ -26,7 +27,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "아프가니스탄"
+      "name": "아프가니스탄",
+      "aliases": [
+        "아프간"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -62,7 +66,10 @@
     },
     {
       "locale": "ja",
-      "name": "アフガニスタン"
+      "name": "アフガニスタン",
+      "aliases": [
+        "アフガン"
+      ]
     },
     {
       "locale": "it",

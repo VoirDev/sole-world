@@ -1,6 +1,11 @@
 {
   "id": "VI",
   "name": "United States Virgin Islands",
+  "aliases": [
+    "U.S. Virgin Islands",
+    "American Virgin Islands",
+    "Virgin Islands of the United States"
+  ],
   "nativeName": "United States Virgin Islands",
   "iso2": "VI",
   "iso3": "VIR",
@@ -33,11 +38,17 @@
     },
     {
       "locale": "pt",
-      "name": "Ilhas Virgens Americanas"
+      "name": "Ilhas Virgens Americanas",
+      "aliases": [
+        "Ilhas Virgens dos EUA"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Amerikaanse Maagdeneilanden"
+      "name": "Amerikaanse Maagdeneilanden",
+      "aliases": [
+        "Maagdeneilanden van de Verenigde Staten"
+      ]
     },
     {
       "locale": "fa",
@@ -45,11 +56,19 @@
     },
     {
       "locale": "de",
-      "name": "Amerikanische Jungferninseln"
+      "name": "Amerikanische Jungferninseln",
+      "aliases": [
+        "Jungferninseln der Vereinigten Staaten",
+        "US-Jungferninseln"
+      ]
     },
     {
       "locale": "es",
-      "name": "Islas Vírgenes de los Estados Unidos"
+      "name": "Islas Vírgenes de los Estados Unidos",
+      "aliases": [
+        "Islas Vírgenes de EE. UU.",
+        "Islas Vírgenes Estadounidenses"
+      ]
     },
     {
       "locale": "fr",
@@ -57,11 +76,19 @@
     },
     {
       "locale": "ja",
-      "name": "アメリカ領ヴァージン諸島"
+      "name": "アメリカ領ヴァージン諸島",
+      "aliases": [
+        "米領ヴァージン諸島",
+        "アメリカ合衆国領ヴァージン諸島"
+      ]
     },
     {
       "locale": "it",
-      "name": "Isole Vergini Americane"
+      "name": "Isole Vergini Americane",
+      "aliases": [
+        "Isole Vergini degli Stati Uniti",
+        "Isole Vergini Statunitensi"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -73,11 +100,18 @@
     },
     {
       "locale": "ru",
-      "name": "Виргинские острова (США)"
+      "name": "Виргинские острова (США)",
+      "aliases": [
+        "Виргинские о-ва (США)",
+        "Американские Виргинские Острова"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Віргінські острови (США)"
+      "name": "Віргінські острови (США)",
+      "aliases": [
+        "Американські Віргінські Острови"
+      ]
     },
     {
       "locale": "pl",

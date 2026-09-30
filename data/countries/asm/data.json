@@ -1,6 +1,10 @@
 {
   "id": "AS",
   "name": "American Samoa",
+  "aliases": [
+    "Territory of American Samoa",
+    "U.S. Samoa"
+  ],
   "nativeName": "American Samoa",
   "iso2": "AS",
   "iso3": "ASM",
@@ -25,7 +29,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "아메리칸사모아"
+      "name": "아메리칸사모아",
+      "aliases": [
+        "아메리칸 사모아"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -53,15 +60,28 @@
     },
     {
       "locale": "es",
-      "name": "Samoa Americana"
+      "name": "Samoa Americana",
+      "aliases": [
+        "Samoa de los Estados Unidos",
+        "Samoa Estadounidense",
+        "Territorio de Samoa Americana"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Samoa américaines"
+      "name": "Samoa américaines",
+      "aliases": [
+        "Territoire des Samoa américaines"
+      ]
     },
     {
       "locale": "ja",
-      "name": "アメリカ領サモア"
+      "name": "アメリカ領サモア",
+      "aliases": [
+        "米領サモア",
+        "アメリカ合衆国領サモア",
+        "米国領サモア"
+      ]
     },
     {
       "locale": "it",

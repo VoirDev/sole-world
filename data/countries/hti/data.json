@@ -1,6 +1,9 @@
 {
   "id": "HT",
   "name": "Haiti",
+  "aliases": [
+    "Republic of Haiti"
+  ],
   "nativeName": "Haïti",
   "iso2": "HT",
   "iso3": "HTI",
@@ -34,11 +37,17 @@
     },
     {
       "locale": "pt",
-      "name": "Haiti"
+      "name": "Haiti",
+      "aliases": [
+        "República do Haiti"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Haïti"
+      "name": "Haïti",
+      "aliases": [
+        "Republiek Haïti"
+      ]
     },
     {
       "locale": "hr",
@@ -54,19 +63,31 @@
     },
     {
       "locale": "es",
-      "name": "Haití"
+      "name": "Haití",
+      "aliases": [
+        "República de Haití"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Haïti"
+      "name": "Haïti",
+      "aliases": [
+        "République d'Haïti"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ハイチ"
+      "name": "ハイチ",
+      "aliases": [
+        "ハイチ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Haiti"
+      "name": "Haiti",
+      "aliases": [
+        "Repubblica d'Haiti"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -78,7 +99,10 @@
     },
     {
       "locale": "ru",
-      "name": "Гаити"
+      "name": "Гаити",
+      "aliases": [
+        "Республика Гаити"
+      ]
     },
     {
       "locale": "uk",

@@ -1,6 +1,9 @@
 {
   "id": "SO",
   "name": "Somalia",
+  "aliases": [
+    "Federal Republic of Somalia"
+  ],
   "nativeName": "Soomaaliya",
   "iso2": "SO",
   "iso3": "SOM",
@@ -26,7 +29,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "소말리아"
+      "name": "소말리아",
+      "aliases": [
+        "소말리아 연방공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -34,11 +40,17 @@
     },
     {
       "locale": "pt",
-      "name": "Somália"
+      "name": "Somália",
+      "aliases": [
+        "República Federal da Somália"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Somalië"
+      "name": "Somalië",
+      "aliases": [
+        "Federale Republiek Somalië"
+      ]
     },
     {
       "locale": "hr",
@@ -50,11 +62,17 @@
     },
     {
       "locale": "de",
-      "name": "Somalia"
+      "name": "Somalia",
+      "aliases": [
+        "Bundesrepublik Somalia"
+      ]
     },
     {
       "locale": "es",
-      "name": "Somalia"
+      "name": "Somalia",
+      "aliases": [
+        "República Federal de Somalia"
+      ]
     },
     {
       "locale": "fr",
@@ -62,15 +80,25 @@
     },
     {
       "locale": "ja",
-      "name": "ソマリア"
+      "name": "ソマリア",
+      "aliases": [
+        "ソマリア民主共和国",
+        "ソマリア連邦共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Somalia"
+      "name": "Somalia",
+      "aliases": [
+        "Repubblica Federale di Somalia"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "索马里"
+      "name": "索马里",
+      "aliases": [
+        "索马里联邦共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,11 +106,17 @@
     },
     {
       "locale": "ru",
-      "name": "Сомали"
+      "name": "Сомали",
+      "aliases": [
+        "Федеративная Республика Сомали"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Сомалі"
+      "name": "Сомалі",
+      "aliases": [
+        "Федеративна Республіка Сомалі"
+      ]
     },
     {
       "locale": "pl",

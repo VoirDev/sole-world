@@ -1,6 +1,9 @@
 {
   "id": "OM",
   "name": "Oman",
+  "aliases": [
+    "Sultanate of Oman"
+  ],
   "nativeName": "عمان",
   "iso2": "OM",
   "iso3": "OMN",
@@ -29,7 +32,11 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Omã"
+      "name": "Omã",
+      "aliases": [
+        "Omão",
+        "Sultanato de Omã"
+      ]
     },
     {
       "locale": "pt",
@@ -37,7 +44,10 @@
     },
     {
       "locale": "nl",
-      "name": "Oman"
+      "name": "Oman",
+      "aliases": [
+        "Sultanaat Oman"
+      ]
     },
     {
       "locale": "hr",
@@ -53,15 +63,24 @@
     },
     {
       "locale": "es",
-      "name": "Omán"
+      "name": "Omán",
+      "aliases": [
+        "Sultanato de Omán"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Oman"
+      "name": "Oman",
+      "aliases": [
+        "Sultanat d’Oman"
+      ]
     },
     {
       "locale": "ja",
-      "name": "オマーン"
+      "name": "オマーン",
+      "aliases": [
+        "オマーン国"
+      ]
     },
     {
       "locale": "it",
@@ -77,15 +96,24 @@
     },
     {
       "locale": "ru",
-      "name": "Оман"
+      "name": "Оман",
+      "aliases": [
+        "Султанат Оман"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Оман"
+      "name": "Оман",
+      "aliases": [
+        "Султанат Оман"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Oman"
+      "name": "Oman",
+      "aliases": [
+        "Sułtanat Omanu"
+      ]
     }
   ],
   "states": [

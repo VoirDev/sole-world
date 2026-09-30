@@ -1,6 +1,9 @@
 {
   "id": "DZ",
   "name": "Algeria",
+  "aliases": [
+    "People's Democratic Republic of Algeria"
+  ],
   "nativeName": "الجزائر",
   "iso2": "DZ",
   "iso3": "DZA",
@@ -29,15 +32,24 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Argélia"
+      "name": "Argélia",
+      "aliases": [
+        "República Democrática e Popular da Argélia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Argélia"
+      "name": "Argélia",
+      "aliases": [
+        "República Democrática e Popular da Argélia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Algerije"
+      "name": "Algerije",
+      "aliases": [
+        "Democratische Volksrepubliek Algerije"
+      ]
     },
     {
       "locale": "hr",
@@ -49,27 +61,47 @@
     },
     {
       "locale": "de",
-      "name": "Algerien"
+      "name": "Algerien",
+      "aliases": [
+        "Demokratische Volksrepublik Algerien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Argelia"
+      "name": "Argelia",
+      "aliases": [
+        "República Argelina Democrática y Popular",
+        "República Democrática Popular de Argelia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Algérie"
+      "name": "Algérie",
+      "aliases": [
+        "République algérienne démocratique et populaire",
+        "RADP"
+      ]
     },
     {
       "locale": "ja",
-      "name": "アルジェリア"
+      "name": "アルジェリア",
+      "aliases": [
+        "アルジェリア民主人民共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Algeria"
+      "name": "Algeria",
+      "aliases": [
+        "Repubblica Democratica Popolare di Algeria"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "阿尔及利亚"
+      "name": "阿尔及利亚",
+      "aliases": [
+        "阿尔及利亚人民民主共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,15 +109,24 @@
     },
     {
       "locale": "ru",
-      "name": "Алжир"
+      "name": "Алжир",
+      "aliases": [
+        "Алжирская Народная Демократическая Республика"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Алжир"
+      "name": "Алжир",
+      "aliases": [
+        "Алжирська Народна Демократична Республіка"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Algieria"
+      "name": "Algieria",
+      "aliases": [
+        "Algierska Republika Ludowo-Demokratyczna"
+      ]
     }
   ],
   "states": [

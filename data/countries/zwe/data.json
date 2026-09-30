@@ -1,6 +1,9 @@
 {
   "id": "ZW",
   "name": "Zimbabwe",
+  "aliases": [
+    "Republic of Zimbabwe"
+  ],
   "nativeName": "Zimbabwe",
   "iso2": "ZW",
   "iso3": "ZWE",
@@ -37,7 +40,11 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Zimbabwe"
+      "name": "Zimbabwe",
+      "aliases": [
+        "Zimbábue",
+        "República do Zimbábue"
+      ]
     },
     {
       "locale": "pt",
@@ -45,7 +52,10 @@
     },
     {
       "locale": "nl",
-      "name": "Zimbabwe"
+      "name": "Zimbabwe",
+      "aliases": [
+        "Republiek Zimbabwe"
+      ]
     },
     {
       "locale": "hr",
@@ -57,19 +67,31 @@
     },
     {
       "locale": "de",
-      "name": "Simbabwe"
+      "name": "Simbabwe",
+      "aliases": [
+        "Republik Zimbabwe"
+      ]
     },
     {
       "locale": "es",
-      "name": "Zimbabue"
+      "name": "Zimbabue",
+      "aliases": [
+        "República de Zimbabue"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Zimbabwe"
+      "name": "Zimbabwe",
+      "aliases": [
+        "République du Zimbabwe"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ジンバブエ"
+      "name": "ジンバブエ",
+      "aliases": [
+        "ジンバブエ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -77,7 +99,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "津巴布韦"
+      "name": "津巴布韦",
+      "aliases": [
+        "津巴布韦共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -85,11 +110,17 @@
     },
     {
       "locale": "ru",
-      "name": "Зимбабве"
+      "name": "Зимбабве",
+      "aliases": [
+        "Республика Зимбабве"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Зімбабве"
+      "name": "Зімбабве",
+      "aliases": [
+        "Республіка Зімбабве"
+      ]
     },
     {
       "locale": "pl",

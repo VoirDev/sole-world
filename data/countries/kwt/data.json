@@ -1,6 +1,9 @@
 {
   "id": "KW",
   "name": "Kuwait",
+  "aliases": [
+    "State of Kuwait"
+  ],
   "nativeName": "الكويت",
   "iso2": "KW",
   "iso3": "KWT",
@@ -29,15 +32,25 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Kuwait"
+      "name": "Kuwait",
+      "aliases": [
+        "Estado do Kuwait"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Kuwait"
+      "name": "Kuwait",
+      "aliases": [
+        "Koweit",
+        "Cuvaite"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Koeweit"
+      "name": "Koeweit",
+      "aliases": [
+        "Staat Koeweit"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +62,32 @@
     },
     {
       "locale": "de",
-      "name": "Kuwait"
+      "name": "Kuwait",
+      "aliases": [
+        "Kuweit"
+      ]
     },
     {
       "locale": "es",
-      "name": "Kuwait"
+      "name": "Kuwait",
+      "aliases": [
+        "Estado de Kuwait"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Koweït"
+      "name": "Koweït",
+      "aliases": [
+        "Kuwait",
+        "État du Koweït"
+      ]
     },
     {
       "locale": "ja",
-      "name": "クウェート"
+      "name": "クウェート",
+      "aliases": [
+        "クウェート国"
+      ]
     },
     {
       "locale": "it",
@@ -77,7 +103,10 @@
     },
     {
       "locale": "ru",
-      "name": "Кувейт"
+      "name": "Кувейт",
+      "aliases": [
+        "Государство Кувейт"
+      ]
     },
     {
       "locale": "uk",

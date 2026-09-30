@@ -1,6 +1,9 @@
 {
   "id": "KH",
   "name": "Cambodia",
+  "aliases": [
+    "Kingdom of Cambodia"
+  ],
   "nativeName": "Kâmpŭchéa",
   "iso2": "KH",
   "iso3": "KHM",
@@ -25,19 +28,31 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "캄보디아"
+      "name": "캄보디아",
+      "aliases": [
+        "캄보디아 왕국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Camboja"
+      "name": "Camboja",
+      "aliases": [
+        "Reino do Camboja"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Camboja"
+      "name": "Camboja",
+      "aliases": [
+        "Reino do Camboja"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Cambodja"
+      "name": "Cambodja",
+      "aliases": [
+        "Koninkrijk Cambodja"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +64,31 @@
     },
     {
       "locale": "de",
-      "name": "Kambodscha"
+      "name": "Kambodscha",
+      "aliases": [
+        "Königreich Kambodscha"
+      ]
     },
     {
       "locale": "es",
-      "name": "Camboya"
+      "name": "Camboya",
+      "aliases": [
+        "Reino de Camboya"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Cambodge"
+      "name": "Cambodge",
+      "aliases": [
+        "Royaume du Cambodge"
+      ]
     },
     {
       "locale": "ja",
-      "name": "カンボジア"
+      "name": "カンボジア",
+      "aliases": [
+        "カンボジア王国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +96,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "柬埔寨"
+      "name": "柬埔寨",
+      "aliases": [
+        "柬埔寨王国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +107,10 @@
     },
     {
       "locale": "ru",
-      "name": "Камбоджа"
+      "name": "Камбоджа",
+      "aliases": [
+        "Королевство Камбоджа"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +118,10 @@
     },
     {
       "locale": "pl",
-      "name": "Kambodża"
+      "name": "Kambodża",
+      "aliases": [
+        "Królestwo Kambodży"
+      ]
     }
   ],
   "states": [

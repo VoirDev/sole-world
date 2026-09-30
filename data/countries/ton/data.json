@@ -1,6 +1,9 @@
 {
   "id": "TO",
   "name": "Tonga",
+  "aliases": [
+    "Kingdom of Tonga"
+  ],
   "nativeName": "Tonga",
   "iso2": "TO",
   "iso3": "TON",
@@ -38,7 +41,10 @@
     },
     {
       "locale": "nl",
-      "name": "Tonga"
+      "name": "Tonga",
+      "aliases": [
+        "Koninkrijk Tonga"
+      ]
     },
     {
       "locale": "hr",
@@ -54,15 +60,24 @@
     },
     {
       "locale": "es",
-      "name": "Tonga"
+      "name": "Tonga",
+      "aliases": [
+        "Reino de Tonga"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Tonga"
+      "name": "Tonga",
+      "aliases": [
+        "Royaume des Tonga"
+      ]
     },
     {
       "locale": "ja",
-      "name": "トンガ"
+      "name": "トンガ",
+      "aliases": [
+        "トンガ王国"
+      ]
     },
     {
       "locale": "it",
@@ -78,7 +93,10 @@
     },
     {
       "locale": "ru",
-      "name": "Тонга"
+      "name": "Тонга",
+      "aliases": [
+        "Королевство Тонга"
+      ]
     },
     {
       "locale": "uk",

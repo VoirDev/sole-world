@@ -1,6 +1,9 @@
 {
   "id": "CX",
   "name": "Christmas Island",
+  "aliases": [
+    "Territory of Christmas Island"
+  ],
   "nativeName": "Christmas Island",
   "iso2": "CX",
   "iso3": "CXR",
@@ -25,7 +28,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "크리스마스 섬"
+      "name": "크리스마스 섬",
+      "aliases": [
+        "크리스마스섬"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -33,11 +39,22 @@
     },
     {
       "locale": "pt",
-      "name": "Ilha do Natal"
+      "name": "Ilha do Natal",
+      "aliases": [
+        "Ilha Christmas",
+        "Ilha de Natal",
+        "Ilha Natal",
+        "Território da Ilha Christmas"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Christmaseiland"
+      "name": "Christmaseiland",
+      "aliases": [
+        "Kersteiland",
+        "Territorium Christmaseiland",
+        "Territorium Kersteiland"
+      ]
     },
     {
       "locale": "hr",
@@ -53,7 +70,10 @@
     },
     {
       "locale": "es",
-      "name": "Isla de Navidad"
+      "name": "Isla de Navidad",
+      "aliases": [
+        "Isla Christmas"
+      ]
     },
     {
       "locale": "fr",
@@ -65,7 +85,11 @@
     },
     {
       "locale": "it",
-      "name": "Isola di Natale"
+      "name": "Isola di Natale",
+      "aliases": [
+        "Isola Christmas",
+        "Territorio dell'Isola di Natale"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,7 +101,11 @@
     },
     {
       "locale": "ru",
-      "name": "Остров Рождества"
+      "name": "Остров Рождества",
+      "aliases": [
+        "о-в Рождества",
+        "Рождества Остров"
+      ]
     },
     {
       "locale": "uk",

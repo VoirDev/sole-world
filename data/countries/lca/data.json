@@ -1,6 +1,9 @@
 {
   "id": "LC",
   "name": "Saint Lucia",
+  "aliases": [
+    "St. Lucia"
+  ],
   "nativeName": "Saint Lucia",
   "iso2": "LC",
   "iso3": "LCA",
@@ -49,7 +52,10 @@
     },
     {
       "locale": "de",
-      "name": "Saint Lucia"
+      "name": "Saint Lucia",
+      "aliases": [
+        "St. Lucia"
+      ]
     },
     {
       "locale": "es",
@@ -65,7 +71,11 @@
     },
     {
       "locale": "it",
-      "name": "Santa Lucia"
+      "name": "Santa Lucia",
+      "aliases": [
+        "Saint Lucia",
+        "St. Lucia"
+      ]
     },
     {
       "locale": "zh-CN",

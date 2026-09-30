@@ -1,6 +1,9 @@
 {
   "id": "TD",
   "name": "Chad",
+  "aliases": [
+    "Republic of Chad"
+  ],
   "nativeName": "Tchad",
   "iso2": "TD",
   "iso3": "TCD",
@@ -30,7 +33,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Chade"
+      "name": "Chade",
+      "aliases": [
+        "República do Chade"
+      ]
     },
     {
       "locale": "pt",
@@ -38,7 +44,10 @@
     },
     {
       "locale": "nl",
-      "name": "Tsjaad"
+      "name": "Tsjaad",
+      "aliases": [
+        "Republiek Tsjaad"
+      ]
     },
     {
       "locale": "hr",
@@ -54,15 +63,24 @@
     },
     {
       "locale": "es",
-      "name": "Chad"
+      "name": "Chad",
+      "aliases": [
+        "República de Chad"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Tchad"
+      "name": "Tchad",
+      "aliases": [
+        "République du Tchad"
+      ]
     },
     {
       "locale": "ja",
-      "name": "チャド"
+      "name": "チャド",
+      "aliases": [
+        "チャド共和国"
+      ]
     },
     {
       "locale": "it",
@@ -70,19 +88,31 @@
     },
     {
       "locale": "zh-CN",
-      "name": "乍得"
+      "name": "乍得",
+      "aliases": [
+        "乍得共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Çad"
+      "name": "Çad",
+      "aliases": [
+        "Çad Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Чад"
+      "name": "Чад",
+      "aliases": [
+        "Республика Чад"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Чад"
+      "name": "Чад",
+      "aliases": [
+        "Республіка Чад"
+      ]
     },
     {
       "locale": "pl",

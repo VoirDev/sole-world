@@ -1,6 +1,9 @@
 {
   "id": "ZM",
   "name": "Zambia",
+  "aliases": [
+    "Republic of Zambia"
+  ],
   "nativeName": "Zambia",
   "iso2": "ZM",
   "iso3": "ZMB",
@@ -37,7 +40,11 @@
     },
     {
       "locale": "nl",
-      "name": "Zambia"
+      "name": "Zambia",
+      "aliases": [
+        "Republiek Zambia",
+        "Zambië"
+      ]
     },
     {
       "locale": "hr",
@@ -53,19 +60,31 @@
     },
     {
       "locale": "es",
-      "name": "Zambia"
+      "name": "Zambia",
+      "aliases": [
+        "República de Zambia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Zambie"
+      "name": "Zambie",
+      "aliases": [
+        "République de Zambie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ザンビア"
+      "name": "ザンビア",
+      "aliases": [
+        "ザンビア共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Zambia"
+      "name": "Zambia",
+      "aliases": [
+        "Repubblica dello Zambia"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,11 +96,17 @@
     },
     {
       "locale": "ru",
-      "name": "Замбия"
+      "name": "Замбия",
+      "aliases": [
+        "Республика Замбия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Замбія"
+      "name": "Замбія",
+      "aliases": [
+        "Республіка Замбія"
+      ]
     },
     {
       "locale": "pl",

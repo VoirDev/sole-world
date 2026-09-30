@@ -1,6 +1,9 @@
 {
   "id": "TK",
   "name": "Tokelau",
+  "aliases": [
+    "Tokelau Islands"
+  ],
   "nativeName": "Tokelau",
   "iso2": "TK",
   "iso3": "TKL",
@@ -25,7 +28,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "토켈라우"
+      "name": "토켈라우",
+      "aliases": [
+        "토켈라우 제도"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -33,7 +39,11 @@
     },
     {
       "locale": "pt",
-      "name": "Toquelau"
+      "name": "Toquelau",
+      "aliases": [
+        "Tokelau",
+        "Ilhas Tokelau"
+      ]
     },
     {
       "locale": "nl",
@@ -45,11 +55,17 @@
     },
     {
       "locale": "fa",
-      "name": "توکلائو"
+      "name": "توکلائو",
+      "aliases": [
+        "توکلایو"
+      ]
     },
     {
       "locale": "de",
-      "name": "Tokelau"
+      "name": "Tokelau",
+      "aliases": [
+        "Tokelau-Inseln"
+      ]
     },
     {
       "locale": "es",
@@ -57,11 +73,18 @@
     },
     {
       "locale": "fr",
-      "name": "Tokelau"
+      "name": "Tokelau",
+      "aliases": [
+        "Îles Tokélaou",
+        "Tokélaou"
+      ]
     },
     {
       "locale": "ja",
-      "name": "トケラウ"
+      "name": "トケラウ",
+      "aliases": [
+        "トケラウ諸島"
+      ]
     },
     {
       "locale": "it",

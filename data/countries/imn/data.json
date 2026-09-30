@@ -1,6 +1,7 @@
 {
   "id": "IM",
   "name": "Isle of Man",
+  "aliases": [],
   "nativeName": "Isle of Man",
   "iso2": "IM",
   "iso3": "IMN",
@@ -25,7 +26,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "맨 섬"
+      "name": "맨 섬",
+      "aliases": [
+        "맨섬",
+        "아일 오브 맨"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -37,7 +42,10 @@
     },
     {
       "locale": "nl",
-      "name": "Isle of Man"
+      "name": "Isle of Man",
+      "aliases": [
+        "Man"
+      ]
     },
     {
       "locale": "hr",
@@ -49,7 +57,10 @@
     },
     {
       "locale": "de",
-      "name": "Insel Man"
+      "name": "Insel Man",
+      "aliases": [
+        "Isle of Man"
+      ]
     },
     {
       "locale": "es",
@@ -69,7 +80,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "马恩岛"
+      "name": "马恩岛",
+      "aliases": [
+        "曼岛"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +91,10 @@
     },
     {
       "locale": "ru",
-      "name": "Остров Мэн"
+      "name": "Остров Мэн",
+      "aliases": [
+        "о-в Мэн"
+      ]
     },
     {
       "locale": "uk",

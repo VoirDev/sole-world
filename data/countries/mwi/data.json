@@ -1,6 +1,9 @@
 {
   "id": "MW",
   "name": "Malawi",
+  "aliases": [
+    "Republic of Malawi"
+  ],
   "nativeName": "Malawi",
   "iso2": "MW",
   "iso3": "MWI",
@@ -30,15 +33,27 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Malawi"
+      "name": "Malawi",
+      "aliases": [
+        "Malaui",
+        "República do Malawi"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Malávi"
+      "name": "Malávi",
+      "aliases": [
+        "Maláui",
+        "Malawi",
+        "República do Malawi"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Malawi"
+      "name": "Malawi",
+      "aliases": [
+        "Republiek Malawi"
+      ]
     },
     {
       "locale": "hr",
@@ -54,15 +69,25 @@
     },
     {
       "locale": "es",
-      "name": "Malaui"
+      "name": "Malaui",
+      "aliases": [
+        "Malawi",
+        "República de Malaui"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Malawi"
+      "name": "Malawi",
+      "aliases": [
+        "République du Malawi"
+      ]
     },
     {
       "locale": "ja",
-      "name": "マラウイ"
+      "name": "マラウイ",
+      "aliases": [
+        "マラウイ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -70,7 +95,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "马拉维"
+      "name": "马拉维",
+      "aliases": [
+        "马拉维共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,11 +106,17 @@
     },
     {
       "locale": "ru",
-      "name": "Малави"
+      "name": "Малави",
+      "aliases": [
+        "Республика Малави"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Малаві"
+      "name": "Малаві",
+      "aliases": [
+        "Республіка Малаві"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,9 @@
 {
   "id": "LI",
   "name": "Liechtenstein",
+  "aliases": [
+    "Principality of Liechtenstein"
+  ],
   "nativeName": "Liechtenstein",
   "iso2": "LI",
   "iso3": "LIE",
@@ -25,19 +28,33 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "리히텐슈타인"
+      "name": "리히텐슈타인",
+      "aliases": [
+        "리히텐슈타인 공국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Liechtenstein"
+      "name": "Liechtenstein",
+      "aliases": [
+        "Listenstaine",
+        "Principado de Liechtenstein"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Listenstaine"
+      "name": "Listenstaine",
+      "aliases": [
+        "Liechtenstein",
+        "Principado de Liechtenstein"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Liechtenstein"
+      "name": "Liechtenstein",
+      "aliases": [
+        "Vorstendom Liechtenstein"
+      ]
     },
     {
       "locale": "hr",
@@ -49,11 +66,17 @@
     },
     {
       "locale": "de",
-      "name": "Liechtenstein"
+      "name": "Liechtenstein",
+      "aliases": [
+        "Fürstentum Liechtenstein"
+      ]
     },
     {
       "locale": "es",
-      "name": "Liechtenstein"
+      "name": "Liechtenstein",
+      "aliases": [
+        "Principado de Liechtenstein"
+      ]
     },
     {
       "locale": "fr",
@@ -61,7 +84,10 @@
     },
     {
       "locale": "ja",
-      "name": "リヒテンシュタイン"
+      "name": "リヒテンシュタイン",
+      "aliases": [
+        "リヒテンシュタイン公国"
+      ]
     },
     {
       "locale": "it",
@@ -73,11 +99,18 @@
     },
     {
       "locale": "tr",
-      "name": "Lihtenştayn"
+      "name": "Lihtenştayn",
+      "aliases": [
+        "Liechtenstein",
+        "Lihtenştayn Prensliği"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Лихтенштейн"
+      "name": "Лихтенштейн",
+      "aliases": [
+        "Княжество Лихтенштейн"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +118,10 @@
     },
     {
       "locale": "pl",
-      "name": "Liechtenstein"
+      "name": "Liechtenstein",
+      "aliases": [
+        "Księstwo Liechtensteinu"
+      ]
     }
   ],
   "states": [

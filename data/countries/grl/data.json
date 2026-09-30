@@ -1,6 +1,7 @@
 {
   "id": "GL",
   "name": "Greenland",
+  "aliases": [],
   "nativeName": "Kalaallit Nunaat",
   "iso2": "GL",
   "iso3": "GRL",
@@ -33,11 +34,18 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Groenlândia"
+      "name": "Groenlândia",
+      "aliases": [
+        "Groelândia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Gronelândia"
+      "name": "Gronelândia",
+      "aliases": [
+        "Groelândia",
+        "Groenlândia"
+      ]
     },
     {
       "locale": "nl",
@@ -73,7 +81,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "格陵兰岛"
+      "name": "格陵兰岛",
+      "aliases": [
+        "格陵兰"
+      ]
     },
     {
       "locale": "tr",

@@ -1,6 +1,10 @@
 {
   "id": "DE",
   "name": "Germany",
+  "aliases": [
+    "Federal Republic of Germany",
+    "FRG"
+  ],
   "nativeName": "Deutschland",
   "iso2": "DE",
   "iso3": "DEU",
@@ -26,19 +30,31 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "독일"
+      "name": "독일",
+      "aliases": [
+        "독일연방공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Alemanha"
+      "name": "Alemanha",
+      "aliases": [
+        "República Federal da Alemanha"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Alemanha"
+      "name": "Alemanha",
+      "aliases": [
+        "República Federal da Alemanha"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Duitsland"
+      "name": "Duitsland",
+      "aliases": [
+        "Bondsrepubliek Duitsland"
+      ]
     },
     {
       "locale": "hr",
@@ -46,47 +62,88 @@
     },
     {
       "locale": "fa",
-      "name": "آلمان"
+      "name": "آلمان",
+      "aliases": [
+        "جمهوری فدرال آلمان"
+      ]
     },
     {
       "locale": "de",
-      "name": "Deutschland"
+      "name": "Deutschland",
+      "aliases": [
+        "BRD",
+        "Bundesrepublik Deutschland",
+        "BR Deutschland"
+      ]
     },
     {
       "locale": "es",
-      "name": "Alemania"
+      "name": "Alemania",
+      "aliases": [
+        "República Federal de Alemania"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Allemagne"
+      "name": "Allemagne",
+      "aliases": [
+        "République fédérale d'Allemagne",
+        "R. F. A.",
+        "République fédérale allemande"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ドイツ"
+      "name": "ドイツ",
+      "aliases": [
+        "独国",
+        "ドイツ連邦共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Germania"
+      "name": "Germania",
+      "aliases": [
+        "Repubblica Federale di Germania"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "德国"
+      "name": "德国",
+      "aliases": [
+        "德意志联邦共和国",
+        "德意志"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Almanya"
+      "name": "Almanya",
+      "aliases": [
+        "Almanya Federal Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Германия"
+      "name": "Германия",
+      "aliases": [
+        "Федеративная Республика Германия",
+        "ФРГ"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Німеччина"
+      "name": "Німеччина",
+      "aliases": [
+        "Федеративна Республіка Німеччина",
+        "ФРН"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Niemcy"
+      "name": "Niemcy",
+      "aliases": [
+        "Republika Federalna Niemiec"
+      ]
     }
   ],
   "states": [

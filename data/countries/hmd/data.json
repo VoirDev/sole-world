@@ -1,6 +1,12 @@
 {
   "id": "HM",
   "name": "Heard Island and McDonald Islands",
+  "aliases": [
+    "Heard & McDonald Islands",
+    "Heard and McDonald Islands",
+    "HIMI",
+    "Territory of Heard Island and McDonald Islands"
+  ],
   "nativeName": "Heard Island and McDonald Islands",
   "iso2": "HM",
   "iso3": "HMD",
@@ -25,43 +31,80 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "허드 맥도널드 제도"
+      "name": "허드 맥도널드 제도",
+      "aliases": [
+        "허드 맥도날드 제도"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Ilhas Heard e McDonald"
+      "name": "Ilhas Heard e McDonald",
+      "aliases": [
+        "Ilha Heard e Ilhas McDonald",
+        "Território das Ilhas Heard e McDonald"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Ilhas Heard e McDonald"
+      "name": "Ilhas Heard e McDonald",
+      "aliases": [
+        "Ilha Heard e Ilhas McDonald"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Heard en McDonaldeilanden"
+      "name": "Heard en McDonaldeilanden",
+      "aliases": [
+        "Heard- en McDonaldeiland",
+        "Heardeiland en McDonaldeilanden",
+        "Territorium Heard en McDonaldeilanden"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Otoci Heard i McDonald"
+      "name": "Otoci Heard i McDonald",
+      "aliases": [
+        "Otok Heard i otočje McDonald"
+      ]
     },
     {
       "locale": "fa",
-      "name": "هرد و جزایر مک‌دونالد"
+      "name": "هرد و جزایر مک‌دونالد",
+      "aliases": [
+        "جزیره هرد و جزایر مک دونالد"
+      ]
     },
     {
       "locale": "de",
-      "name": "Heard und McDonaldinseln"
+      "name": "Heard und McDonaldinseln",
+      "aliases": [
+        "Heard und McDonald-Inseln",
+        "Heard-Insel und McDonald-Inseln"
+      ]
     },
     {
       "locale": "es",
-      "name": "Islas Heard y McDonald"
+      "name": "Islas Heard y McDonald",
+      "aliases": [
+        "Heard",
+        "Isla Heard e Islas McDonald"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Îles Heard-et-MacDonald"
+      "name": "Îles Heard-et-MacDonald",
+      "aliases": [
+        "Heard-et-McDonald",
+        "Île Heard et îles MacDonald",
+        "Îles Heard et McDonald"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ハード島・マクドナルド諸島"
+      "name": "ハード島・マクドナルド諸島",
+      "aliases": [
+        "ハード島とマクドナルド諸島"
+      ]
     },
     {
       "locale": "it",
@@ -73,15 +116,26 @@
     },
     {
       "locale": "tr",
-      "name": "Heard Adası ve McDonald Adaları"
+      "name": "Heard Adası ve McDonald Adaları",
+      "aliases": [
+        "Heard ve McDonald adaları"
+      ]
     },
     {
       "locale": "ru",
-      "name": "о-ва Херд и Макдональд"
+      "name": "о-ва Херд и Макдональд",
+      "aliases": [
+        "Остров Херд и острова Макдональд",
+        "Острова Херд и Макдональд"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Острови Герд і Макдоналд"
+      "name": "Острови Герд і Макдоналд",
+      "aliases": [
+        "Острів Герд і острови Макдональд",
+        "Острів Херд і острови Макдональд"
+      ]
     },
     {
       "locale": "pl",

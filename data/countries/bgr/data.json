@@ -1,6 +1,9 @@
 {
   "id": "BG",
   "name": "Bulgaria",
+  "aliases": [
+    "Republic of Bulgaria"
+  ],
   "nativeName": "България",
   "iso2": "BG",
   "iso3": "BGR",
@@ -25,23 +28,38 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "불가리아"
+      "name": "불가리아",
+      "aliases": [
+        "불가리아 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Bulgária"
+      "name": "Bulgária",
+      "aliases": [
+        "República da Bulgária"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Bulgária"
+      "name": "Bulgária",
+      "aliases": [
+        "República da Bulgária"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Bulgarije"
+      "name": "Bulgarije",
+      "aliases": [
+        "Republiek Bulgarije"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Bugarska"
+      "name": "Bugarska",
+      "aliases": [
+        "Republika Bugarska"
+      ]
     },
     {
       "locale": "fa",
@@ -53,15 +71,24 @@
     },
     {
       "locale": "es",
-      "name": "Bulgaria"
+      "name": "Bulgaria",
+      "aliases": [
+        "República de Bulgaria"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Bulgarie"
+      "name": "Bulgarie",
+      "aliases": [
+        "République de Bulgarie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ブルガリア"
+      "name": "ブルガリア",
+      "aliases": [
+        "ブルガリア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -73,19 +100,31 @@
     },
     {
       "locale": "tr",
-      "name": "Bulgaristan"
+      "name": "Bulgaristan",
+      "aliases": [
+        "Bulgaristan Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Болгария"
+      "name": "Болгария",
+      "aliases": [
+        "Республика Болгария"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Болгарія"
+      "name": "Болгарія",
+      "aliases": [
+        "Республіка Болгарія"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Bułgaria"
+      "name": "Bułgaria",
+      "aliases": [
+        "Republika Bułgarii"
+      ]
     }
   ],
   "states": [

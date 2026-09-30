@@ -1,6 +1,9 @@
 {
   "id": "PT",
   "name": "Portugal",
+  "aliases": [
+    "Portuguese Republic"
+  ],
   "nativeName": "Portugal",
   "iso2": "PT",
   "iso3": "PRT",
@@ -27,7 +30,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "포르투갈"
+      "name": "포르투갈",
+      "aliases": [
+        "포르투갈 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -39,11 +45,17 @@
     },
     {
       "locale": "nl",
-      "name": "Portugal"
+      "name": "Portugal",
+      "aliases": [
+        "Portugese Republiek"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Portugal"
+      "name": "Portugal",
+      "aliases": [
+        "Republika Portugal"
+      ]
     },
     {
       "locale": "fa",
@@ -51,19 +63,31 @@
     },
     {
       "locale": "de",
-      "name": "Portugal"
+      "name": "Portugal",
+      "aliases": [
+        "Portugiesische Republik"
+      ]
     },
     {
       "locale": "es",
-      "name": "Portugal"
+      "name": "Portugal",
+      "aliases": [
+        "República de Portugal"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Portugal"
+      "name": "Portugal",
+      "aliases": [
+        "République portugaise"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ポルトガル"
+      "name": "ポルトガル",
+      "aliases": [
+        "ポルトガル共和国"
+      ]
     },
     {
       "locale": "it",
@@ -71,19 +95,31 @@
     },
     {
       "locale": "zh-CN",
-      "name": "葡萄牙"
+      "name": "葡萄牙",
+      "aliases": [
+        "葡萄牙共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Portekiz"
+      "name": "Portekiz",
+      "aliases": [
+        "Portekiz Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Португалия"
+      "name": "Португалия",
+      "aliases": [
+        "Португальская Республика"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Португалія"
+      "name": "Португалія",
+      "aliases": [
+        "Португальська Республіка"
+      ]
     },
     {
       "locale": "pl",

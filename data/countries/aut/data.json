@@ -1,6 +1,9 @@
 {
   "id": "AT",
   "name": "Austria",
+  "aliases": [
+    "Republic of Austria"
+  ],
   "nativeName": "Österreich",
   "iso2": "AT",
   "iso3": "AUT",
@@ -29,11 +32,17 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Áustria"
+      "name": "Áustria",
+      "aliases": [
+        "República da Áustria"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Áustria"
+      "name": "Áustria",
+      "aliases": [
+        "República da Áustria"
+      ]
     },
     {
       "locale": "nl",
@@ -41,7 +50,10 @@
     },
     {
       "locale": "hr",
-      "name": "Austrija"
+      "name": "Austrija",
+      "aliases": [
+        "Republika Austrija"
+      ]
     },
     {
       "locale": "fa",
@@ -49,19 +61,31 @@
     },
     {
       "locale": "de",
-      "name": "Österreich"
+      "name": "Österreich",
+      "aliases": [
+        "Republik Österreich"
+      ]
     },
     {
       "locale": "es",
-      "name": "Austria"
+      "name": "Austria",
+      "aliases": [
+        "República de Austria"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Autriche"
+      "name": "Autriche",
+      "aliases": [
+        "République d'Autriche"
+      ]
     },
     {
       "locale": "ja",
-      "name": "オーストリア"
+      "name": "オーストリア",
+      "aliases": [
+        "オーストリア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,23 +93,40 @@
     },
     {
       "locale": "zh-CN",
-      "name": "奥地利"
+      "name": "奥地利",
+      "aliases": [
+        "奥地利共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Avusturya"
+      "name": "Avusturya",
+      "aliases": [
+        "Avusturya Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Австрия"
+      "name": "Австрия",
+      "aliases": [
+        "Австрийская Республика",
+        "Республика Австрия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Австрія"
+      "name": "Австрія",
+      "aliases": [
+        "Австрійська республіка",
+        "Республіка Австрія"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Austria"
+      "name": "Austria",
+      "aliases": [
+        "Republika Austrii"
+      ]
     }
   ],
   "states": [

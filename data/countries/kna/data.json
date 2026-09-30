@@ -1,6 +1,12 @@
 {
   "id": "KN",
   "name": "Saint Kitts and Nevis",
+  "aliases": [
+    "St. Kitts & Nevis",
+    "Federation of Saint Christopher and Nevis",
+    "Federation of Saint Kitts and Nevis",
+    "Saint Christopher and Nevis"
+  ],
   "nativeName": "Saint Kitts and Nevis",
   "iso2": "KN",
   "iso3": "KNA",
@@ -29,19 +35,34 @@
     },
     {
       "locale": "pt-BR",
-      "name": "São Cristóvão e Névis"
+      "name": "São Cristóvão e Névis",
+      "aliases": [
+        "São Cristóvão e Neves"
+      ]
     },
     {
       "locale": "pt",
-      "name": "São Cristóvão e Neves"
+      "name": "São Cristóvão e Neves",
+      "aliases": [
+        "Federação de São Cristóvão e Neves",
+        "São Cristóvão e Nevis"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Saint Kitts en Nevis"
+      "name": "Saint Kitts en Nevis",
+      "aliases": [
+        "Federatie van Saint Kitts en Nevis",
+        "Sint Kitts en Nevis",
+        "St Kitts en Nevis"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Sveti Kristof i Nevis"
+      "name": "Sveti Kristof i Nevis",
+      "aliases": [
+        "Sveti Kristofor i Nevis"
+      ]
     },
     {
       "locale": "fa",
@@ -53,15 +74,28 @@
     },
     {
       "locale": "es",
-      "name": "San Cristóbal y Nieves"
+      "name": "San Cristóbal y Nieves",
+      "aliases": [
+        "Federación de San Cristóbal y Nieves"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Saint-Christophe-et-Niévès"
+      "name": "Saint-Christophe-et-Niévès",
+      "aliases": [
+        "Saint-Kitts-et-Nevis",
+        "Saint-Christophe-et-Nevis",
+        "Fédération de Saint-Christophe-et-Niévès"
+      ]
     },
     {
       "locale": "ja",
-      "name": "セントクリストファー・ネーヴィス"
+      "name": "セントクリストファー・ネーヴィス",
+      "aliases": [
+        "セントクリストファー・ネイビス",
+        "セントキッツ・ネイビス",
+        "セントクリストファー・ネイビス連邦"
+      ]
     },
     {
       "locale": "it",
@@ -77,11 +111,17 @@
     },
     {
       "locale": "ru",
-      "name": "Сент-Китс и Невис"
+      "name": "Сент-Китс и Невис",
+      "aliases": [
+        "Федерация Сент-Китс и Невис"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Сент-Кітс і Невіс"
+      "name": "Сент-Кітс і Невіс",
+      "aliases": [
+        "Сент-Кіттс і Невіс"
+      ]
     },
     {
       "locale": "pl",

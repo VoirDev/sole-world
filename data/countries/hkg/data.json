@@ -1,6 +1,14 @@
 {
   "id": "HK",
   "name": "Hong Kong",
+  "aliases": [
+    "Hong Kong SAR China",
+    "Hong Kong, China",
+    "Hongkong",
+    "HKSAR",
+    "Hong Kong SAR",
+    "Hong Kong Special Administrative Region"
+  ],
   "nativeName": "香港",
   "iso2": "HK",
   "iso3": "HKG",
@@ -26,67 +34,133 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "홍콩"
+      "name": "홍콩",
+      "aliases": [
+        "홍콩(중국 특별행정구)",
+        "홍콩 특별행정구"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Hong Kong"
+      "name": "Hong Kong",
+      "aliases": [
+        "Hong Kong, RAE da China"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Hong Kong"
+      "name": "Hong Kong",
+      "aliases": [
+        "Hong Kong, RAE da China",
+        "Hongkong",
+        "Região Administrativa Especial de Hong Kong"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Hongkong"
+      "name": "Hongkong",
+      "aliases": [
+        "Hongkong SAR van China",
+        "Hong Kong"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Hong Kong"
+      "name": "Hong Kong",
+      "aliases": [
+        "PUP Hong Kong Kina"
+      ]
     },
     {
       "locale": "fa",
-      "name": "هنگ‌کنگ"
+      "name": "هنگ‌کنگ",
+      "aliases": [
+        "هنگ‌کنگ، منطقهٔ ویژهٔ اداری چین",
+        "هنگ کنگ"
+      ]
     },
     {
       "locale": "de",
-      "name": "Hong Kong"
+      "name": "Hong Kong",
+      "aliases": [
+        "Hongkong",
+        "Sonderverwaltungsregion Hongkong",
+        "Sonderverwaltungszone Hongkong"
+      ]
     },
     {
       "locale": "es",
-      "name": "Hong Kong"
+      "name": "Hong Kong",
+      "aliases": [
+        "RAE de Hong Kong (China)"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Hong Kong"
+      "name": "Hong Kong",
+      "aliases": [
+        "R.A.S. chinoise de Hong Kong",
+        "RAS de Hong Kong",
+        "RAS de Hong Kong, Chine"
+      ]
     },
     {
       "locale": "ja",
-      "name": "香港"
+      "name": "香港",
+      "aliases": [
+        "中華人民共和国香港特別行政区",
+        "ホンコン",
+        "中国香港",
+        "香港特別行政区"
+      ]
     },
     {
       "locale": "it",
-      "name": "Hong Kong"
+      "name": "Hong Kong",
+      "aliases": [
+        "RAS di Hong Kong"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "中国香港"
+      "name": "中国香港",
+      "aliases": [
+        "香港",
+        "中国香港特别行政区",
+        "中华人民共和国香港特别行政区",
+        "香港特别行政区",
+        "香港特区"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Hong Kong"
+      "name": "Hong Kong",
+      "aliases": [
+        "Çin Hong Kong ÖİB"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Гонконг"
+      "name": "Гонконг",
+      "aliases": [
+        "Гонконг (САР)",
+        "Специальный административный район Гонконг"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Гонконг"
+      "name": "Гонконг",
+      "aliases": [
+        "Гонконг, ОАР Китаю",
+        "Особливий адміністративний район Гонконг"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Hongkong"
+      "name": "Hongkong",
+      "aliases": [
+        "SRA Hongkong (Chiny)"
+      ]
     }
   ],
   "states": [

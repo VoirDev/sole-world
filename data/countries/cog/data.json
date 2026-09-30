@@ -1,6 +1,12 @@
 {
   "id": "CG",
   "name": "Congo",
+  "aliases": [
+    "Congo (Republic)",
+    "Republic of the Congo",
+    "Congo - Brazzaville",
+    "Republic of Congo"
+  ],
   "nativeName": "République du Congo",
   "iso2": "CG",
   "iso3": "COG",
@@ -25,63 +31,124 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "콩고"
+      "name": "콩고",
+      "aliases": [
+        "콩고 공화국",
+        "콩고-브라자빌"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Congo"
+      "name": "Congo",
+      "aliases": [
+        "República do Congo"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Congo"
+      "name": "Congo",
+      "aliases": [
+        "República do Congo",
+        "Congo-Brazzaville"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Republiek Congo"
+      "name": "Republiek Congo",
+      "aliases": [
+        "Congo (Republiek)",
+        "Congo-Brazzaville"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Kongo"
+      "name": "Kongo",
+      "aliases": [
+        "Kongo (RK)",
+        "Kongo - Brazzaville"
+      ]
     },
     {
       "locale": "fa",
-      "name": "جمهوری کنگو"
+      "name": "جمهوری کنگو",
+      "aliases": [
+        "کنگو (جمهوری)",
+        "کنگو - برازویل"
+      ]
     },
     {
       "locale": "de",
-      "name": "Kongo"
+      "name": "Kongo",
+      "aliases": [
+        "Kongo (Republik)",
+        "Republik Kongo",
+        "Kongo-Brazzaville"
+      ]
     },
     {
       "locale": "es",
-      "name": "Congo"
+      "name": "Congo",
+      "aliases": [
+        "Congo (República)",
+        "Congo Brazzaville",
+        "República del Congo"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Congo"
+      "name": "Congo",
+      "aliases": [
+        "République du Congo",
+        "Congo-Brazzaville"
+      ]
     },
     {
       "locale": "ja",
-      "name": "コンゴ共和国"
+      "name": "コンゴ共和国",
+      "aliases": [
+        "コンゴ共和国(ブラザビル)",
+        "コンゴ・ブラザヴィル"
+      ]
     },
     {
       "locale": "it",
-      "name": "Congo"
+      "name": "Congo",
+      "aliases": [
+        "Congo (Repubblica)",
+        "Congo-Brazzaville",
+        "Repubblica del Congo"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "刚果（布）"
+      "name": "刚果（布）",
+      "aliases": [
+        "刚果共和国",
+        "刚果布"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Kongo"
+      "name": "Kongo",
+      "aliases": [
+        "Kongo Cumhuriyeti",
+        "Kongo - Brazavil"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Конго"
+      "name": "Конго",
+      "aliases": [
+        "Конго - Браззавиль"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Конго"
+      "name": "Конго",
+      "aliases": [
+        "Конго (Республіка)",
+        "Конго – Браззавіль"
+      ]
     },
     {
       "locale": "pl",

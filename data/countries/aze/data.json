@@ -1,6 +1,9 @@
 {
   "id": "AZ",
   "name": "Azerbaijan",
+  "aliases": [
+    "Republic of Azerbaijan"
+  ],
   "nativeName": "Azərbaycan",
   "iso2": "AZ",
   "iso3": "AZE",
@@ -28,19 +31,31 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "아제르바이잔"
+      "name": "아제르바이잔",
+      "aliases": [
+        "아제르바이잔 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Azerbaijão"
+      "name": "Azerbaijão",
+      "aliases": [
+        "República do Azerbaijão"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Azerbaijão"
+      "name": "Azerbaijão",
+      "aliases": [
+        "República do Azerbaijão"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Azerbeidzjan"
+      "name": "Azerbeidzjan",
+      "aliases": [
+        "Republiek Azerbeidzjan"
+      ]
     },
     {
       "locale": "hr",
@@ -52,11 +67,17 @@
     },
     {
       "locale": "de",
-      "name": "Aserbaidschan"
+      "name": "Aserbaidschan",
+      "aliases": [
+        "Republik Aserbaidschan"
+      ]
     },
     {
       "locale": "es",
-      "name": "Azerbaiyán"
+      "name": "Azerbaiyán",
+      "aliases": [
+        "República de Azerbaiyán"
+      ]
     },
     {
       "locale": "fr",
@@ -64,7 +85,10 @@
     },
     {
       "locale": "ja",
-      "name": "アゼルバイジャン"
+      "name": "アゼルバイジャン",
+      "aliases": [
+        "アゼルバイジャン共和国"
+      ]
     },
     {
       "locale": "it",
@@ -72,15 +96,24 @@
     },
     {
       "locale": "zh-CN",
-      "name": "阿塞拜疆"
+      "name": "阿塞拜疆",
+      "aliases": [
+        "阿塞拜疆共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Azerbaycan"
+      "name": "Azerbaycan",
+      "aliases": [
+        "Azerbaycan Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Азербайджан"
+      "name": "Азербайджан",
+      "aliases": [
+        "Азербайджанская Республика"
+      ]
     },
     {
       "locale": "uk",
@@ -88,7 +121,10 @@
     },
     {
       "locale": "pl",
-      "name": "Azerbejdżan"
+      "name": "Azerbejdżan",
+      "aliases": [
+        "Republika Azerbejdżanu"
+      ]
     }
   ],
   "states": [

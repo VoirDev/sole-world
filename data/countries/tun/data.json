@@ -1,6 +1,10 @@
 {
   "id": "TN",
   "name": "Tunisia",
+  "aliases": [
+    "Republic of Tunisia",
+    "Tunisian Republic"
+  ],
   "nativeName": "تونس",
   "iso2": "TN",
   "iso3": "TUN",
@@ -29,7 +33,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Tunísia"
+      "name": "Tunísia",
+      "aliases": [
+        "República Tunisina"
+      ]
     },
     {
       "locale": "pt",
@@ -37,7 +44,10 @@
     },
     {
       "locale": "nl",
-      "name": "Tunesië"
+      "name": "Tunesië",
+      "aliases": [
+        "Republiek Tunesië"
+      ]
     },
     {
       "locale": "hr",
@@ -49,27 +59,46 @@
     },
     {
       "locale": "de",
-      "name": "Tunesien"
+      "name": "Tunesien",
+      "aliases": [
+        "Tunesische Republik"
+      ]
     },
     {
       "locale": "es",
-      "name": "Túnez"
+      "name": "Túnez",
+      "aliases": [
+        "Tunicia",
+        "República Tunecina"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Tunisie"
+      "name": "Tunisie",
+      "aliases": [
+        "République tunisienne"
+      ]
     },
     {
       "locale": "ja",
-      "name": "チュニジア"
+      "name": "チュニジア",
+      "aliases": [
+        "チュニジア共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Tunisia"
+      "name": "Tunisia",
+      "aliases": [
+        "Repubblica Tunisina"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "突尼斯"
+      "name": "突尼斯",
+      "aliases": [
+        "突尼斯共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +106,17 @@
     },
     {
       "locale": "ru",
-      "name": "Тунис"
+      "name": "Тунис",
+      "aliases": [
+        "Тунисская Республика"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Туніс"
+      "name": "Туніс",
+      "aliases": [
+        "Туніська Республіка"
+      ]
     },
     {
       "locale": "pl",

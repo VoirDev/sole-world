@@ -1,6 +1,10 @@
 {
   "id": "SA",
   "name": "Saudi Arabia",
+  "aliases": [
+    "Kingdom of Saudi Arabia",
+    "Saudi"
+  ],
   "nativeName": "المملكة العربية السعودية",
   "iso2": "SA",
   "iso3": "SAU",
@@ -33,11 +37,19 @@
     },
     {
       "locale": "pt",
-      "name": "Arábia Saudita"
+      "name": "Arábia Saudita",
+      "aliases": [
+        "Reino da Arábia Saudita"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Saoedi-Arabië"
+      "name": "Saoedi-Arabië",
+      "aliases": [
+        "Koninkrijk Saoedi-Arabië",
+        "Koninkrijk Saudi-Arabië",
+        "Saudi-Arabië"
+      ]
     },
     {
       "locale": "hr",
@@ -45,43 +57,78 @@
     },
     {
       "locale": "fa",
-      "name": "عربستان سعودی"
+      "name": "عربستان سعودی",
+      "aliases": [
+        "عربستان"
+      ]
     },
     {
       "locale": "de",
-      "name": "Saudi-Arabien"
+      "name": "Saudi-Arabien",
+      "aliases": [
+        "Königreich Saudi-Arabien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Arabia Saudí"
+      "name": "Arabia Saudí",
+      "aliases": [
+        "Reino de Arabia Saudí",
+        "Reino de Arabia Saudita",
+        "Arabia Saudita"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Arabie saoudite"
+      "name": "Arabie saoudite",
+      "aliases": [
+        "Royaume d’Arabie saoudite"
+      ]
     },
     {
       "locale": "ja",
-      "name": "サウジアラビア"
+      "name": "サウジアラビア",
+      "aliases": [
+        "サウジ",
+        "サウジアラビア王国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Arabia Saudita"
+      "name": "Arabia Saudita",
+      "aliases": [
+        "Regno dell'Arabia Saudita"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "沙特阿拉伯"
+      "name": "沙特阿拉伯",
+      "aliases": [
+        "沙特",
+        "沙特阿拉伯王国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Suudi Arabistan"
+      "name": "Suudi Arabistan",
+      "aliases": [
+        "Suudi Arabistan Krallığı",
+        "Suudistan"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Саудовская Аравия"
+      "name": "Саудовская Аравия",
+      "aliases": [
+        "Королевство Саудовская Аравия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Саудівська Аравія"
+      "name": "Саудівська Аравія",
+      "aliases": [
+        "Королівство Саудівська Аравія"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,9 @@
 {
   "id": "ES",
   "name": "Spain",
+  "aliases": [
+    "Kingdom of Spain"
+  ],
   "nativeName": "España",
   "iso2": "ES",
   "iso3": "ESP",
@@ -31,19 +34,34 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "스페인"
+      "name": "스페인",
+      "aliases": [
+        "에스파냐",
+        "스페인 왕국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Espanha"
+      "name": "Espanha",
+      "aliases": [
+        "Reino da Espanha",
+        "Reino de Espanha"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Espanha"
+      "name": "Espanha",
+      "aliases": [
+        "Reino da Espanha",
+        "Reino de Espanha"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Spanje"
+      "name": "Spanje",
+      "aliases": [
+        "Koninkrijk Spanje"
+      ]
     },
     {
       "locale": "hr",
@@ -51,43 +69,73 @@
     },
     {
       "locale": "fa",
-      "name": "اسپانیا"
+      "name": "اسپانیا",
+      "aliases": [
+        "پادشاهی اسپانیا"
+      ]
     },
     {
       "locale": "de",
-      "name": "Spanien"
+      "name": "Spanien",
+      "aliases": [
+        "Königreich Spanien"
+      ]
     },
     {
       "locale": "es",
-      "name": "España"
+      "name": "España",
+      "aliases": [
+        "Reino de España"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Espagne"
+      "name": "Espagne",
+      "aliases": [
+        "Royaume d'Espagne"
+      ]
     },
     {
       "locale": "ja",
-      "name": "スペイン"
+      "name": "スペイン",
+      "aliases": [
+        "スペイン王国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Spagna"
+      "name": "Spagna",
+      "aliases": [
+        "Regno di Spagna"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "西班牙"
+      "name": "西班牙",
+      "aliases": [
+        "西班牙王国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "İspanya"
+      "name": "İspanya",
+      "aliases": [
+        "İspanya Krallığı"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Испания"
+      "name": "Испания",
+      "aliases": [
+        "Королевство Испания"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Іспанія"
+      "name": "Іспанія",
+      "aliases": [
+        "Королівство Іспанія"
+      ]
     },
     {
       "locale": "pl",

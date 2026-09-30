@@ -1,6 +1,10 @@
 {
   "id": "MD",
   "name": "Moldova",
+  "aliases": [
+    "Moldavia",
+    "Republic of Moldova"
+  ],
   "nativeName": "Moldova",
   "iso2": "MD",
   "iso3": "MDA",
@@ -25,11 +29,17 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "몰도바"
+      "name": "몰도바",
+      "aliases": [
+        "몰도바 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Moldávia"
+      "name": "Moldávia",
+      "aliases": [
+        "República da Moldávia"
+      ]
     },
     {
       "locale": "pt",
@@ -37,11 +47,18 @@
     },
     {
       "locale": "nl",
-      "name": "Moldavië"
+      "name": "Moldavië",
+      "aliases": [
+        "Republiek Moldavië"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Moldavija"
+      "name": "Moldavija",
+      "aliases": [
+        "Republika Moldavija",
+        "Republika Moldova"
+      ]
     },
     {
       "locale": "fa",
@@ -49,19 +66,33 @@
     },
     {
       "locale": "de",
-      "name": "Moldau"
+      "name": "Moldau",
+      "aliases": [
+        "Republik Moldau",
+        "Moldawien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Moldavia"
+      "name": "Moldavia",
+      "aliases": [
+        "República de Moldova"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Moldavie"
+      "name": "Moldavie",
+      "aliases": [
+        "République de Moldavie",
+        "République de Moldova"
+      ]
     },
     {
       "locale": "ja",
-      "name": "モルドバ"
+      "name": "モルドバ",
+      "aliases": [
+        "モルドバ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -77,11 +108,19 @@
     },
     {
       "locale": "ru",
-      "name": "Молдова"
+      "name": "Молдова",
+      "aliases": [
+        "Молдавия",
+        "Республика Молдавия",
+        "Республика Молдова"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Молдова"
+      "name": "Молдова",
+      "aliases": [
+        "Молдавія"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,9 @@
 {
   "id": "MF",
   "name": "Saint Martin",
+  "aliases": [
+    "Collectivity of Saint Martin"
+  ],
   "nativeName": "Saint-Martin",
   "iso2": "MF",
   "iso3": "MAF",
@@ -25,7 +28,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "생마르탱"
+      "name": "생마르탱",
+      "aliases": [
+        "생 마르탱"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -33,11 +39,18 @@
     },
     {
       "locale": "pt",
-      "name": "São Martinho"
+      "name": "São Martinho",
+      "aliases": [
+        "São Martinho (Saint-Martin)",
+        "Coletividade de São Martinho"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Saint-Martin"
+      "name": "Saint-Martin",
+      "aliases": [
+        "Frans-Sint-Maarten"
+      ]
     },
     {
       "locale": "hr",
@@ -45,7 +58,10 @@
     },
     {
       "locale": "fa",
-      "name": "سنت مارتین"
+      "name": "سنت مارتین",
+      "aliases": [
+        "سنت مارتین فرانسه"
+      ]
     },
     {
       "locale": "de",
@@ -57,7 +73,10 @@
     },
     {
       "locale": "fr",
-      "name": "Saint-Martin"
+      "name": "Saint-Martin",
+      "aliases": [
+        "Collectivité de Saint-Martin"
+      ]
     },
     {
       "locale": "ja",
@@ -65,7 +84,10 @@
     },
     {
       "locale": "it",
-      "name": "Saint Martin"
+      "name": "Saint Martin",
+      "aliases": [
+        "Collettività di Saint-Martin"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,7 +99,10 @@
     },
     {
       "locale": "ru",
-      "name": "Сен-Мартен"
+      "name": "Сен-Мартен",
+      "aliases": [
+        "Заморское сообщество Сен-Мартен"
+      ]
     },
     {
       "locale": "uk",

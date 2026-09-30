@@ -1,6 +1,10 @@
 {
   "id": "PN",
   "name": "Pitcairn Islands",
+  "aliases": [
+    "Pitcairn",
+    "Pitcairn, Henderson, Ducie and Oeno Islands"
+  ],
   "nativeName": "Pitcairn Islands",
   "iso2": "PN",
   "iso3": "PCN",
@@ -25,7 +29,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "핏케언 제도"
+      "name": "핏케언 제도",
+      "aliases": [
+        "핏케언제도"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -33,7 +40,10 @@
     },
     {
       "locale": "pt",
-      "name": "Ilhas Picárnia"
+      "name": "Ilhas Picárnia",
+      "aliases": [
+        "Ilhas Pitcairn"
+      ]
     },
     {
       "locale": "nl",
@@ -41,15 +51,24 @@
     },
     {
       "locale": "hr",
-      "name": "Pitcairnovo otočje"
+      "name": "Pitcairnovo otočje",
+      "aliases": [
+        "Pitcairnovi Otoci"
+      ]
     },
     {
       "locale": "fa",
-      "name": "جزایر پیت‌کرن"
+      "name": "جزایر پیت‌کرن",
+      "aliases": [
+        "جزایر پیت کرن"
+      ]
     },
     {
       "locale": "de",
-      "name": "Pitcairninseln"
+      "name": "Pitcairninseln",
+      "aliases": [
+        "Pitcairn-Inseln"
+      ]
     },
     {
       "locale": "es",
@@ -61,7 +80,11 @@
     },
     {
       "locale": "ja",
-      "name": "ピトケアン諸島"
+      "name": "ピトケアン諸島",
+      "aliases": [
+        "ピトケアン島",
+        "ピトケアン"
+      ]
     },
     {
       "locale": "it",
@@ -69,23 +92,42 @@
     },
     {
       "locale": "zh-CN",
-      "name": "皮特凯恩群岛"
+      "name": "皮特凯恩群岛",
+      "aliases": [
+        "皮特凯恩"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Pitcairn Adaları"
+      "name": "Pitcairn Adaları",
+      "aliases": [
+        "Pitcairn Adası"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Острова Питкэрн"
+      "name": "Острова Питкэрн",
+      "aliases": [
+        "о-ва Питкэрн",
+        "Остров Питкэрн",
+        "Питкэрн"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Острови Піткерн"
+      "name": "Острови Піткерн",
+      "aliases": [
+        "Піткерн",
+        "Піткернські острови"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Wyspa Pitcairn"
+      "name": "Wyspa Pitcairn",
+      "aliases": [
+        "Pitcairn",
+        "Wyspy Pitcairn"
+      ]
     }
   ],
   "states": []
