@@ -1,0 +1,13 @@
+# Labels and aliases of every item holding a current ISO 3166-1 alpha-2 code (P297), in the
+# languages the dataset is translated into. %LANGUAGES% is filled in by generate-country-aliases.mjs.
+SELECT ?item ?iso ?kind ?lang ?text WHERE {
+  ?item p:P297 ?statement .
+  ?statement ps:P297 ?iso .
+  FILTER NOT EXISTS { ?statement pq:P582 [] }
+  FILTER NOT EXISTS { ?statement wikibase:rank wikibase:DeprecatedRank }
+  { ?item rdfs:label ?text . BIND("label" AS ?kind) }
+  UNION
+  { ?item skos:altLabel ?text . BIND("alias" AS ?kind) }
+  BIND(LANG(?text) AS ?lang)
+  FILTER(?lang IN ("en", %LANGUAGES%))
+}

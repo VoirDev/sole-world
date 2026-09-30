@@ -90,7 +90,11 @@
     },
     {
       "locale": "fr",
-      "name": "Afrique du Sud"
+      "name": "Afrique du Sud",
+      "aliases": [
+        "République d’Afrique du Sud",
+        "République sud-africaine"
+      ]
     },
     {
       "locale": "ja",

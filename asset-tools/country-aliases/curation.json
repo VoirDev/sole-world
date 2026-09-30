@@ -1,0 +1,5792 @@
+{
+  "drop": {
+    "AD": {
+      "pt": {
+        "Principado dos Vales de Andorra": "archaic",
+        "Principat d'Andorra": "foreign"
+      },
+      "pt-BR": {
+        "Principado dos Vales de Andorra": "archaic"
+      }
+    },
+    "AE": {
+      "fr": {
+        "Émir. ar. unis": "truncated abbreviation"
+      },
+      "it": {
+        "U.A.E.": "foreign"
+      },
+      "ja": {
+        "アラブしゅちょうこくれんぽう": "orthography",
+        "アラブ首長国連合": "orthography",
+        "ア首連": "obscure press abbreviation"
+      },
+      "ko": {
+        "아랍에미리트연합국": "redundant"
+      },
+      "pt": {
+        "U.A.E.": "foreign"
+      },
+      "zh-CN": {
+        "阿拉伯聯合大公國": "foreign: Traditional characters",
+        "阿聯酋": "foreign: Traditional characters"
+      }
+    },
+    "AF": {
+      "en": {
+        "Affghanistan": "archaic",
+        "Affghanisthan": "archaic",
+        "Affghaunistan": "archaic",
+        "Afghania": "archaic",
+        "Afghanisthan": "archaic",
+        "Afghaunistan": "archaic",
+        "Afghaunistaun": "archaic"
+      },
+      "ru": {
+        "Исламский Эмират Афганистан": "political"
+      }
+    },
+    "AG": {
+      "de": {
+        "Dulcina": "archaic"
+      },
+      "zh-CN": {
+        "安地卡及巴布達": "foreign: Traditional characters"
+      }
+    },
+    "AI": {
+      "en": {
+        "Malliouhana": "foreign"
+      },
+      "es": {
+        "Archipielago Anguila": "orthography",
+        "Archipielago de Anguila": "orthography"
+      },
+      "fr": {
+        "TQPF": "not a name"
+      },
+      "ja": {
+        "アンギラ共和国": "not-this-country",
+        "アングィラ": "orthography"
+      },
+      "pt": {
+        "Anguiha": "orthography"
+      },
+      "ru": {
+        "Ангилла": "orthography"
+      },
+      "tr": {
+        "Angulya": "orthography"
+      },
+      "uk": {
+        "Анґілья": "orthography"
+      },
+      "zh-CN": {
+        "安吉拉": "non-standard transliteration (also a personal name)",
+        "英屬安圭拉": "foreign: Traditional characters"
+      }
+    },
+    "AL": {
+      "en": {
+        "People's Republic of Albania": "archaic",
+        "Republika Popullore Socialiste e Shqiperise": "foreign",
+        "Republika Popullore e Shqiperise": "foreign",
+        "Shqipërisë": "foreign"
+      },
+      "fa": {
+        "البانیا": "foreign"
+      },
+      "ru": {
+        "Шкиприя": "foreign"
+      },
+      "uk": {
+        "Альбанїя": "orthography"
+      },
+      "zh-CN": {
+        "阿爾巴尼亞": "foreign: Traditional characters"
+      }
+    },
+    "AM": {
+      "en": {
+        "Hayastan": "foreign",
+        "Hayastani Hanrapetut’yun": "foreign",
+        "Հայաստան": "foreign"
+      },
+      "es": {
+        "Hayastan": "foreign"
+      },
+      "hr": {
+        "Hayastan": "foreign",
+        "Hayastani Hanrapetut’yun": "foreign",
+        "Հայաստան": "foreign",
+        "Հայաստանի Հանրապետություն": "foreign"
+      },
+      "ja": {
+        "アルツ": "not-this-country"
+      },
+      "ko": {
+        "하야스탄": "foreign: Armenian endonym",
+        "하야스탄 공화국": "foreign: Armenian endonym"
+      },
+      "pt": {
+        "Hayastan": "foreign"
+      },
+      "ru": {
+        "Айастан": "foreign"
+      },
+      "zh-CN": {
+        "亞美尼亞": "foreign: Traditional characters",
+        "阿美尼亞": "foreign: Traditional characters"
+      }
+    },
+    "AO": {
+      "de": {
+        "Ngola": "foreign"
+      },
+      "en": {
+        "Ngola": "archaic"
+      },
+      "ja": {
+        "諳喀剌": "archaic"
+      },
+      "pl": {
+        "Ꜵ": "garbage character"
+      },
+      "pt": {
+        "Ꜵ": "junk character"
+      },
+      "zh-CN": {
+        "安哥拉共和國": "foreign: Traditional characters"
+      }
+    },
+    "AQ": {
+      "de": {
+        "Südkontinent": "descriptive epithet"
+      },
+      "es": {
+        "Antártica o Antártida": "combined description",
+        "Antártico": "not-this-country",
+        "Antártida o Antártica": "combined description"
+      },
+      "hr": {
+        "Antartik": "orthography",
+        "Antartika": "orthography"
+      },
+      "zh-CN": {
+        "南極洲": "foreign: Traditional characters"
+      }
+    },
+    "AR": {
+      "en": {
+        "Republica Argentina": "foreign"
+      },
+      "fa": {
+        "آرجنتاین": "foreign"
+      },
+      "ja": {
+        "アルゼンチン連合": "archaic",
+        "アルヘンティーナ": "foreign",
+        "アージェンタイン・リパブリック": "foreign",
+        "アージェンティーナ": "foreign",
+        "リオ・デ・ラ・プラタ諸州連合": "archaic",
+        "リオ・デ・ラ・プラタ連合州": "archaic",
+        "レプブリカ・アルヘンティーナ": "foreign",
+        "亜尓然丁": "archaic",
+        "亜爾然丁": "archaic",
+        "阿根廷": "foreign"
+      },
+      "zh-CN": {
+        "亚根廷": "orthography",
+        "亜爾然丁": "archaic",
+        "亜爾然廷": "archaic"
+      }
+    },
+    "AS": {
+      "en": {
+        "East Samoa": "archaic",
+        "Samoa, United States": "inverted index form"
+      },
+      "ru": {
+        "Восточное Самоа": "archaic"
+      },
+      "uk": {
+        "Східне Самоа": "archaic"
+      },
+      "zh-CN": {
+        "东萨摩亚": "archaic",
+        "美屬薩摩亞": "foreign: Traditional characters"
+      }
+    },
+    "AT": {
+      "de": {
+        "Zweite Republik": "historical period designation, not a country name"
+      },
+      "ja": {
+        "オーストリー": "archaic"
+      },
+      "zh-CN": {
+        "奧地利": "foreign: Traditional characters",
+        "奧地利共和國": "foreign: Traditional characters"
+      }
+    },
+    "AU": {
+      "en": {
+        "'Straya": "slang",
+        "Aussieland": "slang",
+        "Down Under": "slang",
+        "New Holland": "archaic",
+        "New Hollandia": "archaic",
+        "Nova Hollandia": "archaic",
+        "Oz": "slang",
+        "Stralia": "slang",
+        "Stria": "slang"
+      },
+      "fr": {
+        "Nouvelle-Hollande": "archaic"
+      },
+      "nl": {
+        "Gemenebest Australië": "redundant"
+      },
+      "zh-CN": {
+        "澳": "single-character abbreviation, ambiguous",
+        "澳大利亞": "foreign: Traditional characters",
+        "澳大利亞聯邦": "foreign: Traditional characters",
+        "澳州联邦": "orthography",
+        "澳州聯邦": "foreign: Traditional characters"
+      }
+    },
+    "AW": {
+      "de": {
+        "Land Aruba": "descriptive calque, not used in German"
+      },
+      "en": {
+        "Island of Aruba": "descriptive phrase, not an established name"
+      },
+      "it": {
+        "Paese di Aruba": "descriptive, not a name"
+      },
+      "ja": {
+        "アルーバ": "orthography"
+      },
+      "uk": {
+        "Арубанці": "not-this-country"
+      },
+      "zh-CN": {
+        "阿盧巴": "foreign: Traditional characters",
+        "阿魯巴": "foreign: Traditional characters",
+        "阿魯巴島": "foreign: Traditional characters"
+      }
+    },
+    "AX": {
+      "de": {
+        "Ahvenanmaa": "foreign",
+        "Landskapet Åland": "foreign"
+      },
+      "en": {
+        "Aaland": "orthography",
+        "Aaland Islands": "orthography",
+        "Ahvenanmaa": "foreign",
+        "Aland Isles": "redundant",
+        "Åland region": "descriptive phrase, not an established name"
+      },
+      "es": {
+        "Ahvenanmaa": "foreign"
+      },
+      "fa": {
+        "جزایر الند": "orthography"
+      },
+      "fr": {
+        "Aaland": "orthography",
+        "Ahvenanmaa": "foreign"
+      },
+      "it": {
+        "Ahvenanmaa": "foreign"
+      },
+      "ko": {
+        "아흐베난마 제도": "foreign: transliteration of Finnish endonym, not used"
+      },
+      "pt": {
+        "Aaland": "orthography",
+        "Ahvenanmaa": "foreign",
+        "Ilhas Aaland": "orthography",
+        "Região de Åland": "description"
+      },
+      "zh-CN": {
+        "阿赫韦南马": "foreign: transliteration of Finnish endonym, not used"
+      }
+    },
+    "AZ": {
+      "fa": {
+        "آذربایجان جداشده": "political/irredentist label, not a name",
+        "آذربایجان شوروی": "archaic",
+        "جمهوری آران": "political/irredentist label, not a name",
+        "جمهوری باکو": "political/irredentist label, not a name"
+      },
+      "zh-CN": {
+        "亞塞拜然": "foreign: Traditional characters",
+        "亞塞拜疆": "foreign: Traditional characters"
+      }
+    },
+    "BA": {
+      "es": {
+        "Bosnia-Herzegovia": "orthography",
+        "República de Bosnia": "not-this-country"
+      },
+      "pt": {
+        "Bósnia & Herzegovina": "redundant",
+        "Categoria:Bósnia-Herzegovina": "wiki category"
+      },
+      "uk": {
+        "Боснія й Герцеґовина": "orthography",
+        "Боснія та Герцеґовина": "orthography",
+        "Боснія та Герцоговина": "orthography",
+        "Боснія і Герцеґовина": "orthography",
+        "Боснія і Герцоговина": "orthography",
+        "Федерація Боснії і Герцеговини": "not-this-country"
+      },
+      "zh-CN": {
+        "波士尼亚与黑塞哥维纳": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "波士尼亞與赫塞哥維納": "foreign: Traditional characters",
+        "波斯尼亞和黑塞哥維那": "foreign: Traditional characters",
+        "波赫": "foreign: Taiwan/HK transliteration, not mainland usage"
+      }
+    },
+    "BB": {
+      "en": {
+        "BAR": "sports/ISO/vehicle code, not a name",
+        "Barbadoes": "archaic"
+      },
+      "zh-CN": {
+        "巴貝多": "foreign: Traditional characters"
+      }
+    },
+    "BD": {
+      "en": {
+        "Bangla Desh": "orthography",
+        "Country of Bengal": "not-this-country",
+        "Land of Bengal": "not-this-country"
+      },
+      "ja": {
+        "バングラディッシュ": "redundant",
+        "バングラデシュ人民共和國": "orthography",
+        "孟": "bare single-kanji abbreviation, not a standalone name",
+        "孟加拉": "foreign"
+      },
+      "zh-CN": {
+        "孟加拉人民共和國": "foreign: Traditional characters",
+        "孟加拉國": "foreign: Traditional characters"
+      }
+    },
+    "BE": {
+      "fa": {
+        "بلجیم": "foreign"
+      },
+      "fr": {
+        "Belg.": "truncated abbreviation"
+      },
+      "ja": {
+        "白耳義": "archaic"
+      },
+      "ko": {
+        "벨기에왕국": "redundant"
+      },
+      "ru": {
+        "Belgique": "foreign"
+      },
+      "zh-CN": {
+        "比利時": "foreign: Traditional characters",
+        "比利時王國": "foreign: Traditional characters"
+      }
+    },
+    "BF": {
+      "fr": {
+        "Burk. F.": "truncated abbreviation",
+        "Burk. Faso": "truncated abbreviation",
+        "Pays des Hommes intègres": "slang"
+      },
+      "it": {
+        "Alto Volta": "archaic"
+      },
+      "ja": {
+        "ブルキナ共和国": "never an official name"
+      },
+      "pl": {
+        "Górna Wolta": "archaic"
+      },
+      "pt-BR": {
+        "Burkina Fasso": "orthography"
+      },
+      "zh-CN": {
+        "布吉納法索": "foreign: Traditional characters",
+        "布基納法索": "foreign: Traditional characters"
+      }
+    },
+    "BG": {
+      "en": {
+        "Bulgarian Republic": "not an official or common name"
+      },
+      "fa": {
+        "بلغاریا": "foreign"
+      },
+      "fr": {
+        "Bulg.": "truncated abbreviation"
+      },
+      "ja": {
+        "ブルガリヤ": "orthography",
+        "勃": "bare single-kanji abbreviation, not a standalone name",
+        "勃牙利": "archaic"
+      },
+      "ko": {
+        "벌가리아": "orthography",
+        "벌가리야": "orthography"
+      },
+      "uk": {
+        "Болгарщина": "archaic"
+      },
+      "zh-CN": {
+        "保加利亞": "foreign: Traditional characters"
+      }
+    },
+    "BH": {
+      "en": {
+        "Bahrein Islands": "archaic",
+        "Dawlat al-Bahrain": "foreign",
+        "Mamlakat al-Baḥrayn": "foreign"
+      },
+      "es": {
+        "Reino de Barein": "orthography"
+      },
+      "pt-BR": {
+        "Bareine": "orthography"
+      }
+    },
+    "BI": {
+      "en": {
+        "Gouvernement du Burundi": "foreign",
+        "Republika y'Uburundi": "foreign"
+      },
+      "ja": {
+        "ブルンディ共和国": "redundant"
+      },
+      "pl": {
+        "RB": "not a genuine abbreviation"
+      },
+      "zh-CN": {
+        "布隆迪共和國": "foreign: Traditional characters",
+        "蒲隆地": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "蒲隆地共和國": "foreign: Traditional characters"
+      }
+    },
+    "BJ": {
+      "ja": {
+        "貝甯": "archaic"
+      },
+      "ko": {
+        "다호메이": "archaic"
+      },
+      "zh-CN": {
+        "貝南": "foreign: Traditional characters",
+        "貝南共和國": "foreign: Traditional characters",
+        "貝寧": "foreign: Traditional characters",
+        "貝寧共和國": "foreign: Traditional characters"
+      }
+    },
+    "BL": {
+      "de": {
+        "Carénage": "not-this-country",
+        "Saint Barts": "redundant",
+        "Schwedisch-Westindien": "archaic",
+        "St. Barths": "redundant"
+      },
+      "en": {
+        "Collectivite de Saint-Barthelemy": "foreign",
+        "Ile Saint-Barthelemy": "foreign",
+        "Ouanalao": "foreign",
+        "Saint Barths": "redundant",
+        "Saint Barts": "redundant",
+        "Saint Bartz": "orthography",
+        "St barths": "redundant"
+      },
+      "es": {
+        "Collectivite d'outre-mer de Saint-Barthelemy": "foreign",
+        "Isla de Saint Barthelemy": "orthography",
+        "Isla de San Bartolome": "orthography",
+        "Saint-Barthélémy": "orthography",
+        "San Bartalome": "orthography"
+      },
+      "fa": {
+        "سنت بارثلمی": "orthography"
+      },
+      "fr": {
+        "Collectivite d'outre-mer de Saint-Barthelemy": "orthography"
+      },
+      "ja": {
+        "サン・バルテルミ島": "redundant",
+        "サン・バルテレミー島": "redundant",
+        "セント・バーツ島": "redundant"
+      },
+      "pt": {
+        "Saint-barthélemy": "orthography"
+      },
+      "zh-CN": {
+        "圣巴托罗缪岛": "redundant",
+        "聖巴托洛繆島": "foreign: Traditional characters",
+        "聖巴泰勒米": "foreign: Traditional characters",
+        "聖巴瑟米": "foreign: Traditional characters"
+      }
+    },
+    "BM": {
+      "en": {
+        "Barmuda": "archaic",
+        "Barmuda I.": "archaic",
+        "Barmuda Isl.": "archaic",
+        "Barmuda Islands": "archaic",
+        "Barmudas": "archaic",
+        "Bermoothes": "archaic",
+        "Bermudas": "colloquial plural, ambiguous",
+        "Bermudian Islands": "redundant",
+        "Colony of Bermuda": "archaic",
+        "Devil's Isles": "archaic",
+        "Isle of Devils": "archaic",
+        "Somers Islands": "archaic",
+        "Somers Isles": "archaic",
+        "Summer's Isles": "archaic",
+        "Territory of Bermuda": "descriptive phrase, not an established name",
+        "Virgineola": "archaic"
+      },
+      "es": {
+        "Isla Saint David's": "not-this-country",
+        "Islas Saint Davids": "not-this-country"
+      },
+      "fa": {
+        "مجموعه جزایر برمودا": "redundant"
+      },
+      "it": {
+        "Bermudiano": "not-this-country"
+      },
+      "ja": {
+        "バーミューダ": "redundant",
+        "バーミューダ島": "redundant"
+      },
+      "ko": {
+        "대서양의 버뮤다": "description",
+        "마의 제도": "slang",
+        "바뮤다": "orthography",
+        "바뮤다 재도": "orthography",
+        "버뮤다 식민지": "description",
+        "버뮤다 영토": "description",
+        "버뮤츠": "orthography",
+        "비르기네올라": "not a name in use",
+        "소머스 제도": "archaic"
+      },
+      "pl": {
+        "Wyspy Diabła": "archaic",
+        "Wyspy Somersa": "archaic"
+      },
+      "zh-CN": {
+        "Bermuda": "foreign",
+        "百幕達": "foreign: Traditional characters",
+        "百慕達": "foreign: Traditional characters",
+        "百慕達群島": "foreign: Traditional characters"
+      }
+    },
+    "BN": {
+      "en": {
+        "Negara Brunei Darussalam": "foreign"
+      },
+      "it": {
+        "Nagara Brunei Darussalam": "foreign"
+      },
+      "zh-CN": {
+        "文莱和平之国": "redundant",
+        "文萊": "foreign: Traditional characters",
+        "文萊和平之國": "foreign: Traditional characters",
+        "文萊達魯薩蘭國": "foreign: Traditional characters",
+        "汶莱": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "汶莱和平之国": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "汶莱达鲁萨兰国": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "汶萊": "foreign: Traditional characters",
+        "汶萊和平之國": "foreign: Traditional characters",
+        "汶萊達魯薩蘭國": "foreign: Traditional characters"
+      }
+    },
+    "BO": {
+      "zh-CN": {
+        "玻利維亞": "foreign: Traditional characters"
+      }
+    },
+    "BQ": {
+      "es": {
+        "Caribisch Nederland": "foreign",
+        "Karibische Niederlande": "foreign"
+      },
+      "it": {
+        "Municipalità olandesi d'oltremare": "description"
+      },
+      "ja": {
+        "カリビアン・オランダ": "redundant",
+        "カリビアン・ネザーランド": "redundant",
+        "カリブ・ネザーランド": "redundant"
+      },
+      "nl": {
+        "Bijzondere gemeente": "description (special municipality)",
+        "Caraibisch Nederland": "orthography"
+      },
+      "ru": {
+        "БЭС-острова": "redundant",
+        "Бонайре, Саба и Синт-Эстатиус": "redundant",
+        "Карибская Голландия": "non-standard name",
+        "Карибские Нидерландские острова": "redundant",
+        "Нидерландские Карибские острова": "redundant",
+        "Нидерланды Карибские": "redundant",
+        "Острова БЕС": "redundant",
+        "Острова БЭС": "redundant",
+        "Острова Бонайре, Синт-Эстатиус и Саба": "redundant"
+      },
+      "uk": {
+        "Острови BES": "foreign"
+      },
+      "zh-CN": {
+        "三個島": "description (Traditional characters)",
+        "荷蘭加勒比區": "foreign: Traditional characters"
+      }
+    },
+    "BR": {
+      "fa": {
+        "برازیل": "foreign"
+      },
+      "fr": {
+        "Amérique lusophone": "not-this-country",
+        "Auriverde": "slang",
+        "Brazil": "foreign",
+        "Bré.": "truncated abbreviation",
+        "Brés.": "truncated abbreviation",
+        "Brésilien": "not-this-country",
+        "Brésilienne": "not-this-country",
+        "Brézil": "orthography",
+        "République des États-Unis du Brésil": "archaic"
+      },
+      "ja": {
+        "伯剌西爾": "archaic"
+      },
+      "pt": {
+        "Pindorama": "slang"
+      },
+      "pt-BR": {
+        "Pindorama": "slang"
+      },
+      "ru": {
+        "Estados Unidos del Brazil": "foreign"
+      },
+      "uk": {
+        "Бразілія": "orthography"
+      }
+    },
+    "BS": {
+      "en": {
+        "Bahama Islands": "not-this-country",
+        "Bahamas, The": "inverted index form"
+      },
+      "it": {
+        "Commonwealth delle Bahama": "redundant"
+      },
+      "pt": {
+        "As Bahamas": "redundant"
+      },
+      "zh-CN": {
+        "巴哈馬": "foreign: Traditional characters"
+      }
+    },
+    "BT": {
+      "en": {
+        "BHU": "sports/ISO/vehicle code, not a name"
+      },
+      "zh-CN": {
+        "不丹王國": "foreign: Traditional characters"
+      }
+    },
+    "BV": {
+      "de": {
+        "Bouvetøya": "foreign"
+      },
+      "it": {
+        "Bouvetøya": "foreign"
+      },
+      "ru": {
+        "Буве остров": "orthography"
+      }
+    },
+    "BW": {
+      "en": {
+        "Lefatshe la Botswana": "foreign"
+      },
+      "pt": {
+        "Lefatshe la Botswana": "foreign"
+      },
+      "zh-CN": {
+        "博国": "slang",
+        "博茨瓦納": "foreign: Traditional characters",
+        "博茨瓦納共和國": "foreign: Traditional characters",
+        "波札那": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "波札那共和國": "foreign: Traditional characters"
+      }
+    },
+    "BY": {
+      "de": {
+        "Belorussland": "orthography",
+        "Belorußland": "orthography",
+        "Weißruthenien": "archaic"
+      },
+      "en": {
+        "Belorussia": "archaic",
+        "Bielaruś": "foreign",
+        "Bielorussia": "archaic",
+        "Byeloruss": "archaic",
+        "Byelorussia": "archaic",
+        "Respublika Belarus'": "foreign",
+        "Respublika Bielaruś": "foreign",
+        "White Russia": "archaic",
+        "White Ruthenia": "archaic"
+      },
+      "fr": {
+        "Biélor.": "truncated abbreviation"
+      },
+      "pl": {
+        "Biała Ruś": "archaic"
+      },
+      "ru": {
+        "Белая Русь": "archaic"
+      },
+      "zh-CN": {
+        "白俄": "not-this-country: also denotes White Russian émigrés; ambiguous",
+        "白俄羅斯": "foreign: Traditional characters",
+        "白俄羅斯共和國": "foreign: Traditional characters",
+        "白羅斯": "foreign: Traditional characters"
+      }
+    },
+    "BZ": {
+      "de": {
+        "Britisch Honduras": "archaic"
+      },
+      "it": {
+        "Honduras Britannico": "archaic"
+      },
+      "uk": {
+        "Британський Гондурас": "archaic"
+      },
+      "zh-CN": {
+        "貝里斯": "foreign: Traditional characters"
+      }
+    },
+    "CA": {
+      "es": {
+        "Dominio de Canadá": "archaic",
+        "Norteamérica Británica": "not-this-country"
+      },
+      "it": {
+        "CDN": "vehicle registration code"
+      },
+      "ja": {
+        "キャナダ": "orthography",
+        "加奈陀": "archaic"
+      },
+      "pt-BR": {
+        "América do Norte Britânica": "not-this-country",
+        "CDN": "vehicle code"
+      },
+      "zh-CN": {
+        "北村之國": "slang",
+        "村之国": "slang",
+        "村国": "slang"
+      }
+    },
+    "CC": {
+      "de": {
+        "Cocos Islands": "foreign",
+        "Cocos-Keeling-Islands": "foreign",
+        "Keeling Islands": "foreign",
+        "Keelinginseln": "redundant"
+      },
+      "es": {
+        "Coco Islands": "foreign",
+        "Isla de Cocos": "not-this-country",
+        "Keeling Islands": "foreign",
+        "Las Islas Cocos": "redundant"
+      },
+      "fa": {
+        "جزایر نارگیل": "literal translation, not a name in use",
+        "جزایر کوکو": "orthography"
+      },
+      "it": {
+        "Cocos": "redundant",
+        "Cocos Keeling Islands": "foreign",
+        "Keeling": "redundant"
+      },
+      "ja": {
+        "ココス島": "not-this-country"
+      },
+      "nl": {
+        "Cocos Islands": "foreign",
+        "Cocos eilanden": "orthography",
+        "Keeling Eilanden": "orthography",
+        "Keeling islands": "foreign"
+      },
+      "zh-CN": {
+        "可可斯群島": "foreign: Traditional characters",
+        "可可群岛": "orthography",
+        "科科斯群島": "foreign: Traditional characters",
+        "科科斯（基林）群島": "foreign: Traditional characters"
+      }
+    },
+    "CD": {
+      "de": {
+        "DRK": "ambiguous abbreviation (Deutsches Rotes Kreuz), not in common use",
+        "Kongo-Léopoldville": "archaic"
+      },
+      "en": {
+        "Dem. Rep. Congo": "redundant",
+        "Dem. Republic of Congo": "redundant",
+        "Dem. Republic of the Congo": "redundant"
+      },
+      "fa": {
+        "کانگو": "orthography"
+      },
+      "fr": {
+        "Rep. Dem. du Congo": "redundant"
+      },
+      "ja": {
+        "コンゴ": "not-this-country"
+      },
+      "ko": {
+        "킨샤사 콩고": "redundant"
+      },
+      "pt": {
+        "Congo, R.D.": "redundant"
+      },
+      "ru": {
+        "Конго-Леопольдвиль": "archaic"
+      },
+      "tr": {
+        "Kongo DC": "malformed mixed abbreviation"
+      },
+      "uk": {
+        "Демократична Республіка Конґо": "orthography"
+      },
+      "zh-CN": {
+        "剛果民主共和國": "foreign: Traditional characters",
+        "民主剛果": "foreign: Traditional characters"
+      }
+    },
+    "CF": {
+      "en": {
+        "Central Africa": "not-this-country"
+      },
+      "fr": {
+        "Rep. Centrafrique": "orthography"
+      },
+      "nl": {
+        "Centraal-Afrika": "not-this-country"
+      },
+      "zh-CN": {
+        "中非共和國": "foreign: Traditional characters"
+      }
+    },
+    "CG": {
+      "de": {
+        "CGO": "code",
+        "Departements der Republik Kongo": "not-this-country",
+        "Französisch-Kongo": "archaic"
+      },
+      "en": {
+        "CGO": "sports/ISO/vehicle code, not a name",
+        "Rep. Congo": "redundant",
+        "Republique du Congo": "foreign"
+      },
+      "fr": {
+        "Congo Brazza": "slang"
+      },
+      "pt": {
+        "CGO": "code",
+        "Congo-Brazavile": "orthography"
+      },
+      "zh-CN": {
+        "剛果共和國": "foreign: Traditional characters",
+        "布拉柴维尔刚果": "redundant"
+      }
+    },
+    "CH": {
+      "de": {
+        "Confœderatio Helvetica": "redundant"
+      },
+      "en": {
+        "Confoederatio Helvetica": "foreign",
+        "Swiss": "not-this-country"
+      },
+      "fr": {
+        "Helvétie": "slang"
+      },
+      "ja": {
+        "ホルディリディア": "slang"
+      },
+      "pl": {
+        "Confederazione Svizzera": "foreign",
+        "Confederaziun svizra": "foreign",
+        "Confédération suisse": "foreign",
+        "Schweiz": "foreign",
+        "Svizzera": "foreign"
+      },
+      "ru": {
+        "Schweiz": "foreign",
+        "Suisse": "foreign",
+        "Svizzera": "foreign"
+      },
+      "uk": {
+        "Confœderatio Helvetica": "foreign",
+        "Schweiz": "foreign",
+        "Suisse": "foreign",
+        "Svizra": "foreign",
+        "Svizzera": "foreign",
+        "Гельветійська Конфедерація": "Latin-name calque, not in use",
+        "Гельвеція": "archaic",
+        "Конфедерація Гельвеція": "Latin-name calque, not in use",
+        "Швайцарська Конфедерація": "orthography",
+        "Швайцарія": "orthography"
+      },
+      "zh-CN": {
+        "埃德蒙特·舒尔希斯": "not a name of the country"
+      }
+    },
+    "CI": {
+      "en": {
+        "Cote Ivoire": "orthography",
+        "Cote d'lvoire": "orthography",
+        "Republic of Ivory Coast": "redundant"
+      },
+      "ko": {
+        "아이보리코스트": "redundant"
+      },
+      "ru": {
+        "БСК": "not a genuine abbreviation",
+        "Республика Берег Слоновой Кости": "redundant"
+      },
+      "zh-CN": {
+        "科特迪瓦共和國": "foreign: Traditional characters",
+        "象牙海岸共和国": "redundant",
+        "象牙海岸共和國": "foreign: Traditional characters"
+      }
+    },
+    "CK": {
+      "de": {
+        "Cook Inseln": "orthography",
+        "Cook Islands": "foreign",
+        "Hervey-Inseln": "archaic"
+      },
+      "en": {
+        "Cook Group": "descriptive phrase, not an established name",
+        "Hervey Islands": "archaic"
+      },
+      "fr": {
+        "Cook Islands": "foreign",
+        "Kūki 'Āirani": "foreign"
+      },
+      "hr": {
+        "Cook Islands": "foreign",
+        "Kukovi Otoci": "orthography"
+      },
+      "nl": {
+        "Cook Eilanden": "orthography",
+        "Cook Islands": "foreign"
+      },
+      "ru": {
+        "Кука Острова": "orthography"
+      },
+      "tr": {
+        "Cook Adası": "not-this-country",
+        "Cook Islands": "foreign"
+      },
+      "zh-CN": {
+        "庫克群島": "foreign: Traditional characters",
+        "科克群岛": "orthography",
+        "科克群島": "foreign: Traditional characters"
+      }
+    },
+    "CL": {
+      "de": {
+        "Republica de Chile": "foreign"
+      },
+      "en": {
+        "CHI": "sports/ISO/vehicle code, not a name"
+      },
+      "fa": {
+        "چیلی": "foreign"
+      },
+      "tr": {
+        "CHI": "sports code, not a name",
+        "Republica de Chile": "foreign"
+      },
+      "uk": {
+        "Чілі": "orthography"
+      }
+    },
+    "CM": {
+      "zh-CN": {
+        "喀麥隆": "foreign: Traditional characters",
+        "喀麥隆共和國": "foreign: Traditional characters"
+      }
+    },
+    "CN": {
+      "de": {
+        "Rotchina": "slang"
+      },
+      "en": {
+        "China PR": "redundant",
+        "Communist China": "slang",
+        "Red China": "slang"
+      },
+      "fr": {
+        "Chine communiste": "slang",
+        "Chine continentale": "not-this-country"
+      },
+      "it": {
+        "Cina popolare": "archaic"
+      },
+      "ko": {
+        "중화": "not-this-country: ambiguous (Chinese civilization in general)"
+      },
+      "ru": {
+        "Континентальный Китай": "redundant",
+        "Поднебесная": "slang"
+      },
+      "uk": {
+        "Хіни": "archaic"
+      },
+      "zh-CN": {
+        "中": "single-character abbreviation, ambiguous",
+        "中华": "not-this-country: ambiguous (China/Chinese in general, ROC)",
+        "中國": "foreign: Traditional characters",
+        "中國大陸": "foreign: Traditional characters",
+        "中華人民共和國": "foreign: Traditional characters",
+        "共产中国": "slang",
+        "共產中國": "slang",
+        "北京當局": "description (Traditional characters)",
+        "大陆": "generic term, ambiguous",
+        "新中国": "political epithet",
+        "红色中国": "slang",
+        "陆": "single-character abbreviation, ambiguous"
+      }
+    },
+    "CR": {
+      "de": {
+        "Kosta Rika": "orthography",
+        "Kostarika": "orthography",
+        "„Schweiz Mittelamerikas“": "slang"
+      },
+      "ko": {
+        "코스타 리카": "orthography"
+      },
+      "pl": {
+        "Costa Rica": "foreign",
+        "Costarica": "orthography"
+      },
+      "zh-CN": {
+        "哥斯大黎加": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "哥斯達黎加": "foreign: Traditional characters"
+      }
+    },
+    "CU": {
+      "fa": {
+        "کیوبا": "foreign"
+      },
+      "ru": {
+        "Остров Свободы": "slang"
+      }
+    },
+    "CV": {
+      "de": {
+        "Kap Verden": "orthography",
+        "Kapverdisch": "not-this-country",
+        "República de Cabo Verde": "foreign"
+      },
+      "fr": {
+        "Cap-V.": "truncated abbreviation"
+      },
+      "ja": {
+        "夏麦論": "archaic"
+      },
+      "nl": {
+        "Kaap Verdie": "orthography"
+      },
+      "pt": {
+        "Cape Verde": "foreign"
+      },
+      "zh-CN": {
+        "佛德角": "orthography",
+        "維德角": "foreign: Traditional characters",
+        "維德角共和國": "foreign: Traditional characters",
+        "開普威得": "foreign: Traditional characters"
+      }
+    },
+    "CW": {
+      "de": {
+        "Curacoa": "orthography",
+        "Korsou": "foreign"
+      },
+      "en": {
+        "Curacau": "orthography",
+        "Curazao": "foreign",
+        "Curaçoa": "archaic",
+        "Curaςao": "orthography",
+        "Curocao": "orthography"
+      },
+      "ja": {
+        "クラサオ": "foreign"
+      },
+      "ko": {
+        "쿠라사오 섬": "redundant",
+        "쿠라사우 섬": "orthography"
+      },
+      "nl": {
+        "Curaçoa": "orthography"
+      },
+      "zh-CN": {
+        "古拉梳": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "古拉索": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "库拉骚": "orthography",
+        "庫拉索": "foreign: Traditional characters",
+        "庫拉考": "foreign: Traditional characters"
+      }
+    },
+    "CX": {
+      "en": {
+        "Christmas Island, Other Territories": "descriptive phrase, not an established name",
+        "Christmas Island, Other Territories, Australia": "descriptive phrase, not an established name"
+      },
+      "nl": {
+        "Christmas Island": "foreign"
+      },
+      "tr": {
+        "Christmas Island": "foreign"
+      },
+      "zh-CN": {
+        "耶誕島": "foreign: Traditional characters",
+        "聖誕島": "foreign: Traditional characters"
+      }
+    },
+    "CY": {
+      "de": {
+        "Südzypern": "not-this-country"
+      },
+      "en": {
+        "Greek Administration of Southern Cyprus": "political description",
+        "Greek Cypriot State": "political description"
+      },
+      "fr": {
+        "Chypre-Sud": "not-this-country",
+        "Chypriotes": "not-this-country"
+      },
+      "ko": {
+        "그리스 남부 키프로스 행정부": "description",
+        "그리스계 키프로스국": "description",
+        "사이프러스 공화국": "redundant"
+      },
+      "tr": {
+        "Güney Kıbrıs": "political",
+        "Güney Kıbrıs Rum Cumhuriyeti": "redundant",
+        "Güney Kıbrıs Rum Yönetimi": "political",
+        "Kıbrıs Rum Kesimi": "redundant"
+      },
+      "zh-CN": {
+        "希腊塞浦路斯": "description (Greek Cypriot state), not a name"
+      }
+    },
+    "CZ": {
+      "de": {
+        "Czechia": "foreign"
+      },
+      "es": {
+        "Bohemia": "not-this-country"
+      },
+      "fr": {
+        "Rep. Tcheque": "orthography"
+      },
+      "pl": {
+        "Czechia": "foreign",
+        "Česko": "foreign",
+        "Česká republika": "foreign"
+      },
+      "zh-CN": {
+        "捷克共和國": "foreign: Traditional characters"
+      }
+    },
+    "DE": {
+      "en": {
+        "BRD": "foreign"
+      },
+      "fr": {
+        "All.": "truncated abbreviation"
+      },
+      "ko": {
+        "도이칠란트": "foreign: German endonym"
+      },
+      "nl": {
+        "Bondsrepubliek": "generic, ambiguous (any federal republic)"
+      },
+      "pt-BR": {
+        "FRG": "foreign"
+      },
+      "ru": {
+        "Дойчланд": "foreign"
+      },
+      "zh-CN": {
+        "德國": "foreign: Traditional characters",
+        "德意志联邦": "redundant",
+        "德意志聯邦": "foreign: Traditional characters",
+        "德意志聯邦共和國": "foreign: Traditional characters"
+      }
+    },
+    "DJ": {
+      "en": {
+        "Gabuuti": "foreign",
+        "Jabuuti": "foreign",
+        "Jībūtī": "foreign"
+      },
+      "pt": {
+        "Republica do Jibuti": "orthography"
+      },
+      "pt-BR": {
+        "Republica do Djibouti": "orthography"
+      },
+      "zh-CN": {
+        "吉布地": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "吉布地共和國": "foreign: Traditional characters",
+        "吉布提共和國": "foreign: Traditional characters"
+      }
+    },
+    "DK": {
+      "en": {
+        "Danemark": "foreign",
+        "Dania": "foreign",
+        "Danmark": "foreign",
+        "Denmark proper": "not-this-country",
+        "TAN": "sports/ISO/vehicle code, not a name"
+      },
+      "fr": {
+        "Dan.": "truncated abbreviation",
+        "Danemark métropolitain": "not-this-country",
+        "Danemark propre": "not-this-country"
+      },
+      "zh-CN": {
+        "丹麥": "foreign: Traditional characters"
+      }
+    },
+    "DM": {
+      "en": {
+        "DOM": "sports/ISO/vehicle code, not a name",
+        "Island of Dominica": "descriptive phrase, not an established name",
+        "Wai'tu kubuli": "foreign"
+      },
+      "fr": {
+        "Isle de la Dominique": "archaic"
+      },
+      "it": {
+        "Commonwealth of Dominica": "foreign"
+      }
+    },
+    "DO": {
+      "en": {
+        "DomRep": "slang",
+        "Dominicana": "foreign",
+        "RD": "foreign",
+        "Republica Dominicana": "foreign"
+      },
+      "fr": {
+        "Rep. Dominicaine": "redundant"
+      },
+      "pl": {
+        "RD": "not a genuine abbreviation",
+        "República Dominicana": "foreign"
+      },
+      "pt": {
+        "RD": "ambiguous abbreviation"
+      },
+      "tr": {
+        "República Dominicana": "foreign"
+      },
+      "zh-CN": {
+        "多明尼加": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "多明尼加共和国": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "多明尼加共和國": "foreign: Traditional characters",
+        "多米尼加共和國": "foreign: Traditional characters"
+      }
+    },
+    "DZ": {
+      "en": {
+        "Djazaïr": "foreign",
+        "Dzayer": "foreign"
+      },
+      "fr": {
+        "Alg.": "truncated abbreviation",
+        "Dzayer": "foreign",
+        "République algérienne démocratique populaire": "orthography"
+      },
+      "it": {
+        "RDPA": "obscure abbreviation",
+        "Stato dell'Africa settentrionale": "description"
+      },
+      "ja": {
+        "阿爾及": "archaic",
+        "阿爾及利亜": "archaic"
+      },
+      "pt": {
+        "Djazaïr": "foreign",
+        "Dzayer": "foreign"
+      },
+      "pt-BR": {
+        "Djazaïr": "foreign",
+        "Dzayer": "foreign"
+      },
+      "zh-CN": {
+        "阿尔及利亚民主人民共和国": "incorrect word order of official name",
+        "阿爾及利亞": "foreign: Traditional characters",
+        "阿爾及利亞人民民主共和國": "foreign: Traditional characters"
+      }
+    },
+    "EC": {
+      "de": {
+        "Ekuador": "orthography"
+      },
+      "en": {
+        "Ecuadorian State": "descriptive phrase, not an established name",
+        "Republic of Equator": "literal translation",
+        "Republic of the Equator": "literal translation"
+      },
+      "es": {
+        "Estado Ecuatoriano": "description"
+      },
+      "fr": {
+        "L’Équateur": "redundant"
+      },
+      "it": {
+        "Equatore": "archaic",
+        "Repubblica dell'Equatore": "archaic"
+      },
+      "ru": {
+        "Экуадор": "orthography"
+      },
+      "zh-CN": {
+        "厄瓜多": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "厄瓜多共和國": "foreign: Traditional characters",
+        "厄瓜多爾": "foreign: Traditional characters",
+        "厄瓜多爾共和國": "foreign: Traditional characters",
+        "赤道国": "literal translation, not a name",
+        "赤道國": "foreign: Traditional characters"
+      }
+    },
+    "EE": {
+      "en": {
+        "Eesti Vabariik": "foreign",
+        "Estland": "foreign"
+      },
+      "fr": {
+        "Esthonie": "archaic"
+      },
+      "ja": {
+        "エストラント": "foreign"
+      },
+      "pt": {
+        "Eesti Vabariik": "foreign"
+      },
+      "ru": {
+        "Ээсти": "foreign"
+      },
+      "zh-CN": {
+        "愛沙尼亞": "foreign: Traditional characters"
+      }
+    },
+    "EG": {
+      "en": {
+        "Arab Rep. Egypt": "redundant",
+        "Misr": "foreign",
+        "Rep. Egypt": "redundant",
+        "Republic of Egypt": "archaic"
+      },
+      "it": {
+        "Stato dell'Africa settentionale": "description"
+      },
+      "ja": {
+        "ミスライム": "foreign",
+        "ミスル": "foreign",
+        "埃": "bare single-kanji abbreviation, not a standalone name",
+        "埃及": "archaic",
+        "埃国": "archaic"
+      },
+      "ko": {
+        "애급": "archaic"
+      },
+      "pt": {
+        "Republica Arabe do Egipto": "orthography"
+      },
+      "pt-BR": {
+        "Republica Arabe do Egito": "orthography"
+      },
+      "zh-CN": {
+        "阿拉伯埃及共和國": "foreign: Traditional characters"
+      }
+    },
+    "EH": {
+      "de": {
+        "Spanisch-Sahara": "archaic"
+      },
+      "en": {
+        "Southern Provinces": "political description",
+        "Spanish Sahara": "archaic",
+        "West Sahara": "orthography"
+      },
+      "ja": {
+        "西サハラ地域": "redundant",
+        "西サハラ地方": "redundant"
+      },
+      "ru": {
+        "Вади-Захаб": "not-this-country",
+        "Золотая речка": "not-this-country",
+        "Испанская Сахара": "archaic",
+        "Красный ручей": "not-this-country",
+        "Рио-де-Оро": "not-this-country",
+        "Сегиет-эль-Хамра": "not-this-country"
+      },
+      "uk": {
+        "ЗС": "not a genuine abbreviation"
+      }
+    },
+    "ER": {
+      "de": {
+        "Iritriyyā": "foreign"
+      },
+      "en": {
+        "Ertrā": "foreign",
+        "Iritriyā": "foreign"
+      },
+      "ja": {
+        "エリトレア": "orthography"
+      },
+      "uk": {
+        "Ерітрея": "orthography"
+      },
+      "zh-CN": {
+        "厄利垂亞": "foreign: Traditional characters",
+        "厄特": "non-standard abbreviation",
+        "厄立特里亞": "foreign: Traditional characters"
+      }
+    },
+    "ES": {
+      "ja": {
+        "イスパニア": "archaic",
+        "エスパーニャ": "foreign",
+        "スペイン国": "not an actual name form",
+        "西班牙": "archaic",
+        "西班牙王国": "archaic"
+      },
+      "ru": {
+        "Эспанья": "foreign"
+      },
+      "uk": {
+        "Еспанія": "orthography"
+      },
+      "zh-CN": {
+        "日斯巴尼亚": "archaic",
+        "西班牙王國": "foreign: Traditional characters"
+      }
+    },
+    "ET": {
+      "es": {
+        "Asamblea Parlamentaria Federal": "not-this-country"
+      },
+      "fa": {
+        "اتیوپیا": "foreign"
+      },
+      "ja": {
+        "エティオピア": "orthography",
+        "哀提伯": "archaic"
+      },
+      "ru": {
+        "Абессиния": "archaic",
+        "Абиссиния": "archaic"
+      },
+      "zh-CN": {
+        "埃塞俄比亞聯邦民主共和國": "foreign: Traditional characters",
+        "衣索比亞": "foreign: Traditional characters"
+      }
+    },
+    "FI": {
+      "de": {
+        "Finland": "foreign",
+        "Republiken Finland": "foreign",
+        "Suomen tasavalta": "foreign"
+      },
+      "en": {
+        "Finnia": "archaic",
+        "Land of Thousand Lakes": "slang",
+        "Republiken Finland": "foreign",
+        "Suomen tasavalta": "foreign"
+      },
+      "fr": {
+        "Finl.": "truncated abbreviation"
+      },
+      "zh-CN": {
+        "芬蘭": "foreign: Traditional characters"
+      }
+    },
+    "FJ": {
+      "en": {
+        "Fijī Gaṇarājya": "foreign",
+        "Matanitu Tugalala o Viti": "foreign",
+        "Viti": "foreign"
+      },
+      "zh-CN": {
+        "斐濟": "foreign: Traditional characters"
+      }
+    },
+    "FK": {
+      "de": {
+        "Islas Malvinas": "foreign"
+      },
+      "en": {
+        "Malvinas Islands": "redundant"
+      },
+      "es": {
+        "Islas Falklands": "orthography"
+      },
+      "pt": {
+        "Islas Malvinas": "foreign"
+      },
+      "uk": {
+        "Falkland Islands": "foreign",
+        "Islas Malvinas": "foreign"
+      },
+      "zh-CN": {
+        "福克蘭群島": "foreign: Traditional characters",
+        "马岛": "not-this-country: ambiguous (commonly means Madagascar)"
+      }
+    },
+    "FM": {
+      "en": {
+        "Fed. Sts. Micronesia": "redundant",
+        "Fed. Sts. of Micronesia": "redundant",
+        "Federated States of Micronesia, FSM": "redundant"
+      },
+      "fr": {
+        "EFM": "uncommon abbreviation"
+      },
+      "ja": {
+        "ミクロネシア": "not-this-country"
+      },
+      "ru": {
+        "ФШМ": "not a genuine abbreviation"
+      },
+      "uk": {
+        "ФШМ": "not a genuine abbreviation"
+      },
+      "zh-CN": {
+        "密克羅尼西亞聯邦": "foreign: Traditional characters"
+      }
+    },
+    "FO": {
+      "de": {
+        "Faeröerne": "foreign",
+        "Færøerne": "foreign",
+        "Föroyar": "orthography",
+        "Føroyar": "foreign",
+        "Schafsinseln": "nickname/description",
+        "Suðuroyar sýsla": "not-this-country"
+      },
+      "en": {
+        "Faer Oer": "foreign",
+        "Faeroe Is": "redundant",
+        "Faeroe Isles": "redundant",
+        "Faeroer": "foreign",
+        "Faeroerne": "foreign",
+        "Faeroyene": "foreign",
+        "Far Oer": "foreign",
+        "Fareo islands": "orthography",
+        "Faroe Island": "redundant",
+        "Faroe Isles": "redundant",
+        "Faroer": "foreign",
+        "Faroese Islands": "redundant",
+        "Farre": "archaic",
+        "Farre I.": "archaic",
+        "Farre Is.": "archaic",
+        "Farre Isl.": "archaic",
+        "Farre Islands": "archaic",
+        "Foroyar": "foreign",
+        "Fær Øer": "foreign",
+        "Færeyjar": "foreign",
+        "Færoes": "orthography",
+        "Færøer": "foreign",
+        "Færøerne": "foreign",
+        "Færøyene": "foreign",
+        "Føroyar": "foreign",
+        "Sheep Islands": "literal translation"
+      },
+      "es": {
+        "Faeroerne": "foreign",
+        "Færøerne": "foreign",
+        "Føroyar": "foreign",
+        "Isla feroe": "orthography"
+      },
+      "fa": {
+        "جزاير فارو": "orthography",
+        "جزاير فاروئه": "orthography",
+        "فاروئه": "redundant",
+        "فاروئی": "not-this-country"
+      },
+      "fr": {
+        "Færøerne": "foreign",
+        "Føroyar": "foreign"
+      },
+      "hr": {
+        "Ferski otoci": "redundant",
+        "Foroyar": "foreign"
+      },
+      "it": {
+        "Faer Øer": "redundant",
+        "Faeroer": "redundant",
+        "Far Oer": "redundant",
+        "Far Øer": "redundant",
+        "Faroe": "redundant",
+        "Faroer": "redundant",
+        "Foroyar": "foreign",
+        "Føroyar": "foreign",
+        "Isole Faeroer": "redundant",
+        "Isole Far Oer": "redundant",
+        "Isole Faroer": "redundant",
+        "Isole Foroyar": "foreign"
+      },
+      "ja": {
+        "ファロー諸島": "redundant",
+        "フェロー諸島の歴史": "not-this-country",
+        "フェール諸島": "redundant",
+        "フォーリヤル": "foreign"
+      },
+      "ko": {
+        "파로 군도": "orthography",
+        "파로 제도": "orthography",
+        "페로스 제도": "orthography"
+      },
+      "nl": {
+        "Faeroer Eilanden": "orthography",
+        "Faeroerne": "foreign",
+        "Faerøer": "orthography",
+        "Faerøer Eilanden": "orthography",
+        "Faerøereilanden": "orthography",
+        "Faerøerne": "foreign",
+        "Far Oer": "orthography",
+        "Fareur": "orthography",
+        "Faroe Islands": "foreign",
+        "Faroer": "orthography",
+        "Faroer Eilanden": "orthography",
+        "Foroyar": "foreign",
+        "Færöer": "orthography",
+        "Færøer": "orthography",
+        "Færøerne": "foreign",
+        "Føroyar": "foreign"
+      },
+      "pl": {
+        "Færøerne": "foreign",
+        "Føroyar": "foreign"
+      },
+      "pt": {
+        "Faeroe": "foreign",
+        "Faeroes": "foreign",
+        "Faroes": "foreign",
+        "Ilhas Faeroe": "redundant",
+        "Ilhas Faroes": "redundant"
+      },
+      "tr": {
+        "Faroe Islands": "foreign"
+      },
+      "zh-CN": {
+        "法羅群島": "foreign: Traditional characters"
+      }
+    },
+    "FR": {
+      "de": {
+        "RF": "abbreviation not used in German"
+      },
+      "fa": {
+        "جمهوري فرانسه": "orthography",
+        "شبهای سفید": "slang",
+        "فرانسوی": "not-this-country",
+        "کشور فرانسه": "description (\"country of France\")"
+      },
+      "fr": {
+        "L'Hexagone": "slang",
+        "La France": "redundant",
+        "RF": "ambiguous abbreviation"
+      },
+      "ja": {
+        "仏": "bare single-kanji abbreviation, not a standalone name",
+        "仏蘭西": "archaic",
+        "佛": "bare single-kanji abbreviation, not a standalone name",
+        "佛蘭西": "archaic",
+        "法朗西": "archaic"
+      },
+      "ko": {
+        "법국": "archaic",
+        "불란서": "archaic"
+      },
+      "pl": {
+        "Francji": "inflected form"
+      },
+      "ru": {
+        "Пятая Французская Республика": "historical period, not a name",
+        "ФР": "not a genuine abbreviation"
+      },
+      "zh-CN": {
+        "法國": "foreign: Traditional characters",
+        "法蘭西": "foreign: Traditional characters",
+        "法蘭西共和國": "foreign: Traditional characters"
+      }
+    },
+    "GA": {
+      "de": {
+        "République gabonaise": "foreign"
+      },
+      "en": {
+        "Republique Gabonaise": "foreign"
+      },
+      "fr": {
+        "Le Gabon": "redundant"
+      },
+      "ja": {
+        "加蓬": "foreign"
+      },
+      "pt": {
+        "Republica Gabonesa": "orthography"
+      },
+      "zh-CN": {
+        "加彭": "foreign: Taiwan/HK transliteration, not mainland usage"
+      }
+    },
+    "GB": {
+      "de": {
+        "Vereinigte Königreich": "redundant"
+      },
+      "es": {
+        "El Reino Unido": "redundant"
+      },
+      "fr": {
+        "Royaume-Uni de Grande-Bretagne et Irlande du Nord": "redundant"
+      },
+      "ja": {
+        "イギリス王国": "not an actual name form",
+        "エゲレス": "archaic",
+        "大不列顛": "archaic",
+        "英吉利": "archaic"
+      },
+      "nl": {
+        "Verenigd Konkrijk": "orthography",
+        "Verenigde Koningrijk": "orthography"
+      },
+      "pt-BR": {
+        "UKGBNI": "not a name"
+      },
+      "ru": {
+        "Туманный Альбион": "slang"
+      }
+    },
+    "GD": {
+      "en": {
+        "GRN": "sports/ISO/vehicle code, not a name"
+      },
+      "pt": {
+        "Grenada": "foreign"
+      },
+      "zh-CN": {
+        "格林納達": "foreign: Traditional characters",
+        "格瑞那達": "foreign: Traditional characters"
+      }
+    },
+    "GE": {
+      "de": {
+        "Grusien": "archaic",
+        "Grusinien": "archaic"
+      },
+      "en": {
+        "Sakartvelo": "foreign"
+      },
+      "fr": {
+        "Géorg.": "truncated abbreviation"
+      },
+      "ja": {
+        "サカルトベロ": "foreign",
+        "サカルトヴェロ": "foreign",
+        "ジョルジア": "foreign"
+      },
+      "ko": {
+        "사카르트벨로": "foreign: Georgian endonym",
+        "유럽 조지아": "description"
+      },
+      "nl": {
+        "Sakartvelo": "foreign"
+      },
+      "ru": {
+        "Сакартвело": "foreign"
+      },
+      "uk": {
+        "Картвелія": "foreign",
+        "Сакартвело": "foreign"
+      },
+      "zh-CN": {
+        "喬治亞": "foreign: Traditional characters",
+        "格魯吉亞": "foreign: Traditional characters"
+      }
+    },
+    "GF": {
+      "en": {
+        "Guiana, France": "inverted index form",
+        "Guyane": "foreign"
+      },
+      "es": {
+        "Departamento de Guayana": "description"
+      },
+      "ko": {
+        "프랑스령 기아나 주": "redundant"
+      },
+      "pt": {
+        "Guiana, França": "description",
+        "Guyane": "foreign"
+      },
+      "ru": {
+        "Гвиана": "not-this-country"
+      },
+      "uk": {
+        "Гвіана": "not-this-country"
+      },
+      "zh-CN": {
+        "法屬圭亞那": "foreign: Traditional characters"
+      }
+    },
+    "GG": {
+      "de": {
+        "Bailliage de Guernesey": "foreign",
+        "GB-GSY": "ISO code",
+        "Sarmia": "archaic",
+        "Vogtei Guernesey": "orthography",
+        "Vogtei von Guernsey": "redundant"
+      },
+      "en": {
+        "Bailliage de Guernesey": "foreign",
+        "Bailliage dé Guernési": "foreign",
+        "GB-GSY": "sports/ISO/vehicle code, not a name",
+        "GBG": "sports/ISO/vehicle code, not a name",
+        "Giernési": "foreign",
+        "Great Britain Guernsey": "descriptive phrase, not an established name",
+        "Lisia": "archaic",
+        "XA-GG": "sports/ISO/vehicle code, not a name"
+      },
+      "es": {
+        "Bailia del Guernsey": "orthography",
+        "GB-GSY": "code"
+      },
+      "fa": {
+        "گوئرنسی": "orthography"
+      },
+      "hr": {
+        "Guernesey": "foreign"
+      },
+      "ko": {
+        "건지 관할구": "redundant"
+      },
+      "pt": {
+        "Baia de Guernsey": "orthography",
+        "Bailiado de guernesei": "orthography",
+        "Categoria:Guernsey": "wiki category"
+      },
+      "ru": {
+        "Сарния": "archaic"
+      },
+      "tr": {
+        "Guernsey Muhafızlığı": "redundant"
+      },
+      "uk": {
+        "Ґернсі": "orthography"
+      },
+      "zh-CN": {
+        "根息岛": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "根息島": "foreign: Traditional characters",
+        "根息行政區": "foreign: Traditional characters",
+        "根西行政区": "redundant",
+        "根西行政區": "foreign: Traditional characters",
+        "格恩西島": "foreign: Traditional characters",
+        "耿西岛": "orthography"
+      }
+    },
+    "GH": {
+      "it": {
+        "Gana": "orthography"
+      },
+      "uk": {
+        "Золотий Берег": "archaic"
+      },
+      "zh-CN": {
+        "加納": "foreign: Traditional characters",
+        "迦納": "foreign: Traditional characters",
+        "迦納共和國": "foreign: Traditional characters"
+      }
+    },
+    "GI": {
+      "pt": {
+        "O Rochedo de Gibraltar": "description"
+      },
+      "zh-CN": {
+        "直布羅陀": "foreign: Traditional characters"
+      }
+    },
+    "GL": {
+      "de": {
+        "Kalaallit Nunaat": "foreign"
+      },
+      "en": {
+        "Greenlandia": "archaic",
+        "Groenland": "foreign",
+        "Kalaallit Nunaat": "foreign"
+      },
+      "pl": {
+        "Grønland": "foreign",
+        "Kalaallit Nunaat": "foreign"
+      },
+      "pt": {
+        "Grønland": "foreign",
+        "Kalaallit Nunaat": "foreign"
+      },
+      "zh-CN": {
+        "格林兰": "orthography"
+      }
+    },
+    "GM": {
+      "ja": {
+        "岡比亜": "archaic"
+      },
+      "pt": {
+        "Categoria:Gâmbia": "wiki category"
+      },
+      "pt-BR": {
+        "The Gambia": "foreign"
+      },
+      "zh-CN": {
+        "岡比亞": "foreign: Traditional characters",
+        "甘比亞": "foreign: Traditional characters"
+      }
+    },
+    "GN": {
+      "en": {
+        "GUI": "sports/ISO/vehicle code, not a name"
+      },
+      "es": {
+        "Guinea Francesa": "archaic"
+      },
+      "ja": {
+        "ギニー": "foreign",
+        "ギネ": "foreign",
+        "幾内亜": "archaic",
+        "銀名": "archaic"
+      },
+      "pt": {
+        "GUI": "code",
+        "Republique de Guinee": "foreign"
+      },
+      "zh-CN": {
+        "幾內亞": "foreign: Traditional characters",
+        "畿內亞": "foreign: Traditional characters"
+      }
+    },
+    "GP": {
+      "de": {
+        "Gwada": "slang",
+        "Gwadloup": "foreign"
+      },
+      "en": {
+        "Gwada": "slang",
+        "Gwadloup": "foreign",
+        "Karukera": "archaic"
+      },
+      "fr": {
+        "La Guadeloupe": "redundant"
+      },
+      "pt": {
+        "Gwadloup": "foreign"
+      },
+      "zh-CN": {
+        "瓜地洛普": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "瓜德羅普": "foreign: Traditional characters"
+      }
+    },
+    "GQ": {
+      "en": {
+        "GEQ": "sports/ISO/vehicle code, not a name"
+      },
+      "fr": {
+        "Guinee Equat.": "truncated abbreviation"
+      },
+      "zh-CN": {
+        "赤道幾內亞": "foreign: Traditional characters"
+      }
+    },
+    "GR": {
+      "de": {
+        "Hellas, Griechenland": "redundant"
+      },
+      "en": {
+        "Ellada": "foreign",
+        "Greek Republic": "not an official or common name",
+        "Hellas, Greece": "redundant"
+      },
+      "es": {
+        "Hellás": "foreign",
+        "Hélade": "archaic"
+      },
+      "fa": {
+        "یون، یوعون، یوعوآن": "archaic"
+      },
+      "fr": {
+        "Hellas": "foreign"
+      },
+      "ja": {
+        "希": "bare single-kanji abbreviation, not a standalone name",
+        "希臘": "archaic"
+      },
+      "pl": {
+        "Hellada": "archaic"
+      },
+      "ru": {
+        "Эллада": "archaic"
+      },
+      "zh-CN": {
+        "太陽岩石之地": "not a name of the country",
+        "太陽岩石共和国": "not a name of the country",
+        "希倫共和国": "odd transliteration of Hellenic Republic",
+        "希臘共和國": "foreign: Traditional characters",
+        "陽岩共和国": "not a name of the country"
+      }
+    },
+    "GS": {
+      "de": {
+        "South Georgia and the South Sandwich Islands": "foreign"
+      },
+      "en": {
+        "South Georgia": "not-this-country",
+        "South Sandwich Islands": "not-this-country"
+      },
+      "es": {
+        "Georgia del Sur y las Islas Sandwich del Sur": "redundant",
+        "IGSSS": "uncommon abbreviation",
+        "Islas Georgias del Sur e Islas Sandwich del Sur": "redundant",
+        "Islas Georgias del Sur y las Islas Sandwich del Sur": "redundant"
+      },
+      "fa": {
+        "جرجیای جنوبی": "not-this-country"
+      },
+      "fr": {
+        "Islas Georgias del Sur y Sandwich del Sur": "foreign",
+        "South Georgia and the South Sandwich Islands": "foreign"
+      },
+      "hr": {
+        "Južna Džordžija i Otoci Južni Sendvič": "orthography",
+        "Južna Georgija i otočje Sandwich": "redundant"
+      },
+      "it": {
+        "South Georgia e South Sandwich Islands": "foreign"
+      },
+      "ja": {
+        "サウスサンドイッチ島": "not-this-country",
+        "サウスサンドイッチ諸島": "not-this-country",
+        "サウスサンドウィッチ諸島": "not-this-country",
+        "サウスジョージア島": "not-this-country",
+        "サウス・サンドウィッチ諸島": "not-this-country",
+        "サウス・ジョージア島": "not-this-country",
+        "南サンドイッチ諸島": "not-this-country",
+        "南サンドウィッチ諸島": "not-this-country",
+        "南ジョージア島": "not-this-country",
+        "南ジョージア島・南サンドイッチ諸島": "redundant"
+      },
+      "ko": {
+        "사우스샌드위치 제도": "not-this-country: sub-part",
+        "사우스조지아": "not-this-country: sub-part",
+        "사우스조지아 섬": "not-this-country: sub-part"
+      },
+      "nl": {
+        "South Georgia and the South Sandwich Islands": "foreign",
+        "Zuid-Georgie en de Zuidelijke Sandwicheilanden": "orthography"
+      },
+      "pt": {
+        "SGSSI": "foreign"
+      },
+      "ru": {
+        "ЮГЮСО": "not a genuine abbreviation"
+      },
+      "tr": {
+        "Güney Georgia": "not-this-country",
+        "Güney Georgia Adaları": "not-this-country",
+        "Güney Sandwich Adaları": "not-this-country",
+        "South Georgia ve South Sandwich Adaları": "foreign"
+      },
+      "uk": {
+        "Південна Георгія та Південні Сандвічеви острови": "orthography",
+        "Південна Георгія і Південні Сандвічеві острови": "redundant",
+        "Південна Джорджія": "not-this-country",
+        "Південна Джорджія і Південні Сандвічеві Острови": "redundant"
+      },
+      "zh-CN": {
+        "南三明治群島": "foreign: Traditional characters",
+        "南乔治亚与南桑威奇群岛": "redundant",
+        "南乔治亚和南桑德韦奇群岛": "redundant",
+        "南乔治亚岛": "not-this-country: sub-part",
+        "南乔治亚岛和南桑德韦奇岛": "redundant",
+        "南佐治亞及南三文治群島": "foreign: Traditional characters",
+        "南佐治亞島與南桑威奇群島": "foreign: Traditional characters",
+        "南喬治亞": "foreign: Traditional characters",
+        "南喬治亞及南三明治群島": "foreign: Traditional characters",
+        "南喬治亞及南桑威奇群島": "foreign: Traditional characters",
+        "南喬治亞和南三文治群島": "foreign: Traditional characters",
+        "南喬治亞和桑威奇群島": "foreign: Traditional characters",
+        "南喬治亞島和南三明治群島": "foreign: Traditional characters",
+        "南喬治亞群島": "foreign: Traditional characters",
+        "南喬治亞與南三明治群島": "foreign: Traditional characters",
+        "南桑德维奇群岛": "not-this-country: sub-part"
+      }
+    },
+    "GT": {
+      "zh-CN": {
+        "危地馬拉": "foreign: Traditional characters",
+        "瓜地馬拉": "foreign: Traditional characters",
+        "瓜地马拉": "foreign: Taiwan/HK transliteration, not mainland usage"
+      }
+    },
+    "GU": {
+      "de": {
+        "US-GU": "ISO code"
+      },
+      "en": {
+        "Guahan": "foreign",
+        "Island of Guam": "descriptive phrase, not an established name",
+        "US-GU": "sports/ISO/vehicle code, not a name"
+      },
+      "es": {
+        "Guaham": "orthography",
+        "Guahan": "foreign",
+        "Guajam": "orthography",
+        "Guaján": "archaic",
+        "Isla de San Juan": "archaic",
+        "San Juan": "not-this-country"
+      },
+      "fr": {
+        "US-GU": "code"
+      },
+      "ja": {
+        "大宮島": "archaic"
+      },
+      "zh-CN": {
+        "關島": "foreign: Traditional characters"
+      }
+    },
+    "GW": {
+      "de": {
+        "Guiné-Bissau": "foreign"
+      },
+      "en": {
+        "GBS": "sports/ISO/vehicle code, not a name"
+      },
+      "fr": {
+        "Guinée-bissao": "orthography"
+      },
+      "ja": {
+        "ギニアビサオ": "orthography",
+        "幾内亜美須": "archaic"
+      },
+      "zh-CN": {
+        "幾內亞比索": "foreign: Traditional characters",
+        "畿內亞比紹": "foreign: Traditional characters"
+      }
+    },
+    "GY": {
+      "uk": {
+        "Co-operative Republic of Guyana": "foreign"
+      },
+      "zh-CN": {
+        "圭亞那": "foreign: Traditional characters",
+        "蓋亞那": "foreign: Traditional characters"
+      }
+    },
+    "HK": {
+      "es": {
+        "Xianggang": "foreign"
+      },
+      "ja": {
+        "中華人民共和國香港特別行政區": "orthography"
+      },
+      "ko": {
+        "향항": "archaic",
+        "향항특별행정구": "archaic"
+      },
+      "pt": {
+        "Honguecongue": "orthography"
+      },
+      "ru": {
+        "Сянган": "foreign",
+        "Хёнкон": "foreign"
+      },
+      "zh-CN": {
+        "Xiānggǎng": "foreign",
+        "中國香港": "foreign: Traditional characters",
+        "中華人民共和國香港特別行政區": "foreign: Traditional characters",
+        "香港特別行政區": "foreign: Traditional characters",
+        "香港特區": "foreign: Traditional characters"
+      }
+    },
+    "HM": {
+      "de": {
+        "HIMI": "obscure acronym",
+        "Territory of Heard Island and McDonald Islands": "foreign"
+      },
+      "en": {
+        "Heard and Macdonald Islands": "redundant"
+      },
+      "es": {
+        "Isla Heard": "not-this-country",
+        "Isla McDonald": "not-this-country",
+        "Islas McDonald": "not-this-country"
+      },
+      "fa": {
+        "جزیره هرد و جزایر مکدونالد": "orthography"
+      },
+      "fr": {
+        "Heard and McDonald Islands": "foreign",
+        "Ile Heard et iles McDonald": "orthography",
+        "Île Heard et les îles McDonald": "redundant"
+      },
+      "it": {
+        "Isola Heard": "not-this-country",
+        "Isole Heard": "not-this-country",
+        "Isole Heard e Isole McDonald Islands": "orthography"
+      },
+      "ja": {
+        "ハード島": "not-this-country",
+        "ヘアド島": "orthography",
+        "ヘアド島とマクドナルド諸島": "redundant",
+        "ヘアド島・マクドナルド諸島": "redundant",
+        "マクドナルド諸島": "not-this-country"
+      },
+      "ko": {
+        "맥도널드 제도": "not-this-country: sub-part",
+        "허드 섬": "not-this-country: sub-part"
+      },
+      "nl": {
+        "HIMI": "obscure acronym",
+        "Heard Island and McDonald Islands": "foreign",
+        "Heard and McDonald Islands": "foreign",
+        "Heard-eiland": "not-this-country",
+        "Heardeiland": "not-this-country",
+        "McDonald-eiland": "not-this-country",
+        "McDonaldeiland": "not-this-country"
+      },
+      "pt": {
+        "Ilha Heard": "not-this-country",
+        "Ilha McDonald": "not-this-country"
+      },
+      "ru": {
+        "Макдоналд": "not-this-country",
+        "Остров Херд и Острова Макдоналд": "redundant",
+        "Острова Хеда и Макдоналда": "orthography",
+        "Острова Херд и Макдоналд": "redundant",
+        "Херд": "not-this-country",
+        "Херд и Макдональд": "redundant"
+      },
+      "uk": {
+        "Острови Герд і Макдональда": "redundant"
+      },
+      "zh-CN": {
+        "賀得及麥唐納群島": "foreign: Traditional characters",
+        "赫德島": "not-this-country: sub-part (Traditional characters)",
+        "赫德島和麥克唐納群島": "foreign: Traditional characters",
+        "麥克唐納島": "not-this-country: sub-part (Traditional characters)",
+        "麥克唐納群島": "not-this-country: sub-part (Traditional characters)"
+      }
+    },
+    "HN": {
+      "en": {
+        "HON": "sports/ISO/vehicle code, not a name",
+        "Honduran Republic": "redundant"
+      },
+      "es": {
+        "Guaymuras": "archaic",
+        "Higueras": "archaic"
+      },
+      "zh-CN": {
+        "宏都拉斯": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "宏都拉斯共和國": "foreign: Traditional characters"
+      }
+    },
+    "HR": {
+      "en": {
+        "CRO": "sports/ISO/vehicle code, not a name",
+        "RH": "foreign"
+      },
+      "fa": {
+        "کرواتی": "not-this-country"
+      },
+      "pl": {
+        "Hrvatska": "foreign"
+      },
+      "zh-CN": {
+        "克羅地亞": "foreign: Traditional characters",
+        "克羅埃西亞": "foreign: Traditional characters"
+      }
+    },
+    "HT": {
+      "en": {
+        "Ayiti": "foreign",
+        "HAI": "sports/ISO/vehicle code, not a name",
+        "Haitian Republic": "redundant",
+        "Hayti": "archaic"
+      },
+      "it": {
+        "République d'Haïti": "foreign"
+      }
+    },
+    "HU": {
+      "fa": {
+        "هنگری": "foreign"
+      },
+      "hr": {
+        "Madžarska": "orthography"
+      },
+      "uk": {
+        "Мадярщина": "archaic"
+      },
+      "zh-CN": {
+        "匈牙利共和國": "foreign: Traditional characters"
+      }
+    },
+    "ID": {
+      "ru": {
+        "РИ": "not a genuine abbreviation"
+      },
+      "zh-CN": {
+        "努山達拉人民國": "not a name in use"
+      }
+    },
+    "IE": {
+      "en": {
+        "Southern Ireland": "archaic"
+      },
+      "fa": {
+        "ايرلند": "orthography",
+        "ايرلند جنوبي": "orthography",
+        "ايرلندي": "orthography",
+        "ایرلند جنوبی": "not-this-country",
+        "ایرلندی": "not-this-country",
+        "جمهوري ايرلند": "orthography"
+      },
+      "ja": {
+        "アイリッシュ": "not-this-country",
+        "エーラ": "foreign",
+        "エール共和国": "archaic",
+        "ヒベルニア": "archaic",
+        "愛蘭": "archaic"
+      },
+      "ko": {
+        "아이얼랜드": "orthography",
+        "아일랜드공화국": "redundant",
+        "에이레": "foreign: Irish endonym"
+      },
+      "uk": {
+        "Ірляндія": "orthography"
+      },
+      "zh-CN": {
+        "愛爾蘭": "foreign: Traditional characters",
+        "愛爾蘭共和國": "foreign: Traditional characters"
+      }
+    },
+    "IL": {
+      "en": {
+        "Yisrael": "foreign"
+      },
+      "fr": {
+        "État hébreu": "slang"
+      },
+      "pt": {
+        "Estado Judeu": "slang",
+        "Terra Sagrada": "not-this-country"
+      },
+      "pt-BR": {
+        "Terra Sagrada": "not-this-country"
+      },
+      "tr": {
+        "Siyonist devlet": "slang",
+        "İbrani devleti": "description, not a name"
+      }
+    },
+    "IM": {
+      "en": {
+        "I. Man": "redundant",
+        "I. Mann": "redundant",
+        "I. Mannin": "foreign",
+        "Isle of Mann": "orthography",
+        "Man": "ambiguous common word",
+        "Mann": "foreign",
+        "Manx": "not-this-country"
+      },
+      "fr": {
+        "Insula Mona": "foreign"
+      },
+      "it": {
+        "Mann": "foreign"
+      },
+      "ko": {
+        "아일오브맨": "redundant"
+      },
+      "ru": {
+        "Мэн": "not-this-country"
+      },
+      "zh-CN": {
+        "曼島": "foreign: Traditional characters",
+        "馬恩島": "foreign: Traditional characters"
+      }
+    },
+    "IN": {
+      "en": {
+        "Al Hind": "foreign",
+        "Bharat Ganarajya": "foreign",
+        "Bharata": "foreign",
+        "Bharatvarsh": "foreign",
+        "Hindoostan": "archaic",
+        "Indostan": "archaic",
+        "Tenjiku": "foreign",
+        "Tianzhu": "foreign"
+      },
+      "fr": {
+        "Bharatvarsh": "foreign",
+        "Hindustan": "archaic",
+        "Indostan": "archaic",
+        "République d'Inde": "redundant"
+      },
+      "ja": {
+        "インディア": "foreign",
+        "インド国": "not an actual name form",
+        "ブハラトゥ": "foreign",
+        "印": "bare single-kanji abbreviation, not a standalone name",
+        "印度": "archaic",
+        "天竺": "archaic"
+      },
+      "ko": {
+        "바라트": "foreign: Hindi endonym",
+        "힌두스탄": "archaic"
+      },
+      "nl": {
+        "Bharatvarsh": "foreign",
+        "Hindustan": "archaic"
+      },
+      "tr": {
+        "Bharat Ganarajya": "foreign",
+        "Bharata": "foreign",
+        "Bharatvarsh": "foreign"
+      },
+      "uk": {
+        "Бгарат": "orthography"
+      },
+      "zh-CN": {
+        "印": "single-character abbreviation, ambiguous",
+        "天竺": "archaic",
+        "神督": "archaic",
+        "賢豆": "archaic",
+        "贤督": "archaic",
+        "身毒": "archaic"
+      }
+    },
+    "IO": {
+      "de": {
+        "Brit.Geb.Ind.Oz": "abbreviation clutter",
+        "British Indian Ocean Territory": "foreign"
+      },
+      "es": {
+        "Archipielago Chagos": "orthography"
+      },
+      "fa": {
+        "قلمروی اقیانوس هند بریتانیا": "redundant"
+      },
+      "fr": {
+        "BIOT": "foreign",
+        "British Indian Ocean Territory": "foreign",
+        "Territoires britanniques de l'océan Indien": "orthography"
+      },
+      "hr": {
+        "Britanski indijskooceanski teritoriji": "redundant"
+      },
+      "nl": {
+        "British Indian Ocean Territory": "foreign",
+        "Brits Indische Oceaan Territorium": "redundant"
+      },
+      "pt": {
+        "BIOT": "foreign",
+        "O Território Britânico do Oceano Índico": "redundant"
+      },
+      "ru": {
+        "Британская территория Индийского океана": "redundant",
+        "Британские территории в Индийском океане": "redundant"
+      },
+      "uk": {
+        "Британські території в Індійському океані": "redundant"
+      },
+      "zh-CN": {
+        "英屬印度洋地區": "foreign: Traditional characters",
+        "英屬印度洋領地": "foreign: Traditional characters"
+      }
+    },
+    "IR": {
+      "de": {
+        "Persien": "archaic"
+      },
+      "en": {
+        "IRI": "sports/ISO/vehicle code, not a name",
+        "Islamic Rep. Iran": "redundant"
+      },
+      "fa": {
+        "ایرانزمین": "archaic",
+        "پارس": "archaic"
+      },
+      "fr": {
+        "La République Islamique d’Iran": "redundant",
+        "Perse": "archaic"
+      },
+      "ru": {
+        "Персия": "archaic"
+      },
+      "uk": {
+        "Джомгурі-йе Еслɒмі-йє Ірɒн": "foreign",
+        "Персія": "archaic"
+      }
+    },
+    "IS": {
+      "en": {
+        "Icelandic republic": "redundant",
+        "Ysland": "archaic"
+      },
+      "zh-CN": {
+        "冰島": "foreign: Traditional characters",
+        "冰島共和國": "foreign: Traditional characters"
+      }
+    },
+    "IT": {
+      "fr": {
+        "Ital.": "truncated abbreviation"
+      },
+      "it": {
+        "RI": "obscure abbreviation"
+      },
+      "pt": {
+        "Repubblica Italiana": "foreign"
+      },
+      "pt-BR": {
+        "Repubblica Italiana": "foreign"
+      },
+      "tr": {
+        "İtalyan Cumhuriyeti": "redundant"
+      },
+      "zh-CN": {
+        "意大利共和國": "foreign: Traditional characters",
+        "義大利": "foreign: Traditional characters",
+        "義大利共和國": "foreign: Traditional characters"
+      }
+    },
+    "JE": {
+      "en": {
+        "Bailliage de Jerri": "foreign",
+        "Bailliage de Jersey": "foreign",
+        "Balliwick of Jersey": "orthography",
+        "I. Iersey": "archaic",
+        "I. Jersey": "redundant",
+        "Iersey": "archaic",
+        "Iersey I.": "archaic",
+        "Jerri": "foreign",
+        "Jersey I.": "redundant",
+        "Jersey Island": "redundant"
+      },
+      "hr": {
+        "Bailiwick Jersey": "foreign"
+      },
+      "zh-CN": {
+        "澤西": "foreign: Traditional characters"
+      }
+    },
+    "JM": {
+      "de": {
+        "JA": "code"
+      },
+      "en": {
+        "Commonwealth of Jamaica": "not an official or common name",
+        "JA": "ambiguous abbreviation"
+      },
+      "pt": {
+        "JA": "code"
+      },
+      "ru": {
+        "Джамейка": "orthography"
+      },
+      "zh-CN": {
+        "牙買加": "foreign: Traditional characters"
+      }
+    },
+    "JO": {
+      "en": {
+        "Giordania": "foreign",
+        "HKJ": "obscure abbreviation",
+        "State of Jordan": "not an official or common name",
+        "Yarden": "foreign"
+      },
+      "fr": {
+        "Jord.": "truncated abbreviation"
+      },
+      "zh-CN": {
+        "約旦": "foreign: Traditional characters"
+      }
+    },
+    "JP": {
+      "de": {
+        "Land der aufgehenden Sonne": "slang"
+      },
+      "en": {
+        "Iapan": "archaic",
+        "Iapon": "archaic",
+        "Land of Rising Sun": "slang",
+        "Land of the Rising Sun": "slang",
+        "Nihon-koku": "foreign",
+        "Nippon-koku": "foreign"
+      },
+      "fr": {
+        "Jap.": "slang"
+      },
+      "hr": {
+        "Zemlja Izlazećeg Sunca": "slang"
+      },
+      "ja": {
+        "あきつしま": "archaic",
+        "おおやしま": "archaic",
+        "しきしま": "archaic",
+        "しんしゅう": "archaic",
+        "にっぽん": "orthography",
+        "にっぽんこく": "orthography",
+        "にほん": "orthography",
+        "にほんこく": "orthography",
+        "ひいずるくに": "archaic",
+        "ふそう": "archaic",
+        "ジャパン": "foreign",
+        "大八州": "archaic",
+        "扶木之地": "archaic",
+        "扶桑": "archaic",
+        "扶桑国": "archaic",
+        "敷島": "archaic",
+        "日出る国": "archaic",
+        "榑木之地": "archaic",
+        "瑞穂国": "archaic",
+        "神州": "archaic",
+        "秋津島": "archaic",
+        "葦原中国": "archaic"
+      },
+      "pl": {
+        "Kraj Kwitnącej Wiśni": "slang",
+        "Kraj Wschodzącego Słońca": "slang"
+      },
+      "pt": {
+        "Nihon-koku": "foreign",
+        "Nippon-koku": "foreign",
+        "Terra do Sol Nascente": "slang"
+      },
+      "pt-BR": {
+        "Nihon-koku": "foreign",
+        "Nippon-koku": "foreign",
+        "Terra do Sol Nascente": "slang"
+      },
+      "ru": {
+        "Ниппон": "foreign",
+        "Страна восходящего солнца": "slang"
+      },
+      "tr": {
+        "Doğan Güneşin Ülkesi": "slang"
+      },
+      "zh-CN": {
+        "大日本帝国": "not-this-country: historical state",
+        "扶桑": "archaic",
+        "扶桑國": "archaic",
+        "日": "single-character abbreviation, ambiguous"
+      }
+    },
+    "KE": {
+      "it": {
+        "Chenia": "archaic"
+      },
+      "pt": {
+        "Republica do Quenia": "orthography"
+      },
+      "zh-CN": {
+        "肯亞": "foreign: Traditional characters",
+        "肯雅": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "肯雅共和国": "foreign: Taiwan/HK transliteration, not mainland usage"
+      }
+    },
+    "KG": {
+      "it": {
+        "Chirghisistan": "archaic",
+        "Chirghizistan": "archaic",
+        "Repubblica Chirghisa": "archaic"
+      },
+      "nl": {
+        "Kirgistan": "redundant"
+      },
+      "ru": {
+        "КР": "not-this-country",
+        "Республика Киргизия": "redundant"
+      },
+      "zh-CN": {
+        "吉爾吉斯": "foreign: Traditional characters",
+        "吉爾吉斯共和國": "foreign: Traditional characters"
+      }
+    },
+    "KH": {
+      "en": {
+        "Camboya": "foreign",
+        "Campuchia": "foreign",
+        "Kambodzha": "foreign",
+        "Kamboja": "foreign",
+        "Kampuchea": "archaic"
+      },
+      "pt": {
+        "Cambodja": "orthography"
+      },
+      "zh-CN": {
+        "柬埔寨王國": "foreign: Traditional characters"
+      }
+    },
+    "KI": {
+      "fr": {
+        "Îles Gilbert": "archaic"
+      },
+      "zh-CN": {
+        "吉里巴斯": "foreign: Taiwan/HK transliteration, not mainland usage"
+      }
+    },
+    "KM": {
+      "en": {
+        "Juzur al-Qamar": "foreign",
+        "Juzur al-Qumur": "foreign",
+        "Massiwa ya komori": "foreign",
+        "Udzima wa Komori": "foreign",
+        "Union des Comores": "foreign"
+      },
+      "es": {
+        "Comores": "foreign"
+      },
+      "fa": {
+        "مجمعالجزایر قمر": "orthography"
+      },
+      "ja": {
+        "科摩羅": "foreign"
+      },
+      "ru": {
+        "Коморское государство": "never an official name"
+      },
+      "zh-CN": {
+        "科摩羅": "foreign: Traditional characters",
+        "葛摩": "foreign: Traditional characters"
+      }
+    },
+    "KN": {
+      "en": {
+        "Kitts & Nevis": "orthography",
+        "Kitts and Nevis": "orthography",
+        "SKN": "sports/ISO/vehicle code, not a name",
+        "St Kitts and Nevis": "redundant"
+      },
+      "fr": {
+        "Saint-Christopher-et-Nevis": "orthography"
+      },
+      "ja": {
+        "セントキッツ・ネビス": "redundant",
+        "セントキッツ・ネービス": "redundant",
+        "セントクリストファーネイビス": "redundant",
+        "セントクリストファーネビス": "redundant",
+        "セントクリストファーネヴィス": "redundant",
+        "セントクリストファーネービス": "redundant",
+        "セントクリストファー・ネイヴィス": "redundant",
+        "セントクリストファー・ネビス": "redundant",
+        "セントクリストファー・ネービス": "redundant",
+        "セントクリッストファー・ネイビス": "orthography"
+      },
+      "ru": {
+        "СенКитс и Невис": "orthography",
+        "Сент Кристофер и Невис": "orthography"
+      },
+      "zh-CN": {
+        "聖克里斯多福及尼維斯": "foreign: Traditional characters"
+      }
+    },
+    "KP": {
+      "de": {
+        "KVDR": "redundant"
+      },
+      "fr": {
+        "République populaire de Corée": "incorrect official name"
+      },
+      "ja": {
+        "DPRK": "foreign"
+      },
+      "ko": {
+        "조선": "not-this-country: ambiguous with historical Joseon dynasty"
+      },
+      "pt-BR": {
+        "República Popular Democrática da Coreia do Norte": "incorrect official name"
+      },
+      "zh-CN": {
+        "朝鮮民主主義人民共和國": "foreign: Traditional characters"
+      }
+    },
+    "KR": {
+      "de": {
+        "Daehan Minguk": "foreign",
+        "Hanguk": "foreign",
+        "Suedkorea": "orthography"
+      },
+      "en": {
+        "Choson": "archaic; also North Korea endonym (ambiguous)",
+        "Daehan Minguk": "foreign",
+        "Daehanminguk": "foreign",
+        "Hanguk": "foreign",
+        "Korea Republic": "redundant",
+        "Rep. Korea": "redundant",
+        "Silla": "archaic"
+      },
+      "fr": {
+        "Cor. du Sud": "truncated abbreviation",
+        "Hanguk": "foreign"
+      },
+      "ja": {
+        "南朝鮮": "slang"
+      },
+      "ko": {
+        "남조선": "North Korean term, not used by ROK speakers",
+        "코리아": "not-this-country: ambiguous with North Korea"
+      },
+      "pt": {
+        "Daehan Minguk": "foreign",
+        "Daehanminguk": "foreign",
+        "Hanguk": "foreign",
+        "Rep. da Coreia": "redundant"
+      },
+      "ru": {
+        "Тэхан Мингук": "foreign",
+        "ЮК": "not a genuine abbreviation"
+      },
+      "tr": {
+        "G. Kore": "abbreviated headline form"
+      },
+      "zh-CN": {
+        "南朝鲜": "political",
+        "南韓": "foreign: Traditional characters",
+        "大韓民國": "foreign: Traditional characters",
+        "韓國": "foreign: Traditional characters"
+      }
+    },
+    "KW": {
+      "ja": {
+        "クウェイト": "orthography"
+      },
+      "pt": {
+        "Covaite": "orthography",
+        "Kuaite": "orthography",
+        "Kuweit": "foreign"
+      }
+    },
+    "KY": {
+      "de": {
+        "Lagartos": "archaic",
+        "Las Caymanas": "archaic",
+        "Las Tortugas": "archaic"
+      },
+      "en": {
+        "CAY": "sports/ISO/vehicle code, not a name"
+      },
+      "es": {
+        "Cayman Islands": "foreign"
+      },
+      "zh-CN": {
+        "凯门群岛": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "盖曼群岛": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "開曼群島": "foreign: Traditional characters"
+      }
+    },
+    "KZ": {
+      "en": {
+        "Qazaqstan": "foreign",
+        "Republic of Qazaqstan": "foreign"
+      },
+      "es": {
+        "Kazajastán": "orthography",
+        "Kazajia": "orthography",
+        "Qazaqstan": "foreign"
+      },
+      "fr": {
+        "Kazakh.": "truncated abbreviation",
+        "Qazaqstan": "foreign"
+      },
+      "it": {
+        "Cazachistan": "orthography",
+        "Cosacchia": "archaic",
+        "Cosacchistan": "archaic"
+      },
+      "nl": {
+        "Qazaqstan": "foreign"
+      },
+      "pt": {
+        "Republica do Cazaquistao": "orthography"
+      },
+      "zh-CN": {
+        "哈薩克": "foreign: Traditional characters",
+        "哈薩克斯坦": "foreign: Traditional characters",
+        "哈薩克斯坦共和國": "foreign: Traditional characters"
+      }
+    },
+    "LA": {
+      "fr": {
+        "République populaire démocratique du Laos": "orthography"
+      },
+      "pt": {
+        "Lau": "orthography",
+        "Laus": "orthography",
+        "República Democrática Popular Lau": "orthography"
+      },
+      "pt-BR": {
+        "Laus": "orthography",
+        "República Democrática Popular Lau": "orthography"
+      },
+      "zh-CN": {
+        "寮人民民主共和国": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "寮人民民主共和國": "foreign: Traditional characters",
+        "寮国": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "寮國": "foreign: Traditional characters",
+        "老撾": "foreign: Traditional characters",
+        "老撾人民民主共和國": "foreign: Traditional characters"
+      }
+    },
+    "LB": {
+      "en": {
+        "Lubnan": "foreign",
+        "State of Lebanon": "not an official or common name"
+      },
+      "it": {
+        "Reppublica del Libano": "orthography"
+      },
+      "ru": {
+        "Ближневосточная Швейцария": "slang"
+      },
+      "uk": {
+        "Ліва́нська Респу́бліка": "orthography"
+      }
+    },
+    "LC": {
+      "en": {
+        "Hewanorra": "archaic",
+        "Iyonola": "archaic"
+      },
+      "zh-CN": {
+        "聖露西亞": "foreign: Traditional characters"
+      }
+    },
+    "LI": {
+      "de": {
+        "Fürstentum Lichtenstein": "orthography"
+      },
+      "en": {
+        "FL": "sports/ISO/vehicle code, not a name"
+      },
+      "fa": {
+        "لیختناشتاین": "orthography"
+      },
+      "ko": {
+        "FL": "foreign"
+      },
+      "ru": {
+        "Liechtenstein": "foreign"
+      },
+      "zh-CN": {
+        "列支敦斯登": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "列支敦斯登亲王國": "foreign: Traditional characters",
+        "列支敦斯登公國": "foreign: Traditional characters",
+        "力喜騰斯坦因": "archaic"
+      }
+    },
+    "LK": {
+      "en": {
+        "Ceylan": "foreign",
+        "Lanka, Sri": "inverted index form",
+        "SRI": "sports/ISO/vehicle code, not a name",
+        "Serendib": "archaic",
+        "Srilanka": "orthography",
+        "Taprobane": "archaic"
+      },
+      "es": {
+        "Ceilán": "archaic",
+        "Esrilanca": "orthography",
+        "Heladiva": "foreign"
+      },
+      "fa": {
+        "سریلنکا": "orthography"
+      },
+      "fr": {
+        "Ceylan": "archaic",
+        "Serendib": "archaic",
+        "Taprobane": "archaic"
+      },
+      "it": {
+        "Srilanca": "orthography"
+      },
+      "ja": {
+        "スリ・ランカ": "redundant",
+        "スリ・ランカ民主社会主義共和国": "redundant",
+        "セイロン": "archaic",
+        "師子国": "archaic",
+        "錫": "bare single-kanji abbreviation, not a standalone name"
+      },
+      "pt": {
+        "Ceilao": "archaic"
+      },
+      "pt-BR": {
+        "Ceilão": "archaic"
+      },
+      "ru": {
+        "Sri Lanka": "foreign",
+        "Ланкийцы": "not-this-country",
+        "Цейлон": "archaic"
+      },
+      "uk": {
+        "Цейлон": "archaic"
+      },
+      "zh-CN": {
+        "斯國": "foreign: Traditional characters",
+        "斯里蘭卡": "foreign: Traditional characters",
+        "锡兰": "archaic"
+      }
+    },
+    "LR": {
+      "en": {
+        "Liber": "not a name"
+      },
+      "zh-CN": {
+        "利比里亚度量衡系统": "not-this-country: not a country name",
+        "利比里亞": "foreign: Traditional characters",
+        "賴比瑞亞": "foreign: Traditional characters"
+      }
+    },
+    "LS": {
+      "en": {
+        "Mountain Kingdom": "slang"
+      },
+      "it": {
+        "Basotholand": "archaic"
+      },
+      "zh-CN": {
+        "萊索托": "foreign: Traditional characters",
+        "賴索托": "foreign: Traditional characters"
+      }
+    },
+    "LT": {
+      "fr": {
+        "Lithuanie": "orthography"
+      },
+      "hr": {
+        "Litvanija": "foreign"
+      }
+    },
+    "LU": {
+      "de": {
+        "Grand-Duché de Luxembourg": "foreign",
+        "Groussherzogtum Lëtzebuerg": "foreign"
+      },
+      "fa": {
+        "لوكزامبورگ": "orthography",
+        "لوگزامبورگ": "orthography",
+        "لوگسامبورگ": "orthography"
+      },
+      "ja": {
+        "リュクサンブール州": "not-this-country"
+      },
+      "ru": {
+        "Lëtzebuerg": "foreign",
+        "Великое Герцогство": "description"
+      },
+      "uk": {
+        "Люксембурґ": "orthography"
+      },
+      "zh-CN": {
+        "卢森堡公国": "incorrect (Grand Duchy)",
+        "盧森堡": "foreign: Traditional characters",
+        "盧森堡公國": "foreign: Traditional characters",
+        "盧森堡大公國": "foreign: Traditional characters"
+      }
+    },
+    "LV": {
+      "en": {
+        "Latveja": "foreign",
+        "Latvejas Republika": "foreign",
+        "Latvian Republic": "redundant",
+        "Latvija": "foreign",
+        "Latvijas Republika": "foreign",
+        "Leţmо̄": "foreign",
+        "Leţmо̄ Vabāmо̄": "foreign"
+      },
+      "pt": {
+        "Republica da Letonia": "orthography"
+      },
+      "ru": {
+        "Latvija": "foreign"
+      },
+      "zh-CN": {
+        "拉脫維亞": "foreign: Traditional characters"
+      }
+    },
+    "LY": {
+      "en": {
+        "LBA": "sports/ISO/vehicle code, not a name"
+      },
+      "fa": {
+        "لیبویه": "archaic",
+        "لیبیا": "foreign"
+      },
+      "pt": {
+        "Republica da Líbia": "orthography"
+      },
+      "zh-CN": {
+        "利比亞": "foreign: Traditional characters",
+        "利比亞國": "foreign: Traditional characters"
+      }
+    },
+    "MA": {
+      "en": {
+        "Lmaġrib": "foreign",
+        "Maroc": "foreign",
+        "Marocco": "foreign"
+      },
+      "fa": {
+        "المغرب": "foreign",
+        "مغرب": "not-this-country"
+      },
+      "hr": {
+        "Marocco": "foreign"
+      },
+      "ja": {
+        "摩洛哥": "archaic",
+        "茂禄子": "archaic",
+        "莫羅哥": "archaic",
+        "馬羅哥": "archaic"
+      },
+      "ko": {
+        "마그리브 왕국": "not-this-country: region (Maghreb)"
+      },
+      "zh-CN": {
+        "摩洛哥王國": "foreign: Traditional characters",
+        "菲兹王國": "archaic"
+      }
+    },
+    "MC": {
+      "de": {
+        "Principatu de Mu̍negu": "foreign",
+        "Principauté de Monaco": "foreign"
+      },
+      "en": {
+        "Fort-Hercule": "archaic",
+        "Mùnegu": "foreign",
+        "Principality and Diocese of Monaco": "descriptive phrase, not an established name",
+        "Principato di Monaco": "foreign",
+        "Principatu de Mu̍negu": "foreign",
+        "Principauté de Monaco": "foreign"
+      },
+      "fr": {
+        "Fort-Hercule": "archaic",
+        "Principatu de Mu̍negu": "foreign"
+      },
+      "zh-CN": {
+        "摩納哥": "foreign: Traditional characters"
+      }
+    },
+    "MD": {
+      "en": {
+        "Republica Moldova": "foreign"
+      },
+      "es": {
+        "República de Moldovia": "orthography"
+      },
+      "ko": {
+        "몰다비아": "not-this-country: historical principality/region"
+      },
+      "pt": {
+        "Republica Moldova": "orthography",
+        "Republica da Moldavia": "orthography"
+      },
+      "zh-CN": {
+        "摩爾多瓦": "foreign: Traditional characters"
+      }
+    },
+    "ME": {
+      "fa": {
+        "مونتهنگرو": "orthography"
+      },
+      "fr": {
+        "Montén.": "truncated abbreviation"
+      },
+      "ru": {
+        "Crna Gora": "foreign",
+        "Црна Гора": "foreign"
+      },
+      "tr": {
+        "Çernogorya": "foreign"
+      },
+      "zh-CN": {
+        "芒特尼格羅": "foreign: Traditional characters",
+        "蒙地內哥羅": "foreign: Traditional characters",
+        "蒙特內哥羅": "foreign: Traditional characters",
+        "蒙特內格羅": "foreign: Traditional characters",
+        "蒙特尼哥羅": "foreign: Traditional characters",
+        "蒙特尼格羅": "foreign: Traditional characters",
+        "門的內哥羅": "foreign: Traditional characters",
+        "门的内哥罗": "orthography"
+      }
+    },
+    "MF": {
+      "en": {
+        "FR-MF": "sports/ISO/vehicle code, not a name"
+      },
+      "es": {
+        "Colectividad de San Martin": "orthography",
+        "Collectivite de Saint Martin": "foreign"
+      },
+      "fa": {
+        "سنت مارتين فرانسه": "orthography"
+      },
+      "fr": {
+        "FR-MF": "code"
+      },
+      "ko": {
+        "생마르텡": "orthography"
+      },
+      "nl": {
+        "Gemeenschap Sint-Maarten": "not-this-country"
+      },
+      "uk": {
+        "Сен-Мартін": "not-this-country"
+      },
+      "zh-CN": {
+        "法屬聖馬丁": "foreign: Traditional characters",
+        "聖馬丁集體": "foreign: Traditional characters"
+      }
+    },
+    "MG": {
+      "de": {
+        "Madagaskar-Staat": "not an official or common name",
+        "Staat Madagaskar": "not an official or common name"
+      },
+      "en": {
+        "Malagascar": "orthography",
+        "Malagaskar": "orthography"
+      },
+      "es": {
+        "República Malgache": "archaic"
+      },
+      "fa": {
+        "مادغاسکر": "foreign"
+      },
+      "pt": {
+        "Repoblikan'i Madagasikara": "foreign",
+        "República Malgaxe": "archaic",
+        "République de Madagascar": "foreign"
+      },
+      "zh-CN": {
+        "馬達加斯加": "foreign: Traditional characters"
+      }
+    },
+    "MH": {
+      "es": {
+        "Islas de los Pintados": "archaic"
+      },
+      "pt": {
+        "Categoria:Ilhas Marshall": "wiki category"
+      },
+      "zh-CN": {
+        "馬紹爾群島": "foreign: Traditional characters"
+      }
+    },
+    "MK": {
+      "en": {
+        "Makedonia": "foreign",
+        "NM": "sports/ISO/vehicle code, not a name"
+      },
+      "ja": {
+        "FYROM": "foreign"
+      },
+      "ru": {
+        "Вардарская Македония": "not-this-country",
+        "Республика Скопье": "never an official name"
+      },
+      "zh-CN": {
+        "前南斯拉夫馬其頓共和國": "foreign: Traditional characters",
+        "北馬其頓": "foreign: Traditional characters",
+        "北馬其頓共和國": "foreign: Traditional characters",
+        "馬其頓": "foreign: Traditional characters",
+        "馬其頓共和國": "foreign: Traditional characters"
+      }
+    },
+    "ML": {
+      "de": {
+        "Republique du Mali": "foreign"
+      },
+      "ja": {
+        "馬里": "archaic"
+      },
+      "zh-CN": {
+        "馬利共和國": "foreign: Traditional characters"
+      }
+    },
+    "MM": {
+      "de": {
+        "Mjanmar": "orthography",
+        "Myanma": "foreign",
+        "Myanma Naingngan": "foreign",
+        "Myanmarischer Staat": "not an official or common name",
+        "Pye Tawngsu Myanma Naingngan": "foreign",
+        "Pyidaungsu Thamada Myanmar Naing-Ngan-Daw": "foreign",
+        "Pyidaunzu Thanmăda Myăma Nainngandaw": "foreign",
+        "Union von Myanmar": "redundant"
+      },
+      "en": {
+        "Union of Burma": "archaic"
+      },
+      "es": {
+        "Miagmá": "orthography",
+        "Miamá": "orthography",
+        "Mianmá": "orthography"
+      },
+      "fr": {
+        "République de l’Union de Birmanie": "archaic"
+      },
+      "ru": {
+        "Бирманский Союз": "archaic"
+      },
+      "zh-CN": {
+        "緬甸": "foreign: Traditional characters",
+        "緬甸聯邦共和國": "foreign: Traditional characters"
+      }
+    },
+    "MN": {
+      "en": {
+        "Mongol State": "literal translation",
+        "State of Mongolia": "not an official or common name"
+      },
+      "fr": {
+        "MGL": "code",
+        "Mongalie": "orthography",
+        "Mongolie-extérieure": "archaic"
+      },
+      "ko": {
+        "몽고": "archaic"
+      },
+      "pt": {
+        "MGL": "code"
+      },
+      "zh-CN": {
+        "外蒙古": "archaic",
+        "蒙古國": "foreign: Traditional characters"
+      }
+    },
+    "MO": {
+      "de": {
+        "Aomen": "foreign",
+        "Makau": "orthography"
+      },
+      "en": {
+        "Aomen": "foreign",
+        "Macao S.A.R.": "redundant",
+        "Macau SAR, China": "redundant",
+        "Macau Special Administrative Region": "redundant"
+      },
+      "es": {
+        "Provincia de Macao": "archaic"
+      },
+      "ja": {
+        "マカウ": "foreign",
+        "中華人民共和国澳門特別行政区": "redundant",
+        "中華人民共和國澳門特別行政區": "orthography",
+        "東洋のラスベガス": "slang",
+        "澳门": "foreign",
+        "馬交": "foreign"
+      },
+      "ko": {
+        "오문": "archaic",
+        "오문특별행정구": "archaic"
+      },
+      "ru": {
+        "Аомынь": "foreign",
+        "Макъ као": "orthography",
+        "Специальный административный район Аомынь": "foreign"
+      },
+      "uk": {
+        "Аоминь": "foreign"
+      },
+      "zh-CN": {
+        "中華人民共和國澳門特別行政區": "foreign: Traditional characters",
+        "澳門": "foreign: Traditional characters",
+        "澳門特別行政區": "foreign: Traditional characters",
+        "马交": "slang"
+      }
+    },
+    "MP": {
+      "de": {
+        "US-MP": "ISO code"
+      },
+      "en": {
+        "Commonwealth of the Northern Maria Islands": "orthography",
+        "US-MP": "sports/ISO/vehicle code, not a name"
+      },
+      "es": {
+        "Mancomunidad de las Islas Marías del Norte": "orthography"
+      }
+    },
+    "MQ": {
+      "en": {
+        "Jouanacaëra": "archaic",
+        "Madiana": "archaic",
+        "Madinina": "foreign",
+        "Martinica": "foreign",
+        "Matinik": "foreign",
+        "Matinino": "archaic",
+        "Matnik": "foreign",
+        "Wanakaera": "archaic"
+      },
+      "fr": {
+        "Iguanacaera": "archaic",
+        "Jouanacaera": "archaic",
+        "Mart.": "truncated abbreviation"
+      },
+      "zh-CN": {
+        "馬提尼克": "foreign: Traditional characters"
+      }
+    },
+    "MR": {
+      "de": {
+        "Mauritania": "foreign",
+        "République islamique de Mauritanie": "foreign"
+      },
+      "en": {
+        "Agawej": "foreign",
+        "Gannaar": "foreign",
+        "Mauretania": "archaic",
+        "Moritani": "foreign",
+        "Muritanya": "foreign",
+        "Murutaane": "foreign"
+      },
+      "nl": {
+        "Mauretanie": "orthography"
+      },
+      "zh-CN": {
+        "毛里塔尼亞": "foreign: Traditional characters",
+        "茅利塔尼亞": "foreign: Traditional characters"
+      }
+    },
+    "MS": {
+      "en": {
+        "Island of Montserrat": "descriptive phrase, not an established name"
+      },
+      "fa": {
+        "مونتسرات": "orthography"
+      },
+      "zh-CN": {
+        "蒙塞拉特島": "foreign: Traditional characters"
+      }
+    },
+    "MT": {
+      "ru": {
+        "Malta": "foreign"
+      },
+      "zh-CN": {
+        "馬爾他": "foreign: Traditional characters",
+        "馬耳他": "foreign: Traditional characters"
+      }
+    },
+    "MU": {
+      "en": {
+        "MRI": "sports/ISO/vehicle code, not a name",
+        "Maurice": "foreign",
+        "Moris": "foreign"
+      },
+      "pt": {
+        "Mauricias": "orthography",
+        "Republica da Mauricia": "orthography"
+      },
+      "pt-BR": {
+        "Republica de Mauricio": "orthography"
+      },
+      "zh-CN": {
+        "模里西斯": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "毛里裘斯": "foreign: Taiwan/HK transliteration, not mainland usage"
+      }
+    },
+    "MV": {
+      "ja": {
+        "マルジブ": "orthography",
+        "マルダイブ": "orthography",
+        "モルジヴ": "orthography",
+        "モルディヴ共和国": "redundant"
+      },
+      "zh-CN": {
+        "馬爾代夫": "foreign: Traditional characters",
+        "馬爾地夫": "foreign: Traditional characters"
+      }
+    },
+    "MW": {
+      "en": {
+        "MAW": "sports/ISO/vehicle code, not a name"
+      },
+      "zh-CN": {
+        "馬拉威": "foreign: Traditional characters",
+        "馬拉維": "foreign: Traditional characters"
+      }
+    },
+    "MX": {
+      "de": {
+        "Mexihco": "foreign",
+        "México": "foreign"
+      },
+      "en": {
+        "MXN": "currency code",
+        "Mexican United States": "redundant",
+        "US of M": "slang"
+      },
+      "es": {
+        "Estados Unidos Mejicanos": "redundant",
+        "MXN": "currency code",
+        "República Mejicana": "redundant"
+      },
+      "ja": {
+        "メヒコ": "foreign",
+        "墨": "bare single-kanji abbreviation, not a standalone name",
+        "墨西哥": "archaic"
+      },
+      "tr": {
+        "Meksika Birleşik Devletleri": "redundant"
+      },
+      "uk": {
+        "Сполучені Штати Мексики": "redundant"
+      },
+      "zh-CN": {
+        "墨西哥合眾國": "foreign: Traditional characters"
+      }
+    },
+    "MY": {
+      "de": {
+        "Malaysien": "orthography"
+      },
+      "en": {
+        "Malaysia Federation": "redundant"
+      },
+      "fr": {
+        "Fédération de Malaisie": "archaic",
+        "Fédération malaise": "not-this-country"
+      },
+      "it": {
+        "Malaisia": "orthography"
+      },
+      "tr": {
+        "Malezya Federasyonu": "never an official name"
+      },
+      "zh-CN": {
+        "大马": "slang",
+        "馬來西亞": "foreign: Traditional characters",
+        "马国": "slang",
+        "马来西亚联邦": "not an official or common name"
+      }
+    },
+    "MZ": {
+      "de": {
+        "Mocambique": "orthography"
+      },
+      "en": {
+        "Moçambique": "foreign",
+        "República de Moçambique": "foreign"
+      },
+      "pt": {
+        "Republica de Mocambique": "orthography"
+      },
+      "zh-CN": {
+        "莫三比克": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "莫三鼻给": "archaic",
+        "莫国": "slang"
+      }
+    },
+    "NA": {
+      "fa": {
+        "نامیبی": "orthography"
+      },
+      "ko": {
+        "니미비아": "orthography"
+      },
+      "ru": {
+        "Юго-Западная Африка": "archaic"
+      },
+      "uk": {
+        "Південно-Західна Африка": "archaic"
+      },
+      "zh-CN": {
+        "納米比亞": "foreign: Traditional characters",
+        "纳国": "slang"
+      }
+    },
+    "NC": {
+      "de": {
+        "FR-PF": "wrong code (FR-PF is French Polynesia)"
+      },
+      "en": {
+        "New Cal": "slang"
+      },
+      "es": {
+        "Canaquía": "non-standard name",
+        "Neocaledonio": "not-this-country",
+        "Nouvelle Calédonie": "foreign"
+      },
+      "fa": {
+        "نیوکالدونیا": "foreign"
+      },
+      "fr": {
+        "Kanaky Nouvelle-Calédonie": "political"
+      },
+      "hr": {
+        "Collectivité sui generis": "description",
+        "Nova Keledonija": "orthography"
+      },
+      "it": {
+        "Canachia": "not-this-country"
+      },
+      "ja": {
+        "カナキー": "political name, not common usage",
+        "カレドニア": "not-this-country",
+        "ニューカレドニア島": "not-this-country",
+        "ヌーベルカレドニー": "foreign",
+        "ヌーヴェル=カレドニー": "foreign",
+        "ヌーヴェルカレドニー": "foreign"
+      },
+      "ko": {
+        "누벨칼레도니 섬": "not-this-country: main island only",
+        "뉴 칼레도니아": "redundant",
+        "뉴칼레도니아 섬": "not-this-country: main island only"
+      },
+      "pt": {
+        "FR-CN": "code",
+        "Nouvelle-Caledonie": "foreign"
+      },
+      "zh-CN": {
+        "新克里多尼亞": "foreign: Traditional characters",
+        "新卡里多尼亞": "foreign: Traditional characters",
+        "新喀爾多尼亞": "foreign: Traditional characters",
+        "新喀里多尼亚岛": "not-this-country: main island only",
+        "新喀里多尼亚群岛": "redundant",
+        "新喀里多尼亞": "foreign: Traditional characters"
+      }
+    },
+    "NE": {
+      "en": {
+        "Republic Niger": "orthography"
+      },
+      "fa": {
+        "نایجر": "foreign"
+      },
+      "fr": {
+        "NIG": "code"
+      },
+      "pt": {
+        "Categoria:Níger": "wiki category"
+      },
+      "zh-CN": {
+        "尼日": "foreign: Taiwan name; ambiguous with Nigeria",
+        "尼日爾": "foreign: Traditional characters"
+      }
+    },
+    "NF": {
+      "en": {
+        "Norfolk Island, Australia": "descriptive phrase, not an established name",
+        "Norfolk Island, Other Territories": "descriptive phrase, not an established name",
+        "Norfolk Island, Other Territories, Australia": "descriptive phrase, not an established name"
+      },
+      "es": {
+        "Islas Norfolk": "orthography"
+      },
+      "fa": {
+        "جزایر نورفولک": "not-this-country",
+        "جزیره نورفلک": "redundant"
+      },
+      "it": {
+        "Isole Norfolk": "orthography",
+        "Norfolk Island": "foreign"
+      },
+      "ko": {
+        "노르푸크 섬": "orthography",
+        "노포크 제도": "redundant"
+      },
+      "pt": {
+        "Ilha de Norfolque": "orthography",
+        "Ilha de norfolk": "orthography",
+        "Ilha norfolque": "orthography",
+        "NFI": "code"
+      },
+      "ru": {
+        "Норфолк-Остров": "orthography"
+      },
+      "tr": {
+        "Norfolk Island": "foreign"
+      },
+      "zh-CN": {
+        "諾福克島": "foreign: Traditional characters"
+      }
+    },
+    "NG": {
+      "de": {
+        "Bundesrepublik Nigerien": "orthography",
+        "Nigerien": "orthography"
+      },
+      "en": {
+        "Naija": "slang"
+      },
+      "fa": {
+        "نایجریا": "foreign"
+      },
+      "zh-CN": {
+        "奈及利亞": "foreign: Traditional characters",
+        "尼日利亞": "foreign: Traditional characters"
+      }
+    },
+    "NI": {
+      "de": {
+        "Nikaragua": "orthography"
+      },
+      "en": {
+        "NCA": "sports/ISO/vehicle code, not a name"
+      },
+      "fr": {
+        "NCA": "code"
+      },
+      "ja": {
+        "ニカラグァ": "orthography",
+        "ニカラグワ": "orthography"
+      },
+      "pt": {
+        "República da Nicaragua": "orthography"
+      },
+      "uk": {
+        "Нікарагва": "orthography"
+      }
+    },
+    "NL": {
+      "en": {
+        "Kingdom of Netherlands": "redundant",
+        "Nederlanden": "foreign"
+      },
+      "nl": {
+        "KdN": "obscure abbreviation"
+      },
+      "pl": {
+        "Koninkrijk der Nederlanden": "foreign",
+        "Nederland": "foreign"
+      },
+      "zh-CN": {
+        "荷蘭王國": "foreign: Traditional characters"
+      }
+    },
+    "NO": {
+      "fa": {
+        "ناروی": "foreign"
+      },
+      "fr": {
+        "Norv.": "truncated abbreviation"
+      }
+    },
+    "NP": {
+      "en": {
+        "Bal-bo": "foreign",
+        "Bal-po'i yul": "foreign",
+        "Bal-yul": "foreign",
+        "Balbo": "foreign",
+        "Balpo": "foreign",
+        "Balpo-yul": "foreign",
+        "Naipala": "foreign",
+        "Naipál": "foreign",
+        "Ne-pel": "foreign",
+        "Necbal": "foreign",
+        "Nehpal": "foreign",
+        "Nei-pal": "foreign",
+        "Nekbal": "foreign",
+        "Nekpal": "foreign",
+        "Nepall": "foreign",
+        "Nepaul": "foreign",
+        "Nercerri": "foreign",
+        "Ni-po-lo": "foreign",
+        "Ni-po-louo": "foreign",
+        "Niepal": "foreign",
+        "Nipal": "foreign",
+        "Népaal": "foreign",
+        "Pa-eul-pou": "foreign",
+        "Pa-le-pou": "foreign",
+        "Pa-lo-pou": "foreign",
+        "Pai-pou": "foreign",
+        "Palpa": "not-this-country",
+        "Palpou": "foreign"
+      },
+      "fr": {
+        "Nipal": "archaic",
+        "Paï-pou": "archaic"
+      },
+      "ja": {
+        "尼婆羅": "archaic"
+      },
+      "zh-CN": {
+        "Níbó'ěr": "foreign",
+        "尼泊爾": "foreign: Traditional characters"
+      }
+    },
+    "NR": {
+      "de": {
+        "Naoero": "foreign"
+      },
+      "en": {
+        "Naoero": "foreign",
+        "Pleasant Island": "archaic",
+        "Republic of Naoero": "foreign"
+      },
+      "es": {
+        "Naoero": "foreign",
+        "República de Naoero": "foreign"
+      },
+      "fr": {
+        "Naoero": "foreign"
+      },
+      "nl": {
+        "Naoëro": "foreign",
+        "Republiek Naoëro": "foreign"
+      },
+      "pl": {
+        "Pleasant Island": "archaic"
+      },
+      "pt": {
+        "Ilha Aprazível": "archaic",
+        "Naoero": "foreign",
+        "Pleasant Island": "archaic",
+        "República de Naoero": "foreign"
+      },
+      "ru": {
+        "Наоэро": "foreign",
+        "Науэро": "orthography",
+        "Республика Наоэро": "foreign"
+      },
+      "zh-CN": {
+        "瑙魯": "foreign: Traditional characters",
+        "瑙魯共和國": "foreign: Traditional characters",
+        "諾魯": "foreign: Traditional characters"
+      }
+    },
+    "NU": {
+      "fa": {
+        "نیئه": "orthography"
+      },
+      "fr": {
+        "Savage": "archaic"
+      },
+      "it": {
+        "Roccia della Polinesia": "slang"
+      },
+      "ja": {
+        "ニウーエイ": "foreign"
+      },
+      "ru": {
+        "Савидж": "archaic"
+      },
+      "uk": {
+        "Савідж": "archaic"
+      },
+      "zh-CN": {
+        "尼烏埃": "foreign: Traditional characters",
+        "紐埃": "foreign: Traditional characters",
+        "紐埃人口": "not-this-country: not a name",
+        "紐埃島": "foreign: Traditional characters",
+        "紐威": "foreign: Traditional characters",
+        "紐威島": "foreign: Traditional characters",
+        "纽威岛": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "纽鄂岛": "orthography"
+      }
+    },
+    "NZ": {
+      "en": {
+        "Dominion of New Zealand": "archaic"
+      },
+      "ja": {
+        "にゅーじーらんど": "orthography",
+        "新西蘭": "foreign"
+      },
+      "pl": {
+        "Kraj Długiej Białej Chmury": "slang"
+      },
+      "ru": {
+        "НЗ": "not a genuine abbreviation"
+      },
+      "zh-CN": {
+        "新西蘭": "foreign: Traditional characters",
+        "紐西蘭": "foreign: Traditional characters",
+        "纽西兰": "foreign: Taiwan/HK transliteration, not mainland usage"
+      }
+    },
+    "OM": {
+      "en": {
+        "Uman": "foreign"
+      },
+      "fr": {
+        "OMA": "code"
+      },
+      "uk": {
+        "Уман": "orthography"
+      }
+    },
+    "PA": {
+      "fa": {
+        "پانامه": "orthography"
+      },
+      "ru": {
+        "Панамская республика": "redundant"
+      },
+      "zh-CN": {
+        "巴拿馬": "foreign: Traditional characters"
+      }
+    },
+    "PE": {
+      "en": {
+        "Republica del Peru": "foreign"
+      },
+      "fa": {
+        "پیرو": "foreign"
+      },
+      "ja": {
+        "秘露國": "archaic"
+      },
+      "nl": {
+        "Peruaan": "not-this-country",
+        "Peruanen": "not-this-country",
+        "Peruviaan": "not-this-country",
+        "Peruvianen": "not-this-country"
+      },
+      "zh-CN": {
+        "祕魯": "foreign: Traditional characters",
+        "祕魯共和國": "foreign: Traditional characters",
+        "秘魯": "foreign: Traditional characters"
+      }
+    },
+    "PF": {
+      "de": {
+        "Französisch Ozeanien": "archaic",
+        "Polynesie française": "foreign"
+      },
+      "en": {
+        "French Establishments in Oceania": "archaic",
+        "French Oceania": "archaic",
+        "French Settlements in Oceania": "archaic"
+      },
+      "es": {
+        "Francopolinesio": "not-this-country"
+      },
+      "fa": {
+        "پلینزی فرانسه": "orthography",
+        "پولنزی فرانسه": "orthography",
+        "پولینزی فرانسه": "redundant",
+        "پولینزیای فرانسه": "orthography"
+      },
+      "fr": {
+        "F-OH": "code"
+      },
+      "pt": {
+        "Pōrīnetia Farāni": "foreign",
+        "Território Polinésia Francesa": "orthography"
+      },
+      "tr": {
+        "Fransız Polonezya": "orthography"
+      },
+      "uk": {
+        "Полінезія Французька": "orthography"
+      },
+      "zh-CN": {
+        "法属玻利尼西亚": "orthography",
+        "法属玻里尼西亚": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "法屬波利尼西亞": "foreign: Traditional characters",
+        "法屬波利尼西亞群島": "foreign: Traditional characters",
+        "法屬波里尼西亞": "foreign: Traditional characters",
+        "法屬玻里尼西亞": "foreign: Traditional characters"
+      }
+    },
+    "PG": {
+      "de": {
+        "Papua New Guinea": "foreign"
+      },
+      "ru": {
+        "Попуа - Новая Гвинея": "orthography"
+      },
+      "zh-CN": {
+        "巴布亞新幾內亞": "foreign: Traditional characters",
+        "巴布亞新畿內亞": "foreign: Traditional characters",
+        "巴布亞紐幾內亞": "foreign: Traditional characters"
+      }
+    },
+    "PH": {
+      "en": {
+        "Philippine Islands": "archaic"
+      },
+      "fr": {
+        "Phil.": "truncated abbreviation"
+      },
+      "nl": {
+        "Filippijnen": "orthography",
+        "Republiek der Filippijnen": "orthography"
+      },
+      "zh-CN": {
+        "比島": "archaic",
+        "菲律賓": "foreign: Traditional characters",
+        "菲律賓共和國": "foreign: Traditional characters"
+      }
+    },
+    "PK": {
+      "en": {
+        "Hồi Quốc": "foreign",
+        "Republic of Pakistan": "archaic",
+        "Tây Hồi": "foreign"
+      },
+      "ru": {
+        "Ислами́ Джумхури́йе Пакиста́н": "foreign"
+      },
+      "uk": {
+        "Пакістан": "orthography"
+      },
+      "zh-CN": {
+        "巴国": "not-this-country: ambiguous (Pakistan/Panama/Bahamas/Brazil)",
+        "巴基": "slang",
+        "巴基国": "slang"
+      }
+    },
+    "PL": {
+      "fa": {
+        "لهستانی": "not-this-country",
+        "پولند": "foreign"
+      },
+      "ja": {
+        "波": "bare single-kanji abbreviation, not a standalone name",
+        "波蘭": "archaic"
+      },
+      "zh-CN": {
+        "波蘭": "foreign: Traditional characters"
+      }
+    },
+    "PM": {
+      "de": {
+        "FR-PM": "ISO code",
+        "St. Pierre et Miquelon": "foreign"
+      },
+      "en": {
+        "FR-PM": "sports/ISO/vehicle code, not a name",
+        "Saint Pierre & Miquelon": "redundant",
+        "St Pierre and Miquelon": "redundant"
+      },
+      "es": {
+        "Once Mil Vírgenes": "archaic",
+        "San Pedro y Miguelon": "orthography",
+        "San Pier y Miquelon": "orthography"
+      },
+      "fa": {
+        "جزایر سنت پیر و ماژلان": "orthography",
+        "سنت پیر و ماژلان": "orthography"
+      },
+      "fr": {
+        "FR-PM": "code"
+      },
+      "ja": {
+        "サンピエール島": "not-this-country",
+        "サンピエール島およびミクロン島": "redundant",
+        "ミクロン島": "not-this-country"
+      },
+      "pl": {
+        "St. Pierre i Miquelon": "redundant"
+      },
+      "pt": {
+        "Ilhas Verdes": "archaic",
+        "Ilhas das Onze Mil Virgens": "archaic",
+        "Saint-Pierre-et-Miquellon": "orthography"
+      },
+      "tr": {
+        "Saint Pierre and Miquelon": "foreign",
+        "Saint Pierre ve Mikuelon": "orthography"
+      },
+      "zh-CN": {
+        "圣皮耶和密克罗": "orthography",
+        "聖匹及密啟倫群島": "foreign: Traditional characters",
+        "聖皮埃爾島和密克隆島": "foreign: Traditional characters",
+        "聖皮埃蘭和密克隆群島": "foreign: Traditional characters",
+        "聖皮耶與密克隆群島": "foreign: Traditional characters",
+        "聖皮里和米圭隆": "foreign: Traditional characters"
+      }
+    },
+    "PN": {
+      "en": {
+        "Occas Island": "archaic"
+      },
+      "es": {
+        "Las Islas Pitcairn": "redundant"
+      },
+      "fa": {
+        "جزایر پیتکرن": "orthography",
+        "جزیره پیت کرن": "redundant",
+        "جزیره پیتکرن": "redundant"
+      },
+      "hr": {
+        "Pitcairn otoci": "redundant",
+        "Pitkairn": "orthography",
+        "Pitkern": "orthography"
+      },
+      "ko": {
+        "피트케언제도": "orthography",
+        "피트케인 제도": "orthography",
+        "피트케인제도": "orthography",
+        "핏케언 섬": "not-this-country: main island only"
+      },
+      "pl": {
+        "Pitcairn Islands Group": "foreign"
+      },
+      "pt": {
+        "Ilha de Pitcairn": "not-this-country"
+      },
+      "ru": {
+        "Остров Питкерн": "redundant",
+        "Питкерн": "redundant"
+      },
+      "zh-CN": {
+        "匹特揆綸島": "archaic",
+        "皮特克恩岛": "redundant",
+        "皮特克恩島": "foreign: Traditional characters",
+        "皮特凯恩岛": "not-this-country: main island only",
+        "皮特凯恩行政区划": "description",
+        "皮特凱恩群島": "foreign: Traditional characters",
+        "皮特康島": "foreign: Traditional characters",
+        "皮特开恩群岛": "orthography",
+        "皮特肯島": "foreign: Traditional characters",
+        "皮特肯群島": "foreign: Traditional characters"
+      }
+    },
+    "PR": {
+      "en": {
+        "Borikén": "foreign",
+        "Borinquen": "foreign",
+        "Boriquén": "foreign",
+        "Island of Enchantment": "slang",
+        "Isle of Enchantment": "slang",
+        "Porto Rico": "archaic",
+        "Territory of Porto Rico": "archaic"
+      },
+      "es": {
+        "Isla del Encanto": "slang",
+        "Territorio Estadounidense de Puerto Rico": "description"
+      },
+      "ru": {
+        "Свободно присоединившееся государство Пуэрто-Рико": "redundant"
+      }
+    },
+    "PS": {
+      "fr": {
+        "Autorité nationale palestinienne": "not-this-country",
+        "Autorité palestinienne": "not-this-country"
+      },
+      "ru": {
+        "Территория Арабского государства": "description"
+      },
+      "uk": {
+        "\"Палестинські\" території в Ізраїлі": "description",
+        "Арабські території в Ізраїлі": "description"
+      },
+      "zh-CN": {
+        "巴勒斯坦國": "foreign: Traditional characters"
+      }
+    },
+    "PT": {
+      "en": {
+        "POR": "sports/ISO/vehicle code, not a name"
+      },
+      "fa": {
+        "پرتگال": "orthography"
+      },
+      "ko": {
+        "POR": "foreign: sports code"
+      },
+      "zh-CN": {
+        "葡国": "slang",
+        "葡國": "foreign: Traditional characters"
+      }
+    },
+    "PW": {
+      "en": {
+        "Belau": "foreign",
+        "Peeloo": "archaic",
+        "Pelew": "archaic",
+        "Pelew islands": "archaic",
+        "Pellew": "archaic",
+        "Republic of Belau": "foreign"
+      },
+      "fr": {
+        "Belau": "foreign"
+      },
+      "zh-CN": {
+        "帕勞": "foreign: Traditional characters",
+        "帛琉": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "帛琉共和國": "foreign: Traditional characters"
+      }
+    },
+    "PY": {
+      "en": {
+        "Heart of South America": "slang"
+      },
+      "fr": {
+        "Cœur de l’Amérique du Sud": "slang"
+      },
+      "pt-BR": {
+        "Paraguay": "foreign"
+      }
+    },
+    "QA": {
+      "zh-CN": {
+        "卡国": "slang",
+        "卡塔爾": "foreign: Traditional characters",
+        "卡達": "foreign: Traditional characters"
+      }
+    },
+    "RE": {
+      "en": {
+        "Bourbon Island": "archaic",
+        "La Réunion Island": "redundant",
+        "Île de Bourbon": "archaic",
+        "Île de la Réunion": "foreign"
+      },
+      "fr": {
+        "Ile Bourbon": "archaic",
+        "Ile de la Réunion": "orthography"
+      },
+      "it": {
+        "Isola di Reunion": "orthography",
+        "Isola di Riunione": "orthography",
+        "Isole Reunion": "orthography"
+      },
+      "ko": {
+        "레위니옹 주": "redundant",
+        "레위니옹주": "redundant"
+      }
+    },
+    "RO": {
+      "en": {
+        "Roumania": "archaic",
+        "Rumania": "archaic"
+      },
+      "fr": {
+        "Roum.": "truncated abbreviation"
+      },
+      "uk": {
+        "Ромунія": "orthography"
+      },
+      "zh-CN": {
+        "羅馬尼亞": "foreign: Traditional characters"
+      }
+    },
+    "RS": {
+      "es": {
+        "Servia": "archaic"
+      },
+      "ja": {
+        "塞爾維": "archaic",
+        "塞爾維亜": "archaic"
+      },
+      "zh-CN": {
+        "塞国": "slang",
+        "塞爾維亞": "foreign: Traditional characters"
+      }
+    },
+    "RU": {
+      "de": {
+        "Rußische Föderation": "orthography",
+        "Rußland": "orthography",
+        "Rußländische Föderation": "orthography"
+      },
+      "ko": {
+        "러시아 연방국": "orthography",
+        "로시야": "foreign: Russian endonym"
+      },
+      "zh-CN": {
+        "俄國": "foreign: Traditional characters",
+        "俄羅斯": "foreign: Traditional characters"
+      }
+    },
+    "RW": {
+      "en": {
+        "Land of a Thousand Hills": "slang"
+      },
+      "zh-CN": {
+        "盧安達": "foreign: Traditional characters",
+        "盧旺達": "foreign: Traditional characters"
+      }
+    },
+    "SA": {
+      "fr": {
+        "Arabie séoudite": "orthography",
+        "Royaume d’Arabie séoudite": "orthography"
+      },
+      "ru": {
+        "КСА": "not a genuine abbreviation"
+      },
+      "tr": {
+        "Arabistan": "not-this-country"
+      },
+      "uk": {
+        "Аль-Мамляка аль-Арабія ас-Саудія": "foreign",
+        "Саудівська Арабія": "orthography"
+      },
+      "zh-CN": {
+        "沙乌地": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "沙乌地阿拉伯": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "沙地": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "沙地阿拉伯": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "沙烏地": "foreign: Traditional characters",
+        "沙烏地阿拉伯": "foreign: Traditional characters",
+        "沙烏地阿拉伯王國": "foreign: Traditional characters"
+      }
+    },
+    "SB": {
+      "en": {
+        "SOL": "sports/ISO/vehicle code, not a name"
+      },
+      "es": {
+        "Islas Solomón": "orthography"
+      },
+      "nl": {
+        "Solomoneilanden": "orthography"
+      },
+      "zh-CN": {
+        "所國": "foreign: Traditional characters",
+        "所島": "foreign: Traditional characters",
+        "所羅門群島": "foreign: Traditional characters",
+        "索羅門群島": "foreign: Traditional characters"
+      }
+    },
+    "SC": {
+      "de": {
+        "Seschellen": "orthography",
+        "Seyschellen": "orthography",
+        "Seyschellen-Inseln": "orthography"
+      },
+      "en": {
+        "SEY": "sports/ISO/vehicle code, not a name"
+      },
+      "fr": {
+        "Repiblik Sesel": "foreign"
+      },
+      "pt": {
+        "SEY": "code"
+      },
+      "pt-BR": {
+        "Sychelles": "orthography"
+      },
+      "zh-CN": {
+        "塞席爾": "foreign: Traditional characters",
+        "塞舌爾": "foreign: Traditional characters"
+      }
+    },
+    "SD": {
+      "en": {
+        "North Sudan": "informal descriptor"
+      },
+      "zh-CN": {
+        "蘇丹": "foreign: Traditional characters",
+        "蘇丹共和國": "foreign: Traditional characters"
+      }
+    },
+    "SE": {
+      "en": {
+        "Swedish Kingdom": "not an official or common name"
+      },
+      "fa": {
+        "سویدن": "foreign"
+      },
+      "it": {
+        "Konungariket Sverige": "foreign",
+        "Sverige": "foreign"
+      },
+      "ja": {
+        "瑞典": "archaic"
+      },
+      "ru": {
+        "Sverige": "foreign"
+      },
+      "tr": {
+        "Konungariket Sverige": "foreign",
+        "Sverige": "foreign"
+      }
+    },
+    "SG": {
+      "en": {
+        "Garden City": "slang",
+        "Lion City": "slang",
+        "S'pore": "slang",
+        "Singapore City": "not-this-country"
+      },
+      "fa": {
+        "سنگپور": "orthography"
+      },
+      "ja": {
+        "新加坡": "archaic",
+        "新嘉坡": "archaic",
+        "星": "bare single-kanji abbreviation, not a standalone name",
+        "星加坡": "archaic",
+        "星洲": "archaic",
+        "星港": "archaic",
+        "昭南": "archaic"
+      },
+      "ru": {
+        "Азия в миниатюре": "slang",
+        "Европа на экваторе": "slang"
+      },
+      "uk": {
+        "Республіка Сингапур": "orthography",
+        "Сингапур": "orthography"
+      },
+      "zh-CN": {
+        "新国": "slang",
+        "星加坡": "archaic",
+        "星国": "slang",
+        "星洲": "slang",
+        "狮城": "slang"
+      }
+    },
+    "SH": {
+      "es": {
+        "Ascension y Tristan da Cunha": "not-this-country",
+        "Islas Santa Elena": "orthography",
+        "Saint Helena": "foreign",
+        "Santa Helena, Ascensión y Tristán de Acuña": "orthography"
+      },
+      "fr": {
+        "Saint Helena and Dependencies": "foreign",
+        "Saint Helena, Ascension and Tristan da Cunha": "foreign"
+      },
+      "ja": {
+        "セントヘレナ・アセンションおよびトリスタン・ダ・クーニャ": "redundant"
+      },
+      "zh-CN": {
+        "圣赫勒拿、阿森松和特里斯坦达库尼亚": "redundant",
+        "聖赫勒拿、亞森欣和崔斯坦達庫尼亞": "foreign: Traditional characters"
+      }
+    },
+    "SI": {
+      "en": {
+        "Slovenija": "foreign"
+      },
+      "fa": {
+        "سلووینیا": "foreign"
+      },
+      "fr": {
+        "Carniole": "not-this-country"
+      },
+      "pl": {
+        "Slovenija": "foreign"
+      },
+      "pt": {
+        "República da Eslovênia": "orthography",
+        "Slovenija": "foreign"
+      },
+      "zh-CN": {
+        "斯洛文尼亞": "foreign: Traditional characters",
+        "斯洛維尼亞": "foreign: Traditional characters"
+      }
+    },
+    "SJ": {
+      "fr": {
+        "Svalbard et ile jan mayen": "orthography"
+      },
+      "zh-CN": {
+        "斯瓦巴和扬马延": "orthography"
+      }
+    },
+    "SK": {
+      "de": {
+        "Slowakien": "orthography"
+      },
+      "fa": {
+        "سلواک": "not-this-country"
+      },
+      "pl": {
+        "Slovensko": "foreign"
+      },
+      "ru": {
+        "Slovensko": "foreign"
+      }
+    },
+    "SL": {
+      "ru": {
+        "Республика Сьерра Леоне": "orthography"
+      },
+      "zh-CN": {
+        "塞拉勒窝内": "archaic",
+        "獅子山": "foreign: Traditional characters"
+      }
+    },
+    "SM": {
+      "ko": {
+        "가장 고귀한 산마리노 공화국": "ceremonial style, not a name in use"
+      },
+      "pt": {
+        "Mais Serena República de San Marino": "literal translation"
+      },
+      "pt-BR": {
+        "São Marino": "orthography"
+      },
+      "ru": {
+        "San Marino": "foreign"
+      },
+      "zh-CN": {
+        "圣马里诺": "orthography",
+        "聖馬利諾": "foreign: Traditional characters"
+      }
+    },
+    "SN": {
+      "fa": {
+        "سنیگال": "orthography"
+      },
+      "zh-CN": {
+        "塞內加爾": "foreign: Traditional characters"
+      }
+    },
+    "SO": {
+      "fa": {
+        "سومالیا": "foreign"
+      },
+      "zh-CN": {
+        "索馬利亞": "foreign: Traditional characters",
+        "索馬里": "foreign: Traditional characters"
+      }
+    },
+    "SR": {
+      "en": {
+        "Dutch Guiana": "archaic",
+        "Republic of Surinam": "redundant",
+        "Surrinam": "orthography"
+      },
+      "pt": {
+        "Guiana Holandesa": "archaic"
+      },
+      "zh-CN": {
+        "荷属圭亚那": "archaic",
+        "蘇利南": "foreign: Traditional characters",
+        "蘇里南": "foreign: Traditional characters"
+      }
+    },
+    "SS": {
+      "pt": {
+        "Sul do Sudão": "not-this-country"
+      },
+      "zh-CN": {
+        "南蘇丹": "foreign: Traditional characters"
+      }
+    },
+    "ST": {
+      "en": {
+        "São Tomé og Príncipe": "foreign"
+      },
+      "fr": {
+        "Saint-Thomas-et-Prince": "archaic",
+        "Saint-Thomas-et-Île-du-Prince": "archaic",
+        "Sao Tomé-et-Pr.": "truncated abbreviation"
+      },
+      "it": {
+        "San Tommaso e Principe": "archaic"
+      },
+      "pt": {
+        "Sao Tome & Principe": "orthography",
+        "São Tomé og Príncipe": "foreign"
+      }
+    },
+    "SV": {
+      "en": {
+        "ESA": "sports/ISO/vehicle code, not a name",
+        "Salvador": "ambiguous (Brazilian city)"
+      },
+      "nl": {
+        "Salvador": "not-this-country"
+      },
+      "zh-CN": {
+        "薩爾瓦多": "foreign: Traditional characters"
+      }
+    },
+    "SX": {
+      "en": {
+        "NL-SX": "sports/ISO/vehicle code, not a name",
+        "Sint Martin": "orthography"
+      },
+      "es": {
+        "Sint Maarten Land": "foreign"
+      },
+      "fr": {
+        "Land Sint Maarten": "foreign",
+        "NL-SX": "code",
+        "État de Saint Martin": "not-this-country"
+      },
+      "hr": {
+        "Zemlja Sveti Martin": "odd calque"
+      },
+      "ko": {
+        "신트마르턴 섬": "not-this-country: island shared with Saint Martin",
+        "신트마르텐 섬": "not-this-country: island shared with Saint Martin"
+      },
+      "nl": {
+        "Eilandgebied sint maarten": "orthography"
+      },
+      "pt": {
+        "Saint Marteen": "orthography"
+      },
+      "zh-CN": {
+        "聖雪丁島": "foreign: Traditional characters",
+        "荷屬聖馬丁": "foreign: Traditional characters",
+        "荷屬馬丁尼": "foreign: Traditional characters"
+      }
+    },
+    "SY": {
+      "en": {
+        "Surya": "foreign"
+      },
+      "fa": {
+        "آسور، آشور": "archaic",
+        "عاسور، عاشور، عاشورا": "archaic"
+      },
+      "zh-CN": {
+        "敘利亞": "foreign: Traditional characters",
+        "西里亚": "archaic",
+        "西里亞": "foreign: Traditional characters",
+        "阿拉伯敘利亞共和國": "foreign: Traditional characters"
+      }
+    },
+    "SZ": {
+      "de": {
+        "Königireich Eswatini": "orthography"
+      },
+      "en": {
+        "Umbuso weSwatini": "foreign"
+      },
+      "fr": {
+        "Ngwané": "foreign"
+      },
+      "ko": {
+        "스와질란드 왕국": "redundant"
+      },
+      "pt": {
+        "Umbuso weSwatini": "foreign"
+      },
+      "ru": {
+        "Королевство Свазилэнд": "redundant",
+        "Свазилэнд": "orthography"
+      },
+      "uk": {
+        "Нгване": "foreign"
+      },
+      "zh-CN": {
+        "史瓦帝尼": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "史瓦濟蘭": "foreign: Traditional characters"
+      }
+    },
+    "TC": {
+      "ja": {
+        "TCI": "foreign"
+      },
+      "pt": {
+        "TCI": "foreign",
+        "Turcas & Caicos": "redundant",
+        "Turks & Caicos": "redundant"
+      },
+      "zh-CN": {
+        "土克凱可群島": "foreign: Traditional characters"
+      }
+    },
+    "TD": {
+      "en": {
+        "CHA": "sports/ISO/vehicle code, not a name"
+      },
+      "zh-CN": {
+        "查德": "foreign: Taiwan/HK transliteration, not mainland usage"
+      }
+    },
+    "TF": {
+      "de": {
+        "FR-TF": "ISO code",
+        "French Southern and Antarctic Lands": "foreign"
+      },
+      "fa": {
+        "سرزمين هاي جنوبي و جنوبگاني فرانسه": "orthography",
+        "سرزمینهای جنوبی و جنوبگانی فرانسه": "orthography"
+      },
+      "hr": {
+        "Francuski južni i antarktički posjedi": "redundant",
+        "Terres australes et antarctiques françaises": "foreign"
+      },
+      "it": {
+        "Terres Australes Françaises": "foreign",
+        "Territori delle Terre Australi e Antartiche Francesi": "redundant",
+        "Territori meridionali francesi": "redundant"
+      },
+      "ja": {
+        "フランス領南方地域": "redundant",
+        "フランス領極南諸島": "redundant",
+        "仏領南方地域": "redundant"
+      },
+      "ko": {
+        "프랑스령 남부 지역": "redundant"
+      },
+      "nl": {
+        "Franse Zuidelijke en Antactische Gebieden": "orthography",
+        "Franse Zuidelijke en Antarctische territoria": "redundant",
+        "French Southern Territories": "foreign",
+        "Terres Australes et Antarctiques Francaises": "foreign"
+      },
+      "pl": {
+        "Francuskie Ziemie Południowopolarne": "archaic",
+        "Południowe Terytoria Francuskie": "redundant",
+        "Terytorium Francuskich Ziem Południowych i Antarktycznych": "redundant"
+      },
+      "pt": {
+        "Terras Austrais e Antárcticas Francesas": "orthography",
+        "Terras Francesas do Sul e da Antárctica": "orthography"
+      },
+      "ru": {
+        "ФЮАТ": "not a genuine abbreviation",
+        "Французские Южные и Антарктические земли": "redundant",
+        "Южные Французские Территории": "redundant",
+        "Южные и Антарктические Территории": "incomplete name"
+      },
+      "tr": {
+        "Güney Hint Okyanusu adaları": "not-this-country",
+        "Güneydeki Fransa ve Antartik Bölgesi": "orthography",
+        "Terres australes et antarctiques françaises": "foreign"
+      },
+      "uk": {
+        "Південні Французькі території": "redundant",
+        "Французькі Південні та Антарктичні Території": "redundant"
+      },
+      "zh-CN": {
+        "法國南半球及南極屬地": "foreign: Traditional characters",
+        "法属南半球及南极洲领地": "redundant",
+        "法属南半球和南极陆地": "redundant",
+        "法属南方和南极洲领地": "redundant",
+        "法屬南半球和南極地區": "foreign: Traditional characters",
+        "法屬南方及南極陸地": "foreign: Traditional characters",
+        "法屬南方和南極領地": "foreign: Traditional characters",
+        "法屬南部地區": "foreign: Traditional characters",
+        "法屬南部屬地": "foreign: Traditional characters"
+      }
+    },
+    "TG": {
+      "de": {
+        "République Togolaise": "foreign"
+      }
+    },
+    "TH": {
+      "de": {
+        "Ratcha Anachak Thai": "foreign"
+      },
+      "en": {
+        "Kingdom of Siam": "archaic",
+        "Prathet Thai": "foreign",
+        "Ratcha-anachak Thai": "foreign",
+        "Thai": "not-this-country"
+      },
+      "fr": {
+        "Royaume de Thailande": "orthography",
+        "Thaïl": "truncated abbreviation"
+      },
+      "ja": {
+        "タイランド": "foreign"
+      },
+      "pl": {
+        "Syjam": "archaic"
+      },
+      "ru": {
+        "Сиам": "archaic",
+        "Тай": "not-this-country"
+      },
+      "zh-CN": {
+        "泰國": "foreign: Traditional characters",
+        "泰王國": "foreign: Traditional characters"
+      }
+    },
+    "TJ": {
+      "ja": {
+        "タジク": "not-this-country"
+      },
+      "ru": {
+        "РТ": "not-this-country"
+      }
+    },
+    "TK": {
+      "de": {
+        "Union Islands": "archaic"
+      },
+      "en": {
+        "Union Islands": "archaic"
+      },
+      "fr": {
+        "Tokelao": "orthography",
+        "Union Islands": "foreign",
+        "Îles de l'Union": "archaic"
+      },
+      "pt": {
+        "Toquelao": "orthography"
+      },
+      "zh-CN": {
+        "托克劳行政区划": "description",
+        "托克勞": "foreign: Traditional characters"
+      }
+    },
+    "TL": {
+      "de": {
+        "Timór Loro Sa'e": "foreign"
+      },
+      "ja": {
+        "チモール": "not-this-country",
+        "ティモール・レステ民主共和国": "redundant"
+      },
+      "ru": {
+        "Тимор-Леште": "redundant"
+      },
+      "zh-CN": {
+        "東帝汶": "foreign: Traditional characters"
+      }
+    },
+    "TM": {
+      "en": {
+        "Turkmenia": "archaic"
+      },
+      "pt": {
+        "Turcomenistao": "orthography",
+        "Turcomênia": "orthography"
+      },
+      "zh-CN": {
+        "土庫曼": "foreign: Traditional characters"
+      }
+    },
+    "TN": {
+      "pt": {
+        "Republica Tunisina": "orthography"
+      },
+      "zh-CN": {
+        "突尼西亞": "foreign: Traditional characters"
+      }
+    },
+    "TO": {
+      "en": {
+        "Friendly Islands": "archaic",
+        "TGA": "sports/ISO/vehicle code, not a name",
+        "Tonga Islands": "descriptive phrase, not an established name"
+      },
+      "zh-CN": {
+        "東加": "foreign: Traditional characters",
+        "湯加": "foreign: Traditional characters"
+      }
+    },
+    "TR": {
+      "es": {
+        "República Turca": "not an official name"
+      },
+      "fr": {
+        "Turq": "truncated abbreviation"
+      },
+      "it": {
+        "Repubblica Turchia": "orthography"
+      },
+      "ja": {
+        "トゥルキエ": "redundant",
+        "トゥルキエ共和国": "redundant"
+      },
+      "ru": {
+        "Республика Тюркие": "foreign"
+      },
+      "uk": {
+        "Турція": "orthography"
+      }
+    },
+    "TT": {
+      "it": {
+        "Trinità e Tobago": "archaic"
+      },
+      "zh-CN": {
+        "千里達及多巴哥": "foreign: Traditional characters",
+        "千里達及托巴哥": "foreign: Traditional characters"
+      }
+    },
+    "TV": {
+      "en": {
+        "Ellice Islands": "archaic"
+      },
+      "es": {
+        "Islas Ellice": "archaic"
+      },
+      "it": {
+        "Ellice Islands": "archaic",
+        "Isole Ellice": "archaic"
+      },
+      "nl": {
+        "Ellice-eilanden": "archaic"
+      },
+      "ru": {
+        "Острова Эллис": "archaic"
+      },
+      "zh-CN": {
+        "吐瓦魯": "foreign: Traditional characters",
+        "圖瓦盧": "foreign: Traditional characters"
+      }
+    },
+    "TW": {
+      "de": {
+        "Chinesische Republik": "not-this-country",
+        "Nationalchina": "archaic",
+        "Zhōnghuá Mínguó": "foreign"
+      },
+      "en": {
+        "China, Republic of": "inverted index form",
+        "Chinese Republic": "ambiguous",
+        "Chunghwa Minkuo": "foreign",
+        "Chunghwa Minkwo": "foreign",
+        "Free China": "slang",
+        "Nationalist China": "archaic",
+        "Taiwan ROC": "redundant"
+      },
+      "es": {
+        "China Nacionalista": "slang",
+        "China ROC": "non-standard name",
+        "China Taipei": "non-standard name",
+        "China libre": "slang",
+        "Taipéi": "not-this-country",
+        "Taiwán ROC": "non-standard name"
+      },
+      "fr": {
+        "Chine nationaliste": "slang",
+        "Formose": "archaic"
+      },
+      "ja": {
+        "チャイニーズタイペイ": "redundant",
+        "中華台北": "foreign",
+        "台": "bare single-kanji abbreviation, not a standalone name",
+        "自由中国": "archaic",
+        "華": "bare single-kanji abbreviation, not a standalone name"
+      },
+      "ko": {
+        "Chinese Republic": "foreign",
+        "따이완": "orthography",
+        "민주중국": "slang",
+        "자유중국": "archaic"
+      },
+      "pt": {
+        "China Livre": "slang",
+        "China Nacionalista": "slang",
+        "China, República": "redundant",
+        "Chunghwa Minkuo": "foreign",
+        "Chunghwa Minkwo": "foreign",
+        "Taipei": "not-this-country",
+        "Taipé": "not-this-country",
+        "Taipé Chinesa": "non-standard name",
+        "Taiwan RC": "non-standard name",
+        "Área livre da República da China": "description"
+      },
+      "ru": {
+        "Чжунхуа Миньго": "foreign"
+      },
+      "uk": {
+        "Китайська Республіка Тайвань": "redundant"
+      },
+      "zh-CN": {
+        "三民主義新中國": "foreign: Traditional characters",
+        "中华民国台湾": "redundant",
+        "中华民国自由地区": "legal description",
+        "中华民国（台湾）": "redundant",
+        "中華台北": "foreign: Traditional characters",
+        "中華民國": "foreign: Traditional characters",
+        "中華民國臺灣": "foreign: Traditional characters",
+        "中華民國（臺灣）": "foreign: Traditional characters",
+        "反共中國": "foreign: Traditional characters",
+        "台": "single-character abbreviation, ambiguous",
+        "台北當局": "description (Traditional characters)",
+        "台灣": "foreign: Traditional characters",
+        "台灣當局": "description (Traditional characters)",
+        "国民党中国": "slang",
+        "國府中國": "foreign: Traditional characters",
+        "民国": "ambiguous (era name)",
+        "民國": "foreign: Traditional characters",
+        "自由中國": "foreign: Traditional characters",
+        "臺": "foreign: Traditional characters",
+        "臺灣": "foreign: Traditional characters",
+        "華": "foreign: Traditional characters"
+      }
+    },
+    "TZ": {
+      "en": {
+        "Tanzania, United Republic of": "inverted index form",
+        "United Republic of Tanganyika and Zanzibar": "archaic"
+      },
+      "pt": {
+        "Republica Unida da Tanzania": "orthography"
+      },
+      "zh-CN": {
+        "坦尚尼亞": "foreign: Traditional characters",
+        "坦桑尼亞": "foreign: Traditional characters"
+      }
+    },
+    "UA": {
+      "en": {
+        "Ukrainia": "orthography",
+        "Ukraïna": "foreign"
+      },
+      "es": {
+        "Ucraina": "orthography",
+        "Ukraina": "foreign",
+        "Ukrainia": "orthography"
+      },
+      "ja": {
+        "ウクライナ共和国": "never an official name"
+      },
+      "nl": {
+        "Oekraiene": "orthography"
+      },
+      "pl": {
+        "Україна": "foreign"
+      },
+      "pt": {
+        "Ukraina": "foreign",
+        "Ukrainia": "orthography"
+      },
+      "uk": {
+        "Ukraina": "foreign",
+        "Вкраїна": "archaic"
+      },
+      "zh-CN": {
+        "烏克蘭": "foreign: Traditional characters"
+      }
+    },
+    "UG": {
+      "en": {
+        "Ouganda": "foreign",
+        "Pearl of Africa": "slang",
+        "Ugandah": "orthography"
+      },
+      "zh-CN": {
+        "烏干達": "foreign: Traditional characters"
+      }
+    },
+    "UM": {
+      "de": {
+        "United States Minor Outlying Islands": "foreign"
+      },
+      "en": {
+        "US-UM": "sports/ISO/vehicle code, not a name",
+        "USMOI": "obscure abbreviation"
+      },
+      "fa": {
+        "جزایر کوچک حاشیهای ایالات متحده": "orthography"
+      },
+      "tr": {
+        "United States Minor Outlying Islands": "foreign"
+      }
+    },
+    "US": {
+      "de": {
+        "Staaten von Amerika": "redundant",
+        "U.S.-Amerika": "redundant",
+        "VS": "redundant",
+        "VSA": "redundant"
+      },
+      "en": {
+        "Merica": "slang",
+        "Murica": "slang",
+        "U.S. of A": "slang",
+        "U.S. of America": "slang"
+      },
+      "es": {
+        "EE.UU. de América": "redundant",
+        "Los Estados Unidos de América": "redundant",
+        "Unión Americana": "slang"
+      },
+      "fr": {
+        "Amérique": "not-this-country",
+        "Oncle Sam": "slang",
+        "Pays de l'Oncle Sam": "slang",
+        "É.-U. A.": "redundant"
+      },
+      "hr": {
+        "Američke savezne države": "description, not a name"
+      },
+      "it": {
+        "Yankees": "slang",
+        "Yanks": "slang"
+      },
+      "ja": {
+        "亜墨利加": "archaic",
+        "亜米利加": "archaic",
+        "米": "bare single-kanji abbreviation, not a standalone name",
+        "美国": "foreign"
+      },
+      "ko": {
+        "아메리카": "not-this-country: ambiguous (the Americas)",
+        "합중국": "generic term, ambiguous"
+      },
+      "nl": {
+        "VSA": "redundant"
+      },
+      "pt": {
+        "América": "not-this-country"
+      },
+      "ru": {
+        "САСШ": "archaic",
+        "Северо-Американские Соединённые Штаты": "archaic",
+        "Соединённые Государства Америки": "archaic"
+      },
+      "uk": {
+        "З'єднані Держави Америки": "archaic",
+        "ЗДА": "archaic",
+        "Злучені Держави Америки": "archaic"
+      },
+      "zh-CN": {
+        "美國": "foreign: Traditional characters",
+        "花旗国": "slang"
+      }
+    },
+    "UY": {
+      "de": {
+        "República Oriental del Uruguay": "foreign"
+      },
+      "en": {
+        "URU": "sports/ISO/vehicle code, not a name"
+      },
+      "ja": {
+        "ウルグァイ": "orthography"
+      },
+      "zh-CN": {
+        "烏拉圭": "foreign: Traditional characters",
+        "烏拉圭東岸共和國": "foreign: Traditional characters"
+      }
+    },
+    "UZ": {
+      "fr": {
+        "Ouzbekisthan": "orthography"
+      },
+      "ja": {
+        "ウズベク": "not-this-country"
+      },
+      "uk": {
+        "Респу́бліка Узбекиста́н": "orthography"
+      },
+      "zh-CN": {
+        "烏茲別克": "foreign: Traditional characters",
+        "烏茲別克斯坦": "foreign: Traditional characters"
+      }
+    },
+    "VA": {
+      "en": {
+        "Città del Vaticano": "foreign",
+        "Papal State": "archaic",
+        "Stato della Città del Vaticano": "foreign",
+        "Status Civitatis Vaticanae": "foreign"
+      },
+      "ja": {
+        "バティカン": "orthography",
+        "ヴァティカン": "redundant",
+        "ヴァティカーノ": "foreign"
+      },
+      "ko": {
+        "교황령": "not-this-country: historical Papal States"
+      },
+      "nl": {
+        "Heilige Stoel": "not-this-country"
+      },
+      "pt": {
+        "Estado Pontifício": "not-this-country",
+        "Stato della Città del Vaticano": "foreign"
+      },
+      "ru": {
+        "Città del Vaticano": "foreign"
+      },
+      "uk": {
+        "Status Civitatis Vaticanae": "foreign",
+        "Апо́стольська Столиця": "not-this-country",
+        "Ватікан": "orthography",
+        "Престол Святого Петра": "not-this-country",
+        "Святі́йший Престі́л": "not-this-country"
+      },
+      "zh-CN": {
+        "梵蒂岡": "foreign: Traditional characters",
+        "梵蒂岡城": "foreign: Traditional characters",
+        "梵蒂岡城國": "foreign: Traditional characters",
+        "梵諦岡": "foreign: Traditional characters"
+      }
+    },
+    "VC": {
+      "en": {
+        "St Vincent and the Grenadines": "redundant"
+      },
+      "fa": {
+        "سنت وینسنت و گرنادینها": "orthography"
+      },
+      "fr": {
+        "SVG": "code"
+      },
+      "it": {
+        "Saint Vincent and the Grenadines": "foreign"
+      },
+      "ja": {
+        "SVG": "foreign",
+        "セントビンセントグレナディーン": "redundant",
+        "セントビンセント・グレナディーン諸島": "redundant",
+        "セントヴィンセント": "redundant",
+        "セントヴィンセントグレナディーン": "redundant",
+        "セントヴィンセント・グレナディーン": "redundant",
+        "セントヴィンセント及びグレナディーン諸島": "redundant"
+      },
+      "pt": {
+        "São Vicente": "not-this-country"
+      },
+      "zh-CN": {
+        "聖文森": "foreign: Traditional characters",
+        "聖文森及格瑞那丁": "foreign: Traditional characters"
+      }
+    },
+    "VE": {
+      "en": {
+        "BR Venezuela": "nonstandard abbreviation"
+      },
+      "es": {
+        "Estados Unidos de Venezuela": "archaic",
+        "RB Venezuela": "non-standard name"
+      },
+      "fa": {
+        "ونیزویلا": "foreign"
+      },
+      "pl": {
+        "Estados Unidos de Venezuela": "foreign",
+        "República Bolivariana de Venezuela": "foreign"
+      },
+      "uk": {
+        "Боліварианська Республіка Венесуела": "orthography"
+      },
+      "zh-CN": {
+        "委內瑞拉": "foreign: Traditional characters"
+      }
+    },
+    "VG": {
+      "en": {
+        "IVB": "sports/ISO/vehicle code, not a name",
+        "Virgin Islands of the United Kingdom": "descriptive phrase, not an established name",
+        "Virgin Islands, United Kingdom": "inverted index form"
+      },
+      "fa": {
+        "British Virgin Islands": "foreign"
+      },
+      "ja": {
+        "BVI": "foreign",
+        "英領バージン諸島": "redundant"
+      },
+      "ko": {
+        "영령 버진 제도": "orthography"
+      },
+      "nl": {
+        "British Virgin Eilanden": "orthography"
+      },
+      "pt": {
+        "IVB": "uncommon abbreviation"
+      },
+      "ru": {
+        "Вирджинские острова": "not-this-country"
+      },
+      "tr": {
+        "Birleşik Krallık Virgin Adaları": "redundant",
+        "British Virgin Adaları": "foreign",
+        "British Virgin Islands": "foreign",
+        "İngiliz Virjin Adaları": "redundant"
+      },
+      "zh-CN": {
+        "托托拉岛": "not-this-country: sub-part",
+        "英屬維京群島": "foreign: Traditional characters",
+        "英屬維爾京群島": "foreign: Traditional characters",
+        "英屬處女島": "foreign: Traditional characters",
+        "英屬處女群島": "foreign: Traditional characters"
+      }
+    },
+    "VI": {
+      "fr": {
+        "US-VI": "code"
+      },
+      "ja": {
+        "合衆国領ヴァージン諸島": "redundant"
+      },
+      "pl": {
+        "U.S. Virgin Islands": "foreign",
+        "Virgin Islands of the United States": "foreign"
+      },
+      "pt": {
+        "Categoria:Ilhas Virgens Americanas": "wiki category"
+      },
+      "zh-CN": {
+        "美屬維爾京群島": "foreign: Traditional characters"
+      }
+    },
+    "VN": {
+      "en": {
+        "SRV": "obscure abbreviation",
+        "VIE": "sports/ISO/vehicle code, not a name"
+      },
+      "ja": {
+        "越": "bare single-kanji abbreviation, not a standalone name",
+        "越南": "archaic",
+        "越南社会主義共和国": "archaic"
+      },
+      "ko": {
+        "월남": "archaic",
+        "월남 사회주의 공화국": "archaic"
+      },
+      "pt": {
+        "Republica Socialista do Vietname": "orthography",
+        "Việt Nam": "foreign"
+      },
+      "pt-BR": {
+        "VIE": "code"
+      },
+      "zh-CN": {
+        "越南社會主義共和國": "foreign: Traditional characters"
+      }
+    },
+    "VU": {
+      "zh-CN": {
+        "万那杜": "foreign: Taiwan/HK transliteration, not mainland usage",
+        "瓦努阿圖": "foreign: Traditional characters",
+        "萬那杜": "foreign: Traditional characters"
+      }
+    },
+    "WF": {
+      "de": {
+        "FR-WF": "ISO code",
+        "Fotuna": "orthography",
+        "Hoorne-Inseln": "not-this-country",
+        "Horne-Inseln": "not-this-country"
+      },
+      "es": {
+        "Uvea mo Futuna": "foreign",
+        "Wallis y Fortuna": "orthography"
+      },
+      "fr": {
+        "Emeni Simete": "not a name of this territory",
+        "Makape Papilio": "not a name of this territory",
+        "TERRITOIRE DE WALLIS ET FUTUNA": "orthography",
+        "Wallis and Futuna Islands": "foreign"
+      },
+      "it": {
+        "Geografia di Wallis e Futuna": "not a name (Wikipedia article title)"
+      },
+      "ja": {
+        "ウォリス諸島": "not-this-country",
+        "ウォリス＝フツナ": "redundant",
+        "フツナ": "not-this-country",
+        "ワリシア人": "not-this-country",
+        "ワリスおよびフツナ諸島": "redundant",
+        "ワリス・フテュナ諸島": "orthography",
+        "ワリス・フュチュナ": "orthography"
+      },
+      "pt": {
+        "Walis e Futuna": "orthography",
+        "Wallis e Futuna Islands": "orthography"
+      },
+      "ru": {
+        "Острова Валлис": "not-this-country",
+        "Острова Уоллис и Футура": "orthography",
+        "Уоллис и Футуна, острова": "orthography"
+      },
+      "uk": {
+        "Волліс і Фортуна": "orthography",
+        "Уолліс і Фортуна": "orthography"
+      },
+      "zh-CN": {
+        "沃里斯與伏塔那島": "foreign: Traditional characters",
+        "瓦利斯及富圖納群島": "foreign: Traditional characters",
+        "瓦利斯和富图纳行政区划": "description",
+        "瓦利斯和富圖納": "foreign: Traditional characters",
+        "瓦利斯和富圖那": "foreign: Traditional characters",
+        "瓦利斯群島和富圖納群島": "foreign: Traditional characters",
+        "瓦里斯和富圖納島": "foreign: Traditional characters"
+      }
+    },
+    "WS": {
+      "en": {
+        "SAM": "sports/ISO/vehicle code, not a name"
+      },
+      "zh-CN": {
+        "薩摩亞": "foreign: Traditional characters"
+      }
+    },
+    "XK": {
+      "en": {
+        "KOS": "sports/ISO/vehicle code, not a name",
+        "KV": "sports/ISO/vehicle code, not a name",
+        "Kosova": "foreign",
+        "RKS": "sports/ISO/vehicle code, not a name"
+      },
+      "es": {
+        "Republica de Kosovo": "orthography"
+      },
+      "fa": {
+        "کوزووو": "orthography"
+      },
+      "it": {
+        "Cossovo": "orthography",
+        "Kossovo": "orthography"
+      },
+      "pt": {
+        "KOS": "code",
+        "KV": "code"
+      },
+      "zh-CN": {
+        "科索夫": "orthography"
+      }
+    },
+    "YE": {
+      "en": {
+        "Rep. Yemen": "redundant"
+      },
+      "tr": {
+        "Yemen Cum.": "orthography"
+      },
+      "zh-CN": {
+        "葉門": "foreign: Traditional characters"
+      }
+    },
+    "YT": {
+      "it": {
+        "Maiotta": "orthography"
+      }
+    },
+    "ZA": {
+      "de": {
+        "Suedafrika": "orthography"
+      },
+      "en": {
+        "SA": "ambiguous (Saudi Arabia, South America)"
+      },
+      "pt": {
+        "SA": "ambiguous abbreviation"
+      },
+      "ru": {
+        "Азания": "never an official name"
+      }
+    },
+    "ZM": {
+      "en": {
+        "Zed": "slang"
+      },
+      "uk": {
+        "Північна Родезія": "archaic"
+      },
+      "zh-CN": {
+        "尚比亞": "foreign: Traditional characters",
+        "贊比亞": "foreign: Traditional characters"
+      }
+    },
+    "ZW": {
+      "de": {
+        "Republik Rhodesien": "archaic",
+        "Rhodesien": "archaic",
+        "Südrhodesien": "archaic"
+      },
+      "en": {
+        "Rhodesia": "archaic",
+        "Southern Rhodesia": "archaic",
+        "Zimbabwe Rhodesia": "archaic"
+      },
+      "es": {
+        "Zimbagüe": "orthography"
+      },
+      "it": {
+        "Rhodesia": "archaic"
+      },
+      "pt": {
+        "Republica do Zimbabue": "orthography",
+        "Zimbaué": "orthography"
+      },
+      "ru": {
+        "Южная Родезия": "archaic"
+      },
+      "tr": {
+        "Zimbabi": "orthography"
+      },
+      "uk": {
+        "Південна Родезія": "archaic"
+      },
+      "zh-CN": {
+        "南罗德西亚": "archaic",
+        "津巴布韋": "foreign: Traditional characters",
+        "津巴布韋共和國": "foreign: Traditional characters",
+        "辛巴威": "foreign: Taiwan/HK transliteration, not mainland usage"
+      }
+    }
+  },
+  "add": {
+    "AE": {
+      "en": [
+        "UAE"
+      ],
+      "fa": [
+        "امارات"
+      ]
+    },
+    "BL": {
+      "es": [
+        "Saint-Barthélemy"
+      ]
+    },
+    "BN": {
+      "en": [
+        "Brunei Darussalam"
+      ]
+    },
+    "CD": {
+      "de": [
+        "DR Kongo"
+      ],
+      "en": [
+        "Zaire"
+      ],
+      "es": [
+        "RDC"
+      ],
+      "fr": [
+        "RDC"
+      ],
+      "zh-CN": [
+        "刚果金"
+      ]
+    },
+    "CG": {
+      "de": [
+        "Republik Kongo"
+      ],
+      "en": [
+        "Republic of the Congo"
+      ],
+      "zh-CN": [
+        "刚果布"
+      ]
+    },
+    "CH": {
+      "de": [
+        "Schweizerische Eidgenossenschaft"
+      ]
+    },
+    "CV": {
+      "de": [
+        "Kapverden"
+      ]
+    },
+    "DE": {
+      "de": [
+        "BRD"
+      ]
+    },
+    "GB": {
+      "en": [
+        "Britain"
+      ],
+      "es": [
+        "Gran Bretaña"
+      ],
+      "nl": [
+        "Groot-Brittannië"
+      ],
+      "pl": [
+        "Zjednoczone Królestwo"
+      ],
+      "uk": [
+        "Великобританія",
+        "Британія"
+      ]
+    },
+    "GE": {
+      "ko": [
+        "그루지야"
+      ]
+    },
+    "ID": {
+      "zh-CN": [
+        "印尼"
+      ]
+    },
+    "IN": {
+      "en": [
+        "Bharat"
+      ]
+    },
+    "JP": {
+      "ja": [
+        "日本国"
+      ]
+    },
+    "KM": {
+      "fa": [
+        "مجمع‌الجزایر قمر"
+      ]
+    },
+    "LU": {
+      "de": [
+        "Großherzogtum Luxemburg"
+      ]
+    },
+    "MK": {
+      "es": [
+        "Macedonia"
+      ],
+      "zh-CN": [
+        "马其顿"
+      ]
+    },
+    "MM": {
+      "de": [
+        "Birma"
+      ],
+      "en": [
+        "Burma"
+      ],
+      "it": [
+        "Birmania"
+      ],
+      "nl": [
+        "Birma"
+      ],
+      "pt-BR": [
+        "Mianmar"
+      ]
+    },
+    "NL": {
+      "de": [
+        "Holland"
+      ],
+      "en": [
+        "Holland"
+      ],
+      "es": [
+        "Holanda"
+      ],
+      "fr": [
+        "Hollande"
+      ],
+      "hr": [
+        "Holandija"
+      ],
+      "it": [
+        "Olanda"
+      ],
+      "pt": [
+        "Holanda"
+      ],
+      "pt-BR": [
+        "Holanda"
+      ],
+      "ru": [
+        "Голландия"
+      ],
+      "uk": [
+        "Голландія"
+      ]
+    },
+    "RE": {
+      "fr": [
+        "Île de la Réunion"
+      ]
+    },
+    "RU": {
+      "ko": [
+        "러시아 연방"
+      ],
+      "ru": [
+        "РФ"
+      ],
+      "uk": [
+        "РФ"
+      ],
+      "zh-CN": [
+        "俄罗斯联邦"
+      ]
+    },
+    "SZ": {
+      "zh-CN": [
+        "埃斯瓦蒂尼"
+      ]
+    },
+    "TW": {
+      "de": [
+        "Republik China"
+      ]
+    },
+    "US": {
+      "de": [
+        "USA"
+      ],
+      "en": [
+        "USA",
+        "America"
+      ],
+      "es": [
+        "EE.UU."
+      ],
+      "fa": [
+        "آمریکا"
+      ],
+      "fr": [
+        "USA"
+      ],
+      "hr": [
+        "SAD"
+      ],
+      "it": [
+        "USA",
+        "Stati Uniti"
+      ],
+      "nl": [
+        "USA"
+      ],
+      "pl": [
+        "USA"
+      ],
+      "ru": [
+        "Америка"
+      ],
+      "tr": [
+        "ABD"
+      ],
+      "uk": [
+        "США",
+        "Америка"
+      ]
+    },
+    "VA": {
+      "nl": [
+        "Vaticaan"
+      ]
+    }
+  }
+}

@@ -78,7 +78,10 @@
     },
     {
       "locale": "fr",
-      "name": "Chypre"
+      "name": "Chypre",
+      "aliases": [
+        "République de Chypre"
+      ]
     },
     {
       "locale": "ja",
