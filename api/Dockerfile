@@ -4,7 +4,7 @@
 # Pinned to the build machine's own architecture: the only thing this stage produces is a jar, which
 # is the same bytes on every platform, so building it once natively beats building it again under
 # emulation for each architecture the image is published for.
-FROM --platform=$BUILDPLATFORM gradle:9.7.1-jdk21 AS build
+FROM --platform=$BUILDPLATFORM gradle:9.8.0-jdk21 AS build
 WORKDIR /workspace
 ARG RELEASE_VERSION
 
