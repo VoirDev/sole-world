@@ -1,6 +1,11 @@
 {
   "id": "GS",
   "name": "South Georgia and the South Sandwich Islands",
+  "aliases": [
+    "South Georgia & South Sandwich Islands",
+    "SGSSI",
+    "South Georgia and South Sandwich Islands"
+  ],
   "nativeName": "South Georgia",
   "iso2": "GS",
   "iso3": "SGS",
@@ -29,59 +34,105 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Ilhas Geórgias do Sul e Sandwich do Sul"
+      "name": "Ilhas Geórgias do Sul e Sandwich do Sul",
+      "aliases": [
+        "Ilhas Geórgia do Sul e Sandwich do Sul"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Ilhas Geórgia do Sul e Sanduíche do Sul"
+      "name": "Ilhas Geórgia do Sul e Sanduíche do Sul",
+      "aliases": [
+        "Ilhas Geórgia do Sul e Sandwich do Sul"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Zuid-Georgia en Zuidelijke Sandwicheilanden"
+      "name": "Zuid-Georgia en Zuidelijke Sandwicheilanden",
+      "aliases": [
+        "Zuid-Georgia en de Zuidelijke Sandwicheilanden"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Južna Georgija i otočje Južni Sandwich"
+      "name": "Južna Georgija i otočje Južni Sandwich",
+      "aliases": [
+        "Južna Georgia i Otoci Južni Sandwich"
+      ]
     },
     {
       "locale": "fa",
-      "name": "جورجیای جنوبی و جزایر ساندویچ جنوبی"
+      "name": "جورجیای جنوبی و جزایر ساندویچ جنوبی",
+      "aliases": [
+        "جزایر جورجیای جنوبی و ساندویچ جنوبی"
+      ]
     },
     {
       "locale": "de",
-      "name": "Südgeorgien und die Südlichen Sandwichinseln"
+      "name": "Südgeorgien und die Südlichen Sandwichinseln",
+      "aliases": [
+        "Südgeorgien und die Südlichen Sandwich-Inseln"
+      ]
     },
     {
       "locale": "es",
-      "name": "Islas Georgia del Sur y Sandwich del Sur"
+      "name": "Islas Georgia del Sur y Sandwich del Sur",
+      "aliases": [
+        "Islas Georgias del Sur y Sandwich del Sur",
+        "Georgia del Sur e Islas Sandwich del Sur"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Géorgie du Sud-et-les Îles Sandwich du Sud"
+      "name": "Géorgie du Sud-et-les Îles Sandwich du Sud",
+      "aliases": [
+        "Géorgie du Sud et Îles Sandwich du Sud"
+      ]
     },
     {
       "locale": "ja",
-      "name": "サウスジョージア・サウスサンドウィッチ諸島"
+      "name": "サウスジョージア・サウスサンドウィッチ諸島",
+      "aliases": [
+        "南ジョージア・南サンドウィッチ諸島"
+      ]
     },
     {
       "locale": "it",
-      "name": "Georgia del Sud e Isole Sandwich Meridionali"
+      "name": "Georgia del Sud e Isole Sandwich Meridionali",
+      "aliases": [
+        "Georgia del Sud e Sandwich Australi",
+        "Georgia del Sud e isole Sandwich",
+        "Sud Georgia e Isole Sandwich"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "南乔治亚和南桑威奇群岛"
+      "name": "南乔治亚和南桑威奇群岛",
+      "aliases": [
+        "南乔治亚岛和南桑威奇群岛"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Güney Georgia ve Güney Sandwich Adaları"
+      "name": "Güney Georgia ve Güney Sandwich Adaları",
+      "aliases": [
+        "Güney Georgia ve Güney Sandviç Adaları"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Южная Георгия и Южные Сандвичевы острова"
+      "name": "Южная Георгия и Южные Сандвичевы острова",
+      "aliases": [
+        "Южная Георгия и Южные Сандвичевы о-ва",
+        "Южная Джорджия и Южные Сандвичевы Острова"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Південна Джорджія та Південні Сандвічеві острови"
+      "name": "Південна Джорджія та Південні Сандвічеві острови",
+      "aliases": [
+        "Південна Георгія та Південні Сандвічеві острови"
+      ]
     },
     {
       "locale": "pl",

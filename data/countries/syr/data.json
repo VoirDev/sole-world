@@ -1,6 +1,9 @@
 {
   "id": "SY",
   "name": "Syria",
+  "aliases": [
+    "Syrian Arab Republic"
+  ],
   "nativeName": "سوريا",
   "iso2": "SY",
   "iso3": "SYR",
@@ -33,11 +36,17 @@
     },
     {
       "locale": "pt",
-      "name": "Síria"
+      "name": "Síria",
+      "aliases": [
+        "República Árabe Síria"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Syrië"
+      "name": "Syrië",
+      "aliases": [
+        "Arabische Republiek Syrië"
+      ]
     },
     {
       "locale": "hr",
@@ -53,19 +62,31 @@
     },
     {
       "locale": "es",
-      "name": "Siria"
+      "name": "Siria",
+      "aliases": [
+        "República Árabe Siria"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Syrie"
+      "name": "Syrie",
+      "aliases": [
+        "République arabe syrienne"
+      ]
     },
     {
       "locale": "ja",
-      "name": "シリア"
+      "name": "シリア",
+      "aliases": [
+        "シリア・アラブ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Siria"
+      "name": "Siria",
+      "aliases": [
+        "Repubblica Araba di Siria"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -73,15 +94,24 @@
     },
     {
       "locale": "tr",
-      "name": "Suriye"
+      "name": "Suriye",
+      "aliases": [
+        "Suriye Arap Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Сирия"
+      "name": "Сирия",
+      "aliases": [
+        "Сирийская Арабская Республика"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Сирія"
+      "name": "Сирія",
+      "aliases": [
+        "Сирійська Арабська Республіка"
+      ]
     },
     {
       "locale": "pl",

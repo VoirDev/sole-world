@@ -1,6 +1,9 @@
 {
   "id": "JP",
   "name": "Japan",
+  "aliases": [
+    "State of Japan"
+  ],
   "nativeName": "日本",
   "iso2": "JP",
   "iso3": "JPN",
@@ -25,19 +28,31 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "일본"
+      "name": "일본",
+      "aliases": [
+        "일본국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Japão"
+      "name": "Japão",
+      "aliases": [
+        "Estado do Japão"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Japão"
+      "name": "Japão",
+      "aliases": [
+        "Estado do Japão"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Japan"
+      "name": "Japan",
+      "aliases": [
+        "Staat Japan"
+      ]
     },
     {
       "locale": "hr",
@@ -53,19 +68,31 @@
     },
     {
       "locale": "es",
-      "name": "Japón"
+      "name": "Japón",
+      "aliases": [
+        "Estado de Japón"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Japon"
+      "name": "Japon",
+      "aliases": [
+        "État du Japon"
+      ]
     },
     {
       "locale": "ja",
-      "name": "日本"
+      "name": "日本",
+      "aliases": [
+        "日本国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Giappone"
+      "name": "Giappone",
+      "aliases": [
+        "Stato del Giappone"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -73,7 +100,10 @@
     },
     {
       "locale": "tr",
-      "name": "Japonya"
+      "name": "Japonya",
+      "aliases": [
+        "Japonya Devleti"
+      ]
     },
     {
       "locale": "ru",

@@ -1,6 +1,9 @@
 {
   "id": "KM",
   "name": "Comoros",
+  "aliases": [
+    "Union of the Comoros"
+  ],
   "nativeName": "Komori",
   "iso2": "KM",
   "iso3": "COM",
@@ -38,7 +41,10 @@
     },
     {
       "locale": "nl",
-      "name": "Comoren"
+      "name": "Comoren",
+      "aliases": [
+        "Unie der Comoren"
+      ]
     },
     {
       "locale": "hr",
@@ -46,7 +52,10 @@
     },
     {
       "locale": "fa",
-      "name": "کومور"
+      "name": "کومور",
+      "aliases": [
+        "مجمع‌الجزایر قمر"
+      ]
     },
     {
       "locale": "de",
@@ -54,19 +63,31 @@
     },
     {
       "locale": "es",
-      "name": "Comoras"
+      "name": "Comoras",
+      "aliases": [
+        "Unión de las Comoras"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Comores"
+      "name": "Comores",
+      "aliases": [
+        "Union des Comores"
+      ]
     },
     {
       "locale": "ja",
-      "name": "コモロ"
+      "name": "コモロ",
+      "aliases": [
+        "コモロ連合"
+      ]
     },
     {
       "locale": "it",
-      "name": "Comore"
+      "name": "Comore",
+      "aliases": [
+        "Unione delle Comore"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -78,11 +99,20 @@
     },
     {
       "locale": "ru",
-      "name": "Коморские острова"
+      "name": "Коморские острова",
+      "aliases": [
+        "Коморы",
+        "Союз Коморских Островов",
+        "Федеративная Исламская Республика Коморские Острова"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Коморські острови"
+      "name": "Коморські острови",
+      "aliases": [
+        "Комори",
+        "Союз Коморських Островів"
+      ]
     },
     {
       "locale": "pl",

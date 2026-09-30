@@ -1,6 +1,10 @@
 {
   "id": "JO",
   "name": "Jordan",
+  "aliases": [
+    "Hashemite Kingdom of Jordan",
+    "Kingdom of Jordan"
+  ],
   "nativeName": "الأردن",
   "iso2": "JO",
   "iso3": "JOR",
@@ -37,7 +41,10 @@
     },
     {
       "locale": "nl",
-      "name": "Jordanië"
+      "name": "Jordanië",
+      "aliases": [
+        "Hasjemitisch Koninkrijk Jordanië"
+      ]
     },
     {
       "locale": "hr",
@@ -53,15 +60,24 @@
     },
     {
       "locale": "es",
-      "name": "Jordania"
+      "name": "Jordania",
+      "aliases": [
+        "Reino Hachemita de Jordania"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Jordanie"
+      "name": "Jordanie",
+      "aliases": [
+        "Royaume hachémite de Jordanie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ヨルダン"
+      "name": "ヨルダン",
+      "aliases": [
+        "ヨルダン・ハシェミット王国"
+      ]
     },
     {
       "locale": "it",
@@ -77,7 +93,10 @@
     },
     {
       "locale": "ru",
-      "name": "Иордания"
+      "name": "Иордания",
+      "aliases": [
+        "Иорданское Хашимитское Королевство"
+      ]
     },
     {
       "locale": "uk",

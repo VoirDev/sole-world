@@ -1,6 +1,10 @@
 {
   "id": "SS",
   "name": "South Sudan",
+  "aliases": [
+    "Southern Sudan",
+    "Republic of South Sudan"
+  ],
   "nativeName": "South Sudan",
   "iso2": "SS",
   "iso3": "SSD",
@@ -29,15 +33,26 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Sudão do Sul"
+      "name": "Sudão do Sul",
+      "aliases": [
+        "República do Sudão do Sul"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Sudão do Sul"
+      "name": "Sudão do Sul",
+      "aliases": [
+        "República do Sudão do Sul"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Zuid-Soedan"
+      "name": "Zuid-Soedan",
+      "aliases": [
+        "Republiek Zuid-Soedan",
+        "Republiek Zuid-Sudan",
+        "Zuid-Sudan"
+      ]
     },
     {
       "locale": "hr",
@@ -49,27 +64,48 @@
     },
     {
       "locale": "de",
-      "name": "Südsudan"
+      "name": "Südsudan",
+      "aliases": [
+        "Republik Südsudan"
+      ]
     },
     {
       "locale": "es",
-      "name": "Sudán del Sur"
+      "name": "Sudán del Sur",
+      "aliases": [
+        "República de Sudán del Sur"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Soudan du Sud"
+      "name": "Soudan du Sud",
+      "aliases": [
+        "République du Soudan du Sud",
+        "Sud Soudan"
+      ]
     },
     {
       "locale": "ja",
-      "name": "南スーダン"
+      "name": "南スーダン",
+      "aliases": [
+        "南スーダン共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Sud Sudan"
+      "name": "Sud Sudan",
+      "aliases": [
+        "Sudan del Sud",
+        "Repubblica del Sud Sudan",
+        "Repubblica del Sudan del Sud"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "南苏丹"
+      "name": "南苏丹",
+      "aliases": [
+        "南苏丹共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,15 +113,24 @@
     },
     {
       "locale": "ru",
-      "name": "Южный Судан"
+      "name": "Южный Судан",
+      "aliases": [
+        "Республика Южный Судан"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Південний Судан"
+      "name": "Південний Судан",
+      "aliases": [
+        "Республіка Південний Судан"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Sudan Południowy"
+      "name": "Sudan Południowy",
+      "aliases": [
+        "Republika Sudanu Południowego"
+      ]
     }
   ],
   "states": [

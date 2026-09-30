@@ -1,6 +1,9 @@
 {
   "id": "NF",
   "name": "Norfolk Island",
+  "aliases": [
+    "Territory of Norfolk Island"
+  ],
   "nativeName": "Norfolk Island",
   "iso2": "NF",
   "iso3": "NFK",
@@ -25,7 +28,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "노퍽 섬"
+      "name": "노퍽 섬",
+      "aliases": [
+        "노퍽섬",
+        "노포크 섬"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -33,11 +40,19 @@
     },
     {
       "locale": "pt",
-      "name": "Ilha Norfolk"
+      "name": "Ilha Norfolk",
+      "aliases": [
+        "Norfolk",
+        "Território da Ilha Norfolk"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Norfolkeiland"
+      "name": "Norfolkeiland",
+      "aliases": [
+        "Norfolk",
+        "Territorium Norfolkeiland"
+      ]
     },
     {
       "locale": "hr",
@@ -45,27 +60,46 @@
     },
     {
       "locale": "fa",
-      "name": "جزیرهٔ نورفولک"
+      "name": "جزیرهٔ نورفولک",
+      "aliases": [
+        "جزیره نورفک"
+      ]
     },
     {
       "locale": "de",
-      "name": "Norfolkinsel"
+      "name": "Norfolkinsel",
+      "aliases": [
+        "Norfolk-Insel"
+      ]
     },
     {
       "locale": "es",
-      "name": "Isla Norfolk"
+      "name": "Isla Norfolk",
+      "aliases": [
+        "Norfolk",
+        "Isla de Norfolk"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Île Norfolk"
+      "name": "Île Norfolk",
+      "aliases": [
+        "Norfolk"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ノーフォーク島"
+      "name": "ノーフォーク島",
+      "aliases": [
+        "ノーフォーク島特別地域"
+      ]
     },
     {
       "locale": "it",
-      "name": "Isola Norfolk"
+      "name": "Isola Norfolk",
+      "aliases": [
+        "Isola di Norfolk"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,15 +111,25 @@
     },
     {
       "locale": "ru",
-      "name": "Остров Норфолк"
+      "name": "Остров Норфолк",
+      "aliases": [
+        "о-в Норфолк",
+        "Норфолк"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Острів Норфолк"
+      "name": "Острів Норфолк",
+      "aliases": [
+        "Норфолк"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Wyspa Norfolk"
+      "name": "Wyspa Norfolk",
+      "aliases": [
+        "Norfolk"
+      ]
     }
   ],
   "states": []

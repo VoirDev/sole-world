@@ -1,6 +1,7 @@
 {
   "id": "AQ",
   "name": "Antarctica",
+  "aliases": [],
   "nativeName": "Antarctica",
   "iso2": "AQ",
   "iso3": "ATA",
@@ -43,7 +44,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Antártida"
+      "name": "Antártida",
+      "aliases": [
+        "Antártica"
+      ]
     },
     {
       "locale": "nl",
@@ -51,19 +55,31 @@
     },
     {
       "locale": "hr",
-      "name": "Antarktika"
+      "name": "Antarktika",
+      "aliases": [
+        "Antarktik"
+      ]
     },
     {
       "locale": "fa",
-      "name": "جنوبگان"
+      "name": "جنوبگان",
+      "aliases": [
+        "قاره جنوبگان"
+      ]
     },
     {
       "locale": "de",
-      "name": "Antarktis"
+      "name": "Antarktis",
+      "aliases": [
+        "Antarktika"
+      ]
     },
     {
       "locale": "es",
-      "name": "Antártida"
+      "name": "Antártida",
+      "aliases": [
+        "Antártica"
+      ]
     },
     {
       "locale": "fr",
@@ -71,7 +87,10 @@
     },
     {
       "locale": "ja",
-      "name": "南極"
+      "name": "南極",
+      "aliases": [
+        "南極大陸"
+      ]
     },
     {
       "locale": "it",
@@ -83,7 +102,10 @@
     },
     {
       "locale": "tr",
-      "name": "Antarktika"
+      "name": "Antarktika",
+      "aliases": [
+        "Antarktika kıtası"
+      ]
     },
     {
       "locale": "ru",
@@ -91,7 +113,10 @@
     },
     {
       "locale": "uk",
-      "name": "Антарктика"
+      "name": "Антарктика",
+      "aliases": [
+        "Антарктида"
+      ]
     },
     {
       "locale": "pl",

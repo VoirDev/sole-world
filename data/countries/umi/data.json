@@ -1,6 +1,10 @@
 {
   "id": "UM",
   "name": "United States Minor Outlying Islands",
+  "aliases": [
+    "U.S. Outlying Islands",
+    "U.S. Minor Outlying Islands"
+  ],
   "nativeName": "United States Minor Outlying Islands",
   "iso2": "UM",
   "iso3": "UMI",
@@ -26,19 +30,31 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "미국령 군소 제도"
+      "name": "미국령 군소 제도",
+      "aliases": [
+        "미국령 해외 제도"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Ilhas Menores Distantes dos Estados Unidos"
+      "name": "Ilhas Menores Distantes dos Estados Unidos",
+      "aliases": [
+        "Ilhas Menores Distantes dos EUA"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Ilhas Menores Distantes dos Estados Unidos"
+      "name": "Ilhas Menores Distantes dos Estados Unidos",
+      "aliases": [
+        "Ilhas Menores Afastadas dos EUA"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Kleine afgelegen eilanden van de Verenigde Staten"
+      "name": "Kleine afgelegen eilanden van de Verenigde Staten",
+      "aliases": [
+        "Amerikaanse Kleinere Afgelegen Eilanden"
+      ]
     },
     {
       "locale": "hr",
@@ -50,11 +66,19 @@
     },
     {
       "locale": "de",
-      "name": "Kleinere Inselbesitzungen der Vereinigten Staaten"
+      "name": "Kleinere Inselbesitzungen der Vereinigten Staaten",
+      "aliases": [
+        "Amerikanische Überseeinseln",
+        "Kleinere Amerikanische Überseeinseln"
+      ]
     },
     {
       "locale": "es",
-      "name": "Islas Ultramarinas Menores de Estados Unidos"
+      "name": "Islas Ultramarinas Menores de Estados Unidos",
+      "aliases": [
+        "Islas menores alejadas de EE. UU.",
+        "Islas ultramarinas de Estados Unidos"
+      ]
     },
     {
       "locale": "fr",
@@ -66,7 +90,10 @@
     },
     {
       "locale": "it",
-      "name": "Isole minori esterne degli Stati Uniti d'America"
+      "name": "Isole minori esterne degli Stati Uniti d'America",
+      "aliases": [
+        "Isole Minori Esterne degli Stati Uniti"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -78,15 +105,26 @@
     },
     {
       "locale": "ru",
-      "name": "Малые отдаленные острова Соединенных Штатов"
+      "name": "Малые отдаленные острова Соединенных Штатов",
+      "aliases": [
+        "Внешние малые о-ва (США)",
+        "Внешние малые острова США"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Малі віддалені острови Сполучених Штатів"
+      "name": "Малі віддалені острови Сполучених Штатів",
+      "aliases": [
+        "Віддалені острови США",
+        "Зовнішні малі острови США"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Mniejsze Wyspy Zewnętrzne Stanów Zjednoczonych"
+      "name": "Mniejsze Wyspy Zewnętrzne Stanów Zjednoczonych",
+      "aliases": [
+        "Dalekie Wyspy Mniejsze Stanów Zjednoczonych"
+      ]
     }
   ],
   "states": [

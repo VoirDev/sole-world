@@ -1,6 +1,9 @@
 {
   "id": "BI",
   "name": "Burundi",
+  "aliases": [
+    "Republic of Burundi"
+  ],
   "nativeName": "Burundi",
   "iso2": "BI",
   "iso3": "BDI",
@@ -27,7 +30,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "부룬디"
+      "name": "부룬디",
+      "aliases": [
+        "부룬디 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -39,7 +45,10 @@
     },
     {
       "locale": "nl",
-      "name": "Burundi"
+      "name": "Burundi",
+      "aliases": [
+        "Republiek Burundi"
+      ]
     },
     {
       "locale": "hr",
@@ -55,15 +64,25 @@
     },
     {
       "locale": "es",
-      "name": "Burundi"
+      "name": "Burundi",
+      "aliases": [
+        "República de Burundi"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Burundi"
+      "name": "Burundi",
+      "aliases": [
+        "République du Burundi"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ブルンジ"
+      "name": "ブルンジ",
+      "aliases": [
+        "ブルンジ共和国",
+        "ブルンディ"
+      ]
     },
     {
       "locale": "it",
@@ -71,7 +90,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "布隆迪"
+      "name": "布隆迪",
+      "aliases": [
+        "布隆迪共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -79,15 +101,24 @@
     },
     {
       "locale": "ru",
-      "name": "Бурунди"
+      "name": "Бурунди",
+      "aliases": [
+        "Республика Бурунди"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Бурунді"
+      "name": "Бурунді",
+      "aliases": [
+        "Республіка Бурунді"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Burundi"
+      "name": "Burundi",
+      "aliases": [
+        "Republika Burundi"
+      ]
     }
   ],
   "states": [

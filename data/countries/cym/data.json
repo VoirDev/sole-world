@@ -1,6 +1,9 @@
 {
   "id": "KY",
   "name": "Cayman Islands",
+  "aliases": [
+    "Caymans"
+  ],
   "nativeName": "Cayman Islands",
   "iso2": "KY",
   "iso3": "CYM",
@@ -25,19 +28,33 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "케이맨 제도"
+      "name": "케이맨 제도",
+      "aliases": [
+        "케이맨"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Ilhas Cayman"
+      "name": "Ilhas Cayman",
+      "aliases": [
+        "Ilhas Caimã"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Ilhas Caimão"
+      "name": "Ilhas Caimão",
+      "aliases": [
+        "Ilhas Cayman",
+        "Ilhas Caimã"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Kaaimaneilanden"
+      "name": "Kaaimaneilanden",
+      "aliases": [
+        "Caymaneilanden",
+        "Kaaiman-Eilanden"
+      ]
     },
     {
       "locale": "hr",
@@ -49,7 +66,11 @@
     },
     {
       "locale": "de",
-      "name": "Kaimaninseln"
+      "name": "Kaimaninseln",
+      "aliases": [
+        "Cayman Islands",
+        "Kaiman-Inseln"
+      ]
     },
     {
       "locale": "es",
@@ -77,7 +98,12 @@
     },
     {
       "locale": "ru",
-      "name": "Каймановы острова"
+      "name": "Каймановы острова",
+      "aliases": [
+        "о-ва Кайман",
+        "Кайманы",
+        "Острова Кайман"
+      ]
     },
     {
       "locale": "uk",

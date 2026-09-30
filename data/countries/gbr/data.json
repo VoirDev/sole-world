@@ -1,6 +1,13 @@
 {
   "id": "GB",
   "name": "United Kingdom",
+  "aliases": [
+    "UK",
+    "Britain",
+    "Great Britain",
+    "United Kingdom of Great Britain and Northern Ireland",
+    "Great Britain and Northern Ireland"
+  ],
   "nativeName": "United Kingdom",
   "iso2": "GB",
   "iso3": "GBR",
@@ -25,23 +32,44 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "영국"
+      "name": "영국",
+      "aliases": [
+        "그레이트브리튼 북아일랜드 연합 왕국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Reino Unido"
+      "name": "Reino Unido",
+      "aliases": [
+        "Grã-Bretanha",
+        "Reino Unido da Grã-Bretanha e Irlanda do Norte"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Reino Unido"
+      "name": "Reino Unido",
+      "aliases": [
+        "Reino Unido da Grã-Bretanha e Irlanda do Norte"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Verenigd Koninkrijk"
+      "name": "Verenigd Koninkrijk",
+      "aliases": [
+        "VK",
+        "Groot-Brittannië",
+        "Verenigd Koninkrijk van Groot-Brittannië en Noord-Ierland"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Ujedinjeno Kraljevstvo"
+      "name": "Ujedinjeno Kraljevstvo",
+      "aliases": [
+        "UK",
+        "Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske",
+        "VB",
+        "Velika Britanija"
+      ]
     },
     {
       "locale": "fa",
@@ -49,43 +77,92 @@
     },
     {
       "locale": "de",
-      "name": "Vereinigtes Königreich"
+      "name": "Vereinigtes Königreich",
+      "aliases": [
+        "UK",
+        "Großbritannien",
+        "Vereinigtes Königreich Großbritannien und Nordirland"
+      ]
     },
     {
       "locale": "es",
-      "name": "Reino Unido"
+      "name": "Reino Unido",
+      "aliases": [
+        "Gran Bretaña",
+        "Reino Unido de Gran Bretaña e Irlanda del Norte",
+        "Reino Unido de la Gran Bretaña e Irlanda del Norte"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Royaume-Uni"
+      "name": "Royaume-Uni",
+      "aliases": [
+        "Grande-Bretagne",
+        "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord"
+      ]
     },
     {
       "locale": "ja",
-      "name": "イギリス"
+      "name": "イギリス",
+      "aliases": [
+        "英国",
+        "グレートブリテン及び北アイルランド連合王国",
+        "連合王国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Regno Unito"
+      "name": "Regno Unito",
+      "aliases": [
+        "UK",
+        "Gran Bretagna",
+        "Regno Unito di Gran Bretagna e Irlanda del Nord"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "英国"
+      "name": "英国",
+      "aliases": [
+        "大不列颠及北爱尔兰联合王国",
+        "联合王国",
+        "不列颠"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Birleşik Krallık"
+      "name": "Birleşik Krallık",
+      "aliases": [
+        "BK",
+        "Büyük Britanya ve Kuzey İrlanda Birleşik Krallığı"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Великобритания"
+      "name": "Великобритания",
+      "aliases": [
+        "Британия",
+        "Соединённое Королевство",
+        "Соединённое Королевство Великобритании и Северной Ирландии"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Сполучене Королівство"
+      "name": "Сполучене Королівство",
+      "aliases": [
+        "Великобританія",
+        "Британія",
+        "Велика Британія",
+        "Сполучене Королівство Великої Британії та Північної Ірландії"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Wielka Brytania"
+      "name": "Wielka Brytania",
+      "aliases": [
+        "Wlk. Bryt.",
+        "Zjednoczone Królestwo",
+        "Zjednoczone Królestwo Wielkiej Brytanii i Irlandii Północnej"
+      ]
     }
   ],
   "states": [

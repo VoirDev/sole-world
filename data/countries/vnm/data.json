@@ -1,6 +1,11 @@
 {
   "id": "VN",
   "name": "Vietnam",
+  "aliases": [
+    "Viet Nam",
+    "Socialist Republic of Viet Nam",
+    "Socialist Republic of Vietnam"
+  ],
   "nativeName": "Việt Nam",
   "iso2": "VN",
   "iso3": "VNM",
@@ -25,11 +30,17 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "베트남"
+      "name": "베트남",
+      "aliases": [
+        "베트남 사회주의 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Vietnã"
+      "name": "Vietnã",
+      "aliases": [
+        "República Socialista do Vietnã"
+      ]
     },
     {
       "locale": "pt",
@@ -37,7 +48,10 @@
     },
     {
       "locale": "nl",
-      "name": "Vietnam"
+      "name": "Vietnam",
+      "aliases": [
+        "Socialistische Republiek Vietnam"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +63,33 @@
     },
     {
       "locale": "de",
-      "name": "Vietnam"
+      "name": "Vietnam",
+      "aliases": [
+        "Sozialistische Republik Vietnam"
+      ]
     },
     {
       "locale": "es",
-      "name": "Vietnam"
+      "name": "Vietnam",
+      "aliases": [
+        "República Socialista de Vietnam",
+        "Viet Nam"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Viêt Nam"
+      "name": "Viêt Nam",
+      "aliases": [
+        "Vietnam"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ベトナム"
+      "name": "ベトナム",
+      "aliases": [
+        "ヴェトナム",
+        "ベトナム社会主義共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,23 +97,38 @@
     },
     {
       "locale": "zh-CN",
-      "name": "越南"
+      "name": "越南",
+      "aliases": [
+        "越南社会主义共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Vietnam"
+      "name": "Vietnam",
+      "aliases": [
+        "Vietnam Sosyalist Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Вьетнам"
+      "name": "Вьетнам",
+      "aliases": [
+        "Социалистическая Республика Вьетнам"
+      ]
     },
     {
       "locale": "uk",
-      "name": "В'єтнам"
+      "name": "В'єтнам",
+      "aliases": [
+        "Соціалістична Республіка В'єтнам"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Wietnam"
+      "name": "Wietnam",
+      "aliases": [
+        "Socjalistyczna Republika Wietnamu"
+      ]
     }
   ],
   "states": [

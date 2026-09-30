@@ -1,6 +1,11 @@
 {
   "id": "PR",
   "name": "Puerto Rico",
+  "aliases": [
+    "Commonwealth of Puerto Rico",
+    "Free Associated State of Puerto Rico",
+    "Territory of Puerto Rico"
+  ],
   "nativeName": "Puerto Rico",
   "iso2": "PR",
   "iso3": "PRI",
@@ -33,11 +38,19 @@
     },
     {
       "locale": "pt",
-      "name": "Porto Rico"
+      "name": "Porto Rico",
+      "aliases": [
+        "Puerto Rico",
+        "Estado Livre Associado de Porto Rico",
+        "Território de Porto Rico"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Puerto Rico"
+      "name": "Puerto Rico",
+      "aliases": [
+        "Gemenebest Puerto Rico"
+      ]
     },
     {
       "locale": "hr",
@@ -53,19 +66,34 @@
     },
     {
       "locale": "es",
-      "name": "Puerto Rico"
+      "name": "Puerto Rico",
+      "aliases": [
+        "Estado Libre Asociado de Puerto Rico",
+        "Mancomunidad de Puerto Rico",
+        "Territorio de Puerto Rico"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Porto Rico"
+      "name": "Porto Rico",
+      "aliases": [
+        "Puerto Rico",
+        "État libre associé de Porto Rico"
+      ]
     },
     {
       "locale": "ja",
-      "name": "プエルトリコ"
+      "name": "プエルトリコ",
+      "aliases": [
+        "プエルトリコ自治連邦区"
+      ]
     },
     {
       "locale": "it",
-      "name": "Portorico"
+      "name": "Portorico",
+      "aliases": [
+        "Porto Rico"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,7 +105,11 @@
     },
     {
       "locale": "ru",
-      "name": "Пуэрто-Рико"
+      "name": "Пуэрто-Рико",
+      "aliases": [
+        "Свободно ассоциированное государство Пуэрто-Рико",
+        "Содружество Пуэрто-Рико"
+      ]
     },
     {
       "locale": "uk",

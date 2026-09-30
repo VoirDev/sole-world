@@ -1,6 +1,9 @@
 {
   "id": "CY",
   "name": "Cyprus",
+  "aliases": [
+    "Republic of Cyprus"
+  ],
   "nativeName": "Κύπρος",
   "iso2": "CY",
   "iso3": "CYP",
@@ -27,7 +30,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "키프로스"
+      "name": "키프로스",
+      "aliases": [
+        "사이프러스",
+        "키프로스 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -35,15 +42,24 @@
     },
     {
       "locale": "pt",
-      "name": "Chipre"
+      "name": "Chipre",
+      "aliases": [
+        "República do Chipre"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Cyprus"
+      "name": "Cyprus",
+      "aliases": [
+        "Republiek Cyprus"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Cipar"
+      "name": "Cipar",
+      "aliases": [
+        "Republika Cipar"
+      ]
     },
     {
       "locale": "fa",
@@ -55,19 +71,31 @@
     },
     {
       "locale": "es",
-      "name": "Chipre"
+      "name": "Chipre",
+      "aliases": [
+        "República de Chipre"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Chypre"
+      "name": "Chypre",
+      "aliases": [
+        "République de Chypre"
+      ]
     },
     {
       "locale": "ja",
-      "name": "キプロス"
+      "name": "キプロス",
+      "aliases": [
+        "キプロス共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Cipro"
+      "name": "Cipro",
+      "aliases": [
+        "Repubblica di Cipro"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -75,11 +103,17 @@
     },
     {
       "locale": "tr",
-      "name": "Kıbrıs"
+      "name": "Kıbrıs",
+      "aliases": [
+        "Kıbrıs Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Кипр"
+      "name": "Кипр",
+      "aliases": [
+        "Республика Кипр"
+      ]
     },
     {
       "locale": "uk",

@@ -1,6 +1,12 @@
 {
   "id": "KP",
   "name": "North Korea",
+  "aliases": [
+    "DPR Korea",
+    "Democratic People's Republic of Korea",
+    "DPRK",
+    "N. Korea"
+  ],
   "nativeName": "북한",
   "iso2": "KP",
   "iso3": "PRK",
@@ -25,7 +31,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "북한"
+      "name": "북한",
+      "aliases": [
+        "조선민주주의인민공화국",
+        "북조선"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -37,11 +47,18 @@
     },
     {
       "locale": "nl",
-      "name": "Noord-Korea"
+      "name": "Noord-Korea",
+      "aliases": [
+        "Democratische Volksrepubliek Korea",
+        "DVRK"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Sjeverna Koreja"
+      "name": "Sjeverna Koreja",
+      "aliases": [
+        "Demokratska Narodna Republika Koreja"
+      ]
     },
     {
       "locale": "fa",
@@ -49,43 +66,84 @@
     },
     {
       "locale": "de",
-      "name": "Nordkorea"
+      "name": "Nordkorea",
+      "aliases": [
+        "Demokratische Volksrepublik Korea",
+        "DVRK",
+        "Koreanische Demokratische Volksrepublik"
+      ]
     },
     {
       "locale": "es",
-      "name": "Corea del Norte"
+      "name": "Corea del Norte",
+      "aliases": [
+        "Corea Popular",
+        "Norcorea",
+        "República Popular Democrática de Corea",
+        "RPDC"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Corée du Nord"
+      "name": "Corée du Nord",
+      "aliases": [
+        "République populaire démocratique de Corée",
+        "RPDC"
+      ]
     },
     {
       "locale": "ja",
-      "name": "北朝鮮"
+      "name": "北朝鮮",
+      "aliases": [
+        "朝鮮民主主義人民共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Corea del Nord"
+      "name": "Corea del Nord",
+      "aliases": [
+        "Repubblica Democratica Popolare di Corea"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "朝鲜"
+      "name": "朝鲜",
+      "aliases": [
+        "朝鲜民主主义人民共和国",
+        "北朝鲜",
+        "北韩"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Kuzey Kore"
+      "name": "Kuzey Kore",
+      "aliases": [
+        "Kore Demokratik Halk Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Северная Корея"
+      "name": "Северная Корея",
+      "aliases": [
+        "КНДР",
+        "Корейская Народно-Демократическая Республика"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Північна Корея"
+      "name": "Північна Корея",
+      "aliases": [
+        "Корейська Народно-Демократична Республіка",
+        "КНДР"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Korea Północna"
+      "name": "Korea Północna",
+      "aliases": [
+        "Koreańska Republika Ludowo-Demokratyczna",
+        "KRLD"
+      ]
     }
   ],
   "states": [

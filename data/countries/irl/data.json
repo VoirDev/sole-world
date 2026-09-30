@@ -1,6 +1,10 @@
 {
   "id": "IE",
   "name": "Ireland",
+  "aliases": [
+    "Irish Republic",
+    "Republic of Ireland"
+  ],
   "nativeName": "Éire",
   "iso2": "IE",
   "iso3": "IRL",
@@ -26,67 +30,117 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "아일랜드"
+      "name": "아일랜드",
+      "aliases": [
+        "아일랜드 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Irlanda"
+      "name": "Irlanda",
+      "aliases": [
+        "República da Irlanda"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Irlanda"
+      "name": "Irlanda",
+      "aliases": [
+        "República da Irlanda"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Ierland"
+      "name": "Ierland",
+      "aliases": [
+        "Republiek Ierland"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Irska"
+      "name": "Irska",
+      "aliases": [
+        "Republika Irska"
+      ]
     },
     {
       "locale": "fa",
-      "name": "ایرلند"
+      "name": "ایرلند",
+      "aliases": [
+        "جمهوری ایرلند"
+      ]
     },
     {
       "locale": "de",
-      "name": "Irland"
+      "name": "Irland",
+      "aliases": [
+        "Republik Irland"
+      ]
     },
     {
       "locale": "es",
-      "name": "Irlanda"
+      "name": "Irlanda",
+      "aliases": [
+        "República de Irlanda"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Irlande"
+      "name": "Irlande",
+      "aliases": [
+        "République irlandaise",
+        "République d'Irlande"
+      ]
     },
     {
       "locale": "ja",
-      "name": "アイルランド"
+      "name": "アイルランド",
+      "aliases": [
+        "アイルランド共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Irlanda"
+      "name": "Irlanda",
+      "aliases": [
+        "Repubblica d'Irlanda"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "爱尔兰"
+      "name": "爱尔兰",
+      "aliases": [
+        "爱尔兰共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "İrlanda"
+      "name": "İrlanda",
+      "aliases": [
+        "İrlanda Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Ирландия"
+      "name": "Ирландия",
+      "aliases": [
+        "Республика Ирландия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Ірландія"
+      "name": "Ірландія",
+      "aliases": [
+        "Ірландська Республіка",
+        "Республіка Ірландія"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Irlandia"
+      "name": "Irlandia",
+      "aliases": [
+        "Republika Irlandii"
+      ]
     }
   ],
   "states": [

@@ -1,6 +1,9 @@
 {
   "id": "LV",
   "name": "Latvia",
+  "aliases": [
+    "Republic of Latvia"
+  ],
   "nativeName": "Latvija",
   "iso2": "LV",
   "iso3": "LVA",
@@ -25,11 +28,17 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "라트비아"
+      "name": "라트비아",
+      "aliases": [
+        "라트비아 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Letônia"
+      "name": "Letônia",
+      "aliases": [
+        "República da Letônia"
+      ]
     },
     {
       "locale": "pt",
@@ -37,7 +46,10 @@
     },
     {
       "locale": "nl",
-      "name": "Letland"
+      "name": "Letland",
+      "aliases": [
+        "Republiek Letland"
+      ]
     },
     {
       "locale": "hr",
@@ -45,7 +57,10 @@
     },
     {
       "locale": "fa",
-      "name": "لتونی"
+      "name": "لتونی",
+      "aliases": [
+        "جمهوری لتونی"
+      ]
     },
     {
       "locale": "de",
@@ -53,7 +68,10 @@
     },
     {
       "locale": "es",
-      "name": "Letonia"
+      "name": "Letonia",
+      "aliases": [
+        "República de Letonia"
+      ]
     },
     {
       "locale": "fr",
@@ -61,7 +79,10 @@
     },
     {
       "locale": "ja",
-      "name": "ラトビア"
+      "name": "ラトビア",
+      "aliases": [
+        "ラトビア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -77,7 +98,11 @@
     },
     {
       "locale": "ru",
-      "name": "Латвия"
+      "name": "Латвия",
+      "aliases": [
+        "Латвийская Республика",
+        "Республика Латвия"
+      ]
     },
     {
       "locale": "uk",

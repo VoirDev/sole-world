@@ -141,6 +141,30 @@ class CountryRestIntegrationTest : BaseRestIntegrationTest() {
     }
 
     @Test
+    fun `search matches a country by any of its aliases`() {
+        assertEquals(listOf("Freedonia"), itemNames(get("/v1/countries?query=Free%20Republic")))
+        // The alias is spelled F.R.D.; search folds the dots away on both sides.
+        assertEquals(listOf("Freedonia"), itemNames(get("/v1/countries?query=FRD")))
+        // A Russian alias finds the country while the response is rendered in English.
+        assertEquals(listOf("Freedonia"), itemNames(get("/v1/countries?query=Фридонская")))
+    }
+
+    @Test
+    fun `aliases are returned only when included, in the language of the name`() {
+        assertTrue(get("/v1/countries/FD")["aliases"] == null, "aliases should be absent without include")
+        assertEquals(
+            listOf("Free Republic", "F.R.D."),
+            strings(get("/v1/countries/FD?include=aliases")["aliases"]),
+        )
+        assertEquals(
+            listOf("Фридонская Республика"),
+            strings(get("/v1/countries/FD?include=aliases&lang=ru")["aliases"]),
+        )
+        // A country without aliases says so with an empty list rather than an absent field.
+        assertEquals(0, get("/v1/countries/SY?include=aliases")["aliases"].size())
+    }
+
+    @Test
     fun `filters narrow the listing and combine`() {
         assertEquals(2, get("/v1/countries?regionId=test-europe").at("/page/totalItems").intValue())
         assertEquals(0, get("/v1/countries?regionId=test-oceania").at("/page/totalItems").intValue())
@@ -186,4 +210,6 @@ class CountryRestIntegrationTest : BaseRestIntegrationTest() {
 
         return values
     }
+
+    private fun strings(array: JsonNode): List<String> = array.asSequence().map { it.stringValue() }.toList()
 }

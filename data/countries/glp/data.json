@@ -1,6 +1,7 @@
 {
   "id": "GP",
   "name": "Guadeloupe",
+  "aliases": [],
   "nativeName": "Guadeloupe",
   "iso2": "GP",
   "iso3": "GLP",
@@ -33,7 +34,10 @@
     },
     {
       "locale": "pt",
-      "name": "Guadalupe"
+      "name": "Guadalupe",
+      "aliases": [
+        "Guadeloupe"
+      ]
     },
     {
       "locale": "nl",
@@ -41,11 +45,17 @@
     },
     {
       "locale": "hr",
-      "name": "Gvadalupa"
+      "name": "Gvadalupa",
+      "aliases": [
+        "Guadalupe"
+      ]
     },
     {
       "locale": "fa",
-      "name": "گوادلوپ"
+      "name": "گوادلوپ",
+      "aliases": [
+        "جزیره گوادلوپ"
+      ]
     },
     {
       "locale": "de",
@@ -69,7 +79,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "瓜德罗普岛"
+      "name": "瓜德罗普岛",
+      "aliases": [
+        "瓜德罗普"
+      ]
     },
     {
       "locale": "tr",

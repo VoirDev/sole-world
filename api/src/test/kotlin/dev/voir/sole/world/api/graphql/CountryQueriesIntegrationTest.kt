@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
+import tools.jackson.databind.JsonNode
 
 class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     @Test
@@ -311,4 +312,20 @@ class CountryQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
 
         assertEquals(200, response.statusCode())
     }
+
+    @Test
+    fun `country aliases follow the requested language`() {
+        val query = """query { country(id: "FD") { aliases } }"""
+
+        assertEquals(
+            listOf("Free Republic", "F.R.D."),
+            strings(graphQL(query).at("/data/country/aliases")),
+        )
+        assertEquals(
+            listOf("Фридонская Республика"),
+            strings(graphQL(query, acceptLanguage = "ru").at("/data/country/aliases")),
+        )
+    }
+
+    private fun strings(array: JsonNode): List<String> = array.asSequence().map { it.stringValue() }.toList()
 }

@@ -1,6 +1,10 @@
 {
   "id": "CC",
   "name": "Cocos (Keeling) Islands",
+  "aliases": [
+    "Cocos Islands",
+    "Keeling Islands"
+  ],
   "nativeName": "Cocos (Keeling) Islands",
   "iso2": "CC",
   "iso3": "CCK",
@@ -29,63 +33,124 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Ilhas Cocos"
+      "name": "Ilhas Cocos",
+      "aliases": [
+        "Ilhas Cocos (Keeling)"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Ilhas dos Cocos"
+      "name": "Ilhas dos Cocos",
+      "aliases": [
+        "Ilhas dos Cocos (Keeling)",
+        "Ilhas Cocos",
+        "Ilhas Keeling",
+        "Território das Ilhas Cocos",
+        "Território das Ilhas Keeling"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Cocoseilanden"
+      "name": "Cocoseilanden",
+      "aliases": [
+        "Keelingeilanden",
+        "Kokoseilanden",
+        "Territorium Cocos- of Keelingeilanden"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Kokosovi Otoci"
+      "name": "Kokosovi Otoci",
+      "aliases": [
+        "Kokosovi (Keelingovi) Otoci"
+      ]
     },
     {
       "locale": "fa",
-      "name": "جزایر کوکوس"
+      "name": "جزایر کوکوس",
+      "aliases": [
+        "جزایر کیلینگ"
+      ]
     },
     {
       "locale": "de",
-      "name": "Kokosinseln"
+      "name": "Kokosinseln",
+      "aliases": [
+        "Cocos-Inseln",
+        "Cocos-Keeling-Inseln",
+        "Keeling-Inseln"
+      ]
     },
     {
       "locale": "es",
-      "name": "Islas Cocos"
+      "name": "Islas Cocos",
+      "aliases": [
+        "Islas Keeling",
+        "Keeling"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Îles Cocos"
+      "name": "Îles Cocos",
+      "aliases": [
+        "Îles Cocos ou Keeling",
+        "Îles Keeling"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ココス（キーリング）諸島"
+      "name": "ココス（キーリング）諸島",
+      "aliases": [
+        "ココス諸島",
+        "キーリング諸島"
+      ]
     },
     {
       "locale": "it",
-      "name": "Isole Cocos e Keeling"
+      "name": "Isole Cocos e Keeling",
+      "aliases": [
+        "Isole Cocos (Keeling)",
+        "Isole Cocos",
+        "Cocos e Keeling",
+        "Isole Keeling"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "科科斯（基林）群岛"
+      "name": "科科斯（基林）群岛",
+      "aliases": [
+        "科科斯群岛"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Cocos Adaları"
+      "name": "Cocos Adaları",
+      "aliases": [
+        "Cocos (Keeling) Adaları",
+        "Kokos Adaları"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Кокосовые острова"
+      "name": "Кокосовые острова",
+      "aliases": [
+        "Кокосовые о-ва"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Кокосові (Кілінг) острови"
+      "name": "Кокосові (Кілінг) острови",
+      "aliases": [
+        "Кокосові острови"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Wyspy Kokosowe (Keelinga)"
+      "name": "Wyspy Kokosowe (Keelinga)",
+      "aliases": [
+        "Wyspy Kokosowe",
+        "Wyspy Keelinga"
+      ]
     }
   ],
   "states": []

@@ -1,6 +1,11 @@
 {
   "id": "BA",
   "name": "Bosnia and Herzegovina",
+  "aliases": [
+    "Bosnia",
+    "Bosnia & Herzegovina",
+    "Bosnia and Hercegovina"
+  ],
   "nativeName": "Bosna i Hercegovina",
   "iso2": "BA",
   "iso3": "BIH",
@@ -27,23 +32,38 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "보스니아 헤르체고비나"
+      "name": "보스니아 헤르체고비나",
+      "aliases": [
+        "보스니아헤르체고비나"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Bósnia e Herzegovina"
+      "name": "Bósnia e Herzegovina",
+      "aliases": [
+        "Bósnia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Bósnia e Herzegovina"
+      "name": "Bósnia e Herzegovina",
+      "aliases": [
+        "Bósnia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Bosnië en Herzegovina"
+      "name": "Bosnië en Herzegovina",
+      "aliases": [
+        "Bosnië-Herzegovina"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Bosna i Hercegovina"
+      "name": "Bosna i Hercegovina",
+      "aliases": [
+        "Bosna"
+      ]
     },
     {
       "locale": "fa",
@@ -51,7 +71,10 @@
     },
     {
       "locale": "de",
-      "name": "Bosnien und Herzegowina"
+      "name": "Bosnien und Herzegowina",
+      "aliases": [
+        "Bosnien-Herzegowina"
+      ]
     },
     {
       "locale": "es",
@@ -59,31 +82,54 @@
     },
     {
       "locale": "fr",
-      "name": "Bosnie-Herzégovine"
+      "name": "Bosnie-Herzégovine",
+      "aliases": [
+        "Bosnie et Herzégovine"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ボスニア・ヘルツェゴビナ"
+      "name": "ボスニア・ヘルツェゴビナ",
+      "aliases": [
+        "ボスニア・ヘルツェゴヴィナ"
+      ]
     },
     {
       "locale": "it",
-      "name": "Bosnia ed Erzegovina"
+      "name": "Bosnia ed Erzegovina",
+      "aliases": [
+        "Bosnia-Erzegovina"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "波斯尼亚和黑塞哥维那"
+      "name": "波斯尼亚和黑塞哥维那",
+      "aliases": [
+        "波黑"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Bosna-Hersek"
+      "name": "Bosna-Hersek",
+      "aliases": [
+        "Bosna"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Босния и Герцеговина"
+      "name": "Босния и Герцеговина",
+      "aliases": [
+        "БиГ",
+        "Босния"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Боснія і Герцеговина"
+      "name": "Боснія і Герцеговина",
+      "aliases": [
+        "БіГ",
+        "Боснія та Герцеговина"
+      ]
     },
     {
       "locale": "pl",

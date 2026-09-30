@@ -1,6 +1,9 @@
 {
   "id": "MY",
   "name": "Malaysia",
+  "aliases": [
+    "Federation of Malaysia"
+  ],
   "nativeName": "Malaysia",
   "iso2": "MY",
   "iso3": "MYS",
@@ -68,7 +71,10 @@
     },
     {
       "locale": "it",
-      "name": "Malesia"
+      "name": "Malesia",
+      "aliases": [
+        "Malaysia"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -80,7 +86,10 @@
     },
     {
       "locale": "ru",
-      "name": "Малайзия"
+      "name": "Малайзия",
+      "aliases": [
+        "Федерация Малайзия"
+      ]
     },
     {
       "locale": "uk",

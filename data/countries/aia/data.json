@@ -1,6 +1,7 @@
 {
   "id": "AI",
   "name": "Anguilla",
+  "aliases": [],
   "nativeName": "Anguilla",
   "iso2": "AI",
   "iso3": "AIA",
@@ -29,11 +30,17 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Anguila"
+      "name": "Anguila",
+      "aliases": [
+        "Anguilla"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Anguila"
+      "name": "Anguila",
+      "aliases": [
+        "Anguilla"
+      ]
     },
     {
       "locale": "nl",
@@ -53,7 +60,10 @@
     },
     {
       "locale": "es",
-      "name": "Anguilla"
+      "name": "Anguilla",
+      "aliases": [
+        "Anguila"
+      ]
     },
     {
       "locale": "fr",
@@ -61,7 +71,10 @@
     },
     {
       "locale": "ja",
-      "name": "アンギラ"
+      "name": "アンギラ",
+      "aliases": [
+        "アンギラ島"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +82,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "安圭拉"
+      "name": "安圭拉",
+      "aliases": [
+        "安圭拉岛"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +93,10 @@
     },
     {
       "locale": "ru",
-      "name": "Ангилья"
+      "name": "Ангилья",
+      "aliases": [
+        "Ангуилла"
+      ]
     },
     {
       "locale": "uk",

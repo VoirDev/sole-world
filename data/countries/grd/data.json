@@ -1,6 +1,7 @@
 {
   "id": "GD",
   "name": "Grenada",
+  "aliases": [],
   "nativeName": "Grenada",
   "iso2": "GD",
   "iso3": "GRD",
@@ -55,7 +56,10 @@
     },
     {
       "locale": "es",
-      "name": "Granada"
+      "name": "Granada",
+      "aliases": [
+        "Isla de Granada"
+      ]
     },
     {
       "locale": "fr",

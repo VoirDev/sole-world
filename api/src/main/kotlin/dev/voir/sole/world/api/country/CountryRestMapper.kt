@@ -36,9 +36,11 @@ import org.springframework.stereotype.Component
 
 /**
  * Maps a country onto its published REST type.
+ * @param aliases The country's aliases, when the caller asked for them.
  * @return REST country with any supplied relationships embedded.
  */
 fun CountryData.toRest(
+    aliases: List<String>? = null,
     region: Region? = null,
     subregion: Subregion? = null,
     flag: Flag? = null,
@@ -51,6 +53,7 @@ fun CountryData.toRest(
 ) = Country(
     id = id,
     name = name,
+    aliases = aliases,
     iso2 = iso2,
     iso3 = iso3,
     isoNumeric = isoNumeric,
@@ -103,6 +106,9 @@ class CountryRestAssembler(
 
         val assembler = IncludeAssembler(includes)
 
+        // Aliases are the country's own data rather than a relationship, so there is nothing to load.
+        val aliases = if (ALIASES in includes) data.aliases else null
+
         val region = assembler.one(REGION, { regionStore.byId(data.regionId, languageCode) }) { it.toRest() }
         val subregion =
             assembler.one(SUBREGION, { subregionStore.byId(data.subregionId, languageCode) }) { it.toRest() }
@@ -121,6 +127,7 @@ class CountryRestAssembler(
         val states = assembler.manyPaged(STATES, { statesOf(data.id, languageCode) }) { it.toRest() }
 
         return data.toRest(
+            aliases = aliases,
             region = region,
             subregion = subregion,
             flag = flag,
@@ -156,15 +163,17 @@ class CountryRestAssembler(
         const val TIMEZONES = "timezones"
         const val CENTRAL_BANKS = "centralBanks"
         const val STATES = "states"
+        const val ALIASES = "aliases"
 
         /**
-         * Relationships a country endpoint accepts.
+         * Relationships a country endpoint accepts, plus `aliases`, which adds a field rather than a
+         * record: every country has a handful of them, too many to send to callers who never read them.
          *
          * Cities are deliberately absent: a single country can have tens of thousands, so they are
          * only reachable through their own paginated endpoint.
          */
         val ALLOWED_INCLUDES = setOf(
-            REGION, SUBREGION, FLAG, CURRENCIES, LANGUAGES, TIMEZONES, CENTRAL_BANKS, STATES,
+            REGION, SUBREGION, FLAG, CURRENCIES, LANGUAGES, TIMEZONES, CENTRAL_BANKS, STATES, ALIASES,
         )
     }
 }

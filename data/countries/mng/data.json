@@ -1,6 +1,7 @@
 {
   "id": "MN",
   "name": "Mongolia",
+  "aliases": [],
   "nativeName": "Монгол улс",
   "iso2": "MN",
   "iso3": "MNG",
@@ -62,7 +63,10 @@
     },
     {
       "locale": "ja",
-      "name": "モンゴル"
+      "name": "モンゴル",
+      "aliases": [
+        "モンゴル国"
+      ]
     },
     {
       "locale": "it",
@@ -70,7 +74,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "蒙古"
+      "name": "蒙古",
+      "aliases": [
+        "蒙古国"
+      ]
     },
     {
       "locale": "tr",

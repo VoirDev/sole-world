@@ -1,6 +1,7 @@
 {
   "id": "GH",
   "name": "Ghana",
+  "aliases": [],
   "nativeName": "Ghana",
   "iso2": "GH",
   "iso3": "GHA",
@@ -29,7 +30,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Gana"
+      "name": "Gana",
+      "aliases": [
+        "República de Gana"
+      ]
     },
     {
       "locale": "pt",
@@ -37,7 +41,10 @@
     },
     {
       "locale": "nl",
-      "name": "Ghana"
+      "name": "Ghana",
+      "aliases": [
+        "Republiek Ghana"
+      ]
     },
     {
       "locale": "hr",
@@ -49,39 +56,66 @@
     },
     {
       "locale": "de",
-      "name": "Ghana"
+      "name": "Ghana",
+      "aliases": [
+        "Republik Ghana"
+      ]
     },
     {
       "locale": "es",
-      "name": "Ghana"
+      "name": "Ghana",
+      "aliases": [
+        "República de Ghana"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Ghana"
+      "name": "Ghana",
+      "aliases": [
+        "République du Ghana"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ガーナ"
+      "name": "ガーナ",
+      "aliases": [
+        "ガーナ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Ghana"
+      "name": "Ghana",
+      "aliases": [
+        "Repubblica del Ghana"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "加纳"
+      "name": "加纳",
+      "aliases": [
+        "加纳共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Gana"
+      "name": "Gana",
+      "aliases": [
+        "Gana Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Гана"
+      "name": "Гана",
+      "aliases": [
+        "Республика Гана"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Гана"
+      "name": "Гана",
+      "aliases": [
+        "Республіка Гана"
+      ]
     },
     {
       "locale": "pl",

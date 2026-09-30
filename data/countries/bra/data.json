@@ -1,6 +1,9 @@
 {
   "id": "BR",
   "name": "Brazil",
+  "aliases": [
+    "Federative Republic of Brazil"
+  ],
   "nativeName": "Brasil",
   "iso2": "BR",
   "iso3": "BRA",
@@ -44,15 +47,25 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Brasil"
+      "name": "Brasil",
+      "aliases": [
+        "República Federativa do Brasil"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Brasil"
+      "name": "Brasil",
+      "aliases": [
+        "República Federativa do Brasil"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Brazilië"
+      "name": "Brazilië",
+      "aliases": [
+        "Federale Republiek Brazilië",
+        "Federatieve Republiek Brazilië"
+      ]
     },
     {
       "locale": "hr",
@@ -64,23 +77,40 @@
     },
     {
       "locale": "de",
-      "name": "Brasilien"
+      "name": "Brasilien",
+      "aliases": [
+        "Föderative Republik Brasilien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Brasil"
+      "name": "Brasil",
+      "aliases": [
+        "República Federativa de Brasil",
+        "República Federativa del Brasil"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Brésil"
+      "name": "Brésil",
+      "aliases": [
+        "République fédérative du Brésil"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ブラジル"
+      "name": "ブラジル",
+      "aliases": [
+        "ブラジル連邦共和国",
+        "伯国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Brasile"
+      "name": "Brasile",
+      "aliases": [
+        "Repubblica Federativa del Brasile"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -88,15 +118,24 @@
     },
     {
       "locale": "tr",
-      "name": "Brezilya"
+      "name": "Brezilya",
+      "aliases": [
+        "Brezilya Federatif Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Бразилия"
+      "name": "Бразилия",
+      "aliases": [
+        "Федеративная Республика Бразилия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Бразилія"
+      "name": "Бразилія",
+      "aliases": [
+        "Федеративна Республіка Бразилія"
+      ]
     },
     {
       "locale": "pl",

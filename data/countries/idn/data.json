@@ -1,6 +1,9 @@
 {
   "id": "ID",
   "name": "Indonesia",
+  "aliases": [
+    "Republic of Indonesia"
+  ],
   "nativeName": "Indonesia",
   "iso2": "ID",
   "iso3": "IDN",
@@ -30,15 +33,24 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "인도네시아"
+      "name": "인도네시아",
+      "aliases": [
+        "인니"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Indonésia"
+      "name": "Indonésia",
+      "aliases": [
+        "República da Indonésia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Indonésia"
+      "name": "Indonésia",
+      "aliases": [
+        "República da Indonésia"
+      ]
     },
     {
       "locale": "nl",
@@ -54,19 +66,31 @@
     },
     {
       "locale": "de",
-      "name": "Indonesien"
+      "name": "Indonesien",
+      "aliases": [
+        "Republik Indonesien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Indonesia"
+      "name": "Indonesia",
+      "aliases": [
+        "República de Indonesia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Indonésie"
+      "name": "Indonésie",
+      "aliases": [
+        "République d'Indonésie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "インドネシア"
+      "name": "インドネシア",
+      "aliases": [
+        "インドネシア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -74,7 +98,11 @@
     },
     {
       "locale": "zh-CN",
-      "name": "印度尼西亚"
+      "name": "印度尼西亚",
+      "aliases": [
+        "印尼",
+        "印度尼西亚共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -82,15 +110,24 @@
     },
     {
       "locale": "ru",
-      "name": "Индонезия"
+      "name": "Индонезия",
+      "aliases": [
+        "Республика Индонезия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Індонезія"
+      "name": "Індонезія",
+      "aliases": [
+        "Республіка Індонезія"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Indonezja"
+      "name": "Indonezja",
+      "aliases": [
+        "Republika Indonezji"
+      ]
     }
   ],
   "states": [

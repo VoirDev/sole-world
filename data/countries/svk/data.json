@@ -1,6 +1,9 @@
 {
   "id": "SK",
   "name": "Slovakia",
+  "aliases": [
+    "Slovak Republic"
+  ],
   "nativeName": "Slovensko",
   "iso2": "SK",
   "iso3": "SVK",
@@ -25,7 +28,10 @@
   "translations": [
     {
       "locale": "uk",
-      "name": "Словаччина"
+      "name": "Словаччина",
+      "aliases": [
+        "Словацька Республіка"
+      ]
     },
     {
       "locale": "ko",
@@ -33,7 +39,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Eslováquia"
+      "name": "Eslováquia",
+      "aliases": [
+        "República Eslovaca"
+      ]
     },
     {
       "locale": "pt",
@@ -41,7 +50,12 @@
     },
     {
       "locale": "nl",
-      "name": "Slowakije"
+      "name": "Slowakije",
+      "aliases": [
+        "Slovaakse Republiek",
+        "Slovakije",
+        "Slowaakse Republiek"
+      ]
     },
     {
       "locale": "hr",
@@ -53,19 +67,32 @@
     },
     {
       "locale": "de",
-      "name": "Slowakei"
+      "name": "Slowakei",
+      "aliases": [
+        "Slowakische Republik"
+      ]
     },
     {
       "locale": "es",
-      "name": "Eslovaquia"
+      "name": "Eslovaquia",
+      "aliases": [
+        "República Eslovaca"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Slovaquie"
+      "name": "Slovaquie",
+      "aliases": [
+        "République slovaque"
+      ]
     },
     {
       "locale": "ja",
-      "name": "スロバキア"
+      "name": "スロバキア",
+      "aliases": [
+        "スロヴァキア",
+        "スロバキア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -81,7 +108,10 @@
     },
     {
       "locale": "ru",
-      "name": "Словакия"
+      "name": "Словакия",
+      "aliases": [
+        "Словацкая Республика"
+      ]
     },
     {
       "locale": "pl",

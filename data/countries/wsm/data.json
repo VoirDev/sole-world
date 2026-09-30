@@ -1,6 +1,10 @@
 {
   "id": "WS",
   "name": "Samoa",
+  "aliases": [
+    "Independent State of Samoa",
+    "Western Samoa"
+  ],
   "nativeName": "Samoa",
   "iso2": "WS",
   "iso3": "WSM",
@@ -26,7 +30,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "사모아"
+      "name": "사모아",
+      "aliases": [
+        "사모아 독립국",
+        "서사모아"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -38,7 +46,10 @@
     },
     {
       "locale": "nl",
-      "name": "Samoa"
+      "name": "Samoa",
+      "aliases": [
+        "Onafhankelijke Staat Samoa"
+      ]
     },
     {
       "locale": "hr",
@@ -50,27 +61,48 @@
     },
     {
       "locale": "de",
-      "name": "Samoa"
+      "name": "Samoa",
+      "aliases": [
+        "Unabhängiger Staat Samoa",
+        "West-Samoa",
+        "Westsamoa"
+      ]
     },
     {
       "locale": "es",
-      "name": "Samoa"
+      "name": "Samoa",
+      "aliases": [
+        "Estado Independiente de Samoa"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Samoa"
+      "name": "Samoa",
+      "aliases": [
+        "État indépendant des Samoa",
+        "Samoa occidentales"
+      ]
     },
     {
       "locale": "ja",
-      "name": "サモア"
+      "name": "サモア",
+      "aliases": [
+        "サモア独立国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Samoa"
+      "name": "Samoa",
+      "aliases": [
+        "Samoa Occidentali"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "萨摩亚"
+      "name": "萨摩亚",
+      "aliases": [
+        "萨摩亚独立国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,7 +110,10 @@
     },
     {
       "locale": "ru",
-      "name": "Самоа"
+      "name": "Самоа",
+      "aliases": [
+        "Независимое Государство Самоа"
+      ]
     },
     {
       "locale": "uk",
@@ -86,7 +121,10 @@
     },
     {
       "locale": "pl",
-      "name": "Samoa"
+      "name": "Samoa",
+      "aliases": [
+        "Samoa Zachodnie"
+      ]
     }
   ],
   "states": [

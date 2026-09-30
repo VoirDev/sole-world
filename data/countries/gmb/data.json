@@ -1,6 +1,11 @@
 {
   "id": "GM",
   "name": "The Gambia",
+  "aliases": [
+    "Gambia",
+    "Islamic Republic of the Gambia",
+    "Republic of the Gambia"
+  ],
   "nativeName": "Gambia",
   "iso2": "GM",
   "iso3": "GMB",
@@ -29,15 +34,26 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Gâmbia"
+      "name": "Gâmbia",
+      "aliases": [
+        "República da Gâmbia",
+        "República Islâmica da Gâmbia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Gâmbia"
+      "name": "Gâmbia",
+      "aliases": [
+        "República da Gâmbia",
+        "República Islâmica da Gâmbia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Gambia"
+      "name": "Gambia",
+      "aliases": [
+        "Republiek Gambia"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +65,32 @@
     },
     {
       "locale": "de",
-      "name": "Gambia"
+      "name": "Gambia",
+      "aliases": [
+        "Republik Gambia"
+      ]
     },
     {
       "locale": "es",
-      "name": "Gambia"
+      "name": "Gambia",
+      "aliases": [
+        "República de Gambia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Gambie"
+      "name": "Gambie",
+      "aliases": [
+        "République de Gambie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ガンビア"
+      "name": "ガンビア",
+      "aliases": [
+        "ガンビア・イスラム共和国",
+        "ガンビア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +98,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "冈比亚"
+      "name": "冈比亚",
+      "aliases": [
+        "冈比亚共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,15 +109,25 @@
     },
     {
       "locale": "ru",
-      "name": "Гамбия"
+      "name": "Гамбия",
+      "aliases": [
+        "Республика Гамбия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Гамбія"
+      "name": "Гамбія",
+      "aliases": [
+        "Республіка Гамбія"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Gambia"
+      "name": "Gambia",
+      "aliases": [
+        "Islamska Republika Gambii",
+        "Republika Gambii"
+      ]
     }
   ],
   "states": [

@@ -1,6 +1,9 @@
 {
   "id": "AG",
   "name": "Antigua and Barbuda",
+  "aliases": [
+    "Antigua & Barbuda"
+  ],
   "nativeName": "Antigua and Barbuda",
   "iso2": "AG",
   "iso3": "ATG",
@@ -49,7 +52,10 @@
     },
     {
       "locale": "de",
-      "name": "Antigua und Barbuda"
+      "name": "Antigua und Barbuda",
+      "aliases": [
+        "Antigua & Barbuda"
+      ]
     },
     {
       "locale": "es",
@@ -57,7 +63,10 @@
     },
     {
       "locale": "fr",
-      "name": "Antigua-et-Barbuda"
+      "name": "Antigua-et-Barbuda",
+      "aliases": [
+        "Antigue-et-Barbude"
+      ]
     },
     {
       "locale": "ja",
@@ -69,7 +78,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "安提瓜和巴布达"
+      "name": "安提瓜和巴布达",
+      "aliases": [
+        "安巴"
+      ]
     },
     {
       "locale": "tr",

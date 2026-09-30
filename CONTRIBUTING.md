@@ -35,6 +35,28 @@ build time, so a correction here is a release, not a migration.
 
 Nothing else needs touching for a data change. No code, no schema, no contract.
 
+## Country aliases
+
+A country's `aliases`, and each translation's, are the other names people search for it by:
+abbreviations, official long forms and recent former names (`USA`, `Czech Republic`, `Бирма`).
+They are **generated** from Unicode CLDR and a Wikidata snapshot, then curated by hand:
+
+```bash
+cd asset-tools
+npm install
+npm run generate:aliases                 # report what would change
+npm run generate:aliases -- --write      # apply it
+npm run generate:aliases -- --refresh    # refetch the Wikidata snapshot first
+```
+
+The decisions live in `asset-tools/country-aliases/curation.json`: `drop` rejects a candidate
+(matched ignoring case, accents and punctuation, with the reason recorded), `add` supplies a name
+no source has. A former name belongs only if it was official at some point since 1990 or is still
+in everyday use; slang, archaic and politically loaded names do not, and neither does any name
+another country also answers to — `DatasetIntegrity` refuses those at startup. Existing aliases
+keep their order, so a regeneration only appends what is new. Review every addition the report
+lists before writing it, and bump `data/meta.json` as for any data change.
+
 ## Adding or changing images
 
 Image files live in [`assets/`](assets) and their metadata is **generated**, not hand-edited.

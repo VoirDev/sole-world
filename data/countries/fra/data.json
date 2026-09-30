@@ -1,6 +1,9 @@
 {
   "id": "FR",
   "name": "France",
+  "aliases": [
+    "French Republic"
+  ],
   "nativeName": "France",
   "iso2": "FR",
   "iso3": "FRA",
@@ -25,35 +28,61 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "프랑스"
+      "name": "프랑스",
+      "aliases": [
+        "프랑스 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "França"
+      "name": "França",
+      "aliases": [
+        "República Francesa"
+      ]
     },
     {
       "locale": "pt",
-      "name": "França"
+      "name": "França",
+      "aliases": [
+        "República da França",
+        "República Francesa"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Frankrijk"
+      "name": "Frankrijk",
+      "aliases": [
+        "Franse Republiek"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Francuska"
+      "name": "Francuska",
+      "aliases": [
+        "Francuska republika",
+        "Republika Francuska"
+      ]
     },
     {
       "locale": "fa",
-      "name": "فرانسه"
+      "name": "فرانسه",
+      "aliases": [
+        "جمهوری فرانسه"
+      ]
     },
     {
       "locale": "de",
-      "name": "Frankreich"
+      "name": "Frankreich",
+      "aliases": [
+        "Französische Republik"
+      ]
     },
     {
       "locale": "es",
-      "name": "Francia"
+      "name": "Francia",
+      "aliases": [
+        "República Francesa"
+      ]
     },
     {
       "locale": "fr",
@@ -61,31 +90,58 @@
     },
     {
       "locale": "ja",
-      "name": "フランス"
+      "name": "フランス",
+      "aliases": [
+        "仏国",
+        "フランス共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Francia"
+      "name": "Francia",
+      "aliases": [
+        "Repubblica francese"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "法国"
+      "name": "法国",
+      "aliases": [
+        "法兰西",
+        "法兰西共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Fransa"
+      "name": "Fransa",
+      "aliases": [
+        "Fransa Cumhuriyeti",
+        "Fransız Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Франция"
+      "name": "Франция",
+      "aliases": [
+        "Республика Франция",
+        "Французская республика"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Франція"
+      "name": "Франція",
+      "aliases": [
+        "Республіка Франція",
+        "Французька республіка"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Francja"
+      "name": "Francja",
+      "aliases": [
+        "Republika Francji",
+        "Republika Francuska"
+      ]
     }
   ],
   "states": [

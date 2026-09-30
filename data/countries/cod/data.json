@@ -1,6 +1,14 @@
 {
   "id": "CD",
   "name": "Democratic Republic of the Congo",
+  "aliases": [
+    "Congo (DRC)",
+    "Zaire",
+    "Congo - Kinshasa",
+    "DRC",
+    "Democratic Republic of Congo",
+    "DR Congo"
+  ],
   "nativeName": "République démocratique du Congo",
   "iso2": "CD",
   "iso3": "COD",
@@ -30,67 +38,147 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "콩고 민주 공화국"
+      "name": "콩고 민주 공화국",
+      "aliases": [
+        "콩고민주공화국",
+        "콩고-킨샤사",
+        "자이르",
+        "DR 콩고",
+        "민주 콩고"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "República Democrática do Congo"
+      "name": "República Democrática do Congo",
+      "aliases": [
+        "Congo - Kinshasa"
+      ]
     },
     {
       "locale": "pt",
-      "name": "República Democrática do Congo"
+      "name": "República Democrática do Congo",
+      "aliases": [
+        "Congo-Kinshasa",
+        "Congo-Quinxassa",
+        "RD Congo"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Democratische Republiek Congo"
+      "name": "Democratische Republiek Congo",
+      "aliases": [
+        "Congo (DRC)",
+        "Congo-Kinshasa",
+        "DR Congo",
+        "DRC"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Demokratska Republika Kongo"
+      "name": "Demokratska Republika Kongo",
+      "aliases": [
+        "Kongo (DR)",
+        "Kongo - Kinshasa"
+      ]
     },
     {
       "locale": "fa",
-      "name": "جمهوری دموکراتیک کنگو"
+      "name": "جمهوری دموکراتیک کنگو",
+      "aliases": [
+        "کنگو (جمهوری دموکراتیک)",
+        "کنگو - کینشاسا",
+        "زائیر"
+      ]
     },
     {
       "locale": "de",
-      "name": "Demokratische Republik Kongo"
+      "name": "Demokratische Republik Kongo",
+      "aliases": [
+        "Kongo (Demokratische Republik)",
+        "DR Kongo",
+        "Kongo-Kinshasa",
+        "Dem. Rep. Kongo"
+      ]
     },
     {
       "locale": "es",
-      "name": "República Democrática del Congo"
+      "name": "República Democrática del Congo",
+      "aliases": [
+        "Congo (RDC)",
+        "RDC",
+        "Congo Kinshasa"
+      ]
     },
     {
       "locale": "fr",
-      "name": "République démocratique du Congo"
+      "name": "République démocratique du Congo",
+      "aliases": [
+        "Congo (RDC)",
+        "RDC",
+        "Congo-Kinshasa",
+        "RD du Congo",
+        "Zaïre",
+        "RD Congo"
+      ]
     },
     {
       "locale": "ja",
-      "name": "コンゴ民主共和国"
+      "name": "コンゴ民主共和国",
+      "aliases": [
+        "コンゴ民主共和国(キンシャサ)"
+      ]
     },
     {
       "locale": "it",
-      "name": "Repubblica Democratica del Congo"
+      "name": "Repubblica Democratica del Congo",
+      "aliases": [
+        "Congo (RDC)",
+        "Congo - Kinshasa"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "刚果（金）"
+      "name": "刚果（金）",
+      "aliases": [
+        "刚果民主共和国",
+        "刚果金"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Kongo Demokratik Cumhuriyeti"
+      "name": "Kongo Demokratik Cumhuriyeti",
+      "aliases": [
+        "Kongo - Kinşasa",
+        "KDC"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Демократическая Республика Конго"
+      "name": "Демократическая Республика Конго",
+      "aliases": [
+        "Конго (ДРК)",
+        "Конго - Киншаса",
+        "ДР Конго",
+        "ДРК",
+        "Заир"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Демократична Республіка Конго"
+      "name": "Демократична Республіка Конго",
+      "aliases": [
+        "Конго (ДРК)",
+        "Конго – Кіншаса",
+        "ДР Конго",
+        "ДРК"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Demokratyczna Republika Konga"
+      "name": "Demokratyczna Republika Konga",
+      "aliases": [
+        "Kongo (DRK)"
+      ]
     }
   ],
   "states": [

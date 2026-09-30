@@ -1,6 +1,9 @@
 {
   "id": "TJ",
   "name": "Tajikistan",
+  "aliases": [
+    "Republic of Tajikistan"
+  ],
   "nativeName": "Тоҷикистон",
   "iso2": "TJ",
   "iso3": "TJK",
@@ -25,11 +28,17 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "타지키스탄"
+      "name": "타지키스탄",
+      "aliases": [
+        "타지크"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Tajiquistão"
+      "name": "Tajiquistão",
+      "aliases": [
+        "Tadjiquistão"
+      ]
     },
     {
       "locale": "pt",
@@ -37,7 +46,10 @@
     },
     {
       "locale": "nl",
-      "name": "Tadzjikistan"
+      "name": "Tadzjikistan",
+      "aliases": [
+        "Republiek Tadzjikistan"
+      ]
     },
     {
       "locale": "hr",
@@ -53,7 +65,11 @@
     },
     {
       "locale": "es",
-      "name": "Tayikistán"
+      "name": "Tayikistán",
+      "aliases": [
+        "República de Tayikistán",
+        "Tajikistán"
+      ]
     },
     {
       "locale": "fr",
@@ -61,11 +77,17 @@
     },
     {
       "locale": "ja",
-      "name": "タジキスタン"
+      "name": "タジキスタン",
+      "aliases": [
+        "タジキスタン共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Tagikistan"
+      "name": "Tagikistan",
+      "aliases": [
+        "Repubblica del Tagikistan"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,7 +99,10 @@
     },
     {
       "locale": "ru",
-      "name": "Таджикистан"
+      "name": "Таджикистан",
+      "aliases": [
+        "Республика Таджикистан"
+      ]
     },
     {
       "locale": "uk",

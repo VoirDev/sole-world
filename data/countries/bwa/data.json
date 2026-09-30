@@ -1,6 +1,9 @@
 {
   "id": "BW",
   "name": "Botswana",
+  "aliases": [
+    "Republic of Botswana"
+  ],
   "nativeName": "Botswana",
   "iso2": "BW",
   "iso3": "BWA",
@@ -30,15 +33,27 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Botsuana"
+      "name": "Botsuana",
+      "aliases": [
+        "Botswana",
+        "República de Botsuana",
+        "República de Botswana"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Botsuana"
+      "name": "Botsuana",
+      "aliases": [
+        "Botswana",
+        "República do Botswana"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Botswana"
+      "name": "Botswana",
+      "aliases": [
+        "Republiek Botswana"
+      ]
     },
     {
       "locale": "hr",
@@ -50,11 +65,17 @@
     },
     {
       "locale": "de",
-      "name": "Botswana"
+      "name": "Botswana",
+      "aliases": [
+        "Botsuana"
+      ]
     },
     {
       "locale": "es",
-      "name": "Botsuana"
+      "name": "Botsuana",
+      "aliases": [
+        "República de Botsuana"
+      ]
     },
     {
       "locale": "fr",
@@ -62,7 +83,10 @@
     },
     {
       "locale": "ja",
-      "name": "ボツワナ"
+      "name": "ボツワナ",
+      "aliases": [
+        "ボツワナ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -70,7 +94,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "博茨瓦纳"
+      "name": "博茨瓦纳",
+      "aliases": [
+        "博茨瓦纳共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,11 +105,17 @@
     },
     {
       "locale": "ru",
-      "name": "Ботсвана"
+      "name": "Ботсвана",
+      "aliases": [
+        "Республика Ботсвана"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Ботсвана"
+      "name": "Ботсвана",
+      "aliases": [
+        "Республіка Ботсвана"
+      ]
     },
     {
       "locale": "pl",

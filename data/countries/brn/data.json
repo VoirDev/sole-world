@@ -1,6 +1,10 @@
 {
   "id": "BN",
   "name": "Brunei",
+  "aliases": [
+    "Brunei Darussalam",
+    "Nation of Brunei, the Abode of Peace"
+  ],
   "nativeName": "Negara Brunei Darussalam",
   "iso2": "BN",
   "iso3": "BRN",
@@ -37,7 +41,10 @@
     },
     {
       "locale": "nl",
-      "name": "Brunei"
+      "name": "Brunei",
+      "aliases": [
+        "Staat Brunei Darussalam"
+      ]
     },
     {
       "locale": "hr",
@@ -49,35 +56,62 @@
     },
     {
       "locale": "de",
-      "name": "Brunei"
+      "name": "Brunei",
+      "aliases": [
+        "Brunei Darussalam"
+      ]
     },
     {
       "locale": "es",
-      "name": "Brunéi"
+      "name": "Brunéi",
+      "aliases": [
+        "Bruney",
+        "Estado de Brunéi, Morada de la Paz",
+        "Estado de Bruney Darussalam"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Brunei"
+      "name": "Brunei",
+      "aliases": [
+        "Brunéi Darussalam"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ブルネイ"
+      "name": "ブルネイ",
+      "aliases": [
+        "ブルネイ・ダルサラーム国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Brunei"
+      "name": "Brunei",
+      "aliases": [
+        "Stato del Brunei"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "文莱"
+      "name": "文莱",
+      "aliases": [
+        "文莱达鲁萨兰国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Brunei"
+      "name": "Brunei",
+      "aliases": [
+        "Bruney"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Бруней"
+      "name": "Бруней",
+      "aliases": [
+        "Бруней-Даруссалам",
+        "Государство Бруней-Даруссалам"
+      ]
     },
     {
       "locale": "uk",

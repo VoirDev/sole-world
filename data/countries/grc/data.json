@@ -1,6 +1,10 @@
 {
   "id": "GR",
   "name": "Greece",
+  "aliases": [
+    "Hellas",
+    "Hellenic Republic"
+  ],
   "nativeName": "Ελλάδα",
   "iso2": "GR",
   "iso3": "GRC",
@@ -29,7 +33,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Grécia"
+      "name": "Grécia",
+      "aliases": [
+        "República Helênica"
+      ]
     },
     {
       "locale": "pt",
@@ -37,11 +44,17 @@
     },
     {
       "locale": "nl",
-      "name": "Griekenland"
+      "name": "Griekenland",
+      "aliases": [
+        "Helleense Republiek"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Grčka"
+      "name": "Grčka",
+      "aliases": [
+        "Republika Grčka"
+      ]
     },
     {
       "locale": "fa",
@@ -49,35 +62,62 @@
     },
     {
       "locale": "de",
-      "name": "Griechenland"
+      "name": "Griechenland",
+      "aliases": [
+        "Hellas",
+        "Hellenische Republik"
+      ]
     },
     {
       "locale": "es",
-      "name": "Grecia"
+      "name": "Grecia",
+      "aliases": [
+        "República Helénica"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Grèce"
+      "name": "Grèce",
+      "aliases": [
+        "République hellénique"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ギリシャ"
+      "name": "ギリシャ",
+      "aliases": [
+        "ギリシャ共和国",
+        "ギリシア"
+      ]
     },
     {
       "locale": "it",
-      "name": "Grecia"
+      "name": "Grecia",
+      "aliases": [
+        "Repubblica Ellenica"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "希腊"
+      "name": "希腊",
+      "aliases": [
+        "希腊共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Yunanistan"
+      "name": "Yunanistan",
+      "aliases": [
+        "Yunanistan Cumhuriyeti",
+        "Helen Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Греция"
+      "name": "Греция",
+      "aliases": [
+        "Греческая Республика"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +125,10 @@
     },
     {
       "locale": "pl",
-      "name": "Grecja"
+      "name": "Grecja",
+      "aliases": [
+        "Republika Grecka"
+      ]
     }
   ],
   "states": [

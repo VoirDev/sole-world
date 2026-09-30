@@ -1,6 +1,12 @@
 {
   "id": "MO",
   "name": "Macao",
+  "aliases": [
+    "Macao SAR China",
+    "Macau",
+    "Macao Special Administrative Region",
+    "Macau SAR"
+  ],
   "nativeName": "澳門",
   "iso2": "MO",
   "iso3": "MAC",
@@ -26,67 +32,131 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "마카오"
+      "name": "마카오",
+      "aliases": [
+        "마카오(중국 특별행정구)",
+        "마카오 특별행정구"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Macau"
+      "name": "Macau",
+      "aliases": [
+        "Macau, RAE da China"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Macau"
+      "name": "Macau",
+      "aliases": [
+        "Macau, RAE da China",
+        "RAEM"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Macao"
+      "name": "Macao",
+      "aliases": [
+        "Macau",
+        "Macau SAR van China"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Makao"
+      "name": "Makao",
+      "aliases": [
+        "PUP Makao Kina"
+      ]
     },
     {
       "locale": "fa",
-      "name": "مکائو"
+      "name": "مکائو",
+      "aliases": [
+        "ماکائو",
+        "ماکائو، منطقهٔ ویژهٔ اداری چین"
+      ]
     },
     {
       "locale": "de",
-      "name": "Macau"
+      "name": "Macau",
+      "aliases": [
+        "Sonderverwaltungsregion Macau",
+        "Makao",
+        "Sonderverwaltungszone Macao",
+        "Sonderverwaltungszone Macao der Volksrepublik China"
+      ]
     },
     {
       "locale": "es",
-      "name": "Macao"
+      "name": "Macao",
+      "aliases": [
+        "RAE de Macao (China)"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Macao"
+      "name": "Macao",
+      "aliases": [
+        "R.A.S. chinoise de Macao",
+        "RAS de Macao",
+        "RAS de Macao, Chine"
+      ]
     },
     {
       "locale": "ja",
-      "name": "マカオ"
+      "name": "マカオ",
+      "aliases": [
+        "中華人民共和国マカオ特別行政区",
+        "マカオ特別行政区",
+        "澳門"
+      ]
     },
     {
       "locale": "it",
-      "name": "Macao"
+      "name": "Macao",
+      "aliases": [
+        "RAS di Macao"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "中国澳门"
+      "name": "中国澳门",
+      "aliases": [
+        "澳门",
+        "中国澳门特别行政区",
+        "澳门特别行政区",
+        "澳门特区",
+        "中华人民共和国澳门特别行政区"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Makao"
+      "name": "Makao",
+      "aliases": [
+        "Çin Makao ÖİB"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Макао"
+      "name": "Макао",
+      "aliases": [
+        "Макао (САР)",
+        "Специальный административный район Макао"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Макао"
+      "name": "Макао",
+      "aliases": [
+        "Макао, ОАР Китаю"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Makau"
+      "name": "Makau",
+      "aliases": [
+        "SRA Makau (Chiny)"
+      ]
     }
   ],
   "states": []

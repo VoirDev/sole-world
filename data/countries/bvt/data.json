@@ -1,6 +1,7 @@
 {
   "id": "BV",
   "name": "Bouvet Island",
+  "aliases": [],
   "nativeName": "Bouvetøya",
   "iso2": "BV",
   "iso3": "BVT",
@@ -35,7 +36,10 @@
     },
     {
       "locale": "nl",
-      "name": "Bouveteiland"
+      "name": "Bouveteiland",
+      "aliases": [
+        "Bouvet"
+      ]
     },
     {
       "locale": "hr",
@@ -59,7 +63,10 @@
     },
     {
       "locale": "ja",
-      "name": "ブーベ島"
+      "name": "ブーベ島",
+      "aliases": [
+        "ブーヴェ島"
+      ]
     },
     {
       "locale": "it",
@@ -75,11 +82,17 @@
     },
     {
       "locale": "ru",
-      "name": "о-в Буве"
+      "name": "о-в Буве",
+      "aliases": [
+        "Остров Буве"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Острів Буве"
+      "name": "Острів Буве",
+      "aliases": [
+        "Буве"
+      ]
     },
     {
       "locale": "pl",

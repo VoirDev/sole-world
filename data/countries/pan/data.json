@@ -1,6 +1,9 @@
 {
   "id": "PA",
   "name": "Panama",
+  "aliases": [
+    "Republic of Panama"
+  ],
   "nativeName": "Panamá",
   "iso2": "PA",
   "iso3": "PAN",
@@ -33,11 +36,17 @@
     },
     {
       "locale": "pt",
-      "name": "Panamá"
+      "name": "Panamá",
+      "aliases": [
+        "República do Panamá"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Panama"
+      "name": "Panama",
+      "aliases": [
+        "Republiek Panama"
+      ]
     },
     {
       "locale": "hr",
@@ -53,19 +62,31 @@
     },
     {
       "locale": "es",
-      "name": "Panamá"
+      "name": "Panamá",
+      "aliases": [
+        "República de Panamá"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Panama"
+      "name": "Panama",
+      "aliases": [
+        "République du Panama"
+      ]
     },
     {
       "locale": "ja",
-      "name": "パナマ"
+      "name": "パナマ",
+      "aliases": [
+        "パナマ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Panama"
+      "name": "Panama",
+      "aliases": [
+        "Repubblica di Panama"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -73,11 +94,17 @@
     },
     {
       "locale": "tr",
-      "name": "Panama"
+      "name": "Panama",
+      "aliases": [
+        "Panama Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Панама"
+      "name": "Панама",
+      "aliases": [
+        "Республика Панама"
+      ]
     },
     {
       "locale": "uk",

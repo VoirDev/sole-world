@@ -1,6 +1,9 @@
 {
   "id": "EG",
   "name": "Egypt",
+  "aliases": [
+    "Arab Republic of Egypt"
+  ],
   "nativeName": "مصر",
   "iso2": "EG",
   "iso3": "EGY",
@@ -33,11 +36,17 @@
     },
     {
       "locale": "pt",
-      "name": "Egipto"
+      "name": "Egipto",
+      "aliases": [
+        "Egito"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Egypte"
+      "name": "Egypte",
+      "aliases": [
+        "Arabische Republiek Egypte"
+      ]
     },
     {
       "locale": "hr",
@@ -49,27 +58,45 @@
     },
     {
       "locale": "de",
-      "name": "Ägypten"
+      "name": "Ägypten",
+      "aliases": [
+        "Arabische Republik Ägypten"
+      ]
     },
     {
       "locale": "es",
-      "name": "Egipto"
+      "name": "Egipto",
+      "aliases": [
+        "República Árabe de Egipto"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Égypte"
+      "name": "Égypte",
+      "aliases": [
+        "République arabe d'Égypte"
+      ]
     },
     {
       "locale": "ja",
-      "name": "エジプト"
+      "name": "エジプト",
+      "aliases": [
+        "エジプト・アラブ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Egitto"
+      "name": "Egitto",
+      "aliases": [
+        "Repubblica Araba d'Egitto"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "埃及"
+      "name": "埃及",
+      "aliases": [
+        "阿拉伯埃及共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,15 +104,25 @@
     },
     {
       "locale": "ru",
-      "name": "Египет"
+      "name": "Египет",
+      "aliases": [
+        "Арабская Республика Египет",
+        "АРЕ"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Єгипет"
+      "name": "Єгипет",
+      "aliases": [
+        "Арабська Республіка Єгипет"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Egipt"
+      "name": "Egipt",
+      "aliases": [
+        "Arabska Republika Egiptu"
+      ]
     }
   ],
   "states": [

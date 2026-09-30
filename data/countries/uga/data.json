@@ -1,6 +1,9 @@
 {
   "id": "UG",
   "name": "Uganda",
+  "aliases": [
+    "Republic of Uganda"
+  ],
   "nativeName": "Uganda",
   "iso2": "UG",
   "iso3": "UGA",
@@ -30,15 +33,26 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Uganda"
+      "name": "Uganda",
+      "aliases": [
+        "República de Uganda"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Uganda"
+      "name": "Uganda",
+      "aliases": [
+        "República do Uganda"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Oeganda"
+      "name": "Oeganda",
+      "aliases": [
+        "Republiek Oeganda",
+        "Republiek Uganda",
+        "Uganda"
+      ]
     },
     {
       "locale": "hr",
@@ -50,27 +64,46 @@
     },
     {
       "locale": "de",
-      "name": "Uganda"
+      "name": "Uganda",
+      "aliases": [
+        "Republik Uganda"
+      ]
     },
     {
       "locale": "es",
-      "name": "Uganda"
+      "name": "Uganda",
+      "aliases": [
+        "República de Uganda"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Ouganda"
+      "name": "Ouganda",
+      "aliases": [
+        "République d'Ouganda",
+        "République de l'Ouganda"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ウガンダ"
+      "name": "ウガンダ",
+      "aliases": [
+        "ウガンダ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Uganda"
+      "name": "Uganda",
+      "aliases": [
+        "Repubblica dell'Uganda"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "乌干达"
+      "name": "乌干达",
+      "aliases": [
+        "乌干达共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,11 +111,17 @@
     },
     {
       "locale": "ru",
-      "name": "Уганда"
+      "name": "Уганда",
+      "aliases": [
+        "Республика Уганда"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Уганда"
+      "name": "Уганда",
+      "aliases": [
+        "Республіка Уганда"
+      ]
     },
     {
       "locale": "pl",

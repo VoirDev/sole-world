@@ -1,6 +1,9 @@
 {
   "id": "ML",
   "name": "Mali",
+  "aliases": [
+    "Republic of Mali"
+  ],
   "nativeName": "Mali",
   "iso2": "ML",
   "iso3": "MLI",
@@ -30,15 +33,24 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Mali"
+      "name": "Mali",
+      "aliases": [
+        "República do Mali"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Mali"
+      "name": "Mali",
+      "aliases": [
+        "República do Mali"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Mali"
+      "name": "Mali",
+      "aliases": [
+        "Republiek Mali"
+      ]
     },
     {
       "locale": "hr",
@@ -50,27 +62,45 @@
     },
     {
       "locale": "de",
-      "name": "Mali"
+      "name": "Mali",
+      "aliases": [
+        "Republik Mali"
+      ]
     },
     {
       "locale": "es",
-      "name": "Mali"
+      "name": "Mali",
+      "aliases": [
+        "República de Mali"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Mali"
+      "name": "Mali",
+      "aliases": [
+        "République du Mali"
+      ]
     },
     {
       "locale": "ja",
-      "name": "マリ"
+      "name": "マリ",
+      "aliases": [
+        "マリ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Mali"
+      "name": "Mali",
+      "aliases": [
+        "Repubblica del Mali"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "马里"
+      "name": "马里",
+      "aliases": [
+        "马里共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,11 +108,17 @@
     },
     {
       "locale": "ru",
-      "name": "Мали"
+      "name": "Мали",
+      "aliases": [
+        "Республика Мали"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Малі"
+      "name": "Малі",
+      "aliases": [
+        "Республіка Малі"
+      ]
     },
     {
       "locale": "pl",

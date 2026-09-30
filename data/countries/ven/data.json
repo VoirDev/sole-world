@@ -1,6 +1,10 @@
 {
   "id": "VE",
   "name": "Venezuela",
+  "aliases": [
+    "Republic of Venezuela",
+    "Bolivarian Republic of Venezuela"
+  ],
   "nativeName": "Venezuela",
   "iso2": "VE",
   "iso3": "VEN",
@@ -33,11 +37,17 @@
     },
     {
       "locale": "pt",
-      "name": "Venezuela"
+      "name": "Venezuela",
+      "aliases": [
+        "República Bolivariana da Venezuela"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Venezuela"
+      "name": "Venezuela",
+      "aliases": [
+        "Bolivariaanse Republiek Venezuela"
+      ]
     },
     {
       "locale": "hr",
@@ -49,23 +59,40 @@
     },
     {
       "locale": "de",
-      "name": "Venezuela"
+      "name": "Venezuela",
+      "aliases": [
+        "Bolivarische Republik Venezuela"
+      ]
     },
     {
       "locale": "es",
-      "name": "Venezuela"
+      "name": "Venezuela",
+      "aliases": [
+        "República de Venezuela",
+        "República Bolivariana de Venezuela"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Venezuela"
+      "name": "Venezuela",
+      "aliases": [
+        "République bolivarienne du Venezuela"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ベネズエラ"
+      "name": "ベネズエラ",
+      "aliases": [
+        "ベネズエラ・ボリバル共和国",
+        "ヴェネズエラ"
+      ]
     },
     {
       "locale": "it",
-      "name": "Venezuela"
+      "name": "Venezuela",
+      "aliases": [
+        "Repubblica Bolivariana del Venezuela"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -73,11 +100,17 @@
     },
     {
       "locale": "tr",
-      "name": "Venezuela"
+      "name": "Venezuela",
+      "aliases": [
+        "Bolivarcı Venezuela Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Венесуэла"
+      "name": "Венесуэла",
+      "aliases": [
+        "Боливарианская Республика Венесуэла"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +118,10 @@
     },
     {
       "locale": "pl",
-      "name": "Wenezuela"
+      "name": "Wenezuela",
+      "aliases": [
+        "Boliwariańska Republika Wenezueli"
+      ]
     }
   ],
   "states": [

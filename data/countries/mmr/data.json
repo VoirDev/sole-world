@@ -1,6 +1,11 @@
 {
   "id": "MM",
   "name": "Myanmar",
+  "aliases": [
+    "Burma",
+    "Myanmar (Burma)",
+    "Republic of the Union of Myanmar"
+  ],
   "nativeName": "မြန်မာ",
   "iso2": "MM",
   "iso3": "MMR",
@@ -25,67 +30,141 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "미얀마"
+      "name": "미얀마",
+      "aliases": [
+        "버마"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Myanmar"
+      "name": "Myanmar",
+      "aliases": [
+        "Mianmar",
+        "Mianmar (Birmânia)",
+        "Birmânia",
+        "Mianmá",
+        "República da União de Mianmá"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Myanmar"
+      "name": "Myanmar",
+      "aliases": [
+        "Mianmar (Birmânia)",
+        "Birmânia",
+        "Mianmar",
+        "República da União de Myanmar"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Myanmar"
+      "name": "Myanmar",
+      "aliases": [
+        "Birma",
+        "Myanmar (Birma)",
+        "Republiek Unie van Myanmar"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Mijanmar"
+      "name": "Mijanmar",
+      "aliases": [
+        "Mjanmar (Burma)",
+        "Mjanmar"
+      ]
     },
     {
       "locale": "fa",
-      "name": "میانمار"
+      "name": "میانمار",
+      "aliases": [
+        "میانمار (برمه)"
+      ]
     },
     {
       "locale": "de",
-      "name": "Myanmar"
+      "name": "Myanmar",
+      "aliases": [
+        "Birma",
+        "Birmanien",
+        "Republik der Union Myanmar",
+        "Union Myanmar"
+      ]
     },
     {
       "locale": "es",
-      "name": "Myanmar"
+      "name": "Myanmar",
+      "aliases": [
+        "Myanmar (Birmania)",
+        "Birmania",
+        "República de la Unión de Myanmar",
+        "Unión de Myanmar"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Myanmar"
+      "name": "Myanmar",
+      "aliases": [
+        "Myanmar (Birmanie)",
+        "Birmanie",
+        "République de l'Union du Myanmar"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ミャンマー"
+      "name": "ミャンマー",
+      "aliases": [
+        "ミャンマー (ビルマ)",
+        "ビルマ",
+        "ミャンマー連邦共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Myanmar"
+      "name": "Myanmar",
+      "aliases": [
+        "Birmania",
+        "Myanmar (Birmania)",
+        "Repubblica dell'Unione della Birmania"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "缅甸"
+      "name": "缅甸",
+      "aliases": [
+        "缅甸联邦共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Myanmar"
+      "name": "Myanmar",
+      "aliases": [
+        "Myanmar (Burma)"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Мьянма"
+      "name": "Мьянма",
+      "aliases": [
+        "Мьянма (Бирма)",
+        "Мьянмар",
+        "Республика Союз Мьянма",
+        "Союз Мьянма",
+        "Бирма"
+      ]
     },
     {
       "locale": "uk",
-      "name": "М'янма"
+      "name": "М'янма",
+      "aliases": [
+        "Мʼянма (Бірма)"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Mjanma"
+      "name": "Mjanma",
+      "aliases": [
+        "Mjanma (Birma)"
+      ]
     }
   ],
   "states": [

@@ -1,6 +1,10 @@
 {
   "id": "ZA",
   "name": "South Africa",
+  "aliases": [
+    "RSA",
+    "Republic of South Africa"
+  ],
   "nativeName": "South Africa",
   "iso2": "ZA",
   "iso3": "ZAF",
@@ -34,19 +38,33 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "남아프리카 공화국"
+      "name": "남아프리카 공화국",
+      "aliases": [
+        "남아프리카",
+        "남아공"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "África do Sul"
+      "name": "África do Sul",
+      "aliases": [
+        "República da África do Sul"
+      ]
     },
     {
       "locale": "pt",
-      "name": "África do Sul"
+      "name": "África do Sul",
+      "aliases": [
+        "República da África do Sul",
+        "RSA"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Zuid-Afrika"
+      "name": "Zuid-Afrika",
+      "aliases": [
+        "Republiek Zuid-Afrika"
+      ]
     },
     {
       "locale": "hr",
@@ -58,43 +76,78 @@
     },
     {
       "locale": "de",
-      "name": "Südafrika"
+      "name": "Südafrika",
+      "aliases": [
+        "Republik Südafrika"
+      ]
     },
     {
       "locale": "es",
-      "name": "Sudáfrica"
+      "name": "Sudáfrica",
+      "aliases": [
+        "República de Sudáfrica"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Afrique du Sud"
+      "name": "Afrique du Sud",
+      "aliases": [
+        "République d’Afrique du Sud",
+        "République sud-africaine"
+      ]
     },
     {
       "locale": "ja",
-      "name": "南アフリカ"
+      "name": "南アフリカ",
+      "aliases": [
+        "南アフリカ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Sudafrica"
+      "name": "Sudafrica",
+      "aliases": [
+        "Repubblica del Sudafrica",
+        "Sud Africa"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "南非"
+      "name": "南非",
+      "aliases": [
+        "南非共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Güney Afrika"
+      "name": "Güney Afrika",
+      "aliases": [
+        "Güney Afrika Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Южно-Африканская Республика"
+      "name": "Южно-Африканская Республика",
+      "aliases": [
+        "ЮАР",
+        "Южная Африка"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Південно-Африканська Республіка"
+      "name": "Південно-Африканська Республіка",
+      "aliases": [
+        "Південна Африка",
+        "ПАР"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Republika Południowej Afryki"
+      "name": "Republika Południowej Afryki",
+      "aliases": [
+        "Południowa Afryka",
+        "RPA"
+      ]
     }
   ],
   "states": [

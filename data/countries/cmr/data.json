@@ -1,6 +1,9 @@
 {
   "id": "CM",
   "name": "Cameroon",
+  "aliases": [
+    "Republic of Cameroon"
+  ],
   "nativeName": "Cameroon",
   "iso2": "CM",
   "iso3": "CMR",
@@ -38,7 +41,10 @@
     },
     {
       "locale": "nl",
-      "name": "Kameroen"
+      "name": "Kameroen",
+      "aliases": [
+        "Republiek Kameroen"
+      ]
     },
     {
       "locale": "hr",
@@ -54,23 +60,38 @@
     },
     {
       "locale": "es",
-      "name": "Camerún"
+      "name": "Camerún",
+      "aliases": [
+        "República de Camerún"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Cameroun"
+      "name": "Cameroun",
+      "aliases": [
+        "République du Cameroun"
+      ]
     },
     {
       "locale": "ja",
-      "name": "カメルーン"
+      "name": "カメルーン",
+      "aliases": [
+        "カメルーン共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Camerun"
+      "name": "Camerun",
+      "aliases": [
+        "Repubblica del Camerun"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "喀麦隆"
+      "name": "喀麦隆",
+      "aliases": [
+        "喀麦隆共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,11 +99,17 @@
     },
     {
       "locale": "ru",
-      "name": "Камерун"
+      "name": "Камерун",
+      "aliases": [
+        "Республика Камерун"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Камерун"
+      "name": "Камерун",
+      "aliases": [
+        "Республіка Камерун"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,12 @@
 {
   "id": "FK",
   "name": "Falkland Islands",
+  "aliases": [
+    "Falkland Islands (Islas Malvinas)",
+    "Falklands",
+    "Islas Malvinas",
+    "Malvinas"
+  ],
   "nativeName": "Falkland Islands",
   "iso2": "FK",
   "iso3": "FLK",
@@ -25,67 +31,131 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "포클랜드 제도"
+      "name": "포클랜드 제도",
+      "aliases": [
+        "포클랜드 제도(말비나스 군도)",
+        "포클랜드",
+        "말비나스",
+        "말비나스 제도"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Ilhas Malvinas"
+      "name": "Ilhas Malvinas",
+      "aliases": [
+        "Ilhas Malvinas (Ilhas Falkland)"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Ilhas Falkland"
+      "name": "Ilhas Falkland",
+      "aliases": [
+        "Ilhas Falkland (Malvinas)",
+        "Ilhas Malvinas",
+        "Malvinas",
+        "Falklands"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Falklandeilanden"
+      "name": "Falklandeilanden",
+      "aliases": [
+        "Falklandeilanden (Islas Malvinas)"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Falklandski Otoci"
+      "name": "Falklandski Otoci",
+      "aliases": [
+        "Falklandski Otoci (Malvini)"
+      ]
     },
     {
       "locale": "fa",
-      "name": "جزایر فالکلند"
+      "name": "جزایر فالکلند",
+      "aliases": [
+        "جزایر فالکلند (ایسلاس مالویناس)"
+      ]
     },
     {
       "locale": "de",
-      "name": "Falklandinseln"
+      "name": "Falklandinseln",
+      "aliases": [
+        "Falklandinseln (Malwinen)"
+      ]
     },
     {
       "locale": "es",
-      "name": "Islas Malvinas"
+      "name": "Islas Malvinas",
+      "aliases": [
+        "Islas Malvinas (Islas Falkland)",
+        "Malvinas"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Îles Malouines"
+      "name": "Îles Malouines",
+      "aliases": [
+        "Îles Malouines (Îles Falkland)",
+        "Malouines",
+        "Falkland"
+      ]
     },
     {
       "locale": "ja",
-      "name": "フォークランド諸島"
+      "name": "フォークランド諸島",
+      "aliases": [
+        "フォークランド諸島 (マルビーナス諸島)"
+      ]
     },
     {
       "locale": "it",
-      "name": "Isole Falkland"
+      "name": "Isole Falkland",
+      "aliases": [
+        "Isole Falkland (Isole Malvine)",
+        "Isole Malvine"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "福克兰群岛"
+      "name": "福克兰群岛",
+      "aliases": [
+        "福克兰群岛（马尔维纳斯群岛）",
+        "马尔维纳斯群岛"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Falkland Adaları"
+      "name": "Falkland Adaları",
+      "aliases": [
+        "Falkland Adaları (Malvinas Adaları)"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Фолклендские острова"
+      "name": "Фолклендские острова",
+      "aliases": [
+        "Фолклендские (Мальвинские) о-ва",
+        "Фолклендские о-ва",
+        "Фолкленды",
+        "Мальвинские острова",
+        "Мальвины"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Фолклендські острови"
+      "name": "Фолклендські острови",
+      "aliases": [
+        "Фолклендські (Мальвінські) Острови"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Falklandy"
+      "name": "Falklandy",
+      "aliases": [
+        "Falklandy (Malwiny)",
+        "Malwiny"
+      ]
     }
   ],
   "states": []

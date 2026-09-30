@@ -1,6 +1,11 @@
 {
   "id": "BQ",
   "name": "Bonaire, Sint Eustatius and Saba",
+  "aliases": [
+    "Caribbean Netherlands",
+    "BES islands",
+    "Bonaire, Saint Eustatius and Saba"
+  ],
   "nativeName": "Caribisch Nederland",
   "iso2": "BQ",
   "iso3": "BES",
@@ -27,35 +32,64 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "네덜란드령 카리브"
+      "name": "네덜란드령 카리브",
+      "aliases": [
+        "카리브 네덜란드"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Bonaire, Santo Eustáquio e Saba"
+      "name": "Bonaire, Santo Eustáquio e Saba",
+      "aliases": [
+        "Países Baixos Caribenhos"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Bonaire, Santo Eustáquio e Saba"
+      "name": "Bonaire, Santo Eustáquio e Saba",
+      "aliases": [
+        "Países Baixos Caribenhos"
+      ]
     },
     {
       "locale": "fa",
-      "name": "جزایر کارائیب هلند"
+      "name": "جزایر کارائیب هلند",
+      "aliases": [
+        "کارائیب هلند",
+        "هلند کارائیب"
+      ]
     },
     {
       "locale": "de",
-      "name": "Bonaire, Sint Eustatius und Saba"
+      "name": "Bonaire, Sint Eustatius und Saba",
+      "aliases": [
+        "Karibische Niederlande",
+        "BES-Inseln"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Bonaire, Saint-Eustache et Saba"
+      "name": "Bonaire, Saint-Eustache et Saba",
+      "aliases": [
+        "Pays-Bas caribéens",
+        "Îles BES"
+      ]
     },
     {
       "locale": "it",
-      "name": "Bonaire, Saint-Eustache e Saba"
+      "name": "Bonaire, Saint-Eustache e Saba",
+      "aliases": [
+        "Caraibi Olandesi",
+        "Paesi Bassi caraibici",
+        "Isole BES"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "荷属加勒比区"
+      "name": "荷属加勒比区",
+      "aliases": [
+        "荷兰加勒比区"
+      ]
     },
     {
       "locale": "tr",
@@ -63,31 +97,60 @@
     },
     {
       "locale": "ru",
-      "name": "Бонайре, Синт-Эстатиус и Саба"
+      "name": "Бонайре, Синт-Эстатиус и Саба",
+      "aliases": [
+        "Бонэйр, Синт-Эстатиус и Саба",
+        "БЕС-острова",
+        "Карибские Нидерланды"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Бонайре, Сент-Естатіус і Саба"
+      "name": "Бонайре, Сент-Естатіус і Саба",
+      "aliases": [
+        "Карибські Нідерланди",
+        "Нідерландські Карибські острови"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Bonaire, Sint Eustatius i Saba"
+      "name": "Bonaire, Sint Eustatius i Saba",
+      "aliases": [
+        "Niderlandy Karaibskie"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Bonaire, Sint Eustatius en Saba"
+      "name": "Bonaire, Sint Eustatius en Saba",
+      "aliases": [
+        "Caribisch Nederland",
+        "BES eilanden"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Bonaire, Sveti Eustahije i Saba"
+      "name": "Bonaire, Sveti Eustahije i Saba",
+      "aliases": [
+        "Karipski otoci Nizozemske",
+        "Karipska Nizozemska"
+      ]
     },
     {
       "locale": "es",
-      "name": "Bonaire, San Eustaquio y Saba"
+      "name": "Bonaire, San Eustaquio y Saba",
+      "aliases": [
+        "Caribe neerlandés",
+        "Islas BES"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ボネール、シント・ユースタティウスおよびサバ"
+      "name": "ボネール、シント・ユースタティウスおよびサバ",
+      "aliases": [
+        "オランダ領カリブ",
+        "BES諸島",
+        "カリブ・オランダ"
+      ]
     }
   ],
   "states": [

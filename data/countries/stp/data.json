@@ -1,6 +1,10 @@
 {
   "id": "ST",
   "name": "São Tomé and Príncipe",
+  "aliases": [
+    "São Tomé & Príncipe",
+    "Democratic Republic of São Tomé and Príncipe"
+  ],
   "nativeName": "São Tomé e Príncipe",
   "iso2": "ST",
   "iso3": "STP",
@@ -33,11 +37,17 @@
     },
     {
       "locale": "pt",
-      "name": "São Tomé e Príncipe"
+      "name": "São Tomé e Príncipe",
+      "aliases": [
+        "República Democrática de São Tomé e Príncipe"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Sao Tomé en Principe"
+      "name": "Sao Tomé en Principe",
+      "aliases": [
+        "Democratische Republiek Sao Tomé en Principe"
+      ]
     },
     {
       "locale": "hr",
@@ -45,23 +55,38 @@
     },
     {
       "locale": "fa",
-      "name": "سائوتومه و پرینسیپ"
+      "name": "سائوتومه و پرینسیپ",
+      "aliases": [
+        "جمهوری دموکراتیک سائوتومه و پرینسیپ"
+      ]
     },
     {
       "locale": "de",
-      "name": "São Tomé und Príncipe"
+      "name": "São Tomé und Príncipe",
+      "aliases": [
+        "Demokratische Republik São Tomé und Príncipe"
+      ]
     },
     {
       "locale": "es",
-      "name": "Santo Tomé y Príncipe"
+      "name": "Santo Tomé y Príncipe",
+      "aliases": [
+        "República Democrática de Santo Tomé y Príncipe"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Sao Tomé-et-Principe"
+      "name": "Sao Tomé-et-Principe",
+      "aliases": [
+        "São Tomé e Príncipe"
+      ]
     },
     {
       "locale": "ja",
-      "name": "サントメ・プリンシペ"
+      "name": "サントメ・プリンシペ",
+      "aliases": [
+        "サントメ・プリンシペ民主共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +94,11 @@
     },
     {
       "locale": "zh-CN",
-      "name": "圣多美和普林西比"
+      "name": "圣多美和普林西比",
+      "aliases": [
+        "圣多美和普林西比民主共和国",
+        "圣普"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +106,17 @@
     },
     {
       "locale": "ru",
-      "name": "Сан-Томе и Принсипи"
+      "name": "Сан-Томе и Принсипи",
+      "aliases": [
+        "Демократическая Республика Сан-Томе и Принсипи"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Сан-Томе і Принсіпі"
+      "name": "Сан-Томе і Принсіпі",
+      "aliases": [
+        "Демократична Республіка Сан-Томе і Принсіпі"
+      ]
     },
     {
       "locale": "pl",

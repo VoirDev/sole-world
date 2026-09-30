@@ -1,6 +1,9 @@
 {
   "id": "AX",
   "name": "Åland Islands",
+  "aliases": [
+    "Åland"
+  ],
   "nativeName": "Åland",
   "iso2": "AX",
   "iso3": "ALA",
@@ -29,15 +32,30 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Ilhas de Aland"
+      "name": "Ilhas de Aland",
+      "aliases": [
+        "Ilhas Aland",
+        "Åland",
+        "Alanda"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Ilhas de Aland"
+      "name": "Ilhas de Aland",
+      "aliases": [
+        "Alanda",
+        "Åland",
+        "Ilhas Aland"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Ålandeilanden"
+      "name": "Ålandeilanden",
+      "aliases": [
+        "Åland",
+        "Ålandseilanden",
+        "Landschap Åland"
+      ]
     },
     {
       "locale": "hr",
@@ -49,15 +67,24 @@
     },
     {
       "locale": "de",
-      "name": "Åland"
+      "name": "Åland",
+      "aliases": [
+        "Ålandinseln"
+      ]
     },
     {
       "locale": "es",
-      "name": "Islas Åland"
+      "name": "Islas Åland",
+      "aliases": [
+        "Åland"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Îles Åland"
+      "name": "Îles Åland",
+      "aliases": [
+        "Åland"
+      ]
     },
     {
       "locale": "ja",
@@ -69,15 +96,25 @@
     },
     {
       "locale": "zh-CN",
-      "name": "奥兰群岛"
+      "name": "奥兰群岛",
+      "aliases": [
+        "奥兰"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Åland Adaları"
+      "name": "Åland Adaları",
+      "aliases": [
+        "Åland"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Аландские острова"
+      "name": "Аландские острова",
+      "aliases": [
+        "Аландские о-ва",
+        "Ахвенанмаа"
+      ]
     },
     {
       "locale": "uk",

@@ -1,6 +1,9 @@
 {
   "id": "BM",
   "name": "Bermuda",
+  "aliases": [
+    "Bermuda Islands"
+  ],
   "nativeName": "Bermuda",
   "iso2": "BM",
   "iso3": "BMU",
@@ -25,63 +28,116 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "버뮤다"
+      "name": "버뮤다",
+      "aliases": [
+        "버뮤다 제도"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Bermudas"
+      "name": "Bermudas",
+      "aliases": [
+        "Ilha das Bermudas"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Bermudas"
+      "name": "Bermudas",
+      "aliases": [
+        "Ilha das Bermudas",
+        "Ilhas Bermuda",
+        "Ilhas Bermudas"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Bermuda"
+      "name": "Bermuda",
+      "aliases": [
+        "Bermuda-eilanden",
+        "Bermudas"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Bermudi"
+      "name": "Bermudi",
+      "aliases": [
+        "Bermuda",
+        "Bermudski otoci"
+      ]
     },
     {
       "locale": "fa",
-      "name": "برمودا"
+      "name": "برمودا",
+      "aliases": [
+        "جزایر برمودا"
+      ]
     },
     {
       "locale": "de",
-      "name": "Bermuda"
+      "name": "Bermuda",
+      "aliases": [
+        "Bermudainseln"
+      ]
     },
     {
       "locale": "es",
-      "name": "Bermudas"
+      "name": "Bermudas",
+      "aliases": [
+        "Islas Bermudas",
+        "Bermuda"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Bermudes"
+      "name": "Bermudes",
+      "aliases": [
+        "Les Bermudes"
+      ]
     },
     {
       "locale": "ja",
-      "name": "バミューダ"
+      "name": "バミューダ",
+      "aliases": [
+        "バミューダ島",
+        "バミューダ諸島"
+      ]
     },
     {
       "locale": "it",
-      "name": "Bermuda"
+      "name": "Bermuda",
+      "aliases": [
+        "Bermude",
+        "Isole Bermude"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "百慕大"
+      "name": "百慕大",
+      "aliases": [
+        "百慕大群岛"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Bermuda"
+      "name": "Bermuda",
+      "aliases": [
+        "Bermuda Adaları"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Бермуды"
+      "name": "Бермуды",
+      "aliases": [
+        "Бермудские о-ва",
+        "Бермудские Острова"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Бермудські острови"
+      "name": "Бермудські острови",
+      "aliases": [
+        "Бермуди"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,7 @@
 {
   "id": "DK",
   "name": "Denmark",
+  "aliases": [],
   "nativeName": "Danmark",
   "iso2": "DK",
   "iso3": "DNK",
@@ -43,7 +44,10 @@
     },
     {
       "locale": "hr",
-      "name": "Danska"
+      "name": "Danska",
+      "aliases": [
+        "Kraljevina Danska"
+      ]
     },
     {
       "locale": "fa",
@@ -75,7 +79,10 @@
     },
     {
       "locale": "tr",
-      "name": "Danimarka"
+      "name": "Danimarka",
+      "aliases": [
+        "Danimarka Krallığı"
+      ]
     },
     {
       "locale": "ru",

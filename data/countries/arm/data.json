@@ -1,6 +1,9 @@
 {
   "id": "AM",
   "name": "Armenia",
+  "aliases": [
+    "Republic of Armenia"
+  ],
   "nativeName": "Հայաստան",
   "iso2": "AM",
   "iso3": "ARM",
@@ -25,11 +28,17 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "아르메니아"
+      "name": "아르메니아",
+      "aliases": [
+        "아르메니아 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Armênia"
+      "name": "Armênia",
+      "aliases": [
+        "República da Armênia"
+      ]
     },
     {
       "locale": "pt",
@@ -37,11 +46,17 @@
     },
     {
       "locale": "nl",
-      "name": "Armenië"
+      "name": "Armenië",
+      "aliases": [
+        "Republiek Armenië"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Armenija"
+      "name": "Armenija",
+      "aliases": [
+        "Republika Armenija"
+      ]
     },
     {
       "locale": "fa",
@@ -53,31 +68,52 @@
     },
     {
       "locale": "es",
-      "name": "Armenia"
+      "name": "Armenia",
+      "aliases": [
+        "República de Armenia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Arménie"
+      "name": "Arménie",
+      "aliases": [
+        "République d'Arménie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "アルメニア"
+      "name": "アルメニア",
+      "aliases": [
+        "アルメニア共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Armenia"
+      "name": "Armenia",
+      "aliases": [
+        "Repubblica di Armenia"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "亚美尼亚"
+      "name": "亚美尼亚",
+      "aliases": [
+        "亚美尼亚共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Ermenistan"
+      "name": "Ermenistan",
+      "aliases": [
+        "Ermenistan Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Армения"
+      "name": "Армения",
+      "aliases": [
+        "Республика Армения"
+      ]
     },
     {
       "locale": "uk",

@@ -1,6 +1,11 @@
 {
   "id": "IN",
   "name": "India",
+  "aliases": [
+    "Bharat",
+    "Hindustan",
+    "Republic of India"
+  ],
   "nativeName": "भारत",
   "iso2": "IN",
   "iso3": "IND",
@@ -41,7 +46,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "인도"
+      "name": "인도",
+      "aliases": [
+        "인도 공화국",
+        "인디아"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -53,7 +62,10 @@
     },
     {
       "locale": "nl",
-      "name": "India"
+      "name": "India",
+      "aliases": [
+        "Republiek India"
+      ]
     },
     {
       "locale": "hr",
@@ -61,7 +73,10 @@
     },
     {
       "locale": "fa",
-      "name": "هند"
+      "name": "هند",
+      "aliases": [
+        "هندوستان"
+      ]
     },
     {
       "locale": "de",
@@ -69,19 +84,33 @@
     },
     {
       "locale": "es",
-      "name": "India"
+      "name": "India",
+      "aliases": [
+        "La India",
+        "República de la India"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Inde"
+      "name": "Inde",
+      "aliases": [
+        "République de l'Inde"
+      ]
     },
     {
       "locale": "ja",
-      "name": "インド"
+      "name": "インド",
+      "aliases": [
+        "バーラト",
+        "インド共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "India"
+      "name": "India",
+      "aliases": [
+        "Repubblica dell'India"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -89,19 +118,32 @@
     },
     {
       "locale": "tr",
-      "name": "Hindistan"
+      "name": "Hindistan",
+      "aliases": [
+        "Hindistan Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Индия"
+      "name": "Индия",
+      "aliases": [
+        "Бхарат",
+        "Республика Индия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Індія"
+      "name": "Індія",
+      "aliases": [
+        "Республіка Індія"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Indie"
+      "name": "Indie",
+      "aliases": [
+        "Republika Indii"
+      ]
     }
   ],
   "states": [

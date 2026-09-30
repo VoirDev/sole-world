@@ -4,9 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "generate:assets": "node generate-media-assets.mjs"
+    "generate:assets": "node generate-media-assets.mjs",
+    "generate:aliases": "node generate-country-aliases.mjs"
   },
   "dependencies": {
+    "cldr-localenames-full": "48.2.0",
     "sharp": "^0.35.4"
   }
 }

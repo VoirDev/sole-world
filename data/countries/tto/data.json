@@ -1,6 +1,10 @@
 {
   "id": "TT",
   "name": "Trinidad and Tobago",
+  "aliases": [
+    "Trinidad & Tobago",
+    "Republic of Trinidad and Tobago"
+  ],
   "nativeName": "Trinidad and Tobago",
   "iso2": "TT",
   "iso3": "TTO",
@@ -29,15 +33,24 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Trinidad e Tobago"
+      "name": "Trinidad e Tobago",
+      "aliases": [
+        "Trindade e Tobago"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Trindade e Tobago"
+      "name": "Trindade e Tobago",
+      "aliases": [
+        "Trinidad e Tobago"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Trinidad en Tobago"
+      "name": "Trinidad en Tobago",
+      "aliases": [
+        "Republiek Trinidad en Tobago"
+      ]
     },
     {
       "locale": "hr",
@@ -53,15 +66,27 @@
     },
     {
       "locale": "es",
-      "name": "Trinidad y Tobago"
+      "name": "Trinidad y Tobago",
+      "aliases": [
+        "República de Trinidad y Tobago",
+        "Trinidad y Tabago"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Trinité-et-Tobago"
+      "name": "Trinité-et-Tobago",
+      "aliases": [
+        "République de Trinidad-et-Tobago",
+        "République de Trinité-et-Tobago",
+        "Trinidad-et-Tobago"
+      ]
     },
     {
       "locale": "ja",
-      "name": "トリニダード・トバゴ"
+      "name": "トリニダード・トバゴ",
+      "aliases": [
+        "トリニダード・トバゴ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +94,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "特立尼达和多巴哥"
+      "name": "特立尼达和多巴哥",
+      "aliases": [
+        "特多"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +105,10 @@
     },
     {
       "locale": "ru",
-      "name": "Тринидад и Тобаго"
+      "name": "Тринидад и Тобаго",
+      "aliases": [
+        "Республика Тринидад и Тобаго"
+      ]
     },
     {
       "locale": "uk",

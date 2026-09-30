@@ -1,6 +1,11 @@
 {
   "id": "CN",
   "name": "China",
+  "aliases": [
+    "People's Republic of China",
+    "P.R.C.",
+    "PR China"
+  ],
   "nativeName": "中国",
   "iso2": "CN",
   "iso3": "CHN",
@@ -26,67 +31,128 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "중국"
+      "name": "중국",
+      "aliases": [
+        "중화인민공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "China"
+      "name": "China",
+      "aliases": [
+        "República Popular da China",
+        "RP China"
+      ]
     },
     {
       "locale": "pt",
-      "name": "China"
+      "name": "China",
+      "aliases": [
+        "República Popular da China"
+      ]
     },
     {
       "locale": "nl",
-      "name": "China"
+      "name": "China",
+      "aliases": [
+        "Volksrepubliek China",
+        "VRC"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Kina"
+      "name": "Kina",
+      "aliases": [
+        "Narodna Republika Kina"
+      ]
     },
     {
       "locale": "fa",
-      "name": "چین"
+      "name": "چین",
+      "aliases": [
+        "جمهوری خلق چین"
+      ]
     },
     {
       "locale": "de",
-      "name": "China"
+      "name": "China",
+      "aliases": [
+        "Volksrepublik China",
+        "Chinesische Volksrepublik",
+        "V.R. China"
+      ]
     },
     {
       "locale": "es",
-      "name": "China"
+      "name": "China",
+      "aliases": [
+        "República Popular China",
+        "República Popular de China",
+        "China Popular"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Chine"
+      "name": "Chine",
+      "aliases": [
+        "Chine populaire"
+      ]
     },
     {
       "locale": "ja",
-      "name": "中国"
+      "name": "中国",
+      "aliases": [
+        "中華人民共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Cina"
+      "name": "Cina",
+      "aliases": [
+        "Repubblica Popolare Cinese"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "中国"
+      "name": "中国",
+      "aliases": [
+        "中华人民共和国",
+        "中国大陆"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Çin"
+      "name": "Çin",
+      "aliases": [
+        "Çin Halk Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Китай"
+      "name": "Китай",
+      "aliases": [
+        "Китайская Народная Республика",
+        "КНР",
+        "Материковый Китай"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Китай"
+      "name": "Китай",
+      "aliases": [
+        "Китайська Народна Республіка",
+        "КНР"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Chiny"
+      "name": "Chiny",
+      "aliases": [
+        "Chińska Republika Ludowa",
+        "ChRL",
+        "Chiny kontynentalne",
+        "Chiny ludowe"
+      ]
     }
   ],
   "states": [

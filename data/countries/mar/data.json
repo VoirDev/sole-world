@@ -1,6 +1,9 @@
 {
   "id": "MA",
   "name": "Morocco",
+  "aliases": [
+    "Kingdom of Morocco"
+  ],
   "nativeName": "المغرب",
   "iso2": "MA",
   "iso3": "MAR",
@@ -29,7 +32,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "모로코"
+      "name": "모로코",
+      "aliases": [
+        "모로코 왕국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -41,7 +47,10 @@
     },
     {
       "locale": "nl",
-      "name": "Marokko"
+      "name": "Marokko",
+      "aliases": [
+        "Koninkrijk Marokko"
+      ]
     },
     {
       "locale": "hr",
@@ -53,19 +62,31 @@
     },
     {
       "locale": "de",
-      "name": "Marokko"
+      "name": "Marokko",
+      "aliases": [
+        "Königreich Marokko"
+      ]
     },
     {
       "locale": "es",
-      "name": "Marruecos"
+      "name": "Marruecos",
+      "aliases": [
+        "Reino de Marruecos"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Maroc"
+      "name": "Maroc",
+      "aliases": [
+        "Royaume du Maroc"
+      ]
     },
     {
       "locale": "ja",
-      "name": "モロッコ"
+      "name": "モロッコ",
+      "aliases": [
+        "モロッコ王国"
+      ]
     },
     {
       "locale": "it",
@@ -73,23 +94,38 @@
     },
     {
       "locale": "zh-CN",
-      "name": "摩洛哥"
+      "name": "摩洛哥",
+      "aliases": [
+        "摩洛哥王国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Fas"
+      "name": "Fas",
+      "aliases": [
+        "Fas Krallığı"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Марокко"
+      "name": "Марокко",
+      "aliases": [
+        "Королевство Марокко"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Марокко"
+      "name": "Марокко",
+      "aliases": [
+        "Королівство Марокко"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Maroko"
+      "name": "Maroko",
+      "aliases": [
+        "Królestwo Marokańskie"
+      ]
     }
   ],
   "states": [

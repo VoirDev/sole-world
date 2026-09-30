@@ -15,8 +15,31 @@ class TextIndexTest {
 
     @Test
     fun `normalization strips accents`() {
-        assertEquals("cote d'ivoire", TextIndex.normalize("Côte d'Ivoire"))
+        assertEquals("cote divoire", TextIndex.normalize("Côte d’Ivoire"))
         assertEquals("espana", TextIndex.normalize("España"))
+    }
+
+    @Test
+    fun `normalization reduces punctuation to word boundaries`() {
+        assertEquals("usa", TextIndex.normalize("U.S.A."))
+        assertEquals("usa", TextIndex.normalize("U. S. A."))
+        assertEquals("guinea bissau", TextIndex.normalize("Guinea-Bissau"))
+        assertEquals("washington dc", TextIndex.normalize("Washington, D.C."))
+        // Straight and curly apostrophes, and the Ukrainian modifier letter, all fold the same way.
+        assertEquals(TextIndex.normalize("Côte d'Ivoire"), TextIndex.normalize("Côte d’Ivoire"))
+        assertEquals("мянма", TextIndex.normalize("Мʼянма"))
+    }
+
+    @Test
+    fun `single letters close up only when they run together`() {
+        assertEquals("trinidad y tobago", TextIndex.normalize("Trinidad y Tobago"))
+        assertEquals("us of a", TextIndex.normalize("U.S. of A"))
+    }
+
+    @Test
+    fun `text that is only punctuation keeps it`() {
+        assertEquals("-", TextIndex.normalize("-"))
+        assertNotNull(SearchQuery.of("-"))
     }
 
     @Test

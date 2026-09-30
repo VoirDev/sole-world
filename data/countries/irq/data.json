@@ -1,6 +1,9 @@
 {
   "id": "IQ",
   "name": "Iraq",
+  "aliases": [
+    "Republic of Iraq"
+  ],
   "nativeName": "العراق",
   "iso2": "IQ",
   "iso3": "IRQ",
@@ -30,7 +33,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Iraque"
+      "name": "Iraque",
+      "aliases": [
+        "República do Iraque"
+      ]
     },
     {
       "locale": "pt",
@@ -38,7 +44,10 @@
     },
     {
       "locale": "nl",
-      "name": "Irak"
+      "name": "Irak",
+      "aliases": [
+        "Republiek Irak"
+      ]
     },
     {
       "locale": "hr",
@@ -46,7 +55,10 @@
     },
     {
       "locale": "fa",
-      "name": "عراق"
+      "name": "عراق",
+      "aliases": [
+        "جمهوری عراق"
+      ]
     },
     {
       "locale": "de",
@@ -54,19 +66,35 @@
     },
     {
       "locale": "es",
-      "name": "Irak"
+      "name": "Irak",
+      "aliases": [
+        "Iraq",
+        "República de Irak",
+        "República de Iraq"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Irak"
+      "name": "Irak",
+      "aliases": [
+        "Iraq",
+        "République d’Irak"
+      ]
     },
     {
       "locale": "ja",
-      "name": "イラク"
+      "name": "イラク",
+      "aliases": [
+        "イラク共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Iraq"
+      "name": "Iraq",
+      "aliases": [
+        "Repubblica d'Irak",
+        "Repubblica d'Iraq"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -78,11 +106,17 @@
     },
     {
       "locale": "ru",
-      "name": "Ирак"
+      "name": "Ирак",
+      "aliases": [
+        "Республика Ирак"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Ірак"
+      "name": "Ірак",
+      "aliases": [
+        "Республіка Ірак"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,9 @@
 {
   "id": "KI",
   "name": "Kiribati",
+  "aliases": [
+    "Republic of Kiribati"
+  ],
   "nativeName": "Kiribati",
   "iso2": "KI",
   "iso3": "KIR",
@@ -31,7 +34,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Kiribati"
+      "name": "Kiribati",
+      "aliases": [
+        "Quiribati"
+      ]
     },
     {
       "locale": "pt",
@@ -39,7 +45,10 @@
     },
     {
       "locale": "nl",
-      "name": "Kiribati"
+      "name": "Kiribati",
+      "aliases": [
+        "Republiek Kiribati"
+      ]
     },
     {
       "locale": "hr",
@@ -55,7 +64,10 @@
     },
     {
       "locale": "es",
-      "name": "Kiribati"
+      "name": "Kiribati",
+      "aliases": [
+        "República de Kiribati"
+      ]
     },
     {
       "locale": "fr",
@@ -63,11 +75,17 @@
     },
     {
       "locale": "ja",
-      "name": "キリバス"
+      "name": "キリバス",
+      "aliases": [
+        "キリバス共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Kiribati"
+      "name": "Kiribati",
+      "aliases": [
+        "Repubblica delle Kiribati"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -79,7 +97,10 @@
     },
     {
       "locale": "ru",
-      "name": "Кирибати"
+      "name": "Кирибати",
+      "aliases": [
+        "Республика Кирибати"
+      ]
     },
     {
       "locale": "uk",
@@ -87,7 +108,10 @@
     },
     {
       "locale": "pl",
-      "name": "Kiribati"
+      "name": "Kiribati",
+      "aliases": [
+        "Republika Kiribati"
+      ]
     }
   ],
   "states": [

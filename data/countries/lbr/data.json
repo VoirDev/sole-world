@@ -1,6 +1,9 @@
 {
   "id": "LR",
   "name": "Liberia",
+  "aliases": [
+    "Republic of Liberia"
+  ],
   "nativeName": "Liberia",
   "iso2": "LR",
   "iso3": "LBR",
@@ -29,7 +32,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Libéria"
+      "name": "Libéria",
+      "aliases": [
+        "República da Libéria"
+      ]
     },
     {
       "locale": "pt",
@@ -37,7 +43,10 @@
     },
     {
       "locale": "nl",
-      "name": "Liberia"
+      "name": "Liberia",
+      "aliases": [
+        "Republiek Liberia"
+      ]
     },
     {
       "locale": "hr",
@@ -53,7 +62,10 @@
     },
     {
       "locale": "es",
-      "name": "Liberia"
+      "name": "Liberia",
+      "aliases": [
+        "República de Liberia"
+      ]
     },
     {
       "locale": "fr",
@@ -61,7 +73,10 @@
     },
     {
       "locale": "ja",
-      "name": "リベリア"
+      "name": "リベリア",
+      "aliases": [
+        "リベリア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -77,11 +92,17 @@
     },
     {
       "locale": "ru",
-      "name": "Либерия"
+      "name": "Либерия",
+      "aliases": [
+        "Республика Либерия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Ліберія"
+      "name": "Ліберія",
+      "aliases": [
+        "Республіка Ліберія"
+      ]
     },
     {
       "locale": "pl",

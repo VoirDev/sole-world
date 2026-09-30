@@ -1,6 +1,10 @@
 {
   "id": "FJ",
   "name": "Fiji",
+  "aliases": [
+    "Republic of Fiji",
+    "Republic of the Fiji Islands"
+  ],
   "nativeName": "Fiji",
   "iso2": "FJ",
   "iso3": "FJI",
@@ -27,11 +31,19 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "피지"
+      "name": "피지",
+      "aliases": [
+        "피지 공화국",
+        "피지 제도 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Fiji"
+      "name": "Fiji",
+      "aliases": [
+        "Ilhas Fiji",
+        "República de Fiji"
+      ]
     },
     {
       "locale": "pt",
@@ -39,7 +51,10 @@
     },
     {
       "locale": "nl",
-      "name": "Fiji"
+      "name": "Fiji",
+      "aliases": [
+        "Republiek Fiji"
+      ]
     },
     {
       "locale": "hr",
@@ -55,19 +70,37 @@
     },
     {
       "locale": "es",
-      "name": "Fiyi"
+      "name": "Fiyi",
+      "aliases": [
+        "Fiji",
+        "República de Fiji",
+        "República de Fiyi"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Fidji"
+      "name": "Fidji",
+      "aliases": [
+        "Fiji",
+        "République des Fidji",
+        "République des îles Fidji"
+      ]
     },
     {
       "locale": "ja",
-      "name": "フィジー"
+      "name": "フィジー",
+      "aliases": [
+        "フィジー共和国",
+        "フィジー諸島共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Figi"
+      "name": "Figi",
+      "aliases": [
+        "Fiji",
+        "Isole Figi"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -79,7 +112,10 @@
     },
     {
       "locale": "ru",
-      "name": "Фиджи"
+      "name": "Фиджи",
+      "aliases": [
+        "Республика Фиджи"
+      ]
     },
     {
       "locale": "uk",

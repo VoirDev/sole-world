@@ -1,6 +1,9 @@
 {
   "id": "DJ",
   "name": "Djibouti",
+  "aliases": [
+    "Republic of Djibouti"
+  ],
   "nativeName": "Djibouti",
   "iso2": "DJ",
   "iso3": "DJI",
@@ -34,11 +37,18 @@
     },
     {
       "locale": "pt",
-      "name": "Djibuti"
+      "name": "Djibuti",
+      "aliases": [
+        "Jibuti",
+        "Djibouti"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Djibouti"
+      "name": "Djibouti",
+      "aliases": [
+        "Republiek Djibouti"
+      ]
     },
     {
       "locale": "hr",
@@ -54,7 +64,11 @@
     },
     {
       "locale": "es",
-      "name": "Yibuti"
+      "name": "Yibuti",
+      "aliases": [
+        "Djibouti",
+        "República de Yibuti"
+      ]
     },
     {
       "locale": "fr",
@@ -62,15 +76,24 @@
     },
     {
       "locale": "ja",
-      "name": "ジブチ"
+      "name": "ジブチ",
+      "aliases": [
+        "ジブチ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Gibuti"
+      "name": "Gibuti",
+      "aliases": [
+        "Repubblica di Gibuti"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "吉布提"
+      "name": "吉布提",
+      "aliases": [
+        "吉布提共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,11 +101,17 @@
     },
     {
       "locale": "ru",
-      "name": "Джибути"
+      "name": "Джибути",
+      "aliases": [
+        "Республика Джибути"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Джибуті"
+      "name": "Джибуті",
+      "aliases": [
+        "Республіка Джибуті"
+      ]
     },
     {
       "locale": "pl",

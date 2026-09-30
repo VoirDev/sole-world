@@ -1,6 +1,10 @@
 {
   "id": "UY",
   "name": "Uruguay",
+  "aliases": [
+    "Eastern Republic of Uruguay",
+    "Oriental Republic of Uruguay"
+  ],
   "nativeName": "Uruguay",
   "iso2": "UY",
   "iso3": "URY",
@@ -29,7 +33,10 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Uruguai"
+      "name": "Uruguai",
+      "aliases": [
+        "República Oriental do Uruguai"
+      ]
     },
     {
       "locale": "pt",
@@ -37,7 +44,10 @@
     },
     {
       "locale": "nl",
-      "name": "Uruguay"
+      "name": "Uruguay",
+      "aliases": [
+        "Republiek ten oosten van de Uruguay"
+      ]
     },
     {
       "locale": "hr",
@@ -45,15 +55,24 @@
     },
     {
       "locale": "fa",
-      "name": "اروگوئه"
+      "name": "اروگوئه",
+      "aliases": [
+        "اروگوای"
+      ]
     },
     {
       "locale": "de",
-      "name": "Uruguay"
+      "name": "Uruguay",
+      "aliases": [
+        "Republik Östlich des Uruguay"
+      ]
     },
     {
       "locale": "es",
-      "name": "Uruguay"
+      "name": "Uruguay",
+      "aliases": [
+        "República Oriental de Uruguay"
+      ]
     },
     {
       "locale": "fr",
@@ -61,7 +80,10 @@
     },
     {
       "locale": "ja",
-      "name": "ウルグアイ"
+      "name": "ウルグアイ",
+      "aliases": [
+        "ウルグアイ東方共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,15 +91,24 @@
     },
     {
       "locale": "zh-CN",
-      "name": "乌拉圭"
+      "name": "乌拉圭",
+      "aliases": [
+        "乌拉圭东岸共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Uruguay"
+      "name": "Uruguay",
+      "aliases": [
+        "Uruguay Doğu Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Уругвай"
+      "name": "Уругвай",
+      "aliases": [
+        "Восточная Республика Уругвай"
+      ]
     },
     {
       "locale": "uk",

@@ -1,6 +1,12 @@
 {
   "id": "MP",
   "name": "Northern Mariana Islands",
+  "aliases": [
+    "Commonwealth of the Northern Mariana Islands",
+    "NMI",
+    "CNMI",
+    "Northern Marianas"
+  ],
   "nativeName": "Northern Mariana Islands",
   "iso2": "MP",
   "iso3": "MNP",
@@ -25,7 +31,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "북마리아나 제도"
+      "name": "북마리아나 제도",
+      "aliases": [
+        "북마리아나제도"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -33,11 +42,20 @@
     },
     {
       "locale": "pt",
-      "name": "Ilhas Marianas do Norte"
+      "name": "Ilhas Marianas do Norte",
+      "aliases": [
+        "Marianas Setentrionais",
+        "Comunidade das Ilhas Marianas do Norte",
+        "Comunidade das Ilhas Marianas Setentrionais"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Noordelijke Marianeneilanden"
+      "name": "Noordelijke Marianeneilanden",
+      "aliases": [
+        "Noordelijke Marianen",
+        "Gemenebest der Noordelijke Marianen"
+      ]
     },
     {
       "locale": "hr",
@@ -53,11 +71,17 @@
     },
     {
       "locale": "es",
-      "name": "Islas Marianas del Norte"
+      "name": "Islas Marianas del Norte",
+      "aliases": [
+        "Islas Marianas Septentrionales"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Îles Mariannes du Nord"
+      "name": "Îles Mariannes du Nord",
+      "aliases": [
+        "Mariannes du Nord"
+      ]
     },
     {
       "locale": "ja",
@@ -77,7 +101,11 @@
     },
     {
       "locale": "ru",
-      "name": "Северные Марианские острова"
+      "name": "Северные Марианские острова",
+      "aliases": [
+        "Северные Марианские о-ва",
+        "Содружество Северных Марианских островов"
+      ]
     },
     {
       "locale": "uk",

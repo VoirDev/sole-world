@@ -1,6 +1,10 @@
 {
   "id": "KR",
   "name": "South Korea",
+  "aliases": [
+    "Republic of Korea",
+    "S. Korea"
+  ],
   "nativeName": "대한민국",
   "iso2": "KR",
   "iso3": "KOR",
@@ -25,19 +29,32 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "대한민국"
+      "name": "대한민국",
+      "aliases": [
+        "한국",
+        "남한"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Coreia do Sul"
+      "name": "Coreia do Sul",
+      "aliases": [
+        "República da Coreia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Coreia do Sul"
+      "name": "Coreia do Sul",
+      "aliases": [
+        "República da Coreia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Zuid-Korea"
+      "name": "Zuid-Korea",
+      "aliases": [
+        "Republiek Korea"
+      ]
     },
     {
       "locale": "hr",
@@ -49,39 +66,71 @@
     },
     {
       "locale": "de",
-      "name": "Südkorea"
+      "name": "Südkorea",
+      "aliases": [
+        "Republik Korea",
+        "Süd-Korea"
+      ]
     },
     {
       "locale": "es",
-      "name": "Corea del Sur"
+      "name": "Corea del Sur",
+      "aliases": [
+        "República de Corea",
+        "Sudcorea",
+        "Surcorea"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Corée du Sud"
+      "name": "Corée du Sud",
+      "aliases": [
+        "République de Corée"
+      ]
     },
     {
       "locale": "ja",
-      "name": "韓国"
+      "name": "韓国",
+      "aliases": [
+        "大韓民国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Corea del Sud"
+      "name": "Corea del Sud",
+      "aliases": [
+        "Sud Corea",
+        "Repubblica di Corea"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "韩国"
+      "name": "韩国",
+      "aliases": [
+        "大韩民国",
+        "南韩"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Güney Kore"
+      "name": "Güney Kore",
+      "aliases": [
+        "Kore Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Южная Корея"
+      "name": "Южная Корея",
+      "aliases": [
+        "Республика Корея"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Південна Корея"
+      "name": "Південна Корея",
+      "aliases": [
+        "Республіка Корея"
+      ]
     },
     {
       "locale": "pl",

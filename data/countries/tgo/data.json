@@ -1,6 +1,9 @@
 {
   "id": "TG",
   "name": "Togo",
+  "aliases": [
+    "Togolese Republic"
+  ],
   "nativeName": "Togo",
   "iso2": "TG",
   "iso3": "TGO",
@@ -25,7 +28,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "토고"
+      "name": "토고",
+      "aliases": [
+        "토고 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -37,7 +43,10 @@
     },
     {
       "locale": "nl",
-      "name": "Togo"
+      "name": "Togo",
+      "aliases": [
+        "Republiek Togo"
+      ]
     },
     {
       "locale": "hr",
@@ -49,27 +58,45 @@
     },
     {
       "locale": "de",
-      "name": "Togo"
+      "name": "Togo",
+      "aliases": [
+        "Republik Togo"
+      ]
     },
     {
       "locale": "es",
-      "name": "Togo"
+      "name": "Togo",
+      "aliases": [
+        "República Togolesa"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Togo"
+      "name": "Togo",
+      "aliases": [
+        "République togolaise"
+      ]
     },
     {
       "locale": "ja",
-      "name": "トーゴ"
+      "name": "トーゴ",
+      "aliases": [
+        "トーゴ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Togo"
+      "name": "Togo",
+      "aliases": [
+        "Repubblica Togolese"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "多哥"
+      "name": "多哥",
+      "aliases": [
+        "多哥共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +104,17 @@
     },
     {
       "locale": "ru",
-      "name": "Того"
+      "name": "Того",
+      "aliases": [
+        "Тоголезская Республика"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Того"
+      "name": "Того",
+      "aliases": [
+        "Республіка Того"
+      ]
     },
     {
       "locale": "pl",

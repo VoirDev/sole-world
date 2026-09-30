@@ -1,6 +1,9 @@
 {
   "id": "EE",
   "name": "Estonia",
+  "aliases": [
+    "Republic of Estonia"
+  ],
   "nativeName": "Eesti",
   "iso2": "EE",
   "iso3": "EST",
@@ -25,19 +28,31 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "에스토니아"
+      "name": "에스토니아",
+      "aliases": [
+        "에스토니아 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Estônia"
+      "name": "Estônia",
+      "aliases": [
+        "República da Estônia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Estónia"
+      "name": "Estónia",
+      "aliases": [
+        "República da Estónia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Estland"
+      "name": "Estland",
+      "aliases": [
+        "Republiek Estland"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +64,31 @@
     },
     {
       "locale": "de",
-      "name": "Estland"
+      "name": "Estland",
+      "aliases": [
+        "Republik Estland"
+      ]
     },
     {
       "locale": "es",
-      "name": "Estonia"
+      "name": "Estonia",
+      "aliases": [
+        "República de Estonia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Estonie"
+      "name": "Estonie",
+      "aliases": [
+        "République d'Estonie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "エストニア"
+      "name": "エストニア",
+      "aliases": [
+        "エストニア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,15 +96,25 @@
     },
     {
       "locale": "zh-CN",
-      "name": "爱沙尼亚"
+      "name": "爱沙尼亚",
+      "aliases": [
+        "爱沙尼亚共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Estonya"
+      "name": "Estonya",
+      "aliases": [
+        "Estonya Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Эстония"
+      "name": "Эстония",
+      "aliases": [
+        "Республика Эстония",
+        "Эстонская Республика"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +122,10 @@
     },
     {
       "locale": "pl",
-      "name": "Estonia"
+      "name": "Estonia",
+      "aliases": [
+        "Republika Estonii"
+      ]
     }
   ],
   "states": [

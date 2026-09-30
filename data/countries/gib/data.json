@@ -1,6 +1,7 @@
 {
   "id": "GI",
   "name": "Gibraltar",
+  "aliases": [],
   "nativeName": "Gibraltar",
   "iso2": "GI",
   "iso3": "GIB",
@@ -47,7 +48,10 @@
     },
     {
       "locale": "fa",
-      "name": "جبل‌الطارق"
+      "name": "جبل‌الطارق",
+      "aliases": [
+        "جبل طارق"
+      ]
     },
     {
       "locale": "de",

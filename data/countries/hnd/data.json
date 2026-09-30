@@ -1,6 +1,9 @@
 {
   "id": "HN",
   "name": "Honduras",
+  "aliases": [
+    "Republic of Honduras"
+  ],
   "nativeName": "Honduras",
   "iso2": "HN",
   "iso3": "HND",
@@ -33,11 +36,18 @@
     },
     {
       "locale": "pt",
-      "name": "Honduras"
+      "name": "Honduras",
+      "aliases": [
+        "República das Honduras",
+        "República de Honduras"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Honduras"
+      "name": "Honduras",
+      "aliases": [
+        "Republiek Honduras"
+      ]
     },
     {
       "locale": "hr",
@@ -53,15 +63,24 @@
     },
     {
       "locale": "es",
-      "name": "Honduras"
+      "name": "Honduras",
+      "aliases": [
+        "República de Honduras"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Honduras"
+      "name": "Honduras",
+      "aliases": [
+        "République du Honduras"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ホンジュラス"
+      "name": "ホンジュラス",
+      "aliases": [
+        "ホンジュラス共和国"
+      ]
     },
     {
       "locale": "it",
@@ -73,15 +92,24 @@
     },
     {
       "locale": "tr",
-      "name": "Honduras"
+      "name": "Honduras",
+      "aliases": [
+        "Honduras Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Гондурас"
+      "name": "Гондурас",
+      "aliases": [
+        "Республика Гондурас"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Гондурас"
+      "name": "Гондурас",
+      "aliases": [
+        "Республіка Гондурас"
+      ]
     },
     {
       "locale": "pl",

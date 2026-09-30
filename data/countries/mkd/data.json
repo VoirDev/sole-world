@@ -1,6 +1,13 @@
 {
   "id": "MK",
   "name": "North Macedonia",
+  "aliases": [
+    "Macedonia",
+    "Former Yugoslav Republic of Macedonia",
+    "FYR Macedonia",
+    "Republic of Macedonia",
+    "Republic of North Macedonia"
+  ],
   "nativeName": "Северна Македонија",
   "iso2": "MK",
   "iso3": "MKD",
@@ -26,67 +33,158 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "북마케도니아"
+      "name": "북마케도니아",
+      "aliases": [
+        "구유고슬라비아 마케도니아 공화국",
+        "마케도니아 공화국",
+        "북마케도니아 공화국",
+        "마케도니아"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Macedônia do Norte"
+      "name": "Macedônia do Norte",
+      "aliases": [
+        "Antiga República Iugoslava da Macedônia",
+        "ARIM",
+        "República da Macedônia",
+        "República da Macedônia do Norte",
+        "Macedônia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Macedónia do Norte"
+      "name": "Macedónia do Norte",
+      "aliases": [
+        "Antiga República Jugoslava da Macedónia",
+        "ARJM",
+        "República da Macedónia",
+        "República da Macedónia do Norte",
+        "Macedónia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Noord-Macedonië"
+      "name": "Noord-Macedonië",
+      "aliases": [
+        "Republiek Macedonië",
+        "Voormalige Joegoslavische Republiek Macedonië",
+        "Macedonië"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Sjeverna Makedonija"
+      "name": "Sjeverna Makedonija",
+      "aliases": [
+        "Makedonija"
+      ]
     },
     {
       "locale": "fa",
-      "name": "مقدونیهٔ شمالی"
+      "name": "مقدونیهٔ شمالی",
+      "aliases": [
+        "جمهوری مقدونیه"
+      ]
     },
     {
       "locale": "de",
-      "name": "Nordmazedonien"
+      "name": "Nordmazedonien",
+      "aliases": [
+        "Mazedonien",
+        "Makedonien",
+        "Ehemalige Jugoslawische Republik Mazedonien",
+        "Republik Mazedonien",
+        "Republik Nordmazedonien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Macedonia del Norte"
+      "name": "Macedonia del Norte",
+      "aliases": [
+        "Macedonia",
+        "Antigua República Yugoslava de Macedonia",
+        "Ex República Yugoslava de Macedonia",
+        "República de Macedonia",
+        "República de Macedonia del Norte"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Macédoine du Nord"
+      "name": "Macédoine du Nord",
+      "aliases": [
+        "Macédoine",
+        "République de Macédoine",
+        "ARYM",
+        "L'Ancienne République yougoslave de Macédoine",
+        "L'ex-République yougoslave de Macédoine"
+      ]
     },
     {
       "locale": "ja",
-      "name": "北マケドニア"
+      "name": "北マケドニア",
+      "aliases": [
+        "北マケドニア共和国",
+        "マケドニア共和国",
+        "マケドニア旧ユーゴスラビア共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Macedonia del Nord"
+      "name": "Macedonia del Nord",
+      "aliases": [
+        "ERJM",
+        "Repubblica di Macedonia",
+        "Repubblica di Macedonia del Nord"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "北马其顿"
+      "name": "北马其顿",
+      "aliases": [
+        "马其顿",
+        "前南斯拉夫马其顿共和国",
+        "北马其顿共和国",
+        "马其顿共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Kuzey Makedonya"
+      "name": "Kuzey Makedonya",
+      "aliases": [
+        "Makedonya",
+        "Kuzey Makedonya Cumhuriyeti",
+        "Makedonya Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Северная Македония"
+      "name": "Северная Македония",
+      "aliases": [
+        "Македония",
+        "Бывшая Югославская Республика Македония",
+        "БЮРМ",
+        "Республика Македония",
+        "Республика Северная Македония"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Північна Македонія"
+      "name": "Північна Македонія",
+      "aliases": [
+        "Македонія",
+        "Колишня Югославська Республіка Македонія",
+        "Республіка Македонія",
+        "Республіка Північна Македонія"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Macedonia Północna"
+      "name": "Macedonia Północna",
+      "aliases": [
+        "Była Jugosłowiańska Republika Macedonii",
+        "Republika Macedonii",
+        "Republika Macedonii Północnej"
+      ]
     }
   ],
   "states": [

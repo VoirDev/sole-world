@@ -1,6 +1,10 @@
 {
   "id": "AR",
   "name": "Argentina",
+  "aliases": [
+    "Argentine Republic",
+    "Republic of Argentina"
+  ],
   "nativeName": "Argentina",
   "iso2": "AR",
   "iso3": "ARG",
@@ -44,11 +48,17 @@
     },
     {
       "locale": "pt",
-      "name": "Argentina"
+      "name": "Argentina",
+      "aliases": [
+        "República Argentina"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Argentinië"
+      "name": "Argentinië",
+      "aliases": [
+        "Argentijnse Republiek"
+      ]
     },
     {
       "locale": "hr",
@@ -64,15 +74,26 @@
     },
     {
       "locale": "es",
-      "name": "Argentina"
+      "name": "Argentina",
+      "aliases": [
+        "República Argentina",
+        "Nación Argentina"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Argentine"
+      "name": "Argentine",
+      "aliases": [
+        "République argentine"
+      ]
     },
     {
       "locale": "ja",
-      "name": "アルゼンチン"
+      "name": "アルゼンチン",
+      "aliases": [
+        "アルゼンチン共和国",
+        "アルゼンティン"
+      ]
     },
     {
       "locale": "it",
@@ -80,19 +101,31 @@
     },
     {
       "locale": "zh-CN",
-      "name": "阿根廷"
+      "name": "阿根廷",
+      "aliases": [
+        "阿根廷共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Arjantin"
+      "name": "Arjantin",
+      "aliases": [
+        "Arjantin Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Аргентина"
+      "name": "Аргентина",
+      "aliases": [
+        "Аргентинская Республика"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Аргентина"
+      "name": "Аргентина",
+      "aliases": [
+        "Аргентинська Республіка"
+      ]
     },
     {
       "locale": "pl",

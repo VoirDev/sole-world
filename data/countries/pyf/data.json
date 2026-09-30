@@ -1,6 +1,9 @@
 {
   "id": "PF",
   "name": "French Polynesia",
+  "aliases": [
+    "Territory of French Polynesia"
+  ],
   "nativeName": "Polynésie française",
   "iso2": "PF",
   "iso3": "PYF",
@@ -47,7 +50,10 @@
     },
     {
       "locale": "fa",
-      "name": "پلی‌نزی فرانسه"
+      "name": "پلی‌نزی فرانسه",
+      "aliases": [
+        "پلی نزی فرانسه"
+      ]
     },
     {
       "locale": "de",
@@ -63,7 +69,10 @@
     },
     {
       "locale": "ja",
-      "name": "フランス領ポリネシア"
+      "name": "フランス領ポリネシア",
+      "aliases": [
+        "仏領ポリネシア"
+      ]
     },
     {
       "locale": "it",

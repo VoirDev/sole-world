@@ -1,6 +1,9 @@
 {
   "id": "BD",
   "name": "Bangladesh",
+  "aliases": [
+    "People's Republic of Bangladesh"
+  ],
   "nativeName": "Bangladesh",
   "iso2": "BD",
   "iso3": "BGD",
@@ -33,11 +36,17 @@
     },
     {
       "locale": "pt",
-      "name": "Bangladeche"
+      "name": "Bangladeche",
+      "aliases": [
+        "Bangladesh"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Bangladesh"
+      "name": "Bangladesh",
+      "aliases": [
+        "Volksrepubliek Bangladesh"
+      ]
     },
     {
       "locale": "hr",
@@ -53,7 +62,11 @@
     },
     {
       "locale": "es",
-      "name": "Bangladés"
+      "name": "Bangladés",
+      "aliases": [
+        "Bangladesh",
+        "República Popular de Bangladés"
+      ]
     },
     {
       "locale": "fr",
@@ -61,15 +74,28 @@
     },
     {
       "locale": "ja",
-      "name": "バングラデシュ"
+      "name": "バングラデシュ",
+      "aliases": [
+        "バングラデシュ人民共和国",
+        "バングラ",
+        "バングラディシュ",
+        "バングラデッシュ"
+      ]
     },
     {
       "locale": "it",
-      "name": "Bangladesh"
+      "name": "Bangladesh",
+      "aliases": [
+        "Repubblica Popolare del Bangladesh"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "孟加拉国"
+      "name": "孟加拉国",
+      "aliases": [
+        "孟加拉",
+        "孟加拉人民共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,7 +103,10 @@
     },
     {
       "locale": "ru",
-      "name": "Бангладеш"
+      "name": "Бангладеш",
+      "aliases": [
+        "Народная Республика Бангладеш"
+      ]
     },
     {
       "locale": "uk",

@@ -1,6 +1,9 @@
 {
   "id": "NZ",
   "name": "New Zealand",
+  "aliases": [
+    "Aotearoa New Zealand"
+  ],
   "nativeName": "New Zealand",
   "iso2": "NZ",
   "iso3": "NZL",
@@ -31,43 +34,74 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Nova Zelândia"
+      "name": "Nova Zelândia",
+      "aliases": [
+        "Aotearoa da Nova Zelândia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Nova Zelândia"
+      "name": "Nova Zelândia",
+      "aliases": [
+        "Aotearoa"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Nieuw-Zeeland"
+      "name": "Nieuw-Zeeland",
+      "aliases": [
+        "Aotearoa Nieuw-Zeeland"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Novi Zeland"
+      "name": "Novi Zeland",
+      "aliases": [
+        "Aotearoa Novi Zeland"
+      ]
     },
     {
       "locale": "fa",
-      "name": "نیوزیلند"
+      "name": "نیوزیلند",
+      "aliases": [
+        "آتروا نیوزیلند"
+      ]
     },
     {
       "locale": "de",
-      "name": "Neuseeland"
+      "name": "Neuseeland",
+      "aliases": [
+        "Aotearoa (Neuseeland)"
+      ]
     },
     {
       "locale": "es",
-      "name": "Nueva Zelanda"
+      "name": "Nueva Zelanda",
+      "aliases": [
+        "Aotearoa (Nueva Zelanda)",
+        "Nueva Zelandia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Nouvelle-Zélande"
+      "name": "Nouvelle-Zélande",
+      "aliases": [
+        "Aotearoa (Nouvelle-Zélande)"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ニュージーランド"
+      "name": "ニュージーランド",
+      "aliases": [
+        "アオテアロア・ニュージーランド"
+      ]
     },
     {
       "locale": "it",
-      "name": "Nuova Zelanda"
+      "name": "Nuova Zelanda",
+      "aliases": [
+        "Nuova Zelanda (Aotearoa)"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -75,15 +109,25 @@
     },
     {
       "locale": "tr",
-      "name": "Yeni Zelanda"
+      "name": "Yeni Zelanda",
+      "aliases": [
+        "Aotearoa Yeni Zelanda"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Новая Зеландия"
+      "name": "Новая Зеландия",
+      "aliases": [
+        "Аотеароа (Новая Зеландия)",
+        "Аотеароа"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Нова Зеландія"
+      "name": "Нова Зеландія",
+      "aliases": [
+        "Аотеароа (Нова Зеландія)"
+      ]
     },
     {
       "locale": "pl",

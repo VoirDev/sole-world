@@ -1,6 +1,9 @@
 {
   "id": "ET",
   "name": "Ethiopia",
+  "aliases": [
+    "Federal Democratic Republic of Ethiopia"
+  ],
   "nativeName": "ኢትዮጵያ",
   "iso2": "ET",
   "iso3": "ETH",
@@ -33,15 +36,24 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Etiópia"
+      "name": "Etiópia",
+      "aliases": [
+        "República Democrática Federal da Etiópia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Etiópia"
+      "name": "Etiópia",
+      "aliases": [
+        "República Democrática Federal da Etiópia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Ethiopië"
+      "name": "Ethiopië",
+      "aliases": [
+        "Federale Democratische Republiek Ethiopië"
+      ]
     },
     {
       "locale": "hr",
@@ -53,27 +65,45 @@
     },
     {
       "locale": "de",
-      "name": "Äthiopien"
+      "name": "Äthiopien",
+      "aliases": [
+        "Demokratische Bundesrepublik Äthiopien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Etiopía"
+      "name": "Etiopía",
+      "aliases": [
+        "República Democrática Federal de Etiopía"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Éthiopie"
+      "name": "Éthiopie",
+      "aliases": [
+        "République fédérale démocratique d'Éthiopie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "エチオピア"
+      "name": "エチオピア",
+      "aliases": [
+        "エチオピア連邦民主共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Etiopia"
+      "name": "Etiopia",
+      "aliases": [
+        "Repubblica Federale Democratica d'Etiopia"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "埃塞俄比亚"
+      "name": "埃塞俄比亚",
+      "aliases": [
+        "埃塞俄比亚联邦民主共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -81,11 +111,17 @@
     },
     {
       "locale": "ru",
-      "name": "Эфиопия"
+      "name": "Эфиопия",
+      "aliases": [
+        "Федеративная Демократическая Республика Эфиопия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Ефіопія"
+      "name": "Ефіопія",
+      "aliases": [
+        "Федеративна Демократична Республіка Ефіопія"
+      ]
     },
     {
       "locale": "pl",

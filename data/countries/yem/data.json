@@ -1,6 +1,9 @@
 {
   "id": "YE",
   "name": "Yemen",
+  "aliases": [
+    "Republic of Yemen"
+  ],
   "nativeName": "اليمن",
   "iso2": "YE",
   "iso3": "YEM",
@@ -25,19 +28,31 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "예멘"
+      "name": "예멘",
+      "aliases": [
+        "예멘 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Iêmen"
+      "name": "Iêmen",
+      "aliases": [
+        "Iêmene"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Iémen"
+      "name": "Iémen",
+      "aliases": [
+        "Iémene"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Jemen"
+      "name": "Jemen",
+      "aliases": [
+        "Republiek Jemen"
+      ]
     },
     {
       "locale": "hr",
@@ -53,7 +68,10 @@
     },
     {
       "locale": "es",
-      "name": "Yemen"
+      "name": "Yemen",
+      "aliases": [
+        "República de Yemen"
+      ]
     },
     {
       "locale": "fr",
@@ -61,11 +79,17 @@
     },
     {
       "locale": "ja",
-      "name": "イエメン"
+      "name": "イエメン",
+      "aliases": [
+        "イエメン共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Yemen"
+      "name": "Yemen",
+      "aliases": [
+        "Repubblica dello Yemen"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -73,11 +97,17 @@
     },
     {
       "locale": "tr",
-      "name": "Yemen"
+      "name": "Yemen",
+      "aliases": [
+        "Yemen Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Йемен"
+      "name": "Йемен",
+      "aliases": [
+        "Йеменская Республика"
+      ]
     },
     {
       "locale": "uk",

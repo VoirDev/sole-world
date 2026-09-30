@@ -1,6 +1,9 @@
 {
   "id": "NI",
   "name": "Nicaragua",
+  "aliases": [
+    "Republic of Nicaragua"
+  ],
   "nativeName": "Nicaragua",
   "iso2": "NI",
   "iso3": "NIC",
@@ -39,7 +42,10 @@
     },
     {
       "locale": "nl",
-      "name": "Nicaragua"
+      "name": "Nicaragua",
+      "aliases": [
+        "Republiek Nicaragua"
+      ]
     },
     {
       "locale": "hr",
@@ -55,15 +61,25 @@
     },
     {
       "locale": "es",
-      "name": "Nicaragua"
+      "name": "Nicaragua",
+      "aliases": [
+        "República de Nicaragua"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Nicaragua"
+      "name": "Nicaragua",
+      "aliases": [
+        "République du Nicaragua",
+        "République nicaraguayenne"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ニカラグア"
+      "name": "ニカラグア",
+      "aliases": [
+        "ニカラグア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -71,15 +87,24 @@
     },
     {
       "locale": "zh-CN",
-      "name": "尼加拉瓜"
+      "name": "尼加拉瓜",
+      "aliases": [
+        "尼加拉瓜共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Nikaragua"
+      "name": "Nikaragua",
+      "aliases": [
+        "Nikaragua Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Никарагуа"
+      "name": "Никарагуа",
+      "aliases": [
+        "Республика Никарагуа"
+      ]
     },
     {
       "locale": "uk",

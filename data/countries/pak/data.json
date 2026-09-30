@@ -1,6 +1,9 @@
 {
   "id": "PK",
   "name": "Pakistan",
+  "aliases": [
+    "Islamic Republic of Pakistan"
+  ],
   "nativeName": "پاکستان",
   "iso2": "PK",
   "iso3": "PAK",
@@ -38,11 +41,17 @@
     },
     {
       "locale": "nl",
-      "name": "Pakistan"
+      "name": "Pakistan",
+      "aliases": [
+        "Islamitische Republiek Pakistan"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Pakistan"
+      "name": "Pakistan",
+      "aliases": [
+        "Islamska Republika Pakistan"
+      ]
     },
     {
       "locale": "fa",
@@ -54,19 +63,33 @@
     },
     {
       "locale": "es",
-      "name": "Pakistán"
+      "name": "Pakistán",
+      "aliases": [
+        "Paquistán",
+        "República Islámica del Pakistán",
+        "República Islámica del Paquistán"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Pakistan"
+      "name": "Pakistan",
+      "aliases": [
+        "République islamique du Pakistan"
+      ]
     },
     {
       "locale": "ja",
-      "name": "パキスタン"
+      "name": "パキスタン",
+      "aliases": [
+        "パキスタン・イスラム共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Pakistan"
+      "name": "Pakistan",
+      "aliases": [
+        "Repubblica islamica del Pakistan"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -78,15 +101,24 @@
     },
     {
       "locale": "ru",
-      "name": "Пакистан"
+      "name": "Пакистан",
+      "aliases": [
+        "Исламская Республика Пакистан"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Пакистан"
+      "name": "Пакистан",
+      "aliases": [
+        "Ісламська Республіка Пакистан"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Pakistan"
+      "name": "Pakistan",
+      "aliases": [
+        "Islamska Republika Pakistanu"
+      ]
     }
   ],
   "states": [

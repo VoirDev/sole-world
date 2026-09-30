@@ -1,6 +1,9 @@
 {
   "id": "CO",
   "name": "Colombia",
+  "aliases": [
+    "Republic of Colombia"
+  ],
   "nativeName": "Colombia",
   "iso2": "CO",
   "iso3": "COL",
@@ -33,11 +36,17 @@
     },
     {
       "locale": "pt",
-      "name": "Colômbia"
+      "name": "Colômbia",
+      "aliases": [
+        "República da Colômbia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Colombia"
+      "name": "Colombia",
+      "aliases": [
+        "Republiek Colombia"
+      ]
     },
     {
       "locale": "hr",
@@ -53,19 +62,31 @@
     },
     {
       "locale": "es",
-      "name": "Colombia"
+      "name": "Colombia",
+      "aliases": [
+        "República de Colombia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Colombie"
+      "name": "Colombie",
+      "aliases": [
+        "République de Colombie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "コロンビア"
+      "name": "コロンビア",
+      "aliases": [
+        "コロンビア共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Colombia"
+      "name": "Colombia",
+      "aliases": [
+        "Repubblica di Colombia"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,11 +98,17 @@
     },
     {
       "locale": "ru",
-      "name": "Колумбия"
+      "name": "Колумбия",
+      "aliases": [
+        "Республика Колумбия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Колумбія"
+      "name": "Колумбія",
+      "aliases": [
+        "Республіка Колумбія"
+      ]
     },
     {
       "locale": "pl",

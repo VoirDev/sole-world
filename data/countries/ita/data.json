@@ -1,6 +1,10 @@
 {
   "id": "IT",
   "name": "Italy",
+  "aliases": [
+    "Italian Republic",
+    "Republic of Italy"
+  ],
   "nativeName": "Italia",
   "iso2": "IT",
   "iso3": "ITA",
@@ -25,23 +29,40 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "이탈리아"
+      "name": "이탈리아",
+      "aliases": [
+        "이태리"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Itália"
+      "name": "Itália",
+      "aliases": [
+        "República da Itália"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Itália"
+      "name": "Itália",
+      "aliases": [
+        "República da Itália",
+        "República Italiana"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Italië"
+      "name": "Italië",
+      "aliases": [
+        "Italiaanse Republiek",
+        "Republiek Italië"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Italija"
+      "name": "Italija",
+      "aliases": [
+        "Republika Italija"
+      ]
     },
     {
       "locale": "fa",
@@ -49,39 +70,66 @@
     },
     {
       "locale": "de",
-      "name": "Italien"
+      "name": "Italien",
+      "aliases": [
+        "Italienische Republik"
+      ]
     },
     {
       "locale": "es",
-      "name": "Italia"
+      "name": "Italia",
+      "aliases": [
+        "República Italiana"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Italie"
+      "name": "Italie",
+      "aliases": [
+        "République italienne"
+      ]
     },
     {
       "locale": "ja",
-      "name": "イタリア"
+      "name": "イタリア",
+      "aliases": [
+        "イタリア共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Italia"
+      "name": "Italia",
+      "aliases": [
+        "Repubblica Italiana"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "意大利"
+      "name": "意大利",
+      "aliases": [
+        "意大利共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "İtalya"
+      "name": "İtalya",
+      "aliases": [
+        "İtalya Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Италия"
+      "name": "Италия",
+      "aliases": [
+        "Итальянская Республика"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Італія"
+      "name": "Італія",
+      "aliases": [
+        "Італійська Республіка"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,10 @@
 {
   "id": "AL",
   "name": "Albania",
+  "aliases": [
+    "Republic of Albania",
+    "People's Socialist Republic of Albania"
+  ],
   "nativeName": "Shqipëria",
   "iso2": "AL",
   "iso3": "ALB",
@@ -25,19 +29,31 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "알바니아"
+      "name": "알바니아",
+      "aliases": [
+        "알바니아 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Albânia"
+      "name": "Albânia",
+      "aliases": [
+        "República da Albânia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Albânia"
+      "name": "Albânia",
+      "aliases": [
+        "República da Albânia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Albanië"
+      "name": "Albanië",
+      "aliases": [
+        "Republiek Albanië"
+      ]
     },
     {
       "locale": "hr",
@@ -49,11 +65,17 @@
     },
     {
       "locale": "de",
-      "name": "Albanien"
+      "name": "Albanien",
+      "aliases": [
+        "Republik Albanien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Albania"
+      "name": "Albania",
+      "aliases": [
+        "República de Albania"
+      ]
     },
     {
       "locale": "fr",
@@ -61,27 +83,45 @@
     },
     {
       "locale": "ja",
-      "name": "アルバニア"
+      "name": "アルバニア",
+      "aliases": [
+        "アルバニア共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Albania"
+      "name": "Albania",
+      "aliases": [
+        "Repubblica d'Albania"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "阿尔巴尼亚"
+      "name": "阿尔巴尼亚",
+      "aliases": [
+        "阿尔巴尼亚共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Arnavutluk"
+      "name": "Arnavutluk",
+      "aliases": [
+        "Arnavutluk Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Албания"
+      "name": "Албания",
+      "aliases": [
+        "Республика Албания"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Албанія"
+      "name": "Албанія",
+      "aliases": [
+        "Республіка Албанія"
+      ]
     },
     {
       "locale": "pl",

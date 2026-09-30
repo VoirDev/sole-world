@@ -1,6 +1,9 @@
 {
   "id": "AU",
   "name": "Australia",
+  "aliases": [
+    "Commonwealth of Australia"
+  ],
   "nativeName": "Australia",
   "iso2": "AU",
   "iso3": "AUS",
@@ -36,7 +39,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "호주"
+      "name": "호주",
+      "aliases": [
+        "오스트레일리아"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -44,11 +50,17 @@
     },
     {
       "locale": "pt",
-      "name": "Austrália"
+      "name": "Austrália",
+      "aliases": [
+        "Comunidade da Austrália"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Australië"
+      "name": "Australië",
+      "aliases": [
+        "Gemenebest van Australië"
+      ]
     },
     {
       "locale": "hr",
@@ -60,27 +72,47 @@
     },
     {
       "locale": "de",
-      "name": "Australien"
+      "name": "Australien",
+      "aliases": [
+        "Commonwealth von Australien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Australia"
+      "name": "Australia",
+      "aliases": [
+        "Mancomunidad de Australia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Australie"
+      "name": "Australie",
+      "aliases": [
+        "Commonwealth d'Australie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "オーストラリア"
+      "name": "オーストラリア",
+      "aliases": [
+        "オーストラリア連邦",
+        "豪州"
+      ]
     },
     {
       "locale": "it",
-      "name": "Australia"
+      "name": "Australia",
+      "aliases": [
+        "Commonwealth dell'Australia"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "澳大利亚"
+      "name": "澳大利亚",
+      "aliases": [
+        "澳大利亚联邦",
+        "澳洲"
+      ]
     },
     {
       "locale": "tr",
@@ -88,11 +120,17 @@
     },
     {
       "locale": "ru",
-      "name": "Австралия"
+      "name": "Австралия",
+      "aliases": [
+        "Австралийский союз"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Австралія"
+      "name": "Австралія",
+      "aliases": [
+        "Австралійський союз"
+      ]
     },
     {
       "locale": "pl",

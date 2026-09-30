@@ -1,6 +1,9 @@
 {
   "id": "CZ",
   "name": "Czechia",
+  "aliases": [
+    "Czech Republic"
+  ],
   "nativeName": "Česká republika",
   "iso2": "CZ",
   "iso3": "CZE",
@@ -25,67 +28,117 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "체코"
+      "name": "체코",
+      "aliases": [
+        "체코 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Tchéquia"
+      "name": "Tchéquia",
+      "aliases": [
+        "República Tcheca"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Chéquia"
+      "name": "Chéquia",
+      "aliases": [
+        "República Checa",
+        "Tchéquia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Tsjechië"
+      "name": "Tsjechië",
+      "aliases": [
+        "Tsjechische Republiek"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Češka"
+      "name": "Češka",
+      "aliases": [
+        "Češka Republika"
+      ]
     },
     {
       "locale": "fa",
-      "name": "چک"
+      "name": "چک",
+      "aliases": [
+        "جمهوری چک"
+      ]
     },
     {
       "locale": "de",
-      "name": "Tschechien"
+      "name": "Tschechien",
+      "aliases": [
+        "Tschechische Republik"
+      ]
     },
     {
       "locale": "es",
-      "name": "Chequia"
+      "name": "Chequia",
+      "aliases": [
+        "República Checa"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Tchéquie"
+      "name": "Tchéquie",
+      "aliases": [
+        "République tchèque"
+      ]
     },
     {
       "locale": "ja",
-      "name": "チェコ"
+      "name": "チェコ",
+      "aliases": [
+        "チェコ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Cechia"
+      "name": "Cechia",
+      "aliases": [
+        "Repubblica Ceca"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "捷克"
+      "name": "捷克",
+      "aliases": [
+        "捷克共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Çekya"
+      "name": "Çekya",
+      "aliases": [
+        "Çek Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Чехия"
+      "name": "Чехия",
+      "aliases": [
+        "Чешская Республика"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Чехія"
+      "name": "Чехія",
+      "aliases": [
+        "Чеська Республіка",
+        "Республіка Чехія"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Czechy"
+      "name": "Czechy",
+      "aliases": [
+        "Republika Czeska"
+      ]
     }
   ],
   "states": [

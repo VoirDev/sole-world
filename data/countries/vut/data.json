@@ -1,6 +1,9 @@
 {
   "id": "VU",
   "name": "Vanuatu",
+  "aliases": [
+    "Republic of Vanuatu"
+  ],
   "nativeName": "Vanuatu",
   "iso2": "VU",
   "iso3": "VUT",
@@ -39,7 +42,10 @@
     },
     {
       "locale": "nl",
-      "name": "Vanuatu"
+      "name": "Vanuatu",
+      "aliases": [
+        "Republiek Vanuatu"
+      ]
     },
     {
       "locale": "hr",
@@ -55,15 +61,24 @@
     },
     {
       "locale": "es",
-      "name": "Vanuatu"
+      "name": "Vanuatu",
+      "aliases": [
+        "República de Vanuatu"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Vanuatu"
+      "name": "Vanuatu",
+      "aliases": [
+        "République de Vanuatu"
+      ]
     },
     {
       "locale": "ja",
-      "name": "バヌアツ"
+      "name": "バヌアツ",
+      "aliases": [
+        "バヌアツ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -79,7 +94,10 @@
     },
     {
       "locale": "ru",
-      "name": "Вануату"
+      "name": "Вануату",
+      "aliases": [
+        "Республика Вануату"
+      ]
     },
     {
       "locale": "uk",

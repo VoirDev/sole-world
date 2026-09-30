@@ -1,6 +1,9 @@
 {
   "id": "TZ",
   "name": "Tanzania",
+  "aliases": [
+    "United Republic of Tanzania"
+  ],
   "nativeName": "Tanzania",
   "iso2": "TZ",
   "iso3": "TZA",
@@ -38,7 +41,10 @@
     },
     {
       "locale": "nl",
-      "name": "Tanzania"
+      "name": "Tanzania",
+      "aliases": [
+        "Verenigde Republiek Tanzania"
+      ]
     },
     {
       "locale": "hr",
@@ -54,7 +60,10 @@
     },
     {
       "locale": "es",
-      "name": "Tanzania"
+      "name": "Tanzania",
+      "aliases": [
+        "República Unida de Tanzania"
+      ]
     },
     {
       "locale": "fr",
@@ -62,7 +71,10 @@
     },
     {
       "locale": "ja",
-      "name": "タンザニア"
+      "name": "タンザニア",
+      "aliases": [
+        "タンザニア連合共和国"
+      ]
     },
     {
       "locale": "it",
@@ -78,11 +90,17 @@
     },
     {
       "locale": "ru",
-      "name": "Танзания"
+      "name": "Танзания",
+      "aliases": [
+        "Объединенная Республика Танзания"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Танзанія"
+      "name": "Танзанія",
+      "aliases": [
+        "Об'єднана Республіка Танзанія"
+      ]
     },
     {
       "locale": "pl",

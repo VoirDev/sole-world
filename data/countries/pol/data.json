@@ -1,6 +1,9 @@
 {
   "id": "PL",
   "name": "Poland",
+  "aliases": [
+    "Republic of Poland"
+  ],
   "nativeName": "Polska",
   "iso2": "PL",
   "iso3": "POL",
@@ -25,23 +28,38 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "폴란드"
+      "name": "폴란드",
+      "aliases": [
+        "폴란드 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Polônia"
+      "name": "Polônia",
+      "aliases": [
+        "República da Polônia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Polónia"
+      "name": "Polónia",
+      "aliases": [
+        "República da Polónia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Polen"
+      "name": "Polen",
+      "aliases": [
+        "Republiek Polen"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Poljska"
+      "name": "Poljska",
+      "aliases": [
+        "Republika Poljska"
+      ]
     },
     {
       "locale": "fa",
@@ -49,43 +67,74 @@
     },
     {
       "locale": "de",
-      "name": "Polen"
+      "name": "Polen",
+      "aliases": [
+        "Republik Polen"
+      ]
     },
     {
       "locale": "es",
-      "name": "Polonia"
+      "name": "Polonia",
+      "aliases": [
+        "República de Polonia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Pologne"
+      "name": "Pologne",
+      "aliases": [
+        "République de Pologne",
+        "République polonaise"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ポーランド"
+      "name": "ポーランド",
+      "aliases": [
+        "ポーランド共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Polonia"
+      "name": "Polonia",
+      "aliases": [
+        "Repubblica di Polonia"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "波兰"
+      "name": "波兰",
+      "aliases": [
+        "波兰共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Polonya"
+      "name": "Polonya",
+      "aliases": [
+        "Polonya Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Польша"
+      "name": "Польша",
+      "aliases": [
+        "Республика Польша"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Польща"
+      "name": "Польща",
+      "aliases": [
+        "Республіка Польща"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Polska"
+      "name": "Polska",
+      "aliases": [
+        "Rzeczpospolita Polska"
+      ]
     }
   ],
   "states": [

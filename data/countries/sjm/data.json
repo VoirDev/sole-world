@@ -1,6 +1,9 @@
 {
   "id": "SJ",
   "name": "Svalbard and Jan Mayen",
+  "aliases": [
+    "Svalbard & Jan Mayen"
+  ],
   "nativeName": "Svalbard og Jan Mayen",
   "iso2": "SJ",
   "iso3": "SJM",
@@ -25,7 +28,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "스발바르 얀마옌 제도"
+      "name": "스발바르 얀마옌 제도",
+      "aliases": [
+        "스발바르제도-얀마웬섬",
+        "스발바르 얀마옌"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -37,7 +44,10 @@
     },
     {
       "locale": "nl",
-      "name": "Svalbard en Jan Mayen"
+      "name": "Svalbard en Jan Mayen",
+      "aliases": [
+        "Spitsbergen en Jan Mayen"
+      ]
     },
     {
       "locale": "hr",
@@ -49,7 +59,10 @@
     },
     {
       "locale": "de",
-      "name": "Svalbard und Jan Mayen"
+      "name": "Svalbard und Jan Mayen",
+      "aliases": [
+        "Spitzbergen und Jan Mayen"
+      ]
     },
     {
       "locale": "es",
@@ -61,7 +74,10 @@
     },
     {
       "locale": "ja",
-      "name": "スヴァールバル諸島およびヤンマイエン島"
+      "name": "スヴァールバル諸島およびヤンマイエン島",
+      "aliases": [
+        "スバールバル諸島・ヤンマイエン島"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +85,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "斯瓦尔巴和扬马延群岛"
+      "name": "斯瓦尔巴和扬马延群岛",
+      "aliases": [
+        "斯瓦尔巴和扬马延"
+      ]
     },
     {
       "locale": "tr",
@@ -81,11 +100,17 @@
     },
     {
       "locale": "uk",
-      "name": "Шпіцберген та Ян-Маєн"
+      "name": "Шпіцберген та Ян-Маєн",
+      "aliases": [
+        "Свальбард і Ян-Маєн"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Wyspy Svalbard i Jan Mayen"
+      "name": "Wyspy Svalbard i Jan Mayen",
+      "aliases": [
+        "Svalbard i Jan Mayen"
+      ]
     }
   ],
   "states": []

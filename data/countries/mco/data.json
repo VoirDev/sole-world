@@ -1,6 +1,9 @@
 {
   "id": "MC",
   "name": "Monaco",
+  "aliases": [
+    "Principality of Monaco"
+  ],
   "nativeName": "Monaco",
   "iso2": "MC",
   "iso3": "MCO",
@@ -31,15 +34,24 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Mônaco"
+      "name": "Mônaco",
+      "aliases": [
+        "Principado de Mônaco"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Mónaco"
+      "name": "Mónaco",
+      "aliases": [
+        "Principado do Mónaco"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Monaco"
+      "name": "Monaco",
+      "aliases": [
+        "Vorstendom Monaco"
+      ]
     },
     {
       "locale": "hr",
@@ -51,23 +63,38 @@
     },
     {
       "locale": "de",
-      "name": "Monaco"
+      "name": "Monaco",
+      "aliases": [
+        "Fürstentum Monaco"
+      ]
     },
     {
       "locale": "es",
-      "name": "Mónaco"
+      "name": "Mónaco",
+      "aliases": [
+        "Principado de Mónaco"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Monaco"
+      "name": "Monaco",
+      "aliases": [
+        "Principauté de Monaco"
+      ]
     },
     {
       "locale": "ja",
-      "name": "モナコ"
+      "name": "モナコ",
+      "aliases": [
+        "モナコ公国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Principato di Monaco"
+      "name": "Principato di Monaco",
+      "aliases": [
+        "Monaco"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -75,11 +102,17 @@
     },
     {
       "locale": "tr",
-      "name": "Monako"
+      "name": "Monako",
+      "aliases": [
+        "Monako Prensliği"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Монако"
+      "name": "Монако",
+      "aliases": [
+        "Княжество Монако"
+      ]
     },
     {
       "locale": "uk",

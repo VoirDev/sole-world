@@ -1,6 +1,10 @@
 {
   "id": "PS",
   "name": "Palestine",
+  "aliases": [
+    "Palestinian Territories",
+    "State of Palestine"
+  ],
   "nativeName": "فلسطين",
   "iso2": "PS",
   "iso3": "PSE",
@@ -29,67 +33,134 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "팔레스타인 영토"
+      "name": "팔레스타인 영토",
+      "aliases": [
+        "팔레스타인",
+        "팔레스타인 지구",
+        "팔레스타인국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Palestina"
+      "name": "Palestina",
+      "aliases": [
+        "Territórios palestinos",
+        "Estado da Palestina"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Palestina"
+      "name": "Palestina",
+      "aliases": [
+        "Territórios palestinianos",
+        "Estado da Palestina"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Palestijnse gebieden"
+      "name": "Palestijnse gebieden",
+      "aliases": [
+        "Palestina",
+        "Staat Palestina"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Palestina"
+      "name": "Palestina",
+      "aliases": [
+        "Palestinsko područje",
+        "Država Palestina",
+        "Palestinska država"
+      ]
     },
     {
       "locale": "fa",
-      "name": "فلسطین"
+      "name": "فلسطین",
+      "aliases": [
+        "سرزمین‌های فلسطینی",
+        "دولت فلسطین"
+      ]
     },
     {
       "locale": "de",
-      "name": "Palästina"
+      "name": "Palästina",
+      "aliases": [
+        "Palästinensische Autonomiegebiete",
+        "Staat Palästina"
+      ]
     },
     {
       "locale": "es",
-      "name": "Palestina"
+      "name": "Palestina",
+      "aliases": [
+        "Territorios Palestinos",
+        "Estado de Palestina"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Palestine"
+      "name": "Palestine",
+      "aliases": [
+        "Territoires palestiniens",
+        "État de Palestine",
+        "État palestinien"
+      ]
     },
     {
       "locale": "ja",
-      "name": "パレスチナ"
+      "name": "パレスチナ",
+      "aliases": [
+        "パレスチナ自治区",
+        "パレスチナ国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Palestina"
+      "name": "Palestina",
+      "aliases": [
+        "Territori Palestinesi",
+        "Stato di Palestina"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "巴勒斯坦"
+      "name": "巴勒斯坦",
+      "aliases": [
+        "巴勒斯坦领土"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Filistin"
+      "name": "Filistin",
+      "aliases": [
+        "Filistin Bölgeleri",
+        "Filistin Devleti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Палестина"
+      "name": "Палестина",
+      "aliases": [
+        "Палестинские территории",
+        "Государство Палестина",
+        "Палестинское государство"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Палестина"
+      "name": "Палестина",
+      "aliases": [
+        "Палестинські території",
+        "Палестинська держава"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Palestyna"
+      "name": "Palestyna",
+      "aliases": [
+        "Terytoria Palestyńskie",
+        "Państwo Palestyna"
+      ]
     }
   ],
   "states": [

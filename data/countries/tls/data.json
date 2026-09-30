@@ -1,6 +1,10 @@
 {
   "id": "TL",
   "name": "Timor-Leste",
+  "aliases": [
+    "East Timor",
+    "Democratic Republic of Timor-Leste"
+  ],
   "nativeName": "Timor-Leste",
   "iso2": "TL",
   "iso3": "TLS",
@@ -25,47 +29,85 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "동티모르"
+      "name": "동티모르",
+      "aliases": [
+        "티모르레스테"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Timor-Leste"
+      "name": "Timor-Leste",
+      "aliases": [
+        "República Democrática de Timor-Leste"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Timor-Leste"
+      "name": "Timor-Leste",
+      "aliases": [
+        "República Democrática de Timor-Leste"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Oost-Timor"
+      "name": "Oost-Timor",
+      "aliases": [
+        "Democratische Republiek Oost-Timor"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Istočni Timor"
+      "name": "Istočni Timor",
+      "aliases": [
+        "Timor-Leste"
+      ]
     },
     {
       "locale": "fa",
-      "name": "تیمور-لسته"
+      "name": "تیمور-لسته",
+      "aliases": [
+        "تیمور شرقی"
+      ]
     },
     {
       "locale": "de",
-      "name": "Timor-Leste"
+      "name": "Timor-Leste",
+      "aliases": [
+        "Osttimor"
+      ]
     },
     {
       "locale": "es",
-      "name": "Timor Oriental"
+      "name": "Timor Oriental",
+      "aliases": [
+        "Timor-Leste",
+        "República Democrática de Timor Oriental"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Timor oriental"
+      "name": "Timor oriental",
+      "aliases": [
+        "République démocratique du Timor oriental",
+        "République démocratique du Timor-Leste"
+      ]
     },
     {
       "locale": "ja",
-      "name": "東ティモール"
+      "name": "東ティモール",
+      "aliases": [
+        "東チモール",
+        "東ティモール民主共和国",
+        "ティモール・レステ"
+      ]
     },
     {
       "locale": "it",
-      "name": "Timor Est"
+      "name": "Timor Est",
+      "aliases": [
+        "Timor Leste",
+        "Timor Orientale"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -73,19 +115,36 @@
     },
     {
       "locale": "tr",
-      "name": "Doğu Timor"
+      "name": "Doğu Timor",
+      "aliases": [
+        "Timor-Leste"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Тимор-Лешти"
+      "name": "Тимор-Лешти",
+      "aliases": [
+        "Тимор-Лесте",
+        "Восточный Тимор",
+        "Демократическая Республика Восточный Тимор",
+        "Демократическая Республика Тимор-Лешти"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Тимор-Лешті"
+      "name": "Тимор-Лешті",
+      "aliases": [
+        "Східний Тимор",
+        "Демократична Республіка Східний Тимор"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Timor Wschodni"
+      "name": "Timor Wschodni",
+      "aliases": [
+        "Timor-Leste",
+        "Demokratyczna Republika Timoru Wschodniego"
+      ]
     }
   ],
   "states": [

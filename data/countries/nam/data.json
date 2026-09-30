@@ -1,6 +1,9 @@
 {
   "id": "NA",
   "name": "Namibia",
+  "aliases": [
+    "Republic of Namibia"
+  ],
   "nativeName": "Namibia",
   "iso2": "NA",
   "iso3": "NAM",
@@ -36,11 +39,17 @@
     },
     {
       "locale": "pt",
-      "name": "Namíbia"
+      "name": "Namíbia",
+      "aliases": [
+        "República da Namíbia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Namibië"
+      "name": "Namibië",
+      "aliases": [
+        "Republiek Namibië"
+      ]
     },
     {
       "locale": "hr",
@@ -52,19 +61,31 @@
     },
     {
       "locale": "de",
-      "name": "Namibia"
+      "name": "Namibia",
+      "aliases": [
+        "Republik Namibia"
+      ]
     },
     {
       "locale": "es",
-      "name": "Namibia"
+      "name": "Namibia",
+      "aliases": [
+        "República de Namibia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Namibie"
+      "name": "Namibie",
+      "aliases": [
+        "République de Namibie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ナミビア"
+      "name": "ナミビア",
+      "aliases": [
+        "ナミビア共和国"
+      ]
     },
     {
       "locale": "it",
@@ -72,7 +93,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "纳米比亚"
+      "name": "纳米比亚",
+      "aliases": [
+        "纳米比亚共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -80,11 +104,17 @@
     },
     {
       "locale": "ru",
-      "name": "Намибия"
+      "name": "Намибия",
+      "aliases": [
+        "Республика Намибия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Намібія"
+      "name": "Намібія",
+      "aliases": [
+        "Республіка Намібія"
+      ]
     },
     {
       "locale": "pl",

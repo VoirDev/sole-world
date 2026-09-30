@@ -1,6 +1,9 @@
 {
   "id": "SG",
   "name": "Singapore",
+  "aliases": [
+    "Republic of Singapore"
+  ],
   "nativeName": "Singapore",
   "iso2": "SG",
   "iso3": "SGP",
@@ -32,15 +35,26 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Singapura"
+      "name": "Singapura",
+      "aliases": [
+        "Cingapura",
+        "República de Cingapura",
+        "República de Singapura"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Singapura"
+      "name": "Singapura",
+      "aliases": [
+        "República de Singapura"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Singapore"
+      "name": "Singapore",
+      "aliases": [
+        "Republiek Singapore"
+      ]
     },
     {
       "locale": "hr",
@@ -52,27 +66,46 @@
     },
     {
       "locale": "de",
-      "name": "Singapur"
+      "name": "Singapur",
+      "aliases": [
+        "Republik Singapur"
+      ]
     },
     {
       "locale": "es",
-      "name": "Singapur"
+      "name": "Singapur",
+      "aliases": [
+        "Ciudad de Singapur",
+        "República de Singapur"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Singapour"
+      "name": "Singapour",
+      "aliases": [
+        "République de Singapour"
+      ]
     },
     {
       "locale": "ja",
-      "name": "シンガポール"
+      "name": "シンガポール",
+      "aliases": [
+        "シンガポール共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Singapore"
+      "name": "Singapore",
+      "aliases": [
+        "Repubblica di Singapore"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "新加坡"
+      "name": "新加坡",
+      "aliases": [
+        "新加坡共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -80,11 +113,17 @@
     },
     {
       "locale": "ru",
-      "name": "Сингапур"
+      "name": "Сингапур",
+      "aliases": [
+        "Республика Сингапур"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Сінгапур"
+      "name": "Сінгапур",
+      "aliases": [
+        "Республіка Сінгапур"
+      ]
     },
     {
       "locale": "pl",

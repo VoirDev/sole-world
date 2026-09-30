@@ -1,6 +1,7 @@
 {
   "id": "DO",
   "name": "Dominican Republic",
+  "aliases": [],
   "nativeName": "República Dominicana",
   "iso2": "DO",
   "iso3": "DOM",
@@ -57,7 +58,10 @@
     },
     {
       "locale": "fr",
-      "name": "République dominicaine"
+      "name": "République dominicaine",
+      "aliases": [
+        "Dominicaine"
+      ]
     },
     {
       "locale": "ja",
@@ -77,7 +81,10 @@
     },
     {
       "locale": "ru",
-      "name": "Доминиканская Республика"
+      "name": "Доминиканская Республика",
+      "aliases": [
+        "Доминикана"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +92,11 @@
     },
     {
       "locale": "pl",
-      "name": "Republika Dominikańska"
+      "name": "Republika Dominikańska",
+      "aliases": [
+        "Dominikana",
+        "Republika Dominikany"
+      ]
     }
   ],
   "states": [

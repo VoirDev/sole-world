@@ -1,6 +1,9 @@
 {
   "id": "GW",
   "name": "Guinea-Bissau",
+  "aliases": [
+    "Republic of Guinea-Bissau"
+  ],
   "nativeName": "Guiné-Bissau",
   "iso2": "GW",
   "iso3": "GNB",
@@ -33,11 +36,17 @@
     },
     {
       "locale": "pt",
-      "name": "Guiné-Bissau"
+      "name": "Guiné-Bissau",
+      "aliases": [
+        "República da Guiné-Bissau"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Guinee-Bissau"
+      "name": "Guinee-Bissau",
+      "aliases": [
+        "Republiek Guinee-Bissau"
+      ]
     },
     {
       "locale": "hr",
@@ -49,19 +58,32 @@
     },
     {
       "locale": "de",
-      "name": "Guinea-Bissau"
+      "name": "Guinea-Bissau",
+      "aliases": [
+        "Republik Guinea-Bissau"
+      ]
     },
     {
       "locale": "es",
-      "name": "Guinea-Bisáu"
+      "name": "Guinea-Bisáu",
+      "aliases": [
+        "Guinea-Bissau",
+        "República de Guinea-Bisáu"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Guinée-Bissau"
+      "name": "Guinée-Bissau",
+      "aliases": [
+        "République de Guinée-Bissau"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ギニアビサウ"
+      "name": "ギニアビサウ",
+      "aliases": [
+        "ギニアビサウ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +91,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "几内亚比绍"
+      "name": "几内亚比绍",
+      "aliases": [
+        "几内亚比绍共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +102,17 @@
     },
     {
       "locale": "ru",
-      "name": "Гвинея-Бисау"
+      "name": "Гвинея-Бисау",
+      "aliases": [
+        "Республика Гвинея-Бисау"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Гвінея-Бісау"
+      "name": "Гвінея-Бісау",
+      "aliases": [
+        "Республіка Гвінея-Бісау"
+      ]
     },
     {
       "locale": "pl",

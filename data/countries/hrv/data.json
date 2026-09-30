@@ -1,6 +1,9 @@
 {
   "id": "HR",
   "name": "Croatia",
+  "aliases": [
+    "Republic of Croatia"
+  ],
   "nativeName": "Hrvatska",
   "iso2": "HR",
   "iso3": "HRV",
@@ -25,23 +28,39 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "크로아티아"
+      "name": "크로아티아",
+      "aliases": [
+        "크로아티아 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Croácia"
+      "name": "Croácia",
+      "aliases": [
+        "República da Croácia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Croácia"
+      "name": "Croácia",
+      "aliases": [
+        "República da Croácia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Kroatië"
+      "name": "Kroatië",
+      "aliases": [
+        "Republiek Kroatië"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Hrvatska"
+      "name": "Hrvatska",
+      "aliases": [
+        "RH",
+        "Republika Hrvatska"
+      ]
     },
     {
       "locale": "fa",
@@ -49,11 +68,17 @@
     },
     {
       "locale": "de",
-      "name": "Kroatien"
+      "name": "Kroatien",
+      "aliases": [
+        "Republik Kroatien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Croacia"
+      "name": "Croacia",
+      "aliases": [
+        "República de Croacia"
+      ]
     },
     {
       "locale": "fr",
@@ -61,11 +86,17 @@
     },
     {
       "locale": "ja",
-      "name": "クロアチア"
+      "name": "クロアチア",
+      "aliases": [
+        "クロアチア共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Croazia"
+      "name": "Croazia",
+      "aliases": [
+        "Repubblica di Croazia"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,7 +108,10 @@
     },
     {
       "locale": "ru",
-      "name": "Хорватия"
+      "name": "Хорватия",
+      "aliases": [
+        "Республика Хорватия"
+      ]
     },
     {
       "locale": "uk",
@@ -85,7 +119,10 @@
     },
     {
       "locale": "pl",
-      "name": "Chorwacja"
+      "name": "Chorwacja",
+      "aliases": [
+        "Republika Chorwacji"
+      ]
     }
   ],
   "states": [

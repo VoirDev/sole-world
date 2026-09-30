@@ -1,6 +1,9 @@
 {
   "id": "MU",
   "name": "Mauritius",
+  "aliases": [
+    "Republic of Mauritius"
+  ],
   "nativeName": "Maurice",
   "iso2": "MU",
   "iso3": "MUS",
@@ -50,23 +53,41 @@
     },
     {
       "locale": "de",
-      "name": "Mauritius"
+      "name": "Mauritius",
+      "aliases": [
+        "Republik Mauritius"
+      ]
     },
     {
       "locale": "es",
-      "name": "Mauricio"
+      "name": "Mauricio",
+      "aliases": [
+        "República de Mauricio"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Île Maurice"
+      "name": "Île Maurice",
+      "aliases": [
+        "Maurice",
+        "République de Maurice"
+      ]
     },
     {
       "locale": "ja",
-      "name": "モーリシャス"
+      "name": "モーリシャス",
+      "aliases": [
+        "モーリシャス共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Mauritius"
+      "name": "Mauritius",
+      "aliases": [
+        "Maurizio",
+        "Repubblica di Mauritius",
+        "Repubblica di Maurizio"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -74,15 +95,24 @@
     },
     {
       "locale": "tr",
-      "name": "Morityus"
+      "name": "Morityus",
+      "aliases": [
+        "Mauritius"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Маврикий"
+      "name": "Маврикий",
+      "aliases": [
+        "Республика Маврикий"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Маврикій"
+      "name": "Маврикій",
+      "aliases": [
+        "Республіка Маврикій"
+      ]
     },
     {
       "locale": "pl",

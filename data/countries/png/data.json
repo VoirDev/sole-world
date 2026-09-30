@@ -1,6 +1,9 @@
 {
   "id": "PG",
   "name": "Papua New Guinea",
+  "aliases": [
+    "Independent State of Papua New Guinea"
+  ],
   "nativeName": "Papua Niugini",
   "iso2": "PG",
   "iso3": "PNG",
@@ -35,11 +38,17 @@
     },
     {
       "locale": "pt",
-      "name": "Papua-Nova Guiné"
+      "name": "Papua-Nova Guiné",
+      "aliases": [
+        "Estado Independente da Papua-Nova Guiné"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Papoea-Nieuw-Guinea"
+      "name": "Papoea-Nieuw-Guinea",
+      "aliases": [
+        "Onafhankelijke Staat Papoea-Nieuw-Guinea"
+      ]
     },
     {
       "locale": "hr",
@@ -51,19 +60,31 @@
     },
     {
       "locale": "de",
-      "name": "Papua-Neuguinea"
+      "name": "Papua-Neuguinea",
+      "aliases": [
+        "Unabhängiger Staat Papua-Neuguinea"
+      ]
     },
     {
       "locale": "es",
-      "name": "Papúa Nueva Guinea"
+      "name": "Papúa Nueva Guinea",
+      "aliases": [
+        "Estado Independiente de Papua Nueva Guinea"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Papouasie-Nouvelle-Guinée"
+      "name": "Papouasie-Nouvelle-Guinée",
+      "aliases": [
+        "État indépendant de Papouasie-Nouvelle-Guinée"
+      ]
     },
     {
       "locale": "ja",
-      "name": "パプアニューギニア"
+      "name": "パプアニューギニア",
+      "aliases": [
+        "パプアニューギニア独立国"
+      ]
     },
     {
       "locale": "it",
@@ -71,7 +92,11 @@
     },
     {
       "locale": "zh-CN",
-      "name": "巴布亚新几内亚"
+      "name": "巴布亚新几内亚",
+      "aliases": [
+        "巴布亚新几内亚独立国",
+        "巴新"
+      ]
     },
     {
       "locale": "tr",
@@ -79,7 +104,10 @@
     },
     {
       "locale": "ru",
-      "name": "Папуа — Новая Гвинея"
+      "name": "Папуа — Новая Гвинея",
+      "aliases": [
+        "Независимое Государство Папуа - Новая Гвинея"
+      ]
     },
     {
       "locale": "uk",

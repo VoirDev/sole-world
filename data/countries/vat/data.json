@@ -1,6 +1,12 @@
 {
   "id": "VA",
   "name": "Vatican City",
+  "aliases": [
+    "Vatican",
+    "Holy See",
+    "State of Vatican City",
+    "Vatican City State"
+  ],
   "nativeName": "Vaticano",
   "iso2": "VA",
   "iso3": "VAT",
@@ -26,19 +32,36 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "바티칸 시국"
+      "name": "바티칸 시국",
+      "aliases": [
+        "바티칸",
+        "바티칸 시티"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Vaticano"
+      "name": "Vaticano",
+      "aliases": [
+        "Cidade do Vaticano",
+        "Estado da Cidade do Vaticano"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Vaticano"
+      "name": "Vaticano",
+      "aliases": [
+        "Cidade do Vaticano",
+        "Estado da Cidade do Vaticano",
+        "Estado do Vaticano"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Vaticaanstad"
+      "name": "Vaticaanstad",
+      "aliases": [
+        "Vaticaan",
+        "Staat Vaticaanstad"
+      ]
     },
     {
       "locale": "hr",
@@ -50,27 +73,53 @@
     },
     {
       "locale": "de",
-      "name": "Vatikanstadt"
+      "name": "Vatikanstadt",
+      "aliases": [
+        "Staat der Vatikanstadt",
+        "Staat Vatikanstadt",
+        "Vatikan"
+      ]
     },
     {
       "locale": "es",
-      "name": "Ciudad del Vaticano"
+      "name": "Ciudad del Vaticano",
+      "aliases": [
+        "Vaticano",
+        "Santa Sede",
+        "Estado de la Ciudad del Vaticano"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Vatican"
+      "name": "Vatican",
+      "aliases": [
+        "État de la Cité du Vatican",
+        "Cité du Vatican"
+      ]
     },
     {
       "locale": "ja",
-      "name": "バチカン市国"
+      "name": "バチカン市国",
+      "aliases": [
+        "バチカン",
+        "ヴァチカン"
+      ]
     },
     {
       "locale": "it",
-      "name": "Città del Vaticano"
+      "name": "Città del Vaticano",
+      "aliases": [
+        "Vaticano",
+        "Stato della Città del Vaticano"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "梵蒂冈"
+      "name": "梵蒂冈",
+      "aliases": [
+        "梵蒂冈城",
+        "梵蒂冈城国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,7 +127,10 @@
     },
     {
       "locale": "ru",
-      "name": "Ватикан"
+      "name": "Ватикан",
+      "aliases": [
+        "Государство-город Ватикан"
+      ]
     },
     {
       "locale": "uk",
@@ -86,7 +138,10 @@
     },
     {
       "locale": "pl",
-      "name": "Watykan"
+      "name": "Watykan",
+      "aliases": [
+        "Państwo Watykańskie"
+      ]
     }
   ],
   "states": []

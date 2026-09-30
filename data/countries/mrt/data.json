@@ -1,6 +1,9 @@
 {
   "id": "MR",
   "name": "Mauritania",
+  "aliases": [
+    "Islamic Republic of Mauritania"
+  ],
   "nativeName": "موريتانيا",
   "iso2": "MR",
   "iso3": "MRT",
@@ -37,35 +40,59 @@
     },
     {
       "locale": "nl",
-      "name": "Mauritanië"
+      "name": "Mauritanië",
+      "aliases": [
+        "Islamitische Republiek Mauritanië"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Mauritanija"
+      "name": "Mauritanija",
+      "aliases": [
+        "Mauretanija"
+      ]
     },
     {
       "locale": "fa",
-      "name": "موریتانی"
+      "name": "موریتانی",
+      "aliases": [
+        "جمهوری اسلامی موریتانی"
+      ]
     },
     {
       "locale": "de",
-      "name": "Mauretanien"
+      "name": "Mauretanien",
+      "aliases": [
+        "Islamische Republik Mauretanien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Mauritania"
+      "name": "Mauritania",
+      "aliases": [
+        "República Islámica de Mauritania"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Mauritanie"
+      "name": "Mauritanie",
+      "aliases": [
+        "République islamique de Mauritanie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "モーリタニア"
+      "name": "モーリタニア",
+      "aliases": [
+        "モーリタニア・イスラム共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Mauritania"
+      "name": "Mauritania",
+      "aliases": [
+        "Repubblica Islamica di Mauritania"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -77,11 +104,17 @@
     },
     {
       "locale": "ru",
-      "name": "Мавритания"
+      "name": "Мавритания",
+      "aliases": [
+        "Исламская Республика Мавритания"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Мавританія"
+      "name": "Мавританія",
+      "aliases": [
+        "Ісламська Республіка Мавританія"
+      ]
     },
     {
       "locale": "pl",

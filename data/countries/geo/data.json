@@ -1,6 +1,9 @@
 {
   "id": "GE",
   "name": "Georgia",
+  "aliases": [
+    "Republic of Georgia"
+  ],
   "nativeName": "საქართველო",
   "iso2": "GE",
   "iso3": "GEO",
@@ -26,7 +29,11 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "조지아"
+      "name": "조지아",
+      "aliases": [
+        "그루지야",
+        "조지아 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -50,27 +57,46 @@
     },
     {
       "locale": "de",
-      "name": "Georgien"
+      "name": "Georgien",
+      "aliases": [
+        "Republik Georgien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Georgia"
+      "name": "Georgia",
+      "aliases": [
+        "República de Georgia"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Géorgie"
+      "name": "Géorgie",
+      "aliases": [
+        "République de Géorgie"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ジョージア"
+      "name": "ジョージア",
+      "aliases": [
+        "グルジア",
+        "ジョージア国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Georgia"
+      "name": "Georgia",
+      "aliases": [
+        "Repubblica di Georgia"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "格鲁吉亚"
+      "name": "格鲁吉亚",
+      "aliases": [
+        "格鲁吉亚共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -78,7 +104,10 @@
     },
     {
       "locale": "ru",
-      "name": "Грузия"
+      "name": "Грузия",
+      "aliases": [
+        "Республика Грузия"
+      ]
     },
     {
       "locale": "uk",

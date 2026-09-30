@@ -1,6 +1,7 @@
 {
   "id": "NU",
   "name": "Niue",
+  "aliases": [],
   "nativeName": "Niuē",
   "iso2": "NU",
   "iso3": "NIU",
@@ -25,7 +26,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "니우에"
+      "name": "니우에",
+      "aliases": [
+        "니우에 섬"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -33,7 +37,10 @@
     },
     {
       "locale": "pt",
-      "name": "Niue"
+      "name": "Niue",
+      "aliases": [
+        "Ilha Niue"
+      ]
     },
     {
       "locale": "nl",
@@ -45,7 +52,10 @@
     },
     {
       "locale": "fa",
-      "name": "نیوئه"
+      "name": "نیوئه",
+      "aliases": [
+        "نیووی"
+      ]
     },
     {
       "locale": "de",
@@ -53,11 +63,17 @@
     },
     {
       "locale": "es",
-      "name": "Niue"
+      "name": "Niue",
+      "aliases": [
+        "Isla Niue"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Niue"
+      "name": "Niue",
+      "aliases": [
+        "Nioué"
+      ]
     },
     {
       "locale": "ja",
@@ -69,7 +85,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "纽埃"
+      "name": "纽埃",
+      "aliases": [
+        "纽埃岛"
+      ]
     },
     {
       "locale": "tr",

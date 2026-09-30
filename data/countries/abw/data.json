@@ -1,6 +1,9 @@
 {
   "id": "AW",
   "name": "Aruba",
+  "aliases": [
+    "Country of Aruba"
+  ],
   "nativeName": "Aruba",
   "iso2": "AW",
   "iso3": "ABW",
@@ -28,7 +31,10 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "아루바"
+      "name": "아루바",
+      "aliases": [
+        "아루바섬"
+      ]
     },
     {
       "locale": "pt-BR",
@@ -36,11 +42,17 @@
     },
     {
       "locale": "pt",
-      "name": "Aruba"
+      "name": "Aruba",
+      "aliases": [
+        "Ilha de Aruba"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Aruba"
+      "name": "Aruba",
+      "aliases": [
+        "Land Aruba"
+      ]
     },
     {
       "locale": "hr",
@@ -56,7 +68,10 @@
     },
     {
       "locale": "es",
-      "name": "Aruba"
+      "name": "Aruba",
+      "aliases": [
+        "Isla de Aruba"
+      ]
     },
     {
       "locale": "fr",
@@ -64,7 +79,10 @@
     },
     {
       "locale": "ja",
-      "name": "アルバ"
+      "name": "アルバ",
+      "aliases": [
+        "アルバ島"
+      ]
     },
     {
       "locale": "it",
@@ -72,7 +90,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "阿鲁巴"
+      "name": "阿鲁巴",
+      "aliases": [
+        "阿鲁巴岛"
+      ]
     },
     {
       "locale": "tr",

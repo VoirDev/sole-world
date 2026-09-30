@@ -1,6 +1,10 @@
 {
   "id": "PM",
   "name": "Saint Pierre and Miquelon",
+  "aliases": [
+    "St. Pierre & Miquelon",
+    "Territorial Collectivity of Saint Pierre and Miquelon"
+  ],
   "nativeName": "Saint-Pierre-et-Miquelon",
   "iso2": "PM",
   "iso3": "SPM",
@@ -25,35 +29,61 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "생피에르 미클롱"
+      "name": "생피에르 미클롱",
+      "aliases": [
+        "생 피에르 미클롱"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Saint-Pierre e Miquelon"
+      "name": "Saint-Pierre e Miquelon",
+      "aliases": [
+        "São Pedro e Miquelão"
+      ]
     },
     {
       "locale": "pt",
-      "name": "São Pedro e Miquelon"
+      "name": "São Pedro e Miquelon",
+      "aliases": [
+        "São Pedro e Miquelão",
+        "Saint-Pierre e Miquelon"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Saint-Pierre en Miquelon"
+      "name": "Saint-Pierre en Miquelon",
+      "aliases": [
+        "Gemeenschap Saint-Pierre en Miquelon",
+        "Saint-Pierre & Miquelon"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Sveti Petar i Mikelon"
+      "name": "Sveti Petar i Mikelon",
+      "aliases": [
+        "Saint Pierre i Miquelon"
+      ]
     },
     {
       "locale": "fa",
-      "name": "سن پیر و میکلن"
+      "name": "سن پیر و میکلن",
+      "aliases": [
+        "سن پیر و میکلون"
+      ]
     },
     {
       "locale": "de",
-      "name": "Saint-Pierre und Miquelon"
+      "name": "Saint-Pierre und Miquelon",
+      "aliases": [
+        "St. Pierre und Miquelon"
+      ]
     },
     {
       "locale": "es",
-      "name": "San Pedro y Miquelón"
+      "name": "San Pedro y Miquelón",
+      "aliases": [
+        "Saint Pierre y Miquelon"
+      ]
     },
     {
       "locale": "fr",
@@ -61,7 +91,10 @@
     },
     {
       "locale": "ja",
-      "name": "サンピエール島・ミクロン島"
+      "name": "サンピエール島・ミクロン島",
+      "aliases": [
+        "サンピエール・ミクロン"
+      ]
     },
     {
       "locale": "it",
@@ -69,15 +102,24 @@
     },
     {
       "locale": "zh-CN",
-      "name": "圣皮埃尔和密克隆"
+      "name": "圣皮埃尔和密克隆",
+      "aliases": [
+        "圣皮埃尔和密克隆群岛"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Saint Pierre ve Miquelon"
+      "name": "Saint Pierre ve Miquelon",
+      "aliases": [
+        "St Pierre ve Miquelon"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Сен-Пьер и Микелон"
+      "name": "Сен-Пьер и Микелон",
+      "aliases": [
+        "Сент-Пьер и Микелон"
+      ]
     },
     {
       "locale": "uk",

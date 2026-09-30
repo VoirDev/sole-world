@@ -1,6 +1,7 @@
 {
   "id": "GF",
   "name": "French Guiana",
+  "aliases": [],
   "nativeName": "Guyane française",
   "iso2": "GF",
   "iso3": "GUF",
@@ -41,7 +42,10 @@
     },
     {
       "locale": "hr",
-      "name": "Francuska Gvajana"
+      "name": "Francuska Gvajana",
+      "aliases": [
+        "Francuska Gijana"
+      ]
     },
     {
       "locale": "fa",
@@ -57,15 +61,24 @@
     },
     {
       "locale": "fr",
-      "name": "Guyane française"
+      "name": "Guyane française",
+      "aliases": [
+        "Guyane"
+      ]
     },
     {
       "locale": "ja",
-      "name": "フランス領ギアナ"
+      "name": "フランス領ギアナ",
+      "aliases": [
+        "仏領ギアナ"
+      ]
     },
     {
       "locale": "it",
-      "name": "Guyana Francese"
+      "name": "Guyana Francese",
+      "aliases": [
+        "Guiana francese"
+      ]
     },
     {
       "locale": "zh-CN",

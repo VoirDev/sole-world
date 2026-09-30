@@ -1,6 +1,9 @@
 {
   "id": "ER",
   "name": "Eritrea",
+  "aliases": [
+    "State of Eritrea"
+  ],
   "nativeName": "ኤርትራ",
   "iso2": "ER",
   "iso3": "ERI",
@@ -27,19 +30,31 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "에리트리아"
+      "name": "에리트리아",
+      "aliases": [
+        "에리트레아"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Eritreia"
+      "name": "Eritreia",
+      "aliases": [
+        "Estado da Eritreia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Eritreia"
+      "name": "Eritreia",
+      "aliases": [
+        "Estado da Eritreia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Eritrea"
+      "name": "Eritrea",
+      "aliases": [
+        "Staat Eritrea"
+      ]
     },
     {
       "locale": "hr",
@@ -55,15 +70,24 @@
     },
     {
       "locale": "es",
-      "name": "Eritrea"
+      "name": "Eritrea",
+      "aliases": [
+        "Estado de Eritrea"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Érythrée"
+      "name": "Érythrée",
+      "aliases": [
+        "État d'Érythrée"
+      ]
     },
     {
       "locale": "ja",
-      "name": "エリトリア"
+      "name": "エリトリア",
+      "aliases": [
+        "エリトリア国"
+      ]
     },
     {
       "locale": "it",
@@ -79,11 +103,17 @@
     },
     {
       "locale": "ru",
-      "name": "Эритрея"
+      "name": "Эритрея",
+      "aliases": [
+        "Государство Эритрея"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Еритрея"
+      "name": "Еритрея",
+      "aliases": [
+        "Держава Еритрея"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,9 @@
 {
   "id": "BH",
   "name": "Bahrain",
+  "aliases": [
+    "Kingdom of Bahrain"
+  ],
   "nativeName": "‏البحرين",
   "iso2": "BH",
   "iso3": "BHR",
@@ -29,15 +32,27 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Bahrein"
+      "name": "Bahrein",
+      "aliases": [
+        "Barein",
+        "Barém",
+        "Reino do Bahrein",
+        "Reino do Barém"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Barém"
+      "name": "Barém",
+      "aliases": [
+        "Bahrein"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Bahrein"
+      "name": "Bahrein",
+      "aliases": [
+        "Koninkrijk Bahrein"
+      ]
     },
     {
       "locale": "hr",
@@ -45,27 +60,47 @@
     },
     {
       "locale": "fa",
-      "name": "بحرین"
+      "name": "بحرین",
+      "aliases": [
+        "پادشاهی بحرین"
+      ]
     },
     {
       "locale": "de",
-      "name": "Bahrain"
+      "name": "Bahrain",
+      "aliases": [
+        "Königreich Bahrain"
+      ]
     },
     {
       "locale": "es",
-      "name": "Baréin"
+      "name": "Baréin",
+      "aliases": [
+        "Bahrain",
+        "Bahréin"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Bahreïn"
+      "name": "Bahreïn",
+      "aliases": [
+        "Royaume de Bahreïn"
+      ]
     },
     {
       "locale": "ja",
-      "name": "バーレーン"
+      "name": "バーレーン",
+      "aliases": [
+        "バーレーン王国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Bahrein"
+      "name": "Bahrein",
+      "aliases": [
+        "Bahrain",
+        "Regno del Bahrain"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -73,11 +108,17 @@
     },
     {
       "locale": "tr",
-      "name": "Bahreyn"
+      "name": "Bahreyn",
+      "aliases": [
+        "Bahreyn Krallığı"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Бахрейн"
+      "name": "Бахрейн",
+      "aliases": [
+        "Королевство Бахрейн"
+      ]
     },
     {
       "locale": "uk",

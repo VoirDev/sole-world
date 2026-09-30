@@ -1,6 +1,9 @@
 {
   "id": "AO",
   "name": "Angola",
+  "aliases": [
+    "Republic of Angola"
+  ],
   "nativeName": "Angola",
   "iso2": "AO",
   "iso3": "AGO",
@@ -37,7 +40,10 @@
     },
     {
       "locale": "nl",
-      "name": "Angola"
+      "name": "Angola",
+      "aliases": [
+        "Republiek Angola"
+      ]
     },
     {
       "locale": "hr",
@@ -49,11 +55,17 @@
     },
     {
       "locale": "de",
-      "name": "Angola"
+      "name": "Angola",
+      "aliases": [
+        "Republik Angola"
+      ]
     },
     {
       "locale": "es",
-      "name": "Angola"
+      "name": "Angola",
+      "aliases": [
+        "República de Angola"
+      ]
     },
     {
       "locale": "fr",
@@ -61,7 +73,10 @@
     },
     {
       "locale": "ja",
-      "name": "アンゴラ"
+      "name": "アンゴラ",
+      "aliases": [
+        "アンゴラ共和国"
+      ]
     },
     {
       "locale": "it",
@@ -69,7 +84,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "安哥拉"
+      "name": "安哥拉",
+      "aliases": [
+        "安哥拉共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -77,11 +95,17 @@
     },
     {
       "locale": "ru",
-      "name": "Ангола"
+      "name": "Ангола",
+      "aliases": [
+        "Республика Ангола"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Ангола"
+      "name": "Ангола",
+      "aliases": [
+        "Республіка Ангола"
+      ]
     },
     {
       "locale": "pl",

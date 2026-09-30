@@ -1,6 +1,9 @@
 {
   "id": "TF",
   "name": "French Southern Territories",
+  "aliases": [
+    "French Southern and Antarctic Lands"
+  ],
   "nativeName": "Territoire des Terres australes et antarctiques fr",
   "iso2": "TF",
   "iso3": "ATF",
@@ -25,67 +28,125 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "프랑스령 남방 및 남극"
+      "name": "프랑스령 남방 및 남극",
+      "aliases": [
+        "프랑스령 남방 지역",
+        "프랑스령 남방 및 남극 지역"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Terras Austrais e Antárticas Francesas"
+      "name": "Terras Austrais e Antárticas Francesas",
+      "aliases": [
+        "Territórios Franceses do Sul"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Terras Austrais e Antárticas Francesas"
+      "name": "Terras Austrais e Antárticas Francesas",
+      "aliases": [
+        "Territórios Austrais Franceses",
+        "Territórios Antárticos Franceses"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Franse Gebieden in de zuidelijke Indische Oceaan"
+      "name": "Franse Gebieden in de zuidelijke Indische Oceaan",
+      "aliases": [
+        "Franse Zuidelijke Gebieden",
+        "Franse Zuidelijke en Antarctische Gebieden",
+        "Franse Zuidelijke en Zuidpoolgebieden"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Francuski južni i antarktički teritoriji"
+      "name": "Francuski južni i antarktički teritoriji",
+      "aliases": [
+        "Francuski Južni Teritoriji"
+      ]
     },
     {
       "locale": "fa",
-      "name": "سرزمین‌های جنوبی فرانسه"
+      "name": "سرزمین‌های جنوبی فرانسه",
+      "aliases": [
+        "سرزمین های جنوبی و جنوبگانی فرانسه"
+      ]
     },
     {
       "locale": "de",
-      "name": "Französische Süd- und Antarktisgebiete"
+      "name": "Französische Süd- und Antarktisgebiete",
+      "aliases": [
+        "Französische Antarktisgebiete",
+        "Französische Südgebiete",
+        "Französische Südpolarterritorien"
+      ]
     },
     {
       "locale": "es",
-      "name": "Tierras Australes y Antárticas Francesas"
+      "name": "Tierras Australes y Antárticas Francesas",
+      "aliases": [
+        "Territorios Australes Franceses"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Terres australes et antarctiques françaises"
+      "name": "Terres australes et antarctiques françaises",
+      "aliases": [
+        "Terres australes françaises"
+      ]
     },
     {
       "locale": "ja",
-      "name": "フランス領南方・南極地域"
+      "name": "フランス領南方・南極地域",
+      "aliases": [
+        "仏領極南諸島",
+        "仏領南方・南極地域"
+      ]
     },
     {
       "locale": "it",
-      "name": "Terre Australi Francesi"
+      "name": "Terre Australi Francesi",
+      "aliases": [
+        "Terre Australi e Antartiche Francesi",
+        "Terre Meridionali e Antartiche Francesi",
+        "Territori Francesi del Sud",
+        "Territori Francesi Meridionali"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "法属南部领地"
+      "name": "法属南部领地",
+      "aliases": [
+        "法属南部和南极领地"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Fransız Güney Toprakları"
+      "name": "Fransız Güney Toprakları",
+      "aliases": [
+        "Fransız Güney ve Antarktika Toprakları"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Французские Южные территории"
+      "name": "Французские Южные территории",
+      "aliases": [
+        "Французские Южные и Антарктические территории"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Французькі південні території"
+      "name": "Французькі південні території",
+      "aliases": [
+        "Французькі Південні і Антарктичні території"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Francuskie terytoria południowe"
+      "name": "Francuskie terytoria południowe",
+      "aliases": [
+        "Francuskie Terytoria Południowe i Antarktyczne"
+      ]
     }
   ],
   "states": []

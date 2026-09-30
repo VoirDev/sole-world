@@ -1,6 +1,11 @@
 {
   "id": "CI",
   "name": "Côte d'Ivoire",
+  "aliases": [
+    "Ivory Coast",
+    "Republic of Cote d'Ivoire",
+    "Republic of the Ivory Coast"
+  ],
   "nativeName": "Côte d'Ivoire",
   "iso2": "CI",
   "iso3": "CIV",
@@ -25,67 +30,124 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "코트디부아르"
+      "name": "코트디부아르",
+      "aliases": [
+        "아이보리 코스트"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Costa do Marfim"
+      "name": "Costa do Marfim",
+      "aliases": [
+        "Côte d’Ivoire"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Costa do Marfim"
+      "name": "Costa do Marfim",
+      "aliases": [
+        "Côte d’Ivoire (Costa do Marfim)"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Ivoorkust"
+      "name": "Ivoorkust",
+      "aliases": [
+        "Côte d’Ivoire",
+        "Republiek Ivoorkust"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Obala Bjelokosti"
+      "name": "Obala Bjelokosti",
+      "aliases": [
+        "Bjelokosna Obala"
+      ]
     },
     {
       "locale": "fa",
-      "name": "ساحل عاج"
+      "name": "ساحل عاج",
+      "aliases": [
+        "ساحل‌عاج"
+      ]
     },
     {
       "locale": "de",
-      "name": "Elfenbeinküste"
+      "name": "Elfenbeinküste",
+      "aliases": [
+        "Côte d’Ivoire"
+      ]
     },
     {
       "locale": "es",
-      "name": "Costa de Marfil"
+      "name": "Costa de Marfil",
+      "aliases": [
+        "Côte d’Ivoire",
+        "República de Costa de Marfil"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Côte d'Ivoire"
+      "name": "Côte d'Ivoire",
+      "aliases": [
+        "République de Côte d’Ivoire"
+      ]
     },
     {
       "locale": "ja",
-      "name": "コートジボワール"
+      "name": "コートジボワール",
+      "aliases": [
+        "象牙海岸",
+        "コートジボアール",
+        "コートジボワール共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Costa d'Avorio"
+      "name": "Costa d'Avorio",
+      "aliases": [
+        "Côte d’Ivoire",
+        "Repubblica di Costa d'Avorio"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "科特迪瓦"
+      "name": "科特迪瓦",
+      "aliases": [
+        "象牙海岸",
+        "科特迪瓦共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Fildişi Sahili"
+      "name": "Fildişi Sahili",
+      "aliases": [
+        "Côte d’Ivoire",
+        "Kotdivuar"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Кот-д'Ивуар"
+      "name": "Кот-д'Ивуар",
+      "aliases": [
+        "Берег Слоновой Кости",
+        "Республика Кот-д’Ивуар"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Кот-д'Івуар"
+      "name": "Кот-д'Івуар",
+      "aliases": [
+        "Берег Слонової Кістки",
+        "Республіка Кот-д'Івуар"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Wybrzeże Kości Słoniowej"
+      "name": "Wybrzeże Kości Słoniowej",
+      "aliases": [
+        "Côte d’Ivoire"
+      ]
     }
   ],
   "states": [

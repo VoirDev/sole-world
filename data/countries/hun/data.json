@@ -1,6 +1,7 @@
 {
   "id": "HU",
   "name": "Hungary",
+  "aliases": [],
   "nativeName": "Magyarország",
   "iso2": "HU",
   "iso3": "HUN",
@@ -69,7 +70,10 @@
     },
     {
       "locale": "zh-CN",
-      "name": "匈牙利"
+      "name": "匈牙利",
+      "aliases": [
+        "匈牙利共和国"
+      ]
     },
     {
       "locale": "tr",

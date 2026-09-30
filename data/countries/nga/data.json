@@ -1,6 +1,9 @@
 {
   "id": "NG",
   "name": "Nigeria",
+  "aliases": [
+    "Federal Republic of Nigeria"
+  ],
   "nativeName": "Nigeria",
   "iso2": "NG",
   "iso3": "NGA",
@@ -33,15 +36,24 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Nigéria"
+      "name": "Nigéria",
+      "aliases": [
+        "República Federal da Nigéria"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Nigéria"
+      "name": "Nigéria",
+      "aliases": [
+        "República Federal da Nigéria"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Nigeria"
+      "name": "Nigeria",
+      "aliases": [
+        "Federale Republiek Nigeria"
+      ]
     },
     {
       "locale": "hr",
@@ -53,27 +65,46 @@
     },
     {
       "locale": "de",
-      "name": "Nigeria"
+      "name": "Nigeria",
+      "aliases": [
+        "Bundesrepublik Nigeria"
+      ]
     },
     {
       "locale": "es",
-      "name": "Nigeria"
+      "name": "Nigeria",
+      "aliases": [
+        "República Federal de Nigeria"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Nigeria"
+      "name": "Nigeria",
+      "aliases": [
+        "République fédérale du Nigeria",
+        "République fédérale nigériane"
+      ]
     },
     {
       "locale": "ja",
-      "name": "ナイジェリア"
+      "name": "ナイジェリア",
+      "aliases": [
+        "ナイジェリア連邦共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Nigeria"
+      "name": "Nigeria",
+      "aliases": [
+        "Repubblica Federale della Nigeria"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "尼日利亚"
+      "name": "尼日利亚",
+      "aliases": [
+        "尼日利亚联邦共和国"
+      ]
     },
     {
       "locale": "tr",
@@ -81,11 +112,17 @@
     },
     {
       "locale": "ru",
-      "name": "Нигерия"
+      "name": "Нигерия",
+      "aliases": [
+        "Федеративная Республика Нигерия"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Нігерія"
+      "name": "Нігерія",
+      "aliases": [
+        "Федеративна Республіка Нігерія"
+      ]
     },
     {
       "locale": "pl",

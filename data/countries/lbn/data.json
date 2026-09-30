@@ -1,6 +1,10 @@
 {
   "id": "LB",
   "name": "Lebanon",
+  "aliases": [
+    "Lebanese Republic",
+    "Republic of Lebanon"
+  ],
   "nativeName": "لبنان",
   "iso2": "LB",
   "iso3": "LBN",
@@ -31,15 +35,25 @@
     },
     {
       "locale": "pt-BR",
-      "name": "Líbano"
+      "name": "Líbano",
+      "aliases": [
+        "República do Líbano"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Líbano"
+      "name": "Líbano",
+      "aliases": [
+        "República do Líbano"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Libanon"
+      "name": "Libanon",
+      "aliases": [
+        "Libaneese Republiek",
+        "Republiek Libanon"
+      ]
     },
     {
       "locale": "hr",
@@ -51,23 +65,39 @@
     },
     {
       "locale": "de",
-      "name": "Libanon"
+      "name": "Libanon",
+      "aliases": [
+        "Libanesische Republik"
+      ]
     },
     {
       "locale": "es",
-      "name": "Líbano"
+      "name": "Líbano",
+      "aliases": [
+        "República Libanesa"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Liban"
+      "name": "Liban",
+      "aliases": [
+        "République libanaise"
+      ]
     },
     {
       "locale": "ja",
-      "name": "レバノン"
+      "name": "レバノン",
+      "aliases": [
+        "レバノン共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Libano"
+      "name": "Libano",
+      "aliases": [
+        "Repubblica del Libano",
+        "Repubblica Libanese"
+      ]
     },
     {
       "locale": "zh-CN",
@@ -75,11 +105,17 @@
     },
     {
       "locale": "tr",
-      "name": "Lübnan"
+      "name": "Lübnan",
+      "aliases": [
+        "Lübnan Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Ливан"
+      "name": "Ливан",
+      "aliases": [
+        "Ливанская Республика"
+      ]
     },
     {
       "locale": "uk",

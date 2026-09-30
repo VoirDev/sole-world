@@ -6,6 +6,7 @@ import kotlinx.serialization.Serializable
  * Country record read from an individual bundled country seed file.
  * @property id ISO 3166-1 alpha-2 code, such as `US`.
  * @property name Default country name.
+ * @property aliases Other English names the country is known by, such as `USA`.
  * @property nativeName Native-language country name, when available.
  * @property iso2 ISO 3166-1 alpha-2 country code.
  * @property iso3 ISO 3166-1 alpha-3 country code.
@@ -28,6 +29,7 @@ import kotlinx.serialization.Serializable
 data class CountryJSON(
     val id: String,
     val name: String,
+    val aliases: List<String>,
     val nativeName: String?,
     val iso2: String,
     val iso3: String,

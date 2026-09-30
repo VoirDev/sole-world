@@ -1,6 +1,11 @@
 {
   "id": "MX",
   "name": "Mexico",
+  "aliases": [
+    "United States of Mexico",
+    "United Mexican States",
+    "Mexican Republic"
+  ],
   "nativeName": "México",
   "iso2": "MX",
   "iso3": "MEX",
@@ -36,19 +41,32 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "멕시코"
+      "name": "멕시코",
+      "aliases": [
+        "멕시코 합중국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "México"
+      "name": "México",
+      "aliases": [
+        "Estados Unidos Mexicanos",
+        "República Mexicana"
+      ]
     },
     {
       "locale": "pt",
-      "name": "México"
+      "name": "México",
+      "aliases": [
+        "Estados Unidos Mexicanos"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Mexico"
+      "name": "Mexico",
+      "aliases": [
+        "Verenigde Mexicaanse Staten"
+      ]
     },
     {
       "locale": "hr",
@@ -56,43 +74,76 @@
     },
     {
       "locale": "fa",
-      "name": "مکزیک"
+      "name": "مکزیک",
+      "aliases": [
+        "مکسیکو"
+      ]
     },
     {
       "locale": "de",
-      "name": "Mexiko"
+      "name": "Mexiko",
+      "aliases": [
+        "Vereinigte Mexikanische Staaten"
+      ]
     },
     {
       "locale": "es",
-      "name": "México"
+      "name": "México",
+      "aliases": [
+        "Méjico",
+        "República Mexicana",
+        "Estados Unidos Mexicanos"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Mexique"
+      "name": "Mexique",
+      "aliases": [
+        "États-Unis du Mexique",
+        "États-Unis mexicains"
+      ]
     },
     {
       "locale": "ja",
-      "name": "メキシコ"
+      "name": "メキシコ",
+      "aliases": [
+        "メキシコ合衆国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Messico"
+      "name": "Messico",
+      "aliases": [
+        "Stati Uniti Messicani"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "墨西哥"
+      "name": "墨西哥",
+      "aliases": [
+        "墨西哥合众国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Meksika"
+      "name": "Meksika",
+      "aliases": [
+        "Birleşik Meksika Devletleri"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Мексика"
+      "name": "Мексика",
+      "aliases": [
+        "Мексиканские Соединённые Штаты"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Мексика"
+      "name": "Мексика",
+      "aliases": [
+        "Мексиканські Сполучені Штати"
+      ]
     },
     {
       "locale": "pl",

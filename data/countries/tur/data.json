@@ -1,6 +1,11 @@
 {
   "id": "TR",
   "name": "Türkiye",
+  "aliases": [
+    "Turkey",
+    "Republic of Turkey",
+    "Republic of Türkiye"
+  ],
   "nativeName": "Türkiye",
   "iso2": "TR",
   "iso3": "TUR",
@@ -25,63 +30,117 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "튀르키예"
+      "name": "튀르키예",
+      "aliases": [
+        "터키",
+        "터키 공화국",
+        "튀르키예 공화국"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Turquia"
+      "name": "Turquia",
+      "aliases": [
+        "República da Turquia"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Turquia"
+      "name": "Turquia",
+      "aliases": [
+        "Türkiye",
+        "República da Turquia"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Turkije"
+      "name": "Turkije",
+      "aliases": [
+        "Türkiye",
+        "Republiek Turkije"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Turska"
+      "name": "Turska",
+      "aliases": [
+        "Türkiye",
+        "Republika Turska"
+      ]
     },
     {
       "locale": "fa",
-      "name": "ترکیه"
+      "name": "ترکیه",
+      "aliases": [
+        "جمهوری ترکیه"
+      ]
     },
     {
       "locale": "de",
-      "name": "Türkei"
+      "name": "Türkei",
+      "aliases": [
+        "Republik Türkei"
+      ]
     },
     {
       "locale": "es",
-      "name": "Turquía"
+      "name": "Turquía",
+      "aliases": [
+        "República de Turquía"
+      ]
     },
     {
       "locale": "fr",
-      "name": "Turquie"
+      "name": "Turquie",
+      "aliases": [
+        "Türkiye",
+        "République de Turquie",
+        "République turque"
+      ]
     },
     {
       "locale": "ja",
-      "name": "トルコ"
+      "name": "トルコ",
+      "aliases": [
+        "テュルキエ",
+        "テュルキエ共和国",
+        "トルコ共和国"
+      ]
     },
     {
       "locale": "it",
-      "name": "Turchia"
+      "name": "Turchia",
+      "aliases": [
+        "Türkiye"
+      ]
     },
     {
       "locale": "zh-CN",
-      "name": "土耳其"
+      "name": "土耳其",
+      "aliases": [
+        "土耳其共和国"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Türkiye"
+      "name": "Türkiye",
+      "aliases": [
+        "Türkiye Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Турция"
+      "name": "Турция",
+      "aliases": [
+        "Турецкая Республика"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Туреччина"
+      "name": "Туреччина",
+      "aliases": [
+        "Турецька Республіка"
+      ]
     },
     {
       "locale": "pl",

@@ -1,6 +1,11 @@
 {
   "id": "TW",
   "name": "Taiwan",
+  "aliases": [
+    "ROC",
+    "Chinese Taipei",
+    "Republic of China"
+  ],
   "nativeName": "臺灣",
   "iso2": "TW",
   "iso3": "TWN",
@@ -25,23 +30,39 @@
   "translations": [
     {
       "locale": "ko",
-      "name": "대만"
+      "name": "대만",
+      "aliases": [
+        "중화민국",
+        "타이완"
+      ]
     },
     {
       "locale": "pt-BR",
-      "name": "Taiwan"
+      "name": "Taiwan",
+      "aliases": [
+        "República da China"
+      ]
     },
     {
       "locale": "pt",
-      "name": "Taiwan"
+      "name": "Taiwan",
+      "aliases": [
+        "República da China"
+      ]
     },
     {
       "locale": "nl",
-      "name": "Taiwan"
+      "name": "Taiwan",
+      "aliases": [
+        "Republiek China"
+      ]
     },
     {
       "locale": "hr",
-      "name": "Tajvan"
+      "name": "Tajvan",
+      "aliases": [
+        "Republika Kina"
+      ]
     },
     {
       "locale": "fa",
@@ -49,11 +70,18 @@
     },
     {
       "locale": "de",
-      "name": "Taiwan"
+      "name": "Taiwan",
+      "aliases": [
+        "Republik China",
+        "Republik China auf Taiwan"
+      ]
     },
     {
       "locale": "es",
-      "name": "Taiwán"
+      "name": "Taiwán",
+      "aliases": [
+        "República de China"
+      ]
     },
     {
       "locale": "fr",
@@ -61,7 +89,11 @@
     },
     {
       "locale": "ja",
-      "name": "台湾"
+      "name": "台湾",
+      "aliases": [
+        "中華民国",
+        "チャイニーズ・タイペイ"
+      ]
     },
     {
       "locale": "it",
@@ -69,23 +101,42 @@
     },
     {
       "locale": "zh-CN",
-      "name": "中国台湾"
+      "name": "中国台湾",
+      "aliases": [
+        "台湾",
+        "中华民国",
+        "中华台北"
+      ]
     },
     {
       "locale": "tr",
-      "name": "Tayvan"
+      "name": "Tayvan",
+      "aliases": [
+        "Çin Cumhuriyeti"
+      ]
     },
     {
       "locale": "ru",
-      "name": "Тайвань"
+      "name": "Тайвань",
+      "aliases": [
+        "Республика Китай",
+        "Китайский Тайбэй"
+      ]
     },
     {
       "locale": "uk",
-      "name": "Тайвань"
+      "name": "Тайвань",
+      "aliases": [
+        "Республіка Китай",
+        "Китайський Тайбей"
+      ]
     },
     {
       "locale": "pl",
-      "name": "Tajwan"
+      "name": "Tajwan",
+      "aliases": [
+        "Republika Chińska"
+      ]
     }
   ],
   "states": [
