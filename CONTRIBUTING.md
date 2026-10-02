@@ -122,7 +122,7 @@ Copy `.env.example` to `.env` first.
 ## Verification
 
 Every pull request into `main` runs **Verify**: `./gradlew build`, then a build of the image for
-both platforms. Adding `[skip verify]` to a pull request's description skips it, as a visible
+`linux/amd64`. Adding `[skip verify]` to a pull request's description skips it, as a visible
 decision for the reviewer to accept; removing it runs Verify again. A release pull request is always
 verified, whatever its description says.
 
@@ -134,8 +134,8 @@ it in its manifest, and the application logs it at startup. A release is a revie
 1. Run **Prepare Release** (Actions tab) from `main` with a `patch`, `minor` or `major` bump. It opens
    the `Release vX.Y.Z` pull request from `release/vX.Y.Z`, which changes only `VERSION`.
 2. That pull request is the release's only verification and build. Verify checks the whole
-   repository, and **Build release artifacts** builds the release image once, for `linux/amd64` and
-   `linux/arm64` with SBOM and provenance, gates it on Trivy finding no fixable critical
+   repository, and **Build release artifacts** builds the release image once, for `linux/amd64` with
+   SBOM and provenance, gates it on Trivy finding no fixable critical
    vulnerability, smoke-tests it as production runs it ([`api/smoke-test.sh`](api/smoke-test.sh)),
    and keeps it as an artifact of the run for 30 days. Nothing is pushed to a registry.
 3. Merging starts **Publish Release**. It checks that the merged commit holds exactly the files

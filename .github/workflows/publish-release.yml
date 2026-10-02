@@ -145,8 +145,8 @@ jobs:
           RUN_ID: ${{ needs.detect.outputs.verify_run_id }}
         run: gh run download "$RUN_ID" --repo "$GITHUB_REPOSITORY" --name release-image --dir release-image
 
-      # skopeo rather than docker load and push: the docker daemon cannot hold a multi-platform index, and skopeo
-      # copies the archive's bytes as they are. Both platforms, their SBOMs and provenance are copied as built; the
+      # skopeo rather than docker load and push: the docker daemon drops the image's attestations, and skopeo
+      # copies the archive's bytes as they are. The image, its SBOM and provenance are copied as built; the
       # registry must report the digest Verify built.
       - name: Push the release image unchanged
         env:
@@ -168,7 +168,7 @@ jobs:
       - name: Install cosign
         uses: sigstore/cosign-installer@v4.1.2
 
-      # Signs the index by digest, which covers every platform under it.
+      # Signs the index by digest, which covers the image and its attestations.
       - name: Sign the image
         run: cosign sign --yes "$IMAGE@$DIGEST"
 
@@ -228,7 +228,7 @@ jobs:
         run: |
           set -euo pipefail
           {
-            echo "Published image for linux/amd64 and linux/arm64, signed with cosign and carrying an SBOM and"
+            echo "Published image for linux/amd64, signed with cosign and carrying an SBOM and"
             echo "SLSA provenance. Deploy it by digest:"
             echo
             echo "- \`${IMAGE_REFERENCE%@*}:$VERSION@${IMAGE_REFERENCE#*@}\`"

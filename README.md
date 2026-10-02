@@ -16,8 +16,7 @@ image and is loaded into memory at startup, so `docker compose up` is the whole 
 - No database, no migrations and no volumes: the bundled dataset is read into memory at startup.
 - Relevance search that tolerates typos, accents and scripts, across every supported language.
 - API keys supplied through a single environment variable.
-- Docker image build support and a one-service Docker Compose setup, published for `linux/amd64` and
-  `linux/arm64`.
+- Docker image build support and a one-service Docker Compose setup, published for `linux/amd64`.
 - Apache 2.0 licensed source code.
 
 ## Data Notice
@@ -544,8 +543,7 @@ against a deployment that does not publish it.
 
 ### What the published image carries
 
-Every released image is built for `linux/amd64` and `linux/arm64`, and each architecture carries two
-attestations: an SPDX **SBOM** of everything inside it, and **SLSA provenance** recording what was
+Every released image is built for `linux/amd64` and carries two attestations: an SPDX **SBOM** of everything inside it, and **SLSA provenance** recording what was
 built, from which commit, by which workflow run. The image is built once, on the release pull
 request, and the bytes that were tested there are the bytes that are published. The manifest list
 is signed with cosign keyless signing, so the signature is bound to the one workflow that publishes

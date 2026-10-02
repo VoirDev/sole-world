@@ -55,22 +55,21 @@ jobs:
       - name: Build and check whole repository
         run: ./gradlew build --no-daemon
 
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@v4
-
       - name: Set up Docker Buildx
+        if: ${{ !startsWith(github.head_ref, 'release/v') }}
         uses: docker/setup-buildx-action@v4
 
       # The image is part of merge readiness: a bad layer path or a file that moved fails here, not
-      # at release. It is built for both published platforms and thrown away; the release image is
-      # built once, by Build release artifacts below.
+      # at release. It is built for the published platform and thrown away. A release pull request
+      # skips it: Build release artifacts builds the release image, once.
       - name: Build the API image
+        if: ${{ !startsWith(github.head_ref, 'release/v') }}
         uses: docker/build-push-action@v7
         with:
           context: .
           file: api/Dockerfile
           push: false
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64
           cache-from: type=gha,scope=sole-world-api
           cache-to: type=gha,mode=min,scope=sole-world-api
           outputs: type=cacheonly
@@ -101,18 +100,14 @@ jobs:
           fi
           echo "RELEASE_VERSION=$version" >> "$GITHUB_ENV"
 
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@v4
-
       - name: Set up Buildx
         id: buildx
         uses: docker/setup-buildx-action@v4
 
-      # The image Publish Release pushes unchanged once this pull request is merged: both platforms
-      # its audience runs (amd64 servers, and the Apple Silicon laptops the README's quick start
-      # targets), with SBOM and provenance, kept as an OCI archive in this run instead of a registry,
-      # so no pull request can write packages. An OCI archive, not a docker one: `docker save` cannot
-      # carry a multi-platform index or its attestations. Built without a cache, from this commit
+      # The image Publish Release pushes unchanged once this pull request is merged: linux/amd64, with
+      # SBOM and provenance, kept as an OCI archive in this run instead of a registry, so no pull
+      # request can write packages. An OCI archive, not a docker one: `docker save` cannot carry the
+      # image's attestations. Built without a cache, from this commit
       # alone. The revision is the release branch's commit, whose tree is the merged release's.
       - name: Build the release image
         env:
@@ -122,7 +117,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p release-image
-          docker buildx build --builder "$BUILDER" --platform linux/amd64,linux/arm64 \
+          docker buildx build --builder "$BUILDER" --platform linux/amd64 \
             --sbom=true --provenance=mode=max \
             --file api/Dockerfile --build-arg RELEASE_VERSION="$RELEASE_VERSION" \
             --label "org.opencontainers.image.source=$REPOSITORY_URL" \
@@ -144,16 +139,14 @@ jobs:
           layout="$RUNNER_TEMP/sole-world-api-oci"
           mkdir -p "$layout" "$RUNNER_TEMP/trivy-cache"
           tar -xf release-image/sole-world-api.oci.tar -C "$layout"
-          for platform in linux/amd64 linux/arm64; do
-            echo "::group::Vulnerabilities in $platform"
-            docker run --rm -v "$layout:/image:ro" -v "$RUNNER_TEMP/trivy-cache:/root/.cache/trivy" \
-              aquasec/trivy:latest image --input /image --platform "$platform" --scanners vuln \
-              --severity HIGH,MEDIUM,LOW --ignore-unfixed --no-progress
-            echo "::endgroup::"
-            docker run --rm -v "$layout:/image:ro" -v "$RUNNER_TEMP/trivy-cache:/root/.cache/trivy" \
-              aquasec/trivy:latest image --input /image --platform "$platform" --scanners vuln \
-              --severity CRITICAL --ignore-unfixed --exit-code 1 --no-progress
-          done
+          echo "::group::Vulnerabilities"
+          docker run --rm -v "$layout:/image:ro" -v "$RUNNER_TEMP/trivy-cache:/root/.cache/trivy" \
+            aquasec/trivy:latest image --input /image --platform linux/amd64 --scanners vuln \
+            --severity HIGH,MEDIUM,LOW --ignore-unfixed --no-progress
+          echo "::endgroup::"
+          docker run --rm -v "$layout:/image:ro" -v "$RUNNER_TEMP/trivy-cache:/root/.cache/trivy" \
+            aquasec/trivy:latest image --input /image --platform linux/amd64 --scanners vuln \
+            --severity CRITICAL --ignore-unfixed --exit-code 1 --no-progress
 
       # Tests the archived image itself, not a separate build.
       - name: Smoke-test the release image

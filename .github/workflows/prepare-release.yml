@@ -120,7 +120,7 @@ jobs:
           fi
 
           image="ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api"
-          body="Bumps Sole World to v$NEXT_VERSION. Verify builds and smoke-tests the release image on this pull request; merging publishes that image as $image:$NEXT_VERSION, for linux/amd64 and linux/arm64, after approval in the release environment."
+          body="Bumps Sole World to v$NEXT_VERSION. Verify builds and smoke-tests the release image on this pull request; merging publishes that image as $image:$NEXT_VERSION, for linux/amd64, after approval in the release environment."
           existing="$(gh pr list --head "$RELEASE_BRANCH" --base "$GITHUB_REF_NAME" --state open --json url --jq '.[0].url')"
           if [ -n "$existing" ]; then
             echo "Release PR already exists: $existing"
