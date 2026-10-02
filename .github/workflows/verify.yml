@@ -1,27 +1,34 @@
 name: Verify
 
+# Pull requests only. main is known-good because its protection requires these checks on a branch
+# that is up to date before merging, so every merged commit holds a tree that was verified here.
 on:
   pull_request:
     branches:
       - main
-  # Also on push, so that main is known-good on its own rather than only at the moment each pull
-  # request was merged. Two changes that each pass alone can still break together.
-  push:
-    branches:
-      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - edited
 
 permissions:
   contents: read
 
 concurrency:
-  group: verify-${{ github.workflow }}-${{ github.ref }}
+  group: verify-${{ github.workflow }}-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
-  build:
+  verify:
     name: Build and check whole repository
+    # A release PR is always verified: Publish Release does not verify the merged commit again.
+    if: >-
+      startsWith(github.event.pull_request.head.ref, 'release/v') ||
+      !contains(github.event.pull_request.body || '', '[skip verify]')
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' || !contains(github.event.pull_request.body || '', '[skip verify]') }}
+    timeout-minutes: 45
+
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -48,21 +55,16 @@ jobs:
       - name: Build and check whole repository
         run: ./gradlew build --no-daemon
 
-  image:
-    name: Build the image
-    runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' || !contains(github.event.pull_request.body || '', '[skip verify]') }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v7
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v4
 
-      # Nothing built the Dockerfile outside a release, so a broken image -- a bad layer path, a
-      # file that moved -- was only discovered while trying to cut one. This builds it and throws it
-      # away; the release pipeline is still what produces the artifact that gets published.
-      - name: Build API image
+      # The image is part of merge readiness: a bad layer path or a file that moved fails here, not
+      # at release. It is built for both published platforms and thrown away; the release image is
+      # built once, by Build release artifacts below.
+      - name: Build the API image
         uses: docker/build-push-action@v7
         with:
           context: .
@@ -72,3 +74,105 @@ jobs:
           cache-from: type=gha,scope=sole-world-api
           cache-to: type=gha,mode=min,scope=sole-world-api
           outputs: type=cacheonly
+
+  release-artifacts:
+    name: Build release artifacts
+    needs: verify
+    if: >-
+      startsWith(github.event.pull_request.head.ref, 'release/v') &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Read release version
+        env:
+          # Passed through the environment: a branch name is author-controlled text, never script.
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          set -euo pipefail
+          version="$(tr -d '[:space:]' < VERSION)"
+          if [[ ! "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || [ "release/v$version" != "$HEAD_REF" ]; then
+            echo "VERSION '$version' does not match branch $HEAD_REF." >&2
+            exit 1
+          fi
+          echo "RELEASE_VERSION=$version" >> "$GITHUB_ENV"
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v4
+
+      - name: Set up Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v4
+
+      # The image Publish Release pushes unchanged once this pull request is merged: both platforms
+      # its audience runs (amd64 servers, and the Apple Silicon laptops the README's quick start
+      # targets), with SBOM and provenance, kept as an OCI archive in this run instead of a registry,
+      # so no pull request can write packages. An OCI archive, not a docker one: `docker save` cannot
+      # carry a multi-platform index or its attestations. Built without a cache, from this commit
+      # alone. The revision is the release branch's commit, whose tree is the merged release's.
+      - name: Build the release image
+        env:
+          BUILDER: ${{ steps.buildx.outputs.name }}
+          REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
+          REVISION: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          mkdir -p release-image
+          docker buildx build --builder "$BUILDER" --platform linux/amd64,linux/arm64 \
+            --sbom=true --provenance=mode=max \
+            --file api/Dockerfile --build-arg RELEASE_VERSION="$RELEASE_VERSION" \
+            --label "org.opencontainers.image.source=$REPOSITORY_URL" \
+            --label "org.opencontainers.image.revision=$REVISION" \
+            --label "org.opencontainers.image.version=$RELEASE_VERSION" \
+            --metadata-file release-image/metadata.json \
+            --output type=oci,dest=release-image/sole-world-api.oci.tar .
+          jq -er '."containerimage.digest"' release-image/metadata.json > release-image/digest
+          echo "Built sole-world-api $RELEASE_VERSION as $(cat release-image/digest)."
+
+      # A release is gated on the image being free of known critical vulnerabilities with a fix
+      # available. Lower severities are reported rather than blocking: base-image advisories appear
+      # and are fixed continuously, and a release that cannot go out because one landed that morning
+      # is a release process that gets bypassed.
+      - name: Scan the release image
+        run: |
+          set -euo pipefail
+          # Trivy reads an OCI layout directory rather than the archive itself.
+          layout="$RUNNER_TEMP/sole-world-api-oci"
+          mkdir -p "$layout" "$RUNNER_TEMP/trivy-cache"
+          tar -xf release-image/sole-world-api.oci.tar -C "$layout"
+          for platform in linux/amd64 linux/arm64; do
+            echo "::group::Vulnerabilities in $platform"
+            docker run --rm -v "$layout:/image:ro" -v "$RUNNER_TEMP/trivy-cache:/root/.cache/trivy" \
+              aquasec/trivy:latest image --input /image --platform "$platform" --scanners vuln \
+              --severity HIGH,MEDIUM,LOW --ignore-unfixed --no-progress
+            echo "::endgroup::"
+            docker run --rm -v "$layout:/image:ro" -v "$RUNNER_TEMP/trivy-cache:/root/.cache/trivy" \
+              aquasec/trivy:latest image --input /image --platform "$platform" --scanners vuln \
+              --severity CRITICAL --ignore-unfixed --exit-code 1 --no-progress
+          done
+
+      # Tests the archived image itself, not a separate build.
+      - name: Smoke-test the release image
+        run: |
+          set -euo pipefail
+          skopeo copy --override-os linux --override-arch amd64 \
+            oci-archive:release-image/sole-world-api.oci.tar "docker-daemon:local/sole-world-api:$RELEASE_VERSION"
+          api/smoke-test.sh "local/sole-world-api:$RELEASE_VERSION" "$RELEASE_VERSION"
+
+      # Publish Release downloads it from this run. An expired artifact is rebuilt by re-running this
+      # workflow on the release pull request.
+      - name: Keep the release image for publication
+        uses: actions/upload-artifact@v7
+        with:
+          name: release-image
+          path: |
+            release-image/sole-world-api.oci.tar
+            release-image/digest
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0
+          overwrite: true

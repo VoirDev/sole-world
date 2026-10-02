@@ -6,11 +6,12 @@
 # emulation for each architecture the image is published for.
 FROM --platform=$BUILDPLATFORM gradle:9.7.1-jdk21 AS build
 WORKDIR /workspace
+# Empty builds the version in VERSION. Release builds pass that same value explicitly.
 ARG RELEASE_VERSION
 
 COPY gradle gradle
 COPY gradlew gradlew
-COPY settings.gradle.kts build.gradle.kts gradle.properties ./
+COPY settings.gradle.kts build.gradle.kts gradle.properties VERSION ./
 COPY api/build.gradle.kts api/build.gradle.kts
 
 RUN --mount=type=cache,target=/home/gradle/.gradle \

@@ -1,0 +1,256 @@
+name: Publish Release
+
+# Publishes a release once its pull request is merged. Nothing is verified or built here: Verify checked the release
+# pull request and built its image, and this workflow pushes that image unchanged, signs it, then tags the release.
+#
+# It runs on the push to main that changes VERSION, not on the pull request event: the image is signed with this
+# workflow's GitHub identity, and only a run on main carries the identity publish-release.yml@refs/heads/main that
+# finalize and operators verify. A workflow run for a pull request carries a refs/pull/... identity that an edited copy
+# of this file in any branch could also obtain.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - VERSION
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-release
+  cancel-in-progress: false
+
+jobs:
+  detect:
+    name: Detect release
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pull-requests: read
+      actions: read
+    outputs:
+      version: ${{ steps.release.outputs.version }}
+      tag: ${{ steps.release.outputs.tag }}
+      should_publish: ${{ steps.release.outputs.should_publish }}
+      verify_run_id: ${{ steps.image.outputs.verify_run_id }}
+
+    steps:
+      - name: Checkout pushed commit
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+
+      - name: Resolve release
+        id: release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          version="$(tr -d '[:space:]' < VERSION)"
+          if [[ ! "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "VERSION '$version' is not a semantic version." >&2
+            exit 1
+          fi
+          # A release commit is the merge of release/vX.Y.Z; any other change of VERSION publishes nothing.
+          pull="$(gh api "repos/$GITHUB_REPOSITORY/commits/$GITHUB_SHA/pulls" --jq "[.[] | select(.merged_at != null
+            and .head.ref == \"release/v$version\" and .head.repo.full_name == \"$GITHUB_REPOSITORY\")] | first
+            | select(. != null) | \"\\(.number) \\(.head.sha)\"")"
+          if [ -z "$pull" ]; then
+            echo "$GITHUB_SHA is not the merge of release/v$version." >&2
+            exit 1
+          fi
+          read -r number head_sha <<<"$pull"
+          {
+            echo "version=$version"
+            echo "tag=v$version"
+            echo "pull_number=$number"
+            echo "head_sha=$head_sha"
+          } >> "$GITHUB_OUTPUT"
+          # Complete only with both the tag and the GitHub Release; a rerun finishes a partial release.
+          if git ls-remote --exit-code --tags origin "refs/tags/v$version" >/dev/null \
+            && gh release view "v$version" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "v$version is already released."
+            echo "should_publish=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_publish=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # The image to publish is the one Verify built on the release pull request. It is the release only when the merged
+      # commit holds exactly the files Verify checked, which main's protection (checks required on an up-to-date branch)
+      # guarantees and this step confirms. Trees, not commits: a squash merge is a commit nothing built.
+      - name: Find the verified release image
+        id: image
+        if: steps.release.outputs.should_publish == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.release.outputs.version }}
+          PULL_NUMBER: ${{ steps.release.outputs.pull_number }}
+          HEAD_SHA: ${{ steps.release.outputs.head_sha }}
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin "refs/pull/$PULL_NUMBER/head"
+          if [ "$(git rev-parse "$HEAD_SHA^{tree}")" != "$(git rev-parse "$GITHUB_SHA^{tree}")" ]; then
+            echo "The merged commit differs from the release branch's $HEAD_SHA that Verify checked." >&2
+            exit 1
+          fi
+          run_id="$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/verify.yml/runs?event=pull_request&status=success&head_sha=$HEAD_SHA&per_page=100" \
+            --jq "[.workflow_runs[] | select(.head_branch == \"release/v$VERSION\"
+              and .head_repository.full_name == \"$GITHUB_REPOSITORY\")] | max_by(.run_started_at) | .id // empty")"
+          if [ -z "$run_id" ] || ! gh api "repos/$GITHUB_REPOSITORY/actions/runs/$run_id/artifacts" \
+            --jq '.artifacts[] | select(.name == "release-image" and (.expired | not)) | .id' | grep -q .; then
+            echo "No successful Verify run of $HEAD_SHA holds the release image; re-run Verify on pull request #$PULL_NUMBER." >&2
+            exit 1
+          fi
+          echo "Publishing the release image of Verify run $run_id."
+          echo "verify_run_id=$run_id" >> "$GITHUB_OUTPUT"
+
+  approval:
+    name: Release approval
+    needs: detect
+    if: needs.detect.outputs.should_publish == 'true'
+    runs-on: ubuntu-latest
+    # Counts once approved; the wait for a reviewer is bounded by the environment, not by this.
+    timeout-minutes: 5
+    environment: release
+
+    steps:
+      - name: Approved
+        env:
+          VERSION: ${{ needs.detect.outputs.version }}
+        run: echo "Release v$VERSION approved."
+
+  publish-image:
+    name: Publish sole-world-api
+    needs:
+      - detect
+      - approval
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      actions: read
+      packages: write
+      # Keyless cosign signing with this job's GitHub OIDC identity.
+      id-token: write
+
+    steps:
+      - name: Resolve image name
+        run: echo "IMAGE=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api" >> "$GITHUB_ENV"
+
+      - name: Download the verified release image
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ needs.detect.outputs.verify_run_id }}
+        run: gh run download "$RUN_ID" --repo "$GITHUB_REPOSITORY" --name release-image --dir release-image
+
+      # skopeo rather than docker load and push: the docker daemon cannot hold a multi-platform index, and skopeo
+      # copies the archive's bytes as they are. Both platforms, their SBOMs and provenance are copied as built; the
+      # registry must report the digest Verify built.
+      - name: Push the release image unchanged
+        env:
+          VERSION: ${{ needs.detect.outputs.version }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          digest="$(cat release-image/digest)"
+          skopeo login ghcr.io --username "$GITHUB_ACTOR" --password-stdin <<<"$GH_TOKEN"
+          skopeo copy --all --preserve-digests \
+            oci-archive:release-image/sole-world-api.oci.tar "docker://$IMAGE:$VERSION"
+          pushed="sha256:$(skopeo inspect --raw "docker://$IMAGE:$VERSION" | sha256sum | cut -d' ' -f1)"
+          if [ "$pushed" != "$digest" ]; then
+            echo "$IMAGE:$VERSION is $pushed, not the verified $digest." >&2
+            exit 1
+          fi
+          echo "DIGEST=$digest" >> "$GITHUB_ENV"
+
+      - name: Install cosign
+        uses: sigstore/cosign-installer@v4.1.2
+
+      # Signs the index by digest, which covers every platform under it.
+      - name: Sign the image
+        run: cosign sign --yes "$IMAGE@$DIGEST"
+
+  finalize:
+    name: Create tag and GitHub Release
+    needs:
+      - detect
+      - publish-image
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      # Moves the floating latest tag once the image is verified.
+      packages: write
+
+    steps:
+      - name: Checkout pushed commit
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+
+      - name: Sign in to GitHub Container Registry
+        uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
+
+      - name: Install cosign
+        uses: sigstore/cosign-installer@v4.1.2
+
+      # The tag marks a complete release, so the image must exist and carry this workflow's signature first.
+      - name: Verify the signed image
+        env:
+          VERSION: ${{ needs.detect.outputs.version }}
+          IDENTITY: https://github.com/${{ github.repository }}/.github/workflows/publish-release.yml@refs/heads/main
+        run: |
+          set -euo pipefail
+          image="ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api"
+          digest="$(docker buildx imagetools inspect "$image:$VERSION" --format '{{json .Manifest}}' | jq -er '.digest')"
+          cosign verify "$image@$digest" --certificate-identity "$IDENTITY" \
+            --certificate-oidc-issuer https://token.actions.githubusercontent.com >/dev/null
+          echo "IMAGE_REFERENCE=$image@$digest" >> "$GITHUB_ENV"
+
+      # docker-compose.yml and .env.example default to latest, so it moves only after the release is verified.
+      - name: Point latest at the release
+        run: docker buildx imagetools create --tag "${IMAGE_REFERENCE%@*}:latest" "$IMAGE_REFERENCE"
+
+      - name: Create tag and GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ needs.detect.outputs.tag }}
+          VERSION: ${{ needs.detect.outputs.version }}
+          SHA: ${{ github.sha }}
+          IDENTITY: https://github.com/${{ github.repository }}/.github/workflows/publish-release.yml@refs/heads/main
+        run: |
+          set -euo pipefail
+          {
+            echo "Published image for linux/amd64 and linux/arm64, signed with cosign and carrying an SBOM and"
+            echo "SLSA provenance. Deploy it by digest:"
+            echo
+            echo "- \`${IMAGE_REFERENCE%@*}:$VERSION@${IMAGE_REFERENCE#*@}\`"
+            echo
+            echo "Verify the image before deploying it:"
+            echo
+            echo '```bash'
+            echo "cosign verify ${IMAGE_REFERENCE} \\"
+            echo "  --certificate-identity $IDENTITY \\"
+            echo "  --certificate-oidc-issuer https://token.actions.githubusercontent.com"
+            echo '```'
+          } > artifacts.md
+          if git ls-remote --exit-code --tags origin "refs/tags/$TAG" >/dev/null; then
+            git fetch origin "refs/tags/$TAG:refs/tags/$TAG"
+            if [ "$(git rev-list -n 1 "$TAG")" != "$SHA" ]; then
+              echo "$TAG exists but does not point to $SHA." >&2
+              exit 1
+            fi
+          else
+            git tag "$TAG" "$SHA"
+            git push origin "$TAG"
+          fi
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --verify-tag --title "$TAG" --generate-notes --notes-file artifacts.md
+          fi
