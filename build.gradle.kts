@@ -10,14 +10,21 @@ plugins {
     alias(libs.plugins.openapi.generator) apply false
 }
 
-val projectVersion = providers.gradleProperty("releaseVersion").orElse("1.0.4").get()
+// VERSION is the one place the release version lives: Prepare Release bumps it, and Publish Release
+// publishes on a change to it. `-PreleaseVersion` overrides it for a one-off local build only.
+val projectVersion = providers.gradleProperty("releaseVersion")
+    .orElse(providers.fileContents(layout.projectDirectory.file("VERSION")).asText.map { it.trim() })
+    .get()
 
 group = "dev.voir.sole.world"
 version = projectVersion
 
 subprojects {
-    apply(plugin = "org.jlleitschuh.gradle.ktlint")
+    // Every project carries the release version, so the API jar's manifest records it
+    // (Implementation-Version) and the application logs it at startup.
+    version = rootProject.version
 
+    apply(plugin = "org.jlleitschuh.gradle.ktlint")
 
     plugins.withId("org.jetbrains.kotlin.jvm") {
         extensions.configure<org.jetbrains.kotlin.gradle.dsl.KotlinJvmProjectExtension> {

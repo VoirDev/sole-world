@@ -104,6 +104,14 @@ val vendorConsoleAssets = tasks.register<VendorConsoleAssets>("vendorConsoleAsse
 // default split puts this project's classes and the 40 MB bundled dataset in one layer, so a
 // one-line code change reships the dataset too. The dataset gets a layer of its own.
 tasks.bootJar {
+    // A fixed name, so api/Dockerfile finds the jar whatever the version; the version is recorded in
+    // the jar's manifest instead. Spring Boot would add it on its own, but not as a task input, so a
+    // release that changes only VERSION would reuse a cached jar naming the previous one.
+    archiveFileName = "api.jar"
+    manifest {
+        attributes("Implementation-Version" to project.version)
+    }
+
     layered {
         application {
             intoLayer("spring-boot-loader") { include("org/springframework/boot/loader/**") }

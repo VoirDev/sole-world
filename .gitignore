@@ -21,3 +21,5 @@ node_modules/
 /exports
 /pgdata
 application-local.yml
+# The release image Verify builds and keeps; never committed.
+release-image/

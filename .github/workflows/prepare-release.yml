@@ -1,0 +1,130 @@
+name: Prepare Release
+
+# Opens the release pull request: bumps VERSION on release/vX.Y.Z. Verify checks that pull request and
+# builds the release image; merging it starts Publish Release. This repository has no versioned
+# deployment manifests, so there is no update_deployment_versions input.
+on:
+  workflow_dispatch:
+    inputs:
+      release_type:
+        description: Version bump type
+        required: true
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+
+permissions:
+  contents: read
+
+concurrency:
+  group: prepare-release-${{ github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    name: Prepare release PR
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      # Not the workflow's own GITHUB_TOKEN: a pull request it opened would not start Verify, which
+      # checks the release and builds its image.
+      - name: Validate source branch and release configuration
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          RELEASE_BOT_TOKEN: ${{ secrets.RELEASE_BOT_TOKEN }}
+          RELEASE_BOT_NAME: ${{ vars.RELEASE_BOT_NAME }}
+          RELEASE_BOT_EMAIL: ${{ vars.RELEASE_BOT_EMAIL }}
+        run: |
+          set -euo pipefail
+          if [ "$GITHUB_REF_NAME" != "$DEFAULT_BRANCH" ]; then
+            echo "Prepare Release must run from the default branch." >&2
+            exit 1
+          fi
+          if [ -z "$RELEASE_BOT_TOKEN" ] || [ -z "$RELEASE_BOT_NAME" ] || [ -z "$RELEASE_BOT_EMAIL" ]; then
+            echo "The RELEASE_BOT_TOKEN secret and RELEASE_BOT_NAME and RELEASE_BOT_EMAIL variables are required." >&2
+            exit 1
+          fi
+
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.RELEASE_BOT_TOKEN }}
+
+      - name: Resolve and apply release version
+        env:
+          RELEASE_TYPE: ${{ inputs.release_type }}
+        run: |
+          set -euo pipefail
+          current="$(tr -d '[:space:]' < VERSION)"
+          if [[ ! "$current" =~ ^([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+            echo "VERSION must be a semantic version X.Y.Z, got '$current'." >&2
+            exit 1
+          fi
+          major="${BASH_REMATCH[1]}" minor="${BASH_REMATCH[2]}" patch="${BASH_REMATCH[3]}"
+          case "$RELEASE_TYPE" in
+            major) next="$((major + 1)).0.0" ;;
+            minor) next="$major.$((minor + 1)).0" ;;
+            patch) next="$major.$minor.$((patch + 1))" ;;
+            *)
+              echo "Unknown release type '$RELEASE_TYPE'." >&2
+              exit 1
+              ;;
+          esac
+          if git rev-parse -q --verify "refs/tags/v$next" >/dev/null; then
+            echo "Tag v$next already exists." >&2
+            exit 1
+          fi
+          printf '%s\n' "$next" > VERSION
+          echo "NEXT_VERSION=$next" >> "$GITHUB_ENV"
+          echo "RELEASE_BRANCH=release/v$next" >> "$GITHUB_ENV"
+
+      - name: Validate release changes
+        run: |
+          set -euo pipefail
+          git diff --check
+          git diff --stat
+          if [ "$(git diff --name-only)" != "VERSION" ]; then
+            echo "Expected only VERSION to change." >&2
+            exit 1
+          fi
+
+      - name: Create or update release pull request
+        env:
+          GH_TOKEN: ${{ secrets.RELEASE_BOT_TOKEN }}
+          RELEASE_BOT_NAME: ${{ vars.RELEASE_BOT_NAME }}
+          RELEASE_BOT_EMAIL: ${{ vars.RELEASE_BOT_EMAIL }}
+        run: |
+          set -euo pipefail
+          git config user.name "$RELEASE_BOT_NAME"
+          git config user.email "$RELEASE_BOT_EMAIL"
+          git checkout -B "$RELEASE_BRANCH"
+          git add VERSION
+          git commit -m "Prepare release v$NEXT_VERSION"
+
+          # Rerunnable: an existing release branch is reused only when it holds exactly this change.
+          if git ls-remote --exit-code --heads origin "$RELEASE_BRANCH" >/dev/null; then
+            git fetch origin "$RELEASE_BRANCH"
+            if ! git diff --quiet "origin/$RELEASE_BRANCH" HEAD; then
+              echo "origin/$RELEASE_BRANCH already exists with different content; resolve it manually." >&2
+              exit 1
+            fi
+          else
+            git push origin "$RELEASE_BRANCH"
+          fi
+
+          image="ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/sole-world-api"
+          body="Bumps Sole World to v$NEXT_VERSION. Verify builds and smoke-tests the release image on this pull request; merging publishes that image as $image:$NEXT_VERSION, for linux/amd64, after approval in the release environment."
+          existing="$(gh pr list --head "$RELEASE_BRANCH" --base "$GITHUB_REF_NAME" --state open --json url --jq '.[0].url')"
+          if [ -n "$existing" ]; then
+            echo "Release PR already exists: $existing"
+          else
+            gh pr create --base "$GITHUB_REF_NAME" --head "$RELEASE_BRANCH" \
+              --title "Release v$NEXT_VERSION" --body "$body"
+          fi

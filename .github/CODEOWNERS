@@ -1,0 +1,5 @@
+# Release managers approve every change that decides what a release is and how it is built and
+# published. Merging into main is limited to them by the repository rulesets as well.
+/VERSION                           @VoirDev/release-managers
+/.github/                          @VoirDev/release-managers
+/api/smoke-test.sh                 @VoirDev/release-managers

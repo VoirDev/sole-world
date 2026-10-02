@@ -30,3 +30,6 @@ asset-tools/node_modules
 # Documentation, which the image does not serve. The OpenAPI contract is under api/ and is copied.
 *.md
 LICENSE
+
+# The release image archive Verify writes next to the build context.
+release-image
