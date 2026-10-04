@@ -119,6 +119,38 @@ Copy `.env.example` to `.env` first.
 - **In keeping.** Match the surrounding code: KDoc on public declarations, comments that say why
   rather than what, and no trailing whitespace.
 
+## Verification
+
+Every pull request into `main` runs **Verify**: `./gradlew build`, then a build of the image for
+`linux/amd64`. Adding `[skip verify]` to a pull request's description skips it, as a visible
+decision for the reviewer to accept; removing it runs Verify again. A release pull request is always
+verified, whatever its description says.
+
+## Releasing
+
+The version lives in one place, the [`VERSION`](VERSION) file. Gradle reads it, the API jar records
+it in its manifest, and the application logs it at startup. A release is a reviewed change to it:
+
+1. Run **Prepare Release** (Actions tab) from `main` with a `patch`, `minor` or `major` bump. It opens
+   the `Release vX.Y.Z` pull request from `release/vX.Y.Z`, which changes only `VERSION`.
+2. That pull request is the release's only verification and build. Verify checks the whole
+   repository, and **Build release artifacts** builds the release image once, for `linux/amd64` with
+   SBOM and provenance, gates it on Trivy finding no fixable critical
+   vulnerability, smoke-tests it as production runs it ([`api/smoke-test.sh`](api/smoke-test.sh)),
+   and keeps it as an artifact of the run for 30 days. Nothing is pushed to a registry.
+3. Merging starts **Publish Release**. It checks that the merged commit holds exactly the files
+   Verify checked, waits for approval in the `release` environment, pushes that image unchanged to
+   `ghcr.io/voirdev/sole-world-api:X.Y.Z` and signs it, verifies the signature, moves `latest`, and
+   only then creates the `vX.Y.Z` tag and the GitHub Release. It verifies and builds nothing. If the
+   image artifact has expired, re-run Verify on the release pull request, then re-run Publish
+   Release. Every step can be rerun after a failure; a release is complete only once both the tag
+   and the GitHub Release exist.
+
+The repository needs the `RELEASE_BOT_TOKEN` secret, the `RELEASE_BOT_NAME` and `RELEASE_BOT_EMAIL`
+variables, and a `release` environment with required reviewers. Branch protection of `main` must
+require branches to be up to date and the checks `Build and check whole repository` and
+`Build release artifacts`.
+
 ## Reporting a security problem
 
 Do not open a public issue. See [SECURITY.md](SECURITY.md).

@@ -16,8 +16,7 @@ image and is loaded into memory at startup, so `docker compose up` is the whole 
 - No database, no migrations and no volumes: the bundled dataset is read into memory at startup.
 - Relevance search that tolerates typos, accents and scripts, across every supported language.
 - API keys supplied through a single environment variable.
-- Docker image build support and a one-service Docker Compose setup, published for `linux/amd64` and
-  `linux/arm64`.
+- Docker image build support and a one-service Docker Compose setup, published for `linux/amd64`.
 - Apache 2.0 licensed source code.
 
 ## Data Notice
@@ -46,6 +45,7 @@ assets/        Static media assets served by the API
 asset-tools/   Scripts for generating media asset metadata
 data/          Source JSON datasets loaded into memory at startup
 gradle/        Gradle wrapper and version catalog
+VERSION        The release version, read by the build
 ```
 
 Inside `api/`, code is organized by feature. Each feature owns its in-memory read model, its GraphQL
@@ -463,7 +463,8 @@ and media assets, so nothing else is needed:
 docker build -f api/Dockerfile -t sole-world-api:local .
 ```
 
-Optionally stamp a release version into the build:
+The application takes its version from the [`VERSION`](VERSION) file, records it in the jar's
+manifest and logs it at startup. To stamp a different version into a one-off build:
 
 ```bash
 docker build \
@@ -542,17 +543,21 @@ against a deployment that does not publish it.
 
 ### What the published image carries
 
-Every released image is built for `linux/amd64` and `linux/arm64`, and each architecture carries two
-attestations: an SPDX **SBOM** of everything inside it, and **SLSA provenance** recording what was
-built, from which commit, by which workflow run. The manifest list is signed with cosign keyless
-signing, so the signature is bound to this repository's workflow identity rather than to a key
-someone has to be told to trust:
+Every released image is built for `linux/amd64` and carries two attestations: an SPDX **SBOM** of everything inside it, and **SLSA provenance** recording what was
+built, from which commit, by which workflow run. The image is built once, on the release pull
+request, and the bytes that were tested there are the bytes that are published. The manifest list
+is signed with cosign keyless signing, so the signature is bound to the one workflow that publishes
+releases, on `main`, rather than to a key someone has to be told to trust:
 
 ```bash
-cosign verify ghcr.io/voirdev/sole-world-api:1.0.1 \
-  --certificate-identity-regexp '^https://github.com/voirdev/sole-world/' \
+cosign verify ghcr.io/voirdev/sole-world-api:<version> \
+  --certificate-identity https://github.com/VoirDev/sole-world/.github/workflows/publish-release.yml@refs/heads/main \
   --certificate-oidc-issuer https://token.actions.githubusercontent.com
 ```
+
+Releases up to 1.0.4 were signed by the former `release.yml` workflow; verify those with
+`--certificate-identity-regexp '^https://github\.com/VoirDev/sole-world/\.github/workflows/release\.yml@'`
+in place of `--certificate-identity`.
 
 A release is gated on the image carrying no known **critical** vulnerability that has a fix
 available, on either architecture. Lower severities are reported in the workflow log rather than
@@ -826,7 +831,8 @@ Found a security problem? Do not open a public issue — [SECURITY.md](SECURITY.
 reporting channel and what is in scope.
 
 Each release's notes are generated from the commits since the previous tag, on the
-[Releases page](https://github.com/VoirDev/sole-world/releases).
+[Releases page](https://github.com/VoirDev/sole-world/releases). How a release is made is in
+[CONTRIBUTING.md](CONTRIBUTING.md#releasing).
 
 ## License
 
