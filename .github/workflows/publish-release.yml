@@ -59,8 +59,9 @@ jobs:
             and .head.ref == \"release/v$version\" and .head.repo.full_name == \"$GITHUB_REPOSITORY\")] | first
             | select(. != null) | \"\\(.number) \\(.head.sha)\"")"
           if [ -z "$pull" ]; then
-            echo "$GITHUB_SHA is not the merge of release/v$version." >&2
-            exit 1
+            echo "::notice::$GITHUB_SHA is not the merge of release/v$version; nothing to publish."
+            echo "should_publish=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
           read -r number head_sha <<<"$pull"
           {
