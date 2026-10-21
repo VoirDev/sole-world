@@ -235,7 +235,7 @@ jobs:
         run: |
           set -euo pipefail
           {
-            echo "Published image for linux/amd64, signed with cosign and carrying an SBOM and"
+            echo "Published image for linux/amd64 and linux/arm64, signed with cosign and carrying an SBOM and"
             echo "SLSA provenance. Deploy it by digest:"
             echo
             echo "- \`${IMAGE_REFERENCE%@*}:$VERSION@${IMAGE_REFERENCE#*@}\`"

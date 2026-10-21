@@ -1,7 +1,9 @@
 # syntax=docker/dockerfile:1.7
 
 # ---- Build stage ----
-FROM gradle:9.7.1-jdk21 AS build
+# The jar is the same on every platform, so it is built once, natively on the builder's platform,
+# rather than once per target under emulation.
+FROM --platform=$BUILDPLATFORM gradle:9.7.1-jdk21 AS build
 WORKDIR /workspace
 # Empty builds the version in VERSION. Release builds pass that same value explicitly.
 ARG RELEASE_VERSION
@@ -30,8 +32,9 @@ RUN --mount=type=cache,target=/home/gradle/.gradle \
 
 # ---- Layer stage ----
 # Splits the application jar into its Spring Boot layers, so that the dependencies -- which change
-# only when a version does -- are a separate Docker layer from this project's own classes.
-FROM eclipse-temurin:25-jre-alpine AS layers
+# only when a version does -- are a separate Docker layer from this project's own classes. Its output
+# is platform-independent too, so it also runs on the builder's platform.
+FROM --platform=$BUILDPLATFORM eclipse-temurin:25-jre-alpine AS layers
 WORKDIR /jar
 COPY --from=build /workspace/api/build/libs/api.jar app.jar
 RUN java -Djarmode=tools -jar app.jar extract --layers --launcher --destination /layers
