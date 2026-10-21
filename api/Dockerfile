@@ -3,7 +3,7 @@
 # ---- Build stage ----
 # The jar is the same on every platform, so it is built once, natively on the builder's platform,
 # rather than once per target under emulation.
-FROM --platform=$BUILDPLATFORM gradle:9.7.1-jdk21 AS build
+FROM --platform=$BUILDPLATFORM gradle:9.8.1-jdk21 AS build
 WORKDIR /workspace
 # Empty builds the version in VERSION. Release builds pass that same value explicitly.
 ARG RELEASE_VERSION
