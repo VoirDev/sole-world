@@ -146,17 +146,23 @@ jobs:
           RUN_ID: ${{ needs.detect.outputs.verify_run_id }}
         run: gh run download "$RUN_ID" --repo "$GITHUB_REPOSITORY" --name release-image --dir release-image
 
+      # Writes the Docker config, which both skopeo and cosign read. A skopeo login would sign in skopeo alone.
+      - name: Sign in to GitHub Container Registry
+        uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
+
       # skopeo rather than docker load and push: the docker daemon drops the image's attestations, and skopeo
       # copies the archive's bytes as they are. The image, its SBOM and provenance are copied as built; the
       # registry must report the digest Verify built.
       - name: Push the release image unchanged
         env:
           VERSION: ${{ needs.detect.outputs.version }}
-          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           digest="$(cat release-image/digest)"
-          skopeo login ghcr.io --username "$GITHUB_ACTOR" --password-stdin <<<"$GH_TOKEN"
           skopeo copy --all --preserve-digests \
             oci-archive:release-image/sole-world-api.oci.tar "docker://$IMAGE:$VERSION"
           pushed="sha256:$(skopeo inspect --raw "docker://$IMAGE:$VERSION" | sha256sum | cut -d' ' -f1)"
