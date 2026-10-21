@@ -55,12 +55,17 @@ jobs:
       - name: Build and check whole repository
         run: ./gradlew build --no-daemon
 
+      # The arm64 image runs its runtime stage's RUN under emulation; Gradle runs natively.
+      - name: Set up QEMU
+        if: ${{ !startsWith(github.head_ref, 'release/v') }}
+        uses: docker/setup-qemu-action@v4
+
       - name: Set up Docker Buildx
         if: ${{ !startsWith(github.head_ref, 'release/v') }}
         uses: docker/setup-buildx-action@v4
 
       # The image is part of merge readiness: a bad layer path or a file that moved fails here, not
-      # at release. It is built for the published platform and thrown away. A release pull request
+      # at release. It is built for the published platforms and thrown away. A release pull request
       # skips it: Build release artifacts builds the release image, once.
       - name: Build the API image
         if: ${{ !startsWith(github.head_ref, 'release/v') }}
@@ -69,7 +74,7 @@ jobs:
           context: .
           file: api/Dockerfile
           push: false
-          platforms: linux/amd64
+          platforms: linux/amd64,linux/arm64
           cache-from: type=gha,scope=sole-world-api
           cache-to: type=gha,mode=min,scope=sole-world-api
           outputs: type=cacheonly
@@ -100,15 +105,18 @@ jobs:
           fi
           echo "RELEASE_VERSION=$version" >> "$GITHUB_ENV"
 
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v4
+
       - name: Set up Buildx
         id: buildx
         uses: docker/setup-buildx-action@v4
 
-      # The image Publish Release pushes unchanged once this pull request is merged: linux/amd64, with
-      # SBOM and provenance, kept as an OCI archive in this run instead of a registry, so no pull
-      # request can write packages. An OCI archive, not a docker one: `docker save` cannot carry the
-      # image's attestations. Built without a cache, from this commit
-      # alone. The revision is the release branch's commit, whose tree is the merged release's.
+      # The image Publish Release pushes unchanged once this pull request is merged: a linux/amd64 and
+      # linux/arm64 index, with SBOM and provenance, kept as an OCI archive in this run instead of a
+      # registry, so no pull request can write packages. An OCI archive, not a docker one: `docker
+      # save` cannot carry the image's attestations. Built without a cache, from this commit alone.
+      # The revision is the release branch's commit, whose tree is the merged release's.
       - name: Build the release image
         env:
           BUILDER: ${{ steps.buildx.outputs.name }}
@@ -117,7 +125,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p release-image
-          docker buildx build --builder "$BUILDER" --platform linux/amd64 \
+          docker buildx build --builder "$BUILDER" --platform linux/amd64,linux/arm64 \
             --sbom=true --provenance=mode=max \
             --file api/Dockerfile --build-arg RELEASE_VERSION="$RELEASE_VERSION" \
             --label "org.opencontainers.image.source=$REPOSITORY_URL" \
@@ -139,16 +147,19 @@ jobs:
           layout="$RUNNER_TEMP/sole-world-api-oci"
           mkdir -p "$layout" "$RUNNER_TEMP/trivy-cache"
           tar -xf release-image/sole-world-api.oci.tar -C "$layout"
-          echo "::group::Vulnerabilities"
-          docker run --rm -v "$layout:/image:ro" -v "$RUNNER_TEMP/trivy-cache:/root/.cache/trivy" \
-            aquasec/trivy:latest image --input /image --platform linux/amd64 --scanners vuln \
-            --severity HIGH,MEDIUM,LOW --ignore-unfixed --no-progress
-          echo "::endgroup::"
-          docker run --rm -v "$layout:/image:ro" -v "$RUNNER_TEMP/trivy-cache:/root/.cache/trivy" \
-            aquasec/trivy:latest image --input /image --platform linux/amd64 --scanners vuln \
-            --severity CRITICAL --ignore-unfixed --exit-code 1 --no-progress
+          trivy() {
+            docker run --rm -v "$layout:/image:ro" -v "$RUNNER_TEMP/trivy-cache:/root/.cache/trivy" \
+              aquasec/trivy:latest image --input /image --scanners vuln --ignore-unfixed --no-progress "$@"
+          }
+          for platform in linux/amd64 linux/arm64; do
+            echo "::group::Vulnerabilities ($platform)"
+            trivy --platform "$platform" --severity HIGH,MEDIUM,LOW
+            echo "::endgroup::"
+            trivy --platform "$platform" --severity CRITICAL --exit-code 1
+          done
 
-      # Tests the archived image itself, not a separate build.
+      # Tests the archived amd64 image itself, not a separate build. The arm64 image is tested on
+      # arm64 hardware by release-artifacts-arm64.
       - name: Smoke-test the release image
         run: |
           set -euo pipefail
@@ -169,3 +180,33 @@ jobs:
           retention-days: 30
           compression-level: 0
           overwrite: true
+
+  # A separate job so the arm64 image runs on arm64 hardware rather than under emulation, where the
+  # JVM starts too slowly to test fairly. Publish Release takes only a fully successful run, so a
+  # failure here blocks the release as surely as one in Build release artifacts.
+  release-artifacts-arm64:
+    name: Smoke-test the arm64 release image
+    needs: release-artifacts
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Download the release image
+        uses: actions/download-artifact@v8
+        with:
+          name: release-image
+          path: release-image
+
+      - name: Smoke-test the release image
+        run: |
+          set -euo pipefail
+          version="$(tr -d '[:space:]' < VERSION)"
+          if ! command -v skopeo >/dev/null; then
+            sudo apt-get update -q && sudo apt-get install -y -q skopeo
+          fi
+          skopeo copy --override-os linux --override-arch arm64 \
+            oci-archive:release-image/sole-world-api.oci.tar "docker-daemon:local/sole-world-api:$version"
+          api/smoke-test.sh "local/sole-world-api:$version" "$version"
