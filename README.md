@@ -197,8 +197,24 @@ On GraphQL the same two arguments are enums: `currencies(sort: NAME, order: DESC
 
 ### Cryptocurrencies
 
-`/v1/cryptos` covers 150 coins with their tickers, launch years, minor-unit precision and, for 100 of
+`/v1/cryptos` covers 250 coins with their tickers, launch years, minor-unit precision and, for 100 of
 them, a bundled logo under `/assets/cryptos/`.
+
+Each one carries `popularity`, a 0–100 score of how widely it is held and traded today. It blends
+market capitalization (three quarters) with 24-hour trading volume (one quarter), each on a log
+scale from a floor — ten million dollars of capitalization, a hundred thousand of daily volume — up
+to Bitcoin's own figures, so Bitcoin is 100 and a stablecoin that changes hands constantly scores
+above its size. Obsolete coins score 0.
+
+Coins are listed by popularity and take the same `sort` and `order` as currencies: `popularity`
+(default), `name`, `code` (the ticker) and `year` (the launch year).
+
+```bash
+# Bitcoin, Ethereum, Tether, ...
+curl -H "X-API-KEY: $API_KEY" http://localhost:18080/v1/cryptos
+
+curl -H "X-API-KEY: $API_KEY" 'http://localhost:18080/v1/cryptos?sort=year&order=desc'
+```
 
 A coin is identified by its alias (`/v1/cryptos/btc`) and also resolves by its ticker. The two
 differ on purpose: a ticker is what a coin trades under and can be reassigned, while the alias is the
@@ -206,7 +222,7 @@ stable lowercase key, and it is also the name the coin's logo files are stored u
 embeds that logo the same way `include=flag` embeds a country's.
 
 Coin names are not translated — a coin is called the same thing everywhere — so `lang` on this
-resource only selects the collation order.
+resource only selects the collation order of `sort=name`.
 
 ### Identifiers
 
@@ -284,9 +300,9 @@ reported total stays exact.
 
 **Every collection accepts it**, including flags — where it ranks over captions and emoji, so
 pasting in a flag emoji is how you find out which flag it is. Every collection is also ordered by
-the name a reader of the requested language would expect, flags and coins included, even though
-their own names are the same in every language. Currencies are the one exception: they are ordered
-by `popularity` and take `sort` and `order`, as described above.
+the name a reader of the requested language would expect, flags included, even though their own
+names are the same in every language. Currencies and coins are the exception: they are ordered by
+`popularity` and take `sort` and `order`, as described above.
 
 ```bash
 # finds Germany

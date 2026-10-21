@@ -9,6 +9,7 @@ import dev.voir.sole.world.api.dataset.index.PageRequest
 import dev.voir.sole.world.api.dataset.index.Pagination.toPage
 import dev.voir.sole.world.api.dataset.index.Ranking
 import dev.voir.sole.world.api.dataset.index.SearchQuery
+import dev.voir.sole.world.api.dataset.index.SortOrder
 import dev.voir.sole.world.api.model.CryptoData
 import kotlinx.datetime.LocalDate
 import org.springframework.stereotype.Component
@@ -16,9 +17,9 @@ import org.springframework.stereotype.Component
 /**
  * Read model for cryptocurrencies.
  *
- * Coin names are the same in every language, so nothing here is translated. Ordering still runs
- * through [LocalizedIndex] so that a caller asking for a language gets the collation a reader of
- * that language expects — "Ä" lands where a German reader looks for it whether or not the name
+ * Coin names are the same in every language, so nothing here is translated. Ordering by name still
+ * runs through [LocalizedIndex] so that a caller asking for a language gets the collation a reader
+ * of that language expects — "Ä" lands where a German reader looks for it whether or not the name
  * itself changed.
  */
 @Component
@@ -35,6 +36,7 @@ class CryptoStore(dataset: RawDataset) {
             obsolete = json.obsolete,
             obsoleteAt = parseDate(json.obsoleteAt, json.id),
             logoId = json.logoId,
+            popularity = json.popularity,
         )
     }
 
@@ -77,11 +79,18 @@ class CryptoStore(dataset: RawDataset) {
     fun resolve(identifier: String): CryptoData? = (byId[identifier] ?: byCode[identifier])?.toData()
 
     /**
-     * Returns one page of cryptocurrencies ordered by name.
+     * Returns one page of cryptocurrencies.
+     *
+     * Without a `sort` the ordering is whichever is more useful: relevance when the caller searched,
+     * and popularity otherwise. An explicit `sort` wins over both, including over relevance, because
+     * a caller who names an ordering means it.
+     *
      * @param request Normalized page request.
      * @param languageCode Internal language code, which selects the collation order.
      * @param query Relevance search, or null to list.
      * @param obsolete Restricts results to obsolete or active coins; null returns both.
+     * @param sort Field to order by, or null for the default ordering.
+     * @param order Direction, or null for the sort field's own default.
      * @return Requested page.
      */
     fun page(
@@ -89,18 +98,67 @@ class CryptoStore(dataset: RawDataset) {
         languageCode: String?,
         query: SearchQuery? = null,
         obsolete: Boolean? = null,
+        sort: CryptoSort? = null,
+        order: SortOrder? = null,
     ): Page<CryptoData> {
         val candidates = if (obsolete == null) records else records.filter { it.obsolete == obsolete }
 
-        val ordered = if (query == null) {
-            index.sortSubset(candidates, languageCode)
+        // Searching both selects and orders, and a sort replaces only the ordering. Equally relevant
+        // matches are broken by popularity, so searching "bitcoin" opens on Bitcoin rather than on
+        // one of the coins named after it.
+        val matching = if (query == null) {
+            candidates
         } else {
-            Ranking.rank(candidates, query, CryptoRecord::score) { it.id }
+            Ranking.rank(candidates, query, CryptoRecord::score) { -it.popularity.toLong() }
+        }
+
+        val ordered = when {
+            sort != null -> sorted(matching, sort, order ?: sort.defaultOrder, languageCode)
+            query != null -> matching
+            else -> sorted(matching, CryptoSort.POPULARITY, SortOrder.DESC, languageCode)
         }
 
         val page = ordered.toPage(request)
 
         return Page(items = page.items.map { it.toData() }, metadata = page.metadata)
+    }
+
+    /**
+     * Orders coins by one field.
+     *
+     * Every ordering starts from the name ordering and re-sorts it, because Kotlin's sort is stable:
+     * coins that tie on the requested field come out alphabetically, which keeps paging through a
+     * tie from skipping and repeating records.
+     */
+    private fun sorted(
+        candidates: List<CryptoRecord>,
+        sort: CryptoSort,
+        order: SortOrder,
+        languageCode: String?,
+    ): List<CryptoRecord> {
+        val byName = index.sortSubset(candidates, languageCode)
+        val descending = order == SortOrder.DESC
+
+        return when (sort) {
+            CryptoSort.NAME ->
+                if (descending) byName.reversed() else byName
+
+            CryptoSort.POPULARITY -> if (descending) {
+                byName.sortedByDescending { it.popularity }
+            } else {
+                byName.sortedBy { it.popularity }
+            }
+
+            CryptoSort.CODE ->
+                if (descending) byName.sortedByDescending { it.code } else byName.sortedBy { it.code }
+
+            // A coin whose launch year is unknown sorts last in either direction: it is absent from
+            // the timeline rather than at one end of it.
+            CryptoSort.YEAR -> {
+                val years = if (descending) reverseOrder<Int>() else naturalOrder<Int>()
+                byName.sortedWith(compareBy(nullsLast(years)) { it.introducedYear })
+            }
+        }
     }
 
     private companion object {
@@ -137,6 +195,7 @@ class CryptoStore(dataset: RawDataset) {
  * @property obsolete Whether the coin is no longer active.
  * @property obsoleteAt Date the coin became obsolete, when known.
  * @property logoId Media asset id of the coin's logo, when one is bundled.
+ * @property popularity How widely the coin is held and traded today, from 0 to 100.
  */
 private class CryptoRecord(
     val id: String,
@@ -149,6 +208,7 @@ private class CryptoRecord(
     val obsolete: Boolean,
     val obsoleteAt: LocalDate?,
     val logoId: String?,
+    val popularity: Int,
 ) {
     private val foldedName = FoldedText.of(name)
 
@@ -179,6 +239,7 @@ private class CryptoRecord(
         obsolete = obsolete,
         obsoleteAt = obsoleteAt,
         logoId = logoId,
+        popularity = popularity,
     )
 
     private companion object {

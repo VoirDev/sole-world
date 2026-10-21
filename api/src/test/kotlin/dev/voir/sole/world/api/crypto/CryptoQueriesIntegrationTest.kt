@@ -15,7 +15,7 @@ class CryptoQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
             query {
               crypto(id: "freecoin") {
                 id code name description websiteUrl introducedYear decimalDigits
-                obsolete obsoleteAt logoId
+                popularity obsolete obsoleteAt logoId
               }
             }
             """.trimIndent(),
@@ -29,6 +29,7 @@ class CryptoQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
         assertEquals("https://freecoin.example", coin["websiteUrl"].stringValue())
         assertEquals(2011, coin["introducedYear"].intValue())
         assertEquals(8, coin["decimalDigits"].intValue())
+        assertEquals(60, coin["popularity"].intValue())
         assertEquals("flag-fd-square", coin["logoId"].stringValue())
     }
 
@@ -55,15 +56,36 @@ class CryptoQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     }
 
     @Test
-    fun `coins are listed by name and can be filtered by obsolescence`() {
+    fun `coins are listed by popularity and can be filtered by obsolescence`() {
         assertEquals(
-            listOf("Freecoin", "Oldcoin", "Sylvacoin"),
+            listOf("Freecoin", "Sylvacoin", "Oldcoin"),
             names(graphQL("query { cryptos { items { name } } }")),
         )
         assertEquals(
             listOf("Oldcoin"),
             names(graphQL("query { cryptos(obsolete: true) { items { name } } }")),
         )
+    }
+
+    @Test
+    fun `sort chooses another ordering`() {
+        val response = graphQL(
+            """
+            query {
+              byName:     cryptos(sort: NAME)                   { items { name } }
+              byNameDesc: cryptos(sort: NAME, order: DESC)      { items { name } }
+              byYear:     cryptos(sort: YEAR)                   { items { name } }
+              leastUsed:  cryptos(sort: POPULARITY, order: ASC) { items { name } }
+            }
+            """.trimIndent(),
+        )
+
+        assertNoErrors(response)
+        val data = response["data"]
+        assertEquals(listOf("Freecoin", "Oldcoin", "Sylvacoin"), itemNames(data.at("/byName/items")))
+        assertEquals(listOf("Sylvacoin", "Oldcoin", "Freecoin"), itemNames(data.at("/byNameDesc/items")))
+        assertEquals(listOf("Oldcoin", "Freecoin", "Sylvacoin"), itemNames(data.at("/byYear/items")))
+        assertEquals(listOf("Oldcoin", "Sylvacoin", "Freecoin"), itemNames(data.at("/leastUsed/items")))
     }
 
     @Test
@@ -97,8 +119,12 @@ class CryptoQueriesIntegrationTest : BaseGraphqlIntegrationTest() {
     private fun names(response: JsonNode): List<String> {
         assertNoErrors(response)
 
+        return itemNames(response.at("/data/cryptos/items"))
+    }
+
+    private fun itemNames(items: JsonNode): List<String> {
         val names = mutableListOf<String>()
-        for (item in response.at("/data/cryptos/items")) {
+        for (item in items) {
             names += item["name"].stringValue()
         }
 

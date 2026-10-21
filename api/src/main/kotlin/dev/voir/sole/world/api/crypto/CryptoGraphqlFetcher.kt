@@ -5,6 +5,7 @@ import com.netflix.graphql.dgs.DgsData
 import com.netflix.graphql.dgs.DgsDataFetchingEnvironment
 import com.netflix.graphql.dgs.DgsQuery
 import com.netflix.graphql.dgs.InputArgument
+import dev.voir.sole.world.api.dataset.index.SortOrder
 import dev.voir.sole.world.api.graphql.GraphqlRequest
 import dev.voir.sole.world.api.mediaasset.MediaAssetStore
 import dev.voir.sole.world.api.mediaasset.toGql
@@ -12,6 +13,8 @@ import dev.voir.sole.world.graphql.dto.types.Crypto
 import dev.voir.sole.world.graphql.dto.types.CryptoPage
 import dev.voir.sole.world.graphql.dto.types.MediaAsset
 import dev.voir.sole.world.graphql.dto.types.PageInput
+import dev.voir.sole.world.graphql.dto.types.CryptoSort as GqlCryptoSort
+import dev.voir.sole.world.graphql.dto.types.SortOrder as GqlSortOrder
 
 /** GraphQL fetchers for cryptocurrencies and the logos they point at. */
 @DgsComponent
@@ -24,6 +27,8 @@ class CryptoGraphqlFetcher(
      * @param page Optional pagination request.
      * @param query Optional relevance search.
      * @param obsolete Restricts results to obsolete or active coins.
+     * @param sort Field to order by; defaults to popularity, or to relevance when searching.
+     * @param order Direction; defaults to the direction the chosen field is useful in.
      * @return Paginated cryptocurrency result.
      */
     @DgsQuery
@@ -31,12 +36,18 @@ class CryptoGraphqlFetcher(
         @InputArgument page: PageInput?,
         @InputArgument query: String?,
         @InputArgument obsolete: Boolean?,
+        @InputArgument sort: GqlCryptoSort?,
+        @InputArgument order: GqlSortOrder?,
     ): CryptoPage {
         val result = cryptoStore.page(
             request = GraphqlRequest.pageRequest(page),
             languageCode = GraphqlRequest.language(),
             query = GraphqlRequest.optionalSearchQuery(query),
             obsolete = obsolete,
+            // The schema enums carry the same names as the store's own, so a value added to one does
+            // not compile until the other has it too.
+            sort = sort?.let { CryptoSort.valueOf(it.name) },
+            order = order?.let { SortOrder.valueOf(it.name) },
         )
 
         return CryptoPage(

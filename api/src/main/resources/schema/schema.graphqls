@@ -585,6 +585,31 @@ type Currency {
 }
 
 """
+Field a cryptocurrency listing is ordered by.
+"""
+enum CryptoSort {
+    """
+    Most widely held and traded first.
+    """
+    POPULARITY
+
+    """
+    Display name, collated for the requested language.
+    """
+    NAME
+
+    """
+    Ticker symbol.
+    """
+    CODE
+
+    """
+    Launch year. Coins with no known year come last in either direction.
+    """
+    YEAR
+}
+
+"""
 A cryptocurrency.
 """
 type Crypto {
@@ -623,6 +648,13 @@ type Crypto {
     Number of decimal digits commonly used for minor units.
     """
     decimalDigits: Int!
+
+    """
+    How widely the coin is held and traded today, from 0 to 100. The scale blends market
+    capitalization with 24-hour trading volume, each on a log scale up to Bitcoin's own figures,
+    so Bitcoin is 100. Obsolete coins score 0.
+    """
+    popularity: Int!
 
     """
     Whether the coin is no longer active.
@@ -1214,7 +1246,7 @@ type Query {
     ): [Currency!]!
 
     """
-    Lists or searches cryptocurrencies.
+    Lists or searches cryptocurrencies, ordered by popularity unless `sort` says otherwise.
     """
     cryptos(
         """
@@ -1231,6 +1263,18 @@ type Query {
         Restrict to obsolete or active coins. Omit to return both.
         """
         obsolete: Boolean
+
+        """
+        Field to order by. Defaults to POPULARITY, or to relevance when `query` is supplied; an
+        explicit sort overrides relevance.
+        """
+        sort: CryptoSort
+
+        """
+        Direction. Defaults to the direction the chosen field is useful in: DESC for POPULARITY,
+        ASC for NAME, CODE and YEAR.
+        """
+        order: SortOrder
     ): CryptoPage!
 
     """
