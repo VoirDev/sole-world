@@ -4,6 +4,7 @@ import dev.voir.sole.world.api.rest.IncludeSpec
 import dev.voir.sole.world.api.rest.ResourceNotFoundException
 import dev.voir.sole.world.api.rest.ResponseCache
 import dev.voir.sole.world.api.rest.RestRequest
+import dev.voir.sole.world.api.rest.SortSpec
 import dev.voir.sole.world.openapi.api.CryptosApi
 import dev.voir.sole.world.openapi.model.Crypto
 import dev.voir.sole.world.openapi.model.CryptoPage
@@ -23,6 +24,8 @@ class CryptoRestController(
         page: Int,
         size: Int,
         query: String?,
+        sort: String?,
+        order: String?,
         lang: String?,
         include: String?,
         obsolete: Boolean?,
@@ -34,6 +37,8 @@ class CryptoRestController(
             languageCode = RestRequest.language(request),
             query = RestRequest.searchQuery(query),
             obsolete = obsolete,
+            sort = SortSpec.field(sort, CryptoSort.entries) { it.wireName },
+            order = SortSpec.order(order),
         )
 
         return cache.ok(

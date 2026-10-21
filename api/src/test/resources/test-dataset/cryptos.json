@@ -9,7 +9,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "flag-fd-square"
+    "logoId": "flag-fd-square",
+    "popularity": 60
   },
   {
     "id": "sylvacoin",
@@ -21,7 +22,8 @@
     "decimalDigits": 2,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 20
   },
   {
     "id": "oldcoin",
@@ -33,6 +35,7 @@
     "decimalDigits": 4,
     "obsolete": true,
     "obsoleteAt": "2015-06-30",
-    "logoId": null
+    "logoId": null,
+    "popularity": 0
   }
 ]

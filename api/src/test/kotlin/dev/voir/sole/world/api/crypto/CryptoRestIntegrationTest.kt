@@ -33,7 +33,13 @@ class CryptoRestIntegrationTest : BaseRestIntegrationTest() {
         assertEquals(2011, coin["introducedYear"].intValue())
         assertEquals(8, coin["decimalDigits"].intValue())
         assertEquals("flag-fd-square", coin["logoId"].stringValue())
+        assertEquals(60, coin["popularity"].intValue())
         assertEquals(false, coin["obsolete"].booleanValue())
+    }
+
+    @Test
+    fun `an obsolete coin is not popular`() {
+        assertEquals(0, get("/v1/cryptos/old")["popularity"].intValue())
     }
 
     @Test
@@ -62,8 +68,35 @@ class CryptoRestIntegrationTest : BaseRestIntegrationTest() {
     }
 
     @Test
-    fun `coins are listed by name`() {
-        assertEquals(listOf("Freecoin", "Oldcoin", "Sylvacoin"), itemNames(get("/v1/cryptos")))
+    fun `coins are listed by popularity rather than by name`() {
+        assertEquals(listOf("Freecoin", "Sylvacoin", "Oldcoin"), itemNames(get("/v1/cryptos")))
+    }
+
+    @Test
+    fun `coins can be sorted by any documented field, in either direction`() {
+        assertEquals(listOf("Freecoin", "Oldcoin", "Sylvacoin"), itemNames(get("/v1/cryptos?sort=name")))
+        assertEquals(
+            listOf("Sylvacoin", "Oldcoin", "Freecoin"),
+            itemNames(get("/v1/cryptos?sort=name&order=desc")),
+        )
+        assertEquals(
+            listOf("Sylvacoin", "Oldcoin", "Freecoin"),
+            itemNames(get("/v1/cryptos?sort=code&order=desc")),
+        )
+        // Oldest launch first.
+        assertEquals(listOf("Oldcoin", "Freecoin", "Sylvacoin"), itemNames(get("/v1/cryptos?sort=year")))
+        assertEquals(
+            listOf("Oldcoin", "Sylvacoin", "Freecoin"),
+            itemNames(get("/v1/cryptos?sort=popularity&order=asc")),
+        )
+    }
+
+    @Test
+    fun `an unknown sort names the fields that exist`() {
+        val problem = assertProblem(rest("/v1/cryptos?sort=marketcap"), status = 400)
+
+        assertTrue(problem["detail"].stringValue().contains("marketcap"))
+        assertEquals("popularity", problem["allowed"][0].stringValue())
     }
 
     @Test

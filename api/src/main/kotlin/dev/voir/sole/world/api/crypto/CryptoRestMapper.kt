@@ -19,6 +19,7 @@ fun CryptoData.toRest(logo: MediaAsset? = null) = Crypto(
     code = code,
     name = name,
     decimalDigits = decimalDigits,
+    popularity = popularity,
     obsolete = obsolete,
     description = description,
     websiteUrl = websiteUrl,

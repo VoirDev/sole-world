@@ -20,7 +20,7 @@ object DatasetIntegrity {
     /** Problems listed per rule before the message says how many more there are. */
     private const val EXAMPLES_PER_RULE = 5
 
-    /** Range a currency's popularity score may fall in. */
+    /** Range a currency's or a coin's popularity score may fall in. */
     private val POPULARITY = 0..100
 
     private const val SQUARE = "square"
@@ -97,6 +97,7 @@ object DatasetIntegrity {
         }
 
         for (crypto in dataset.cryptos) {
+            problems.inRange("cryptocurrency ${crypto.id} popularity", crypto.popularity, POPULARITY)
             problems.resolves("cryptocurrency ${crypto.id} logoId", crypto.logoId, mediaAssets, "media asset")
         }
 

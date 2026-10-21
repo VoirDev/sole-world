@@ -14,6 +14,7 @@ import kotlinx.serialization.Serializable
  * @property obsolete Whether the coin is no longer active.
  * @property obsoleteAt Date string in YYYY-MM-DD format, when the coin became obsolete.
  * @property logoId Media asset id of the coin's logo, when one is bundled.
+ * @property popularity How widely the coin is held and traded, from 0 to 100.
  */
 @Serializable
 data class CryptoJSON(
@@ -27,4 +28,5 @@ data class CryptoJSON(
     val obsolete: Boolean,
     val obsoleteAt: String?,
     val logoId: String?,
+    val popularity: Int = 0,
 )

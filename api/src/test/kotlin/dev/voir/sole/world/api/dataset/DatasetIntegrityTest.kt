@@ -109,6 +109,15 @@ class DatasetIntegrityTest {
     }
 
     @Test
+    fun `a coin scored outside the documented range fails startup`() {
+        val failure = assertThrows<IllegalStateException> {
+            DatasetIntegrity.check(dataset(cryptos = listOf(crypto("coin", popularity = 101))))
+        }
+
+        assertTrue(failure.message!!.contains("cryptocurrency coin popularity=101"), failure.message)
+    }
+
+    @Test
     fun `a flag naming an image of the wrong shape fails startup`() {
         // The id resolves and the response is well formed, so nothing downstream would notice that
         // the flag is serving a picture of the wrong shape.
@@ -424,7 +433,7 @@ class DatasetIntegrityTest {
         translations = translations.map { LocaleTranslationJSON(locale = it, name = "Name") },
     )
 
-    private fun crypto(id: String, logoId: String? = "one-square") = CryptoJSON(
+    private fun crypto(id: String, logoId: String? = "one-square", popularity: Int = 50) = CryptoJSON(
         id = id,
         code = id.uppercase(),
         name = "Test $id",
@@ -435,6 +444,7 @@ class DatasetIntegrityTest {
         obsolete = false,
         obsoleteAt = null,
         logoId = logoId,
+        popularity = popularity,
     )
 
     private fun translation(locale: String, name: String, vararg aliases: String) =

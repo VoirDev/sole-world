@@ -15,6 +15,7 @@ fun CryptoData.toGql() = Crypto(
     websiteUrl = websiteUrl,
     introducedYear = introducedYear,
     decimalDigits = decimalDigits,
+    popularity = popularity,
     obsolete = obsolete,
     obsoleteAt = obsoleteAt,
     logoId = logoId,

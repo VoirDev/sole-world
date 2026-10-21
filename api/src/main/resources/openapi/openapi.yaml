@@ -34,11 +34,12 @@ info:
 
     ## Ordering
 
-    Collections come back ordered by the name a reader of the requested language expects. Currencies
-    are the exception: they are ordered by `popularity`, most widely used first, because an
-    alphabetical first page of them reaches neither the dollar nor the euro. `/v1/currencies` takes
-    `sort` and `order` to choose another ordering, and every list of currencies — including the ones
-    reached through `include` and the currency sub-resources — is ordered by popularity.
+    Collections come back ordered by the name a reader of the requested language expects.
+    Currencies and cryptocurrencies are the exception: they are ordered by `popularity`, most widely
+    used first, because an alphabetical first page of them reaches neither the dollar nor the euro,
+    nor Bitcoin. `/v1/currencies` and `/v1/cryptos` take `sort` and `order` to choose another
+    ordering, and every list of currencies — including the ones reached through `include` and the
+    currency sub-resources — is ordered by popularity.
 
     ## Localization
 
@@ -536,13 +537,17 @@ paths:
       operationId: listCryptos
       summary: List or search cryptocurrencies
       description: >
-        Returns cryptocurrencies ordered by name. `query` runs a relevance-ranked search over names,
-        ticker symbols and ids. Coin names are the same in every language, so `lang` only selects
-        the collation order.
+        Returns cryptocurrencies ordered by `popularity`, most widely used first. `sort` and `order`
+        choose another ordering. `query` runs a relevance-ranked search over names, ticker symbols
+        and ids, ranking equally relevant matches by popularity; an explicit `sort` overrides that
+        ranking. Coin names are the same in every language, so `lang` only selects the collation
+        order of `sort=name`.
       parameters:
         - $ref: "#/components/parameters/Page"
         - $ref: "#/components/parameters/Size"
         - $ref: "#/components/parameters/SearchQuery"
+        - $ref: "#/components/parameters/CryptoSort"
+        - $ref: "#/components/parameters/SortOrder"
         - $ref: "#/components/parameters/Lang"
         - $ref: "#/components/parameters/CryptoInclude"
         - name: obsolete
@@ -1547,6 +1552,16 @@ components:
         descending for `popularity`, ascending for `name`, `code` and `year`.
       schema: { type: string }
       example: desc
+    CryptoSort:
+      name: sort
+      in: query
+      required: false
+      description: >
+        Field to order by: `popularity`, `name`, `code` (the ticker) or `year` (the launch year).
+        Defaults to `popularity`, or to relevance when `query` is supplied. An unrecognized value
+        returns `400` listing the four.
+      schema: { type: string }
+      example: popularity
     CryptoInclude:
       name: include
       in: query
@@ -2111,7 +2126,7 @@ components:
 
     Crypto:
       type: object
-      required: [id, code, name, decimalDigits, obsolete]
+      required: [id, code, name, decimalDigits, popularity, obsolete]
       properties:
         id:
           type: string
@@ -2125,6 +2140,16 @@ components:
         websiteUrl: { type: string }
         introducedYear: { type: integer, format: int32 }
         decimalDigits: { type: integer, format: int32 }
+        popularity:
+          type: integer
+          format: int32
+          minimum: 0
+          maximum: 100
+          description: >
+            How widely the coin is held and traded today, from 0 to 100. The scale blends market
+            capitalization with 24-hour trading volume, each on a log scale from a floor up to
+            Bitcoin's own figures, so Bitcoin is 100. Obsolete coins score 0.
+          example: 100
         obsolete: { type: boolean }
         obsoleteAt: { type: string, format: date }
         logoId: { type: string }

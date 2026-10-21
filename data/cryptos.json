@@ -9,7 +9,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-btc-square"
+    "logoId": "crypto-btc-square",
+    "popularity": 100
   },
   {
     "id": "eth",
@@ -21,7 +22,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-eth-square"
+    "logoId": "crypto-eth-square",
+    "popularity": 88
   },
   {
     "id": "usdt",
@@ -33,7 +35,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-usdt-square"
+    "logoId": "crypto-usdt-square",
+    "popularity": 86
   },
   {
     "id": "bnb",
@@ -45,7 +48,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-bnb-square"
+    "logoId": "crypto-bnb-square",
+    "popularity": 75
   },
   {
     "id": "usdc",
@@ -57,7 +61,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-usdc-square"
+    "logoId": "crypto-usdc-square",
+    "popularity": 80
   },
   {
     "id": "xrp",
@@ -69,7 +74,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-xrp-square"
+    "logoId": "crypto-xrp-square",
+    "popularity": 76
   },
   {
     "id": "sol",
@@ -81,7 +87,8 @@
     "decimalDigits": 9,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-sol-square"
+    "logoId": "crypto-sol-square",
+    "popularity": 75
   },
   {
     "id": "trx",
@@ -93,7 +100,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-trx-square"
+    "logoId": "crypto-trx-square",
+    "popularity": 66
   },
   {
     "id": "hype",
@@ -105,7 +113,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 65
   },
   {
     "id": "doge",
@@ -117,7 +126,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-doge-square"
+    "logoId": "crypto-doge-square",
+    "popularity": 61
   },
   {
     "id": "leo",
@@ -129,7 +139,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-leo-square"
+    "logoId": "crypto-leo-square",
+    "popularity": 43
   },
   {
     "id": "zec",
@@ -141,7 +152,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-zec-square"
+    "logoId": "crypto-zec-square",
+    "popularity": 66
   },
   {
     "id": "xlm",
@@ -153,7 +165,8 @@
     "decimalDigits": 7,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-xlm-square"
+    "logoId": "crypto-xlm-square",
+    "popularity": 55
   },
   {
     "id": "cc",
@@ -165,7 +178,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 47
   },
   {
     "id": "xmr",
@@ -177,7 +191,8 @@
     "decimalDigits": 12,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-xmr-square"
+    "logoId": "crypto-xmr-square",
+    "popularity": 59
   },
   {
     "id": "ada",
@@ -189,7 +204,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-ada-square"
+    "logoId": "crypto-ada-square",
+    "popularity": 58
   },
   {
     "id": "link",
@@ -201,7 +217,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-link-square"
+    "logoId": "crypto-link-square",
+    "popularity": 58
   },
   {
     "id": "dai",
@@ -213,7 +230,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-dai-square"
+    "logoId": "crypto-dai-square",
+    "popularity": 50
   },
   {
     "id": "usd1",
@@ -225,7 +243,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 56
   },
   {
     "id": "usde",
@@ -237,7 +256,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-usde-square"
+    "logoId": "crypto-usde-square",
+    "popularity": 49
   },
   {
     "id": "gram",
@@ -249,7 +269,8 @@
     "decimalDigits": 9,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 48
   },
   {
     "id": "bch",
@@ -261,7 +282,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-bch-square"
+    "logoId": "crypto-bch-square",
+    "popularity": 54
   },
   {
     "id": "m",
@@ -273,7 +295,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 39
   },
   {
     "id": "hbar",
@@ -285,7 +308,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-hbar-square"
+    "logoId": "crypto-hbar-square",
+    "popularity": 51
   },
   {
     "id": "ltc",
@@ -297,7 +321,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-ltc-square"
+    "logoId": "crypto-ltc-square",
+    "popularity": 54
   },
   {
     "id": "sui",
@@ -309,7 +334,8 @@
     "decimalDigits": 9,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-sui-square"
+    "logoId": "crypto-sui-square",
+    "popularity": 55
   },
   {
     "id": "near",
@@ -321,7 +347,8 @@
     "decimalDigits": 24,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-near-square"
+    "logoId": "crypto-near-square",
+    "popularity": 60
   },
   {
     "id": "usdg",
@@ -333,7 +360,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 53
   },
   {
     "id": "shib",
@@ -345,7 +373,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-shib-square"
+    "logoId": "crypto-shib-square",
+    "popularity": 48
   },
   {
     "id": "pyusd",
@@ -357,7 +386,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-pyusd-square"
+    "logoId": "crypto-pyusd-square",
+    "popularity": 48
   },
   {
     "id": "cro",
@@ -369,7 +399,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-cro-square"
+    "logoId": "crypto-cro-square",
+    "popularity": 44
   },
   {
     "id": "avax",
@@ -381,7 +412,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-avax-square"
+    "logoId": "crypto-avax-square",
+    "popularity": 54
   },
   {
     "id": "xaut",
@@ -393,7 +425,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-xaut-square"
+    "logoId": "crypto-xaut-square",
+    "popularity": 51
   },
   {
     "id": "tao",
@@ -405,7 +438,8 @@
     "decimalDigits": 9,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-tao-square"
+    "logoId": "crypto-tao-square",
+    "popularity": 50
   },
   {
     "id": "wld",
@@ -417,7 +451,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-wld-square"
+    "logoId": "crypto-wld-square",
+    "popularity": 51
   },
   {
     "id": "uni",
@@ -429,7 +464,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-uni-square"
+    "logoId": "crypto-uni-square",
+    "popularity": 55
   },
   {
     "id": "paxg",
@@ -441,7 +477,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-paxg-square"
+    "logoId": "crypto-paxg-square",
+    "popularity": 47
   },
   {
     "id": "wlfi",
@@ -453,7 +490,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 44
   },
   {
     "id": "mnt",
@@ -465,7 +503,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-mnt-square"
+    "logoId": "crypto-mnt-square",
+    "popularity": 43
   },
   {
     "id": "ondo",
@@ -477,7 +516,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-ondo-square"
+    "logoId": "crypto-ondo-square",
+    "popularity": 48
   },
   {
     "id": "aster",
@@ -489,7 +529,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 46
   },
   {
     "id": "rlusd",
@@ -501,7 +542,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 49
   },
   {
     "id": "dot",
@@ -513,7 +555,8 @@
     "decimalDigits": 10,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-dot-square"
+    "logoId": "crypto-dot-square",
+    "popularity": 47
   },
   {
     "id": "okb",
@@ -525,7 +568,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-okb-square"
+    "logoId": "crypto-okb-square",
+    "popularity": 45
   },
   {
     "id": "pi",
@@ -537,7 +581,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 35
   },
   {
     "id": "dexe",
@@ -549,7 +594,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 20
   },
   {
     "id": "usdd",
@@ -561,7 +607,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-usdd-square"
+    "logoId": "crypto-usdd-square",
+    "popularity": 40
   },
   {
     "id": "sky",
@@ -573,7 +620,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-sky-square"
+    "logoId": "crypto-sky-square",
+    "popularity": 42
   },
   {
     "id": "icp",
@@ -585,7 +633,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-icp-square"
+    "logoId": "crypto-icp-square",
+    "popularity": 44
   },
   {
     "id": "bgb",
@@ -597,7 +646,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-bgb-square"
+    "logoId": "crypto-bgb-square",
+    "popularity": 40
   },
   {
     "id": "etc",
@@ -609,7 +659,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-etc-square"
+    "logoId": "crypto-etc-square",
+    "popularity": 42
   },
   {
     "id": "pepe",
@@ -621,7 +672,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-pepe-square"
+    "logoId": "crypto-pepe-square",
+    "popularity": 50
   },
   {
     "id": "aave",
@@ -633,7 +685,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-aave-square"
+    "logoId": "crypto-aave-square",
+    "popularity": 50
   },
   {
     "id": "u",
@@ -645,7 +698,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 46
   },
   {
     "id": "kcs",
@@ -657,7 +711,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-kcs-square"
+    "logoId": "crypto-kcs-square",
+    "popularity": 36
   },
   {
     "id": "morpho",
@@ -669,7 +724,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 44
   },
   {
     "id": "atom",
@@ -681,7 +737,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-atom-square"
+    "logoId": "crypto-atom-square",
+    "popularity": 41
   },
   {
     "id": "render",
@@ -693,7 +750,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 41
   },
   {
     "id": "pol",
@@ -705,7 +763,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-pol-square"
+    "logoId": "crypto-pol-square",
+    "popularity": 41
   },
   {
     "id": "qnt",
@@ -717,7 +776,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-qnt-square"
+    "logoId": "crypto-qnt-square",
+    "popularity": 48
   },
   {
     "id": "algo",
@@ -729,7 +789,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-algo-square"
+    "logoId": "crypto-algo-square",
+    "popularity": 41
   },
   {
     "id": "kas",
@@ -741,7 +802,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-kas-square"
+    "logoId": "crypto-kas-square",
+    "popularity": 40
   },
   {
     "id": "ena",
@@ -753,7 +815,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-ena-square"
+    "logoId": "crypto-ena-square",
+    "popularity": 52
   },
   {
     "id": "stable",
@@ -765,7 +828,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 33
   },
   {
     "id": "binance-life",
@@ -777,7 +841,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 31
   },
   {
     "id": "gt",
@@ -789,7 +854,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 37
   },
   {
     "id": "jst",
@@ -801,7 +867,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-jst-square"
+    "logoId": "crypto-jst-square",
+    "popularity": 41
   },
   {
     "id": "vvv",
@@ -813,7 +880,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 42
   },
   {
     "id": "flr",
@@ -825,7 +893,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-flr-square"
+    "logoId": "crypto-flr-square",
+    "popularity": 32
   },
   {
     "id": "jup",
@@ -837,7 +906,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-jup-square"
+    "logoId": "crypto-jup-square",
+    "popularity": 42
   },
   {
     "id": "h",
@@ -849,7 +919,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 21
   },
   {
     "id": "fil",
@@ -861,7 +932,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-fil-square"
+    "logoId": "crypto-fil-square",
+    "popularity": 42
   },
   {
     "id": "xdc",
@@ -873,7 +945,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 37
   },
   {
     "id": "beat",
@@ -885,7 +958,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 12
   },
   {
     "id": "arb",
@@ -897,7 +971,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-arb-square"
+    "logoId": "crypto-arb-square",
+    "popularity": 46
   },
   {
     "id": "apt",
@@ -909,7 +984,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-apt-square"
+    "logoId": "crypto-apt-square",
+    "popularity": 40
   },
   {
     "id": "night",
@@ -921,7 +997,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 36
   },
   {
     "id": "nexo",
@@ -933,7 +1010,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-nexo-square"
+    "logoId": "crypto-nexo-square",
+    "popularity": 34
   },
   {
     "id": "inj",
@@ -945,7 +1023,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-inj-square"
+    "logoId": "crypto-inj-square",
+    "popularity": 43
   },
   {
     "id": "tusd",
@@ -957,7 +1036,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-tusd-square"
+    "logoId": "crypto-tusd-square",
+    "popularity": 33
   },
   {
     "id": "dash",
@@ -969,7 +1049,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-dash-square"
+    "logoId": "crypto-dash-square",
+    "popularity": 39
   },
   {
     "id": "pump",
@@ -981,7 +1062,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 49
   },
   {
     "id": "aero",
@@ -993,7 +1075,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 41
   },
   {
     "id": "cake",
@@ -1005,7 +1088,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-cake-square"
+    "logoId": "crypto-cake-square",
+    "popularity": 39
   },
   {
     "id": "eurc",
@@ -1017,7 +1101,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 35
   },
   {
     "id": "trump",
@@ -1029,7 +1114,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 39
   },
   {
     "id": "fet",
@@ -1041,7 +1127,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-fet-square"
+    "logoId": "crypto-fet-square",
+    "popularity": 37
   },
   {
     "id": "vet",
@@ -1053,7 +1140,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-vet-square"
+    "logoId": "crypto-vet-square",
+    "popularity": 35
   },
   {
     "id": "pengu",
@@ -1065,7 +1153,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 39
   },
   {
     "id": "virtual",
@@ -1077,7 +1166,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-virtual-square"
+    "logoId": "crypto-virtual-square",
+    "popularity": 36
   },
   {
     "id": "bonk",
@@ -1089,7 +1179,8 @@
     "decimalDigits": 5,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-bonk-square"
+    "logoId": "crypto-bonk-square",
+    "popularity": 32
   },
   {
     "id": "sei",
@@ -1101,7 +1192,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-sei-square"
+    "logoId": "crypto-sei-square",
+    "popularity": 35
   },
   {
     "id": "lit",
@@ -1113,7 +1205,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 41
   },
   {
     "id": "lunc",
@@ -1125,7 +1218,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 29
   },
   {
     "id": "jto",
@@ -1137,7 +1231,8 @@
     "decimalDigits": 9,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 32
   },
   {
     "id": "skyai",
@@ -1149,7 +1244,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 16
   },
   {
     "id": "fdusd",
@@ -1161,7 +1257,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-fdusd-square"
+    "logoId": "crypto-fdusd-square",
+    "popularity": 35
   },
   {
     "id": "tia",
@@ -1173,7 +1270,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-tia-square"
+    "logoId": "crypto-tia-square",
+    "popularity": 40
   },
   {
     "id": "spx",
@@ -1185,7 +1283,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 31
   },
   {
     "id": "zro",
@@ -1197,7 +1296,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 41
   },
   {
     "id": "sun",
@@ -1209,7 +1309,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 32
   },
   {
     "id": "stx",
@@ -1221,7 +1322,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-stx-square"
+    "logoId": "crypto-stx-square",
+    "popularity": 37
   },
   {
     "id": "crv",
@@ -1233,7 +1335,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-crv-square"
+    "logoId": "crypto-crv-square",
+    "popularity": 39
   },
   {
     "id": "kite",
@@ -1245,7 +1348,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 30
   },
   {
     "id": "ethfi",
@@ -1257,7 +1361,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-ethfi-square"
+    "logoId": "crypto-ethfi-square",
+    "popularity": 39
   },
   {
     "id": "pyth",
@@ -1269,7 +1374,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-pyth-square"
+    "logoId": "crypto-pyth-square",
+    "popularity": 38
   },
   {
     "id": "gno",
@@ -1281,7 +1387,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-gno-square"
+    "logoId": "crypto-gno-square",
+    "popularity": 25
   },
   {
     "id": "imx",
@@ -1293,7 +1400,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-imx-square"
+    "logoId": "crypto-imx-square",
+    "popularity": 24
   },
   {
     "id": "xtz",
@@ -1305,7 +1413,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-xtz-square"
+    "logoId": "crypto-xtz-square",
+    "popularity": 31
   },
   {
     "id": "nft",
@@ -1317,7 +1426,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-nft-square"
+    "logoId": "crypto-nft-square",
+    "popularity": 27
   },
   {
     "id": "btt",
@@ -1329,7 +1439,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-btt-square"
+    "logoId": "crypto-btt-square",
+    "popularity": 33
   },
   {
     "id": "cfx",
@@ -1341,7 +1452,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-cfx-square"
+    "logoId": "crypto-cfx-square",
+    "popularity": 30
   },
   {
     "id": "zbcn",
@@ -1353,7 +1465,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 29
   },
   {
     "id": "floki",
@@ -1365,7 +1478,8 @@
     "decimalDigits": 9,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-floki-square"
+    "logoId": "crypto-floki-square",
+    "popularity": 30
   },
   {
     "id": "2z",
@@ -1377,7 +1491,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 25
   },
   {
     "id": "mon",
@@ -1389,7 +1504,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 31
   },
   {
     "id": "pendle",
@@ -1401,7 +1517,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-pendle-square"
+    "logoId": "crypto-pendle-square",
+    "popularity": 35
   },
   {
     "id": "kaia",
@@ -1413,7 +1530,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-kaia-square"
+    "logoId": "crypto-kaia-square",
+    "popularity": 30
   },
   {
     "id": "ldo",
@@ -1425,7 +1543,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-ldo-square"
+    "logoId": "crypto-ldo-square",
+    "popularity": 35
   },
   {
     "id": "jasmy",
@@ -1437,7 +1556,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-jasmy-square"
+    "logoId": "crypto-jasmy-square",
+    "popularity": 29
   },
   {
     "id": "bsv",
@@ -1449,7 +1569,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-bsv-square"
+    "logoId": "crypto-bsv-square",
+    "popularity": 31
   },
   {
     "id": "tel",
@@ -1461,7 +1582,8 @@
     "decimalDigits": 2,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-tel-square"
+    "logoId": "crypto-tel-square",
+    "popularity": 21
   },
   {
     "id": "chz",
@@ -1473,7 +1595,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 27
   },
   {
     "id": "op",
@@ -1485,7 +1608,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-op-square"
+    "logoId": "crypto-op-square",
+    "popularity": 34
   },
   {
     "id": "strk",
@@ -1497,7 +1621,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-strk-square"
+    "logoId": "crypto-strk-square",
+    "popularity": 37
   },
   {
     "id": "akt",
@@ -1509,7 +1634,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-akt-square"
+    "logoId": "crypto-akt-square",
+    "popularity": 28
   },
   {
     "id": "b",
@@ -1521,7 +1647,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 23
   },
   {
     "id": "ens",
@@ -1533,7 +1660,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-ens-square"
+    "logoId": "crypto-ens-square",
+    "popularity": 30
   },
   {
     "id": "grt",
@@ -1545,7 +1673,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-grt-square"
+    "logoId": "crypto-grt-square",
+    "popularity": 31
   },
   {
     "id": "dcr",
@@ -1557,7 +1686,8 @@
     "decimalDigits": 8,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-dcr-square"
+    "logoId": "crypto-dcr-square",
+    "popularity": 26
   },
   {
     "id": "iota",
@@ -1569,7 +1699,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-iota-square"
+    "logoId": "crypto-iota-square",
+    "popularity": 28
   },
   {
     "id": "ff",
@@ -1581,7 +1712,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 31
   },
   {
     "id": "eigen",
@@ -1593,7 +1725,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-eigen-square"
+    "logoId": "crypto-eigen-square",
+    "popularity": 31
   },
   {
     "id": "gwei",
@@ -1605,7 +1738,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 23
   },
   {
     "id": "xpl",
@@ -1617,7 +1751,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 33
   },
   {
     "id": "comp",
@@ -1629,7 +1764,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-comp-square"
+    "logoId": "crypto-comp-square",
+    "popularity": 34
   },
   {
     "id": "pieverse",
@@ -1641,7 +1777,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 28
   },
   {
     "id": "trac",
@@ -1653,7 +1790,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-trac-square"
+    "logoId": "crypto-trac-square",
+    "popularity": 26
   },
   {
     "id": "axs",
@@ -1665,7 +1803,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-axs-square"
+    "logoId": "crypto-axs-square",
+    "popularity": 30
   },
   {
     "id": "twt",
@@ -1677,7 +1816,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 26
   },
   {
     "id": "wif",
@@ -1689,7 +1829,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-wif-square"
+    "logoId": "crypto-wif-square",
+    "popularity": 31
   },
   {
     "id": "syrup",
@@ -1701,7 +1842,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 28
   },
   {
     "id": "mx",
@@ -1713,7 +1855,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 27
   },
   {
     "id": "ray",
@@ -1725,7 +1868,8 @@
     "decimalDigits": 6,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-ray-square"
+    "logoId": "crypto-ray-square",
+    "popularity": 37
   },
   {
     "id": "neo",
@@ -1737,7 +1881,8 @@
     "decimalDigits": 0,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-neo-square"
+    "logoId": "crypto-neo-square",
+    "popularity": 24
   },
   {
     "id": "nex",
@@ -1749,7 +1894,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 11
   },
   {
     "id": "theta",
@@ -1761,7 +1907,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-theta-square"
+    "logoId": "crypto-theta-square",
+    "popularity": 29
   },
   {
     "id": "xcn",
@@ -1773,7 +1920,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 24
   },
   {
     "id": "sand",
@@ -1785,7 +1933,8 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": "crypto-sand-square"
+    "logoId": "crypto-sand-square",
+    "popularity": 30
   },
   {
     "id": "stg",
@@ -1797,6 +1946,1307 @@
     "decimalDigits": 18,
     "obsolete": false,
     "obsoleteAt": null,
-    "logoId": null
+    "logoId": null,
+    "popularity": 6
+  },
+  {
+    "id": "usds",
+    "code": "usds",
+    "name": "USDS",
+    "description": "USDS is the dollar-pegged stablecoin of the Sky ecosystem, the upgraded successor to Dai, that holders can save with to earn the Sky Savings Rate.",
+    "websiteUrl": "https://sky.money/",
+    "introducedYear": 2024,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 58
+  },
+  {
+    "id": "wbt",
+    "code": "wbt",
+    "name": "WhiteBIT Coin",
+    "description": "WhiteBIT Coin (WBT) is the utility token of the WhiteBIT exchange, giving holders trading-fee discounts and access to the exchange's own products.",
+    "websiteUrl": "https://whitebit.com/wbt",
+    "introducedYear": 2022,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 57
+  },
+  {
+    "id": "htx",
+    "code": "htx",
+    "name": "HTX DAO",
+    "description": "HTX DAO (HTX) is the governance token of the HTX exchange ecosystem, formerly Huobi, used to vote on and share in the exchange's DAO.",
+    "websiteUrl": "https://www.htxdao.com",
+    "introducedYear": 2023,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 44
+  },
+  {
+    "id": "grass",
+    "code": "grass",
+    "name": "Grass",
+    "description": "Grass (GRASS) is the token of Grass, a network where users share unused internet bandwidth to collect public web data for AI.",
+    "websiteUrl": "https://www.grass.io",
+    "introducedYear": 2024,
+    "decimalDigits": 9,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 35
+  },
+  {
+    "id": "bat",
+    "code": "bat",
+    "name": "Basic Attention Token",
+    "description": "Basic Attention Token (BAT) powers the Brave browser's private advertising system, rewarding users for viewing ads and letting them tip creators.",
+    "websiteUrl": "https://basicattentiontoken.org/",
+    "introducedYear": 2017,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 33
+  },
+  {
+    "id": "gho",
+    "code": "gho",
+    "name": "GHO",
+    "description": "GHO is a decentralized, overcollateralized stablecoin minted by borrowers on the Aave protocol and governed by the Aave DAO.",
+    "websiteUrl": "https://gho.xyz/",
+    "introducedYear": 2023,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 33
+  },
+  {
+    "id": "rune",
+    "code": "rune",
+    "name": "THORChain",
+    "description": "THORChain (RUNE) is the native asset of a cross-chain liquidity network that swaps native coins such as Bitcoin and Ether without wrapping them.",
+    "websiteUrl": "https://thorchain.org/",
+    "introducedYear": 2019,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 32
+  },
+  {
+    "id": "cvx",
+    "code": "cvx",
+    "name": "Convex Finance",
+    "description": "Convex Finance (CVX) is the governance token of a protocol that boosts rewards for Curve liquidity providers and CRV stakers.",
+    "websiteUrl": "https://www.convexfinance.com/",
+    "introducedYear": 2021,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 31
+  },
+  {
+    "id": "s",
+    "code": "s",
+    "name": "Sonic",
+    "description": "Sonic (S) is the native token of the Sonic blockchain, the high-throughput EVM network that succeeded Fantom.",
+    "websiteUrl": "https://soniclabs.com",
+    "introducedYear": 2024,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 31
+  },
+  {
+    "id": "ar",
+    "code": "ar",
+    "name": "Arweave",
+    "description": "Arweave (AR) is the token of a decentralized storage network designed to keep data permanently in exchange for a single up-front payment.",
+    "websiteUrl": "https://arweave.org/",
+    "introducedYear": 2018,
+    "decimalDigits": 12,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 30
+  },
+  {
+    "id": "eurcv",
+    "code": "eurcv",
+    "name": "EUR CoinVertible",
+    "description": "EUR CoinVertible (EURCV) is a euro stablecoin issued by SG-Forge, the digital-assets subsidiary of Société Générale.",
+    "websiteUrl": "https://www.sgforge.com",
+    "introducedYear": 2023,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 29
+  },
+  {
+    "id": "kmno",
+    "code": "kmno",
+    "name": "Kamino",
+    "description": "Kamino (KMNO) is the governance token of Kamino Finance, a lending, liquidity and leverage platform on Solana.",
+    "websiteUrl": "https://kamino.com/",
+    "introducedYear": 2024,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 29
+  },
+  {
+    "id": "crvusd",
+    "code": "crvusd",
+    "name": "crvUSD",
+    "description": "crvUSD is Curve Finance's overcollateralized stablecoin, which uses a soft-liquidation mechanism to protect borrowers' collateral.",
+    "websiteUrl": "https://curve.finance",
+    "introducedYear": 2023,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 29
+  },
+  {
+    "id": "beam",
+    "code": "beam",
+    "name": "Beam",
+    "description": "Beam (BEAM) is the gaming-focused token of the Beam network, an ecosystem of blockchain games and infrastructure.",
+    "websiteUrl": "https://onbeam.com",
+    "introducedYear": 2023,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 28
+  },
+  {
+    "id": "fartcoin",
+    "code": "fartcoin",
+    "name": "Fartcoin",
+    "description": "Fartcoin is a Solana memecoin that grew out of an AI-agent experiment and became one of the best-known memecoins of 2024.",
+    "websiteUrl": null,
+    "introducedYear": 2024,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 28
+  },
+  {
+    "id": "met",
+    "code": "met",
+    "name": "Meteora",
+    "description": "Meteora (MET) is the governance token of Meteora, a liquidity protocol on Solana known for its dynamic liquidity pools and token launch tools.",
+    "websiteUrl": "https://www.meteora.ag/",
+    "introducedYear": 2025,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 28
+  },
+  {
+    "id": "zk",
+    "code": "zk",
+    "name": "ZKsync",
+    "description": "ZKsync (ZK) is the governance token of ZKsync, a zero-knowledge rollup that scales Ethereum.",
+    "websiteUrl": "https://zksync.io/",
+    "introducedYear": 2024,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 28
+  },
+  {
+    "id": "1inch",
+    "code": "1inch",
+    "name": "1inch",
+    "description": "1inch is the governance token of the 1inch Network, a decentralized exchange aggregator that routes trades across many liquidity sources.",
+    "websiteUrl": "https://1inch.com/",
+    "introducedYear": 2020,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 27
+  },
+  {
+    "id": "mana",
+    "code": "mana",
+    "name": "Decentraland",
+    "description": "Decentraland (MANA) is the currency of Decentraland, a user-owned virtual world where it buys land, wearables and names.",
+    "websiteUrl": "https://decentraland.org/",
+    "introducedYear": 2017,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 27
+  },
+  {
+    "id": "zama",
+    "code": "zama",
+    "name": "Zama",
+    "description": "Zama (ZAMA) is the token of the Zama protocol, which brings fully homomorphic encryption to blockchains so smart contracts can compute on encrypted data.",
+    "websiteUrl": "https://www.zama.org/",
+    "introducedYear": 2025,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 27
+  },
+  {
+    "id": "ath",
+    "code": "ath",
+    "name": "Aethir",
+    "description": "Aethir (ATH) powers a decentralized cloud network that rents out GPU capacity for AI and gaming.",
+    "websiteUrl": "https://www.aethir.com/",
+    "introducedYear": 2024,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 26
+  },
+  {
+    "id": "ape",
+    "code": "ape",
+    "name": "ApeCoin",
+    "description": "ApeCoin (APE) is the token of the ApeCoin DAO and the gas token of ApeChain, tied to the Bored Ape Yacht Club community.",
+    "websiteUrl": "https://apechain.com/",
+    "introducedYear": 2022,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 26
+  },
+  {
+    "id": "fluid",
+    "code": "fluid",
+    "name": "Fluid",
+    "description": "Fluid (FLUID), formerly Instadapp, is the governance token of a DeFi protocol combining lending and a decentralized exchange on shared liquidity.",
+    "websiteUrl": "https://fluid.io/",
+    "introducedYear": 2021,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 26
+  },
+  {
+    "id": "iost",
+    "code": "iost",
+    "name": "IOST",
+    "description": "IOST is the native coin of the IOST blockchain, a high-throughput network secured by proof-of-believability consensus.",
+    "websiteUrl": "https://iost.io",
+    "introducedYear": 2018,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 26
+  },
+  {
+    "id": "plume",
+    "code": "plume",
+    "name": "Plume",
+    "description": "Plume (PLUME) is the native token of Plume, a blockchain built for bringing real-world assets on-chain.",
+    "websiteUrl": "https://plume.org/",
+    "introducedYear": 2025,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 26
+  },
+  {
+    "id": "a",
+    "code": "a",
+    "name": "Vaulta (prev. EOS)",
+    "description": "Vaulta (A) is the rebranded EOS network and its token, which replaced EOS one-for-one in 2025 with a focus on Web3 banking.",
+    "websiteUrl": "https://www.vaulta.com",
+    "introducedYear": 2025,
+    "decimalDigits": 4,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 26
+  },
+  {
+    "id": "0g",
+    "code": "0g",
+    "name": "0G",
+    "description": "0G is the native token of 0G, a modular blockchain built to provide storage, data availability and compute for decentralized AI.",
+    "websiteUrl": "https://www.0gfoundation.ai/",
+    "introducedYear": 2025,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 25
+  },
+  {
+    "id": "aioz",
+    "code": "aioz",
+    "name": "AIOZ Network",
+    "description": "AIOZ Network (AIOZ) powers a decentralized network that shares storage, streaming and AI compute contributed by its nodes.",
+    "websiteUrl": "https://aioz.network",
+    "introducedYear": 2021,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 25
+  },
+  {
+    "id": "gala",
+    "code": "gala",
+    "name": "Gala",
+    "description": "Gala (GALA) is the token of Gala Games, an ecosystem of blockchain games, music and film.",
+    "websiteUrl": "https://gala.com/",
+    "introducedYear": 2020,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 25
+  },
+  {
+    "id": "orca",
+    "code": "orca",
+    "name": "Orca",
+    "description": "Orca (ORCA) is the governance token of Orca, a concentrated-liquidity decentralized exchange on Solana.",
+    "websiteUrl": "https://www.orca.so/",
+    "introducedYear": 2021,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 25
+  },
+  {
+    "id": "rsr",
+    "code": "rsr",
+    "name": "Reserve Rights",
+    "description": "Reserve Rights (RSR) is the governance and backstop token of the Reserve protocol, which issues asset-backed stablecoins.",
+    "websiteUrl": "https://reserve.org/",
+    "introducedYear": 2019,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 25
+  },
+  {
+    "id": "w",
+    "code": "w",
+    "name": "Wormhole",
+    "description": "Wormhole (W) is the governance token of Wormhole, an interoperability protocol that passes messages and tokens between blockchains.",
+    "websiteUrl": "https://wormhole.com/",
+    "introducedYear": 2024,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 25
+  },
+  {
+    "id": "alt",
+    "code": "alt",
+    "name": "AltLayer",
+    "description": "AltLayer (ALT) is the token of AltLayer, a platform for launching and securing application-specific rollups.",
+    "websiteUrl": "https://www.altlayer.io",
+    "introducedYear": 2024,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 24
+  },
+  {
+    "id": "zen",
+    "code": "zen",
+    "name": "Horizen",
+    "description": "Horizen (ZEN) is the token of the Horizen ecosystem, a privacy-focused project that began as a Zcash fork in 2017.",
+    "websiteUrl": "https://www.horizen.io",
+    "introducedYear": 2017,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 24
+  },
+  {
+    "id": "mina",
+    "code": "mina",
+    "name": "Mina Protocol",
+    "description": "Mina Protocol (MINA) is the native coin of a lightweight blockchain that stays a constant size by using recursive zero-knowledge proofs.",
+    "websiteUrl": "https://minaprotocol.com/",
+    "introducedYear": 2021,
+    "decimalDigits": 9,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 24
+  },
+  {
+    "id": "snx",
+    "code": "snx",
+    "name": "Synthetix",
+    "description": "Synthetix (SNX) is the token of a derivatives liquidity protocol whose stakers back synthetic assets and perpetual futures.",
+    "websiteUrl": "https://www.synthetix.io/",
+    "introducedYear": 2018,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 24
+  },
+  {
+    "id": "wal",
+    "code": "wal",
+    "name": "Walrus",
+    "description": "Walrus (WAL) is the token of Walrus, a decentralized storage network built on Sui.",
+    "websiteUrl": "https://www.walrus.xyz/",
+    "introducedYear": 2025,
+    "decimalDigits": 9,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 24
+  },
+  {
+    "id": "arkm",
+    "code": "arkm",
+    "name": "Arkham",
+    "description": "Arkham (ARKM) is the token of Arkham Intelligence, a blockchain analytics platform that also runs an exchange.",
+    "websiteUrl": "https://arkm.com/",
+    "introducedYear": 2023,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 23
+  },
+  {
+    "id": "ordi",
+    "code": "ordi",
+    "name": "ORDI",
+    "description": "ORDI is the first token issued under the BRC-20 standard on Bitcoin, using Ordinals inscriptions.",
+    "websiteUrl": null,
+    "introducedYear": 2023,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 23
+  },
+  {
+    "id": "dbr",
+    "code": "dbr",
+    "name": "deBridge",
+    "description": "deBridge (DBR) is the governance token of deBridge, a cross-chain protocol for moving value and messages between blockchains.",
+    "websiteUrl": "https://debridge.com",
+    "introducedYear": 2024,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 23
+  },
+  {
+    "id": "xec",
+    "code": "xec",
+    "name": "eCash",
+    "description": "eCash (XEC) is a peer-to-peer electronic cash coin that forked from Bitcoin Cash in 2020, continuing the Bitcoin ABC line.",
+    "websiteUrl": "https://e.cash/",
+    "introducedYear": 2020,
+    "decimalDigits": 2,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 23
+  },
+  {
+    "id": "zrx",
+    "code": "zrx",
+    "name": "0x Protocol",
+    "description": "0x Protocol (ZRX) is the governance token of 0x, an open protocol and API for decentralized token exchange.",
+    "websiteUrl": "https://www.0xprotocol.org/",
+    "introducedYear": 2017,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 22
+  },
+  {
+    "id": "amp",
+    "code": "amp",
+    "name": "Amp",
+    "description": "Amp (AMP) is a collateral token designed to guarantee and speed up payments on the Flexa network.",
+    "websiteUrl": "https://amptoken.org",
+    "introducedYear": 2020,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 22
+  },
+  {
+    "id": "glm",
+    "code": "glm",
+    "name": "Golem",
+    "description": "Golem (GLM) is the payment token of the Golem network, a decentralized marketplace for renting out computing power.",
+    "websiteUrl": "https://golem.network/",
+    "introducedYear": 2016,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 22
+  },
+  {
+    "id": "kaito",
+    "code": "kaito",
+    "name": "Kaito",
+    "description": "Kaito (KAITO) is the token of Kaito, an AI-powered platform for crypto research and attention-based rewards.",
+    "websiteUrl": "https://kaito.ai",
+    "introducedYear": 2025,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 22
+  },
+  {
+    "id": "lpt",
+    "code": "lpt",
+    "name": "Livepeer",
+    "description": "Livepeer (LPT) is the staking token of Livepeer, a decentralized network for video transcoding and streaming.",
+    "websiteUrl": "https://livepeer.org/",
+    "introducedYear": 2018,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 22
+  },
+  {
+    "id": "egld",
+    "code": "egld",
+    "name": "MultiversX",
+    "description": "MultiversX (EGLD), formerly Elrond, is the native coin of a sharded proof-of-stake blockchain.",
+    "websiteUrl": "https://multiversx.com/",
+    "introducedYear": 2020,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 22
+  },
+  {
+    "id": "nmr",
+    "code": "nmr",
+    "name": "Numeraire",
+    "description": "Numeraire (NMR) is the staking token of Numerai, a hedge fund that crowdsources stock-market predictions from data scientists.",
+    "websiteUrl": "https://numer.ai/",
+    "introducedYear": 2017,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 22
+  },
+  {
+    "id": "sfp",
+    "code": "sfp",
+    "name": "SafePal",
+    "description": "SafePal (SFP) is the utility token of SafePal, a provider of hardware and software crypto wallets.",
+    "websiteUrl": "https://www.safepal.com/",
+    "introducedYear": 2021,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 22
+  },
+  {
+    "id": "rlc",
+    "code": "rlc",
+    "name": "iExec RLC",
+    "description": "iExec RLC (RLC) is the token of iExec, a decentralized marketplace for confidential cloud computing.",
+    "websiteUrl": "https://iex.ec",
+    "introducedYear": 2017,
+    "decimalDigits": 9,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 22
+  },
+  {
+    "id": "io",
+    "code": "io",
+    "name": "io.net",
+    "description": "io.net (IO) powers a decentralized network that aggregates GPUs for AI training and inference.",
+    "websiteUrl": "https://io.net",
+    "introducedYear": 2024,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 22
+  },
+  {
+    "id": "axl",
+    "code": "axl",
+    "name": "Axelar",
+    "description": "Axelar (AXL) is the native token of Axelar, a proof-of-stake network that connects blockchains for cross-chain messaging.",
+    "websiteUrl": "https://www.axelar.network",
+    "introducedYear": 2022,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 21
+  },
+  {
+    "id": "dusk",
+    "code": "dusk",
+    "name": "Dusk",
+    "description": "Dusk (DUSK) is the native token of Dusk, a privacy-focused layer-1 blockchain built for regulated financial assets.",
+    "websiteUrl": "https://dusk.network",
+    "introducedYear": 2018,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 21
+  },
+  {
+    "id": "frxusd",
+    "code": "frxusd",
+    "name": "Frax USD",
+    "description": "Frax USD (frxUSD) is the Frax ecosystem's dollar stablecoin, backed by reserves of tokenized treasury funds.",
+    "websiteUrl": "https://frax.com",
+    "introducedYear": 2025,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 21
+  },
+  {
+    "id": "gmx",
+    "code": "gmx",
+    "name": "GMX",
+    "description": "GMX is the governance and fee-sharing token of GMX, a decentralized spot and perpetual exchange on Arbitrum and Avalanche.",
+    "websiteUrl": "https://gmx.io",
+    "introducedYear": 2021,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 21
+  },
+  {
+    "id": "hnt",
+    "code": "hnt",
+    "name": "Helium",
+    "description": "Helium (HNT) is the token of the Helium network, a decentralized wireless network of community-operated hotspots.",
+    "websiteUrl": "https://www.helium.com/",
+    "introducedYear": 2019,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 21
+  },
+  {
+    "id": "kava",
+    "code": "kava",
+    "name": "Kava",
+    "description": "Kava (KAVA) is the native token of Kava, a layer-1 blockchain that combines the Cosmos SDK with Ethereum compatibility.",
+    "websiteUrl": "https://www.kava.io",
+    "introducedYear": 2019,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 21
+  },
+  {
+    "id": "rif",
+    "code": "rif",
+    "name": "Rootstock Infrastructure Framework",
+    "description": "Rootstock Infrastructure Framework (RIF) is the token for services such as naming and payments on Rootstock, a Bitcoin sidechain.",
+    "websiteUrl": "https://rootstock.io",
+    "introducedYear": 2018,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 21
+  },
+  {
+    "id": "zeta",
+    "code": "zeta",
+    "name": "ZetaChain",
+    "description": "ZetaChain (ZETA) is the native token of ZetaChain, a layer-1 blockchain for omnichain applications that span several chains.",
+    "websiteUrl": "https://www.zetachain.com",
+    "introducedYear": 2024,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 21
+  },
+  {
+    "id": "dydx",
+    "code": "dydx",
+    "name": "dYdX",
+    "description": "dYdX (DYDX) is the native token of the dYdX Chain, a decentralized perpetual futures exchange built as its own Cosmos blockchain.",
+    "websiteUrl": "https://dydx.trade",
+    "introducedYear": 2021,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 21
+  },
+  {
+    "id": "baby",
+    "code": "baby",
+    "name": "Babylon",
+    "description": "Babylon (BABY) is the token of Babylon, a protocol that lets bitcoin be staked to secure other proof-of-stake chains.",
+    "websiteUrl": "https://babylonlabs.io",
+    "introducedYear": 2025,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 20
+  },
+  {
+    "id": "bera",
+    "code": "bera",
+    "name": "Berachain",
+    "description": "Berachain (BERA) is the native gas token of Berachain, an EVM layer-1 secured by a proof-of-liquidity consensus.",
+    "websiteUrl": "https://www.berachain.com",
+    "introducedYear": 2025,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 20
+  },
+  {
+    "id": "linea",
+    "code": "linea",
+    "name": "Linea",
+    "description": "Linea (LINEA) is the token of Linea, Consensys's zero-knowledge rollup on Ethereum.",
+    "websiteUrl": "https://linea.build",
+    "introducedYear": 2025,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 20
+  },
+  {
+    "id": "ckb",
+    "code": "ckb",
+    "name": "Nervos Network",
+    "description": "Nervos Network (CKB) is the native token of the Nervos Common Knowledge Base, a proof-of-work layer-1 blockchain.",
+    "websiteUrl": "https://www.nervos.org",
+    "introducedYear": 2019,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 20
+  },
+  {
+    "id": "trb",
+    "code": "trb",
+    "name": "Tellor",
+    "description": "Tellor (TRB) is the staking token of Tellor, a decentralized oracle network whose reporters put up TRB to submit data.",
+    "websiteUrl": "https://tellor.io",
+    "introducedYear": 2019,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 20
+  },
+  {
+    "id": "peaq",
+    "code": "peaq",
+    "name": "peaq",
+    "description": "peaq (PEAQ) is the native token of peaq, a layer-1 blockchain for decentralized physical infrastructure and machine economies.",
+    "websiteUrl": "https://www.peaq.xyz/",
+    "introducedYear": 2024,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 20
+  },
+  {
+    "id": "bome",
+    "code": "bome",
+    "name": "BOOK OF MEME",
+    "description": "BOOK OF MEME (BOME) is a Solana memecoin that sets out to preserve meme culture on decentralized storage.",
+    "websiteUrl": null,
+    "introducedYear": 2024,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 19
+  },
+  {
+    "id": "babydoge",
+    "code": "babydoge",
+    "name": "Baby Doge Coin",
+    "description": "Baby Doge Coin (BABYDOGE) is a community memecoin inspired by Dogecoin that redistributes a fee on every transaction to holders.",
+    "websiteUrl": "https://babydoge.com",
+    "introducedYear": 2021,
+    "decimalDigits": 9,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 19
+  },
+  {
+    "id": "dgb",
+    "code": "dgb",
+    "name": "DigiByte",
+    "description": "DigiByte (DGB) is a proof-of-work blockchain launched in 2014 with fast block times and five mining algorithms.",
+    "websiteUrl": "https://digibyte.org",
+    "introducedYear": 2014,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 19
+  },
+  {
+    "id": "hot",
+    "code": "hot",
+    "name": "Holo",
+    "description": "Holo (HOT) is the token of Holo, a hosting network for applications built on Holochain.",
+    "websiteUrl": "https://holo.host",
+    "introducedYear": 2018,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 19
+  },
+  {
+    "id": "ksm",
+    "code": "ksm",
+    "name": "Kusama",
+    "description": "Kusama (KSM) is the native token of Kusama, Polkadot's experimental canary network.",
+    "websiteUrl": "https://kusama.network/",
+    "introducedYear": 2019,
+    "decimalDigits": 12,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 19
+  },
+  {
+    "id": "popcat",
+    "code": "popcat",
+    "name": "Popcat",
+    "description": "Popcat (POPCAT) is a Solana memecoin based on the popular cat meme.",
+    "websiteUrl": "https://popcatsolana.xyz",
+    "introducedYear": 2023,
+    "decimalDigits": 9,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 19
+  },
+  {
+    "id": "qtum",
+    "code": "qtum",
+    "name": "Qtum",
+    "description": "Qtum (QTUM) is the native coin of a proof-of-stake blockchain that combines Bitcoin's UTXO model with an Ethereum-compatible virtual machine.",
+    "websiteUrl": "https://qtum.org/en/",
+    "introducedYear": 2017,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 19
+  },
+  {
+    "id": "red",
+    "code": "red",
+    "name": "RedStone",
+    "description": "RedStone (RED) is the token of RedStone, a modular oracle network that delivers price feeds to many blockchains.",
+    "websiteUrl": "https://www.redstone.finance/",
+    "introducedYear": 2025,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 19
+  },
+  {
+    "id": "sushi",
+    "code": "sushi",
+    "name": "Sushi",
+    "description": "Sushi (SUSHI) is the governance token of SushiSwap, a multi-chain decentralized exchange.",
+    "websiteUrl": "https://www.sushi.com",
+    "introducedYear": 2020,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 19
+  },
+  {
+    "id": "yfi",
+    "code": "yfi",
+    "name": "yearn.finance",
+    "description": "yearn.finance (YFI) is the governance token of Yearn, a protocol of automated yield-earning vaults.",
+    "websiteUrl": "https://yearn.fi/",
+    "introducedYear": 2020,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 19
+  },
+  {
+    "id": "aleo",
+    "code": "aleo",
+    "name": "Aleo",
+    "description": "Aleo (ALEO) is the native token of Aleo, a layer-1 blockchain for private applications built on zero-knowledge proofs.",
+    "websiteUrl": "https://aleo.org",
+    "introducedYear": 2024,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "brett",
+    "code": "brett",
+    "name": "Brett",
+    "description": "Brett (BRETT) is a memecoin on Base named after a character from Matt Furie's Boy's Club comic.",
+    "websiteUrl": "https://www.basedbrett.com",
+    "introducedYear": 2024,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "cow",
+    "code": "cow",
+    "name": "CoW Protocol",
+    "description": "CoW Protocol (COW) is the governance token of CoW Protocol, a trading protocol that settles orders in batches to protect users from MEV.",
+    "websiteUrl": "https://cow.fi",
+    "introducedYear": 2022,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "enj",
+    "code": "enj",
+    "name": "Enjin Coin",
+    "description": "Enjin Coin (ENJ) is the native token of the Enjin Blockchain, used to create and back in-game assets and NFTs.",
+    "websiteUrl": "https://enjin.io",
+    "introducedYear": 2017,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "flow",
+    "code": "flow",
+    "name": "Flow",
+    "description": "Flow (FLOW) is the native token of Flow, a layer-1 blockchain built by Dapper Labs for consumer applications such as NBA Top Shot.",
+    "websiteUrl": "https://flow.com",
+    "introducedYear": 2020,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "lsk",
+    "code": "lsk",
+    "name": "Lisk",
+    "description": "Lisk (LSK) is the token of Lisk, which began as a JavaScript blockchain in 2016 and is now an Ethereum layer 2 on the Optimism Superchain.",
+    "websiteUrl": "https://lisk.com",
+    "introducedYear": 2016,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "mega",
+    "code": "mega",
+    "name": "MegaETH",
+    "description": "MegaETH (MEGA) is the token of MegaETH, an Ethereum layer 2 built for real-time transaction speeds.",
+    "websiteUrl": "https://www.megaeth.com",
+    "introducedYear": 2025,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "mog",
+    "code": "mog",
+    "name": "Mog Coin",
+    "description": "Mog Coin (MOG) is an Ethereum memecoin built around internet culture and the idea of \"mogging\".",
+    "websiteUrl": "https://mogcoin.xyz",
+    "introducedYear": 2023,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "rose",
+    "code": "rose",
+    "name": "Oasis",
+    "description": "Oasis (ROSE) is the native token of the Oasis Network, a privacy-enabled layer-1 blockchain.",
+    "websiteUrl": "https://oasis.net",
+    "introducedYear": 2020,
+    "decimalDigits": 9,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "safe",
+    "code": "safe",
+    "name": "Safe",
+    "description": "Safe (SAFE) is the governance token of Safe, the smart-contract multisignature wallet widely used to hold on-chain treasuries.",
+    "websiteUrl": "https://safe.global/",
+    "introducedYear": 2022,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "vtho",
+    "code": "vtho",
+    "name": "VeThor",
+    "description": "VeThor (VTHO) is the gas token of the VeChainThor blockchain, generated by holding VET.",
+    "websiteUrl": "https://www.vechain.org",
+    "introducedYear": 2018,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "zil",
+    "code": "zil",
+    "name": "Zilliqa",
+    "description": "Zilliqa (ZIL) is the native token of Zilliqa, one of the first public blockchains to use sharding.",
+    "websiteUrl": "https://www.zilliqa.com",
+    "introducedYear": 2018,
+    "decimalDigits": 12,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "elf",
+    "code": "elf",
+    "name": "aelf",
+    "description": "aelf (ELF) is the native token of aelf, a multi-chain layer-1 blockchain with dedicated side chains.",
+    "websiteUrl": "https://aelf.com",
+    "introducedYear": 2017,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 18
+  },
+  {
+    "id": "ankr",
+    "code": "ankr",
+    "name": "Ankr Network",
+    "description": "Ankr Network (ANKR) is the token of Ankr, a provider of decentralized RPC infrastructure and liquid staking.",
+    "websiteUrl": "https://www.ankr.com",
+    "introducedYear": 2019,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 17
+  },
+  {
+    "id": "api3",
+    "code": "api3",
+    "name": "Api3",
+    "description": "Api3 (API3) is the governance token of Api3, an oracle network whose data feeds are operated by the data providers themselves.",
+    "websiteUrl": "https://api3.org",
+    "introducedYear": 2020,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 17
+  },
+  {
+    "id": "ont",
+    "code": "ont",
+    "name": "Ontology",
+    "description": "Ontology (ONT) is the native token of Ontology, a blockchain focused on decentralized identity and data.",
+    "websiteUrl": "https://ont.io",
+    "introducedYear": 2018,
+    "decimalDigits": 9,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 17
+  },
+  {
+    "id": "osmo",
+    "code": "osmo",
+    "name": "Osmosis",
+    "description": "Osmosis (OSMO) is the native token of Osmosis, the leading decentralized exchange of the Cosmos ecosystem.",
+    "websiteUrl": "https://osmosis.zone",
+    "introducedYear": 2021,
+    "decimalDigits": 6,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 17
+  },
+  {
+    "id": "sc",
+    "code": "sc",
+    "name": "Siacoin",
+    "description": "Siacoin (SC) is the currency of Sia, a decentralized cloud storage marketplace where renters pay hosts for space.",
+    "websiteUrl": "https://sia.tech",
+    "introducedYear": 2015,
+    "decimalDigits": 24,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 17
+  },
+  {
+    "id": "cspr",
+    "code": "cspr",
+    "name": "Casper Network",
+    "description": "Casper Network (CSPR) is the native token of Casper, a proof-of-stake blockchain with upgradeable smart contracts.",
+    "websiteUrl": "https://casper.network",
+    "introducedYear": 2021,
+    "decimalDigits": 9,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 16
+  },
+  {
+    "id": "iotx",
+    "code": "iotx",
+    "name": "IoTeX",
+    "description": "IoTeX (IOTX) is the native token of IoTeX, a blockchain connecting devices and decentralized physical infrastructure.",
+    "websiteUrl": "https://iotex.io",
+    "introducedYear": 2018,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 16
+  },
+  {
+    "id": "metis",
+    "code": "metis",
+    "name": "Metis",
+    "description": "Metis (METIS) is the token of Metis, an Ethereum layer 2 with a decentralized sequencer.",
+    "websiteUrl": "https://www.metis.io",
+    "introducedYear": 2021,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 16
+  },
+  {
+    "id": "not",
+    "code": "not",
+    "name": "Notcoin",
+    "description": "Notcoin (NOT) is a token on The Open Network that grew out of a viral tap-to-earn game in Telegram.",
+    "websiteUrl": "https://notco.in",
+    "introducedYear": 2024,
+    "decimalDigits": 9,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 16
+  },
+  {
+    "id": "tfuel",
+    "code": "tfuel",
+    "name": "Theta Fuel",
+    "description": "Theta Fuel (TFUEL) is the gas and reward token of the Theta Network, a decentralized video delivery network.",
+    "websiteUrl": "https://www.thetatoken.org",
+    "introducedYear": 2019,
+    "decimalDigits": 18,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 16
+  },
+  {
+    "id": "move",
+    "code": "move",
+    "name": "Movement",
+    "description": "Movement (MOVE) is the token of Movement, a network that brings the Move language to an Ethereum-aligned layer 2.",
+    "websiteUrl": "https://movementnetwork.xyz",
+    "introducedYear": 2024,
+    "decimalDigits": 8,
+    "obsolete": false,
+    "obsoleteAt": null,
+    "logoId": null,
+    "popularity": 15
   }
 ]

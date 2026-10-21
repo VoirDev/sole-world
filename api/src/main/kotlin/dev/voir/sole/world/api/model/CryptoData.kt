@@ -11,6 +11,7 @@ import kotlinx.datetime.LocalDate
  * @property websiteUrl Official project website, when known.
  * @property introducedYear Year the coin launched, when known.
  * @property decimalDigits Number of decimal digits used for minor units.
+ * @property popularity How widely the coin is held and traded today, from 0 to 100.
  * @property obsolete Whether the coin is no longer active.
  * @property obsoleteAt Date the coin became obsolete, when known.
  * @property logoId Media asset id of the coin's logo, when one is bundled.
@@ -23,6 +24,7 @@ data class CryptoData(
     val websiteUrl: String?,
     val introducedYear: Int?,
     val decimalDigits: Int,
+    val popularity: Int,
     val obsolete: Boolean,
     val obsoleteAt: LocalDate?,
     val logoId: String?,
