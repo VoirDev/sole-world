@@ -1,7 +1,7 @@
 [versions]
 # Kotlin
-kotlin = "2.4.20" # https://kotlinlang.org/docs/releases.html
-kotlinx-serialization-json = "1.11.0" # https://github.com/Kotlin/kotlinx.serialization
+kotlin = "2.4.21" # https://kotlinlang.org/docs/releases.html
+kotlinx-serialization-json = "1.12.0" # https://github.com/Kotlin/kotlinx.serialization
 kotlinx-datetime = "0.8.0" # https://github.com/Kotlin/kotlinx-datetime
 
 # Spring
